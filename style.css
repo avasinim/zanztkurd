@@ -47,3 +47,28 @@ body.modal-open{overflow:hidden}
 .mentor-side h3{font-size:16px;margin-bottom:10px}
 .mentor-side li{font-size:10px;color:#718087;margin:8px 0;list-style:none}
 @media(max-width:800px){.mentor-grid,.mentor-content-grid{grid-template-columns:1fr}.mentor-section h2{font-size:30px}.mentor-card{min-height:220px}.mentor-page-hero{padding-top:125px}}
+
+/* Platform section cards and dedicated content pages */
+.platform-sections{padding-top:35px}
+.platform-section-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:22px}
+.platform-section-card{display:block;background:#fff;border:1px solid #e3e9ed;border-radius:22px;padding:28px;text-decoration:none;color:#17303d;transition:transform .2s ease,box-shadow .2s ease}
+.platform-section-card:hover{transform:translateY(-4px);box-shadow:0 18px 45px rgba(9,40,55,.10)}
+.platform-section-number{display:inline-block;font-size:10px;color:#63a99f;letter-spacing:1px;margin-bottom:20px}
+.platform-section-card h3{font-size:24px;margin-bottom:10px}
+.platform-section-card p{font-size:12px;line-height:2;color:#68777d;margin-bottom:18px}
+.platform-section-link{font-size:11px;font-weight:700;color:#0d5967}
+.content-page{background:#f7f9fb;min-height:70vh}
+.content-page-hero{background:linear-gradient(145deg,#061923,#0d3547);color:#fff;padding:145px 0 70px}
+.content-page-hero h1{font-size:clamp(38px,6vw,64px);margin:12px 0}
+.content-page-hero p{max-width:780px;color:#b9d1d8;font-size:14px;line-height:2.1}
+.content-page-body{padding:65px 0}
+.content-page-grid{display:grid;grid-template-columns:1.45fr .55fr;gap:24px}
+.content-page-card,.content-page-side{background:#fff;border:1px solid #e3e9ed;border-radius:20px;padding:28px}
+.content-page-card h2{font-size:28px;margin-bottom:12px}
+.content-page-card h3{font-size:19px;margin:26px 0 8px}
+.content-page-card p{font-size:12px;color:#56666d;line-height:2.25;margin-bottom:14px}
+.content-page-side h3{font-size:16px;margin-bottom:12px}
+.content-page-side a{display:block;padding:10px 0;border-bottom:1px solid #edf0f2;color:#52666e;text-decoration:none;font-size:11px}
+.content-page-side a:last-child{border-bottom:0}
+.content-page-note{margin-top:20px;padding:16px 18px;border-radius:14px;background:#f4f7f8;color:#68777d;font-size:11px;line-height:2}
+@media(max-width:800px){.platform-section-grid,.content-page-grid{grid-template-columns:1fr}.content-page-hero{padding-top:120px}}
