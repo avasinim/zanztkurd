@@ -1,0 +1,40 @@
+{
+  "id": "phonetics-section-06-lesson-007",
+  "courseId": "phonetics-phonology-kurdik",
+  "sectionId": "section-06",
+  "lessonNumber": 7,
+  "bookLessonNumber": 86,
+  "title": "پیتە لکاوەکانی (ع، غ، ف، ڤ، ق)",
+  "level": "سەرەتایی تا ناوەندی",
+  "estimatedMinutes": 40,
+  "objectives": [
+    "ناسینی پیتەکانی ع، غ، ف، ڤ و ق.",
+    "تێگەیشتن لە جێگای ئەم پیتانە لە سیستەمی کۆنسۆنەنتی زوانی کوردیک.",
+    "ئاشنابوون بە تێڕوانینی فۆنۆلۆجی و مێژوویی بۆ فۆنی ع.",
+    "جیاکردنەوەی نیشانەی نووسین لە فۆن و تایبەتمەندییە دەنگییەکان."
+  ],
+  "sections": [
+    {"id":"letters","title":"پیتەکانی وانە","contentPath":"section-06/lesson-007.md"},
+    {"id":"phonology","title":"تێڕوانینی فۆنۆلۆجی","contentPath":"section-06/lesson-007.md"}
+  ],
+  "terms": [
+    {"term":"Consonant","kurdish":"کۆنسۆنەنت"},
+    {"term":"Phoneme","kurdish":"فۆنێم"},
+    {"term":"Historical Phonology","kurdish":"فۆنۆلۆجی مێژوویی"},
+    {"term":"Phonetic Assimilation","kurdish":"لێکچوونی فۆنی"},
+    {"term":"Sound Distribution","kurdish":"دابەش‌بونی دەنگ"}
+  ],
+  "exercises": [
+    {"id":"ex-001","type":"short-answer","question":"پێنج وشە بنووسە کە پیتی (ع)یان تێدا بێت.","required":true},
+    {"id":"ex-002","type":"short-answer","question":"پێنج وشە بنووسە کە پیتی (غ)یان تێدا بێت.","required":true},
+    {"id":"ex-003","type":"short-answer","question":"جیاوازییەکی فۆنێتیکی یان نووسەیی لە نێوان ف، ڤ و ق باس بکە.","required":true},
+    {"id":"ex-004","type":"short-answer","question":"بەپێی وانەکە، بۆچی فۆنی (ع) بە ڕەچەڵەک کوردیک دانانرێت، بەڵام لە سیستەمی فۆنۆلۆجی کوردیکدا دەبینرێت؟","required":true}
+  ],
+  "quiz": [
+    {"id":"q-001","type":"multiple-choice","question":"کام کۆمەڵە پیتەکانی وانەی ٧ ـە؟","options":["ع، غ، ف، ڤ، ق","ر، ڕ","د، ز، ژ، س، ش","ب، پ، ت"],"correct":0},
+    {"id":"q-002","type":"multiple-choice","question":"وانەی ٧ لە کتێبدا بە چ ژمارەیەک هاتووە؟","options":["43","54","65","86"],"correct":3},
+    {"id":"q-003","type":"multiple-choice","question":"لە دەقی وانەکەدا فۆنی (ع) بە چی پەیوەستە؟","options":["فۆنۆلۆجی مێژوویی و لێکچوونی فۆنی","تەنیا ڕێزمان","تەنیا هجا","تەنیا واتا"],"correct":0},
+    {"id":"q-004","type":"multiple-choice","question":"کام زاراوە بە مانای Sound Distribution هاتووە؟","options":["دابەش‌بونی دەنگ","ڕێنوس","فۆنێم","بڕگە"],"correct":0}
+  ],
+  "source": {"book":"فۆنێتیک و فۆنۆلۆجی کوردیک","author":"سابیر ژاکاو","section":6,"lesson":7,"bookLessonNumber":86}
+}
