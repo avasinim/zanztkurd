@@ -1,0 +1,36 @@
+{
+  "id": "writing-system-section-07-lesson-031",
+  "number": 31,
+  "title": "بڕگەی سوک و بڕگەی گران",
+  "section": 7,
+  "bookLessonLabel": "بەشی ٧",
+  "language": "ckb",
+  "durationMinutes": 25,
+  "contentPath": "section-07/lesson-031.md",
+  "summary": "جیاوازی بڕگەی سوک و بڕگەی گران و پەیوەندییان بە قاڵبی بڕگە.",
+  "objectives": [
+    "ناسینی بڕگەی سوک",
+    "ناسینی بڕگەی گران",
+    "تێگەیشتن لە پەیوەندی CV و CVC بە قورسایی بڕگە",
+    "ناسینی کاریگەری CVCC لە قورسایی بڕگە"
+  ],
+  "vocabulary": [
+    {"term":"بڕگە","english":"Syllable"},
+    {"term":"بڕگەی سوک","english":"Light Syllable"},
+    {"term":"بڕگەی گران","english":"Heavy Syllable"},
+    {"term":"ناوک","english":"Nucleus"},
+    {"term":"کۆتایی بڕگە","english":"Coda"},
+    {"term":"کۆنسۆنەنت","english":"Consonant"},
+    {"term":"ڤاوڵ","english":"Vowel"}
+  ],
+  "exercises": [
+    {"type":"short_answer","prompt":"بڕگەی CV و CVC بەراورد بکە."},
+    {"type":"examples","prompt":"دو نموونە بۆ قاڵبی CV بنووسە."},
+    {"type":"examples","prompt":"دو نموونە بۆ قاڵبی CVC بنووسە."},
+    {"type":"explanation","prompt":"بۆچی CVCC لە CV قورس‌ترە؟"}
+  ],
+  "quiz": [
+    {"question":"کام قاڵب نموونەی بڕگەی سوکە؟","options":["CV","CVC","CVCC","CCVCC"],"answer":"CV"},
+    {"question":"لە قاڵبی CVC، ڤاوڵ لە کوێی بڕگەدایە؟","options":["سەرەتا","ناوک","کۆتایی","دەرەوەی بڕگە"],"answer":"ناوک"}
+  ]
+}
