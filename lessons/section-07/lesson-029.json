@@ -1,0 +1,23 @@
+{
+  "id": "writing-system-section-07-lesson-029",
+  "number": 29,
+  "title": "پەیوەندی ڤاوڵ و بڕگە",
+  "course": "phonetics-phonology-kurdik",
+  "section": 7,
+  "language": "ckb",
+  "estimatedMinutes": 25,
+  "contentPath": "section-07/lesson-029.md",
+  "type": "lesson",
+  "status": "published",
+  "topics": ["ڤاوڵ", "بڕگە", "ساختاری بڕگە", "کۆنسۆنەنت", "فۆنۆلۆجی"],
+  "exercises": [
+    {"id":"ex-029-01","type":"short-answer","prompt":"پەیوەندی ڤاوڵ و بڕگە بە کورتی ڕون بکەرەوە."},
+    {"id":"ex-029-02","type":"classification","prompt":"نمونەکانی CV و CVC دیاری بکە."},
+    {"id":"ex-029-03","type":"analysis","prompt":"لە وشەیەکدا ناوکی بڕگە و کۆنسۆنەنتەکانی دەوری دیاری بکە."},
+    {"id":"ex-029-04","type":"short-answer","prompt":"بۆچی ڤاوڵ لە ساختاری بڕگەدا گرنگە؟"}
+  ],
+  "quiz": [
+    {"id":"q-029-01","type":"mcq","question":"لە زۆربەی ساختارەکانی بڕگەدا ناوک بە چی پەیوەندیدارە؟","options":["ڤاوڵ","نیشانەی خاڵبەندی","پیتی بێدەنگ","وشەنامە"],"answer":0},
+    {"id":"q-029-02","type":"mcq","question":"کامەیان نموونەیەکی سادەی ساختاری بڕگەیە؟","options":["CV","CSS","HTML","JSON"],"answer":0}
+  ]
+}
