@@ -17,6 +17,13 @@
           "title": "دەستپێکی سەرەتایی، ناساندنی پیت",
           "path": "section-06/lesson-001.json",
           "contentPath": "section-06/lesson-001.md"
+        },
+        {
+          "id": "phonetics-section-06-lesson-002",
+          "number": 2,
+          "title": "پیتی (ئــ، ا)",
+          "path": "section-06/lesson-002.json",
+          "contentPath": "section-06/lesson-002.md"
         }
       ]
     }
