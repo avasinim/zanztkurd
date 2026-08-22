@@ -1,0 +1,24 @@
+{
+  "id": "lesson-027",
+  "section": 7,
+  "title": "ڤاوڵی دولایی",
+  "english_title": "Coalescence Diphthong",
+  "estimated_minutes": 20,
+  "content_file": "lesson-027.md",
+  "terms": [
+    {"ku": "ڤاوڵی دولایی", "en": "Coalescence Diphthong"},
+    {"ku": "ڤاوڵی تێکەڵ", "en": "Diphthong"},
+    {"ku": "فۆنی دو لا", "en": "Coalescence"},
+    {"ku": "ڤاوڵی درێژ", "en": "Long vowel"}
+  ],
+  "exercises": [
+    {"type": "short_answer", "prompt": "ڤاوڵی دولایی بە وشەی خۆت پێناسە بکە."},
+    {"type": "short_answer", "prompt": "جیاوازی نێوان ڤاوڵی تێکەڵ و ڤاوڵی دولایی ڕون بکەرەوە."},
+    {"type": "examples", "prompt": "دو نموونە بنوسە کە پەیوەندی دو ڤاوڵ تێیاندا دەبینرێت."},
+    {"type": "short_answer", "prompt": "بڵێ بۆچی دەبێت ئەم دیاردەیە لە ئاستی فۆنێتیکی و فۆنۆلۆجی بخوێندرێتەوە."}
+  ],
+  "quiz": [
+    {"question": "Coalescence Diphthong بە کوردی چییە؟", "answer": "ڤاوڵی دولایی"},
+    {"question": "ئەم دیاردەیە لە پەیوەندی چییەوە دەردەکەوێت؟", "answer": "پەیوەندی و یەکگرتنی دەنگەکان"}
+  ]
+}
