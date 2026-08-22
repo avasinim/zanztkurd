@@ -4,8 +4,26 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <meta name="robots" content="index, follow">
+  <meta name="description" content="وانەی فێربوونی زمانی کوردی — فۆنێتیک و فۆنۆلۆجی کوردیک">
   <title>وانە | ئاڤاشین</title>
   <link rel="stylesheet" href="style.css">
+  <style>
+    .lesson-section { margin-top: 2rem; }
+    .lesson-section h2, .lesson-section h3 { margin-bottom: 1rem; }
+    .lesson-terms { display:grid; gap:.7rem; }
+    .lesson-term { display:flex; justify-content:space-between; gap:1rem; padding:.8rem 1rem; border:1px solid rgba(127,127,127,.18); border-radius:12px; }
+    .lesson-exercise, .lesson-quiz { margin-top:1rem; padding:1rem; border:1px solid rgba(127,127,127,.18); border-radius:14px; }
+    .lesson-exercise textarea { width:100%; min-height:90px; margin-top:.8rem; padding:.8rem; border-radius:10px; border:1px solid rgba(127,127,127,.25); font:inherit; box-sizing:border-box; }
+    .lesson-quiz label { display:block; margin:.55rem 0; cursor:pointer; }
+    .lesson-actions { display:flex; gap:.7rem; flex-wrap:wrap; margin-top:1.5rem; }
+    .lesson-btn { border:0; border-radius:10px; padding:.75rem 1rem; cursor:pointer; font:inherit; }
+    .lesson-result { margin-top:1rem; font-weight:700; }
+    .lesson-progress { margin-top:1rem; padding:.8rem 1rem; border-radius:12px; background:rgba(127,127,127,.08); }
+    .lesson-content table { width:100%; border-collapse:collapse; margin:1rem 0; }
+    .lesson-content th, .lesson-content td { border:1px solid rgba(127,127,127,.2); padding:.65rem; text-align:right; }
+    .lesson-content blockquote { margin:1rem 0; padding:.8rem 1rem; border-right:3px solid currentColor; opacity:.9; }
+    .lesson-error { color:#a33; }
+  </style>
 </head>
 <body class="content-page">
 <header class="header">
@@ -26,14 +44,34 @@
       <span class="eyebrow" id="lessonEyebrow">وانە</span>
       <h1 id="lessonTitle">چاوەڕوانی...</h1>
       <p id="lessonMeta"></p>
+      <div id="lessonProgress" class="lesson-progress" hidden></div>
     </div>
   </section>
 
   <section class="content-page-body">
     <div class="container content-page-grid">
       <article class="content-page-card">
-        <div id="lessonContent">ناوەڕۆکی وانە لە حالەتی بارکردنە...</div>
-        <div id="lessonError" class="content-page-note" hidden></div>
+        <div id="lessonContent" class="lesson-content">ناوەڕۆکی وانە لە حالەتی بارکردنە...</div>
+        <section id="termsSection" class="lesson-section" hidden>
+          <h2>زاراوە گرنگەکان</h2>
+          <div id="lessonTerms" class="lesson-terms"></div>
+        </section>
+        <section id="exercisesSection" class="lesson-section" hidden>
+          <h2>تمرینی وانە</h2>
+          <div id="lessonExercises"></div>
+        </section>
+        <section id="quizSection" class="lesson-section" hidden>
+          <h2>تاقیکردنەوەی کۆتایی</h2>
+          <form id="lessonQuiz"></form>
+          <div class="lesson-actions">
+            <button id="checkQuiz" class="lesson-btn" type="button">پشکنینی وەڵامەکان</button>
+          </div>
+          <div id="quizResult" class="lesson-result" aria-live="polite"></div>
+        </section>
+        <div id="lessonActions" class="lesson-actions" hidden>
+          <button id="completeLesson" class="lesson-btn" type="button">وانەکە تەواو بکە</button>
+        </div>
+        <div id="lessonError" class="content-page-note lesson-error" hidden></div>
       </article>
       <aside class="content-page-side">
         <h3>ئەم وانەیە</h3>
@@ -58,64 +96,141 @@
   const contentEl = document.getElementById('lessonContent');
   const objectivesEl = document.getElementById('lessonObjectives');
   const errorEl = document.getElementById('lessonError');
+  const progressEl = document.getElementById('lessonProgress');
+  const termsSection = document.getElementById('termsSection');
+  const termsEl = document.getElementById('lessonTerms');
+  const exercisesSection = document.getElementById('exercisesSection');
+  const exercisesEl = document.getElementById('lessonExercises');
+  const quizSection = document.getElementById('quizSection');
+  const quizEl = document.getElementById('lessonQuiz');
+  const quizResultEl = document.getElementById('quizResult');
+  const actionsEl = document.getElementById('lessonActions');
+  const completeBtn = document.getElementById('completeLesson');
 
   const escapeHtml = value => String(value ?? '').replace(/[&<>"']/g, ch => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[ch]));
+  const inline = value => escapeHtml(value).replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>').replace(/`([^`]+)`/g, '<code>$1</code>');
 
   function renderMarkdown(md) {
     const lines = md.replace(/\r\n?/g, '\n').split('\n');
-    let html = '';
-    let inList = false;
+    let html = '', inList = false, inTable = false, tableRows = [];
     const closeList = () => { if (inList) { html += '</ul>'; inList = false; } };
+    const closeTable = () => {
+      if (!inTable) return;
+      if (tableRows.length) {
+        const rows = tableRows.filter(row => !/^\s*\|?\s*:?-+/.test(row.replace(/\|/g, '').trim()));
+        if (rows.length) {
+          html += '<table><tbody>';
+          rows.forEach((row, index) => {
+            const cells = row.replace(/^\||\|$/g, '').split('|').map(cell => cell.trim());
+            html += `<tr>${cells.map(cell => index === 0 ? `<th>${inline(cell)}</th>` : `<td>${inline(cell)}</td>`).join('')}</tr>`;
+          });
+          html += '</tbody></table>';
+        }
+      }
+      inTable = false; tableRows = [];
+    };
 
     for (const raw of lines) {
       const line = raw.trim();
+      if (line.startsWith('|') && line.endsWith('|')) { closeList(); inTable = true; tableRows.push(line); continue; }
+      if (inTable) closeTable();
       if (!line) { closeList(); continue; }
-      if (line.startsWith('# ')) { closeList(); html += `<h2>${escapeHtml(line.slice(2))}</h2>`; continue; }
-      if (line.startsWith('## ')) { closeList(); html += `<h3>${escapeHtml(line.slice(3))}</h3>`; continue; }
-      if (line.startsWith('- ')) {
-        if (!inList) { html += '<ul>'; inList = true; }
-        html += `<li>${escapeHtml(line.slice(2)).replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>')}</li>`;
-        continue;
-      }
+      if (line.startsWith('# ')) { closeList(); html += `<h2>${inline(line.slice(2))}</h2>`; continue; }
+      if (line.startsWith('## ')) { closeList(); html += `<h3>${inline(line.slice(3))}</h3>`; continue; }
+      if (line.startsWith('### ')) { closeList(); html += `<h4>${inline(line.slice(4))}</h4>`; continue; }
+      if (line.startsWith('- ')) { if (!inList) { html += '<ul>'; inList = true; } html += `<li>${inline(line.slice(2))}</li>`; continue; }
       closeList();
-      if (line.startsWith('> ')) { html += `<blockquote>${escapeHtml(line.slice(2))}</blockquote>`; continue; }
-      html += `<p>${escapeHtml(line).replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>')}</p>`;
+      if (line.startsWith('> ')) { html += `<blockquote>${inline(line.slice(2))}</blockquote>`; continue; }
+      html += `<p>${inline(line)}</p>`;
     }
-    closeList();
+    closeList(); closeTable();
     return html;
+  }
+
+  function renderTerms(terms) {
+    if (!terms?.length) return;
+    termsSection.hidden = false;
+    termsEl.innerHTML = terms.map(item => `<div class="lesson-term"><strong>${escapeHtml(item.term)}</strong><span>${escapeHtml(item.kurdish)}</span></div>`).join('');
+  }
+
+  function renderExercises(exercises) {
+    if (!exercises?.length) return;
+    exercisesSection.hidden = false;
+    exercisesEl.innerHTML = exercises.map((item, index) => {
+      if (item.type === 'classification') {
+        return `<div class="lesson-exercise"><strong>${index + 1}. ${escapeHtml(item.question)}</strong><p>${(item.items || []).map(escapeHtml).join(' · ')}</p><textarea name="exercise-${escapeHtml(item.id)}" placeholder="وەڵامەکەت لێرە بنووسە..."></textarea></div>`;
+      }
+      return `<div class="lesson-exercise"><strong>${index + 1}. ${escapeHtml(item.question)}</strong><textarea name="exercise-${escapeHtml(item.id)}" placeholder="وەڵامەکەت لێرە بنووسە..."></textarea></div>`;
+    }).join('');
+  }
+
+  function renderQuiz(quiz) {
+    if (!quiz?.length) return;
+    quizSection.hidden = false;
+    quizEl.innerHTML = quiz.map((item, index) => `<fieldset class="lesson-quiz"><legend>${index + 1}. ${escapeHtml(item.question)}</legend>${item.options.map((option, optionIndex) => `<label><input type="radio" name="${escapeHtml(item.id)}" value="${optionIndex}"> ${escapeHtml(option)}</label>`).join('')}</fieldset>`).join('');
+    document.getElementById('checkQuiz').onclick = () => {
+      let correct = 0, answered = 0;
+      quiz.forEach(item => {
+        const selected = quizEl.querySelector(`input[name="${CSS.escape(item.id)}"]:checked`);
+        if (selected) { answered++; if (Number(selected.value) === item.correct) correct++; }
+      });
+      quizResultEl.textContent = `وەڵامدراوە: ${answered} لە ${quiz.length} — ڕاست: ${correct} لە ${quiz.length}`;
+    };
+  }
+
+  function setProgress(lessonId, done) {
+    const key = `lesson-progress:${lessonId}`;
+    localStorage.setItem(key, done ? 'completed' : 'started');
+    progressEl.hidden = false;
+    progressEl.textContent = done ? '✓ ئەم وانەیە تەواو کراوە.' : 'لە حاڵەتی خوێندنەوەدایە.';
+    completeBtn.textContent = done ? '✓ وانەکە تەواو کراوە' : 'وانەکە تەواو بکە';
+    completeBtn.disabled = done;
+  }
+
+  async function getJson(url) {
+    const response = await fetch(url, { cache: 'no-store' });
+    if (!response.ok) throw new Error(url);
+    return response.json();
+  }
+
+  async function getText(url) {
+    const response = await fetch(url, { cache: 'no-store' });
+    if (!response.ok) throw new Error(url);
+    return response.text();
   }
 
   async function loadLesson() {
     try {
-      const catalog = await fetch(catalogUrl).then(r => {
-        if (!r.ok) throw new Error('catalog');
-        return r.json();
-      });
-      const lesson = catalog.sections.flatMap(section => section.lessons || []).find(item => item.id === requestedId);
-      if (!lesson) throw new Error('lesson');
+      const catalog = await getJson(catalogUrl);
+      const section = (catalog.sections || []).find(item => (item.lessons || []).some(lesson => lesson.id === requestedId));
+      const lessonRef = section?.lessons?.find(item => item.id === requestedId);
+      if (!lessonRef) throw new Error('lesson-not-found');
 
-      const data = await fetch(`lessons/${lesson.path}`).then(r => {
-        if (!r.ok) throw new Error('data');
-        return r.json();
-      });
-
-      const markdown = await fetch(`lessons/${lesson.contentPath}`).then(r => {
-        if (!r.ok) throw new Error('content');
-        return r.text();
-      });
+      const data = await getJson(`lessons/${lessonRef.path}`);
+      const contentPath = data.sections?.[0]?.contentPath || lessonRef.contentPath;
+      if (!contentPath) throw new Error('content-path-missing');
+      const markdown = await getText(`lessons/${contentPath}`);
 
       eyebrowEl.textContent = `وانەی ${data.lessonNumber}`;
       titleEl.textContent = data.title;
-      metaEl.textContent = `${data.level} · ${data.source.author} · ${data.source.book}`;
+      metaEl.textContent = `${data.level} · ${data.estimatedMinutes || '—'} خولەک · ${data.source?.author || ''}`;
       contentEl.innerHTML = renderMarkdown(markdown);
       objectivesEl.innerHTML = `<ul>${(data.objectives || []).map(item => `<li>${escapeHtml(item)}</li>`).join('')}</ul>`;
+      renderTerms(data.terms);
+      renderExercises(data.exercises);
+      renderQuiz(data.quiz);
+      actionsEl.hidden = false;
+      const done = localStorage.getItem(`lesson-progress:${data.id}`) === 'completed';
+      setProgress(data.id, done);
+      completeBtn.onclick = () => setProgress(data.id, true);
       document.title = `${data.title} | ئاڤاشین`;
     } catch (error) {
-      titleEl.textContent = 'وانەکە نەدۆزرایەوە';
+      console.error(error);
+      titleEl.textContent = 'کێشەیەک لە بارکردنی وانە ڕوویدا';
       metaEl.textContent = '';
       contentEl.hidden = true;
       errorEl.hidden = false;
-      errorEl.textContent = 'لە بارکردنی ناوەڕۆکی وانە کێشەیەک ڕوویدا. تکایە دووبارە هەوڵ بدەرەوە.';
+      errorEl.textContent = 'ناوەڕۆکی وانەکە نەدۆزرایەوە یان فایلەکانی وانە بە دروستی بار نەبوون.';
     }
   }
 
