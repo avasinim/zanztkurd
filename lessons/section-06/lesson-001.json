@@ -5,32 +5,40 @@
   "lessonNumber": 1,
   "title": "دەستپێکی سەرەتایی، ناساندنی پیت",
   "level": "سەرەتایی",
-  "estimatedMinutes": null,
+  "estimatedMinutes": 35,
   "objectives": [
-    "ناسینی مانای پیت و Letter.",
-    "جیاکردنەوەی پیت، فۆن، فۆنێم و گرافیم لە چوارچێوەی وانەکە.",
-    "ئاشنابوون بە پەیوەندی نێوان فۆن و سیستەمی نوسین.",
-    "ناسینی بنەمایی ئەلفبێی هەندێک زوان و بەراوردکردنیان لەگەڵ زوانی کوردیک."
+    "ناسینی چەمکی پیت و Letter.",
+    "تێگەیشتن لە پەیوەندی نێوان فۆن، فۆنێم و گرافیم.",
+    "ناسینی ئەلفبێ و ڕێنوس و پەیوەندییان بە سیستەمی فۆنۆلۆجی.",
+    "ئاشنابوون بە جیاوازیی ئەلفبێی عەرەبی، فارسی، ئینگلیزی و کوردیک.",
+    "ناسینی جیاوازییە سەرەتاییەکانی ئەلفبێی هەندێک بازنەی کوردیک.",
+    "تێگەیشتن لە جیاوازیی پیتە لکاو و نەلکاو."
   ],
-  "sections": [
-    {
-      "id": "intro",
-      "title": "دەستپێک",
-      "contentPath": "section-06/lesson-001.md"
-    }
-  ],
+  "sections": [{"id":"intro","title":"پیت و سیستەمی فۆنۆلۆجی","contentPath":"section-06/lesson-001.md"}],
   "terms": [
-    {"term": "Letter", "kurdish": "پیت"},
-    {"term": "Grapheme", "kurdish": "نیشانەی هەر فۆنێم و فۆنێک"},
-    {"term": "Vowel", "kurdish": "ڤاوڵ"},
-    {"term": "Consonant", "kurdish": "کۆنسۆنەنت"}
+    {"term":"Letter","kurdish":"پیت"},
+    {"term":"Grapheme","kurdish":"نیشانەی فۆنێم و فۆن"},
+    {"term":"Vowel","kurdish":"ڤاوڵ"},
+    {"term":"Consonant","kurdish":"کۆنسۆنەنت"},
+    {"term":"Phonetic Alphabet","kurdish":"ئەلفبێی فۆنێتیکی"},
+    {"term":"Alphabetic System","kurdish":"سیستەمی ئەلفبێیی"},
+    {"term":"Syllabic System","kurdish":"سیستەمی بڕگەیی"},
+    {"term":"Logographic","kurdish":"وشەهێمایی"},
+    {"term":"Agglutinating","kurdish":"زوانی لکاو"}
   ],
-  "exercises": [],
-  "quiz": [],
-  "source": {
-    "book": "فۆنێتیک و فۆنۆلۆجی کوردیک",
-    "author": "سابیر ژاکاو",
-    "section": 6,
-    "lesson": 1
-  }
+  "exercises": [
+    {"id":"ex-001","type":"short-answer","question":"بە وشەی خۆت، جیاوازیی نێوان پیت و گرافیم ڕوون بکەرەوە.","required":true},
+    {"id":"ex-002","type":"classification","question":"ئەم نموونانە بە دوو گروپ دابەش بکە: ڤاوڵ و کۆنسۆنەنت.","items":["ا","ە","ب","پ","م","ن"],"required":true},
+    {"id":"ex-003","type":"short-answer","question":"سێ جیاوازیی سەرەتایی لە نێوان ئەلفبێی عەرەبی، فارسی و ئینگلیزی بنووسە.","required":true},
+    {"id":"ex-004","type":"short-answer","question":"بۆچی سیستەمی نوسین پەیوەندییەکی ڕاستەوخۆی بە فۆن و فۆنێمی زوانەوە هەیە؟","required":true},
+    {"id":"ex-005","type":"short-answer","question":"پیتێکی لکاو و پیتێکی نەلکاو نموونە بدە و هۆکاری جیاوازییان ڕوون بکەرەوە.","required":true}
+  ],
+  "quiz": [
+    {"id":"q-001","type":"multiple-choice","question":"کام زاراوە بۆ نیشانەی نووسراوی پەیوەندیدار بە فۆن و فۆنێم بەکار دێت؟","options":["Grapheme","Vowel","Consonant","Syllable"],"correct":0},
+    {"id":"q-002","type":"multiple-choice","question":"کامەیان سیستەمی نوسینی بڕگەییە؟","options":["Japanese","Arabic","Persian","Kurdik"],"correct":0},
+    {"id":"q-003","type":"multiple-choice","question":"کامەیان ڤاوڵە؟","options":["ب","پ","ە","م"],"correct":2},
+    {"id":"q-004","type":"multiple-choice","question":"لە وانەکەدا پەیوەندیی پیت و فۆن بە چییەوە گرێدراوە؟","options":["سیستەمی نوسین","تەنیا ڕێزمان","تەنیا وشەسازی","تەنیا واتا"],"correct":0}
+  ],
+  "crossReferences": [{"section":7,"title":"سیستەمی نوسین","reason":"وانەی ١ بنەمای پەیوەندیی پیت، فۆن و سیستەمی نوسین دەخاتە ڕوو."}],
+  "source": {"book":"فۆنێتیک و فۆنۆلۆجی کوردیک","author":"سابیر ژاکاو","section":6,"lesson":1}
 }
