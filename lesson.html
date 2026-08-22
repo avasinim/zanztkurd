@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="ckb" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="robots" content="index, follow">
+  <title>وانە | ئاڤاشین</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="content-page">
+<header class="header">
+  <nav class="nav container">
+    <a href="index.html" class="brand" aria-label="ئاڤاشین"><span class="brand-mark">ئا</span><span>ئاڤاشین</span></a>
+    <div class="nav-links">
+      <a href="learning.html">فێربوونی زمانی کوردی</a>
+      <a href="linguistics.html">زمانەوانی کوردی</a>
+      <a href="sabir-zhakaw.html">سابیر ژاکاو</a>
+    </div>
+    <div class="nav-actions"><a class="ghost-btn" href="learning.html">گەڕانەوە</a></div>
+  </nav>
+</header>
+
+<main>
+  <section class="content-page-hero">
+    <div class="container">
+      <span class="eyebrow" id="lessonEyebrow">وانە</span>
+      <h1 id="lessonTitle">چاوەڕوانی...</h1>
+      <p id="lessonMeta"></p>
+    </div>
+  </section>
+
+  <section class="content-page-body">
+    <div class="container content-page-grid">
+      <article class="content-page-card">
+        <div id="lessonContent">ناوەڕۆکی وانە لە حالەتی بارکردنە...</div>
+        <div id="lessonError" class="content-page-note" hidden></div>
+      </article>
+      <aside class="content-page-side">
+        <h3>ئەم وانەیە</h3>
+        <div id="lessonObjectives"></div>
+        <hr>
+        <a href="learning.html">فهرستی فێربوون</a>
+        <a href="index.html">پەڕەی سەرەکی</a>
+      </aside>
+    </div>
+  </section>
+</main>
+
+<script>
+(() => {
+  const params = new URLSearchParams(location.search);
+  const requestedId = params.get('id') || 'phonetics-section-06-lesson-001';
+  const catalogUrl = 'lessons/index.json';
+
+  const titleEl = document.getElementById('lessonTitle');
+  const eyebrowEl = document.getElementById('lessonEyebrow');
+  const metaEl = document.getElementById('lessonMeta');
+  const contentEl = document.getElementById('lessonContent');
+  const objectivesEl = document.getElementById('lessonObjectives');
+  const errorEl = document.getElementById('lessonError');
+
+  const escapeHtml = value => String(value ?? '').replace(/[&<>"']/g, ch => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[ch]));
+
+  function renderMarkdown(md) {
+    const lines = md.replace(/\r\n?/g, '\n').split('\n');
+    let html = '';
+    let inList = false;
+    const closeList = () => { if (inList) { html += '</ul>'; inList = false; } };
+
+    for (const raw of lines) {
+      const line = raw.trim();
+      if (!line) { closeList(); continue; }
+      if (line.startsWith('# ')) { closeList(); html += `<h2>${escapeHtml(line.slice(2))}</h2>`; continue; }
+      if (line.startsWith('## ')) { closeList(); html += `<h3>${escapeHtml(line.slice(3))}</h3>`; continue; }
+      if (line.startsWith('- ')) {
+        if (!inList) { html += '<ul>'; inList = true; }
+        html += `<li>${escapeHtml(line.slice(2)).replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>')}</li>`;
+        continue;
+      }
+      closeList();
+      if (line.startsWith('> ')) { html += `<blockquote>${escapeHtml(line.slice(2))}</blockquote>`; continue; }
+      html += `<p>${escapeHtml(line).replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>')}</p>`;
+    }
+    closeList();
+    return html;
+  }
+
+  async function loadLesson() {
+    try {
+      const catalog = await fetch(catalogUrl).then(r => {
+        if (!r.ok) throw new Error('catalog');
+        return r.json();
+      });
+      const lesson = catalog.sections.flatMap(section => section.lessons || []).find(item => item.id === requestedId);
+      if (!lesson) throw new Error('lesson');
+
+      const data = await fetch(`lessons/${lesson.path}`).then(r => {
+        if (!r.ok) throw new Error('data');
+        return r.json();
+      });
+
+      const markdown = await fetch(`lessons/${lesson.contentPath}`).then(r => {
+        if (!r.ok) throw new Error('content');
+        return r.text();
+      });
+
+      eyebrowEl.textContent = `وانەی ${data.lessonNumber}`;
+      titleEl.textContent = data.title;
+      metaEl.textContent = `${data.level} · ${data.source.author} · ${data.source.book}`;
+      contentEl.innerHTML = renderMarkdown(markdown);
+      objectivesEl.innerHTML = `<ul>${(data.objectives || []).map(item => `<li>${escapeHtml(item)}</li>`).join('')}</ul>`;
+      document.title = `${data.title} | ئاڤاشین`;
+    } catch (error) {
+      titleEl.textContent = 'وانەکە نەدۆزرایەوە';
+      metaEl.textContent = '';
+      contentEl.hidden = true;
+      errorEl.hidden = false;
+      errorEl.textContent = 'لە بارکردنی ناوەڕۆکی وانە کێشەیەک ڕوویدا. تکایە دووبارە هەوڵ بدەرەوە.';
+    }
+  }
+
+  loadLesson();
+})();
+</script>
+</body>
+</html>
