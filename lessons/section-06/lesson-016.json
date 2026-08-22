@@ -1,0 +1,26 @@
+{
+  "id": "phonetics-section-06-lesson-016",
+  "lessonNumber": 16,
+  "title": "خاڵ‌بەندی",
+  "bookLessonLabel": "١٨١٦",
+  "estimatedMinutes": 20,
+  "terms": [
+    {"en":"Punctuation","ku":"خاڵ‌بەندی"},
+    {"en":"Question mark","ku":"نیشانەی پرسیار"},
+    {"en":"Comma","ku":"کۆما"},
+    {"en":"Semicolon","ku":"کۆمای خاڵ‌دار"}
+  ],
+  "sections": [
+    {"id":"intro","title":"پێشەکی","contentPath":"lesson-016.md"},
+    {"id":"practice","title":"ڕاهێنان","contentPath":"lesson-016.md"}
+  ],
+  "exercises": [
+    {"id":"ex-1","type":"short_answer","prompt":"نیشانەی پرسیار لە کوێ بەکار دێت؟"},
+    {"id":"ex-2","type":"short_answer","prompt":"دو نموونە بۆ بەکارهێنانی کۆما بنوسە."},
+    {"id":"ex-3","type":"short_answer","prompt":"جیاوازی کۆما و کۆمای خاڵ‌دار چیە؟"}
+  ],
+  "quiz": [
+    {"question":"نیشانەی پرسیار بە گشتی لە کۆتایی چی دێت؟","options":["ڕستەی پرسیاری","ڕستەی سەرسوڕمان","وشە","پاراگراف"],"answer":0},
+    {"question":"کام نیشانە بۆ جوداکردنەوەی بەشە پەیوەندیدارەکان بەکار دێت؟","options":["؟","؛",".",":_"],"answer":1}
+  ]
+}
