@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="ckb" dir="rtl">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>پێشکەوتنی فێربوون | ئاڤاشین</title>
+<link rel="stylesheet" href="../style.css">
+<style>
+body{min-height:100vh}.progress-wrap{max-width:980px;margin:0 auto;padding:48px 20px}.progress-card{padding:28px;border:1px solid rgba(127,127,127,.18);border-radius:22px;background:rgba(127,127,127,.04);margin-bottom:20px}.progress-bar{height:12px;border-radius:99px;background:rgba(127,127,127,.16);overflow:hidden}.progress-fill{height:100%;width:0;background:currentColor;transition:width .3s}.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:14px;margin:20px 0}.stat{padding:18px;border:1px solid rgba(127,127,127,.15);border-radius:16px}.stat strong{display:block;font-size:1.6rem;margin-bottom:4px}.lesson-row{display:flex;align-items:center;justify-content:space-between;gap:15px;padding:15px 0;border-bottom:1px solid rgba(127,127,127,.12)}.lesson-row:last-child{border-bottom:0}.lesson-row a{text-decoration:none}.badge{font-size:.82rem;opacity:.75}.actions{display:flex;gap:10px;flex-wrap:wrap;margin-top:20px}.btn{display:inline-block;padding:11px 16px;border-radius:12px;text-decoration:none;border:1px solid rgba(127,127,127,.2)}
+</style>
+</head>
+<body class="content-page">
+<header class="header"><nav class="nav container"><a href="../index.html" class="brand"><span class="brand-mark">ئا</span><span>ئاڤاشین</span></a><div class="nav-links"><a href="../learning.html">فێربوون</a><a href="../index.html">سەرەکی</a></div></nav></header>
+<main class="progress-wrap">
+<div class="progress-card"><span class="eyebrow">پێشکەوتنی فێربوون</span><h1>ڕێڕەوی فێربوون</h1><p id="summary">داتا بار دەکرێت...</p><div class="progress-bar"><div id="fill" class="progress-fill"></div></div><div class="stats"><div class="stat"><strong id="total">0</strong><span>هەموو وانەکان</span></div><div class="stat"><strong id="done">0</strong><span>وانە تەواوکراوەکان</span></div><div class="stat"><strong id="passed">0</strong><span>تاقیکردنەوە سەرکەوتووەکان</span></div><div class="stat"><strong id="percent">0%</strong><span>پێشکەوتنی گشتی</span></div></div><div class="actions"><a class="btn" href="../learning.html">گەڕانەوە بۆ وانەکان</a><button id="reset" class="btn" type="button">سڕینەوەی پێشکەوتن</button></div></div>
+<div class="progress-card"><h2>وانەکان</h2><div id="lessons">چاوەڕوانی...</div></div>
+</main>
+<script>
+(async()=>{
+ const $=id=>document.getElementById(id);let lessons=[];
+ try{const r=await fetch('index.json',{cache:'no-store'});const data=await r.json();lessons=(data.sections||[]).flatMap(s=>(s.lessons||[]).map(l=>({...l,sectionTitle:s.title,sectionNumber:s.number})));render();}catch(e){$('lessons').textContent='نەتوانرا فهرستی وانەکان بار بکرێت.'}
+ function render(){const done=lessons.filter(l=>localStorage.getItem('lesson-completed:'+l.id)==='true').length;const passed=lessons.filter(l=>localStorage.getItem('lesson-quiz:'+l.id)==='passed').length;const pct=lessons.length?Math.round(done/lessons.length*100):0;$('total').textContent=lessons.length;$('done').textContent=done;$('passed').textContent=passed;$('percent').textContent=pct+'%';$('fill').style.width=pct+'%';$('summary').textContent=done===lessons.length&&lessons.length?'هەموو وانەکان تەواو کراون.':'تا ئێستا '+done+' لە '+lessons.length+' وانە تەواو کراوە.';$('lessons').innerHTML=lessons.map(l=>{const d=localStorage.getItem('lesson-completed:'+l.id)==='true',p=localStorage.getItem('lesson-quiz:'+l.id)==='passed';return `<div class="lesson-row"><div><a href="../lesson.html?id=${encodeURIComponent(l.id)}"><strong>وانەی ${esc(l.number)} — ${esc(l.title)}</strong></a><div class="badge">بەشی ${esc(l.sectionNumber)} · ${d?'✓ تەواو کراوە':p?'✓ تاقیکردنەوە سەرکەوتووە':'پێش نەچووە'}</div></div><a class="btn" href="../lesson.html?id=${encodeURIComponent(l.id)}">${d?'بینین':'دەستپێکردن'}</a></div>`}).join('')}
+ $('reset').onclick=()=>{if(!confirm('دڵنیایت دەتەوێت پێشکەوتنی وانەکان بسڕیتەوە؟'))return;lessons.forEach(l=>{localStorage.removeItem('lesson-completed:'+l.id);localStorage.removeItem('lesson-progress:'+l.id);localStorage.removeItem('lesson-quiz:'+l.id)});render()};
+ function esc(v){return String(v??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]))}
+})();
+</script>
+</body></html>
