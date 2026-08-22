@@ -24,6 +24,13 @@
           "title": "پیتی (ئــ، ا)",
           "path": "section-06/lesson-002.json",
           "contentPath": "section-06/lesson-002.md"
+        },
+        {
+          "id": "phonetics-section-06-lesson-003",
+          "number": 3,
+          "title": "پیتەکانی (ب، پ، ت)",
+          "path": "section-06/lesson-003.json",
+          "contentPath": "section-06/lesson-003.md"
         }
       ]
     }
