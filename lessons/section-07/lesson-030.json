@@ -1,0 +1,37 @@
+{
+  "id": "writing-system-section-07-lesson-030",
+  "number": 30,
+  "title": "چوارچێوە و قاڵبی بڕگە",
+  "section": 7,
+  "course": "phonetics-phonology-kurdik",
+  "language": "ckb",
+  "contentPath": "section-07/lesson-030.md",
+  "estimatedMinutes": 30,
+  "difficulty": "intermediate",
+  "objectives": [
+    "ناسینی کۆدەکانی V و C",
+    "تێگەیشتن لە قاڵبە سەرەکییەکانی بڕگە",
+    "جیاکردنەوەی بڕگەی سوک و گران",
+    "توانای دیاریکردنی قاڵبی بڕگە لە نموونەکان"
+  ],
+  "sections": [
+    {"type":"text","title":"پێشەکی","content":"بڕگەکان بە پێی ڕێکخستنی ڤاوڵ و کۆنسۆنەنت قاڵبی جیاواز وەردەگرن."},
+    {"type":"concepts","title":"کۆدەکان","items":["V = ڤاوڵ","C = کۆنسۆنەنت"]},
+    {"type":"patterns","title":"قاڵبەکانی بڕگە","items":["V","CV","CCV","CCVC","CVC","CVCC","CCVCC","VC","VCC"]},
+    {"type":"glossary","title":"زاراوەکان","items":["بڕگە — Syllable","ڤاوڵ — Vowel","کۆنسۆنەنت — Consonant","ناوکی بڕگە — Nucleus","بڕگەی سوک — Light Syllable","بڕگەی گران — Heavy Syllable"]}
+  ],
+  "exercises": [
+    {"id":"ex-01","type":"short_answer","prompt":"بۆ V، CV، CCV و CVC نموونە بنووسە."},
+    {"id":"ex-02","type":"classification","prompt":"قاڵبی وشەی «برا» دیاری بکە."},
+    {"id":"ex-03","type":"short_answer","prompt":"جیاوازی CV و CVC چییە؟"},
+    {"id":"ex-04","type":"short_answer","prompt":"بۆ VC و VCC نموونە بنووسە."}
+  ],
+  "quiz": [
+    {"id":"q-01","type":"multiple_choice","question":"C لە قاڵبی بڕگەدا چییە؟","options":["ڤاوڵ","کۆنسۆنەنت","ناوکی بڕگە","تکیە"],"answer":"کۆنسۆنەنت"},
+    {"id":"q-02","type":"multiple_choice","question":"قاڵبی «برا» کامەیە؟","options":["V","CV","CCV","VCC"],"answer":"CCV"}
+  ],
+  "bookSource": {
+    "sectionLabel": "بەشی ٧",
+    "sourceTopic": "چوارچێوەکان و قاڵبقالبی بڕگە لە زوانی کوردیک"
+  }
+}
