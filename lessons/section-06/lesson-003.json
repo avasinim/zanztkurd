@@ -1,0 +1,46 @@
+{
+  "id": "phonetics-section-06-lesson-003",
+  "courseId": "phonetics-phonology-kurdik",
+  "sectionId": "section-06",
+  "lessonNumber": 3,
+  "title": "پیتەکانی (ب، پ، ت)",
+  "level": "سەرەتایی",
+  "estimatedMinutes": 45,
+  "objectives": [
+    "ناسینی پیتەکانی ب، پ و ت لە ئەلفبێی کوردیک.",
+    "تێگەیشتن لە شێوە و نگاری ئەم سێ پیتە لە سەرەتا، ناوەڕاست و کۆتایی وشە.",
+    "جیاکردنەوەی فۆنی ب، پ و ت لە ڕووی فۆنێتیکی و فۆنۆلۆجییەوە.",
+    "ناسینی پیتی لکاو و شێوەکانی لکانی لەگەڵ پیتەکانی دیکە.",
+    "تێگەیشتن لە هەندێک نموونەی لێکچوون و گۆڕانی دەنگی.",
+    "توانای بەکارهێنانی پیتەکان لە وشەی کوردیک."
+  ],
+  "sections": [
+    {"id":"main","title":"ب، پ، ت و شێوەی بەکارهێنانیان","contentPath":"section-06/lesson-003.md"}
+  ],
+  "terms": [
+    {"term":"Consonant","kurdish":"کۆنسۆنەنت"},
+    {"term":"Voiced","kurdish":"ژێ‌دار"},
+    {"term":"Voiceless","kurdish":"ژێ‌نەدار"},
+    {"term":"Bilabial","kurdish":"لێوی"},
+    {"term":"Tap Consonant","kurdish":"کۆنسۆنەتی سوک"},
+    {"term":"Assimilation","kurdish":"لێکچوون"},
+    {"term":"Agglutinating","kurdish":"زوانی لکاو"}
+  ],
+  "exercises": [
+    {"id":"ex-003-1","type":"short-answer","question":"پێنج وشە بنووسە کە پیتی (ت) تێدا بێت.","required":true},
+    {"id":"ex-003-2","type":"short-answer","question":"پێنج وشە بنووسە کە پیتی (پ) تێدا بێت.","required":true},
+    {"id":"ex-003-3","type":"short-answer","question":"پێنج وشە بنووسە کە پیتی (ب) تێدا بێت.","required":true},
+    {"id":"ex-003-4","type":"short-answer","question":"بۆچی پیتەکانی (پ، ت) لە هەموو شوێنێکی وشەدا بە هەمان شێوە نانوسرێن؟","required":true},
+    {"id":"ex-003-5","type":"short-answer","question":"پیتی (ب) و (پ) چ جیاوازییەک لە واتای وشەدا دروست دەکەن و ئایا یەک دەنگن؟","required":true}
+  ],
+  "quiz": [
+    {"id":"q-003-1","type":"multiple-choice","question":"کامەیان پیتی ژێ‌داری لێویە؟","options":["ب","پ","ت","خ"],"correct":0},
+    {"id":"q-003-2","type":"multiple-choice","question":"کام پیتێک ژێ‌نەداری لێویە؟","options":["ب","پ","د","ز"],"correct":1},
+    {"id":"q-003-3","type":"multiple-choice","question":"پیتی (ت) لە وانەکەدا چ جۆرە کۆنسۆنەنتێکە؟","options":["لێوی","ددانی و نوکی زمانی","قورگی","لوتی"],"correct":1},
+    {"id":"q-003-4","type":"multiple-choice","question":"ئەم وانەیە سەرەکی باس لە کام سێ پیت دەکات؟","options":["ب، پ، ت","خ، ج، چ","د، ر، ڕ","س، ش، ز"],"correct":0}
+  ],
+  "crossReferences": [
+    {"section":6,"title":"پیتەکانی دواتر","reason":"وانەی دواتر پیتەکانی خ، ج، چ و ح دەخاتە بەر باس."}
+  ],
+  "source": {"book":"فۆنێتیک و فۆنۆلۆجی کوردیک","author":"سابیر ژاکاو","section":6,"lesson":3}
+}
