@@ -3,27 +3,36 @@
   "lessonNumber": 17,
   "title": "سیستمی نوسین",
   "bookLessonLabel": "بەشی ٧",
-  "estimatedMinutes": 25,
+  "estimatedMinutes": 30,
   "terms": [
     {"en":"Writing System","ku":"سیستمی نوسین"},
-    {"en":"Pictographic system","ku":"نوسینی وێنەیی"},
-    {"en":"Syllabic system","ku":"سیستمی بڕگەیی"},
-    {"en":"Alphabetic system","ku":"سیستمی ئەلفبێیی"},
-    {"en":"Phonetic alphabet","ku":"ئەلفبێی فۆنێتیکی"},
-    {"en":"Phonemic alphabet","ku":"نوسینی ئەلفبێیی"}
+    {"en":"Pictography","ku":"نوسینی وێنەیی"},
+    {"en":"Syllabic System","ku":"سیستمی بڕگەیی"},
+    {"en":"Alphabetic System","ku":"سیستمی ئەلفبێیی"},
+    {"en":"Phonetic Alphabet","ku":"ئەلفبێی فۆنێتیکی"},
+    {"en":"Phonemic Alphabet","ku":"نوسینی ئەلفبێیی"},
+    {"en":"Agglutinating","ku":"زوانی لکاو"}
   ],
   "sections": [
     {"id":"intro","title":"پێشەکی","contentPath":"lesson-017.md"},
-    {"id":"systems","title":"جۆرەکانی سیستمی نوسین","contentPath":"lesson-017.md"},
+    {"id":"systems","title":"جۆرەکانی نوسین","contentPath":"lesson-017.md"},
+    {"id":"phonetic-alphabetic","title":"نوسینی فۆنێتیکی و ئەلفبێیی","contentPath":"lesson-017.md"},
+    {"id":"joined-unjoined","title":"پیتی لکاو و نەلکاو","contentPath":"lesson-017.md"},
+    {"id":"agglutinating","title":"زوانی لکاو","contentPath":"lesson-017.md"},
     {"id":"practice","title":"ڕاهێنان","contentPath":"lesson-017.md"}
   ],
   "exercises": [
-    {"id":"ex-1","type":"short_answer","prompt":"سیستمی نوسین چییە؟"},
-    {"id":"ex-2","type":"short_answer","prompt":"سێ جۆری سەرەکی نوسین ناوبەرە."},
-    {"id":"ex-3","type":"short_answer","prompt":"جیاوازی سیستمی بڕگەیی و سیستمی ئەلفبێیی بە کورتی ڕوون بکەرەوە."}
+    {"id":"ex-1","type":"short_answer","prompt":"سیستمی نوسین چییە؟ بە دو ڕستە وەڵام بدەرەوە."},
+    {"id":"ex-2","type":"short_answer","prompt":"سێ جۆری سەرەکی نوسین بنووسە."},
+    {"id":"ex-3","type":"short_answer","prompt":"جیاوازی نوسینی فۆنێتیکی و نوسینی ئەلفبێیی بە کورتی ڕوون بکەرەوە."},
+    {"id":"ex-4","type":"short_answer","prompt":"بۆ پیتی لکاو نموونەیەک بنووسە و بۆچی لکاوە ڕوونی بکەرەوە."},
+    {"id":"ex-5","type":"short_answer","prompt":"بۆ پیتی نەلکاو نموونەیەک بنووسە و ئاراستەی لکاندنەکەی دیاری بکە."},
+    {"id":"ex-6","type":"short_answer","prompt":"بۆچی پەیوەندی نێوان نوسین و ڕێنووس بۆ فێربونی زمان گرنگە؟"}
   ],
   "quiz": [
-    {"question":"سیستمی نوسینی کوردی لە دەستەبەندی گشتییەکانی ئەم بەشەدا لە کام جۆرە؟","options":["نوسینی وێنەیی","سیستمی بڕگەیی","سیستمی ئەلفبێیی","تەنیا نوسینی فۆنێتیکی"],"answer":2},
-    {"question":"Pictography بە کام زاراوەیەوە هاتووە؟","options":["نوسینی وێنەیی","سیستمی بڕگەیی","سیستمی ئەلفبێیی","ڕێنووسی فۆنێمی"],"answer":0}
+    {"question":"لە دەقی ئەم بەشەدا سێ جۆری سەرەکی نوسین کامانەن؟","options":["وێنەیی، بڕگەیی، ئەلفبێیی","فۆنێتیکی، مۆرفۆلۆجی، سینتاکسی","کۆنسۆنەنت، ڤاوڵ، هەجا","ڕێنووس، ڕێزمان، فەرهەنگ"],"answer":0},
+    {"question":"Pictography بە کام زاراوەیەوە هاتووە؟","options":["نوسینی وێنەیی","سیستمی بڕگەیی","سیستمی ئەلفبێیی","ئەلفبێی فۆنێتیکی"],"answer":0},
+    {"question":"پیتی لکاو چییە؟","options":["پیتێک کە تەنیا لە یەک لاوە دەبەسترێت","پیتێک کە توانای لکاندن لە پێش و پاش خۆی هەیە","پیتێک کە هیچ پیتێکی دیکە پێوە نالکێت","نیشانەیەکی خاڵبەندی"],"answer":1},
+    {"question":"بەپێی دەقی وانە، زمانی کوردی لە ڕەوتی نوسین بە چی پەیوەست کراوە؟","options":["زوانی لکاو","زوانی بڕگەیی","زوانی وێنەیی","تەنیا IPA"],"answer":0}
   ]
 }
