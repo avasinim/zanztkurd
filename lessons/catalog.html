@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="ckb" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>وانەکانی فۆنێتیک و فۆنۆلۆجی کوردیک | ئاڤاشین</title>
+  <meta name="description" content="فهرستی ڕێکخراوی وانەکانی فۆنێتیک و فۆنۆلۆجی کوردیک.">
+  <link rel="stylesheet" href="../style.css">
+  <style>
+    .lesson-catalog{padding:56px 0 80px}.catalog-head{margin-bottom:32px}.catalog-course{opacity:.75;margin-bottom:8px}.catalog-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:20px}.catalog-card{display:flex;flex-direction:column;gap:16px;padding:24px;border:1px solid rgba(255,255,255,.1);border-radius:20px;background:rgba(255,255,255,.035)}.catalog-card h2{margin:0;font-size:1.3rem}.catalog-meta{display:flex;gap:10px;flex-wrap:wrap;font-size:.9rem;opacity:.75}.catalog-btn{display:inline-flex;align-items:center;justify-content:center;text-decoration:none}.catalog-empty{padding:30px;border-radius:18px;opacity:.75}.catalog-loading{text-align:center;padding:50px;opacity:.7}
+  </style>
+</head>
+<body class="content-page">
+<header class="header">
+  <nav class="nav container">
+    <a href="../index.html" class="brand" aria-label="ئاڤاشین"><span class="brand-mark">ئا</span><span>ئاڤاشین</span></a>
+    <div class="nav-links">
+      <a href="../learning.html">فێربوونی زمانی کوردی</a>
+      <a href="../linguistics.html">زمانەوانی کوردی</a>
+      <a href="../index.html">سەرەکی</a>
+    </div>
+  </nav>
+</header>
+<main>
+<section class="content-page-hero"><div class="container"><span class="eyebrow">بنکەی وانەکان</span><h1 id="courseTitle">وانەکان</h1><p id="courseMeta">بارکردنی ناوەڕۆک...</p></div></section>
+<section class="lesson-catalog"><div class="container"><div id="catalog" class="catalog-grid"><div class="catalog-loading">وانەکان بار دەکرێن...</div></div></div></section>
+</main>
+<footer class="footer"><div class="container footer-bottom">© ٢٠٢٦ ئاڤاشین · فێربوونی زمانی کوردی</div></footer>
+<script>
+(async function(){
+  const catalog=document.getElementById('catalog');
+  try{
+    const res=await fetch('./index.json',{cache:'no-store'});
+    if(!res.ok) throw new Error('catalog');
+    const data=await res.json();
+    const course=data.course||{};
+    document.getElementById('courseTitle').textContent=course.title||'وانەکان';
+    document.getElementById('courseMeta').textContent=(course.author?`نووسەر: ${course.author} · `:'')+'وانەکان بە شێوەی ڕێکخراو';
+    const lessons=(data.sections||[]).flatMap(section=>(section.lessons||[]).map(lesson=>({...lesson,sectionTitle:section.title,sectionNumber:section.number})));
+    if(!lessons.length){catalog.innerHTML='<div class="catalog-empty">هیچ وانەیەک تۆمار نەکراوە.</div>';return;}
+    catalog.innerHTML=lessons.map(lesson=>`
+      <article class="catalog-card">
+        <div class="catalog-meta"><span>وانەی ${lesson.number}</span><span>بەشی ${lesson.sectionNumber}</span></div>
+        <h2>${lesson.title}</h2>
+        <p>${lesson.sectionTitle}</p>
+        <a class="primary-btn big catalog-btn" href="../lesson.html?id=${encodeURIComponent(lesson.id)}">دەستپێکردنی وانە ←</a>
+      </article>`).join('');
+  }catch(error){
+    catalog.innerHTML='<div class="catalog-empty">بارکردنی فهرستی وانەکان سەرکەوتوو نەبوو. تکایە دووبارە هەوڵ بدە.</div>';
+  }
+})();
+</script>
+</body>
+</html>
