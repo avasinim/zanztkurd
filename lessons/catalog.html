@@ -7,7 +7,7 @@
   <meta name="description" content="فهرستی ڕێکخراوی وانەکانی فۆنێتیک و فۆنۆلۆجی کوردیک.">
   <link rel="stylesheet" href="../style.css">
   <style>
-    .lesson-catalog{padding:56px 0 80px}.catalog-head{margin-bottom:32px}.catalog-course{opacity:.75;margin-bottom:8px}.catalog-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:20px}.catalog-card{display:flex;flex-direction:column;gap:16px;padding:24px;border:1px solid rgba(255,255,255,.1);border-radius:20px;background:rgba(255,255,255,.035)}.catalog-card h2{margin:0;font-size:1.3rem}.catalog-meta{display:flex;gap:10px;flex-wrap:wrap;font-size:.9rem;opacity:.75}.catalog-btn{display:inline-flex;align-items:center;justify-content:center;text-decoration:none}.catalog-empty{padding:30px;border-radius:18px;opacity:.75}.catalog-loading{text-align:center;padding:50px;opacity:.7}
+    .lesson-catalog{padding:56px 0 80px}.catalog-head{margin-bottom:28px}.catalog-course{opacity:.75;margin-bottom:8px}.catalog-tools{display:flex;gap:10px;flex-wrap:wrap;margin-bottom:22px}.catalog-tools input,.catalog-tools select{background:#fff;border:1px solid #dfe7ea;border-radius:12px;padding:11px 14px;outline:0;font:inherit}.catalog-tools input{flex:1;min-width:240px}.catalog-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:20px}.catalog-card{display:flex;flex-direction:column;gap:12px;padding:24px;border:1px solid #e3e9ec;border-radius:20px;background:#fff;transition:.2s}.catalog-card:hover{transform:translateY(-3px);box-shadow:0 12px 30px rgba(24,49,61,.07)}.catalog-card h2{margin:0;font-size:1.25rem}.catalog-meta{display:flex;gap:10px;flex-wrap:wrap;font-size:.85rem;color:#78878e}.catalog-source{font-size:.8rem;color:#8a969b}.catalog-btn{display:inline-flex;align-items:center;justify-content:center;text-decoration:none;margin-top:auto}.catalog-empty{grid-column:1/-1;padding:30px;border-radius:18px;background:#fff;border:1px solid #e3e9ec;color:#7b898f;text-align:center}.catalog-loading{text-align:center;padding:50px;opacity:.7}
   </style>
 </head>
 <body class="content-page">
@@ -19,35 +19,39 @@
       <a href="../linguistics.html">زمانەوانی کوردی</a>
       <a href="../index.html">سەرەکی</a>
     </div>
+    <div class="nav-actions"><a class="ghost-btn" href="../learning.html">گەڕانەوە</a></div>
   </nav>
 </header>
 <main>
 <section class="content-page-hero"><div class="container"><span class="eyebrow">بنکەی وانەکان</span><h1 id="courseTitle">وانەکان</h1><p id="courseMeta">بارکردنی ناوەڕۆک...</p></div></section>
-<section class="lesson-catalog"><div class="container"><div id="catalog" class="catalog-grid"><div class="catalog-loading">وانەکان بار دەکرێن...</div></div></div></section>
+<section class="lesson-catalog"><div class="container">
+  <div class="catalog-tools"><input id="catalogSearch" type="search" placeholder="گەڕان لە ناوی وانە..." aria-label="گەڕان لە وانەکان"><select id="sectionFilter" aria-label="هەڵبژاردنی بەش"><option value="all">هەموو بەشەکان</option></select></div>
+  <div id="catalog" class="catalog-grid"><div class="catalog-loading">وانەکان بار دەکرێن...</div></div>
+</div></section>
 </main>
 <footer class="footer"><div class="container footer-bottom">© ٢٠٢٦ ئاڤاشین · فێربوونی زمانی کوردی</div></footer>
 <script>
 (async function(){
-  const catalog=document.getElementById('catalog');
+  const catalog=document.getElementById('catalog'),search=document.getElementById('catalogSearch'),filter=document.getElementById('sectionFilter');
+  let lessons=[];
+  const escapeHtml=value=>String(value??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
   try{
-    const res=await fetch('./index.json',{cache:'no-store'});
-    if(!res.ok) throw new Error('catalog');
-    const data=await res.json();
-    const course=data.course||{};
+    const res=await fetch('./index.json',{cache:'no-store'});if(!res.ok)throw new Error('catalog');
+    const data=await res.json(),course=data.course||{};
     document.getElementById('courseTitle').textContent=course.title||'وانەکان';
     document.getElementById('courseMeta').textContent=(course.author?`نووسەر: ${course.author} · `:'')+'وانەکان بە شێوەی ڕێکخراو';
-    const lessons=(data.sections||[]).flatMap(section=>(section.lessons||[]).map(lesson=>({...lesson,sectionTitle:section.title,sectionNumber:section.number})));
-    if(!lessons.length){catalog.innerHTML='<div class="catalog-empty">هیچ وانەیەک تۆمار نەکراوە.</div>';return;}
-    catalog.innerHTML=lessons.map(lesson=>`
-      <article class="catalog-card">
-        <div class="catalog-meta"><span>وانەی ${lesson.number}</span><span>بەشی ${lesson.sectionNumber}</span></div>
-        <h2>${lesson.title}</h2>
-        <p>${lesson.sectionTitle}</p>
-        <a class="primary-btn big catalog-btn" href="../lesson.html?id=${encodeURIComponent(lesson.id)}">دەستپێکردنی وانە ←</a>
-      </article>`).join('');
-  }catch(error){
-    catalog.innerHTML='<div class="catalog-empty">بارکردنی فهرستی وانەکان سەرکەوتوو نەبوو. تکایە دووبارە هەوڵ بدە.</div>';
+    lessons=(data.sections||[]).flatMap(section=>(section.lessons||[]).map(lesson=>({...lesson,sectionTitle:section.title,sectionNumber:section.number,sectionId:section.id})));
+    const sections=[...new Map(lessons.map(l=>[l.sectionId,l])).values()];
+    sections.forEach(s=>{const o=document.createElement('option');o.value=s.sectionId;o.textContent=`بەشی ${s.sectionNumber} — ${s.sectionTitle}`;filter.appendChild(o)});
+    render();
+  }catch(error){catalog.innerHTML='<div class="catalog-empty">بارکردنی فهرستی وانەکان سەرکەوتوو نەبوو. تکایە دووبارە هەوڵ بدە.</div>';return;}
+  function render(){
+    const q=search.value.trim().toLocaleLowerCase(),selected=filter.value;
+    const filtered=lessons.filter(l=>(selected==='all'||l.sectionId===selected)&&(!q||`${l.title} ${l.number} ${l.bookLessonNumber||''} ${l.sectionTitle}`.toLocaleLowerCase().includes(q)));
+    if(!filtered.length){catalog.innerHTML='<div class="catalog-empty">هیچ وانەیەک بەم گەڕانە نەدۆزرایەوە.</div>';return;}
+    catalog.innerHTML=filtered.map(lesson=>`<article class="catalog-card"><div class="catalog-meta"><span>وانەی ${escapeHtml(lesson.number)}</span><span>بەشی ${escapeHtml(lesson.sectionNumber)}</span></div><h2>${escapeHtml(lesson.title)}</h2><p>${escapeHtml(lesson.sectionTitle)}</p><div class="catalog-source">${lesson.bookLessonNumber?`ژمارەی کتێب: ${escapeHtml(lesson.bookLessonNumber)}`:'ژمارەی کتێب: تۆمار نەکراوە'}</div><a class="primary-btn big catalog-btn" href="../lesson.html?id=${encodeURIComponent(lesson.id)}">دەستپێکردنی وانە ←</a></article>`).join('');
   }
+  search.addEventListener('input',render);filter.addEventListener('change',render);
 })();
 </script>
 </body>
