@@ -1,0 +1,29 @@
+{
+  "id": "writing-system-section-07-lesson-017",
+  "lessonNumber": 17,
+  "title": "سیستمی نوسین",
+  "bookLessonLabel": "بەشی ٧",
+  "estimatedMinutes": 25,
+  "terms": [
+    {"en":"Writing System","ku":"سیستمی نوسین"},
+    {"en":"Pictographic system","ku":"نوسینی وێنەیی"},
+    {"en":"Syllabic system","ku":"سیستمی بڕگەیی"},
+    {"en":"Alphabetic system","ku":"سیستمی ئەلفبێیی"},
+    {"en":"Phonetic alphabet","ku":"ئەلفبێی فۆنێتیکی"},
+    {"en":"Phonemic alphabet","ku":"نوسینی ئەلفبێیی"}
+  ],
+  "sections": [
+    {"id":"intro","title":"پێشەکی","contentPath":"lesson-017.md"},
+    {"id":"systems","title":"جۆرەکانی سیستمی نوسین","contentPath":"lesson-017.md"},
+    {"id":"practice","title":"ڕاهێنان","contentPath":"lesson-017.md"}
+  ],
+  "exercises": [
+    {"id":"ex-1","type":"short_answer","prompt":"سیستمی نوسین چییە؟"},
+    {"id":"ex-2","type":"short_answer","prompt":"سێ جۆری سەرەکی نوسین ناوبەرە."},
+    {"id":"ex-3","type":"short_answer","prompt":"جیاوازی سیستمی بڕگەیی و سیستمی ئەلفبێیی بە کورتی ڕوون بکەرەوە."}
+  ],
+  "quiz": [
+    {"question":"سیستمی نوسینی کوردی لە دەستەبەندی گشتییەکانی ئەم بەشەدا لە کام جۆرە؟","options":["نوسینی وێنەیی","سیستمی بڕگەیی","سیستمی ئەلفبێیی","تەنیا نوسینی فۆنێتیکی"],"answer":2},
+    {"question":"Pictography بە کام زاراوەیەوە هاتووە؟","options":["نوسینی وێنەیی","سیستمی بڕگەیی","سیستمی ئەلفبێیی","ڕێنووسی فۆنێمی"],"answer":0}
+  ]
+}
