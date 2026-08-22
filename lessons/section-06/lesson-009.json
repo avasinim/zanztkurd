@@ -1,0 +1,42 @@
+{
+  "id": "phonetics-section-06-lesson-009",
+  "courseId": "phonetics-phonology-kurdik",
+  "sectionId": "section-06",
+  "lessonNumber": 9,
+  "bookLessonNumber": 118,
+  "title": "پیتی (ڵ، ل، م، ن)",
+  "level": "ناوەندی",
+  "estimatedMinutes": 45,
+  "objectives": [
+    "ناسینی پیتەکانی ڵ، ل، م و ن.",
+    "تێگەیشتن لە شێوەکانی دەرکەوتنی ئەم پیتانە لە سەرەتا، ناوەڕاست و کۆتایی وشە.",
+    "جیاکردنەوەی ڵ و ل لە ڕووی دەنگ و نووسینەوە.",
+    "تێگەیشتن لە پەیوەندیی پیتە لکاوەکان و سیستەمی نوسینی کوردیک."
+  ],
+  "sections": [
+    {"id":"letters","title":"پیتەکانی وانە","contentPath":"section-06/lesson-009.md"},
+    {"id":"allographs","title":"نگار و ئەلۆگراف","contentPath":"section-06/lesson-009.md"},
+    {"id":"phonology","title":"تێڕوانینی دەنگی و فۆنۆلۆجی","contentPath":"section-06/lesson-009.md"}
+  ],
+  "terms": [
+    {"term":"Allograph","kurdish":"ئەلۆگراف"},
+    {"term":"Consonant","kurdish":"کۆنسۆنەنت"},
+    {"term":"Sound Distribution","kurdish":"دابەش‌بونی دەنگ"},
+    {"term":"Velarization","kurdish":"بەر مەڵاشودانی نەرم"},
+    {"term":"Agglutinating","kurdish":"زوانی لکاو"}
+  ],
+  "exercises": [
+    {"id":"ex-001","type":"short-answer","question":"پێنج وشە بنووسە کە پیتی (ڵ)یان تێدا بێت.","required":true},
+    {"id":"ex-002","type":"short-answer","question":"پێنج وشە بنووسە کە پیتی (ل)یان تێدا بێت.","required":true},
+    {"id":"ex-003","type":"short-answer","question":"پێنج وشە بنووسە کە پیتی (م)یان تێدا بێت.","required":true},
+    {"id":"ex-004","type":"short-answer","question":"پێنج وشە بنووسە کە پیتی (ن)یان تێدا بێت.","required":true},
+    {"id":"ex-005","type":"short-answer","question":"جیاوازیی نێوان (ڵ) و (ل) لە ڕووی دەنگ و نووسینەوە ڕوون بکەرەوە.","required":true}
+  ],
+  "quiz": [
+    {"id":"q-001","type":"multiple-choice","question":"کام کۆمەڵە پیتەکانی وانەی ٩ ـە؟","options":["ڵ، ل، م، ن","ک، گ","ر، ڕ","ع، غ، ف، ڤ، ق"],"correct":0},
+    {"id":"q-002","type":"multiple-choice","question":"وانەی ٩ لە کتێبدا بە چ ژمارەیەک هاتووە؟","options":["86","97","118","129"],"correct":2},
+    {"id":"q-003","type":"multiple-choice","question":"لە دەقی وانەکەدا (م) چەند شێوەی سەرەکیی ئەلۆگرافی هەیە؟","options":["دوو","سێ","چوار","پێنج"],"correct":2},
+    {"id":"q-004","type":"multiple-choice","question":"کام زاراوە بە مانای Allograph هاتووە؟","options":["ئەلۆگراف","فۆنێم","بڕگە","ڕێنووس"],"correct":0}
+  ],
+  "source": {"book":"فۆنێتیک و فۆنۆلۆجی کوردیک","author":"سابیر ژاکاو","section":6,"lesson":9,"bookLessonNumber":118}
+}
