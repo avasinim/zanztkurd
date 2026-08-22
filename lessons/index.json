@@ -1,38 +1,9 @@
 {
-  "course": {
-    "id": "phonetics-phonology-kurdik",
-    "title": "فۆنێتیک و فۆنۆلۆجی کوردیک",
-    "author": "سابیر ژاکاو",
-    "language": "ckb"
-  },
-  "sections": [
-    {
-      "id": "section-06",
-      "number": 6,
-      "title": "دەستپێکی سەرەتایی، ناساندنی پیت",
-      "lessons": [
-        {
-          "id": "phonetics-section-06-lesson-001",
-          "number": 1,
-          "title": "دەستپێکی سەرەتایی، ناساندنی پیت",
-          "path": "section-06/lesson-001.json",
-          "contentPath": "section-06/lesson-001.md"
-        },
-        {
-          "id": "phonetics-section-06-lesson-002",
-          "number": 2,
-          "title": "پیتی (ئــ، ا)",
-          "path": "section-06/lesson-002.json",
-          "contentPath": "section-06/lesson-002.md"
-        },
-        {
-          "id": "phonetics-section-06-lesson-003",
-          "number": 3,
-          "title": "پیتەکانی (ب، پ، ت)",
-          "path": "section-06/lesson-003.json",
-          "contentPath": "section-06/lesson-003.md"
-        }
-      ]
-    }
-  ]
+  "course": {"id":"phonetics-phonology-kurdik","title":"فۆنێتیک و فۆنۆلۆجی کوردیک","author":"سابیر ژاکاو","language":"ckb"},
+  "sections":[{"id":"section-06","number":6,"title":"دەستپێکی سەرەتایی، ناساندنی پیت","lessons":[
+    {"id":"phonetics-section-06-lesson-001","number":1,"title":"دەستپێکی سەرەتایی، ناساندنی پیت","path":"section-06/lesson-001.json","contentPath":"section-06/lesson-001.md"},
+    {"id":"phonetics-section-06-lesson-002","number":2,"title":"پیتی (ئــ، ا)","path":"section-06/lesson-002.json","contentPath":"section-06/lesson-002.md"},
+    {"id":"phonetics-section-06-lesson-003","number":3,"title":"پیتەکانی (ب، پ، ت)","path":"section-06/lesson-003.json","contentPath":"section-06/lesson-003.md"},
+    {"id":"phonetics-section-06-lesson-004","number":4,"title":"پیتەکانی (خ، ج، چ، ح)","path":"section-06/lesson-004.json","contentPath":"section-06/lesson-004.md","bookLessonNumber":43}
+  ]}]
 }
