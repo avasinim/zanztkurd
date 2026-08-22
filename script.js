@@ -1,24 +1,25 @@
 const menuBtn=document.getElementById("menuBtn"),mobileMenu=document.getElementById("mobileMenu");
-menuBtn.addEventListener("click",()=>mobileMenu.classList.toggle("open"));
-mobileMenu.querySelectorAll("a").forEach(a=>a.addEventListener("click",()=>mobileMenu.classList.remove("open")));
+menuBtn?.addEventListener("click",()=>mobileMenu?.classList.toggle("open"));
+mobileMenu?.querySelectorAll("a").forEach(a=>a.addEventListener("click",()=>mobileMenu.classList.remove("open")));
 
 const cards=[...document.querySelectorAll(".lesson-card")], searchInput=document.getElementById("searchInput"), level=document.getElementById("levelFilter"), topic=document.getElementById("topicFilter"), count=document.getElementById("resultCount"), empty=document.getElementById("empty");
 
 function applyFilters(){
+  if(!searchInput||!level||!topic||!count||!empty) return;
   const q=searchInput.value.trim().toLowerCase(), lv=level.value, tp=topic.value;
   let shown=0;
   cards.forEach(card=>{
-    const title=card.dataset.title.toLowerCase(), cardTopic=card.dataset.topic, cardLevel=card.dataset.level;
+    const title=(card.dataset.title||"").toLowerCase(), cardTopic=card.dataset.topic||"", cardLevel=card.dataset.level||"";
     const ok=(!q||title.includes(q)||card.textContent.toLowerCase().includes(q))&&(!lv||cardLevel===lv)&&(!tp||cardTopic===tp);
     card.style.display=ok?"":"none"; if(ok) shown++;
   });
   count.textContent=`${shown} وانە`; empty.style.display=shown?"none":"block";
 }
-document.getElementById("lessonSearch").addEventListener("submit",e=>{e.preventDefault();applyFilters();document.getElementById("lessons").scrollIntoView({behavior:"smooth"})});
-[searchInput,level,topic].forEach(x=>x.addEventListener("input",applyFilters));
+document.getElementById("lessonSearch")?.addEventListener("submit",e=>{e.preventDefault();applyFilters();document.getElementById("lessons")?.scrollIntoView({behavior:"smooth"})});
+[searchInput,level,topic].filter(Boolean).forEach(x=>x.addEventListener("input",applyFilters));
 document.querySelectorAll(".chip").forEach(chip=>chip.addEventListener("click",()=>{
   document.querySelectorAll(".chip").forEach(c=>c.classList.remove("active")); chip.classList.add("active");
-  topic.value=chip.dataset.topic; applyFilters();
+  if(topic) topic.value=chip.dataset.topic||""; applyFilters();
 }));
 document.querySelector(".newsletter button")?.addEventListener("click",()=>{
   const input=document.querySelector(".newsletter input");
@@ -54,8 +55,6 @@ document.querySelectorAll(".primary-btn").forEach(btn=>{
   }
 });
 
-
-
 const lessonData = {
   "1": {"title":"مۆرفۆلۆژی کوردی: بنەماکان","topic":"مۆرفۆلۆژی","level":"ناوەندی","duration":"٣٠ خولەک","description":"وشەسازی، بنچینە و پێکهاتەی وشە لە زمانی کوردیدا.","detail":"لە ئەم وانەیەدا دەست بە تێگەیشتن لە مۆرفیم، ڕەگ و پاشگرەکان دەکەین و نموونەی کوردی بەکار دەهێنین."},
   "2": {"title":"فۆنەتیکی زمانی کوردی","topic":"فۆنەتیک","level":"سەرەتایی","duration":"٢٥ خولەک","description":"دەنگەکان، جیاوازییە فۆنەتیکییەکان و شێوازی دروستکردنیان.","detail":"دەنگی مرۆڤ، جۆرەکانی دەنگ و جیاوازیی نێوان فۆن و وشە بە شێوەیەکی سادە دەخوێنین."},
@@ -76,19 +75,20 @@ const startLessonBtn=document.getElementById("startLessonBtn");
 
 function openLesson(id){
   const item=lessonData[id];
-  if(!item) return;
+  if(!item||!lessonModal) return;
   lessonTitle.textContent=item.title;
   lessonTopic.textContent=item.topic;
   lessonLevel.textContent=item.level;
   lessonDuration.textContent=item.duration;
   lessonDescription.textContent=item.description;
   lessonDetail.textContent=item.detail;
-  startLessonBtn.dataset.lesson=id;
+  if(startLessonBtn) startLessonBtn.dataset.lesson=id;
   lessonModal.classList.add("open");
   lessonModal.setAttribute("aria-hidden","false");
   document.body.classList.add("modal-open");
 }
 function closeLesson(){
+  if(!lessonModal) return;
   lessonModal.classList.remove("open");
   lessonModal.setAttribute("aria-hidden","true");
   document.body.classList.remove("modal-open");
@@ -146,3 +146,23 @@ document.querySelectorAll('a[href="#"]').forEach(a=>{
     if(label) openInfo(label,"ئەم بەشە هێشتا لە قۆناغی پەرەپێدانە. لە وەشانی داهاتوودا بە ناوەڕۆکی تەواو پڕ دەکرێت.");
   });
 });
+
+// ڕێگاکردنی وانەکانی سیستەمی نوێ بۆ پەڕەی واقعیی وانە.
+// هەموو کارتی کۆن هێشتا دەتوانێت مۆداڵی پێشوو پیشان بدات، بەڵام ئەو وانەیەی
+// کە لە سیستەمی نوێدا هەیە ڕاستەوخۆ دەچێتە lesson.html.
+const lessonRoutes={
+  "1":"phonetics-section-06-lesson-001"
+};
+
+document.querySelectorAll(".learn-btn").forEach(btn=>{
+  const route=lessonRoutes[String(btn.dataset.lesson||"")];
+  if(!route) return;
+  btn.addEventListener("click",()=>{
+    window.location.href=`lesson.html?id=${encodeURIComponent(route)}`;
+  });
+});
+
+// ئەگەر بە لینکێکی ڕاستەوخۆی وانە هاتین، هیچ پێویستی بە مۆداڵ نییە.
+if(window.location.pathname.endsWith("/lesson.html") || window.location.pathname.endsWith("lesson.html")){
+  document.body.classList.add("lesson-route-page");
+}
