@@ -6,6 +6,7 @@
     {"id":"phonetics-section-06-lesson-003","number":3,"title":"پیتەکانی (ب، پ، ت)","path":"section-06/lesson-003.json","contentPath":"section-06/lesson-003.md"},
     {"id":"phonetics-section-06-lesson-004","number":4,"title":"پیتەکانی (خ، ج، چ، ح)","path":"section-06/lesson-004.json","contentPath":"section-06/lesson-004.md","bookLessonNumber":43},
     {"id":"phonetics-section-06-lesson-005","number":5,"title":"پیتی (د، ز، ژ، س، ش)","path":"section-06/lesson-005.json","contentPath":"section-06/lesson-005.md","bookLessonNumber":54},
-    {"id":"phonetics-section-06-lesson-006","number":6,"title":"پیتی (ر، ڕ)","path":"section-06/lesson-006.json","contentPath":"section-06/lesson-006.md","bookLessonNumber":65}
+    {"id":"phonetics-section-06-lesson-006","number":6,"title":"پیتی (ر، ڕ)","path":"section-06/lesson-006.json","contentPath":"section-06/lesson-006.md","bookLessonNumber":65},
+    {"id":"phonetics-section-06-lesson-007","number":7,"title":"پیتە لکاوەکانی (ع، غ، ف، ڤ، ق)","path":"section-06/lesson-007.json","contentPath":"section-06/lesson-007.md","bookLessonNumber":86}
   ]}]
 }
