@@ -1,0 +1,35 @@
+{
+  "id": "lesson-020",
+  "lessonNumber": 20,
+  "bookLessonLabel": "",
+  "section": 7,
+  "title": "کەرستەناکەرتیەکان",
+  "titleFa": "ویژگی‌های زبرزنجیری",
+  "estimatedMinutes": 25,
+  "sections": [
+    {
+      "title": "محتوای وانە",
+      "contentPath": "lessons/section-07/lesson-020.md"
+    }
+  ],
+  "terms": [
+    {"ku": "کەرستەناکەرتیەکان", "en": "Suprasegmental Features"},
+    {"ku": "درێژی", "en": "Duration"},
+    {"ku": "لەرەلەری سەرەکی", "en": "Fundamental Frequency"},
+    {"ku": "توندی", "en": "Intensity"},
+    {"ku": "فۆنێتیکی ناکەرتی", "en": "Prosodic Phonetics"},
+    {"ku": "کرۆنیم", "en": "Chronemic"}
+  ],
+  "exercises": [
+    {"id": 1, "type": "short_answer", "question": "سێ تایبەتمەندیی ئاکۆستیکیی سەرەکی ناوببە."},
+    {"id": 2, "type": "short_answer", "question": "درێژی، لەرەلەری سەرەکی و توندی بە وشەی خۆت ڕوون بکەرەوە."},
+    {"id": 3, "type": "short_answer", "question": "جیاوازی کەرستەی کەرتی و کەرستەناکەرتی چییە؟"},
+    {"id": 4, "type": "short_answer", "question": "دوو نموونە بۆ ئەو دۆخانە بنووسە کە درێژایی دەنگ دەتوانێت گرنگ بێت."}
+  ],
+  "quiz": {
+    "questions": [
+      {"id": 1, "question": "کام سێ تایبەتمەندییە لە دەرسەکەدا وەک تایبەتمەندییە ئاکۆستیکییە سەرەکییەکان باس کراون؟", "options": ["درێژی، لەرەلەری سەرەکی، توندی", "بڕگە، ڕێنووس، مۆرفیم", "کۆما، خاڵ، نیشانەی پرسیار"], "correct": 0},
+      {"id": 2, "question": "Duration بە کام زاراوەی کوردییەوە هاتووە؟", "options": ["توندی", "درێژی", "کرۆنیم"], "correct": 1}
+    ]
+  }
+}
