@@ -1,0 +1,30 @@
+{
+  "id": "writing-system-section-07-lesson-018",
+  "lessonNumber": 18,
+  "title": "ئەلفبێی فۆنێتیکی و ئەلفبێی فۆنێمی",
+  "bookLessonLabel": "بەشی ٧",
+  "estimatedMinutes": 25,
+  "terms": [
+    {"en":"Phonetic alphabet","ku":"ئەلفبێی فۆنێتیکی"},
+    {"en":"Phonemic alphabet","ku":"ئەلفبێی فۆنێمی"},
+    {"en":"IPA","ku":"ئەلفبێی نێودەوڵەتیی فۆنێتیکی"},
+    {"en":"Grapheme","ku":"گرافیم"},
+    {"en":"Left-to-right writing","ku":"نوسینی چەپ‌چین"},
+    {"en":"Right-to-left writing","ku":"نوسینی ڕاست‌چین"}
+  ],
+  "sections": [
+    {"id":"intro","title":"پێشەکی","contentPath":"lesson-018.md"},
+    {"id":"systems","title":"ئەلفبێی فۆنێتیکی و فۆنێمی","contentPath":"lesson-018.md"},
+    {"id":"direction","title":"ڕەوتی نوسین","contentPath":"lesson-018.md"},
+    {"id":"practice","title":"ڕاهێنان","contentPath":"lesson-018.md"}
+  ],
+  "exercises": [
+    {"id":"ex-1","type":"short_answer","prompt":"جیاوازی نێوان ئەلفبێی فۆنێتیکی و ئەلفبێی فۆنێمی بە کورتی ڕوون بکەرەوە."},
+    {"id":"ex-2","type":"short_answer","prompt":"IPA لە چ جۆرە سیستەمی نوسینێکدا بەکاردێت؟"},
+    {"id":"ex-3","type":"short_answer","prompt":"ڕەوتی نوسینی چەپ‌چین و ڕاست‌چین چییە؟"}
+  ],
+  "quiz": [
+    {"question":"کامەیان ناوی ئەلفبێی نێودەوڵەتیی فۆنێتیکییە؟","options":["IPA","Coda","Onset","Orthography"],"answer":0},
+    {"question":"سیستەمی ئەلفبێی فۆنێمی زیاتر لە چی پەیوەندی هەیە؟","options":["گرافیم و بنەمای ئەلفبێی زمان","تەنیا وێنە","تەنیا هێماکانی ژمارە","تەنیا خاڵ‌بەندی"],"answer":0}
+  ]
+}
