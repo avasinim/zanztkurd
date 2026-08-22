@@ -1,0 +1,31 @@
+{
+  "id": "writing-system-section-07-lesson-028",
+  "number": 28,
+  "title": "ڤاوڵی شاراوە",
+  "englishTitle": "Schwa",
+  "section": "section-07",
+  "estimatedMinutes": 20,
+  "contentPath": "section-07/lesson-028.md",
+  "objectives": [
+    "ناساندنی Schwa",
+    "جیاکردنەوەی ئاستی فۆنێتیکی و فۆنۆلۆجی",
+    "تێگەیشتن لە ڤاوڵی شاراوە و دەنگی کەم‌هێز"
+  ],
+  "terms": [
+    {"ku":"ڤاوڵی شاراوە","en":"Schwa"},
+    {"ku":"ڤاوڵ","en":"Vowel"},
+    {"ku":"فۆن","en":"Phone"},
+    {"ku":"فۆنێتیک","en":"Phonetics"},
+    {"ku":"فۆنۆلۆجی","en":"Phonology"}
+  ],
+  "exercises": [
+    {"type":"short-answer","question":"Schwa بە چی ناودەبرێت؟"},
+    {"type":"explanation","question":"بۆچی نابێت هەر دەنگێکی نزیک بە Schwa بە خۆکارانە وەک فۆنێمی سەربەخۆ دابنرێت؟"},
+    {"type":"explanation","question":"جیاوازی نێوان ڤاوڵێکی ئاسایی و ڤاوڵی شاراوە بە وشەی خۆت ڕون بکەرەوە."},
+    {"type":"identification","question":"دو نموونەی دەنگی کەم‌هێز بنووسە و شوێنی ڤاوڵی شاراوە دیاری بکە."}
+  ],
+  "quiz": [
+    {"type":"short-answer","question":"ناوی ئینگلیزی ڤاوڵی شاراوە چییە؟","answer":"Schwa"},
+    {"type":"true-false","question":"Schwa تەنها تایبەت بە زمانی کوردییە.","answer":false}
+  ]
+}
