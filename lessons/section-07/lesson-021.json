@@ -1,0 +1,11 @@
+{
+  "id": "lesson-021",
+  "lessonNumber": 21,
+  "section": 7,
+  "title": "هێز و سترێس",
+  "estimatedMinutes": 30,
+  "contentFile": "lesson-021.md",
+  "topics": ["هێزی واچی", "سترێسی سەرەتایی", "سترێسی ناوەندی", "سترێسی بێ‌هێز", "بەرانبەربونی هێز"],
+  "exercises": 4,
+  "quizQuestions": 3
+}
