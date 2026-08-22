@@ -1,0 +1,24 @@
+{
+  "course": {
+    "id": "phonetics-phonology-kurdik",
+    "title": "فۆنێتیک و فۆنۆلۆجی کوردیک",
+    "author": "سابیر ژاکاو",
+    "language": "ckb"
+  },
+  "sections": [
+    {
+      "id": "section-06",
+      "number": 6,
+      "title": "دەستپێکی سەرەتایی، ناساندنی پیت",
+      "lessons": [
+        {
+          "id": "phonetics-section-06-lesson-001",
+          "number": 1,
+          "title": "دەستپێکی سەرەتایی، ناساندنی پیت",
+          "path": "section-06/lesson-001.json",
+          "contentPath": "section-06/lesson-001.md"
+        }
+      ]
+    }
+  ]
+}
