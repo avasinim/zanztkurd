@@ -1,0 +1,27 @@
+{
+  "id":"writing-system-section-07-lesson-019",
+  "number":19,
+  "title":"ڕون‌کردنەوەی واچ و جوتەیی",
+  "sectionId":"section-07",
+  "bookLessonLabel":"بەشی ٧",
+  "estimatedMinutes":25,
+  "contentPath":"section-07/lesson-019.md",
+  "terms":[
+    {"term":"Phonemic Analysis","ku":"ڕون‌کردنەوەی واچ"},
+    {"term":"Phonemic Arrangement","ku":"ڕیزبونی واچ"},
+    {"term":"Phonematic Unit","ku":"یەکەی واچ"},
+    {"term":"Minimal Pairs","ku":"جوتەیی"},
+    {"term":"Minimal Contrast","ku":"جوتۆکەی بەرانبەر"},
+    {"term":"Contrastive Distribution","ku":"دابەش‌بونی بەرانبەر"}
+  ],
+  "exercises":[
+    {"id":"ex1","type":"short-answer","prompt":"لە نموونەی بار، دار، مار و کار واچەی جیاواز دیاری بکە و کاریگەرییەکەی لەسەر واتا ڕوون بکەوە."},
+    {"id":"ex2","type":"short-answer","prompt":"لە شڕ، شەڕ، شۆڕ، شوڕ و شیڕ واچەی گۆڕاو دیاری بکە."},
+    {"id":"ex3","type":"short-answer","prompt":"یەک جوتەیی لە زمانی کوردی بنووسە."},
+    {"id":"ex4","type":"short-answer","prompt":"جیاوازی جوتەیی و جوتۆکەی بەرانبەر ڕوون بکەوە."}
+  ],
+  "quiz":[
+    {"id":"q1","question":"کام زاراوە بە Minimal Pairs دەوترێت؟","options":["جوتەیی","نێوک","بڕگە","هێشوی کۆنسۆنەنتی"],"correct":0},
+    {"id":"q2","question":"جوتەیی بۆ چی بەکار دێت؟","options":["دیاریکردنی پیتی نەلکاو","دەرخستنی جیاوازی واچی کە دەتوانێت واتا بگۆڕێت","دیاریکردنی خاڵ‌بەندی","دروستکردنی بڕگە"],"correct":1}
+  ]
+}
