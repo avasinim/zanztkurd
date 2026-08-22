@@ -1,0 +1,36 @@
+{
+  "id": "phonetics-section-06-lesson-001",
+  "courseId": "phonetics-phonology-kurdik",
+  "sectionId": "section-06",
+  "lessonNumber": 1,
+  "title": "دەستپێکی سەرەتایی، ناساندنی پیت",
+  "level": "سەرەتایی",
+  "estimatedMinutes": null,
+  "objectives": [
+    "ناسینی مانای پیت و Letter.",
+    "جیاکردنەوەی پیت، فۆن، فۆنێم و گرافیم لە چوارچێوەی وانەکە.",
+    "ئاشنابوون بە پەیوەندی نێوان فۆن و سیستەمی نوسین.",
+    "ناسینی بنەمایی ئەلفبێی هەندێک زوان و بەراوردکردنیان لەگەڵ زوانی کوردیک."
+  ],
+  "sections": [
+    {
+      "id": "intro",
+      "title": "دەستپێک",
+      "contentPath": "section-06/lesson-001.md"
+    }
+  ],
+  "terms": [
+    {"term": "Letter", "kurdish": "پیت"},
+    {"term": "Grapheme", "kurdish": "نیشانەی هەر فۆنێم و فۆنێک"},
+    {"term": "Vowel", "kurdish": "ڤاوڵ"},
+    {"term": "Consonant", "kurdish": "کۆنسۆنەنت"}
+  ],
+  "exercises": [],
+  "quiz": [],
+  "source": {
+    "book": "فۆنێتیک و فۆنۆلۆجی کوردیک",
+    "author": "سابیر ژاکاو",
+    "section": 6,
+    "lesson": 1
+  }
+}
