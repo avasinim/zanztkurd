@@ -22,7 +22,8 @@
     {"id":"section-07","number":7,"title":"سیستمی نوسین","lessons":[
       {"id":"writing-system-section-07-lesson-017","number":17,"title":"سیستمی نوسین","path":"section-07/lesson-017.json","contentPath":"section-07/lesson-017.md","bookLessonLabel":"بەشی ٧"},
       {"id":"writing-system-section-07-lesson-018","number":18,"title":"ئەلفبێی فۆنێتیکی و ئەلفبێی فۆنێمی","path":"section-07/lesson-018.json","contentPath":"section-07/lesson-018.md","bookLessonLabel":"بەشی ٧"},
-      {"id":"writing-system-section-07-lesson-019","number":19,"title":"ڕون‌کردنەوەی واچ و جوتەیی","path":"section-07/lesson-019.json","contentPath":"section-07/lesson-019.md","bookLessonLabel":"بەشی ٧"}
+      {"id":"writing-system-section-07-lesson-019","number":19,"title":"ڕون‌کردنەوەی واچ و جوتەیی","path":"section-07/lesson-019.json","contentPath":"section-07/lesson-019.md","bookLessonLabel":"بەشی ٧"},
+      {"id":"writing-system-section-07-lesson-020","number":20,"title":"کەرستەناکەرتیەکان","path":"section-07/lesson-020.json","contentPath":"section-07/lesson-020.md","bookLessonLabel":"بەشی ٧"}
     ]}
   ]
 }
