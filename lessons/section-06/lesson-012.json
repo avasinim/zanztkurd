@@ -1,0 +1,27 @@
+{
+  "id":"phonetics-section-06-lesson-012",
+  "number":12,
+  "bookLessonNumber":15,
+  "sectionId":"section-06",
+  "title":"بڕگەبەندی",
+  "level":"ناوەندی",
+  "durationMinutes":40,
+  "contentPath":"section-06/lesson-012.md",
+  "objectives":["ناسینی چەمکی بڕگە","تێگەیشتن لە پەیوەندی بڕگە و سیستەمی فۆنۆلۆجی","جیاکردنەوەی فۆنە بڕگەیی و نابڕگەیی","بڕگەبەندی‌کردنی وشەکان بە پشتبەستن بە پێکهاتەی فۆنۆلۆجی"],
+  "terms":[{"en":"Syllable","ku":"بڕگە"},{"en":"Phonological System","ku":"سیستەمی فۆنۆلۆجی"},{"en":"Dependency Phonology","ku":"فۆنۆلۆجی پەیوەستدار"},{"en":"Componentiality","ku":"پەیوەندی پێکهاتەیی"},{"en":"Constituency","ku":"وەچەپێکهاتەیی"}],
+  "exercises":[
+    {"id":"ex1","type":"short-answer","question":"پیت چیە؟"},
+    {"id":"ex2","type":"short-answer","question":"پێنج وشە بنوسە و بڕگەبەندی بکە."},
+    {"id":"ex3","type":"short-answer","question":"پیتە بزوێنەکان چەنددانەن؟"},
+    {"id":"ex4","type":"short-answer","question":"پێنج وشە بنوسە پیتی بزوێنی تێدا بێت."},
+    {"id":"ex5","type":"short-answer","question":"پێنج وشە بنوسە پیتی نەبزوێنی تێدا بێت."},
+    {"id":"ex6","type":"classification","question":"ئەم وشانە چەند بڕگەن؟","items":["دارستان","کوردستان","ڕێبەندان","سەهۆڵبەندان","بەفرانبار","نێچیروان"]}
+  ],
+  "quiz":[
+    {"question":"Syllable بە کوردی چییە؟","options":["بڕگە","فۆنێم","گرافیم","تکیە"],"answer":0},
+    {"question":"لە وشەیەکدا بە گشتی ژمارەی بڕگەکان لەگەڵ چی پەیوەندی هەیە؟","options":["ژمارەی ڤاوڵەکان","ژمارەی کۆنسۆنەنتەکان","ژمارەی پیتەکان","ژمارەی واتاکان"],"answer":0},
+    {"question":"کامەیان نموونەی وشەی بۆ بڕگەبەندی لە وانەکەدا هاتووە؟","options":["دارستان","گرافیم","فۆنێم","ڕێنووس"],"answer":0},
+    {"question":"کام گروپ بۆ فۆنە نابڕگەییەکان نموونەیە؟","options":["ب، پ، ت","ا، ە، ێ","و، ۆ، ۊ","ە، ا، ی"],"answer":0}
+  ],
+  "source":{"book":"فۆنێتیک و فۆنۆلۆجی کوردیک","author":"سابیر ژاکاو","section":6,"lesson":15}
+}
