@@ -1,0 +1,27 @@
+{
+  "id":"phonetics-section-06-lesson-010",
+  "number":10,
+  "bookLessonNumber":129,
+  "sectionId":"section-06",
+  "title":"پیتی (ێ، ە)",
+  "subtitle":"Êê, Ee",
+  "level":"ناوەندی",
+  "durationMinutes":35,
+  "contentPath":"section-06/lesson-010.md",
+  "objectives":["ناسینی پیتی ێ و ە","جیاکردنەوەی ڕۆڵی ڤاوڵی پیتی ێ لە دۆخی جیاواز","تێگەیشتن لە پیتی ە و جێگای ئەو لە وشەدا","پراکتیکی نووسینی وشە بە ێ و ە"],
+  "terms":[{"en":"Vowel","ku":"ڤاوڵ"},{"en":"Consonant","ku":"کۆنسۆنەنت"},{"en":"Phoneme","ku":"فۆنێم"},{"en":"Grapheme","ku":"گرافیم"},{"en":"Orthography","ku":"ڕێنوس"}],
+  "exercises":[
+    {"id":"ex1","type":"short-answer","question":"پێنج وشە بنوسە کە پیتی (ۆ)یان تێدا بێت."},
+    {"id":"ex2","type":"short-answer","question":"پێنج وشە بنوسە کە پیتی (ە)یان تێدا بێت."},
+    {"id":"ex3","type":"short-answer","question":"پێنج وشە بنوسە کە پیتی (ێ)یان تێدا بێت."},
+    {"id":"ex4","type":"short-answer","question":"جیاوازی پیتی (ێ) و (ە) لە چ دایە؟"},
+    {"id":"ex5","type":"short-answer","question":"وشە نادروستەکان لە نموونەکانی وانەکە دیاری بکە و هۆکارەکەیان باس بکە."}
+  ],
+  "quiz":[
+    {"question":"وانەی ١٢٩ لەسەر کام پیتانە؟","options":["ێ و ە","ک و گ","ر و ڕ","ب و پ"],"answer":0},
+    {"question":"پیتی (ە) لە چ جۆرێکە؟","options":["ڤاوڵ","کۆنسۆنەنت","هجا","تکیە"],"answer":0},
+    {"question":"بۆچی (ە) لە سەرەتای وشە بە تەنیا نایەت؟","options":["پیتی یارمەتیدەر پێویستە","چونکە کۆنسۆنەنتە","چونکە نەلکاوە","چونکە فۆنێم نییە"],"answer":0},
+    {"question":"کامەیان نموونەی وشەی دروستە؟","options":["بێز","داێک","ۆانە","ێیستا"],"answer":0}
+  ],
+  "source":{"book":"فۆنێتیک و فۆنۆلۆجی کوردیک","author":"سابیر ژاکاو","section":6,"lesson":10,"bookLessonNumber":129}
+}
