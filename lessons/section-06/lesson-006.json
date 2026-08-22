@@ -1,0 +1,21 @@
+{
+  "id":"phonetics-section-06-lesson-006","courseId":"phonetics-phonology-kurdik","sectionId":"section-06","lessonNumber":6,"bookLessonNumber":65,
+  "title":"پیتی (ر، ڕ)","level":"سەرەتایی","estimatedMinutes":45,
+  "objectives":["جیاکردنەوەی ر و ڕ لە نووسین و بێژەکردن.","تێگەیشتن لە نزم/ناسک و بەرز/قورس لە باسکردنی ئەم دو فۆنە.","ناسینی نموونە وشە جوتەکان کە بە گۆڕینی ر و ڕ واتا دەگۆڕن.","تێگەیشتن لە شێوەی دەرکەوتنی ر و ڕ لە شوێنە جیاوازەکانی وشە.","ئاشنابوون بە چەمکەکانی Sound Distribution و Lenis و Fortis."],
+  "sections":[{"id":"main","title":"ر و ڕ","contentPath":"section-06/lesson-006.md"}],
+  "terms":[{"term":"Lenis","kurdish":"نزم"},{"term":"Fortis","kurdish":"بەرز"},{"term":"Sound Distribution","kurdish":"دابەش‌بونی دەنگ"},{"term":"Velarization","kurdish":"بەر مەڵاشودانی نەرم"},{"term":"Velarized Consonant","kurdish":"بە مەڵاشوکراوی کۆنسۆنەنت"}],
+  "exercises":[
+    {"id":"ex-001","type":"short-answer","question":"پێنج وشە بنووسە کە پیتی (ر)ی تێدا بێت.","required":true},
+    {"id":"ex-002","type":"short-answer","question":"پێنج وشە بنووسە کە پیتی (ڕ)ی تێدا بێت.","required":true},
+    {"id":"ex-003","type":"short-answer","question":"جیاوازی پیتی (ڕ) و (ر) چییە؟","required":true},
+    {"id":"ex-004","type":"short-answer","question":"بە پشتبەستن بە وانەکە، بۆچی بەکاربردنی (ڕ) لە شوێنی (ر) یان پێچەوانەی ئەوە، دەتوانێت واتا بگۆڕێت؟","required":true}
+  ],
+  "quiz":[
+    {"id":"q-001","type":"multiple-choice","question":"لە وانەکەدا (ر) بە چی ناسراوە؟","options":["نزم و سوک/ناسک","بەرز و قورس","ڤاوڵ","پیتی لکاو"],"correct":0},
+    {"id":"q-002","type":"multiple-choice","question":"لە وانەکەدا (ڕ) بە چی ناسراوە؟","options":["نزم","بەرز و قورس","ڤاوڵی نزم","گرافیمێکی بێ دەنگ"],"correct":1},
+    {"id":"q-003","type":"multiple-choice","question":"کام جوتەیە نموونەی جیاوازیی واتایی بە هۆی ر/ڕە؟","options":["کەر / کەڕ","دایک / دادە","بە / پە","خاڵ / خال"],"correct":0},
+    {"id":"q-004","type":"multiple-choice","question":"Sound Distribution بە کوردی چۆن هاتووە؟","options":["دابەش‌بونی دەنگ","بەرزبوونی دەنگ","ڕێنووس","بڕگە"],"correct":0}
+  ],
+  "crossReferences":[{"section":6,"title":"پیتە نەلکاوەکان","reason":"ر و ڕ لە وانەکەدا وەک پیتە نەلکاوەکان باس کراون."}],
+  "source":{"book":"فۆنێتیک و فۆنۆلۆجی کوردیک","author":"سابیر ژاکاو","bookLessonNumber":65}
+}
