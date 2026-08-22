@@ -1,0 +1,27 @@
+{
+  "id":"phonetics-section-06-lesson-014",
+  "number":14,
+  "bookLessonLabel":"١٤",
+  "sectionId":"section-06",
+  "title":"زنجیرەی هێشوی کۆنسۆنەنتی",
+  "subtitle":"Consonant Cluster",
+  "level":"پێشکەوتوو",
+  "durationMinutes":40,
+  "contentPath":"section-06/lesson-014.md",
+  "objectives":["ناسینی زنجیرەی هێشوی کۆنسۆنەنتی","جیاکردنەوەی هێشوی سەرەتایی، دولابەندی و کۆتایی","تێگەیشتن لە Onset و Coda","ناسینی سازگەی دویەیی لە نموونەکانی وەک خو و گو"],
+  "terms":[{"en":"Consonant Cluster","ku":"زنجیرەی هێشوی کۆنسۆنەنتی"},{"en":"Initial Consonant Cluster","ku":"هێشوی کۆنسۆنەنتی سەرەتایی"},{"en":"Final Consonant Cluster","ku":"هێشوی کۆنسۆنەنتی کۆتایی"},{"en":"Onset","ku":"هێشوی پێشەوە"},{"en":"Coda","ku":"هێشوی پاشەوە"},{"en":"Secondary Articulations","ku":"سازگەی دویەیی"}],
+  "exercises":[
+    {"id":"ex1","type":"short-answer","question":"زنجیرەی هێشوی کۆنسۆنەنتی چییە؟"},
+    {"id":"ex2","type":"short-answer","question":"پێنج نموونەی وشە بنوسە کە زنجیرەی هێشوی کۆنسۆنەنتی تێدا بێت."},
+    {"id":"ex3","type":"short-answer","question":"جیاوازی هێشوی سەرەتایی و هێشوی کۆتایی ڕوون بکەوە."},
+    {"id":"ex4","type":"short-answer","question":"لە وشەکانی خو، گو و کو، سازگەی دویەیی چۆن دەردەکەوێت؟"},
+    {"id":"ex5","type":"short-answer","question":"ئەم وشانە بەپێی هێشوی کۆنسۆنەنتی شی بکەوە: پشت، ماست، دەست، دەشت، ڕاست."}
+  ],
+  "quiz":[
+    {"question":"زنجیرەی هێشوی کۆنسۆنەنتی لە چی پێک دێت؟","options":["دو یان چەند کۆنسۆنەنت بەبێ ڤاوڵ","تەنها دو ڤاوڵ","یەک ڤاوڵ و یەک تکیە","تەنها یەک کۆنسۆنەنت"],"answer":0},
+    {"question":"Onset بە چی دەوترێت؟","options":["هێشوی پێشەوە","هێشوی پاشەوە","ڤاوڵی ناوەڕاست","تکیە"],"answer":0},
+    {"question":"Coda بە چی دەوترێت؟","options":["هێشوی کۆتایی","هێشوی سەرەتایی","بڕگە","ڤاوڵ"],"answer":0},
+    {"question":"کامەیان نموونەی سازگەی دویەییە؟","options":["خو ← /xʷ/","دار ← /d/","ئاو ← /a/","کەس ← /k/"],"answer":0}
+  ],
+  "source":{"book":"فۆنێتیک و فۆنۆلۆجی کوردیک","author":"سابیر ژاکاو","section":6,"lesson":14}
+}
