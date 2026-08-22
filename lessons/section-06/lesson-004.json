@@ -1,0 +1,26 @@
+{
+  "id":"phonetics-section-06-lesson-004",
+  "courseId":"phonetics-phonology-kurdik",
+  "sectionId":"section-06",
+  "lessonNumber":4,
+  "title":"پیتەکانی (خ، ج، چ، ح)",
+  "level":"سەرەتایی",
+  "estimatedMinutes":40,
+  "objectives":["ناسینی خ، ج، چ، ح و شێوەی نووسینیان.","جیاکردنەوەی دەنگی ئەم پیتانە.","ناسینی شێوەی دەرکەوتنی پیتەکان لە سەرەتا، ناوەڕاست و کۆتایی وشە.","پەیوەستکردنی پیت و فۆن بە سیستەمی ئەلفبێی کوردیک."],
+  "sections":[{"id":"content","title":"پیتەکانی خ، ج، چ، ح","contentPath":"section-06/lesson-004.md"}],
+  "terms":[{"term":"Xx","kurdish":"خ"},{"term":"Cc","kurdish":"ج"},{"term":"Çç","kurdish":"چ"},{"term":"Ĥĥ","kurdish":"ح"},{"term":"Consonant","kurdish":"کۆنسۆنەنت"}],
+  "exercises":[
+    {"id":"ex-001","type":"short-answer","question":"پێنج وشە بنووسە کە پیتی (خ)یان تێدا بێت."},
+    {"id":"ex-002","type":"short-answer","question":"پێنج وشە بنووسە کە پیتی (چ)یان تێدا بێت."},
+    {"id":"ex-003","type":"short-answer","question":"پێنج وشە بنووسە کە پیتی (ح)یان تێدا بێت."},
+    {"id":"ex-004","type":"short-answer","question":"پێنج وشە بنووسە کە پیتی (ج)یان تێدا بێت."},
+    {"id":"ex-005","type":"short-answer","question":"کام لەم پیتانە بەڕەچەڵەک کوردی نین؟"}
+  ],
+  "quiz":[
+    {"id":"q-001","type":"multiple-choice","question":"کامیان نیشانەی پیتی خە؟","options":["Xx","Cc","Çç","Ĥĥ"],"correct":0},
+    {"id":"q-002","type":"multiple-choice","question":"کامیان پیتی چە؟","options":["خ","ج","چ","ح"],"correct":2},
+    {"id":"q-003","type":"multiple-choice","question":"لە وانەکەدا خ، ج، چ و ح لە چ جۆرە پیتانەن؟","options":["ڤاوڵ","کۆنسۆنەنت","نیمەڤاوڵ","بڕگە"],"correct":1},
+    {"id":"q-004","type":"multiple-choice","question":"پیتی خ لە سەرەتای وشەدا بە کام شێوەیە؟","options":["خــ","ــخــ","ــخ","خ"],"correct":0}
+  ],
+  "source":{"book":"فۆنێتیک و فۆنۆلۆجی کوردیک","author":"سابیر ژاکاو","lesson":43}
+}
