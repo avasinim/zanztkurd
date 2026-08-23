@@ -21,6 +21,9 @@
       {"id":"writing-system-section-07-lesson-031","number":31,"title":"بڕگەی سوک و بڕگەی گران","path":"section-07/lesson-031.json","contentPath":"section-07/lesson-031.md"},
       {"id":"writing-system-section-07-lesson-032","number":32,"title":"لێکچوونی بڕگە و گۆڕانی قاڵبی بڕگە","path":"section-07/lesson-032.json","contentPath":"section-07/lesson-032.md"},
       {"id":"writing-system-section-07-lesson-033","number":33,"title":"جێگۆڕکێی جێکەوتەیی","path":"section-07/lesson-033.json","contentPath":"section-07/lesson-033.md"}
+    ]},
+    {"id":"section-10","number":10,"title":"فۆنێتیک و فۆنۆلۆجی مێژوویی","lessons":[
+      {"id":"phonetics-section-10-lesson-034","number":34,"title":"فۆنێتیک و فۆنۆلۆجی مێژوویی","path":"section-10/lesson-034.json","contentPath":"section-10/lesson-034.md"}
     ]}
   ]
 }
