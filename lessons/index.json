@@ -23,7 +23,8 @@
       {"id":"writing-system-section-07-lesson-033","number":33,"title":"جێگۆڕکێی جێکەوتەیی","path":"section-07/lesson-033.json","contentPath":"section-07/lesson-033.md"}
     ]},
     {"id":"section-10","number":10,"title":"فۆنێتیک و فۆنۆلۆجی مێژوویی","lessons":[
-      {"id":"phonetics-section-10-lesson-034","number":34,"title":"فۆنێتیک و فۆنۆلۆجی مێژوویی","path":"section-10/lesson-034.json","contentPath":"section-10/lesson-034.md"}
+      {"id":"phonetics-section-10-lesson-034","number":34,"title":"فۆنێتیک و فۆنۆلۆجی مێژوویی","path":"section-10/lesson-034.json","contentPath":"section-10/lesson-034.md"},
+      {"id":"phonetics-section-10-lesson-035","number":35,"title":"ڤاوڵەکان و بنەمای بەرهەمهێنانیان","path":"section-10/lesson-035.json","contentPath":"section-10/lesson-035.md"}
     ]}
   ]
 }
