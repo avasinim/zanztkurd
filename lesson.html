@@ -2,7 +2,7 @@
 <html lang="ckb" dir="rtl">
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="robots" content="index, follow">
   <meta name="description" content="وانەی فێربوونی زمانی کوردی — فۆنێتیک و فۆنۆلۆجی کوردیک">
   <title>وانە | ئاڤاشین</title>
@@ -53,7 +53,19 @@
   async function getText(url){const r=await fetch(url,{cache:'no-store'});if(!r.ok)throw Error(url);return r.text()}
   function isDone(id){return localStorage.getItem(`lesson-completed:${id}`)==='true'||localStorage.getItem(`lesson-progress:${id}`)==='completed'}
   function showLockedLesson(previous){titleEl.textContent='ئەم وانەیە هێشتا قفڵە';metaEl.textContent='بۆ دەستپێکردنی ئەم وانەیە، سەرەتا وانەی پێشوو تەواو بکە.';contentEl.hidden=true;actionsEl.hidden=true;termsSection.hidden=true;exercisesSection.hidden=true;quizSection.hidden=true;navEl.hidden=true;progressEl.hidden=true;errorEl.hidden=false;errorEl.innerHTML=`🔒 پێویستی بە تەواوکردنی وانەی پێشوو هەیە: <strong>${escapeHtml(previous?.title||'وانەی پێشوو')}</strong><div class="lesson-actions"><a class="lesson-btn" href="lessons/catalog.html">گەڕانەوە بۆ فهرستی وانەکان</a></div>`;document.title='وانە قفڵە | ئاڤاشین'}
+  function installCopyAttribution(){
+    document.addEventListener('copy',event=>{
+      const selection=window.getSelection();
+      if(!selection||selection.isCollapsed)return;
+      const selected=selection.toString().trim();
+      if(!selected)return;
+      const source=`\n\n—\nفۆنێتیک و فۆنۆلۆجی کوردیک\nنووسەر: سابیر ژاکاو\nئاڤاشین | https://avasinim.github.io/zanztkurd/`;
+      const payload=selected+source;
+      if(event.clipboardData){event.clipboardData.setData('text/plain',payload);event.preventDefault();}
+    });
+  }
   async function loadLesson(){try{const catalog=await getJson(catalogUrl);const allLessons=(catalog.sections||[]).flatMap(s=>(s.lessons||[]).map(l=>({...l,section:s})));const section=(catalog.sections||[]).find(s=>(s.lessons||[]).some(l=>l.id===requestedId));const lessonRef=section?.lessons?.find(l=>l.id===requestedId);if(!lessonRef)throw Error('lesson-not-found');const progression={enabled:false,requirePreviousCompletion:true,...(catalog.progression||{})};const globalIndex=allLessons.findIndex(l=>l.id===requestedId);if(progression.enabled&&progression.requirePreviousCompletion&&globalIndex>0){const previous=allLessons[globalIndex-1];if(previous&&!isDone(previous.id)){showLockedLesson(previous);return}}const data=await getJson(`lessons/${lessonRef.path}`);const contentPath=data.contentPath||data.content_file||lessonRef.contentPath;if(!contentPath)throw Error('content-path-missing');const markdown=await getText(`lessons/${contentPath}`);const lessonNumber=data.number??lessonRef.number;const storageId=lessonRef.id;eyebrowEl.textContent=`وانەی ${lessonNumber}`;titleEl.textContent=data.title||lessonRef.title;metaEl.textContent=`${data.level||'ناوەندی'} · ${data.durationMinutes??data.estimatedMinutes??'—'} خولەک · ${data.source?.author||''}${data.bookLessonNumber||data.source?.bookLessonNumber?` · کتێب: ${data.bookLessonNumber??data.source.bookLessonNumber}`:''}`;contentEl.innerHTML=renderMarkdown(markdown);objectivesEl.innerHTML=(data.objectives?.length?`<ul>${data.objectives.map(i=>`<li>${escapeHtml(i)}</li>`).join('')}</ul>`:'<p>ئامانجەکانی وانە لە ناوەڕۆکی وانەکەدا دیاریکراون.</p>');renderTerms(data.terms);renderExercises(data.exercises,storageId);renderQuiz(data.quiz);actionsEl.hidden=false;updateProgress(storageId);completeBtn.onclick=()=>{localStorage.setItem(`lesson-progress:${storageId}`,'completed');localStorage.setItem(`lesson-completed:${storageId}`,'true');updateProgress(storageId);saveScroll(storageId)};renderNavigation(section,lessonRef);document.title=`${data.title||lessonRef.title} | ئاڤاشین`;restoreScroll(storageId);let timer;window.addEventListener('scroll',()=>{clearTimeout(timer);timer=setTimeout(()=>saveScroll(storageId),250)},{passive:true});window.addEventListener('beforeunload',()=>saveScroll(storageId))}catch(e){console.error(e);titleEl.textContent='کێشەیەک لە بارکردنی وانە ڕوویدا';metaEl.textContent='';contentEl.hidden=true;errorEl.hidden=false;errorEl.textContent='ناوەڕۆکی وانەکە نەدۆزرایەوە یان فایلەکانی وانە بە دروستی بار نەبوون.'}}
+  installCopyAttribution();
   loadLesson();
 })();
 </script>
