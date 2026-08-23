@@ -24,7 +24,8 @@
     ]},
     {"id":"section-10","number":10,"title":"فۆنێتیک و فۆنۆلۆجی مێژوویی","lessons":[
       {"id":"phonetics-section-10-lesson-034","number":34,"title":"فۆنێتیک و فۆنۆلۆجی مێژوویی","path":"section-10/lesson-034.json","contentPath":"section-10/lesson-034.md"},
-      {"id":"phonetics-section-10-lesson-035","number":35,"title":"ڤاوڵەکان و بنەمای بەرهەمهێنانیان","path":"section-10/lesson-035.json","contentPath":"section-10/lesson-035.md"}
+      {"id":"phonetics-section-10-lesson-035","number":35,"title":"ڤاوڵەکان و بنەمای بەرهەمهێنانیان","path":"section-10/lesson-035.json","contentPath":"section-10/lesson-035.md"},
+      {"id":"phonetics-section-10-lesson-036","number":36,"title":"پیتەکانی (ب، پ، ت)","path":"section-10/lesson-036.json","contentPath":"section-10/lesson-036.md"}
     ]}
   ]
 }
