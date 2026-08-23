@@ -1,5 +1,6 @@
 {
   "course": {"id":"phonetics-phonology-kurdik","title":"فۆنێتیک و فۆنۆلۆجی کوردیک","author":"سابیر ژاکاو","language":"ckb"},
+  "progression": {"enabled": false, "requirePreviousCompletion": true},
   "sections": [
     {"id":"section-06","number":6,"title":"دەستپێکی سەرەتایی، ناساندنی پیت","lessons":[]},
     {"id":"section-07","number":7,"title":"سیستمی نوسین","lessons":[
