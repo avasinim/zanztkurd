@@ -10,7 +10,7 @@
   "objectives": [
     "ناسینی پیتەکانی ڵ، ل، م و ن.",
     "تێگەیشتن لە شێوەکانی دەرکەوتنی ئەم پیتانە لە سەرەتا، ناوەڕاست و کۆتایی وشە.",
-    "جیاکردنەوەی ڵ و ل لە ڕووی دەنگ و نووسینەوە.",
+    "جیاکردنەوەی ڵ و ل لە ڕوی دەنگ و نوسینەوە.",
     "تێگەیشتن لە پەیوەندیی پیتە لکاوەکان و سیستەمی نوسینی کوردیک."
   ],
   "sections": [
@@ -26,17 +26,17 @@
     {"term":"Agglutinating","kurdish":"زوانی لکاو"}
   ],
   "exercises": [
-    {"id":"ex-001","type":"short-answer","question":"پێنج وشە بنووسە کە پیتی (ڵ)یان تێدا بێت.","required":true},
-    {"id":"ex-002","type":"short-answer","question":"پێنج وشە بنووسە کە پیتی (ل)یان تێدا بێت.","required":true},
-    {"id":"ex-003","type":"short-answer","question":"پێنج وشە بنووسە کە پیتی (م)یان تێدا بێت.","required":true},
-    {"id":"ex-004","type":"short-answer","question":"پێنج وشە بنووسە کە پیتی (ن)یان تێدا بێت.","required":true},
-    {"id":"ex-005","type":"short-answer","question":"جیاوازیی نێوان (ڵ) و (ل) لە ڕووی دەنگ و نووسینەوە ڕوون بکەرەوە.","required":true}
+    {"id":"ex-001","type":"short-answer","question":"پێنج وشە بنوسە کە پیتی (ڵ)یان تێدا بێت.","required":true},
+    {"id":"ex-002","type":"short-answer","question":"پێنج وشە بنوسە کە پیتی (ل)یان تێدا بێت.","required":true},
+    {"id":"ex-003","type":"short-answer","question":"پێنج وشە بنوسە کە پیتی (م)یان تێدا بێت.","required":true},
+    {"id":"ex-004","type":"short-answer","question":"پێنج وشە بنوسە کە پیتی (ن)یان تێدا بێت.","required":true},
+    {"id":"ex-005","type":"short-answer","question":"جیاوازیی نێوان (ڵ) و (ل) لە ڕوی دەنگ و نوسینەوە ڕون بکەرەوە.","required":true}
   ],
   "quiz": [
     {"id":"q-001","type":"multiple-choice","question":"کام کۆمەڵە پیتەکانی وانەی ٩ ـە؟","options":["ڵ، ل، م، ن","ک، گ","ر، ڕ","ع، غ، ف، ڤ، ق"],"correct":0},
-    {"id":"q-002","type":"multiple-choice","question":"وانەی ٩ لە کتێبدا بە چ ژمارەیەک هاتووە؟","options":["86","97","118","129"],"correct":2},
-    {"id":"q-003","type":"multiple-choice","question":"لە دەقی وانەکەدا (م) چەند شێوەی سەرەکیی ئەلۆگرافی هەیە؟","options":["دوو","سێ","چوار","پێنج"],"correct":2},
-    {"id":"q-004","type":"multiple-choice","question":"کام زاراوە بە مانای Allograph هاتووە؟","options":["ئەلۆگراف","فۆنێم","بڕگە","ڕێنووس"],"correct":0}
+    {"id":"q-002","type":"multiple-choice","question":"وانەی ٩ لە کتێبدا بە چ ژمارەیەک هاتوە؟","options":["86","97","118","129"],"correct":2},
+    {"id":"q-003","type":"multiple-choice","question":"لە دەقی وانەکەدا (م) چەند شێوەی سەرەکیی ئەلۆگرافی هەیە؟","options":["دو","سێ","چوار","پێنج"],"correct":2},
+    {"id":"q-004","type":"multiple-choice","question":"کام زاراوە بە مانای Allograph هاتوە؟","options":["ئەلۆگراف","فۆنێم","بڕگە","ڕێنوس"],"correct":0}
   ],
   "source": {"book":"فۆنێتیک و فۆنۆلۆجی کوردیک","author":"سابیر ژاکاو","section":6,"lesson":9,"bookLessonNumber":118}
 }
