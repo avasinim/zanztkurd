@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="robots" content="index, follow">
-  <meta name="description" content="وانەی فێربوونی زمانی کوردی — فۆنێتیک و فۆنۆلۆجی کوردیک">
+  <meta name="description" content="وانەی فێربونی زمانی کوردی — فۆنێتیک و فۆنۆلۆجی کوردیک">
   <title>وانە | ئاڤاشین</title>
   <link rel="stylesheet" href="style.css">
   <style>
@@ -16,13 +16,13 @@
   <div class="v2-shell v2-nav">
     <a class="v2-brand" href="index.html" aria-label="ئاڤاشین"><span class="v2-brand-mark">ئا</span><span>ئاڤاشین</span></a>
     <nav class="v2-nav-links" aria-label="ناڤیگیشن">
-      <a href="learning.html">فێربوون</a><a href="linguistics.html">زمانەوانی</a><a href="lessons/catalog.html">وانەکان</a><a href="index.html#books">کتێبخانە</a><a href="sabir-zhakaw.html">سابیر ژاکاو</a>
+      <a href="learning.html">فێربون</a><a href="linguistics.html">زمان‌ناسی</a><a href="lessons/catalog.html">وانەکان</a><a href="index.html#books">کتێب‌خانە</a><a href="sabir-zhakaw.html">سابیر ژاکاو</a>
     </nav>
-    <a class="v2-nav-cta" href="learning.html">دەستپێکردن <span>←</span></a>
+    <a class="v2-nav-cta" href="learning.html">دەست‌پێ‌کردن <span>←</span></a>
     <button class="v2-menu" id="menuBtn" aria-label="مینیۆ">☰</button>
   </div>
   <div class="v2-mobile-menu" id="mobileMenu">
-    <a href="learning.html">فێربوون</a><a href="linguistics.html">زمانەوانی</a><a href="lessons/catalog.html">وانەکان</a><a href="index.html#books">کتێبخانە</a><a href="sabir-zhakaw.html">سابیر ژاکاو</a>
+    <a href="learning.html">فێربون</a><a href="linguistics.html">زمان‌ناسی</a><a href="lessons/catalog.html">وانەکان</a><a href="index.html#books">کتێب‌خانە</a><a href="sabir-zhakaw.html">سابیر ژاکاو</a>
   </div>
 </header>
 <main>
@@ -35,7 +35,7 @@
     <div id="lessonActions" class="lesson-actions" hidden><button id="completeLesson" class="lesson-btn" type="button">وانەکە تەواو بکە</button></div>
     <nav id="lessonNav" class="lesson-nav" aria-label="ناوبەری وانەکان" hidden></nav>
     <div id="lessonError" class="content-page-note lesson-error" hidden></div>
-  </article><aside class="content-page-side"><h3>ئەم وانەیە</h3><div id="lessonObjectives"></div><hr><a href="learning.html">فهرستی فێربوون</a><a href="index.html">پەڕەی سەرەکی</a></aside></div></section>
+  </article><aside class="content-page-side"><h3>ئەم وانەیە</h3><div id="lessonObjectives"></div><hr><a href="learning.html">فهرستی فێربون</a><a href="index.html">پەڕەی سەرەکی</a></aside></div></section>
 </main>
 <script>
 (() => {
@@ -64,7 +64,7 @@
   async function getJson(url){const r=await fetch(url,{cache:'no-store'});if(!r.ok)throw Error(url);return r.json()}
   async function getText(url){const r=await fetch(url,{cache:'no-store'});if(!r.ok)throw Error(url);return r.text()}
   function isDone(id){return localStorage.getItem(`lesson-completed:${id}`)==='true'||localStorage.getItem(`lesson-progress:${id}`)==='completed'}
-  function showLockedLesson(previous){titleEl.textContent='ئەم وانەیە هێشتا قفڵە';metaEl.textContent='بۆ دەستپێکردنی ئەم وانەیە، سەرەتا وانەی پێشوو تەواو بکە.';contentEl.hidden=true;actionsEl.hidden=true;termsSection.hidden=true;exercisesSection.hidden=true;quizSection.hidden=true;navEl.hidden=true;progressEl.hidden=true;errorEl.hidden=false;errorEl.innerHTML=`🔒 پێویستی بە تەواوکردنی وانەی پێشوو هەیە: <strong>${escapeHtml(previous?.title||'وانەی پێشوو')}</strong><div class="lesson-actions"><a class="lesson-btn" href="lessons/catalog.html">گەڕانەوە بۆ فهرستی وانەکان</a></div>`;document.title='وانە قفڵە | ئاڤاشین'}
+  function showLockedLesson(previous){titleEl.textContent='ئەم وانەیە هێشتا قفڵە';metaEl.textContent='بۆ دەست‌پێ‌کردنی ئەم وانەیە، سەرەتا وانەی پێشوو تەواو بکە.';contentEl.hidden=true;actionsEl.hidden=true;termsSection.hidden=true;exercisesSection.hidden=true;quizSection.hidden=true;navEl.hidden=true;progressEl.hidden=true;errorEl.hidden=false;errorEl.innerHTML=`🔒 پێویستی بە تەواوکردنی وانەی پێشوو هەیە: <strong>${escapeHtml(previous?.title||'وانەی پێشوو')}</strong><div class="lesson-actions"><a class="lesson-btn" href="lessons/catalog.html">گەڕانەوە بۆ فهرستی وانەکان</a></div>`;document.title='وانە قفڵە | ئاڤاشین'}
   function installCopyAttribution(){
     document.addEventListener('copy',event=>{
       const selection=window.getSelection();
