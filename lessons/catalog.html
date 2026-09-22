@@ -11,7 +11,19 @@
 </style>
 </head>
 <body class="content-page">
-<header class="header"><nav class="nav container"><a href="../index.html" class="brand" aria-label="ئاڤاشین"><span class="brand-mark">ئا</span><span>ئاڤاشین</span></a><div class="nav-links"><a href="../learning.html">فێربوونی زمانی کوردی</a><a href="../linguistics.html">زمانەوانی کوردی</a><a href="../sabir-zhakaw.html">سابیر ژاکاو</a><a href="../index.html#books">کتێبەکان</a></div><div class="nav-actions"><a class="ghost-btn" href="../learning.html">گەڕانەوە</a></div></nav></header>
+<header class="v2-header site-unified-header">
+  <div class="v2-shell v2-nav">
+    <a class="v2-brand" href="../index.html" aria-label="ئاڤاشین"><span class="v2-brand-mark">ئا</span><span>ئاڤاشین</span></a>
+    <nav class="v2-nav-links" aria-label="ناڤیگیشن">
+      <a href="../learning.html">فێربوون</a><a href="../linguistics.html">زمانەوانی</a><a href="catalog.html">وانەکان</a><a href="../index.html#books">کتێبخانە</a><a href="../sabir-zhakaw.html">سابیر ژاکاو</a>
+    </nav>
+    <a class="v2-nav-cta" href="../learning.html">دەستپێکردن <span>←</span></a>
+    <button class="v2-menu" id="menuBtn" aria-label="مینیۆ">☰</button>
+  </div>
+  <div class="v2-mobile-menu" id="mobileMenu">
+    <a href="../learning.html">فێربوون</a><a href="../linguistics.html">زمانەوانی</a><a href="catalog.html">وانەکان</a><a href="../index.html#books">کتێبخانە</a><a href="../sabir-zhakaw.html">سابیر ژاکاو</a>
+  </div>
+</header>
 <main>
 <section class="content-page-hero"><div class="container"><span class="eyebrow">بنکەی وانەکان</span><h1 id="courseTitle">وانەکان</h1><p id="courseMeta">بارکردنی ناوەڕۆک...</p><p id="overallProgress" class="catalog-summary"></p><div class="catalog-head-actions"><a class="ghost-btn" href="performance.html">ڕاپۆرتی ئەدا و پێشکەوتن</a><a class="ghost-btn" href="../learning.html">ڕێڕەوی فێربوون</a></div></div></section>
 <section class="lesson-catalog"><div class="container"><div class="catalog-tools"><select id="courseFilter" aria-label="هەڵبژاردنی دەورە"><option value="all">هەموو دەورەکان</option></select><input id="catalogSearch" type="search" placeholder="گەڕان لە ناوی وانە..." aria-label="گەڕان لە وانەکان"><select id="sectionFilter" aria-label="هەڵبژاردنی بەش"><option value="all">هەموو بەشەکان</option></select></div><div id="catalog" class="catalog-grid"><div class="catalog-loading">وانەکان بار دەکرێن...</div></div></div></section>
@@ -47,4 +59,5 @@ catalog.innerHTML=groups.map(c=>{const group=base.filter(l=>l.courseId===c.id);i
 }
 search.addEventListener("input",render);filter.addEventListener("change",render);courseFilter.addEventListener("change",render)
 })();
-</script></body></html>
+</script>  <script src="../script.js"></script>
+</body></html>
