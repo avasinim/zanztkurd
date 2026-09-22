@@ -782,3 +782,19 @@ body:after{
 .v2-search-results.is-loading{position:relative;overflow:hidden}
 .v2-search-results.is-loading::before{content:"";display:block;grid-column:1/-1;height:92px;border-radius:18px;background:linear-gradient(90deg,rgba(23,19,31,.035) 25%,rgba(101,65,160,.09) 37%,rgba(23,19,31,.035) 63%);background-size:400% 100%;animation:v2Shimmer 1.7s ease-in-out infinite}
 @keyframes v2Shimmer{0%{background-position:100% 0}100%{background-position:-100% 0}}
+
+/* ===== Unified navigation across the whole site ===== */
+.site-unified-header{position:sticky!important;top:0;left:0;right:0;background:rgba(13,9,17,.94);border-bottom:1px solid rgba(255,255,255,.08);backdrop-filter:blur(18px);box-shadow:0 8px 28px rgba(0,0,0,.08)}
+.site-unified-header .v2-nav{height:78px}
+.site-unified-header .v2-nav-links a{white-space:nowrap}
+.site-unified-header .v2-brand{color:#fff}
+@media(max-width:900px){
+  .site-unified-header{position:sticky!important}
+  .site-unified-header .v2-nav{height:72px}
+  .site-unified-header .v2-nav-links,.site-unified-header .v2-nav-cta{display:none}
+  .site-unified-header .v2-menu{display:flex;margin-right:auto}
+}
+@media(max-width:560px){
+  .site-unified-header .v2-nav{height:68px}
+  .site-unified-header .v2-mobile-menu{top:68px}
+}
