@@ -68,176 +68,150 @@
   }
   </script>
 </head>
-<body>
-<header class="header">
-  <nav class="nav container">
-    <a href="#home" class="brand" aria-label="ئاڤاشین">
-      <span class="brand-mark">ئا</span><span>ئاڤاشین</span>
-    </a>
-    <div class="nav-links">
-      <a href="#sabir-zhakaw">سابیر ژاکاو</a>
-      <a href="learning.html">فێربوونی زمانی کوردی</a>
-      <a href="linguistics.html">زمانەوانی کوردی</a>
-      <a href="#paths">ڕێڕەوەکان</a>
-    </div>
-    <div class="nav-actions">
-      <button class="ghost-btn">چوونەژوورەوە</button>
-      <button class="primary-btn">دەستپێکردن</button>
-    </div>
-    <button class="menu-btn" id="menuBtn" aria-label="مینیۆ">☰</button>
-  </nav>
-  <div class="mobile-menu" id="mobileMenu">
-    <a href="#sabir-zhakaw">سابیر ژاکاو</a><a href="learning.html">فێربوونی زمانی کوردی</a><a href="linguistics.html">زمانەوانی کوردی</a><a href="#paths">ڕێڕەوەکان</a>
-    <button class="primary-btn">دەستپێکردن</button>
+<body class="v2-home">
+<header class="v2-header">
+  <div class="v2-shell v2-nav">
+    <a class="v2-brand" href="#home" aria-label="ئاڤاشین"><span class="v2-brand-mark">ئا</span><span>ئاڤاشین</span></a>
+    <nav class="v2-nav-links" aria-label="ناڤیگیشن">
+      <a href="learning.html">فێربوون</a>
+      <a href="linguistics.html">زمانەوانی</a>
+      <a href="lessons/catalog.html">وانەکان</a>
+      <a href="#books">کتێبخانە</a>
+      <a href="sabir-zhakaw.html">سابیر ژاکاو</a>
+    </nav>
+    <a class="v2-nav-cta" href="learning.html">دەستپێکردن <span>←</span></a>
+    <button class="v2-menu" id="menuBtn" aria-label="مینیۆ">☰</button>
+  </div>
+  <div class="v2-mobile-menu" id="mobileMenu">
+    <a href="learning.html">فێربوون</a>
+    <a href="linguistics.html">زمانەوانی</a>
+    <a href="lessons/catalog.html">وانەکان</a>
+    <a href="#books">کتێبخانە</a>
+    <a href="sabir-zhakaw.html">سابیر ژاکاو</a>
   </div>
 </header>
 
 <main id="home">
-<section class="hero">
-  <div class="hero-orbit orbit-1"></div><div class="hero-orbit orbit-2"></div>
-  <div class="container hero-grid">
-    <div class="hero-copy">
-      <div class="eyebrow"><span></span> زانست لە ڕێگەی زمانەوە</div>
-      <h1>زمانی کوردی<br><em>بە شێوەیەکی زانستی</em> بفێرە.</h1>
-      <p>ئاڤاشین پلاتفۆرمێکی نوێیە بۆ فێربوونی زمانی کوردی، زمانەوانی و بابەتە زانستییەکان؛ لە وانەی بنەڕەتییەوە تا توێژینەوە.</p>
-      <div class="hero-actions"><a href="#lessons" class="primary-btn big">دەستپێکردنی فێربوون ←</a><a href="#paths" class="text-btn">ڕێڕەوەکان ببینە</a></div>
-      <div class="hero-meta"><span>● ناوەڕۆکی زانستی بەردەوام زیاد دەکرێت</span><span>⌁ سەرچاوەکان بە شێوەی ڕوون پێشکەش دەکرێن</span><span>✓ پلاتفۆرمێکی کوردی</span></div>
-    </div>
-    <div class="hero-visual">
-      <div class="planet">
-        <div class="planet-core">ئاڤاشین</div>
-        <div class="ring ring-a"></div><div class="ring ring-b"></div>
-        <span class="node n1">زمانەوانی</span><span class="node n2">مۆرفۆلۆژی</span><span class="node n3">فۆنەتیک</span><span class="node n4">زانست</span>
+<section class="v2-hero">
+  <div class="v2-glow v2-glow-a"></div><div class="v2-glow v2-glow-b"></div>
+  <div class="v2-grid"></div>
+  <div class="v2-shell v2-hero-grid">
+    <div class="v2-hero-copy">
+      <div class="v2-kicker"><span></span> پلاتفۆرمی زانستی زمانی کوردی</div>
+      <h1>زمانی کوردی<br><strong>بە ڕوانگەیەکی زانستی.</strong></h1>
+      <p>ئاڤاشین شوێنێکە بۆ فێربوونی زمانی کوردی، زمانەوانی و خوێندنەوەی سەرچاوە زانستییەکان؛ بە ڕێکخستنێکی پاک و نوێ.</p>
+      <div class="v2-actions">
+        <a class="v2-btn v2-btn-main" href="learning.html">دەستپێکردنی فێربوون <span>←</span></a>
+        <a class="v2-btn v2-btn-ghost" href="lessons/catalog.html">بینینی وانەکان</a>
       </div>
-      <div class="floating-card fc-one"><b>١٢</b><span>بەشی زانستی</span></div>
-      <div class="floating-card fc-two"><b>٩٨٪</b><span>ڕەزامەندی خوێندکار</span></div>
+      <div class="v2-trust"><span>✓ ناوەڕۆکی کوردی</span><span>✓ سەرچاوەی زانستی</span><span>✓ ڕێڕەوی ڕوون</span></div>
+    </div>
+
+    <div class="v2-hero-panel">
+      <div class="v2-orbit orbit-one"></div><div class="v2-orbit orbit-two"></div>
+      <div class="v2-core"><span>ئا</span><b>ئاڤاشین</b><small>زمان · زانست · فێربوون</small></div>
+      <div class="v2-float f1"><b>فۆنێتیک</b><small>دەنگ و فۆن</small></div>
+      <div class="v2-float f2"><b>زمانەوانی</b><small>سیستەمی زمان</small></div>
+      <div class="v2-float f3"><b>مۆرفۆلۆژی</b><small>پێکهاتەی وشە</small></div>
     </div>
   </div>
 </section>
 
-<section class="section mentor-section" id="sabir-zhakaw">
-  <div class="container mentor-grid">
-    <div>
-      <span class="eyebrow">مامۆستا و زمان‌ناس</span>
-      <h2>سابیر ژاکاو <em>لە ئاڤاشین</em></h2>
-      <p class="mentor-lead">سابیر ژاکاو لە چوارچێوەی ئەم پلاتفۆرمەدا وەک مامۆستا و زمان‌ناس ناسێنراوە؛ نووسەر، ڕۆناک‌بیر و تیۆریسینی زمانە و لە بابەتەکانی زمانی کوردی و بیرکردنەوەی کوردی کار دەکات.</p>
-      <p class="mentor-note">ئەم بەشە بۆ کۆکردنەوەی ژیاننامە، کارەکان، بیرۆکەکان، وتارەکان و سەرچاوە پشتڕاستکراوەکانی سابیر ژاکاو دروست کراوە. ناوەڕۆکی ورد و سەرچاوەکان بە هەمان شێوەی پێشکەشکردنی زانیاری لەلایەن بەڕێوەبەری سایتەوە زیاد دەکرێن.</p>
-      <a class="primary-btn big" href="sabir-zhakaw.html">بەشی تایبەتی سابیر ژاکاو ←</a>
-    </div>
-    <aside class="mentor-card" aria-label="زانیاری سابیر ژاکاو">
-      <div class="mentor-initial">س</div>
-      <h3>سابیر ژاکاو</h3>
-      <p>نووسەر · زمان‌ناس · ڕۆناک‌بیر · تیۆریسینی زمان</p>
-      <span>بەشی تایبەت بۆ ژیاننامە و سەرچاوەکان</span>
-    </aside>
+<section class="v2-intro">
+  <div class="v2-shell v2-intro-grid">
+    <div><span class="v2-label">ئاڤاشین چیە؟</span><h2>هەموو شتێک لە یەک <em>چوارچێوە</em></h2></div>
+    <p>لە وانەی سەرەتایی تا بابەتە پێشکەوتووەکانی زمانەوانی، ناوەڕۆک بە شێوەی بەش‌بەش ڕێکدەخرێت تا خوێندنەوە و بەدواداچوون ئاسان بێت.</p>
   </div>
 </section>
 
-<section class="stats"><div class="container stats-grid">
-  <div><strong>کوردی</strong><span>زمانی سەرەکیی پلاتفۆرم</span></div><div><strong>زانستی</strong><span>ڕوانگەی ناوەڕۆک</span></div>
-  <div><strong>کراوە</strong><span>بۆ زیادکردنی سەرچاوە</span></div><div><strong>پەرەپێدان</strong><span>ناوەڕۆک بەردەوام زیاد دەکرێت</span></div>
-</div></section>
-
-<section class="section platform-sections" aria-labelledby="platformSectionsTitle">
-  <div class="container">
-    <div class="section-head">
-      <div><span class="eyebrow">بەشە سەرەکییەکان</span><h2 id="platformSectionsTitle">ناوەڕۆک بە <em>ڕێکخستنێکی ڕوون</em></h2></div>
-    </div>
-    <div class="platform-section-grid">
-      <a class="platform-section-card" href="learning.html">
-        <span class="platform-section-number">٠١</span>
-        <h3>فێربوونی زمانی کوردی</h3>
-        <p>شوێنێکی تایبەت بۆ وانە، ڕێڕەو و سەرچاوەکانی فێربوونی زمانی کوردی.</p>
-        <span class="platform-section-link">چوونە ناو بەشەکە ←</span>
+<section class="v2-sections">
+  <div class="v2-shell">
+    <div class="v2-section-head"><div><span class="v2-label">بەشە سەرەکییەکان</span><h2>شوێنی خۆت <em>هەڵبژێرە</em></h2></div><span class="v2-index">01 / 03</span></div>
+    <div class="v2-feature-grid">
+      <a class="v2-feature-card feature-dark" href="learning.html">
+        <span class="v2-number">٠١</span><span class="v2-card-icon">ک</span>
+        <div><h3>فێربوونی زمانی کوردی</h3><p>وانە و ڕێڕەوی فێربوون بۆ قۆناغە جیاوازەکانی زمانی کوردی.</p></div>
+        <span class="v2-arrow">چوونە ناو بەشەکە ←</span>
       </a>
-      <a class="platform-section-card" href="linguistics.html">
-        <span class="platform-section-number">٠٢</span>
-        <h3>زمانەوانی کوردی</h3>
-        <p>بنکەی بابەتە زمانەوانییەکان؛ لە ڕێزمان و مۆرفۆلۆژی تا فۆنەتیک و توێژینەوە.</p>
-        <span class="platform-section-link">چوونە ناو بەشەکە ←</span>
+      <a class="v2-feature-card feature-violet" href="linguistics.html">
+        <span class="v2-number">٠٢</span><span class="v2-card-icon">ز</span>
+        <div><h3>زمانەوانی کوردی</h3><p>بابەتە زمانەوانییەکان بە ڕوانگەی زانستی و ڕێکخراو.</p></div>
+        <span class="v2-arrow">چوونە ناو بەشەکە ←</span>
+      </a>
+      <a class="v2-feature-card feature-light" href="lessons/catalog.html">
+        <span class="v2-number">٠٣</span><span class="v2-card-icon">و</span>
+        <div><h3>کتێبخانەی وانەکان</h3><p>کاتێک دەتەوێت ڕاستەوخۆ بگەیتە لیستی وانەکان و دەست بە خوێندنەوە بکەیت.</p></div>
+        <span class="v2-arrow">بینینی وانەکان ←</span>
       </a>
     </div>
   </div>
 </section>
 
-<section class="section" id="lessons">
-  <div class="container">
-    <div class="section-head"><div><span class="eyebrow">ناوەڕۆکی فێرکاری</span><h2>زانست بکە بە <em>توانا</em></h2></div><span class="result-count" id="resultCount">١ ڕێڕەو</span></div>
-    <form class="lesson-search" id="lessonSearch">
-      <div class="search-input"><span>⌕</span><input id="searchInput" placeholder="گەڕان لە ناوی وانە، بابەت یان زمانەوانی..."></div>
-      <select id="levelFilter"><option value="">هەموو ئاستەکان</option><option value="سەرەتایی">سەرەتایی</option><option value="ناوەندی">ناوەندی</option><option value="پێشکەوتوو">پێشکەوتوو</option></select>
-      <select id="topicFilter"><option value="">هەموو بابەتەکان</option><option value="مۆرفۆلۆژی">مۆرفۆلۆژی</option><option value="فۆنەتیک">فۆنەتیک</option><option value="ڕێزمان">ڕێزمان</option><option value="زانست">زانست</option></select>
-      <button class="primary-btn" type="submit">گەڕان</button>
-    </form>
-    <div class="chips"><button class="chip active" data-topic="">هەموو</button><button class="chip" data-topic="مۆرفۆلۆژی">مۆرفۆلۆژی</button><button class="chip" data-topic="فۆنەتیک">فۆنەتیک</button><button class="chip" data-topic="ڕێزمان">ڕێزمان</button><button class="chip" data-topic="زانست">زانست</button></div>
-
-    <div class="lessons-grid" id="lessonGrid">
-      <article class="lesson-card" data-level="سەرەتایی" data-topic="فۆنەتیک" data-title="وانەکانی فۆنێتیک و فۆنۆلۆجی کوردیک"><div class="lesson-art art-phone"><span>فۆن</span></div><div class="lesson-body"><div class="card-line"><span class="badge">سەرەتایی</span><span>وانەکان</span></div><h3>فۆنێتیک و فۆنۆلۆجی کوردیک</h3><p>ڕێڕەوی وانەکانی سابیر ژاکاو بۆ خوێندنەوەی فۆنێتیک و فۆنۆلۆجی کوردیک.</p><div class="card-foot"><span>سابیر ژاکاو</span><a class="learn-btn" href="lessons/catalog.html">بینینی هەموو وانەکان</a></div></div></article>
-    </div>
-    <div class="empty" id="empty">هیچ وانەیەک لەگەڵ ئەم گەڕانە نەدۆزرایەوە.</div>
-  </div>
-</section>
-
-<section id="books" class="books section">
-  <div class="container">
-    <div class="section-head"><div><span class="eyebrow">کتێبخانەی ئاڤاشین</span><h2>کتێبە <em>هەڵبژێردراوەکان</em></h2></div><a class="text-btn" href="#">هەموو کتێبەکان ←</a></div>
-    <div class="books-grid">
-      <article class="book-card"><div class="book-cover cover-one"><small>زمانەوانی</small><b>بنەماکانی<br>زمانی کوردی</b><span>ئاڤاشین پەبلیکەیشن</span></div><div><h3>بنەماکانی زمانی کوردی</h3><p>ڕێنمایەکی زانستی بۆ تێگەیشتن لە سیستەمی زمان.</p><strong>٣٥,٠٠٠ د.ع</strong></div></article>
-      <article class="book-card"><div class="book-cover cover-two"><small>مۆرفۆلۆژی</small><b>پێکهاتەی<br>وشە</b><span>چاپی یەکەم</span></div><div><h3>پێکهاتەی وشە لە کوردیدا</h3><p>توێژینەوە و نموونەی نوێ لە وشەسازی.</p><strong>٤٢,٠٠٠ د.ع</strong></div></article>
-      <article class="book-card"><div class="book-cover cover-three"><small>فۆنەتیک</small><b>دەنگ و<br>واتا</b><span>سێمیناری زانستی</span></div><div><h3>دەنگ و واتا</h3><p>لە فۆنەتیکەوە بۆ فۆنۆلۆژیی زمانی کوردی.</p><strong>٣٨,٠٠٠ د.ع</strong></div></article>
+<section class="v2-lessons">
+  <div class="v2-shell">
+    <div class="v2-section-head"><div><span class="v2-label">وانەی سەرچاوە</span><h2>فۆنێتیک و فۆنۆلۆجی <em>کوردیک</em></h2></div><a class="v2-text-link" href="lessons/catalog.html">هەموو وانەکان ←</a></div>
+    <div class="v2-lesson-showcase">
+      <div class="v2-lesson-mark"><span>فۆن</span><b>سابیر<br>ژاکاو</b></div>
+      <div class="v2-lesson-copy">
+        <span class="v2-pill">سەرچاوەی سەرەکی</span>
+        <h3>فۆنێتیک و فۆنۆلۆجی کوردیک</h3>
+        <p>ڕێڕەوی وانەکانی ئەم بەشە بە سەرچاوەی «فۆنێتیک و فۆنۆلۆجی کوردیک — سابیر ژاکاو» ڕێکخراوە.</p>
+        <div class="v2-meta-row"><span>سابیر ژاکاو</span><span>وانەکان بە شێوەی ڕێکخراو</span></div>
+      </div>
+      <a class="v2-btn v2-btn-main" href="lessons/catalog.html">دەستپێکردن ←</a>
     </div>
   </div>
 </section>
 
-<section id="paths" class="paths section">
-  <div class="container">
-    <div class="section-head"><div><span class="eyebrow">ڕێڕەوی فێربوون</span><h2>لە کوێوە <em>دەست پێبکەیت؟</em></h2></div></div>
-    <div class="paths-grid">
-      <article><span class="path-num">٠١</span><h3>کوردی بۆ سەرەتاییان</h3><p>لە ئەلفوبێ و وشەکانی ڕۆژانەوە تا دروستکردنی ڕستە.</p><a href="#">دەستپێکردن ←</a></article>
-      <article><span class="path-num">٠٢</span><h3>زمانەوانیی کوردی</h3><p>مۆرفۆلۆژی، سینتاکس، فۆنەتیک و بابەتە زانستییەکان.</p><a href="#">بینینی ڕێڕەو ←</a></article>
-      <article><span class="path-num">٠٣</span><h3>توێژەر و ئەکادیمی</h3><p>سەرچاوە، وانەی پێشکەوتوو و خوێندنەوەی توێژینەوەکان.</p><a href="#">بینینی ڕێڕەو ←</a></article>
+<section class="v2-author" id="sabir-zhakaw">
+  <div class="v2-shell v2-author-grid">
+    <div class="v2-author-portrait"><span>س</span><div>سابیر ژاکاو</div></div>
+    <div class="v2-author-copy">
+      <span class="v2-label">سەرچاوە و مامۆستا</span>
+      <h2>سابیر ژاکاو</h2>
+      <p>بەشی تایبەتی ئاڤاشین بۆ ناساندن و کۆکردنەوەی سەرچاوە و کارە پەیوەندیدارەکان بە سابیر ژاکاو.</p>
+      <a class="v2-text-link" href="sabir-zhakaw.html">چوونە ناو بەشی سابیر ژاکاو ←</a>
     </div>
   </div>
 </section>
 
-<section class="cta"><div class="container cta-inner"><div><span class="eyebrow">ئێستا دەست پێبکە</span><h2>زمانەکەت بکە بە <em>ئامرازێکی زانست.</em></h2><p>هەزاران وانە، کتێب و سەرچاوەی زانستی لە یەک شوێن.</p></div><a href="#lessons" class="primary-btn big">دەستپێکردنی خۆڕایی ←</a></div></section>
-
-<div class="lesson-modal" id="lessonModal" aria-hidden="true">
-  <div class="lesson-modal-backdrop" data-close-lesson></div>
-  <article class="lesson-modal-card" role="dialog" aria-modal="true" aria-labelledby="lessonModalTitle">
-    <button class="lesson-modal-close" type="button" data-close-lesson aria-label="داخستن">×</button>
-    <span class="eyebrow" id="lessonModalTopic">وانە</span>
-    <h2 id="lessonModalTitle">ناونیشانی وانە</h2>
-    <div class="lesson-modal-meta"><span id="lessonModalLevel"></span><span id="lessonModalDuration"></span></div>
-    <p id="lessonModalDescription"></p>
-    <div class="lesson-preview">
-      <h3>لە ئەم وانەیەدا چی دەفێریت؟</h3>
-      <p id="lessonModalDetail"></p>
+<section class="v2-library" id="books">
+  <div class="v2-shell">
+    <div class="v2-section-head"><div><span class="v2-label">کتێبخانە</span><h2>سەرچاوە بۆ <em>خوێندنەوە</em></h2></div></div>
+    <div class="v2-book-grid">
+      <article class="v2-book"><span class="book-tag">زمانەوانی</span><b>بنەماکانی<br>زمانی کوردی</b><small>سەرچاوەی زمان</small></article>
+      <article class="v2-book book-two"><span class="book-tag">مۆرفۆلۆژی</span><b>پێکهاتەی<br>وشە</b><small>وشەسازی و پێکهاتە</small></article>
+      <article class="v2-book book-three"><span class="book-tag">فۆنەتیک</span><b>دەنگ و<br>واتا</b><small>فۆنێتیک و فۆنۆلۆجی</small></article>
     </div>
-    <button class="primary-btn big" type="button" id="startLessonBtn">دەستپێکردنی وانە ←</button>
-    <p class="lesson-note" id="lessonNote">ئەم وانەیە بە شێوەی پێشبینینە؛ بەشی خوێندنەوەی تەواو لە وەشانی داهاتوودا زیاد دەکرێت.</p>
-  </article>
-</div>
+  </div>
+</section>
 
-<div class="site-info-modal" id="siteInfoModal" aria-hidden="true">
-  <div class="site-info-backdrop" data-close-info></div>
-  <article class="site-info-card" role="dialog" aria-modal="true" aria-labelledby="siteInfoTitle">
-    <button class="site-info-close" type="button" data-close-info aria-label="داخستن">×</button>
-    <span class="eyebrow" id="siteInfoEyebrow">ئاڤاشین</span>
-    <h2 id="siteInfoTitle">زانیاری</h2>
-    <p id="siteInfoText"></p>
-    <button class="primary-btn big" type="button" data-close-info>باشە</button>
-  </article>
-</div>
+<section class="v2-paths" id="paths">
+  <div class="v2-shell">
+    <div class="v2-section-head"><div><span class="v2-label">ڕێڕەوی فێربوون</span><h2>لە کوێوە <em>دەست پێبکەیت؟</em></h2></div></div>
+    <div class="v2-path-list">
+      <a href="learning.html"><span>٠١</span><div><b>فێربوونی زمانی کوردی</b><small>دەستپێک لە بنەماکان و بەردەوامبوون تا ئاستە پێشکەوتووەکان.</small></div><i>←</i></a>
+      <a href="linguistics.html"><span>٠٢</span><div><b>زمانەوانی کوردی</b><small>خوێندنەوەی بابەتە زمانەوانییەکان بە شێوەی ڕێکخراو.</small></div><i>←</i></a>
+      <a href="lessons/catalog.html"><span>٠٣</span><div><b>وانەکانی سابیر ژاکاو</b><small>چوونە ڕاستەوخۆ بۆ کاتەلۆگی وانەکان.</small></div><i>←</i></a>
+    </div>
+  </div>
+</section>
+
+<section class="v2-final">
+  <div class="v2-shell v2-final-inner">
+    <div><span class="v2-label">هەنگاوی داهاتوو</span><h2>فێربوونەکەت لە <em>ئێستا</em> دەست پێبکە.</h2><p>بەشێک هەڵبژێرە و بە ئارامی دەست بە خوێندنەوە بکە.</p></div>
+    <a class="v2-btn v2-btn-main" href="learning.html">چوونە ناو ئاڤاشین ←</a>
+  </div>
+</section>
 </main>
 
-<footer class="footer"><div class="container footer-grid">
-  <div><a class="brand footer-brand" href="#home"><span class="brand-mark">ئا</span><span>ئاڤاشین</span></a><p>پلاتفۆرمی فێربوونی زمانی کوردی، زمانەوانی و زانست.</p></div>
-  <div><h4>ئاڤاشین</h4><a href="learning.html">فێربوونی زمانی کوردی</a><a href="#books">کتێبخانە</a><a href="#paths">ڕێڕەوەکان</a></div>
-  <div><h4>یارمەتی</h4><a href="#">پرسیارە باوەکان</a><a href="#">پەیوەندی</a><a href="#">مەرجەکان</a></div>
-  <div><h4>نامەی زانستی</h4><p>نوێترین وانە و سەرچاوەکان بۆ ئیمەیڵەکەت وەربگرە.</p><div class="newsletter"><input placeholder="ئیمەیڵ"><button>←</button></div></div>
-</div><div class="footer-bottom">© ٢٠٢٦ ئاڤاشین · بۆ زمانی کوردی و زانست</div></footer>
-
+<footer class="v2-footer">
+  <div class="v2-shell v2-footer-grid">
+    <div><a class="v2-brand" href="#home"><span class="v2-brand-mark">ئا</span><span>ئاڤاشین</span></a><p>پلاتفۆرمی فێربوونی زمانی کوردی، زمانەوانی و زانست.</p></div>
+    <div><h4>بەشەکان</h4><a href="learning.html">فێربوونی زمانی کوردی</a><a href="linguistics.html">زمانەوانی کوردی</a><a href="lessons/catalog.html">وانەکان</a></div>
+    <div><h4>سەرچاوە</h4><a href="sabir-zhakaw.html">سابیر ژاکاو</a><a href="#books">کتێبخانە</a><a href="#paths">ڕێڕەوەکان</a></div>
+  </div>
+  <div class="v2-footer-bottom">© ٢٠٢٦ ئاڤاشین · بۆ زمانی کوردی و زانست</div>
+</footer>
 <script src="script.js"></script>
-</body>
-</html>
+</body></html>
