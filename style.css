@@ -949,3 +949,60 @@ body:after{
 .cosmic-core small{font-family:inherit!important;font-size:7.5px!important;font-weight:400!important;color:rgba(238,233,240,.52)!important}
 @media(max-width:850px){.cosmic-core b{font-size:17px!important}}
 @media(max-width:650px){.cosmic-core b{font-size:14px!important}.cosmic-core small{font-size:6.5px!important}}
+
+/* ===== Academic color system: navy / mineral teal / warm gold ===== */
+.v2-home{
+  --v2-ink:#18232d;
+  --v2-muted:#687681;
+  --v2-line:rgba(28,47,60,.12);
+  --v2-paper:#f4f6f5;
+  --v2-violet:#315f73;
+  --v2-violet2:#5b8a98;
+  --v2-cyan:#3e8d91;
+  --v2-dark:#142631;
+}
+.v2-brand-mark{background:linear-gradient(135deg,#d2b477,#5c9296);color:#13242b}
+.v2-nav-links a:hover,.v2-mobile-menu a:hover{color:#d8c18e}
+.v2-hero{
+  background:
+    radial-gradient(700px 520px at 8% 18%,rgba(57,119,134,.28),transparent 65%),
+    radial-gradient(650px 500px at 92% 25%,rgba(205,174,111,.12),transparent 65%),
+    linear-gradient(125deg,#0d1c26,#183341 54%,#10242c)!important
+}
+.v2-glow-a{background:rgba(61,132,145,.13)}
+.v2-glow-b{background:rgba(210,180,119,.08)}
+.v2-kicker,.v2-label{color:#356b7d}
+.v2-hero .v2-kicker{color:#b9d5d8}
+.v2-kicker span{background:#8fb9b4;box-shadow:0 0 18px rgba(143,185,180,.55)}
+.v2-hero h1 strong{background:linear-gradient(90deg,#d9c28e,#8fc5c3);-webkit-background-clip:text;background-clip:text}
+.v2-btn-main{color:#12232b;background:linear-gradient(135deg,#d5bb7e,#86b9b7)}
+.v2-btn-ghost{border-color:rgba(255,255,255,.22);background:rgba(255,255,255,.055)}
+.v2-intro h2 em,.v2-section-head h2 em,.v2-author h2 em,.v2-final h2 em,.v2-text-link,.v2-search-meta button{color:#315f73}
+.v2-sections,.v2-paths{background:#f4f6f5}
+.feature-dark{background:linear-gradient(145deg,#152832,#244756)}
+.feature-violet{background:linear-gradient(145deg,#315f73,#5b8995)}
+.feature-light{background:#fff;color:#18232d}
+.feature-light .v2-arrow{color:#315f73}
+.v2-lesson-showcase{background:linear-gradient(135deg,#eef3f2,#fff)}
+.v2-lesson-mark{background:linear-gradient(145deg,#17313c,#356b7a 58%,#b49a62)}
+.v2-pill{background:#e7efee;color:#315f73}
+.v2-author{background:#e8eeec}
+.v2-author-portrait{background:linear-gradient(145deg,#1a3039,#3d7180)}
+.v2-library{background:#fff}
+.v2-book{background:linear-gradient(145deg,#203a46,#4b7782)}
+.v2-book.book-two{background:linear-gradient(145deg,#27484b,#568b8d)}
+.v2-book.book-three{background:linear-gradient(145deg,#3d382c,#9b8151)}
+.v2-path-list i{color:#315f73}
+.v2-final{background:linear-gradient(125deg,#10232d,#193844)}
+.v2-final .v2-label{color:#cdbb8a}
+.v2-footer{background:#0c1920}
+.v2-search-box button{background:#17313c}
+.v2-search-icon{color:#315f73}
+.v2-search-result:hover{border-color:rgba(49,95,115,.28)}
+.v2-search-number{color:#315f73}
+.v2-mobile-menu{background:rgba(12,25,32,.95)}
+.v2-node-accent,.v2-science-ring .v2-ring-item:before{background:#b49a62}
+.v2-ring-item{background:rgba(16,31,39,.9);border-color:rgba(190,211,214,.16)}
+.v2-ring-item:before{background:#b49a62;box-shadow:0 0 12px rgba(180,154,98,.55)}
+.v2-orbit{border-color:rgba(181,211,213,.2)}
+.v2-science-ring:before{border-color:rgba(181,211,213,.18)}
