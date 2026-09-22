@@ -926,3 +926,11 @@ body:after{
 .cosmic-bottom b{font-family:inherit;letter-spacing:0}.cosmic-bottom em{font-family:inherit}
 @media(max-width:850px){.cosmic-node{min-width:102px;padding:8px 10px}.cosmic-node b{font-size:11px}.cosmic-node small{font-size:7px}}
 @media(max-width:650px){.cosmic-node{min-width:82px;padding:6px 8px}.cosmic-node b{font-size:9px}.cosmic-node small{font-size:6.5px}}
+
+/* Labels only: no numbers, no cards, no decorative frames */
+.cosmic-node{min-width:0!important;width:auto!important;padding:0!important;background:transparent!important;border:0!important;border-radius:0!important;box-shadow:none!important;backdrop-filter:none!important}
+.cosmic-node:before,.cosmic-node:after{display:none!important}
+.cosmic-node b{font-size:13px;font-weight:700;color:rgba(255,255,255,.96);text-shadow:0 2px 12px rgba(0,0,0,.8)}
+.cosmic-node small{font-size:8px;color:rgba(238,228,244,.58)}
+@media(max-width:850px){.cosmic-node b{font-size:11px}.cosmic-node small{font-size:7px}}
+@media(max-width:650px){.cosmic-node b{font-size:9px}.cosmic-node small{font-size:6.5px}}
