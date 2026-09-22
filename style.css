@@ -915,3 +915,14 @@ body:after{
 .cosmic-core{width:148px;height:148px}
 @media(max-width:850px){.cosmic-node{min-width:102px;padding:8px 10px}.cosmic-node b{font-size:10px}.cosmic-node small{font-size:7px}.cosmic-core{width:132px;height:132px}}
 @media(max-width:650px){.cosmic-node{min-width:82px;padding:6px 8px}.cosmic-node b{font-size:8.5px}.cosmic-node small{font-size:6.5px}.cosmic-node span{font-size:6px}.cosmic-core{width:112px;height:112px}}
+
+/* Final typography: clean academic labels around the cosmic system */
+.cosmic-node span{display:none!important}
+.cosmic-node{min-width:118px;padding:9px 12px;background:rgba(9,7,14,.92);border-color:rgba(226,211,236,.18);border-radius:11px}
+.cosmic-node b{font-family:inherit;font-size:13px;font-weight:650;letter-spacing:.1px;color:rgba(255,255,255,.94);line-height:1.45}
+.cosmic-node small{font-family:inherit;font-size:8px;font-weight:400;color:rgba(235,225,241,.58);line-height:1.4}
+.cosmic-core b{font-family:inherit;font-weight:750;letter-spacing:.1px}.cosmic-core small{font-family:inherit;font-weight:400}
+.cosmic-top,.cosmic-bottom{font-family:ui-monospace,SFMono-Regular,Consolas,monospace;letter-spacing:1.5px}
+.cosmic-bottom b{font-family:inherit;letter-spacing:0}.cosmic-bottom em{font-family:inherit}
+@media(max-width:850px){.cosmic-node{min-width:102px;padding:8px 10px}.cosmic-node b{font-size:11px}.cosmic-node small{font-size:7px}}
+@media(max-width:650px){.cosmic-node{min-width:82px;padding:6px 8px}.cosmic-node b{font-size:9px}.cosmic-node small{font-size:6.5px}}
