@@ -10,20 +10,18 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body class="content-page">
-<header class="header">
-  <nav class="nav container">
-    <a href="index.html" class="brand" aria-label="ئاڤاشین">
-  <span class="brand-mark">ئا</span>
-  <span>ئاڤاشین</span>
-</a>
-    <div class="nav-links">
-      <a href="learning.html">فێربوونی زمانی کوردی</a>
-      <a href="linguistics.html">زمانەوانی کوردی</a>
-      <a href="sabir-zhakaw.html">سابیر ژاکاو</a>
-      <a href="index.html#books">کتێبەکان</a>
-    </div>
-    <div class="nav-actions"><a class="ghost-btn" href="index.html">سەرەکی</a></div>
-  </nav>
+<header class="v2-header site-unified-header">
+  <div class="v2-shell v2-nav">
+    <a class="v2-brand" href="index.html" aria-label="ئاڤاشین"><span class="v2-brand-mark">ئا</span><span>ئاڤاشین</span></a>
+    <nav class="v2-nav-links" aria-label="ناڤیگیشن">
+      <a href="learning.html">فێربوون</a><a href="linguistics.html">زمانەوانی</a><a href="lessons/catalog.html">وانەکان</a><a href="index.html#books">کتێبخانە</a><a href="sabir-zhakaw.html">سابیر ژاکاو</a>
+    </nav>
+    <a class="v2-nav-cta" href="learning.html">دەستپێکردن <span>←</span></a>
+    <button class="v2-menu" id="menuBtn" aria-label="مینیۆ">☰</button>
+  </div>
+  <div class="v2-mobile-menu" id="mobileMenu">
+    <a href="learning.html">فێربوون</a><a href="linguistics.html">زمانەوانی</a><a href="lessons/catalog.html">وانەکان</a><a href="index.html#books">کتێبخانە</a><a href="sabir-zhakaw.html">سابیر ژاکاو</a>
+  </div>
 </header>
 <main>
 <section class="content-page-hero">
@@ -59,5 +57,6 @@
 </section>
 </main>
 <footer class="footer"><div class="container footer-bottom">© ٢٠٢٦ ئاڤاشین · بۆ زمانی کوردی و زانست</div></footer>
+  <script src="script.js"></script>
 </body>
 </html>
