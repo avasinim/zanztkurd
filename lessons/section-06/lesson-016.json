@@ -16,7 +16,7 @@
   ],
   "exercises": [
     {"id":"ex-1","type":"short_answer","prompt":"نیشانەی پرسیار لە کوێ بەکار دێت؟"},
-    {"id":"ex-2","type":"short_answer","prompt":"دو نموونە بۆ بەکارهێنانی کۆما بنوسە."},
+    {"id":"ex-2","type":"short_answer","prompt":"دو نمونە بۆ بەکارهێنانی کۆما بنوسە."},
     {"id":"ex-3","type":"short_answer","prompt":"جیاوازی کۆما و کۆمای خاڵ‌دار چیە؟"}
   ],
   "quiz": [
