@@ -941,3 +941,11 @@ body:after{
 .cosmic-core small{font-family:inherit;font-size:8px;color:rgba(235,227,239,.62)}
 @media(max-width:850px){.cosmic-core b{font-size:18px}}
 @media(max-width:650px){.cosmic-core b{font-size:15px}}
+
+/* Refined academic identity mark */
+.cosmic-core{background:radial-gradient(circle,rgba(27,25,30,.98) 0%,rgba(13,12,16,.99) 68%,rgba(8,8,11,1) 100%);border:1px solid rgba(238,234,240,.2);box-shadow:0 0 0 1px rgba(255,255,255,.025),0 0 38px rgba(0,0,0,.55),inset 0 0 28px rgba(255,255,255,.025)}
+.core-halo{border-color:rgba(238,234,240,.1)}
+.cosmic-core b{font-family:inherit!important;font-size:20px!important;font-weight:600!important;color:#eee9f0!important;letter-spacing:.2px!important;text-shadow:none!important}
+.cosmic-core small{font-family:inherit!important;font-size:7.5px!important;font-weight:400!important;color:rgba(238,233,240,.52)!important}
+@media(max-width:850px){.cosmic-core b{font-size:17px!important}}
+@media(max-width:650px){.cosmic-core b{font-size:14px!important}.cosmic-core small{font-size:6.5px!important}}
