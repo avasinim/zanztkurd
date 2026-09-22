@@ -20,7 +20,7 @@
     {"id":"practice","title":"ڕاهێنان","contentPath":"lesson-018.md"}
   ],
   "exercises": [
-    {"id":"ex-1","type":"short_answer","prompt":"جیاوازی نێوان ئەلفبێی فۆنێتیکی و ئەلفبێی فۆنێمی بە کورتی ڕوون بکەرەوە."},
+    {"id":"ex-1","type":"short_answer","prompt":"جیاوازی نێوان ئەلفبێی فۆنێتیکی و ئەلفبێی فۆنێمی بە کورتی ڕون بکەرەوە."},
     {"id":"ex-2","type":"short_answer","prompt":"IPA لە چ جۆرە سیستەمی نوسینێکدا بەکاردێت؟"},
     {"id":"ex-3","type":"short_answer","prompt":"ڕەوتی نوسینی چەپ‌چین و ڕاست‌چین چییە؟"}
   ],
