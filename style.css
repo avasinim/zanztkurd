@@ -738,3 +738,47 @@ body:after{
  .v2-search-results{grid-template-columns:1fr}
  .v2-search-result{padding:16px}
 }
+
+
+/* ===== V2 motion refinement ===== */
+:root{--v2-ease:cubic-bezier(.22,.61,.36,1);--v2-ease-soft:cubic-bezier(.25,.46,.45,.94)}
+.v2-home{scroll-behavior:smooth}
+.v2-hero .v2-glow{animation:v2Glow 10s ease-in-out infinite alternate}
+.v2-hero .v2-glow-b{animation-delay:-4s}
+.v2-orbit{animation:v2Orbit 18s linear infinite}
+.v2-orbit.orbit-two{animation-duration:24s;animation-direction:reverse}
+.v2-core{animation:v2CoreFloat 6s var(--v2-ease-soft) infinite}
+.v2-float{animation:v2Float 5.5s var(--v2-ease-soft) infinite}
+.v2-float.f2{animation-delay:-1.8s}.v2-float.f3{animation-delay:-3.3s}
+.v2-feature-card,.v2-book,.v2-search-result,.v2-path-list a,.v2-lesson-showcase{will-change:transform}
+.v2-feature-card{transition:transform .45s var(--v2-ease),box-shadow .45s var(--v2-ease)}
+.v2-feature-card:hover{transform:translateY(-7px)}
+.v2-book{transition:transform .45s var(--v2-ease),box-shadow .45s var(--v2-ease)}
+.v2-book:hover{transform:translateY(-6px);box-shadow:0 25px 55px rgba(37,20,50,.14)}
+.v2-search-result{transition:transform .35s var(--v2-ease),box-shadow .35s var(--v2-ease),border-color .35s ease}
+.v2-path-list a{transition:padding-inline .35s var(--v2-ease),background .35s ease}
+.v2-btn{transition:transform .3s var(--v2-ease),box-shadow .3s var(--v2-ease),background .3s ease}
+.v2-btn:hover{transform:translateY(-2px)}
+.v2-mobile-menu{transition:opacity .25s ease,transform .3s var(--v2-ease)}
+.v2-mobile-menu:not(.open){opacity:0;transform:translateY(-8px);pointer-events:none}
+.v2-mobile-menu.open{opacity:1;transform:translateY(0)}
+.v2-search-results{min-height:80px}
+.v2-search-result{animation:v2ResultIn .42s var(--v2-ease) both}
+.v2-search-result:nth-child(2){animation-delay:.035s}.v2-search-result:nth-child(3){animation-delay:.07s}
+.v2-search-result:nth-child(4){animation-delay:.105s}.v2-search-result:nth-child(5){animation-delay:.14s}.v2-search-result:nth-child(6){animation-delay:.175s}
+
+@keyframes v2Glow{from{transform:translate3d(0,0,0) scale(1)}to{transform:translate3d(18px,-10px,0) scale(1.06)}}
+@keyframes v2Orbit{to{transform:rotate(360deg)}}
+@keyframes v2CoreFloat{0%,100%{transform:translateY(0)}50%{transform:translateY(-7px)}}
+@keyframes v2Float{0%,100%{transform:translateY(0)}50%{transform:translateY(-5px)}}
+@keyframes v2ResultIn{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:translateY(0)}}
+
+@media (prefers-reduced-motion:reduce){
+  .v2-home{scroll-behavior:auto}
+  .v2-home *,.v2-home *::before,.v2-home *::after{animation-duration:.001ms!important;animation-iteration-count:1!important;transition-duration:.001ms!important}
+}
+
+/* Soft loading state for home lesson search */
+.v2-search-results.is-loading{position:relative;overflow:hidden}
+.v2-search-results.is-loading::before{content:"";display:block;grid-column:1/-1;height:92px;border-radius:18px;background:linear-gradient(90deg,rgba(23,19,31,.035) 25%,rgba(101,65,160,.09) 37%,rgba(23,19,31,.035) 63%);background-size:400% 100%;animation:v2Shimmer 1.7s ease-in-out infinite}
+@keyframes v2Shimmer{0%{background-position:100% 0}100%{background-position:-100% 0}}
