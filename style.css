@@ -1006,3 +1006,61 @@ body:after{
 .v2-ring-item:before{background:#b49a62;box-shadow:0 0 12px rgba(180,154,98,.55)}
 .v2-orbit{border-color:rgba(181,211,213,.2)}
 .v2-science-ring:before{border-color:rgba(181,211,213,.18)}
+
+/* ===== Final palette: charcoal / forest / copper — no blue or purple ===== */
+.v2-home{
+  --v2-ink:#202522;
+  --v2-muted:#6c756f;
+  --v2-line:rgba(32,37,34,.12);
+  --v2-paper:#f5f4ef;
+  --v2-violet:#566b57;
+  --v2-violet2:#7f9177;
+  --v2-cyan:#74846d;
+  --v2-dark:#202824;
+}
+.v2-brand-mark{background:linear-gradient(135deg,#c49a68,#66735f);color:#fff}
+.v2-hero{
+  background:
+    radial-gradient(700px 520px at 8% 18%,rgba(83,108,83,.24),transparent 65%),
+    radial-gradient(650px 500px at 92% 25%,rgba(191,145,91,.13),transparent 65%),
+    linear-gradient(125deg,#171c19,#252d28 54%,#151a17)!important
+}
+.v2-glow-a{background:rgba(92,113,82,.12)}
+.v2-glow-b{background:rgba(194,151,96,.08)}
+.v2-kicker,.v2-label{color:#64745f}
+.v2-hero .v2-kicker{color:#c6d0c0}
+.v2-kicker span{background:#a8b99a;box-shadow:0 0 18px rgba(168,185,154,.45)}
+.v2-hero h1 strong{background:linear-gradient(90deg,#d4ad78,#aab99c);-webkit-background-clip:text;background-clip:text}
+.v2-btn-main{color:#20251f;background:linear-gradient(135deg,#d3ab75,#a6b59a)}
+.v2-intro h2 em,.v2-section-head h2 em,.v2-author h2 em,.v2-final h2 em,.v2-text-link,.v2-search-meta button{color:#5b705a}
+.v2-sections,.v2-paths{background:#f5f4ef}
+.feature-dark{background:linear-gradient(145deg,#202a24,#354438)}
+.feature-violet{background:linear-gradient(145deg,#5a6f58,#78896f)}
+.feature-light{background:#fff;color:#202522}
+.feature-light .v2-arrow{color:#5b705a}
+.v2-lesson-showcase{background:linear-gradient(135deg,#f0f1eb,#fff)}
+.v2-lesson-mark{background:linear-gradient(145deg,#26342b,#5d7059 58%,#a98255)}
+.v2-pill{background:#e8ede3;color:#5b705a}
+.v2-author{background:#e9ebe4}
+.v2-author-portrait{background:linear-gradient(145deg,#27332b,#65775e)}
+.v2-book{background:linear-gradient(145deg,#2b392f,#65765e)}
+.v2-book.book-two{background:linear-gradient(145deg,#354239,#78866b)}
+.v2-book.book-three{background:linear-gradient(145deg,#3d342a,#9a7950)}
+.v2-path-list i{color:#5b705a}
+.v2-final{background:linear-gradient(125deg,#19211c,#2d392f)}
+.v2-final .v2-label{color:#c8a674}
+.v2-footer{background:#151b17}
+.v2-search-box button{background:#2c382f}
+.v2-search-icon{color:#5b705a}
+.v2-search-result:hover{border-color:rgba(91,112,90,.3)}
+.v2-search-number{color:#5b705a}
+.v2-mobile-menu{background:rgba(21,27,23,.96)}
+.v2-ring-item{background:rgba(22,29,24,.92);border-color:rgba(199,208,193,.16)}
+.v2-ring-item:before{background:#b38a58;box-shadow:0 0 12px rgba(179,138,88,.5)}
+.v2-orbit{border-color:rgba(191,205,187,.2)}
+.v2-science-ring:before{border-color:rgba(191,205,187,.18)}
+.cosmic-orbit{border-color:rgba(191,205,187,.18)}
+.orbit-2{border-color:rgba(167,185,154,.16)}
+.cosmic-node b{color:#f4f2ec}
+.cosmic-node small{color:rgba(226,230,218,.62)}
+.cosmic-core{background:radial-gradient(circle,rgba(35,41,36,.98),rgba(20,25,21,.99) 68%,rgba(10,13,11,1) 100%);border-color:rgba(218,211,195,.24)}
