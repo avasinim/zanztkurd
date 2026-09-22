@@ -708,3 +708,33 @@ body:after{
   .v2-feature-card{padding:18px;min-height:225px}
   .v2-book{min-height:215px}
 }
+
+
+/* ===== V2 home lesson search ===== */
+.v2-home-search{padding:76px 0 26px;background:var(--v2-paper)}
+.v2-search-head{margin-bottom:20px}
+.v2-search-box{display:flex;align-items:center;gap:10px;background:#fff;border:1px solid rgba(23,19,31,.10);border-radius:18px;padding:8px 10px;box-shadow:0 12px 35px rgba(23,19,31,.06)}
+.v2-search-icon{font-size:25px;line-height:1;padding:0 8px;color:var(--v2-violet)}
+.v2-search-box input{flex:1;min-width:0;border:0;outline:0;background:transparent;font:inherit;color:var(--v2-ink);font-size:15px;padding:13px 4px}
+.v2-search-box input::placeholder{color:#928b98}
+.v2-search-box button{border:0;border-radius:12px;background:var(--v2-dark);color:#fff;padding:12px 20px;font:inherit;font-size:12px;cursor:pointer}
+.v2-search-meta{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:12px 4px;color:#817987;font-size:11px}
+.v2-search-meta button{border:0;background:transparent;color:var(--v2-violet);font:inherit;cursor:pointer}
+.v2-search-results{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}
+.v2-search-result{display:flex;flex-direction:column;gap:9px;padding:18px;background:#fff;border:1px solid rgba(23,19,31,.08);border-radius:18px;text-decoration:none;color:inherit;transition:transform .2s ease,box-shadow .2s ease,border-color .2s ease}
+.v2-search-result:hover{transform:translateY(-3px);box-shadow:0 15px 35px rgba(23,19,31,.08);border-color:rgba(101,65,160,.28)}
+.v2-search-result-top{display:flex;justify-content:space-between;align-items:center;gap:8px}
+.v2-search-number{font-size:10px;color:var(--v2-violet);font-weight:800}
+.v2-search-course{font-size:9px;color:#8d8592}
+.v2-search-result b{font-size:14px;line-height:1.8}
+.v2-search-result small{font-size:9px;color:#817987;line-height:1.8}
+.v2-search-empty{grid-column:1/-1;text-align:center;padding:28px;border:1px dashed rgba(23,19,31,.15);border-radius:18px;color:#817987;font-size:12px}
+@media(max-width:900px){.v2-search-results{grid-template-columns:1fr 1fr}}
+@media(max-width:560px){
+ .v2-home-search{padding:48px 0 18px}
+ .v2-search-box{border-radius:15px}
+ .v2-search-box input{font-size:12px;padding:11px 2px}
+ .v2-search-box button{padding:10px 13px;font-size:10px}
+ .v2-search-results{grid-template-columns:1fr}
+ .v2-search-result{padding:16px}
+}
