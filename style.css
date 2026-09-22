@@ -904,3 +904,14 @@ body:after{
 .cosmic-node small{font-size:7.5px;color:rgba(246,239,249,.65);margin-top:2px}
 .cosmic-core{background:radial-gradient(circle at 38% 32%,rgba(58,40,71,.95),rgba(23,16,31,.92) 48%,rgba(9,7,13,.96) 76%);border-color:rgba(239,222,247,.38)}
 @media(max-width:650px){.cosmic-stage{inset:42px 0 34px}.cosmic-node{padding-left:9px}.cosmic-node b{font-size:8.5px}.cosmic-node small{font-size:6.5px}}
+
+/* Keep the solar-system / atom composition; remove only the outer frame */
+.v2-cosmic-science{border:0!important;border-radius:0!important;box-shadow:none!important;overflow:hidden!important}
+.v2-cosmic-science:before{display:block!important}.v2-cosmic-science:after{display:none!important}
+.cosmic-node{min-width:118px;width:auto;padding:10px 13px;border:1px solid rgba(226,211,236,.22);border-radius:13px;background:rgba(9,7,14,.94);box-shadow:0 12px 30px rgba(0,0,0,.28),inset 0 1px 0 rgba(255,255,255,.035);direction:rtl;text-align:right}
+.cosmic-node:before{display:none}.cosmic-node:after{width:5px;height:5px;right:-3px;left:auto;top:50%;background:#a978ca;box-shadow:0 0 12px rgba(169,120,202,.55)}
+.node-phonetics:after,.node-morphology:after,.node-etymology:after{left:-3px;right:auto}.node-linguistics:after{top:-3px;left:50%;right:auto}
+.cosmic-node span{font-size:7px;margin-bottom:5px;color:#a9e7e2;letter-spacing:1px}.cosmic-node b{font-size:12px;font-weight:700;color:#fff;line-height:1.45;white-space:nowrap;text-shadow:none}.cosmic-node small{font-size:8px;margin-top:3px;color:rgba(246,239,249,.62);line-height:1.4;white-space:nowrap}
+.cosmic-core{width:148px;height:148px}
+@media(max-width:850px){.cosmic-node{min-width:102px;padding:8px 10px}.cosmic-node b{font-size:10px}.cosmic-node small{font-size:7px}.cosmic-core{width:132px;height:132px}}
+@media(max-width:650px){.cosmic-node{min-width:82px;padding:6px 8px}.cosmic-node b{font-size:8.5px}.cosmic-node small{font-size:6.5px}.cosmic-node span{font-size:6px}.cosmic-core{width:112px;height:112px}}
