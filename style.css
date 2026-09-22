@@ -876,3 +876,9 @@ body:after{
 .cosmic-top,.cosmic-bottom{font-size:8px}.cosmic-bottom b{font-size:9px}.cosmic-bottom em{font-size:8px}
 @media(max-width:850px){.cosmic-node{min-width:102px;padding:8px 10px}.cosmic-node b{font-size:10px}.cosmic-node small{font-size:7px}.cosmic-core{width:132px;height:132px}.cosmic-core b{font-size:17px}}
 @media(max-width:650px){.cosmic-node{min-width:82px;padding:6px 8px}.cosmic-node b{font-size:8.5px}.cosmic-node small{font-size:6.5px}.cosmic-node span{font-size:6px}.cosmic-core{width:112px;height:112px}.cosmic-core b{font-size:14px}.cosmic-core small{font-size:6.5px}}
+
+/* Academic refinement: remove the decorative frame around the cosmic system */
+.v2-cosmic-science{border:0;background:radial-gradient(circle at 50% 50%,rgba(116,78,151,.16),transparent 27%),radial-gradient(circle at 75% 20%,rgba(72,139,151,.07),transparent 30%),linear-gradient(145deg,#09070d,#120d19 55%,#08070c);box-shadow:none;border-radius:0}
+.v2-cosmic-science:after{content:"";position:absolute;inset:0;pointer-events:none;border:0;background:radial-gradient(ellipse at center,transparent 45%,rgba(0,0,0,.22) 100%)}
+.cosmic-stage{z-index:2}.cosmic-top,.cosmic-bottom{z-index:8}
+.cosmic-orbit{border-color:rgba(205,184,220,.13)}.orbit-2{border-color:rgba(159,225,220,.12)}.orbit-3{border-color:rgba(205,184,220,.095)}.orbit-4{border-color:rgba(205,184,220,.06)}
