@@ -553,23 +553,22 @@ body:after{
 .v2-btn-ghost{border:1px solid rgba(255,255,255,.18);color:#fff;background:rgba(255,255,255,.06);backdrop-filter:blur(10px)}
 .v2-trust{display:flex;gap:20px;flex-wrap:wrap;margin-top:25px;color:rgba(255,255,255,.50);font-size:11px}
 .v2-hero-panel{min-height:510px;position:relative;display:grid;place-items:center;overflow:visible}
-.v2-core{width:205px;height:205px;border-radius:50%;display:flex;flex-direction:column;align-items:center;justify-content:center;background:radial-gradient(circle at 35% 28%,#c47de0,#70469c 43%,#17353b 78%);box-shadow:0 0 90px rgba(154,105,210,.30),inset -25px -25px 50px rgba(0,0,0,.32);z-index:5}
-.v2-core span{font-size:34px;font-weight:900}
-.v2-core b{font-size:21px;margin-top:4px}
-.v2-core small{font-size:9px;color:rgba(255,255,255,.65);margin-top:4px}
-.v2-orbit{position:absolute;border:1px solid rgba(220,190,240,.28);border-radius:50%;transform:rotate(-19deg)}
-.orbit-one{width:450px;height:190px}.orbit-two{width:350px;height:430px;transform:rotate(33deg)}
-.v2-science-ring{position:absolute;width:430px;height:430px;z-index:4;animation:v2-ring-spin 28s linear infinite}
-.v2-ring-item{position:absolute;left:50%;top:50%;width:132px;min-height:58px;padding:9px 10px;border:1px solid rgba(255,255,255,.16);border-radius:15px;background:rgba(16,11,24,.78);backdrop-filter:blur(16px);box-shadow:0 14px 35px rgba(0,0,0,.18);text-align:center;transform-origin:0 0}
-.v2-ring-item b{display:block;font-size:11px;color:#fff;white-space:nowrap}
-.v2-ring-item small{display:block;color:rgba(255,255,255,.48);font-size:8px;margin-top:2px;white-space:nowrap}
-.ring-1{transform:rotate(0deg) translateX(-66px) translateY(-215px)}
-.ring-2{transform:rotate(51.43deg) translateX(-66px) translateY(-215px)}
-.ring-3{transform:rotate(102.86deg) translateX(-66px) translateY(-215px)}
-.ring-4{transform:rotate(154.29deg) translateX(-66px) translateY(-215px)}
-.ring-5{transform:rotate(205.72deg) translateX(-66px) translateY(-215px)}
-.ring-6{transform:rotate(257.15deg) translateX(-66px) translateY(-215px)}
-.ring-7{transform:rotate(308.58deg) translateX(-66px) translateY(-215px)}
+.v2-core{width:188px;height:188px;border-radius:50%;display:flex;flex-direction:column;align-items:center;justify-content:center;background:radial-gradient(circle at 35% 28%,#d39bea,#7b4ca8 42%,#162e35 78%);box-shadow:0 0 100px rgba(176,112,220,.24),inset -22px -24px 48px rgba(0,0,0,.34);z-index:6;position:relative;border:1px solid rgba(255,255,255,.12)}
+.v2-core b{font-size:20px;margin-top:4px}.v2-core small{font-size:8px;color:rgba(255,255,255,.58);margin-top:4px}
+.v2-orbit{position:absolute;border:1px solid rgba(220,190,240,.22);border-radius:50%;pointer-events:none}
+.orbit-one{width:470px;height:210px;transform:rotate(-18deg)}.orbit-two{width:390px;height:450px;transform:rotate(32deg);opacity:.7}
+.v2-science-ring{position:absolute;width:450px;height:450px;z-index:5;animation:v2-ring-spin 34s linear infinite}
+.v2-science-ring:before{content:"";position:absolute;inset:17px;border:1px dashed rgba(212,182,235,.22);border-radius:50%}
+.v2-ring-item{position:absolute;left:50%;top:50%;width:128px;min-height:55px;padding:8px 9px;border:1px solid rgba(255,255,255,.13);border-radius:13px;background:rgba(18,13,27,.86);backdrop-filter:blur(18px);box-shadow:0 10px 28px rgba(0,0,0,.22);text-align:center;transform-origin:center;transition:transform .35s ease,background .35s ease,border-color .35s ease,box-shadow .35s ease}
+.v2-ring-item:before{content:"";position:absolute;width:6px;height:6px;border-radius:50%;background:#9f70c5;top:-4px;left:50%;transform:translateX(-50%);box-shadow:0 0 12px rgba(159,112,197,.7)}
+.v2-ring-item b{display:block;font-size:10px;color:#fff;white-space:nowrap}.v2-ring-item small{display:block;color:rgba(255,255,255,.48);font-size:7.5px;margin-top:2px;white-space:nowrap}
+.ring-1{transform:translate(-50%,-50%) rotate(0deg) translateY(-225px) rotate(0deg)}
+.ring-2{transform:translate(-50%,-50%) rotate(51.43deg) translateY(-225px) rotate(-51.43deg)}
+.ring-3{transform:translate(-50%,-50%) rotate(102.86deg) translateY(-225px) rotate(-102.86deg)}
+.ring-4{transform:translate(-50%,-50%) rotate(154.29deg) translateY(-225px) rotate(-154.29deg)}
+.ring-5{transform:translate(-50%,-50%) rotate(205.72deg) translateY(-225px) rotate(-205.72deg)}
+.ring-6{transform:translate(-50%,-50%) rotate(257.15deg) translateY(-225px) rotate(-257.15deg)}
+.ring-7{transform:translate(-50%,-50%) rotate(308.58deg) translateY(-225px) rotate(-308.58deg)}
 @keyframes v2-ring-spin{from{transform:rotate(0deg)}to{transform:rotate(360deg)}}
 @media (prefers-reduced-motion:reduce){.v2-science-ring{animation:none}}
 
@@ -620,7 +619,8 @@ body:after{
 @media(max-width:560px){
   .v2-shell{width:min(100% - 28px,1180px)}.v2-nav{height:72px}.v2-brand{font-size:18px}.v2-brand-mark{width:37px;height:37px}
   .v2-hero h1{font-size:43px;letter-spacing:-1px}.v2-hero-copy>p{font-size:13px}.v2-trust{gap:10px;flex-direction:column}
-  .v2-hero-panel{min-height:350px;transform:scale(.82)}.v2-core{width:205px;height:205px}.orbit-one{width:360px}.orbit-two{height:350px}
+  .v2-hero-panel{min-height:350px;transform:scale(.82)}
+  .v2-science-ring{width:430px;height:430px}.v2-core{width:205px;height:205px}.orbit-one{width:360px}.orbit-two{height:350px}
   .v2-intro,.v2-sections,.v2-lessons,.v2-author,.v2-library,.v2-paths,.v2-final{padding:65px 0}
   .v2-section-head{align-items:flex-start;flex-direction:column}.v2-intro h2,.v2-section-head h2,.v2-author h2,.v2-final h2{font-size:30px}
   .v2-lesson-copy h3{font-size:22px}.v2-path-list a{grid-template-columns:45px 1fr 25px;gap:10px}.v2-path-list b{font-size:14px}.v2-path-list small{font-size:10px}
@@ -675,6 +675,7 @@ body:after{
   .v2-trust{align-items:flex-start;justify-content:flex-start;gap:5px;margin-top:18px}
   .v2-trust span{font-size:9px}
   .v2-hero-panel{min-height:285px;width:calc(100% + 28px);margin-inline:-14px;transform:scale(.68);transform-origin:center top}
+  .v2-science-ring{width:450px;height:450px}
   .v2-core{width:205px;height:205px}
   .v2-float{padding:7px 9px}
   .v2-float b{font-size:10px}
