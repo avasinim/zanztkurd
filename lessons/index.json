@@ -133,7 +133,7 @@
         {
           "id": "writing-system-section-07-lesson-032",
           "number": 32,
-          "title": "لێکچوونی بڕگە و گۆڕانی قاڵبی بڕگە",
+          "title": "لێکچونی بڕگە و گۆڕانی قاڵبی بڕگە",
           "path": "section-07/lesson-032.json",
           "contentPath": "section-07/lesson-032.md"
         },
@@ -150,12 +150,12 @@
     {
       "id": "section-10",
       "number": 10,
-      "title": "فۆنێتیک و فۆنۆلۆجی مێژوویی",
+      "title": "فۆنێتیک و فۆنۆلۆجی مێژویی",
       "lessons": [
         {
           "id": "phonetics-section-10-lesson-034",
           "number": 34,
-          "title": "فۆنێتیک و فۆنۆلۆجی مێژوویی",
+          "title": "فۆنێتیک و فۆنۆلۆجی مێژویی",
           "path": "section-10/lesson-034.json",
           "contentPath": "section-10/lesson-034.md"
         },
@@ -297,7 +297,7 @@
     {
       "id": "course-02",
       "number": 2,
-      "title": "دەورەی ٢ — پسپۆڕی فێربوونی زمانی کوردی",
+      "title": "دەورەی ٢ — پسپۆڕی فێربونی زمانی کوردی",
       "sectionIds": [
         "section-06",
         "section-07",
