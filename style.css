@@ -934,3 +934,10 @@ body:after{
 .cosmic-node small{font-size:8px;color:rgba(238,228,244,.58)}
 @media(max-width:850px){.cosmic-node b{font-size:11px}.cosmic-node small{font-size:7px}}
 @media(max-width:650px){.cosmic-node b{font-size:9px}.cosmic-node small{font-size:6.5px}}
+
+/* Academic core typography */
+.cosmic-core{background:radial-gradient(circle at 38% 32%,rgba(47,38,56,.98),rgba(20,16,27,.97) 50%,rgba(8,7,12,.99) 78%);border:1px solid rgba(220,210,226,.24);box-shadow:0 0 0 8px rgba(220,210,226,.025),0 0 42px rgba(120,95,145,.16),inset 0 0 34px rgba(0,0,0,.55)}
+.cosmic-core b{font-family:inherit;font-size:21px;font-weight:700;color:#f3eef5;letter-spacing:.15px;text-shadow:0 2px 14px rgba(0,0,0,.7)}
+.cosmic-core small{font-family:inherit;font-size:8px;color:rgba(235,227,239,.62)}
+@media(max-width:850px){.cosmic-core b{font-size:18px}}
+@media(max-width:650px){.cosmic-core b{font-size:15px}}
