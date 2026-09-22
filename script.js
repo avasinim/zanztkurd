@@ -166,3 +166,68 @@ document.querySelectorAll(".learn-btn").forEach(btn=>{
 if(window.location.pathname.endsWith("/lesson.html") || window.location.pathname.endsWith("lesson.html")){
   document.body.classList.add("lesson-route-page");
 }
+
+/* ===== V2 home lesson search ===== */
+(function(){
+  const input=document.getElementById("homeLessonSearchInput");
+  const form=document.getElementById("homeSearchForm");
+  const results=document.getElementById("homeSearchResults");
+  const count=document.getElementById("homeSearchCount");
+  const clear=document.getElementById("homeSearchClear");
+  if(!input||!form||!results||!count) return;
+  let lessons=[];
+
+  function normalize(value){ return String(value||"").toLocaleLowerCase("ckb"); }
+
+  function lessonUrl(item){
+    const raw=String(item.path||"");
+    if(raw.endsWith(".html")) return "lessons/"+raw;
+    const n=Number(item.number);
+    return Number.isFinite(n) ? "lessons/"+String(n).padStart(3,"0")+".html" : "lessons/catalog.html";
+  }
+
+  function render(query){
+    const q=normalize(query||"").trim();
+    const filtered=q ? lessons.filter(function(item){
+      return normalize(item.title).includes(q) || normalize(item.sectionTitle).includes(q) || normalize(item.courseTitle).includes(q);
+    }) : lessons;
+    count.textContent=String(filtered.length)+" وانە"+(q ? " دۆزرایەوە" : "ی بەردەست");
+
+    if(!filtered.length){
+      results.innerHTML='<div class="v2-search-empty">هیچ وانەیەک بەو وشەیە نەدۆزرایەوە. وشەیەکی تر تاقی بکەرەوە.</div>';
+      return;
+    }
+
+    results.innerHTML=filtered.slice(0,6).map(function(item){
+      return '<a class="v2-search-result" href="'+lessonUrl(item)+'">'
+        +'<div class="v2-search-result-top"><span class="v2-search-number">وانەی '+item.number+'</span><span class="v2-search-course">'+(item.courseTitle||"فۆنێتیک و فۆنۆلۆجی کوردیک")+'</span></div>'
+        +'<b>'+item.title+'</b>'
+        +'<small>'+(item.sectionTitle||"وانەی سەرچاوە")+' · سابیر ژاکاو</small>'
+        +'</a>';
+    }).join("");
+  }
+
+  fetch("lessons/index.json")
+    .then(function(r){if(!r.ok) throw new Error("index"); return r.json();})
+    .then(function(data){
+      const courseMap=Object.fromEntries((data.courses||[]).map(function(c){return [c.id,c.title];}));
+      lessons=(data.sections||[]).flatMap(function(section){
+        return (section.lessons||[]).map(function(item){
+          return Object.assign({},item,{
+            sectionTitle:section.title,
+            courseTitle:courseMap[item.courseId||section.courseId]||"فۆنێتیک و فۆنۆلۆجی کوردیک"
+          });
+        });
+      });
+      lessons.sort(function(a,b){return Number(a.number)-Number(b.number);});
+      render(input.value);
+    })
+    .catch(function(){
+      count.textContent="کاتەلۆگی وانەکان بار نەکرا";
+      results.innerHTML='<a class="v2-search-empty" href="lessons/catalog.html">بۆ بینینی وانەکان بچۆ بۆ کاتەلۆگی وانەکان ←</a>';
+    });
+
+  input.addEventListener("input",function(){render(input.value);});
+  form.addEventListener("submit",function(e){e.preventDefault();render(input.value);});
+  if(clear) clear.addEventListener("click",function(){input.value="";render("");input.focus();});
+})();
