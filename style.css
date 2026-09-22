@@ -809,3 +809,25 @@ body:after{
   .site-unified-header .v2-nav{height:68px}
   .site-unified-header .v2-mobile-menu{top:68px}
 }
+
+
+/* ===== V2 scientific linguistics system ===== */
+.v2-science-system{min-height:510px;position:relative;display:grid;place-items:center;overflow:visible}
+.v2-science-system .v2-science-halo{position:absolute;width:440px;height:440px;border:1px solid rgba(199,166,224,.14);border-radius:50%;box-shadow:0 0 80px rgba(154,105,210,.08)}
+.v2-science-system .v2-science-halo:before,.v2-science-system .v2-science-halo:after{content:"";position:absolute;border-radius:50%;inset:35px;border:1px solid rgba(199,166,224,.12)}
+.v2-science-system .v2-science-halo:after{inset:88px;border-style:dashed;opacity:.65}
+.v2-science-system .v2-science-connectors{position:absolute;width:450px;height:450px;z-index:2;animation:science-rotate 42s linear infinite}
+.v2-science-system .connector{position:absolute;left:50%;top:50%;width:1px;height:205px;transform-origin:50% 100%;background:linear-gradient(to top,rgba(190,153,221,.48),rgba(190,153,221,.04));opacity:.7}
+.v2-science-system .connector:after{content:"";position:absolute;top:-3px;left:-3px;width:7px;height:7px;border-radius:50%;background:#a978ca;box-shadow:0 0 12px rgba(169,120,202,.7)}
+.v2-science-system .c1{transform:rotate(0deg)}.v2-science-system .c2{transform:rotate(51.43deg)}.v2-science-system .c3{transform:rotate(102.86deg)}.v2-science-system .c4{transform:rotate(154.29deg)}.v2-science-system .c5{transform:rotate(205.72deg)}.v2-science-system .c6{transform:rotate(257.15deg)}.v2-science-system .c7{transform:rotate(308.58deg)}
+.v2-science-system .v2-science-ring{width:450px;height:450px;z-index:4;animation:science-rotate 42s linear infinite}
+.v2-science-system .v2-ring-item{width:122px;min-height:52px;padding:8px 9px;border-radius:11px;background:rgba(12,9,20,.9);border:1px solid rgba(213,188,230,.18);box-shadow:0 12px 28px rgba(0,0,0,.22);transition:.3s ease}
+.v2-science-system .v2-ring-item:hover{background:rgba(91,57,121,.92);border-color:rgba(220,191,239,.5);box-shadow:0 0 25px rgba(170,120,205,.2);transform:scale(1.04)}
+.v2-science-system .v2-ring-item:before{background:#b886d5;box-shadow:0 0 12px rgba(184,134,213,.75)}
+.v2-science-system .v2-core{width:180px;height:180px;z-index:7;border:1px solid rgba(238,219,249,.22);box-shadow:0 0 90px rgba(171,115,214,.25),inset -24px -24px 45px rgba(0,0,0,.34)}
+.v2-science-system .core-dot{position:absolute;bottom:32px;width:5px;height:5px;border-radius:50%;background:#9fe1dc;box-shadow:0 0 12px #9fe1dc}
+.science-caption{position:absolute;bottom:3px;z-index:8;font-size:7px;letter-spacing:3px;color:rgba(230,215,239,.35);direction:ltr}
+@keyframes science-rotate{to{transform:rotate(360deg)}}
+@media(max-width:900px){.v2-science-system{min-height:390px}.v2-science-system .v2-science-halo{width:380px;height:380px}.v2-science-system .v2-science-connectors,.v2-science-system .v2-science-ring{width:390px;height:390px}.v2-science-system .connector{height:175px}}
+@media(max-width:560px){.v2-science-system{min-height:285px}.v2-science-system .v2-science-halo{width:350px;height:350px}.v2-science-system .v2-science-connectors,.v2-science-system .v2-science-ring{width:370px;height:370px}.v2-science-system .connector{height:165px}.v2-science-system .v2-ring-item{width:118px}.science-caption{bottom:-8px;font-size:6px}}
+@media(prefers-reduced-motion:reduce){.v2-science-system .v2-science-ring,.v2-science-system .v2-science-connectors{animation:none}}
