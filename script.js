@@ -182,7 +182,7 @@ if(window.location.pathname.endsWith("/lesson.html") || window.location.pathname
   function lessonUrl(item){
     const raw=String(item.path||"");
     if(raw.endsWith(".html")) return "lessons/"+raw;
-    const n=Number(item.number);
+    const n=Number(item.originalNumber||item.number);
     return Number.isFinite(n) ? "lessons/"+String(n).padStart(3,"0")+".html" : "lessons/catalog.html";
   }
 
@@ -219,7 +219,7 @@ if(window.location.pathname.endsWith("/lesson.html") || window.location.pathname
           });
         });
       });
-      lessons.sort(function(a,b){return Number(a.number)-Number(b.number);});
+      lessons.sort(function(a,b){return Number(a.courseLessonNumber||a.number)-Number(b.courseLessonNumber||b.number);});
       render(input.value);
     })
     .catch(function(){
