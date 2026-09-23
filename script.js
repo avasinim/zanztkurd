@@ -200,7 +200,7 @@ if(window.location.pathname.endsWith("/lesson.html") || window.location.pathname
 
     results.innerHTML=filtered.slice(0,6).map(function(item){
       return '<a class="v2-search-result" href="'+lessonUrl(item)+'">'
-        +'<div class="v2-search-result-top"><span class="v2-search-number">وانەی '+item.number+'</span><span class="v2-search-course">'+(item.courseTitle||"فۆنێتیک و فۆنۆلۆجی کوردیک")+'</span></div>'
+        +'<div class="v2-search-result-top"><span class="v2-search-number">وانەی '+(item.courseLessonNumber||item.number)+'</span><span class="v2-search-course">'+(item.courseTitle||"فۆنێتیک و فۆنۆلۆجی کوردیک")+'</span></div>'
         +'<b>'+item.title+'</b>'
         +'<small>'+(item.sectionTitle||"وانەی سەرچاوە")+' · سابیر ژاکاو</small>'
         +'</a>';
