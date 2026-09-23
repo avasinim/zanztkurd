@@ -24,7 +24,7 @@
           "path": "025.html",
           "contentPath": "section-06/lesson-025.md",
           "pagePath": "025.html",
-          "courseLessonNumber": 1
+          "courseLessonNumber": 9
         }
       ],
       "courseId": "course-02"
@@ -41,7 +41,7 @@
           "path": "section-07/lesson-017.json",
           "contentPath": "section-07/lesson-017.md",
           "pagePath": "017.html",
-          "courseLessonNumber": 2
+          "courseLessonNumber": 1
         },
         {
           "id": "writing-system-section-07-lesson-018",
@@ -50,7 +50,7 @@
           "path": "section-07/lesson-018.json",
           "contentPath": "section-07/lesson-018.md",
           "pagePath": "018.html",
-          "courseLessonNumber": 3
+          "courseLessonNumber": 2
         },
         {
           "id": "writing-system-section-07-lesson-019",
@@ -59,7 +59,7 @@
           "path": "section-07/lesson-019.json",
           "contentPath": "section-07/lesson-019.md",
           "pagePath": "019.html",
-          "courseLessonNumber": 4
+          "courseLessonNumber": 3
         },
         {
           "id": "writing-system-section-07-lesson-020",
@@ -68,7 +68,7 @@
           "path": "section-07/lesson-020.json",
           "contentPath": "section-07/lesson-020.md",
           "pagePath": "020.html",
-          "courseLessonNumber": 5
+          "courseLessonNumber": 4
         },
         {
           "id": "writing-system-section-07-lesson-021",
@@ -77,7 +77,7 @@
           "path": "section-07/lesson-021.json",
           "contentPath": "section-07/lesson-021.md",
           "pagePath": "021.html",
-          "courseLessonNumber": 6
+          "courseLessonNumber": 5
         },
         {
           "id": "writing-system-section-07-lesson-022",
@@ -86,7 +86,7 @@
           "path": "section-07/lesson-022.json",
           "contentPath": "section-07/lesson-022.md",
           "pagePath": "022.html",
-          "courseLessonNumber": 7
+          "courseLessonNumber": 6
         },
         {
           "id": "writing-system-section-07-lesson-023",
@@ -95,7 +95,7 @@
           "path": "section-07/lesson-023.json",
           "contentPath": "section-07/lesson-023.md",
           "pagePath": "023.html",
-          "courseLessonNumber": 8
+          "courseLessonNumber": 7
         },
         {
           "id": "writing-system-section-07-lesson-024",
@@ -104,7 +104,7 @@
           "path": "section-07/lesson-024.json",
           "contentPath": "section-07/lesson-024.md",
           "pagePath": "024.html",
-          "courseLessonNumber": 9
+          "courseLessonNumber": 8
         },
         {
           "id": "writing-system-section-07-lesson-026",
@@ -397,7 +397,7 @@
       "range": "017-050",
       "firstOriginalNumber": 17,
       "firstCourseLessonNumber": 1,
-      "note": "ژمارەی وانە لە کاتالۆگ و نێوانی فێربوندا لە ١ دەست پێ دەکات؛ ژمارەی سەرچاوە بۆ ناساندنی فایل و کتێب پارێزراوە."
+      "note": "ژمارەی وانە لە کاتالۆگ و ڕێڕەوی فێربون لە ١ دەست پێ دەکات؛ ژمارەی سەرچاوەی کتێب و ناوی فایلەکان پارێزراون."
     }
   }
 }
