@@ -71,7 +71,7 @@ const data=await res.json(),course=data.course||{};progression={...progression,.
 document.getElementById("courseTitle").textContent=course.title||"وانەکان";
 document.getElementById("courseMeta").textContent=course.author?"مامۆستا: "+course.author:"ڕێڕەوی فێربونی زمانی کوردی";
 courses.forEach(c=>{const o=document.createElement("option");o.value=c.id;o.textContent=c.title;courseFilter.appendChild(o)});
-lessons=(data.sections||[]).flatMap(s=>(s.lessons||[]).map(l=>({...l,sectionTitle:s.title,sectionNumber:s.number,sectionId:s.id,courseId:l.courseId||s.courseId||null,originalNumber:l.number,courseLessonNumber:l.courseLessonNumber||null})));
+lessons=(data.sections||[]).flatMap(s=>(s.lessons||[]).map(l=>({...l,sectionTitle:s.title,sectionNumber:s.number,sectionId:s.id,courseId:l.courseId||s.courseId||null,originalNumber:l.number,courseLessonNumber:l.courseLessonNumber||null})));\nlessons.sort((a,b)=>(a.courseLessonNumber||999)-(b.courseLessonNumber||999));
 const sections=[...new Map(lessons.map(l=>[l.sectionId,l])).values()];
 sections.forEach(x=>{const o=document.createElement("option");o.value=x.sectionId;o.textContent="بەشی "+x.sectionNumber+" — "+x.sectionTitle;filter.appendChild(o)});render();
 }catch(e){catalog.innerHTML="<div class=\"catalog-empty\">بارکردنی فهرستی وانەکان سەرکەوتو نەبو. تکایە دوبارە هەوڵ بدە.</div>";return}
