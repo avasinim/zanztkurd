@@ -32,12 +32,12 @@
     {
       "id": "section-07",
       "number": 7,
-      "title": "سیستمی نوسین",
+      "title": "دەورەی ١ — دەورەی سەرەتایی ئەلفوبێی زوانی کوردیک",
       "lessons": [
         {
           "id": "writing-system-section-07-lesson-017",
           "number": 17,
-          "title": "سیستمی نوسین",
+          "title": "بەراوردی ئەلفبێی عەرەبی، فارسی و ئینگلیزی",
           "path": "section-07/lesson-017.json",
           "contentPath": "section-07/lesson-017.md",
           "pagePath": "017.html",
@@ -46,7 +46,7 @@
         {
           "id": "writing-system-section-07-lesson-018",
           "number": 18,
-          "title": "ئەلفبێی فۆنێتیکی و ئەلفبێی فۆنێمی",
+          "title": "ئەلفبێی کوردیک؛ دیدێکی گشتی و ئەلفبێی هەورامی",
           "path": "section-07/lesson-018.json",
           "contentPath": "section-07/lesson-018.md",
           "pagePath": "018.html",
@@ -55,7 +55,7 @@
         {
           "id": "writing-system-section-07-lesson-019",
           "number": 19,
-          "title": "ڕون‌کردنەوەی واچ و جوتەیی",
+          "title": "ئەلفبێی کەڵهوڕی و بازنەی باشور",
           "path": "section-07/lesson-019.json",
           "contentPath": "section-07/lesson-019.md",
           "pagePath": "019.html",
@@ -64,7 +64,7 @@
         {
           "id": "writing-system-section-07-lesson-020",
           "number": 20,
-          "title": "کەرستەناکەرتیەکان",
+          "title": "ئەلفبێی بازنەی باکور و سۆرانی",
           "path": "section-07/lesson-020.json",
           "contentPath": "section-07/lesson-020.md",
           "pagePath": "020.html",
@@ -73,7 +73,7 @@
         {
           "id": "writing-system-section-07-lesson-021",
           "number": 21,
-          "title": "هێز و سترێس",
+          "title": "ئەلفبێی گشتی زوانی کوردیک؛ واچ، ڤاوڵ و کۆنسۆنەنت",
           "path": "section-07/lesson-021.json",
           "contentPath": "section-07/lesson-021.md",
           "pagePath": "021.html",
@@ -82,7 +82,7 @@
         {
           "id": "writing-system-section-07-lesson-022",
           "number": 22,
-          "title": "ئاوازە و تۆن",
+          "title": "نگاری پیتەکان، پیتی لکاو و نەلکاو",
           "path": "section-07/lesson-022.json",
           "contentPath": "section-07/lesson-022.md",
           "pagePath": "022.html",

@@ -16,28 +16,39 @@
 <meta name="twitter:description" content="فهرستی ڕێکخراوی وانەکانی فۆنێتیک و فۆنۆلۆجی کوردیک لە ئاڤاشین.">
 <link rel="stylesheet" href="../style.css">
 <style>
-.lesson-catalog{padding:52px 0 80px}.catalog-tools{display:flex;gap:12px;flex-wrap:wrap;margin-bottom:26px}.catalog-tools input,.catalog-tools select{background:rgba(255,255,255,.04);color:inherit;border:1px solid rgba(255,255,255,.12);border-radius:14px;padding:13px 16px;outline:0;font:inherit}.catalog-tools input{flex:1;min-width:240px}.catalog-tools select{min-width:210px}.catalog-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(270px,1fr));gap:18px}.catalog-card{display:flex;flex-direction:column;gap:12px;padding:22px;border:1px solid rgba(255,255,255,.1);border-radius:20px;background:rgba(255,255,255,.035);min-height:235px}.catalog-card h2{margin:0;font-size:1.18rem}.catalog-card p{margin:0;opacity:.75;line-height:1.8}.catalog-meta{display:flex;gap:9px;flex-wrap:wrap;font-size:.84rem;opacity:.7}.catalog-source{font-size:.8rem;opacity:.6}.catalog-status{font-size:.84rem;opacity:.8;font-weight:600}.catalog-progress{height:7px;background:rgba(255,255,255,.08);border-radius:99px;overflow:hidden}.catalog-progress span{display:block;height:100%;background:currentColor;border-radius:inherit}.catalog-btn{margin-top:auto;align-self:flex-start;text-decoration:none}.catalog-empty,.catalog-loading{grid-column:1/-1;padding:28px;border-radius:18px;background:rgba(255,255,255,.035);opacity:.8;text-align:center}.catalog-summary{margin-top:14px;opacity:.78}.catalog-head-actions{display:flex;gap:10px;flex-wrap:wrap;margin-top:20px}.catalog-head-actions .ghost-btn{display:inline-flex;align-items:center;justify-content:center}.catalog-tools input:focus,.catalog-tools select:focus{border-color:currentColor;box-shadow:0 0 0 3px rgba(255,255,255,.05)}.catalog-locked{opacity:.68}.catalog-lock{font-size:.84rem;font-weight:700}.catalog-btn[aria-disabled="true"]{opacity:.55;cursor:not-allowed}.crawlable-links{position:absolute;left:-9999px;width:1px;height:1px;overflow:hidden}
-
-/* ===== ئاڤاشین · unified lesson catalog ===== */
-.lesson-catalog{background:#f5f4ef;color:#202522}
-.lesson-catalog .container{max-width:1180px}
-.catalog-tools{align-items:center}
-.catalog-tools input,.catalog-tools select{background:#fff;color:#202522;border:1px solid rgba(32,37,34,.12);box-shadow:0 8px 24px rgba(32,37,34,.04)}
-.catalog-tools input::placeholder{color:#7b827c}
-.catalog-grid{gap:20px}
-.catalog-card{border:1px solid rgba(32,37,34,.10);border-radius:18px;background:#fff;box-shadow:0 12px 30px rgba(32,37,34,.055);transition:transform .2s ease,box-shadow .2s ease,border-color .2s ease}
-.catalog-card:hover{transform:translateY(-3px);box-shadow:0 18px 38px rgba(32,37,34,.09);border-color:rgba(91,112,90,.28)}
-.catalog-card h2{color:#202522;line-height:1.5}
-.catalog-card p{color:#68716b}
-.catalog-meta{color:#5b705a}
-.catalog-source{color:#7a817b}
-.catalog-status{color:#536256}
-.catalog-progress{background:#e8ebe5}
-.catalog-progress span{background:#667b62}
-.catalog-btn{background:linear-gradient(135deg,#d3ab75,#a6b59a)!important;color:#20251f!important;border:0!important}
-.catalog-locked{background:#f7f7f3}
-.course-group>div:first-child{border-right:3px solid #b38a58;padding-right:14px}
-</style>
+.lesson-catalog{padding:54px 0 92px;background:#f3f1ea;color:#202522;position:relative}
+.lesson-catalog:before{content:"";position:absolute;inset:0;pointer-events:none;opacity:.32;background-image:linear-gradient(rgba(32,37,34,.035) 1px,transparent 1px),linear-gradient(90deg,rgba(32,37,34,.025) 1px,transparent 1px);background-size:38px 38px}
+.lesson-catalog>.container{position:relative;z-index:1;max-width:1220px}
+.catalog-tools{display:grid;grid-template-columns:220px minmax(260px,1fr) 220px;gap:12px;align-items:center;margin-bottom:34px}
+.catalog-tools input,.catalog-tools select{width:100%;box-sizing:border-box;background:#fff;color:#202522;border:1px solid rgba(32,37,34,.12);border-radius:13px;padding:14px 16px;outline:0;font:inherit;box-shadow:0 8px 24px rgba(32,37,34,.045)}
+.catalog-tools input::placeholder{color:#89908a}.catalog-tools input:focus,.catalog-tools select:focus{border-color:#8b7048;box-shadow:0 0 0 3px rgba(179,138,88,.12)}
+.catalog-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px}
+.course-group{grid-column:1/-1;display:grid;grid-template-columns:minmax(250px,.72fr) minmax(0,2.28fr);gap:24px;align-items:start;margin-bottom:28px;padding:24px;border:1px solid rgba(32,37,34,.1);border-radius:24px;background:rgba(255,255,255,.68);box-shadow:0 18px 45px rgba(32,37,34,.055)}
+.course-group>div:first-child{margin:0!important;padding:8px 18px 8px 0!important;border-right:3px solid #b38a58!important;position:sticky;top:90px}
+.course-group>div:first-child .eyebrow{color:#64745f;font-size:.78rem;letter-spacing:.02em}
+.course-group>div:first-child h2{margin:10px 0 7px!important;color:#202522;font-size:clamp(1.25rem,2.2vw,1.65rem);line-height:1.6}
+.course-group>div:first-child p{color:#717a73;line-height:1.8}
+.course-group>.catalog-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}
+.catalog-card{display:flex;flex-direction:column;gap:10px;padding:20px;border:1px solid rgba(32,37,34,.1);border-radius:18px;background:#fff;box-shadow:0 10px 28px rgba(32,37,34,.045);min-height:245px;position:relative;overflow:hidden;transition:transform .22s ease,box-shadow .22s ease,border-color .22s ease}
+.catalog-card:before{content:"";position:absolute;inset:0 0 auto 0;height:3px;background:linear-gradient(90deg,#b38a58,#788b73);opacity:.75}
+.catalog-card:hover{transform:translateY(-4px);box-shadow:0 18px 38px rgba(32,37,34,.09);border-color:rgba(91,112,90,.24)}
+.catalog-card h2{margin:0;color:#202522;line-height:1.6;font-size:1.1rem}
+.catalog-card p{margin:0;color:#707971;line-height:1.75;min-height:2.9em}
+.catalog-meta{display:flex;gap:8px;flex-wrap:wrap;color:#5b705a;font-size:.78rem;font-weight:700}
+.catalog-meta span:first-child{padding:5px 9px;border-radius:999px;background:#edf1e9}
+.catalog-source{font-size:.77rem;color:#858c86;margin-top:auto;padding-top:4px}
+.catalog-status{font-size:.8rem;color:#5d695f;font-weight:650}
+.catalog-progress{height:5px;background:#e9ebe6;border-radius:99px;overflow:hidden}.catalog-progress span{display:block;height:100%;background:linear-gradient(90deg,#7b8e74,#b38a58);border-radius:inherit}
+.catalog-btn{margin-top:4px;align-self:flex-start;text-decoration:none;background:linear-gradient(135deg,#d3ab75,#a6b59a)!important;color:#20251f!important;border:0!important;border-radius:11px!important;padding:10px 14px!important;font-weight:750}
+.catalog-locked{opacity:.68}.catalog-lock{font-size:.78rem;font-weight:700}.catalog-btn[aria-disabled="true"]{opacity:.55;cursor:not-allowed}
+.catalog-empty,.catalog-loading{grid-column:1/-1;padding:36px;border-radius:20px;background:#fff;opacity:.8;text-align:center}
+.catalog-summary{margin-top:12px;color:#6b746d;line-height:1.8}
+.catalog-head-actions{display:flex;gap:10px;flex-wrap:wrap;margin-top:22px}
+.catalog-head-actions .ghost-btn{display:inline-flex;align-items:center;justify-content:center}
+.crawlable-links{position:absolute;left:-9999px;width:1px;height:1px;overflow:hidden}
+@media(max-width:900px){.catalog-tools{grid-template-columns:1fr 1fr}.catalog-tools input{grid-column:1/-1}.catalog-grid{grid-template-columns:1fr}.course-group{grid-template-columns:1fr}.course-group>div:first-child{position:static}.course-group>.catalog-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:600px){.lesson-catalog{padding:38px 0 65px}.catalog-tools{grid-template-columns:1fr}.catalog-tools input{grid-column:auto}.course-group{padding:17px;border-radius:18px}.course-group>.catalog-grid{grid-template-columns:1fr}.catalog-card{min-height:0;padding:18px}}
+.catalog-intro{display:flex;justify-content:space-between;align-items:center;gap:20px;margin-bottom:24px;padding:24px 26px;border-radius:22px;background:#fff;border:1px solid rgba(32,37,34,.1);box-shadow:0 14px 35px rgba(32,37,34,.05)}.catalog-intro h2{margin:5px 0;color:#202522;font-size:clamp(1.25rem,2.5vw,1.8rem)}.catalog-intro p{margin:0;color:#69736d}.catalog-index-mark{width:86px;height:86px;border-radius:20px;display:flex;flex-direction:column;align-items:center;justify-content:center;background:linear-gradient(145deg,#d3ab75,#a6b59a);color:#20251f;flex:0 0 auto}.catalog-index-mark strong{font-size:1.8rem;line-height:1}.catalog-index-mark span{font-size:.75rem;font-weight:750;margin-top:5px}.catalog-hero{position:relative;overflow:hidden}.catalog-hero:after{content:"CATALOG";position:absolute;left:4%;bottom:-34px;font:800 clamp(5rem,14vw,10rem)/1 Georgia,serif;color:rgba(255,255,255,.035);letter-spacing:.08em;pointer-events:none}.catalog-tools{position:relative}.course-group>div:first-child:before{content:"";display:block;width:34px;height:3px;background:#b38a58;margin-bottom:12px}.catalog-card h2{font-size:1.08rem}.catalog-card .catalog-meta span:first-child{font-size:.72rem}.catalog-card:nth-child(3n){background:#fbfaf6}@media(max-width:600px){.catalog-intro{align-items:flex-start;padding:18px}.catalog-index-mark{width:68px;height:68px}.catalog-index-mark strong{font-size:1.4rem}}</style>
 </head>
 <body class="content-page">
 <header class="v2-header site-unified-header">
@@ -54,12 +65,12 @@
   </div>
 </header>
 <main>
-<section class="content-page-hero"><div class="container"><span class="eyebrow">بنکەی وانەکان</span><h1 id="courseTitle">وانەکان</h1><p id="courseMeta">بارکردنی ناوەڕۆک...</p><p id="overallProgress" class="catalog-summary"></p><div class="catalog-head-actions"><a class="ghost-btn" href="performance.html">ڕاپۆرتی ئەدا و پێشکەوتن</a><a class="ghost-btn" href="../learning.html">ڕێڕەوی فێربون</a></div></div></section>
-<section class="lesson-catalog"><div class="container"><div class="catalog-tools"><select id="courseFilter" aria-label="هەڵبژاردنی دەورە"><option value="all">هەمو دەورەکان</option></select><input id="catalogSearch" type="search" placeholder="گەڕان لە ناوی وانە..." aria-label="گەڕان لە وانەکان"><select id="sectionFilter" aria-label="هەڵبژاردنی بەش"><option value="all">هەمو بەشەکان</option></select></div><div id="catalog" class="catalog-grid"><div class="catalog-loading">وانەکان بار دەکرێن...</div></div></div></section>
+<section class="content-page-hero catalog-hero"><div class="container"><span class="eyebrow">ئاڤاشین · سیستەمی فێربون</span><h1 id="courseTitle">کاتەلۆگی وانەکان</h1><p id="courseMeta">کۆمەڵێک وانەی ڕێکخراو بۆ خوێندنەوەی زانستی زوانی کوردیک.</p><p id="overallProgress" class="catalog-summary"></p><div class="catalog-head-actions"><a class="ghost-btn" href="performance.html">ڕاپۆرتی ئەدا و پێشکەوتن</a><a class="ghost-btn" href="../learning.html">ڕێڕەوی فێربون</a></div></div></section>
+<section class="lesson-catalog"><div class="container"><div class="catalog-intro"><div><span class="eyebrow">کتێبی سەرەکی</span><h2>فۆنێتیک و فۆنۆلۆجی کوردیک</h2><p>سابیر ژاکاو</p></div><div class="catalog-index-mark"><strong>٣٤</strong><span>وانە</span></div></div><div class="catalog-tools"><select id="courseFilter" aria-label="هەڵبژاردنی ڕێڕەو"><option value="all">هەمو ڕێڕەوەکان</option></select><input id="catalogSearch" type="search" placeholder="گەڕان لە ناوی وانە..." aria-label="گەڕان لە وانەکان"><select id="sectionFilter" aria-label="هەڵبژاردنی بەش"><option value="all">هەمو بەشەکان</option></select></div><div id="catalog" class="catalog-grid"><div class="catalog-loading">وانەکان بار دەکرێن...</div></div></div></section>
 <nav class="crawlable-links" aria-label="لینکی هەمو وانەکان">
 <a href="017.html">وانەی ١</a><a href="018.html">وانەی ٢</a><a href="019.html">وانەی ٣</a><a href="020.html">وانەی ٤</a><a href="021.html">وانەی ٥</a><a href="022.html">وانەی ٦</a><a href="023.html">وانەی ٧</a><a href="024.html">وانەی ٨</a><a href="025.html">وانەی ٩</a><a href="026.html">وانەی ١٠</a><a href="027.html">وانەی ١١</a><a href="028.html">وانەی ١٢</a><a href="029.html">وانەی ١٣</a><a href="030.html">وانەی ١٤</a><a href="031.html">وانەی ١٥</a><a href="032.html">وانەی ١٦</a><a href="033.html">وانەی ١٧</a><a href="034.html">وانەی ٣٤ — فۆنێتیک و فۆنۆلۆجی مێژویی</a><a href="035.html">وانەی ١٩</a><a href="036.html">وانەی ٢٠</a><a href="037.html">وانەی ٢١</a><a href="038.html">وانەی ٢٢</a><a href="039.html">وانەی ٢٣</a><a href="040.html">وانەی ٢٤</a><a href="041.html">وانەی ٢٥</a><a href="042.html">وانەی ٢٦</a><a href="043.html">وانەی ٢٧</a><a href="044.html">وانەی ٢٨</a><a href="045.html">وانەی ٢٩</a><a href="046.html">وانەی ٣٠</a><a href="047.html">وانەی ٣١</a><a href="048.html">وانەی ٣٢</a><a href="049.html">وانەی ٣٣</a><a href="050.html">وانەی ٣٤</a>
 </nav>
-</main><footer class="footer"><div class="container footer-bottom">© ٢٠٢٦ ئاڤاشین · فێربونی زمانی کوردی</div></footer>
+</main><footer class="footer"><div class="container footer-bottom">© ٢٠٢٦ ئاڤاشین · فێربونی زوانی کوردیک</div></footer>
 <script>
 (async function(){
 const catalog=document.getElementById("catalog"),search=document.getElementById("catalogSearch"),courseFilter=document.getElementById("courseFilter"),filter=document.getElementById("sectionFilter"),overall=document.getElementById("overallProgress");
@@ -69,7 +80,7 @@ try{
 const res=await fetch("./index.json",{cache:"no-store"});if(!res.ok)throw Error("catalog");
 const data=await res.json(),course=data.course||{};progression={...progression,...(data.progression||{})};courses=data.courses||[];
 document.getElementById("courseTitle").textContent=course.title||"وانەکان";
-document.getElementById("courseMeta").textContent=course.author?"مامۆستا: "+course.author:"ڕێڕەوی فێربونی زمانی کوردی";
+document.getElementById("courseMeta").textContent=course.author?"مامۆستا: "+course.author:"ڕێڕەوی فێربونی زوانی کوردیک";
 courses.forEach(c=>{const o=document.createElement("option");o.value=c.id;o.textContent=c.title;courseFilter.appendChild(o)});
 lessons=(data.sections||[]).flatMap(s=>(s.lessons||[]).map(l=>({...l,sectionTitle:s.title,sectionNumber:s.number,sectionId:s.id,courseId:l.courseId||s.courseId||null,originalNumber:l.number,courseLessonNumber:l.courseLessonNumber||null})));\nlessons.sort((a,b)=>(a.courseLessonNumber||999)-(b.courseLessonNumber||999));
 const sections=[...new Map(lessons.map(l=>[l.sectionId,l])).values()];
@@ -84,7 +95,7 @@ const done=lessons.filter(isDone).length,passed=lessons.filter(l=>localStorage.g
 overall.textContent="پێشکەوتن: "+done+" لە "+lessons.length+" وانە · تاقیکردنەوەی سەرکەوتو: "+passed+" · "+(lessons.length?Math.round(done/lessons.length*100):0)+"%"+(progression.enabled?" · ڕێڕەوی پێشکەوتن چالاکە":"");
 if(!base.length){catalog.innerHTML="<div class=\"catalog-empty\">هیچ وانەیەک بەم گەڕانە نەدۆزرایەوە.</div>";return}
 const groups=selectedCourse==="all"?courses:courses.filter(c=>c.id===selectedCourse);
-catalog.innerHTML=groups.map(c=>{const group=base.filter(l=>l.courseId===c.id);if(!group.length)return "";return "<section class=\"course-group\" style=\"grid-column:1/-1\"><div style=\"margin:8px 0 18px\"><span class=\"eyebrow\">دەورەی "+escapeHtml(c.number)+"</span><h2 style=\"margin:8px 0 4px\">"+escapeHtml(c.title)+"</h2><p style=\"margin:0;opacity:.72\">"+group.length+" وانەی بەردەست</p></div><div class=\"catalog-grid\">"+group.map((l,i)=>{const d=isDone(l),qz=localStorage.getItem("lesson-quiz:"+l.id)==="passed",locked=isLocked(lessons.indexOf(l)),p=d?100:qz?85:0,href="./"+(l.pagePath||String(l.originalNumber).padStart(3,"0")+".html");return "<article class=\"catalog-card"+(locked?" catalog-locked":"")+"\"><div class=\"catalog-meta\"><span>وانەی "+(l.courseLessonNumber||i+1)+"</span><span>دەورەی "+escapeHtml(c.number)+"</span></div><h2>"+escapeHtml(l.title)+"</h2><p>"+escapeHtml(l.sectionTitle||"")+"</p><div class=\"catalog-source\">سابیر ژاکاو · ژمارەی سەرچاوە: "+escapeHtml(l.originalNumber)+"</div><div class=\"catalog-status\">"+(locked?"<span class=\"catalog-lock\">🔒 پێویستی بە تەواوکردنی وانەی پێشو هەیە</span>":d?"✓ وانەکە تەواو کراوە":qz?"✓ تاقیکردنەوە سەرکەوتوە":"ئامادەی خوێندنەوە")+"</div><div class=\"catalog-progress\"><span style=\"width:"+p+"%\"></span></div>"+(locked?"<span class=\"primary-btn big catalog-btn\" aria-disabled=\"true\">قفلە ←</span>":"<a class=\"primary-btn big catalog-btn\" href=\""+href+"\">"+(d?"دوبارەکردنەوە":"دەست‌پێ‌کردنی وانە")+" ←</a>")+"</article>"}).join("")+"</div></section>"}).join("")}
+catalog.innerHTML=groups.map(c=>{const group=base.filter(l=>l.courseId===c.id);if(!group.length)return "";return "<section class=\"course-group\" style=\"grid-column:1/-1\"><div style=\"margin:8px 0 18px\"><span class=\"eyebrow\">دەورەی "+escapeHtml(c.number)+"</span><h2 style=\"margin:8px 0 4px\">"+escapeHtml(c.title)+"</h2><p style=\"margin:0;opacity:.72\">"+group.length+" وانەی بەردەست</p></div><div class=\"catalog-grid\">"+group.map((l,i)=>{const d=isDone(l),qz=localStorage.getItem("lesson-quiz:"+l.id)==="passed",locked=isLocked(lessons.indexOf(l)),p=d?100:qz?85:0,href="./"+(l.pagePath||String(l.originalNumber).padStart(3,"0")+".html");return "<article class=\"catalog-card"+(locked?" catalog-locked":"")+"\"><div class=\"catalog-meta\"><span>وانەی "+(l.courseLessonNumber||i+1)+"</span></div><h2>"+escapeHtml(l.title)+"</h2><p>"+escapeHtml(l.sectionTitle||"")+"</p><div class=\"catalog-source\">سابیر ژاکاو · ژمارەی سەرچاوە: "+escapeHtml(l.originalNumber)+"</div><div class=\"catalog-status\">"+(locked?"<span class=\"catalog-lock\">🔒 پێویستی بە تەواوکردنی وانەی پێشو هەیە</span>":d?"✓ وانەکە تەواو کراوە":qz?"✓ تاقیکردنەوە سەرکەوتوە":"ئامادەی خوێندنەوە")+"</div><div class=\"catalog-progress\"><span style=\"width:"+p+"%\"></span></div>"+(locked?"<span class=\"primary-btn big catalog-btn\" aria-disabled=\"true\">قفلە ←</span>":"<a class=\"primary-btn big catalog-btn\" href=\""+href+"\">"+(d?"دوبارەکردنەوە":"دەست‌پێ‌کردنی وانە")+" ←</a>")+"</article>"}).join("")+"</div></section>"}).join("")}
 }
 search.addEventListener("input",render);filter.addEventListener("change",render);courseFilter.addEventListener("change",render)
 })();

@@ -1064,3 +1064,70 @@ body:after{
 .cosmic-node b{color:#f4f2ec}
 .cosmic-node small{color:rgba(226,230,218,.62)}
 .cosmic-core{background:radial-gradient(circle,rgba(35,41,36,.98),rgba(20,25,21,.99) 68%,rgba(10,13,11,1) 100%);border-color:rgba(218,211,195,.24)}
+
+
+/* ===== ئاڤاشین · دیزاینی ناوخۆی ئەکادیمی ===== */
+.content-page,.mentor-page{background:#f3f1ea;color:#202522}
+.content-page .v2-header,.mentor-page .v2-header{background:rgba(21,27,23,.96);border-bottom:1px solid rgba(255,255,255,.07);backdrop-filter:blur(14px)}
+.content-page-hero,.mentor-page-hero{
+  position:relative;overflow:hidden;
+  padding:132px 0 72px;
+  background:
+    radial-gradient(650px 330px at 10% 15%,rgba(93,119,91,.22),transparent 65%),
+    radial-gradient(520px 300px at 88% 10%,rgba(195,151,96,.12),transparent 68%),
+    linear-gradient(135deg,#1a211d,#29342d 58%,#171d19);
+}
+.content-page-hero:after,.mentor-page-hero:after{
+  content:"";position:absolute;inset:0;pointer-events:none;opacity:.16;
+  background-image:linear-gradient(rgba(220,226,215,.16) 1px,transparent 1px),linear-gradient(90deg,rgba(220,226,215,.12) 1px,transparent 1px);
+  background-size:42px 42px;
+  mask-image:linear-gradient(90deg,#000,transparent 85%);
+}
+.content-page-hero .container,.mentor-page-hero .container{position:relative;z-index:1}
+.content-page-hero .eyebrow,.mentor-page-hero .eyebrow{color:#c6a875}
+.content-page-hero h1,.mentor-page-hero h1{font-size:clamp(38px,6vw,66px);line-height:1.3;letter-spacing:-1.5px;color:#f5f2e9;margin:12px 0 14px}
+.content-page-hero h1 em{font-style:normal;color:#b8c7af}
+.content-page-hero p,.mentor-page-hero p{max-width:780px;color:rgba(245,242,233,.67);line-height:2.1;font-size:14px}
+.content-page-body,.mentor-content{padding:68px 0 90px}
+.content-page-grid,.mentor-content-grid{align-items:start}
+.content-page-card,.content-page-side,.mentor-content article,.mentor-side{
+  background:rgba(255,255,255,.82)!important;
+  border:1px solid rgba(32,37,34,.09)!important;
+  border-radius:22px!important;
+  box-shadow:0 18px 50px rgba(32,37,34,.055);
+}
+.content-page-card,.mentor-content article{padding:34px}
+.content-page-side,.mentor-side{padding:25px}
+.content-page-card:before,.mentor-content article:before{
+  content:"ACADEMIC / FIELD";
+  display:block;
+  margin-bottom:18px;
+  font:700 9px ui-monospace,SFMono-Regular,Consolas,monospace;
+  letter-spacing:1.8px;color:#9b8057;direction:ltr;
+}
+.content-page-card h2,.mentor-content h2{font-size:clamp(26px,3vw,34px);line-height:1.5;color:#202522}
+.content-page-card h3,.mentor-content h3{color:#35463a;font-size:19px}
+.content-page-card p,.mentor-content p{color:#59655e;line-height:2.15}
+.content-page-note{background:#eef0e9!important;border-right:3px solid #b38a58!important;color:#667067!important}
+.content-page-side h3,.mentor-side h3{color:#35463a}
+.content-page-side a{border-bottom-color:rgba(32,37,34,.09);color:#5b705a}
+.platform-sections{background:#f3f1ea}
+.platform-section-grid{gap:18px}
+.platform-section-card{
+  position:relative;overflow:hidden;background:#fff;border:1px solid rgba(32,37,34,.09);border-radius:20px;
+  box-shadow:0 12px 34px rgba(32,37,34,.05);color:#202522
+}
+.platform-section-card:before{content:"";position:absolute;right:0;top:0;bottom:0;width:3px;background:linear-gradient(#b38a58,#71836d)}
+.platform-section-card:hover{transform:translateY(-5px);box-shadow:0 20px 45px rgba(32,37,34,.09)}
+.platform-section-number{color:#9b8057}
+.platform-section-card h3{color:#26332b}
+.platform-section-card p{color:#69736d}
+.platform-section-link{color:#5b705a}
+.learning-lessons{border-top:1px solid rgba(32,37,34,.09);margin-top:30px;padding-top:28px}
+.learning-lesson-links a{background:#fff!important;border-color:rgba(32,37,34,.1)!important;color:#52655a!important}
+.learning-lesson-links a:hover{border-color:#b38a58!important;background:#f5f1e8!important;transform:translateY(-2px)}
+.learning-actions a{border-radius:12px}
+.report-link{border-color:rgba(32,37,34,.12)!important;background:#fff!important;color:#52655a!important}
+.catalog-link{background:linear-gradient(135deg,#d3ab75,#a6b59a)!important;color:#20251f!important}
+.footer{background:#151b17}
+@media(max-width:700px){.content-page-hero,.mentor-page-hero{padding:112px 0 55px}.content-page-body,.mentor-content{padding:45px 0 65px}.content-page-card,.mentor-content article{padding:23px}.content-page-side,.mentor-side{padding:20px}}
