@@ -1131,3 +1131,37 @@ body:after{
 .catalog-link{background:linear-gradient(135deg,#d3ab75,#a6b59a)!important;color:#20251f!important}
 .footer{background:#151b17}
 @media(max-width:700px){.content-page-hero,.mentor-page-hero{padding:112px 0 55px}.content-page-body,.mentor-content{padding:45px 0 65px}.content-page-card,.mentor-content article{padding:23px}.content-page-side,.mentor-side{padding:20px}}
+
+
+/* ===== هەویتی یەکگرتوی ئەکادێمیای ئاڤاشین ===== */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Kufi+Arabic:wght@500;600;700;800&family=Noto+Naskh+Arabic:wght@600;700&display=swap');
+.v2-header .v2-brand:not(.academy-brand),
+.header .brand,
+.site-header .brand{
+  gap:11px;
+}
+.v2-header .v2-brand:not(.academy-brand)>span:last-child,
+.header .brand>span:last-child,
+.site-header .brand>span:last-child{
+  font-family:"Noto Kufi Arabic","Noto Naskh Arabic","Noto Sans Arabic",sans-serif;
+  font-size:1.12rem;
+  font-weight:800;
+  letter-spacing:-.02em;
+  color:#ead9bd;
+  white-space:nowrap;
+}
+.v2-header .v2-brand:not(.academy-brand) .v2-brand-mark,
+.header .brand .brand-mark,
+.site-header .brand .brand-mark{
+  width:36px;height:36px;border-radius:50%;
+  display:grid;place-items:center;
+  background:linear-gradient(135deg,#c49a68,#66735f);
+  color:#fff;
+  border:1px solid rgba(211,171,117,.45);
+  font-family:"Noto Naskh Arabic","Noto Sans Arabic",serif;
+}
+@media(max-width:650px){
+  .v2-header .v2-brand:not(.academy-brand)>span:last-child,
+  .header .brand>span:last-child,
+  .site-header .brand>span:last-child{font-size:.98rem}
+}
