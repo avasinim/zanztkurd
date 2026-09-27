@@ -203,151 +203,9 @@
           "contentPath": "section-10/lesson-035.md",
           "pagePath": "035.html",
           "courseLessonNumber": 19
-        },
-        {
-          "id": "phonetics-section-10-lesson-036",
-          "number": 36,
-          "title": "پیتەکانی (ب، پ، ت)",
-          "path": "section-10/lesson-036.json",
-          "contentPath": "section-10/lesson-036.md",
-          "pagePath": "036.html",
-          "courseLessonNumber": 20
-        },
-        {
-          "id": "lesson-037",
-          "number": 37,
-          "title": "پیتەکانی (خ، ج، چ، ح)",
-          "path": "section-10/lesson-037.json",
-          "contentPath": "section-10/lesson-037.md",
-          "pagePath": "037.html",
-          "courseLessonNumber": 21
-        },
-        {
-          "id": "phonetics-section-10-lesson-038",
-          "number": 38,
-          "title": "پیتەکانی (د، ز، ژ، س، ش)",
-          "path": "section-10/lesson-038.json",
-          "contentPath": "section-10/lesson-038.md",
-          "pagePath": "038.html",
-          "courseLessonNumber": 22
-        },
-        {
-          "id": "phonetics-section-10-lesson-039",
-          "number": 39,
-          "title": "پیتەکانی (ر، ڕ)",
-          "path": "section-10/lesson-039.json",
-          "contentPath": "section-10/lesson-039.md",
-          "pagePath": "039.html",
-          "courseLessonNumber": 23
-        },
-        {
-          "id": "phonetics-section-10-lesson-040",
-          "number": 40,
-          "title": "پیتەکانی (ع، غ، ف، ڤ، ق)",
-          "path": "section-10/lesson-040.json",
-          "contentPath": "section-10/lesson-040.md",
-          "pagePath": "040.html",
-          "courseLessonNumber": 24
         }
       ],
       "courseId": "course-03"
-    },
-    {
-      "id": "available-lessons",
-      "number": "—",
-      "title": "وانەکانی بەردەست",
-      "lessons": [
-        {
-          "id": "available-lesson-41",
-          "number": 41,
-          "title": "پیتەکانی (ک، گ)",
-          "path": "041.html",
-          "courseId": "course-02",
-          "pagePath": "041.html",
-          "courseLessonNumber": 25
-        },
-        {
-          "id": "available-lesson-42",
-          "number": 42,
-          "title": "پیتەکانی (ڵ، ل، م، ن)",
-          "path": "042.html",
-          "courseId": "course-02",
-          "pagePath": "042.html",
-          "courseLessonNumber": 26
-        },
-        {
-          "id": "available-lesson-43",
-          "number": 43,
-          "title": "پیتەکانی (ێ، ە)",
-          "path": "043.html",
-          "courseId": "course-02",
-          "pagePath": "043.html",
-          "courseLessonNumber": 27
-        },
-        {
-          "id": "available-lesson-44",
-          "number": 44,
-          "title": "پیتەکانی (ی، هـ)",
-          "path": "044.html",
-          "courseId": "course-02",
-          "pagePath": "044.html",
-          "courseLessonNumber": 28
-        },
-        {
-          "id": "available-lesson-45",
-          "number": 45,
-          "title": "پیتەکانی (و، وː، ۆ، ۊ)",
-          "path": "045.html",
-          "courseId": "course-02",
-          "pagePath": "045.html",
-          "courseLessonNumber": 29
-        },
-        {
-          "id": "available-lesson-46",
-          "number": 46,
-          "title": "گیرە و دوبارەبونەوەی کۆنسۆنەنت",
-          "path": "046.html",
-          "courseId": "course-02",
-          "pagePath": "046.html",
-          "courseLessonNumber": 30
-        },
-        {
-          "id": "available-lesson-47",
-          "number": 47,
-          "title": "ڤاوڵی تێکەڵ، جوتەڤاوڵ",
-          "path": "047.html",
-          "courseId": "course-02",
-          "pagePath": "047.html",
-          "courseLessonNumber": 31
-        },
-        {
-          "id": "available-lesson-48",
-          "number": 48,
-          "title": "خاڵ‌بەندی",
-          "path": "048.html",
-          "courseId": "course-02",
-          "pagePath": "048.html",
-          "courseLessonNumber": 32
-        },
-        {
-          "id": "available-lesson-49",
-          "number": 49,
-          "title": "پیتی (ئــ، ا)",
-          "path": "049.html",
-          "courseId": "course-03",
-          "pagePath": "049.html",
-          "courseLessonNumber": 33
-        },
-        {
-          "id": "available-lesson-50",
-          "number": 50,
-          "title": "سەگمێنت و مۆرفۆفۆنێمی (ی)",
-          "path": "050.html",
-          "courseId": "course-03",
-          "pagePath": "050.html",
-          "courseLessonNumber": 34
-        }
-      ]
     }
   ],
   "courses": [
@@ -373,18 +231,8 @@
         "section-09",
         "section-11"
       ],
-      "endLessonTitle": "خاڵ‌بەندی",
-      "endLessonNumber": 48
-    },
-    {
-      "id": "course-03",
-      "number": 3,
-      "title": "دەورەی ٣ — فۆنێتیک و فۆنۆلۆجیی پسپۆڕانە",
-      "sectionIds": [
-        "section-10",
-        "section-11"
-      ],
-      "startAtLessonTitle": "بڕگەبەندی"
+      "endLessonTitle": "ڤاوڵەکان و بنەمای بەرهەمهێنانیان",
+      "endLessonNumber": 19
     }
   ],
   "system": {
@@ -394,7 +242,7 @@
     "source": "سابیر ژاکاو · فۆنێتیک و فۆنۆلۆجی کوردیک",
     "courseLessonNumbering": {
       "enabled": true,
-      "range": "017-050",
+      "range": "017-035",
       "firstOriginalNumber": 17,
       "firstCourseLessonNumber": 1,
       "note": "ژمارەی وانە لە کاتالۆگ و ڕێڕەوی فێربون لە ١ دەست پێ دەکات؛ ژمارەی سەرچاوەی کتێب و ناوی فایلەکان پارێزراون."
