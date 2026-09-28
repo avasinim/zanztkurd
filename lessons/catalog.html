@@ -77,7 +77,7 @@ const catalog=document.getElementById("catalog"),search=document.getElementById(
 let lessons=[],courses=[],progression={enabled:false,requirePreviousCompletion:true};
 const escapeHtml=v=>String(v??"").replace(/[&<>"\']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;","\"":"&quot;","\'":"&#39;"}[c]));
 try{
-const res=await fetch("./index.json",{cache:"no-store"});if(!res.ok)throw Error("catalog");
+const res=await fetch("./index.json?v=20260928",{cache:"no-store"});if(!res.ok)throw Error("catalog");
 const data=await res.json(),course=data.course||{};progression={...progression,...(data.progression||{})};courses=data.courses||[];
 document.getElementById("courseTitle").textContent=course.title||"وانەکان";
 document.getElementById("courseMeta").textContent=course.author?"مامۆستا: "+course.author:"ڕێڕەوی فێربونی زوانی کوردیک";
