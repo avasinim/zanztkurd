@@ -234,6 +234,15 @@
       "endLessonTitle": "ڤاوڵەکان و بنەمای بەرهەمهێنانیان",
       "endLessonNumber": 19
     }
+    ,{
+      "id": "course-03",
+      "number": 3,
+      "title": "دەورەی ٣ — فۆنێتیک و فۆنۆلۆجی مێژویی",
+      "sectionIds": [
+        "section-10"
+      ],
+      "endLessonNumber": 19
+    }
   ],
   "system": {
     "lessonPagePattern": "lessons/NNN.html",
