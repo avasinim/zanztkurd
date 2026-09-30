@@ -234,6 +234,13 @@
           "title": "پیتەکانی (و، وو، ۆ، و، ۊ)",
           "pagePath": "046.html",
           "courseLessonNumber": 30
+        },
+        {
+          "id": "phonetics-section-10-lesson-047",
+          "number": 47,
+          "title": "پیتی کورتە ڤاوڵی (و)",
+          "pagePath": "047.html",
+          "courseLessonNumber": 31
         }
       ],
       "courseId": "course-current"
@@ -243,13 +250,13 @@
     {
       "id": "course-current",
       "number": 1,
-      "title": "ڕێڕەوی ئێستای زانستی کورد — ٣٠ وانە",
+      "title": "ڕێڕەوی ئێستای زانستی کورد — ٣١ وانە",
       "sectionIds": [
         "section-07",
         "section-10"
       ],
-      "endLessonNumber": 30,
-      "endLessonTitle": "پیتەکانی (و، وو، ۆ، و، ۊ)"
+      "endLessonNumber": 31,
+      "endLessonTitle": "پیتی کورتە ڤاوڵی (و)"
     }
   ],
   "system": {
