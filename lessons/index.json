@@ -43,7 +43,8 @@
       "title":"فۆنێتیک و فۆنۆلۆجی مێژویی",
       "lessons":[
         {"id":"phonetics-section-10-lesson-034","number":34,"title":"پیتەکانی (ک، گ) و لێ‌کچوونی فۆنێتیکی و پێشخستنی دەنگی","pagePath":"034.html","courseLessonNumber":18},
-        {"id":"phonetics-section-10-lesson-035","number":35,"title":"فۆنێمەکانی /ڵ/ و /ل/؛ فۆنێتیک، فۆنۆلۆجی و گۆڕانی دەنگ","pagePath":"035.html","courseLessonNumber":19}
+        {"id":"phonetics-section-10-lesson-035","number":35,"title":"فۆنێمەکانی /ڵ/ و /ل/؛ فۆنێتیک، فۆنۆلۆجی و گۆڕانی دەنگ","pagePath":"035.html","courseLessonNumber":19},
+        {"id":"phonetics-section-10-lesson-036","number":36,"title":"پیتی (ێ، ە)","pagePath":"036.html","courseLessonNumber":20}
       ],
       "courseId":"course-current"
     }
@@ -54,8 +55,8 @@
       "number":1,
       "title":"ڕێڕەوی ئێستای زانستی کورد — ١٩ وانە",
       "sectionIds":["section-07","section-10"],
-      "endLessonNumber":19,
-      "endLessonTitle":"فۆنێمەکانی /ڵ/ و /ل/؛ فۆنێتیک، فۆنۆلۆجی و گۆڕانی دەنگ"
+      "endLessonNumber":20,
+      "endLessonTitle":"پیتی (ێ، ە)"
     }
   ],
   "system":{
@@ -65,7 +66,7 @@
     "source":"سابیر ژاکاو · فۆنێتیک و فۆنۆلۆجی کوردیک",
     "courseLessonNumbering":{
       "enabled":true,
-      "range":"017-035",
+      "range":"017-036",
       "firstOriginalNumber":17,
       "firstCourseLessonNumber":1,
       "note":"ژمارەی وانە لە کاتالۆگ و ڕێڕەوی فێربون لە ١ دەست پێ دەکات؛ ژمارەی سەرچاوەی کتێب و ناوی فایلەکان پارێزراون."
