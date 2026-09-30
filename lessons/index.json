@@ -185,6 +185,13 @@
           "title": "پیتی (ی) و کۆنسۆنەنتی /y/",
           "pagePath": "039.html",
           "courseLessonNumber": 23
+        },
+        {
+          "id": "phonetics-section-10-lesson-040",
+          "number": 40,
+          "title": "ڕێسای ئابوری زوان و پیتی (ی)",
+          "pagePath": "040.html",
+          "courseLessonNumber": 24
         }
       ],
       "courseId": "course-current"
@@ -194,13 +201,13 @@
     {
       "id": "course-current",
       "number": 1,
-      "title": "ڕێڕەوی ئێستای زانستی کورد — ٢٣ وانە",
+      "title": "ڕێڕەوی ئێستای زانستی کورد — ٢٤ وانە",
       "sectionIds": [
         "section-07",
         "section-10"
       ],
-      "endLessonNumber": 23,
-      "endLessonTitle": "پیتی (ی) و کۆنسۆنەنتی /y/"
+      "endLessonNumber": 24,
+      "endLessonTitle": "ڕێسای ئابوری زوان و پیتی (ی)"
     }
   ],
   "system": {
@@ -210,7 +217,7 @@
     "source": "سابیر ژاکاو · فۆنێتیک و فۆنۆلۆجی کوردیک",
     "courseLessonNumbering": {
       "enabled": true,
-      "range": "017-039",
+      "range": "017-040",
       "firstOriginalNumber": 17,
       "firstCourseLessonNumber": 1,
       "note": "ژمارەی وانە لە کاتالۆگ و ڕێڕەوی فێربون لە ١ دەست پێ دەکات؛ ژمارەی سەرچاوەی کتێب و ناوی فایلەکان پارێزراون."
