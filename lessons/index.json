@@ -227,6 +227,13 @@
           "title": "پیتی (ه) و سازگەی بەرهەم‌هێنانی /ه/",
           "pagePath": "045.html",
           "courseLessonNumber": 29
+        },
+        {
+          "id": "phonetics-section-10-lesson-046",
+          "number": 46,
+          "title": "پیتەکانی (و، وو، ۆ، و، ۊ)",
+          "pagePath": "046.html",
+          "courseLessonNumber": 30
         }
       ],
       "courseId": "course-current"
@@ -236,13 +243,13 @@
     {
       "id": "course-current",
       "number": 1,
-      "title": "ڕێڕەوی ئێستای زانستی کورد — ٢٩ وانە",
+      "title": "ڕێڕەوی ئێستای زانستی کورد — ٣٠ وانە",
       "sectionIds": [
         "section-07",
         "section-10"
       ],
-      "endLessonNumber": 29,
-      "endLessonTitle": "پیتی (ه) و سازگەی بەرهەم‌هێنانی /ه/"
+      "endLessonNumber": 30,
+      "endLessonTitle": "پیتەکانی (و، وو، ۆ، و، ۊ)"
     }
   ],
   "system": {
