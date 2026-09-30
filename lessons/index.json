@@ -13,23 +13,6 @@
   },
   "sections": [
     {
-      "id": "section-06",
-      "number": 6,
-      "title": "دەستپێکی سەرەتایی، ناساندنی پیت",
-      "lessons": [
-        {
-          "id": "writing-system-section-06-lesson-025",
-          "number": 25,
-          "title": "پیتی (ئـ) و دۆخی فۆنێتیکی و فۆنۆلۆجی",
-          "path": "025.html",
-          "contentPath": "section-06/lesson-025.md",
-          "pagePath": "025.html",
-          "courseLessonNumber": 9
-        }
-      ],
-      "courseId": "course-current"
-    },
-    {
       "id": "section-07",
       "number": 7,
       "title": "دەورەی ١ — دەورەی سەرەتایی ئەلفوبێی زوانی کوردیک",
@@ -214,7 +197,6 @@
       "number": 1,
       "title": "ڕێڕەوی ئێستای زانستی کورد — ١٩ وانە",
       "sectionIds": [
-        "section-06",
         "section-07",
         "section-10"
       ],
