@@ -213,6 +213,13 @@
           "title": "دەوری (ی) لە ئیزافە و ناوداڕێژین",
           "pagePath": "043.html",
           "courseLessonNumber": 27
+        },
+        {
+          "id": "phonetics-section-10-lesson-044",
+          "number": 44,
+          "title": "دەوری (ی) لە سینتەکس و پێکهاتەی ئیزافە",
+          "pagePath": "044.html",
+          "courseLessonNumber": 28
         }
       ],
       "courseId": "course-current"
@@ -222,13 +229,13 @@
     {
       "id": "course-current",
       "number": 1,
-      "title": "ڕێڕەوی ئێستای زانستی کورد — ٢٧ وانە",
+      "title": "ڕێڕەوی ئێستای زانستی کورد — ٢٨ وانە",
       "sectionIds": [
         "section-07",
         "section-10"
       ],
-      "endLessonNumber": 27,
-      "endLessonTitle": "دەوری (ی) لە ئیزافە و ناوداڕێژین"
+      "endLessonNumber": 28,
+      "endLessonTitle": "دەوری (ی) لە سینتەکس و پێکهاتەی ئیزافە"
     }
   ],
   "system": {
@@ -238,7 +245,7 @@
     "source": "سابیر ژاکاو · فۆنێتیک و فۆنۆلۆجی کوردیک",
     "courseLessonNumbering": {
       "enabled": true,
-      "range": "017-043",
+      "range": "017-044",
       "firstOriginalNumber": 17,
       "firstCourseLessonNumber": 1,
       "note": "ژمارەی وانە لە کاتالۆگ و ڕێڕەوی فێربون لە ١ دەست پێ دەکات؛ ژمارەی سەرچاوەی کتێب و ناوی فایلەکان پارێزراون."
