@@ -27,7 +27,7 @@
           "courseLessonNumber": 9
         }
       ],
-      "courseId": "course-02"
+      "courseId": "course-current"
     },
     {
       "id": "section-07",
@@ -179,7 +179,7 @@
           "courseLessonNumber": 17
         }
       ],
-      "courseId": "course-02"
+      "courseId": "course-current"
     },
     {
       "id": "section-10",
@@ -205,43 +205,21 @@
           "courseLessonNumber": 19
         }
       ],
-      "courseId": "course-03"
+      "courseId": "course-current"
     }
   ],
   "courses": [
     {
-      "id": "course-01",
+      "id": "course-current",
       "number": 1,
-      "title": "دەورەی ١ — بەشەکانی ٢ تا ٥ی کتێب",
-      "sectionIds": [
-        "section-02",
-        "section-03",
-        "section-04",
-        "section-05"
-      ]
-    },
-    {
-      "id": "course-02",
-      "number": 2,
-      "title": "دەورەی ٢ — پسپۆڕی فێربونی زمانی کوردی",
+      "title": "ڕێڕەوی ئێستای زانستی کورد — ١٩ وانە",
       "sectionIds": [
         "section-06",
         "section-07",
-        "section-08",
-        "section-09",
-        "section-11"
-      ],
-      "endLessonTitle": "ڤاوڵەکان و بنەمای بەرهەمهێنانیان",
-      "endLessonNumber": 19
-    },
-    {
-      "id": "course-03",
-      "number": 3,
-      "title": "دەورەی ٣ — فۆنێتیک و فۆنۆلۆجی مێژویی",
-      "sectionIds": [
         "section-10"
       ],
-      "endLessonNumber": 19
+      "endLessonNumber": 19,
+      "endLessonTitle": "فۆنێمەکانی /ڵ/ و /ل/؛ فۆنێتیک، فۆنۆلۆجی و گۆڕانی دەنگ"
     }
   ],
   "system": {
