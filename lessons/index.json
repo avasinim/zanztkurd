@@ -20,7 +20,7 @@
         {
           "id": "writing-system-section-06-lesson-025",
           "number": 25,
-          "title": "دەستپێکی سەرەتایی، ناساندنی پیت",
+          "title": "پیتی (ئـ) و دۆخی فۆنێتیکی و فۆنۆلۆجی",
           "path": "025.html",
           "contentPath": "section-06/lesson-025.md",
           "pagePath": "025.html",
@@ -46,7 +46,7 @@
         {
           "id": "writing-system-section-07-lesson-018",
           "number": 18,
-          "title": "ئەلفبێی کوردیک؛ دیدێکی گشتی و ئەلفبێی هەورامی",
+          "title": "ئەلفبێی کوردیک و ئەلفبێی هەورامی",
           "path": "section-07/lesson-018.json",
           "contentPath": "section-07/lesson-018.md",
           "pagePath": "018.html",
@@ -64,7 +64,7 @@
         {
           "id": "writing-system-section-07-lesson-020",
           "number": 20,
-          "title": "ئەلفبێی بازنەی باکور و سۆرانی",
+          "title": "پیتی (ێ) و (ە) و گۆڕانی ڤاوڵ",
           "path": "section-07/lesson-020.json",
           "contentPath": "section-07/lesson-020.md",
           "pagePath": "020.html",
@@ -73,7 +73,7 @@
         {
           "id": "writing-system-section-07-lesson-021",
           "number": 21,
-          "title": "ئەلفبێی گشتی زوانی کوردیک؛ واچ، ڤاوڵ و کۆنسۆنەنت",
+          "title": "ئەلفبێی گشتی زوانی کوردیک؛ ڤاوڵ و کۆنسۆنەنت",
           "path": "section-07/lesson-021.json",
           "contentPath": "section-07/lesson-021.md",
           "pagePath": "021.html",
@@ -82,7 +82,7 @@
         {
           "id": "writing-system-section-07-lesson-022",
           "number": 22,
-          "title": "نگاری پیتەکان، پیتی لکاو و نەلکاو",
+          "title": "نگاری پیتەکان و پیتی لکاو و نەلکاو",
           "path": "section-07/lesson-022.json",
           "contentPath": "section-07/lesson-022.md",
           "pagePath": "022.html",
@@ -91,7 +91,7 @@
         {
           "id": "writing-system-section-07-lesson-023",
           "number": 23,
-          "title": "درێژایی دەنگ و کرۆنیم",
+          "title": "جەدوەلی ئەلفبێی زوانی کوردیک",
           "path": "section-07/lesson-023.json",
           "contentPath": "section-07/lesson-023.md",
           "pagePath": "023.html",
@@ -100,7 +100,7 @@
         {
           "id": "writing-system-section-07-lesson-024",
           "number": 24,
-          "title": "کورت‌کردنەوەی ڤاوڵ",
+          "title": "هەندێک زانیاری سەرەتایی ڕێنوسی زوانی کوردیک",
           "path": "section-07/lesson-024.json",
           "contentPath": "section-07/lesson-024.md",
           "pagePath": "024.html",
@@ -109,7 +109,7 @@
         {
           "id": "writing-system-section-07-lesson-026",
           "number": 26,
-          "title": "ڤاوڵی دو لایی نزم",
+          "title": "شێوە و ڕەوتی سازگەی بەرهەم‌هێنانی فۆنەکان",
           "path": "section-07/lesson-026.json",
           "contentPath": "section-07/lesson-026.md",
           "pagePath": "026.html",
@@ -118,7 +118,7 @@
         {
           "id": "writing-system-section-07-lesson-027",
           "number": 27,
-          "title": "ڤاوڵی دولایی",
+          "title": "پیتەکانی (ب، پ، ت) و سازگەی فۆنەکان",
           "path": "section-07/lesson-027.json",
           "contentPath": "section-07/lesson-027.md",
           "pagePath": "027.html",
@@ -127,7 +127,7 @@
         {
           "id": "writing-system-section-07-lesson-028",
           "number": 28,
-          "title": "ڤاوڵی شاراوە",
+          "title": "پیتەکانی (خ، ج، چ، ح) و شی‌کردنەوەی فۆنێتیکی",
           "path": "section-07/lesson-028.json",
           "contentPath": "section-07/lesson-028.md",
           "pagePath": "028.html",
@@ -136,7 +136,7 @@
         {
           "id": "writing-system-section-07-lesson-029",
           "number": 29,
-          "title": "پەیوەندی ڤاوڵ و بڕگە",
+          "title": "پیتەکانی (د، ز، ژ) و سازگەی فۆنەکان",
           "path": "section-07/lesson-029.json",
           "contentPath": "section-07/lesson-029.md",
           "pagePath": "029.html",
@@ -145,7 +145,7 @@
         {
           "id": "writing-system-section-07-lesson-030",
           "number": 30,
-          "title": "چوارچێوە و قاڵبی بڕگە",
+          "title": "پیتەکانی (س، ش) و شی‌کردنەوەی فۆنەکان",
           "path": "section-07/lesson-030.json",
           "contentPath": "section-07/lesson-030.md",
           "pagePath": "030.html",
@@ -154,7 +154,7 @@
         {
           "id": "writing-system-section-07-lesson-031",
           "number": 31,
-          "title": "بڕگەی سوک و بڕگەی گران",
+          "title": "پیتەکانی (ر، ڕ) و جیاوازی فۆنێتیکی و فۆنۆلۆجی",
           "path": "section-07/lesson-031.json",
           "contentPath": "section-07/lesson-031.md",
           "pagePath": "031.html",
@@ -163,7 +163,7 @@
         {
           "id": "writing-system-section-07-lesson-032",
           "number": 32,
-          "title": "لێکچونی بڕگە و گۆڕانی قاڵبی بڕگە",
+          "title": "پیتەکانی (ع، غ) و شی‌کردنەوەی فۆنێتیکی و فۆنۆلۆجی",
           "path": "section-07/lesson-032.json",
           "contentPath": "section-07/lesson-032.md",
           "pagePath": "032.html",
@@ -172,7 +172,7 @@
         {
           "id": "writing-system-section-07-lesson-033",
           "number": 33,
-          "title": "جێگۆڕکێی جێکەوتەیی",
+          "title": "پیتەکانی (ف، ڤ، ق) و سازگەی فۆنێتیکی و لێ‌کچوونی فۆنۆلۆجی",
           "path": "section-07/lesson-033.json",
           "contentPath": "section-07/lesson-033.md",
           "pagePath": "033.html",
@@ -189,7 +189,7 @@
         {
           "id": "phonetics-section-10-lesson-034",
           "number": 34,
-          "title": "فۆنێتیک و فۆنۆلۆجی مێژویی",
+          "title": "پیتەکانی (ک، گ) و لێ‌کچوونی فۆنێتیکی و پێشخستنی دەنگی",
           "path": "section-10/lesson-034.json",
           "contentPath": "section-10/lesson-034.md",
           "pagePath": "034.html",
@@ -198,7 +198,7 @@
         {
           "id": "phonetics-section-10-lesson-035",
           "number": 35,
-          "title": "فۆنێمەکانی /ڵ/ و /ل/؛ فۆنەتیک، فۆنۆلۆجی و گۆڕانی دەنگ",
+          "title": "فۆنێمەکانی /ڵ/ و /ل/؛ فۆنێتیک، فۆنۆلۆجی و گۆڕانی دەنگ",
           "path": "section-10/lesson-035.json",
           "contentPath": "section-10/lesson-035.md",
           "pagePath": "035.html",
@@ -233,8 +233,8 @@
       ],
       "endLessonTitle": "ڤاوڵەکان و بنەمای بەرهەمهێنانیان",
       "endLessonNumber": 19
-    }
-    ,{
+    },
+    {
       "id": "course-03",
       "number": 3,
       "title": "دەورەی ٣ — فۆنێتیک و فۆنۆلۆجی مێژویی",
