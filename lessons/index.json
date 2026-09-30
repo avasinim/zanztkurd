@@ -220,6 +220,13 @@
           "title": "دەوری (ی) لە سینتەکس و پێکهاتەی ئیزافە",
           "pagePath": "044.html",
           "courseLessonNumber": 28
+        },
+        {
+          "id": "phonetics-section-10-lesson-045",
+          "number": 45,
+          "title": "پیتی (ه) و سازگەی بەرهەم‌هێنانی /ه/",
+          "pagePath": "045.html",
+          "courseLessonNumber": 29
         }
       ],
       "courseId": "course-current"
@@ -229,13 +236,13 @@
     {
       "id": "course-current",
       "number": 1,
-      "title": "ڕێڕەوی ئێستای زانستی کورد — ٢٨ وانە",
+      "title": "ڕێڕەوی ئێستای زانستی کورد — ٢٩ وانە",
       "sectionIds": [
         "section-07",
         "section-10"
       ],
-      "endLessonNumber": 28,
-      "endLessonTitle": "دەوری (ی) لە سینتەکس و پێکهاتەی ئیزافە"
+      "endLessonNumber": 29,
+      "endLessonTitle": "پیتی (ه) و سازگەی بەرهەم‌هێنانی /ه/"
     }
   ],
   "system": {
