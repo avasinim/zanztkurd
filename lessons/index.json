@@ -248,6 +248,13 @@
           "title": "مۆرفۆفۆنێم و فۆنێمی /و/ و [وو]",
           "pagePath": "048.html",
           "courseLessonNumber": 32
+        },
+        {
+          "id": "phonetics-section-10-lesson-049",
+          "number": 49,
+          "title": "دەوری مۆرفۆفۆنێمی /و/ لە زوانی کوردیک",
+          "pagePath": "049.html",
+          "courseLessonNumber": 33
         }
       ],
       "courseId": "course-current"
@@ -257,13 +264,13 @@
     {
       "id": "course-current",
       "number": 1,
-      "title": "ڕێڕەوی ئێستای زانستی کورد — ٣٢ وانە",
+      "title": "ڕێڕەوی ئێستای زانستی کورد — ٣٣ وانە",
       "sectionIds": [
         "section-07",
         "section-10"
       ],
-      "endLessonNumber": 32,
-      "endLessonTitle": "مۆرفۆفۆنێم و فۆنێمی /و/ و [وو]"
+      "endLessonNumber": 33,
+      "endLessonTitle": "دەوری مۆرفۆفۆنێمی /و/ لە زوانی کوردیک"
     }
   ],
   "system": {
@@ -273,7 +280,7 @@
     "source": "سابیر ژاکاو · فۆنێتیک و فۆنۆلۆجی کوردیک",
     "courseLessonNumbering": {
       "enabled": true,
-      "range": "017-048",
+      "range": "017-049",
       "firstOriginalNumber": 17,
       "firstCourseLessonNumber": 1,
       "note": "ژمارەی وانە لە کاتالۆگ و ڕێڕەوی فێربون لە ١ دەست پێ دەکات؛ ژمارەی سەرچاوەی کتێب و ناوی فایلەکان پارێزراون."
