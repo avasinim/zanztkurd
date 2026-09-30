@@ -17,59 +17,189 @@
       "number": 7,
       "title": "دەورەی ١ — دەورەی سەرەتایی ئەلفوبێی زوانی کوردیک",
       "lessons": [
-        {"id":"writing-system-section-07-lesson-017","number":17,"title":"بەراوردی ئەلفبێی عەرەبی، فارسی و ئینگلیزی","pagePath":"017.html","courseLessonNumber":1},
-        {"id":"writing-system-section-07-lesson-018","number":18,"title":"ئەلفبێی کوردیک و ئەلفبێی هەورامی","pagePath":"018.html","courseLessonNumber":2},
-        {"id":"writing-system-section-07-lesson-019","number":19,"title":"ئەلفبێی کەڵهوڕی و بازنەی باشور","pagePath":"019.html","courseLessonNumber":3},
-        {"id":"writing-system-section-07-lesson-020","number":20,"title":"پیتی (ێ) و (ە) و گۆڕانی ڤاوڵ","pagePath":"020.html","courseLessonNumber":4},
-        {"id":"writing-system-section-07-lesson-021","number":21,"title":"ئەلفبێی گشتی زوانی کوردیک؛ ڤاوڵ و کۆنسۆنەنت","pagePath":"021.html","courseLessonNumber":5},
-        {"id":"writing-system-section-07-lesson-022","number":22,"title":"نگاری پیتەکان و پیتی لکاو و نەلکاو","pagePath":"022.html","courseLessonNumber":6},
-        {"id":"writing-system-section-07-lesson-023","number":23,"title":"جەدوەلی ئەلفبێی زوانی کوردیک","pagePath":"023.html","courseLessonNumber":7},
-        {"id":"writing-system-section-07-lesson-024","number":24,"title":"هەندێک زانیاری سەرەتایی ڕێنوسی زوانی کوردیک","pagePath":"024.html","courseLessonNumber":8},
-        {"id":"writing-system-section-07-lesson-025","number":25,"title":"پیتی (ئـ) و دۆخی فۆنێتیکی و فۆنۆلۆجی","pagePath":"025.html","courseLessonNumber":9},
-        {"id":"writing-system-section-07-lesson-026","number":26,"title":"شێوە و ڕەوتی سازگەی بەرهەم‌هێنانی فۆنەکان","pagePath":"026.html","courseLessonNumber":10},
-        {"id":"writing-system-section-07-lesson-027","number":27,"title":"پیتەکانی (ب، پ، ت) و سازگەی فۆنەکان","pagePath":"027.html","courseLessonNumber":11},
-        {"id":"writing-system-section-07-lesson-028","number":28,"title":"پیتەکانی (خ، ج، چ، ح) و شی‌کردنەوەی فۆنێتیکی","pagePath":"028.html","courseLessonNumber":12},
-        {"id":"writing-system-section-07-lesson-029","number":29,"title":"پیتەکانی (د، ز، ژ) و سازگەی فۆنەکان","pagePath":"029.html","courseLessonNumber":13},
-        {"id":"writing-system-section-07-lesson-030","number":30,"title":"پیتەکانی (س، ش) و شی‌کردنەوەی فۆنەکان","pagePath":"030.html","courseLessonNumber":14},
-        {"id":"writing-system-section-07-lesson-031","number":31,"title":"پیتەکانی (ر، ڕ) و جیاوازی فۆنێتیکی و فۆنۆلۆجی","pagePath":"031.html","courseLessonNumber":15},
-        {"id":"writing-system-section-07-lesson-032","number":32,"title":"پیتەکانی (ع، غ) و شی‌کردنەوەی فۆنێتیکی و فۆنۆلۆجی","pagePath":"032.html","courseLessonNumber":16},
-        {"id":"writing-system-section-07-lesson-033","number":33,"title":"پیتەکانی (ف، ڤ، ق) و سازگەی فۆنێتیکی و لێ‌کچوونی فۆنۆلۆجی","pagePath":"033.html","courseLessonNumber":17}
+        {
+          "id": "writing-system-section-07-lesson-017",
+          "number": 17,
+          "title": "بەراوردی ئەلفبێی عەرەبی، فارسی و ئینگلیزی",
+          "pagePath": "017.html",
+          "courseLessonNumber": 1
+        },
+        {
+          "id": "writing-system-section-07-lesson-018",
+          "number": 18,
+          "title": "ئەلفبێی کوردیک و ئەلفبێی هەورامی",
+          "pagePath": "018.html",
+          "courseLessonNumber": 2
+        },
+        {
+          "id": "writing-system-section-07-lesson-019",
+          "number": 19,
+          "title": "ئەلفبێی کەڵهوڕی و بازنەی باشور",
+          "pagePath": "019.html",
+          "courseLessonNumber": 3
+        },
+        {
+          "id": "writing-system-section-07-lesson-020",
+          "number": 20,
+          "title": "پیتی (ێ) و (ە) و گۆڕانی ڤاوڵ",
+          "pagePath": "020.html",
+          "courseLessonNumber": 4
+        },
+        {
+          "id": "writing-system-section-07-lesson-021",
+          "number": 21,
+          "title": "ئەلفبێی گشتی زوانی کوردیک؛ ڤاوڵ و کۆنسۆنەنت",
+          "pagePath": "021.html",
+          "courseLessonNumber": 5
+        },
+        {
+          "id": "writing-system-section-07-lesson-022",
+          "number": 22,
+          "title": "نگاری پیتەکان و پیتی لکاو و نەلکاو",
+          "pagePath": "022.html",
+          "courseLessonNumber": 6
+        },
+        {
+          "id": "writing-system-section-07-lesson-023",
+          "number": 23,
+          "title": "جەدوەلی ئەلفبێی زوانی کوردیک",
+          "pagePath": "023.html",
+          "courseLessonNumber": 7
+        },
+        {
+          "id": "writing-system-section-07-lesson-024",
+          "number": 24,
+          "title": "هەندێک زانیاری سەرەتایی ڕێنوسی زوانی کوردیک",
+          "pagePath": "024.html",
+          "courseLessonNumber": 8
+        },
+        {
+          "id": "writing-system-section-07-lesson-025",
+          "number": 25,
+          "title": "پیتی (ئـ) و دۆخی فۆنێتیکی و فۆنۆلۆجی",
+          "pagePath": "025.html",
+          "courseLessonNumber": 9
+        },
+        {
+          "id": "writing-system-section-07-lesson-026",
+          "number": 26,
+          "title": "شێوە و ڕەوتی سازگەی بەرهەم‌هێنانی فۆنەکان",
+          "pagePath": "026.html",
+          "courseLessonNumber": 10
+        },
+        {
+          "id": "writing-system-section-07-lesson-027",
+          "number": 27,
+          "title": "پیتەکانی (ب، پ، ت) و سازگەی فۆنەکان",
+          "pagePath": "027.html",
+          "courseLessonNumber": 11
+        },
+        {
+          "id": "writing-system-section-07-lesson-028",
+          "number": 28,
+          "title": "پیتەکانی (خ، ج، چ، ح) و شی‌کردنەوەی فۆنێتیکی",
+          "pagePath": "028.html",
+          "courseLessonNumber": 12
+        },
+        {
+          "id": "writing-system-section-07-lesson-029",
+          "number": 29,
+          "title": "پیتەکانی (د، ز، ژ) و سازگەی فۆنەکان",
+          "pagePath": "029.html",
+          "courseLessonNumber": 13
+        },
+        {
+          "id": "writing-system-section-07-lesson-030",
+          "number": 30,
+          "title": "پیتەکانی (س، ش) و شی‌کردنەوەی فۆنەکان",
+          "pagePath": "030.html",
+          "courseLessonNumber": 14
+        },
+        {
+          "id": "writing-system-section-07-lesson-031",
+          "number": 31,
+          "title": "پیتەکانی (ر، ڕ) و جیاوازی فۆنێتیکی و فۆنۆلۆجی",
+          "pagePath": "031.html",
+          "courseLessonNumber": 15
+        },
+        {
+          "id": "writing-system-section-07-lesson-032",
+          "number": 32,
+          "title": "پیتەکانی (ع، غ) و شی‌کردنەوەی فۆنێتیکی و فۆنۆلۆجی",
+          "pagePath": "032.html",
+          "courseLessonNumber": 16
+        },
+        {
+          "id": "writing-system-section-07-lesson-033",
+          "number": 33,
+          "title": "پیتەکانی (ف، ڤ، ق) و سازگەی فۆنێتیکی و لێ‌کچوونی فۆنۆلۆجی",
+          "pagePath": "033.html",
+          "courseLessonNumber": 17
+        }
       ],
-      "courseId":"course-current"
+      "courseId": "course-current"
     },
     {
-      "id":"section-10",
-      "number":10,
-      "title":"فۆنێتیک و فۆنۆلۆجی مێژویی",
-      "lessons":[
-        {"id":"phonetics-section-10-lesson-034","number":34,"title":"پیتەکانی (ک، گ) و لێ‌کچوونی فۆنێتیکی و پێشخستنی دەنگی","pagePath":"034.html","courseLessonNumber":18},
-        {"id":"phonetics-section-10-lesson-035","number":35,"title":"فۆنێمەکانی /ڵ/ و /ل/؛ فۆنێتیک، فۆنۆلۆجی و گۆڕانی دەنگ","pagePath":"035.html","courseLessonNumber":19},
-        {"id":"phonetics-section-10-lesson-036","number":36,"title":"پیتی (ێ، ە)","pagePath":"036.html","courseLessonNumber":20}
+      "id": "section-10",
+      "number": 10,
+      "title": "فۆنێتیک و فۆنۆلۆجی مێژویی",
+      "lessons": [
+        {
+          "id": "phonetics-section-10-lesson-034",
+          "number": 34,
+          "title": "پیتەکانی (ک، گ) و لێ‌کچوونی فۆنێتیکی و پێشخستنی دەنگی",
+          "pagePath": "034.html",
+          "courseLessonNumber": 18
+        },
+        {
+          "id": "phonetics-section-10-lesson-035",
+          "number": 35,
+          "title": "فۆنێمەکانی /ڵ/ و /ل/؛ فۆنێتیک، فۆنۆلۆجی و گۆڕانی دەنگ",
+          "pagePath": "035.html",
+          "courseLessonNumber": 19
+        },
+        {
+          "id": "phonetics-section-10-lesson-036",
+          "number": 36,
+          "title": "پیتی (ێ، ە)",
+          "pagePath": "036.html",
+          "courseLessonNumber": 20
+        },
+        {
+          "id": "phonetics-section-10-lesson-037",
+          "number": 37,
+          "title": "پیتی (ێ)",
+          "pagePath": "037.html",
+          "courseLessonNumber": 21
+        }
       ],
-      "courseId":"course-current"
+      "courseId": "course-current"
     }
   ],
-  "courses":[
+  "courses": [
     {
-      "id":"course-current",
-      "number":1,
-      "title":"ڕێڕەوی ئێستای زانستی کورد — ١٩ وانە",
-      "sectionIds":["section-07","section-10"],
-      "endLessonNumber":20,
-      "endLessonTitle":"پیتی (ێ، ە)"
+      "id": "course-current",
+      "number": 1,
+      "title": "ڕێڕەوی ئێستای زانستی کورد — ٢١ وانە",
+      "sectionIds": [
+        "section-07",
+        "section-10"
+      ],
+      "endLessonNumber": 21,
+      "endLessonTitle": "پیتی (ێ)"
     }
   ],
-  "system":{
-    "lessonPagePattern":"lessons/NNN.html",
-    "dynamicReader":"lesson.html?id=...",
-    "canonicalStrategy":"static",
-    "source":"سابیر ژاکاو · فۆنێتیک و فۆنۆلۆجی کوردیک",
-    "courseLessonNumbering":{
-      "enabled":true,
-      "range":"017-036",
-      "firstOriginalNumber":17,
-      "firstCourseLessonNumber":1,
-      "note":"ژمارەی وانە لە کاتالۆگ و ڕێڕەوی فێربون لە ١ دەست پێ دەکات؛ ژمارەی سەرچاوەی کتێب و ناوی فایلەکان پارێزراون."
+  "system": {
+    "lessonPagePattern": "lessons/NNN.html",
+    "dynamicReader": "lesson.html?id=...",
+    "canonicalStrategy": "static",
+    "source": "سابیر ژاکاو · فۆنێتیک و فۆنۆلۆجی کوردیک",
+    "courseLessonNumbering": {
+      "enabled": true,
+      "range": "017-037",
+      "firstOriginalNumber": 17,
+      "firstCourseLessonNumber": 1,
+      "note": "ژمارەی وانە لە کاتالۆگ و ڕێڕەوی فێربون لە ١ دەست پێ دەکات؛ ژمارەی سەرچاوەی کتێب و ناوی فایلەکان پارێزراون."
     }
   }
 }
