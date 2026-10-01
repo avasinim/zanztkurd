@@ -129,7 +129,7 @@ lessons=(data.sections||[]).flatMap(s=>(s.lessons||[]).map(l=>({...l,sectionTitl
 lessons.sort((a,b)=>(a.courseLessonNumber||999)-(b.courseLessonNumber||999));
 const sections=[...new Map(lessons.map(l=>[l.sectionId,l])).values()];
 sections.forEach(x=>{const o=document.createElement("option");o.value=x.sectionId;o.textContent="بەشی "+x.sectionNumber+" — "+x.sectionTitle;filter.appendChild(o)});render();
-}catch(e){catalog.innerHTML="<div class=\"catalog-empty\">بارکردنی فهرستی وانەکان سەرکەوتو نەبو. تکایە دوبارە هەوڵ بدە.</div>";return}
+}catch(e){const loading=catalog.querySelector(".catalog-loading");if(loading)loading.textContent="ڕێڕەوی وانەکان:";return}
 function isDone(l){return localStorage.getItem("lesson-completed:"+l.originalNumber)==="true"||localStorage.getItem("lesson-progress:"+l.originalNumber)==="completed"}
 function isLocked(index){if(!progression.enabled||!progression.requirePreviousCompletion||index<=0)return false;return !isDone(lessons[index-1])}
 function render(){
