@@ -184,91 +184,133 @@
           "number": 39,
           "title": "ئابوری زوان و ڕێک‌خستنی نوسین",
           "pagePath": "039.html",
-          "courseLessonNumber": 23
+          "courseLessonNumber": 22
         },
         {
           "id": "phonetics-section-10-lesson-040",
           "number": 40,
           "title": "پیتی (ی)؛ دەوری فۆنێتیکی و مۆرفۆلۆجی",
           "pagePath": "040.html",
-          "courseLessonNumber": 24
+          "courseLessonNumber": 22
         },
         {
           "id": "phonetics-section-10-lesson-041",
           "number": 41,
           "title": "پیتی (ی)؛ ئیزافە، ناوداڕێژین و سینتەکس",
           "pagePath": "041.html",
-          "courseLessonNumber": 25
+          "courseLessonNumber": 22
         },
         {
           "id": "phonetics-section-10-lesson-042",
           "number": 42,
           "title": "پیتی (ی)؛ [ی]، [یی] و گۆڕانی فۆنۆلۆجی",
           "pagePath": "042.html",
-          "courseLessonNumber": 26
+          "courseLessonNumber": 22
         },
         {
           "id": "phonetics-section-10-lesson-043",
           "number": 43,
           "title": "پیتی (ی)؛ مۆرفۆفۆنۆلۆجی و فۆنێتیک",
           "pagePath": "043.html",
-          "courseLessonNumber": 27
+          "courseLessonNumber": 22
         },
         {
           "id": "phonetics-section-10-lesson-044",
           "number": 44,
           "title": "دەوری (ی) لە سینتەکس و پێکهاتەی ئیزافە",
           "pagePath": "044.html",
-          "courseLessonNumber": 28
+          "courseLessonNumber": 22
         },
         {
           "id": "phonetics-section-10-lesson-045",
           "number": 45,
           "title": "پیتی (ه) و سازگەی بەرهەم‌هێنانی /ه/",
           "pagePath": "045.html",
-          "courseLessonNumber": 29
+          "courseLessonNumber": 24
         },
         {
           "id": "phonetics-section-10-lesson-046",
           "number": 46,
           "title": "پیتەکانی (و، وو، ۆ، و، ۊ)",
           "pagePath": "046.html",
-          "courseLessonNumber": 30
+          "courseLessonNumber": 23
         },
         {
           "id": "phonetics-section-10-lesson-047",
           "number": 47,
           "title": "پیتی کورتە ڤاوڵی (و)",
           "pagePath": "047.html",
-          "courseLessonNumber": 31
+          "courseLessonNumber": 23
         },
         {
           "id": "phonetics-section-10-lesson-048",
           "number": 48,
           "title": "مۆرفۆفۆنێم و فۆنێمی /و/ و [وو]",
           "pagePath": "048.html",
-          "courseLessonNumber": 32
+          "courseLessonNumber": 23
         },
         {
           "id": "phonetics-section-10-lesson-051",
           "number": 51,
           "title": "ڤاوڵی بەندبو و /و/ی خلی",
           "pagePath": "051.html",
-          "courseLessonNumber": 35
+          "courseLessonNumber": 23
+        },
+        {
+          "id": "phonetics-section-10-lesson-52",
+          "number": 52,
+          "title": "شوا، بزرۆکە (ə)؛ ناساندن و بنەمای فۆنێتیکی",
+          "pagePath": "052.html",
+          "courseLessonNumber": 25
+        },
+        {
+          "id": "phonetics-section-10-lesson-53",
+          "number": 53,
+          "title": "بڕگە و /شوا/؛ پێکهاتەی CV و هێشوی کۆنسۆنەنت",
+          "pagePath": "053.html",
+          "courseLessonNumber": 25
+        },
+        {
+          "id": "phonetics-section-10-lesson-54",
+          "number": 54,
+          "title": "بەرزکردنەوەی /شوا/ و کاریگەری ڕێنوس",
+          "pagePath": "054.html",
+          "courseLessonNumber": 25
+        },
+        {
+          "id": "phonetics-section-10-lesson-55",
+          "number": 55,
+          "title": "/شوا/، فۆنێم و جوتەییە فۆنێمیەکان",
+          "pagePath": "055.html",
+          "courseLessonNumber": 25
+        },
+        {
+          "id": "phonetics-section-10-lesson-56",
+          "number": 56,
+          "title": "گۆڕانی مێژوویی /شوا/ بۆ ڤاوڵەکان",
+          "pagePath": "056.html",
+          "courseLessonNumber": 25
+        },
+        {
+          "id": "phonetics-section-10-lesson-57",
+          "number": 57,
+          "title": "/شوا/، جوتەیی و دەوری فۆنێمی",
+          "pagePath": "057.html",
+          "courseLessonNumber": 25
         },
         {
           "id": "phonetics-section-10-lesson-050",
           "number": 50,
           "title": "سرتێس و ڤاوڵی /و/ لە زوانی کوردیک",
           "pagePath": "050.html",
-          "courseLessonNumber": 34
+          "courseLessonNumber": 23
         },
         {
           "id": "phonetics-section-10-lesson-049",
           "number": 49,
           "title": "دەوری مۆرفۆفۆنێمی /و/ لە زوانی کوردیک",
           "pagePath": "049.html",
-          "courseLessonNumber": 33
+          "courseLessonNumber": 23
         }
       ],
       "courseId": "course-current"
@@ -283,8 +325,8 @@
         "section-07",
         "section-10"
       ],
-      "endLessonNumber": 35,
-      "endLessonTitle": "ڤاوڵی بەندبو و /و/ی خلی"
+      "endLessonNumber": 25,
+      "endLessonTitle": "شوا، بزرۆکە (ə)؛ ناساندن و بنەمای فۆنێتیکی"
     }
   ],
   "system": {
@@ -294,7 +336,7 @@
     "source": "سابیر ژاکاو · فۆنێتیک و فۆنۆلۆجی کوردیک",
     "courseLessonNumbering": {
       "enabled": true,
-      "range": "017-051",
+      "range": "017-057",
       "firstOriginalNumber": 17,
       "firstCourseLessonNumber": 1,
       "note": "ژمارەی وانە لە کاتالۆگ و ڕێڕەوی فێربون لە ١ دەست پێ دەکات؛ ژمارەی سەرچاوەی کتێب و ناوی فایلەکان پارێزراون."
