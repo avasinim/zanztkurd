@@ -35,7 +35,7 @@
     <div id="lessonActions" class="lesson-actions" hidden><button id="completeLesson" class="lesson-btn" type="button">وانەکە تەواو بکە</button></div>
     <nav id="lessonNav" class="lesson-nav" aria-label="ناوبەری وانەکان" hidden></nav>
     <div id="lessonError" class="content-page-note lesson-error" hidden></div>
-  </article><aside class="content-page-side"><h3>ئەم وانەیە</h3><div id="lessonObjectives"></div><hr><a href="learning.html">فهرستی فێربون</a><a href="index.html">پەڕەی سەرەکی</a></aside></div></section>
+  </article><aside class="content-page-side"><h3>ئەم وانەیە</h3><div id="lessonObjectives"></div><hr><a href="learning.html">ڕیزبەندی فێربون</a><a href="index.html">پەڕەی سەرەکی</a></aside></div></section>
 </main>
 <script>
 (() => {
@@ -64,7 +64,7 @@
   async function getJson(url){const r=await fetch(url,{cache:'no-store'});if(!r.ok)throw Error(url);return r.json()}
   async function getText(url){const r=await fetch(url,{cache:'no-store'});if(!r.ok)throw Error(url);return r.text()}
   function isDone(id){return localStorage.getItem(`lesson-completed:${id}`)==='true'||localStorage.getItem(`lesson-progress:${id}`)==='completed'}
-  function showLockedLesson(previous){titleEl.textContent='ئەم وانەیە هێشتا قفڵە';metaEl.textContent='بۆ دەست‌پێ‌کردنی ئەم وانەیە، سەرەتا وانەی پێشو تەواو بکە.';contentEl.hidden=true;actionsEl.hidden=true;termsSection.hidden=true;exercisesSection.hidden=true;quizSection.hidden=true;navEl.hidden=true;progressEl.hidden=true;errorEl.hidden=false;errorEl.innerHTML=`🔒 پێویستی بە تەواوکردنی وانەی پێشو هەیە: <strong>${escapeHtml(previous?.title||'وانەی پێشو')}</strong><div class="lesson-actions"><a class="lesson-btn" href="lessons/catalog.html">گەڕانەوە بۆ فهرستی وانەکان</a></div>`;document.title='وانە قفڵە | ئاڤاشین'}
+  function showLockedLesson(previous){titleEl.textContent='ئەم وانەیە هێشتا قفڵە';metaEl.textContent='بۆ دەست‌پێ‌کردنی ئەم وانەیە، سەرەتا وانەی پێشو تەواو بکە.';contentEl.hidden=true;actionsEl.hidden=true;termsSection.hidden=true;exercisesSection.hidden=true;quizSection.hidden=true;navEl.hidden=true;progressEl.hidden=true;errorEl.hidden=false;errorEl.innerHTML=`🔒 پێویستی بە تەواوکردنی وانەی پێشو هەیە: <strong>${escapeHtml(previous?.title||'وانەی پێشو')}</strong><div class="lesson-actions"><a class="lesson-btn" href="lessons/catalog.html">گەڕانەوە بۆ ڕیزبەندی وانەکان</a></div>`;document.title='وانە قفڵە | ئاڤاشین'}
   function installCopyAttribution(){
     document.addEventListener('copy',event=>{
       const selection=window.getSelection();
