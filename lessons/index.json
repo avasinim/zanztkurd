@@ -306,6 +306,13 @@
           "courseLessonNumber": 23
         },
         {
+          "id": "phonetics-section-10-lesson-058",
+          "number": 58,
+          "title": "خاڵبەندی",
+          "pagePath": "058.html",
+          "courseLessonNumber": 26
+        },
+        {
           "id": "phonetics-section-10-lesson-049",
           "number": 49,
           "title": "دەوری مۆرفۆفۆنێمی /و/ لە زوانی کوردیک",
@@ -320,13 +327,13 @@
     {
       "id": "course-current",
       "number": 1,
-      "title": "ڕێڕەوی ئێستای زانستی کورد — ٣٥ وانە",
+      "title": "ڕێڕەوی ئێستای زانستی کورد — ٢٦ وانە",
       "sectionIds": [
         "section-07",
         "section-10"
       ],
-      "endLessonNumber": 25,
-      "endLessonTitle": "شوا، بزرۆکە (ə)؛ ناساندن و بنەمای فۆنێتیکی"
+      "endLessonNumber": 26,
+      "endLessonTitle": "خاڵبەندی"
     }
   ],
   "system": {
@@ -336,7 +343,7 @@
     "source": "سابیر ژاکاو · فۆنێتیک و فۆنۆلۆجی کوردیک",
     "courseLessonNumbering": {
       "enabled": true,
-      "range": "017-057",
+      "range": "017-058",
       "firstOriginalNumber": 17,
       "firstCourseLessonNumber": 1,
       "note": "ژمارەی وانە لە کاتالۆگ و ڕێڕەوی فێربون لە ١ دەست پێ دەکات؛ ژمارەی سەرچاوەی کتێب و ناوی فایلەکان پارێزراون."
