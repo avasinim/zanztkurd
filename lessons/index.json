@@ -343,10 +343,9 @@
     "source": "سابیر ژاکاو · فۆنێتیک و فۆنۆلۆجی کوردیک",
     "courseLessonNumbering": {
       "enabled": true,
-      "range": "017-058",
-      "firstOriginalNumber": 17,
+      "range": "Course 1: 1-26",
       "firstCourseLessonNumber": 1,
-      "note": "ژمارەی وانە لە کاتالۆگ و ڕێڕەوی فێربون لە ١ دەست پێ دەکات؛ ژمارەی سەرچاوەی کتێب و ناوی فایلەکان پارێزراون."
+      "note": "ژمارەی courseLessonNumber ژمارەی وانەی خوێندکارە؛ pagePath و number تەنها ناسنامەی فایل/سەرچاوەی repository ـن و نابێت وەک ژمارەی وانە وەربگیرێن."
     }
   }
 }
