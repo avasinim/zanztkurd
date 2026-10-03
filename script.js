@@ -96,9 +96,6 @@ document.querySelectorAll('a[href="#"]').forEach(a=>{
   });
 });
 
-// ڕێگاکردنی وانەکانی سیستەمی نوێ بۆ پەڕەی واقعیی وانە.
-// هەمو کارتی کۆن هێشتا دەتوانێت مۆداڵی پێشو پیشان بدات، بەڵام ئەو وانەیەی
-// کە لە سیستەمی نوێدا هەیە ڕاستەوخۆ دەچێتە lesson.html.
 /* ===== V2 home lesson search ===== */
 (function(){
   const input=document.getElementById("homeLessonSearchInput");
