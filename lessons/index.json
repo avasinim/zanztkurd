@@ -321,6 +321,206 @@
         }
       ],
       "courseId": "course-current"
+    },
+    {
+      "id": "course-2-section",
+      "number": 2,
+      "title": "دەورەی ٢ — فۆنێتیک و فۆنۆلۆجی زوانی کوردیک",
+      "courseId": "course-2",
+      "lessons": [
+        {
+          "id": "course-2-lesson-01",
+          "number": 1,
+          "title": "فۆنێتیک: سیستەمی ئەندامەکانی ئاخاڤتن و بەرهەم‌هێنانی دەنگ",
+          "pagePath": "course-2-01.html",
+          "courseLessonNumber": 1,
+          "courseId": "course-2"
+        },
+        {
+          "id": "course-2-lesson-02",
+          "number": 2,
+          "title": "فۆنێتیک و جۆرەکانی دەنگ",
+          "pagePath": "course-2-02.html",
+          "courseLessonNumber": 2,
+          "courseId": "course-2"
+        },
+        {
+          "id": "course-2-lesson-03",
+          "number": 3,
+          "title": "فۆنێم و سیستەمی فۆنۆلۆجی",
+          "pagePath": "course-2-03.html",
+          "courseLessonNumber": 3,
+          "courseId": "course-2"
+        },
+        {
+          "id": "course-2-lesson-04",
+          "number": 4,
+          "title": "پەیوەندیی دەنگەکان و گۆڕانکارییە فۆنۆلۆجییەکان",
+          "pagePath": "course-2-04.html",
+          "courseLessonNumber": 4,
+          "courseId": "course-2"
+        },
+        {
+          "id": "course-2-lesson-05",
+          "number": 5,
+          "title": "سیستەمی بزوێن و نەبزوێنەکان",
+          "pagePath": "course-2-05.html",
+          "courseLessonNumber": 5,
+          "courseId": "course-2"
+        },
+        {
+          "id": "course-2-lesson-06",
+          "number": 6,
+          "title": "سیلاب و پێکهاتەی فۆنۆلۆجیی وشە",
+          "pagePath": "course-2-06.html",
+          "courseLessonNumber": 6,
+          "courseId": "course-2"
+        },
+        {
+          "id": "course-2-lesson-07",
+          "number": 7,
+          "title": "تیشک‌خستن، ئاواز و ڕێتمی ئاخاڤتن",
+          "pagePath": "course-2-07.html",
+          "courseLessonNumber": 7,
+          "courseId": "course-2"
+        },
+        {
+          "id": "course-2-lesson-08",
+          "number": 8,
+          "title": "سیستەمی نوسین، پیت، فۆن و فۆنێم",
+          "pagePath": "course-2-08.html",
+          "courseLessonNumber": 8,
+          "courseId": "course-2"
+        },
+        {
+          "id": "course-2-lesson-09",
+          "number": 9,
+          "title": "ئەلفبێی فۆنێتیکی نێودەوڵەتی و نوسینەوەی دەنگ",
+          "pagePath": "course-2-09.html",
+          "courseLessonNumber": 9,
+          "courseId": "course-2"
+        },
+        {
+          "id": "course-2-lesson-10",
+          "number": 10,
+          "title": "سیستەمی ئەکوستیکیی دەنگ و شی‌کردنەوەی سیگناڵ",
+          "pagePath": "course-2-10.html",
+          "courseLessonNumber": 10,
+          "courseId": "course-2"
+        },
+        {
+          "id": "course-2-lesson-11",
+          "number": 11,
+          "title": "ئەندامەکانی ئاخاڤتن و میکانیزمی بەرهەم‌هێنانی دەنگ",
+          "pagePath": "course-2-11.html",
+          "courseLessonNumber": 11,
+          "courseId": "course-2"
+        },
+        {
+          "id": "course-2-lesson-12",
+          "number": 12,
+          "title": "سیستەمی بزوێنەکان و شی‌کردنەوەی ئەکوستیکی",
+          "pagePath": "course-2-12.html",
+          "courseLessonNumber": 12,
+          "courseId": "course-2"
+        },
+        {
+          "id": "course-2-lesson-13",
+          "number": 13,
+          "title": "سیستەمی نەبزوێنەکان و شی‌کردنەوەی فۆنێتیکی",
+          "pagePath": "course-2-13.html",
+          "courseLessonNumber": 13,
+          "courseId": "course-2"
+        },
+        {
+          "id": "course-2-lesson-14",
+          "number": 14,
+          "title": "فۆنێم، ئەلوفۆن و سیستەمی فۆنۆلۆجی",
+          "pagePath": "course-2-14.html",
+          "courseLessonNumber": 14,
+          "courseId": "course-2"
+        },
+        {
+          "id": "course-2-lesson-15",
+          "number": 15,
+          "title": "گۆڕانکارییە فۆنۆلۆجییەکان و پەیوەندیی دەنگەکان",
+          "pagePath": "course-2-15.html",
+          "courseLessonNumber": 15,
+          "courseId": "course-2"
+        },
+        {
+          "id": "course-2-lesson-16",
+          "number": 16,
+          "title": "سیلاب، پێکهاتەی وشە و ڕێک‌خستنی فۆنۆلۆجی",
+          "pagePath": "course-2-16.html",
+          "courseLessonNumber": 16,
+          "courseId": "course-2"
+        },
+        {
+          "id": "course-2-lesson-17",
+          "number": 17,
+          "title": "پڕۆسۆدی، تیشک‌خستن، ئاواز و ڕێتمی ئاخاڤتن",
+          "pagePath": "course-2-17.html",
+          "courseLessonNumber": 17,
+          "courseId": "course-2"
+        },
+        {
+          "id": "course-2-lesson-18",
+          "number": 18,
+          "title": "فۆنێتیکی بیستن و درک‌کردنی دەنگ",
+          "pagePath": "course-2-18.html",
+          "courseLessonNumber": 18,
+          "courseId": "course-2"
+        },
+        {
+          "id": "course-2-lesson-19",
+          "number": 19,
+          "title": "جۆراوجۆری فۆنێتیکی و فۆنۆلۆجیی لە ئاخاڤتن‌دا",
+          "pagePath": "course-2-19.html",
+          "courseLessonNumber": 19,
+          "courseId": "course-2"
+        },
+        {
+          "id": "course-2-lesson-20",
+          "number": 20,
+          "title": "پڕۆسە فۆنێتیکی و فۆنۆلۆجییەکان لە ئاخاڤتنی بەردەوام‌دا",
+          "pagePath": "course-2-20.html",
+          "courseLessonNumber": 20,
+          "courseId": "course-2"
+        },
+        {
+          "id": "course-2-lesson-21",
+          "number": 21,
+          "title": "پەیوەندیی فۆنێتیک، ئەکوستیک و فۆنۆلۆجی لە شی‌کردنەوەی دەنگ‌دا",
+          "pagePath": "course-2-21.html",
+          "courseLessonNumber": 21,
+          "courseId": "course-2"
+        },
+        {
+          "id": "course-2-lesson-22",
+          "number": 22,
+          "title": "ڕێگا و ئامرازەکانی توێژینەوەی فۆنێتیکی و ئەکوستیکی",
+          "pagePath": "course-2-22.html",
+          "courseLessonNumber": 22,
+          "courseId": "course-2"
+        },
+        {
+          "id": "course-2-lesson-23",
+          "number": 23,
+          "title": "کۆئارتیکولەیشن و گۆڕانکاریی فۆنێتیکی لە ئاخاڤتنی بەردەوام‌دا",
+          "pagePath": "course-2-23.html",
+          "courseLessonNumber": 23,
+          "courseId": "course-2"
+        },
+        {
+          "id": "course-2-lesson-24",
+          "number": 24,
+          "title": "شی‌کردنەوە و ڕێک‌خستنی سیستەمی فۆنێتیکی و فۆنۆلۆجی",
+          "pagePath": "course-2-24.html",
+          "courseLessonNumber": 24,
+          "courseId": "course-2"
+        }
+      ]
     }
   ],
   "courses": [
@@ -334,6 +534,16 @@
       ],
       "endLessonNumber": 26,
       "endLessonTitle": "خاڵبەندی"
+    },
+    {
+      "id": "course-2",
+      "number": 2,
+      "title": "کۆرسی ئەکادێمیک و زانستی فۆنێتیک و فۆنۆلۆجی زوانی کوردیک",
+      "sectionIds": [
+        "course-2-section"
+      ],
+      "endLessonNumber": 24,
+      "endLessonTitle": "شی‌کردنەوە و ڕێک‌خستنی سیستەمی فۆنێتیکی و فۆنۆلۆجی"
     }
   ],
   "system": {
@@ -343,9 +553,9 @@
     "source": "سابیر ژاکاو · فۆنێتیک و فۆنۆلۆجی کوردیک",
     "courseLessonNumbering": {
       "enabled": true,
-      "range": "Course 1: 1-26",
+      "range": "Course 1: 1-26; Course 2: 1-24",
       "firstCourseLessonNumber": 1,
-      "note": "ژمارەی courseLessonNumber ژمارەی وانەی خوێندکارە؛ pagePath و number تەنها ناسنامەی فایل/سەرچاوەی repository ـن و نابێت وەک ژمارەی وانە وەربگیرێن."
+      "note": "ژمارەی courseLessonNumber ژمارەی وانەی خوێندکارە؛ pagePath و number تەنها ناسنامەی فایل/سەرچاوەی repository ـن و نابێت وەک ژمارەی وانە وەربگیرێن. هەر دەورە ژمارەی سەربەخۆی خۆی هەیە."
     }
   }
 }
