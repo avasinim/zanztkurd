@@ -222,13 +222,6 @@
           "courseLessonNumber": 22
         },
         {
-          "id": "phonetics-section-10-lesson-045",
-          "number": 45,
-          "title": "پیتی (ه) و سازگەی بەرهەم‌هێنانی /ه/",
-          "pagePath": "045.html",
-          "courseLessonNumber": 24
-        },
-        {
           "id": "phonetics-section-10-lesson-046",
           "number": 46,
           "title": "پیتەکانی (و، وو، ۆ، و، ۊ)",
@@ -255,6 +248,27 @@
           "title": "ڤاوڵی بەندبو و /و/ی خلی",
           "pagePath": "051.html",
           "courseLessonNumber": 23
+        },
+        {
+          "id": "phonetics-section-10-lesson-050",
+          "number": 50,
+          "title": "سرتێس و ڤاوڵی /و/ لە زوانی کوردیک",
+          "pagePath": "050.html",
+          "courseLessonNumber": 23
+        },
+        {
+          "id": "phonetics-section-10-lesson-049",
+          "number": 49,
+          "title": "دەوری مۆرفۆفۆنێمی /و/ لە زوانی کوردیک",
+          "pagePath": "049.html",
+          "courseLessonNumber": 23
+        },
+        {
+          "id": "phonetics-section-10-lesson-045",
+          "number": 45,
+          "title": "پیتی (ه) و سازگەی بەرهەم‌هێنانی /ه/",
+          "pagePath": "045.html",
+          "courseLessonNumber": 24
         },
         {
           "id": "phonetics-section-10-lesson-52",
@@ -299,25 +313,11 @@
           "courseLessonNumber": 25
         },
         {
-          "id": "phonetics-section-10-lesson-050",
-          "number": 50,
-          "title": "سرتێس و ڤاوڵی /و/ لە زوانی کوردیک",
-          "pagePath": "050.html",
-          "courseLessonNumber": 23
-        },
-        {
           "id": "phonetics-section-10-lesson-058",
           "number": 58,
           "title": "خاڵبەندی",
           "pagePath": "058.html",
           "courseLessonNumber": 26
-        },
-        {
-          "id": "phonetics-section-10-lesson-049",
-          "number": 49,
-          "title": "دەوری مۆرفۆفۆنێمی /و/ لە زوانی کوردیک",
-          "pagePath": "049.html",
-          "courseLessonNumber": 23
         }
       ],
       "courseId": "course-current"
