@@ -325,3 +325,11 @@ Commit:
 - canonical و زمانی `ckb` لە JSON-LD ـی زیادکراوەکان لەگەڵ پەڕەکە هاوتاکراون.
 - دەقی وانە و ناوەڕۆکی کتێب دەست‌کاری نەکرا؛ کارەکان تەنیا لە metadata ـی SEO ـدا بوون.
 - commits: `b03d069a`, `572ac3a9`, `9157a041`.
+
+
+## 2026-10-03 — کۆدی ئاڤاشین: پشکنینی تەواوی JSON-LD و canonical ـی Course 1
+- هەموو پەڕەکانی وانەی Course 1 (١–٢٦؛ فایلەکانی `017–058` بە پێی mapping ـی فەرمی) پشکنران.
+- `canonical` ـی هەموو پەڕەکان بە URL ـی ڕاستی هەمان فایل هاوتاک کرا.
+- JSON-LD ـی `LearningResource` بۆ پەڕە کۆنەکان کە نەبو، زیادکرا و field ـە سەرەکییەکان یەکسان کران: `@context`, `@type`, `name`, `description`, `url`, `inLanguage`, `isPartOf`, `author`, `publisher`, `learningResourceType`, `isAccessibleForFree`.
+- URL ـە هەڵەکانی `https:/` لە `@context` و `url` و URL ـی ماڵپەڕ ڕاستکرانەوە بۆ `https://`.
+- ناوەڕۆکی وانە، نموونەکانی کتێب و دەقی سەرچاوە دەست‌کاری نەکرا؛ کارەکان metadata/SEO بوون.
