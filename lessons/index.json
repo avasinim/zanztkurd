@@ -15,7 +15,7 @@
     {
       "id": "section-07",
       "number": 7,
-      "title": "دەورەی ١ — دەورەی سەرەتایی ئەلفوبێی زوانی کوردیک",
+      "title": "دەورەی ١ — ڕێنوسی زوانی کوردیک",
       "lessons": [
         {
           "id": "writing-system-section-07-lesson-017",
@@ -569,7 +569,7 @@
     {
       "id": "course-current",
       "number": 1,
-      "title": "ڕێڕەوی ئێستای زانستی کورد — ٢٦ وانە",
+      "title": "ڕێنوسی زوانی کوردیک",
       "sectionIds": [
         "section-07",
         "section-10"
