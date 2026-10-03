@@ -125,3 +125,10 @@ Commit:
 - هەروەها دەربڕینەکانی پەیوەندیدار بە `دۆخی فۆنی` و `واچ/ئەلۆفۆن` بە شێوەی ڕون‌تر ڕێک‌خران.
 - فایل: `lessons/019.html`
 - Commit: `d5ebc2e2b7f9d5ab6cb42d93218c89956c33ce77`
+
+
+## 2026-10-03 — Global orthography audit for learner lessons 3–50
+- Audited the 40 Course 1 HTML lesson files corresponding to learner lessons 3–26 and all 24 Course 2 lesson files corresponding to learner lessons 27–50.
+- Applied the established project orthography/terminology rules globally where the audited patterns occurred, including forms related to جیاوازی/جیاواز, فۆنێتیک/فۆنۆلۆجی, ئەکوستیکی, پەیوەندی, گۆڕان‌کاری, مێژویی, ڕێنوسی, ڕێگە, نوسین, نمونە, شی‌کردنەوە, مەڵاشو, نیە/چیە, لە سەر, یەکەوە and related recurring forms.
+- Re-scanned lessons 3–50 after the edits; no occurrences of the audited forbidden patterns remained in the checked lesson HTML files.
+- No course structure, lesson numbering, source content, examples, or Course 3 was added.
