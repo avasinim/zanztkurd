@@ -53,7 +53,7 @@
 <body class="content-page">
 <header class="v2-header site-unified-header">
   <div class="v2-shell v2-nav">
-    <a class="v2-brand" href="../index.html" aria-label="ئەکادێمیای ئاڤاشین"><span class="v2-brand-mark"<span>ئەکادێمیای ئاڤاشین</span></a>
+    <a class="v2-brand" href="../index.html" aria-label="ئەکادێمیای ئاڤاشین"><span class="v2-brand-mark"></span><span>ئەکادێمیای ئاڤاشین</span></a>
     <nav class="v2-nav-links" aria-label="ناڤیگیشن">
       <a href="../learning.html">فێربون</a><a href="../linguistics.html">زمان‌ناسی</a><a href="catalog.html">وانەکان</a><a href="../index.html#books">کتێب‌خانە</a><a href="../sabir-zhakaw.html">سابیر ژاکاو</a>
     </nav>
@@ -122,11 +122,16 @@ const escapeHtml=v=>String(v??"").replace(/[&<>"\']/g,c=>({"&":"&amp;","<":"&lt;
 try{
 const res=await fetch("./index.json",{cache:"no-store"});if(!res.ok)throw Error("catalog");
 const data=await res.json(),course=data.course||{};progression={...progression,...(data.progression||{})};courses=data.courses||[];
+const course2Titles=["فۆنێتیک: سیستەمی ئەندامەکانی ئاخاڤتن و بەرهەم‌هێنانی دەنگ","فۆنێتیک و جۆرەکانی دەنگ","فۆنێم و سیستەمی فۆنۆلۆجی","پەیوەندیی دەنگەکان و گۆڕانکارییە فۆنۆلۆجییەکان","سیستەمی بزوێن و نەبزوێنەکان","سیلاب و پێکهاتەی فۆنۆلۆجیی وشە","تیشک‌خستن، ئاواز و ڕێتمی ئاخاڤتن","سیستەمی نوسین، پیت، فۆن و فۆنێم","ئەلفبێی فۆنێتیکی نێودەوڵەتی و نوسینەوەی دەنگ","سیستەمی ئەکوستیکیی دەنگ و شی‌کردنەوەی سیگناڵ","ئەندامەکانی ئاخاڤتن و میکانیزمی بەرهەم‌هێنانی دەنگ","سیستەمی بزوێنەکان و شی‌کردنەوەی ئەکوستیکی","سیستەمی نەبزوێنەکان و شی‌کردنەوەی فۆنێتیکی","فۆنێم، ئەلوفۆن و سیستەمی فۆنۆلۆجی","گۆڕانکارییە فۆنۆلۆجییەکان و پەیوەندیی دەنگەکان","سیلاب، پێکهاتەی وشە و ڕێک‌خستنی فۆنۆلۆجی","پڕۆسۆدی، تیشک‌خستن، ئاواز و ڕێتمی ئاخاڤتن","فۆنێتیکی بیستن و درک‌کردنی دەنگ","جۆراوجۆری فۆنێتیکی و فۆنۆلۆجیی لە ئاخاڤتن‌دا","پڕۆسە فۆنێتیکی و فۆنۆلۆجییەکان لە ئاخاڤتنی بەردەوام‌دا","پەیوەندیی فۆنێتیک، ئەکوستیک و فۆنۆلۆجی لە شی‌کردنەوەی دەنگ‌دا","ڕێگا و ئامرازەکانی توێژینەوەی فۆنێتیکی و ئەکوستیکی","کۆئارتیکولەیشن و گۆڕانکاریی فۆنێتیکی لە ئاخاڤتنی بەردەوام‌دا","شی‌کردنەوە و ڕێک‌خستنی سیستەمی فۆنێتیکی و فۆنۆلۆجی"];
+const course2={id:"phonetics-phonology-kurdik",number:2,title:"فۆنێتیک و فۆنۆلۆجی زوانی کوردیک"};
+if(!courses.some(c=>c.id===course2.id))courses.push(course2);
 document.getElementById("courseTitle").textContent=course.title||"وانەکان";
 document.getElementById("courseMeta").textContent=course.author?"مامۆستا: "+course.author:"ڕێڕەوی فێربونی زوانی کوردیک";
 courses.forEach(c=>{const o=document.createElement("option");o.value=c.id;o.textContent=c.title;courseFilter.appendChild(o)});
 lessons=(data.sections||[]).flatMap(s=>(s.lessons||[]).map(l=>({...l,sectionTitle:s.title,sectionNumber:s.number,sectionId:s.id,courseId:l.courseId||s.courseId||null,originalNumber:l.number,courseLessonNumber:l.courseLessonNumber||null})));
-lessons.sort((a,b)=>(a.courseLessonNumber||999)-(b.courseLessonNumber||999));
+const course2Lessons=course2Titles.map((title,i)=>({id:"course-2-"+String(i+1).padStart(2,"0"),title,sectionTitle:"کۆرسی ئەکادێمیک و زانستی فۆنێتیک و فۆنۆلۆجی زوانی کوردیک",sectionNumber:"٢",sectionId:"course-2",courseId:"phonetics-phonology-kurdik",originalNumber:i+1,courseLessonNumber:i+1,pagePath:"course-2-"+String(i+1).padStart(2,"0")+".html"}));
+lessons=[...lessons,...course2Lessons];
+lessons.sort((a,b)=>a.courseId===b.courseId?(a.courseLessonNumber||999)-(b.courseLessonNumber||999):a.courseId==="phonetics-phonology-kurdik"?1:-1);
 const sections=[...new Map(lessons.map(l=>[l.sectionId,l])).values()];
 sections.forEach(x=>{const o=document.createElement("option");o.value=x.sectionId;o.textContent="بەشی "+x.sectionNumber+" — "+x.sectionTitle;filter.appendChild(o)});render();
 }catch(e){const loading=catalog.querySelector(".catalog-loading");if(loading)loading.textContent="ڕێڕەوی وانەکان:";return}
