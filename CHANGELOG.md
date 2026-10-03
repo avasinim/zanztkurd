@@ -383,3 +383,4 @@ Commit:
 - JSON-LD ـی `LearningResource` بۆ پەڕە کۆنەکان کە نەبو، زیادکرا و field ـە سەرەکییەکان یەکسان کران: `@context`, `@type`, `name`, `description`, `url`, `inLanguage`, `isPartOf`, `author`, `publisher`, `learningResourceType`, `isAccessibleForFree`.
 - URL ـە هەڵەکانی `https:/` لە `@context` و `url` و URL ـی ماڵپەڕ ڕاستکرانەوە بۆ `https://`.
 - ناوەڕۆکی وانە، نموونەکانی کتێب و دەقی سەرچاوە دەست‌کاری نەکرا؛ کارەکان metadata/SEO بوون.
+- 2026-10-03 — ناونیشانی وانەی ١٠ لە `learning.html`، `lessons/index.json` و `COURSE-REGISTRY.md` یەکسان کرا بۆ «وانەی ١٠ — بەشی ٢ی وانەی ٩»؛ دەقی `lessons/026.html` پێشتر بە هەمان ناونیشان بوو.
