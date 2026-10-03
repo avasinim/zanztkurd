@@ -132,3 +132,10 @@ Commit:
 - Applied the established project orthography/terminology rules globally where the audited patterns occurred, including forms related to جیاوازی/جیاواز, فۆنێتیک/فۆنۆلۆجی, ئەکوستیکی, پەیوەندی, گۆڕان‌کاری, مێژویی, ڕێنوسی, ڕێگە, نوسین, نمونە, شی‌کردنەوە, مەڵاشو, نیە/چیە, لە سەر, یەکەوە and related recurring forms.
 - Re-scanned lessons 3–50 after the edits; no occurrences of the audited forbidden patterns remained in the checked lesson HTML files.
 - No course structure, lesson numbering, source content, examples, or Course 3 was added.
+
+## 2026-10-03 — Course 2 terminology audit continuation
+
+- پشکنینی زاراوەیی لە بەشی یەکەمی وانەکانی دەورەی ٢ بەردەوام کرا.
+- لە `lessons/course-2-01.html` شێوەی `ئاکۆستیکی` بۆ `ئەکوستیکی` چاک کرا.
+- لە `lessons/course-2-07.html` شێوەی `ریتم` بۆ `ڕێتم` چاک کرا.
+- هیچ گۆڕانێک لە ناوەڕۆکی زانستی، ژمارەی وانەکان، یان پێکهاتەی دەورەکان نەکرا.
