@@ -210,16 +210,28 @@ if(window.location.pathname.endsWith("/lesson.html") || window.location.pathname
   fetch("lessons/index.json")
     .then(function(r){if(!r.ok) throw new Error("index"); return r.json();})
     .then(function(data){
-      const courseMap=Object.fromEntries((data.courses||[]).map(function(c){return [c.id,c.title];}));
-      lessons=(data.sections||[]).flatMap(function(section){
+      const courseMap=Object.fromEntries((data.courses||[]).map(function(c){return [c.id,c];}));
+      const expanded=(data.sections||[]).flatMap(function(section){
         return (section.lessons||[]).map(function(item){
+          const course=courseMap[item.courseId||section.courseId]||{};
           return Object.assign({},item,{
             sectionTitle:section.title,
-            courseTitle:courseMap[item.courseId||section.courseId]||"فۆنێتیک و فۆنۆلۆجی کوردیک"
+            courseId:item.courseId||section.courseId||"",
+            courseNumber:Number(course.number||999),
+            courseTitle:course.title||"فۆنێتیک و فۆنۆلۆجی کوردیک"
           });
         });
       });
-      lessons.sort(function(a,b){return Number(a.courseLessonNumber||a.number)-Number(b.courseLessonNumber||b.number);});
+      const unique=new Map();
+      expanded.forEach(function(item){
+        const key=(item.courseId||"course")+"/"+String(item.courseLessonNumber||item.number);
+        if(!unique.has(key)) unique.set(key,item);
+      });
+      lessons=Array.from(unique.values());
+      lessons.sort(function(a,b){
+        return (Number(a.courseNumber)||999)-(Number(b.courseNumber)||999)
+          || (Number(a.courseLessonNumber||a.number)||999)-(Number(b.courseLessonNumber||b.number)||999);
+      });
       render(input.value);
     })
     .catch(function(){
