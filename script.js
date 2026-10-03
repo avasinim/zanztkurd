@@ -180,7 +180,7 @@ if(window.location.pathname.endsWith("/lesson.html") || window.location.pathname
   function normalize(value){ return String(value||"").toLocaleLowerCase("ckb"); }
 
   function lessonUrl(item){
-    const raw=String(item.path||"");
+    const raw=String(item.pagePath||item.path||"");
     if(raw.endsWith(".html")) return "lessons/"+raw;
     const n=Number(item.originalNumber||item.number);
     return Number.isFinite(n) ? "lessons/"+String(n).padStart(3,"0")+".html" : "lessons/catalog.html";
