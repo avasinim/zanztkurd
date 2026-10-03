@@ -55,57 +55,6 @@ document.querySelectorAll(".primary-btn").forEach(btn=>{
   }
 });
 
-const lessonData = {
-  "1": {"title":"مۆرفۆلۆژی کوردی: بنەماکان","topic":"مۆرفۆلۆژی","level":"ناوەندی","duration":"٣٠ خولەک","description":"وشەسازی، بنچینە و پێکهاتەی وشە لە زمانی کوردیدا.","detail":"لە ئەم وانەیەدا دەست بە تێگەیشتن لە مۆرفیم، ڕەگ و پاشگرەکان دەکەین و نمونەی کوردی بەکار دەهێنین."},
-  "2": {"title":"فۆنەتیکی زمانی کوردی","topic":"فۆنەتیک","level":"سەرەتایی","duration":"٢٥ خولەک","description":"دەنگەکان، جیاوازییە فۆنەتیکییەکان و شێوازی دروستکردنیان.","detail":"دەنگی مرۆڤ، جۆرەکانی دەنگ و جیاوازیی نێوان فۆن و وشە بە شێوەیەکی سادە دەخوێنین."},
-  "3": {"title":"ڕێزمان و سینتاکسی کوردی","topic":"ڕێزمان","level":"پێشکەوتو","duration":"٤٥ خولەک","description":"پەیوەندی وشەکان و پێکهاتەی ڕستە لە دیدی زمانەوانییەوە.","detail":"پێکهاتەی ڕستە، ڕۆڵی وشەکان و هەندێک بنەمای سینتاکسیی کوردی بە نمونە دەبینین."},
-  "4": {"title":"زمان و مێشک","topic":"زانست","level":"ناوەندی","duration":"٣٥ خولەک","description":"دەستپێکی زمانەوانیی دەرونی و چۆنیەتی کارکردنی زمان لە مێشک.","detail":"ئەم وانەیە پەیوەندی نێوان زمان، بیرکردنەوە و پرۆسەکردنی زمان لە مێشک دەخاتەڕو."},
-  "5": {"title":"بنەمای ڕێزمانی کوردی","topic":"ڕێزمان","level":"سەرەتایی","duration":"٢٠ خولەک","description":"ناو، کردار، هاوەڵناو و بنەما سەرەتاییەکانی ڕستە.","detail":"ئەگەر لە ڕێزمانی کوردی دەستپێدەکەیت، ئەم وانەیە بنەما سەرەتاییەکانت بە هێواشی ڕون دەکات."},
-  "6": {"title":"زمانەوانیی کۆمەڵایەتی","topic":"زانست","level":"پێشکەوتو","duration":"٥٠ خولەک","description":"زمان و کۆمەڵگا، گۆڕانی زمان و ناسنامەی زمانەوانی.","detail":"لە پەیوەندیی نێوان زمان و کۆمەڵگا دەڕوانین و چۆنیەتی گۆڕانی زمان لە کۆنتێکستی کۆمەڵایەتی دەخوێنین."}
-};
-
-const lessonModal=document.getElementById("lessonModal");
-const lessonTitle=document.getElementById("lessonModalTitle");
-const lessonTopic=document.getElementById("lessonModalTopic");
-const lessonLevel=document.getElementById("lessonModalLevel");
-const lessonDuration=document.getElementById("lessonModalDuration");
-const lessonDescription=document.getElementById("lessonModalDescription");
-const lessonDetail=document.getElementById("lessonModalDetail");
-const startLessonBtn=document.getElementById("startLessonBtn");
-
-function openLesson(id){
-  const item=lessonData[id];
-  if(!item||!lessonModal) return;
-  lessonTitle.textContent=item.title;
-  lessonTopic.textContent=item.topic;
-  lessonLevel.textContent=item.level;
-  lessonDuration.textContent=item.duration;
-  lessonDescription.textContent=item.description;
-  lessonDetail.textContent=item.detail;
-  if(startLessonBtn) startLessonBtn.dataset.lesson=id;
-  lessonModal.classList.add("open");
-  lessonModal.setAttribute("aria-hidden","false");
-  document.body.classList.add("modal-open");
-}
-function closeLesson(){
-  if(!lessonModal) return;
-  lessonModal.classList.remove("open");
-  lessonModal.setAttribute("aria-hidden","true");
-  document.body.classList.remove("modal-open");
-}
-document.querySelectorAll(".learn-btn").forEach(btn=>{
-  btn.addEventListener("click",()=>openLesson(btn.dataset.lesson));
-});
-lessonModal?.querySelectorAll("[data-close-lesson]").forEach(el=>el.addEventListener("click",closeLesson));
-document.addEventListener("keydown",e=>{if(e.key==="Escape" && lessonModal?.classList.contains("open")) closeLesson();});
-startLessonBtn?.addEventListener("click",()=>{
-  const id=startLessonBtn.dataset.lesson;
-  const note=document.getElementById("lessonNote");
-  note.textContent="وانەکە هەڵبژێردرا ✓ بەشی خوێندنەوەی تەواو لە هەنگاوی داهاتودا زیاد دەکرێت.";
-  startLessonBtn.textContent="هەڵبژێردرا ✓";
-  startLessonBtn.disabled=true;
-});
-
 const infoModal=document.getElementById("siteInfoModal");
 const infoTitle=document.getElementById("siteInfoTitle");
 const infoEyebrow=document.getElementById("siteInfoEyebrow");
@@ -150,23 +99,6 @@ document.querySelectorAll('a[href="#"]').forEach(a=>{
 // ڕێگاکردنی وانەکانی سیستەمی نوێ بۆ پەڕەی واقعیی وانە.
 // هەمو کارتی کۆن هێشتا دەتوانێت مۆداڵی پێشو پیشان بدات، بەڵام ئەو وانەیەی
 // کە لە سیستەمی نوێدا هەیە ڕاستەوخۆ دەچێتە lesson.html.
-const lessonRoutes={
-  "1":"phonetics-section-06-lesson-001"
-};
-
-document.querySelectorAll(".learn-btn").forEach(btn=>{
-  const route=lessonRoutes[String(btn.dataset.lesson||"")];
-  if(!route) return;
-  btn.addEventListener("click",()=>{
-    window.location.href=`lesson.html?id=${encodeURIComponent(route)}`;
-  });
-});
-
-// ئەگەر بە لینکێکی ڕاستەوخۆی وانە هاتین، هیچ پێویستی بە مۆداڵ نییە.
-if(window.location.pathname.endsWith("/lesson.html") || window.location.pathname.endsWith("lesson.html")){
-  document.body.classList.add("lesson-route-page");
-}
-
 /* ===== V2 home lesson search ===== */
 (function(){
   const input=document.getElementById("homeLessonSearchInput");
