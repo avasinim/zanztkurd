@@ -1180,3 +1180,23 @@ body:after{
 .course2-lesson article{max-width:1180px!important}
 .content-page-grid{grid-template-columns:minmax(0,1.65fr) minmax(230px,.55fr)}
 @media(max-width:800px){.course2-lesson .container{width:min(100% - 24px,1240px)}.content-page-grid{grid-template-columns:1fr}}
+
+/* ===== چاکسازی تەواوی لاپەڕەی وانەکان — Course 1 + Course 2 ===== */
+.content-page .container{width:min(1240px,calc(100% - 32px))}
+.content-page-grid{width:100%;max-width:1240px;margin-inline:auto;gap:26px;align-items:start}
+.content-page-card{width:100%;min-width:0;border-radius:24px!important;box-shadow:0 16px 42px rgba(32,37,34,.08)!important}
+.lesson-content{font-size:1.05rem;line-height:2.15}
+.lesson-content h2{margin-top:2.1rem;margin-bottom:.8rem;font-size:clamp(1.35rem,2.4vw,1.75rem);line-height:1.65;padding-right:14px;border-right:4px solid #b38a58}
+.lesson-content h3{margin-top:1.65rem;font-size:1.18rem;line-height:1.7}
+.lesson-content p{margin:0 0 1.05rem}
+.lesson-content ul,.lesson-content ol{padding-inline-start:1.8rem;margin:1rem 0 1.35rem}
+.lesson-content li{margin:.45rem 0}
+.lesson-copy-note{border-radius:14px;padding:15px 18px!important;background:#f4f1e9!important;border-right:3px solid #b38a58!important}
+.content-page-side{position:sticky;top:20px;border-radius:20px;box-shadow:0 12px 32px rgba(32,37,34,.06)}
+.course2-lesson .content-page-grid{max-width:1240px}
+.course2-lesson .content-page-card{padding:36px 42px!important}
+.course2-lesson .lesson-content{max-width:1080px;margin-inline:auto}
+.course2-lesson .source{font-size:1rem;line-height:1.9;margin-bottom:24px}
+.course2-lesson-hero{margin-bottom:34px!important}
+@media(max-width:900px){.content-page-grid{grid-template-columns:1fr!important}.content-page-side{position:static}.content-page-card{padding:28px!important}.course2-lesson .content-page-card{padding:28px 24px!important}}
+@media(max-width:600px){.content-page .container{width:calc(100% - 20px)}.lesson-content{font-size:1rem;line-height:2.05}.course2-lesson .content-page-card{padding:22px 17px!important}.lesson-content h2{padding-right:10px;border-right-width:3px}}
