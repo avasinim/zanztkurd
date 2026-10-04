@@ -136,7 +136,7 @@ document.querySelectorAll('a[href="#"]').forEach(a=>{
     }).join("");
   }
 
-  fetch("lessons/index.json")
+  fetch("lessons/index.json?v=20261004")
     .then(function(r){if(!r.ok) throw new Error("index"); return r.json();})
     .then(function(data){
       const courseMap=Object.fromEntries((data.courses||[]).map(function(c){return [c.id,c];}));
