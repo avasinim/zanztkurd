@@ -1174,3 +1174,9 @@ body:after{
 .content-page-hero .eyebrow{font-weight:850;letter-spacing:.15px}
 .content-page-hero> .container>p{font-weight:650}
 @media(max-width:600px){.lesson-title-frame{padding:8px 8px 8px 0;border-radius:16px}.lesson-title-frame:before{border-radius:0 16px 16px 0}}
+
+/* ===== پانکردنی پەڕەکانی وانە — هەردو دەورە ===== */
+.course2-lesson .container{width:min(1240px,calc(100% - 32px))}
+.course2-lesson article{max-width:1180px!important}
+.content-page-grid{grid-template-columns:minmax(0,1.65fr) minmax(230px,.55fr)}
+@media(max-width:800px){.course2-lesson .container{width:min(100% - 24px,1240px)}.content-page-grid{grid-template-columns:1fr}}
