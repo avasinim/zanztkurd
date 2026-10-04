@@ -172,3 +172,22 @@ document.querySelectorAll('a[href="#"]').forEach(a=>{
   form.addEventListener("submit",function(e){e.preventDefault();render(input.value);});
   if(clear) clear.addEventListener("click",function(){input.value="";render("");input.focus();});
 })();
+
+/* ===== Universal academic lesson tags ===== */
+(function(){
+  document.querySelectorAll(".lesson-content").forEach(function(content){
+    if(content.querySelector(".lesson-academic-tags")) return;
+    const source=content.querySelector(".lesson-copy-note");
+    if(!source) return;
+    const wrap=document.createElement("div");
+    wrap.className="lesson-academic-tags";
+    wrap.style.cssText="display:flex;gap:.6rem;flex-wrap:wrap;margin-bottom:1rem";
+    ["ئەلفبێ و ڕێنوس","فۆنێتیک","فۆنۆلۆجی","ئاستی ئەکادێمیک"].forEach(function(label){
+      const pill=document.createElement("span");
+      pill.className="v2-pill";
+      pill.textContent=label;
+      wrap.appendChild(pill);
+    });
+    source.insertAdjacentElement("afterend",wrap);
+  });
+})();
