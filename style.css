@@ -1165,3 +1165,12 @@ body:after{
   .header .brand>span:last-child,
   .site-header .brand>span:last-child{font-size:.98rem}
 }
+
+/* ===== ڕێک‌خستنی زانستی سەردێری وانەکان ===== */
+.lesson-title-frame{position:relative;padding:12px 14px 12px 0;border-radius:20px;background:linear-gradient(135deg,rgba(255,255,255,.96),rgba(248,246,240,.96));border:1px solid rgba(179,138,88,.22);box-shadow:0 14px 34px rgba(32,37,34,.08);overflow:hidden}
+.lesson-title-frame:before{content:"";position:absolute;right:0;top:0;bottom:0;width:5px;background:linear-gradient(180deg,#b38a58,#7e202b);border-radius:0 20px 20px 0}
+.lesson-title-frame .lesson-no{background:linear-gradient(145deg,#b38a58,#7e202b)!important;color:#fff!important;border-radius:15px!important;box-shadow:0 10px 24px rgba(126,32,43,.18)!important;position:relative}
+.lesson-title-frame .lesson-name{border-right:0!important;background:transparent!important;box-shadow:none!important;color:#4f1720!important;font-weight:850!important;letter-spacing:-.2px}
+.content-page-hero .eyebrow{font-weight:850;letter-spacing:.15px}
+.content-page-hero> .container>p{font-weight:650}
+@media(max-width:600px){.lesson-title-frame{padding:8px 8px 8px 0;border-radius:16px}.lesson-title-frame:before{border-radius:0 16px 16px 0}}
