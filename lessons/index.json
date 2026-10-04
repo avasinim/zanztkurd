@@ -196,7 +196,7 @@
         {
           "id": "phonetics-section-10-lesson-038",
           "number": 38,
-          "title": "پیتی (ی) و دوو فۆنی جوداواز",
+          "title": "پیتی (ی) و دوو فۆنی جیاواز",
           "pagePath": "038.html",
           "courseLessonNumber": 22,
           "courseId": "course-current"
@@ -541,7 +541,7 @@
         {
           "id": "course-2-lesson-22",
           "number": 22,
-          "title": "ڕێگا و ئامرازەکانی توێژینەوەی فۆنێتیکی و ئەکوستیکی",
+          "title": "ڕێگە و ئامرازەکانی توێژینەوەی فۆنێتیکی و ئەکوستیکی",
           "pagePath": "course-2-22.html",
           "courseLessonNumber": 22,
           "courseId": "course-2"
@@ -597,7 +597,7 @@
       "enabled": true,
       "range": "Course 1: 1-26; Course 2: 1-24",
       "firstCourseLessonNumber": 1,
-      "note": "ژمارەی courseLessonNumber ژمارەی وانەی خوێندکارە؛ pagePath و number تەنها ناسنامەی فایل/سەرچاوەی repository ـن و نابێت وەک ژمارەی وانە وەربگیرێن. هەر دەورە ژمارەی سەربەخۆی خۆی هەیە.",
+      "note": "ژمارەی courseLessonNumber ژمارەی وانەی خوێندکارە؛ pagePath و number تەنیا ناسنامەی فایل/سەرچاوەی repository ـن و نابێت وەک ژمارەی وانە وەربگیرێن. هەر دەورە ژمارەی سەربەخۆی خۆی هەیە.",
       "physicalResourceNote": "هەندێک وانە بە زنجیرەی چەند فایلێک نوێنەرایەتی دەکرێن؛ courseLessonNumber ژمارەی وانەی خوێندکارە و pagePath/number ژمارەی سەرچاوەی فایلی repository ـە."
     }
   }
