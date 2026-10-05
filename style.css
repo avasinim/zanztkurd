@@ -2006,3 +2006,23 @@ body:after{
     font-size:12px!important;
   }
 }
+
+
+/* ===== Avasin Standard v5 — ڕەنگی زانکۆیی بۆ سەردێری وانەکان ===== */
+.content-page-hero .lesson-title-frame,
+.course2-lesson-hero .course2-lesson-heading{
+  border-inline-start-color:#8a7f68!important;
+  border-top-color:rgba(196,186,158,.20)!important;
+  border-bottom-color:rgba(196,186,158,.20)!important;
+  background:rgba(22,27,31,.58)!important;
+}
+.content-page-hero .lesson-title-frame .lesson-no,
+.course2-lesson-hero .course2-lesson-number{
+  border-color:rgba(190,181,154,.38)!important;
+  background:#30352f!important;
+  color:#e5dfcc!important;
+}
+.content-page-hero .lesson-title-frame .lesson-name,
+.course2-lesson-hero .course2-lesson-heading h1{
+  color:#eeeade!important;
+}
