@@ -20,7 +20,7 @@ for number, (filename, previous, next_file) in LESSONS.items():
         continue
     body = nav.group(1)
     links = re.findall(r'<a\s+href="([^"]+)"\s+aria-label="[^"]+">\s*<span class="lesson-nav-direction">([^<]+)</span>\s*<span class="lesson-nav-label">([^<]+)</span>\s*</a>', body, re.S)
-    expected_count = 1 if number == 1 else 2
+    expected_count = 1 if number in (1, 19) else 2
     if len(links) != expected_count:
         errors.append(f"وانەی {number}: پێویستە {expected_count} navigation link هەبێت")
         continue
@@ -35,7 +35,7 @@ for number, (filename, previous, next_file) in LESSONS.items():
             errors.append(f"وانەی {number}: next = {hrefs[next_index]!r}، پێویستە {next_file!r} بێت")
     if any(x in body for x in ("0NaN", "undefined", "null.html")):
         errors.append(f"وانەی {number}: navigation ـی ناسروشتی/شکستوو هەیە")
-    if not all("lesson-nav-direction" in body and "lesson-nav-label" in body for _ in [0]):
+    if "lesson-nav-direction" not in body or "lesson-nav-label" not in body:
         errors.append(f"وانەی {number}: قاڵبی navigation ـی ستاندارد ناتەواوە")
 
 if errors:
