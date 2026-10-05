@@ -1799,24 +1799,26 @@ body:after{
   }
 }
 
-/* ===== Avasin Standard v2 — چوارچێوەی یەک‌هێڵی سەردێری وانەکان ١–٥٠ ===== */
+/* ===== Avasin Standard v3 — سەردێری ئەکادێمیک و ئارام ===== */
 .content-page-hero .lesson-title-frame,
 .course2-lesson-hero .course2-lesson-heading{
   display:flex!important;
   flex-wrap:nowrap!important;
   align-items:center!important;
-  gap:12px!important;
+  gap:16px!important;
   width:100%!important;
   max-width:1100px!important;
   min-width:0!important;
   margin:0 0 18px!important;
-  padding:8px 12px!important;
+  padding:10px 0!important;
   box-sizing:border-box!important;
-  border:1px solid rgba(215,196,155,.34)!important;
-  border-right:3px solid rgba(198,168,110,.82)!important;
-  border-radius:14px!important;
-  background:rgba(255,255,255,.055)!important;
-  box-shadow:0 10px 28px rgba(0,0,0,.10)!important;
+  border-top:1px solid rgba(218,190,128,.30)!important;
+  border-bottom:1px solid rgba(218,190,128,.30)!important;
+  border-right:0!important;
+  border-left:0!important;
+  border-radius:0!important;
+  background:linear-gradient(90deg,rgba(255,255,255,.035),rgba(255,255,255,.08),rgba(255,255,255,.035))!important;
+  box-shadow:none!important;
 }
 .content-page-hero .lesson-title-frame .lesson-no,
 .course2-lesson-hero .course2-lesson-number{
@@ -1826,11 +1828,15 @@ body:after{
   justify-content:center!important;
   width:auto!important;
   min-width:70px!important;
-  height:38px!important;
-  padding:4px 10px!important;
+  height:36px!important;
+  padding:4px 11px!important;
   box-sizing:border-box!important;
-  border-radius:9px!important;
+  border-radius:5px!important;
   white-space:nowrap!important;
+  background:linear-gradient(135deg,#c7a86a,#a9864e)!important;
+  color:#10232d!important;
+  border:1px solid rgba(255,244,210,.48)!important;
+  box-shadow:0 4px 12px rgba(0,0,0,.16)!important;
   font-family:"Noto Kufi Arabic","Vazirmatn",Tahoma,sans-serif!important;
   font-size:11px!important;
   line-height:1.2!important;
@@ -1845,7 +1851,7 @@ body:after{
   margin:0!important;
   padding:0 4px!important;
   box-sizing:border-box!important;
-  color:#f8f5ed!important;
+  color:#f7f3ea!important;
   font-family:"Noto Naskh Arabic","Vazirmatn",Tahoma,sans-serif!important;
   font-size:clamp(17px,1.65vw,25px)!important;
   font-weight:750!important;
@@ -1855,7 +1861,7 @@ body:after{
   overflow:visible!important;
   text-overflow:clip!important;
   text-wrap:nowrap!important;
-  text-shadow:none!important;
+  text-shadow:0 1px 2px rgba(0,0,0,.18)!important;
 }
 .course2-lesson-hero .course2-lesson-heading h1{
   color:#fff!important;
@@ -1863,15 +1869,15 @@ body:after{
 @media(max-width:700px){
   .content-page-hero .lesson-title-frame,
   .course2-lesson-hero .course2-lesson-heading{
-    gap:8px!important;
-    padding:7px 9px!important;
+    gap:9px!important;
+    padding:8px 0!important;
     margin-bottom:14px!important;
   }
   .content-page-hero .lesson-title-frame .lesson-no,
   .course2-lesson-hero .course2-lesson-number{
     min-width:58px!important;
-    height:34px!important;
-    padding:4px 7px!important;
+    height:32px!important;
+    padding:4px 8px!important;
     font-size:9px!important;
   }
   .content-page-hero .lesson-title-frame .lesson-name,
@@ -1883,13 +1889,13 @@ body:after{
 @media(max-width:420px){
   .content-page-hero .lesson-title-frame,
   .course2-lesson-hero .course2-lesson-heading{
-    gap:6px!important;
-    padding:6px 7px!important;
+    gap:7px!important;
+    padding:7px 0!important;
   }
   .content-page-hero .lesson-title-frame .lesson-no,
   .course2-lesson-hero .course2-lesson-number{
     min-width:52px!important;
-    height:30px!important;
+    height:29px!important;
     font-size:8px!important;
   }
   .content-page-hero .lesson-title-frame .lesson-name,
