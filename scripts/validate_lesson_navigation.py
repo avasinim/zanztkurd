@@ -30,7 +30,7 @@ for number, (filename, previous, next_file) in LESSONS.items():
     if previous and hrefs[0] != previous:
         errors.append(f"وانەی {number}: previous = {hrefs[0]!r}، پێویستە {previous!r} بێت")
     if next_file:
-        next_index = 0 if number == 1 else 1
+        next_index = 0 if number in (1, 19) else 1
         if hrefs[next_index] != next_file:
             errors.append(f"وانەی {number}: next = {hrefs[next_index]!r}، پێویستە {next_file!r} بێت")
     if any(x in body for x in ("0NaN", "undefined", "null.html")):
