@@ -5,7 +5,7 @@ import re
 import sys
 
 ROOT = Path(__file__).resolve().parents[1]
-LESSONS = {n: (f"{n+16:03d}.html", (f"{n+15:03d}.html" if 1 < n < 19 else None), (f"{n+17:03d}.html" if n < 19 else "036.html")) for n in range(1, 20)}
+LESSONS = {n: (f"{n+16:03d}.html", (f"{n+15:03d}.html" if n > 1 else None), (f"{n+17:03d}.html" if n < 19 else "036.html")) for n in range(1, 20)}
 
 errors = []
 for number, (filename, previous, next_file) in LESSONS.items():
