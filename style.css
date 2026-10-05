@@ -2197,3 +2197,35 @@ body:after{
   border-radius:3px!important;
   box-shadow:0 1px 5px rgba(18,38,56,.16)!important;
 }
+
+
+/* ===== Avasin Standard — Academic Content Note / Example Card =====
+   Clean university-note treatment for in-lesson example/information panels. */
+.content-page-note{
+  position:relative!important;
+  margin:24px 0!important;
+  padding:20px 24px!important;
+  background:#f4f8fb!important;
+  border:1px solid #d5e1eb!important;
+  border-inline-start:4px solid #4f6f8f!important;
+  border-radius:10px!important;
+  color:#30465a!important;
+  box-shadow:0 6px 20px rgba(42,68,91,.07)!important;
+}
+.content-page-note::before{
+  content:""!important;
+  position:absolute!important;
+  inset-inline-end:0!important;
+  top:0!important;
+  width:42px!important;
+  height:2px!important;
+  background:#6f8eaa!important;
+  border-radius:0 0 0 4px!important;
+}
+.content-page-note strong,
+.content-page-note b{
+  color:#294b68!important;
+}
+@media(max-width:700px){
+  .content-page-note{padding:16px 18px!important;border-inline-start-width:3px!important}
+}
