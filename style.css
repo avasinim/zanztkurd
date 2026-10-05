@@ -1696,3 +1696,39 @@ body:after{
   .lesson-nav a{flex-direction:column!important;justify-content:center!important;gap:2px!important}
   .lesson-nav a .lesson-nav-label{margin-inline-start:0!important}
 }
+
+
+/* ===== Avasin Standard — یەکسانکردنی ناوی ناوبەری وانەکان ===== */
+.lesson-nav a .lesson-nav-label{display:block!important}
+.lesson-nav a .lesson-nav-direction{
+  font-size:11px!important;
+  font-weight:800!important;
+}
+.lesson-nav a:not(:only-child):first-child .lesson-nav-direction{
+  font-size:0!important;
+}
+.lesson-nav a:not(:only-child):first-child .lesson-nav-direction::after{
+  content:"← وانەی پێشو";
+  font-size:11px;
+}
+.lesson-nav a:not(:only-child):last-child .lesson-nav-direction{
+  font-size:0!important;
+}
+.lesson-nav a:not(:only-child):last-child .lesson-nav-direction::after{
+  content:"وانەی دواتر →";
+  font-size:11px;
+}
+.lesson-nav a:only-child .lesson-nav-direction{
+  font-size:0!important;
+}
+.lesson-nav a:only-child .lesson-nav-direction::after{
+  content:"وانەی دواتر →";
+  font-size:11px;
+}
+.lesson-nav a:only-child[href="057.html"] .lesson-nav-direction{
+  font-size:0!important;
+}
+.lesson-nav a:only-child[href="057.html"] .lesson-nav-direction::after{
+  content:"← وانەی پێشو";
+  font-size:11px;
+}
