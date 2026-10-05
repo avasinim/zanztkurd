@@ -526,6 +526,6 @@ document.querySelectorAll('a[href="#"]').forEach(a=>{
   if(!matches.length) return;
   matches.slice(0,-1).forEach(function(el){el.remove();});
   const source=matches[matches.length-1];
-  source.textContent=SOURCE_TEXT;
+  source.innerHTML="سەرچاوە: سابیر ژاکاو · <em>فۆنێتیک و فۆنۆلۆجی کوردیک</em>";
   source.classList.add("lesson-source-final");
 })();
