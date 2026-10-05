@@ -1200,3 +1200,61 @@ body:after{
 .course2-lesson-hero{margin-bottom:34px!important}
 @media(max-width:900px){.content-page-grid{grid-template-columns:1fr!important}.content-page-side{position:static}.content-page-card{padding:28px!important}.course2-lesson .content-page-card{padding:28px 24px!important}}
 @media(max-width:600px){.content-page .container{width:calc(100% - 20px)}.lesson-content{font-size:1rem;line-height:2.05}.course2-lesson .content-page-card{padding:22px 17px!important}.lesson-content h2{padding-right:10px;border-right-width:3px}}
+
+
+/* ===== ناوبەری نوێی وانەکان — Avasin Standard ===== */
+.lesson-nav{
+  grid-template-columns:1fr 1fr;
+  gap:16px;
+  margin:30px 0 0;
+  padding:14px;
+  border:1px solid rgba(107,63,160,.16);
+  border-radius:20px;
+  background:linear-gradient(135deg,rgba(255,255,255,.96),rgba(248,245,252,.96));
+  box-shadow:0 12px 32px rgba(43,31,61,.08);
+}
+.lesson-nav a{
+  min-height:72px;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:center;
+  gap:4px;
+  padding:12px 18px;
+  border-radius:14px;
+  color:#5a2d83;
+  background:linear-gradient(180deg,#fff,#f7f2fb);
+  border:1px solid rgba(107,63,160,.20);
+  box-shadow:0 5px 16px rgba(61,42,82,.06);
+  font-size:12px;
+  line-height:1.5;
+  text-decoration:none;
+  transition:transform .2s ease,box-shadow .2s ease,border-color .2s ease;
+}
+.lesson-nav a:hover{
+  transform:translateY(-2px);
+  border-color:rgba(107,63,160,.38);
+  box-shadow:0 10px 22px rgba(61,42,82,.11);
+}
+.lesson-nav a small{
+  font-size:11px;
+  color:#7a687f;
+  font-weight:700;
+}
+.lesson-nav a strong{
+  font-size:15px;
+  color:#4b1f70;
+  font-weight:900;
+}
+@media(max-width:700px){
+  .lesson-nav{
+    grid-template-columns:1fr 1fr;
+    gap:10px;
+    padding:10px;
+  }
+  .lesson-nav a{
+    min-height:64px;
+    padding:10px 8px;
+  }
+  .lesson-nav a strong{font-size:13px}
+}
