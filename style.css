@@ -2185,3 +2185,15 @@ body:after{
   background:#314e68!important;
   color:#f5f8fb!important;
 }
+
+
+/* ===== Avasin Standard — Academic Lesson Number Refinement =====
+   Replace the burgundy lesson-number badge with the unified academic blue system. */
+.content-page-hero .lesson-title-frame .lesson-no,
+.course2-lesson-hero .course2-lesson-number{
+  background:#365a78!important;
+  color:#f7fafc!important;
+  border:1px solid rgba(219,232,244,.16)!important;
+  border-radius:3px!important;
+  box-shadow:0 1px 5px rgba(18,38,56,.16)!important;
+}
