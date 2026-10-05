@@ -2073,3 +2073,100 @@ body:after{
     font-size:9px!important;
   }
 }
+
+
+/* ===== Avasin Standard — Unified Academic Lesson Headers 01–50 =====
+   One restrained university-book system for Course 1 + Course 2.
+   Text/content is intentionally untouched. */
+.content-page-hero .lesson-title-frame,
+.course2-lesson-hero .course2-lesson-heading{
+  display:flex!important;
+  align-items:center!important;
+  flex-wrap:nowrap!important;
+  gap:14px!important;
+  width:100%!important;
+  min-width:0!important;
+  margin:0 0 18px!important;
+  padding:8px 12px!important;
+  box-sizing:border-box!important;
+  border:1px solid rgba(228,220,205,.22)!important;
+  border-inline-start:3px solid #a36b56!important;
+  border-radius:5px!important;
+  background:rgba(248,244,236,.055)!important;
+  box-shadow:0 3px 14px rgba(0,0,0,.10)!important;
+}
+.content-page-hero .lesson-title-frame .lesson-no,
+.course2-lesson-hero .course2-lesson-number{
+  flex:0 0 auto!important;
+  display:inline-flex!important;
+  align-items:center!important;
+  justify-content:center!important;
+  min-width:64px!important;
+  height:32px!important;
+  padding:3px 9px!important;
+  box-sizing:border-box!important;
+  border:1px solid rgba(255,244,234,.10)!important;
+  border-radius:3px!important;
+  background:#7e3040!important;
+  color:#fff8f0!important;
+  box-shadow:none!important;
+  font-family:"Noto Kufi Arabic","Vazirmatn",Tahoma,sans-serif!important;
+  font-size:9px!important;
+  line-height:1.2!important;
+  font-weight:800!important;
+  white-space:nowrap!important;
+}
+.content-page-hero .lesson-title-frame .lesson-name,
+.course2-lesson-hero .course2-lesson-heading h1{
+  flex:1 1 auto!important;
+  min-width:0!important;
+  width:auto!important;
+  max-width:none!important;
+  margin:0!important;
+  padding:0 2px!important;
+  box-sizing:border-box!important;
+  color:#f1eee7!important;
+  font-family:"Noto Naskh Arabic","Vazirmatn",Tahoma,sans-serif!important;
+  font-size:clamp(14px,1.35vw,20px)!important;
+  font-weight:600!important;
+  line-height:1.45!important;
+  letter-spacing:0!important;
+  white-space:nowrap!important;
+  overflow:visible!important;
+  text-overflow:clip!important;
+  text-wrap:nowrap!important;
+  text-shadow:none!important;
+}
+.course2-lesson-hero .course2-lesson-heading h1{color:#f1eee7!important}
+@media(max-width:900px){
+  .content-page-hero .lesson-title-frame .lesson-name,
+  .course2-lesson-hero .course2-lesson-heading h1{
+    font-size:clamp(13px,1.8vw,18px)!important;
+  }
+}
+@media(max-width:700px){
+  .content-page-hero .lesson-title-frame,
+  .course2-lesson-hero .course2-lesson-heading{
+    gap:8px!important;
+    padding:7px 8px!important;
+  }
+  .content-page-hero .lesson-title-frame .lesson-no,
+  .course2-lesson-hero .course2-lesson-number{
+    min-width:55px!important;
+    height:30px!important;
+    padding:3px 7px!important;
+    font-size:8px!important;
+  }
+  .content-page-hero .lesson-title-frame .lesson-name,
+  .course2-lesson-hero .course2-lesson-heading h1{
+    font-size:clamp(11px,2.8vw,15px)!important;
+  }
+}
+@media(max-width:420px){
+  .content-page-hero .lesson-title-frame,
+  .course2-lesson-hero .course2-lesson-heading{gap:6px!important;padding:6px!important}
+  .content-page-hero .lesson-title-frame .lesson-no,
+  .course2-lesson-hero .course2-lesson-number{min-width:49px!important;height:28px!important;font-size:7px!important}
+  .content-page-hero .lesson-title-frame .lesson-name,
+  .course2-lesson-hero .course2-lesson-heading h1{font-size:11px!important}
+}
