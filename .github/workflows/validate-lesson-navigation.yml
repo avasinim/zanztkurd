@@ -1,0 +1,16 @@
+name: Validate lesson navigation
+
+on:
+  push:
+    branches: ["main"]
+  pull_request:
+    branches: ["main"]
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Validate lessons 9–15 navigation
+        run: python scripts/validate_lesson_navigation.py
