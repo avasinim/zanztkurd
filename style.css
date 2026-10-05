@@ -1622,3 +1622,77 @@ body:after{
   .content-page-hero h1{font-size:clamp(2rem,9vw,3.15rem);line-height:1.5}
   .content-page-hero p{font-size:.94rem;padding-right:14px}
 }
+
+
+/* ===== Avasin Standard — ناوبەری پیشەیی هەموو وانەکان ١–٥٠ ===== */
+.lesson-nav{
+  display:grid!important;
+  grid-template-columns:repeat(2,minmax(0,1fr))!important;
+  gap:12px!important;
+  width:100%!important;
+  max-width:980px!important;
+  margin:28px auto 0!important;
+  padding:12px!important;
+  border:1px solid rgba(55,72,63,.14)!important;
+  border-radius:18px!important;
+  background:rgba(248,247,242,.82)!important;
+  box-shadow:0 8px 24px rgba(32,37,34,.06)!important;
+  box-sizing:border-box!important;
+}
+.lesson-nav a{
+  position:relative!important;
+  min-height:58px!important;
+  padding:9px 16px!important;
+  display:flex!important;
+  flex-direction:row!important;
+  align-items:center!important;
+  justify-content:space-between!important;
+  gap:14px!important;
+  border:1px solid rgba(55,72,63,.13)!important;
+  border-radius:12px!important;
+  background:#fff!important;
+  color:#26352e!important;
+  box-shadow:none!important;
+  text-decoration:none!important;
+  box-sizing:border-box!important;
+  transition:transform .18s ease,box-shadow .18s ease,border-color .18s ease,background .18s ease!important;
+}
+.lesson-nav a:hover{
+  transform:translateY(-1px)!important;
+  border-color:rgba(179,138,88,.48)!important;
+  background:#fffdf8!important;
+  box-shadow:0 7px 18px rgba(32,37,34,.08)!important;
+}
+.lesson-nav a:focus-visible{
+  outline:2px solid rgba(179,138,88,.72)!important;
+  outline-offset:2px!important;
+}
+.lesson-nav a small,
+.lesson-nav a .lesson-nav-direction{
+  margin:0!important;
+  color:#68736c!important;
+  font-size:11px!important;
+  line-height:1.45!important;
+  font-weight:700!important;
+  white-space:nowrap!important;
+}
+.lesson-nav a strong,
+.lesson-nav a .lesson-nav-label{
+  margin:0!important;
+  color:#33463c!important;
+  font-size:14px!important;
+  line-height:1.5!important;
+  font-weight:850!important;
+  white-space:nowrap!important;
+}
+.lesson-nav a .lesson-nav-direction + .lesson-nav-label{margin-inline-start:auto!important}
+@media(max-width:600px){
+  .lesson-nav{grid-template-columns:1fr 1fr!important;gap:8px!important;padding:8px!important;margin-top:22px!important}
+  .lesson-nav a{min-height:50px!important;padding:8px 10px!important;gap:7px!important}
+  .lesson-nav a small,.lesson-nav a .lesson-nav-direction{font-size:9px!important}
+  .lesson-nav a strong,.lesson-nav a .lesson-nav-label{font-size:11px!important}
+}
+@media(max-width:390px){
+  .lesson-nav a{flex-direction:column!important;justify-content:center!important;gap:2px!important}
+  .lesson-nav a .lesson-nav-label{margin-inline-start:0!important}
+}
