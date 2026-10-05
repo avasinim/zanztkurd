@@ -2026,3 +2026,50 @@ body:after{
 .course2-lesson-hero .course2-lesson-heading h1{
   color:#eeeade!important;
 }
+
+
+/* ===== Avasin Standard v6 — سەردێری زانستی بە پەلەتی کتێبی زانکۆیی ===== */
+.content-page-hero .lesson-title-frame,
+.course2-lesson-hero .course2-lesson-heading{
+  gap:16px!important;
+  padding:9px 12px!important;
+  border:1px solid rgba(235,229,211,.18)!important;
+  border-inline-start:4px solid #9a8060!important;
+  border-radius:6px!important;
+  background:rgba(247,243,232,.065)!important;
+  box-shadow:0 4px 18px rgba(0,0,0,.10)!important;
+}
+.content-page-hero .lesson-title-frame .lesson-no,
+.course2-lesson-hero .course2-lesson-number{
+  min-width:68px!important;
+  height:34px!important;
+  padding:4px 10px!important;
+  border:0!important;
+  border-radius:4px!important;
+  background:#8f2938!important;
+  color:#fffaf2!important;
+  box-shadow:none!important;
+  font-size:10px!important;
+  font-weight:800!important;
+}
+.content-page-hero .lesson-title-frame .lesson-name,
+.course2-lesson-hero .course2-lesson-heading h1{
+  color:#f4f0e6!important;
+  font-size:clamp(16px,1.52vw,23px)!important;
+  font-weight:650!important;
+  text-shadow:none!important;
+}
+@media(max-width:700px){
+  .content-page-hero .lesson-title-frame,
+  .course2-lesson-hero .course2-lesson-heading{
+    gap:9px!important;
+    padding:7px 8px!important;
+    border-inline-start-width:3px!important;
+  }
+  .content-page-hero .lesson-title-frame .lesson-no,
+  .course2-lesson-hero .course2-lesson-number{
+    min-width:57px!important;
+    height:31px!important;
+    font-size:9px!important;
+  }
+}
