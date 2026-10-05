@@ -2200,32 +2200,36 @@ body:after{
 
 
 /* ===== Avasin Standard — Academic Content Note / Example Card =====
-   Clean university-note treatment for in-lesson example/information panels. */
+   پەلەتی پەرتووک‌ئاسا و زەیتیی هێمن بۆ کادری نموونە/زانیاریی ناو وانە.
+   دەق و ناوەڕۆک دەست‌کاری ناکرێت. */
 .content-page-note{
   position:relative!important;
-  margin:24px 0!important;
-  padding:20px 24px!important;
-  background:#f4f8fb!important;
-  border:1px solid #d5e1eb!important;
-  border-inline-start:4px solid #4f6f8f!important;
-  border-radius:10px!important;
-  color:#30465a!important;
-  box-shadow:0 6px 20px rgba(42,68,91,.07)!important;
+  margin:26px 0!important;
+  padding:22px 26px!important;
+  background:#f5f0e6!important;
+  border:1px solid #d8cdbb!important;
+  border-inline-start:5px solid #7a8065!important;
+  border-radius:12px!important;
+  color:#394238!important;
+  box-shadow:0 8px 24px rgba(63,66,54,.09)!important;
 }
 .content-page-note::before{
   content:""!important;
   position:absolute!important;
   inset-inline-end:0!important;
   top:0!important;
-  width:42px!important;
-  height:2px!important;
-  background:#6f8eaa!important;
-  border-radius:0 0 0 4px!important;
+  width:54px!important;
+  height:3px!important;
+  background:#a89a79!important;
+  border-radius:0 0 0 5px!important;
 }
 .content-page-note strong,
 .content-page-note b{
-  color:#294b68!important;
+  color:#505842!important;
 }
 @media(max-width:700px){
-  .content-page-note{padding:16px 18px!important;border-inline-start-width:3px!important}
+  .content-page-note{
+    padding:17px 19px!important;
+    border-inline-start-width:4px!important;
+  }
 }
