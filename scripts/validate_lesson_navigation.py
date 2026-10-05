@@ -1,19 +1,11 @@
 #!/usr/bin/env python3
-"""Validate navigation for Course 1 lessons 9–15 before deployment."""
+"""Validate navigation for Course 1 lessons 1–19 before deployment."""
 from pathlib import Path
 import re
 import sys
 
 ROOT = Path(__file__).resolve().parents[1]
-LESSONS = {
-    9: ("025.html", None, "026.html"),
-    10: ("026.html", "025.html", "027.html"),
-    11: ("027.html", "026.html", "028.html"),
-    12: ("028.html", "027.html", "029.html"),
-    13: ("029.html", "028.html", "030.html"),
-    14: ("030.html", "029.html", "031.html"),
-    15: ("031.html", "030.html", "032.html"),
-}
+LESSONS = {n: (f"{n+16:03d}.html", (f"{n+15:03d}.html" if n > 1 else None), (f"{n+17:03d}.html" if n < 19 else "036.html")) for n in range(1, 20)}
 
 errors = []
 for number, (filename, previous, next_file) in LESSONS.items():
@@ -22,27 +14,32 @@ for number, (filename, previous, next_file) in LESSONS.items():
         errors.append(f"وانەی {number}: {filename} نەدۆزرایەوە")
         continue
     html = path.read_text(encoding="utf-8")
-    nav = re.search(r'<nav class="lesson-nav"[^>]*>(.*?)</nav>', html, re.S)
+    nav = re.search(r'<nav class="lesson-nav" aria-label="ناوبەری وانەکان">(.*?)</nav>', html, re.S)
     if not nav:
         errors.append(f"وانەی {number}: lesson-nav نیە")
         continue
     body = nav.group(1)
-    links = re.findall(r'<a\s+href="([^"]+)"[^>]*>(.*?)</a>', body, re.S)
-    if len(links) != 2:
-        errors.append(f"وانەی {number}: پێویستە تەنیا دوو navigation link هەبێت")
+    links = re.findall(r'<a\s+href="([^"]+)"\s+aria-label="[^"]+">\s*<span class="lesson-nav-direction">([^<]+)</span>\s*<span class="lesson-nav-label">([^<]+)</span>\s*</a>', body, re.S)
+    expected_count = 1 if number == 1 else 2
+    if len(links) != expected_count:
+        errors.append(f"وانەی {number}: پێویستە {expected_count} navigation link هەبێت")
         continue
+    if "<small>" in body or "<strong>" in body or "وانەی داهاتو" in body:
+        errors.append(f"وانەی {number}: قاڵبی کۆنی navigation هێشتا ماوە")
     hrefs = [x[0] for x in links]
     if previous and hrefs[0] != previous:
         errors.append(f"وانەی {number}: previous = {hrefs[0]!r}، پێویستە {previous!r} بێت")
-    if next_file and hrefs[1] != next_file:
-        errors.append(f"وانەی {number}: next = {hrefs[1]!r}، پێویستە {next_file!r} بێت")
-    if number == 9 and hrefs[0] != "024.html":
-        errors.append("وانەی ٩: previous دەبێت 024.html بێت")
-    if "0NaN" in body or "undefined" in body or "null.html" in body:
+    if next_file:
+        next_index = 0 if number == 1 else 1
+        if hrefs[next_index] != next_file:
+            errors.append(f"وانەی {number}: next = {hrefs[next_index]!r}، پێویستە {next_file!r} بێت")
+    if any(x in body for x in ("0NaN", "undefined", "null.html")):
         errors.append(f"وانەی {number}: navigation ـی ناسروشتی/شکستوو هەیە")
+    if not all("lesson-nav-direction" in body and "lesson-nav-label" in body for _ in [0]):
+        errors.append(f"وانەی {number}: قاڵبی navigation ـی ستاندارد ناتەواوە")
 
 if errors:
     print("\n".join("ERROR: " + e for e in errors))
     sys.exit(1)
 
-print("OK: navigation ـی وانەکانی ٩ تا ١٥ دروستە و هیچ 0NaN/undefined/null.html نیە.")
+print("OK: navigation ـی وانەکانی ١ تا ١٩ بە تەواوی ستاندارد و دروستە.")
