@@ -3,7 +3,7 @@
   const F=Array.from({length:25},(_,i)=>"course-2-"+String(i+1).padStart(2,"0")+".html");
   const p=(location.pathname.split("/").pop()||"").toLowerCase(), n=F.indexOf(p);
   if(n<0)return;
-  const K="zanztkurd_course2_completed_v1";
+  const K="zanztkurd_course2_completed_v2";
   const get=()=>{try{return new Set(JSON.parse(localStorage.getItem(K)||"[]").map(Number))}catch(e){return new Set()}};
   const put=s=>localStorage.setItem(K,JSON.stringify([...s].sort((a,b)=>a-b)));
   const first=()=>{const s=get();for(let i=0;i<F.length;i++)if(!s.has(i))return i;return F.length};
@@ -568,7 +568,7 @@ document.querySelectorAll('a[href="#"]').forEach(a=>{
   const COURSE2_FILES=Array.from({length:25},function(_,i){
     return "course-2-"+String(i+1).padStart(2,"0")+".html";
   });
-  const STORAGE="zanztkurd_course2_completed_v1";
+  const STORAGE="zanztkurd_course2_completed_v2";
   const path=(location.pathname.split("/").pop()||"").toLowerCase();
   const current=COURSE2_FILES.indexOf(path);
 
