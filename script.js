@@ -531,17 +531,17 @@ document.querySelectorAll('a[href="#"]').forEach(a=>{
 })();
 
 
+
 /* ===== Course 1 sequential completion gate ===== */
 (function(){
-  const COURSE1={1:"017.html",2:"018.html",3:"019.html",4:"020.html",5:"021.html",6:"022.html",7:"023.html",8:"024.html",9:"025.html",10:"026.html",11:"027.html",12:"028.html",13:"029.html",14:"030.html",15:"031.html",16:"032.html",17:"033.html",18:"034.html",19:"035.html",20:"036.html",21:"037.html",22:"038.html",23:"046.html",24:"045.html",25:"052.html",26:"058.html"};
-  const STORAGE="zanztkurd_course1_completed_v1";
+  const COURSE1_FILES=["017.html","018.html","019.html","020.html","021.html","022.html","023.html","024.html","025.html","026.html","027.html","028.html","029.html","030.html","031.html","032.html","033.html","034.html","035.html","036.html","037.html","038.html","039.html","040.html","041.html","042.html","043.html","044.html","046.html","047.html","048.html","049.html","050.html","051.html","045.html","052.html","053.html","054.html","055.html","056.html","057.html","058.html"];
+  const STORAGE="zanztkurd_course1_completed_v2";
   const path=(location.pathname.split("/").pop()||"").toLowerCase();
-  const entry=Object.entries(COURSE1).find(function(x){return x[1]===path;});
-  const current=entry?Number(entry[0]):null;
+  const current=COURSE1_FILES.indexOf(path);
   function done(){try{return new Set(JSON.parse(localStorage.getItem(STORAGE)||"[]").map(Number));}catch(e){return new Set();}}
   function save(s){localStorage.setItem(STORAGE,JSON.stringify([...s].sort(function(a,b){return a-b;})));}
-  function firstIncomplete(){const s=done();for(let i=1;i<=26;i++)if(!s.has(i))return i;return 27;}
-  function url(n){return "lessons/"+COURSE1[n];}
+  function firstIncomplete(){const s=done();for(let i=0;i<COURSE1_FILES.length;i++)if(!s.has(i))return i;return COURSE1_FILES.length;}
+  function url(i){return "lessons/"+COURSE1_FILES[i];}
   function styles(){
     if(document.getElementById("course1-gate-styles"))return;
     const s=document.createElement("style");s.id="course1-gate-styles";
@@ -549,20 +549,20 @@ document.querySelectorAll('a[href="#"]').forEach(a=>{
     document.head.appendChild(s);
   }
   function lessonGate(){
-    if(current===null)return;
+    if(current<0)return;
     styles();
-    const s=done(),prev=current-1;
-    if(prev>0&&!s.has(prev)){location.replace(url(firstIncomplete()));return;}
+    const s=done(),first=firstIncomplete();
+    if(current>first){location.replace(url(first));return;}
     const nav=document.querySelector(".lesson-nav");if(!nav||nav.parentElement.querySelector(".course1-gate"))return;
     const gate=document.createElement("div");gate.className="course1-gate";
-    const already=s.has(current),next=current<26?current+1:null;
-    gate.innerHTML="<h3>"+(already?"ئەم وانە پێشتر تەواوکراوە.":"کۆتایی وانە")+"</h3><p>"+(already?"وانەی دواتر کراوەتەوە.":"دوای خوێندنەوەی تەواوی ناوەڕۆک، ئەم وانەیە وەک تەواوکراو نیشان بدە بۆ کردنەوەی وانەی دواتر.")+"</p><button class="course1-complete-btn" type="button" "+(already?"disabled":"")+">"+(already?"✓ تەواوکراوە":"✓ نیشان‌دان وەک تەواوکراو")+"</button>";
+    const already=s.has(current),next=current+1<COURSE1_FILES.length?current+1:null;
+    gate.innerHTML="<h3>"+(already?"ئەم وانە/بەش پێشتر تەواوکراوە.":"کۆتایی وانە/بەش")+"</h3><p>"+(already?"بەشی دواتر کراوەتەوە.":"دوای خوێندنەوەی تەواوی ناوەڕۆک، ئەم وانە/بەشە وەک تەواوکراو نیشان بدە بۆ کردنەوەی بەشی دواتر.")+"</p><button class=\"course1-complete-btn\" type=\"button\" "+(already?"disabled":"")+">"+(already?"✓ تەواوکراوە":"✓ نیشان‌دان وەک تەواوکراو")+"</button>";
     nav.parentElement.insertBefore(gate,nav);
     gate.querySelector("button").addEventListener("click",function(){
       const latest=done();latest.add(current);save(latest);this.disabled=true;this.textContent="✓ تەواوکراوە";
-      gate.querySelector("h3").textContent="وانەکە بە سەرکەوتوویی تەواوکرا.";
-      gate.querySelector("p").textContent=next?"وانەی "+next+" ئێستا کراوەتەوە.":"هەمو ٢٦ وانەی کۆرسی ١ تەواو کراون.";
-      if(next)setTimeout(function(){location.href=url(next);},650);
+      gate.querySelector("h3").textContent="وانەکە بە سەرکەوتوویی تەواو کرا.";
+      gate.querySelector("p").textContent=next!==null?"بەشی دواتر ئێستا کراوەتەوە.":"هەمو بەشەکانی ڕێڕەوی کۆرسی ١ تەواو کراون.";
+      if(next!==null)setTimeout(function(){location.href=url(next);},650);
     });
   }
   function learningGate(){
@@ -571,9 +571,8 @@ document.querySelectorAll('a[href="#"]').forEach(a=>{
     const first=firstIncomplete();
     document.querySelectorAll('.learning-sequence a[href*="lessons/"]').forEach(function(a){
       const m=(a.getAttribute("href")||"").match(/lessons\/(\d+)\.html$/);if(!m)return;
-      const e=Object.entries(COURSE1).find(function(x){return x[1]===m[1]+".html";});if(!e)return;
-      const n=Number(e[0]);
-      if(n>first){a.classList.add("course1-locked-link");a.setAttribute("aria-disabled","true");a.title="سەرەتا وانەی پێشوو تەواو بکە";a.addEventListener("click",function(ev){ev.preventDefault();});}
+      const i=COURSE1_FILES.indexOf(m[1]+".html");if(i<0)return;
+      if(i>first){a.classList.add("course1-locked-link");a.setAttribute("aria-disabled","true");a.title="سەرەتا وانەی پێشوو تەواو بکە";a.addEventListener("click",function(ev){ev.preventDefault();});}
     });
   }
   lessonGate();learningGate();
