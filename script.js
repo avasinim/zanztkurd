@@ -532,6 +532,101 @@ document.querySelectorAll('a[href="#"]').forEach(a=>{
 
 
 
+/* ===== Course 2 sequential completion gate ===== */
+(function(){
+  const COURSE2_FILES=Array.from({length:25},function(_,i){
+    return "course-2-"+String(i+1).padStart(2,"0")+".html";
+  });
+  const STORAGE="zanztkurd_course2_completed_v1";
+  const path=(location.pathname.split("/").pop()||"").toLowerCase();
+  const current=COURSE2_FILES.indexOf(path);
+
+  function done(){
+    try{return new Set(JSON.parse(localStorage.getItem(STORAGE)||"[]").map(Number));}
+    catch(e){return new Set();}
+  }
+  function save(s){
+    localStorage.setItem(STORAGE,JSON.stringify([...s].sort(function(a,b){return a-b;})));
+  }
+  function firstIncomplete(){
+    const s=done();
+    for(let i=0;i<COURSE2_FILES.length;i++) if(!s.has(i)) return i;
+    return COURSE2_FILES.length;
+  }
+  function url(i){
+    return document.querySelector(".learning-sequence") ?
+      "lessons/"+COURSE2_FILES[i] : COURSE2_FILES[i];
+  }
+  function styles(){
+    if(document.getElementById("course2-gate-styles"))return;
+    const s=document.createElement("style");
+    s.id="course2-gate-styles";
+    s.textContent=".course2-gate{margin:28px 0 8px;padding:22px;border:1px solid rgba(39,61,50,.14);border-right:4px solid #b38a58;border-radius:14px;background:#f7f6f0;box-shadow:0 10px 28px rgba(27,42,35,.06)}.course2-gate h3{margin:0 0 8px;color:#26372f;font-size:1.12rem}.course2-gate p{margin:0 0 14px;color:#66716b;line-height:1.9}.course2-complete-btn{display:inline-flex;align-items:center;justify-content:center;border:0;border-radius:10px;padding:11px 18px;background:#273f34;color:#fff;font:800 .95rem inherit;cursor:pointer}.course2-complete-btn[disabled]{opacity:.55;cursor:not-allowed}.course2-locked-link{opacity:.48!important;cursor:not-allowed!important;filter:grayscale(.35)}";
+    document.head.appendChild(s);
+  }
+  function lessonGate(){
+    if(current<0)return;
+    styles();
+    const s=done(),first=firstIncomplete();
+    if(current>first){location.replace(url(first));return;}
+    const nav=document.querySelector(".lesson-nav");
+    if(!nav||nav.parentElement.querySelector(".course2-gate"))return;
+    const gate=document.createElement("div");
+    gate.className="course2-gate";
+    const already=s.has(current),next=current+1<COURSE2_FILES.length?current+1:null;
+    gate.innerHTML="<h3>"+(already?"ئەم وانە پێشتر تەواوکراوە.":"کۆتایی وانە")+"</h3><p>"+(already?"وانەی دواتر کراوەتەوە.":"دوای خوێندنەوەی تەواوی ناوەڕۆک، ئەم وانەیە وەک تەواوکراو نیشان بدە بۆ کردنەوەی وانەی دواتر.")+"</p><button class=\"course2-complete-btn\" type=\"button\" "+(already?"disabled":"")+">"+(already?"✓ تەواوکراوە":"✓ نیشان‌دان وەک تەواوکراو")+"</button>";
+    nav.parentElement.insertBefore(gate,nav);
+    gate.querySelector("button").addEventListener("click",function(){
+      const latest=done();
+      latest.add(current);
+      save(latest);
+      this.disabled=true;
+      this.textContent="✓ تەواوکراوە";
+      gate.querySelector("h3").textContent="وانەکە بە سەرکەوتوویی تەواو کرا.";
+      gate.querySelector("p").textContent=next!==null?"وانەی دواتر ئێستا کراوەتەوە.":"هەمو وانەکانی کۆرسی ٢ تەواو کراون.";
+      if(next!==null)setTimeout(function(){location.href=url(next);},650);
+    });
+  }
+  function navGate(){
+    if(current<0)return;
+    document.addEventListener("click",function(ev){
+      const a=ev.target.closest("a[href]");
+      if(!a)return;
+      const href=(a.getAttribute("href")||"").split("?")[0].split("#")[0];
+      const target=href.split("/").pop().toLowerCase();
+      const targetIndex=COURSE2_FILES.indexOf(target);
+      if(targetIndex<0||targetIndex<=current)return;
+      const latest=done();
+      if(!latest.has(current)){
+        ev.preventDefault();
+        ev.stopImmediatePropagation();
+        const gate=document.querySelector(".course2-gate");
+        if(gate)gate.scrollIntoView({behavior:"smooth",block:"center"});
+      }
+    },true);
+  }
+  function learningGate(){
+    const seq=document.querySelector(".learning-sequence");
+    if(!seq)return;
+    styles();
+    const first=firstIncomplete();
+    seq.querySelectorAll('a[href*="lessons/course-2-"]').forEach(function(a){
+      const m=(a.getAttribute("href")||"").match(/course-2-(\d+)\.html$/);
+      if(!m)return;
+      const i=Number(m[1])-1;
+      if(i>first){
+        a.classList.add("course2-locked-link");
+        a.setAttribute("aria-disabled","true");
+        a.title="سەرەتا وانەی پێشوو تەواو بکە";
+        a.addEventListener("click",function(ev){ev.preventDefault();});
+      }
+    });
+  }
+  lessonGate();
+  navGate();
+  learningGate();
+})();
+
 /* ===== Course 1 sequential completion gate ===== */
 (function(){
   const COURSE1_FILES=["017.html","018.html","019.html","020.html","021.html","022.html","023.html","024.html","025.html","026.html","027.html","028.html","029.html","030.html","031.html","032.html","033.html","034.html","035.html","036.html","037.html","038.html","039.html","040.html","041.html","042.html","043.html","044.html","046.html","047.html","048.html","049.html","050.html","051.html","045.html","052.html","053.html","054.html","055.html","056.html","057.html","058.html"];
