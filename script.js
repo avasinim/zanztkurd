@@ -529,3 +529,52 @@ document.querySelectorAll('a[href="#"]').forEach(a=>{
   source.innerHTML="سەرچاوە: سابیر ژاکاو · <em>فۆنێتیک و فۆنۆلۆجی کوردیک</em>";
   source.classList.add("lesson-source-final");
 })();
+
+
+/* ===== Course 1 sequential completion gate ===== */
+(function(){
+  const COURSE1={1:"017.html",2:"018.html",3:"019.html",4:"020.html",5:"021.html",6:"022.html",7:"023.html",8:"024.html",9:"025.html",10:"026.html",11:"027.html",12:"028.html",13:"029.html",14:"030.html",15:"031.html",16:"032.html",17:"033.html",18:"034.html",19:"035.html",20:"036.html",21:"037.html",22:"038.html",23:"046.html",24:"045.html",25:"052.html",26:"058.html"};
+  const STORAGE="zanztkurd_course1_completed_v1";
+  const path=(location.pathname.split("/").pop()||"").toLowerCase();
+  const entry=Object.entries(COURSE1).find(function(x){return x[1]===path;});
+  const current=entry?Number(entry[0]):null;
+  function done(){try{return new Set(JSON.parse(localStorage.getItem(STORAGE)||"[]").map(Number));}catch(e){return new Set();}}
+  function save(s){localStorage.setItem(STORAGE,JSON.stringify([...s].sort(function(a,b){return a-b;})));}
+  function firstIncomplete(){const s=done();for(let i=1;i<=26;i++)if(!s.has(i))return i;return 27;}
+  function url(n){return "lessons/"+COURSE1[n];}
+  function styles(){
+    if(document.getElementById("course1-gate-styles"))return;
+    const s=document.createElement("style");s.id="course1-gate-styles";
+    s.textContent=".course1-gate{margin:28px 0 8px;padding:22px;border:1px solid rgba(39,61,50,.14);border-right:4px solid #b38a58;border-radius:14px;background:#f7f6f0;box-shadow:0 10px 28px rgba(27,42,35,.06)}.course1-gate h3{margin:0 0 8px;color:#26372f;font-size:1.12rem}.course1-gate p{margin:0 0 14px;color:#66716b;line-height:1.9}.course1-complete-btn{display:inline-flex;align-items:center;justify-content:center;border:0;border-radius:10px;padding:11px 18px;background:#273f34;color:#fff;font:800 .95rem inherit;cursor:pointer}.course1-complete-btn[disabled]{opacity:.55;cursor:not-allowed}.course1-locked-link{opacity:.48!important;cursor:not-allowed!important;filter:grayscale(.35)}";
+    document.head.appendChild(s);
+  }
+  function lessonGate(){
+    if(current===null)return;
+    styles();
+    const s=done(),prev=current-1;
+    if(prev>0&&!s.has(prev)){location.replace(url(firstIncomplete()));return;}
+    const nav=document.querySelector(".lesson-nav");if(!nav||nav.parentElement.querySelector(".course1-gate"))return;
+    const gate=document.createElement("div");gate.className="course1-gate";
+    const already=s.has(current),next=current<26?current+1:null;
+    gate.innerHTML="<h3>"+(already?"ئەم وانە پێشتر تەواوکراوە.":"کۆتایی وانە")+"</h3><p>"+(already?"وانەی دواتر کراوەتەوە.":"دوای خوێندنەوەی تەواوی ناوەڕۆک، ئەم وانەیە وەک تەواوکراو نیشان بدە بۆ کردنەوەی وانەی دواتر.")+"</p><button class="course1-complete-btn" type="button" "+(already?"disabled":"")+">"+(already?"✓ تەواوکراوە":"✓ نیشان‌دان وەک تەواوکراو")+"</button>";
+    nav.parentElement.insertBefore(gate,nav);
+    gate.querySelector("button").addEventListener("click",function(){
+      const latest=done();latest.add(current);save(latest);this.disabled=true;this.textContent="✓ تەواوکراوە";
+      gate.querySelector("h3").textContent="وانەکە بە سەرکەوتوویی تەواوکرا.";
+      gate.querySelector("p").textContent=next?"وانەی "+next+" ئێستا کراوەتەوە.":"هەمو ٢٦ وانەی کۆرسی ١ تەواو کراون.";
+      if(next)setTimeout(function(){location.href=url(next);},650);
+    });
+  }
+  function learningGate(){
+    if(!document.querySelector(".learning-sequence"))return;
+    styles();
+    const first=firstIncomplete();
+    document.querySelectorAll('.learning-sequence a[href*="lessons/"]').forEach(function(a){
+      const m=(a.getAttribute("href")||"").match(/lessons\/(\d+)\.html$/);if(!m)return;
+      const e=Object.entries(COURSE1).find(function(x){return x[1]===m[1]+".html";});if(!e)return;
+      const n=Number(e[0]);
+      if(n>first){a.classList.add("course1-locked-link");a.setAttribute("aria-disabled","true");a.title="سەرەتا وانەی پێشوو تەواو بکە";a.addEventListener("click",function(ev){ev.preventDefault();});}
+    });
+  }
+  lessonGate();learningGate();
+})();
