@@ -565,6 +565,25 @@ document.querySelectorAll('a[href="#"]').forEach(a=>{
       if(next!==null)setTimeout(function(){location.href=url(next);},650);
     });
   }
+  function navGate(){
+    if(current<0)return;
+    const links=document.querySelectorAll(".lesson-nav a[href]");
+    links.forEach(function(a){
+      const href=(a.getAttribute("href")||"").split("?")[0].split("#")[0];
+      const target=href.split("/").pop().toLowerCase();
+      const targetIndex=COURSE1_FILES.indexOf(target);
+      if(targetIndex<0)return;
+      a.addEventListener("click",function(ev){
+        const latest=done();
+        if(targetIndex>current && !latest.has(current)){
+          ev.preventDefault();
+          const gate=document.querySelector(".course1-gate");
+          if(gate) gate.scrollIntoView({behavior:"smooth",block:"center"});
+        }
+      });
+    });
+  }
+
   function learningGate(){
     if(!document.querySelector(".learning-sequence"))return;
     styles();
@@ -575,5 +594,5 @@ document.querySelectorAll('a[href="#"]').forEach(a=>{
       if(i>first){a.classList.add("course1-locked-link");a.setAttribute("aria-disabled","true");a.title="سەرەتا وانەی پێشوو تەواو بکە";a.addEventListener("click",function(ev){ev.preventDefault();});}
     });
   }
-  lessonGate();learningGate();
+  lessonGate();navGate();learningGate();
 })();
