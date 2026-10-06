@@ -637,11 +637,10 @@ document.querySelectorAll('a[href="#"]').forEach(a=>{
     },true);
   }
   function learningGate(){
-    const seq=document.querySelector(".learning-sequence");
-    if(!seq)return;
+    const links=document.querySelectorAll('a[href*="lessons/course-2-"]');
+    if(!links.length)return;
     styles();
     const first=firstIncomplete();
-    const links=seq.querySelectorAll('a[href*="lessons/course-2-"]');
     links.forEach(function(a){
       const m=(a.getAttribute("href")||"").match(/course-2-(\d+)\.html$/);
       if(!m)return;
@@ -652,11 +651,16 @@ document.querySelectorAll('a[href="#"]').forEach(a=>{
         a.setAttribute("tabindex","-1");
         a.dataset.course2Locked="true";
         a.title="سەرەتا وانەی پێشوو تەواو بکە";
+      }else{
+        a.classList.remove("course2-locked-link");
+        a.removeAttribute("aria-disabled");
+        a.removeAttribute("tabindex");
+        delete a.dataset.course2Locked;
       }
     });
     document.addEventListener("click",function(ev){
       const a=ev.target.closest&&ev.target.closest('a[href]');
-      if(!a||!a.dataset.course2Locked)return;
+      if(!a||a.dataset.course2Locked!=="true")return;
       ev.preventDefault();
       ev.stopImmediatePropagation();
     },true);
