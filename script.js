@@ -641,17 +641,25 @@ document.querySelectorAll('a[href="#"]').forEach(a=>{
     if(!seq)return;
     styles();
     const first=firstIncomplete();
-    seq.querySelectorAll('a[href*="lessons/course-2-"]').forEach(function(a){
+    const links=seq.querySelectorAll('a[href*="lessons/course-2-"]');
+    links.forEach(function(a){
       const m=(a.getAttribute("href")||"").match(/course-2-(\d+)\.html$/);
       if(!m)return;
       const i=Number(m[1])-1;
       if(i>first){
         a.classList.add("course2-locked-link");
         a.setAttribute("aria-disabled","true");
+        a.setAttribute("tabindex","-1");
+        a.dataset.course2Locked="true";
         a.title="سەرەتا وانەی پێشوو تەواو بکە";
-        a.addEventListener("click",function(ev){ev.preventDefault();});
       }
     });
+    document.addEventListener("click",function(ev){
+      const a=ev.target.closest&&ev.target.closest('a[href]');
+      if(!a||!a.dataset.course2Locked)return;
+      ev.preventDefault();
+      ev.stopImmediatePropagation();
+    },true);
   }
   lessonGate();
   navGate();
