@@ -577,11 +577,29 @@ document.querySelectorAll('a[href="#"]').forEach(a=>{
         const latest=done();
         if(targetIndex>current && !latest.has(current)){
           ev.preventDefault();
+          ev.stopImmediatePropagation();
           const gate=document.querySelector(".course1-gate");
           if(gate) gate.scrollIntoView({behavior:"smooth",block:"center"});
         }
       });
     });
+
+    /* Hard-stop every forward Course-1 link, even if the link is outside .lesson-nav. */
+    document.addEventListener("click",function(ev){
+      const a=ev.target.closest("a[href]");
+      if(!a)return;
+      const href=(a.getAttribute("href")||"").split("?")[0].split("#")[0];
+      const target=href.split("/").pop().toLowerCase();
+      const targetIndex=COURSE1_FILES.indexOf(target);
+      if(targetIndex<0 || targetIndex<=current)return;
+      const latest=done();
+      if(!latest.has(current)){
+        ev.preventDefault();
+        ev.stopImmediatePropagation();
+        const gate=document.querySelector(".course1-gate");
+        if(gate) gate.scrollIntoView({behavior:"smooth",block:"center"});
+      }
+    },true);
   }
 
   function learningGate(){
