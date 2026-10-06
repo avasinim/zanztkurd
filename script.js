@@ -541,7 +541,7 @@ document.querySelectorAll('a[href="#"]').forEach(a=>{
   function done(){try{return new Set(JSON.parse(localStorage.getItem(STORAGE)||"[]").map(Number));}catch(e){return new Set();}}
   function save(s){localStorage.setItem(STORAGE,JSON.stringify([...s].sort(function(a,b){return a-b;})));}
   function firstIncomplete(){const s=done();for(let i=0;i<COURSE1_FILES.length;i++)if(!s.has(i))return i;return COURSE1_FILES.length;}
-  function url(i){return "lessons/"+COURSE1_FILES[i];}
+  function url(i){return document.querySelector(".learning-sequence") ? "lessons/"+COURSE1_FILES[i] : COURSE1_FILES[i];}
   function styles(){
     if(document.getElementById("course1-gate-styles"))return;
     const s=document.createElement("style");s.id="course1-gate-styles";
