@@ -1,7 +1,8 @@
-/* Supabase public configuration — replace only these two placeholders.
+/* Supabase public configuration.
+   The publishable key is safe for browser use with RLS enabled.
    NEVER put a service_role/secret key in this file. */
 window.ZANSTI_SUPABASE={
-  url:"YOUR_SUPABASE_PROJECT_URL",
-  publishableKey:"YOUR_SUPABASE_PUBLISHABLE_KEY",
-  ready:false
+  url:"https://hjpmorabqdhuchpnowiw.supabase.co",
+  publishableKey:"sb_publishable_xRJXqW98ecQhbr-5mxDCcw_DuIbP8Ya",
+  ready:true
 };
