@@ -55,10 +55,8 @@ create policy "profiles own insert" on public.profiles for insert with check(aut
 drop policy if exists "profiles own update" on public.profiles;
 create policy "profiles own update" on public.profiles for update
 using(auth.uid()=id)
-with check(
-  auth.uid()=id
-  and student_number = (select p.student_number from public.profiles p where p.id=auth.uid())
-);
+with check(auth.uid()=id);
+
 create policy "courses public read" on public.courses for select using(true);
 create policy "enrollments own read" on public.enrollments for select using(auth.uid()=user_id);
 create policy "progress own read" on public.lesson_progress for select using(auth.uid()=user_id);
@@ -91,7 +89,9 @@ revoke all on function public.enroll_in_course(text) from public;
 grant execute on function public.enroll_in_course(text) to authenticated;
 
 create or replace function public.handle_new_user() returns trigger
-language plpgsql security definer set search_path=public
+language plpgsql
+security definer
+set search_path=public
 as $
 declare
   generated_student_number text;
@@ -104,8 +104,10 @@ begin
   return new;
 end;
 $;
+
 drop trigger if exists on_auth_user_created on auth.users;
-create trigger on_auth_user_created after insert on auth.users for each row execute procedure public.handle_new_user();
+create trigger on_auth_user_created after insert on auth.users
+for each row execute procedure public.handle_new_user();
 
 -- Lesson progress is intentionally server-owned by the lesson client/RLS layer.
 -- The application only writes the authenticated user's own rows.
@@ -124,7 +126,6 @@ declare
   uid uuid := auth.uid();
   total_count integer;
   completed_count integer;
-  valid_lesson boolean := false;
   new_status text := 'active';
   lesson_order text[];
   lesson_index integer;
@@ -148,8 +149,8 @@ begin
       '017.html','018.html','019.html','020.html','021.html','022.html','023.html','024.html',
       '025.html','026.html','027.html','028.html','029.html','030.html','031.html','032.html',
       '033.html','034.html','035.html','036.html','037.html','038.html','039.html','040.html',
-      '041.html','042.html','043.html','044.html','045.html','046.html','047.html','048.html',
-      '049.html','050.html','051.html','052.html','053.html','054.html','055.html','056.html',
+      '041.html','042.html','043.html','044.html','046.html','047.html','048.html','049.html',
+      '050.html','051.html','045.html','052.html','053.html','054.html','055.html','056.html',
       '057.html','058.html'
     ];
   else
