@@ -167,11 +167,11 @@ document.querySelectorAll('a[href="#"]').forEach(a=>{
 
 document.querySelectorAll(".primary-btn").forEach(btn=>{
   const label=(btn.textContent||"").trim();
-  if(label==="دەستپێکردن" || label==="چونەژورەوە"){
+  if(label==="دەستپێکردن" || label==="چوونەژورەوە"){
     btn.addEventListener("click",()=>{
       openInfo(label, label==="دەستپێکردن"
         ? "لە ئێستادا دەتوانیت وانەکان ببینیت و بەشەکانی سایت بپشکنیت. سیستەمی هەژمار لە قۆناغی داهاتودا زیاد دەکرێت."
-        : "سیستەمی چونەژورەوە لە قۆناغی داهاتودا زیاد دەکرێت.");
+        : "سیستەمی چوونەژورەوە لە قۆناغی داهاتودا زیاد دەکرێت.");
     });
   }
 });
@@ -386,11 +386,11 @@ document.querySelectorAll('a[href="#"]').forEach(a=>{
 
 document.querySelectorAll(".primary-btn").forEach(btn=>{
   const label=(btn.textContent||"").trim();
-  if(label==="دەستپێکردن" || label==="چونەژورەوە"){
+  if(label==="دەستپێکردن" || label==="چوونەژورەوە"){
     btn.addEventListener("click",()=>{
       openInfo(label, label==="دەستپێکردن"
         ? "لە ئێستادا دەتوانیت وانەکان ببینیت و بەشەکانی سایت بپشکنیت. سیستەمی هەژمار لە قۆناغی داهاتودا زیاد دەکرێت."
-        : "سیستەمی چونەژورەوە لە قۆناغی داهاتودا زیاد دەکرێت.");
+        : "سیستەمی چوونەژورەوە لە قۆناغی داهاتودا زیاد دەکرێت.");
     });
   }
 });
