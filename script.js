@@ -1040,6 +1040,20 @@ document.querySelectorAll('a[href="#"]').forEach(a=>{
   learningGate();
 })();
 
+/* ===== Avasin Owner status shared with local progression gates ===== */
+if(!window.ZANSTI_OWNER_CHECK){
+  window.ZANSTI_OWNER_CHECK=(async function(){
+    try{
+      if(!window.supabase?.createClient || !window.ZANSTI_SUPABASE?.ready)return false;
+      const sb=supabase.createClient(ZANSTI_SUPABASE.url,ZANSTI_SUPABASE.publishableKey);
+      const {data:{session}}=await sb.auth.getSession();
+      if(!session)return false;
+      const {data,error}=await sb.rpc("is_site_owner");
+      return !error && data===true;
+    }catch(e){return false;}
+  })();
+}
+
 /* ===== Course 1 sequential completion gate ===== */
 (function(){
   const COURSE1_FILES=["017.html","018.html","019.html","020.html","021.html","022.html","023.html","024.html","025.html","026.html","027.html","028.html","029.html","030.html","031.html","032.html","033.html","034.html","035.html","036.html","037.html","038.html","039.html","040.html","041.html","042.html","043.html","044.html","046.html","047.html","048.html","049.html","050.html","051.html","045.html","052.html","053.html","054.html","055.html","056.html","057.html","058.html"];
