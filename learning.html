@@ -78,18 +78,27 @@ body.content-page{--ink:#17231f;--muted:#65716b;--green:#315344;--green2:#476b59
 <style id="c2-learning-lock">.course2-locked-link{opacity:.45!important;cursor:not-allowed!important;pointer-events:auto!important;filter:grayscale(.4)}</style><script>(function(){var K="zanztkurd_course2_completed_v2",F=[];for(var i=1;i<=25;i++)F.push(String(i).padStart(2,"0"));function done(){try{return new Set(JSON.parse(localStorage.getItem(K)||"[]").map(Number))}catch(e){return new Set}}function lock(){var s=done(),f=25;for(var i=0;i<25;i++)if(!s.has(i)){f=i;break}document.querySelectorAll('a[href*="lessons/course-2-"]').forEach(function(a){var m=a.getAttribute("href").match(/course-2-(\d+)\.html/);if(!m)return;var n=Number(m[1])-1;if(n>f){a.classList.add("course2-locked-link");a.setAttribute("aria-disabled","true");a.dataset.c2locked="1"}else{a.classList.remove("course2-locked-link");a.removeAttribute("aria-disabled");delete a.dataset.c2locked}})}document.addEventListener("click",function(e){var a=e.target.closest&&e.target.closest('a[data-c2locked="1"]');if(a){e.preventDefault();e.stopImmediatePropagation()}},true);lock()})();</script><script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
 <script src="supabase-config.js?v=20261007-auth"></script>
 <script>
-(async function(){
+(function(){
  if(!window.ZANSTI_SUPABASE?.ready)return;
  const sb=supabase.createClient(ZANSTI_SUPABASE.url,ZANSTI_SUPABASE.publishableKey);
- const {data:{session}}=await sb.auth.getSession();
- if(!session)return;
+ const COURSE1='orthography-kurdik',COURSE2='phonetics-phonology-kurdik';
+ function courseFor(href){
+   if(href.includes('course-2-'))return COURSE2;
+   if(/lessons\/(?:0\d|[1-5]\d)\.html/.test(href))return COURSE1;
+   return null;
+ }
  document.querySelectorAll('a[href*="lessons/"]').forEach(function(a){
    a.addEventListener('click',async function(e){
-     const href=a.getAttribute('href')||'';
-     const courseId=href.includes('course-2-')?'phonetics-phonology-kurdik':'phonetics-phonology-kurdik';
-     const {data}=await sb.from('enrollments').select('status').eq('user_id',session.user.id).eq('course_id',courseId).eq('status','active').maybeSingle();
-     if(!data){e.preventDefault();location.href='dashboard.html?enroll=required';}
+     const href=a.getAttribute('href')||'',courseId=courseFor(href);
+     if(!courseId)return;
+     e.preventDefault();
+     const {data:{session}}=await sb.auth.getSession();
+     if(!session){location.href='auth.html?next='+encodeURIComponent(href);return;}
+     if(!session.user.email_confirmed_at){location.href='dashboard.html?verify=required';return;}
+     const {data,error}=await sb.from('enrollments').select('status').eq('user_id',session.user.id).eq('course_id',courseId).maybeSingle();
+     if(error||!data||!['active','completed'].includes(data.status)){location.href='dashboard.html?enroll=required';return;}
+     location.href=href;
    },true);
  });
 })();
-</script><!-- zanztkurd-learning-sync-22 --></body></html>
+</script><!-- zanztkurd-learning-sync-23 --></body></html>
