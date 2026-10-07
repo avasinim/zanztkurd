@@ -29,37 +29,6 @@
   },true);
 })();
 
-/* COURSE 2 HARD GATE — runs before the rest of the site script */
-(function(){
-  const F=Array.from({length:25},(_,i)=>"course-2-"+String(i+1).padStart(2,"0")+".html");
-  const p=(location.pathname.split("/").pop()||"").toLowerCase(), n=F.indexOf(p);
-  if(n<0)return;
-  const K="zanztkurd_course2_completed_v2";
-  const get=()=>{try{return new Set(JSON.parse(localStorage.getItem(K)||"[]").map(Number))}catch(e){return new Set()}};
-  const put=s=>localStorage.setItem(K,JSON.stringify([...s].sort((a,b)=>a-b)));
-  const first=()=>{const s=get();for(let i=0;i<F.length;i++)if(!s.has(i))return i;return F.length};
-  const gate=()=>{
-    const s=get(), f=first();
-    if(n>f){location.replace(F[f]);return}
-    if(!document.querySelector(".lesson-nav"))return;
-    if(document.querySelector("[data-c2-hard-gate]"))return;
-    const box=document.createElement("div");
-    box.setAttribute("data-c2-hard-gate","");
-    box.style.cssText="margin:28px 0;padding:22px;border:1px solid #d8d4c8;border-right:5px solid #b38a58;border-radius:14px;background:#f7f6f0";
-    box.innerHTML="<h3>کۆتایی وانە</h3><p>بۆ کردنەوەی وانەی دواتر، سەرەتا ئەم وانەیە تەواو بکە.</p><button type='button'>✓ نیشان‌دان وەک تەواوکراو</button>";
-    const nav=document.querySelector(".lesson-nav");
-    nav.parentNode.insertBefore(box,nav);
-    const b=box.querySelector("button");
-    if(s.has(n)){b.disabled=true;b.textContent="✓ تەواوکراوە"}else b.onclick=()=>{const x=get();x.add(n);put(x);localStorage.setItem("lesson-completed:course-2:"+(n+1),"true");localStorage.setItem("lesson-progress:course-2:"+(n+1),"completed");if(n+1<F.length)location.href=F[n+1]};
-  };
-  const block=e=>{
-    const a=e.target.closest&&e.target.closest("a[href]");if(!a)return;
-    const t=(a.getAttribute("href")||"").split("/").pop().split("?")[0].toLowerCase(), i=F.indexOf(t);
-    if(i>n&&!get().has(n)){e.preventDefault();e.stopImmediatePropagation();gate()}
-  };
-  document.addEventListener("click",block,true);
-  if(document.readyState==="loading")document.addEventListener("DOMContentLoaded",gate);else gate();
-})();
 const menuBtn=document.getElementById("menuBtn"),mobileMenu=document.getElementById("mobileMenu");
 menuBtn?.addEventListener("click",()=>mobileMenu?.classList.toggle("open"));
 mobileMenu?.querySelectorAll("a").forEach(a=>a.addEventListener("click",()=>mobileMenu.classList.remove("open")));
