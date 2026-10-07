@@ -64,22 +64,33 @@ else{
     elLearn.setAttribute('href',cfg.id==='orthography-kurdik'?'learning.html?course=1':'learning.html?course=2');
     elLearn.setAttribute('aria-disabled',String(!active));
     elEnroll.onclick=async()=>{
+      if(elEnroll.disabled)return;
       elEnroll.disabled=true;
-      const {error}=await sb.rpc('enroll_in_course',{p_course_id:cfg.id});
-      if(error){
-        $(cfg.status).textContent=error.message==='EMAIL_NOT_VERIFIED'?'سەرەتا ئیمەیڵەکەت پشتڕاست بکە.':'خۆتۆمارکردن سەرکەوتوو نەبوو.';
+      try{
+        const {error}=await sb.rpc('enroll_in_course',{p_course_id:cfg.id});
+        if(error){
+          $(cfg.status).textContent=error.message==='EMAIL_NOT_VERIFIED'?'سەرەتا ئیمەیڵەکەت پشتڕاست بکە.':'خۆتۆمارکردن سەرکەوتوو نەبوو.';
+          return;
+        }
+        await loadCourse(cfg);
+        const {data:updatedEnrollments,error:countError}=await sb.from('enrollments').select('course_id,status').eq('user_id',user.id);
+        if(countError){
+          $('enrollSummary').textContent='تۆمارکردن سەرکەوتوو بوو؛ بەڵام نوێکردنەوەی کۆی کۆرسەکان سەرکەوتوو نەبوو.';
+          return;
+        }
+        const activeCount=(updatedEnrollments||[]).filter(e=>e.status==='active'||e.status==='completed').length;
+        $('courseCount').textContent=String(activeCount);
+        $('enrollSummary').textContent=activeCount===0?'هێشتا هیچ کۆرسێکت تۆمار نەکردووە.':activeCount===1?'١ کۆرس بە ناوی تۆ تۆمار کراوە.':activeCount+' کۆرس بە ناوی تۆ تۆمار کراون.';
+      }finally{
         elEnroll.disabled=false;
-        return;
       }
-      await loadCourse(cfg);
-      const {data:updatedEnrollments}=await sb.from('enrollments').select('course_id,status').eq('user_id',user.id);
-      const activeCount=(updatedEnrollments||[]).filter(e=>e.status==='active'||e.status==='completed').length;
-      $('courseCount').textContent=String(activeCount);
-      $('enrollSummary').textContent=activeCount===0?'هێشتا هیچ کۆرسێکت تۆمار نەکردووە.':activeCount===1?'١ کۆرس بە ناوی تۆ تۆمار کراوە.':activeCount+' کۆرس بە ناوی تۆ تۆمار کراون.';
-      elEnroll.disabled=false;
     };
     if(!active){$(cfg.bar).style.width='0%';$(cfg.text).textContent='٠٪ ـی ڕێڕەو تەواو کراوە';return true;}
-    const {data:rows}=await sb.from('lesson_progress').select('lesson_key').eq('user_id',user.id).eq('course_id',cfg.id);
+    const {data:rows,error:progressError}=await sb.from('lesson_progress').select('lesson_key').eq('user_id',user.id).eq('course_id',cfg.id);
+    if(progressError){
+      $(cfg.text).textContent='نەتوانرا پێشکەوتنی وانەکان بخوێندرێتەوە.';
+      return false;
+    }
     const keys=new Set((rows||[]).map(r=>r.lesson_key));
     let count=0;
     if(cfg.id==='orthography-kurdik'){
