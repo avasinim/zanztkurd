@@ -1,4 +1,4 @@
--- ZANSTI KURD — Supabase/PostgreSQL foundation
+-- ZANSTI KURD — Supabase/PostgreSQL production foundation
 create table if not exists public.profiles (
   id uuid primary key references auth.users(id) on delete cascade,
   full_name text not null default '',
@@ -28,24 +28,76 @@ create table if not exists public.lesson_progress (
   completed_at timestamptz not null default now(),
   primary key(user_id,course_id,lesson_key)
 );
-insert into public.courses(id,title,total_lessons) values
-('phonetics-phonology-kurdik','کۆرسی ئەکادێمیک و زانستی فۆنێتیک و فۆنۆلۆجی زوانی کوردیک',25)
-on conflict(id) do nothing;
+
+insert into public.courses(id,title,description,total_lessons) values
+('orthography-kurdik','کۆرسی زانستی و ئەکادێمیکی ڕێنوسی زوانی کوردیک','دەورەی ١؛ ئەلفبێ، پیت، نوسین و سیستەمی ڕێنوسی زوانی کوردیک.',26),
+('phonetics-phonology-kurdik','کۆرسی ئەکادێمیک و زانستی فۆنێتیک و فۆنۆلۆجی زوانی کوردیک','دەورەی ٢؛ فۆنێتیک، فۆنۆلۆجی، ئەکوستیک، درک و توێژینەوە.',25)
+on conflict(id) do update set title=excluded.title,description=excluded.description,total_lessons=excluded.total_lessons;
+
 alter table public.profiles enable row level security;
 alter table public.courses enable row level security;
 alter table public.enrollments enable row level security;
 alter table public.lesson_progress enable row level security;
+
+drop policy if exists "profiles own read" on public.profiles;
+drop policy if exists "profiles own insert" on public.profiles;
+drop policy if exists "profiles own update" on public.profiles;
+drop policy if exists "courses public read" on public.courses;
+drop policy if exists "enrollments own read" on public.enrollments;
+drop policy if exists "enrollments own insert" on public.enrollments;
+drop policy if exists "enrollments own update" on public.enrollments;
+drop policy if exists "progress own read" on public.lesson_progress;
+drop policy if exists "progress own insert" on public.lesson_progress;
+drop policy if exists "progress own update" on public.lesson_progress;
+
 create policy "profiles own read" on public.profiles for select using(auth.uid()=id);
 create policy "profiles own insert" on public.profiles for insert with check(auth.uid()=id);
-create policy "profiles own update" on public.profiles for update using(auth.uid()=id);
+create policy "profiles own update" on public.profiles for update using(auth.uid()=id) with check(auth.uid()=id);
 create policy "courses public read" on public.courses for select using(true);
 create policy "enrollments own read" on public.enrollments for select using(auth.uid()=user_id);
-create policy "enrollments own insert" on public.enrollments for insert with check(auth.uid()=user_id);
-create policy "enrollments own update" on public.enrollments for update using(auth.uid()=user_id);
 create policy "progress own read" on public.lesson_progress for select using(auth.uid()=user_id);
-create policy "progress own insert" on public.lesson_progress for insert with check(auth.uid()=user_id);
-create policy "progress own update" on public.lesson_progress for update using(auth.uid()=user_id);
-create or replace function public.handle_new_user() returns trigger language plpgsql security definer set search_path=public as $$
-begin insert into public.profiles(id,full_name) values(new.id,coalesce(new.raw_user_meta_data->>'full_name','')); return new; end; $$;
+
+create or replace function public.enroll_in_course(p_course_id text)
+returns public.enrollments
+language plpgsql
+security definer
+set search_path=public,auth
+as $$
+declare result_row public.enrollments;
+begin
+  if auth.uid() is null then raise exception 'AUTH_REQUIRED'; end if;
+  if not exists(select 1 from auth.users u where u.id=auth.uid() and u.email_confirmed_at is not null) then
+    raise exception 'EMAIL_NOT_VERIFIED';
+  end if;
+  if not exists(select 1 from public.courses c where c.id=p_course_id) then
+    raise exception 'COURSE_NOT_FOUND';
+  end if;
+  insert into public.enrollments(user_id,course_id,status)
+  values(auth.uid(),p_course_id,'active')
+  on conflict(user_id,course_id) do update
+    set status='active', completed_at=null
+  returning * into result_row;
+  return result_row;
+end;
+$$;
+
+revoke all on function public.enroll_in_course(text) from public;
+grant execute on function public.enroll_in_course(text) to authenticated;
+
+create or replace function public.handle_new_user() returns trigger
+language plpgsql security definer set search_path=public
+as $$
+begin
+  insert into public.profiles(id,full_name)
+  values(new.id,coalesce(new.raw_user_meta_data->>'full_name',''))
+  on conflict(id) do nothing;
+  return new;
+end;
+$$;
 drop trigger if exists on_auth_user_created on auth.users;
 create trigger on_auth_user_created after insert on auth.users for each row execute procedure public.handle_new_user();
+
+-- Lesson progress is intentionally server-owned by the lesson client/RLS layer.
+-- The application only writes the authenticated user's own rows.
+create policy "progress own insert" on public.lesson_progress for insert with check(auth.uid()=user_id);
+create policy "progress own update" on public.lesson_progress for update using(auth.uid()=user_id) with check(auth.uid()=user_id);
