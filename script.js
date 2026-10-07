@@ -48,6 +48,21 @@
   },true);
 
   (async function pageGate(){
+    if(isLesson){
+      const got=await getSession();
+      if(!got?.session){
+        location.replace(authUrl(location.href));
+        return;
+      }
+      const target=path;
+      const courseId=/^course-2-\d+\.html$/.test(target)?"phonetics-phonology-kurdik":"orthography-kurdik";
+      if(!await hasEnrollment(got.sb,got.session.user.id,courseId)){
+        location.replace("../dashboard.html?enroll=required");
+        return;
+      }
+      document.documentElement.style.visibility="";
+      return;
+    }
     if(!isCatalog) return;
     document.documentElement.style.visibility="hidden";
     const got=await getSession();
