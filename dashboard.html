@@ -14,6 +14,10 @@
 <article class="card"><h2>دۆخی هەژمار</h2><p id="status">پشکنین...</p></article>
 <article class="card"><h2>کۆرسە چالاکەکان</h2><p id="courseCount">0</p></article>
 <article class="card course-card">
+<h2 class="course-title">کۆرسی زانستی و ئەکادێمیکی ڕێنوسی زوانی کوردیک</h2>
+<p id="course1Status">پشکنین...</p><div class="progress"><span id="course1Bar"></span></div><p id="course1Text">٠٪ ـی ڕێڕەو تەواو کراوە</p><div class="course-actions"><a id="course1View" class="primary" href="course-1.html">بینینی کۆرس</a><a id="course1Learn" href="learning.html">ڕێڕەوی فێربوون</a><button id="course1Enroll" hidden>خۆتۆمارکردن لە کۆرس</button></div>
+</article>
+<article class="card course-card">
 <h2 class="course-title">کۆرسی ئەکادێمیک و زانستی فۆنێتیک و فۆنۆلۆجی زوانی کوردیک</h2>
 <p id="course2Status">پشکنین...</p>
 <div class="progress"><span id="progressBar"></span></div>
@@ -28,7 +32,10 @@
 if(!window.ZANSTI_SUPABASE?.ready){document.getElementById('status').textContent='backend هێشتا چالاک نەکراوە.';}
 else{
  const sb=supabase.createClient(ZANSTI_SUPABASE.url,ZANSTI_SUPABASE.publishableKey);
- const COURSE_ID='phonetics-phonology-kurdik', TOTAL=25;
+ const COURSES={
+  c1:{id:'orthography-kurdik',total:26,status:'course1Status',bar:'course1Bar',text:'course1Text',enroll:'course1Enroll',learn:'course1Learn'},
+  c2:{id:'phonetics-phonology-kurdik',total:25,status:'course2Status',bar:'progressBar',text:'progressText',enroll:'course2Enroll',learn:'course2Learn'}
+ };
  const $=id=>document.getElementById(id);
  async function load(){
   const {data:{session}}=await sb.auth.getSession();
@@ -38,23 +45,30 @@ else{
   $('welcome').textContent='بەخێربێیت، '+(user.user_metadata?.full_name||'خوێندکار');
   $('status').textContent=verified?'هەژمارەکە چالاکە':'چاوەڕوانی پشتڕاست‌کردنەوەی ئیمەیڵە';
   $('verifyNotice').hidden=verified;
-  const {data:enrollment,error:enrollErr}=await sb.from('enrollments').select('status,enrolled_at').eq('user_id',user.id).eq('course_id',COURSE_ID).maybeSingle();
-  if(enrollErr){$('course2Status').textContent='هەڵەی پەیوەندی بە داتابەیس.';return;}
-  const active=enrollment?.status==='active'||enrollment?.status==='completed';
-  $('course2Status').innerHTML=active?'<span class="course-status">'+(enrollment.status==='completed'?'تەواوکراو':'تۆمارکراو')+'</span>':'هێشتا لە کۆرسەکە تۆمار نەکراویت.';
-  $('course2Enroll').hidden=active||!verified;
-  $('course2Enroll').onclick=async()=>{
-    $('course2Enroll').disabled=true;
-    const {error}=await sb.rpc('enroll_in_course',{p_course_id:COURSE_ID});
-    if(error){$('course2Status').textContent=error.message||'خۆتۆمارکردن سەرکەوتوو نەبوو.';$('course2Enroll').disabled=false;return;}
-    await load();
-  };
-  if(!active){$('progressBar').style.width='0%';$('progressText').textContent='٠٪ ـی ڕێڕەو تەواو کراوە';$('course2Learn').classList.add('disabled');$('course2Learn').setAttribute('aria-disabled','true');return;}
-  const {data:rows}=await sb.from('lesson_progress').select('lesson_key').eq('user_id',user.id).eq('course_id',COURSE_ID);
-  const completed=new Set((rows||[]).map(r=>r.lesson_key));
-  const count=Math.min(completed.size,TOTAL), pct=Math.round(count/TOTAL*100);
-  $('progressBar').style.width=pct+'%';$('progressText').textContent=pct+'% ـی ڕێڕەو تەواو کراوە · '+count+' لە '+TOTAL+' وانە';
-  $('courseCount').textContent='١';
+  async function loadCourse(course){
+    const cfg=course, elEnroll=$(cfg.enroll), elLearn=$(cfg.learn);
+    const {data:enrollment,error}=await sb.from('enrollments').select('status,enrolled_at').eq('user_id',user.id).eq('course_id',cfg.id).maybeSingle();
+    if(error){$(cfg.status).textContent='هەڵەی پەیوەندی بە داتابەیس.';return false;}
+    const active=enrollment?.status==='active'||enrollment?.status==='completed';
+    $(cfg.status).innerHTML=active?'<span class="course-status">'+(enrollment.status==='completed'?'تەواوکراو':'تۆمارکراو')+'</span>':'هێشتا لە کۆرسەکە تۆمار نەکراویت.';
+    elEnroll.hidden=active||!verified;
+    elLearn.classList.toggle('disabled',!active);
+    elLearn.setAttribute('aria-disabled',String(!active));
+    elEnroll.onclick=async()=>{
+      elEnroll.disabled=true;
+      const {error}=await sb.rpc('enroll_in_course',{p_course_id:cfg.id});
+      if(error){$(cfg.status).textContent=error.message==='EMAIL_NOT_VERIFIED'?'سەرەتا ئیمەیڵەکەت پشتڕاست بکە.':'خۆتۆمارکردن سەرکەوتوو نەبوو.';elEnroll.disabled=false;return;}
+      await load();
+    };
+    if(!active){$(cfg.bar).style.width='0%';$(cfg.text).textContent='٠٪ ـی ڕێڕەو تەواو کراوە';return true;}
+    const {data:rows}=await sb.from('lesson_progress').select('lesson_key').eq('user_id',user.id).eq('course_id',cfg.id);
+    const count=Math.min(new Set((rows||[]).map(r=>r.lesson_key)).size,cfg.total), pct=Math.round(count/cfg.total*100);
+    $(cfg.bar).style.width=pct+'%';$(cfg.text).textContent=pct+'% ـی ڕێڕەو تەواو کراوە · '+count+' لە '+cfg.total+' وانە';
+    return true;
+  }
+  await loadCourse(COURSES.c1);
+  await loadCourse(COURSES.c2);
+  $('courseCount').textContent='٢';
  }
  $('logout').onclick=async()=>{await sb.auth.signOut();location.href='auth.html';};
  load();
