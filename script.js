@@ -789,12 +789,23 @@ document.querySelectorAll('a[href="#"]').forEach(a=>{
    Browser pages remain static, while access and progress are tied to the
    authenticated Supabase user. Local sequential gates remain as UI fallback. */
 (function(){
-  if(!window.ZANSTI_SUPABASE?.ready)return;
   const path=(location.pathname.split("/").pop()||"").toLowerCase();
   const isC2=/^course-2-\d+\.html$/.test(path);
   const isC1=/^(0\d|[1-5]\d)\.html$/.test(path);
   if(!isC1&&!isC2)return;
   const courseId=isC2?"phonetics-phonology-kurdik":"orthography-kurdik";
+  const authUrl="../auth.html?next="+encodeURIComponent(location.pathname+location.search+location.hash);
+
+  /* Access must never fall back to public lesson viewing when Supabase
+     is not configured. The lesson is private by policy, not by UI only. */
+  if(!window.ZANSTI_SUPABASE?.ready){
+    location.replace(authUrl);
+    return;
+  }
+  if(!window.supabase?.createClient){
+    location.replace(authUrl);
+    return;
+  }
   const sb=supabase.createClient(ZANSTI_SUPABASE.url,ZANSTI_SUPABASE.publishableKey);
 
   (async function guard(){
