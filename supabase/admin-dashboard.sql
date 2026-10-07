@@ -59,7 +59,7 @@ begin
   select
     e.user_id,
     e.course_id::text,
-    coalesce(c.title,c.name,e.course_id::text)::text as course_name,
+    e.course_id::text as course_name,
     u.email::text,
     p.full_name::text,
     e.status::text,
@@ -67,7 +67,6 @@ begin
   from public.enrollments e
   join auth.users u on u.id=e.user_id
   left join public.profiles p on p.id=e.user_id
-  left join public.courses c on c.id=e.course_id
   order by e.enrolled_at desc;
 end;
 $$;
@@ -97,7 +96,7 @@ begin
   select
     e.user_id,
     e.course_id::text,
-    coalesce(c.title,c.name,e.course_id::text)::text as course_name,
+    e.course_id::text as course_name,
     u.email::text,
     p.full_name::text,
     count(lp.*)::bigint as completed_count,
@@ -106,10 +105,9 @@ begin
   from public.enrollments e
   join auth.users u on u.id=e.user_id
   left join public.profiles p on p.id=e.user_id
-  left join public.courses c on c.id=e.course_id
   left join public.lesson_progress lp
     on lp.user_id=e.user_id and lp.course_id=e.course_id
-  group by e.user_id,e.course_id,c.title,c.name,u.email,p.full_name
+  group by e.user_id,e.course_id,u.email,p.full_name
   order by max(lp.completed_at) desc nulls last;
 end;
 $$;
