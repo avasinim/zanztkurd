@@ -562,6 +562,15 @@
           "courseLessonNumber": 24,
           "courseId": "course-2"
         }
+        ,
+        {
+          "id": "course-2-lesson-25",
+          "number": 25,
+          "title": "وانەی ٢٥ — ڕێکارەکانی پشکنینی داتا و لێکدانەوەی ئەکوستیکی",
+          "pagePath": "course-2-25.html",
+          "courseLessonNumber": 25,
+          "courseId": "course-2"
+        }
       ]
     }
   ],
@@ -584,8 +593,8 @@
       "sectionIds": [
         "course-2-section"
       ],
-      "endLessonNumber": 24,
-      "endLessonTitle": "شی‌کردنەوە و ڕێک‌خستنی سیستەمی فۆنێتیکی و فۆنۆلۆجی"
+      "endLessonNumber": 25,
+      "endLessonTitle": "ڕێکارەکانی پشکنینی داتا و لێکدانەوەی ئەکوستیکی"
     }
   ],
   "system": {
@@ -595,7 +604,7 @@
     "source": "سابیر ژاکاو · فۆنێتیک و فۆنۆلۆجی کوردیک",
     "courseLessonNumbering": {
       "enabled": true,
-      "range": "Course 1: 1-26; Course 2: 1-24",
+      "range": "Course 1: 1-26; Course 2: 1-25",
       "firstCourseLessonNumber": 1,
       "note": "ژمارەی courseLessonNumber ژمارەی وانەی خوێندکارە؛ pagePath و number تەنیا ناسنامەی فایل/سەرچاوەی repository ـن و نابێت وەک ژمارەی وانە وەربگیرێن. هەر دەورە ژمارەی سەربەخۆی خۆی هەیە.",
       "physicalResourceNote": "هەندێک وانە بە زنجیرەی چەند فایلێک نوێنەرایەتی دەکرێن؛ courseLessonNumber ژمارەی وانەی خوێندکارە و pagePath/number ژمارەی سەرچاوەی فایلی repository ـە."
