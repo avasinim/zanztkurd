@@ -1,38 +1,40 @@
-/* ===== Avasin access gate — lesson links =====
-   Lesson content is not publicly enterable from homepage/catalog/search.
-   Unauthenticated users are sent to the auth flow before navigation. */
+/* ===== Avasin access gate — lessons + catalog =====
+   Lesson content and the lesson catalog require authentication + enrollment. */
 (function(){
   const path=(location.pathname.split("/").pop()||"").toLowerCase();
   const isLesson=/^(0\d|[1-5]\d)\.html$/.test(path)||/^course-2-\d+\.html$/.test(path);
-  if(isLesson){
-    document.documentElement.style.visibility="hidden";
-  }
+  const isCatalog=path==="catalog.html" && /\/lessons\/?$/i.test(location.pathname);
+  if(isLesson) document.documentElement.style.visibility="hidden";
 
+  function authUrl(next){
+    return (path==="index.html"||!path?"auth.html":"../auth.html")+"?next="+encodeURIComponent(next||location.href);
+  }
+  function targetOf(href){
+    return (href||"").split("?")[0].split("#")[0].split("/").pop().toLowerCase();
+  }
   function isProtectedLessonTarget(href){
-    const target=(href||"").split("?")[0].split("#")[0].split("/").pop().toLowerCase();
+    const target=targetOf(href);
     return /^(0\d|[1-5]\d)\.html$/.test(target)||/^course-2-\d+\.html$/.test(target);
   }
-
-  async function allowOrRedirect(ev,a){
-    if(!isProtectedLessonTarget(a.getAttribute("href"))) return;
-    if(!window.supabase?.createClient || !window.ZANSTI_SUPABASE?.ready){
-      ev.preventDefault();
-      location.href=(path==="index.html"||!path?"auth.html":"../auth.html")+"?next="+encodeURIComponent(a.href);
-      return;
-    }
-    ev.preventDefault();
-    ev.stopImmediatePropagation();
+  async function getSession(){
+    if(!window.supabase?.createClient || !window.ZANSTI_SUPABASE?.ready) return null;
     const sb=supabase.createClient(ZANSTI_SUPABASE.url,ZANSTI_SUPABASE.publishableKey);
     const {data:{session}}=await sb.auth.getSession();
-    if(!session){
-      location.href=(path==="index.html"||!path?"auth.html":"../auth.html")+"?next="+encodeURIComponent(a.href);
-      return;
-    }
-    const target=(a.getAttribute("href")||"").split("?")[0].split("#")[0].split("/").pop().toLowerCase();
-    const targetIsC2=/^course-2-\d+\.html$/.test(target);
-    const courseId=targetIsC2?"phonetics-phonology-kurdik":"orthography-kurdik";
-    const {data:enrollment,error}=await sb.from("enrollments").select("status").eq("user_id",session.user.id).eq("course_id",courseId).maybeSingle();
-    if(error||!enrollment||!["active","completed"].includes(enrollment.status)){
+    return {sb,session};
+  }
+  async function hasEnrollment(sb,userId,courseId){
+    const {data,error}=await sb.from("enrollments").select("status").eq("user_id",userId).eq("course_id",courseId).maybeSingle();
+    return !error && !!data && ["active","completed"].includes(data.status);
+  }
+  async function allowOrRedirect(ev,a){
+    if(!isProtectedLessonTarget(a.getAttribute("href"))) return;
+    ev.preventDefault();
+    ev.stopImmediatePropagation();
+    const got=await getSession();
+    if(!got?.session){location.href=authUrl(a.href);return;}
+    const target=targetOf(a.getAttribute("href"));
+    const courseId=/^course-2-\d+\.html$/.test(target)?"phonetics-phonology-kurdik":"orthography-kurdik";
+    if(!await hasEnrollment(got.sb,got.session.user.id,courseId)){
       location.href="../dashboard.html?enroll=required";
       return;
     }
@@ -44,13 +46,19 @@
     if(a) allowOrRedirect(ev,a);
   },true);
 
-  if(isLesson){
-    const reveal=function(){
-      document.documentElement.style.visibility="";
-    };
-  }
+  (async function pageGate(){
+    if(!isCatalog) return;
+    document.documentElement.style.visibility="hidden";
+    const got=await getSession();
+    if(!got?.session){location.replace("../auth.html?next="+encodeURIComponent(location.href));return;}
+    const [c1,c2]=await Promise.all([
+      hasEnrollment(got.sb,got.session.user.id,"orthography-kurdik"),
+      hasEnrollment(got.sb,got.session.user.id,"phonetics-phonology-kurdik")
+    ]);
+    if(!c1&&!c2){location.replace("../dashboard.html?enroll=required");return;}
+    document.documentElement.style.visibility="";
+  })();
 })();
-
 /* ===== Avasin Standard — Lesson Copy Protection =====
    Prevent casual copying of lesson content. This is a browser-side deterrent,
    not DRM: determined users can still access delivered HTML/source. */
