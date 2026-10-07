@@ -65,8 +65,8 @@ create or replace function public.enroll_in_course(p_course_id text)
 returns public.enrollments
 language plpgsql
 security definer
-set search_path=public,auth
-as $$
+set search_path=public,pg_temp
+as $
 declare result_row public.enrollments;
 begin
   if auth.uid() is null then raise exception 'AUTH_REQUIRED'; end if;
@@ -109,10 +109,28 @@ drop trigger if exists on_auth_user_created on auth.users;
 create trigger on_auth_user_created after insert on auth.users
 for each row execute procedure public.handle_new_user();
 
+-- Student numbers are system-managed and cannot be changed by the client.
+create or replace function public.protect_student_number() returns trigger
+language plpgsql
+security definer
+set search_path=public,pg_temp
+as $
+begin
+  new.student_number := old.student_number;
+  return new;
+end;
+$;
+
+drop trigger if exists protect_student_number on public.profiles;
+create trigger protect_student_number
+before update on public.profiles
+for each row execute procedure public.protect_student_number();
+
 -- Lesson progress is intentionally server-owned by the lesson client/RLS layer.
 -- The application only writes the authenticated user's own rows.
-create policy "progress own insert" on public.lesson_progress for insert with check(auth.uid()=user_id);
-create policy "progress own update" on public.lesson_progress for update using(auth.uid()=user_id) with check(auth.uid()=user_id);
+-- Progress is written only through the SECURITY DEFINER completion RPC.
+-- Direct client writes are intentionally disabled to prevent forged progress.
+
 
 -- Secure lesson completion: validates enrollment, writes progress, and
 -- automatically marks the enrollment completed when the course is finished.
