@@ -101,4 +101,29 @@ body.content-page{--ink:#17231f;--muted:#65716b;--green:#315344;--green2:#476b59
    },true);
  });
 })();
+</script><script>
+/* ===== Course-scoped learning portal ===== */
+(function(){
+  const course=new URLSearchParams(location.search).get('course');
+  if(course!=='1'&&course!=='2')return;
+  const blocks=document.querySelectorAll('.learning-sequence');
+  blocks.forEach(function(block,index){
+    const isCourse1=index===0;
+    const isCourse2=index===1;
+    if((course==='1'&&!isCourse1)||(course==='2'&&!isCourse2))block.hidden=true;
+  });
+  const introLinks=document.querySelectorAll('.learning-intro a[href^="course-"],.learning-levels a[href^="course-"]');
+  introLinks.forEach(function(a){
+    const href=a.getAttribute('href')||'';
+    if((course==='1'&&href==='course-2.html')||(course==='2'&&href==='course-1.html'))a.hidden=true;
+  });
+  const hero=document.querySelector('.learning-hero h1');
+  if(hero)hero.insertAdjacentHTML('afterend','<div class="course-context" style="margin-top:18px;display:inline-flex;padding:8px 13px;border:1px solid rgba(226,210,177,.25);border-radius:999px;color:#ddcfb0;font-weight:800;font-size:.82rem">'+(course==='1'?'دەورەی ١ · ڕێنوسی زوانی کوردیک':'دەورەی ٢ · فۆنێتیک و فۆنۆلۆجی زوانی کوردیک')+'</div>');
+  const back=document.createElement('a');
+  back.href='learning.html';
+  back.textContent='گەڕانەوە بۆ هەموو ڕێڕەوەکان';
+  back.style.cssText='display:inline-flex;margin:18px 0 0;padding:9px 13px;border:1px solid rgba(39,61,50,.16);border-radius:9px;background:#fff;color:#315344;text-decoration:none;font-weight:800';
+  const intro=document.querySelector('.learning-intro');
+  if(intro)intro.appendChild(back);
+})();
 </script><!-- zanztkurd-learning-sync-23 --></body></html>
