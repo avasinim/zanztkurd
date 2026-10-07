@@ -41,7 +41,7 @@ try{
 const authParams=new URLSearchParams(location.search);
 const recoveryMode=authParams.get('mode')==='recovery';
 const verifiedMode=authParams.get('mode')==='verified';
-const authCallback=location.origin+location.pathname;
+const authCallback=new URL('auth.html',siteBase).href;
 sb.auth.getSession().then(({data})=>{
   if(data.session&&!recoveryMode&&!verifiedMode)location.replace(nextUrl);
   if(verifiedMode){
@@ -59,8 +59,8 @@ sb.auth.onAuthStateChange((event,session)=>{
   }
 });
 document.getElementById('loginForm').onsubmit=async e=>{e.preventDefault();const {error}=await sb.auth.signInWithPassword({email:loginEmail.value,password:loginPassword.value});if(error)return msg(error.message);location.href=nextUrl};
-document.getElementById('registerForm').onsubmit=async e=>{e.preventDefault();if(registerPassword.value!==registerPassword2.value)return msg('وشەکانی نهێنی یەکسان نین.');const {data,error}=await sb.auth.signUp({email:registerEmail.value,password:registerPassword.value,options:{data:{full_name:fullName.value},emailRedirectTo:authCallback+'?mode=verified'}});if(error)return msg(error.message);msg(data.session?'هەژمارەکەت دروست کرا.':'هەژمارەکەت دروست کرا؛ ئیمەیڵەکەت پشتڕاست بکە.')};
-document.getElementById('resetLink').onclick=async e=>{e.preventDefault();const email=loginEmail.value;if(!email)return msg('سەرەتا ئیمەیڵەکەت بنوسە.');const {error}=await sb.auth.resetPasswordForEmail(email,{redirectTo:authCallback+'?mode=recovery'});msg(error?error.message:'بەستەری گۆڕینی وشەی نهێنی نێردرا. ئیمەیڵەکەت بپشکنە.')};
+document.getElementById('registerForm').onsubmit=async e=>{e.preventDefault();if(registerPassword.value!==registerPassword2.value)return msg('وشەکانی نهێنی یەکسان نین.');const {data,error}=await sb.auth.signUp({email:registerEmail.value,password:registerPassword.value,options:{data:{full_name:fullName.value},emailRedirectTo:new URL('auth.html?mode=verified',siteBase).href}});if(error)return msg(error.message);msg(data.session?'هەژمارەکەت دروست کرا.':'هەژمارەکەت دروست کرا؛ ئیمەیڵەکەت پشتڕاست بکە.')};
+document.getElementById('resetLink').onclick=async e=>{e.preventDefault();const email=loginEmail.value;if(!email)return msg('سەرەتا ئیمەیڵەکەت بنوسە.');const {error}=await sb.auth.resetPasswordForEmail(email,{redirectTo:new URL('auth.html?mode=recovery',siteBase).href});msg(error?error.message:'بەستەری گۆڕینی وشەی نهێنی نێردرا. ئیمەیڵەکەت بپشکنە.')};
 document.getElementById('recoveryForm').onsubmit=async e=>{e.preventDefault();if(newPassword.value!==newPassword2.value)return msg('وشەکانی نهێنی یەکسان نین.');const {error}=await sb.auth.updateUser({password:newPassword.value});if(error)return msg(error.message);msg('وشەی نهێنی بە سەرکەوتوویی نوێکرایەوە.');setTimeout(()=>location.href='dashboard.html',900)};
 const recovery=recoveryMode; if(recovery){document.querySelectorAll('.auth-tab').forEach(x=>x.classList.remove('active'));document.getElementById('loginForm').classList.add('hidden');document.getElementById('registerForm').classList.add('hidden');document.getElementById('recoveryForm').classList.remove('hidden');}
 }
