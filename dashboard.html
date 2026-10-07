@@ -3,7 +3,7 @@
 <head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>پەنێڵی خوێندکار | زانستی کورد</title><link rel="stylesheet" href="style.css">
 <style>
-.student-shell{min-height:100vh;background:#f5f7f6}.student-top{background:#202824;color:#fff;padding:22px 0}.student-top .container{display:flex;align-items:center;justify-content:space-between;gap:18px}.student-brand{font-weight:800}.logout{border:1px solid rgba(255,255,255,.25);background:transparent;color:#fff;border-radius:9px;padding:9px 15px;cursor:pointer}.student-main{padding:42px 0}.welcome{margin-bottom:28px}.welcome .eyebrow{color:#2e8d81}.welcome h1{margin-top:7px;font-size:clamp(26px,4vw,40px);color:#26372f}.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.card{background:#fff;border:1px solid #dce4e1;border-radius:15px;padding:24px;box-shadow:0 10px 28px rgba(27,42,35,.05)}.card h2{font-size:17px;color:#26372f;margin-bottom:9px}.card p{color:#68756f;font-size:13px;line-height:1.9}.course-card{grid-column:span 2}.course-title{font-size:20px!important}.progress{height:9px;background:#e7ecea;border-radius:20px;overflow:hidden;margin:16px 0 9px}.progress span{display:block;height:100%;width:0;background:#63b8aa;transition:width .25s ease}.course-actions{display:flex;gap:10px;margin-top:17px;flex-wrap:wrap}.course-actions a,.course-actions button{padding:10px 15px;border-radius:9px;border:1px solid #ccd8d3;background:#fff;font-weight:800;color:#29473d;cursor:pointer;text-decoration:none}.course-actions .primary{background:#29473d;color:#fff}.course-actions .disabled{opacity:.55;pointer-events:none}.course-status{display:inline-flex;padding:5px 10px;border-radius:999px;background:#edf2ef;color:#496357;font-size:12px;font-weight:800}.notice{grid-column:1/-1;background:#f8f5ed;border-right:4px solid #b38a58}.muted{color:#758079!important}@media(max-width:800px){.grid{grid-template-columns:1fr}.course-card{grid-column:span 1}}
+.student-shell{min-height:100vh;background:#f5f7f6}.student-top{background:#202824;color:#fff;padding:22px 0}.student-top .container{display:flex;align-items:center;justify-content:space-between;gap:18px}.student-brand{font-weight:800}.logout{border:1px solid rgba(255,255,255,.25);background:transparent;color:#fff;border-radius:9px;padding:9px 15px;cursor:pointer}.student-main{padding:42px 0}.welcome{margin-bottom:28px}.welcome .eyebrow{color:#2e8d81}.welcome h1{margin-top:7px;font-size:clamp(26px,4vw,40px);color:#26372f}.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.card{background:#fff;border:1px solid #dce4e1;border-radius:15px;padding:24px;box-shadow:0 10px 28px rgba(27,42,35,.05)}.card h2{font-size:17px;color:#26372f;margin-bottom:9px}.card p{color:#68756f;font-size:13px;line-height:1.9}.course-card{grid-column:span 2}.course-title{font-size:20px!important}.progress{height:9px;background:#e7ecea;border-radius:20px;overflow:hidden;margin:16px 0 9px}.progress span{display:block;height:100%;width:0;background:#63b8aa;transition:width .25s ease}.course-actions{display:flex;gap:10px;margin-top:17px;flex-wrap:wrap}.course-actions a,.course-actions button{padding:10px 15px;border-radius:9px;border:1px solid #ccd8d3;background:#fff;font-weight:800;color:#29473d;cursor:pointer;text-decoration:none}.course-actions .primary{background:#29473d;color:#fff}.course-actions .disabled{opacity:.55;pointer-events:none}.course-status{display:inline-flex;padding:5px 10px;border-radius:999px;background:#edf2ef;color:#496357;font-size:12px;font-weight:800}.notice{grid-column:1/-1;background:#f8f5ed;border-right:4px solid #b38a58}.enroll-panel{grid-column:1/-1}.course-meta{display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap}.date-line{font-size:12px!important}.course-status.active{background:#e8f3ef;color:#245b4f}.course-status.completed{background:#eeeae1;color:#765d2f}.muted{color:#758079!important}@media(max-width:800px){.grid{grid-template-columns:1fr}.course-card{grid-column:span 1}}
 </style></head>
 <body class="student-shell">
 <header class="student-top"><div class="container"><div class="student-brand">زانستی کورد · پەنێڵی خوێندکار</div><button id="logout" class="logout">چوونەدەرەوە</button></div></header>
@@ -24,7 +24,7 @@
 <p id="progressText">0% ـی ڕێڕەو تەواو کراوە</p>
 <div class="course-actions"><a id="course2View" class="primary" href="course-2.html">بینینی کۆرس</a><a id="course2Learn" href="learning.html">ڕێڕەوی فێربوون</a><button id="course2Enroll" hidden>خۆتۆمارکردن لە کۆرس</button></div>
 </article>
-<article class="card notice" id="verifyNotice" hidden><h2>پشتڕاست‌کردنەوەی ئیمەیڵ</h2><p>بۆ تۆماربوون لە کۆرسەکان، سەرەتا ئیمەیڵی هەژمارەکەت پشتڕاست بکە.</p></article>
+<article class="card notice" id="verifyNotice" hidden><h2>پشتڕاست‌کردنەوەی ئیمەیڵ</h2><p>بۆ تۆماربوون لە کۆرسەکان، سەرەتا ئیمەیڵی هەژمارەکەت پشتڕاست بکە.</p><button id="resendVerify" style="padding:9px 13px;border:1px solid #ccd8d3;border-radius:9px;background:#fff;color:#29473d;font-weight:800;cursor:pointer">ناردنەوەی ئیمەیڵی پشتڕاست‌کردنەوە</button><span id="verifyMessage" class="muted"></span></article><article class="card enroll-panel" id="enrollInfo"><h2>ڕەوشی تۆماربوون</h2><p id="enrollSummary" class="muted">پشکنین...</p></article>
 </section></main>
 <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
 <script src="supabase-config.js?v=20261007-auth"></script>
@@ -53,7 +53,8 @@ else{
     const {data:enrollment,error}=await sb.from('enrollments').select('status,enrolled_at').eq('user_id',user.id).eq('course_id',cfg.id).maybeSingle();
     if(error){$(cfg.status).textContent='هەڵەی پەیوەندی بە داتابەیس.';return false;}
     const active=enrollment?.status==='active'||enrollment?.status==='completed';
-    $(cfg.status).innerHTML=active?'<span class="course-status">'+(enrollment.status==='completed'?'تەواوکراو':'تۆمارکراو')+'</span>':'هێشتا لە کۆرسەکە تۆمار نەکراویت.';
+    const statusLabel=enrollment?.status==='completed'?'تەواوکراو':active?'تۆمارکراو':'خۆتۆمار نەکراوە';
+    $(cfg.status).innerHTML='<span class="course-status '+(enrollment?.status||'')+'">'+statusLabel+'</span>'+(enrollment?.enrolled_at?'<p class="date-line">بەرواری تۆماربوون: '+new Date(enrollment.enrolled_at).toLocaleDateString('ku')+'</p>':'');
     elEnroll.hidden=active||!verified;
     elLearn.classList.toggle('disabled',!active);
     elLearn.setAttribute('aria-disabled',String(!active));
@@ -85,9 +86,13 @@ else{
   }
   await loadCourse(COURSES.c1);
   await loadCourse(COURSES.c2);
-  $('courseCount').textContent='٢';
+  const {data:enrollments}=await sb.from('enrollments').select('course_id,status,enrolled_at').eq('user_id',user.id);
+  const activeEnrollments=(enrollments||[]).filter(e=>e.status==='active'||e.status==='completed');
+  $('courseCount').textContent=String(activeEnrollments.length);
+  $('enrollSummary').textContent=activeEnrollments.length===0?'هێشتا هیچ کۆرسێکت تۆمار نەکردووە.':activeEnrollments.length===1?'١ کۆرس بە ناوی تۆ تۆمار کراوە.':activeEnrollments.length+' کۆرس بە ناوی تۆ تۆمار کراون.';
  }
  $('logout').onclick=async()=>{await sb.auth.signOut();location.href='auth.html';};
+ $('resendVerify').onclick=async()=>{const m=$('verifyMessage');m.textContent=' ناردن...';const {error}=await sb.auth.resend({type:'signup',email:currentUser.email});m.textContent=error?' ناردنەوە سەرکەوتوو نەبوو.':' ئیمەیڵی پشتڕاست‌کردنەوە نێردرا.';};
  $('profileForm').onsubmit=async e=>{e.preventDefault();const m=$('profileMessage');m.textContent='پاشەکەوت‌کردن...';const full_name=$('profileName').value.trim(),student_number=$('studentNumber').value.trim()||null;const {error}=await sb.from('profiles').update({full_name,student_number,updated_at:new Date().toISOString()}).eq('id',userId());if(error){m.textContent=error.code==='23505'?'ئەم ژمارەی خوێندکارە پێشتر بەکارهاتووە.':'پاشەکەوت‌کردن سەرکەوتوو نەبوو.';return;}await sb.auth.updateUser({data:{full_name}});m.textContent='پڕۆفایل بە سەرکەوتوویی نوێکرایەوە.';};
  function userId(){return currentUser.id;} 
  let currentUser=null;
