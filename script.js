@@ -28,6 +28,14 @@
       location.href=(path==="index.html"||!path?"auth.html":"../auth.html")+"?next="+encodeURIComponent(a.href);
       return;
     }
+    const target=(a.getAttribute("href")||"").split("?")[0].split("#")[0].split("/").pop().toLowerCase();
+    const targetIsC2=/^course-2-\d+\.html$/.test(target);
+    const courseId=targetIsC2?"phonetics-phonology-kurdik":"orthography-kurdik";
+    const {data:enrollment,error}=await sb.from("enrollments").select("status").eq("user_id",session.user.id).eq("course_id",courseId).maybeSingle();
+    if(error||!enrollment||!["active","completed"].includes(enrollment.status)){
+      location.href="../dashboard.html?enroll=required";
+      return;
+    }
     location.href=a.href;
   }
 
