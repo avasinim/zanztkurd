@@ -41,6 +41,9 @@ else{
   const {data:{session}}=await sb.auth.getSession();
   if(!session){location.replace('auth.html?next=dashboard.html');return;}
   const user=session.user; currentUser=user; const verified=!!user.email_confirmed_at;
+  const params=new URLSearchParams(location.search); const verifyRequired=params.get('verify')==='required'; const enrollRequired=params.get('enroll')==='required';
+  if(verifyRequired){$('verifyNotice').hidden=false; $('verifyNotice').querySelector('h2').textContent='پشتڕاست‌کردنەوەی ئیمەیڵ پێویستە';}
+  if(enrollRequired){$('enrollSummary').textContent='بۆ دەستپێکردنی وانە، یەکێک لە کۆرسەکانت هەڵبژێرە و لە Dashboard خۆت تۆمار بکە.';}
   $('email').textContent=user.email||'—';
   const {data:profile}=await sb.from('profiles').select('full_name,student_number').eq('id',user.id).maybeSingle();
   $('profileName').value=profile?.full_name||user.user_metadata?.full_name||'';
@@ -57,6 +60,7 @@ else{
     $(cfg.status).innerHTML='<span class="course-status '+(enrollment?.status||'')+'">'+statusLabel+'</span>'+(enrollment?.enrolled_at?'<p class="date-line">بەرواری تۆماربوون: '+new Date(enrollment.enrolled_at).toLocaleDateString('ku')+'</p>':'');
     elEnroll.hidden=active||!verified;
     elLearn.classList.toggle('disabled',!active);
+    elLearn.setAttribute('href',cfg.id==='orthography-kurdik'?'learning.html?course=1':'learning.html?course=2');
     elLearn.setAttribute('aria-disabled',String(!active));
     elEnroll.onclick=async()=>{
       elEnroll.disabled=true;
