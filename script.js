@@ -1,3 +1,50 @@
+/* ===== Avasin access gate — lesson links =====
+   Lesson content is not publicly enterable from homepage/catalog/search.
+   Unauthenticated users are sent to the auth flow before navigation. */
+(function(){
+  const path=(location.pathname.split("/").pop()||"").toLowerCase();
+  const isLesson=/^(0\d|[1-5]\d)\.html$/.test(path)||/^course-2-\d+\.html$/.test(path);
+  if(isLesson){
+    document.documentElement.style.visibility="hidden";
+  }
+
+  function isProtectedLessonTarget(href){
+    const target=(href||"").split("?")[0].split("#")[0].split("/").pop().toLowerCase();
+    return /^(0\d|[1-5]\d)\.html$/.test(target)||/^course-2-\d+\.html$/.test(target);
+  }
+
+  async function allowOrRedirect(ev,a){
+    if(!isProtectedLessonTarget(a.getAttribute("href"))) return;
+    if(!window.supabase?.createClient || !window.ZANSTI_SUPABASE?.ready){
+      ev.preventDefault();
+      location.href=(path==="index.html"||!path?"auth.html":"../auth.html")+"?next="+encodeURIComponent(a.href);
+      return;
+    }
+    ev.preventDefault();
+    ev.stopImmediatePropagation();
+    const sb=supabase.createClient(ZANSTI_SUPABASE.url,ZANSTI_SUPABASE.publishableKey);
+    const {data:{session}}=await sb.auth.getSession();
+    if(!session){
+      location.href=(path==="index.html"||!path?"auth.html":"../auth.html")+"?next="+encodeURIComponent(a.href);
+      return;
+    }
+    location.href=a.href;
+  }
+
+  document.addEventListener("click",function(ev){
+    const a=ev.target.closest&&ev.target.closest("a[href]");
+    if(a) allowOrRedirect(ev,a);
+  },true);
+
+  if(isLesson){
+    const reveal=function(){
+      document.documentElement.style.visibility="";
+    };
+    window.addEventListener("pageshow",reveal,{once:true});
+    setTimeout(reveal,12000);
+  }
+})();
+
 /* ===== Avasin Standard — Lesson Copy Protection =====
    Prevent casual copying of lesson content. This is a browser-side deterrent,
    not DRM: determined users can still access delivered HTML/source. */
