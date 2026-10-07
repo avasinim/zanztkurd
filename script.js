@@ -850,7 +850,7 @@ document.querySelectorAll('a[href="#"]').forEach(a=>{
         localStorage.setItem("lesson-completed:course-2:"+(index+1),"true");
         localStorage.setItem("lesson-progress:course-2:"+(index+1),"completed");
       }else{
-        const COURSE1_LESSON_ENDS={16:17,17:18,24:19,30:20,31:21,32:22,33:23,34:24,40:25,41:26};
+        const COURSE1_LESSON_ENDS={17:18,18:19,19:20,20:21,27:22,33:23,34:24,40:25,41:26};
         const learnerLesson=COURSE1_LESSON_ENDS[index];
         if(learnerLesson){
           localStorage.setItem("lesson-completed:course-current:"+learnerLesson,"true");
