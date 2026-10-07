@@ -66,7 +66,7 @@ returns public.enrollments
 language plpgsql
 security definer
 set search_path=public,pg_temp
-as $
+as $$
 declare result_row public.enrollments;
 begin
   if auth.uid() is null then raise exception 'AUTH_REQUIRED'; end if;
@@ -114,12 +114,12 @@ create or replace function public.protect_student_number() returns trigger
 language plpgsql
 security definer
 set search_path=public,pg_temp
-as $
+as $$
 begin
   new.student_number := old.student_number;
   return new;
 end;
-$;
+$$;
 
 drop trigger if exists protect_student_number on public.profiles;
 create trigger protect_student_number
@@ -238,13 +238,13 @@ language sql
 stable
 security definer
 set search_path=public,auth
-as $
+as $$
   select exists(
     select 1 from public.site_owners o
     where o.user_id=auth.uid()
   )
   or lower(coalesce(auth.email(),'')) = lower('jakawsabir@gmail.com');
-$;
+$$;
 
 revoke all on function public.is_site_owner() from public;
 grant execute on function public.is_site_owner() to authenticated;
