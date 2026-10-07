@@ -52,7 +52,13 @@ drop policy if exists "progress own update" on public.lesson_progress;
 
 create policy "profiles own read" on public.profiles for select using(auth.uid()=id);
 create policy "profiles own insert" on public.profiles for insert with check(auth.uid()=id);
-create policy "profiles own update" on public.profiles for update using(auth.uid()=id) with check(auth.uid()=id);
+drop policy if exists "profiles own update" on public.profiles;
+create policy "profiles own update" on public.profiles for update
+using(auth.uid()=id)
+with check(
+  auth.uid()=id
+  and student_number = (select p.student_number from public.profiles p where p.id=auth.uid())
+);
 create policy "courses public read" on public.courses for select using(true);
 create policy "enrollments own read" on public.enrollments for select using(auth.uid()=user_id);
 create policy "progress own read" on public.lesson_progress for select using(auth.uid()=user_id);
@@ -86,14 +92,18 @@ grant execute on function public.enroll_in_course(text) to authenticated;
 
 create or replace function public.handle_new_user() returns trigger
 language plpgsql security definer set search_path=public
-as $$
+as $
+declare
+  generated_student_number text;
 begin
-  insert into public.profiles(id,full_name)
-  values(new.id,coalesce(new.raw_user_meta_data->>'full_name',''))
+  generated_student_number := 'AK-' || to_char(now(),'YYYY') || '-' ||
+    upper(substr(replace(new.id::text,'-',''),1,6));
+  insert into public.profiles(id,full_name,student_number)
+  values(new.id,coalesce(new.raw_user_meta_data->>'full_name',''),generated_student_number)
   on conflict(id) do nothing;
   return new;
 end;
-$$;
+$;
 drop trigger if exists on_auth_user_created on auth.users;
 create trigger on_auth_user_created after insert on auth.users for each row execute procedure public.handle_new_user();
 
