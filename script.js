@@ -783,3 +783,66 @@ document.querySelectorAll('a[href="#"]').forEach(a=>{
   }
   lessonGate();navGate();learningGate();
 })();
+
+
+/* ===== Supabase account + enrollment guard / server progress =====
+   Browser pages remain static, while access and progress are tied to the
+   authenticated Supabase user. Local sequential gates remain as UI fallback. */
+(function(){
+  if(!window.ZANSTI_SUPABASE?.ready)return;
+  const path=(location.pathname.split("/").pop()||"").toLowerCase();
+  const isC2=/^course-2-\d+\.html$/.test(path);
+  const isC1=/^(0\d|[1-5]\d)\.html$/.test(path);
+  if(!isC1&&!isC2)return;
+  const courseId=isC2?"phonetics-phonology-kurdik":"orthography-kurdik";
+  const sb=supabase.createClient(ZANSTI_SUPABASE.url,ZANSTI_SUPABASE.publishableKey);
+
+  (async function guard(){
+    const {data:{session}}=await sb.auth.getSession();
+    if(!session){location.replace("../auth.html?next="+encodeURIComponent(location.pathname));return;}
+    if(!session.user.email_confirmed_at){location.replace("../dashboard.html?verify=required");return;}
+    const {data,error}=await sb.from("enrollments").select("status").eq("user_id",session.user.id).eq("course_id",courseId).maybeSingle();
+    if(error||!data||!["active","completed"].includes(data.status)){
+      location.replace("../dashboard.html?enroll=required");
+    }
+  })();
+
+  document.addEventListener("click",async function(ev){
+    const button=ev.target.closest&&ev.target.closest(".course1-complete-btn,.course2-complete-btn");
+    if(!button||button.disabled)return;
+    ev.preventDefault();
+    ev.stopImmediatePropagation();
+    button.disabled=true;
+    const {data:{session}}=await sb.auth.getSession();
+    if(!session||!session.user.email_confirmed_at){location.replace("../auth.html?next="+encodeURIComponent(location.pathname));return;}
+    const {error:enrollError}=await sb.from("enrollments").select("status").eq("user_id",session.user.id).eq("course_id",courseId).maybeSingle();
+    if(enrollError){button.disabled=false;return;}
+    const {data:enroll}=await sb.from("enrollments").select("status").eq("user_id",session.user.id).eq("course_id",courseId).maybeSingle();
+    if(!enroll||!["active","completed"].includes(enroll.status)){location.replace("../dashboard.html?enroll=required");return;}
+    const {error}=await sb.from("lesson_progress").upsert({
+      user_id:session.user.id,course_id:courseId,lesson_key:path,completed_at:new Date().toISOString()
+    },{onConflict:"user_id,course_id,lesson_key"});
+    if(error){
+      button.disabled=false;
+      button.textContent="دووبارە هەوڵ بدە";
+      return;
+    }
+    const storage=isC2?"zanztkurd_course2_completed_v2":"zanztkurd_course1_completed_v2";
+    const files=isC2?Array.from({length:25},(_,i)=>"course-2-"+String(i+1).padStart(2,"0")+".html"):["017.html","018.html","019.html","020.html","021.html","022.html","023.html","024.html","025.html","026.html","027.html","028.html","029.html","030.html","031.html","032.html","033.html","034.html","035.html","036.html","037.html","038.html","039.html","040.html","041.html","042.html","043.html","044.html","046.html","047.html","048.html","049.html","050.html","051.html","045.html","052.html","053.html","054.html","055.html","056.html","057.html","058.html"];
+    const index=files.indexOf(path);
+    try{
+      const done=new Set(JSON.parse(localStorage.getItem(storage)||"[]").map(Number));
+      if(index>=0)done.add(index);
+      localStorage.setItem(storage,JSON.stringify([...done].sort((a,b)=>a-b)));
+    }catch(e){}
+    button.textContent="✓ تەواوکراوە";
+    const next=index+1<files.length?files[index+1]:null;
+    const gate=button.closest(".course1-gate,.course2-gate");
+    if(gate){
+      const h=gate.querySelector("h3"),p=gate.querySelector("p");
+      if(h)h.textContent="وانەکە بە سەرکەوتوویی تەواو کرا.";
+      if(p)p.textContent=next?"وانەی دواتر ئێستا کراوەتەوە.":"هەمو وانەکانی ئەم کۆرسە تەواو کراون.";
+    }
+    if(next)setTimeout(()=>location.href=next,650);
+  },true);
+})();
