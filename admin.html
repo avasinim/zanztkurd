@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="ckb" dir="rtl">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>پەنێڵی بەڕێوبەرایەتی | ئاڤاشین</title>
+<link rel="stylesheet" href="style.css">
+<style>
+:root{--ink:#202824;--paper:#f3f1ea;--gold:#b38a58;--green:#536a57;--line:rgba(32,37,34,.11)}
+.admin-shell{min-height:100vh;background:var(--paper);color:var(--ink)}
+.admin-top{background:#202824;color:#f4f2ec;padding:18px 0;position:sticky;top:0;z-index:20;box-shadow:0 8px 25px rgba(0,0,0,.12)}
+.admin-top .container{display:flex;align-items:center;justify-content:space-between;gap:18px}
+.admin-brand{display:flex;align-items:center;gap:12px}.admin-mark{width:40px;height:40px;border:1px solid rgba(211,171,117,.65);border-radius:50%;display:grid;place-items:center;color:#d3ab75;font-weight:800}.admin-brand strong{display:block;color:#ead9bd}.admin-brand small{display:block;margin-top:3px;color:rgba(244,242,236,.48);font-size:10px}
+.admin-actions{display:flex;gap:8px;flex-wrap:wrap}.admin-actions a,.admin-actions button{border:1px solid rgba(255,255,255,.18);background:transparent;color:#f4f2ec;border-radius:9px;padding:9px 13px;text-decoration:none;cursor:pointer;font:inherit;font-weight:750}
+.admin-main{padding:38px 0 80px}.admin-hero{display:flex;justify-content:space-between;gap:24px;align-items:end;margin-bottom:22px}.eyebrow{color:var(--green);font-weight:800;font-size:.78rem}.admin-hero h1{margin:7px 0 5px;font-size:clamp(2rem,4vw,3.2rem)}.admin-hero p{margin:0;color:#6d766f;line-height:1.8}
+.owner-badge{padding:12px 16px;border:1px solid rgba(179,138,88,.3);border-right:4px solid var(--gold);background:#fbf8f1;border-radius:14px;font-weight:800;color:#655039;white-space:nowrap}
+.admin-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin-bottom:20px}.stat{background:#fff;border:1px solid var(--line);border-radius:16px;padding:19px;box-shadow:0 10px 28px rgba(32,37,34,.045)}.stat .num{font-size:1.8rem;font-weight:900}.stat small{display:block;color:#717a73;margin-top:5px}
+.admin-layout{display:grid;grid-template-columns:minmax(0,1.7fr) minmax(260px,.5fr);gap:18px}.panel{background:#fff;border:1px solid var(--line);border-radius:20px;box-shadow:0 14px 35px rgba(32,37,34,.05);overflow:hidden}.panel-head{padding:20px 22px;border-bottom:1px solid var(--line);display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap}.panel-head h2{margin:0;font-size:1.15rem}.toolbar{display:flex;gap:8px;flex-wrap:wrap}.toolbar input,.toolbar select{padding:9px 11px;border:1px solid #d3dad5;border-radius:9px;background:#fff;font:inherit}.toolbar button{padding:9px 12px;border:1px solid #ccd8d3;border-radius:9px;background:#29473d;color:#fff;font:inherit;font-weight:800;cursor:pointer}
+.table-wrap{overflow:auto}.admin-table{width:100%;border-collapse:collapse;min-width:720px}.admin-table th,.admin-table td{padding:12px 14px;border-bottom:1px solid rgba(32,37,34,.07);text-align:right;vertical-align:middle}.admin-table th{font-size:.76rem;color:#69736d;background:#fbfaf6}.admin-table td{font-size:.84rem}.admin-table tr:last-child td{border-bottom:0}.status{display:inline-flex;padding:4px 8px;border-radius:999px;font-size:.72rem;font-weight:800;background:#edf1e9;color:#4f6553}.status.completed{background:#eeeae1;color:#765d2f}.status.cancelled{background:#f2e9e6;color:#7b5148}
+.action-select{padding:6px 8px;border:1px solid #ccd8d3;border-radius:8px;background:#fff;font:inherit;font-size:.76rem}.mini-btn{padding:6px 9px;border:1px solid #ccd8d3;border-radius:8px;background:#fff;color:#385247;font:inherit;font-size:.75rem;font-weight:800;cursor:pointer}
+.side-panel{padding:20px}.side-panel h3{margin:0 0 15px}.side-item{padding:13px 0;border-bottom:1px solid rgba(32,37,34,.07)}.side-item:last-child{border-bottom:0}.side-item strong{display:block;margin-bottom:4px}.side-item span{color:#727b74;font-size:.8rem;line-height:1.8}
+.message{padding:12px 15px;border-radius:11px;background:#f7f3ea;color:#6a563b;margin-bottom:16px;display:none}.loading{padding:28px;text-align:center;color:#737c75}.empty{padding:28px;text-align:center;color:#737c75}
+.tabs{display:flex;gap:7px;flex-wrap:wrap;padding:0 22px 15px}.tab{border:1px solid #d2dad5;background:#fff;color:#56655d;border-radius:9px;padding:8px 12px;font:inherit;font-weight:800;cursor:pointer}.tab.active{background:#29473d;color:#fff;border-color:#29473d}
+@media(max-width:900px){.admin-grid{grid-template-columns:repeat(2,1fr)}.admin-layout{grid-template-columns:1fr}.admin-hero{align-items:start;flex-direction:column}}
+@media(max-width:520px){.admin-grid{grid-template-columns:1fr 1fr}.admin-main{padding-top:28px}.admin-top .container{align-items:flex-start}.owner-badge{white-space:normal}}
+</style>
+</head>
+<body class="admin-shell">
+<header class="admin-top"><div class="container">
+<div class="admin-brand"><span class="admin-mark">A</span><div><strong>ئەکادێمیای ئاڤاشین</strong><small>OWNER · ADMINISTRATION</small></div></div>
+<div class="admin-actions"><a href="dashboard.html">پەنێڵی خوێندکار</a><a href="index.html">ماڵپەڕ</a><button id="logout">چوونەدەرەوە</button></div>
+</div></header>
+<main class="admin-main container">
+<section class="admin-hero"><div><span class="eyebrow">Avasin Owner Console</span><h1>پەنێڵی بەڕێوبەرایەتی</h1><p>کۆنترۆڵی هەژمارەکان، تۆماربوون، پێشکەوتن و دۆخی دەورەکان لە یەک شوێن.</p></div><div class="owner-badge">👑 خاوەنی ماڵپەڕ · Owner</div></section>
+<div id="message" class="message"></div>
+<section class="admin-grid">
+<div class="stat"><div class="num" id="usersCount">—</div><small>کۆی بەکارهێنەران</small></div>
+<div class="stat"><div class="num" id="enrollCount">—</div><small>تۆماربوونی چالاک</small></div>
+<div class="stat"><div class="num" id="doneCount">—</div><small>پێشکەوتنی تەواوکراو</small></div>
+<div class="stat"><div class="num" id="coursesCount">٢</div><small>دەورەی چالاک</small></div>
+</section>
+<section class="admin-layout">
+<div class="panel">
+<div class="panel-head"><h2>بەڕێوەبردنی هەژمار و تۆماربوون</h2><div class="toolbar"><input id="search" type="search" placeholder="گەڕان بە ناو یان ئیمەیڵ..."><button id="refresh">نوێکردنەوە</button></div></div>
+<div class="tabs"><button class="tab active" data-tab="users">بەکارهێنەران</button><button class="tab" data-tab="enrollments">تۆماربوونەکان</button><button class="tab" data-tab="progress">پێشکەوتن</button></div>
+<div id="content"><div class="loading">داتا بار دەکرێت...</div></div>
+</div>
+<aside class="panel side-panel"><h3>کردارەکانی Owner</h3>
+<div class="side-item"><strong>هەژمارەکان</strong><span>بینینی ناو، ئیمەیڵ، ژمارەی خوێندکار و دۆخی پشتڕاست‌کردنەوە.</span></div>
+<div class="side-item"><strong>تۆماربوون</strong><span>چالاککردن یان تەواوکراوکردنی تۆماربوونی خوێندکاران.</span></div>
+<div class="side-item"><strong>پێشکەوتن</strong><span>بینینی کۆی وانە تەواوکراوەکان بۆ هەر خوێندکار و دەورە.</span></div>
+<div class="side-item"><strong>پاراستن</strong><span>تەنیا Owner ـی پشتڕاستکراو دەتوانێت ئەم پەنێڵە بەکاربهێنێت.</span></div>
+</aside>
+</section>
+</main>
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+<script src="supabase-config.js?v=20261007-admin"></script>
+<script>
+(async()=>{
+const $=id=>document.getElementById(id), ar=n=>String(n??0).replace(/\d/g,d=>'٠١٢٣٤٥٦٧٨٩'[d]);
+const msg=(t)=>{const e=$('message');e.textContent=t;e.style.display='block'};
+if(!window.ZANSTI_SUPABASE?.ready){msg('پەیوەندی بە backend ئامادە نییە.');return}
+const sb=supabase.createClient(ZANSTI_SUPABASE.url,ZANSTI_SUPABASE.publishableKey);
+const {data:{session}}=await sb.auth.getSession();
+if(!session){location.replace('auth.html?next=admin.html');return}
+const owner=await sb.rpc('is_site_owner');
+if(owner.error||owner.data!==true){document.body.innerHTML='<main style="min-height:100vh;display:grid;place-items:center;padding:30px;background:#f3f1ea;font-family:system-ui;text-align:center"><div><h1>دەستگەیشتن ڕەتکرایەوە</h1><p>ئەم پەنێڵە تەنیا بۆ خاوەنی ماڵپەڕە.</p><a href="dashboard.html">گەڕانەوە</a></div></main>';return}
+let tab='users', users=[], enrollments=[], progress=[];
+async function load(){
+ $('content').innerHTML='<div class="loading">داتا نوێ دەکرێتەوە...</div>';
+ const [u,e,p]=await Promise.all([sb.rpc('admin_list_users'),sb.rpc('admin_list_enrollments'),sb.rpc('admin_list_progress')]);
+ if(u.error||e.error||p.error){msg((u.error||e.error||p.error)?.message||'نەتوانرا داتا بخوێندرێتەوە.');return}
+ users=u.data||[];enrollments=e.data||[];progress=p.data||[];
+ $('usersCount').textContent=ar(users.length);
+ $('enrollCount').textContent=ar(enrollments.filter(x=>['active','completed'].includes(x.status)).length);
+ $('doneCount').textContent=ar(progress.reduce((s,x)=>s+Number(x.completed_count||0),0));
+ render();
+}
+function esc(s){return String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]))}
+function status(s){return '<span class="status '+esc(s)+'">'+esc(s==='active'?'چالاک':s==='completed'?'تەواوکراو':s==='cancelled'?'هەڵوەشێنراوە':s||'—')+'</span>'}
+function render(){
+ const q=$('search').value.trim().toLowerCase();
+ if(tab==='users'){
+  const rows=users.filter(x=>[x.full_name,x.email,x.student_number].join(' ').toLowerCase().includes(q));
+  $('content').innerHTML=rows.length?'<div class="table-wrap"><table class="admin-table"><thead><tr><th>ناو</th><th>ئیمەیڵ</th><th>ژمارە</th><th>ئیمەیڵ</th><th>بەروار</th></tr></thead><tbody>'+rows.map(x=>'<tr><td><strong>'+esc(x.full_name||'بێ‌ناو')+'</strong></td><td>'+esc(x.email)+'</td><td>'+esc(x.student_number||'—')+'</td><td>'+ (x.email_confirmed?'پشتڕاستکراوە':'پشتڕاست نەکراوە')+'</td><td>'+esc(x.created_at?new Date(x.created_at).toLocaleDateString('ku'): '—')+'</td></tr>').join('')+'</tbody></table></div>':'<div class="empty">هیچ هەژمارێک نەدۆزرایەوە.</div>';
+ }else if(tab==='enrollments'){
+  const rows=enrollments.filter(x=>[x.full_name,x.email,x.course_name,x.status].join(' ').toLowerCase().includes(q));
+  $('content').innerHTML=rows.length?'<div class="table-wrap"><table class="admin-table"><thead><tr><th>خوێندکار</th><th>دەورە</th><th>دۆخ</th><th>تۆماربوون</th><th>کردار</th></tr></thead><tbody>'+rows.map(x=>'<tr><td><strong>'+esc(x.full_name||'بێ‌ناو')+'</strong><br><small>'+esc(x.email)+'</small></td><td>'+esc(x.course_name)+'</td><td>'+status(x.status)+'</td><td>'+esc(x.enrolled_at?new Date(x.enrolled_at).toLocaleDateString('ku'):'—')+'</td><td><select class="action-select" data-user="'+esc(x.user_id)+'" data-course="'+esc(x.course_id)+'"><option value="">گۆڕین...</option><option value="active">چالاک</option><option value="completed">تەواوکراو</option></select></td></tr>').join('')+'</tbody></table></div>':'<div class="empty">هیچ تۆماربوونێک نەدۆزرایەوە.</div>';
+  document.querySelectorAll('.action-select').forEach(s=>s.onchange=async()=>{if(!s.value)return;const {error}=await sb.rpc('admin_set_enrollment_status',{p_user_id:s.dataset.user,p_course_id:s.dataset.course,p_status:s.value});if(error){msg(error.message);s.value='';return}await load()});
+ }else{
+  const rows=progress.filter(x=>[x.full_name,x.email,x.course_name].join(' ').toLowerCase().includes(q));
+  $('content').innerHTML=rows.length?'<div class="table-wrap"><table class="admin-table"><thead><tr><th>خوێندکار</th><th>دەورە</th><th>تەواوکراو</th><th>دوایین وانە</th><th>دوایین کات</th></tr></thead><tbody>'+rows.map(x=>'<tr><td><strong>'+esc(x.full_name||'بێ‌ناو')+'</strong><br><small>'+esc(x.email)+'</small></td><td>'+esc(x.course_name)+'</td><td>'+ar(x.completed_count)+'</td><td>'+esc(x.last_lesson||'—')+'</td><td>'+esc(x.last_completed_at?new Date(x.last_completed_at).toLocaleString('ku'):'—')+'</td></tr>').join('')+'</tbody></table></div>':'<div class="empty">هیچ پێشکەوتنێک نەدۆزرایەوە.</div>';
+ }
+}
+document.querySelectorAll('.tab').forEach(b=>b.onclick=()=>{document.querySelectorAll('.tab').forEach(x=>x.classList.remove('active'));b.classList.add('active');tab=b.dataset.tab;render()});
+$('search').oninput=render;$('refresh').onclick=load;$('logout').onclick=async()=>{await sb.auth.signOut();location.href='auth.html'};await load();
+})();
+</script>
+</body></html>
