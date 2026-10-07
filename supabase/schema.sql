@@ -101,3 +101,75 @@ create trigger on_auth_user_created after insert on auth.users for each row exec
 -- The application only writes the authenticated user's own rows.
 create policy "progress own insert" on public.lesson_progress for insert with check(auth.uid()=user_id);
 create policy "progress own update" on public.lesson_progress for update using(auth.uid()=user_id) with check(auth.uid()=user_id);
+
+-- Secure lesson completion: validates enrollment, writes progress, and
+-- automatically marks the enrollment completed when the course is finished.
+create or replace function public.complete_lesson(p_course_id text,p_lesson_key text)
+returns jsonb
+language plpgsql
+security definer
+set search_path=public,auth
+as $$
+declare
+  uid uuid := auth.uid();
+  total_count integer;
+  completed_count integer;
+  valid_lesson boolean := false;
+  new_status text := 'active';
+begin
+  if uid is null then raise exception 'AUTH_REQUIRED'; end if;
+  if not exists(select 1 from auth.users u where u.id=uid and u.email_confirmed_at is not null) then
+    raise exception 'EMAIL_NOT_VERIFIED';
+  end if;
+
+  if p_course_id='phonetics-phonology-kurdik' then
+    valid_lesson := p_lesson_key = any(array[
+      'course-2-01.html','course-2-02.html','course-2-03.html','course-2-04.html','course-2-05.html',
+      'course-2-06.html','course-2-07.html','course-2-08.html','course-2-09.html','course-2-10.html',
+      'course-2-11.html','course-2-12.html','course-2-13.html','course-2-14.html','course-2-15.html',
+      'course-2-16.html','course-2-17.html','course-2-18.html','course-2-19.html','course-2-20.html',
+      'course-2-21.html','course-2-22.html','course-2-23.html','course-2-24.html','course-2-25.html'
+    ]);
+  elsif p_course_id='orthography-kurdik' then
+    valid_lesson := p_lesson_key = any(array[
+      '017.html','018.html','019.html','020.html','021.html','022.html','023.html','024.html',
+      '025.html','026.html','027.html','028.html','029.html','030.html','031.html','032.html',
+      '033.html','034.html','035.html','036.html','037.html','038.html','039.html','040.html',
+      '041.html','042.html','043.html','044.html','045.html','046.html','047.html','048.html',
+      '049.html','050.html','051.html','052.html','053.html','054.html','055.html','056.html',
+      '057.html','058.html'
+    ]);
+  end if;
+  if not valid_lesson then raise exception 'INVALID_LESSON'; end if;
+
+  if not exists(select 1 from public.enrollments e
+    where e.user_id=uid and e.course_id=p_course_id and e.status in ('active','completed')) then
+    raise exception 'NOT_ENROLLED';
+  end if;
+
+  insert into public.lesson_progress(user_id,course_id,lesson_key,completed_at)
+  values(uid,p_course_id,p_lesson_key,now())
+  on conflict(user_id,course_id,lesson_key) do update set completed_at=excluded.completed_at;
+
+  select c.total_lessons into total_count from public.courses c where c.id=p_course_id;
+  select count(*) into completed_count from public.lesson_progress lp
+    where lp.user_id=uid and lp.course_id=p_course_id;
+
+  if completed_count >= total_count then
+    new_status := 'completed';
+    update public.enrollments
+      set status='completed', completed_at=coalesce(completed_at,now())
+      where user_id=uid and course_id=p_course_id;
+  end if;
+
+  return jsonb_build_object(
+    'status',new_status,
+    'completed_count',completed_count,
+    'total_lessons',total_count,
+    'course_completed',(new_status='completed')
+  );
+end;
+$$;
+
+revoke all on function public.complete_lesson(text,text) from public;
+grant execute on function public.complete_lesson(text,text) to authenticated;
