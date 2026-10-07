@@ -27,18 +27,19 @@
     return !error && !!data && ["active","completed"].includes(data.status);
   }
   async function allowOrRedirect(ev,a){
-    if(!isProtectedLessonTarget(a.getAttribute("href"))) return;
+    const rawHref=a.getAttribute("href")||a.getAttribute("data-lesson-href");
+    if(!isProtectedLessonTarget(rawHref)) return;
     ev.preventDefault();
     ev.stopImmediatePropagation();
     const got=await getSession();
     if(!got?.session){location.href=authUrl(a.href);return;}
-    const target=targetOf(a.getAttribute("href"));
+    const target=targetOf(rawHref);
     const courseId=/^course-2-\d+\.html$/.test(target)?"phonetics-phonology-kurdik":"orthography-kurdik";
     if(!await hasEnrollment(got.sb,got.session.user.id,courseId)){
       location.href="../dashboard.html?enroll=required";
       return;
     }
-    location.href=a.href;
+    location.href=a.getAttribute("href")||a.getAttribute("data-lesson-href");
   }
 
   document.addEventListener("click",function(ev){
@@ -56,6 +57,10 @@
       hasEnrollment(got.sb,got.session.user.id,"phonetics-phonology-kurdik")
     ]);
     if(!c1&&!c2){location.replace("../dashboard.html?enroll=required");return;}
+    document.querySelectorAll("[data-lesson-href]").forEach(function(a){
+      a.setAttribute("href",a.getAttribute("data-lesson-href"));
+      a.removeAttribute("data-lesson-href");
+    });
     document.documentElement.style.visibility="";
   })();
 })();
