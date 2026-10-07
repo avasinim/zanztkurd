@@ -32,7 +32,7 @@
 if(!window.ZANSTI_SUPABASE?.ready){document.getElementById('status').textContent='backend هێشتا چالاک نەکراوە.';}
 else{
  const sb=supabase.createClient(ZANSTI_SUPABASE.url,ZANSTI_SUPABASE.publishableKey);
- const authCallback=location.origin+'/auth.html?mode=verified';
+ const siteBase=new URL('./',location.href);\n const authCallback=new URL('auth.html?mode=verified',siteBase).href;
  const COURSES={
   c1:{id:'orthography-kurdik',total:26,status:'course1Status',bar:'course1Bar',text:'course1Text',enroll:'course1Enroll',learn:'course1Learn'},
   c2:{id:'phonetics-phonology-kurdik',total:25,status:'course2Status',bar:'progressBar',text:'progressText',enroll:'course2Enroll',learn:'course2Learn'}
