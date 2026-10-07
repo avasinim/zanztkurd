@@ -126,4 +126,40 @@ body.content-page{--ink:#17231f;--muted:#65716b;--green:#315344;--green2:#476b59
   const intro=document.querySelector('.learning-intro');
   if(intro)intro.appendChild(back);
 })();
+</script><script>
+/* ===== Learning portal access gate =====
+   The learning portal is private: authentication, verified email,
+   and course enrollment are required before showing lesson routes. */
+(function(){
+  const params=new URLSearchParams(location.search);
+  const course=params.get('course');
+  if(course!=='1'&&course!=='2')return;
+  const authUrl='auth.html?next='+encodeURIComponent(location.pathname+location.search);
+  if(!window.ZANSTI_SUPABASE?.ready){
+    location.replace(authUrl);
+    return;
+  }
+  if(!window.supabase?.createClient){
+    location.replace(authUrl);
+    return;
+  }
+  const sb=supabase.createClient(ZANSTI_SUPABASE.url,ZANSTI_SUPABASE.publishableKey);
+  (async function(){
+    const {data:{session}}=await sb.auth.getSession();
+    if(!session){location.replace(authUrl);return;}
+    if(!session.user.email_confirmed_at){
+      location.replace('dashboard.html?verify=required');
+      return;
+    }
+    const courseId=course==='1'?'orthography-kurdik':'phonetics-phonology-kurdik';
+    const {data,error}=await sb.from('enrollments')
+      .select('status')
+      .eq('user_id',session.user.id)
+      .eq('course_id',courseId)
+      .maybeSingle();
+    if(error||!data||!['active','completed'].includes(data.status)){
+      location.replace('dashboard.html?enroll=required');
+    }
+  })();
+})();
 </script><!-- zanztkurd-learning-sync-23 --></body></html>
