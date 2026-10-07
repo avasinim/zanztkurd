@@ -29,13 +29,15 @@ const msg=(t)=>{const e=document.getElementById('authMessage');e.textContent=t;e
 const tabs=document.querySelectorAll('.auth-tab');tabs.forEach(t=>t.onclick=()=>{tabs.forEach(x=>x.classList.remove('active'));t.classList.add('active');document.getElementById('loginForm').classList.toggle('hidden',t.dataset.mode!=='login');document.getElementById('registerForm').classList.toggle('hidden',t.dataset.mode!=='register');document.getElementById('recoveryForm').classList.add('hidden');document.getElementById('authMessage').style.display='none'});
 if(!window.ZANSTI_SUPABASE?.ready){msg('سیستەمی هەژمار هێشتا پەیوەندی بە backend ـەوە نیە. Project URL و Publishable key دابین بکە.')}
 else{const sb=window.supabase.createClient(ZANSTI_SUPABASE.url,ZANSTI_SUPABASE.publishableKey);
+const siteBase=new URL('./',location.href);
 let nextUrl=new URLSearchParams(location.search).get('next')||'dashboard.html';
 try{
   const u=new URL(nextUrl,location.href);
+  const basePath=siteBase.pathname;
   const sameOrigin=u.origin===location.origin;
-  const localPath=u.pathname.startsWith('/')&&!u.pathname.startsWith('//');
-  nextUrl=sameOrigin&&localPath?(u.pathname.replace(/^\//,'')+(u.search||'')+(u.hash||'')):'dashboard.html';
-}catch(_){nextUrl='dashboard.html';}
+  const sameSite=u.pathname===basePath || u.pathname.startsWith(basePath);
+  nextUrl=sameOrigin&&sameSite?u.href:new URL('dashboard.html',siteBase).href;
+}catch(_){nextUrl=new URL('dashboard.html',siteBase).href;}
 const authParams=new URLSearchParams(location.search);
 const recoveryMode=authParams.get('mode')==='recovery';
 const verifiedMode=authParams.get('mode')==='verified';
