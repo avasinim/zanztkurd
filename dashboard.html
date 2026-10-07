@@ -32,6 +32,7 @@
 if(!window.ZANSTI_SUPABASE?.ready){document.getElementById('status').textContent='backend هێشتا چالاک نەکراوە.';}
 else{
  const sb=supabase.createClient(ZANSTI_SUPABASE.url,ZANSTI_SUPABASE.publishableKey);
+ const authCallback=location.origin+'/auth.html?mode=verified';
  const COURSES={
   c1:{id:'orthography-kurdik',total:26,status:'course1Status',bar:'course1Bar',text:'course1Text',enroll:'course1Enroll',learn:'course1Learn'},
   c2:{id:'phonetics-phonology-kurdik',total:25,status:'course2Status',bar:'progressBar',text:'progressText',enroll:'course2Enroll',learn:'course2Learn'}
@@ -97,7 +98,7 @@ else{
  }
  $('logout').onclick=async()=>{await sb.auth.signOut();location.href='auth.html';};
  $('resendVerify').onclick=async()=>{const m=$('verifyMessage');m.textContent=' ناردن...';const {error}=await sb.auth.resend({type:'signup',email:currentUser.email});m.textContent=error?' ناردنەوە سەرکەوتوو نەبوو.':' ئیمەیڵی پشتڕاست‌کردنەوە نێردرا.';};
- $('profileForm').onsubmit=async e=>{e.preventDefault();const m=$('profileMessage');m.textContent='پاشەکەوت‌کردن...';const full_name=$('profileName').value.trim(),student_number=$('studentNumber').value.trim()||null;const {error}=await sb.from('profiles').update({full_name,student_number,updated_at:new Date().toISOString()}).eq('id',userId());if(error){m.textContent=error.code==='23505'?'ئەم ژمارەی خوێندکارە پێشتر بەکارهاتووە.':'پاشەکەوت‌کردن سەرکەوتوو نەبوو.';return;}await sb.auth.updateUser({data:{full_name}});m.textContent='پڕۆفایل بە سەرکەوتوویی نوێکرایەوە.';};
+ $('profileForm').onsubmit=async e=>{e.preventDefault();const m=$('profileMessage');m.textContent='پاشەکەوت‌کردن...';const full_name=$('profileName').value.trim();const {error}=await sb.from('profiles').update({full_name,updated_at:new Date().toISOString()}).eq('id',userId());if(error){m.textContent=error.code==='23505'?'ئەم ژمارەی خوێندکارە پێشتر بەکارهاتووە.':'پاشەکەوت‌کردن سەرکەوتوو نەبوو.';return;}await sb.auth.updateUser({data:{full_name}});m.textContent='پڕۆفایل بە سەرکەوتوویی نوێکرایەوە.';};
  function userId(){return currentUser.id;} 
  let currentUser=null;
  load();
