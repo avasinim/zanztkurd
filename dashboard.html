@@ -10,7 +10,7 @@
 <main class="student-main container">
 <div class="welcome"><div class="eyebrow"><span></span> Student Dashboard</div><h1 id="welcome">پەنێڵی خوێندکار</h1></div>
 <section class="grid">
-<article class="card"><h2>پڕۆفایل</h2><p id="email">...</p></article>
+<article class="card"><h2>پڕۆفایل</h2><p id="email">...</p><form id="profileForm" style="margin-top:12px"><div style="margin-bottom:10px"><label style="display:block;font-size:12px;font-weight:800;margin-bottom:5px">ناوی تەواو</label><input id="profileName" required style="width:100%;box-sizing:border-box;padding:10px;border:1px solid #cfdad5;border-radius:9px"></div><div style="margin-bottom:10px"><label style="display:block;font-size:12px;font-weight:800;margin-bottom:5px">ژمارەی خوێندکار</label><input id="studentNumber" style="width:100%;box-sizing:border-box;padding:10px;border:1px solid #cfdad5;border-radius:9px" placeholder="بۆ نموونە: AK-2026-001"></div><button type="submit" style="padding:9px 13px;border:1px solid #ccd8d3;border-radius:9px;background:#29473d;color:#fff;font-weight:800;cursor:pointer">پاشەکەوتکردنی پڕۆفایل</button><span id="profileMessage" style="display:block;margin-top:8px;font-size:12px;color:#68756f"></span></form></article>
 <article class="card"><h2>دۆخی هەژمار</h2><p id="status">پشکنین...</p></article>
 <article class="card"><h2>کۆرسە چالاکەکان</h2><p id="courseCount">0</p></article>
 <article class="card course-card">
@@ -40,8 +40,11 @@ else{
  async function load(){
   const {data:{session}}=await sb.auth.getSession();
   if(!session){location.replace('auth.html?next=dashboard.html');return;}
-  const user=session.user, verified=!!user.email_confirmed_at;
+  const user=session.user; currentUser=user; const verified=!!user.email_confirmed_at;
   $('email').textContent=user.email||'—';
+  const {data:profile}=await sb.from('profiles').select('full_name,student_number').eq('id',user.id).maybeSingle();
+  $('profileName').value=profile?.full_name||user.user_metadata?.full_name||'';
+  $('studentNumber').value=profile?.student_number||'';
   $('welcome').textContent='بەخێربێیت، '+(user.user_metadata?.full_name||'خوێندکار');
   $('status').textContent=verified?'هەژمارەکە چالاکە':'چاوەڕوانی پشتڕاست‌کردنەوەی ئیمەیڵە';
   $('verifyNotice').hidden=verified;
@@ -85,6 +88,9 @@ else{
   $('courseCount').textContent='٢';
  }
  $('logout').onclick=async()=>{await sb.auth.signOut();location.href='auth.html';};
+ $('profileForm').onsubmit=async e=>{e.preventDefault();const m=$('profileMessage');m.textContent='پاشەکەوت‌کردن...';const full_name=$('profileName').value.trim(),student_number=$('studentNumber').value.trim()||null;const {error}=await sb.from('profiles').update({full_name,student_number,updated_at:new Date().toISOString()}).eq('id',userId());if(error){m.textContent=error.code==='23505'?'ئەم ژمارەی خوێندکارە پێشتر بەکارهاتووە.':'پاشەکەوت‌کردن سەرکەوتوو نەبوو.';return;}await sb.auth.updateUser({data:{full_name}});m.textContent='پڕۆفایل بە سەرکەوتوویی نوێکرایەوە.';};
+ function userId(){return currentUser.id;} 
+ let currentUser=null;
  load();
 }
 </script></body></html>
