@@ -2319,3 +2319,72 @@ body:after{
 .lesson-content{-webkit-user-select:none!important;user-select:none!important;-webkit-touch-callout:none!important}
 .lesson-content img,.lesson-content svg{-webkit-user-drag:none!important;user-drag:none!important}
 .lesson-content input,.lesson-content textarea,.lesson-content select,.lesson-content [contenteditable="true"]{-webkit-user-select:text!important;user-select:text!important}
+
+
+/* ===== Avasin Standard v7 — کادری گەورەتر و زانکۆیی، بێ ڕەنگی شین =====
+   سەردێڕی هەموو وانەکان: یەکگرتوو، شیاو و خوێندنگەیی.
+   دەق و ناوەڕۆکی وانەکان هیچ دەست‌کارییەکیان لێ ناکرێت. */
+.content-page-hero .lesson-title-frame,
+.course2-lesson-hero .course2-lesson-heading{
+  gap:16px!important;
+  width:100%!important;
+  max-width:1120px!important;
+  min-height:64px!important;
+  margin:0 0 22px!important;
+  padding:14px 18px!important;
+  box-sizing:border-box!important;
+  border:1px solid rgba(176,151,111,.30)!important;
+  border-inline-start:5px solid #8f6d45!important;
+  border-radius:12px!important;
+  background:linear-gradient(135deg,rgba(255,251,243,.10),rgba(247,240,226,.045))!important;
+  box-shadow:0 8px 26px rgba(25,25,20,.12)!important;
+}
+.content-page-hero .lesson-title-frame .lesson-no,
+.course2-lesson-hero .course2-lesson-number{
+  min-width:76px!important;
+  height:38px!important;
+  padding:5px 12px!important;
+  border:1px solid rgba(238,218,183,.28)!important;
+  border-radius:6px!important;
+  background:linear-gradient(145deg,#7f2938,#9b3948)!important;
+  color:#fffaf2!important;
+  box-shadow:0 4px 12px rgba(80,31,38,.16)!important;
+  font-size:10px!important;
+  font-weight:850!important;
+}
+.content-page-hero .lesson-title-frame .lesson-name,
+.course2-lesson-hero .course2-lesson-heading h1{
+  font-size:clamp(17px,1.65vw,24px)!important;
+  font-weight:720!important;
+  line-height:1.55!important;
+  color:#f4efe4!important;
+}
+@media(max-width:700px){
+  .content-page-hero .lesson-title-frame,
+  .course2-lesson-hero .course2-lesson-heading{
+    gap:9px!important;
+    min-height:54px!important;
+    margin-bottom:16px!important;
+    padding:9px 10px!important;
+    border-inline-start-width:4px!important;
+  }
+  .content-page-hero .lesson-title-frame .lesson-no,
+  .course2-lesson-hero .course2-lesson-number{
+    min-width:59px!important;
+    height:32px!important;
+    padding:4px 8px!important;
+    font-size:9px!important;
+  }
+  .content-page-hero .lesson-title-frame .lesson-name,
+  .course2-lesson-hero .course2-lesson-heading h1{
+    font-size:clamp(12px,3.1vw,17px)!important;
+  }
+}
+@media(max-width:420px){
+  .content-page-hero .lesson-title-frame,
+  .course2-lesson-hero .course2-lesson-heading{gap:7px!important;padding:8px!important}
+  .content-page-hero .lesson-title-frame .lesson-no,
+  .course2-lesson-hero .course2-lesson-number{min-width:53px!important;height:30px!important;font-size:8px!important}
+  .content-page-hero .lesson-title-frame .lesson-name,
+  .course2-lesson-hero .course2-lesson-heading h1{font-size:12px!important}
+}
