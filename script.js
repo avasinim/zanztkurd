@@ -31,6 +31,25 @@
     const {data,error}=await sb.rpc("is_site_owner");
     return !error && data===true;
   }
+  function lessonOrderFor(target){
+    if(/^course-2-\\d+\\.html$/.test(target)){
+      return Array.from({length:25},(_,i)=>"course-2-"+String(i+1).padStart(2,"0")+".html");
+    }
+    return ["017.html","018.html","019.html","020.html","021.html","022.html","023.html","024.html","025.html","026.html","027.html","028.html","029.html","030.html","031.html","032.html","033.html","034.html","035.html","036.html","037.html","038.html","039.html","040.html","041.html","042.html","043.html","044.html","046.html","047.html","048.html","049.html","050.html","051.html","045.html","052.html","053.html","054.html","055.html","056.html","057.html","058.html"];
+  }
+  async function hasPreviousLessonCompleted(sb,userId,courseId,target){
+    const order=lessonOrderFor(target);
+    const index=order.indexOf(target);
+    if(index<=0)return true;
+    const previous=order[index-1];
+    const {data,error}=await sb.from("lesson_progress")
+      .select("lesson_key")
+      .eq("user_id",userId)
+      .eq("course_id",courseId)
+      .eq("lesson_key",previous)
+      .maybeSingle();
+    return !error && !!data;
+  }
   async function allowOrRedirect(ev,a){
     const rawHref=a.getAttribute("href")||a.getAttribute("data-lesson-href");
     if(!isProtectedLessonTarget(rawHref) && !isProtectedCatalogTarget(rawHref)) return;
@@ -53,6 +72,10 @@
       const courseId=/^course-2-\d+\.html$/.test(target)?"phonetics-phonology-kurdik":"orthography-kurdik";
       if(!await hasEnrollment(got.sb,got.session.user.id,courseId)){
         location.href="../dashboard.html?enroll=required";
+        return;
+      }
+      if(!await hasPreviousLessonCompleted(got.sb,got.session.user.id,courseId,target)){
+        location.href="../dashboard.html?lesson=locked";
         return;
       }
     }
@@ -79,6 +102,10 @@
       const courseId=/^course-2-\d+\.html$/.test(target)?"phonetics-phonology-kurdik":"orthography-kurdik";
       if(!await hasEnrollment(got.sb,got.session.user.id,courseId)){
         location.replace("../dashboard.html?enroll=required");
+        return;
+      }
+      if(!await hasPreviousLessonCompleted(got.sb,got.session.user.id,courseId,target)){
+        location.replace("../dashboard.html?lesson=locked");
         return;
       }
       document.documentElement.style.visibility="";
