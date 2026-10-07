@@ -1292,20 +1292,4 @@ if(!window.ZANSTI_OWNER_CHECK){
 })();
 
 
-/* ===== سەرچاوەی یەکگرتووی وانەکان — Avasin Standard ===== */
-(function(){
-  const SOURCE_TEXT="سەرچاوە: سابیر ژاکاو · *فۆنێتیک و فۆنۆلۆجی کوردیک*";
-  const candidates=[...document.querySelectorAll(".lesson-content p, .lesson-content div, .lesson-content footer, article p, article div, article footer")];
-  const matches=candidates.filter(function(el){
-    const t=(el.textContent||"").replace(/\s+/g," ").trim();
-    return /^سەرچاوە(?:ی وانە)?\s*[:：]/.test(t) &&
-      /سابیر ژاکاو/.test(t) &&
-      /فۆنێتیک و فۆنۆلۆجی کوردیک/.test(t) &&
-      !el.querySelector("p,div,footer");
-  });
-  if(!matches.length) return;
-  matches.slice(0,-1).forEach(function(el){el.remove();});
-  const source=matches[matches.length-1];
-  source.innerHTML="سەرچاوە: سابیر ژاکاو · <em>فۆنێتیک و فۆنۆلۆجی کوردیک</em>";
-  source.classList.add("lesson-source-final");
-})();
+
