@@ -116,6 +116,9 @@ declare
   completed_count integer;
   valid_lesson boolean := false;
   new_status text := 'active';
+  lesson_order text[];
+  lesson_index integer;
+  previous_key text;
 begin
   if uid is null then raise exception 'AUTH_REQUIRED'; end if;
   if not exists(select 1 from auth.users u where u.id=uid and u.email_confirmed_at is not null) then
@@ -123,28 +126,40 @@ begin
   end if;
 
   if p_course_id='phonetics-phonology-kurdik' then
-    valid_lesson := p_lesson_key = any(array[
+    lesson_order := array[
       'course-2-01.html','course-2-02.html','course-2-03.html','course-2-04.html','course-2-05.html',
       'course-2-06.html','course-2-07.html','course-2-08.html','course-2-09.html','course-2-10.html',
       'course-2-11.html','course-2-12.html','course-2-13.html','course-2-14.html','course-2-15.html',
       'course-2-16.html','course-2-17.html','course-2-18.html','course-2-19.html','course-2-20.html',
       'course-2-21.html','course-2-22.html','course-2-23.html','course-2-24.html','course-2-25.html'
-    ]);
+    ];
   elsif p_course_id='orthography-kurdik' then
-    valid_lesson := p_lesson_key = any(array[
+    lesson_order := array[
       '017.html','018.html','019.html','020.html','021.html','022.html','023.html','024.html',
       '025.html','026.html','027.html','028.html','029.html','030.html','031.html','032.html',
       '033.html','034.html','035.html','036.html','037.html','038.html','039.html','040.html',
       '041.html','042.html','043.html','044.html','045.html','046.html','047.html','048.html',
       '049.html','050.html','051.html','052.html','053.html','054.html','055.html','056.html',
       '057.html','058.html'
-    ]);
+    ];
+  else
+    raise exception 'COURSE_NOT_FOUND';
   end if;
-  if not valid_lesson then raise exception 'INVALID_LESSON'; end if;
+
+  lesson_index := array_position(lesson_order,p_lesson_key);
+  if lesson_index is null then raise exception 'INVALID_LESSON'; end if;
 
   if not exists(select 1 from public.enrollments e
     where e.user_id=uid and e.course_id=p_course_id and e.status in ('active','completed')) then
     raise exception 'NOT_ENROLLED';
+  end if;
+
+  if lesson_index > 1 then
+    previous_key := lesson_order[lesson_index-1];
+    if not exists(select 1 from public.lesson_progress lp
+      where lp.user_id=uid and lp.course_id=p_course_id and lp.lesson_key=previous_key) then
+      raise exception 'PREVIOUS_LESSON_REQUIRED';
+    end if;
   end if;
 
   insert into public.lesson_progress(user_id,course_id,lesson_key,completed_at)
@@ -155,7 +170,7 @@ begin
   select count(*) into completed_count from public.lesson_progress lp
     where lp.user_id=uid and lp.course_id=p_course_id;
 
-  if completed_count >= total_count then
+  if completed_count >= array_length(lesson_order,1) then
     new_status := 'completed';
     update public.enrollments
       set status='completed', completed_at=coalesce(completed_at,now())
