@@ -499,6 +499,7 @@ document.querySelectorAll('a[href="#"]').forEach(a=>{
   async function checkHomeAccess(){
     const got=await getSession();
     if(!got?.session)return false;
+    if(await isOwner(got.sb))return true;
     const [c1,c2]=await Promise.all([
       hasEnrollment(got.sb,got.session.user.id,"orthography-kurdik"),
       hasEnrollment(got.sb,got.session.user.id,"phonetics-phonology-kurdik")
