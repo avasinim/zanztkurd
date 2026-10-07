@@ -1129,8 +1129,21 @@ if(!window.ZANSTI_OWNER_CHECK){
       p_lesson_key:path
     });
     if(error){
-      if(error.message==="NOT_ENROLLED"||error.message==="EMAIL_NOT_VERIFIED"){
-        location.replace(error.message==="EMAIL_NOT_VERIFIED"?"../dashboard.html?verify=required":"../dashboard.html?enroll=required");
+      const code=String(error.message||"").trim();
+      if(code==="NOT_ENROLLED"||code==="EMAIL_NOT_VERIFIED"||code==="AUTH_REQUIRED"){
+        location.replace(code==="EMAIL_NOT_VERIFIED"?"../dashboard.html?verify=required":"../dashboard.html?enroll=required");
+        return;
+      }
+      if(code==="PREVIOUS_LESSON_REQUIRED"){
+        button.disabled=false;
+        button.textContent="وانەی پێشو پێویستە";
+        location.replace("../dashboard.html?lesson=locked");
+        return;
+      }
+      if(code==="INVALID_LESSON"||code==="COURSE_NOT_FOUND"){
+        button.disabled=false;
+        button.textContent="وانەکە ناسراو نیە";
+        location.replace("../dashboard.html?lesson=invalid");
         return;
       }
       button.disabled=false;
