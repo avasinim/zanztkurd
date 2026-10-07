@@ -8,7 +8,7 @@
 <body class="student-shell">
 <header class="student-top"><div class="container"><div class="student-brand">زانستی کورد · پەنێڵی خوێندکار</div><button id="logout" class="logout">چوونەدەرەوە</button></div></header>
 <main class="student-main container">
-<div class="welcome"><div class="eyebrow"><span></span> Student Dashboard</div><h1 id="welcome">پەنێڵی خوێندکار</h1></div>
+<div class="welcome"><div class="eyebrow"><span></span> Student Dashboard</div><h1 id="welcome">پەنێڵی خوێندکار</h1></div><div id="ownerPanel" style="display:none;margin:0 0 24px;padding:18px 20px;border:1px solid rgba(179,138,88,.28);border-right:4px solid #b38a58;border-radius:16px;background:#fbf8f1;box-shadow:0 10px 28px rgba(32,37,34,.05)"><div style="display:flex;align-items:center;justify-content:space-between;gap:14px;flex-wrap:wrap"><div><strong style="color:#3b473f">👑 بەڕێوبەری سەرەکی</strong><p style="margin:5px 0 0;color:#707971;font-size:13px">تۆ وەک خاوەنی ماڵپەڕ ناسراویت و دەتوانیت سیستەمی فێربون بەڕێوەببەیت.</p></div><a href="admin.html" style="display:inline-flex;align-items:center;justify-content:center;padding:10px 15px;border-radius:10px;background:#29473d;color:#fff;text-decoration:none;font-weight:800">چوونە پەنێڵی بەڕێوبەرایەتی ←</a></div></div>
 <section class="grid">
 <article class="card"><h2>پڕۆفایل</h2><p id="email">...</p><form id="profileForm" style="margin-top:12px"><div style="margin-bottom:10px"><label style="display:block;font-size:12px;font-weight:800;margin-bottom:5px">ناوی تەواو</label><input id="profileName" required style="width:100%;box-sizing:border-box;padding:10px;border:1px solid #cfdad5;border-radius:9px"></div><div style="margin-bottom:10px"><label style="display:block;font-size:12px;font-weight:800;margin-bottom:5px">ژمارەی خوێندکار</label><input id="studentNumber" readonly style="width:100%;box-sizing:border-box;padding:10px;border:1px solid #cfdad5;border-radius:9px;background:#f4f7f5;color:#52645c" placeholder="لە سیستەمەوە دیاری دەکرێت"><small style="display:block;margin-top:5px;color:#7a8781;font-size:11px">ژمارەی خوێندکار زانیاریی ناسنامەیە و لەلایەن سیستەمەوە پارێزراوە.</small></div><button type="submit" style="padding:9px 13px;border:1px solid #ccd8d3;border-radius:9px;background:#29473d;color:#fff;font-weight:800;cursor:pointer">پاشەکەوتکردنی پڕۆفایل</button><span id="profileMessage" style="display:block;margin-top:8px;font-size:12px;color:#68756f"></span></form></article>
 <article class="card"><h2>دۆخی هەژمار</h2><p id="status">پشکنین...</p></article>
@@ -42,6 +42,7 @@ else{
   const {data:{session}}=await sb.auth.getSession();
   if(!session){location.replace('auth.html?next=dashboard.html');return;}
   const user=session.user; currentUser=user; const verified=!!user.email_confirmed_at;
+  const ownerPanel=$('ownerPanel');
   const params=new URLSearchParams(location.search); const verifyRequired=params.get('verify')==='required'; const enrollRequired=params.get('enroll')==='required';
   if(verifyRequired){$('verifyNotice').hidden=false; $('verifyNotice').querySelector('h2').textContent='پشتڕاست‌کردنەوەی ئیمەیڵ پێویستە';}
   if(enrollRequired){$('enrollSummary').textContent='بۆ دەستپێکردنی وانە، یەکێک لە کۆرسەکانت هەڵبژێرە و لە Dashboard خۆت تۆمار بکە.';}
@@ -50,6 +51,7 @@ else{
   $('profileName').value=profile?.full_name||user.user_metadata?.full_name||'';
   $('studentNumber').value=profile?.student_number||'';
   $('welcome').textContent='بەخێربێیت، '+(profile?.full_name||user.user_metadata?.full_name||'خوێندکار');
+  try{const {data:isOwner}=await sb.rpc('is_site_owner'); if(isOwner===true) ownerPanel.style.display='block';}catch(e){}
   $('status').textContent=verified?'هەژمارەکە چالاکە':'چاوەڕوانی پشتڕاست‌کردنەوەی ئیمەیڵە';
   $('verifyNotice').hidden=verified;
   async function loadCourse(course){
