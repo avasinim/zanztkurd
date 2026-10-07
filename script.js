@@ -4,6 +4,7 @@
   const path=(location.pathname.split("/").pop()||"").toLowerCase();
   const isLesson=/^(0\d|[1-5]\d)\.html$/.test(path)||/^course-2-\d+\.html$/.test(path);
   const isCatalog=path==="catalog.html" && /\/lessons\/?$/i.test(location.pathname);
+  const isProtectedCatalogTarget=(href)=>{ const t=targetOf(href); return t==="catalog.html" && /(?:^|\/)lessons\/?$/i.test((href||"")); };
   if(isLesson) document.documentElement.style.visibility="hidden";
 
   function authUrl(next){
@@ -28,7 +29,7 @@
   }
   async function allowOrRedirect(ev,a){
     const rawHref=a.getAttribute("href")||a.getAttribute("data-lesson-href");
-    if(!isProtectedLessonTarget(rawHref)) return;
+    if(!isProtectedLessonTarget(rawHref) && !isProtectedCatalogTarget(rawHref)) return;
     ev.preventDefault();
     ev.stopImmediatePropagation();
     const got=await getSession();
@@ -43,7 +44,7 @@
   }
 
   document.addEventListener("click",function(ev){
-    const a=ev.target.closest&&ev.target.closest("a[href]");
+    const a=ev.target.closest&&ev.target.closest("a[href],a[data-lesson-href]");
     if(a) allowOrRedirect(ev,a);
   },true);
 
@@ -240,7 +241,7 @@ document.querySelectorAll('a[href="#"]').forEach(a=>{
     }
 
     results.innerHTML=filtered.slice(0,6).map(function(item){
-      return '<a class="v2-search-result" href="'+lessonUrl(item)+'">'
+      return '<a class="v2-search-result" data-lesson-href="'+lessonUrl(item)+'">'
         +'<div class="v2-search-result-top"><span class="v2-search-number">وانەی '+(item.courseLessonNumber||item.number)+'</span><span class="v2-search-course">'+(item.courseTitle||"فۆنێتیک و فۆنۆلۆجی کوردیک")+'</span></div>'
         +'<b>'+item.title+'</b>'
         +'<small>'+(item.sectionTitle||"وانەی سەرچاوە")+' · سابیر ژاکاو</small>'
