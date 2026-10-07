@@ -129,11 +129,11 @@ body.content-page{--ink:#17231f;--muted:#65716b;--green:#315344;--green2:#476b59
 </script><script>
 /* ===== Learning portal access gate =====
    The learning portal is private: authentication, verified email,
-   and course enrollment are required before showing lesson routes. */
+   and course enrollment are required before showing lesson routes.
+   Plain learning.html is also protected; course-scoped URLs are preserved. */
 (function(){
   const params=new URLSearchParams(location.search);
   const course=params.get('course');
-  if(course!=='1'&&course!=='2')return;
   const authUrl='auth.html?next='+encodeURIComponent(location.pathname+location.search);
   if(!window.ZANSTI_SUPABASE?.ready){
     location.replace(authUrl);
@@ -151,6 +151,7 @@ body.content-page{--ink:#17231f;--muted:#65716b;--green:#315344;--green2:#476b59
       location.replace('dashboard.html?verify=required');
       return;
     }
+    if(course!=='1'&&course!=='2')return;
     const courseId=course==='1'?'orthography-kurdik':'phonetics-phonology-kurdik';
     const {data,error}=await sb.from('enrollments')
       .select('status')
@@ -161,5 +162,4 @@ body.content-page{--ink:#17231f;--muted:#65716b;--green:#315344;--green2:#476b59
       location.replace('dashboard.html?enroll=required');
     }
   })();
-})();
-</script><!-- zanztkurd-learning-sync-23 --></body></html>
+})();</script><!-- zanztkurd-learning-sync-23 --></body></html>
