@@ -8,7 +8,7 @@
     "bookIsSourceOnly": true
   },
   "progression": {
-    "enabled": false,
+    "enabled": true,
     "requirePreviousCompletion": true
   },
   "sections": [
@@ -561,8 +561,7 @@
           "pagePath": "course-2-24.html",
           "courseLessonNumber": 24,
           "courseId": "course-2"
-        }
-        ,
+        },
         {
           "id": "course-2-lesson-25",
           "number": 25,
