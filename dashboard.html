@@ -71,7 +71,11 @@ else{
         elEnroll.disabled=false;
         return;
       }
-      await load();
+      await loadCourse(cfg);
+      const {data:updatedEnrollments}=await sb.from('enrollments').select('course_id,status').eq('user_id',user.id);
+      const activeCount=(updatedEnrollments||[]).filter(e=>e.status==='active'||e.status==='completed').length;
+      $('courseCount').textContent=String(activeCount);
+      $('enrollSummary').textContent=activeCount===0?'هێشتا هیچ کۆرسێکت تۆمار نەکردووە.':activeCount===1?'١ کۆرس بە ناوی تۆ تۆمار کراوە.':activeCount+' کۆرس بە ناوی تۆ تۆمار کراون.';
       elEnroll.disabled=false;
     };
     if(!active){$(cfg.bar).style.width='0%';$(cfg.text).textContent='٠٪ ـی ڕێڕەو تەواو کراوە';return true;}
