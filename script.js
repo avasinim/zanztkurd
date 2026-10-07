@@ -965,8 +965,9 @@ document.querySelectorAll('a[href="#"]').forEach(a=>{
     s.textContent=".course2-gate{margin:28px 0 8px;padding:22px;border:1px solid rgba(39,61,50,.14);border-right:4px solid #b38a58;border-radius:14px;background:#f7f6f0;box-shadow:0 10px 28px rgba(27,42,35,.06)}.course2-gate h3{margin:0 0 8px;color:#26372f;font-size:1.12rem}.course2-gate p{margin:0 0 14px;color:#66716b;line-height:1.9}.course2-complete-btn{display:inline-flex;align-items:center;justify-content:center;border:0;border-radius:10px;padding:11px 18px;background:#273f34;color:#fff;font:800 .95rem inherit;cursor:pointer}.course2-complete-btn[disabled]{opacity:.55;cursor:not-allowed}.course2-locked-link{opacity:.48!important;cursor:not-allowed!important;filter:grayscale(.35)}";
     document.head.appendChild(s);
   }
-  function lessonGate(){
+  async function lessonGate(){
     if(current<0)return;
+    if(await window.ZANSTI_OWNER_CHECK)return;
     styles();
     const s=done(),first=firstIncomplete();
     if(current>first){location.replace(url(first));return;}
@@ -1124,8 +1125,9 @@ if(!window.ZANSTI_OWNER_CHECK){
     },true);
   }
 
-  function learningGate(){
+  async function learningGate(){
     if(!document.querySelector(".learning-sequence"))return;
+    if(await window.ZANSTI_OWNER_CHECK)return;
     styles();
     const first=firstIncomplete();
     document.querySelectorAll('.learning-sequence a[href*="lessons/"]').forEach(function(a){
