@@ -49,7 +49,7 @@ else{
   const {data:profile}=await sb.from('profiles').select('full_name,student_number').eq('id',user.id).maybeSingle();
   $('profileName').value=profile?.full_name||user.user_metadata?.full_name||'';
   $('studentNumber').value=profile?.student_number||'';
-  $('welcome').textContent='بەخێربێیت، '+(user.user_metadata?.full_name||'خوێندکار');
+  $('welcome').textContent='بەخێربێیت، '+(profile?.full_name||user.user_metadata?.full_name||'خوێندکار');
   $('status').textContent=verified?'هەژمارەکە چالاکە':'چاوەڕوانی پشتڕاست‌کردنەوەی ئیمەیڵە';
   $('verifyNotice').hidden=verified;
   async function loadCourse(course){
@@ -66,8 +66,13 @@ else{
     elEnroll.onclick=async()=>{
       elEnroll.disabled=true;
       const {error}=await sb.rpc('enroll_in_course',{p_course_id:cfg.id});
-      if(error){$(cfg.status).textContent=error.message==='EMAIL_NOT_VERIFIED'?'سەرەتا ئیمەیڵەکەت پشتڕاست بکە.':'خۆتۆمارکردن سەرکەوتوو نەبوو.';elEnroll.disabled=false;return;}
+      if(error){
+        $(cfg.status).textContent=error.message==='EMAIL_NOT_VERIFIED'?'سەرەتا ئیمەیڵەکەت پشتڕاست بکە.':'خۆتۆمارکردن سەرکەوتوو نەبوو.';
+        elEnroll.disabled=false;
+        return;
+      }
       await load();
+      elEnroll.disabled=false;
     };
     if(!active){$(cfg.bar).style.width='0%';$(cfg.text).textContent='٠٪ ـی ڕێڕەو تەواو کراوە';return true;}
     const {data:rows}=await sb.from('lesson_progress').select('lesson_key').eq('user_id',user.id).eq('course_id',cfg.id);
@@ -97,7 +102,16 @@ else{
   $('enrollSummary').textContent=activeEnrollments.length===0?'هێشتا هیچ کۆرسێکت تۆمار نەکردووە.':activeEnrollments.length===1?'١ کۆرس بە ناوی تۆ تۆمار کراوە.':activeEnrollments.length+' کۆرس بە ناوی تۆ تۆمار کراون.';
  }
  $('logout').onclick=async()=>{await sb.auth.signOut();location.href='auth.html';};
- $('resendVerify').onclick=async()=>{const m=$('verifyMessage');m.textContent=' ناردن...';const {error}=await sb.auth.resend({type:'signup',email:currentUser.email});m.textContent=error?' ناردنەوە سەرکەوتوو نەبوو.':' ئیمەیڵی پشتڕاست‌کردنەوە نێردرا.';};
+ $('resendVerify').onclick=async()=>{
+  const m=$('verifyMessage');
+  m.textContent=' ناردن...';
+  const {error}=await sb.auth.resend({
+    type:'signup',
+    email:currentUser.email,
+    options:{emailRedirectTo:authCallback}
+  });
+  m.textContent=error?(error.message||' ناردنەوە سەرکەوتوو نەبوو.'):' ئیمەیڵی پشتڕاست‌کردنەوە نێردرا.';
+};
  $('profileForm').onsubmit=async e=>{e.preventDefault();const m=$('profileMessage');m.textContent='پاشەکەوت‌کردن...';const full_name=$('profileName').value.trim();const {error}=await sb.from('profiles').update({full_name,updated_at:new Date().toISOString()}).eq('id',userId());if(error){m.textContent=error.code==='23505'?'ئەم ژمارەی خوێندکارە پێشتر بەکارهاتووە.':'پاشەکەوت‌کردن سەرکەوتوو نەبوو.';return;}await sb.auth.updateUser({data:{full_name}});m.textContent='پڕۆفایل بە سەرکەوتوویی نوێکرایەوە.';};
  function userId(){return currentUser.id;} 
  let currentUser=null;
