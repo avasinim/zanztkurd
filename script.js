@@ -846,6 +846,8 @@ document.querySelectorAll('a[href="#"]').forEach(a=>{
       const done=new Set(JSON.parse(localStorage.getItem(storage)||"[]").map(Number));
       if(index>=0)done.add(index);
       localStorage.setItem(storage,JSON.stringify([...done].sort((a,b)=>a-b)));
+      localStorage.setItem("lesson-completed:"+(isC2?"course-2":"course-current")+":"+(index+1),"true");
+      localStorage.setItem("lesson-progress:"+(isC2?"course-2":"course-current")+":"+(index+1),"completed");
     }catch(e){}
     button.textContent="✓ تەواوکراوە";
     const next=index+1<files.length?files[index+1]:null;
