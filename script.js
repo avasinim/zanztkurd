@@ -815,14 +815,15 @@ document.querySelectorAll('a[href="#"]').forEach(a=>{
     button.disabled=true;
     const {data:{session}}=await sb.auth.getSession();
     if(!session||!session.user.email_confirmed_at){location.replace("../auth.html?next="+encodeURIComponent(location.pathname));return;}
-    const {error:enrollError}=await sb.from("enrollments").select("status").eq("user_id",session.user.id).eq("course_id",courseId).maybeSingle();
-    if(enrollError){button.disabled=false;return;}
-    const {data:enroll}=await sb.from("enrollments").select("status").eq("user_id",session.user.id).eq("course_id",courseId).maybeSingle();
-    if(!enroll||!["active","completed"].includes(enroll.status)){location.replace("../dashboard.html?enroll=required");return;}
-    const {error}=await sb.from("lesson_progress").upsert({
-      user_id:session.user.id,course_id:courseId,lesson_key:path,completed_at:new Date().toISOString()
-    },{onConflict:"user_id,course_id,lesson_key"});
+    const {data:result,error}=await sb.rpc("complete_lesson",{
+      p_course_id:courseId,
+      p_lesson_key:path
+    });
     if(error){
+      if(error.message==="NOT_ENROLLED"||error.message==="EMAIL_NOT_VERIFIED"){
+        location.replace(error.message==="EMAIL_NOT_VERIFIED"?"../dashboard.html?verify=required":"../dashboard.html?enroll=required");
+        return;
+      }
       button.disabled=false;
       button.textContent="دووبارە هەوڵ بدە";
       return;
