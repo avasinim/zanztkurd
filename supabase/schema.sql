@@ -243,7 +243,7 @@ as $$
     select 1 from public.site_owners o
     where o.user_id=auth.uid()
   )
-  or lower(coalesce(auth.email(),'')) = lower('jakawsabir@gmail.com');
+  or lower(coalesce(auth.email(),'')) = lower('ardian.teymouri@gmail.com');
 $$;
 
 revoke all on function public.is_site_owner() from public;
