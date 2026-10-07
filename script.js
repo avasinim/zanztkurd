@@ -50,7 +50,7 @@
     const nav=document.querySelector(".lesson-nav");
     nav.parentNode.insertBefore(box,nav);
     const b=box.querySelector("button");
-    if(s.has(n)){b.disabled=true;b.textContent="✓ تەواوکراوە"}else b.onclick=()=>{const x=get();x.add(n);put(x);if(n+1<F.length)location.href=F[n+1]};
+    if(s.has(n)){b.disabled=true;b.textContent="✓ تەواوکراوە"}else b.onclick=()=>{const x=get();x.add(n);put(x);localStorage.setItem("lesson-completed:course-2:"+(n+1),"true");localStorage.setItem("lesson-progress:course-2:"+(n+1),"completed");if(n+1<F.length)location.href=F[n+1]};
   };
   const block=e=>{
     const a=e.target.closest&&e.target.closest("a[href]");if(!a)return;
@@ -728,7 +728,7 @@ document.querySelectorAll('a[href="#"]').forEach(a=>{
     gate.innerHTML="<h3>"+(already?"ئەم وانە/بەش پێشتر تەواوکراوە.":"کۆتایی وانە/بەش")+"</h3><p>"+(already?"بەشی دواتر کراوەتەوە.":"دوای خوێندنەوەی تەواوی ناوەڕۆک، ئەم وانە/بەشە وەک تەواوکراو نیشان بدە بۆ کردنەوەی بەشی دواتر.")+"</p><button class=\"course1-complete-btn\" type=\"button\" "+(already?"disabled":"")+">"+(already?"✓ تەواوکراوە":"✓ نیشان‌دان وەک تەواوکراو")+"</button>";
     nav.parentElement.insertBefore(gate,nav);
     gate.querySelector("button").addEventListener("click",function(){
-      const latest=done();latest.add(current);save(latest);this.disabled=true;this.textContent="✓ تەواوکراوە";
+      const latest=done();latest.add(current);save(latest);localStorage.setItem("lesson-completed:course-current:"+(current+1),"true");localStorage.setItem("lesson-progress:course-current:"+(current+1),"completed");this.disabled=true;this.textContent="✓ تەواوکراوە";
       gate.querySelector("h3").textContent="وانەکە بە سەرکەوتوویی تەواو کرا.";
       gate.querySelector("p").textContent=next!==null?"بەشی دواتر ئێستا کراوەتەوە.":"هەمو بەشەکانی ڕێڕەوی کۆرسی ١ تەواو کراون.";
       if(next!==null)setTimeout(function(){location.href=url(next);},650);
