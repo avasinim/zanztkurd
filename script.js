@@ -35,10 +35,18 @@
     const got=await getSession();
     if(!got?.session){location.href=authUrl(a.href);return;}
     const target=targetOf(rawHref);
-    const courseId=/^course-2-\d+\.html$/.test(target)?"phonetics-phonology-kurdik":"orthography-kurdik";
-    if(!await hasEnrollment(got.sb,got.session.user.id,courseId)){
-      location.href="../dashboard.html?enroll=required";
-      return;
+    if(isProtectedCatalogTarget(rawHref)){
+      const [c1,c2]=await Promise.all([
+        hasEnrollment(got.sb,got.session.user.id,"orthography-kurdik"),
+        hasEnrollment(got.sb,got.session.user.id,"phonetics-phonology-kurdik")
+      ]);
+      if(!c1&&!c2){location.href="../dashboard.html?enroll=required";return;}
+    }else{
+      const courseId=/^course-2-\d+\.html$/.test(target)?"phonetics-phonology-kurdik":"orthography-kurdik";
+      if(!await hasEnrollment(got.sb,got.session.user.id,courseId)){
+        location.href="../dashboard.html?enroll=required";
+        return;
+      }
     }
     location.href=a.getAttribute("href")||a.getAttribute("data-lesson-href");
   }
