@@ -2313,3 +2313,9 @@ body:after{
   .course-completion-card h2{font-size:23px!important}
   .course-completion-card .completion-course{font-size:16px!important}
 }
+
+
+/* ===== Avasin Standard — Lesson Copy Protection ===== */
+.lesson-content{-webkit-user-select:none!important;user-select:none!important;-webkit-touch-callout:none!important}
+.lesson-content img,.lesson-content svg{-webkit-user-drag:none!important;user-drag:none!important}
+.lesson-content input,.lesson-content textarea,.lesson-content select,.lesson-content [contenteditable="true"]{-webkit-user-select:text!important;user-select:text!important}
