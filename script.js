@@ -27,6 +27,10 @@
     const {data,error}=await sb.from("enrollments").select("status").eq("user_id",userId).eq("course_id",courseId).maybeSingle();
     return !error && !!data && ["active","completed"].includes(data.status);
   }
+  async function isOwner(sb){
+    const {data,error}=await sb.rpc("is_site_owner");
+    return !error && data===true;
+  }
   async function allowOrRedirect(ev,a){
     const rawHref=a.getAttribute("href")||a.getAttribute("data-lesson-href");
     if(!isProtectedLessonTarget(rawHref) && !isProtectedCatalogTarget(rawHref)) return;
@@ -34,6 +38,10 @@
     ev.stopImmediatePropagation();
     const got=await getSession();
     if(!got?.session){location.href=authUrl(a.href);return;}
+    if(await isOwner(got.sb)){
+      location.href=a.getAttribute("href")||a.getAttribute("data-lesson-href");
+      return;
+    }
     const target=targetOf(rawHref);
     if(isProtectedCatalogTarget(rawHref)){
       const [c1,c2]=await Promise.all([
@@ -63,6 +71,10 @@
         location.replace(authUrl(location.href));
         return;
       }
+      if(await isOwner(got.sb)){
+        document.documentElement.style.visibility="";
+        return;
+      }
       const target=path;
       const courseId=/^course-2-\d+\.html$/.test(target)?"phonetics-phonology-kurdik":"orthography-kurdik";
       if(!await hasEnrollment(got.sb,got.session.user.id,courseId)){
@@ -76,6 +88,14 @@
     document.documentElement.style.visibility="hidden";
     const got=await getSession();
     if(!got?.session){location.replace("../auth.html?next="+encodeURIComponent(location.href));return;}
+    if(await isOwner(got.sb)){
+      document.querySelectorAll("[data-lesson-href]").forEach(function(a){
+        a.setAttribute("href",a.getAttribute("data-lesson-href"));
+        a.removeAttribute("data-lesson-href");
+      });
+      document.documentElement.style.visibility="";
+      return;
+    }
     const [c1,c2]=await Promise.all([
       hasEnrollment(got.sb,got.session.user.id,"orthography-kurdik"),
       hasEnrollment(got.sb,got.session.user.id,"phonetics-phonology-kurdik")
@@ -246,6 +266,10 @@ document.querySelectorAll('a[href="#"]').forEach(a=>{
     const {data,error}=await sb.from("enrollments").select("status").eq("user_id",userId).eq("course_id",courseId).maybeSingle();
     return !error && !!data && ["active","completed"].includes(data.status);
   }
+  async function isOwner(sb){
+    const {data,error}=await sb.rpc("is_site_owner");
+    return !error && data===true;
+  }
   async function allowOrRedirect(ev,a){
     const rawHref=a.getAttribute("href")||a.getAttribute("data-lesson-href");
     if(!isProtectedLessonTarget(rawHref) && !isProtectedCatalogTarget(rawHref)) return;
@@ -253,6 +277,10 @@ document.querySelectorAll('a[href="#"]').forEach(a=>{
     ev.stopImmediatePropagation();
     const got=await getSession();
     if(!got?.session){location.href=authUrl(a.href);return;}
+    if(await isOwner(got.sb)){
+      location.href=a.getAttribute("href")||a.getAttribute("data-lesson-href");
+      return;
+    }
     const target=targetOf(rawHref);
     if(isProtectedCatalogTarget(rawHref)){
       const [c1,c2]=await Promise.all([
@@ -282,6 +310,10 @@ document.querySelectorAll('a[href="#"]').forEach(a=>{
         location.replace(authUrl(location.href));
         return;
       }
+      if(await isOwner(got.sb)){
+        document.documentElement.style.visibility="";
+        return;
+      }
       const target=path;
       const courseId=/^course-2-\d+\.html$/.test(target)?"phonetics-phonology-kurdik":"orthography-kurdik";
       if(!await hasEnrollment(got.sb,got.session.user.id,courseId)){
@@ -295,6 +327,14 @@ document.querySelectorAll('a[href="#"]').forEach(a=>{
     document.documentElement.style.visibility="hidden";
     const got=await getSession();
     if(!got?.session){location.replace("../auth.html?next="+encodeURIComponent(location.href));return;}
+    if(await isOwner(got.sb)){
+      document.querySelectorAll("[data-lesson-href]").forEach(function(a){
+        a.setAttribute("href",a.getAttribute("data-lesson-href"));
+        a.removeAttribute("data-lesson-href");
+      });
+      document.documentElement.style.visibility="";
+      return;
+    }
     const [c1,c2]=await Promise.all([
       hasEnrollment(got.sb,got.session.user.id,"orthography-kurdik"),
       hasEnrollment(got.sb,got.session.user.id,"phonetics-phonology-kurdik")
@@ -1766,6 +1806,11 @@ document.querySelectorAll('a[href="#"]').forEach(a=>{
     const {data:{session}}=await sb.auth.getSession();
     if(!session){location.replace("../auth.html?next="+encodeURIComponent(location.pathname));return;}
     if(!session.user.email_confirmed_at){location.replace("../dashboard.html?verify=required");return;}
+    const {data:ownerData,error:ownerError}=await sb.rpc("is_site_owner");
+    if(!ownerError && ownerData===true){
+      document.documentElement.style.visibility="";
+      return;
+    }
     const {data,error}=await sb.from("enrollments").select("status").eq("user_id",session.user.id).eq("course_id",courseId).maybeSingle();
     if(error||!data||!["active","completed"].includes(data.status)){
       location.replace("../dashboard.html?enroll=required");
@@ -1781,6 +1826,21 @@ document.querySelectorAll('a[href="#"]').forEach(a=>{
     button.disabled=true;
     const {data:{session}}=await sb.auth.getSession();
     if(!session||!session.user.email_confirmed_at){location.replace("../auth.html?next="+encodeURIComponent(location.pathname));return;}
+    const {data:ownerData,error:ownerError}=await sb.rpc("is_site_owner");
+    if(!ownerError && ownerData===true){
+      const storage=isC2?"zanztkurd_course2_completed_v2":"zanztkurd_course1_completed_v2";
+      const files=isC2?Array.from({length:25},(_,i)=>"course-2-"+String(i+1).padStart(2,"0")+".html"):["017.html","018.html","019.html","020.html","021.html","022.html","023.html","024.html","025.html","026.html","027.html","028.html","029.html","030.html","031.html","032.html","033.html","034.html","035.html","036.html","037.html","038.html","039.html","040.html","041.html","042.html","043.html","044.html","046.html","047.html","048.html","049.html","050.html","051.html","045.html","052.html","053.html","054.html","055.html","056.html","057.html","058.html"];
+      const index=files.indexOf(path);
+      try{
+        const done=new Set(JSON.parse(localStorage.getItem(storage)||"[]").map(Number));
+        if(index>=0)done.add(index);
+        localStorage.setItem(storage,JSON.stringify([...done].sort((a,b)=>a-b)));
+      }catch(e){}
+      button.textContent="✓ تەواوکراوە";
+      const next=index+1<files.length?files[index+1]:null;
+      if(next)setTimeout(()=>location.href=next,650);
+      return;
+    }
     const {data:result,error}=await sb.rpc("complete_lesson",{
       p_course_id:courseId,
       p_lesson_key:path
