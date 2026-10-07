@@ -1,3 +1,34 @@
+/* ===== Avasin Standard — Lesson Copy Protection =====
+   Prevent casual copying of lesson content. This is a browser-side deterrent,
+   not DRM: determined users can still access delivered HTML/source. */
+(function(){
+  const lessonContent=document.querySelector(".lesson-content");
+  if(!lessonContent)return;
+
+  const isEditable=e=>e.target.closest("input,textarea,select,[contenteditable='true']");
+  document.addEventListener("contextmenu",function(e){
+    if(!isEditable(e) && e.target.closest(".lesson-content")) e.preventDefault();
+  },true);
+  document.addEventListener("copy",function(e){
+    if(!isEditable(e) && e.target.closest(".lesson-content")) e.preventDefault();
+  },true);
+  document.addEventListener("cut",function(e){
+    if(!isEditable(e) && e.target.closest(".lesson-content")) e.preventDefault();
+  },true);
+  document.addEventListener("dragstart",function(e){
+    if(!isEditable(e) && e.target.closest(".lesson-content")) e.preventDefault();
+  },true);
+  document.addEventListener("keydown",function(e){
+    if(isEditable(e))return;
+    if(!e.target.closest(".lesson-content"))return;
+    const k=String(e.key||"").toLowerCase();
+    if((e.ctrlKey||e.metaKey)&&["c","x","a","u","s"].includes(k)){
+      e.preventDefault();
+      e.stopImmediatePropagation();
+    }
+  },true);
+})();
+
 /* COURSE 2 HARD GATE — runs before the rest of the site script */
 (function(){
   const F=Array.from({length:25},(_,i)=>"course-2-"+String(i+1).padStart(2,"0")+".html");
