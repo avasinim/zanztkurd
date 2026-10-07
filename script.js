@@ -40,8 +40,6 @@
     const reveal=function(){
       document.documentElement.style.visibility="";
     };
-    window.addEventListener("pageshow",reveal,{once:true});
-    setTimeout(reveal,12000);
   }
 })();
 
@@ -832,6 +830,7 @@ document.querySelectorAll('a[href="#"]').forEach(a=>{
     if(error||!data||!["active","completed"].includes(data.status)){
       location.replace("../dashboard.html?enroll=required");
     }
+    else document.documentElement.style.visibility="";
   })();
 
   document.addEventListener("click",async function(ev){
