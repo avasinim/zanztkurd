@@ -4,7 +4,7 @@
   const path=(location.pathname.split("/").pop()||"").toLowerCase();
   const isLesson=/^(0\d|[1-5]\d)\.html$/.test(path)||/^course-2-\d+\.html$/.test(path);
   const isCatalog=path==="catalog.html" && /\/lessons\/?$/i.test(location.pathname);
-  const isProtectedCatalogTarget=(href)=>{ const t=targetOf(href); return t==="catalog.html" && /(?:^|\/)lessons\/?$/i.test((href||"")); };
+  const isProtectedCatalogTarget=(href)=>{ return /(?:^|\/)lessons\/catalog\.html(?:$|[?#])/i.test(String(href||"")); };
   if(isLesson) document.documentElement.style.visibility="hidden";
 
   function authUrl(next){
