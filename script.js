@@ -933,6 +933,20 @@ document.querySelectorAll('a[href="#"]').forEach(a=>{
 
 
 
+/* ===== Avasin Owner status shared with local progression gates ===== */
+if(!window.ZANSTI_OWNER_CHECK){
+  window.ZANSTI_OWNER_CHECK=(async function(){
+    try{
+      if(!window.supabase?.createClient || !window.ZANSTI_SUPABASE?.ready)return false;
+      const sb=supabase.createClient(ZANSTI_SUPABASE.url,ZANSTI_SUPABASE.publishableKey);
+      const {data:{session}}=await sb.auth.getSession();
+      if(!session)return false;
+      const {data,error}=await sb.rpc("is_site_owner");
+      return !error && data===true;
+    }catch(e){return false;}
+  })();
+}
+
 /* ===== Course 2 sequential completion gate ===== */
 (function(){
   const COURSE2_FILES=Array.from({length:25},function(_,i){
@@ -989,8 +1003,9 @@ document.querySelectorAll('a[href="#"]').forEach(a=>{
       if(next!==null)setTimeout(function(){location.href=url(next);},650);
     });
   }
-  function navGate(){
+  async function navGate(){
     if(current<0)return;
+    if(await window.ZANSTI_OWNER_CHECK)return;
     document.addEventListener("click",function(ev){
       const a=ev.target.closest("a[href]");
       if(!a)return;
@@ -1007,7 +1022,8 @@ document.querySelectorAll('a[href="#"]').forEach(a=>{
       }
     },true);
   }
-  function learningGate(){
+  async function learningGate(){
+    if(await window.ZANSTI_OWNER_CHECK)return;
     const links=document.querySelectorAll('a[href*="lessons/course-2-"]');
     if(!links.length)return;
     styles();
@@ -1041,20 +1057,6 @@ document.querySelectorAll('a[href="#"]').forEach(a=>{
   learningGate();
 })();
 
-/* ===== Avasin Owner status shared with local progression gates ===== */
-if(!window.ZANSTI_OWNER_CHECK){
-  window.ZANSTI_OWNER_CHECK=(async function(){
-    try{
-      if(!window.supabase?.createClient || !window.ZANSTI_SUPABASE?.ready)return false;
-      const sb=supabase.createClient(ZANSTI_SUPABASE.url,ZANSTI_SUPABASE.publishableKey);
-      const {data:{session}}=await sb.auth.getSession();
-      if(!session)return false;
-      const {data,error}=await sb.rpc("is_site_owner");
-      return !error && data===true;
-    }catch(e){return false;}
-  })();
-}
-
 /* ===== Course 1 sequential completion gate ===== */
 (function(){
   const COURSE1_FILES=["017.html","018.html","019.html","020.html","021.html","022.html","023.html","024.html","025.html","026.html","027.html","028.html","029.html","030.html","031.html","032.html","033.html","034.html","035.html","036.html","037.html","038.html","039.html","040.html","041.html","042.html","043.html","044.html","046.html","047.html","048.html","049.html","050.html","051.html","045.html","052.html","053.html","054.html","055.html","056.html","057.html","058.html"];
@@ -1071,8 +1073,9 @@ if(!window.ZANSTI_OWNER_CHECK){
     s.textContent=".course1-gate{margin:28px 0 8px;padding:22px;border:1px solid rgba(39,61,50,.14);border-right:4px solid #b38a58;border-radius:14px;background:#f7f6f0;box-shadow:0 10px 28px rgba(27,42,35,.06)}.course1-gate h3{margin:0 0 8px;color:#26372f;font-size:1.12rem}.course1-gate p{margin:0 0 14px;color:#66716b;line-height:1.9}.course1-complete-btn{display:inline-flex;align-items:center;justify-content:center;border:0;border-radius:10px;padding:11px 18px;background:#273f34;color:#fff;font:800 .95rem inherit;cursor:pointer}.course1-complete-btn[disabled]{opacity:.55;cursor:not-allowed}.course1-locked-link{opacity:.48!important;cursor:not-allowed!important;filter:grayscale(.35)}";
     document.head.appendChild(s);
   }
-  function lessonGate(){
+  async function lessonGate(){
     if(current<0)return;
+    if(await window.ZANSTI_OWNER_CHECK)return;
     styles();
     const s=done(),first=firstIncomplete();
     if(current>first){location.replace(url(first));return;}
@@ -1088,8 +1091,9 @@ if(!window.ZANSTI_OWNER_CHECK){
       if(next!==null)setTimeout(function(){location.href=url(next);},650);
     });
   }
-  function navGate(){
+  async function navGate(){
     if(current<0)return;
+    if(await window.ZANSTI_OWNER_CHECK)return;
     const links=document.querySelectorAll(".lesson-nav a[href]");
     links.forEach(function(a){
       const href=(a.getAttribute("href")||"").split("?")[0].split("#")[0];
@@ -1637,8 +1641,9 @@ if(!window.ZANSTI_OWNER_CHECK){
     s.textContent=".course2-gate{margin:28px 0 8px;padding:22px;border:1px solid rgba(39,61,50,.14);border-right:4px solid #b38a58;border-radius:14px;background:#f7f6f0;box-shadow:0 10px 28px rgba(27,42,35,.06)}.course2-gate h3{margin:0 0 8px;color:#26372f;font-size:1.12rem}.course2-gate p{margin:0 0 14px;color:#66716b;line-height:1.9}.course2-complete-btn{display:inline-flex;align-items:center;justify-content:center;border:0;border-radius:10px;padding:11px 18px;background:#273f34;color:#fff;font:800 .95rem inherit;cursor:pointer}.course2-complete-btn[disabled]{opacity:.55;cursor:not-allowed}.course2-locked-link{opacity:.48!important;cursor:not-allowed!important;filter:grayscale(.35)}";
     document.head.appendChild(s);
   }
-  function lessonGate(){
+  async function lessonGate(){
     if(current<0)return;
+    if(await window.ZANSTI_OWNER_CHECK)return;
     styles();
     const s=done(),first=firstIncomplete();
     if(current>first){location.replace(url(first));return;}
