@@ -18,7 +18,7 @@
     <nav class="v2-nav-links" aria-label="ناڤیگیشن">
       <a href="learning.html">فێربون</a><a href="linguistics.html">زمان‌ناسی</a><a href="lessons/catalog.html">وانەکان</a><a href="index.html#books">کتێب‌خانە</a><a href="sabir-zhakaw.html">سابیر ژاکاو</a>
     </nav>
-    <a class="v2-nav-cta" href="learning.html">دەست‌پێ‌کردن <span>←</span></a>
+    <a class="v2-nav-cta" href="learning.html"> <span>←</span></a>
     <button class="v2-menu" id="menuBtn" aria-label="مینیۆ">☰</button>
   </div>
   <div class="v2-mobile-menu" id="mobileMenu">
@@ -64,7 +64,7 @@
   async function getJson(url){const r=await fetch(url,{cache:'no-store'});if(!r.ok)throw Error(url);return r.json()}
   async function getText(url){const r=await fetch(url,{cache:'no-store'});if(!r.ok)throw Error(url);return r.text()}
   function isDone(id){return localStorage.getItem(`lesson-completed:${id}`)==='true'||localStorage.getItem(`lesson-progress:${id}`)==='completed'}
-  function showLockedLesson(previous){titleEl.textContent='ئەم وانەیە هێشتا قفڵە';metaEl.textContent='بۆ دەست‌پێ‌کردنی ئەم وانەیە، سەرەتا وانەی پێشو تەواو بکە.';contentEl.hidden=true;actionsEl.hidden=true;termsSection.hidden=true;exercisesSection.hidden=true;quizSection.hidden=true;navEl.hidden=true;progressEl.hidden=true;errorEl.hidden=false;errorEl.innerHTML=`🔒 پێویستی بە تەواوکردنی وانەی پێشو هەیە: <strong>${escapeHtml(previous?.title||'وانەی پێشو')}</strong><div class="lesson-actions"><a class="lesson-btn" href="lessons/catalog.html">گەڕانەوە بۆ ڕیزبەندی وانەکان</a></div>`;document.title='وانە قفڵە | ئاڤاشین'}
+  function showLockedLesson(previous){titleEl.textContent='ئەم وانەیە هێشتا قفڵە';metaEl.textContent='بۆ ی ئەم وانەیە، سەرەتا وانەی پێشو تەواو بکە.';contentEl.hidden=true;actionsEl.hidden=true;termsSection.hidden=true;exercisesSection.hidden=true;quizSection.hidden=true;navEl.hidden=true;progressEl.hidden=true;errorEl.hidden=false;errorEl.innerHTML=`🔒 پێویستی بە تەواوکردنی وانەی پێشو هەیە: <strong>${escapeHtml(previous?.title||'وانەی پێشو')}</strong><div class="lesson-actions"><a class="lesson-btn" href="lessons/catalog.html">گەڕانەوە بۆ ڕیزبەندی وانەکان</a></div>`;document.title='وانە قفڵە | ئاڤاشین'}
   function installCopyAttribution(){
     document.addEventListener('copy',event=>{
       const selection=window.getSelection();
