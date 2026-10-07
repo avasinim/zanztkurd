@@ -179,11 +179,12 @@ begin
   if lesson_index is null then raise exception 'INVALID_LESSON'; end if;
 
   if not exists(select 1 from public.enrollments e
-    where e.user_id=uid and e.course_id=p_course_id and e.status in ('active','completed')) then
+    where e.user_id=uid and e.course_id=p_course_id and e.status in ('active','completed'))
+    and not public.is_site_owner() then
     raise exception 'NOT_ENROLLED';
   end if;
 
-  if lesson_index > 1 then
+  if lesson_index > 1 and not public.is_site_owner() then
     previous_key := lesson_order[lesson_index-1];
     if not exists(select 1 from public.lesson_progress lp
       where lp.user_id=uid and lp.course_id=p_course_id and lp.lesson_key=previous_key) then
@@ -237,12 +238,13 @@ language sql
 stable
 security definer
 set search_path=public,auth
-as $$
+as $
   select exists(
     select 1 from public.site_owners o
     where o.user_id=auth.uid()
-  );
-$$;
+  )
+  or lower(coalesce(auth.email(),'')) = lower('jakawsabir@gmail.com');
+$;
 
 revoke all on function public.is_site_owner() from public;
 grant execute on function public.is_site_owner() to authenticated;
