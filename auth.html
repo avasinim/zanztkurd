@@ -45,6 +45,16 @@ sb.auth.getSession().then(({data})=>{
   if(verifiedMode){
     msg(data.session?'ئیمەیڵەکەت بە سەرکەوتوویی پشتڕاست کراوە.':'ئیمەیڵەکەت پشتڕاست کراوە؛ ئێستا دەتوانیت بچیتە ژوورەوە.');
   }
+  if(recoveryMode&&!data.session){
+    msg('بەستەری گۆڕینی وشەی نهێنی نادروستە یان بەسەرچووە. تکایە داواکارییەکی نوێ بنێرە.');
+    document.getElementById('recoveryForm').querySelectorAll('input,button').forEach(x=>x.disabled=true);
+  }
+});
+sb.auth.onAuthStateChange((event,session)=>{
+  if(recoveryMode&&event==='PASSWORD_RECOVERY'&&session){
+    document.getElementById('recoveryForm').querySelectorAll('input,button').forEach(x=>x.disabled=false);
+    document.getElementById('authMessage').style.display='none';
+  }
 });
 document.getElementById('loginForm').onsubmit=async e=>{e.preventDefault();const {error}=await sb.auth.signInWithPassword({email:loginEmail.value,password:loginPassword.value});if(error)return msg(error.message);location.href=nextUrl};
 document.getElementById('registerForm').onsubmit=async e=>{e.preventDefault();if(registerPassword.value!==registerPassword2.value)return msg('وشەکانی نهێنی یەکسان نین.');const {data,error}=await sb.auth.signUp({email:registerEmail.value,password:registerPassword.value,options:{data:{full_name:fullName.value},emailRedirectTo:authCallback+'?mode=verified'}});if(error)return msg(error.message);msg(data.session?'هەژمارەکەت دروست کرا.':'هەژمارەکەت دروست کرا؛ ئیمەیڵەکەت پشتڕاست بکە.')};
