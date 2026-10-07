@@ -1374,6 +1374,7 @@ body:after{
   line-height:2!important;
   font-weight:700;
 }
+.lesson-source-title{font-size:1rem;font-weight:800;line-height:1.9;margin-bottom:8px}.lesson-copy-note .linguistic-notes{margin:6px 0 0!important;padding-inline-start:1.5rem!important}.lesson-copy-note .linguistic-notes li{margin:.2rem 0!important;font-weight:700}
 .lesson-content > .lesson-nav{
   margin-top:34px;
 }
