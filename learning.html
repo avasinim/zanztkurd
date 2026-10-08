@@ -153,12 +153,8 @@ body.content-page{--ink:#17231f;--muted:#65716b;--green:#315344;--green2:#476b59
     }
     if(course!=='1'&&course!=='2')return;
     const courseId=course==='1'?'orthography-kurdik':'phonetics-phonology-kurdik';
-    const {data,error}=await sb.from('enrollments')
-      .select('status')
-      .eq('user_id',session.user.id)
-      .eq('course_id',courseId)
-      .maybeSingle();
-    if(error||!data||!['active','completed'].includes(data.status)){
+    const {data,error}=await sb.rpc('student_has_enrollment',{p_course_id:courseId});
+    if(error||data!==true){
       location.replace('dashboard.html?enroll=required');
     }
   })();
