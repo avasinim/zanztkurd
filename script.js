@@ -5,7 +5,12 @@
   const isLesson=/^(0\d|[1-5]\d)\.html$/.test(path)||/^course-2-\d+\.html$/.test(path);
   const isCatalog=path==="catalog.html" && /\/lessons\/?$/i.test(location.pathname);
   const isProtectedCatalogTarget=(href)=>{ return /(?:^|\/)lessons\/catalog\.html(?:$|[?#])/i.test(String(href||"")); };
-  if(isLesson) document.documentElement.style.visibility="hidden";
+  if(isLesson){
+    document.documentElement.style.visibility="hidden";
+    const robots=document.querySelector('meta[name="robots"]');
+    if(robots) robots.setAttribute("content","noindex,follow");
+    else { const m=document.createElement("meta"); m.name="robots"; m.content="noindex,follow"; document.head.appendChild(m); }
+  }
 
   function authUrl(next){
     return (location.pathname.includes("/lessons/")?"../auth.html":"auth.html")+"?next="+encodeURIComponent(next||location.href);
