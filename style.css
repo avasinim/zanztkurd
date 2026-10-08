@@ -2388,3 +2388,57 @@ body:after{
   .content-page-hero .lesson-title-frame .lesson-name,
   .course2-lesson-hero .course2-lesson-heading h1{font-size:12px!important}
 }
+
+/* ===== Avasin Standard — Academic Site Footer ===== */
+.v2-footer{
+  background:#151a17!important;
+  color:#f4f1e9!important;
+  padding-top:58px!important;
+  border-top:1px solid rgba(211,171,117,.16);
+}
+.v2-footer-grid{
+  grid-template-columns:1.45fr 1fr 1fr 1fr!important;
+  gap:34px!important;
+  padding-bottom:42px!important;
+}
+.v2-footer-identity .academy-brand{margin-bottom:16px}
+.v2-footer-identity p{max-width:390px!important;color:rgba(244,241,233,.56)!important;font-size:12px!important;line-height:2.05!important}
+.v2-footer h4{
+  margin:0 0 16px!important;
+  color:#d9c39f!important;
+  font-size:12px!important;
+  font-weight:700!important;
+}
+.v2-footer-grid>div:not(.v2-footer-identity){display:flex;flex-direction:column;gap:9px}
+.v2-footer-grid a:not(.v2-brand){
+  color:rgba(244,241,233,.58)!important;
+  font-size:11px!important;
+  line-height:1.8!important;
+  text-decoration:none!important;
+}
+.v2-footer-grid a:not(.v2-brand):hover{color:#ead9bd!important}
+.v2-footer-bottom{
+  display:flex!important;
+  align-items:center!important;
+  justify-content:space-between!important;
+  gap:20px!important;
+  text-align:initial!important;
+  border-top:1px solid rgba(244,241,233,.09)!important;
+  padding:18px 0 22px!important;
+  color:rgba(244,241,233,.38)!important;
+  font-size:10px!important;
+}
+.v2-footer-meta{display:flex;gap:18px;flex-wrap:wrap}
+.v2-footer-meta a{color:rgba(244,241,233,.42)!important;text-decoration:none!important}
+.v2-footer-meta a:hover{color:#ead9bd!important}
+@media(max-width:900px){
+  .v2-footer-grid{grid-template-columns:1fr 1fr!important}
+  .v2-footer-identity{grid-column:1/-1}
+}
+@media(max-width:560px){
+  .v2-footer-grid{grid-template-columns:1fr!important;gap:28px!important}
+  .v2-footer-identity{grid-column:auto}
+  .v2-footer{padding-top:44px!important}
+  .v2-footer-bottom{align-items:flex-start;flex-direction:column;gap:12px}
+  .v2-footer-meta{gap:10px 16px}
+}
