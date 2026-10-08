@@ -37,6 +37,20 @@
     }
     return ["017.html","018.html","019.html","020.html","021.html","022.html","023.html","024.html","025.html","026.html","027.html","028.html","029.html","030.html","031.html","032.html","033.html","034.html","035.html","036.html","037.html","038.html","039.html","040.html","041.html","042.html","043.html","044.html","046.html","047.html","048.html","049.html","050.html","051.html","045.html","052.html","053.html","054.html","055.html","056.html","057.html","058.html"];
   }
+  async function loadProtectedLessonContent(sb,target){
+    const box=document.querySelector(".lesson-content");
+    if(!box)return true;
+    box.setAttribute("aria-busy","true");
+    const {data,error}=await sb.from("lesson_content").select("content_html").eq("lesson_key",target).maybeSingle();
+    if(error || !data?.content_html){
+      box.innerHTML="<p class=\"lesson-content-error\">نەتوانرا ناوەڕۆکی ئەم وانەیە بار بکرێت. تکایە دووبارە هەوڵ بدەرەوە.</p>";
+      box.setAttribute("aria-busy","false");
+      return false;
+    }
+    box.innerHTML=data.content_html;
+    box.setAttribute("aria-busy","false");
+    return true;
+  }
   async function hasPreviousLessonCompleted(sb,userId,courseId,target){
     const order=lessonOrderFor(target);
     const index=order.indexOf(target);
@@ -95,6 +109,7 @@
         return;
       }
       if(await isOwner(got.sb)){
+        await loadProtectedLessonContent(got.sb,path);
         document.documentElement.style.visibility="";
         return;
       }
@@ -108,6 +123,7 @@
         location.replace("dashboard.html?lesson=locked");
         return;
       }
+      await loadProtectedLessonContent(got.sb,target);
       document.documentElement.style.visibility="";
       return;
     }
