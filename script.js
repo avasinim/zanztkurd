@@ -22,8 +22,40 @@
     const target=targetOf(href);
     return /^(0\d|[1-5]\d)\.html$/.test(target)||/^course-2-\d+\.html$/.test(target);
   }
+  let supabaseReadyPromise=null;
+  function loadScriptOnce(src,id){
+    return new Promise((resolve,reject)=>{
+      if(id && document.getElementById(id)){ resolve(); return; }
+      const existing=[...document.scripts].find(s=>s.src===src);
+      if(existing){
+        existing.addEventListener("load",resolve,{once:true});
+        existing.addEventListener("error",reject,{once:true});
+        if(window.supabase?.createClient || window.ZANSTI_SUPABASE?.ready) resolve();
+        return;
+      }
+      const el=document.createElement("script");
+      if(id)el.id=id;
+      el.src=src;
+      el.onload=resolve;
+      el.onerror=reject;
+      document.head.appendChild(el);
+    });
+  }
+  async function ensureSupabase(){
+    if(window.supabase?.createClient && window.ZANSTI_SUPABASE?.ready)return true;
+    if(!supabaseReadyPromise){
+      supabaseReadyPromise=(async()=>{
+        try{
+          await loadScriptOnce("https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2","zansti-supabase-js");
+          await loadScriptOnce((location.pathname.includes("/lessons/")?"../supabase-config.js":"supabase-config.js")+"?v=20261008-authfix","zansti-supabase-config");
+          return !!(window.supabase?.createClient && window.ZANSTI_SUPABASE?.ready);
+        }catch(e){ return false; }
+      })();
+    }
+    return supabaseReadyPromise;
+  }
   async function getSession(){
-    if(!window.supabase?.createClient || !window.ZANSTI_SUPABASE?.ready) return null;
+    if(!await ensureSupabase()) return null;
     const sb=supabase.createClient(ZANSTI_SUPABASE.url,ZANSTI_SUPABASE.publishableKey);
     const {data:{session}}=await sb.auth.getSession();
     return {sb,session};
