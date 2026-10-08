@@ -61,8 +61,9 @@
     return {sb,session};
   }
   async function hasEnrollment(sb,userId,courseId){
-    const {data,error}=await sb.from("enrollments").select("status").eq("user_id",userId).eq("course_id",courseId).maybeSingle();
-    return !error && !!data && ["active","completed"].includes(data.status);
+    const {data,error}=await sb.rpc("student_has_enrollment",{p_course_id:courseId});
+    if(error){ console.error("[Avasin] enrollment access check failed",error); return false; }
+    return data===true;
   }
   async function isOwner(sb){
     const {data,error}=await sb.rpc("is_site_owner");
