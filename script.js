@@ -866,6 +866,21 @@ if(!window.ZANSTI_OWNER_CHECK){
       document.documentElement.style.visibility="";
       return;
     }
+    /* Server-backed sequential lesson gate: enrollment alone is not enough.
+       A learner must complete the immediately previous lesson before a later
+       lesson can be opened directly by URL. */
+    const c2Files=Array.from({length:25},(_,i)=>"course-2-"+String(i+1).padStart(2,"0")+".html");
+    const c1Files=["017.html","018.html","019.html","020.html","021.html","022.html","023.html","024.html","025.html","026.html","027.html","028.html","029.html","030.html","031.html","032.html","033.html","034.html","035.html","036.html","037.html","038.html","039.html","040.html","041.html","042.html","043.html","044.html","046.html","047.html","048.html","049.html","050.html","051.html","045.html","052.html","053.html","054.html","055.html","056.html","057.html","058.html"];
+    const lessonFiles=isC2?c2Files:c1Files;
+    const lessonIndex=lessonFiles.indexOf(path);
+    if(lessonIndex>0){
+      const previousLesson=lessonFiles[lessonIndex-1];
+      const {data:previousProgress,error:previousError}=await sb.from("lesson_progress").select("lesson_key").eq("user_id",session.user.id).eq("course_id",courseId).eq("lesson_key",previousLesson).maybeSingle();
+      if(previousError||!previousProgress){
+        location.replace("../dashboard.html?lesson=locked");
+        return;
+      }
+    }
     const {data,error}=await sb.from("enrollments").select("status").eq("user_id",session.user.id).eq("course_id",courseId).maybeSingle();
     if(error||!data||!["active","completed"].includes(data.status)){
       location.replace("../dashboard.html?enroll=required");
