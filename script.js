@@ -77,16 +77,33 @@
   async function loadProtectedLessonContent(sb,target){
     const box=document.querySelector(".lesson-content");
     if(!box)return true;
+    const lessonKey=box.getAttribute("data-lesson-key")||target;
     box.setAttribute("aria-busy","true");
-    const {data,error}=await sb.from("lesson_content").select("content_html").eq("lesson_key",target).maybeSingle();
-    if(error || !data?.content_html){
-      box.innerHTML="<p class=\"lesson-content-error\">نەتوانرا ناوەڕۆکی ئەم وانەیە بار بکرێت. تکایە دووبارە هەوڵ بدەرەوە.</p>";
-      box.setAttribute("aria-busy","false");
+    try{
+      const {data,error}=await sb.from("lesson_content")
+        .select("content_html")
+        .eq("lesson_key",lessonKey)
+        .limit(1)
+        .maybeSingle();
+      if(error){
+        console.error("[Avasin] lesson_content query failed",error);
+        box.innerHTML="<p class=\"lesson-content-error\">نەتوانرا ناوەڕۆکی وانەکە لە سێرڤەرەوە وەربگیرێت. تکایە پەڕەکە نوێ بکەرەوە.</p>";
+        return false;
+      }
+      if(!data?.content_html){
+        console.error("[Avasin] lesson_content row missing",lessonKey);
+        box.innerHTML="<p class=\"lesson-content-error\">ناوەڕۆکی ئەم وانەیە لە بنکەدراوەدا نەدۆزرایەوە.</p>";
+        return false;
+      }
+      box.innerHTML=data.content_html;
+      return true;
+    }catch(error){
+      console.error("[Avasin] lesson content load exception",error);
+      box.innerHTML="<p class=\"lesson-content-error\">هەڵەیەک لە بارکردنی ناوەڕۆکی وانەکە ڕوویدا. تکایە پەڕەکە نوێ بکەرەوە.</p>";
       return false;
+    }finally{
+      box.setAttribute("aria-busy","false");
     }
-    box.innerHTML=data.content_html;
-    box.setAttribute("aria-busy","false");
-    return true;
   }
   async function hasPreviousLessonCompleted(sb,userId,courseId,target){
     const order=lessonOrderFor(target);
@@ -139,31 +156,32 @@
   },true);
 
   (async function pageGate(){
-    if(isLesson){
-      const got=await getSession();
-      if(!got?.session){
-        location.replace(authUrl(location.href));
-        return;
-      }
-      if(await isOwner(got.sb)){
-        await loadProtectedLessonContent(got.sb,path);
+    try{
+      if(isLesson){
+        const got=await getSession();
+        if(!got?.session){
+          location.replace(authUrl(location.href));
+          return;
+        }
+        if(await isOwner(got.sb)){
+          await loadProtectedLessonContent(got.sb,path);
+          document.documentElement.style.visibility="";
+          return;
+        }
+        const target=path;
+        const courseId=/^course-2-\d+\.html$/.test(target)?"phonetics-phonology-kurdik":"orthography-kurdik";
+        if(!await hasEnrollment(got.sb,got.session.user.id,courseId)){
+          location.replace("../dashboard.html?enroll=required");
+          return;
+        }
+        if(!await hasPreviousLessonCompleted(got.sb,got.session.user.id,courseId,target)){
+          location.replace("../dashboard.html?lesson=locked");
+          return;
+        }
+        await loadProtectedLessonContent(got.sb,target);
         document.documentElement.style.visibility="";
         return;
       }
-      const target=path;
-      const courseId=/^course-2-\d+\.html$/.test(target)?"phonetics-phonology-kurdik":"orthography-kurdik";
-      if(!await hasEnrollment(got.sb,got.session.user.id,courseId)){
-        location.replace("dashboard.html?enroll=required");
-        return;
-      }
-      if(!await hasPreviousLessonCompleted(got.sb,got.session.user.id,courseId,target)){
-        location.replace("dashboard.html?lesson=locked");
-        return;
-      }
-      await loadProtectedLessonContent(got.sb,target);
-      document.documentElement.style.visibility="";
-      return;
-    }
     if(!isCatalog) return;
     document.documentElement.style.visibility="hidden";
     const got=await getSession();
