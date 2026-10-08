@@ -59,10 +59,17 @@ else{
   async function loadCourse(course, knownEnrollment=null){
     const cfg=course, elEnroll=$(cfg.enroll), elLearn=$(cfg.learn);
     let enrollment=knownEnrollment;
+    /* Keep the enrollment action available even if direct SELECT is denied;
+       the protected enrollment RPC is the authoritative write path. */
+    elEnroll.hidden=!verified;
     if(!enrollment){
       const {data,error}=await sb.from('enrollments').select('status,enrolled_at').eq('user_id',user.id).eq('course_id',cfg.id).maybeSingle();
-      if(error){$(cfg.status).textContent='هەڵەی پەیوەندی بە داتابەیس.';return false;}
-      enrollment=data;
+      if(error){
+        $(cfg.status).textContent='دۆخی تۆماربوون نەخوێندرایەوە؛ دەتوانیت لێرە خۆتۆمار بکەیت.';
+        console.error('enrollment read failed',{course:cfg.id,code:error.code,message:error.message});
+      }else{
+        enrollment=data;
+      }
     }
     const active=enrollment?.status==='active'||enrollment?.status==='completed';
     const statusLabel=enrollment?.status==='completed'?'تەواوکراو':active?'تۆمارکراو':'خۆتۆمار نەکراوە';
