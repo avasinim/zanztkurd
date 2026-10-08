@@ -843,7 +843,7 @@ if(!window.ZANSTI_OWNER_CHECK){
   const isC1=/^(0\d|[1-5]\d)\.html$/.test(path);
   if(!isC1&&!isC2)return;
   const courseId=isC2?"phonetics-phonology-kurdik":"orthography-kurdik";
-  const authUrl="../auth.html?next="+encodeURIComponent(location.pathname+location.search+location.hash);
+  const authUrl="auth.html?next="+encodeURIComponent(location.pathname+location.search+location.hash);
 
   /* Access must never fall back to public lesson viewing when Supabase
      is not configured. The lesson is private by policy, not by UI only. */
@@ -919,7 +919,7 @@ if(!window.ZANSTI_OWNER_CHECK){
     if(error){
       const code=String(error.message||"").trim();
       if(code==="NOT_ENROLLED"||code==="EMAIL_NOT_VERIFIED"||code==="AUTH_REQUIRED"){
-        location.replace(code==="EMAIL_NOT_VERIFIED"?"../dashboard.html?verify=required":"../dashboard.html?enroll=required");
+        location.replace(code==="EMAIL_NOT_VERIFIED"?"dashboard.html?verify=required":"dashboard.html?enroll=required");
         return;
       }
       if(code==="PREVIOUS_LESSON_REQUIRED"){
