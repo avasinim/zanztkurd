@@ -88,6 +88,26 @@ $$;
 revoke all on function public.enroll_in_course(text) from public;
 grant execute on function public.enroll_in_course(text) to authenticated;
 
+-- Read-only enrollment access check for student-facing gates.
+-- SECURITY DEFINER avoids exposing enrollment rows while allowing the app
+-- to verify the authenticated user's own course access.
+create or replace function public.student_has_enrollment(p_course_id text)
+returns boolean
+language sql
+stable
+security definer
+set search_path=public
+as $
+  select exists(
+    select 1 from public.enrollments e
+    where e.user_id=auth.uid()
+      and e.course_id=p_course_id
+      and e.status in ('active','completed')
+  );
+$;
+revoke all on function public.student_has_enrollment(text) from public;
+grant execute on function public.student_has_enrollment(text) to authenticated;
+
 create or replace function public.handle_new_user() returns trigger
 language plpgsql
 security definer
