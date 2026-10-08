@@ -8,7 +8,7 @@
   if(isLesson) document.documentElement.style.visibility="hidden";
 
   function authUrl(next){
-    return (path==="index.html"||!path?"auth.html":"../auth.html")+"?next="+encodeURIComponent(next||location.href);
+    return (location.pathname.includes("/lessons/")?"../auth.html":"auth.html")+"?next="+encodeURIComponent(next||location.href);
   }
   function targetOf(href){
     return (href||"").split("?")[0].split("#")[0].split("/").pop().toLowerCase();
@@ -67,15 +67,15 @@
         hasEnrollment(got.sb,got.session.user.id,"orthography-kurdik"),
         hasEnrollment(got.sb,got.session.user.id,"phonetics-phonology-kurdik")
       ]);
-      if(!c1&&!c2){location.href="../dashboard.html?enroll=required";return;}
+      if(!c1&&!c2){location.href="dashboard.html?enroll=required";return;}
     }else{
       const courseId=/^course-2-\d+\.html$/.test(target)?"phonetics-phonology-kurdik":"orthography-kurdik";
       if(!await hasEnrollment(got.sb,got.session.user.id,courseId)){
-        location.href="../dashboard.html?enroll=required";
+        location.href="dashboard.html?enroll=required";
         return;
       }
       if(!await hasPreviousLessonCompleted(got.sb,got.session.user.id,courseId,target)){
-        location.href="../dashboard.html?lesson=locked";
+        location.href="dashboard.html?lesson=locked";
         return;
       }
     }
@@ -101,11 +101,11 @@
       const target=path;
       const courseId=/^course-2-\d+\.html$/.test(target)?"phonetics-phonology-kurdik":"orthography-kurdik";
       if(!await hasEnrollment(got.sb,got.session.user.id,courseId)){
-        location.replace("../dashboard.html?enroll=required");
+        location.replace("dashboard.html?enroll=required");
         return;
       }
       if(!await hasPreviousLessonCompleted(got.sb,got.session.user.id,courseId,target)){
-        location.replace("../dashboard.html?lesson=locked");
+        location.replace("dashboard.html?lesson=locked");
         return;
       }
       document.documentElement.style.visibility="";
@@ -859,8 +859,8 @@ if(!window.ZANSTI_OWNER_CHECK){
 
   (async function guard(){
     const {data:{session}}=await sb.auth.getSession();
-    if(!session){location.replace("../auth.html?next="+encodeURIComponent(location.pathname));return;}
-    if(!session.user.email_confirmed_at){location.replace("../dashboard.html?verify=required");return;}
+    if(!session){location.replace("auth.html?next="+encodeURIComponent(location.pathname));return;}
+    if(!session.user.email_confirmed_at){location.replace("dashboard.html?verify=required");return;}
     const {data:ownerData,error:ownerError}=await sb.rpc("is_site_owner");
     if(!ownerError && ownerData===true){
       document.documentElement.style.visibility="";
@@ -877,13 +877,13 @@ if(!window.ZANSTI_OWNER_CHECK){
       const previousLesson=lessonFiles[lessonIndex-1];
       const {data:previousProgress,error:previousError}=await sb.from("lesson_progress").select("lesson_key").eq("user_id",session.user.id).eq("course_id",courseId).eq("lesson_key",previousLesson).maybeSingle();
       if(previousError||!previousProgress){
-        location.replace("../dashboard.html?lesson=locked");
+        location.replace("dashboard.html?lesson=locked");
         return;
       }
     }
     const {data,error}=await sb.from("enrollments").select("status").eq("user_id",session.user.id).eq("course_id",courseId).maybeSingle();
     if(error||!data||!["active","completed"].includes(data.status)){
-      location.replace("../dashboard.html?enroll=required");
+      location.replace("dashboard.html?enroll=required");
     }else{
       document.documentElement.style.visibility="";
     }
@@ -896,7 +896,7 @@ if(!window.ZANSTI_OWNER_CHECK){
     ev.stopImmediatePropagation();
     button.disabled=true;
     const {data:{session}}=await sb.auth.getSession();
-    if(!session||!session.user.email_confirmed_at){location.replace("../auth.html?next="+encodeURIComponent(location.pathname));return;}
+    if(!session||!session.user.email_confirmed_at){location.replace("auth.html?next="+encodeURIComponent(location.pathname));return;}
     const {data:ownerData}=await sb.rpc("is_site_owner");
     if(ownerData===true){
       const storage=isC2?"zanztkurd_course2_completed_v2":"zanztkurd_course1_completed_v2";
@@ -925,13 +925,13 @@ if(!window.ZANSTI_OWNER_CHECK){
       if(code==="PREVIOUS_LESSON_REQUIRED"){
         button.disabled=false;
         button.textContent="وانەی پێشو پێویستە";
-        location.replace("../dashboard.html?lesson=locked");
+        location.replace("dashboard.html?lesson=locked");
         return;
       }
       if(code==="INVALID_LESSON"||code==="COURSE_NOT_FOUND"){
         button.disabled=false;
         button.textContent="وانەکە ناسراو نیە";
-        location.replace("../dashboard.html?lesson=invalid");
+        location.replace("dashboard.html?lesson=invalid");
         return;
       }
       button.disabled=false;
