@@ -56,10 +56,14 @@ else{
   try{const {data:isOwner}=await sb.rpc('is_site_owner'); if(isOwner===true) ownerPanel.style.display='block';}catch(e){}
   $('status').textContent=verified?'هەژمارەکە چالاکە':'چاوەڕوانی پشتڕاست‌کردنەوەی ئیمەیڵە';
   $('verifyNotice').hidden=verified;
-  async function loadCourse(course){
+  async function loadCourse(course, knownEnrollment=null){
     const cfg=course, elEnroll=$(cfg.enroll), elLearn=$(cfg.learn);
-    const {data:enrollment,error}=await sb.from('enrollments').select('status,enrolled_at').eq('user_id',user.id).eq('course_id',cfg.id).maybeSingle();
-    if(error){$(cfg.status).textContent='هەڵەی پەیوەندی بە داتابەیس.';return false;}
+    let enrollment=knownEnrollment;
+    if(!enrollment){
+      const {data,error}=await sb.from('enrollments').select('status,enrolled_at').eq('user_id',user.id).eq('course_id',cfg.id).maybeSingle();
+      if(error){$(cfg.status).textContent='هەڵەی پەیوەندی بە داتابەیس.';return false;}
+      enrollment=data;
+    }
     const active=enrollment?.status==='active'||enrollment?.status==='completed';
     const statusLabel=enrollment?.status==='completed'?'تەواوکراو':active?'تۆمارکراو':'خۆتۆمار نەکراوە';
     $(cfg.status).innerHTML='<span class="course-status '+(enrollment?.status||'')+'">'+statusLabel+'</span>'+(enrollment?.enrolled_at?'<p class="date-line">بەرواری تۆماربوون: '+new Date(enrollment.enrolled_at).toLocaleDateString('ku')+'</p>':'');
@@ -70,21 +74,31 @@ else{
     elEnroll.onclick=async()=>{
       if(elEnroll.disabled)return;
       elEnroll.disabled=true;
+      $(cfg.status).textContent='لە سیستەمدا تۆمار دەکرێت...';
       try{
-        const {error}=await sb.rpc('enroll_in_course',{p_course_id:cfg.id});
+        const {data:created,error}=await sb.rpc('enroll_in_course',{p_course_id:cfg.id});
         if(error){
-          $(cfg.status).textContent=error.message==='EMAIL_NOT_VERIFIED'?'سەرەتا ئیمەیڵەکەت پشتڕاست بکە.':'خۆتۆمارکردن سەرکەوتوو نەبوو.';
+          const msg=String(error.message||'');
+          if(msg==='EMAIL_NOT_VERIFIED') $(cfg.status).textContent='سەرەتا ئیمەیڵەکەت پشتڕاست بکە.';
+          else if(msg==='AUTH_REQUIRED') $(cfg.status).textContent='هەژمارەکەت دووبارە چوونەژوورەوەی پێویستە.';
+          else if(msg==='COURSE_NOT_FOUND') $(cfg.status).textContent='ئەم کۆرسە لە سیستەمدا نەدۆزرایەوە.';
+          else $(cfg.status).textContent='خۆتۆمارکردن سەرکەوتوو نەبوو. تکایە دووبارە هەوڵ بدە.';
+          console.error('enroll_in_course failed', {course:cfg.id, code:error.code, message:error.message});
           return;
         }
-        await loadCourse(cfg);
+        if(!created?.status){
+          $(cfg.status).textContent='تۆمارکردن پشتڕاست نەکرایەوە؛ تکایە دووبارە هەوڵ بدە.';
+          console.error('enroll_in_course returned no enrollment row', created);
+          return;
+        }
+        await loadCourse(cfg,created);
         const {data:updatedEnrollments,error:countError}=await sb.from('enrollments').select('course_id,status').eq('user_id',user.id);
-        if(countError){
-          $('enrollSummary').textContent='تۆمارکردن سەرکەوتوو بوو؛ بەڵام نوێکردنەوەی کۆی کۆرسەکان سەرکەوتوو نەبوو.';
-          return;
-        }
-        const activeCount=(updatedEnrollments||[]).filter(e=>e.status==='active'||e.status==='completed').length;
+        const visibleActive=(updatedEnrollments||[]).filter(e=>e.status==='active'||e.status==='completed');
+        const alreadyCounted=visibleActive.some(e=>e.course_id===cfg.id);
+        const activeCount=visibleActive.length+(alreadyCounted?0:1);
         $('courseCount').textContent=String(activeCount);
-        $('enrollSummary').textContent=activeCount===0?'هێشتا هیچ کۆرسێکت تۆمار نەکردووە.':activeCount===1?'١ کۆرس بە ناوی تۆ تۆمار کراوە.':activeCount+' کۆرس بە ناوی تۆ تۆمار کراون.';
+        $('enrollSummary').textContent=activeCount===1?'١ کۆرس بە ناوی تۆ تۆمار کراوە.':activeCount+' کۆرس بە ناوی تۆ تۆمار کراون.';
+        if(countError) $('enrollSummary').textContent+='';
       }finally{
         elEnroll.disabled=false;
       }
