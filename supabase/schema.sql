@@ -204,7 +204,7 @@ begin
     raise exception 'NOT_ENROLLED';
   end if;
 
-  if lesson_index > 1 and not public.is_site_owner() then
+  if lesson_index > 1 and (p_course_id = 'orthography-kurdik' or not public.is_site_owner()) then
     previous_key := lesson_order[lesson_index-1];
     if not exists(select 1 from public.lesson_progress lp
       where lp.user_id=uid and lp.course_id=p_course_id and lp.lesson_key=previous_key) then
