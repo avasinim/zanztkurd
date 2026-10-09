@@ -142,7 +142,7 @@
         location.href="dashboard.html?enroll=required";
         return;
       }
-      if(!await hasPreviousLessonCompleted(got.sb,got.session.user.id,courseId,target)){
+      if((!owner || courseId==="orthography-kurdik") && !await hasPreviousLessonCompleted(got.sb,got.session.user.id,courseId,target)){
         location.href="dashboard.html?lesson=locked";
         return;
       }
@@ -170,7 +170,7 @@
           location.replace("../dashboard.html?enroll=required");
           return;
         }
-        if(!await hasPreviousLessonCompleted(got.sb,got.session.user.id,courseId,target)){
+        if((!owner || courseId==="orthography-kurdik") && !await hasPreviousLessonCompleted(got.sb,got.session.user.id,courseId,target)){
           location.replace("../dashboard.html?lesson=locked");
           return;
         }
