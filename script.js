@@ -725,11 +725,20 @@ if(!window.ZANSTI_SYNC_PROGRESS){
       const {data:owner}=await sb.rpc("is_site_owner");
       if(owner===true && !includeOwner)return;
       const {data:rows,error}=await sb.from("lesson_progress").select("lesson_key").eq("user_id",session.user.id).eq("course_id",courseId);
-      if(error)return;
+      if(error){
+        console.error("[Avasin] progress sync failed; refusing to trust stale local completion cache",error);
+        localStorage.setItem(storage,"[]");
+        return false;
+      }
       const indexByFile=new Map(files.map((file,i)=>[file,i]));
       const done=new Set((rows||[]).map(r=>indexByFile.get(String(r.lesson_key))).filter(i=>Number.isInteger(i)));
       localStorage.setItem(storage,JSON.stringify([...done].sort((a,b)=>a-b)));
-    }catch(e){}
+      return true;
+    }catch(e){
+      console.error("[Avasin] progress sync exception",e);
+      localStorage.setItem(storage,"[]");
+      return false;
+    }
   };
 }
 
