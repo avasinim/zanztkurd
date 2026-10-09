@@ -908,7 +908,29 @@ async function markLessonComplete(courseId, lessonKey){
     if(current<0 || await window.ZANSTI_OWNER_CHECK)return;
     styles();
     await window.ZANSTI_SYNC_PROGRESS("orthography-kurdik",COURSE1_FILES,STORAGE,true);
-    const s=done(),first=firstIncomplete();
+    /* Reconcile the completion gate directly against the server before deciding
+       whether this lesson is already complete. Never let stale localStorage
+       disable the completion button when no server record exists. */
+    let serverDone=new Set();
+    try{
+      if(window.supabase?.createClient && window.ZANSTI_SUPABASE?.ready){
+        const sb=supabase.createClient(ZANSTI_SUPABASE.url,ZANSTI_SUPABASE.publishableKey);
+        const {data:{session}}=await sb.auth.getSession();
+        if(session){
+          const {data:rows,error}=await sb.from("lesson_progress")
+            .select("lesson_key")
+            .eq("user_id",session.user.id)
+            .eq("course_id","orthography-kurdik");
+          if(error) console.error("[Avasin] authoritative Course 1 progress read failed",error);
+          else {
+            const indexByFile=new Map(COURSE1_FILES.map((file,i)=>[file,i]));
+            serverDone=new Set((rows||[]).map(row=>indexByFile.get(String(row.lesson_key))).filter(i=>Number.isInteger(i)));
+          }
+        }
+      }
+    }catch(error){console.error("[Avasin] Course 1 progress reconciliation failed",error);}
+    localStorage.setItem(STORAGE,JSON.stringify([...serverDone].sort((a,b)=>a-b)));
+    const s=serverDone,first=firstIncomplete();
     if(current>first){location.replace(url(first));return;}
     const nav=document.querySelector(".lesson-nav");if(!nav||nav.parentElement.querySelector(".course1-gate"))return;
     const gate=document.createElement("div");gate.className="course1-gate";
