@@ -40,7 +40,7 @@
 <script src="supabase-config.js?v=20261008-auth-phone"></script>
 <script>
 (async()=>{
-if(!window.supabase?.createClient){await new Promise(resolve=>{const s=document.createElement("script");s.src="https://unpkg.com/@supabase/supabase-js@2";s.onload=resolve;s.onerror=resolve;document.head.appendChild(s);});}
+if(!window.supabase?.createClient){await new Promise(resolve=>{let settled=false;const finish=()=>{if(settled)return;settled=true;resolve();};const s=document.createElement("script");s.src="https://unpkg.com/@supabase/supabase-js@2";s.onload=finish;s.onerror=finish;document.head.appendChild(s);setTimeout(finish,3500);});}
 const $=id=>document.getElementById(id);
 const msg=(t)=>{const e=$('authMessage');e.textContent=t;e.style.display='block'};
 const tabs=document.querySelectorAll('.auth-tab');
@@ -73,7 +73,7 @@ const setMethod=(method)=>{
 tabs.forEach(t=>t.onclick=()=>setAuthTab(t.dataset.mode));
 methodTabs.forEach(t=>t.onclick=()=>setMethod(t.dataset.method));
 
-if(!window.ZANSTI_SUPABASE?.ready||!window.supabase?.createClient){msg('سیستەمی هەژمار بار نەبوو. پەڕەکە نوێ بکەرەوە و دووبارە هەوڵ بدە.')}
+if(!window.ZANSTI_SUPABASE?.ready||!window.supabase?.createClient){msg('پەیوەندی سیستەمی هەژمار ئامادە نییە. دووبارە بارکردنەوە هەوڵ بدە.');['loginForm','registerForm','otpForm','recoveryForm'].forEach(id=>{const form=$(id);if(form)form.onsubmit=e=>{e.preventDefault();msg('هێشتا پەیوەندی هەژمار ئامادە نییە؛ پەڕەکە نوێ بکەرەوە و دووبارە هەوڵ بدە.');};});}
 else{const sb=window.supabase.createClient(ZANSTI_SUPABASE.url,ZANSTI_SUPABASE.publishableKey);
 const siteBase=new URL('./',location.href);
 let nextUrl=new URLSearchParams(location.search).get('next')||'index.html';
