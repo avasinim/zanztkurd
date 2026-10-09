@@ -41,12 +41,14 @@
       $('stats').innerHTML='';
       return;
     }
-    const [catalogResponse,progressResponse]=await Promise.all([
+    const [catalogResponse,progressResponse,quizResponse]=await Promise.all([
       fetch('index.json',{cache:'no-store'}),
-      sb.from('lesson_progress').select('course_id,lesson_key,completed_at').eq('user_id',session.user.id)
+      sb.from('lesson_progress').select('course_id,lesson_key,completed_at').eq('user_id',session.user.id),
+      sb.from('lesson_quiz_results').select('lesson_id,passed,score,total_questions,passed_at').eq('user_id',session.user.id).eq('passed',true)
     ]);
     if(!catalogResponse.ok) throw Error('CATALOG_LOAD');
     if(progressResponse.error) throw progressResponse.error;
+    if(quizResponse.error) throw quizResponse.error;
     const data=await catalogResponse.json(),course=data.course||{};
     const lessons=(data.sections||[]).flatMap(section=>(section.lessons||[]).map(l=>({...l,sectionTitle:section.title})));
     const progress=new Set((progressResponse.data||[]).map(row=>row.course_id+'|'+row.lesson_key));
@@ -62,17 +64,18 @@
       ...Array.from({length:25},(_,i)=>{const page='course-2-'+String(i+1).padStart(2,'0')+'.html';const l=catalogByPath.get(page);return {id:'course2-logical-'+(i+1),courseId:'phonetics-phonology-kurdik',pages:[page],quizIds:l?.id?[l.id]:[],title:l?.title||('وانەی '+(i+1)),sectionTitle:'دەورەی ٢ — فۆنێتیک و فۆنۆلۆجی زوانی کوردیک'};})
     ];
     const isDone=l=>l.pages.every(page=>progress.has(l.courseId+'|'+page));
-    const isQuizPassed=l=>l.quizIds.length>0&&l.quizIds.every(id=>localStorage.getItem('zansti:student:'+session.user.id+':lesson-quiz:'+id)==='passed');
+    const passedQuizIds=new Set((quizResponse.data||[]).map(row=>row.lesson_id));
+    const isQuizPassed=l=>l.quizIds.length>0&&l.quizIds.every(id=>passedQuizIds.has(id));
     const completed=reportLessons.filter(isDone).length,passed=reportLessons.filter(isQuizPassed).length,total=reportLessons.length,pct=total?Math.round(completed/total*100):0;
     $('courseAuthor').textContent=course.author?'نوسەر: '+course.author:'نوسەر: سابیر ژاکاو';
-    $('summary').textContent=ar(completed)+' لە '+ar(total)+' وانە لە بنکەدراوەدا تەواو کراوە — '+ar(passed)+' تاقیکردنەوەی سەرکەوتوو لەم وێبگەڕەدا تۆمار کراوە.';
+    $('summary').textContent=ar(completed)+' لە '+ar(total)+' وانە لە بنکەدراوەدا تەواو کراوە — '+ar(passed)+' تاقیکردنەوەی سەرکەوتوو لە هەژمارەکەتدا تۆمار کراوە.';
     $('percent').textContent=ar(pct)+'٪';
     $('completedBig').textContent=ar(completed);
     document.querySelector('#bar span').style.width=pct+'%';
     $('stats').innerHTML=
       '<div class="dashboard-card dash-stat"><div class="num">'+ar(total)+'</div><span class="label">کۆی وانەکان</span></div>'+
       '<div class="dashboard-card dash-stat"><div class="num">'+ar(completed)+'</div><span class="label">وانەی تەواوکراو (Supabase)</span></div>'+
-      '<div class="dashboard-card dash-stat"><div class="num">'+ar(passed)+'</div><span class="label">تاقیکردنەوەی سەرکەوتوو (ئەم وێبگەڕە)</span></div>'+
+      '<div class="dashboard-card dash-stat"><div class="num">'+ar(passed)+'</div><span class="label">تاقیکردنەوەی سەرکەوتوو (Supabase)</span></div>'+
       '<div class="dashboard-card dash-stat"><div class="num">'+ar(total?Math.round(passed/total*100):0)+'٪</div><span class="label">ڕێژەی تاقیکردنەوەی سەرکەوتوو</span></div>';
     $('report').innerHTML=reportLessons.map((l,i)=>{
       const d=isDone(l),q=isQuizPassed(l);
