@@ -2,7 +2,7 @@
    Lesson content and the lesson catalog require authentication + enrollment. */
 (function(){
   const path=(location.pathname.split("/").pop()||"").toLowerCase();
-  const isLesson=/^(0\d|[1-5]\d)\.html$/.test(path)||/^course-2-\d+\.html$/.test(path);
+  const isLesson=/^0(?:1[7-9]|[2-4]\d|5[0-8])\.html$/.test(path)||/^course-2-\d+\.html$/.test(path);
   const isCatalog=path==="catalog.html" && /\/lessons\/?$/i.test(location.pathname);
   const isProtectedCatalogTarget=(href)=>{ return /(?:^|\/)lessons\/catalog\.html(?:$|[?#])/i.test(String(href||"")); };
   if(isLesson){
@@ -20,7 +20,7 @@
   }
   function isProtectedLessonTarget(href){
     const target=targetOf(href);
-    return /^(0\d|[1-5]\d)\.html$/.test(target)||/^course-2-\d+\.html$/.test(target);
+    return /^0(?:1[7-9]|[2-4]\d|5[0-8])\.html$/.test(target)||/^course-2-\d+\.html$/.test(target);
   }
   let supabaseReadyPromise=null;
   function loadScriptOnce(src,id){
