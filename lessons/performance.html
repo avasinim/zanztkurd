@@ -60,11 +60,11 @@
     ];
     const catalogByPath=new Map(lessons.map(l=>[l.pagePath,l]));
     const reportLessons=[
-      ...course1Groups.map((pages,index)=>({id:'course1-logical-'+(index+1),courseId:'orthography-kurdik',pages,title:catalogByPath.get(pages[0])?.title||('وانەی '+(index+1)),sectionTitle:'دەورەی ١ — ڕێنوسی زوانی کوردیک'})),
-      ...Array.from({length:25},(_,i)=>{const page='course-2-'+String(i+1).padStart(2,'0')+'.html';const l=catalogByPath.get(page);return {id:'course2-logical-'+(i+1),courseId:'phonetics-phonology-kurdik',pages:[page],title:l?.title||('وانەی '+(i+1)),sectionTitle:'دەورەی ٢ — فۆنێتیک و فۆنۆلۆجی زوانی کوردیک'};})
+      ...course1Groups.map((pages,index)=>({id:'course1-logical-'+(index+1),courseId:'orthography-kurdik',pages,quizIds:pages.map(p=>catalogByPath.get(p)?.id).filter(Boolean),title:catalogByPath.get(pages[0])?.title||('وانەی '+(index+1)),sectionTitle:'دەورەی ١ — ڕێنوسی زوانی کوردیک'})),
+      ...Array.from({length:25},(_,i)=>{const page='course-2-'+String(i+1).padStart(2,'0')+'.html';const l=catalogByPath.get(page);return {id:'course2-logical-'+(i+1),courseId:'phonetics-phonology-kurdik',pages:[page],quizIds:l?.id?[l.id]:[],title:l?.title||('وانەی '+(i+1)),sectionTitle:'دەورەی ٢ — فۆنێتیک و فۆنۆلۆجی زوانی کوردیک'};})
     ];
     const isDone=l=>l.pages.every(page=>progress.has(l.courseId+'|'+page));
-    const isQuizPassed=l=>localStorage.getItem('zansti:student:'+session.user.id+':lesson-quiz:'+l.id)==='passed';
+    const isQuizPassed=l=>l.quizIds.length>0&&l.quizIds.every(id=>localStorage.getItem('zansti:student:'+session.user.id+':lesson-quiz:'+id)==='passed');
     const completed=reportLessons.filter(isDone).length,passed=reportLessons.filter(isQuizPassed).length,total=reportLessons.length,pct=total?Math.round(completed/total*100):0;
     $('courseAuthor').textContent=course.author?'نوسەر: '+course.author:'نوسەر: سابیر ژاکاو';
     $('summary').textContent=ar(completed)+' لە '+ar(total)+' وانە لە بنکەدراوەدا تەواو کراوە — '+ar(passed)+' تاقیکردنەوەی سەرکەوتوو لەم وێبگەڕەدا تۆمار کراوە.';
