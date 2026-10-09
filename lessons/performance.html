@@ -52,8 +52,20 @@
     const progress=new Set((progressResponse.data||[]).map(row=>row.course_id+'|'+row.lesson_key));
     const courseIdFor=l=>/^course-2-\d+\.html$/i.test(l.pagePath||'')?'phonetics-phonology-kurdik':'orthography-kurdik';
     const isDone=l=>progress.has(courseIdFor(l)+'|'+l.pagePath);
-    const isQuizPassed=l=>localStorage.getItem('lesson-quiz:'+l.id)==='passed';
-    const completed=lessons.filter(isDone).length,passed=lessons.filter(isQuizPassed).length,total=lessons.length,pct=total?Math.round(completed/total*100):0;
+    const course1Groups=[
+      ['017.html'],['018.html'],['019.html'],['020.html'],['021.html'],['022.html'],['023.html'],['024.html'],
+      ['025.html'],['026.html'],['027.html'],['028.html'],['029.html'],['030.html'],['031.html'],['032.html'],['033.html'],['034.html'],
+      ['035.html'],['036.html'],['037.html'],['038.html','039.html','040.html','041.html','042.html','043.html','044.html'],
+      ['046.html','047.html','048.html','049.html','050.html','051.html'],['045.html'],['052.html','053.html','054.html','055.html','056.html','057.html'],['058.html']
+    ];
+    const catalogByPath=new Map(lessons.map(l=>[l.pagePath,l]));
+    const reportLessons=[
+      ...course1Groups.map((pages,index)=>({id:'course1-logical-'+(index+1),courseId:'orthography-kurdik',pages,title:catalogByPath.get(pages[0])?.title||('وانەی '+(index+1)),sectionTitle:'دەورەی ١ — ڕێنوسی زوانی کوردیک'})),
+      ...Array.from({length:25},(_,i)=>{const page='course-2-'+String(i+1).padStart(2,'0')+'.html';const l=catalogByPath.get(page);return {id:'course2-logical-'+(i+1),courseId:'phonetics-phonology-kurdik',pages:[page],title:l?.title||('وانەی '+(i+1)),sectionTitle:'دەورەی ٢ — فۆنێتیک و فۆنۆلۆجی زوانی کوردیک'};})
+    ];
+    const isDone=l=>l.pages.every(page=>progress.has(l.courseId+'|'+page));
+    const isQuizPassed=l=>localStorage.getItem('zansti:student:'+session.user.id+':lesson-quiz:'+l.id)==='passed';
+    const completed=reportLessons.filter(isDone).length,passed=reportLessons.filter(isQuizPassed).length,total=reportLessons.length,pct=total?Math.round(completed/total*100):0;
     $('courseAuthor').textContent=course.author?'نوسەر: '+course.author:'نوسەر: سابیر ژاکاو';
     $('summary').textContent=ar(completed)+' لە '+ar(total)+' وانە لە بنکەدراوەدا تەواو کراوە — '+ar(passed)+' تاقیکردنەوەی سەرکەوتوو لەم وێبگەڕەدا تۆمار کراوە.';
     $('percent').textContent=ar(pct)+'٪';
@@ -64,7 +76,7 @@
       '<div class="dashboard-card dash-stat"><div class="num">'+ar(completed)+'</div><span class="label">وانەی تەواوکراو (Supabase)</span></div>'+
       '<div class="dashboard-card dash-stat"><div class="num">'+ar(passed)+'</div><span class="label">تاقیکردنەوەی سەرکەوتوو (ئەم وێبگەڕە)</span></div>'+
       '<div class="dashboard-card dash-stat"><div class="num">'+ar(total?Math.round(passed/total*100):0)+'٪</div><span class="label">ڕێژەی تاقیکردنەوەی سەرکەوتوو</span></div>';
-    $('report').innerHTML=lessons.map((l,i)=>{
+    $('report').innerHTML=reportLessons.map((l,i)=>{
       const d=isDone(l),q=isQuizPassed(l);
       return '<div class="report-row"><span class="report-no">'+ar(i+1)+'</span><div><strong>'+esc(l.title)+'</strong><br><small>'+esc(l.sectionTitle||'')+'</small></div><span class="report-status '+(d?'status-done':q?'status-quiz':'status-new')+'">'+(d?'✓ تەواو کراوە':q?'✓ تاقیکردنەوە سەرکەوتووە':'تەواو نەکراوە')+'</span></div>';
     }).join('')||'<div class="report-empty">هیچ وانەیەک نیە.</div>';
