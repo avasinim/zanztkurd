@@ -3,7 +3,7 @@
 (function(){
   const path=(location.pathname.split("/").pop()||"").toLowerCase();
   const isLesson=/^0(?:1[7-9]|[2-4]\d|5[0-8])\.html$/.test(path)||/^course-2-\d+\.html$/.test(path);
-  const isCatalog=path==="catalog.html" && /\/lessons\/?$/i.test(location.pathname);
+  const isCatalog=path==="catalog.html" && /\/lessons\/catalog\.html$/i.test(location.pathname);
   const isProtectedCatalogTarget=(href)=>{ return /(?:^|\/)lessons\/catalog\.html(?:$|[?#])/i.test(String(href||"")); };
   if(isLesson){
     document.documentElement.style.visibility="hidden";
@@ -124,32 +124,35 @@
     if(!isProtectedLessonTarget(rawHref) && !isProtectedCatalogTarget(rawHref)) return;
     ev.preventDefault();
     ev.stopImmediatePropagation();
-    const got=await getSession();
-    if(!got?.session){location.href=authUrl(a.href);return;}
-    const owner=await isOwner(got.sb);
-    const target=targetOf(rawHref);
-    if(isProtectedCatalogTarget(rawHref)){
-      if(!owner){
-        const [c1,c2]=await Promise.all([
-          hasEnrollment(got.sb,got.session.user.id,"orthography-kurdik"),
-          hasEnrollment(got.sb,got.session.user.id,"phonetics-phonology-kurdik")
-        ]);
-        if(!c1&&!c2){location.href=(location.pathname.includes("/lessons/")?"../dashboard.html":"dashboard.html")+"?enroll=required";return;}
+    try{
+      const got=await getSession();
+      if(!got?.session){location.href=authUrl(a.href||new URL(rawHref,location.href).href);return;}
+      const owner=await isOwner(got.sb);
+      const target=targetOf(rawHref);
+      if(isProtectedCatalogTarget(rawHref)){
+        if(!owner){
+          const [c1,c2]=await Promise.all([
+            hasEnrollment(got.sb,got.session.user.id,"orthography-kurdik"),
+            hasEnrollment(got.sb,got.session.user.id,"phonetics-phonology-kurdik")
+          ]);
+          if(!c1&&!c2){location.href=(location.pathname.includes("/lessons/")?"../dashboard.html":"dashboard.html")+"?enroll=required";return;}
+        }
+      }else{
+        const courseId=/^course-2-\d+\.html$/.test(target)?"phonetics-phonology-kurdik":"orthography-kurdik";
+        if(!owner && !await hasEnrollment(got.sb,got.session.user.id,courseId)){
+          location.href=(location.pathname.includes("/lessons/")?"../dashboard.html":"dashboard.html")+"?enroll=required";
+          return;
+        }
+        if(!owner && !await hasPreviousLessonCompleted(got.sb,got.session.user.id,courseId,target)){
+          window.alert("ئەم وانەیە هێشتا قفڵە. بۆ کردنەوەی وانەی دواتر، سەرەتا وانەی پێشو تەواو بکە و پاشان هەوڵ بدەوە.");
+          return;
+        }
       }
-    }else{
-      const courseId=/^course-2-\d+\.html$/.test(target)?"phonetics-phonology-kurdik":"orthography-kurdik";
-      if(!owner && !await hasEnrollment(got.sb,got.session.user.id,courseId)){
-        location.href=(location.pathname.includes("/lessons/")?"../dashboard.html":"dashboard.html")+"?enroll=required";
-        return;
-      }
-      if(!owner && !await hasPreviousLessonCompleted(got.sb,got.session.user.id,courseId,target)){
-        ev.preventDefault();
-        const notice="ئەم وانەیە هێشتا قفڵە. بۆ کردنەوەی وانەی دواتر، سەرەتا وانەی پێشو تەواو بکە و پاشان هەوڵ بدەوە.";
-        window.alert(notice);
-        return;
-      }
+      location.href=new URL(rawHref,location.href).href;
+    }catch(error){
+      console.error("[Avasin] lesson navigation/access check failed",error);
+      window.alert("پشکنینی دەستگەیشتن تەواو نەبوو. پەیوەندی ئینتەرنێت بپشکنە و پەڕەکە نوێ بکەرەوە؛ ئەگەر هەڵەکە بەردەوام بوو، لە Console ـی وێبگەڕدا هەڵەی [Avasin] ببینە.");
     }
-    location.href=a.getAttribute("href")||a.getAttribute("data-lesson-href");
   }
 
   document.addEventListener("click",function(ev){
