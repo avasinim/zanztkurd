@@ -43,7 +43,7 @@ else{
  async function load(){
   const {data:{session}}=await sb.auth.getSession();
   if(!session){location.replace('auth.html?next=dashboard.html');return;}
-  const user=session.user; currentUser=user; const verified=!!user.email_confirmed_at;
+  const user=session.user; currentUser=user; const verified=!!(user.email_confirmed_at||user.phone_confirmed_at);
   const ownerPanel=$('ownerPanel');
   const params=new URLSearchParams(location.search); const verifyRequired=params.get('verify')==='required'; const enrollRequired=params.get('enroll')==='required';
   if(verifyRequired){$('verifyNotice').hidden=false; $('verifyNotice').querySelector('h2').textContent='پشتڕاست‌کردنەوەی ئیمەیڵ پێویستە';}
