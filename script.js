@@ -126,20 +126,19 @@
     ev.stopImmediatePropagation();
     const got=await getSession();
     if(!got?.session){location.href=authUrl(a.href);return;}
-    if(await isOwner(got.sb)){
-      location.href=a.getAttribute("href")||a.getAttribute("data-lesson-href");
-      return;
-    }
+    const owner=await isOwner(got.sb);
     const target=targetOf(rawHref);
     if(isProtectedCatalogTarget(rawHref)){
-      const [c1,c2]=await Promise.all([
-        hasEnrollment(got.sb,got.session.user.id,"orthography-kurdik"),
-        hasEnrollment(got.sb,got.session.user.id,"phonetics-phonology-kurdik")
-      ]);
-      if(!c1&&!c2){location.href="dashboard.html?enroll=required";return;}
+      if(!owner){
+        const [c1,c2]=await Promise.all([
+          hasEnrollment(got.sb,got.session.user.id,"orthography-kurdik"),
+          hasEnrollment(got.sb,got.session.user.id,"phonetics-phonology-kurdik")
+        ]);
+        if(!c1&&!c2){location.href="dashboard.html?enroll=required";return;}
+      }
     }else{
       const courseId=/^course-2-\d+\.html$/.test(target)?"phonetics-phonology-kurdik":"orthography-kurdik";
-      if(!await hasEnrollment(got.sb,got.session.user.id,courseId)){
+      if(!owner && !await hasEnrollment(got.sb,got.session.user.id,courseId)){
         location.href="dashboard.html?enroll=required";
         return;
       }
@@ -164,14 +163,10 @@
           location.replace(authUrl(location.href));
           return;
         }
-        if(await isOwner(got.sb)){
-          await loadProtectedLessonContent(got.sb,path);
-          document.documentElement.style.visibility="";
-          return;
-        }
+        const owner=await isOwner(got.sb);
         const target=path;
         const courseId=/^course-2-\d+\.html$/.test(target)?"phonetics-phonology-kurdik":"orthography-kurdik";
-        if(!await hasEnrollment(got.sb,got.session.user.id,courseId)){
+        if(!owner && !await hasEnrollment(got.sb,got.session.user.id,courseId)){
           location.replace("../dashboard.html?enroll=required");
           return;
         }
@@ -719,14 +714,14 @@ if(!window.ZANSTI_OWNER_CHECK){
 
 /* ===== Server progress sync for local UI fallback ===== */
 if(!window.ZANSTI_SYNC_PROGRESS){
-  window.ZANSTI_SYNC_PROGRESS=async function(courseId,files,storage){
+  window.ZANSTI_SYNC_PROGRESS=async function(courseId,files,storage,includeOwner=false){
     try{
       if(!window.supabase?.createClient||!window.ZANSTI_SUPABASE?.ready)return;
       const sb=supabase.createClient(ZANSTI_SUPABASE.url,ZANSTI_SUPABASE.publishableKey);
       const {data:{session}}=await sb.auth.getSession();
       if(!session)return;
       const {data:owner}=await sb.rpc("is_site_owner");
-      if(owner===true)return;
+      if(owner===true && !includeOwner)return;
       const {data:rows,error}=await sb.from("lesson_progress").select("lesson_key").eq("user_id",session.user.id).eq("course_id",courseId);
       if(error)return;
       const indexByFile=new Map(files.map((file,i)=>[file,i]));
@@ -898,9 +893,8 @@ async function markLessonComplete(courseId, lessonKey){
   }
   async function lessonGate(){
     if(current<0)return;
-    if(await window.ZANSTI_OWNER_CHECK)return;
     styles();
-    await window.ZANSTI_SYNC_PROGRESS("orthography-kurdik",COURSE1_FILES,STORAGE);
+    await window.ZANSTI_SYNC_PROGRESS("orthography-kurdik",COURSE1_FILES,STORAGE,true);
     const s=done(),first=firstIncomplete();
     if(current>first){location.replace(url(first));return;}
     const nav=document.querySelector(".lesson-nav");if(!nav||nav.parentElement.querySelector(".course1-gate"))return;
@@ -936,7 +930,6 @@ async function markLessonComplete(courseId, lessonKey){
   }
   async function navGate(){
     if(current<0)return;
-    if(await window.ZANSTI_OWNER_CHECK)return;
     const links=document.querySelectorAll(".lesson-nav a[href]");
     links.forEach(function(a){
       const href=(a.getAttribute("href")||"").split("?")[0].split("#")[0];
@@ -974,9 +967,8 @@ async function markLessonComplete(courseId, lessonKey){
 
   async function learningGate(){
     if(!document.querySelector(".learning-sequence"))return;
-    if(await window.ZANSTI_OWNER_CHECK)return;
     styles();
-    await window.ZANSTI_SYNC_PROGRESS("orthography-kurdik",COURSE1_FILES,STORAGE);
+    await window.ZANSTI_SYNC_PROGRESS("orthography-kurdik",COURSE1_FILES,STORAGE,true);
     const first=firstIncomplete();
     document.querySelectorAll('.learning-sequence a[href*="lessons/"]').forEach(function(a){
       const m=(a.getAttribute("href")||"").match(/lessons\/(\d+)\.html$/);if(!m)return;
