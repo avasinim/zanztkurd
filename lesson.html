@@ -44,9 +44,9 @@
   const $=id=>document.getElementById(id), titleEl=$('lessonTitle'),eyebrowEl=$('lessonEyebrow'),metaEl=$('lessonMeta'),contentEl=$('lessonContent'),objectivesEl=$('lessonObjectives'),errorEl=$('lessonError'),progressEl=$('lessonProgress'),termsSection=$('termsSection'),termsEl=$('lessonTerms'),exercisesSection=$('exercisesSection'),exercisesEl=$('lessonExercises'),quizSection=$('quizSection'),quizEl=$('lessonQuiz'),quizResultEl=$('quizResult'),actionsEl=$('lessonActions'),completeBtn=$('completeLesson'),navEl=$('lessonNav');
   let storageUserId='anonymous';
   const studentStorage={
-    getItem:key=>studentStorage.getItem('zansti:student:'+storageUserId+':'+key),
-    setItem:(key,value)=>studentStorage.setItem('zansti:student:'+storageUserId+':'+key,value),
-    removeItem:key=>localStorage.removeItem('zansti:student:'+storageUserId+':'+key)
+    getItem:key=>window.localStorage.getItem('zansti:student:'+storageUserId+':'+key),
+    setItem:(key,value)=>window.localStorage.setItem('zansti:student:'+storageUserId+':'+key,value),
+    removeItem:key=>window.localStorage.removeItem('zansti:student:'+storageUserId+':'+key)
   };
   async function setStudentStorageScope(){
     try{
