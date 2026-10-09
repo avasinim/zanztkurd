@@ -139,7 +139,7 @@
     }else{
       const courseId=/^course-2-\d+\.html$/.test(target)?"phonetics-phonology-kurdik":"orthography-kurdik";
       if(!owner && !await hasEnrollment(got.sb,got.session.user.id,courseId)){
-        location.href="dashboard.html?enroll=required";
+        location.href=(location.pathname.includes("/lessons/")?"../dashboard.html":"dashboard.html")+"?enroll=required";
         return;
       }
       if(!owner && !await hasPreviousLessonCompleted(got.sb,got.session.user.id,courseId,target)){
