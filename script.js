@@ -911,7 +911,7 @@ async function markLessonComplete(courseId, lessonKey){
     /* Reconcile the completion gate directly against the server before deciding
        whether this lesson is already complete. Never let stale localStorage
        disable the completion button when no server record exists. */
-    let serverDone=new Set();
+    let serverDone=new Set(),serverProgressLoaded=false;
     try{
       if(window.supabase?.createClient && window.ZANSTI_SUPABASE?.ready){
         const sb=supabase.createClient(ZANSTI_SUPABASE.url,ZANSTI_SUPABASE.publishableKey);
@@ -925,13 +925,18 @@ async function markLessonComplete(courseId, lessonKey){
           else {
             const indexByFile=new Map(COURSE1_FILES.map((file,i)=>[file,i]));
             serverDone=new Set((rows||[]).map(row=>indexByFile.get(String(row.lesson_key))).filter(i=>Number.isInteger(i)));
+            serverProgressLoaded=true;
           }
         }
       }
     }catch(error){console.error("[Avasin] Course 1 progress reconciliation failed",error);}
-    localStorage.setItem(STORAGE,JSON.stringify([...serverDone].sort((a,b)=>a-b)));
-    const s=serverDone,first=firstIncomplete();
-    if(current>first){location.replace(url(first));return;}
+    /* Never redirect a learner to lesson 1 because a temporary progress read failed.
+       Reconcile the local cache only after a successful authoritative read. */
+    if(serverProgressLoaded){
+      localStorage.setItem(STORAGE,JSON.stringify([...serverDone].sort((a,b)=>a-b)));
+    }
+    const s=serverProgressLoaded?serverDone:done(),first=firstIncomplete();
+    if(serverProgressLoaded && current>first){location.replace(url(first));return;}
     const nav=document.querySelector(".lesson-nav");if(!nav||nav.parentElement.querySelector(".course1-gate"))return;
     const gate=document.createElement("div");gate.className="course1-gate";
     const already=s.has(current),next=current+1<COURSE1_FILES.length?current+1:null;
