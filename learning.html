@@ -94,7 +94,7 @@ body.content-page{--ink:#17231f;--muted:#65716b;--green:#315344;--green2:#476b59
      e.preventDefault();
      const {data:{session}}=await sb.auth.getSession();
      if(!session){location.href='auth.html?next='+encodeURIComponent(href);return;}
-     if(!session.user.email_confirmed_at){location.href='dashboard.html?verify=required';return;}
+     if(!session.user.email_confirmed_at&&!session.user.phone_confirmed_at){location.href='dashboard.html?verify=required';return;}
      const {data:hasAccess,error}=await sb.rpc('student_has_enrollment',{p_course_id:courseId});
      if(error||hasAccess!==true){location.href='dashboard.html?enroll=required';return;}
      location.href=href;
