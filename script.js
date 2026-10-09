@@ -936,7 +936,9 @@ async function markLessonComplete(courseId, lessonKey){
       localStorage.setItem(STORAGE,JSON.stringify([...serverDone].sort((a,b)=>a-b)));
     }
     const s=serverProgressLoaded?serverDone:done(),first=firstIncomplete();
-    if(serverProgressLoaded && current>first){location.replace(url(first));return;}
+    /* Do not redirect a learner away from a lesson based on a progress snapshot.
+       A stale session/RLS read must never create a loop back to lesson 1. Forward
+       navigation remains controlled by the completion gate below. */
     const nav=document.querySelector(".lesson-nav");if(!nav||nav.parentElement.querySelector(".course1-gate"))return;
     const gate=document.createElement("div");gate.className="course1-gate";
     const already=s.has(current),next=current+1<COURSE1_FILES.length?current+1:null;
