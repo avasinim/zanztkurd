@@ -39,6 +39,8 @@
 <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
 <script src="supabase-config.js?v=20261008-auth-phone"></script>
 <script>
+(async()=>{
+if(!window.supabase?.createClient){await new Promise(resolve=>{const s=document.createElement("script");s.src="https://unpkg.com/@supabase/supabase-js@2";s.onload=resolve;s.onerror=resolve;document.head.appendChild(s);});}
 const $=id=>document.getElementById(id);
 const msg=(t)=>{const e=$('authMessage');e.textContent=t;e.style.display='block'};
 const tabs=document.querySelectorAll('.auth-tab');
@@ -71,7 +73,7 @@ const setMethod=(method)=>{
 tabs.forEach(t=>t.onclick=()=>setAuthTab(t.dataset.mode));
 methodTabs.forEach(t=>t.onclick=()=>setMethod(t.dataset.method));
 
-if(!window.ZANSTI_SUPABASE?.ready){msg('سیستەمی هەژمار هێشتا پەیوەندی بە backend ـەوە نیە. Project URL و Publishable key دابین بکە.')}
+if(!window.ZANSTI_SUPABASE?.ready||!window.supabase?.createClient){msg('سیستەمی هەژمار بار نەبوو. پەڕەکە نوێ بکەرەوە و دووبارە هەوڵ بدە.')}
 else{const sb=window.supabase.createClient(ZANSTI_SUPABASE.url,ZANSTI_SUPABASE.publishableKey);
 const siteBase=new URL('./',location.href);
 let nextUrl=new URLSearchParams(location.search).get('next')||'index.html';
@@ -138,6 +140,7 @@ $('resetLink').onclick=async e=>{e.preventDefault();const email=$('loginEmail').
 $('recoveryForm').onsubmit=async e=>{e.preventDefault();if($('newPassword').value!==$('newPassword2').value)return msg('وشەکانی نهێنی یەکسان نین.');const {error}=await sb.auth.updateUser({password:$('newPassword').value});if(error)return msg(error.message);msg('وشەی نهێنی بە سەرکەوتوویی نوێکرایەوە.');setTimeout(()=>location.href='index.html',900)};
 if(recovery){document.querySelectorAll('.auth-tab').forEach(x=>x.classList.remove('active'));$('loginForm').classList.add('hidden');$('registerForm').classList.add('hidden');$('loginMethods').classList.add('hidden');$('recoveryForm').classList.remove('hidden');}
 }
+})();
 </script>
 <footer class="v2-footer" role="contentinfo"><div class="v2-shell v2-footer-grid">
 <div class="v2-footer-identity"><a class="v2-brand academy-brand" href="index.html" aria-label="ئەکادێمیای ئاڤاشین"><span class="academy-mark" aria-hidden="true">A</span><span class="academy-copy"><span class="academy-name">ئەکادێمیای ئاڤاشین</span><span class="academy-sub">ACADEMIC LANGUAGE PLATFORM</span></span></a><p>زانستی کورد · چوارچێوەیەکی فێرکاری و ئەکادیمی بۆ زوانی کوردیک و زمان‌ناسی.</p></div>
