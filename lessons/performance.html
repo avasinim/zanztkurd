@@ -50,8 +50,6 @@
     const data=await catalogResponse.json(),course=data.course||{};
     const lessons=(data.sections||[]).flatMap(section=>(section.lessons||[]).map(l=>({...l,sectionTitle:section.title})));
     const progress=new Set((progressResponse.data||[]).map(row=>row.course_id+'|'+row.lesson_key));
-    const courseIdFor=l=>/^course-2-\d+\.html$/i.test(l.pagePath||'')?'phonetics-phonology-kurdik':'orthography-kurdik';
-    const isDone=l=>progress.has(courseIdFor(l)+'|'+l.pagePath);
     const course1Groups=[
       ['017.html'],['018.html'],['019.html'],['020.html'],['021.html'],['022.html'],['023.html'],['024.html'],
       ['025.html'],['026.html'],['027.html'],['028.html'],['029.html'],['030.html'],['031.html'],['032.html'],['033.html'],['034.html'],
