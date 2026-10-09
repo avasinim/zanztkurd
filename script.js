@@ -205,6 +205,14 @@
       a.removeAttribute("data-lesson-href");
     });
     document.documentElement.style.visibility="";
+    }catch(error){
+      console.error("[Avasin] protected page gate failed",error);
+      if(isLesson){
+        const box=document.querySelector(".lesson-content");
+        if(box)box.innerHTML="<p class=\"lesson-content-error\">بارکردنی وانەکە سەرکەوتوو نەبوو. تکایە پەڕەکە نوێ بکەرەوە؛ ئەگەر کێشەکە بەردەوام بوو، پشتیوانی پەیوەندی پێوە بکە.</p>";
+        document.documentElement.style.visibility="";
+      }
+    }
   })();
 })();
 /* ===== Avasin Standard — Lesson Copy Protection =====
