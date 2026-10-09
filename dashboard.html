@@ -152,7 +152,38 @@ else{
   });
   m.textContent=error?(error.message||' ناردنەوە سەرکەوتوو نەبوو.'):' ئیمەیڵی پشتڕاست‌کردنەوە نێردرا.';
 };
- $('profileForm').onsubmit=async e=>{e.preventDefault();const m=$('profileMessage');m.textContent='پاشەکەوت‌کردن...';const full_name=$('profileName').value.trim();const {error}=await sb.from('profiles').update({full_name,updated_at:new Date().toISOString()}).eq('id',userId());if(error){m.textContent=error.code==='23505'?'ئەم ژمارەی خوێندکارە پێشتر بەکارهاتووە.':'پاشەکەوت‌کردن سەرکەوتوو نەبوو.';return;}await sb.auth.updateUser({data:{full_name}});m.textContent='پڕۆفایل بە سەرکەوتوویی نوێکرایەوە.';};
+ $('profileForm').onsubmit=async e=>{
+  e.preventDefault();
+  const m=$('profileMessage');
+  m.textContent='پاشەکەوت‌کردن...';
+  const full_name=$('profileName').value.trim();
+  if(!full_name){m.textContent='تکایە ناوی تەواو بنووسە.';return;}
+  try{
+    const {data:updatedProfile,error}=await sb.from('profiles')
+      .update({full_name,updated_at:new Date().toISOString()})
+      .eq('id',userId()).select('id').maybeSingle();
+    if(error){
+      console.error('[Avasin] profile save failed', {code:error.code,message:error.message,details:error.details,hint:error.hint});
+      m.textContent='پاشەکەوتکردن سەرکەوتوو نەبوو ('+(error.code||'DB')+'): '+(error.message||'هەڵەی نادیار');
+      return;
+    }
+    if(!updatedProfile){
+      console.error('[Avasin] profile save updated zero rows', {userId:userId()});
+      m.textContent='پڕۆفایلی ئەم هەژمارە لە بنکەدراوەدا نەدۆزرایەوە، یان ڕێگەپێدانی نوێکردنەوە نییە.';
+      return;
+    }
+    const {error:authError}=await sb.auth.updateUser({data:{full_name}});
+    if(authError){
+      console.error('[Avasin] profile saved but auth metadata update failed',authError);
+      m.textContent='ناوەکە لە پڕۆفایل پاشەکەوت کرا، بەڵام نوێکردنەوەی زانیاری هەژمار سەرکەوتوو نەبوو: '+(authError.message||authError.code||'هەڵەی نادیار');
+      return;
+    }
+    m.textContent='پڕۆفایل بە سەرکەوتوویی نوێکرایەوە.';
+  }catch(error){
+    console.error('[Avasin] unexpected profile save failure',error);
+    m.textContent='هەڵەی چاوەڕوان‌نەکراو: '+(error?.message||String(error));
+  }
+ };
  function userId(){return currentUser.id;} 
  let currentUser=null;
  load();
