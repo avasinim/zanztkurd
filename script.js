@@ -134,7 +134,7 @@
           hasEnrollment(got.sb,got.session.user.id,"orthography-kurdik"),
           hasEnrollment(got.sb,got.session.user.id,"phonetics-phonology-kurdik")
         ]);
-        if(!c1&&!c2){location.href="dashboard.html?enroll=required";return;}
+        if(!c1&&!c2){location.href=(location.pathname.includes("/lessons/")?"../dashboard.html":"dashboard.html")+"?enroll=required";return;}
       }
     }else{
       const courseId=/^course-2-\d+\.html$/.test(target)?"phonetics-phonology-kurdik":"orthography-kurdik";
@@ -143,7 +143,7 @@
         return;
       }
       if((!owner || courseId==="orthography-kurdik") && !await hasPreviousLessonCompleted(got.sb,got.session.user.id,courseId,target)){
-        location.href="dashboard.html?lesson=locked";
+        location.href=(location.pathname.includes("/lessons/")?"../dashboard.html":"dashboard.html")+"?lesson=locked";
         return;
       }
     }
