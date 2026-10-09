@@ -21,6 +21,62 @@
 <div class="dashboard-layout"><article class="dashboard-card lesson-report"><div class="lesson-report-head"><div><h2>ڕاپۆرتی وانەکان</h2><p>دۆخی هەر وانەیەک لە ڕێڕەوی خوێندن</p></div><span class="eyebrow">سابیر ژاکاو</span></div><div id="report" class="report-list"></div><div class="report-actions"><a class="ghost-btn" href="catalog.html">بینینی هەمو وانەکان</a><button class="danger-btn" id="reset" type="button">سڕینەوەی پێشکەوتن</button></div></article>
 <aside class="dashboard-card dashboard-side"><h3>چۆن بخوێنیت؟</h3><div class="side-item"><strong>١ · وانەکە تەواو بکە</strong><span>ناوەڕۆکەکە بخوێنەوە و چالاکییەکە ئەنجام بدە.</span></div><div class="side-item"><strong>٢ · تاقیکردنەوەکە بکە</strong><span>ئەنجامی تاقیکردنەوەکە لە داشبۆردەکەدا دەردەکەوێت.</span></div><div class="side-item"><strong>٣ · بەردەوام بە</strong><span>لە شوێنی خۆت بەردەوام بە و وانەکان بە ڕێکخستن بخوێنەوە.</span></div></aside></div>
 </div></section></main><footer class="footer"><div class="container footer-bottom">© ٢٠٢٦ ئاڤاشین · فێربونی زمانی کوردی</div></footer>
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+<script src="../supabase-config.js?v=20261008-authfix"></script>
 <script>
-(async()=>{const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));const ar=n=>String(n).replace(/\d/g,d=>'٠١٢٣٤٥٦٧٨٩'[d]);const done=l=>localStorage.getItem('lesson-completed:'+l.id)==='true'||localStorage.getItem('lesson-progress:'+l.id)==='completed';try{const res=await fetch('index.json',{cache:'no-store'});if(!res.ok)throw Error('catalog');const data=await res.json(),course=data.course||{},lessons=(data.sections||[]).flatMap(s=>(s.lessons||[]).map(l=>({...l,sectionTitle:s.title}))),completed=lessons.filter(done).length,passed=lessons.filter(l=>localStorage.getItem('lesson-quiz:'+l.id)==='passed').length,total=lessons.length,pct=total?Math.round(completed/total*100):0;document.getElementById('courseAuthor').textContent=course.author?'نوسەر: '+course.author:'نوسەر: سابیر ژاکاو';document.getElementById('summary').textContent=completed+' لە '+total+' وانە تەواو کراوە — '+passed+' تاقیکردنەوە سەرکەوتو';document.getElementById('percent').textContent=ar(pct)+'٪';document.getElementById('completedBig').textContent=ar(completed);document.querySelector('#bar span').style.width=pct+'%';document.getElementById('stats').innerHTML='<div class="dashboard-card dash-stat"><div class="num">'+ar(total)+'</div><span class="label">کۆی وانەکان</span></div><div class="dashboard-card dash-stat"><div class="num">'+ar(completed)+'</div><span class="label">وانەی تەواوکراو</span></div><div class="dashboard-card dash-stat"><div class="num">'+ar(passed)+'</div><span class="label">تاقیکردنەوەی سەرکەوتو</span></div><div class="dashboard-card dash-stat"><div class="num">'+ar(total?Math.round(passed/total*100):0)+'٪</div><span class="label">نرخی سەرکەوتنی تاقیکردنەوە</span></div>';document.getElementById('report').innerHTML=lessons.map((l,i)=>{const d=done(l),q=localStorage.getItem('lesson-quiz:'+l.id)==='passed';return '<div class="report-row"><span class="report-no">'+ar(i+1)+'</span><div><strong>'+esc(l.title)+'</strong><br><small>'+esc(l.sectionTitle||'')+'</small></div><span class="report-status '+(d?'status-done':q?'status-quiz':'status-new')+'">'+(d?'✓ تەواو کراوە':q?'✓ تاقیکردنەوە سەرکەوتوە':'لە دەستپێکدا')+'</span></div>'}).join('')||'<div class="report-empty">هیچ وانەیەک نیە.</div>'}catch(e){document.getElementById('summary').textContent='بارکردنی ڕاپۆرت سەرکەوتو نەبو.';document.getElementById('report').innerHTML='<div class="report-empty">تکایە دوبارە هەوڵ بدە.</div>'}document.getElementById('reset').onclick=()=>{if(confirm('دڵنیایت دەتەوێت هەمو پێشکەوتنەکان بسڕیتەوە؟')){Object.keys(localStorage).filter(k=>k.startsWith('lesson-')).forEach(k=>localStorage.removeItem(k));location.reload()}}})();
+(async()=>{
+  const $=id=>document.getElementById(id);
+  const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+  const ar=n=>String(n).replace(/\d/g,d=>'٠١٢٣٤٥٦٧٨٩'[d]);
+  const setError=message=>{$('summary').textContent=message;$('report').innerHTML='<div class="report-empty">'+esc(message)+'</div>';};
+  try{
+    if(!window.supabase?.createClient||!window.ZANSTI_SUPABASE?.ready) throw Error('SUPABASE_CONFIG');
+    const sb=window.supabase.createClient(window.ZANSTI_SUPABASE.url,window.ZANSTI_SUPABASE.publishableKey);
+    const {data:{session},error:sessionError}=await sb.auth.getSession();
+    if(sessionError) throw sessionError;
+    if(!session){
+      const next=encodeURIComponent(location.href);
+      $('summary').textContent='بۆ بینینی پێشکەوتنی خۆت، تکایە بچۆرە ژوورەوە.';
+      $('report').innerHTML='<div class="report-empty">بۆ بینینی ڕاپۆرتی تایبەتی خۆت، <a href="../auth.html?next='+next+'">چوونەژوورەوە</a> بکە.</div>';
+      $('stats').innerHTML='';
+      return;
+    }
+    const [catalogResponse,progressResponse]=await Promise.all([
+      fetch('index.json',{cache:'no-store'}),
+      sb.from('lesson_progress').select('course_id,lesson_key,completed_at').eq('user_id',session.user.id)
+    ]);
+    if(!catalogResponse.ok) throw Error('CATALOG_LOAD');
+    if(progressResponse.error) throw progressResponse.error;
+    const data=await catalogResponse.json(),course=data.course||{};
+    const lessons=(data.sections||[]).flatMap(section=>(section.lessons||[]).map(l=>({...l,sectionTitle:section.title})));
+    const progress=new Set((progressResponse.data||[]).map(row=>row.course_id+'|'+row.lesson_key));
+    const courseIdFor=l=>/^course-2-\d+\.html$/i.test(l.pagePath||'')?'phonetics-phonology-kurdik':'orthography-kurdik';
+    const isDone=l=>progress.has(courseIdFor(l)+'|'+l.pagePath);
+    const isQuizPassed=l=>localStorage.getItem('lesson-quiz:'+l.id)==='passed';
+    const completed=lessons.filter(isDone).length,passed=lessons.filter(isQuizPassed).length,total=lessons.length,pct=total?Math.round(completed/total*100):0;
+    $('courseAuthor').textContent=course.author?'نوسەر: '+course.author:'نوسەر: سابیر ژاکاو';
+    $('summary').textContent=ar(completed)+' لە '+ar(total)+' وانە لە بنکەدراوەدا تەواو کراوە — '+ar(passed)+' تاقیکردنەوەی سەرکەوتوو لەم وێبگەڕەدا تۆمار کراوە.';
+    $('percent').textContent=ar(pct)+'٪';
+    $('completedBig').textContent=ar(completed);
+    document.querySelector('#bar span').style.width=pct+'%';
+    $('stats').innerHTML=
+      '<div class="dashboard-card dash-stat"><div class="num">'+ar(total)+'</div><span class="label">کۆی وانەکان</span></div>'+
+      '<div class="dashboard-card dash-stat"><div class="num">'+ar(completed)+'</div><span class="label">وانەی تەواوکراو (Supabase)</span></div>'+
+      '<div class="dashboard-card dash-stat"><div class="num">'+ar(passed)+'</div><span class="label">تاقیکردنەوەی سەرکەوتوو (ئەم وێبگەڕە)</span></div>'+
+      '<div class="dashboard-card dash-stat"><div class="num">'+ar(total?Math.round(passed/total*100):0)+'٪</div><span class="label">ڕێژەی تاقیکردنەوەی سەرکەوتوو</span></div>';
+    $('report').innerHTML=lessons.map((l,i)=>{
+      const d=isDone(l),q=isQuizPassed(l);
+      return '<div class="report-row"><span class="report-no">'+ar(i+1)+'</span><div><strong>'+esc(l.title)+'</strong><br><small>'+esc(l.sectionTitle||'')+'</small></div><span class="report-status '+(d?'status-done':q?'status-quiz':'status-new')+'">'+(d?'✓ تەواو کراوە':q?'✓ تاقیکردنەوە سەرکەوتووە':'تەواو نەکراوە')+'</span></div>';
+    }).join('')||'<div class="report-empty">هیچ وانەیەک نیە.</div>';
+  }catch(error){
+    console.error('[Avasin] performance report failed',error);
+    setError('ڕاپۆرت بار نەبوو. تکایە پەیوەندی ئینتەرنێت و چوونەژوورەوە بپشکنە و پەڕەکە نوێ بکەرەوە.');
+  }
+  $('reset').textContent='سڕینەوەی نیشانەی تاقیکردنەوە لەم وێبگەڕە';
+  $('reset').onclick=()=>{
+    if(!confirm('تەنیا نیشانەکانی تاقیکردنەوە لەم وێبگەڕەدا بسڕدرێنەوە؟ پێشکەوتنی وانەکان لە بنکەدراوە ناسڕدرێتەوە.')) return;
+    Object.keys(localStorage).filter(k=>k.startsWith('lesson-quiz:')).forEach(k=>localStorage.removeItem(k));
+    location.reload();
+  };
+})();
 </script></body></html>
