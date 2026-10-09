@@ -143,7 +143,9 @@
         return;
       }
       if(!owner && !await hasPreviousLessonCompleted(got.sb,got.session.user.id,courseId,target)){
-        location.href=(location.pathname.includes("/lessons/")?"../dashboard.html":"dashboard.html")+"?lesson=locked";
+        ev.preventDefault();
+        const notice="ئەم وانەیە هێشتا قفڵە. بۆ کردنەوەی وانەی دواتر، سەرەتا وانەی پێشو تەواو بکە و پاشان هەوڵ بدەوە.";
+        window.alert(notice);
         return;
       }
     }
