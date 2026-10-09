@@ -70,7 +70,7 @@ as $$
 declare result_row public.enrollments;
 begin
   if auth.uid() is null then raise exception 'AUTH_REQUIRED'; end if;
-  if not exists(select 1 from auth.users u where u.id=auth.uid() and u.email_confirmed_at is not null) then
+  if not exists(select 1 from auth.users u where u.id=auth.uid() and (u.email_confirmed_at is not null or u.phone_confirmed_at is not null)) then
     raise exception 'EMAIL_NOT_VERIFIED';
   end if;
   if not exists(select 1 from public.courses c where c.id=p_course_id) then
@@ -170,7 +170,7 @@ declare
   previous_key text;
 begin
   if uid is null then raise exception 'AUTH_REQUIRED'; end if;
-  if not exists(select 1 from auth.users u where u.id=uid and u.email_confirmed_at is not null) then
+  if not exists(select 1 from auth.users u where u.id=uid and (u.email_confirmed_at is not null or u.phone_confirmed_at is not null)) then
     raise exception 'EMAIL_NOT_VERIFIED';
   end if;
 
