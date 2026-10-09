@@ -99,15 +99,36 @@ sb.auth.onAuthStateChange((event,session)=>{
 
 $('loginForm').onsubmit=async e=>{
  e.preventDefault();
- if(authMethod==='phone'){
-   const phone=$('loginPhone').value.trim();
-   if(!phone)return msg('تکایە ژمارەی مۆبایلەکەت بنوسە.');
-   const {error}=await sb.auth.signInWithOtp({phone,options:{shouldCreateUser:false}});
-   if(error)return msg(error.message);
-   otpPhone=phone;otpMode='login';$('loginForm').classList.add('hidden');$('loginMethods').classList.add('hidden');$('otpForm').classList.remove('hidden');msg('کۆدی پشتڕاستکردنەوە نێردرا.');$('otpCode').focus();return;
+ const button=$('loginSubmit');
+ const oldLabel=button.textContent;
+ button.disabled=true;
+ button.textContent='تکایە چاوەڕێ بکە...';
+ try{
+   if(!navigator.onLine)throw new Error('پەیوەندی ئینتەرنێت نییە. پەیوەندییەکەت بپشکنە.');
+   if(authMethod==='phone'){
+     const phone=$('loginPhone').value.trim();
+     if(!phone)return msg('تکایە ژمارەی مۆبایلەکەت بنوسە.');
+     const {error}=await sb.auth.signInWithOtp({phone,options:{shouldCreateUser:false}});
+     if(error)throw error;
+     otpPhone=phone;otpMode='login';$('loginForm').classList.add('hidden');$('loginMethods').classList.add('hidden');$('otpForm').classList.remove('hidden');msg('کۆدی پشتڕاستکردنەوە نێردرا.');$('otpCode').focus();return;
+   }
+   const email=$('loginEmail').value.trim();
+   const password=$('loginPassword').value;
+   if(!email)return msg('تکایە ئیمەیڵەکەت بنوسە.');
+   if(!password)return msg('تکایە وشەی نهێنییەکەت بنوسە.');
+   const {data,error}=await sb.auth.signInWithPassword({email,password});
+   if(error)throw error;
+   if(!data?.session)throw new Error('چوونەژوورەوە تەواو نەبوو. تکایە ئیمەیڵ و وشەی نهێنی بپشکنە.');
+   location.href=nextUrl;
+ }catch(error){
+   console.error('[Avasin Auth] login failed',error);
+   const raw=String(error?.message||'');
+   const friendly=/invalid login credentials/i.test(raw)?'ئیمەیڵ یان وشەی نهێنی هەڵەیە.':/email not confirmed/i.test(raw)?'سەرەتا ئیمەیڵەکەت پشتڕاست بکەرەوە.':/fetch|network|failed to fetch/i.test(raw)?'پەیوەندی بە سیستەمی هەژمار نەکرا. ئینتەرنێت و ڕێکخستنی Supabase بپشکنە.':(raw||'هەڵەیەکی نەزانراو لە چوونەژوورەوە ڕوویدا.');
+   msg(friendly);
+ }finally{
+   button.disabled=false;
+   button.textContent=oldLabel;
  }
- const {error}=await sb.auth.signInWithPassword({email:$('loginEmail').value.trim(),password:$('loginPassword').value});
- if(error)return msg(error.message);location.href=nextUrl;
 };
 
 $('registerForm').onsubmit=async e=>{
