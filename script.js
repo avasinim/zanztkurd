@@ -170,7 +170,7 @@
           location.replace("../dashboard.html?enroll=required");
           return;
         }
-        if((!owner || courseId==="orthography-kurdik") && !await hasPreviousLessonCompleted(got.sb,got.session.user.id,courseId,target)){
+        if(!owner && !await hasPreviousLessonCompleted(got.sb,got.session.user.id,courseId,target)){
           location.replace("../dashboard.html?lesson=locked");
           return;
         }
