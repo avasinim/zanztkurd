@@ -728,6 +728,30 @@ if(!window.ZANSTI_SYNC_PROGRESS){
   };
 }
 
+/* ===== Server-authoritative lesson completion ===== */
+async function markLessonComplete(courseId, lessonKey){
+  try{
+    if(!window.supabase?.createClient||!window.ZANSTI_SUPABASE?.ready){
+      return {ok:false,reason:"supabase_unavailable"};
+    }
+    const sb=supabase.createClient(ZANSTI_SUPABASE.url,ZANSTI_SUPABASE.publishableKey);
+    const {data:{session}}=await sb.auth.getSession();
+    if(!session)return {ok:false,reason:"auth_required"};
+    const {data,error}=await sb.rpc("complete_lesson",{
+      p_course_id:courseId,
+      p_lesson_key:lessonKey
+    });
+    if(error){
+      console.error("[Avasin] complete_lesson failed",{courseId,lessonKey,code:error.code,message:error.message});
+      return {ok:false,reason:error.message||"rpc_failed"};
+    }
+    return {ok:true,data};
+  }catch(error){
+    console.error("[Avasin] complete_lesson exception",error);
+    return {ok:false,reason:"exception"};
+  }
+}
+
 /* ===== Course 2 sequential completion gate ===== */
 (function(){
   const COURSE2_FILES=Array.from({length:25},function(_,i){
@@ -774,12 +798,21 @@ if(!window.ZANSTI_SYNC_PROGRESS){
     const already=s.has(current),next=current+1<COURSE2_FILES.length?current+1:null;
     gate.innerHTML="<h3>"+(already?"ئەم وانە پێشتر تەواوکراوە.":"کۆتایی وانە")+"</h3><p>"+(already?"وانەی دواتر کراوەتەوە.":"دوای خوێندنەوەی تەواوی ناوەڕۆک، ئەم وانەیە وەک تەواوکراو نیشان بدە بۆ کردنەوەی وانەی دواتر.")+"</p><button class=\"course2-complete-btn\" type=\"button\" "+(already?"disabled":"")+">"+(already?"✓ تەواوکراوە":"✓ نیشان‌دان وەک تەواوکراو")+"</button>";
     nav.parentElement.insertBefore(gate,nav);
-    gate.querySelector("button").addEventListener("click",function(){
+    gate.querySelector("button").addEventListener("click",async function(){
+      const button=this;
+      button.disabled=true;
+      button.textContent="لە سیستەمدا پاشەکەوت دەکرێت...";
+      const result=await markLessonComplete("phonetics-phonology-kurdik",COURSE2_FILES[current]);
+      if(!result.ok){
+        button.disabled=false;
+        button.textContent="✓ نیشان‌دان وەک تەواوکراو";
+        gate.querySelector("p").textContent="پاشەکەوتکردنی تەواوبوون سەرکەوتوو نەبوو. تکایە چوونەژوورەوە و خۆتۆمارکردنت بپشکنە و دووبارە هەوڵ بدە.";
+        return;
+      }
       const latest=done();
       latest.add(current);
       save(latest);
-      this.disabled=true;
-      this.textContent="✓ تەواوکراوە";
+      button.textContent="✓ تەواوکراوە";
       gate.querySelector("h3").textContent="وانەکە بە سەرکەوتوویی تەواو کرا.";
       gate.querySelector("p").textContent=next!==null?"وانەی دواتر ئێستا کراوەتەوە.":"هەمو وانەکانی کۆرسی ٢ تەواو کراون.";
       if(next!==null)setTimeout(function(){location.href=url(next);},650);
@@ -867,8 +900,27 @@ if(!window.ZANSTI_SYNC_PROGRESS){
     const already=s.has(current),next=current+1<COURSE1_FILES.length?current+1:null;
     gate.innerHTML="<h3>"+(already?"ئەم وانە/بەش پێشتر تەواوکراوە.":"کۆتایی وانە/بەش")+"</h3><p>"+(already?"بەشی دواتر کراوەتەوە.":"دوای خوێندنەوەی تەواوی ناوەڕۆک، ئەم وانە/بەشە وەک تەواوکراو نیشان بدە بۆ کردنەوەی بەشی دواتر.")+"</p><button class=\"course1-complete-btn\" type=\"button\" "+(already?"disabled":"")+">"+(already?"✓ تەواوکراوە":"✓ نیشان‌دان وەک تەواوکراو")+"</button>";
     nav.parentElement.insertBefore(gate,nav);
-    gate.querySelector("button").addEventListener("click",function(){
-      const latest=done();latest.add(current);save(latest);const COURSE1_LESSON_ENDS={17:18,18:19,19:20,20:21,27:22,33:23,34:24,40:25,41:26};const learnerLesson=COURSE1_LESSON_ENDS[current];if(learnerLesson){localStorage.setItem("lesson-completed:course-current:"+learnerLesson,"true");localStorage.setItem("lesson-progress:course-current:"+learnerLesson,"completed");}this.disabled=true;this.textContent="✓ تەواوکراوە";
+    gate.querySelector("button").addEventListener("click",async function(){
+      const button=this;
+      button.disabled=true;
+      button.textContent="لە سیستەمدا پاشەکەوت دەکرێت...";
+      const result=await markLessonComplete("orthography-kurdik",COURSE1_FILES[current]);
+      if(!result.ok){
+        button.disabled=false;
+        button.textContent="✓ نیشان‌دان وەک تەواوکراو";
+        gate.querySelector("p").textContent="پاشەکەوتکردنی تەواوبوون سەرکەوتوو نەبوو. تکایە چوونەژوورەوە و خۆتۆمارکردنت بپشکنە و دووبارە هەوڵ بدە.";
+        return;
+      }
+      const latest=done();
+      latest.add(current);
+      save(latest);
+      const COURSE1_LESSON_ENDS={17:18,18:19,19:20,20:21,27:22,33:23,34:24,40:25,41:26};
+      const learnerLesson=COURSE1_LESSON_ENDS[current];
+      if(learnerLesson){
+        localStorage.setItem("lesson-completed:course-current:"+learnerLesson,"true");
+        localStorage.setItem("lesson-progress:course-current:"+learnerLesson,"completed");
+      }
+      button.textContent="✓ تەواوکراوە";
       gate.querySelector("h3").textContent="وانەکە بە سەرکەوتوویی تەواو کرا.";
       gate.querySelector("p").textContent=next!==null?"بەشی دواتر ئێستا کراوەتەوە.":"هەمو بەشەکانی ڕێڕەوی کۆرسی ١ تەواو کراون.";
       if(next!==null)setTimeout(function(){location.href=url(next);},650);
