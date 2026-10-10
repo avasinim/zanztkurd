@@ -273,7 +273,7 @@ window.ZANSTI_GET_SUPABASE_CLIENT = window.ZANSTI_GET_SUPABASE_CLIENT || functio
       const {data:{session},error:sessionError}=await client.auth.getSession();
       if(sessionError || !session)return;
       const {data,error}=await client.rpc("is_site_owner");
-      if(!error && data===true){ ownerMayCopy=true; document.documentElement.classList.add("avasin-owner-copy"); }
+      if(!error && data===true){ ownerMayCopy=true; document.documentElement.classList.add("avasin-owner-copy"); const ownerStyle=document.createElement("style"); ownerStyle.id="avasin-owner-copy-style"; ownerStyle.textContent=".avasin-owner-copy .lesson-content,.avasin-owner-copy .lesson-content *{-webkit-user-select:text!important;user-select:text!important;-webkit-touch-callout:default!important}.avasin-owner-copy .lesson-content img,.avasin-owner-copy .lesson-content svg{-webkit-user-drag:auto!important;user-drag:auto!important}"; document.head.appendChild(ownerStyle); }
     }catch(error){
       console.warn("[Avasin] owner copy permission check failed; keeping copy protection enabled.");
     }
