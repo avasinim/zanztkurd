@@ -22,7 +22,7 @@
 .tabs{display:flex;gap:7px;flex-wrap:wrap;padding:0 22px 15px}.tab{border:1px solid #d2dad5;background:#fff;color:#56655d;border-radius:9px;padding:8px 12px;font:inherit;font-weight:800;cursor:pointer}.tab.active{background:#29473d;color:#fff;border-color:#29473d}
 @media(max-width:900px){.admin-grid{grid-template-columns:repeat(2,1fr)}.admin-layout{grid-template-columns:1fr}.admin-hero{align-items:start;flex-direction:column}}
 @media(max-width:520px){.admin-grid{grid-template-columns:1fr 1fr}.admin-main{padding-top:28px}.admin-top .container{align-items:flex-start}.owner-badge{white-space:normal}}
-.feedback-admin-list{max-height:75vh;overflow:auto}.feedback-admin-list article:last-child{border-bottom:0}</style>
+.feedback-admin-list{max-height:75vh;overflow:auto}.feedback-admin-list article:last-child{border-bottom:0}.library-admin-form{padding:20px 22px;border-bottom:1px solid var(--line);display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}.library-admin-form label{display:grid;gap:6px;font-size:.84rem;font-weight:800}.library-admin-form input,.library-admin-form textarea,.library-admin-form select{width:100%;min-width:0;border:1px solid #d3dad5;border-radius:9px;padding:10px 11px;background:#fff;font:inherit}.library-admin-form textarea{min-height:84px;resize:vertical}.library-admin-form .wide{grid-column:1/-1}.library-admin-form button{border:0;border-radius:9px;background:#29473d;color:#fff;padding:11px 15px;font:inherit;font-weight:800;cursor:pointer}.library-admin-form button:disabled{opacity:.6;cursor:wait}.library-admin-list{padding:0 20px}.library-admin-row{display:flex;justify-content:space-between;align-items:center;gap:16px;padding:16px 2px;border-bottom:1px solid var(--line)}.library-admin-row:last-child{border-bottom:0}.library-admin-row p{margin:5px 0;color:#717a73;font-size:.84rem;line-height:1.7}.library-admin-actions{display:flex;gap:7px;flex-wrap:wrap}.library-admin-actions button{border:1px solid #ccd8d3;border-radius:8px;background:#fff;color:#385247;padding:7px 10px;font:inherit;font-size:.78rem;font-weight:800;cursor:pointer}@media(max-width:600px){.library-admin-form{grid-template-columns:1fr}.library-admin-form .wide{grid-column:auto}.library-admin-row{align-items:flex-start;flex-direction:column}}</style>
 <meta name="robots" content="noindex,nofollow">
 </head>
 <body class="admin-shell">
@@ -42,13 +42,13 @@
 <section class="admin-layout">
 <div class="panel">
 <div class="panel-head"><h2>بەڕێوەبردنی هەژمار و تۆماربوون</h2><div class="toolbar"><input id="search" type="search" placeholder="گەڕان بە ناو یان ئیمەیڵ..."><button id="refresh">نوێکردنەوە</button></div></div>
-<div class="tabs"><button class="tab active" data-tab="users">بەکارهێنەران</button><button class="tab" data-tab="enrollments">تۆماربوونەکان</button><button class="tab" data-tab="progress">پێشکەوتن</button><button class="tab" data-tab="feedback">کۆمێنت و ئیمتیاز</button></div>
+<div class="tabs"><button class="tab active" data-tab="users">بەکارهێنەران</button><button class="tab" data-tab="enrollments">تۆماربوونەکان</button><button class="tab" data-tab="progress">پێشکەوتن</button><button class="tab" data-tab="feedback">کۆمێنت و ئیمتیاز</button><button class="tab" data-tab="library">کتێب‌خانە</button></div>
 <div id="content"><div class="loading">داتا بار دەکرێت...</div></div>
 </div>
 <aside class="panel side-panel"><h3>کردارەکانی خاوەن ماڵپەڕ · بەڕێوبەر · سەرنوسەر</h3>
 <div class="side-item"><strong>هەژمارەکان</strong><span>بینینی ناو، ئیمەیڵ، ژمارەی خوێندکار و دۆخی پشتڕاست‌کردنەوە.</span></div>
 <div class="side-item"><strong>تۆماربوون</strong><span>چالاککردن یان تەواوکراوکردنی تۆماربوونی خوێندکاران.</span></div>
-<div class="side-item"><strong>پێشکەوتن</strong><span>بینینی کۆی وانە تەواوکراوەکان بۆ هەر خوێندکار و دەورە.</span></div><div class="side-item"><strong>کۆمێنت و ئیمتیاز</strong><span>پشکنین، پەسەندکردن یان ڕەتکردنەوەی بۆچوونی گشتیی ماڵپەڕ.</span></div>
+<div class="side-item"><strong>پێشکەوتن</strong><span>بینینی کۆی وانە تەواوکراوەکان بۆ هەر خوێندکار و دەورە.</span></div><div class="side-item"><strong>کۆمێنت و ئیمتیاز</strong><span>پشکنین، پەسەندکردن یان ڕەتکردنەوەی بۆچوونی گشتیی ماڵپەڕ.</span></div><div class="side-item"><strong>کتێب‌خانە</strong><span>بارکردنی PDF و EPUB، ڕێکخستنی زانیاریی کتێب و بڵاوکردنەوە بۆ هەمووان.</span></div>
 <div class="side-item"><strong>پاراستن</strong><span>تەنیا Owner ـی پشتڕاستکراو دەتوانێت ئەم پەنێڵە بەکاربهێنێت.</span></div>
 </aside>
 </section>
@@ -98,6 +98,52 @@ async function load(){
 }
 function esc(s){return String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]))}
 function status(s){return '<span class="status '+esc(s)+'">'+esc(s==='active'?'چالاک':s==='completed'?'تەواوکراو':s==='cancelled'?'هەڵوەشێنراوە':s||'—')+'</span>'}
+async function renderLibrary(){
+ const host=$('content');
+ host.innerHTML='<div class="library-admin-form"><label>ناونیشانی کتێب<input id="bookTitle" maxlength="240" required placeholder="ناونیشانی کتێب"></label><label>نوسەر<input id="bookAuthor" maxlength="180" placeholder="ناوی نوسەر"></label><label>بابەت<select id="bookCategory"><option>زمان‌ناسی</option><option>فۆنێتیک و فۆنۆلۆجی</option><option>ڕێنووس</option><option>ئەدەب</option><option>مێژوو</option><option>گشتی</option></select></label><label>فایل (PDF یان EPUB، تا ٥٠ MB)<input id="bookFile" type="file" accept="application/pdf,.pdf,application/epub+zip,.epub" required></label><label class="wide">پوختەی کتێب<textarea id="bookDescription" maxlength="3000" placeholder="زانیاریی کورت دەربارەی کتێب"></textarea></label><button id="bookUpload" class="wide" type="button">بارکردن و زیادکردنی کتێب</button></div><div id="libraryAdminList" class="library-admin-list"><div class="loading">کتێبەکان بار دەکرێن...</div></div>';
+ const list=$('libraryAdminList');
+ const refresh=async()=>{
+  const result=await sb.from('library_books').select('*').order('created_at',{ascending:false});
+  if(result.error){list.innerHTML='<div class="empty">نەتوانرا کتێبەکان بخوێندرێنەوە: '+esc(result.error.message)+'</div>';return;}
+  if(!result.data?.length){list.innerHTML='<div class="empty">هێشتا هیچ کتێبێک زیاد نەکراوە.</div>';return;}
+  list.innerHTML=result.data.map(b=>'<article class="library-admin-row"><div><strong>'+esc(b.title)+'</strong><p>'+esc(b.author||'نوسەر دیاری نەکراو')+' · '+esc(b.category)+' · '+(b.is_published?'بڵاوکراوەتەوە':'شاراوە')+'<br>'+esc(b.file_name)+' · '+ar(Math.ceil(Number(b.file_size||0)/1024))+' KB</p></div><div class="library-admin-actions"><button data-book-action="edit" data-book-id="'+esc(b.id)+'">دەستکاری</button><button data-book-action="publish" data-book-id="'+esc(b.id)+'" data-published="'+String(b.is_published)+'">'+(b.is_published?'شاراردن':'بڵاوکردنەوە')+'</button><button data-book-action="delete" data-book-id="'+esc(b.id)+'" data-path="'+esc(b.file_path)+'">سڕینەوە</button></div></article>').join('');
+  list.querySelectorAll('[data-book-action]').forEach(btn=>btn.onclick=async()=>{
+   btn.disabled=true;const book=result.data.find(x=>x.id===btn.dataset.bookId);if(!book)return;
+   let out;
+   if(btn.dataset.bookAction==='publish') out=await sb.from('library_books').update({is_published:book.is_published?false:true,updated_at:new Date().toISOString()}).eq('id',book.id);
+   else if(btn.dataset.bookAction==='edit'){
+    const title=prompt('ناونیشانی کتێب:',book.title);if(title===null){btn.disabled=false;return;}if(!title.trim()){alert('ناونیشان نابێت بەتاڵ بێت.');btn.disabled=false;return;}
+    const author=prompt('ناوی نوسەر:',book.author||'');if(author===null){btn.disabled=false;return;}
+    const description=prompt('پوختەی کتێب:',book.description||'');if(description===null){btn.disabled=false;return;}
+    out=await sb.from('library_books').update({title:title.trim(),author:author.trim(),description:description.trim(),updated_at:new Date().toISOString()}).eq('id',book.id);
+   } else {
+    if(!confirm('دڵنیایت دەتەوێت ئەم کتێبە و فایلەکەی بسڕیتەوە؟')){btn.disabled=false;return;}
+    out=await sb.from('library_books').delete().eq('id',book.id);
+    if(!out.error){const rm=await sb.storage.from('avasin-library').remove([book.file_path]);if(rm.error)msg('زانیاریی کتێب سڕایەوە، بەڵام فایلەکە لە Storage ماوەتەوە: '+rm.error.message);}
+   }
+   if(out?.error){msg('هەڵە لە بەڕێوەبردنی کتێب: '+out.error.message);btn.disabled=false;return;}
+   await refresh();
+  });
+ };
+ $('bookUpload').onclick=async()=>{
+  const button=$('bookUpload'),file=$('bookFile').files?.[0],title=$('bookTitle').value.trim();
+  if(!title){msg('تکایە ناونیشانی کتێب بنووسە.');return;}
+  if(!file){msg('تکایە فایلێکی PDF یان EPUB هەڵبژێرە.');return;}
+  const isPdf=file.type==='application/pdf'||file.name.toLowerCase().endsWith('.pdf');
+  const isEpub=file.type==='application/epub+zip'||file.name.toLowerCase().endsWith('.epub');
+  if(!isPdf&&!isEpub){msg('تەنیا فایلەکانی PDF و EPUB ڕێگەپێدراون.');return;}
+  if(file.size>52428800){msg('قەبارەی فایل نابێت لە ٥٠ MB زیاتر بێت.');return;}
+  button.disabled=true;button.textContent='فایلەکە بار دەکرێت...';
+  const safeName=file.name.normalize('NFKD').replace(/[^a-zA-Z0-9._-]+/g,'-').replace(/^-+|-+$/g,'').slice(-120)||'book.'+(isPdf?'pdf':'epub');
+  const path=crypto.randomUUID()+'/'+safeName;
+  const upload=await sb.storage.from('avasin-library').upload(path,file,{contentType:isPdf?'application/pdf':'application/epub+zip',upsert:false});
+  if(upload.error){msg('بارکردنی فایل سەرکەوتوو نەبوو: '+upload.error.message);button.disabled=false;button.textContent='بارکردن و زیادکردنی کتێب';return;}
+  const insert=await sb.from('library_books').insert({title,author:$('bookAuthor').value.trim(),category:$('bookCategory').value,description:$('bookDescription').value.trim(),file_path:path,file_name:file.name,mime_type:isPdf?'application/pdf':'application/epub+zip',file_size:file.size,is_published:true});
+  if(insert.error){await sb.storage.from('avasin-library').remove([path]);msg('فایل بارکرا، بەڵام زانیاریی کتێب تۆمار نەکرا؛ فایلەکە پاک کراوەتەوە. '+insert.error.message);button.disabled=false;button.textContent='بارکردن و زیادکردنی کتێب';return;}
+  $('bookTitle').value='';$('bookAuthor').value='';$('bookDescription').value='';$('bookFile').value='';button.disabled=false;button.textContent='بارکردن و زیادکردنی کتێب';msg('کتێبەکە بە سەرکەوتوویی زیاد کرا و بۆ گشتی بڵاوکرایەوە.');await refresh();
+ };
+ await refresh();
+}
 async function loadFeedback(){
  const host=document.getElementById('feedbackContent');if(!host)return;
  host.innerHTML='<div class="loading">کۆمێنتەکان بار دەکرێن...</div>';
@@ -128,6 +174,8 @@ function render(){
   const rows=enrollments.filter(x=>[x.full_name,x.email,x.course_name,x.status].join(' ').toLowerCase().includes(q));
   $('content').innerHTML=rows.length?'<div class="table-wrap"><table class="admin-table"><thead><tr><th>خوێندکار</th><th>دەورە</th><th>دۆخ</th><th>تۆماربوون</th><th>کردار</th></tr></thead><tbody>'+rows.map(x=>'<tr><td><strong>'+esc(x.full_name||'بێ‌ناو')+'</strong><br><small>'+esc(x.email)+'</small></td><td>'+esc(x.course_name)+'</td><td>'+status(x.status)+'</td><td>'+esc(x.enrolled_at?new Date(x.enrolled_at).toLocaleDateString('ku'):'—')+'</td><td><select class="action-select" data-user="'+esc(x.user_id)+'" data-course="'+esc(x.course_id)+'"><option value="">گۆڕین...</option><option value="active">چالاک</option><option value="completed">تەواوکراو</option></select></td></tr>').join('')+'</tbody></table></div>':'<div class="empty">هیچ تۆماربوونێک نەدۆزرایەوە.</div>';
   document.querySelectorAll('.action-select').forEach(s=>s.onchange=async()=>{if(!s.value)return;const {error}=await sb.rpc('admin_set_enrollment_status',{p_user_id:s.dataset.user,p_course_id:s.dataset.course,p_status:s.value});if(error){msg(error.message);s.value='';return}await load()});
+ }else if(tab==='library'){
+  renderLibrary();return;
  }else{
   const rows=progress.filter(x=>[x.full_name,x.email,x.course_name].join(' ').toLowerCase().includes(q));
   $('content').innerHTML=rows.length?'<div class="table-wrap"><table class="admin-table"><thead><tr><th>خوێندکار</th><th>دەورە</th><th>تەواوکراو</th><th>دوایین وانە</th><th>دوایین کات</th></tr></thead><tbody>'+rows.map(x=>'<tr><td><strong>'+esc(x.full_name||'بێ‌ناو')+'</strong><br><small>'+esc(x.email)+'</small></td><td>'+esc(x.course_name)+'</td><td>'+ar(x.completed_count)+'</td><td>'+esc(x.last_lesson||'—')+'</td><td>'+esc(x.last_completed_at?new Date(x.last_completed_at).toLocaleString('ku'):'—')+'</td></tr>').join('')+'</tbody></table></div>':'<div class="empty">هیچ پێشکەوتنێک نەدۆزرایەوە.</div>';
