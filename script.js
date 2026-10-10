@@ -66,6 +66,8 @@ window.ZANSTI_GET_SUPABASE_CLIENT = window.ZANSTI_GET_SUPABASE_CLIENT || functio
     }
     return supabaseReadyPromise;
   }
+  /* Share the same Supabase readiness check with lesson-progress gates. */
+  window.ZANSTI_WAIT_FOR_SUPABASE = ensureSupabase;
   async function getSession(){
     if(!await ensureSupabase()) return null;
     const sb=window.ZANSTI_GET_SUPABASE_CLIENT();
@@ -722,6 +724,7 @@ document.querySelectorAll('a[href="#"]').forEach(a=>{
 if(!window.ZANSTI_OWNER_CHECK){
   window.ZANSTI_OWNER_CHECK=(async function(){
     try{
+      if(typeof window.ZANSTI_WAIT_FOR_SUPABASE==="function" && !await window.ZANSTI_WAIT_FOR_SUPABASE())return false;
       if(!window.supabase?.createClient || !window.ZANSTI_SUPABASE?.ready)return false;
       const sb=window.ZANSTI_GET_SUPABASE_CLIENT();
       const {data:{session}}=await sb.auth.getSession();
@@ -736,7 +739,8 @@ if(!window.ZANSTI_OWNER_CHECK){
 if(!window.ZANSTI_SYNC_PROGRESS){
   window.ZANSTI_SYNC_PROGRESS=async function(courseId,files,storage,includeOwner=false){
     try{
-      if(!window.supabase?.createClient||!window.ZANSTI_SUPABASE?.ready)return;
+      if(typeof window.ZANSTI_WAIT_FOR_SUPABASE==="function" && !await window.ZANSTI_WAIT_FOR_SUPABASE())return false;
+      if(!window.supabase?.createClient||!window.ZANSTI_SUPABASE?.ready)return false;
       const sb=window.ZANSTI_GET_SUPABASE_CLIENT();
       const {data:{session}}=await sb.auth.getSession();
       if(!session)return;
@@ -763,6 +767,9 @@ if(!window.ZANSTI_SYNC_PROGRESS){
 /* ===== Server-authoritative lesson completion ===== */
 async function markLessonComplete(courseId, lessonKey){
   try{
+    if(typeof window.ZANSTI_WAIT_FOR_SUPABASE==="function" && !await window.ZANSTI_WAIT_FOR_SUPABASE()){
+      return {ok:false,reason:"supabase_unavailable"};
+    }
     if(!window.supabase?.createClient||!window.ZANSTI_SUPABASE?.ready){
       return {ok:false,reason:"supabase_unavailable"};
     }
