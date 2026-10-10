@@ -148,7 +148,7 @@
   const commentsEl=document.getElementById("feedback-comments");
   const reactionBtns=[...document.querySelectorAll("[data-reaction]")];
   if(!statusEl||!form)return;
-  let sb=null,session=null,ownReactionTypes=new Set(),ownCommentIds=new Set();
+  let sb=null,session=null,ownReactionTypes=new Set();
   const loginUrl="auth.html?next="+encodeURIComponent(location.href);
   function say(message,withLogin){
     statusEl.replaceChildren(document.createTextNode(message+" "));
@@ -173,7 +173,7 @@
     }
   }
   async function loadReactions(){
-    const totals=await sb.from("academic_reaction_counts").select("reaction_type,reaction_count");
+    const totals=await sb.from("academic_reaction_totals").select("reaction_type,reaction_count");
     if(totals.error){console.error("[Avasin feedback] reaction counts",totals.error);return;}
     const map={agree:0,like:0};
     (totals.data||[]).forEach(row=>{map[row.reaction_type]=Number(row.reaction_count)||0;});
@@ -195,10 +195,6 @@
       commentsEl.replaceChildren();
       const e=document.createElement("div");e.className="feedback-empty";e.textContent="ئێستا نەتوانرا کۆمێنتەکان بار بکرێن؛ تکایە دواتر هەوڵ بدەرەوە.";commentsEl.appendChild(e);return;
     }
-    if(session){
-      const mine=await sb.from("academic_feedback").select("id").eq("user_id",session.user.id);
-      ownCommentIds=new Set((mine.data||[]).map(row=>row.id));
-    }else ownCommentIds=new Set();
     commentsEl.replaceChildren();
     if(!result.data?.length){
       const e=document.createElement("div");e.className="feedback-empty";e.textContent="هێشتا کۆمێنتێک نییە؛ یەکەم کەس بە بۆچوونی خۆت بەشداری بکە.";commentsEl.appendChild(e);return;
@@ -211,17 +207,6 @@
       head.append(author,date);
       const text=document.createElement("p");text.className="feedback-comment-body";text.textContent=comment.body;
       article.append(head,text);
-      if(session&&ownCommentIds.has(comment.id)){
-        const del=document.createElement("button");del.type="button";del.className="feedback-delete";del.textContent="سڕینەوەی کۆمێنت";
-        del.addEventListener("click",async()=>{
-          if(!confirm("دڵنیایت لە سڕینەوەی ئەم کۆمێنتە؟"))return;
-          del.disabled=true;
-          const removed=await sb.from("academic_feedback").delete().eq("id",comment.id).eq("user_id",session.user.id);
-          if(removed.error){console.error("[Avasin feedback] delete",removed.error);say("نەتوانرا کۆمێنتەکە بسڕدرێتەوە.");del.disabled=false;return;}
-          say("کۆمێنتەکە سڕایەوە.");await loadComments();
-        });
-        article.appendChild(del);
-      }
       commentsEl.appendChild(article);
     });
   }
