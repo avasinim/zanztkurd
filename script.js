@@ -122,14 +122,17 @@ window.ZANSTI_GET_SUPABASE_CLIENT = window.ZANSTI_GET_SUPABASE_CLIENT || functio
     const order=lessonOrderFor(target);
     const index=order.indexOf(target);
     if(index<=0)return true;
-    const previous=order[index-1];
-    const {data,error}=await sb.from("lesson_progress")
-      .select("lesson_key")
-      .eq("user_id",userId)
-      .eq("course_id",courseId)
-      .eq("lesson_key",previous)
-      .maybeSingle();
-    return !error && !!data;
+    /* Ask the same server-side policy used by lesson_content RLS. This avoids
+       mismatches between a direct lesson_progress SELECT and the real gate. */
+    const {data,error}=await sb.rpc("can_read_lesson_content",{
+      p_course_id:courseId,
+      p_lesson_key:target
+    });
+    if(error){
+      console.error("[Avasin] authoritative lesson sequence check failed",error);
+      return false;
+    }
+    return data===true;
   }
   async function allowOrRedirect(ev,a){
     const rawHref=a.getAttribute("href")||a.getAttribute("data-lesson-href");
