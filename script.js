@@ -1447,10 +1447,13 @@ async function markLessonComplete(courseId, lessonKey){
 (function(){
   const labelAcademicLinks = () => {
     document.querySelectorAll('a[href]').forEach(a => {
-      const href = (a.getAttribute('href') || '').split('#')[0];
-      if (href === 'sabir-zhakaw.html' || href === '/zanztkurd/sabir-zhakaw.html') {
+      const rawHref = a.getAttribute('href') || '';
+      const href = rawHref.split('#')[0].split('?')[0];
+      const pageName = href.split('/').pop();
+      if (pageName === 'sabir-zhakaw.html') {
         if (a.textContent.trim() === 'سابیر ژاکاو' || a.textContent.trim() === 'پەڕەی تایبەت' || a.textContent.trim() === 'چوونە نێو بەشی سابیر ژاکاو') a.textContent = 'دەستەی ئەکادیمی';
       }
+      if (rawHref === '#sabir-zhakaw') a.setAttribute('href', '#academic-people');
     });
   };
   if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', labelAcademicLinks, {once:true});
