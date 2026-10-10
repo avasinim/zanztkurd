@@ -60,8 +60,17 @@
 // Keep basic controls responsive even if backend initialization fails.
 const earlyRefresh=document.getElementById('refresh');
 const earlyLogout=document.getElementById('logout');
-if(earlyRefresh) earlyRefresh.addEventListener('click',()=>location.reload());
-if(earlyLogout) earlyLogout.addEventListener('click',()=>location.href='auth.html');
+if(earlyRefresh) earlyRefresh.onclick=()=>location.reload();
+if(earlyLogout) earlyLogout.onclick=()=>location.href='auth.html';
+document.querySelectorAll('.tab').forEach(b=>b.addEventListener('click',()=>{
+  document.querySelectorAll('.tab').forEach(x=>x.classList.remove('active'));
+  b.classList.add('active');
+  const m=document.getElementById('message');
+  if(m && !document.getElementById('content')?.querySelector('.admin-table')){
+    m.textContent='پەنێڵەکە هێشتا داتای ئامادە نییە؛ دوگمەی «نوێکردنەوە» بەکاربهێنە یان پەیوەندی و دەسەڵاتەکان بپشکنە.';
+    m.style.display='block';
+  }
+}));
 
 const $=id=>document.getElementById(id), ar=n=>String(n??0).replace(/\d/g,d=>'٠١٢٣٤٥٦٧٨٩'[d]);
 const msg=(t)=>{const e=$('message');e.textContent=t;e.style.display='block'};
