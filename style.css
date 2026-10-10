@@ -2466,3 +2466,152 @@ body:after{
   .v2-header .academy-brand .academy-name{font-size:1rem;}
   .v2-header .academy-brand .academy-sub{font-size:6px;letter-spacing:1px;}
 }
+
+
+/* Avasin Standard — scholarly digital library refinement */
+.v2-library{
+  position:relative;
+  overflow:hidden;
+  background:
+    radial-gradient(circle at 92% 8%,rgba(179,138,88,.11),transparent 24%),
+    linear-gradient(135deg,#f4f1e9 0%,#faf9f4 52%,#efeee5 100%);
+  border-top:1px solid rgba(39,53,44,.12);
+  border-bottom:1px solid rgba(39,53,44,.12);
+}
+.v2-library:before{
+  content:"DIGITAL RESEARCH COLLECTION";
+  display:block;
+  width:min(1180px,calc(100% - 40px));
+  margin:0 auto 22px;
+  padding-top:24px;
+  color:#8b7658;
+  font:700 9px/1.6 ui-monospace,SFMono-Regular,Consolas,monospace;
+  letter-spacing:2px;
+  direction:ltr;
+  text-align:left;
+}
+.v2-library .v2-section-head{align-items:end;border-bottom:1px solid rgba(39,53,44,.15);padding-bottom:20px;margin-bottom:22px}
+.v2-library .v2-label{color:#8b6b3f}
+.v2-library .v2-section-head h2{color:#26362d;letter-spacing:0}
+.v2-library> .v2-shell>p{max-width:760px;line-height:2;color:#5d675e!important;font-size:.98rem}
+.v2-book-grid{
+  display:grid;
+  grid-template-columns:repeat(2,minmax(0,1fr));
+  gap:18px;
+  align-items:stretch;
+}
+#avasinPublicLibrary .v2-book{
+  position:relative;
+  display:flex;
+  flex-direction:column;
+  gap:18px;
+  min-width:0;
+  min-height:290px;
+  padding:23px 24px 20px;
+  overflow:hidden;
+  border:1px solid #d8d8ca;
+  border-radius:4px 16px 4px 16px;
+  background:linear-gradient(145deg,#fffefa 0%,#f8f7f0 100%);
+  color:#27372d;
+  box-shadow:0 10px 28px rgba(35,47,38,.055);
+  transition:transform .2s ease,border-color .2s ease,box-shadow .2s ease;
+}
+#avasinPublicLibrary .v2-book:before{
+  content:"";
+  position:absolute;
+  top:0;right:0;bottom:0;
+  width:4px;
+  background:linear-gradient(180deg,#b38a58,#6b7b68);
+}
+#avasinPublicLibrary .v2-book:after{
+  content:"";
+  position:absolute;
+  left:-42px;bottom:-58px;
+  width:140px;height:140px;
+  border:1px solid rgba(142,117,78,.15);
+  border-radius:50%;
+  box-shadow:0 0 0 18px rgba(142,117,78,.025),0 0 0 38px rgba(142,117,78,.02);
+  pointer-events:none;
+}
+#avasinPublicLibrary .v2-book:hover{
+  transform:translateY(-3px);
+  border-color:#b9b49f;
+  box-shadow:0 16px 34px rgba(35,47,38,.09);
+}
+#avasinPublicLibrary .academic-book-top{
+  display:flex;align-items:center;justify-content:space-between;gap:12px;
+  padding-bottom:13px;border-bottom:1px solid #e6e4d9;
+}
+#avasinPublicLibrary .book-tag{
+  display:inline-flex;align-items:center;
+  max-width:65%;
+  padding:5px 10px;
+  border:1px solid #d9dfd2;
+  border-radius:3px;
+  background:#edf0e8;
+  color:#52664f;
+  font-size:.75rem;font-weight:800;
+  overflow-wrap:anywhere;
+}
+#avasinPublicLibrary .academic-book-index{
+  color:#9b8a6e;
+  font:700 8px/1.5 ui-monospace,SFMono-Regular,Consolas,monospace;
+  letter-spacing:1px;direction:ltr;text-align:left;
+}
+#avasinPublicLibrary .academic-book-body{position:relative;z-index:1;flex:1}
+#avasinPublicLibrary .academic-book-title{
+  display:block;
+  color:#25372c;
+  font-family:"Noto Naskh Arabic","Noto Sans Arabic",serif;
+  font-size:clamp(1.2rem,2.1vw,1.65rem);
+  font-weight:700;line-height:1.65;
+  overflow-wrap:anywhere;
+}
+#avasinPublicLibrary .academic-book-author{
+  display:block;margin-top:8px;
+  color:#7c694c;font-size:.88rem;line-height:1.8;font-weight:700;
+  overflow-wrap:anywhere;
+}
+#avasinPublicLibrary .academic-book-description{
+  margin-top:12px;padding-top:11px;
+  border-top:1px dashed #deded2;
+  color:#626b61;font-size:.88rem;line-height:2;
+  white-space:pre-line;overflow-wrap:anywhere;
+}
+#avasinPublicLibrary .academic-book-no-description{color:#8a8c80;font-style:italic}
+#avasinPublicLibrary .academic-book-actions{
+  position:relative;z-index:1;
+  display:flex;gap:9px;flex-wrap:wrap;
+  padding-top:14px;border-top:1px solid #e6e4d9;
+}
+#avasinPublicLibrary .academic-book-actions a{
+  display:inline-flex;align-items:center;justify-content:center;gap:9px;
+  min-height:42px;padding:9px 13px;
+  border:1px solid #cbd3c8;border-radius:4px;
+  text-decoration:none;font-size:.84rem;font-weight:800;
+  transition:background .18s ease,color .18s ease,border-color .18s ease;
+}
+#avasinPublicLibrary .academic-book-read{background:#2b4033;color:#fff;border-color:#2b4033}
+#avasinPublicLibrary .academic-book-read:hover{background:#3d5845;border-color:#3d5845}
+#avasinPublicLibrary .academic-book-download{background:#f4f0e6;color:#5c4b31;border-color:#d9c9a9}
+#avasinPublicLibrary .academic-book-download:hover{background:#e9dfca}
+#avasinPublicLibrary .academic-book-actions a:focus-visible{
+  outline:3px solid #b38a58;outline-offset:3px;
+}
+#avasinPublicLibrary .empty,
+#avasinPublicLibrary>[style*="grid-column"]{
+  background:rgba(255,254,250,.75);
+  border:1px dashed #c8cbbd!important;
+  border-radius:4px 14px 4px 14px!important;
+  color:#626b61!important;
+  line-height:2;
+}
+@media(max-width:760px){
+  .v2-book-grid{grid-template-columns:1fr}
+  #avasinPublicLibrary .v2-book{min-height:0;padding:19px}
+  .v2-library:before{width:calc(100% - 32px);margin-bottom:16px}
+}
+@media(prefers-reduced-motion:reduce){
+  #avasinPublicLibrary .v2-book,#avasinPublicLibrary .academic-book-actions a{transition:none}
+  #avasinPublicLibrary .v2-book:hover{transform:none}
+}
