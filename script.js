@@ -273,7 +273,7 @@ window.ZANSTI_GET_SUPABASE_CLIENT = window.ZANSTI_GET_SUPABASE_CLIENT || functio
       const {data:{session},error:sessionError}=await client.auth.getSession();
       if(sessionError || !session)return;
       const {data,error}=await client.rpc("is_site_owner");
-      if(!error && data===true) ownerMayCopy=true;
+      if(!error && data===true){ ownerMayCopy=true; document.documentElement.classList.add("avasin-owner-copy"); }
     }catch(error){
       console.warn("[Avasin] owner copy permission check failed; keeping copy protection enabled.");
     }
