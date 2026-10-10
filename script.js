@@ -947,7 +947,7 @@ async function markLessonComplete(courseId, lessonKey){
     if(serverProgressLoaded){
       localStorage.setItem(STORAGE,JSON.stringify([...serverDone].sort((a,b)=>a-b)));
     }
-    const s=serverProgressLoaded?serverDone:done(),first=firstIncomplete();
+    const s=serverProgressLoaded?serverDone:new Set(),first=firstIncomplete();
     /* Do not redirect a learner away from a lesson based on a progress snapshot.
        A stale session/RLS read must never create a loop back to lesson 1. Forward
        navigation remains controlled by the completion gate below. */
