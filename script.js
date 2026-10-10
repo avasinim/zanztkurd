@@ -232,35 +232,52 @@ window.ZANSTI_GET_SUPABASE_CLIENT = window.ZANSTI_GET_SUPABASE_CLIENT || functio
     }
   })();
 })();
-/* ===== Avasin Standard — Lesson Copy Protection =====
-   Prevent casual copying of lesson content. This is a browser-side deterrent,
-   not DRM: determined users can still access delivered HTML/source. */
+/* ===== Avasin Standard — Owner-only Lesson Copy =====
+   Copy restrictions are a browser-side deterrent, not DRM. The verified site
+   owner is exempt; everyone else remains protected, including if auth fails. */
 (function(){
   const lessonContent=document.querySelector(".lesson-content");
   if(!lessonContent)return;
 
+  let ownerMayCopy=false;
   const isEditable=e=>e.target.closest("input,textarea,select,[contenteditable='true']");
+  const isLessonTarget=e=>!!e.target.closest(".lesson-content");
   document.addEventListener("contextmenu",function(e){
-    if(!isEditable(e) && e.target.closest(".lesson-content")) e.preventDefault();
+    if(!ownerMayCopy && !isEditable(e) && isLessonTarget(e)) e.preventDefault();
   },true);
   document.addEventListener("copy",function(e){
-    if(!isEditable(e) && e.target.closest(".lesson-content")) e.preventDefault();
+    if(!ownerMayCopy && !isEditable(e) && isLessonTarget(e)) e.preventDefault();
   },true);
   document.addEventListener("cut",function(e){
-    if(!isEditable(e) && e.target.closest(".lesson-content")) e.preventDefault();
+    if(!ownerMayCopy && !isEditable(e) && isLessonTarget(e)) e.preventDefault();
   },true);
   document.addEventListener("dragstart",function(e){
-    if(!isEditable(e) && e.target.closest(".lesson-content")) e.preventDefault();
+    if(!ownerMayCopy && !isEditable(e) && isLessonTarget(e)) e.preventDefault();
   },true);
   document.addEventListener("keydown",function(e){
-    if(isEditable(e))return;
-    if(!e.target.closest(".lesson-content"))return;
+    if(ownerMayCopy || isEditable(e) || !isLessonTarget(e))return;
     const k=String(e.key||"").toLowerCase();
     if((e.ctrlKey||e.metaKey)&&["c","x","a","u","s"].includes(k)){
       e.preventDefault();
       e.stopImmediatePropagation();
     }
   },true);
+
+  (async function verifyOwnerCopyPermission(){
+    try{
+      if(typeof window.ZANSTI_WAIT_FOR_SUPABASE==="function"){
+        await window.ZANSTI_WAIT_FOR_SUPABASE();
+      }
+      const client=window.ZANSTI_GET_SUPABASE_CLIENT?.();
+      if(!client)return;
+      const {data:{session},error:sessionError}=await client.auth.getSession();
+      if(sessionError || !session)return;
+      const {data,error}=await client.rpc("is_site_owner");
+      if(!error && data===true) ownerMayCopy=true;
+    }catch(error){
+      console.warn("[Avasin] owner copy permission check failed; keeping copy protection enabled.");
+    }
+  })();
 })();
 
 const menuBtn=document.getElementById("menuBtn"),mobileMenu=document.getElementById("mobileMenu");
