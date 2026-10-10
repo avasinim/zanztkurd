@@ -2617,38 +2617,39 @@ body:after{
 }
 
 
-/* ===== Avasin Standard — Digital Library Navigation Contrast Fix =====
-   ڕەنگی بەستەرەکانی سەرپەڕەی کتێب‌خانە لەسەر پاشبنەمای تاریک بە ئاشکرایی دەردەکەون. */
+/* ===== Avasin Standard — High-Contrast Digital Library Navigation =====
+   ڕەنگی بەستەرەکانی کتێب‌خانە: فیرووزەیی ڕوون و زۆر دیار لەسەر پاشبنەمای تاریک. */
 body.v2-home .v2-header .v2-nav-links a,
 body.v2-home .v2-header .v2-account-actions a,
 body.v2-home .v2-header .v2-mobile-menu a {
-  color: #ead9bd !important;
+  color: #55e6d0 !important;
   opacity: 1 !important;
   text-shadow: none !important;
+  font-weight: 650 !important;
 }
 body.v2-home .v2-header .v2-nav-links a:hover,
 body.v2-home .v2-header .v2-mobile-menu a:hover {
-  color: #fffaf0 !important;
+  color: #ffffff !important;
 }
 body.v2-home .v2-header .v2-nav-links a[aria-current="page"] {
-  color: #fffaf0 !important;
+  color: #ffffff !important;
   text-decoration: underline;
-  text-decoration-color: #b38a58;
-  text-decoration-thickness: 2px;
+  text-decoration-color: #55e6d0;
+  text-decoration-thickness: 3px;
   text-underline-offset: 7px;
 }
 body.v2-home .v2-header .v2-mobile-menu {
-  background: #202720 !important;
-  border: 1px solid rgba(211,171,117,.3) !important;
-  box-shadow: 0 16px 36px rgba(0,0,0,.3) !important;
+  background: #172a2b !important;
+  border: 1px solid rgba(85,230,208,.55) !important;
+  box-shadow: 0 16px 36px rgba(0,0,0,.38) !important;
 }
 body.v2-home .v2-header .v2-mobile-menu a {
   padding: 8px 10px;
   border-radius: 6px;
 }
 body.v2-home .v2-header .v2-mobile-menu a:hover {
-  background: rgba(211,171,117,.12) !important;
+  background: rgba(85,230,208,.16) !important;
 }
 body.v2-home .v2-header .v2-menu {
-  color: #ead9bd !important;
+  color: #55e6d0 !important;
 }
