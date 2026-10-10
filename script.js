@@ -1441,3 +1441,18 @@ async function markLessonComplete(courseId, lessonKey){
   };
   if(document.body)start();else document.addEventListener('DOMContentLoaded',start,{once:true});
 })();
+
+
+/* Avasin: collective academic directory, not a personal-profile button */
+(function(){
+  const labelAcademicLinks = () => {
+    document.querySelectorAll('a[href]').forEach(a => {
+      const href = (a.getAttribute('href') || '').split('#')[0];
+      if (href === 'sabir-zhakaw.html' || href === '/zanztkurd/sabir-zhakaw.html') {
+        if (a.textContent.trim() === 'سابیر ژاکاو' || a.textContent.trim() === 'پەڕەی تایبەت' || a.textContent.trim() === 'چوونە نێو بەشی سابیر ژاکاو') a.textContent = 'دەستەی ئەکادیمی';
+      }
+    });
+  };
+  if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', labelAcademicLinks, {once:true});
+  else labelAcademicLinks();
+})();
