@@ -983,42 +983,57 @@ async function markLessonComplete(courseId, lessonKey){
     });
   }
   async function navGate(){
-    if(current<0)return;
-    const links=document.querySelectorAll(".lesson-nav a[href]");
-    links.forEach(function(a){
-      const href=(a.getAttribute("href")||"").split("?")[0].split("#")[0];
-      const target=href.split("/").pop().toLowerCase();
-      const targetIndex=COURSE1_FILES.indexOf(target);
-      if(targetIndex<0)return;
-      a.addEventListener("click",function(ev){
-        const latest=done();
-        if(targetIndex>current && !latest.has(current)){
-          ev.preventDefault();
-          ev.stopImmediatePropagation();
-          const gate=document.querySelector(".course1-gate");
-          if(gate) gate.scrollIntoView({behavior:"smooth",block:"center"});
-        }
-      });
-    });
-
-    /* Hard-stop every forward Course-1 link, even if the link is outside .lesson-nav. */
-    document.addEventListener("click",function(ev){
+    if(current<0 || await window.ZANSTI_OWNER_CHECK)return;
+    /* The server is authoritative. Do not block a learner using a stale localStorage
+       snapshot after the page itself has confirmed completion from lesson_progress. */
+    document.addEventListener("click",async function(ev){
       const a=ev.target.closest("a[href]");
       if(!a)return;
       const href=(a.getAttribute("href")||"").split("?")[0].split("#")[0];
       const target=href.split("/").pop().toLowerCase();
       const targetIndex=COURSE1_FILES.indexOf(target);
       if(targetIndex<0 || targetIndex<=current)return;
-      const latest=done();
-      if(!latest.has(current)){
-        ev.preventDefault();
-        ev.stopImmediatePropagation();
+
+      ev.preventDefault();
+      ev.stopImmediatePropagation();
+
+      try{
+        const sb=window.ZANSTI_GET_SUPABASE_CLIENT();
+        const {data:{session}}=await sb.auth.getSession();
+        if(!session){
+          const gate=document.querySelector(".course1-gate");
+          if(gate)gate.scrollIntoView({behavior:"smooth",block:"center"});
+          return;
+        }
+        const {data,error}=await sb.from("lesson_progress")
+          .select("lesson_key")
+          .eq("user_id",session.user.id)
+          .eq("course_id","orthography-kurdik")
+          .eq("lesson_key",COURSE1_FILES[current])
+          .maybeSingle();
+
+        /* If the progress query itself fails, let navigation proceed; RLS remains
+           the final security boundary and will reject unauthorized lesson content. */
+        if(error){
+          console.error("[Avasin] authoritative navigation check failed; relying on RLS",error);
+          window.location.href=a.href;
+          return;
+        }
+        if(data){
+          const latest=done();
+          latest.add(current);
+          save(latest);
+          window.location.href=a.href;
+          return;
+        }
         const gate=document.querySelector(".course1-gate");
-        if(gate) gate.scrollIntoView({behavior:"smooth",block:"center"});
+        if(gate)gate.scrollIntoView({behavior:"smooth",block:"center"});
+      }catch(error){
+        console.error("[Avasin] navigation progress check failed; relying on RLS",error);
+        window.location.href=a.href;
       }
     },true);
   }
-
   async function learningGate(){
     if(!document.querySelector(".learning-sequence") || await window.ZANSTI_OWNER_CHECK)return;
     styles();
