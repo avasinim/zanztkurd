@@ -74,6 +74,8 @@ document.querySelectorAll('.tab').forEach(b=>b.addEventListener('click',()=>{
 
 const $=id=>document.getElementById(id), ar=n=>String(n??0).replace(/\d/g,d=>'٠١٢٣٤٥٦٧٨٩'[d]);
 const msg=(t)=>{const e=$('message');e.textContent=t;e.style.display='block'};
+window.addEventListener('unhandledrejection',event=>{const reason=event.reason;msg('هەڵە لە پەیوەندی یان بارکردنی داتا: '+(reason?.message||String(reason||'هەڵەیەکی نەناسراو')))});
+window.addEventListener('error',event=>{if(event.message)msg('هەڵەی جاڤاسکریپت: '+event.message)});
 if(!window.ZANSTI_SUPABASE?.ready){msg('پەیوەندی بە backend ئامادە نییە.');return}
 const sb=supabase.createClient(ZANSTI_SUPABASE.url,ZANSTI_SUPABASE.publishableKey);
 const {data:{session}}=await sb.auth.getSession();
