@@ -2442,3 +2442,27 @@ body:after{
   .v2-footer-bottom{align-items:flex-start;flex-direction:column;gap:12px}
   .v2-footer-meta{gap:10px 16px}
 }
+
+/* Avasin Standard — compact, formal academic identity across the site */
+.v2-header .v2-brand,
+.v2-header .v2-brand.academy-brand{
+  gap:10px;
+  min-width:0;
+  max-width:min(100%,300px);
+  padding:5px 0;
+  align-items:center;
+}
+.v2-header .v2-brand:not(.academy-brand){font-size:clamp(.95rem,1.4vw,1.12rem);font-weight:750;letter-spacing:0;}
+.v2-header .v2-brand .v2-brand-mark{width:30px;height:30px;flex:0 0 30px;}
+.v2-header .academy-brand .academy-mark{width:30px;height:30px;flex:0 0 30px;font-size:10px;box-shadow:inset 0 0 0 3px rgba(211,171,117,.05);}
+.v2-header .academy-brand .academy-copy{gap:0;line-height:1.25;}
+.v2-header .academy-brand .academy-name{font-family:"Noto Naskh Arabic","Noto Sans Arabic",serif;font-size:clamp(.98rem,1.45vw,1.2rem);font-weight:700;line-height:1.35;letter-spacing:0;color:#ead9bd;}
+.v2-header .academy-brand .academy-sub{margin-top:3px;padding-top:3px;border-top:1px solid rgba(211,171,117,.22);font-size:7px;line-height:1.3;letter-spacing:1.35px;color:rgba(244,242,236,.58);}
+.v2-header .academy-brand:after{width:100%;opacity:.65;}
+.v2-footer .academy-brand .academy-name{font-size:1.12rem;}
+.v2-footer .academy-brand .academy-sub{font-size:7px;letter-spacing:1.3px;}
+@media(max-width:760px){
+  .v2-header .v2-brand,.v2-header .v2-brand.academy-brand{max-width:calc(100vw - 120px);}
+  .v2-header .academy-brand .academy-name{font-size:1rem;}
+  .v2-header .academy-brand .academy-sub{font-size:6px;letter-spacing:1px;}
+}
