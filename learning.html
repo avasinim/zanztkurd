@@ -83,9 +83,13 @@ body.content-page{--ink:#17231f;--muted:#65716b;--green:#315344;--green2:#476b59
   const links=[...document.querySelectorAll('a[href*="lessons/course-2-"]')];
   const sbReady=()=>!!(window.ZANSTI_SUPABASE?.ready&&window.supabase?.createClient);
   function setLockedLinks(completed){
-    let firstIncomplete=25;
-    for(let i=1;i<=25;i++){
-      if(!completed.has('course-2-'+String(i).padStart(2,'0')+'.html')){firstIncomplete=i-1;break;}
+    /* Fail closed: only lesson 1 is available until server progress is confirmed. */
+    let firstIncomplete=0;
+    if(completed instanceof Set){
+      firstIncomplete=25;
+      for(let i=1;i<=25;i++){
+        if(!completed.has('course-2-'+String(i).padStart(2,'0')+'.html')){firstIncomplete=i-1;break;}
+      }
     }
     links.forEach(a=>{
       const m=(a.getAttribute('href')||'').match(/course-2-(\d+)\.html/);
@@ -97,6 +101,7 @@ body.content-page{--ink:#17231f;--muted:#65716b;--green:#315344;--green2:#476b59
       else{a.removeAttribute('aria-disabled');delete a.dataset.c2locked;}
     });
   }
+  setLockedLinks(null);
   document.addEventListener('click',function(e){
     const a=e.target.closest&&e.target.closest('a[data-c2locked="1"]');
     if(a){e.preventDefault();e.stopImmediatePropagation();window.alert('ئەم وانەیە هێشتا قفڵە. سەرەتا وانەی پێشو تەواو بکە.');}
@@ -106,11 +111,11 @@ body.content-page{--ink:#17231f;--muted:#65716b;--green:#315344;--green2:#476b59
     try{
       const sb=window.ZANSTI_GET_SUPABASE_CLIENT?window.ZANSTI_GET_SUPABASE_CLIENT():supabase.createClient(ZANSTI_SUPABASE.url,ZANSTI_SUPABASE.publishableKey);
       const {data:{session},error:sessionError}=await sb.auth.getSession();
-      if(sessionError||!session)return;
-      const {data:rows,error}=await sb.from('lesson_progress').select('lesson_key').eq('course_id',COURSE);
-      if(error||!Array.isArray(rows)){console.error('[Avasin] Course 2 progress sync failed',error);return;}
+      if(sessionError||!session){setLockedLinks(new Set());return;}
+      const {data:rows,error}=await sb.from('lesson_progress').select('lesson_key').eq('user_id',session.user.id).eq('course_id',COURSE);
+      if(error||!Array.isArray(rows)){console.error('[Avasin] Course 2 progress sync failed',error);setLockedLinks(null);return;}
       setLockedLinks(new Set(rows.map(row=>row.lesson_key)));
-    }catch(error){console.error('[Avasin] Course 2 progress sync exception',error);}
+    }catch(error){console.error('[Avasin] Course 2 progress sync exception',error);setLockedLinks(null);}
   }
   if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',sync,{once:true});else sync();
 })();
