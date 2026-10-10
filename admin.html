@@ -57,6 +57,12 @@
 <script src="supabase-config.js?v=20261007-admin"></script>
 <script>
 (async()=>{
+// Keep basic controls responsive even if backend initialization fails.
+const earlyRefresh=document.getElementById('refresh');
+const earlyLogout=document.getElementById('logout');
+if(earlyRefresh) earlyRefresh.addEventListener('click',()=>location.reload());
+if(earlyLogout) earlyLogout.addEventListener('click',()=>location.href='auth.html');
+
 const $=id=>document.getElementById(id), ar=n=>String(n??0).replace(/\d/g,d=>'٠١٢٣٤٥٦٧٨٩'[d]);
 const msg=(t)=>{const e=$('message');e.textContent=t;e.style.display='block'};
 if(!window.ZANSTI_SUPABASE?.ready){msg('پەیوەندی بە backend ئامادە نییە.');return}
