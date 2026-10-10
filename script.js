@@ -309,16 +309,7 @@ document.querySelectorAll('a[href="#"]').forEach(a=>{
   });
 });
 
-document.querySelectorAll(".primary-btn").forEach(btn=>{
-  const label=(btn.textContent||"").trim();
-  if(label==="دەستپێکردن" || label==="چوونەژورەوە"){
-    btn.addEventListener("click",()=>{
-      openInfo(label, label==="دەستپێکردن"
-        ? "لە ئێستادا دەتوانیت وانەکان ببینیت و بەشەکانی سایت بپشکنیت. سیستەمی هەژمار لە قۆناغی داهاتودا زیاد دەکرێت."
-        : "سیستەمی چوونەژورەوە لە قۆناغی داهاتودا زیاد دەکرێت.");
-    });
-  }
-});
+/* Removed obsolete CTA click interception: real links/forms must retain their native navigation. */
 
 const infoModal=document.getElementById("siteInfoModal");
 const infoTitle=document.getElementById("siteInfoTitle");
@@ -351,14 +342,6 @@ document.querySelectorAll("[data-book]").forEach((btn,i)=>{
   ];
   const item=books[Math.min(i,books.length-1)];
   btn.addEventListener("click",()=>openInfo(item[0],item[1],item[2]));
-});
-
-document.querySelectorAll('a[href="#"]').forEach(a=>{
-  a.addEventListener("click",e=>{
-    e.preventDefault();
-    const label=(a.textContent||"").trim();
-    if(label) openInfo(label,"ئەم بەشە هێشتا لە قۆناغی پەرەپێدانە. لە وەشانی داهاتودا بە ناوەڕۆکی تەواو پڕ دەکرێت.");
-  });
 });
 
 /* ===== Contextual academic lesson tags ===== */
