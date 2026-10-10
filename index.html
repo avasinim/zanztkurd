@@ -107,7 +107,7 @@
         <div class="site-feedback-summary">
           <div class="site-feedback-muted">ناوەندی خاڵی بەشداربوان</div>
           <div class="site-feedback-average" id="site-feedback-average">— / ٥</div>
-          <div class="site-feedback-stars" id="site-feedback-stars" aria-label="ناوەندی ئیمتیاز">☆☆☆☆☆</div>
+          <div class="site-feedback-stars" id="site-feedback-stars" aria-label="ناوەندی خاڵ">☆☆☆☆☆</div>
           <div class="site-feedback-muted" id="site-feedback-total">خاڵە پەسەندکراوەکان بار دەکرێن…</div>
         </div>
         <h3>کۆمێنتە پەسەندکراوەکان</h3>
@@ -118,7 +118,7 @@
         <form class="site-feedback-form" id="site-feedback-form">
           <h3>خاڵ و بۆچوونت بنوسە</h3>
           <label>خاڵەکەت (١ تا ٥ ستێرە)</label>
-          <div class="site-feedback-rating" role="radiogroup" aria-label="ئیمتیازدان">
+          <div class="site-feedback-rating" role="radiogroup" aria-label="خاڵ پێدان">
             <label><input type="radio" name="rating" value="1" required><span>١ ★</span></label>
             <label><input type="radio" name="rating" value="2"><span>٢ ★</span></label>
             <label><input type="radio" name="rating" value="3"><span>٣ ★</span></label>
@@ -168,7 +168,7 @@
   const say=t=>{status.textContent=t;};
   const dateFmt=v=>{try{return new Intl.DateTimeFormat("ckb",{dateStyle:"medium"}).format(new Date(v));}catch(e){return "";}};
   async function init(){
-    if(!window.ZANSTI_SUPABASE?.ready||!window.supabase?.createClient){say("خزمەتگوزاری هەڵسەنگاندن لەم کاتەدا ئامادە نییە.");list.textContent="کۆمێنتەکان لەم کاتەدا بەردەست نین.";return;}
+    if(!window.ZANSTI_SUPABASE?.ready||!window.supabase?.createClient){say("خزمەتگوزاری خاڵ پێدان لەم کاتەدا ئامادە نییە.");list.textContent="کۆمێنتەکان لەم کاتەدا بەردەست نین.";return;}
     const client=window.supabase.createClient(window.ZANSTI_SUPABASE.url,window.ZANSTI_SUPABASE.publishableKey);
     const [ratings,comments]=await Promise.all([
       client.from("site_feedback_submissions").select("rating").eq("moderation_status","approved"),
@@ -197,15 +197,15 @@
   form.addEventListener("submit",async e=>{
     e.preventDefault();
     const data=new FormData(form),rating=Number(data.get("rating")),name=String(data.get("display_name")||"").trim(),body=String(data.get("body")||"").trim();
-    if(!Number.isInteger(rating)||rating<1||rating>5){say("تکایە ئیمتیازێک لە ١ تا ٥ هەڵبژێرە.");return;}
+    if(!Number.isInteger(rating)||rating<1||rating>5){say("تکایە خاڵێک لە ١ تا ٥ هەڵبژێرە.");return;}
     if(body.length>1000||name.length>80){say("کۆمێنت یان ناو لە سنووری دیاریکراو زیاترە.");return;}
-    submit.disabled=true;say(body?"ئیمتیاز و کۆمێنتەکەت دەنێردرێت…":"ئیمتیازەکەت دەنێردرێت…");
+    submit.disabled=true;say(body?"خاڵ و کۆمێنتەکەت دەنێردرێت…":"خاڵەکەت دەنێردرێت…");
     try{
       const client=window.supabase.createClient(window.ZANSTI_SUPABASE.url,window.ZANSTI_SUPABASE.publishableKey);
       const {data:{session}}=await client.auth.getSession();
       const result=await client.from("site_feedback_submissions").insert({rating,display_name:name||null,body:body||null,user_id:session?.user?.id||null});
       if(result.error){console.error("[Avasin site feedback] submit",result.error);say("نەتوانرا ناردن تەواو بکرێت؛ تکایە دواتر هەوڵ بدەرەوە.");}
-      else{form.reset();say(body?"سوپاس! ئیمتیاز و کۆمێنتەکەت وەرگیرا؛ دوای پشکنین لە پەڕەی سەرەکی دەردەکەوێت.":"سوپاس! ئیمتیازەکەت وەرگیرا؛ دوای پشکنین ناوەندی ئیمتیاز نوێ دەکرێتەوە.");}
+      else{form.reset();say(body?"سوپاس! خاڵ و کۆمێنتەکەت وەرگیرا؛ دوای پشکنین لە پەڕەی سەرەکی دەردەکەوێت.":"سوپاس! خاڵەکەت وەرگیرا؛ دوای پشکنین ناوەندی خاڵ نوێ دەکرێتەوە.");}
     }catch(err){console.error("[Avasin site feedback] submit exception",err);say("هەڵەیەک ڕوویدا؛ تکایە دواتر هەوڵ بدەرەوە.");}
     finally{submit.disabled=false;}
   });
