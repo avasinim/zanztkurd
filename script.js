@@ -1399,3 +1399,45 @@ async function markLessonComplete(courseId, lessonKey){
 
 
 
+
+
+/* Avasin Standard — site-wide visible-text orthography normalization.
+   Applies to static and dynamically loaded page content without touching scripts, styles, or editable fields. */
+(function(){
+  const fixes = [["سەرکەوتوویی","سەرکەوتویی"],["پێشکەوتوو","پێشکەوتو"],["سەرکەوتوو","سەرکەوتو"],["دەستگەیشتن","دەست‌گەیشتن"],["پێشوو","پێشو"]];
+  function normalize(value){
+    let out=String(value);
+    for(const [from,to] of fixes) out=out.split(from).join(to);
+    return out;
+  }
+  function fixTextNode(node){
+    if(!node || node.nodeType!==Node.TEXT_NODE || !node.parentElement) return;
+    if(node.parentElement.closest('script,style,noscript,textarea,input,select,option,[contenteditable="true"]')) return;
+    const next=normalize(node.nodeValue);
+    if(next!==node.nodeValue) node.nodeValue=next;
+  }
+  function fixAttributes(el){
+    if(!el || el.nodeType!==Node.ELEMENT_NODE) return;
+    for(const name of ['placeholder','aria-label','title','alt']){
+      const value=el.getAttribute(name);
+      if(value!==null){const next=normalize(value);if(next!==value)el.setAttribute(name,next);}
+    }
+  }
+  function scan(root){
+    if(!root)return;
+    if(root.nodeType===Node.TEXT_NODE){fixTextNode(root);return;}
+    if(root.nodeType===Node.ELEMENT_NODE){fixAttributes(root);if(root.matches('script,style,noscript,textarea,input,select,option,[contenteditable="true"]'))return;}
+    if(root.querySelectorAll){root.querySelectorAll('*').forEach(fixAttributes);}
+    const walker=document.createTreeWalker(root,NodeFilter.SHOW_TEXT);
+    let node;while((node=walker.nextNode()))fixTextNode(node);
+  }
+  const start=()=>{
+    scan(document.body);
+    const observer=new MutationObserver(records=>records.forEach(record=>{
+      if(record.type==='characterData')fixTextNode(record.target);
+      else record.addedNodes.forEach(scan);
+    }));
+    observer.observe(document.body,{subtree:true,childList:true,characterData:true});
+  };
+  if(document.body)start();else document.addEventListener('DOMContentLoaded',start,{once:true});
+})();
