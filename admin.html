@@ -72,7 +72,7 @@ async function load(){
  if(u.error||e.error||p.error){msg((u.error||e.error||p.error)?.message||'نەتوانرا داتا بخوێندرێتەوە.');return}
  users=u.data||[];enrollments=e.data||[];progress=p.data||[];
  $('usersCount').textContent=ar(users.length);
- $('enrollCount').textContent=ar(enrollments.filter(x=>['active','completed'].includes(x.status)).length);
+ $('enrollCount').textContent=ar(enrollments.filter(x=>x.status==='active').length);
  $('doneCount').textContent=ar(progress.reduce((s,x)=>s+Number(x.completed_count||0),0));
  render();
 }
