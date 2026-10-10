@@ -92,7 +92,7 @@
 <article class="academic-person academic-person-open"><span class="academic-person-index">02 · دەستەی سەرنوسەری</span><h3>بەشی سەرنوسەری</h3><p>بۆ زۆرکردنی ناو و دەوری سەرنوسەرانی داهاتو، لەگەڵ ناسنامە و بەرپرسیاریەکانیان.</p></article>
 <article class="academic-person academic-person-open"><span class="academic-person-index">03 · بەڕێوەبردن</span><h3>خاوەن‌ماڵپەڕ و بەڕێوەبەری پلاتفۆرم</h3><p>شوێنی دیاری‌کردنی خاوەن‌ماڵپەڕ و بەرپرسانی بەڕێوەبردن؛ ناو و ڕۆڵەکان بە زانیاری پشت‌ڕاست‌کراو پڕ دەکرێنەوە.</p></article>
 </div></div></section>
-<section class="v2-library" id="books"><div class="v2-shell"><div class="v2-section-head"><div><span class="v2-label">کتێب‌خانە</span><h2>سەرچاوە بۆ <em>خوێندنەوە</em></h2></div></div><div class="v2-book-grid"><article class="v2-book"><span class="book-tag">زمان‌ناسی</span><b>زوانی کوردیک</b><small>سەرچاوەی زمان</small></article><article class="v2-book book-two"><span class="book-tag">مۆرفۆلۆژی</span><b>پێکهاتەی<br>وشە</b><small>وشەسازی و پێکهاتە</small></article><article class="v2-book book-three"><span class="book-tag">فۆنێتیک</span><b>دەنگ و<br>واتا</b><small>فۆنێتیک و فۆنۆلۆجی</small></article></div></div></section>
+<section class="v2-library" id="books"><div class="v2-shell"><div class="v2-section-head"><div><span class="v2-label">کتێب‌خانە</span><h2>سەرچاوە بۆ <em>خوێندنەوە</em></h2></div></div><p style="max-width:760px;line-height:1.9;color:#667168;margin:-8px 0 24px">کتێب و سەرچاوە زانستیەکان؛ بۆ خوێندنەوە و دابەزاندن بەردەستە.</p><div class="v2-book-grid" id="avasinPublicLibrary"><div class="empty" style="grid-column:1/-1;padding:28px;text-align:center;color:#667168">کتێبخانە بار دەکرێت...</div></div></div></section>
 
 
 <section class="site-feedback" id="site-feedback" aria-labelledby="site-feedback-title">
@@ -213,4 +213,25 @@
 })();
 </script>
 
-</body></html>
+
+<script id="avasin-public-library">
+(async function(){
+ const host=document.getElementById('avasinPublicLibrary');
+ if(!host||!window.ZANSTI_SUPABASE?.ready||!window.supabase?.createClient)return;
+ const escapeHtml=value=>String(value??'').replace(/[&<>"']/g,ch=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[ch]));
+ try{
+  const client=window.supabase.createClient(window.ZANSTI_SUPABASE.url,window.ZANSTI_SUPABASE.publishableKey);
+  const result=await client.from('library_books').select('id,title,author,category,description,file_path,file_name,mime_type').eq('is_published',true).order('created_at',{ascending:false});
+  if(result.error)throw result.error;
+  if(!result.data?.length){host.innerHTML='<div style="grid-column:1/-1;padding:28px;border:1px dashed #cbd2c9;border-radius:14px;text-align:center;color:#667168">هێشتا کتێبێک بڵاونەکراوەتەوە. کتێبە نوێکان لێرە دەردەکەون.</div>';return;}
+  host.innerHTML=result.data.map((book,index)=>{
+   const url=client.storage.from('avasin-library').getPublicUrl(book.file_path).data.publicUrl;
+   const klass=['','book-two','book-three'][index%3];
+   return '<article class="v2-book '+klass+'"><span class="book-tag">'+escapeHtml(book.category||'گشتی')+'</span><div><b style="display:block;font-size:clamp(1.25rem,2.5vw,1.8rem);overflow-wrap:anywhere">'+escapeHtml(book.title)+'</b><small style="display:block;margin-top:10px;font-size:.85rem;line-height:1.8;opacity:.85">'+escapeHtml(book.author||'نوسەر دیاری نەکراو')+'</small>'+(book.description?'<p style="font-size:.85rem;line-height:1.8;opacity:.82;overflow-wrap:anywhere">'+escapeHtml(book.description)+'</p>':'')+'</div><div style="display:flex;gap:8px;flex-wrap:wrap"><a href="'+escapeHtml(url)+'" target="_blank" rel="noopener noreferrer" style="display:inline-flex;align-items:center;justify-content:center;padding:9px 13px;border:1px solid #ffffff70;border-radius:9px;color:#fff;text-decoration:none;font-weight:800">خوێندنەوە</a><a href="'+escapeHtml(url)+'" download="'+escapeHtml(book.file_name)+'" style="display:inline-flex;align-items:center;justify-content:center;padding:9px 13px;border-radius:9px;background:#f4f1e9;color:#26382d;text-decoration:none;font-weight:800">دابەزاندن</a></div></article>';
+  }).join('');
+ }catch(error){
+  host.innerHTML='<div style="grid-column:1/-1;padding:22px;border:1px solid #e0d5c8;border-radius:14px;color:#715844;text-align:center">لە ئێستادا کتێبخانە بار نەکرا؛ تکایە دواتر هەوڵ بدەرەوە.</div>';
+  console.error('[Avasin public library]',error);
+ }
+})();
+</script></body></html>
