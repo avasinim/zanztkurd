@@ -812,7 +812,7 @@ async function markLessonComplete(courseId, lessonKey){
     const gate=document.createElement("div");
     gate.className="course2-gate";
     const already=s.has(current),next=current+1<COURSE2_FILES.length?current+1:null;
-    gate.innerHTML="<h3>"+(already?"ئەم وانە پێشتر تەواوکراوە.":"کۆتایی وانە")+"</h3><p>"+(already?"وانەی دواتر کراوەتەوە.":"دوای خوێندنەوەی تەواوی ناوەڕۆک، ئەم وانەیە وەک تەواوکراو نیشان بدە بۆ کردنەوەی وانەی دواتر.")+"</p><button class=\"course2-complete-btn\" type=\"button\" "+(already?"disabled":"")+">"+(already?"✓ تەواوکراوە":"✓ نیشان‌دان وەک تەواوکراو")+"</button>";
+    gate.innerHTML="<h3>"+(already?"ئەم وانە پێشتر تەواوکراوە.":"کۆتایی وانە")+"</h3><p>"+(already?"وانەی دواتر کراوەتەوە.":"دوای خوێندنەوەی تەواوی ناوەڕۆک، ئەم وانەیە وەک تەواوکراو نیشان بدە بۆ کردنەوەی وانەی دواتر.")+"</p><button class=\"course2-complete-btn\" type=\"button\" "+(already?"disabled":"")+">"+(already?"✓ تەواوکراوە":"✓ نیشان‌ دان وەک تەواوکراو")+"</button>";
     nav.parentElement.insertBefore(gate,nav);
     gate.querySelector("button").addEventListener("click",async function(){
       const button=this;
@@ -821,8 +821,8 @@ async function markLessonComplete(courseId, lessonKey){
       const result=await markLessonComplete("phonetics-phonology-kurdik",COURSE2_FILES[current]);
       if(!result.ok){
         button.disabled=false;
-        button.textContent="✓ نیشان‌دان وەک تەواوکراو";
-        gate.querySelector("p").textContent="پاشەکەوتکردنی تەواوبوون سەرکەوتوو نەبوو. تکایە چوونەژوورەوە و خۆتۆمارکردنت بپشکنە و دووبارە هەوڵ بدە.";
+        button.textContent="✓ نیشان‌ دان وەک تەواوکراو";
+        gate.querySelector("p").textContent="پاشەکەوت‌کردنی تەواوبون سەرکەوتو نەبو. تکایە چوونەژورەوە و خۆتۆمارکردنت بپشکنە و دوبارە تێ‌بکۆشەوە.";
         return;
       }
       const latest=done();
@@ -942,7 +942,7 @@ async function markLessonComplete(courseId, lessonKey){
     const nav=document.querySelector(".lesson-nav");if(!nav||nav.parentElement.querySelector(".course1-gate"))return;
     const gate=document.createElement("div");gate.className="course1-gate";
     const already=s.has(current),next=current+1<COURSE1_FILES.length?current+1:null;
-    gate.innerHTML="<h3>"+(already?"ئەم وانە/بەش پێشتر تەواوکراوە.":"کۆتایی وانە/بەش")+"</h3><p>"+(already?"بەشی دواتر کراوەتەوە.":"دوای خوێندنەوەی تەواوی ناوەڕۆک، ئەم وانە/بەشە وەک تەواوکراو نیشان بدە بۆ کردنەوەی بەشی دواتر.")+"</p><button class=\"course1-complete-btn\" type=\"button\" "+(already?"disabled":"")+">"+(already?"✓ تەواوکراوە":"✓ نیشان‌دان وەک تەواوکراو")+"</button>";
+    gate.innerHTML="<h3>"+(already?"ئەم وانە/بەش پێشتر تەواوکراوە.":"کۆتایی وانە/بەش")+"</h3><p>"+(already?"بەشی دواتر کراوەتەوە.":"دوای خوێندنەوەی تەواوی ناوەڕۆک، ئەم وانە/بەشە وەک تەواوکراو نیشان بدە بۆ کردنەوەی بەشی دواتر.")+"</p><button class=\"course1-complete-btn\" type=\"button\" "+(already?"disabled":"")+">"+(already?"✓ تەواوکراوە":"✓ نیشان‌ دان وەک تەواوکراو")+"</button>";
     nav.parentElement.insertBefore(gate,nav);
     gate.querySelector("button").addEventListener("click",async function(){
       const button=this;
@@ -951,8 +951,8 @@ async function markLessonComplete(courseId, lessonKey){
       const result=await markLessonComplete("orthography-kurdik",COURSE1_FILES[current]);
       if(!result.ok){
         button.disabled=false;
-        button.textContent="✓ نیشان‌دان وەک تەواوکراو";
-        gate.querySelector("p").textContent="پاشەکەوتکردنی تەواوبوون سەرکەوتوو نەبوو. تکایە چوونەژوورەوە و خۆتۆمارکردنت بپشکنە و دووبارە هەوڵ بدە.";
+        button.textContent="✓ نیشان‌ دان وەک تەواوکراو";
+        gate.querySelector("p").textContent="پاشەکەوت‌کردنی تەواوبون سەرکەوتو نەبو. تکایە چوونەژورەوە و خۆتۆمارکردنت بپشکنە و دوبارە تێ‌بکۆشەوە.";
         return;
       }
       const latest=done();
