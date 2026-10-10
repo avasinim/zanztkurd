@@ -2653,3 +2653,9 @@ body.v2-home .v2-header .v2-mobile-menu a:hover {
 body.v2-home .v2-header .v2-menu {
   color: #55e6d0 !important;
 }
+
+
+/* Avasin Standard — owner copy permission override */
+.avasin-owner-copy .lesson-content{-webkit-user-select:text!important;user-select:text!important;-webkit-touch-callout:default!important;}
+.avasin-owner-copy .lesson-content *{-webkit-user-select:text!important;user-select:text!important;}
+.avasin-owner-copy .lesson-content img,.avasin-owner-copy .lesson-content svg{-webkit-user-drag:auto!important;user-drag:auto!important;}
