@@ -98,26 +98,26 @@
 <section class="site-feedback" id="site-feedback" aria-labelledby="site-feedback-title">
   <div class="v2-shell site-feedback-inner">
     <header class="site-feedback-head">
-      <span class="v2-label">هەڵسەنگاندنی گشتی</span>
+      <span class="v2-label">هەڵ‌سەنگاندنی گشتی</span>
       <h2 id="site-feedback-title">بۆچوونت لەبارەی <em>زانستی کورد</em></h2>
-      <p>ئەزموونی خۆت هەڵبسەنگێنە و بۆچوونت لەگەڵ بەشداربووانی دیکە هاوبەش بکە. بۆ ئیمتیازدان یان ناردنی کۆمێنت پێویستت بە هەژمار نییە.</p>
+      <p>ئەزمونی خۆت هەڵ‌بسەنگێنە و بۆچوونت لەگەڵ بەشداربوانی دیکە هاوبەش بکە. بۆ خاڵ پێ‌دان یا ناردنی کۆمێنت پەیویستت بە هەژمار نیە.</p>
     </header>
     <div class="site-feedback-panel">
       <div>
         <div class="site-feedback-summary">
-          <div class="site-feedback-muted">ناوەندی ئیمتیازی بەشداربووان</div>
+          <div class="site-feedback-muted">ناوەندی خاڵی بەشداربوان</div>
           <div class="site-feedback-average" id="site-feedback-average">— / ٥</div>
           <div class="site-feedback-stars" id="site-feedback-stars" aria-label="ناوەندی ئیمتیاز">☆☆☆☆☆</div>
-          <div class="site-feedback-muted" id="site-feedback-total">ئیمتیازە پەسەندکراوەکان بار دەکرێن…</div>
+          <div class="site-feedback-muted" id="site-feedback-total">خاڵە پەسەندکراوەکان بار دەکرێن…</div>
         </div>
         <h3>کۆمێنتە پەسەندکراوەکان</h3>
-        <p class="site-feedback-muted">بۆ پاراستنی گفتوگۆیەکی ڕێزدارانە، کۆمێنتەکان پێش نیشاندان پشکنین دەکرێن.</p>
+        <p class="site-feedback-muted">بۆ پاراستنی وت‌وێژێکی ڕێزدارانە، کۆمێنتەکان پێش نیشان دان پشکنین دەکرێن.</p>
         <div class="site-feedback-list" id="site-feedback-list" aria-live="polite"><div class="site-feedback-muted">کۆمێنتەکان بار دەکرێن…</div></div>
       </div>
       <div>
         <form class="site-feedback-form" id="site-feedback-form">
-          <h3>ئیمتیاز بدە و بۆچوون بنووسە</h3>
-          <label>ئیمتیازەکەت (١ تا ٥ ستێرە)</label>
+          <h3>خاڵ و بۆچوونت بنوسە</h3>
+          <label>خاڵەکەت (١ تا ٥ ستێرە)</label>
           <div class="site-feedback-rating" role="radiogroup" aria-label="ئیمتیازدان">
             <label><input type="radio" name="rating" value="1" required><span>١ ★</span></label>
             <label><input type="radio" name="rating" value="2"><span>٢ ★</span></label>
@@ -129,8 +129,8 @@
           <input id="site-feedback-name" name="display_name" type="text" maxlength="80" autocomplete="nickname" placeholder="ناو یان ناوی نازناو">
           <label for="site-feedback-body">کۆمێنت (ئارەزوومەندانە)</label>
           <textarea id="site-feedback-body" name="body" maxlength="1000" placeholder="چی لە ماڵپەڕەکە بەدڵتە؟ چی پێویستی بە باشترکردن هەیە؟"></textarea>
-          <p class="site-feedback-muted">تکایە زانیاریی نهێنی مەنووسە. ئیمتیاز و کۆمێنت پێش نیشاندانی گشتی پشکنین دەکرێن.</p>
-          <button class="site-feedback-submit" id="site-feedback-submit" type="submit">ناردنی ئیمتیاز و بۆچوون</button>
+          <p class="site-feedback-muted">تکایە زانیاری نهێنی مەنوسە. خاڵ و کۆمێنت پێش نیشان دانی گشتی پشکنین دەکرێن.</p>
+          <button class="site-feedback-submit" id="site-feedback-submit" type="submit">ناردنی خاڵ و بۆچوون</button>
           <div class="site-feedback-status" id="site-feedback-status" role="status" aria-live="polite"></div>
         </form>
       </div>
@@ -174,12 +174,12 @@
       client.from("site_feedback_submissions").select("rating").eq("moderation_status","approved"),
       client.from("site_feedback_submissions").select("id,display_name,rating,body,created_at").eq("moderation_status","approved").not("body","is",null).order("created_at",{ascending:false}).limit(20)
     ]);
-    if(ratings.error){console.error("[Avasin site feedback] ratings",ratings.error);average.textContent="— / ٥";total.textContent="ئێستا ئیمتیازەکان بەردەست نین.";}
+    if(ratings.error){console.error("[Avasin site feedback] ratings",ratings.error);average.textContent="— / ٥";total.textContent="ئێستا خاڵەکان بەردەست نین.";}
     else{
       const rows=ratings.data||[],avg=rows.length?rows.reduce((s,r)=>s+Number(r.rating),0)/rows.length:0;
       average.textContent=rows.length?digits(avg.toFixed(1))+" / ٥":"— / ٥";
       stars.textContent=rows.length?"★".repeat(Math.round(avg))+"☆".repeat(5-Math.round(avg)):"☆☆☆☆☆";
-      total.textContent=rows.length?digits(rows.length)+" ئیمتیازی پەسەندکراو":"هێشتا ئیمتیازێکی پەسەندکراو نییە.";
+      total.textContent=rows.length?digits(rows.length)+" خاڵی پەسەندکراو":"هێشتا خاڵێکی پەسەندکراو نیە.";
     }
     list.replaceChildren();
     if(comments.error){console.error("[Avasin site feedback] comments",comments.error);list.textContent="نەتوانرا کۆمێنتەکان بار بکرێن.";return;}
