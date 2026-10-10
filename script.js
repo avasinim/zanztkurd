@@ -1,3 +1,15 @@
+/* Shared Supabase client singleton: avoid multiple GoTrueClient instances per page. */
+window.ZANSTI_GET_SUPABASE_CLIENT = window.ZANSTI_GET_SUPABASE_CLIENT || function(){
+  if(!window.supabase?.createClient || !window.ZANSTI_SUPABASE?.ready) return null;
+  if(!window.ZANSTI_SUPABASE_CLIENT){
+    window.ZANSTI_SUPABASE_CLIENT = window.supabase.createClient(
+      window.ZANSTI_SUPABASE.url,
+      window.ZANSTI_SUPABASE.publishableKey
+    );
+  }
+  return window.ZANSTI_SUPABASE_CLIENT;
+};
+
 /* ===== Avasin access gate — lessons + catalog =====
    Lesson content and the lesson catalog require authentication + enrollment. */
 (function(){
@@ -56,7 +68,7 @@
   }
   async function getSession(){
     if(!await ensureSupabase()) return null;
-    const sb=supabase.createClient(ZANSTI_SUPABASE.url,ZANSTI_SUPABASE.publishableKey);
+    const sb=window.ZANSTI_GET_SUPABASE_CLIENT();
     const {data:{session}}=await sb.auth.getSession();
     return {sb,session};
   }
@@ -708,7 +720,7 @@ if(!window.ZANSTI_OWNER_CHECK){
   window.ZANSTI_OWNER_CHECK=(async function(){
     try{
       if(!window.supabase?.createClient || !window.ZANSTI_SUPABASE?.ready)return false;
-      const sb=supabase.createClient(ZANSTI_SUPABASE.url,ZANSTI_SUPABASE.publishableKey);
+      const sb=window.ZANSTI_GET_SUPABASE_CLIENT();
       const {data:{session}}=await sb.auth.getSession();
       if(!session)return false;
       const {data,error}=await sb.rpc("is_site_owner");
@@ -722,7 +734,7 @@ if(!window.ZANSTI_SYNC_PROGRESS){
   window.ZANSTI_SYNC_PROGRESS=async function(courseId,files,storage,includeOwner=false){
     try{
       if(!window.supabase?.createClient||!window.ZANSTI_SUPABASE?.ready)return;
-      const sb=supabase.createClient(ZANSTI_SUPABASE.url,ZANSTI_SUPABASE.publishableKey);
+      const sb=window.ZANSTI_GET_SUPABASE_CLIENT();
       const {data:{session}}=await sb.auth.getSession();
       if(!session)return;
       const {data:owner}=await sb.rpc("is_site_owner");
@@ -751,7 +763,7 @@ async function markLessonComplete(courseId, lessonKey){
     if(!window.supabase?.createClient||!window.ZANSTI_SUPABASE?.ready){
       return {ok:false,reason:"supabase_unavailable"};
     }
-    const sb=supabase.createClient(ZANSTI_SUPABASE.url,ZANSTI_SUPABASE.publishableKey);
+    const sb=window.ZANSTI_GET_SUPABASE_CLIENT();
     const {data:{session}}=await sb.auth.getSession();
     if(!session)return {ok:false,reason:"auth_required"};
     const {data,error}=await sb.rpc("complete_lesson",{
@@ -914,7 +926,7 @@ async function markLessonComplete(courseId, lessonKey){
     let serverDone=new Set(),serverProgressLoaded=false;
     try{
       if(window.supabase?.createClient && window.ZANSTI_SUPABASE?.ready){
-        const sb=supabase.createClient(ZANSTI_SUPABASE.url,ZANSTI_SUPABASE.publishableKey);
+        const sb=window.ZANSTI_GET_SUPABASE_CLIENT();
         const {data:{session}}=await sb.auth.getSession();
         if(session){
           const {data:rows,error}=await sb.from("lesson_progress")
