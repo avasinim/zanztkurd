@@ -62,12 +62,14 @@ const earlyRefresh=document.getElementById('refresh');
 const earlyLogout=document.getElementById('logout');
 if(earlyRefresh) earlyRefresh.onclick=()=>location.reload();
 if(earlyLogout) earlyLogout.onclick=()=>location.href='auth.html';
+let pendingTab='users';
 document.querySelectorAll('.tab').forEach(b=>b.addEventListener('click',()=>{
-  document.querySelectorAll('.tab').forEach(x=>x.classList.remove('active'));
-  b.classList.add('active');
+  pendingTab=b.dataset.tab||'users';
+  document.querySelectorAll('.tab').forEach(x=>x.classList.toggle('active',x===b));
+  const content=document.getElementById('content');
   const m=document.getElementById('message');
-  if(m && !document.getElementById('content')?.querySelector('.admin-table')){
-    m.textContent='پەنێڵەکە هێشتا داتای ئامادە نییە؛ دوگمەی «نوێکردنەوە» بەکاربهێنە یان پەیوەندی و دەسەڵاتەکان بپشکنە.';
+  if(content && !content.querySelector('.admin-table') && m){
+    m.textContent='پەیوەندی و بارکردنی داتا هێشتا تەواو نەبووە؛ تکایە چەند چرکە چاوەڕێ بکە یان «نوێکردنەوە» هەڵبژێرە.';
     m.style.display='block';
   }
 }));
@@ -78,11 +80,12 @@ window.addEventListener('unhandledrejection',event=>{const reason=event.reason;m
 window.addEventListener('error',event=>{if(event.message)msg('هەڵەی جاڤاسکریپت: '+event.message)});
 if(!window.ZANSTI_SUPABASE?.ready){msg('پەیوەندی بە backend ئامادە نییە.');return}
 const sb=supabase.createClient(ZANSTI_SUPABASE.url,ZANSTI_SUPABASE.publishableKey);
-const {data:{session}}=await sb.auth.getSession();
+const sessionResult=await Promise.race([sb.auth.getSession(),new Promise((_,reject)=>setTimeout(()=>reject(new Error('پەیوەندی چوونەژوورەوە لە کاتی چاوەڕوانیی ئاسایی زیاتر خایاند.')),12000))]);
+const session=sessionResult?.data?.session;
 if(!session){location.replace('auth.html?next=admin.html');return}
 const owner=await sb.rpc('is_site_owner');
 if(owner.error||owner.data!==true){document.body.innerHTML='<main style="min-height:100vh;display:grid;place-items:center;padding:30px;background:#f3f1ea;font-family:system-ui;text-align:center"><div><h1>دەستگەیشتن ڕەتکرایەوە</h1><p>ئەم پەنێڵە تەنیا بۆ خاوەنی ماڵپەڕە.</p><a href="dashboard.html">گەڕانەوە</a></div></main>';return}
-let tab='users', users=[], enrollments=[], progress=[];
+let tab=pendingTab, users=[], enrollments=[], progress=[];
 async function load(){
  $('content').innerHTML='<div class="loading">داتا نوێ دەکرێتەوە...</div>';
  const [u,e,p]=await Promise.all([sb.rpc('admin_list_users'),sb.rpc('admin_list_enrollments'),sb.rpc('admin_list_progress')]);
