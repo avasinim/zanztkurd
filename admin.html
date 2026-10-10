@@ -112,10 +112,21 @@ async function renderLibrary(){
    let out;
    if(btn.dataset.bookAction==='publish') out=await sb.from('library_books').update({is_published:book.is_published?false:true,updated_at:new Date().toISOString()}).eq('id',book.id);
    else if(btn.dataset.bookAction==='edit'){
-    const title=prompt('ناونیشانی کتێب:',book.title);if(title===null){btn.disabled=false;return;}if(!title.trim()){alert('ناونیشان نابێت بەتاڵ بێت.');btn.disabled=false;return;}
-    const author=prompt('ناوی نوسەر:',book.author||'');if(author===null){btn.disabled=false;return;}
-    const description=prompt('پوختەی کتێب:',book.description||'');if(description===null){btn.disabled=false;return;}
-    out=await sb.from('library_books').update({title:title.trim(),author:author.trim(),description:description.trim(),updated_at:new Date().toISOString()}).eq('id',book.id);
+    const row=btn.closest('.library-admin-row');
+    const categories=['زمان‌ناسی','فۆنێتیک و فۆنۆلۆجی','ڕێنووس','ئەدەب','مێژوو','گشتی'];
+    const options=categories.map(category=>'<option value="'+esc(category)+'" '+(book.category===category?'selected':'')+'>'+esc(category)+'</option>').join('');
+    row.innerHTML='<form class="library-edit-form" style="width:100%;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;padding:8px 0" aria-label="دەستکاری زانیاریی کتێب"><label style="display:grid;gap:5px;font-weight:800">ناونیشانی کتێب<input name="title" maxlength="240" required value="'+esc(book.title)+'" style="min-width:0;width:100%;box-sizing:border-box;padding:10px;border:1px solid #d3dad5;border-radius:9px;font:inherit"></label><label style="display:grid;gap:5px;font-weight:800">نوسەر<input name="author" maxlength="180" value="'+esc(book.author||'')+'" style="min-width:0;width:100%;box-sizing:border-box;padding:10px;border:1px solid #d3dad5;border-radius:9px;font:inherit"></label><label style="display:grid;gap:5px;font-weight:800">بابەت<select name="category" style="width:100%;padding:10px;border:1px solid #d3dad5;border-radius:9px;font:inherit">'+options+'</select></label><label style="grid-column:1/-1;display:grid;gap:5px;font-weight:800">پوختەی کتێب<textarea name="description" maxlength="3000" rows="6" style="width:100%;box-sizing:border-box;padding:10px;border:1px solid #d3dad5;border-radius:9px;font:inherit;resize:vertical">'+esc(book.description||'')+'</textarea><small style="color:#717a73;font-weight:500">تا ٣٠٠٠ پیت. ئەم دەقە لە بەشی گشتیی کتێب‌خانەدا پیشان دەدرێت.</small></label><div style="grid-column:1/-1;display:flex;gap:8px;flex-wrap:wrap"><button type="submit" class="mini-btn">پاشەکەوتکردنی گۆڕانکارییەکان</button><button type="button" class="mini-btn" data-edit-cancel>پاشگەزبوونەوە</button></div></form>';
+    const form=row.querySelector('.library-edit-form');
+    form.querySelector('[data-edit-cancel]').onclick=()=>refresh();
+    form.onsubmit=async event=>{
+      event.preventDefault();
+      const save=form.querySelector('[type="submit"]');save.disabled=true;save.textContent='پاشەکەوت دەکرێت...';
+      const values=new FormData(form);
+      const result=await sb.from('library_books').update({title:String(values.get('title')||'').trim(),author:String(values.get('author')||'').trim(),category:String(values.get('category')||'گشتی'),description:String(values.get('description')||'').trim(),updated_at:new Date().toISOString()}).eq('id',book.id);
+      if(result.error){msg('گۆڕانکارییەکان پاشەکەوت نەکران: '+result.error.message);save.disabled=false;save.textContent='پاشەکەوتکردنی گۆڕانکارییەکان';return;}
+      msg('زانیاری و پوختەی کتێبەکە بە سەرکەوتوویی نوێ کرایەوە.');await refresh();
+    };
+    return;
    } else {
     if(!confirm('دڵنیایت دەتەوێت ئەم کتێبە و فایلەکەی بسڕیتەوە؟')){btn.disabled=false;return;}
     out=await sb.from('library_books').delete().eq('id',book.id);
