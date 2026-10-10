@@ -22,7 +22,7 @@
 .tabs{display:flex;gap:7px;flex-wrap:wrap;padding:0 22px 15px}.tab{border:1px solid #d2dad5;background:#fff;color:#56655d;border-radius:9px;padding:8px 12px;font:inherit;font-weight:800;cursor:pointer}.tab.active{background:#29473d;color:#fff;border-color:#29473d}
 @media(max-width:900px){.admin-grid{grid-template-columns:repeat(2,1fr)}.admin-layout{grid-template-columns:1fr}.admin-hero{align-items:start;flex-direction:column}}
 @media(max-width:520px){.admin-grid{grid-template-columns:1fr 1fr}.admin-main{padding-top:28px}.admin-top .container{align-items:flex-start}.owner-badge{white-space:normal}}
-</style>
+.feedback-admin-list{max-height:75vh;overflow:auto}.feedback-admin-list article:last-child{border-bottom:0}</style>
 <meta name="robots" content="noindex,nofollow">
 </head>
 <body class="admin-shell">
@@ -42,13 +42,13 @@
 <section class="admin-layout">
 <div class="panel">
 <div class="panel-head"><h2>بەڕێوەبردنی هەژمار و تۆماربوون</h2><div class="toolbar"><input id="search" type="search" placeholder="گەڕان بە ناو یان ئیمەیڵ..."><button id="refresh">نوێکردنەوە</button></div></div>
-<div class="tabs"><button class="tab active" data-tab="users">بەکارهێنەران</button><button class="tab" data-tab="enrollments">تۆماربوونەکان</button><button class="tab" data-tab="progress">پێشکەوتن</button></div>
+<div class="tabs"><button class="tab active" data-tab="users">بەکارهێنەران</button><button class="tab" data-tab="enrollments">تۆماربوونەکان</button><button class="tab" data-tab="progress">پێشکەوتن</button><button class="tab" data-tab="feedback">کۆمێنت و ئیمتیاز</button></div>
 <div id="content"><div class="loading">داتا بار دەکرێت...</div></div>
 </div>
 <aside class="panel side-panel"><h3>کردارەکانی خاوەن ماڵپەڕ · بەڕێوبەر · سەرنوسەر</h3>
 <div class="side-item"><strong>هەژمارەکان</strong><span>بینینی ناو، ئیمەیڵ، ژمارەی خوێندکار و دۆخی پشتڕاست‌کردنەوە.</span></div>
 <div class="side-item"><strong>تۆماربوون</strong><span>چالاککردن یان تەواوکراوکردنی تۆماربوونی خوێندکاران.</span></div>
-<div class="side-item"><strong>پێشکەوتن</strong><span>بینینی کۆی وانە تەواوکراوەکان بۆ هەر خوێندکار و دەورە.</span></div>
+<div class="side-item"><strong>پێشکەوتن</strong><span>بینینی کۆی وانە تەواوکراوەکان بۆ هەر خوێندکار و دەورە.</span></div><div class="side-item"><strong>کۆمێنت و ئیمتیاز</strong><span>پشکنین، پەسەندکردن یان ڕەتکردنەوەی بۆچوونی گشتیی ماڵپەڕ.</span></div>
 <div class="side-item"><strong>پاراستن</strong><span>تەنیا Owner ـی پشتڕاستکراو دەتوانێت ئەم پەنێڵە بەکاربهێنێت.</span></div>
 </aside>
 </section>
@@ -85,7 +85,7 @@ const session=sessionResult?.data?.session;
 if(!session){location.replace('auth.html?next=admin.html');return}
 const owner=await sb.rpc('is_site_owner');
 if(owner.error||owner.data!==true){document.body.innerHTML='<main style="min-height:100vh;display:grid;place-items:center;padding:30px;background:#f3f1ea;font-family:system-ui;text-align:center"><div><h1>دەستگەیشتن ڕەتکرایەوە</h1><p>ئەم پەنێڵە تەنیا بۆ خاوەنی ماڵپەڕە.</p><a href="dashboard.html">گەڕانەوە</a></div></main>';return}
-let tab=pendingTab, users=[], enrollments=[], progress=[];
+let tab=pendingTab, users=[], enrollments=[], progress=[], feedbackRows=[];
 async function load(){
  $('content').innerHTML='<div class="loading">داتا نوێ دەکرێتەوە...</div>';
  const [u,e,p]=await Promise.all([sb.rpc('admin_list_users'),sb.rpc('admin_list_enrollments'),sb.rpc('admin_list_progress')]);
@@ -98,8 +98,29 @@ async function load(){
 }
 function esc(s){return String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]))}
 function status(s){return '<span class="status '+esc(s)+'">'+esc(s==='active'?'چالاک':s==='completed'?'تەواوکراو':s==='cancelled'?'هەڵوەشێنراوە':s||'—')+'</span>'}
+async function loadFeedback(){
+ const host=document.getElementById('feedbackContent');if(!host)return;
+ host.innerHTML='<div class="loading">کۆمێنتەکان بار دەکرێن...</div>';
+ const state=document.getElementById('feedbackFilter')?.value||'pending';
+ const result=await sb.rpc('admin_list_site_feedback',{p_status:state});
+ if(result.error){host.innerHTML='<div class="empty">نەتوانرا کۆمێنتەکان بخوێندرێنەوە؛ دەسەڵات و پەیوەندی پشکنە.</div>';console.error('[Avasin admin feedback]',result.error);return;}
+ feedbackRows=result.data||[];
+ const q=$('search').value.trim().toLowerCase();
+ const rows=feedbackRows.filter(x=>[x.display_name,x.body,x.moderation_status].join(' ').toLowerCase().includes(q));
+ if(!rows.length){host.innerHTML='<div class="empty">هیچ کۆمێنتێک لەم پۆلەدا نییە.</div>';return;}
+ host.innerHTML=rows.map(x=>'<article style="padding:18px 22px;border-bottom:1px solid var(--line)"><div style="display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;align-items:center"><strong>'+esc(x.display_name||'بەشداربووی بێ‌ناو')+'</strong><span class="status '+(x.moderation_status==='approved'?'active':x.moderation_status==='rejected'?'cancelled':'completed')+'">'+esc(x.moderation_status==='approved'?'پەسەندکراو':x.moderation_status==='rejected'?'ڕەتکراوە':'چاوەڕوان')+'</span></div><div style="margin:8px 0;color:#9a6b26;font-weight:800">'+('★'.repeat(Number(x.rating))+'☆'.repeat(5-Number(x.rating)))+' <span style="font-weight:500;color:#758079">· '+esc(x.created_at?new Date(x.created_at).toLocaleString('ku'):'')+'</span></div><p style="white-space:pre-wrap;overflow-wrap:anywhere;line-height:1.9">'+esc(x.body||'تەنیا ئیمتیاز')+'</p><div class="toolbar"><button data-feedback-id="'+esc(x.id)+'" data-feedback-status="approved">پەسەندکردن</button><button data-feedback-id="'+esc(x.id)+'" data-feedback-status="rejected" style="background:#7b5148">ڕەتکردنەوە</button><button data-feedback-id="'+esc(x.id)+'" data-feedback-status="pending" style="background:#fff;color:#29473d">گەڕاندنەوە بۆ چاوەڕوانی</button></div></article>').join('');
+ host.querySelectorAll('[data-feedback-id]').forEach(btn=>btn.onclick=async()=>{btn.disabled=true;const r=await sb.rpc('admin_moderate_site_feedback',{p_feedback_id:btn.dataset.feedbackId,p_status:btn.dataset.feedbackStatus});if(r.error){msg(r.error.message);btn.disabled=false;return;}await loadFeedback();});
+}
 function render(){
  const q=$('search').value.trim().toLowerCase();
+ if(tab==='feedback'){
+  const state=document.getElementById('feedbackFilter')?.value||'pending';
+  $('content').innerHTML='<div class="toolbar" style="padding:14px 18px;border-bottom:1px solid var(--line)"><label for="feedbackFilter" style="align-self:center;font-weight:800">پیشاندانی:</label><select id="feedbackFilter"><option value="pending">چاوەڕوانی پەسەندکردن</option><option value="approved">پەسەندکراو</option><option value="rejected">ڕەتکراوە</option><option value="all">هەموویان</option></select><button id="feedbackReload">نوێکردنەوە</button></div><div id="feedbackContent" class="feedback-admin-list"><div class="loading">کۆمێنتەکان بار دەکرێن...</div></div>';
+  const filter=document.getElementById('feedbackFilter');filter.value=state;
+  filter.onchange=()=>loadFeedback();
+  document.getElementById('feedbackReload').onclick=()=>loadFeedback();
+  loadFeedback();return;
+ }
  if(tab==='users'){
   const rows=users.filter(x=>[x.full_name,x.email,x.student_number].join(' ').toLowerCase().includes(q));
   $('content').innerHTML=rows.length?'<div class="table-wrap"><table class="admin-table"><thead><tr><th>ناو</th><th>ئیمەیڵ</th><th>ژمارە</th><th>ڕەوشی پشتڕاست‌کردنەوە</th><th>بەروار</th></tr></thead><tbody>'+rows.map(x=>'<tr><td><strong>'+esc(x.full_name||'بێ‌ناو')+'</strong></td><td>'+esc(x.email)+'</td><td>'+esc(x.student_number||'—')+'</td><td>'+ (x.email_confirmed?'پشتڕاستکراوە':'پشتڕاست نەکراوە')+'</td><td>'+esc(x.created_at?new Date(x.created_at).toLocaleDateString('ku'): '—')+'</td></tr>').join('')+'</tbody></table></div>':'<div class="empty">هیچ هەژمارێک نەدۆزرایەوە.</div>';
@@ -113,7 +134,7 @@ function render(){
  }
 }
 document.querySelectorAll('.tab').forEach(b=>b.onclick=()=>{document.querySelectorAll('.tab').forEach(x=>x.classList.remove('active'));b.classList.add('active');tab=b.dataset.tab;render()});
-$('search').oninput=render;$('refresh').onclick=load;$('logout').onclick=async()=>{await sb.auth.signOut();location.href='auth.html'};await load();
+$('search').oninput=()=>tab==='feedback'?loadFeedback():render();$('refresh').onclick=()=>tab==='feedback'?loadFeedback():load();$('logout').onclick=async()=>{await sb.auth.signOut();location.href='auth.html'};await load();
 })();
 </script>
 <footer class="v2-footer" role="contentinfo"><div class="v2-shell v2-footer-grid">
