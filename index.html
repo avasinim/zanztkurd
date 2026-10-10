@@ -203,7 +203,7 @@
     try{
       const client=window.supabase.createClient(window.ZANSTI_SUPABASE.url,window.ZANSTI_SUPABASE.publishableKey);
       const {data:{session}}=await client.auth.getSession();
-      const result=await client.from("site_feedback_submissions").insert({rating,display_name:name||null,body,user_id:session?.user?.id||null});
+      const result=await client.from("site_feedback_submissions").insert({rating,display_name:name||null,body:body||null,user_id:session?.user?.id||null});
       if(result.error){console.error("[Avasin site feedback] submit",result.error);say("نەتوانرا ناردن تەواو بکرێت؛ تکایە دواتر هەوڵ بدەرەوە.");}
       else{form.reset();say(body?"سوپاس! ئیمتیاز و کۆمێنتەکەت وەرگیرا؛ دوای پشکنین لە پەڕەی سەرەکی دەردەکەوێت.":"سوپاس! ئیمتیازەکەت وەرگیرا؛ دوای پشکنین ناوەندی ئیمتیاز نوێ دەکرێتەوە.");}
     }catch(err){console.error("[Avasin site feedback] submit exception",err);say("هەڵەیەک ڕوویدا؛ تکایە دواتر هەوڵ بدەرەوە.");}
