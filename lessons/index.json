@@ -565,12 +565,69 @@
         {
           "id": "course-2-lesson-25",
           "number": 25,
-          "title": "وانەی ٢٥ — ئەرک و دەوری فۆنۆلۆجی و ڕێسا فۆنۆلۆجیەکان",
+          "title": "وانەی ٢٥ — ئەرک و دەوری فۆنۆلۆجی",
           "pagePath": "course-2-25.html",
           "courseLessonNumber": 25,
           "courseId": "course-2"
+        },
+        {
+          "id": "course-2-lesson-26",
+          "number": 26,
+          "title": "وانەی ٢٦ — ڕێسا، نواندنی ژێرەوەیی، بێ‌لایەنبوون و لێکچوون",
+          "pagePath": "course-2-26.html",
+          "courseLessonNumber": 26,
+          "courseId": "course-2"
+        },
+        {
+          "id": "course-2-lesson-27",
+          "number": 27,
+          "title": "وانەی ٢٧ — لێکنەچوون، تێچوون و جێگۆڕکێی دەنگ",
+          "pagePath": "course-2-27.html",
+          "courseLessonNumber": 27,
+          "courseId": "course-2"
+        },
+        {
+          "id": "course-2-lesson-28",
+          "number": 28,
+          "title": "وانەی ٢٨ — جێگرتنەوەی دەنگ",
+          "pagePath": "course-2-28.html",
+          "courseLessonNumber": 28,
+          "courseId": "course-2"
+        },
+        {
+          "id": "course-2-lesson-29",
+          "number": 29,
+          "title": "وانەی ٢٩ — دەرکەوتن، لاوازبوون و بەهێزبوونی دەنگ",
+          "pagePath": "course-2-29.html",
+          "courseLessonNumber": 29,
+          "courseId": "course-2"
+        },
+        {
+          "id": "course-2-lesson-30",
+          "number": 30,
+          "title": "وانەی ٣٠ — درێژکردنەوە و کورتکردنەوەی دەنگ",
+          "pagePath": "course-2-30.html",
+          "courseLessonNumber": 30,
+          "courseId": "course-2"
+        },
+        {
+          "id": "course-2-lesson-31",
+          "number": 31,
+          "title": "وانەی ٣١ — تایبەتمەندییە ناکەرتییەکان و سرتێس",
+          "pagePath": "course-2-31.html",
+          "courseLessonNumber": 31,
+          "courseId": "course-2"
+        },
+        {
+          "id": "course-2-lesson-32",
+          "number": 32,
+          "title": "وانەی ٣٢ — هێشوی کۆنسۆنەنت، تۆن، ئاوازە، لەرە و ڕاوەستان",
+          "pagePath": "course-2-32.html",
+          "courseLessonNumber": 32,
+          "courseId": "course-2"
         }
-      ]
+      ],
+      "lessonCount": 32
     }
   ],
   "courses": [
@@ -592,8 +649,8 @@
       "sectionIds": [
         "course-2-section"
       ],
-      "endLessonNumber": 25,
-      "endLessonTitle": "ئەرک و دەوری فۆنۆلۆجی و ڕێسا فۆنۆلۆجیەکان"
+      "endLessonNumber": 32,
+      "endLessonTitle": "وانەی ٣٢ — هێشوی کۆنسۆنەنت، تۆن، ئاوازە، لەرە و ڕاوەستان"
     }
   ],
   "system": {
@@ -603,7 +660,7 @@
     "source": "سابیر ژاکاو · فۆنێتیک و فۆنۆلۆجی کوردیک",
     "courseLessonNumbering": {
       "enabled": true,
-      "range": "Course 1: 1-26; Course 2: 1-25",
+      "range": "Course 1: 1-26; Course 2: 1-32",
       "firstCourseLessonNumber": 1,
       "note": "ژمارەی courseLessonNumber ژمارەی وانەی خوێندکارە؛ pagePath و number تەنیا ناسنامەی فایل/سەرچاوەی repository ـن و نابێت وەک ژمارەی وانە وەربگیرێن. هەر دەورە ژمارەی سەربەخۆی خۆی هەیە.",
       "physicalResourceNote": "هەندێک وانە بە زنجیرەی چەند فایلێک نوێنەرایەتی دەکرێن؛ courseLessonNumber ژمارەی وانەی خوێندکارە و pagePath/number ژمارەی سەرچاوەی فایلی repository ـە."
