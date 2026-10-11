@@ -86,8 +86,8 @@ body.content-page{--ink:#17231f;--muted:#65716b;--green:#315344;--green2:#476b59
     /* Fail closed: only lesson 1 is available until server progress is confirmed. */
     let firstIncomplete=0;
     if(completed instanceof Set){
-      firstIncomplete=27;
-      for(let i=1;i<=27;i++){
+      firstIncomplete=32;
+      for(let i=1;i<=32;i++){
         if(!completed.has('course-2-'+String(i).padStart(2,'0')+'.html')){firstIncomplete=i-1;break;}
       }
     }
