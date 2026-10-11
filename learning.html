@@ -112,6 +112,11 @@ body.content-page{--ink:#17231f;--muted:#65716b;--green:#315344;--green2:#476b59
       const sb=window.ZANSTI_GET_SUPABASE_CLIENT?window.ZANSTI_GET_SUPABASE_CLIENT():supabase.createClient(ZANSTI_SUPABASE.url,ZANSTI_SUPABASE.publishableKey);
       const {data:{session},error:sessionError}=await sb.auth.getSession();
       if(sessionError||!session){setLockedLinks(new Set());return;}
+      const {data:owner,error:ownerError}=await sb.rpc('is_site_owner');
+      if(!ownerError&&owner===true){
+        links.forEach(a=>{a.classList.remove('course2-locked-link');a.removeAttribute('aria-disabled');delete a.dataset.c2locked;});
+        return;
+      }
       const {data:rows,error}=await sb.from('lesson_progress').select('lesson_key').eq('user_id',session.user.id).eq('course_id',COURSE);
       if(error||!Array.isArray(rows)){console.error('[Avasin] Course 2 progress sync failed',error);setLockedLinks(null);return;}
       setLockedLinks(new Set(rows.map(row=>row.lesson_key)));
@@ -138,6 +143,8 @@ body.content-page{--ink:#17231f;--muted:#65716b;--green:#315344;--green2:#476b59
      e.preventDefault();
      const {data:{session}}=await sb.auth.getSession();
      if(!session){location.href='auth.html?next='+encodeURIComponent(href);return;}
+     const {data:isOwner}=await sb.rpc('is_site_owner');
+     if(isOwner===true){location.href=href;return;}
      if(!session.user.email_confirmed_at&&!session.user.phone_confirmed_at){location.href='dashboard.html?verify=required';return;}
      const {data:hasAccess,error}=await sb.rpc('student_has_enrollment',{p_course_id:courseId});
      if(error||hasAccess!==true){location.href='dashboard.html?enroll=required';return;}
@@ -191,6 +198,8 @@ body.content-page{--ink:#17231f;--muted:#65716b;--green:#315344;--green2:#476b59
   (async function(){
     const {data:{session}}=await sb.auth.getSession();
     if(!session){location.replace(authUrl);return;}
+    const {data:isOwner}=await sb.rpc('is_site_owner');
+    if(isOwner===true)return;
     if(!session.user.email_confirmed_at){
       location.replace('dashboard.html?verify=required');
       return;
