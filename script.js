@@ -85,7 +85,7 @@ window.ZANSTI_GET_SUPABASE_CLIENT = window.ZANSTI_GET_SUPABASE_CLIENT || functio
   }
   function lessonOrderFor(target){
     if(/^course-2-\d+\.html$/.test(target)){
-      return Array.from({length:30},(_,i)=>"course-2-"+String(i+1).padStart(2,"0")+".html");
+      return Array.from({length:32},(_,i)=>"course-2-"+String(i+1).padStart(2,"0")+".html");
     }
     return ["017.html","018.html","019.html","020.html","021.html","022.html","023.html","024.html","025.html","026.html","027.html","028.html","029.html","030.html","031.html","032.html","033.html","034.html","035.html","036.html","037.html","038.html","039.html","040.html","041.html","042.html","043.html","044.html","046.html","047.html","048.html","049.html","050.html","051.html","045.html","052.html","053.html","054.html","055.html","056.html","057.html","058.html"];
   }
@@ -793,7 +793,7 @@ async function markLessonComplete(courseId, lessonKey){
 
 /* ===== Course 2 sequential completion gate ===== */
 (function(){
-  const COURSE2_FILES=Array.from({length:27},function(_,i){
+  const COURSE2_FILES=Array.from({length:32},function(_,i){
     return "course-2-"+String(i+1).padStart(2,"0")+".html";
   });
   const STORAGE="zanztkurd_course2_completed_v2";
