@@ -793,7 +793,7 @@ async function markLessonComplete(courseId, lessonKey){
 
 /* ===== Course 2 sequential completion gate ===== */
 (function(){
-  const COURSE2_FILES=Array.from({length:25},function(_,i){
+  const COURSE2_FILES=Array.from({length:27},function(_,i){
     return "course-2-"+String(i+1).padStart(2,"0")+".html";
   });
   const STORAGE="zanztkurd_course2_completed_v2";
