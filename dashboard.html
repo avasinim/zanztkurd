@@ -53,16 +53,17 @@ else{
   $('profileName').value=profile?.full_name||user.user_metadata?.full_name||'';
   $('studentNumber').value=profile?.student_number||'';
   $('welcome').textContent='بەخێربێیت، '+(profile?.full_name||user.user_metadata?.full_name||'خوێندکار');
-  try{const {data:isOwner}=await sb.rpc('is_site_owner'); if(isOwner===true) ownerPanel.style.display='block';}catch(e){}
+  let isOwner=false;
+  try{const {data:ownerResult}=await sb.rpc('is_site_owner'); isOwner=ownerResult===true; if(isOwner) ownerPanel.style.display='block';}catch(e){}
   $('status').textContent=verified?'هەژمارەکە چالاکە':'چاوەڕوانی پشتڕاست‌کردنەوەی ئیمەیڵە';
   $('verifyNotice').hidden=verified;
-  async function loadCourse(course, knownEnrollment=null){
+  async function loadCourse(course, knownEnrollment=null, owner=false){
     const cfg=course, elEnroll=$(cfg.enroll), elLearn=$(cfg.learn);
     let enrollment=knownEnrollment;
     /* Keep the enrollment action available even if direct SELECT is denied;
        the protected enrollment RPC is the authoritative write path. */
     elEnroll.hidden=!verified;
-    if(!enrollment){
+    if(!enrollment&&!owner){
       const {data,error}=await sb.from('enrollments').select('status,enrolled_at').eq('user_id',user.id).eq('course_id',cfg.id).maybeSingle();
       if(error){
         $(cfg.status).textContent='دۆخی تۆماربوون نەخوێندرایەوە؛ دەتوانیت لێرە خۆتۆمار بکەیت.';
@@ -71,10 +72,10 @@ else{
         enrollment=data;
       }
     }
-    const active=enrollment?.status==='active'||enrollment?.status==='completed';
-    const statusLabel=enrollment?.status==='completed'?'تەواوکراو':active?'تۆمارکراو':'خۆتۆمار نەکراوە';
+    const active=owner||enrollment?.status==='active'||enrollment?.status==='completed';
+    const statusLabel=owner?'دەسەڵاتی خاوەنماڵپەڕ':enrollment?.status==='completed'?'تەواوکراو':active?'تۆمارکراو':'خۆتۆمار نەکراوە';
     $(cfg.status).innerHTML='<span class="course-status '+(enrollment?.status||'')+'">'+statusLabel+'</span>'+(enrollment?.enrolled_at?'<p class="date-line">بەرواری تۆماربوون: '+new Date(enrollment.enrolled_at).toLocaleDateString('ku')+'</p>':'');
-    elEnroll.hidden=active||!verified;
+    elEnroll.hidden=owner||active||!verified;
     elLearn.classList.toggle('disabled',!active);
     elLearn.setAttribute('href',cfg.id==='orthography-kurdik'?'learning.html?course=1':'learning.html?course=2');
     elLearn.setAttribute('aria-disabled',String(!active));
@@ -134,12 +135,12 @@ else{
     $(cfg.bar).style.width=pct+'%';$(cfg.text).textContent=pct+'% ـی ڕێڕەو تەواو کراوە · '+count+' لە '+cfg.total+' وانە';
     return true;
   }
-  await loadCourse(COURSES.c1);
-  await loadCourse(COURSES.c2);
+  await loadCourse(COURSES.c1,null,isOwner);
+  await loadCourse(COURSES.c2,null,isOwner);
   const {data:enrollments}=await sb.from('enrollments').select('course_id,status,enrolled_at').eq('user_id',user.id);
   const activeEnrollments=(enrollments||[]).filter(e=>e.status==='active'||e.status==='completed');
-  $('courseCount').textContent=String(activeEnrollments.length);
-  $('enrollSummary').textContent=activeEnrollments.length===0?'هێشتا هیچ کۆرسێکت تۆمار نەکردووە.':activeEnrollments.length===1?'١ کۆرس بە ناوی تۆ تۆمار کراوە.':activeEnrollments.length+' کۆرس بە ناوی تۆ تۆمار کراون.';
+  $('courseCount').textContent=isOwner?'2':String(activeEnrollments.length);
+  $('enrollSummary').textContent=isOwner?'دەسەڵاتی خاوەنماڵپەڕ چالاکە؛ دەستگەیشتن بە هەردوو کۆرس بەردەستە.':activeEnrollments.length===0?'هێشتا هیچ کۆرسێکت تۆمار نەکردووە.':activeEnrollments.length===1?'١ کۆرس بە ناوی تۆ تۆمار کراوە.':activeEnrollments.length+' کۆرس بە ناوی تۆ تۆمار کراون.';
  }
  $('logout').onclick=async()=>{await sb.auth.signOut();location.href='auth.html';};
  $('resendVerify').onclick=async()=>{
