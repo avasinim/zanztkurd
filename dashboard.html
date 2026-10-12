@@ -4,12 +4,47 @@
 <title>پەنێڵی خوێندکار | زانستی کورد</title><link rel="stylesheet" href="style.css">
 <style>
 .student-shell{min-height:100vh;background:#f5f7f6}.student-top{background:#202824;color:#fff;padding:22px 0}.student-top .container{display:flex;align-items:center;justify-content:space-between;gap:18px}.student-brand{font-weight:800}.logout{border:1px solid rgba(255,255,255,.25);background:transparent;color:#fff;border-radius:9px;padding:9px 15px;cursor:pointer}.student-main{padding:42px 0}.welcome{margin-bottom:28px}.welcome .eyebrow{color:#2e8d81}.welcome h1{margin-top:7px;font-size:clamp(26px,4vw,40px);color:#26372f}.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.card{background:#fff;border:1px solid #dce4e1;border-radius:15px;padding:24px;box-shadow:0 10px 28px rgba(27,42,35,.05)}.card h2{font-size:17px;color:#26372f;margin-bottom:9px}.card p{color:#68756f;font-size:13px;line-height:1.9}.course-card{grid-column:span 2}.course-title{font-size:20px!important}.progress{height:9px;background:#e7ecea;border-radius:20px;overflow:hidden;margin:16px 0 9px}.progress span{display:block;height:100%;width:0;background:#63b8aa;transition:width .25s ease}.course-actions{display:flex;gap:10px;margin-top:17px;flex-wrap:wrap}.course-actions a,.course-actions button{padding:10px 15px;border-radius:9px;border:1px solid #ccd8d3;background:#fff;font-weight:800;color:#29473d;cursor:pointer;text-decoration:none}.course-actions .primary{background:#29473d;color:#fff}.course-actions .disabled{opacity:.55;pointer-events:none}.course-status{display:inline-flex;padding:5px 10px;border-radius:999px;background:#edf2ef;color:#496357;font-size:12px;font-weight:800}.notice{grid-column:1/-1;background:#f8f5ed;border-right:4px solid #b38a58}.enroll-panel{grid-column:1/-1}.course-meta{display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap}.date-line{font-size:12px!important}.course-status.active{background:#e8f3ef;color:#245b4f}.course-status.completed{background:#eeeae1;color:#765d2f}.muted{color:#758079!important}@media(max-width:800px){.grid{grid-template-columns:1fr}.course-card{grid-column:span 1}}
+
+/* Avasin Standard — simplified enrollment journey */
+.enrollment-guide{display:grid;grid-template-columns:minmax(210px,.72fr) minmax(0,1.8fr);gap:26px;align-items:center;margin:0 0 24px;padding:26px 28px;border:1px solid #d9dfd7;border-radius:18px;background:linear-gradient(125deg,#fffefa,#f4f3eb);box-shadow:0 14px 38px rgba(30,44,36,.055)}
+.enrollment-guide-heading{padding-left:20px;border-left:1px solid #d9dfd7}
+.guide-kicker{display:inline-block;color:#947348;font:800 10px/1.8 "Noto Sans Arabic",sans-serif;letter-spacing:.06em}
+.enrollment-guide h2{margin:7px 0 6px;color:#26382f;font-size:clamp(19px,2.4vw,25px);line-height:1.55}
+.enrollment-guide-heading>p{margin:0;color:#6e7971;font-size:12px;line-height:1.9}
+.enrollment-steps{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px;list-style:none;padding:0;margin:0}
+.enrollment-steps li{display:flex;align-items:flex-start;gap:10px;min-width:0;padding:13px 12px;border:1px solid #e3e5dc;border-radius:12px;background:rgba(255,255,255,.78)}
+.step-number{flex:0 0 30px;height:30px;display:grid;place-items:center;border-radius:9px;background:#29473d;color:#ead9bd;font-weight:800;font-size:13px}
+.enrollment-steps strong{display:block;color:#2c3c33;font-size:12px;line-height:1.8}
+.enrollment-steps p{margin:4px 0 0;color:#6c7770;font-size:11px;line-height:1.85}
+.enroll-panel{position:relative;display:flex;align-items:center;gap:15px;background:linear-gradient(110deg,#f8f6ef,#fff)!important;border:1px solid #ded8c9!important;border-right:4px solid #b38a58!important}
+.enroll-panel h2{margin:0;min-width:max-content}
+.enroll-panel #enrollSummary{margin:0;line-height:1.9}
+.enroll-summary-mark{display:grid;place-items:center;min-width:46px;height:46px;border-radius:12px;background:#29473d;color:#e8d8b9;font-size:12px;font-weight:800}
+.student-main .grid>.card h2{line-height:1.7}
+.course-actions a,.course-actions button{transition:background .18s ease,border-color .18s ease,transform .18s ease}
+.course-actions a:hover,.course-actions button:hover{transform:translateY(-1px)}
+.course-actions .primary{background:#29473d}
+@media(max-width:900px){.enrollment-guide{grid-template-columns:1fr;gap:18px}.enrollment-guide-heading{padding:0 0 14px;border-left:0;border-bottom:1px solid #d9dfd7}.enrollment-steps{grid-template-columns:1fr}.enrollment-steps li{align-items:center}.enrollment-steps p{margin-top:2px}}
+@media(max-width:560px){.enrollment-guide{padding:20px 16px}.enroll-panel{align-items:flex-start;flex-wrap:wrap}.enroll-panel h2{min-width:0}.enroll-summary-mark{min-width:38px;height:38px}}
+
 </style><meta name="robots" content="noindex,nofollow">
 </head>
 <body class="student-shell">
 <header class="student-top"><div class="container"><div class="student-brand">زانستی کورد · پەنێڵی خوێندکار</div><button id="logout" class="logout">چوونەدەرەوە</button></div></header>
 <main class="student-main container">
-<div class="welcome"><div class="eyebrow"><span></span> Student Dashboard</div><h1 id="welcome">پەنێڵی خوێندکار</h1></div><div id="ownerPanel" style="display:none;margin:0 0 24px;padding:18px 20px;border:1px solid rgba(179,138,88,.28);border-right:4px solid #b38a58;border-radius:16px;background:#fbf8f1;box-shadow:0 10px 28px rgba(32,37,34,.05)"><div style="display:flex;align-items:center;justify-content:space-between;gap:14px;flex-wrap:wrap"><div><strong style="color:#3b473f">👑 خاوەن ماڵپەڕ · 🛡️ بەڕێوبەر · ✍️ سەرنوسەر</strong><p style="margin:5px 0 0;color:#707971;font-size:13px">تۆ وەک خاوەن ماڵپەڕ، بەڕێوبەر و سەرنوسەری ماڵپەڕ ناسراویت و دەتوانیت سیستەمی فێربون بەڕێوەببەیت.</p></div><a href="admin.html" style="display:inline-flex;align-items:center;justify-content:center;padding:10px 15px;border-radius:10px;background:#29473d;color:#fff;text-decoration:none;font-weight:800">چوونە پەنێڵی بەڕێوبەرایەتی ←</a></div></div>
+<div class="welcome"><div class="eyebrow"><span></span> Student Dashboard</div><h1 id="welcome">پەنێڵی خوێندکار</h1></div>
+<section class="enrollment-guide" aria-labelledby="enrollment-guide-title">
+  <div class="enrollment-guide-heading">
+    <span class="guide-kicker">ڕێنمایی بەشداربوون · ٠١—٠٣</span>
+    <h2 id="enrollment-guide-title">چۆن دەست بە خوێندن بکەیت؟</h2>
+    <p>بۆ دەستگەیشتن بە وانەکان، ئەم سێ هەنگاوە بە ڕیز جێبەجێ بکە.</p>
+  </div>
+  <ol class="enrollment-steps">
+    <li><span class="step-number">١</span><div><strong>هەژمارەکەت چالاک بکە</strong><p>ئەگەر داوات لێ کرا، ئیمەیڵ یان ژمارەی مۆبایلەکەت پشتڕاست بکەوە.</p></div></li>
+    <li><span class="step-number">٢</span><div><strong>کۆرسێک هەڵبژێرە</strong><p>لە خوارەوە کۆرسی دڵخوازت بدۆزەوە و «خۆتۆمارکردن لە کۆرس» هەڵبژێرە.</p></div></li>
+    <li><span class="step-number">٣</span><div><strong>بچۆ ناو ڕێڕەوی فێربون</strong><p>کاتێک تۆماربوون چالاک بوو، لە «ڕێڕەوی فێربون» وانەکان بە ڕیز بخوێنەوە.</p></div></li>
+  </ol>
+</section><div id="ownerPanel" style="display:none;margin:0 0 24px;padding:18px 20px;border:1px solid rgba(179,138,88,.28);border-right:4px solid #b38a58;border-radius:16px;background:#fbf8f1;box-shadow:0 10px 28px rgba(32,37,34,.05)"><div style="display:flex;align-items:center;justify-content:space-between;gap:14px;flex-wrap:wrap"><div><strong style="color:#3b473f">👑 خاوەن ماڵپەڕ · 🛡️ بەڕێوبەر · ✍️ سەرنوسەر</strong><p style="margin:5px 0 0;color:#707971;font-size:13px">تۆ وەک خاوەن ماڵپەڕ، بەڕێوبەر و سەرنوسەری ماڵپەڕ ناسراویت و دەتوانیت سیستەمی فێربون بەڕێوەببەیت.</p></div><a href="admin.html" style="display:inline-flex;align-items:center;justify-content:center;padding:10px 15px;border-radius:10px;background:#29473d;color:#fff;text-decoration:none;font-weight:800">چوونە پەنێڵی بەڕێوبەرایەتی ←</a></div></div>
 <section class="grid">
 <article class="card"><h2>پڕۆفایل</h2><p id="email">...</p><form id="profileForm" style="margin-top:12px"><div style="margin-bottom:10px"><label style="display:block;font-size:12px;font-weight:800;margin-bottom:5px">ناوی تەواو</label><input id="profileName" required style="width:100%;box-sizing:border-box;padding:10px;border:1px solid #cfdad5;border-radius:9px"></div><div style="margin-bottom:10px"><label style="display:block;font-size:12px;font-weight:800;margin-bottom:5px">ژمارەی خوێندکار</label><input id="studentNumber" readonly style="width:100%;box-sizing:border-box;padding:10px;border:1px solid #cfdad5;border-radius:9px;background:#f4f7f5;color:#52645c" placeholder="لە سیستەمەوە دیاری دەکرێت"><small style="display:block;margin-top:5px;color:#7a8781;font-size:11px">ژمارەی خوێندکار زانیاری ناسنامەیە و لەلایەن سیستەمەوە پارێزراوە.</small></div><button type="submit" style="padding:9px 13px;border:1px solid #ccd8d3;border-radius:9px;background:#29473d;color:#fff;font-weight:800;cursor:pointer">پاشەکەوتکردنی پڕۆفایل</button><span id="profileMessage" style="display:block;margin-top:8px;font-size:12px;color:#68756f"></span></form></article>
 <article class="card"><h2>دۆخی هەژمار</h2><p id="status">پشکنین...</p></article>
@@ -25,7 +60,7 @@
 <p id="progressText">0% ـی ڕێڕەو تەواو کراوە</p>
 <div class="course-actions"><a id="course2View" class="primary" href="course-2.html">بینینی کۆرس</a><a id="course2Learn" href="learning.html">ڕێڕەوی فێربون</a><button id="course2Enroll" hidden>خۆتۆمارکردن لە کۆرس</button></div>
 </article>
-<article class="card notice" id="verifyNotice" hidden><h2>پشتڕاست‌کردنەوەی ئیمەیڵ</h2><p>بۆ تۆماربوون لە کۆرسەکان، سەرەتا ئیمەیڵی هەژمارەکەت پشتڕاست بکە.</p><button id="resendVerify" style="padding:9px 13px;border:1px solid #ccd8d3;border-radius:9px;background:#fff;color:#29473d;font-weight:800;cursor:pointer">ناردنەوەی ئیمەیڵی پشتڕاست‌کردنەوە</button><span id="verifyMessage" class="muted"></span></article><article class="card enroll-panel" id="enrollInfo"><h2>ڕەوشی تۆماربون</h2><p id="enrollSummary" class="muted">پشکنین...</p></article>
+<article class="card notice" id="verifyNotice" hidden><h2>چالاک‌کردنی هەژمار پێویستە</h2><p>بۆ تۆماربوون لە کۆرسەکان، سەرەتا هەژمارەکەت بە ڕێگەی پشتڕاستکردنەوەی نێردراو چالاک بکە.</p><button id="resendVerify" style="padding:9px 13px;border:1px solid #ccd8d3;border-radius:9px;background:#fff;color:#29473d;font-weight:800;cursor:pointer">ناردنەوەی ئیمەیڵی پشتڕاست‌کردنەوە</button><span id="verifyMessage" class="muted"></span></article><article class="card enroll-panel" id="enrollInfo"><div class="enroll-summary-mark">ڕەوش</div><h2>پوختەی بەشداربوون</h2><p id="enrollSummary" class="muted">پشکنین...</p></article>
 </section></main>
 <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
 <script src="supabase-config.js?v=20261007-auth"></script>
@@ -47,7 +82,7 @@ else{
   const ownerPanel=$('ownerPanel');
   const params=new URLSearchParams(location.search); const verifyRequired=params.get('verify')==='required'; const enrollRequired=params.get('enroll')==='required';
   if(verifyRequired){$('verifyNotice').hidden=false; $('verifyNotice').querySelector('h2').textContent='پشتڕاست‌کردنەوەی ئیمەیڵ پێویستە';}
-  if(enrollRequired){$('enrollSummary').textContent='بۆ دەستپێکردنی وانە، یەکێک لە کۆرسەکانت هەڵبژێرە و لە Dashboard خۆت تۆمار بکە.';}
+  if(enrollRequired){$('enrollSummary').textContent='بۆ دەستپێکردنی وانە، کۆرسێک لە خوارەوە هەڵبژێرە و خۆت تۆمار بکە.';}
   $('email').textContent=user.email||'—';
   const {data:profile}=await sb.from('profiles').select('full_name,student_number').eq('id',user.id).maybeSingle();
   $('profileName').value=profile?.full_name||user.user_metadata?.full_name||'';
