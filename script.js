@@ -102,19 +102,19 @@ window.ZANSTI_GET_SUPABASE_CLIENT = window.ZANSTI_GET_SUPABASE_CLIENT || functio
         .maybeSingle();
       if(error){
         console.error("[Avasin] lesson_content query failed",error);
-        box.innerHTML="<p class=\"lesson-content-error\">نەتوانرا ناوەڕۆکی وانەکە لە سێرڤەرەوە وەربگیرێت. تکایە پەڕەکە نوێ بکەرەوە.</p>";
+        box.innerHTML="<p class=\"lesson-content-error\">نەتوانرا نێوەڕۆکی وانەکە لە سێرڤەرەوە وەربگیرێت. تکایە پەڕەکە نوێ بکەرەوە.</p>";
         return false;
       }
       if(!data?.content_html){
         console.error("[Avasin] lesson_content row missing",lessonKey);
-        box.innerHTML="<p class=\"lesson-content-error\">ناوەڕۆکی ئەم وانەیە لە بنکەدراوەدا نەدۆزرایەوە.</p>";
+        box.innerHTML="<p class=\"lesson-content-error\">نێوەڕۆکی ئەم وانەیە لە بنکەدراوەدا نەدۆزرایەوە.</p>";
         return false;
       }
       box.innerHTML=data.content_html;
       return true;
     }catch(error){
       console.error("[Avasin] lesson content load exception",error);
-      box.innerHTML="<p class=\"lesson-content-error\">هەڵەیەک لە بارکردنی ناوەڕۆکی وانەکە ڕوویدا. تکایە پەڕەکە نوێ بکەرەوە.</p>";
+      box.innerHTML="<p class=\"lesson-content-error\">هەڵەیەک لە بارکردنی نێوەڕۆکی وانەکە ڕوویدا. تکایە پەڕەکە نوێ بکەرەوە.</p>";
       return false;
     }finally{
       box.setAttribute("aria-busy","false");
@@ -834,7 +834,7 @@ async function markLessonComplete(courseId, lessonKey){
     const gate=document.createElement("div");
     gate.className="course2-gate";
     const already=s.has(current),next=current+1<COURSE2_FILES.length?current+1:null;
-    gate.innerHTML="<h3>"+(already?"ئەم وانە پێشتر تەواوکراوە.":"کۆتایی وانە")+"</h3><p>"+(already?"وانەی دواتر کراوەتەوە.":"دوای خوێندنەوەی تەواوی ناوەڕۆک، ئەم وانەیە وەک تەواوکراو نیشان بدە بۆ کردنەوەی وانەی دواتر.")+"</p><button class=\"course2-complete-btn\" type=\"button\" "+(already?"disabled":"")+">"+(already?"✓ تەواوکراوە":"✓ نیشان‌ دان وەک تەواوکراو")+"</button>";
+    gate.innerHTML="<h3>"+(already?"ئەم وانە پێشتر تەواوکراوە.":"کۆتایی وانە")+"</h3><p>"+(already?"وانەی دواتر کراوەتەوە.":"دوای خوێندنەوەی تەواوی نێوەڕۆک، ئەم وانەیە وەک تەواوکراو نیشان بدە بۆ کردنەوەی وانەی دواتر.")+"</p><button class=\"course2-complete-btn\" type=\"button\" "+(already?"disabled":"")+">"+(already?"✓ تەواوکراوە":"✓ نیشان‌ دان وەک تەواوکراو")+"</button>";
     nav.parentElement.insertBefore(gate,nav);
     gate.querySelector("button").addEventListener("click",async function(){
       const button=this;
@@ -964,7 +964,7 @@ async function markLessonComplete(courseId, lessonKey){
     const nav=document.querySelector(".lesson-nav");if(!nav||nav.parentElement.querySelector(".course1-gate"))return;
     const gate=document.createElement("div");gate.className="course1-gate";
     const already=s.has(current),next=current+1<COURSE1_FILES.length?current+1:null;
-    gate.innerHTML="<h3>"+(already?"ئەم وانە/بەش پێشتر تەواوکراوە.":"کۆتایی وانە/بەش")+"</h3><p>"+(already?"بەشی دواتر کراوەتەوە.":"دوای خوێندنەوەی تەواوی ناوەڕۆک، ئەم وانە/بەشە وەک تەواوکراو نیشان بدە بۆ کردنەوەی بەشی دواتر.")+"</p><button class=\"course1-complete-btn\" type=\"button\" "+(already?"disabled":"")+">"+(already?"✓ تەواوکراوە":"✓ نیشان‌ دان وەک تەواوکراو")+"</button>";
+    gate.innerHTML="<h3>"+(already?"ئەم وانە/بەش پێشتر تەواوکراوە.":"کۆتایی وانە/بەش")+"</h3><p>"+(already?"بەشی دواتر کراوەتەوە.":"دوای خوێندنەوەی تەواوی نێوەڕۆک، ئەم وانە/بەشە وەک تەواوکراو نیشان بدە بۆ کردنەوەی بەشی دواتر.")+"</p><button class=\"course1-complete-btn\" type=\"button\" "+(already?"disabled":"")+">"+(already?"✓ تەواوکراوە":"✓ نیشان‌ دان وەک تەواوکراو")+"</button>";
     nav.parentElement.insertBefore(gate,nav);
     gate.querySelector("button").addEventListener("click",async function(){
       const button=this;
