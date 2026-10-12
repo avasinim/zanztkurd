@@ -27,11 +27,28 @@
 @media(max-width:900px){.enrollment-guide{grid-template-columns:1fr;gap:18px}.enrollment-guide-heading{padding:0 0 14px;border-left:0;border-bottom:1px solid #d9dfd7}.enrollment-steps{grid-template-columns:1fr}.enrollment-steps li{align-items:center}.enrollment-steps p{margin-top:2px}}
 @media(max-width:560px){.enrollment-guide{padding:20px 16px}.enroll-panel{align-items:flex-start;flex-wrap:wrap}.enroll-panel h2{min-width:0}.enroll-summary-mark{min-width:38px;height:38px}}
 
+
+/* Avasin Standard — primary student navigation */
+.student-shortcuts{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:13px;margin:0 0 28px}
+.student-shortcut{display:flex;align-items:center;justify-content:center;min-height:64px;padding:16px 14px;border:1px solid #d7ded7;border-radius:13px;background:linear-gradient(135deg,#fffefa,#f1f2eb);color:#29473d;text-align:center;text-decoration:none;font-weight:850;font-size:15px;line-height:1.7;box-shadow:0 7px 20px rgba(27,42,35,.045);transition:transform .18s ease,box-shadow .18s ease,border-color .18s ease}
+.student-shortcut:hover,.student-shortcut:focus-visible{transform:translateY(-2px);border-color:#b38a58;box-shadow:0 12px 26px rgba(27,42,35,.09);outline:none}
+.student-shortcut:nth-child(2),.student-shortcut:nth-child(5){background:linear-gradient(135deg,#f8f6ef,#ecefe8)}
+@media(max-width:800px){.student-shortcuts{grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}.student-shortcut{min-height:58px;padding:13px 10px;font-size:14px}}
+@media(max-width:420px){.student-shortcuts{grid-template-columns:1fr}.student-shortcut{min-height:52px}}
+
 </style><meta name="robots" content="noindex,nofollow">
 </head>
 <body class="student-shell">
 <header class="student-top"><div class="container"><div class="student-brand">زانستی کورد · پەنێڵی خوێندکار</div><button id="logout" class="logout">چوونەدەرەوە</button></div></header>
 <main class="student-main container">
+<nav class="student-shortcuts" aria-label="بەستەرە سەرەکیەکانی ماڵپەڕ">
+  <a class="student-shortcut" href="learning.html">فێربون</a>
+  <a class="student-shortcut" href="linguistics.html">زمان‌ناسی</a>
+  <a class="student-shortcut" href="lessons/catalog.html">وانەکان</a>
+  <a class="student-shortcut" href="library.html">کتێب‌خانە</a>
+  <a class="student-shortcut" href="sabir-zhakaw.html">دەستەی ئەکادیمی</a>
+  <a class="student-shortcut" href="about.html">دەربارەی ئاڤاشین</a>
+</nav>
 <div class="welcome"><div class="eyebrow"><span></span> Student Dashboard</div><h1 id="welcome">پەنێڵی خوێندکار</h1></div>
 <section class="enrollment-guide" aria-labelledby="enrollment-guide-title">
   <div class="enrollment-guide-heading">
