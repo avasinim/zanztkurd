@@ -3,6 +3,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Naskh+Arabic:wght@400;500;600;700;800&family=Noto+Kufi+Arabic:wght@500;600;700;800&family=Vazirmatn:wght@400;500;600;700;800&display=swap');
 
 /* ===== Avasin Academic Learning Portal ===== */
+/* Student dashboard shortcut — Avasin Standard */
+.student-dashboard-panel{display:flex;align-items:center;justify-content:space-between;gap:22px;margin-top:24px;padding:24px 26px;border:1px solid rgba(49,83,68,.22);border-radius:22px;background:linear-gradient(125deg,rgba(255,255,255,.94),rgba(238,236,226,.94));box-shadow:0 14px 34px rgba(31,47,38,.08)}
+.student-dashboard-copy{min-width:0}
+.student-dashboard-kicker{display:inline-block;color:#8a6b43;font-size:.82rem;font-weight:800;letter-spacing:.02em}
+.student-dashboard-copy h2{margin:5px 0 7px;color:#243b30;font-size:1.35rem}
+.student-dashboard-copy p{margin:0;max-width:650px;color:#5d6962;line-height:1.9}
+.student-dashboard-button{display:inline-flex;align-items:center;justify-content:center;gap:12px;flex-shrink:0;padding:13px 20px;border:1px solid #315344;border-radius:13px;background:#315344;color:#fff!important;font-weight:800;text-decoration:none!important;box-shadow:0 7px 16px rgba(49,83,68,.17);transition:transform .18s ease,background .18s ease}
+.student-dashboard-button:hover{background:#243f32;transform:translateY(-2px)}
+.student-dashboard-button span{font-size:1.15rem}
+@media(max-width:700px){.student-dashboard-panel{align-items:stretch;flex-direction:column;padding:20px;gap:16px}.student-dashboard-button{width:100%;box-sizing:border-box}}
+
 body.content-page{--ink:#17231f;--muted:#65716b;--green:#315344;--green2:#476b59;--gold:#b38a58;--line:rgba(39,61,50,.13);background:radial-gradient(900px 500px at 7% 8%,rgba(179,138,88,.10),transparent 65%),radial-gradient(800px 520px at 92% 20%,rgba(49,83,68,.08),transparent 66%),linear-gradient(180deg,#eeece4 0%,#f6f5f0 38%,#ecebe4 100%);color:var(--ink);font-family:"Noto Naskh Arabic","Vazirmatn",Tahoma,sans-serif}
 .content-page .v2-header{background:rgba(19,31,26,.97);border-bottom:1px solid rgba(255,255,255,.08);box-shadow:0 8px 28px rgba(10,20,16,.18)}
 .content-page .v2-brand,.content-page .v2-nav-links a,.content-page .v2-nav-cta{font-family:"Noto Kufi Arabic","Noto Naskh Arabic",sans-serif}
@@ -68,7 +79,15 @@ body.content-page{--ink:#17231f;--muted:#65716b;--green:#315344;--green2:#476b59
   <div class="v2-mobile-menu" id="mobileMenu">
     <a href="learning.html">فێربون</a><a href="linguistics.html">زمان‌ناسی</a><a href="lessons/catalog.html">وانەکان</a><a href="index.html#books">کتێب‌خانە</a><a href="sabir-zhakaw.html">دەستەی ئەکادیمی</a>
   </div>
-</header><main><section class="content-page-hero learning-hero"><div class="container"><span class="eyebrow">ئاڤاشین · ڕێڕەوی ئەکادێمیک</span><h1>زانین، بە <em>بنەما</em>؛<br>ڕێڕەو، بۆ تێ‌گەیشتن.</h1><p>ڕێڕەوێکی ئەکادێمیک بۆ ناسین و تێ‌گەیشتن لە زوانی کوردیک؛ دەورەی یەکەم تەنیا بە ڕێنوس و سیستەمی نوسین پەیوەندیدارە و دەورەی دوەم بە فۆنێتیک و فۆنۆلۆجی تایبەتە.</p><div class="learning-actions"><a class="report-link" href="lessons/performance.html">ڕاپۆرتی ئەدا و پێشکەوتن</a><a class="catalog-link" href="lessons/catalog.html">چوون بۆ کاتەلۆگی ڕێڕەو</a></div></div></section><section class="content-page-body learning-body"><div class="container"><div class="learning-intro"><span class="eyebrow">ڕێڕەوی ئەکادێمیک</span><h2>لە بنەماوە بۆ وردەکاری.</h2><p>ڕێڕەوی ئەکادێمیکی ئاڤاشین بە قۆناغە ڕێک‌خراوەکان داڕێژراوە. مەبەست تەنیا کۆکردنەوەی زانیاری نیە؛ بەڵکو دروست‌کردنی تێ‌گەیشتنی قوڵ و توانایی شی‌کردنەوە و بەکار‌هێنانی زانستیە.</p><p><a href="course-1.html" style="color:#5b705a;font-weight:750;text-decoration:none">دەورەی ١ — کۆرسی زانستی و ئەکادێمیکی ڕێنوسی زوانی کوردیک · پەڕەی کۆتایی و ناساندنی کۆرس ←</a></p><p><a href="course-2.html" style="color:#725f42;font-weight:750;text-decoration:none">دەورەی ٢ — فۆنێتیک و فۆنۆلۆجی زوانی کوردیک · ناساندنی کۆرس ←</a></p></div><div class="learning-levels"><article><span>01</span><h3>دەورەی ١ · کۆرسی زانستی و ئەکادێمیکی ڕێنوس</h3><p>ئەلفبێ، پیت، نوسین و ڕێک‌خستنی سیستەمی ڕێنوسی زوانی کوردیک.</p><a href="course-1.html">بینینی دەورە ←</a></article><article><span>02</span><h3>ناوەندی و پێشکەوتو</h3><p>فۆنێتیک، فۆنۆلۆجی و زانستی دەنگ.</p><a href="course-2.html">بینینی دەورە ←</a></article></div><div class="learning-lessons">
+</header><main><section class="content-page-hero learning-hero"><div class="container"><span class="eyebrow">ئاڤاشین · ڕێڕەوی ئەکادێمیک</span><h1>زانین، بە <em>بنەما</em>؛<br>ڕێڕەو، بۆ تێ‌گەیشتن.</h1><p>ڕێڕەوێکی ئەکادێمیک بۆ ناسین و تێ‌گەیشتن لە زوانی کوردیک؛ دەورەی یەکەم تەنیا بە ڕێنوس و سیستەمی نوسین پەیوەندیدارە و دەورەی دوەم بە فۆنێتیک و فۆنۆلۆجی تایبەتە.</p><div class="learning-actions"><a class="report-link" href="lessons/performance.html">ڕاپۆرتی ئەدا و پێشکەوتن</a><a class="catalog-link" href="lessons/catalog.html">چوون بۆ کاتەلۆگی ڕێڕەو</a></div>
+<div class="student-dashboard-panel">
+  <div class="student-dashboard-copy">
+    <span class="student-dashboard-kicker">ئاڤاشین · بەشی خوێندکار</span>
+    <h2>پەنێڵی خوێندکار</h2>
+    <p>بۆ بینینی پێشکەوتن، وانە تەواوکراوەکان و بەڕێوەبردنی هەژمارەکەت، بچۆ بۆ پەنێڵی تایبەت بە خوێندکار.</p>
+  </div>
+  <a class="student-dashboard-button" href="dashboard.html">چوونەوە بۆ پەنێڵی خوێندکار <span aria-hidden="true">←</span></a>
+</div></div></section><section class="content-page-body learning-body"><div class="container"><div class="learning-intro"><span class="eyebrow">ڕێڕەوی ئەکادێمیک</span><h2>لە بنەماوە بۆ وردەکاری.</h2><p>ڕێڕەوی ئەکادێمیکی ئاڤاشین بە قۆناغە ڕێک‌خراوەکان داڕێژراوە. مەبەست تەنیا کۆکردنەوەی زانیاری نیە؛ بەڵکو دروست‌کردنی تێ‌گەیشتنی قوڵ و توانایی شی‌کردنەوە و بەکار‌هێنانی زانستیە.</p><p><a href="course-1.html" style="color:#5b705a;font-weight:750;text-decoration:none">دەورەی ١ — کۆرسی زانستی و ئەکادێمیکی ڕێنوسی زوانی کوردیک · پەڕەی کۆتایی و ناساندنی کۆرس ←</a></p><p><a href="course-2.html" style="color:#725f42;font-weight:750;text-decoration:none">دەورەی ٢ — فۆنێتیک و فۆنۆلۆجی زوانی کوردیک · ناساندنی کۆرس ←</a></p></div><div class="learning-levels"><article><span>01</span><h3>دەورەی ١ · کۆرسی زانستی و ئەکادێمیکی ڕێنوس</h3><p>ئەلفبێ، پیت، نوسین و ڕێک‌خستنی سیستەمی ڕێنوسی زوانی کوردیک.</p><a href="course-1.html">بینینی دەورە ←</a></article><article><span>02</span><h3>ناوەندی و پێشکەوتو</h3><p>فۆنێتیک، فۆنۆلۆجی و زانستی دەنگ.</p><a href="course-2.html">بینینی دەورە ←</a></article></div><div class="learning-lessons">
 <h3>ڕێڕەوی فەرمی دەورەکان</h3>
 <p>هەر دەورەیەک ڕێڕەوی سەربەخۆی خۆی هەیە. ژمارەی فایلەکانی repository بە خۆکار ژمارەی وانە نیە.</p>
 <div class="learning-sequence">
