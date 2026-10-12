@@ -1451,7 +1451,7 @@ async function markLessonComplete(courseId, lessonKey){
       const href = rawHref.split('#')[0].split('?')[0];
       const pageName = href.split('/').pop();
       if (pageName === 'sabir-zhakaw.html') {
-        if (a.textContent.trim() === 'سابیر ژاکاو' || a.textContent.trim() === 'پەڕەی تایبەت' || a.textContent.trim() === 'چوونە نێو بەشی سابیر ژاکاو') a.textContent = 'دەستەی ئەکادیمی';
+        if (a.textContent.trim() === 'سابیر ژاکاو' || a.textContent.trim() === 'پەڕەی تایبەت' || a.textContent.trim() === 'چوونە نێو بەشی سابیر ژاکاو') a.textContent = 'دەستەی ئەکادێمی';
       }
       if (rawHref === '#sabir-zhakaw') a.setAttribute('href', '#academic-people');
     });
