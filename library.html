@@ -70,12 +70,19 @@
   const result=await client.from('library_books').select('id,title,author,category,description,file_path,file_name,mime_type').eq('is_published',true).order('created_at',{ascending:false});
   if(result.error)throw result.error;
   if(!result.data?.length){host.innerHTML='<div style="grid-column:1/-1;padding:28px;border:1px dashed #cbd2c9;border-radius:14px;text-align:center;color:#667168">هێشتا کتێبێک بڵاونەکراوەتەوە. کتێبە نوێکان لێرە دەردەکەون.</div>';return;}
-  host.innerHTML=result.data.map((book,index)=>{
-   const readUrl=client.storage.from('avasin-library').getPublicUrl(book.file_path).data.publicUrl;
-   const downloadUrl=client.storage.from('avasin-library').getPublicUrl(book.file_path,{download:book.file_name||true}).data.publicUrl;
+  host.innerHTML=await Promise.all(result.data.map(async (book,index)=>{
+   const storage=client.storage.from('avasin-library');
+   const [readResult,downloadResult]=await Promise.all([
+    storage.createSignedUrl(book.file_path,60),
+    storage.createSignedUrl(book.file_path,60,{download:book.file_name||true})
+   ]);
+   if(readResult.error)throw readResult.error;
+   if(downloadResult.error)throw downloadResult.error;
+   const readUrl=readResult.data.signedUrl;
+   const downloadUrl=downloadResult.data.signedUrl;
    const klass=['','book-two','book-three'][index%3];
    return '<article class="v2-book '+klass+'"><div class="academic-book-top"><span class="book-tag">'+escapeHtml(book.category||'گشتی')+'</span><span class="academic-book-index">AVASIN · LIBRARY / '+String(index+1).padStart(2,'0')+'</span></div><div class="academic-book-body"><b class="academic-book-title">'+escapeHtml(book.title)+'</b><small class="academic-book-author">'+escapeHtml(book.author||'نوسەر دیاری نەکراو')+'</small>'+(book.description?'<p class="academic-book-description">'+escapeHtml(book.description)+'</p>':'<p class="academic-book-description academic-book-no-description">پوختەی کتێب لە ئێستادا زیاد نەکراوە.</p>')+'</div><div class="academic-book-actions"><a class="academic-book-read" href="'+escapeHtml(readUrl)+'" target="_blank" rel="noopener noreferrer">خوێندنەوەی کتێب <span aria-hidden="true">↗</span></a><a class="academic-book-download" href="'+escapeHtml(downloadUrl)+'">دابەزاندنی فایل <span aria-hidden="true">↓</span></a></div></article>';
-  }).join('');
+  }));
  }catch(error){
   host.innerHTML='<div style="grid-column:1/-1;padding:22px;border:1px solid #e0d5c8;border-radius:14px;color:#715844;text-align:center">لە ئێستادا کتێبخانە بار نەکرا؛ تکایە دواتر هەوڵ بدەرەوە.</div>';
   console.error('[Avasin public library]',error);
