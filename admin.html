@@ -145,22 +145,30 @@ async function renderLibrary(){
   if(!isPdf&&!isEpub){msg('تەنیا فایلەکانی PDF و EPUB ڕێگەپێدراون.');return;}
   if(file.size>52428800){msg('قەبارەی فایل نابێت لە ٥٠ MB زیاتر بێت.');return;}
   button.disabled=true;button.textContent='فایلەکە بار دەکرێت...';
-  let path='';
+  let path='',uploaded=false;
   try{
    const normalizedName=file.name.normalize('NFKD').replace(/[^a-zA-Z0-9._-]+/g,'-').replace(/^-+|-+$/g,'').slice(-120);
    const safeName=normalizedName&&!/^\.(pdf|epub)$/i.test(normalizedName)?normalizedName:'book.'+(isPdf?'pdf':'epub');
    path=crypto.randomUUID()+'/'+safeName;
    const upload=await sb.storage.from('avasin-library').upload(path,file,{contentType:isPdf?'application/pdf':'application/epub+zip',upsert:false});
    if(upload.error){msg('بارکردنی فایل سەرکەوتوو نەبوو: '+upload.error.message);button.disabled=false;button.textContent='بارکردن و زیادکردنی کتێب';return;}
+   uploaded=true;
    const insert=await sb.from('library_books').insert({title,author:$('bookAuthor').value.trim(),category:$('bookCategory').value,description:$('bookDescription').value.trim(),file_path:path,file_name:file.name,mime_type:isPdf?'application/pdf':'application/epub+zip',file_size:file.size,is_published:true});
    if(insert.error){
-    const cleanup=await sb.storage.from('avasin-library').remove([path]);
-    msg('فایل بارکرا، بەڵام زانیاریی کتێب تۆمار نەکرا. '+(cleanup.error?'فایلەکەش بە تەواوی پاک نەکرایەوە: '+cleanup.error.message+'. ':'هەوڵی پاککردنەوەی فایل درا. ')+insert.error.message);
+    let cleanupError='';
+    try{const cleanup=await sb.storage.from('avasin-library').remove([path]);cleanupError=cleanup.error?.message||'';if(!cleanup.error)uploaded=false;}catch(cleanup){cleanupError=cleanup?.message||'هەڵەی نەناسراو';}
+    msg('فایل بارکرا، بەڵام زانیاریی کتێب تۆمار نەکرا. '+(cleanupError?'فایلەکەش بە تەواوی پاک نەکرایەوە: '+cleanupError+'. ':'فایلەکە پاک کرایەوە. ')+insert.error.message);
     button.disabled=false;button.textContent='بارکردن و زیادکردنی کتێب';return;
    }
+   uploaded=false;
   }catch(error){
    console.error('[Avasin library upload]',error);
-   msg('لە کاتی بارکردن یان تۆمارکردنی کتێب هەڵەیەکی چاوەڕوان‌نەکراو ڕوویدا: '+(error?.message||'هەڵەی نەناسراو'));
+   let cleanupMessage='';
+   if(uploaded&&path){
+    try{const cleanup=await sb.storage.from('avasin-library').remove([path]);cleanupMessage=cleanup.error?' هەروەها پاککردنەوەی فایل سەرکەوتوو نەبوو: '+cleanup.error.message:' فایلە بارکراوەکە پاک کرایەوە.';}
+    catch(cleanup){cleanupMessage=' هەروەها هەڵە لە پاککردنەوەی فایل: '+(cleanup?.message||'هەڵەی نەناسراو');}
+   }
+   msg('لە کاتی بارکردن یان تۆمارکردنی کتێب هەڵەیەکی چاوەڕوان‌نەکراو ڕوویدا: '+(error?.message||'هەڵەی نەناسراو')+cleanupMessage);
    button.disabled=false;button.textContent='بارکردن و زیادکردنی کتێب';return;
   }
   $('bookTitle').value='';$('bookAuthor').value='';$('bookDescription').value='';$('bookFile').value='';button.disabled=false;button.textContent='بارکردن و زیادکردنی کتێب';msg('کتێبەکە بە سەرکەوتوویی زیاد کرا و بۆ گشتی بڵاوکرایەوە.');await refresh();
