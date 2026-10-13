@@ -929,7 +929,8 @@ async function markLessonComplete(courseId, lessonKey){
     document.head.appendChild(s);
   }
   async function lessonGate(){
-    if(current<0 || await window.ZANSTI_OWNER_CHECK)return;
+    /* Owners retain unrestricted navigation, but can still record their own progress. */
+    if(current<0)return;
     styles();
     await window.ZANSTI_SYNC_PROGRESS("orthography-kurdik",COURSE1_FILES,STORAGE,true);
     /* Reconcile the completion gate directly against the server before deciding
