@@ -251,7 +251,6 @@ function render(){
   document.querySelectorAll('.action-select').forEach(s=>s.onchange=async()=>{
    const nextStatus=s.value;
    if(!nextStatus)return;
-   const previousStatus=s.closest('tr')?.querySelector('.status')?.classList.contains('completed')?'completed':'active';
    if(!confirm(nextStatus==='completed'?'دڵنیایت دۆخی تۆماربوونی ئەم خوێندکارە بکەیتە «تەواوکراو»؟':'دڵنیایت دۆخی تۆماربوونی ئەم خوێندکارە بکەیتە «چالاک»؟')){s.value='';return;}
    s.disabled=true;
    try{
