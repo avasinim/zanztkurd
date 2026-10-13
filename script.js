@@ -920,12 +920,52 @@ async function markLessonComplete(courseId, lessonKey){
   const current=COURSE1_FILES.indexOf(path);
   function done(){try{return new Set(JSON.parse(localStorage.getItem(STORAGE)||"[]").map(Number));}catch(e){return new Set();}}
   function save(s){localStorage.setItem(STORAGE,JSON.stringify([...s].sort(function(a,b){return a-b;})));}
+  function lessonMeta(index){
+    if(index<=20)return {lesson:index+1};
+    if(index<=27)return {lesson:22,part:index-20,total:7};
+    if(index<=33)return {lesson:23,part:index-27,total:6};
+    if(index===34)return {lesson:24};
+    if(index<=40)return {lesson:25,part:index-34,total:6};
+    return {lesson:26};
+  }
+  function ensureLessonNavigation(){
+    if(current<0||document.querySelector(".lesson-nav a[href]"))return;
+    const card=document.querySelector(".content-page-card");
+    if(!card)return;
+    const nav=document.createElement("nav");
+    nav.className="lesson-nav course1-auto-nav";
+    nav.setAttribute("aria-label","ناڤیگەیشنی وانەکان");
+    function label(index){
+      const meta=lessonMeta(index);
+      return "وانەی "+meta.lesson+(meta.part?" · بەشی "+meta.part+"/"+meta.total:"");
+    }
+    function item(index,isPrevious){
+      if(index<0||index>=COURSE1_FILES.length){
+        const span=document.createElement("span");
+        span.textContent=isPrevious?"دەستپێکی کۆرس":"کۆتایی کۆرس";
+        return span;
+      }
+      const a=document.createElement("a");
+      a.href=COURSE1_FILES[index];
+      a.setAttribute("aria-label",(isPrevious?"گەڕانەوە بۆ ":"چوون بۆ ")+label(index));
+      const direction=document.createElement("span");
+      direction.className="lesson-nav-direction";
+      direction.textContent=(isPrevious?"← ":"")+label(index)+(isPrevious?"":" →");
+      const caption=document.createElement("span");
+      caption.className="lesson-nav-label";
+      caption.textContent=isPrevious?"وانەی پێشو":"وانەی دواتر";
+      a.append(direction,caption);
+      return a;
+    }
+    nav.append(item(current-1,true),item(current+1,false));
+    card.appendChild(nav);
+  }
   function firstIncomplete(){const s=done();for(let i=0;i<COURSE1_FILES.length;i++)if(!s.has(i))return i;return COURSE1_FILES.length;}
   function url(i){return /\/lessons\//i.test(location.pathname) ? COURSE1_FILES[i] : "lessons/"+COURSE1_FILES[i];}
   function styles(){
     if(document.getElementById("course1-gate-styles"))return;
     const s=document.createElement("style");s.id="course1-gate-styles";
-    s.textContent=".course1-gate{margin:28px 0 8px;padding:22px;border:1px solid rgba(39,61,50,.14);border-right:4px solid #b38a58;border-radius:14px;background:#f7f6f0;box-shadow:0 10px 28px rgba(27,42,35,.06)}.course1-gate h3{margin:0 0 8px;color:#26372f;font-size:1.12rem}.course1-gate p{margin:0 0 14px;color:#66716b;line-height:1.9}.course1-complete-btn{display:inline-flex;align-items:center;justify-content:center;border:0;border-radius:10px;padding:11px 18px;background:#273f34;color:#fff;font:800 .95rem inherit;cursor:pointer}.course1-complete-btn[disabled]{opacity:.55;cursor:not-allowed}.course1-locked-link{opacity:.48!important;cursor:not-allowed!important;filter:grayscale(.35)}";
+    s.textContent=".course1-auto-nav{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;margin-top:22px;padding:10px;border:1px solid rgba(39,61,50,.16);border-radius:14px;background:#fff;box-shadow:0 8px 24px rgba(27,42,35,.05)}.course1-auto-nav a,.course1-auto-nav span{display:flex;min-height:42px;flex-direction:column;align-items:center;justify-content:center;gap:3px;padding:9px 12px;border:1px solid rgba(39,61,50,.12);border-radius:10px;background:#f7f6f0;color:#273f34;text-align:center;font-size:.9rem;font-weight:750;text-decoration:none}.course1-auto-nav .lesson-nav-label{font-size:.78rem;font-weight:600;color:#66716b}.course1-gate{margin:28px 0 8px;padding:22px;border:1px solid rgba(39,61,50,.14);border-right:4px solid #b38a58;border-radius:14px;background:#f7f6f0;box-shadow:0 10px 28px rgba(27,42,35,.06)}.course1-gate h3{margin:0 0 8px;color:#26372f;font-size:1.12rem}.course1-gate p{margin:0 0 14px;color:#66716b;line-height:1.9}.course1-complete-btn{display:inline-flex;align-items:center;justify-content:center;border:0;border-radius:10px;padding:11px 18px;background:#273f34;color:#fff;font:800 .95rem inherit;cursor:pointer}.course1-complete-btn[disabled]{opacity:.55;cursor:not-allowed}.course1-locked-link{opacity:.48!important;cursor:not-allowed!important;filter:grayscale(.35)}";
     document.head.appendChild(s);
   }
   async function lessonGate(){
@@ -1060,6 +1100,7 @@ async function markLessonComplete(courseId, lessonKey){
       if(i>first){a.classList.add("course1-locked-link");a.setAttribute("aria-disabled","true");a.title="سەرەتا وانەی پێشوو تەواو بکە";a.addEventListener("click",function(ev){ev.preventDefault();});}
     });
   }
+  ensureLessonNavigation();
   lessonGate();navGate();learningGate();
 })();
 
