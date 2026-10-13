@@ -824,11 +824,13 @@ async function markLessonComplete(courseId, lessonKey){
   }
   async function lessonGate(){
     if(current<0)return;
-    if(await window.ZANSTI_OWNER_CHECK)return;
+    const isOwner=await window.ZANSTI_OWNER_CHECK;
     styles();
-    await window.ZANSTI_SYNC_PROGRESS("phonetics-phonology-kurdik",COURSE2_FILES,STORAGE);
+    await window.ZANSTI_SYNC_PROGRESS("phonetics-phonology-kurdik",COURSE2_FILES,STORAGE,isOwner===true);
     const s=done(),first=firstIncomplete();
-    if(current>first){location.replace(url(first));return;}
+    /* Owners can browse every lesson, but still need the completion action
+       to write their own progress to Supabase and have it appear in reports. */
+    if(!isOwner && current>first){location.replace(url(first));return;}
     const nav=document.querySelector(".lesson-nav");
     if(!nav||nav.parentElement.querySelector(".course2-gate"))return;
     const gate=document.createElement("div");
