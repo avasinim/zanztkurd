@@ -215,7 +215,22 @@ async function loadFeedback(){
  const rows=feedbackRows.filter(x=>[x.display_name,x.body,x.moderation_status].join(' ').toLowerCase().includes(q));
  if(!rows.length){host.innerHTML='<div class="empty">هیچ کۆمێنتێک لەم پۆلەدا نییە.</div>';return;}
  host.innerHTML=rows.map(x=>'<article style="padding:18px 22px;border-bottom:1px solid var(--line)"><div style="display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;align-items:center"><strong>'+esc(x.display_name||'بەشداربووی بێ‌ناو')+'</strong><span class="status '+(x.moderation_status==='approved'?'active':x.moderation_status==='rejected'?'cancelled':'completed')+'">'+esc(x.moderation_status==='approved'?'پەسەندکراو':x.moderation_status==='rejected'?'ڕەتکراوە':'چاوەڕوان')+'</span></div><div style="margin:8px 0;color:#9a6b26;font-weight:800">'+('★'.repeat(Number(x.rating))+'☆'.repeat(5-Number(x.rating)))+' <span style="font-weight:500;color:#758079">· '+esc(x.created_at?new Date(x.created_at).toLocaleString('ku'):'')+'</span></div><p style="white-space:pre-wrap;overflow-wrap:anywhere;line-height:1.9">'+esc(x.body||'تەنیا ئیمتیاز')+'</p><div class="toolbar"><button data-feedback-id="'+esc(x.id)+'" data-feedback-status="approved">پەسەندکردن</button><button data-feedback-id="'+esc(x.id)+'" data-feedback-status="rejected" style="background:#7b5148">ڕەتکردنەوە</button><button data-feedback-id="'+esc(x.id)+'" data-feedback-status="pending" style="background:#fff;color:#29473d">گەڕاندنەوە بۆ چاوەڕوانی</button></div></article>').join('');
- host.querySelectorAll('[data-feedback-id]').forEach(btn=>btn.onclick=async()=>{btn.disabled=true;const r=await sb.rpc('admin_moderate_site_feedback',{p_feedback_id:btn.dataset.feedbackId,p_status:btn.dataset.feedbackStatus});if(r.error){msg(r.error.message);btn.disabled=false;return;}await loadFeedback();});
+ host.querySelectorAll('[data-feedback-id]').forEach(btn=>btn.onclick=async()=>{
+  const nextStatus=btn.dataset.feedbackStatus;
+  const actionLabel=nextStatus==='approved'?'پەسەندکردن':nextStatus==='rejected'?'ڕەتکردنەوە':'گەڕاندنەوە بۆ چاوەڕوانی';
+  if(!confirm('دڵنیایت دەتەوێت ئەم کۆمێنتە '+actionLabel+'؟'))return;
+  btn.disabled=true;
+  try{
+   const r=await sb.rpc('admin_moderate_site_feedback',{p_feedback_id:btn.dataset.feedbackId,p_status:nextStatus});
+   if(r.error){msg('گۆڕینی دۆخی کۆمێنت سەرکەوتوو نەبوو: '+r.error.message);btn.disabled=false;return;}
+   msg('دۆخی کۆمێنت نوێ کرایەوە.');
+   await loadFeedback();
+  }catch(error){
+   console.error('[Avasin feedback moderation]',error);
+   msg('لە کاتی گۆڕینی دۆخی کۆمێنتدا هەڵە ڕوویدا: '+(error?.message||'هەڵەی نەناسراو'));
+   btn.disabled=false;
+  }
+ });
 }
 function render(){
  const q=$('search').value.trim().toLowerCase();
@@ -233,7 +248,23 @@ function render(){
  }else if(tab==='enrollments'){
   const rows=enrollments.filter(x=>[x.full_name,x.email,x.course_name,x.status].join(' ').toLowerCase().includes(q));
   $('content').innerHTML=rows.length?'<div class="table-wrap"><table class="admin-table"><thead><tr><th>خوێندکار</th><th>دەورە</th><th>دۆخ</th><th>تۆماربوون</th><th>کردار</th></tr></thead><tbody>'+rows.map(x=>'<tr><td><strong>'+esc(x.full_name||'بێ‌ناو')+'</strong><br><small>'+esc(x.email)+'</small></td><td>'+esc(x.course_name)+'</td><td>'+status(x.status)+'</td><td>'+esc(x.enrolled_at?new Date(x.enrolled_at).toLocaleDateString('ku'):'—')+'</td><td><select class="action-select" data-user="'+esc(x.user_id)+'" data-course="'+esc(x.course_id)+'"><option value="">گۆڕین...</option><option value="active">چالاک</option><option value="completed">تەواوکراو</option></select></td></tr>').join('')+'</tbody></table></div>':'<div class="empty">هیچ تۆماربوونێک نەدۆزرایەوە.</div>';
-  document.querySelectorAll('.action-select').forEach(s=>s.onchange=async()=>{if(!s.value)return;const {error}=await sb.rpc('admin_set_enrollment_status',{p_user_id:s.dataset.user,p_course_id:s.dataset.course,p_status:s.value});if(error){msg(error.message);s.value='';return}await load()});
+  document.querySelectorAll('.action-select').forEach(s=>s.onchange=async()=>{
+   const nextStatus=s.value;
+   if(!nextStatus)return;
+   const previousStatus=s.closest('tr')?.querySelector('.status')?.classList.contains('completed')?'completed':'active';
+   if(!confirm(nextStatus==='completed'?'دڵنیایت دۆخی تۆماربوونی ئەم خوێندکارە بکەیتە «تەواوکراو»؟':'دڵنیایت دۆخی تۆماربوونی ئەم خوێندکارە بکەیتە «چالاک»؟')){s.value='';return;}
+   s.disabled=true;
+   try{
+    const {error}=await sb.rpc('admin_set_enrollment_status',{p_user_id:s.dataset.user,p_course_id:s.dataset.course,p_status:nextStatus});
+    if(error){msg('گۆڕینی دۆخی تۆماربوون سەرکەوتوو نەبوو: '+error.message);s.value='';return;}
+    msg('دۆخی تۆماربوونی خوێندکار نوێ کرایەوە.');
+    await load();
+   }catch(error){
+    console.error('[Avasin enrollment status]',error);
+    msg('لە کاتی گۆڕینی دۆخی تۆماربووندا هەڵە ڕوویدا: '+(error?.message||'هەڵەی نەناسراو'));
+    s.value='';
+   }finally{s.disabled=false;}
+  });
  }else if(tab==='library'){
   renderLibrary();return;
  }else{
