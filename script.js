@@ -143,7 +143,7 @@ window.ZANSTI_GET_SUPABASE_CLIENT = window.ZANSTI_GET_SUPABASE_CLIENT || functio
   }
   async function allowOrRedirect(ev,a){
     const rawHref=a.getAttribute("href")||a.getAttribute("data-lesson-href");
-    if(!isProtectedLessonTarget(rawHref) && !isProtectedCatalogTarget(rawHref)) return;
+    if(!isProtectedLessonTarget(rawHref)) return;
     ev.preventDefault();
     ev.stopImmediatePropagation();
     try{
@@ -151,15 +151,6 @@ window.ZANSTI_GET_SUPABASE_CLIENT = window.ZANSTI_GET_SUPABASE_CLIENT || functio
       if(!got?.session){location.href=authUrl(a.href||new URL(rawHref,location.href).href);return;}
       const owner=await isOwner(got.sb);
       const target=targetOf(rawHref);
-      if(isProtectedCatalogTarget(rawHref)){
-        if(!owner){
-          const [c1,c2]=await Promise.all([
-            hasEnrollment(got.sb,got.session.user.id,"orthography-kurdik"),
-            hasEnrollment(got.sb,got.session.user.id,"phonetics-phonology-kurdik")
-          ]);
-          if(!c1&&!c2){location.href=(location.pathname.includes("/lessons/")?"../dashboard.html":"dashboard.html")+"?enroll=required";return;}
-        }
-      }else{
         const courseId=/^course-2-\d+\.html$/.test(target)?"phonetics-phonology-kurdik":"orthography-kurdik";
         if(!owner && !await hasEnrollment(got.sb,got.session.user.id,courseId)){
           location.href=(location.pathname.includes("/lessons/")?"../dashboard.html":"dashboard.html")+"?enroll=required";
@@ -169,7 +160,6 @@ window.ZANSTI_GET_SUPABASE_CLIENT = window.ZANSTI_GET_SUPABASE_CLIENT || functio
           window.alert("ئەم وانەیە هێشتا قفڵە. بۆ کردنەوەی وانەی دواتر، سەرەتا وانەی پێشو تەواو بکە و پاشان هەوڵ بدەوە.");
           return;
         }
-      }
       location.href=new URL(rawHref,location.href).href;
     }catch(error){
       console.error("[Avasin] lesson navigation/access check failed",error);
@@ -205,28 +195,7 @@ window.ZANSTI_GET_SUPABASE_CLIENT = window.ZANSTI_GET_SUPABASE_CLIENT || functio
         document.documentElement.style.visibility="";
         return;
       }
-    if(!isCatalog) return;
-    document.documentElement.style.visibility="hidden";
-    const got=await getSession();
-    if(!got?.session){location.replace("../auth.html?next="+encodeURIComponent(location.href));return;}
-    if(await isOwner(got.sb)){
-      document.querySelectorAll("[data-lesson-href]").forEach(function(a){
-        a.setAttribute("href",a.getAttribute("data-lesson-href"));
-        a.removeAttribute("data-lesson-href");
-      });
-      document.documentElement.style.visibility="";
-      return;
-    }
-    const [c1,c2]=await Promise.all([
-      hasEnrollment(got.sb,got.session.user.id,"orthography-kurdik"),
-      hasEnrollment(got.sb,got.session.user.id,"phonetics-phonology-kurdik")
-    ]);
-    if(!c1&&!c2){location.replace("../dashboard.html?enroll=required");return;}
-    document.querySelectorAll("[data-lesson-href]").forEach(function(a){
-      a.setAttribute("href",a.getAttribute("data-lesson-href"));
-      a.removeAttribute("data-lesson-href");
-    });
-    document.documentElement.style.visibility="";
+    // The catalog is public and indexable; authentication is required only when opening a lesson.
     }catch(error){
       console.error("[Avasin] protected page gate failed",error);
       if(isLesson){
