@@ -22,6 +22,11 @@ window.ZANSTI_GET_SUPABASE_CLIENT = window.ZANSTI_GET_SUPABASE_CLIENT || functio
     const robots=document.querySelector('meta[name="robots"]');
     if(robots) robots.setAttribute("content","noindex,follow");
     else { const m=document.createElement("meta"); m.name="robots"; m.content="noindex,follow"; document.head.appendChild(m); }
+  } else if(isCatalog) {
+    // The public lesson catalog must remain discoverable and indexable.
+    const robots=document.querySelector('meta[name="robots"]');
+    if(robots) robots.setAttribute("content","index,follow");
+    else { const m=document.createElement("meta"); m.name="robots"; m.content="index,follow"; document.head.appendChild(m); }
   }
 
   function authUrl(next){
