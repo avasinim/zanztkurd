@@ -181,7 +181,9 @@ else{
       ];
       count=groups.filter(g=>g.every(k=>keys.has(k))).length;
     }else{
-      count=Math.min(keys.size,cfg.total);
+      /* Count only the official Course 2 lesson keys, matching the admin report. */
+      const validCourse2Keys=Array.from({length:cfg.total},(_,i)=>'course-2-'+String(i+1).padStart(2,'0')+'.html');
+      count=validCourse2Keys.filter(k=>keys.has(k)).length;
     }
     const pct=Math.round(count/cfg.total*100);
     $(cfg.bar).style.width=pct+'%';$(cfg.text).textContent=pct+'% ـی ڕێڕەو تەواو کراوە · '+count+' لە '+cfg.total+' وانە';
