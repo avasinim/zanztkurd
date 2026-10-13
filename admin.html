@@ -145,7 +145,8 @@ async function renderLibrary(){
   if(!isPdf&&!isEpub){msg('تەنیا فایلەکانی PDF و EPUB ڕێگەپێدراون.');return;}
   if(file.size>52428800){msg('قەبارەی فایل نابێت لە ٥٠ MB زیاتر بێت.');return;}
   button.disabled=true;button.textContent='فایلەکە بار دەکرێت...';
-  const safeName=file.name.normalize('NFKD').replace(/[^a-zA-Z0-9._-]+/g,'-').replace(/^-+|-+$/g,'').slice(-120)||'book.'+(isPdf?'pdf':'epub');
+  const normalizedName=file.name.normalize('NFKD').replace(/[^a-zA-Z0-9._-]+/g,'-').replace(/^-+|-+$/g,'').slice(-120);
+  const safeName=normalizedName&&!/^\.(pdf|epub)$/i.test(normalizedName)?normalizedName:'book.'+(isPdf?'pdf':'epub');
   const path=crypto.randomUUID()+'/'+safeName;
   const upload=await sb.storage.from('avasin-library').upload(path,file,{contentType:isPdf?'application/pdf':'application/epub+zip',upsert:false});
   if(upload.error){msg('بارکردنی فایل سەرکەوتوو نەبوو: '+upload.error.message);button.disabled=false;button.textContent='بارکردن و زیادکردنی کتێب';return;}
