@@ -82,7 +82,6 @@ document.getElementById("courseTitle").textContent="کاتەلۆگی وانەک�
 document.getElementById("courseMeta").textContent="دو ڕێڕەوی ئەکادێمیک · ٥٨ وانە · فێربونی زانستی زوانی کوردیک";
 courses.forEach(c=>{const o=document.createElement("option");o.value=c.id;o.textContent=c.title;courseFilter.appendChild(o)});
 lessons=(data.sections||[]).flatMap(s=>(s.lessons||[]).map(l=>({...l,sectionTitle:s.title,sectionNumber:s.number,sectionId:s.id,courseId:l.courseId||s.courseId||null,originalNumber:l.number,courseLessonNumber:l.courseLessonNumber||null})));
-const course2Lessons=course2Titles.map((title,i)=>({id:"course-2-"+String(i+1).padStart(2,"0"),title,sectionTitle:"کۆرسی ئەکادێمیک و زانستی فۆنێتیک و فۆنۆلۆجی زوانی کوردیک",sectionNumber:"٢",sectionId:"course-2",courseId:"course-2",originalNumber:i+1,courseLessonNumber:i+1,pagePath:"course-2-"+String(i+1).padStart(2,"0")+".html"}));
 
 const logicalLessons=new Map();
 lessons.forEach(function(l){
