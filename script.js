@@ -837,7 +837,7 @@ async function markLessonComplete(courseId, lessonKey){
     gate.className="course2-gate";
     const already=s.has(current),next=current+1<COURSE2_FILES.length?current+1:null;
     gate.innerHTML="<h3>"+(already?"ئەم وانە پێشتر تەواوکراوە.":"کۆتایی وانە")+"</h3><p>"+(already?"وانەی دواتر کراوەتەوە.":"دوای خوێندنەوەی تەواوی نێوەڕۆک، ئەم وانەیە وەک تەواوکراو نیشان بدە بۆ کردنەوەی وانەی دواتر.")+"</p><button class=\"course2-complete-btn\" type=\"button\" "+(already?"disabled":"")+">"+(already?"✓ تەواوکراوە":"✓ نیشان‌ دان وەک تەواوکراو")+"</button>";
-    nav.parentElement.insertBefore(gate,nav);
+    if(nav)nav.parentElement.insertBefore(gate,nav);else insertionTarget.appendChild(gate);
     gate.querySelector("button").addEventListener("click",async function(){
       const button=this;
       button.disabled=true;
@@ -964,7 +964,9 @@ async function markLessonComplete(courseId, lessonKey){
     /* Do not redirect a learner away from a lesson based on a progress snapshot.
        A stale session/RLS read must never create a loop back to lesson 1. Forward
        navigation remains controlled by the completion gate below. */
-    const nav=document.querySelector(".lesson-nav");if(!nav||nav.parentElement.querySelector(".course1-gate"))return;
+    const nav=document.querySelector(".lesson-nav");
+    const insertionTarget=nav?.parentElement || document.querySelector(".content-page-card") || document.querySelector(".content-page-body .container");
+    if(!insertionTarget || insertionTarget.querySelector(".course1-gate"))return;
     const gate=document.createElement("div");gate.className="course1-gate";
     const already=s.has(current),next=current+1<COURSE1_FILES.length?current+1:null;
     gate.innerHTML="<h3>"+(already?"ئەم وانە/بەش پێشتر تەواوکراوە.":"کۆتایی وانە/بەش")+"</h3><p>"+(already?"بەشی دواتر کراوەتەوە.":"دوای خوێندنەوەی تەواوی نێوەڕۆک، ئەم وانە/بەشە وەک تەواوکراو نیشان بدە بۆ کردنەوەی بەشی دواتر.")+"</p><button class=\"course1-complete-btn\" type=\"button\" "+(already?"disabled":"")+">"+(already?"✓ تەواوکراوە":"✓ نیشان‌ دان وەک تەواوکراو")+"</button>";
