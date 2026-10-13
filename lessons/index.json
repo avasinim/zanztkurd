@@ -76,7 +76,7 @@
         {
           "id": "writing-system-section-07-lesson-024",
           "number": 24,
-          "title": "هەندێک زانیاری سەرەتایی ڕێنوسی زوانی کوردیک",
+          "title": "هەندێک زانیاری سەرەتای ڕێنوسی زوانی کوردیک",
           "pagePath": "024.html",
           "courseLessonNumber": 8,
           "courseId": "course-current"
@@ -84,7 +84,7 @@
         {
           "id": "writing-system-section-07-lesson-025",
           "number": 25,
-          "title": "پیتی (ئـ) و دۆخی فۆنێتیکی و فۆنۆلۆجی",
+          "title": "پیتی (ئـ) و شێوەی نوسینی ـ بەشی ١",
           "pagePath": "025.html",
           "courseLessonNumber": 9,
           "courseId": "course-current"
@@ -92,7 +92,7 @@
         {
           "id": "writing-system-section-07-lesson-026",
           "number": 26,
-          "title": "وانەی ١٠ — بەشی ٢ی وانەی ٩",
+          "title": "بەشی ٢ی وانەی ٩",
           "pagePath": "026.html",
           "courseLessonNumber": 10,
           "courseId": "course-current"
@@ -100,7 +100,7 @@
         {
           "id": "writing-system-section-07-lesson-027",
           "number": 27,
-          "title": "پیتەکانی (ب، پ، ت) و سازگەی فۆنەکان",
+          "title": "پیتەکانی (ب، پ، ت) و یاساکانی نوسینیان",
           "pagePath": "027.html",
           "courseLessonNumber": 11,
           "courseId": "course-current"
@@ -108,7 +108,7 @@
         {
           "id": "writing-system-section-07-lesson-028",
           "number": 28,
-          "title": "پیتەکانی (خ، ج، چ، ح) و شی‌کردنەوەی فۆنێتیکی",
+          "title": "پیتەکانی (خ، ج، چ، ح) و جوداکردنەوەی شێوەی نوسین",
           "pagePath": "028.html",
           "courseLessonNumber": 12,
           "courseId": "course-current"
@@ -116,7 +116,7 @@
         {
           "id": "writing-system-section-07-lesson-029",
           "number": 29,
-          "title": "پیتەکانی (د، ز، ژ) و سازگەی فۆنەکان",
+          "title": "پیتەکانی (د، ز، ژ) و ڕێک‌خستنی نوسینیان",
           "pagePath": "029.html",
           "courseLessonNumber": 13,
           "courseId": "course-current"
@@ -124,7 +124,7 @@
         {
           "id": "writing-system-section-07-lesson-030",
           "number": 30,
-          "title": "پیتەکانی (س، ش) و شی‌کردنەوەی فۆنەکان",
+          "title": "پیتەکانی (س، ش) و جوداکردنەوەی نوسینیان",
           "pagePath": "030.html",
           "courseLessonNumber": 14,
           "courseId": "course-current"
@@ -132,7 +132,7 @@
         {
           "id": "writing-system-section-07-lesson-031",
           "number": 31,
-          "title": "پیتەکانی (ر، ڕ) و جیاوازی فۆنێتیکی و فۆنۆلۆجی",
+          "title": "پیتەکانی (ر، ڕ) و جوداکردنەوەی شێوەی نوسین",
           "pagePath": "031.html",
           "courseLessonNumber": 15,
           "courseId": "course-current"
@@ -148,7 +148,7 @@
         {
           "id": "writing-system-section-07-lesson-033",
           "number": 33,
-          "title": "پیتەکانی (ف، ڤ، ق) و سازگەی فۆنێتیکی و لێ‌کچوونی فۆنۆلۆجی",
+          "title": "پیتەکانی (ف، ڤ، ق) و سازگەی فۆنێتیکی و لێکچوونی فۆنۆلۆجی",
           "pagePath": "033.html",
           "courseLessonNumber": 17,
           "courseId": "course-current"
@@ -164,7 +164,7 @@
         {
           "id": "phonetics-section-10-lesson-034",
           "number": 34,
-          "title": "پیتەکانی (ک، گ) و لێ‌کچوونی فۆنێتیکی و پێشخستنی دەنگی",
+          "title": "پیتەکانی (ک، گ) و لێکچوونی فۆنێتیکی و پێش‌خستنی دەنگی",
           "pagePath": "034.html",
           "courseLessonNumber": 18,
           "courseId": "course-current"
@@ -397,7 +397,7 @@
         {
           "id": "course-2-lesson-04",
           "number": 4,
-          "title": "وانەی ٤ — پەیوەندی دەنگەکان و گۆڕانکاریە فۆنۆلۆجیەکان",
+          "title": "وانەی ٤ — پەیوەندی دەنگەکان و گۆڕان‌کاریە فۆنۆلۆجیەکان",
           "pagePath": "course-2-04.html",
           "courseLessonNumber": 4,
           "courseId": "course-2"
@@ -405,7 +405,7 @@
         {
           "id": "course-2-lesson-05",
           "number": 5,
-          "title": "وانەی ٥ — سیستەمی بزوێن و نەبزوێنەکان",
+          "title": "وانەی ٥ — سیستەمی ڤاوڵ و کۆنسۆنەنتەکان",
           "pagePath": "course-2-05.html",
           "courseLessonNumber": 5,
           "courseId": "course-2"
@@ -413,7 +413,7 @@
         {
           "id": "course-2-lesson-06",
           "number": 6,
-          "title": "وانەی ٦ — سیلاب و پێکهاتەی فۆنۆلۆجی وشە",
+          "title": "وانەی ٦ — بڕگە و پێکهاتەی فۆنۆلۆجی وشە",
           "pagePath": "course-2-06.html",
           "courseLessonNumber": 6,
           "courseId": "course-2"
@@ -461,7 +461,7 @@
         {
           "id": "course-2-lesson-12",
           "number": 12,
-          "title": "وانەی ١٢ — سیستەمی بزوێنەکان و شی‌کردنەوەی ئەکوستیکی",
+          "title": "وانەی ١٢ — سیستەمی ڤاوڵەکان و شی‌کردنەوەی ئەکوستیکی",
           "pagePath": "course-2-12.html",
           "courseLessonNumber": 12,
           "courseId": "course-2"
@@ -469,7 +469,7 @@
         {
           "id": "course-2-lesson-13",
           "number": 13,
-          "title": "وانەی ١٣ — سیستەمی نەبزوێنەکان و شی‌کردنەوەی فۆنێتیکی",
+          "title": "وانەی ١٣ — سیستەمی کۆنسۆنەنتەکان و شی‌کردنەوەی فۆنێتیکی",
           "pagePath": "course-2-13.html",
           "courseLessonNumber": 13,
           "courseId": "course-2"
@@ -485,7 +485,7 @@
         {
           "id": "course-2-lesson-15",
           "number": 15,
-          "title": "وانەی ١٥ — گۆڕانکاریە فۆنۆلۆجیەکان و پەیوەندی دەنگەکان",
+          "title": "وانەی ١٥ — گۆڕان‌کاریە فۆنۆلۆجیەکان و پەیوەندی دەنگەکان",
           "pagePath": "course-2-15.html",
           "courseLessonNumber": 15,
           "courseId": "course-2"
@@ -573,7 +573,7 @@
         {
           "id": "course-2-lesson-26",
           "number": 26,
-          "title": "وانەی ٢٦ — ڕێسا، نواندنی ژێرەوەیی، بێ‌لایەنبوون و لێکچوون",
+          "title": "وانەی ٢٦ — ڕێسا، نواندنی ژێرەوەیی، بێ‌لایەن‌بون و لێکچوون",
           "pagePath": "course-2-26.html",
           "courseLessonNumber": 26,
           "courseId": "course-2"
@@ -605,7 +605,7 @@
         {
           "id": "course-2-lesson-30",
           "number": 30,
-          "title": "وانەی ٣٠ — درێژکردنەوە و کورتکردنەوەی دەنگ",
+          "title": "وانەی ٣٠ — درێژکردنەوە و کورت‌کردنەوەی دەنگ",
           "pagePath": "course-2-30.html",
           "courseLessonNumber": 30,
           "courseId": "course-2"
@@ -613,7 +613,7 @@
         {
           "id": "course-2-lesson-31",
           "number": 31,
-          "title": "وانەی ٣١ — تایبەتمەندییە ناکەرتییەکان و سرتێس",
+          "title": "وانەی ٣١ — تایبەتمەندییە ناکەرتیەکان و سترێس",
           "pagePath": "course-2-31.html",
           "courseLessonNumber": 31,
           "courseId": "course-2"
