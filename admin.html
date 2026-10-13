@@ -141,7 +141,17 @@ async function renderLibrary(){
    } else {
     if(!confirm('دڵنیایت دەتەوێت ئەم کتێبە و فایلەکەی بسڕیتەوە؟')){btn.disabled=false;return;}
     out=await sb.from('library_books').delete().eq('id',book.id);
-    if(!out.error){const rm=await sb.storage.from('avasin-library').remove([book.file_path]);if(rm.error)msg('زانیاریی کتێب سڕایەوە، بەڵام فایلەکە لە Storage ماوەتەوە: '+rm.error.message);}
+    if(out.error){msg('زانیاریی کتێب نەسڕایەوە: '+out.error.message);btn.disabled=false;return;}
+    await refresh();
+    try{
+     const rm=await sb.storage.from('avasin-library').remove([book.file_path]);
+     if(rm.error)msg('زانیاریی کتێب سڕایەوە، بەڵام فایلەکە لە Storage ماوەتەوە: '+rm.error.message);
+     else msg('زانیاریی کتێب و فایلەکەی بە سەرکەوتوویی سڕانەوە.');
+    }catch(error){
+     console.error('[Avasin library file deletion]',error);
+     msg('زانیاریی کتێب سڕایەوە، بەڵام نەتوانرا دڵنیایی لە سڕینەوەی فایلەکە وەربگیرێت؛ Storage پشکنە.');
+    }
+    return;
    }
    if(out?.error){msg('هەڵە لە بەڕێوەبردنی کتێب: '+out.error.message);btn.disabled=false;return;}
    await refresh();
