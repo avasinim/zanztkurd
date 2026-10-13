@@ -108,7 +108,9 @@ async function renderLibrary(){
   if(!result.data?.length){list.innerHTML='<div class="empty">هێشتا هیچ کتێبێک زیاد نەکراوە.</div>';return;}
   list.innerHTML=result.data.map(b=>'<article class="library-admin-row"><div><strong>'+esc(b.title)+'</strong><p>'+esc(b.author||'نوسەر دیاری نەکراو')+' · '+esc(b.category)+' · '+(b.is_published?'بڵاوکراوەتەوە':'شاراوە')+'<br>'+esc(b.file_name)+' · '+ar(Math.ceil(Number(b.file_size||0)/1024))+' KB</p></div><div class="library-admin-actions"><button data-book-action="edit" data-book-id="'+esc(b.id)+'">دەستکاری</button><button data-book-action="publish" data-book-id="'+esc(b.id)+'" data-published="'+String(b.is_published)+'">'+(b.is_published?'شاراردن':'بڵاوکردنەوە')+'</button><button data-book-action="delete" data-book-id="'+esc(b.id)+'" data-path="'+esc(b.file_path)+'">سڕینەوە</button></div></article>').join('');
   list.querySelectorAll('[data-book-action]').forEach(btn=>btn.onclick=async()=>{
-   btn.disabled=true;const book=result.data.find(x=>x.id===btn.dataset.bookId);if(!book)return;
+   btn.disabled=true;
+   try{
+   const book=result.data.find(x=>x.id===btn.dataset.bookId);if(!book){btn.disabled=false;return;}
    let out;
    if(btn.dataset.bookAction==='publish') out=await sb.from('library_books').update({is_published:book.is_published?false:true,updated_at:new Date().toISOString()}).eq('id',book.id);
    else if(btn.dataset.bookAction==='edit'){
@@ -120,11 +122,20 @@ async function renderLibrary(){
     form.querySelector('[data-edit-cancel]').onclick=()=>refresh();
     form.onsubmit=async event=>{
       event.preventDefault();
-      const save=form.querySelector('[type="submit"]');save.disabled=true;save.textContent='پاشەکەوت دەکرێت...';
+      const save=form.querySelector('[type="submit"]');
       const values=new FormData(form);
-      const result=await sb.from('library_books').update({title:String(values.get('title')||'').trim(),author:String(values.get('author')||'').trim(),category:String(values.get('category')||'گشتی'),description:String(values.get('description')||'').trim(),updated_at:new Date().toISOString()}).eq('id',book.id);
-      if(result.error){msg('گۆڕانکارییەکان پاشەکەوت نەکران: '+result.error.message);save.disabled=false;save.textContent='پاشەکەوتکردنی گۆڕانکارییەکان';return;}
-      msg('زانیاری و پوختەی کتێبەکە بە سەرکەوتوویی نوێ کرایەوە.');await refresh();
+      const title=String(values.get('title')||'').trim();
+      if(!title){msg('ناونیشانی کتێب نابێت بەتاڵ بێت.');return;}
+      save.disabled=true;save.textContent='پاشەکەوت دەکرێت...';
+      try{
+       const result=await sb.from('library_books').update({title,author:String(values.get('author')||'').trim(),category:String(values.get('category')||'گشتی'),description:String(values.get('description')||'').trim(),updated_at:new Date().toISOString()}).eq('id',book.id);
+       if(result.error){msg('گۆڕانکارییەکان پاشەکەوت نەکران: '+result.error.message);save.disabled=false;save.textContent='پاشەکەوتکردنی گۆڕانکارییەکان';return;}
+       msg('زانیاری و پوختەی کتێبەکە بە سەرکەوتوویی نوێ کرایەوە.');await refresh();
+      }catch(error){
+       console.error('[Avasin library edit]',error);
+       msg('لە پاشەکەوتکردنی گۆڕانکارییەکاندا هەڵە ڕوویدا: '+(error?.message||'هەڵەی نەناسراو'));
+       save.disabled=false;save.textContent='پاشەکەوتکردنی گۆڕانکارییەکان';
+      }
     };
     return;
    } else {
@@ -134,6 +145,11 @@ async function renderLibrary(){
    }
    if(out?.error){msg('هەڵە لە بەڕێوەبردنی کتێب: '+out.error.message);btn.disabled=false;return;}
    await refresh();
+   }catch(error){
+    console.error('[Avasin library admin action]',error);
+    msg('لە جێبەجێکردنی کردارەکەدا هەڵەیەکی چاوەڕوان‌نەکراو ڕوویدا: '+(error?.message||'هەڵەی نەناسراو'));
+    btn.disabled=false;
+   }
   });
  };
  $('bookUpload').onclick=async()=>{
