@@ -72,7 +72,7 @@
   if(!result.data?.length){host.innerHTML='<div style="grid-column:1/-1;padding:28px;border:1px dashed #cbd2c9;border-radius:14px;text-align:center;color:#667168">هێشتا کتێبێک بڵاونەکراوەتەوە. کتێبە نوێکان لێرە دەردەکەون.</div>';return;}
   host.innerHTML=result.data.map((book,index)=>{
    const readUrl=client.storage.from('avasin-library').getPublicUrl(book.file_path).data.publicUrl;
-   const downloadUrl=client.storage.from('avasin-library').getPublicUrl(book.file_path,{download:true}).data.publicUrl;
+   const downloadUrl=client.storage.from('avasin-library').getPublicUrl(book.file_path,{download:book.file_name||true}).data.publicUrl;
    const klass=['','book-two','book-three'][index%3];
    return '<article class="v2-book '+klass+'"><div class="academic-book-top"><span class="book-tag">'+escapeHtml(book.category||'گشتی')+'</span><span class="academic-book-index">AVASIN · LIBRARY / '+String(index+1).padStart(2,'0')+'</span></div><div class="academic-book-body"><b class="academic-book-title">'+escapeHtml(book.title)+'</b><small class="academic-book-author">'+escapeHtml(book.author||'نوسەر دیاری نەکراو')+'</small>'+(book.description?'<p class="academic-book-description">'+escapeHtml(book.description)+'</p>':'<p class="academic-book-description academic-book-no-description">پوختەی کتێب لە ئێستادا زیاد نەکراوە.</p>')+'</div><div class="academic-book-actions"><a class="academic-book-read" href="'+escapeHtml(readUrl)+'" target="_blank" rel="noopener noreferrer">خوێندنەوەی کتێب <span aria-hidden="true">↗</span></a><a class="academic-book-download" href="'+escapeHtml(downloadUrl)+'">دابەزاندنی فایل <span aria-hidden="true">↓</span></a></div></article>';
   }).join('');
