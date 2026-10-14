@@ -1490,7 +1490,7 @@ async function markLessonComplete(courseId, lessonKey){
       const panel=document.createElement("details");
       panel.className="avasin-language-mini avasin-global-language";
       panel.id="avasin-global-language";
-      panel.innerHTML='<summary aria-label="گۆڕینی زمانی ماڵپەڕ"><span class="avasin-language-mini-icon" aria-hidden="true">文</span><span class="avasin-language-current">کوردی</span></summary><div class="avasin-language-mini-panel"><div id="google_translate_element" aria-label="هەڵبژاردنی زمانی ماڵپەڕ"></div></div>';
+      panel.innerHTML='<summary aria-label="گۆڕینی زمانی ماڵپەڕ"><span class="avasin-language-mini-icon" aria-hidden="true">◎</span><span class="avasin-language-current">کوردی</span><span class="avasin-language-chevron" aria-hidden="true">⌄</span></summary><div class="avasin-language-mini-panel"><div class="avasin-language-panel-caption">زمانی ماڵپەڕ</div><div id="google_translate_element" aria-label="هەڵبژاردنی زمانی ماڵپەڕ"></div></div>';
       target=panel.querySelector("#google_translate_element");
       document.body.appendChild(panel);
     }
