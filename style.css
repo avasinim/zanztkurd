@@ -2681,8 +2681,7 @@ body.v2-home .v2-header .v2-menu {
   font-size:clamp(10px,1.1vw,15px);font-weight:850;letter-spacing:0;
   max-width:230px;
 }
-.v2-nav-links a[href*="sabir-zhakaw.html"],
-.v2-mobile-menu a[href*="sabir-zhakaw.html"]{display:none!important}
+a[href*="sabir-zhakaw.html"]{display:none!important}
 @media(max-width:700px){
   .v2-brand:not(.academy-brand){gap:7px}
   .v2-brand:not(.academy-brand) .v2-brand-mark{flex-basis:36px;width:36px;height:36px;border-radius:10px}
