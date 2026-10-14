@@ -1,3 +1,54 @@
+/* ===== Avasin Standard — global visible-text spelling ===== */
+(function(){
+  const fixAvasinSpelling = root => {
+    if(!root) return;
+    const walker=document.createTreeWalker(root,NodeFilter.SHOW_TEXT);
+    const nodes=[];
+    while(walker.nextNode()) nodes.push(walker.currentNode);
+    for(const node of nodes){
+      const parent=node.parentElement;
+      if(parent && /^(SCRIPT|STYLE|NOSCRIPT|TEXTAREA)$/i.test(parent.tagName)) continue;
+      if(node.nodeValue && node.nodeValue.includes("ڕێکخراو")){
+        node.nodeValue=node.nodeValue.replace(/ڕێکخراو/g,"ڕێک‌خراو");
+      }
+    }
+    if(root.querySelectorAll){
+      root.querySelectorAll("[title],[aria-label],[placeholder],[alt]").forEach(el=>{
+        for(const attr of ["title","aria-label","placeholder","alt"]){
+          const value=el.getAttribute(attr);
+          if(value && value.includes("ڕێکخراو")) el.setAttribute(attr,value.replace(/ڕێکخراو/g,"ڕێک‌خراو"));
+        }
+      });
+    }
+  };
+  const run=()=>fixAvasinSpelling(document.body);
+  if(document.readyState==="loading") document.addEventListener("DOMContentLoaded",run,{once:true});
+  else run();
+  const observer=new MutationObserver(records=>{
+    for(const record of records){
+      if(record.type==="characterData"){
+        const n=record.target;
+        const p=n.parentElement;
+        if(!(p && /^(SCRIPT|STYLE|NOSCRIPT|TEXTAREA)$/i.test(p.tagName)) && n.nodeValue && n.nodeValue.includes("ڕێکخراو")){
+          n.nodeValue=n.nodeValue.replace(/ڕێکخراو/g,"ڕێک‌خراو");
+        }
+      }else{
+        record.addedNodes.forEach(node=>{
+          if(node.nodeType===Node.TEXT_NODE){
+            const p=node.parentElement;
+            if(!(p && /^(SCRIPT|STYLE|NOSCRIPT|TEXTAREA)$/i.test(p.tagName)) && node.nodeValue && node.nodeValue.includes("ڕێکخراو")){
+              node.nodeValue=node.nodeValue.replace(/ڕێکخراو/g,"ڕێک‌خراو");
+            }
+          }else if(node.nodeType===Node.ELEMENT_NODE) fixAvasinSpelling(node);
+        });
+      }
+    }
+  });
+  const start=()=>{if(document.body) observer.observe(document.body,{subtree:true,childList:true,characterData:true});};
+  if(document.readyState==="loading") document.addEventListener("DOMContentLoaded",start,{once:true});
+  else start();
+})();
+
 /* Ensure the shared academic UI stylesheet is the last stylesheet in the cascade.
    This resolves older page-local CSS overriding the compact design layer. */
 (function(){
