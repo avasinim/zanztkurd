@@ -1,5 +1,6 @@
 /* ===== Avasin Standard — global visible-text wording ===== */
 (function(){
+  const needsAvasinNormalization = value => value.includes("ڕێکخراو") || value.includes("گەڕان بە ناو بابەتەکاندا");
   const normalizeAvasinText = value => value
     .replace(/ڕێکخراو/g,"ڕێک‌خراو")
     .replace(/گەڕان بە ناو بابەتەکاندا/g,"گەڕان بە نێو بابەتەکان‌دا");
@@ -11,7 +12,7 @@
     for(const node of nodes){
       const parent=node.parentElement;
       if(parent && /^(SCRIPT|STYLE|NOSCRIPT|TEXTAREA)$/i.test(parent.tagName)) continue;
-      if(node.nodeValue && node.nodeValue.includes("ڕێکخراو")){
+      if(node.nodeValue && needsAvasinNormalization(node.nodeValue)){
         node.nodeValue=normalizeAvasinText(node.nodeValue);
       }
     }
@@ -19,7 +20,7 @@
       root.querySelectorAll("[title],[aria-label],[placeholder],[alt]").forEach(el=>{
         for(const attr of ["title","aria-label","placeholder","alt"]){
           const value=el.getAttribute(attr);
-          if(value && value.includes("ڕێکخراو")) el.setAttribute(attr,normalizeAvasinText(value));
+          if(value && needsAvasinNormalization(value)) el.setAttribute(attr,normalizeAvasinText(value));
         }
       });
     }
@@ -32,14 +33,14 @@
       if(record.type==="characterData"){
         const n=record.target;
         const p=n.parentElement;
-        if(!(p && /^(SCRIPT|STYLE|NOSCRIPT|TEXTAREA)$/i.test(p.tagName)) && n.nodeValue && n.nodeValue.includes("ڕێکخراو")){
+        if(!(p && /^(SCRIPT|STYLE|NOSCRIPT|TEXTAREA)$/i.test(p.tagName)) && n.nodeValue && needsAvasinNormalization(n.nodeValue)){
           n.nodeValue=normalizeAvasinText(n.nodeValue);
         }
       }else{
         record.addedNodes.forEach(node=>{
           if(node.nodeType===Node.TEXT_NODE){
             const p=node.parentElement;
-            if(!(p && /^(SCRIPT|STYLE|NOSCRIPT|TEXTAREA)$/i.test(p.tagName)) && node.nodeValue && node.nodeValue.includes("ڕێکخراو")){
+            if(!(p && /^(SCRIPT|STYLE|NOSCRIPT|TEXTAREA)$/i.test(p.tagName)) && node.nodeValue && needsAvasinNormalization(node.nodeValue)){
               node.nodeValue=normalizeAvasinText(node.nodeValue);
             }
           }else if(node.nodeType===Node.ELEMENT_NODE) fixAvasinSpelling(node);
