@@ -36,11 +36,23 @@
 @media(max-width:800px){.student-shortcuts{grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}.student-shortcut{min-height:58px;padding:13px 10px;font-size:14px}}
 @media(max-width:420px){.student-shortcuts{grid-template-columns:1fr}.student-shortcut{min-height:52px}}
 
+/* Avasin Standard — return to homepage panel */
+.home-return-panel{display:flex;align-items:center;justify-content:space-between;gap:18px;margin:0 0 22px;padding:20px 24px;border:1px solid #d9dfd7;border-right:4px solid #b38a58;border-radius:15px;background:linear-gradient(110deg,#fffefa,#f0f1e9);box-shadow:0 9px 25px rgba(27,42,35,.045)}
+.home-return-copy h2{margin:0 0 5px;color:#26372f;font-size:18px;line-height:1.7}
+.home-return-copy p{margin:0;color:#68756f;font-size:13px;line-height:1.9}
+.home-return-button{display:inline-flex;align-items:center;justify-content:center;gap:8px;flex:0 0 auto;padding:11px 17px;border:1px solid #29473d;border-radius:10px;background:#29473d;color:#fff;text-decoration:none;font-weight:850;font-size:14px;transition:background .18s ease,transform .18s ease}
+.home-return-button:hover,.home-return-button:focus-visible{background:#3b5949;transform:translateY(-1px);outline:2px solid #b38a58;outline-offset:2px}
+@media(max-width:600px){.home-return-panel{align-items:stretch;flex-direction:column;padding:18px}.home-return-button{width:100%;box-sizing:border-box}}
+
 </style><meta name="robots" content="noindex,nofollow">
 </head>
 <body class="student-shell">
 <header class="student-top"><div class="container"><div class="student-brand">زانستی کورد · پەنێڵی خوێندکار</div><button id="logout" class="logout">چوونەدەرەوە</button></div></header>
 <main class="student-main container">
+<section class="home-return-panel" aria-labelledby="home-return-title">
+  <div class="home-return-copy"><h2 id="home-return-title">گەڕانەوە بۆ پەڕەی سەرەکی</h2><p>بۆ بینینی ناسنامەی ئەکادێمیا و بەشە سەرەکییەکانی ماڵپەڕ، لەم دوگمەیە بەکاربهێنە.</p></div>
+  <a class="home-return-button" href="index.html"><span aria-hidden="true">⌂</span> پەڕەی سەرەکی <span aria-hidden="true">←</span></a>
+</section>
 <nav class="student-shortcuts" aria-label="بەستەرە سەرەکیەکانی ماڵپەڕ">
   <a class="student-shortcut" href="learning.html">فێربون</a>
   <a class="student-shortcut" href="linguistics.html">زمان‌ناسی</a>
