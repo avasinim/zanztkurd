@@ -3027,3 +3027,64 @@ a[href*="sabir-zhakaw.html"]{display:none!important}
     min-height:33px!important;padding:7px 10px!important;font-size:11px!important;
   }
 }
+
+
+/* ===== AVASIN STANDARD · Compact academic interface (2026-10-14) ===== */
+/* Deliberately targets controls and utility panels, not editorial lesson cards. */
+:root{
+  --av-ink:#202824;--av-muted:#68736b;--av-line:rgba(32,40,36,.14);
+  --av-paper:#fffefa;--av-warm:#f4f1e9;--av-gold:#b38a58;--av-green:#667a68;
+}
+button,.button,[class*="-btn"],[class$="Button"],input[type="button"],input[type="submit"]{
+  min-height:32px!important;padding:7px 12px!important;border-radius:8px!important;
+  font-size:12px!important;line-height:1.45!important;font-weight:650!important;
+  box-shadow:none!important;transition:background-color .16s ease,border-color .16s ease,color .16s ease!important;
+}
+button:hover,.button:hover,[class*="-btn"]:hover,[class$="Button"]:hover,
+input[type="button"]:hover,input[type="submit"]:hover{transform:translateY(-1px)}
+/* Compact common interface panels, toolbars, summaries and dashboard modules. */
+.panel,.panel-card,.dashboard-card,.dashboard-panel,.admin-panel,.admin-card,
+.student-panel,.student-card,.settings-panel,.settings-card,.control-panel,
+.action-panel,.status-panel,.summary-panel,.metric-card,.stat-card,
+.toolbar,.action-toolbar,.filter-panel,.search-panel,.form-panel,
+.auth-card,.login-card,.register-card,.profile-card,.account-card,
+.progress-card,.progress-panel,.course-panel,.catalog-toolbar,
+.learning-actions,.dashboard-actions,.admin-actions,.student-actions,
+.card-compact,.ui-panel{
+  padding:clamp(11px,1.5vw,18px)!important;
+  border-radius:12px!important;border-color:var(--av-line)!important;
+  box-shadow:0 3px 12px rgba(32,40,36,.045)!important;
+}
+.panel h2,.panel-card h2,.dashboard-card h2,.dashboard-panel h2,
+.admin-panel h2,.admin-card h2,.student-panel h2,.student-card h2,
+.settings-panel h2,.control-panel h2,.summary-panel h2{
+  font-size:clamp(15px,1.5vw,19px)!important;line-height:1.65!important;
+  margin-block:0 8px!important;
+}
+.panel p,.panel-card p,.dashboard-card p,.dashboard-panel p,
+.admin-panel p,.admin-card p,.student-panel p,.student-card p,
+.settings-panel p,.control-panel p,.summary-panel p{
+  line-height:1.85!important;margin-block:4px 8px!important;
+}
+a.btn,a.button,.btn,.button,.action-btn,.nav-button,.tab-button,
+button.secondary,button.primary,.primary-btn,.ghost-btn,.learn-btn{
+  border-width:1px!important;border-radius:8px!important;
+}
+input:not([type="checkbox"]):not([type="radio"]):not([type="range"]),
+select,textarea{
+  border-radius:8px!important;min-height:34px;font-size:13px;
+}
+hr{border:0;border-top:1px solid var(--av-line)}
+@media(max-width:640px){
+  button,.button,[class*="-btn"],[class$="Button"],input[type="button"],input[type="submit"]{
+    min-height:30px!important;padding:6px 10px!important;font-size:11px!important;
+  }
+  .panel,.panel-card,.dashboard-card,.dashboard-panel,.admin-panel,.admin-card,
+  .student-panel,.student-card,.settings-panel,.settings-card,.control-panel,
+  .action-panel,.status-panel,.summary-panel,.metric-card,.stat-card,
+  .toolbar,.action-toolbar,.filter-panel,.search-panel,.form-panel,
+  .auth-card,.login-card,.register-card,.profile-card,.account-card,
+  .progress-card,.progress-panel,.course-panel,.catalog-toolbar,
+  .learning-actions,.dashboard-actions,.admin-actions,.student-actions,
+  .card-compact,.ui-panel{padding:10px!important;border-radius:10px!important}
+}
