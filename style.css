@@ -2707,38 +2707,39 @@ a[href*="sabir-zhakaw.html"]{display:none!important}
 @media(max-width:620px){.avasin-global-language{padding:10px 14px}.avasin-global-language-inner{gap:9px;flex-wrap:wrap}.avasin-global-language-copy{flex:1;min-width:110px}.avasin-global-language-mark{font-size:8px;padding:6px}.avasin-global-language #google_translate_element{width:100%;margin-inline-start:0}.avasin-global-language #google_translate_element .goog-te-combo{width:100%;min-width:0}}
 
 
-/* Avasin compact academic language control */
+/* Avasin minimal language switcher */
 .avasin-language-mini{
-  position:fixed!important;top:10px!important;left:10px!important;right:auto!important;
-  z-index:100000!important;direction:rtl;font-family:inherit;color:#29352d;
+  position:fixed!important;top:12px!important;left:12px!important;right:auto!important;
+  z-index:100000!important;direction:rtl;font-family:inherit;color:#3b463e;
 }
 .avasin-language-mini>summary{
-  list-style:none;display:flex;align-items:center;justify-content:center;gap:6px;
-  min-width:68px;height:32px;padding:0 10px;border:1px solid #c9ad7f;border-radius:7px;
-  background:rgba(250,248,242,.97);box-shadow:0 3px 12px rgba(30,40,32,.09);
-  color:#344239;font-size:11px;font-weight:700;cursor:pointer;user-select:none;
+  list-style:none;display:flex;align-items:center;justify-content:center;gap:5px;
+  min-height:25px;padding:2px 3px;border:0!important;border-radius:0!important;
+  background:transparent!important;box-shadow:none!important;color:inherit;
+  font-size:10px;font-weight:600;cursor:pointer;user-select:none;opacity:.86;
 }
+.avasin-language-mini>summary:hover,.avasin-language-mini[open]>summary{opacity:1}
 .avasin-language-mini>summary::-webkit-details-marker{display:none}
 .avasin-language-mini>summary::marker{content:""}
-.avasin-language-mini-icon{font-size:14px;line-height:1;color:#8a693c}
-.avasin-language-mini[open]>summary{border-color:#9c835c;background:#fff}
+.avasin-language-mini-icon{font-size:13px;line-height:1;color:#8a744f}
+.avasin-language-current{white-space:nowrap;max-width:72px;overflow:hidden;text-overflow:ellipsis}
 .avasin-language-mini-panel{
-  position:absolute;top:39px;left:0;width:250px;max-width:calc(100vw - 24px);
-  padding:13px;border:1px solid #d9d2c3;border-radius:9px;background:#fbfaf6;
-  box-shadow:0 10px 30px rgba(27,36,29,.16);display:flex;flex-direction:column;gap:7px;
+  position:absolute;top:30px;left:0;width:190px;max-width:calc(100vw - 24px);
+  padding:8px;border:1px solid #e4dfd3;border-radius:5px;background:#fbfaf6;
+  box-shadow:0 5px 16px rgba(27,36,29,.09);display:flex;flex-direction:column;gap:0;
 }
-.avasin-language-mini-panel>strong{font-size:12px;font-weight:750;color:#29352d}
-.avasin-language-mini-note{font-size:10px;line-height:1.6;color:#667168}
-.avasin-language-mini #google_translate_element{min-width:0;width:100%;margin:2px 0 0}
-.avasin-language-mini #google_translate_element .goog-te-gadget{font-family:inherit!important;font-size:11px!important;color:#59645b!important}
+.avasin-language-mini #google_translate_element{min-height:0;min-width:0;width:100%;margin:0}
+.avasin-language-mini #google_translate_element .goog-te-gadget{
+  font-family:inherit!important;font-size:0!important;color:transparent!important
+}
 .avasin-language-mini #google_translate_element .goog-te-combo{
-  display:block;width:100%;min-width:0;max-width:100%;min-height:34px;margin:0!important;
-  padding:5px 8px;border:1px solid #c9cfc6;border-radius:6px;background:#fff;
-  color:#26352c;font:500 12px Arial,sans-serif;
+  display:block;width:100%;min-width:0;max-width:100%;min-height:30px;margin:0!important;
+  padding:4px 7px;border:1px solid #ddd8cb;border-radius:3px;background:#fff;
+  color:#354238;font:500 11px Arial,sans-serif;
 }
-.avasin-language-mini #google_translate_element .goog-te-gadget span{font-size:9px!important}
+.avasin-language-mini #google_translate_element .goog-te-gadget span{display:none!important}
 @media(max-width:620px){
   .avasin-language-mini{top:8px!important;left:8px!important}
-  .avasin-language-mini>summary{height:30px;min-width:62px;padding:0 8px;font-size:10px}
-  .avasin-language-mini-panel{top:36px;width:230px;padding:11px}
+  .avasin-language-mini>summary{min-height:24px;font-size:10px}
+  .avasin-language-mini-panel{top:28px;width:175px;padding:7px}
 }
