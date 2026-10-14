@@ -1479,3 +1479,44 @@ async function markLessonComplete(courseId, lessonKey){
   if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', labelAcademicLinks, {once:true});
   else labelAcademicLinks();
 })();
+
+
+/* Avasin multilingual language selector — shared across pages using script.js */
+(function(){
+  "use strict";
+  function setupAvasinLanguageSelector(){
+    let target=document.getElementById("google_translate_element");
+    if(!target){
+      const section=document.createElement("section");
+      section.className="avasin-global-language";
+      section.id="avasin-global-language";
+      section.setAttribute("aria-label","Website language");
+      section.innerHTML='<div class="avasin-global-language-inner"><span class="avasin-global-language-mark" aria-hidden="true">A / LANG</span><div class="avasin-global-language-copy"><strong>زمانی ماڵپەڕەکە</strong><span>زمانی دڵخوازت هەڵ‌بژێرە</span></div><div id="google_translate_element" aria-label="هەڵبژاردنی زمانی ماڵپەڕ"></div></div>';
+      target=section.querySelector("#google_translate_element");
+      const header=document.querySelector("header, .v2-header, .site-header");
+      if(header&&header.parentNode)header.insertAdjacentElement("afterend",section);
+      else{
+        const main=document.querySelector("main");
+        if(main&&main.parentNode)main.parentNode.insertBefore(section,main);
+        else document.body.insertBefore(section,document.body.firstChild);
+      }
+    }
+    window.googleTranslateElementInit=function(){
+      if(!window.google?.translate?.TranslateElement||!document.getElementById("google_translate_element"))return;
+      if(document.getElementById("google_translate_element").dataset.initialized==="true")return;
+      new window.google.translate.TranslateElement({pageLanguage:"ku",autoDisplay:false},"google_translate_element");
+      document.getElementById("google_translate_element").dataset.initialized="true";
+    };
+    if(!document.querySelector("script[data-avasin-google-translate]")){
+      const loader=document.createElement("script");
+      loader.src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit";
+      loader.async=true;
+      loader.dataset.avasinGoogleTranslate="true";
+      document.head.appendChild(loader);
+    }else if(window.google?.translate?.TranslateElement){
+      window.googleTranslateElementInit();
+    }
+  }
+  if(document.readyState==="loading")document.addEventListener("DOMContentLoaded",setupAvasinLanguageSelector,{once:true});
+  else setupAvasinLanguageSelector();
+})();
