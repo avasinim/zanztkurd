@@ -73,6 +73,22 @@
     <p class="linguistics-book-note">دەقی دەرهێنراو لە کتێبی ڕەسەن · دیزاینی ئەکادێمیکی ئاڤاشین</p>
   </div>
   <p class="linguistics-transcription-note">تێبینیی پشکنین: دەقەکە لە دەرهێنانی ئۆتۆماتیکی PDF وەرگیراوە. بۆ پاراستنی ڕێنووسی ڕەسەن، وشەکان بە ئۆتۆماتیک ڕێکنەخراون؛ پێویستە پێش وەشانی کۆتایی لەگەڵ کتێبەکە بەراورد بکرێن.</p>
+  <nav class="linguistics-book-page-nav" aria-label="گەڕان بۆ لاپەڕەکان">
+    <h3>چوون بۆ لاپەڕە</h3>
+    <div class="linguistics-book-page-links">
+      <a href="#linguistics-book-page-45">٤٥</a>
+      <a href="#linguistics-book-page-46">٤٦</a>
+      <a href="#linguistics-book-page-47">٤٧</a>
+      <a href="#linguistics-book-page-48">٤٨</a>
+      <a href="#linguistics-book-page-49">٤٩</a>
+      <a href="#linguistics-book-page-50">٥٠</a>
+      <a href="#linguistics-book-page-51">٥١</a>
+      <a href="#linguistics-book-page-52">٥٢</a>
+      <a href="#linguistics-book-page-53">٥٣</a>
+      <a href="#linguistics-book-page-54">٥٤</a>
+      <a href="#linguistics-book-page-55">٥٥</a>
+    </div>
+  </nav>
   <article class="linguistics-book-page" aria-labelledby="linguistics-book-page-45">
     <h3 id="linguistics-book-page-45">لاپەڕەی ٤٥</h3>
     <p>● بەشی ٥ </p>
@@ -356,7 +372,12 @@
 .linguistics-book-intro p{line-height:1.9;margin:.35rem 0;color:#586158}
 .linguistics-book-note{display:inline-block;margin-top:12px!important;padding:7px 14px;border-radius:999px;background:#e9e4d8}
 .linguistics-transcription-note{padding:12px 16px;background:#f8f4eb;border-right:3px solid #a88a5e;border-radius:8px;line-height:1.9}
-.linguistics-book-page{padding:clamp(18px,3vw,30px);margin:18px 0;background:#fff;border:1px solid #e3dfd5;border-radius:14px;box-shadow:0 5px 20px rgba(32,37,34,.045)}
+.linguistics-book-page-nav{margin:18px 0 24px;padding:16px;background:#fbfaf6;border:1px solid #e3dfd5;border-radius:12px}
+.linguistics-book-page-nav h3{margin:0 0 12px;font-size:1rem;color:#51432f}
+.linguistics-book-page-links{display:flex;flex-wrap:wrap;gap:8px}
+.linguistics-book-page-links a{display:inline-flex;align-items:center;justify-content:center;min-width:42px;padding:8px 12px;border:1px solid #d9cfbd;border-radius:8px;color:#51432f;background:#fff;text-decoration:none}
+.linguistics-book-page-links a:hover,.linguistics-book-page-links a:focus-visible{background:#eee7d8;outline:2px solid #a88a5e;outline-offset:2px}
+.linguistics-book-page{scroll-margin-top:24px;padding:clamp(18px,3vw,30px);margin:18px 0;background:#fff;border:1px solid #e3dfd5;border-radius:14px;box-shadow:0 5px 20px rgba(32,37,34,.045)}
 .linguistics-book-page h3{margin:0 0 18px;padding:0 14px 10px 0;border-right:3px solid #a88a5e;border-bottom:1px solid #eee8dd;font-size:1.18rem;color:#51432f}
 .linguistics-book-page p{margin:.45rem 0;line-height:2.05;font-size:1.02rem;text-align:justify;overflow-wrap:anywhere;white-space:pre-wrap}
 @media(max-width:600px){.linguistics-book-text{padding:12px}.linguistics-book-page{padding:16px 13px;border-radius:10px}.linguistics-book-page p{font-size:1rem;line-height:2}}
