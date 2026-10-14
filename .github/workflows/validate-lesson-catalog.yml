@@ -1,0 +1,34 @@
+name: Validate academic lesson catalog
+
+on:
+  push:
+    branches: ["main"]
+    paths:
+      - "lessons/**"
+      - "scripts/validate_lesson_catalog.py"
+      - ".github/workflows/validate-lesson-catalog.yml"
+  pull_request:
+    branches: ["main"]
+    paths:
+      - "lessons/**"
+      - "scripts/validate_lesson_catalog.py"
+      - ".github/workflows/validate-lesson-catalog.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  catalog-integrity:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+
+      - name: Validate every lesson and catalog reference
+        run: python scripts/validate_lesson_catalog.py
