@@ -1,5 +1,8 @@
-/* ===== Avasin Standard — global visible-text spelling ===== */
+/* ===== Avasin Standard — global visible-text wording ===== */
 (function(){
+  const normalizeAvasinText = value => value
+    .replace(/ڕێکخراو/g,"ڕێک‌خراو")
+    .replace(/گەڕان بە ناو بابەتەکاندا/g,"گەڕان بە نێو بابەتەکان‌دا");
   const fixAvasinSpelling = root => {
     if(!root) return;
     const walker=document.createTreeWalker(root,NodeFilter.SHOW_TEXT);
@@ -9,14 +12,14 @@
       const parent=node.parentElement;
       if(parent && /^(SCRIPT|STYLE|NOSCRIPT|TEXTAREA)$/i.test(parent.tagName)) continue;
       if(node.nodeValue && node.nodeValue.includes("ڕێکخراو")){
-        node.nodeValue=node.nodeValue.replace(/ڕێکخراو/g,"ڕێک‌خراو");
+        node.nodeValue=normalizeAvasinText(node.nodeValue);
       }
     }
     if(root.querySelectorAll){
       root.querySelectorAll("[title],[aria-label],[placeholder],[alt]").forEach(el=>{
         for(const attr of ["title","aria-label","placeholder","alt"]){
           const value=el.getAttribute(attr);
-          if(value && value.includes("ڕێکخراو")) el.setAttribute(attr,value.replace(/ڕێکخراو/g,"ڕێک‌خراو"));
+          if(value && value.includes("ڕێکخراو")) el.setAttribute(attr,normalizeAvasinText(value));
         }
       });
     }
@@ -30,14 +33,14 @@
         const n=record.target;
         const p=n.parentElement;
         if(!(p && /^(SCRIPT|STYLE|NOSCRIPT|TEXTAREA)$/i.test(p.tagName)) && n.nodeValue && n.nodeValue.includes("ڕێکخراو")){
-          n.nodeValue=n.nodeValue.replace(/ڕێکخراو/g,"ڕێک‌خراو");
+          n.nodeValue=normalizeAvasinText(n.nodeValue);
         }
       }else{
         record.addedNodes.forEach(node=>{
           if(node.nodeType===Node.TEXT_NODE){
             const p=node.parentElement;
             if(!(p && /^(SCRIPT|STYLE|NOSCRIPT|TEXTAREA)$/i.test(p.tagName)) && node.nodeValue && node.nodeValue.includes("ڕێکخراو")){
-              node.nodeValue=node.nodeValue.replace(/ڕێکخراو/g,"ڕێک‌خراو");
+              node.nodeValue=normalizeAvasinText(node.nodeValue);
             }
           }else if(node.nodeType===Node.ELEMENT_NODE) fixAvasinSpelling(node);
         });
