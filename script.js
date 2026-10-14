@@ -1481,31 +1481,24 @@ async function markLessonComplete(courseId, lessonKey){
 })();
 
 
-/* Avasin multilingual language selector — shared across pages using script.js */
+/* Avasin compact academic language switcher */
 (function(){
   "use strict";
   function setupAvasinLanguageSelector(){
     let target=document.getElementById("google_translate_element");
     if(!target){
-      const section=document.createElement("section");
-      section.className="avasin-global-language";
-      section.id="avasin-global-language";
-      section.setAttribute("aria-label","Website language");
-      section.innerHTML='<div class="avasin-global-language-inner"><span class="avasin-global-language-mark" aria-hidden="true">A / LANG</span><div class="avasin-global-language-copy"><strong>زمانی ماڵپەڕەکە</strong><span>زمانی دڵخوازت هەڵ‌بژێرە</span></div><div id="google_translate_element" aria-label="هەڵبژاردنی زمانی ماڵپەڕ"></div></div>';
-      target=section.querySelector("#google_translate_element");
-      const header=document.querySelector("header, .v2-header, .site-header");
-      if(header&&header.parentNode)header.insertAdjacentElement("afterend",section);
-      else{
-        const main=document.querySelector("main");
-        if(main&&main.parentNode)main.parentNode.insertBefore(section,main);
-        else document.body.insertBefore(section,document.body.firstChild);
-      }
+      const panel=document.createElement("details");
+      panel.className="avasin-language-mini avasin-global-language";
+      panel.id="avasin-global-language";
+      panel.innerHTML='<summary aria-label="گۆڕینی زمانی ماڵپەڕ"><span class="avasin-language-mini-icon" aria-hidden="true">文</span><span>زمان</span></summary><div class="avasin-language-mini-panel"><strong>زمانی ماڵپەڕەکە</strong><span class="avasin-language-mini-note">زمانی دڵخوازت هەڵ‌بژێرە</span><div id="google_translate_element" aria-label="هەڵبژاردنی زمانی ماڵپەڕ"></div></div>';
+      target=panel.querySelector("#google_translate_element");
+      document.body.appendChild(panel);
     }
     window.googleTranslateElementInit=function(){
-      if(!window.google?.translate?.TranslateElement||!document.getElementById("google_translate_element"))return;
-      if(document.getElementById("google_translate_element").dataset.initialized==="true")return;
-      new window.google.translate.TranslateElement({pageLanguage:"ku",autoDisplay:false},"google_translate_element");
-      document.getElementById("google_translate_element").dataset.initialized="true";
+      const node=document.getElementById("google_translate_element");
+      if(!window.google?.translate?.TranslateElement||!node||node.dataset.initialized==="true")return;
+      new window.google.translate.TranslateElement({pageLanguage:"ku",autoDisplay:false, layout:window.google.translate.TranslateElement.InlineLayout.SIMPLE},"google_translate_element");
+      node.dataset.initialized="true";
     };
     if(!document.querySelector("script[data-avasin-google-translate]")){
       const loader=document.createElement("script");
@@ -1513,9 +1506,7 @@ async function markLessonComplete(courseId, lessonKey){
       loader.async=true;
       loader.dataset.avasinGoogleTranslate="true";
       document.head.appendChild(loader);
-    }else if(window.google?.translate?.TranslateElement){
-      window.googleTranslateElementInit();
-    }
+    }else if(window.google?.translate?.TranslateElement)window.googleTranslateElementInit();
   }
   if(document.readyState==="loading")document.addEventListener("DOMContentLoaded",setupAvasinLanguageSelector,{once:true});
   else setupAvasinLanguageSelector();
