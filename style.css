@@ -2891,3 +2891,45 @@ a[href*="sabir-zhakaw.html"]{display:none!important}
     padding:13px;
   }
 }
+
+
+/* Specificity-safe compact sizing: these rules intentionally override legacy page styles. */
+:is(.primary-btn,.ghost-btn,.text-btn,.learn-btn,.catalog-btn,.v2-btn,.v2-nav-cta,
+    .site-feedback-submit,.course1-complete-btn,.lesson-nav a,.lesson-nav span,
+    .course2-lesson-heading,.course2-lesson-number){
+  min-height:35px!important;
+  padding:8px 12px!important;
+  font-size:12px!important;
+  border-radius:9px!important;
+}
+:is(.v2-feature-card,.academic-person,.site-feedback-panel,.site-feedback-summary,
+    .site-feedback-form,.site-feedback-average,.calendar-shell,.avasin-calendar-detail,
+    .avasin-calendar-toolbar,.v2-author,.v2-search-box,.platform-section-card,
+    .catalog-card,.course-completion-card,.course2-lesson,.course1-gate,
+    .auth-card,.dashboard-card,.dashboard-panel,.admin-panel,.library-card,
+    .feedback-card,.review,.lesson-card,.book-card){
+  padding:clamp(13px,1.65vw,19px)!important;
+  border-radius:13px!important;
+}
+:is(.site-feedback-panel,.site-feedback-summary,.site-feedback-form,
+    .site-feedback-average,.calendar-shell,.avasin-calendar-detail,
+    .avasin-calendar-toolbar,.v2-search-box,.catalog-tools){
+  border:1px solid var(--av-ui-line)!important;
+  box-shadow:var(--av-ui-shadow)!important;
+}
+@media(max-width:700px){
+  :is(.primary-btn,.ghost-btn,.text-btn,.learn-btn,.catalog-btn,.v2-btn,
+      .v2-nav-cta,.site-feedback-submit,.course1-complete-btn,.lesson-nav a,.lesson-nav span){
+    min-height:33px!important;
+    padding:7px 10px!important;
+    font-size:11px!important;
+  }
+  :is(.v2-feature-card,.academic-person,.site-feedback-panel,.site-feedback-summary,
+      .site-feedback-form,.site-feedback-average,.calendar-shell,.avasin-calendar-detail,
+      .avasin-calendar-toolbar,.v2-author,.v2-search-box,.platform-section-card,
+      .catalog-card,.course-completion-card,.course2-lesson,.course1-gate,
+      .auth-card,.dashboard-card,.dashboard-panel,.admin-panel,.library-card,
+      .feedback-card,.review,.lesson-card,.book-card){
+    padding:12px!important;
+  }
+}
