@@ -2933,3 +2933,97 @@ a[href*="sabir-zhakaw.html"]{display:none!important}
     padding:12px!important;
   }
 }
+
+
+/* AVASIN ACADEMIC UI — definitive overrides for page-local legacy CSS */
+:root{
+  --av-ui-ink:#202a28!important;
+  --av-ui-muted:#687571!important;
+  --av-ui-line:rgba(39,67,59,.16)!important;
+  --av-ui-paper:#fffefa!important;
+  --av-ui-soft:#f2f3ee!important;
+  --av-ui-accent:#7b3449!important;
+  --av-ui-accent-soft:#f5eaf0!important;
+}
+/* Primary site panels */
+:is(.student-dashboard-panel,.auth-box,.auth-aside,.auth-form,.auth-tabs,
+    .card,.course-card,.enroll-panel,.course2-lesson article,.course2-lesson-hero,
+    .content-page-card,.content-page-hero,.catalog-tools,.catalog-card,
+    .course-masthead,.course2 .card,.course-completion-card,.site-feedback-panel,
+    .site-feedback-summary,.site-feedback-form,.academic-person,.v2-feature-card,
+    .platform-section-card,.book-card,.review,.dashboard-panel,.admin-panel,
+    .library-card,.lesson-title-frame .lesson-name,.avasin-calendar-detail){
+  border-radius:12px!important;
+  box-shadow:0 7px 22px rgba(27,43,38,.055)!important;
+}
+:is(.student-dashboard-panel,.auth-form,.card,.course-card,.enroll-panel,
+    .course2-lesson article,.content-page-card,.catalog-tools,.catalog-card,
+    .course2 .card,.course-completion-card,.site-feedback-panel,
+    .site-feedback-summary,.site-feedback-form,.academic-person,.v2-feature-card,
+    .platform-section-card,.book-card,.review,.dashboard-panel,.admin-panel,
+    .library-card,.avasin-calendar-detail){
+  border:1px solid rgba(39,67,59,.15)!important;
+}
+/* Compact rather than oversized content cards */
+.student-dashboard-panel{padding:clamp(16px,2vw,23px)!important;border-radius:14px!important}
+.auth-box{width:min(900px,100%)!important;border-radius:15px!important;box-shadow:0 12px 38px rgba(25,48,40,.085)!important}
+.auth-aside{padding:clamp(23px,3vw,34px)!important}
+.auth-form{padding:clamp(20px,3vw,32px)!important}
+.course2-lesson{padding:30px 0 54px!important}
+.course2-lesson article{padding:clamp(18px,2.5vw,30px)!important}
+.content-page-card{padding:clamp(16px,2vw,24px)!important}
+.lesson-catalog{padding:34px 0 58px!important}
+.catalog-tools{padding:14px!important;gap:12px!important}
+.catalog-card{padding:15px!important}
+.course2{padding:42px 0 60px!important}
+.course-masthead{padding:clamp(17px,2vw,25px)!important}
+.lesson-title-frame{gap:10px!important;margin-bottom:12px!important}
+.lesson-title-frame .lesson-no{min-width:52px!important;height:30px!important;border-radius:7px!important}
+.lesson-title-frame .lesson-name{padding:7px 11px!important;border-radius:8px!important}
+/* Consistent compact buttons, including controls defined inside page-local styles */
+:is(button,a.primary-btn,a.ghost-btn,a.text-btn,a.learn-btn,a.catalog-btn,
+    .v2-btn,.v2-nav-cta,.student-dashboard-button,.auth-submit,
+    .logout,.lesson-btn,.lesson-nav a,.course-actions a,.course-actions button,
+    .catalog-head-actions a,.site-feedback-submit,.v2-account-actions a){
+  min-height:34px!important;
+  padding:7px 12px!important;
+  border-radius:8px!important;
+  font-size:12px!important;
+  line-height:1.4!important;
+  box-shadow:none!important;
+}
+:is(button,a.primary-btn,a.ghost-btn,a.text-btn,a.learn-btn,a.catalog-btn,
+    .v2-btn,.v2-nav-cta,.student-dashboard-button,.auth-submit,
+    .logout,.lesson-btn,.lesson-nav a,.course-actions a,.course-actions button,
+    .catalog-head-actions a,.site-feedback-submit,.v2-account-actions a){
+  transition:background-color .16s ease,border-color .16s ease,color .16s ease,transform .16s ease!important;
+}
+:is(button,a.primary-btn,a.ghost-btn,a.learn-btn,a.catalog-btn,.v2-btn,
+    .student-dashboard-button,.auth-submit,.lesson-btn,.lesson-nav a):hover{
+  transform:translateY(-1px)!important;
+}
+/* Form fields use the same precise visual language */
+:is(.auth-form input,.auth-form select,.auth-form textarea,
+    .catalog-tools input,.catalog-tools select,.site-feedback-form input,
+    .site-feedback-form textarea,.student-dashboard-panel input,
+    .student-dashboard-panel select){
+  min-height:36px!important;
+  border-radius:8px!important;
+  border-color:rgba(39,67,59,.2)!important;
+  font-size:13px!important;
+}
+@media(max-width:700px){
+  .student-dashboard-panel{padding:14px!important}
+  .auth-box{display:flex!important;flex-direction:column!important}
+  .auth-aside,.auth-form{padding:18px!important}
+  .course2-lesson{padding:20px 0 38px!important}
+  .course2-lesson article{padding:15px!important}
+  .lesson-catalog{padding:24px 0 38px!important}
+  .catalog-tools{padding:11px!important}
+  :is(button,a.primary-btn,a.ghost-btn,a.text-btn,a.learn-btn,a.catalog-btn,
+      .v2-btn,.v2-nav-cta,.student-dashboard-button,.auth-submit,.logout,
+      .lesson-btn,.lesson-nav a,.course-actions a,.course-actions button,
+      .site-feedback-submit){
+    min-height:33px!important;padding:7px 10px!important;font-size:11px!important;
+  }
+}
