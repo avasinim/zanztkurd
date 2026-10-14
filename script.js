@@ -1481,7 +1481,7 @@ async function markLessonComplete(courseId, lessonKey){
 })();
 
 
-/* Avasin compact academic language switcher */
+/* Avasin minimal language switcher */
 (function(){
   "use strict";
   function setupAvasinLanguageSelector(){
@@ -1490,15 +1490,39 @@ async function markLessonComplete(courseId, lessonKey){
       const panel=document.createElement("details");
       panel.className="avasin-language-mini avasin-global-language";
       panel.id="avasin-global-language";
-      panel.innerHTML='<summary aria-label="گۆڕینی زمانی ماڵپەڕ"><span class="avasin-language-mini-icon" aria-hidden="true">文</span><span>زمان</span></summary><div class="avasin-language-mini-panel"><strong>زمانی ماڵپەڕەکە</strong><span class="avasin-language-mini-note">زمانی دڵخوازت هەڵ‌بژێرە</span><div id="google_translate_element" aria-label="هەڵبژاردنی زمانی ماڵپەڕ"></div></div>';
+      panel.innerHTML='<summary aria-label="گۆڕینی زمانی ماڵپەڕ"><span class="avasin-language-mini-icon" aria-hidden="true">文</span><span class="avasin-language-current">کوردی</span></summary><div class="avasin-language-mini-panel"><div id="google_translate_element" aria-label="هەڵبژاردنی زمانی ماڵپەڕ"></div></div>';
       target=panel.querySelector("#google_translate_element");
       document.body.appendChild(panel);
     }
+    const updateCurrentLanguage=()=>{
+      const select=document.querySelector("#google_translate_element select.goog-te-combo");
+      const label=document.querySelector(".avasin-language-current");
+      if(!select||!label)return;
+      const selected=select.options[select.selectedIndex];
+      const value=selected?selected.textContent.trim():"";
+      if(!select.value||!value||/select language|choose language/i.test(value)){
+        label.textContent="کوردی";
+        label.setAttribute("aria-label","زمانی ئێستا: کوردی");
+      }else{
+        label.textContent=value;
+        label.setAttribute("aria-label","زمانی ئێستا: "+value);
+      }
+    };
+    const observeSelector=()=>{
+      const select=document.querySelector("#google_translate_element select.goog-te-combo");
+      if(!select)return false;
+      select.addEventListener("change",()=>window.setTimeout(updateCurrentLanguage,0));
+      updateCurrentLanguage();
+      return true;
+    };
     window.googleTranslateElementInit=function(){
       const node=document.getElementById("google_translate_element");
       if(!window.google?.translate?.TranslateElement||!node||node.dataset.initialized==="true")return;
-      new window.google.translate.TranslateElement({pageLanguage:"ku",autoDisplay:false, layout:window.google.translate.TranslateElement.InlineLayout.SIMPLE},"google_translate_element");
+      new window.google.translate.TranslateElement({pageLanguage:"ku",autoDisplay:false,layout:window.google.translate.TranslateElement.InlineLayout.SIMPLE},"google_translate_element");
       node.dataset.initialized="true";
+      const observer=new MutationObserver(()=>{if(observeSelector())observer.disconnect();});
+      observer.observe(node,{childList:true,subtree:true});
+      observeSelector();
     };
     if(!document.querySelector("script[data-avasin-google-translate]")){
       const loader=document.createElement("script");
