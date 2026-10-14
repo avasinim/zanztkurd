@@ -2750,3 +2750,17 @@ a[href*="sabir-zhakaw.html"]{display:none!important}
   .avasin-language-mini>summary{min-height:28px;padding:0 8px;font-size:10px}
   .avasin-language-mini-panel{top:34px;width:185px;padding:9px}
 }
+
+/* Fix legacy global-language styles leaking into the compact floating switcher */
+.avasin-global-language.avasin-language-mini{
+  position:fixed!important;top:13px!important;left:13px!important;right:auto!important;
+  width:auto!important;max-width:none!important;margin:0!important;padding:0!important;
+  border:0!important;border-radius:0!important;background:transparent!important;
+  box-shadow:none!important;z-index:100000!important;
+}
+@media(max-width:620px){
+  .avasin-global-language.avasin-language-mini{
+    top:9px!important;left:9px!important;right:auto!important;
+    width:auto!important;margin:0!important;padding:0!important;
+  }
+}
