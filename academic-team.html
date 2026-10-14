@@ -45,6 +45,7 @@ body{margin:0;background:var(--team-paper);color:#27352c;font-family:"Noto Sans 
 .team-principle p{margin:0;color:#657067;font-size:12px;line-height:1.9}
 .team-note{border-right:3px solid var(--team-gold);padding:16px 18px;background:#f7f3e9;color:#5b5a4d;line-height:2;font-size:13px;margin-top:22px}
 .team-editor{display:grid;grid-template-columns:minmax(0,1fr) auto;align-items:center;gap:18px;padding:22px 24px;margin:0 0 22px;border:1px solid #d8c49e;border-right:5px solid #9b7848;background:linear-gradient(115deg,#fbf8f0,#f0eee4)}
+.team-editor-profile{display:flex;align-items:center;gap:18px}.team-editor-photo{flex:0 0 116px;width:116px;height:140px;object-fit:cover;object-position:center;border:1px solid #d8c49e;border-radius:8px;background:#e8e5dc;box-shadow:0 5px 16px rgba(32,40,36,.12)}
 .team-editor-label{font-size:11px;font-weight:800;letter-spacing:.04em;color:#8a6b3f}
 .team-editor-name{margin:5px 0 8px;font-family:"Noto Naskh Arabic",serif;font-size:clamp(1.35rem,3vw,2rem);font-weight:800;line-height:1.5;color:#26332b}
 .team-editor-roles{margin:0;color:#5c665e;font-size:13px;line-height:2}
@@ -61,7 +62,7 @@ body{margin:0;background:var(--team-paper);color:#27352c;font-family:"Noto Sans 
 .team-editor-contact.telegram .team-editor-contact-icon{background:#e4f1f8;color:#229ed9}
 .team-editor-contact.instagram .team-editor-contact-icon{background:#f7e8f0;color:#b33b72}
 .team-editor-contact.facebook .team-editor-contact-icon{background:#e8edf9;color:#315ca8}
-@media(max-width:650px){.team-editor{grid-template-columns:1fr;padding:18px}.team-editor-rank{justify-self:start;white-space:normal}.team-editor-contacts{grid-template-columns:1fr}.team-editor-contact{padding:10px 12px}}
+@media(max-width:650px){.team-editor{grid-template-columns:1fr;padding:18px}.team-editor-profile{align-items:flex-start;gap:13px}.team-editor-photo{flex-basis:88px;width:88px;height:112px}.team-editor-rank{justify-self:start;white-space:normal}.team-editor-contacts{grid-template-columns:1fr}.team-editor-contact{padding:10px 12px}}
 .team-footer{padding:24px 20px;background:#e8e8df;border-top:1px solid #d8d9ce;text-align:center;color:#6a7169;font-size:12px;line-height:2}
 .team-footer a{color:#34473a;text-decoration:none;border-bottom:1px solid #aab4a6}
 @media(max-width:650px){.team-topbar-inner{width:calc(100% - 28px);min-height:68px}.team-brand-sub{font-size:7px;letter-spacing:1px}.team-back{padding:9px 10px;font-size:12px}.team-hero:before{font-size:8px;letter-spacing:1px}.team-principles{grid-template-columns:1fr}.team-principle{padding:15px}.team-content{width:calc(100% - 28px)}.team-panel{padding:22px 18px}}
@@ -96,9 +97,14 @@ body{margin:0;background:var(--team-paper);color:#27352c;font-family:"Noto Sans 
       <div class="team-panel-heading"><span class="team-index">02</span><div><h2 id="team-roles">جیاوازی دەور و بەرپرسیارییەکان</h2><p>دو چوارچێوەی جیاواز بۆ ئەمەی ئەرکەکان تێکەڵ نەبن.</p></div></div>
       <div class="team-editor" aria-label="سەرنوسەری پلاتفۆرم">
         <div>
-          <div class="team-editor-label">سەرنوسەری ئەکادێمی</div>
-          <div class="team-editor-name">سابیر ژاکاو</div>
-          <p class="team-editor-roles">نوسەر · ڕەخنەگر · زمان‌ناس</p>
+          <div class="team-editor-profile">
+            <img class="team-editor-photo" src="https://raw.githubusercontent.com/avasinim/zanztkurd/main/%D8%B3.jpg" alt="وێنەی سابیر ژاکاو" loading="lazy" decoding="async">
+            <div>
+              <div class="team-editor-label">سەرنوسەری ئەکادێمی</div>
+              <div class="team-editor-name">سابیر ژاکاو</div>
+              <p class="team-editor-roles">نوسەر · ڕەخنەگر · زمان‌ناس</p>
+            </div>
+          </div>
           <div class="team-editor-contacts" aria-label="بەستەرەکانی پەیوەندی بە سابیر ژاکاو">
             <a class="team-editor-contact email" href="mailto:jakawsabir@gmail.com" aria-label="ئیمەیڵ: jakawsabir@gmail.com">
               <span class="team-editor-contact-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m4 7 8 6 8-6"/></svg></span>
