@@ -105,6 +105,22 @@
 @media(max-width:420px){.avasin-calendar-main{padding:12px 9px}.avasin-calendar-weekdays,.avasin-calendar-grid{gap:3px}.avasin-calendar-weekdays span{font-size:.68rem}.avasin-calendar-day{min-height:52px;border-radius:7px}.avasin-calendar-day .solar-number{font-size:1rem}.avasin-calendar-day .gregorian-number{font-size:.62rem}.avasin-calendar-controls button{min-width:35px;min-height:36px;padding:6px 9px}}
 @media(prefers-reduced-motion:reduce){.avasin-calendar-controls button,.avasin-calendar-today{transition:none}}
 
+
+/* Avasin multilingual language switcher */
+.avasin-language-section{position:relative;padding:56px 0;background:#f2efe7;color:#26322b;border-top:1px solid #ded6c7;border-bottom:1px solid #ded6c7}
+.avasin-language-card{display:grid;grid-template-columns:minmax(0,1fr) minmax(260px,.75fr);gap:30px;align-items:center;padding:30px clamp(20px,4vw,42px);border:1px solid #d8c9ad;border-right:5px solid #b58b53;border-radius:4px 18px 4px 18px;background:linear-gradient(125deg,#fbfaf6,#e9eee7);box-shadow:0 12px 34px rgba(35,47,39,.07)}
+.avasin-language-kicker{display:block;margin-bottom:10px;color:#96703e;font:700 10px ui-monospace,SFMono-Regular,Consolas,monospace;letter-spacing:1.8px;direction:ltr}
+.avasin-language-copy h2{margin:0 0 10px;font-size:clamp(1.45rem,3vw,2.1rem);line-height:1.45;color:#26352c}
+.avasin-language-copy p{margin:0;max-width:650px;color:#59645b;line-height:1.9}
+.avasin-language-control{padding:20px;border:1px solid #d9d5c9;border-radius:12px;background:rgba(255,255,255,.75)}
+.avasin-language-control label{display:block;margin-bottom:10px;font-weight:700;color:#344239}
+#google_translate_element{min-height:40px}
+#google_translate_element .goog-te-gadget{font-family:inherit!important;color:#58645b!important;font-size:12px!important}
+#google_translate_element .goog-te-combo{max-width:100%;width:100%;min-height:42px;padding:8px 10px;border:1px solid #c9cfc6;border-radius:8px;background:#fff;color:#26352c;font:500 14px inherit}
+#google_translate_element .goog-te-gadget span{display:none}
+.goog-te-banner-frame.skiptranslate{z-index:99999}
+@media(max-width:720px){.avasin-language-section{padding:36px 0}.avasin-language-card{grid-template-columns:1fr;gap:20px;padding:24px 18px}.avasin-language-control{padding:16px}}
+
 </style>
 <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"WebSite","name":"ئەکادێمیای ئاڤاشین","url":"https://avasinim.github.io/zanztkurd/","inLanguage":"ckb","description":"پلاتفۆرمی فێربونی زوانی کوردیک و زمان‌ناسی بە شێوەیەکی زانستی و ئەکادیمی."},{"@type":"EducationalOrganization","name":"ئەکادێمیای ئاڤاشین","url":"https://avasinim.github.io/zanztkurd/","description":"پلاتفۆرمی فێربونی زوانی کوردیک، زمان‌ناسی و سەرچاوە زانستیەکان.","email":"zanstkurd@tutamail.com","inLanguage":"ckb"}]}</script>
 
@@ -188,6 +204,22 @@
 </section>
 
 <section class="v2-final"><div class="v2-shell v2-final-inner"><div><span class="v2-label">هەنگاوی داهاتو</span><h2>فێربونەکەت لە <em>ئێستا</em> دەست پێ‌بکە.</h2><p>بەشێک هەڵ‌بژێرە و بە ئارامی دەست بە خوێندنەوە بکە.</p></div><a class="v2-btn v2-btn-main" href="learning.html">چوونە نێو ئاڤاشین ←</a></div></section>
+
+<section class="avasin-language-section" id="website-language" aria-labelledby="avasin-language-title">
+  <div class="v2-shell">
+    <div class="avasin-language-card">
+      <div class="avasin-language-copy">
+        <span class="avasin-language-kicker">AVASIN · LANGUAGE ACCESS / 04</span>
+        <h2 id="avasin-language-title">زمانی ماڵپەڕەکە</h2>
+        <p>زمانێک هەڵ‌بژێرە بۆ وەرگێڕانی ناوەڕۆکی ئەم پەڕەیە. لیستەکە زمانە بەردەستەکانی وەرگێڕانی خۆکار پیشان دەدات.</p>
+      </div>
+      <div class="avasin-language-control">
+        <label for="google_translate_element">زمانی دڵخوازت هەڵ‌بژێرە</label>
+        <div id="google_translate_element" aria-label="هەڵبژاردنی زمانی ماڵپەڕ"></div>
+      </div>
+    </div>
+  </div>
+</section>
 
 <section class="avasin-calendar" id="avasin-calendar" aria-labelledby="avasin-calendar-title">
   <div class="v2-shell calendar-shell">
@@ -322,6 +354,17 @@
  }
 })();
 </script>
+<script id="avasin-language-switcher">
+window.googleTranslateElementInit=function(){
+  if(!window.google?.translate?.TranslateElement)return;
+  new google.translate.TranslateElement({
+    pageLanguage:"ku",
+    autoDisplay:false
+  },"google_translate_element");
+};
+</script>
+<script src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit" async></script>
+
 <script id="avasin-trilingual-calendar">
 (function(){
   "use strict";
