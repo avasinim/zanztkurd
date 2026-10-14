@@ -2659,3 +2659,33 @@ body.v2-home .v2-header .v2-menu {
 .avasin-owner-copy .lesson-content{-webkit-user-select:text!important;user-select:text!important;-webkit-touch-callout:default!important;}
 .avasin-owner-copy .lesson-content *{-webkit-user-select:text!important;user-select:text!important;}
 .avasin-owner-copy .lesson-content img,.avasin-owner-copy .lesson-content svg{-webkit-user-drag:auto!important;user-drag:auto!important;}
+
+
+/* Avasin Standard — unified academy identity across all legacy page headers */
+.v2-brand:not(.academy-brand){
+  display:flex!important;align-items:center;gap:10px;min-width:0;
+  color:inherit!important;white-space:normal;
+}
+.v2-brand:not(.academy-brand) .v2-brand-mark{
+  flex:0 0 42px;width:42px;height:42px;border-radius:12px;
+  display:grid;place-items:center;background:#d9c19b!important;color:#202824!important;
+  font-size:0!important;border:1px solid rgba(32,40,36,.16);
+}
+.v2-brand:not(.academy-brand) .v2-brand-mark::after{
+  content:"A";font:800 22px/1 Georgia,serif;letter-spacing:-.04em;color:#202824;
+}
+.v2-brand:not(.academy-brand)>span:not(.v2-brand-mark){display:none!important}
+.v2-brand:not(.academy-brand)::after{
+  content:"ئەکادێمیای ئاڤاشین\\A ACADEMIC · LANGUAGE PLATFORM";
+  display:block;white-space:pre;line-height:1.55;text-align:right;
+  font-size:clamp(10px,1.1vw,15px);font-weight:850;letter-spacing:0;
+  max-width:230px;
+}
+.v2-nav-links a[href*="sabir-zhakaw.html"],
+.v2-mobile-menu a[href*="sabir-zhakaw.html"]{display:none!important}
+@media(max-width:700px){
+  .v2-brand:not(.academy-brand){gap:7px}
+  .v2-brand:not(.academy-brand) .v2-brand-mark{flex-basis:36px;width:36px;height:36px;border-radius:10px}
+  .v2-brand:not(.academy-brand) .v2-brand-mark::after{font-size:19px}
+  .v2-brand:not(.academy-brand)::after{font-size:10px;max-width:175px}
+}
