@@ -1440,7 +1440,7 @@ async function markLessonComplete(courseId, lessonKey){
 /* Avasin Standard — site-wide visible-text orthography normalization.
    Applies to static and dynamically loaded page content without touching scripts, styles, or editable fields. */
 (function(){
-  const fixes = [["چوونەژوورەوە","چوونەژورەوە"],["سەرکەوتوویی","سەرکەوتویی"],["پێشکەوتوو","پێشکەوتو"],["سەرکەوتوو","سەرکەوتو"],["دەستگەیشتن","دەست‌گەیشتن"],["پێشوو","پێشو"]];
+  const fixes = [["چوونەژوورەوە","چوونەژورەوە"],["سەرکەوتوویی","سەرکەوتویی"],["پێشکەوتوو","پێشکەوتو"],["سەرکەوتوو","سەرکەوتو"],["دەستگەیشتن","دەست‌گەیشتن"],["پێشوو","پێشو"],["دەربارەی","لەبوارەی"],["زیاد","زۆر"]];
   function normalize(value){
     let out=String(value);
     for(const [from,to] of fixes) out=out.split(from).join(to);
