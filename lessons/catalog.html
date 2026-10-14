@@ -177,7 +177,7 @@ async function syncCatalogProgressFromServer(){
     console.warn("[Avasin] catalog progress reconciliation unavailable",error);
   }
 }
-void syncCatalogProgressFromServer();
+window.addEventListener("load",syncCatalogProgressFromServer,{once:true});
 function handleCatalogSearch(){if(lessons.length){render();return}const fallback=document.getElementById("catalogFallback");if(!fallback)return;const q=search.value.trim().toLocaleLowerCase();let visible=0;fallback.querySelectorAll(".catalog-card").forEach(card=>{const show=!q||card.textContent.toLocaleLowerCase().includes(q);card.hidden=!show;if(show)visible++});let empty=fallback.querySelector(".catalog-empty-search");if(q&&!visible){if(!empty){empty=document.createElement("div");empty.className="catalog-empty-search";empty.textContent="هیچ وانەیەک بەم گەڕانە نەدۆزرایەوە.";fallback.prepend(empty)}}else if(empty)empty.remove()}search.addEventListener("input",handleCatalogSearch);filter.addEventListener("change",()=>{if(lessons.length)render()});courseFilter.addEventListener("change",()=>{if(lessons.length)render()})
 })();
 </script>  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script><script src="../supabase-config.js?v=20261007-auth"></script><script src="../script.js?v=20261013-catalog-index-fix"></script>
