@@ -2688,3 +2688,20 @@ a[href*="sabir-zhakaw.html"]{display:none!important}
   .v2-brand:not(.academy-brand) .v2-brand-mark::after{font-size:19px}
   .v2-brand:not(.academy-brand)::after{font-size:8px;letter-spacing:.55px;max-width:175px}
 }
+
+
+/* Avasin shared multilingual selector */
+.avasin-global-language{position:relative;z-index:20;padding:10px clamp(16px,3vw,42px);background:#f4f1e9;border-bottom:1px solid #ddd3c0;color:#29352d}
+.avasin-global-language-inner{display:flex;align-items:center;gap:14px;max-width:1240px;margin:0 auto}
+.avasin-global-language-mark{flex:0 0 auto;padding:7px 9px;border:1px solid #c9ad7f;border-radius:6px;color:#8a693c;font:700 9px ui-monospace,SFMono-Regular,Consolas,monospace;letter-spacing:1px;direction:ltr}
+.avasin-global-language-copy{display:flex;flex-direction:column;gap:3px;min-width:145px}
+.avasin-global-language-copy strong{font-size:13px;color:#29352d}
+.avasin-global-language-copy span{font-size:11px;color:#667168}
+#google_translate_element{margin-inline-start:auto;min-width:170px}
+#google_translate_element .goog-te-gadget{font-family:inherit!important;color:#58645b!important;font-size:12px!important}
+#google_translate_element .goog-te-combo{max-width:100%;min-width:180px;min-height:38px;margin:0!important;padding:7px 10px;border:1px solid #c9cfc6;border-radius:7px;background:#fff;color:#26352c;font:500 13px Arial,sans-serif}
+#google_translate_element .goog-te-gadget span{display:none}
+.avasin-language-control #google_translate_element{margin-inline-start:0}
+.avasin-language-control #google_translate_element .goog-te-combo{width:100%;min-width:0;min-height:42px;font-size:14px}
+.goog-te-banner-frame.skiptranslate{z-index:99999}
+@media(max-width:620px){.avasin-global-language{padding:10px 14px}.avasin-global-language-inner{gap:9px;flex-wrap:wrap}.avasin-global-language-copy{flex:1;min-width:110px}.avasin-global-language-mark{font-size:8px;padding:6px}.avasin-global-language #google_translate_element{width:100%;margin-inline-start:0}.avasin-global-language #google_translate_element .goog-te-combo{width:100%;min-width:0}}
