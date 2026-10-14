@@ -1,4 +1,4 @@
-name: Enforce protected lesson SEO
+name: Enforce public lesson SEO
 
 on:
   push:
@@ -8,13 +8,13 @@ permissions:
   contents: write
 
 jobs:
-  enforce-noindex:
+  enforce-index:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Set noindex on protected lessons
+      - name: Set indexable robots metadata on public lessons
         shell: python
         run: |
           from pathlib import Path
@@ -27,7 +27,7 @@ jobs:
               text = path.read_text(encoding="utf-8")
               updated, count = re.subn(
                   r'<meta\s+name=["\']robots["\'][^>]*>',
-                  '<meta name="robots" content="noindex,follow">',
+                  '<meta name="robots" content="index,follow">',
                   text,
                   count=1,
                   flags=re.I,
@@ -35,7 +35,7 @@ jobs:
               if count == 0:
                   updated = re.sub(
                       r'(<head[^>]*>)',
-                      r'\1\n  <meta name="robots" content="noindex,follow">',
+                      r'\1\n  <meta name="robots" content="index,follow">',
                       text,
                       count=1,
                       flags=re.I,
@@ -52,5 +52,5 @@ jobs:
             echo "No lesson SEO changes needed."
             exit 0
           fi
-          git commit -m "seo: mark protected lessons noindex"
+          git commit -m "seo: allow public lesson indexing"
           git push
