@@ -14,6 +14,8 @@ EXPECTED = {
     "course-current": {"physical": 42, "logical": 26},
     "course-2": {"physical": 32, "logical": 32},
 }
+# Course 1's multi-part lessons must be represented in the catalog completely.
+COURSE1_PARTS = {**{n: 1 for n in range(1, 22)}, 22: 7, 23: 6, 24: 1, 25: 6, 26: 1}
 
 
 def collect_entries(value: object, output: list[dict]) -> None:
@@ -93,6 +95,16 @@ def main() -> int:
                 errors.append(f"{label} ـی دووبارە: {item}")
             seen.add(item)
 
+    # Detect lesson HTML files that exist on disk but are missing from the catalog.
+    actual_lesson_files = {
+        path.name
+        for pattern in ("[0-9][0-9][0-9].html", "course-2-*.html")
+        for path in LESSONS_DIR.glob(pattern)
+    }
+    catalog_lesson_files = set(page_paths)
+    for missing_from_catalog in sorted(actual_lesson_files - catalog_lesson_files):
+        errors.append(f"فایلی هەیە بەڵام لە کاتەلۆگدا نییە: lessons/{missing_from_catalog}")
+
     for course_id, expected in EXPECTED.items():
         course_entries = by_course.get(course_id, [])
         if len(course_entries) != expected["physical"]:
@@ -121,9 +133,10 @@ def main() -> int:
             count = numbers.count(number)
             if count == 0:
                 continue
-            if course_id == "course-2" and count != 1:
+            expected_parts = COURSE1_PARTS[number] if course_id == "course-current" else 1
+            if count != expected_parts:
                 errors.append(
-                    f"{course_id}: وانەی {number} دەبێت تەنیا یەک پەڕەی هەبێت؛ "
+                    f"{course_id}: وانەی {number} دەبێت {expected_parts} پەڕەی هەبێت؛ "
                     f"ئێستا {count} تۆمارە"
                 )
 
@@ -140,7 +153,7 @@ def main() -> int:
 
     print(
         "OK: کاتەلۆگ دروستە؛ ٢٦ وانەی کۆرسی یەکەم، "
-        "٣٢ وانەی کۆرسی دووەم، ٧٤ تۆمار و هەموو فایلەکان بەردەستن."
+        "٣٢ وانەی کۆرسی دووەم، ٧٤ تۆمار، ژمارەی پارتەکان و هەموو فایلەکان بەردەستن."
     )
     return 0
 
