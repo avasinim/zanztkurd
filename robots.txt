@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://avasinim.github.io/zanztkurd/sitemap.xml.gz
+Sitemap: https://avasinim.github.io/zanztkurd/sitemap.xml
