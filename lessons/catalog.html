@@ -123,6 +123,61 @@ overall.textContent="پێشکەوتن: "+done+" لە "+lessons.length+" وانە
 if(!base.length){catalog.innerHTML="<div class=\"catalog-empty\">هیچ وانەیەک بەم گەڕانە نەدۆزرایەوە.</div>";return}
 const groups=selectedCourse==="all"?courses:courses.filter(c=>c.id===selectedCourse);
 catalog.innerHTML=groups.map(c=>{const group=base.filter(l=>l.courseId===c.id);if(!group.length)return "";return "<section class=\"course-group\" style=\"grid-column:1/-1\"><div style=\"margin:8px 0 18px\"><span class=\"eyebrow\">دەورەی "+escapeHtml(c.number)+"</span><h2 style=\"margin:8px 0 4px\">"+escapeHtml(c.title)+"</h2><p style=\"margin:0;opacity:.72\">"+group.length+" وانەی بەردەست</p></div><div class=\"catalog-grid\">"+group.map((l,i)=>{const d=isDone(l),qz=localStorage.getItem("lesson-quiz:"+l.id)==="passed",locked=isLocked(l),p=d?100:qz?85:0,href="./"+(l.pagePath||String(l.originalNumber).padStart(3,"0")+".html");return "<article class=\"catalog-card"+(locked?" catalog-locked":"")+"\"><div class=\"catalog-meta\"><span>وانەی "+(l.courseLessonNumber||i+1)+"</span></div><h2>"+escapeHtml(l.title)+"</h2><p>"+escapeHtml(l.sectionTitle||"")+"</p><div class=\"catalog-source\">سابیر ژاکاو · ژمارەی سەرچاوە: "+escapeHtml(l.originalNumber)+"</div><div class=\"catalog-status\">"+(locked?"<span class=\"catalog-lock\">🔒 پەیویستی بە تەواوکردنی وانەی پێشو هەیە</span>":d?"✓ وانەکە تەواو کراوە":qz?"✓ تاقیکردنەوە سەرکەوتوە":"ئامادەی خوێندنەوە")+"</div><div class=\"catalog-progress\"><span style=\"width:"+p+"%\"></span></div>"+(locked?"<span class=\"primary-btn big catalog-btn\" aria-disabled=\"true\">قفلە ←</span>":"<a class=\"primary-btn big catalog-btn\" data-lesson-href=\""+href+"\">"+(d?"دوبارەکردنەوە":"ی وانە")+" ←</a>")+"</article>"}).join("")+"</div></section>"}).join("")}
+/* Reconcile catalog completion badges with the signed-in account's Supabase progress.
+   Course 1 contains multi-part physical pages; only each logical lesson's final
+   page marks that lesson complete. Never use another account's local cache. */
+async function syncCatalogProgressFromServer(){
+  const c1Ends={1:"017.html",2:"018.html",3:"019.html",4:"020.html",5:"021.html",6:"022.html",7:"023.html",8:"024.html",9:"025.html",10:"026.html",11:"027.html",12:"028.html",13:"029.html",14:"030.html",15:"031.html",16:"032.html",17:"033.html",18:"034.html",19:"035.html",20:"036.html",21:"037.html",22:"043.html",23:"051.html",24:"045.html",25:"057.html",26:"058.html"};
+  const clearCourse=(scope,count)=>{
+    for(let n=1;n<=count;n++){
+      localStorage.removeItem("lesson-completed:"+scope+":"+n);
+      localStorage.removeItem("lesson-progress:"+scope+":"+n);
+    }
+  };
+  const mark=(scope,n)=>{
+    localStorage.setItem("lesson-completed:"+scope+":"+n,"true");
+    localStorage.setItem("lesson-progress:"+scope+":"+n,"completed");
+  };
+  try{
+    if(typeof window.ZANSTI_WAIT_FOR_SUPABASE==="function" && !await window.ZANSTI_WAIT_FOR_SUPABASE())throw Error("Supabase not ready");
+    if(!window.ZANSTI_GET_SUPABASE_CLIENT)throw Error("Supabase client unavailable");
+    const sb=window.ZANSTI_GET_SUPABASE_CLIENT();
+    if(!sb)throw Error("Supabase client unavailable");
+    const {data:{session},error:sessionError}=await sb.auth.getSession();
+    if(sessionError)throw sessionError;
+    if(!session){
+      clearCourse("course-current",26);
+      clearCourse("course-2",32);
+      render();
+      return;
+    }
+    const specs=[
+      {id:"orthography-kurdik",scope:"course-current",count:26,resolve:key=>Object.keys(c1Ends).find(n=>c1Ends[n]===key)},
+      {id:"phonetics-phonology-kurdik",scope:"course-2",count:32,resolve:key=>{const m=String(key).match(/^course-2-(\d{2})\.html$/);return m?String(Number(m[1])):null;}}
+    ];
+    for(const spec of specs){
+      const {data:rows,error}=await sb.from("lesson_progress").select("lesson_key").eq("user_id",session.user.id).eq("course_id",spec.id);
+      if(error){
+        clearCourse(spec.scope,spec.count);
+        console.error("[Avasin] catalog server progress read failed",spec.id,error);
+        continue;
+      }
+      clearCourse(spec.scope,spec.count);
+      for(const row of rows||[]){
+        const n=spec.resolve(String(row.lesson_key));
+        if(n && Number(n)>=1 && Number(n)<=spec.count)mark(spec.scope,Number(n));
+      }
+    }
+    render();
+  }catch(error){
+    /* Do not claim local completion is authoritative when the server could not be reached. */
+    clearCourse("course-current",26);
+    clearCourse("course-2",32);
+    render();
+    console.warn("[Avasin] catalog progress reconciliation unavailable",error);
+  }
+}
+window.addEventListener("load",syncCatalogProgressFromServer,{once:true});
 function handleCatalogSearch(){if(lessons.length){render();return}const fallback=document.getElementById("catalogFallback");if(!fallback)return;const q=search.value.trim().toLocaleLowerCase();let visible=0;fallback.querySelectorAll(".catalog-card").forEach(card=>{const show=!q||card.textContent.toLocaleLowerCase().includes(q);card.hidden=!show;if(show)visible++});let empty=fallback.querySelector(".catalog-empty-search");if(q&&!visible){if(!empty){empty=document.createElement("div");empty.className="catalog-empty-search";empty.textContent="هیچ وانەیەک بەم گەڕانە نەدۆزرایەوە.";fallback.prepend(empty)}}else if(empty)empty.remove()}search.addEventListener("input",handleCatalogSearch);filter.addEventListener("change",()=>{if(lessons.length)render()});courseFilter.addEventListener("change",()=>{if(lessons.length)render()})
 })();
 </script>  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script><script src="../supabase-config.js?v=20261007-auth"></script><script src="../script.js?v=20261013-catalog-index-fix"></script>
