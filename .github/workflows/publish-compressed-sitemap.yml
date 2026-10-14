@@ -1,0 +1,47 @@
+name: Publish compressed XML sitemap
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "sitemap.xml"
+      - ".github/workflows/publish-compressed-sitemap.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  compress-sitemap:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Create deterministic gzip sitemap
+        run: |
+          python - <<'PY'
+          import gzip
+          from pathlib import Path
+
+          source = Path("sitemap.xml")
+          if not source.is_file():
+              raise SystemExit("sitemap.xml is missing")
+          data = source.read_bytes()
+          if not data.lstrip().startswith(b"<?xml"):
+              raise SystemExit("sitemap.xml does not begin with an XML declaration")
+          Path("sitemap.xml.gz").write_bytes(gzip.compress(data, mtime=0))
+          print(f"Created sitemap.xml.gz ({Path('sitemap.xml.gz').stat().st_size} bytes)")
+          PY
+
+      - name: Commit compressed sitemap if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add sitemap.xml.gz
+          if git diff --cached --quiet; then
+            echo "Compressed sitemap is already up to date."
+            exit 0
+          fi
+          git commit -m "seo: publish gzip-compressed sitemap"
+          git push
