@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="ckb" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="پێناسە و ڕێنمایی دەستەی ئەکادێمی و بەرپرسیارییەکانی پلاتفۆرمی ئاڤاشین.">
+<meta name="theme-color" content="#202824">
+<title>پێناسە و ڕێنمایی دەستە | ئەکادێمیای ئاڤاشین</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Arabic:wght@400;500;600;700;800&family=Noto+Naskh+Arabic:wght@500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<style>
+:root{--team-ink:#202824;--team-paper:#f4f2eb;--team-gold:#d3ab75;--team-sage:#b7c6ad}
+*{box-sizing:border-box}
+body{margin:0;background:var(--team-paper);color:#27352c;font-family:"Noto Sans Arabic",sans-serif}
+.team-page{min-height:100vh;overflow:hidden}
+.team-topbar{background:var(--team-ink);color:#f4f2eb;border-bottom:1px solid rgba(211,171,117,.25)}
+.team-topbar-inner{width:min(1120px,calc(100% - 40px));margin:auto;min-height:76px;display:flex;align-items:center;justify-content:space-between;gap:20px}
+.team-brand{display:flex;align-items:center;gap:12px;text-decoration:none;color:#ead9bd}
+.team-brand-mark{width:36px;height:36px;display:grid;place-items:center;border:1px solid rgba(211,171,117,.65);border-radius:50%;font:700 12px Georgia,serif;color:var(--team-gold)}
+.team-brand-copy{display:flex;flex-direction:column;gap:5px}
+.team-brand-name{font-family:"Noto Naskh Arabic",serif;font-size:18px;font-weight:700}
+.team-brand-sub{font:600 8px ui-monospace,monospace;letter-spacing:1.5px;direction:ltr;color:rgba(244,242,235,.55)}
+.team-back{display:inline-flex;align-items:center;gap:8px;padding:10px 15px;border:1px solid rgba(244,242,235,.2);border-radius:3px;color:#f4f2eb;text-decoration:none;font-size:13px;transition:background .2s,border-color .2s}
+.team-back:hover{background:rgba(255,255,255,.07);border-color:var(--team-gold)}
+.team-hero{position:relative;background:var(--team-ink);color:#f4f2eb;padding:clamp(58px,8vw,100px) 20px clamp(64px,9vw,112px);isolation:isolate}
+.team-hero:before{content:"ACADEMIC / GOVERNANCE";position:absolute;top:28px;left:max(20px,calc((100% - 1080px)/2));font:600 9px ui-monospace,monospace;letter-spacing:2px;color:rgba(244,242,235,.3);direction:ltr}
+.team-hero:after{content:"";position:absolute;z-index:-1;width:430px;height:430px;left:-130px;bottom:-290px;border:1px solid rgba(211,171,117,.24);border-radius:50%;box-shadow:0 0 0 44px rgba(211,171,117,.035),0 0 0 88px rgba(183,198,173,.025)}
+.team-wrap{width:min(100%,980px);margin:0 auto}
+.team-kicker{display:flex;align-items:center;gap:10px;color:var(--team-gold);font-size:12px;font-weight:700;letter-spacing:.04em}
+.team-kicker:before{content:"";display:inline-block;width:28px;height:1px;background:var(--team-gold)}
+.team-hero h1{max-width:760px;margin:20px 0 16px;font-family:"Noto Naskh Arabic",serif;font-size:clamp(2.2rem,5.3vw,4.1rem);font-weight:700;line-height:1.35;color:#f4f0e5}
+.team-hero h1 span{color:var(--team-sage)}
+.team-lead{max-width:710px;margin:0;color:rgba(244,242,235,.72);font-size:clamp(14px,1.5vw,17px);line-height:2.2}
+.team-content{width:min(100% - 40px,980px);margin:-28px auto 0;position:relative;z-index:2;padding-bottom:76px}
+.team-panel{background:#fff;border:1px solid #deded4;box-shadow:0 18px 50px rgba(32,40,36,.07);padding:clamp(22px,4vw,42px);margin-bottom:18px}
+.team-panel-heading{display:flex;align-items:flex-start;gap:16px;margin-bottom:22px}
+.team-index{flex:0 0 42px;width:42px;height:42px;display:grid;place-items:center;background:#f2eee4;border:1px solid #e2d4bb;color:#8a6b3f;font:700 11px ui-monospace,monospace;direction:ltr}
+.team-panel h2{margin:0 0 8px;font-family:"Noto Naskh Arabic",serif;font-size:clamp(1.3rem,2.5vw,1.75rem);line-height:1.5;color:#26332b}
+.team-panel-heading p,.team-panel>p{margin:0;color:#5c665e;line-height:2.1;font-size:14px}
+.team-principles{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;margin-top:22px}
+.team-principle{padding:17px 16px;border-top:2px solid #b9c4b3;background:#f7f7f2}
+.team-principle b{display:block;margin-bottom:8px;color:#334238;font-size:14px}
+.team-principle p{margin:0;color:#657067;font-size:12px;line-height:1.9}
+.team-note{border-right:3px solid var(--team-gold);padding:16px 18px;background:#f7f3e9;color:#5b5a4d;line-height:2;font-size:13px;margin-top:22px}
+.team-footer{padding:24px 20px;background:#e8e8df;border-top:1px solid #d8d9ce;text-align:center;color:#6a7169;font-size:12px;line-height:2}
+.team-footer a{color:#34473a;text-decoration:none;border-bottom:1px solid #aab4a6}
+@media(max-width:650px){.team-topbar-inner{width:calc(100% - 28px);min-height:68px}.team-brand-sub{font-size:7px;letter-spacing:1px}.team-back{padding:9px 10px;font-size:12px}.team-hero:before{font-size:8px;letter-spacing:1px}.team-principles{grid-template-columns:1fr}.team-principle{padding:15px}.team-content{width:calc(100% - 28px)}.team-panel{padding:22px 18px}}
+</style>
+</head>
+<body>
+<div class="team-page">
+<header class="team-topbar">
+  <div class="team-topbar-inner">
+    <a class="team-brand" href="index.html" aria-label="ئەکادێمیای ئاڤاشین، پەڕەی سەرەکی">
+      <span class="team-brand-mark" aria-hidden="true">A</span>
+      <span class="team-brand-copy"><span class="team-brand-name">ئەکادێمیای ئاڤاشین</span><span class="team-brand-sub">ACADEMIC · LANGUAGE PLATFORM</span></span>
+    </a>
+    <a class="team-back" href="index.html#academic-people">← گەڕانەوە بۆ پەڕەی سەرەکی</a>
+  </div>
+</header>
+<main>
+  <section class="team-hero">
+    <div class="team-wrap">
+      <div class="team-kicker">ڕێنمایی و شەفافیەت</div>
+      <h1>پێناسە و ڕێنمایی <span>دەستە</span></h1>
+      <p class="team-lead">چوارچێوەی ناساندنی دەستەی ئەکادێمی و بەرپرسیارانی پلاتفۆرم؛ بە جیاکردنەوەی ڕۆڵەکان، ڕوونی زانیاری و پابەندبوون بە پشتڕاست‌کردنەوە.</p>
+    </div>
+  </section>
+  <div class="team-content">
+    <section class="team-panel" aria-labelledby="team-purpose">
+      <div class="team-panel-heading"><span class="team-index">01</span><div><h2 id="team-purpose">ئامانج و سنووری ناساندن</h2><p>ئەم بەشە بۆ ناساندنی ئەندامانی دەستەی ئەکادێمی و بەرپرسانی پلاتفۆرمە.</p></div></div>
+      <p>ناو، پلە، پسپۆڕی و دەوری هەر کەسێک تەنیا دوای پشتڕاست‌کردنەوەی زانیارییەکان زیاد دەکرێت. تا ئەو کاتە، شوێنی ئەندامانی نوێ بە شێوەیەکی گشتی دیاری کراوە و هیچ زانیارییەکی پشتڕاست‌نەکراو وەک زانیاریی فەرمی پیشان نادرێت.</p>
+      <div class="team-note">بنەمای کار: ناساندنەکان دەبێت ڕوون، ورد و پشت‌پێ‌بەستراو بن؛ ناو یان پلەی هیچ کەسێک بە گومان یان بە شێوەی خەمڵاندن زیاد ناکرێت.</div>
+    </section>
+    <section class="team-panel" aria-labelledby="team-roles">
+      <div class="team-panel-heading"><span class="team-index">02</span><div><h2 id="team-roles">جیاوازیی ڕۆڵ و بەرپرسیارییەکان</h2><p>دوو چوارچێوەی جیاواز بۆ ئەوەی ئەرکەکان تێکەڵ نەبن.</p></div></div>
+      <div class="team-principles">
+        <article class="team-principle"><b>دەستەی ئەکادێمی</b><p>ناسینەوەی ڕۆڵی سەرنوسەری، دەست‌کاریی ئەکادێمی و هاوبەشانی زانستی، بە پێی زانیاری پشتڕاست‌کراو.</p></article>
+        <article class="team-principle"><b>بەڕێوەبردنی پلاتفۆرم</b><p>دیاریکردنی خاوەن‌ماڵپەڕ و بەرپرسانی کارگێڕی و تەکنیکی، بە جیاوازی لە ڕۆڵی ئەکادێمی.</p></article>
+        <article class="team-principle"><b>پشتڕاست‌کردنەوە</b><p>هەر زانیارییەک پێش زیادکردن دەبێت سەرچاوە و پشتگیریی ڕوونی هەبێت.</p></article>
+      </div>
+    </section>
+    <section class="team-panel" aria-labelledby="team-transparency">
+      <div class="team-panel-heading"><span class="team-index">03</span><div><h2 id="team-transparency">شەفافیەت و ڕێنمایی</h2><p>چۆنیەتی پێشکەشکردنی زانیاری لە پلاتفۆرمدا.</p></div></div>
+      <p>دەوری ئەکادێمی و بەرپرسیارییەکانی بەڕێوەبردن جیاواز دەخرێنەڕو، بۆ ئەوەی خوێنەر بتوانێت جۆری بەرپرسیارییەکان بە ڕوونی بناسێتەوە. وشەی «ئەکادێمی» لەم پەڕەیەدا بە تەنیا مانای پەسەندکردنی فەرمی لەلایەن زانکۆ یان دامەزراوەیەکی دەرەکی نیە.</p>
+    </section>
+  </div>
+</main>
+<footer class="team-footer"><a href="index.html">ئەکادێمیای ئاڤاشین</a> · چوارچێوەی فێرکاری و ئەکادیمی بۆ زوانی کوردیک و زمان‌ناسی</footer>
+</div>
+</body>
+</html>
