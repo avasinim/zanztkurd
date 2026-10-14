@@ -2,4 +2,3 @@ User-agent: *
 Allow: /
 
 Sitemap: https://avasinim.github.io/zanztkurd/sitemap.xml
-Sitemap: https://avasinim.github.io/zanztkurd/sitemap.rss
