@@ -58,6 +58,53 @@
 .site-feedback-item p{line-height:1.85;white-space:pre-wrap;overflow-wrap:anywhere}
 @media(max-width:720px){.site-feedback-panel{grid-template-columns:1fr}.site-feedback{padding:52px 0}}
 
+
+/* Avasin trilingual calendar — Solar Hijri / Kurdish / Persian / Gregorian */
+.avasin-calendar{position:relative;isolation:isolate;overflow:hidden;padding:clamp(42px,6vw,76px) 0;background:#202824;color:#f3f0e7;border-top:1px solid rgba(211,171,117,.22)}
+.avasin-calendar:before{content:"CALENDAR / 03";position:absolute;z-index:-1;top:24px;left:5%;font:700 9px ui-monospace,SFMono-Regular,Consolas,monospace;letter-spacing:2.2px;color:rgba(243,240,231,.25);direction:ltr}
+.avasin-calendar:after{content:"";position:absolute;z-index:-1;width:390px;height:390px;left:-210px;bottom:-260px;border:1px solid rgba(211,171,117,.18);border-radius:50%;box-shadow:0 0 0 42px rgba(211,171,117,.025),0 0 0 84px rgba(211,171,117,.018);pointer-events:none}
+.avasin-calendar .calendar-shell{max-width:1080px;margin:0 auto}
+.avasin-calendar-head{display:flex;align-items:flex-end;justify-content:space-between;gap:24px;margin-bottom:26px}
+.avasin-calendar-kicker{display:inline-flex;align-items:center;gap:9px;color:#d3ab75;font-size:.78rem;font-weight:800;letter-spacing:.04em}
+.avasin-calendar-kicker:before{content:"";width:24px;height:1px;background:#d3ab75}
+.avasin-calendar-head h2{margin:10px 0 8px;font-size:clamp(1.8rem,4vw,2.7rem);line-height:1.35;color:#f3f0e7}
+.avasin-calendar-head p{max-width:640px;margin:0;color:rgba(243,240,231,.65);line-height:1.9}
+.avasin-calendar-stamp{flex:0 0 auto;padding:12px 15px;border:1px solid rgba(211,171,117,.35);color:#e5d4b5;font-size:.78rem;line-height:1.8;text-align:center}
+.avasin-calendar-layout{display:grid;grid-template-columns:minmax(0,1.45fr) minmax(250px,.8fr);gap:18px;align-items:stretch}
+.avasin-calendar-main,.avasin-calendar-detail{border:1px solid rgba(243,240,231,.13);background:rgba(255,255,255,.035);backdrop-filter:blur(8px)}
+.avasin-calendar-main{padding:clamp(16px,3vw,26px)}
+.avasin-calendar-toolbar{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-bottom:20px}
+.avasin-calendar-month{font-size:clamp(1.05rem,2.4vw,1.4rem);font-weight:800;color:#f3f0e7}
+.avasin-calendar-month-sub{display:block;margin-top:4px;color:rgba(243,240,231,.48);font-size:.78rem;font-weight:500}
+.avasin-calendar-controls{display:flex;gap:7px}
+.avasin-calendar-controls button,.avasin-calendar-today{display:inline-flex;align-items:center;justify-content:center;min-width:40px;min-height:40px;padding:8px 12px;border:1px solid rgba(211,171,117,.36);border-radius:8px;background:transparent;color:#f3f0e7;font:inherit;cursor:pointer;transition:background .18s,border-color .18s}
+.avasin-calendar-controls button:hover,.avasin-calendar-today:hover{background:rgba(211,171,117,.12);border-color:#d3ab75}
+.avasin-calendar-controls button:focus-visible,.avasin-calendar-today:focus-visible,.avasin-calendar-day:focus-visible{outline:3px solid #d3ab75;outline-offset:3px}
+.avasin-calendar-weekdays,.avasin-calendar-grid{display:grid;grid-template-columns:repeat(7,minmax(0,1fr));gap:5px}
+.avasin-calendar-weekdays{margin-bottom:7px}
+.avasin-calendar-weekdays span{padding:8px 0;text-align:center;color:#c8b99f;font-size:.76rem;font-weight:800}
+.avasin-calendar-day{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:5px;min-width:0;min-height:66px;padding:6px 2px;border:1px solid transparent;border-radius:9px;background:rgba(255,255,255,.025);color:#f3f0e7;font:inherit;cursor:pointer}
+.avasin-calendar-day .solar-number{font-size:1.12rem;font-weight:800;line-height:1.15}
+.avasin-calendar-day .gregorian-number{font-size:.69rem;color:rgba(243,240,231,.48);direction:ltr}
+.avasin-calendar-day.is-outside{opacity:.28}
+.avasin-calendar-day.is-today{border-color:rgba(211,171,117,.8);background:rgba(211,171,117,.09)}
+.avasin-calendar-day.is-selected{border-color:#d3ab75;background:#d3ab75;color:#202824;box-shadow:0 5px 18px rgba(0,0,0,.12)}
+.avasin-calendar-day.is-selected .gregorian-number{color:#394138}
+.avasin-calendar-footnote{margin:16px 0 0;color:rgba(243,240,231,.48);font-size:.76rem;line-height:1.8}
+.avasin-calendar-detail{display:flex;flex-direction:column;padding:clamp(22px,3vw,30px);background:linear-gradient(150deg,rgba(211,171,117,.11),rgba(255,255,255,.025) 58%)}
+.avasin-calendar-detail-label{color:#d3ab75;font-size:.78rem;font-weight:800}
+.avasin-calendar-bigday{margin:12px 0 2px;color:#f3f0e7;font-family:"Noto Naskh Arabic","Noto Sans Arabic",serif;font-size:clamp(3.5rem,7vw,5.6rem);font-weight:700;line-height:1.1}
+.avasin-calendar-kurdish-date{font-size:1.1rem;font-weight:800;color:#d9e4d6;line-height:1.9}
+.avasin-calendar-date-line{display:flex;flex-direction:column;gap:5px;padding:15px 0;border-top:1px solid rgba(243,240,231,.12)}
+.avasin-calendar-date-line:first-of-type{margin-top:22px}
+.avasin-calendar-date-label{color:rgba(243,240,231,.5);font-size:.75rem}
+.avasin-calendar-date-value{color:#f3f0e7;font-size:1rem;font-weight:700;line-height:1.8}
+.avasin-calendar-today{margin-top:auto;align-self:flex-start;gap:8px;color:#e7d6b8}
+.avasin-calendar-error{padding:20px;border:1px solid rgba(211,171,117,.35);color:#e7d6b8;line-height:1.9}
+@media(max-width:760px){.avasin-calendar-head{align-items:flex-start;flex-direction:column}.avasin-calendar-stamp{align-self:flex-start}.avasin-calendar-layout{grid-template-columns:1fr}.avasin-calendar-detail{min-height:0}.avasin-calendar-bigday{font-size:4.2rem}.avasin-calendar-day{min-height:58px}}
+@media(max-width:420px){.avasin-calendar-main{padding:12px 9px}.avasin-calendar-weekdays,.avasin-calendar-grid{gap:3px}.avasin-calendar-weekdays span{font-size:.68rem}.avasin-calendar-day{min-height:52px;border-radius:7px}.avasin-calendar-day .solar-number{font-size:1rem}.avasin-calendar-day .gregorian-number{font-size:.62rem}.avasin-calendar-controls button{min-width:35px;min-height:36px;padding:6px 9px}}
+@media(prefers-reduced-motion:reduce){.avasin-calendar-controls button,.avasin-calendar-today{transition:none}}
+
 </style>
 <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"WebSite","name":"ئەکادێمیای ئاڤاشین","url":"https://avasinim.github.io/zanztkurd/","inLanguage":"ckb","description":"پلاتفۆرمی فێربونی زوانی کوردیک و زمان‌ناسی بە شێوەیەکی زانستی و ئەکادیمی."},{"@type":"EducationalOrganization","name":"ئەکادێمیای ئاڤاشین","url":"https://avasinim.github.io/zanztkurd/","description":"پلاتفۆرمی فێربونی زوانی کوردیک، زمان‌ناسی و سەرچاوە زانستیەکان.","email":"zanstkurd@tutamail.com","inLanguage":"ckb"}]}</script>
 
@@ -141,6 +188,43 @@
 </section>
 
 <section class="v2-final"><div class="v2-shell v2-final-inner"><div><span class="v2-label">هەنگاوی داهاتو</span><h2>فێربونەکەت لە <em>ئێستا</em> دەست پێ‌بکە.</h2><p>بەشێک هەڵ‌بژێرە و بە ئارامی دەست بە خوێندنەوە بکە.</p></div><a class="v2-btn v2-btn-main" href="learning.html">چوونە نێو ئاڤاشین ←</a></div></section>
+
+<section class="avasin-calendar" id="avasin-calendar" aria-labelledby="avasin-calendar-title">
+  <div class="v2-shell calendar-shell">
+    <header class="avasin-calendar-head">
+      <div>
+        <span class="avasin-calendar-kicker">AVASIN · CALENDAR / 03</span>
+        <h2 id="avasin-calendar-title">ڕۆژمێری <span style="color:#d3ab75">سێ‌زمانە</span></h2>
+        <p>بەرواری هەتاوی بە ناوی مانگە کوردییەکان، لەگەڵ بەرواری فارسی و زاینی؛ لە یەک شوێندا و بە شێوەیەکی ئەکادێمی و ڕوون.</p>
+      </div>
+      <div class="avasin-calendar-stamp">KURDISH SOLAR<br> PERSIAN · GREGORIAN</div>
+    </header>
+    <div class="avasin-calendar-layout">
+      <div class="avasin-calendar-main">
+        <div class="avasin-calendar-toolbar">
+          <div><div class="avasin-calendar-month" id="avasin-calendar-month" aria-live="polite">ڕۆژمێر بار دەکرێت…</div><span class="avasin-calendar-month-sub">هەتاوی · مانگی کوردی</span></div>
+          <div class="avasin-calendar-controls" aria-label="گۆڕینی مانگ">
+            <button type="button" id="avasin-calendar-prev" aria-label="مانگی پێشوو">→</button>
+            <button type="button" id="avasin-calendar-next" aria-label="مانگی دواتر">←</button>
+          </div>
+        </div>
+        <div class="avasin-calendar-weekdays" aria-hidden="true">
+          <span>شەممە</span><span>یەکشەممە</span><span>دووشەممە</span><span>سێشەممە</span><span>چوارشەممە</span><span>پێنجشەممە</span><span>هەینی</span>
+        </div>
+        <div class="avasin-calendar-grid" id="avasin-calendar-grid" role="group" aria-label="ڕۆژەکانی مانگ"></div>
+        <p class="avasin-calendar-footnote">ژمارەی گەورە بەرواری هەتاوی و ژمارەی بچووک بەرواری زاینیی هەر ڕۆژێکە. بۆ بینینی هەموو سێ بەروارەکە، ڕۆژێک هەڵ‌بژێرە.</p>
+      </div>
+      <aside class="avasin-calendar-detail" aria-label="بەرواری هەڵبژێردراو">
+        <span class="avasin-calendar-detail-label">بەرواری هەڵبژێردراو</span>
+        <div class="avasin-calendar-bigday" id="avasin-calendar-bigday">—</div>
+        <div class="avasin-calendar-kurdish-date" id="avasin-calendar-kurdish-date">—</div>
+        <div class="avasin-calendar-date-line"><span class="avasin-calendar-date-label">بەرواری فارسی · هەتاوی</span><span class="avasin-calendar-date-value" id="avasin-calendar-persian-date">—</span></div>
+        <div class="avasin-calendar-date-line"><span class="avasin-calendar-date-label">بەرواری زاینی · Gregorian</span><span class="avasin-calendar-date-value" id="avasin-calendar-gregorian-date">—</span></div>
+        <button class="avasin-calendar-today" id="avasin-calendar-today" type="button">گەڕانەوە بۆ ئەمڕۆ <span aria-hidden="true">↶</span></button>
+      </aside>
+    </div>
+  </div>
+</section>
 </main>
 <footer class="v2-footer" role="contentinfo">
 <div class="v2-shell v2-footer-grid">
@@ -237,4 +321,78 @@
   console.error('[Avasin public library]',error);
  }
 })();
-</script></body></html>
+</script>
+<script id="avasin-trilingual-calendar">
+(function(){
+  "use strict";
+  const root=document.getElementById("avasin-calendar");
+  if(!root)return;
+  const $=id=>document.getElementById(id);
+  const monthNames=["خاکەلێوە","گوڵان","جۆزەردان","پووشپەڕ","گەلاوێژ","خەرمانان","ڕەزبەر","گەڵاڕێزان","سەرماوەز","بەفرانبار","ڕێبەندان","ڕەشەمێ"];
+  const persianMonths=["فروردین","اردیبهشت","خرداد","تیر","مرداد","شهریور","مهر","آبان","آذر","دی","بهمن","اسفند"];
+  const digits="٠١٢٣٤٥٦٧٨٩";
+  const faParts=new Intl.DateTimeFormat("en-US-u-ca-persian-nu-latn",{year:"numeric",month:"numeric",day:"numeric"});
+  const faLong=new Intl.DateTimeFormat("fa-IR-u-ca-persian",{year:"numeric",month:"long",day:"numeric"});
+  const gregLong=new Intl.DateTimeFormat("en-GB",{year:"numeric",month:"long",day:"numeric"});
+  const gregParts=new Intl.DateTimeFormat("en-US-u-nu-latn",{year:"numeric",month:"numeric",day:"numeric"});
+  const weekdayLong=new Intl.DateTimeFormat("ckb-IQ",{weekday:"long"});
+  const toDigits=value=>String(value).replace(/[0-9]/g,d=>digits[Number(d)]);
+  const dayOnly=d=>Number(faParts.formatToParts(d).find(p=>p.type==="day").value);
+  const solarParts=d=>{
+    const p=faParts.formatToParts(d);
+    return {year:Number(p.find(x=>x.type==="year").value),month:Number(p.find(x=>x.type==="month").value),day:Number(p.find(x=>x.type==="day").value)};
+  };
+  const sameMonth=(a,b)=>{const x=solarParts(a),y=solarParts(b);return x.year===y.year&&x.month===y.month;};
+  const addDays=(date,n)=>{const d=new Date(date.getFullYear(),date.getMonth(),date.getDate());d.setDate(d.getDate()+n);return d;};
+  const monthStart=anchor=>{let d=new Date(anchor.getFullYear(),anchor.getMonth(),anchor.getDate());for(let i=0;i<32;i++){const previous=addDays(d,-1);if(!sameMonth(d,previous))return d;d=previous;}return d;};
+  const monthLabel=(d)=>{const p=solarParts(d);return monthNames[p.month-1]+" "+toDigits(p.year);};
+  const persianDate=d=>faLong.format(d);
+  const gregorianDate=d=>gregLong.format(d).replace(/[0-9]/g,n=>digits[Number(n)]);
+  const weekdayStart=d=>(d.getDay()+1)%7;
+  let today=new Date();today=new Date(today.getFullYear(),today.getMonth(),today.getDate());
+  let selected=new Date(today);
+  let shownStart=monthStart(today);
+  function render(){
+    try{
+      const start=monthStart(shownStart),parts=solarParts(start);
+      shownStart=start;
+      $("avasin-calendar-month").textContent=monthLabel(start);
+      $("avasin-calendar-month").setAttribute("aria-label","مانگی "+monthLabel(start));
+      const grid=$("avasin-calendar-grid");grid.replaceChildren();
+      const offset=weekdayStart(start);
+      const daysInMonth=(()=>{let count=0,d=start;while(sameMonth(d,start)&&count<32){count++;d=addDays(d,1);}return count;})();
+      const cellCount=Math.ceil((offset+daysInMonth)/7)*7;
+      for(let i=0;i<cellCount;i++){
+        const date=addDays(start,i-offset),p=solarParts(date),inside=sameMonth(date,start);
+        const button=document.createElement("button");
+        button.type="button";button.className="avasin-calendar-day";
+        if(!inside)button.classList.add("is-outside");
+        if(date.getTime()===today.getTime())button.classList.add("is-today");
+        if(date.getTime()===selected.getTime())button.classList.add("is-selected");
+        button.setAttribute("aria-label",monthNames[p.month-1]+" "+toDigits(p.day)+" — "+gregorianDate(date));
+        if(date.getTime()===selected.getTime())button.setAttribute("aria-pressed","true");else button.setAttribute("aria-pressed","false");
+        const solar=document.createElement("span");solar.className="solar-number";solar.textContent=toDigits(p.day);
+        const greg=document.createElement("span");greg.className="gregorian-number";greg.textContent=toDigits(gregParts.formatToParts(date).find(x=>x.type==="day").value);
+        button.append(solar,greg);
+        button.addEventListener("click",()=>{selected=new Date(date);shownStart=monthStart(date);render();});
+        grid.appendChild(button);
+      }
+      const chosen=solarParts(selected);
+      $("avasin-calendar-bigday").textContent=toDigits(chosen.day);
+      $("avasin-calendar-kurdish-date").textContent=monthNames[chosen.month-1]+" "+toDigits(chosen.year);
+      $("avasin-calendar-persian-date").textContent=persianDate(selected);
+      $("avasin-calendar-gregorian-date").textContent=gregorianDate(selected);
+      $("avasin-calendar-today").disabled=selected.getTime()===today.getTime();
+      $("avasin-calendar-today").style.opacity=$("avasin-calendar-today").disabled?".55":"1";
+    }catch(error){
+      root.querySelector(".calendar-shell").innerHTML='<div class="avasin-calendar-error">ئەم وەشانی وێبگەڕە پشتگیریی ڕۆژمێری هەتاوی ناکات. تکایە وێبگەڕەکەت نوێ بکەرەوە یان وەشانێکی نوێتر بەکاربهێنە.</div>';
+      console.error("[Avasin calendar]",error);
+    }
+  }
+  $("avasin-calendar-prev").addEventListener("click",()=>{shownStart=monthStart(addDays(shownStart,-1));selected=new Date(shownStart);render();});
+  $("avasin-calendar-next").addEventListener("click",()=>{shownStart=monthStart(addDays(shownStart,35));selected=new Date(shownStart);render();});
+  $("avasin-calendar-today").addEventListener("click",()=>{selected=new Date(today);shownStart=monthStart(today);render();});
+  render();
+})();
+</script>
+</body></html>
