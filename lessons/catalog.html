@@ -127,7 +127,7 @@ catalog.innerHTML=groups.map(c=>{const group=base.filter(l=>l.courseId===c.id);i
    Course 1 contains multi-part physical pages; only each logical lesson's final
    page marks that lesson complete. Never use another account's local cache. */
 async function syncCatalogProgressFromServer(){
-  const c1Ends={1:"017.html",2:"018.html",3:"019.html",4:"020.html",5:"021.html",6:"022.html",7:"023.html",8:"024.html",9:"025.html",10:"026.html",11:"027.html",12:"028.html",13:"029.html",14:"030.html",15:"031.html",16:"032.html",17:"033.html",18:"034.html",19:"035.html",20:"036.html",21:"037.html",22:"043.html",23:"051.html",24:"045.html",25:"057.html",26:"058.html"};
+  const c1Ends={1:"017.html",2:"018.html",3:"019.html",4:"020.html",5:"021.html",6:"022.html",7:"023.html",8:"024.html",9:"025.html",10:"026.html",11:"027.html",12:"028.html",13:"029.html",14:"030.html",15:"031.html",16:"032.html",17:"033.html",18:"034.html",19:"035.html",20:"036.html",21:"037.html",22:"044.html",23:"051.html",24:"045.html",25:"057.html",26:"058.html"};
   const clearCourse=(scope,count)=>{
     for(let n=1;n<=count;n++){
       localStorage.removeItem("lesson-completed:"+scope+":"+n);
