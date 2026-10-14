@@ -1,3 +1,19 @@
+/* Ensure the shared academic UI stylesheet is the last stylesheet in the cascade.
+   This resolves older page-local CSS overriding the compact design layer. */
+(function(){
+  function loadAvasinAcademicUI(){
+    const links=[...document.querySelectorAll('link[rel="stylesheet"][href*="style.css"]')];
+    if(!links.length)return;
+    const link=links[links.length-1];
+    const href=new URL(link.href,location.href);
+    href.searchParams.set("v","20261014-academic-ui-cascade-fix");
+    link.href=href.href;
+    document.head.appendChild(link);
+  }
+  if(document.readyState==="loading")document.addEventListener("DOMContentLoaded",loadAvasinAcademicUI,{once:true});
+  else loadAvasinAcademicUI();
+})();
+
 /* Shared Supabase client singleton: avoid multiple GoTrueClient instances per page. */
 window.ZANSTI_GET_SUPABASE_CLIENT = window.ZANSTI_GET_SUPABASE_CLIENT || function(){
   if(!window.supabase?.createClient || !window.ZANSTI_SUPABASE?.ready) return null;
