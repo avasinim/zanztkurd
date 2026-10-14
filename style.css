@@ -2676,7 +2676,7 @@ body.v2-home .v2-header .v2-menu {
 }
 .v2-brand:not(.academy-brand)>span:not(.v2-brand-mark){display:none!important}
 .v2-brand:not(.academy-brand)::after{
-  content:"ئەکادێمیای ئاڤاشین\\A ACADEMIC · LANGUAGE PLATFORM";
+  content:"ئەکادێمیای ئاڤاشین\A ACADEMIC · LANGUAGE PLATFORM";
   display:block;white-space:pre;line-height:1.55;text-align:right;
   font-size:clamp(10px,1.1vw,15px);font-weight:850;letter-spacing:0;
   max-width:230px;
