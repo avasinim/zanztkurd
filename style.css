@@ -2686,5 +2686,5 @@ a[href*="sabir-zhakaw.html"]{display:none!important}
   .v2-brand:not(.academy-brand){gap:7px}
   .v2-brand:not(.academy-brand) .v2-brand-mark{flex-basis:36px;width:36px;height:36px;border-radius:10px}
   .v2-brand:not(.academy-brand) .v2-brand-mark::after{font-size:19px}
-  .v2-brand:not(.academy-brand)::after{font-size:10px;max-width:175px}
+  .v2-brand:not(.academy-brand)::after{font-size:8px;letter-spacing:.55px;max-width:175px}
 }
