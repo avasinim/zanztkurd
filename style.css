@@ -3113,3 +3113,15 @@ hr{border:0;border-top:1px solid var(--av-line)}
 @media(max-width:900px){.v2-header .v2-nav{min-height:70px!important}.v2-header .v2-nav-links{display:none!important}.v2-header .v2-menu{display:inline-flex!important;align-items:center!important;justify-content:center!important;margin-inline-start:auto!important}.v2-header .v2-mobile-menu{top:100%!important;inset-inline:0!important;max-width:100%!important}.v2-header .v2-account-actions{margin-inline-start:auto!important}}
 @media(max-width:520px){.v2-header .v2-nav{min-height:64px!important;padding-block:8px!important}.v2-header .v2-brand.academy-brand{min-width:0!important;gap:8px!important}.v2-header .academy-brand .academy-mark{width:30px!important;height:30px!important;flex:0 0 30px!important}.v2-header .academy-brand .academy-name{font-size:14px!important}.v2-header .academy-brand .academy-sub{font-size:6px!important;letter-spacing:.8px!important}.v2-header .v2-account-actions a,.v2-header .v2-nav-account{min-height:32px!important;padding:6px 9px!important;font-size:9px!important}}
 @media(prefers-reduced-motion:reduce){.v2-header .v2-nav-links a,.v2-header .v2-nav-links a:before{transition:none!important}}
+
+
+/* Homepage: reduce the large vertical gap above the hero headline card */
+.v2-hero{min-height:680px!important}
+.v2-hero-grid{padding-top:24px!important}
+@media(max-width:900px){
+  .v2-hero{padding-top:88px!important}
+  .v2-hero-grid{padding-top:0!important}
+}
+@media(max-width:560px){
+  .v2-hero{padding-top:82px!important;padding-bottom:42px!important}
+}
