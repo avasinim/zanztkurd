@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<meta name="description" content="وێبلۆگی هاوڕێیان لە ئەکادێمیای ئاڤاشین؛ شوێنێک بۆ ناساندن و دۆزینەوەی وێبلۆگە کوردییەکان و نووسەرانی سەربەخۆ.">
+<meta name="description" content="وێبلۆگی هاوڕێیان لە ئەکادێمیای ئاڤاشین؛ شوێنێک بۆ ناساندن و دۆزینەوەی وێبلۆگە کوردییەکان و نوسەرانی سەربەخۆ.">
 <title>وێبلۆگی هاوڕێیان | ئەکادێمیای ئاڤاشین</title>
 <link rel="stylesheet" href="style.css?v=20261014-weblog">
 <link rel="canonical" href="https://avasinim.github.io/zanztkurd/weblog.html">
@@ -24,6 +24,12 @@
 .weblog-section-head{max-width:780px;margin-bottom:28px}
 .weblog-section-head h2{margin:8px 0;color:#27352c;font-size:clamp(1.6rem,3.5vw,2.35rem)}
 .weblog-section-head p{color:#626c63;line-height:1.95}
+.weblog-list{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}
+.weblog-card{display:flex;flex-direction:column;align-items:flex-start;min-width:0;padding:25px;border:1px solid #d8d9cf;border-radius:4px 16px 4px 16px;background:#fff;box-shadow:0 10px 28px rgba(35,47,39,.045)}
+.weblog-card h3{margin:0 0 9px;color:#27352c;font-size:1.18rem;line-height:1.7}
+.weblog-card p{margin:0 0 16px;color:#626c63;line-height:1.9;font-size:.93rem}
+.weblog-card a{margin-top:auto;color:#52684f;font-weight:800;text-decoration:none;overflow-wrap:anywhere}
+.weblog-card a:hover{text-decoration:underline}
 .weblog-empty{max-width:900px;padding:clamp(24px,5vw,46px);border:1px solid #d8d9cf;border-right:5px solid #b58b53;border-radius:4px 18px 4px 18px;background:#fff;box-shadow:0 12px 34px rgba(35,47,39,.05)}
 .weblog-empty-mark{display:grid;place-items:center;width:52px;height:52px;margin-bottom:18px;border:1px solid #d8c9ad;border-radius:14px;background:#f7f3e9;color:#8a6a3d;font-size:24px}
 .weblog-empty h3{margin:0 0 10px;color:#27352c;font-size:1.25rem}
@@ -32,7 +38,7 @@
 .weblog-request:hover{background:#3c5645}
 .weblog-note{margin-top:22px;padding-top:18px;border-top:1px solid #e6e4dc;color:#737a72;font-size:.86rem;line-height:1.9}
 .weblog-back{display:inline-block;margin-top:22px;color:#52684f;font-weight:750}
-@media(max-width:650px){.weblog-hero{padding-top:125px}.weblog-hero:after{top:100px}.weblog-request{max-width:100%;font-size:.82rem}}
+@media(max-width:650px){.weblog-list{grid-template-columns:1fr}.weblog-hero{padding-top:125px}.weblog-hero:after{top:100px}.weblog-request{max-width:100%;font-size:.82rem}}
 </style>
 </head>
 <body class="content-page">
@@ -47,8 +53,15 @@
 <main>
 <section class="weblog-hero"><div class="container"><span class="weblog-kicker">ئاڤاشین · کۆمەڵگەی نووسەران</span><h1>وێبلۆگی هاوڕێیان</h1><p>ئەم بەشە تایبەتە بە ناساندنی وێبلۆگەکانی هاوڕێیان، نووسەرانی سەربەخۆ و ماڵپەڕە کوردییەکان. ئامانج ئەوەیە خوێنەر بتوانێت لە یەک شوێنەوە وێبلۆگە جیاوازەکان بدۆزێتەوە و سەردانیان بکات.</p></div></section>
 <section class="weblog-section"><div class="container">
-<div class="weblog-section-head"><span class="weblog-kicker">BLOG DIRECTORY</span><h2>وێبلۆگەکانی هاوڕێیان</h2><p>گرێدەرەکان لەم شوێنەدا بە شێوەی کارتی ڕێکخراو پێشکەش دەکرێن؛ ناوی وێبلۆگ، ناوی نووسەر، کورتەی ناساندن و گرێدەری سەردان.</p></div>
-<article class="weblog-empty"><div class="weblog-empty-mark" aria-hidden="true">✎</div><h3>ئامادەی وەرگرتنی وێبلۆگەکانی هاوڕێیان</h3><p>لیستی وێبلۆگەکان لە قۆناغی یەکەمدا بەتاڵە، چونکە ناو و گرێدەری پشتڕاست‌کراوەی وێبلۆگەکانمان پێویستە. کاتێک زانیارییەکانمان پێ بگات، هەر وێبلۆگێک بە ناوی خاوەنەکەی و کورتەیەکی ناساندن لێرە زیاد دەکرێت.</p><a class="weblog-request" href="mailto:zanstkurd@tutamail.com?subject=%D9%BE%DB%8E%D8%B4%DA%A9%DB%95%D8%B4%DA%A9%D8%B1%D8%AF%D9%86%DB%8C%20%D9%88%DB%8E%D8%A8%D9%84%DB%86%DA%AF%DB%8C%20%D9%87%D8%A7%D9%88%DA%95%DB%8E%D8%A7%D9%86&body=%D9%86%D8%A7%D9%88%DB%8C%20%D9%88%DB%8E%D8%A8%D9%84%DB%86%DA%AF%3A%0A%D9%86%D8%A7%D9%88%DB%8C%20%D9%86%D9%88%D9%88%D8%B3%DB%95%D8%B1%3A%0A%DA%AF%D8%B1%DB%8E%D8%AF%DB%95%D8%B1%DB%8C%20%D9%88%DB%8E%D8%A8%D9%84%ۆ%DA%AF%3A%0A%DA%A9%D9%88%D8%B1%D8%AA%DB%95%DB%8C%20%D9%86%D8%A7%D8%B3%D8%A7%D9%86%D8%AF%D9%86%3A">پێشکەشکردنی وێبلۆگ <span aria-hidden="true">←</span></a><div class="weblog-note">تکایە ناوی وێبلۆگ، ناوی نووسەر، گرێدەری ڕاستەوخۆ و کورتەیەکی ناساندن بنێرە. گرێدەرەکان پێش زیادکردن پشکنین دەکرێن.</div></article>
+<div class="weblog-section-head"><span class="weblog-kicker">BLOG DIRECTORY</span><h2>وێبلۆگەکانی هاوڕێیان</h2><p>ئەم شەش وێبلۆگە لەبەر بابەت و ناوەڕۆکی جیاوازیان لێرە کۆکراونەتەوە. دەتوانیت لە ڕێگەی گرێدەرەکانەوە سەردانیان بکەیت.</p></div>
+<div class="weblog-list" aria-label="وێبلۆگەکانی هاوڕێیان">
+<article class="weblog-card"><h3>ڕەچەڵەک‌ناسی وشان</h3><p>بابەتەکانی زانستی ئێتیمۆلۆجی و زانستی زوان؛ لێکۆڵینەوە لە ڕەچەڵەک و گەشەی وشەکان.</p><a href="https://recheleknasi.blogfa.com/" target="_blank" rel="noopener noreferrer">سەردانی وێبلۆگ ←</a></article>
+<article class="weblog-card"><h3>فێربونی ڕێنوسی کوردی</h3><p>وێبلۆگێک لەبارەی ڕێنوسی کوردی و بابەتە پەیوەندیدارەکانی نووسین.</p><a href="https://renus.blogfa.com/" target="_blank" rel="noopener noreferrer">سەردانی وێبلۆگ ←</a></article>
+<article class="weblog-card"><h3>ڕێزمان ـ ڕێنوس ـ زمان‌ناسی ـ زمانەوانی</h3><p>بابەتەکانی ڕێزمان، ڕێنوس و زمان‌ناسی.</p><a href="https://rezman33.blogfa.com/" target="_blank" rel="noopener noreferrer">سەردانی وێبلۆگ ←</a></article>
+<article class="weblog-card"><h3>زانست ٦</h3><p>وێبلۆگی زانستی بە ناونیشانی «zanst6»؛ وردەکارییەکانی بابەتەکان لە سەردانی وێبلۆگەکەدا ببینە.</p><a href="https://zanst6.blogfa.com/" target="_blank" rel="noopener noreferrer">سەردانی وێبلۆگ ←</a></article>
+<article class="weblog-card"><h3>زمان‌ناسی</h3><p>وێبلۆگی زمان‌ناسی و بابەتە زانستییەکانی زوان؛ لە ماڵپەڕەکەدا بە ناوی سابیر ژاکاو ناسێنراوە.</p><a href="https://zimannasi.blogfa.com/" target="_blank" rel="noopener noreferrer">سەردانی وێبلۆگ ←</a></article>
+<article class="weblog-card"><h3>زیوان ٦</h3><p>وێبلۆگێک بە ناونیشانی «ziwan6»؛ بۆ ناسینی وردەکارییەکانی ناوەڕۆک، سەردانی گرێدەرەکە بکە.</p><a href="https://ziwan6.blogfa.com/" target="_blank" rel="noopener noreferrer">سەردانی وێبلۆگ ←</a></article>
+</div>
 <a class="weblog-back" href="index.html">← گەڕانەوە بۆ پەڕەی سەرەکی</a>
 </div></section>
 </main>
