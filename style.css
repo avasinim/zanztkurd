@@ -3418,3 +3418,43 @@ hr{border:0;border-top:1px solid var(--av-line)}
   .v2-footer-social .v2-footer-social-link{min-height:54px!important;padding:8px!important;gap:9px!important}
   .v2-footer-social .v2-youtube-mark,.v2-footer-social .v2-telegram-mark{flex-basis:34px!important;width:34px!important;height:34px!important}
 }
+
+
+/* Minimal social logo rail — icons only, compact footprint */
+.v2-footer-social{
+  display:flex!important;flex-direction:row!important;align-items:center!important;justify-content:flex-start!important;
+  flex-wrap:wrap!important;gap:8px!important;min-width:0!important;width:max-content!important;max-width:100%!important;
+  padding:7px 9px!important;margin:0!important;
+  border:1px solid rgba(199,169,104,.22)!important;border-radius:10px!important;
+  background:rgba(20,37,27,.58)!important;box-shadow:none!important;position:relative!important;overflow:visible!important;
+}
+.v2-footer-social:before{display:none!important;content:none!important}
+.v2-footer-social h4{display:none!important}
+.v2-footer-social .v2-footer-social-link{
+  display:inline-flex!important;align-items:center!important;justify-content:center!important;
+  flex:0 0 36px!important;width:36px!important;min-width:36px!important;max-width:36px!important;
+  height:36px!important;min-height:36px!important;padding:0!important;margin:0!important;
+  gap:0!important;border:1px solid rgba(199,169,104,.25)!important;border-radius:9px!important;
+  background:rgba(244,237,219,.035)!important;color:#f0dfb5!important;text-decoration:none!important;
+  font-size:0!important;line-height:0!important;box-shadow:none!important;
+}
+.v2-footer-social .v2-footer-social-link:hover{
+  transform:translateY(-1px)!important;background:rgba(199,169,104,.1)!important;
+  border-color:#c7a968!important;box-shadow:0 4px 10px rgba(0,0,0,.13)!important;
+}
+.v2-footer-social .v2-footer-social-link:focus-visible{outline:2px solid #c7a968!important;outline-offset:3px!important}
+.v2-footer-social .v2-youtube-mark,.v2-footer-social .v2-telegram-mark{
+  display:inline-flex!important;align-items:center!important;justify-content:center!important;
+  flex:0 0 22px!important;width:22px!important;height:22px!important;padding:0!important;
+  border:0!important;border-radius:6px!important;color:#fff!important;box-shadow:none!important;
+}
+.v2-footer-social .v2-youtube-mark{background:#c73532!important}
+.v2-footer-social .v2-telegram-mark{background:#2187b5!important}
+.v2-footer-social .v2-youtube-mark svg,.v2-footer-social .v2-telegram-mark svg{
+  display:block!important;width:14px!important;height:14px!important;fill:currentColor!important;
+}
+.v2-footer-social .v2-social-link-copy,.v2-footer-social .v2-social-external{display:none!important}
+@media(max-width:640px){
+ .v2-footer-social{gap:6px!important;padding:6px 7px!important}
+ .v2-footer-social .v2-footer-social-link{flex-basis:33px!important;width:33px!important;min-width:33px!important;max-width:33px!important;height:33px!important;min-height:33px!important}
+}
