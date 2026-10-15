@@ -1693,3 +1693,32 @@ async function markLessonComplete(courseId, lessonKey){
   if(document.readyState==="loading")document.addEventListener("DOMContentLoaded",setupAvasinLanguageSelector,{once:true});
   else setupAvasinLanguageSelector();
 })();
+
+
+/* Avasin social links: ensure the network section is present across site pages */
+(function(){
+  "use strict";
+  const telegramUrl = "https://t.me/zimannasi";
+  const telegramMarkup = '<a class="v2-footer-social-link v2-telegram-link" href="' + telegramUrl + '" target="_blank" rel="noopener noreferrer" aria-label="کەناڵی تەلەگرامی زمان‌ناسی"><span class="v2-telegram-mark" aria-hidden="true"><svg viewBox="0 0 24 24" focusable="false"><path d="M21.5 3.6 18.3 20c-.2 1.1-.8 1.4-1.7.9l-4.8-3.6-2.3 2.2c-.3.3-.5.5-1 .5l.4-4.9 9-8.1c.4-.4-.1-.6-.6-.2L6.2 13.7l-4.7-1.5c-1-.3-1-1 .2-1.5L20 3.1c.9-.3 1.7.2 1.5.5Z"/></svg></span><span>تەلەگرام · @zimannasi</span><span aria-hidden="true">↗</span></a>';
+  const youtubeMarkup = '<a class="v2-footer-social-link" href="https://www.youtube.com/@zimannas3366" target="_blank" rel="noopener noreferrer" aria-label="کەناڵی یوتیوبی زانستی کورد"><span aria-hidden="true" class="v2-youtube-mark">▶</span><span>کەناڵی یوتیوب</span><span aria-hidden="true">↗</span></a>';
+  function setupSocialLinks(){
+    document.querySelectorAll(".v2-footer").forEach(function(footer){
+      const grid=footer.querySelector(".v2-footer-grid");
+      if(!grid)return;
+      let section=grid.querySelector(".v2-footer-social");
+      if(!section){
+        section=document.createElement("div");
+        section.className="v2-footer-social";
+        section.innerHTML="<h4>تۆڕەکانی ئێمە</h4>";
+        grid.appendChild(section);
+      }else{
+        const heading=section.querySelector("h4");
+        if(heading)heading.textContent="تۆڕەکانی ئێمە";
+      }
+      if(!section.querySelector('a[href="https://www.youtube.com/@zimannas3366"]'))section.insertAdjacentHTML("beforeend",youtubeMarkup);
+      if(!section.querySelector('a[href="https://t.me/zimannasi"]'))section.insertAdjacentHTML("beforeend",telegramMarkup);
+    });
+  }
+  if(document.readyState==="loading")document.addEventListener("DOMContentLoaded",setupSocialLinks,{once:true});
+  else setupSocialLinks();
+})();
