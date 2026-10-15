@@ -3223,3 +3223,44 @@ hr{border:0;border-top:1px solid var(--av-line)}
 .v2-footer-social .v2-telegram-mark svg{display:block;width:16px;height:16px;fill:currentColor}
 .v2-footer-social .v2-footer-social-link span:last-child{opacity:.7}
 @media(max-width:640px){.v2-footer-social .v2-footer-social-link{font-size:11px}}
+
+
+/* FINAL GLOBAL OVERRIDE — keep language switcher text cream/gold; change only its frame to deep green */
+.avasin-language-mini>summary,
+.avasin-language-mini>summary:hover,
+.avasin-language-mini[open]>summary{
+  background:linear-gradient(135deg,#1d3025,#14251b)!important;
+  border-color:#385a40!important;
+  color:#f0dfb5!important;
+  box-shadow:0 4px 14px rgba(8,17,11,.28)!important;
+}
+.avasin-language-current{color:#f0dfb5!important}
+.avasin-language-chevron{color:#c7a968!important}
+.avasin-language-mini-panel{
+  background:rgba(20,37,27,.99)!important;
+  border-color:#385a40!important;
+  color:#f0dfb5!important;
+  box-shadow:0 12px 30px rgba(8,17,11,.35)!important;
+}
+.avasin-language-panel-caption{color:#e5d6ad!important;border-bottom-color:rgba(199,169,104,.32)!important}
+.avasin-language-option,
+.avasin-language-option.avasin-language-option-style-0,
+.avasin-language-option.avasin-language-option-style-1,
+.avasin-language-option.avasin-language-option-style-2,
+.avasin-language-option.avasin-language-option-style-3,
+.avasin-language-option.avasin-language-option-style-4,
+.avasin-language-option.avasin-language-option-style-5,
+.avasin-language-option.avasin-language-option-style-6,
+.avasin-language-option.avasin-language-option-style-7{
+  background:#223b2b!important;
+  border-color:rgba(199,169,104,.34)!important;
+  color:#f0dfb5!important;
+}
+.avasin-language-option:hover,
+.avasin-language-option.is-active{
+  background:#2b4934!important;
+  border-color:#c7a968!important;
+  color:#f0dfb5!important;
+}
+.avasin-language-option-initial{background:#35523a!important;color:#f0dfb5!important}
+.avasin-language-option-mark{color:#c7a968!important}
