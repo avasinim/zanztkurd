@@ -3127,6 +3127,27 @@ hr{border:0;border-top:1px solid var(--av-line)}
 }
 
 
+
+/* Avasin theme-matched language switcher color refinement */
+.avasin-language-mini>summary{
+  border-color:var(--border,rgba(142,153,133,.48))!important;
+  background:var(--surface,linear-gradient(135deg,#f5f5ee,#e9ede4))!important;
+  color:var(--text,#344238)!important;
+  box-shadow:0 4px 14px rgba(39,49,40,.08)!important;
+}
+.avasin-language-mini>summary:hover,.avasin-language-mini[open]>summary{
+  border-color:var(--accent,#a4ad8e)!important;
+  box-shadow:0 6px 16px rgba(39,49,40,.12)!important;
+}
+.avasin-language-chevron{color:var(--accent,#8b9878)!important}
+.avasin-language-mini-panel{
+  border-color:var(--border,#d9ded2)!important;
+  background:var(--surface,#f8f8f2)!important;
+}
+.avasin-language-panel-caption{color:var(--muted,#687363)!important;border-bottom-color:var(--border,#e1e5da)!important}
+.avasin-language-option{border-color:var(--border,#d9ded2)!important;background:var(--card,#fff)!important;color:var(--text,#344238)!important}
+.avasin-language-option:hover,.avasin-language-option.is-active{border-color:var(--accent,#a4ad8e)!important;background:var(--surface,#eef0e7)!important}
+.avasin-language-option-initial{background:var(--surface,#edf0e7)!important;color:var(--text,#536047)!important}
 /* Avasin slim horizontal language control — shared by every page */
 .avasin-language-mini{
   position:fixed!important;top:13px!important;left:13px!important;right:auto!important;
