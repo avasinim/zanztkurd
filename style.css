@@ -3128,26 +3128,29 @@ hr{border:0;border-top:1px solid var(--av-line)}
 
 
 
-/* Avasin theme-matched language switcher color refinement */
+/* Avasin theme-matched language switcher — teal, not white */
 .avasin-language-mini>summary{
-  border-color:var(--border,rgba(142,153,133,.48))!important;
-  background:var(--surface,linear-gradient(135deg,#f5f5ee,#e9ede4))!important;
-  color:var(--text,#344238)!important;
-  box-shadow:0 4px 14px rgba(39,49,40,.08)!important;
+  border-color:#367c7b!important;
+  background:linear-gradient(135deg,#123f4b,#0b2d39)!important;
+  color:#d8fff5!important;
+  box-shadow:0 4px 14px rgba(6,35,44,.22)!important;
 }
 .avasin-language-mini>summary:hover,.avasin-language-mini[open]>summary{
-  border-color:var(--accent,#a4ad8e)!important;
-  box-shadow:0 6px 16px rgba(39,49,40,.12)!important;
+  border-color:#69c5b4!important;
+  background:linear-gradient(135deg,#1b5b63,#10404d)!important;
+  box-shadow:0 6px 16px rgba(6,35,44,.28)!important;
 }
-.avasin-language-chevron{color:var(--accent,#8b9878)!important}
+.avasin-language-current{color:#e1fff8!important}
+.avasin-language-chevron{color:#79d8c8!important}
 .avasin-language-mini-panel{
-  border-color:var(--border,#d9ded2)!important;
-  background:var(--surface,#f8f8f2)!important;
+  border-color:#367c7b!important;
+  background:rgba(8,37,48,.97)!important;
+  box-shadow:0 10px 26px rgba(6,35,44,.25)!important;
 }
-.avasin-language-panel-caption{color:var(--muted,#687363)!important;border-bottom-color:var(--border,#e1e5da)!important}
-.avasin-language-option{border-color:var(--border,#d9ded2)!important;background:var(--card,#fff)!important;color:var(--text,#344238)!important}
-.avasin-language-option:hover,.avasin-language-option.is-active{border-color:var(--accent,#a4ad8e)!important;background:var(--surface,#eef0e7)!important}
-.avasin-language-option-initial{background:var(--surface,#edf0e7)!important;color:var(--text,#536047)!important}
+.avasin-language-panel-caption{color:#b7dcd5!important;border-bottom-color:rgba(105,197,180,.24)!important}
+.avasin-language-option{border-color:rgba(105,197,180,.28)!important;background:#123743!important;color:#e2f7f3!important}
+.avasin-language-option:hover,.avasin-language-option.is-active{border-color:#69c5b4!important;background:#1b5961!important}
+.avasin-language-option-initial{background:#20535a!important;color:#bff7e9!important}
 /* Avasin slim horizontal language control — shared by every page */
 .avasin-language-mini{
   position:fixed!important;top:13px!important;left:13px!important;right:auto!important;
