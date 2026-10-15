@@ -145,24 +145,24 @@
 
 
 
-/* Voluntary support section — free access remains the default */
-.avasin-support{padding:clamp(48px,6vw,76px) 0;background:#202824;color:#f3f0e7;border-top:1px solid rgba(211,171,117,.2);border-bottom:1px solid rgba(211,171,117,.16)}
-.avasin-support-inner{display:grid;grid-template-columns:minmax(0,1.05fr) minmax(280px,.85fr);gap:clamp(24px,4vw,52px);align-items:center}
-.avasin-support-kicker{display:inline-flex;align-items:center;gap:9px;color:#d3ab75;font-size:.78rem;font-weight:800}
-.avasin-support-kicker:before{content:"";width:24px;height:1px;background:#d3ab75}
-.avasin-support-copy h2{margin:12px 0 14px;font-size:clamp(1.7rem,3.5vw,2.5rem);line-height:1.45;color:#f3f0e7}
-.avasin-support-copy h2 em{font-style:normal;color:#d3ab75}
-.avasin-support-copy p{max-width:680px;color:rgba(243,240,231,.72);line-height:2;margin:0 0 12px}
-.avasin-support-note{display:flex;gap:12px;align-items:flex-start;margin-top:20px;padding-top:17px;border-top:1px solid rgba(243,240,231,.14);color:rgba(243,240,231,.55);font-size:.86rem;line-height:1.9}
-.avasin-support-note svg{flex:0 0 20px;margin-top:4px}
-.avasin-support-panel{padding:clamp(20px,3vw,30px);border:1px solid rgba(211,171,117,.32);border-right:4px solid #d3ab75;background:rgba(255,255,255,.035)}
-.avasin-support-panel h3{margin:0 0 9px;font-size:1.15rem;color:#f3f0e7}
-.avasin-support-panel>p{margin:0;color:rgba(243,240,231,.64);line-height:1.9;font-size:.92rem}
-.avasin-support-bank{display:flex;gap:12px;align-items:center;margin-top:20px;padding:14px;background:rgba(211,171,117,.075);border:1px solid rgba(211,171,117,.18)}
-.avasin-support-bank-icon{display:grid;place-items:center;flex:0 0 42px;width:42px;height:42px;border:1px solid rgba(211,171,117,.34);color:#d3ab75;border-radius:50%}
-.avasin-support-bank strong{display:block;color:#e9dcc4;font-size:.93rem}
-.avasin-support-bank small{display:block;margin-top:4px;color:rgba(243,240,231,.52);line-height:1.7}
-@media(max-width:760px){.avasin-support-inner{grid-template-columns:1fr;gap:24px}.avasin-support{padding:44px 0}}
+/* Compact, expandable voluntary support strip */
+.avasin-support-mini{max-width:1120px;margin:24px auto 30px;padding:0 22px;color:#2d392f}
+.avasin-support-mini summary{list-style:none;display:flex;align-items:center;gap:13px;padding:15px 18px;border:1px solid #d9d7cb;border-right:3px solid #b58b53;background:#f7f6f0;cursor:pointer}
+.avasin-support-mini summary::-webkit-details-marker{display:none}
+.avasin-support-mini-icon{display:grid;place-items:center;flex:0 0 34px;width:34px;height:34px;border:1px solid #ded0b4;border-radius:50%;color:#8c6c3e;font-size:17px}
+.avasin-support-mini-summary-copy{flex:1;min-width:0}
+.avasin-support-mini-summary-copy strong{display:block;font-size:.96rem;line-height:1.65}
+.avasin-support-mini-summary-copy small{display:block;margin-top:2px;color:#697166;font-size:.82rem;line-height:1.7}
+.avasin-support-mini-chevron{color:#8c6c3e;font-size:1.1rem;transition:transform .18s}
+.avasin-support-mini[open] .avasin-support-mini-chevron{transform:rotate(180deg)}
+.avasin-support-mini-content{display:grid;grid-template-columns:minmax(0,1fr) minmax(240px,.75fr);gap:22px;padding:20px;border:1px solid #d9d7cb;border-top:0;background:#fff}
+.avasin-support-mini-content p{margin:0 0 9px;color:#59645b;font-size:.9rem;line-height:1.9}
+.avasin-support-mini-content h3{margin:0 0 8px;color:#2d392f;font-size:1rem}
+.avasin-support-mini-bank{align-self:start;padding:15px;background:#f7f6f0;border:1px solid #e3dfd2}
+.avasin-support-mini-bank strong{display:block;color:#665033;font-size:.9rem}
+.avasin-support-mini-bank small{display:block;margin-top:5px;color:#697166;line-height:1.8;font-size:.82rem}
+.avasin-support-mini-note{font-size:.8rem!important;color:#7b8178!important}
+@media(max-width:680px){.avasin-support-mini{margin:18px auto 24px;padding:0 14px}.avasin-support-mini summary{padding:12px;gap:10px}.avasin-support-mini-summary-copy small{font-size:.77rem}.avasin-support-mini-content{grid-template-columns:1fr;gap:12px;padding:15px}}
 
 </style>
 <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"WebSite","name":"ئەکادێمیای ئاڤاشین","url":"https://avasinim.github.io/zanztkurd/","inLanguage":"ckb","description":"پلاتفۆرمی فێربونی زوانی کوردیک و زمان‌ناسی بە شێوەیەکی زانستی و ئەکادیمی."},{"@type":"EducationalOrganization","name":"ئەکادێمیای ئاڤاشین","url":"https://avasinim.github.io/zanztkurd/","description":"پلاتفۆرمی فێربونی زوانی کوردیک، زمان‌ناسی و سەرچاوە زانستیەکان.","email":"zanstkurd@tutamail.com","inLanguage":"ckb"}]}</script>
@@ -208,26 +208,47 @@
 
 
 
-<section class="avasin-support" id="support" aria-labelledby="avasin-support-title">
-  <div class="v2-shell avasin-support-inner">
-    <div class="avasin-support-copy">
-      <span class="avasin-support-kicker">پاڵپشتی پڕۆژەیەکی زانستی</span>
-      <h2 id="avasin-support-title">زانست بۆ هەمووان، <em>بەخۆڕایی</em></h2>
-      <p>هەموو وانەکان و ناوەڕۆکی فێرکاریی زانستی کورد بەخۆڕایی لەبەردەستی بەکارهێنەران دانراون. بۆ خوێندنەوە، فێربون و بەکارهێنانی ماڵپەڕ هیچ پارەدانێک پێویست نیە.</p>
-      <p>ئەگەر بتەوێت یارمەتی بدەیت، پاڵپشتیی داراییی تۆ بە ئارەزووی خۆتە و دەتوانێت یارمەتیدەر بێت بۆ بەردەوامی، پاراستن و پەرەپێدانی ئەم پڕۆژەیە.</p>
-      <div class="avasin-support-note"><span aria-hidden="true">ⓘ</span><span>پاڵپشتی دارایی مەرجی بەکارهێنانی ماڵپەڕ نیە و هیچ خزمەتگوزارییەک بەهۆی نەکردنی پاڵپشتی سنووردار ناکرێت.</span></div>
+<details class="avasin-support-mini" id="support">
+  <summary>
+    <span class="avasin-support-mini-icon" aria-hidden="true">♡</span>
+    <span class="avasin-support-mini-summary-copy"><strong>زانست بۆ هەمووان، بەخۆڕایی</strong><small>هەموو ناوەڕۆکی ماڵپەڕ بەخۆڕاییە؛ ئەگەر حەزت کرد، دەتوانیت پاڵپشتی بکەیت.</small></span>
+    <span class="avasin-support-mini-chevron" aria-hidden="true">⌄</span>
+  </summary>
+  <div class="avasin-support-mini-content">
+    <div>
+      <h3>پاڵپشتییەکی ئارەزوومەندانە</h3>
+      <p>وانەکان و ناوەڕۆکی فێرکاریی زانستی کورد بەبێ پارەدان لەبەردەستی هەمووانن. پاڵپشتی دارایی تەنیا بە ویستی خۆتە و یارمەتیدەرە بۆ بەردەوامی و پەرەپێدانی پڕۆژەکە.</p>
+      <p class="avasin-support-mini-note">بەکارهێنانی ماڵپەڕ پێویستی بە پاڵپشتی دارایی نیە و هیچ خزمەتگوزارییەک بەهۆی نەکردنی پاڵپشتی سنووردار ناکرێت.</p>
     </div>
-    <aside class="avasin-support-panel" aria-label="ڕێگای پاڵپشتی دارایی">
+    <aside class="avasin-support-mini-bank">
       <h3>پاڵپشتی لە ڕێگەی هەژماری بانکی</h3>
-      <p>زانیاریی هەژماری بانکی لەم شوێنەدا زیاد دەکرێت. تا ئەو کاتە، تکایە هیچ ژمارە یان زانیارییەکی بانکی بە گومان مەگرەوە.</p>
-      <div class="avasin-support-bank">
-        <span class="avasin-support-bank-icon" aria-hidden="true">⌂</span>
-        <span><strong>زانیاریی هەژمار</strong><small>ژمارەی هەژمار و ناوی خاوەن هەژمار دوای ئامادەکردن لێرە دادەنرێن.</small></span>
-      </div>
-      <p style="margin-top:14px;font-size:.82rem">پارەدان لە دەرەوەی ئێران هێشتا ڕێگای پشتڕاست‌کراوەی تایبەتی نیە؛ ئەمە دوای دیاریکردنی ڕێگای گونجاو ڕوون دەکرێتەوە.</p>
+      <strong>زانیاریی هەژمار</strong>
+      <small>ژمارەی هەژمار و ناوی خاوەن هەژمار دوای ئامادەکردن لێرە دادەنرێن.</small>
+      <p class="avasin-support-mini-note" style="margin-top:9px">بۆ کەسانی دەرەوەی ئێران، ڕێگای پارەدان پێویستە پێشتر پشتڕاست بکرێتەوە.</p>
     </aside>
   </div>
-</section>
+</details>
+
+<details class="avasin-support-mini" id="support">
+  <summary>
+    <span class="avasin-support-mini-icon" aria-hidden="true">♡</span>
+    <span class="avasin-support-mini-summary-copy"><strong>زانست بۆ هەمووان، بەخۆڕایی</strong><small>هەموو ناوەڕۆکی ماڵپەڕ بەخۆڕاییە؛ ئەگەر حەزت کرد، دەتوانیت پاڵپشتی بکەیت.</small></span>
+    <span class="avasin-support-mini-chevron" aria-hidden="true">⌄</span>
+  </summary>
+  <div class="avasin-support-mini-content">
+    <div>
+      <h3>پاڵپشتییەکی ئارەزوومەندانە</h3>
+      <p>وانەکان و ناوەڕۆکی فێرکاریی زانستی کورد بەبێ پارەدان لەبەردەستی هەمووانن. پاڵپشتی دارایی تەنیا بە ویستی خۆتە و یارمەتیدەرە بۆ بەردەوامی و پەرەپێدانی پڕۆژەکە.</p>
+      <p class="avasin-support-mini-note">بەکارهێنانی ماڵپەڕ پێویستی بە پاڵپشتی دارایی نیە و هیچ خزمەتگوزارییەک بەهۆی نەکردنی پاڵپشتی سنووردار ناکرێت.</p>
+    </div>
+    <aside class="avasin-support-mini-bank">
+      <h3>پاڵپشتی لە ڕێگەی هەژماری بانکی</h3>
+      <strong>زانیاریی هەژمار</strong>
+      <small>ژمارەی هەژمار و ناوی خاوەن هەژمار دوای ئامادەکردن لێرە دادەنرێن.</small>
+      <p class="avasin-support-mini-note" style="margin-top:9px">بۆ کەسانی دەرەوەی ئێران، ڕێگای پارەدان پێویستە پێشتر پشتڕاست بکرێتەوە.</p>
+    </aside>
+  </div>
+</details>
 
 <section class="site-feedback" id="site-feedback" aria-labelledby="site-feedback-title">
   <div class="v2-shell site-feedback-inner">
