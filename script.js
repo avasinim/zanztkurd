@@ -1629,6 +1629,12 @@ async function markLessonComplete(courseId, lessonKey){
       const apply=()=>{
         const select=getSelect();
         if(!select)return false;
+        if(lang.code==="ku"){
+          select.value="";
+          select.dispatchEvent(new Event("change",{bubbles:true}));
+          updateCurrent(lang);
+          return true;
+        }
         const option=Array.from(select.options).find(item=>item.value===lang.code);
         if(!option)return false;
         select.value=lang.code;
