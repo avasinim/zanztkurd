@@ -34,9 +34,12 @@
 </header>
 <main>
 <section class="linguistics-book-text kurdik-lesson" id="book-pages-45-55" lang="ckb" dir="rtl" aria-labelledby="kurdik-lesson-title">
+  <div class="linguistics-topic-list" aria-label="بابەتەکانی زمان‌ناسی">
+    <details class="linguistics-topic-card" id="topic-kurdik-dialects">
+      <summary><span class="topic-card-kicker">بابەتی ١ · زمان‌ناسی</span><strong>زوانی کوردیک و زوانەژینگەییەکان و زارەکوردیەکان</strong><span class="topic-card-hint">بۆ خوێندنەوە، کرتە لێرە بکە <span aria-hidden="true">＋</span></span></summary>
+      <div class="linguistics-topic-content">
   <header class="kl-hero">
     <p class="kl-kicker">ئەکادێمیای ئاڤاشین · وانەی زمان‌ناسی</p>
-    <h2 id="kurdik-lesson-title">زوانی کوردیک و زوانەژینگەییەکان و زارەکوردیەکان</h2>
     <p class="kl-subtitle">وانەیەکی ئەکادێمیک لەسەر پۆلێن‌کردن، جۆرناسی و جوگرافیای زوانی</p>
     <div class="kl-meta"><span>بنەمای سەرچاوە: لاپەڕەکانی ٤٥–٥٥</span><span>کتێب: فۆنێتیک و فۆنۆلۆجی کوردیک</span><span>نووسەر: سابیر ژاکاو</span></div>
   </header>
@@ -112,7 +115,24 @@
   </section>
 
   <footer class="kl-source"><h3>سەرچاوە و سنووری وانە</h3><p>سابیر ژاکاو، <cite>فۆنێتیک و فۆنۆلۆجی کوردیک</cite>، لاپەڕەکانی ٤٥–٥٥. ئەم وانەیە ڕێکخستنێکی فێرکارییە لەسەر بابەتە سەرەکییەکانی ئەو لاپەڕانە؛ دەقی کتێب بە شێوەی وشە بە وشە دووبارە نەنووسراوەتەوە و بۆچوونە تایبەتییەکانی نووسەر بە ئەنجامی یەکلاکەرەوەی زانستی ناژمێردرێن.</p></footer>
+  </div>
+    </details>
+  </div>
 </section>
+<style>
+.linguistics-topic-list{display:grid;gap:12px;margin:0 0 28px}
+.linguistics-topic-card{border:1px solid #d9ded6;border-radius:16px;background:#fffefa;overflow:hidden;box-shadow:0 5px 18px #26352a08}
+.linguistics-topic-card>summary{list-style:none;cursor:pointer;display:flex;flex-direction:column;gap:7px;padding:20px 22px;position:relative}
+.linguistics-topic-card>summary::-webkit-details-marker{display:none}
+.linguistics-topic-card>summary:after{content:"＋";position:absolute;left:20px;top:24px;color:#8c6a43;font-size:1.2rem;font-weight:800}
+.linguistics-topic-card[open]>summary:after{content:"−"}
+.linguistics-topic-card>summary:focus-visible{outline:3px solid #a88a5e;outline-offset:-4px}
+.topic-card-kicker{font-size:.78rem;color:#8c6a43;font-weight:800}
+.topic-card-hint{font-size:.86rem;color:#66716a}
+.linguistics-topic-content{padding:0 18px 18px;border-top:1px solid #e4e7df}
+.linguistics-topic-content .kl-hero{margin-top:18px}
+@media(max-width:620px){.linguistics-topic-card>summary{padding:17px 16px}.linguistics-topic-card>summary:after{left:14px}.topic-card-hint{padding-left:25px}}
+</style>
 <style>
 .kurdik-lesson{--kl-ink:#252b27;--kl-muted:#66716a;--kl-line:#d9ded6;--kl-paper:#fffefa;--kl-accent:#8c6a43;max-width:1050px;margin:48px auto;padding:clamp(14px,3vw,30px);color:var(--kl-ink);font-family:inherit;line-height:1.9}
 .kl-hero{padding:clamp(24px,5vw,48px);background:linear-gradient(140deg,#f0eee5,#fbfaf6 65%,#e9eee7);border:1px solid var(--kl-line);border-radius:22px}
