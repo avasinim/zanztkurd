@@ -3125,3 +3125,65 @@ hr{border:0;border-top:1px solid var(--av-line)}
 @media(max-width:560px){
   .v2-hero{padding-top:82px!important;padding-bottom:42px!important}
 }
+
+
+/* Avasin slim horizontal language control — shared by every page */
+.avasin-language-mini{
+  position:fixed!important;top:13px!important;left:13px!important;right:auto!important;
+  z-index:100000!important;direction:rtl;font-family:inherit;color:#28382f;
+}
+.avasin-language-mini>summary{
+  list-style:none;display:flex;align-items:center;justify-content:center;gap:3px;
+  width:42px;min-width:42px;height:34px;min-height:34px;padding:0 5px;
+  border:1px solid #c8b58f!important;border-radius:11px 5px 11px 5px!important;
+  background:linear-gradient(135deg,rgba(255,255,255,.97),rgba(240,237,226,.96))!important;
+  box-shadow:0 4px 14px rgba(37,48,39,.09)!important;color:#293a30;
+  font-size:12px;font-weight:800;cursor:pointer;user-select:none;backdrop-filter:blur(12px);
+  transition:transform .18s ease,box-shadow .18s ease,border-color .18s ease;
+}
+.avasin-language-mini>summary:hover,.avasin-language-mini[open]>summary{
+  border-color:#9b7848!important;box-shadow:0 7px 18px rgba(37,48,39,.14)!important;transform:translateY(-1px);
+}
+.avasin-language-mini>summary::-webkit-details-marker{display:none}
+.avasin-language-mini>summary::marker{content:""}
+.avasin-language-current{display:inline-grid;place-items:center;min-width:14px;line-height:1.2;font-family:Georgia,"Noto Naskh Arabic",serif;font-size:16px;font-weight:800}
+.avasin-language-chevron{font-size:10px;color:#927448;line-height:1}
+.avasin-language-mini-panel{
+  position:absolute;top:42px;left:0;width:290px;max-width:calc(100vw - 24px);
+  padding:12px;border:1px solid #dcd3c1;border-radius:16px 6px 16px 6px;
+  background:rgba(252,250,244,.98);box-shadow:0 14px 38px rgba(27,36,29,.19);
+  display:flex;flex-direction:column;gap:9px;backdrop-filter:blur(16px);
+}
+.avasin-language-panel-caption{padding:0 3px 7px;border-bottom:1px solid #e6dfd2;color:#75654b;font:700 11px Georgia,serif;letter-spacing:.02em}
+.avasin-language-options{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:7px;max-height:min(58vh,390px);overflow:auto;padding:2px}
+.avasin-language-option{
+  display:flex;align-items:center;gap:8px;min-width:0;min-height:42px;padding:6px 8px;
+  border:1px solid #e0dbce;border-radius:9px 4px 9px 4px;background:#fff;color:#344238;
+  text-align:right;cursor:pointer;transition:transform .16s ease,box-shadow .16s ease,border-color .16s ease;
+}
+.avasin-language-option:hover{transform:translateY(-1px);box-shadow:0 4px 10px rgba(43,53,43,.08);border-color:#bca77f}
+.avasin-language-option-name{flex:1;min-width:0;overflow-wrap:anywhere;font-size:11px;font-weight:650;line-height:1.35}
+.avasin-language-option-initial{display:grid;place-items:center;flex:0 0 27px;width:27px;height:27px;border-radius:50%;background:#f1eee5;color:#655438;font:800 15px Georgia,"Noto Naskh Arabic",serif}
+.avasin-language-option-mark{font-size:10px;opacity:.45}
+.avasin-language-option.is-active{border-color:#a38b5f;background:#f6f1e6;box-shadow:inset 0 0 0 1px rgba(163,139,95,.18)}
+.avasin-language-option.is-active .avasin-language-option-mark{opacity:1;color:#7a5c31}
+.avasin-language-option-style-0{border-radius:14px 5px 14px 5px;font-family:Georgia,serif;background:#fffdf8}
+.avasin-language-option-style-1{border-radius:5px 14px 5px 14px;font-family:Arial,sans-serif;background:#f8fbf8}
+.avasin-language-option-style-2{border-radius:999px 7px 7px 999px;font-family:"Trebuchet MS",sans-serif;background:#fbf7f0}
+.avasin-language-option-style-3{border-radius:4px;font-family:Tahoma,sans-serif;background:#f5f5f1;border-style:dashed}
+.avasin-language-option-style-4{border-radius:5px 5px 14px 5px;font-family:Verdana,sans-serif;background:#f9f5fb}
+.avasin-language-option-style-5{border-radius:14px 14px 4px 4px;font-family:"Times New Roman",serif;background:#f5f8fb}
+.avasin-language-option-style-6{border-radius:5px 999px 999px 5px;font-family:system-ui,sans-serif;background:#f8f8f4}
+.avasin-language-option-style-7{border-radius:10px 3px 10px 3px;font-family:"Courier New",monospace;background:#f8f6ef}
+.avasin-language-mini #google_translate_element{position:absolute!important;width:1px!important;height:1px!important;overflow:hidden!important;clip-path:inset(50%)!important;white-space:nowrap!important;pointer-events:none!important;opacity:0!important}
+.avasin-language-mini #google_translate_element .goog-te-gadget{font-size:0!important;color:transparent!important}
+.avasin-language-mini #google_translate_element .goog-te-combo{width:1px!important;min-width:1px!important;height:1px!important;min-height:1px!important;padding:0!important;border:0!important}
+.avasin-language-mini #google_translate_element .goog-te-gadget span{display:none!important}
+@media(max-width:620px){
+  .avasin-language-mini{top:9px!important;left:9px!important}
+  .avasin-language-mini>summary{width:39px;min-width:39px;height:32px;min-height:32px}
+  .avasin-language-mini-panel{top:39px;width:min(286px,calc(100vw - 18px));padding:10px}
+  .avasin-language-options{gap:6px;max-height:62vh}
+  .avasin-language-option{min-height:39px;padding:5px 6px;gap:6px}
+  .avasin-language-option-initial{flex-basis:24px;width:24px;height:24px}
+}
