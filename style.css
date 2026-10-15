@@ -3211,3 +3211,15 @@ hr{border:0;border-top:1px solid var(--av-line)}
   .avasin-language-option{min-height:39px;padding:5px 6px;gap:6px}
   .avasin-language-option-initial{flex-basis:24px;width:24px;height:24px}
 }
+
+
+/* Shared social-network footer section for every page using the site stylesheet */
+.v2-footer-social{display:flex;flex-direction:column;align-items:flex-start;gap:8px;min-width:0}
+.v2-footer-social h4{margin:0 0 3px;color:inherit;font-size:13px;font-weight:800}
+.v2-footer-social .v2-footer-social-link{display:flex;align-items:center;gap:9px;width:max-content;max-width:100%;padding:8px 10px;border:1px solid rgba(211,171,117,.25);border-radius:8px;color:#e9e6dc;text-decoration:none;font-size:12px;transition:background .18s ease,border-color .18s ease,color .18s ease}
+.v2-footer-social .v2-footer-social-link:hover{background:rgba(211,171,117,.1);border-color:#d3ab75;color:#f5e4c5}
+.v2-footer-social .v2-youtube-mark{display:inline-flex;align-items:center;justify-content:center;width:25px;height:18px;border-radius:5px;background:#b83b35;color:#fff;font-size:11px}
+.v2-footer-social .v2-telegram-mark{display:inline-flex;align-items:center;justify-content:center;width:25px;height:22px;border-radius:6px;background:#2689b9;color:#fff}
+.v2-footer-social .v2-telegram-mark svg{display:block;width:16px;height:16px;fill:currentColor}
+.v2-footer-social .v2-footer-social-link span:last-child{opacity:.7}
+@media(max-width:640px){.v2-footer-social .v2-footer-social-link{font-size:11px}}
