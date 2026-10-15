@@ -104,10 +104,12 @@
 <section class="lesson-catalog"><div class="container"><div class="catalog-intro"><div><span class="eyebrow">ئەکادێمیای ئاڤاشین · ڕێڕەوی فێربونی ئەکادێمیک</span><h2>کاتەلۆگی گشتی وانەکان</h2><p>دو کۆرسی ئەکادێمیک: ڕێنوسی زوانی کوردیک و فۆنێتیک و فۆنۆلۆجی زوانی کوردیک.</p><p>سەرچاوەی زانستی: فۆنێتیک و فۆنۆلۆجی کوردیک · سابیر ژاکاو</p></div><div class="catalog-index-mark"><strong>٥٨</strong><span>وانە</span></div></div><section class="language-hub" id="languageHub" aria-labelledby="languageHubTitle">
 <div class="language-hub-head"><div><span class="eyebrow">AVASIN · LANGUAGE PATHWAYS</span><h3 id="languageHubTitle">زوانەکان و ڕێڕەوەکانی وانە</h3><p>یەکێک لە زوانەکان هەڵبژێرە. وانەکانی کۆرسی ١ لە ژێر «بازنەی ناوەندی» کۆکراونەتەوە؛ وانەی زوانەکانی تر بە زوانی خۆیان زیاد دەکرێن.</p></div></div>
 <div class="language-hub-grid" role="group" aria-label="هەڵبژاردنی زوان یان کۆرس">
-<button class="language-choice" type="button" data-language="central" aria-pressed="false"><span class="language-code">PATH 01</span><span><strong>بازنەی ناوەندی</strong><small>کۆرسی ١ · ٢٦ وانە</small></span></button>
-<button class="language-choice" type="button" data-language="kalhuri" aria-pressed="false"><span class="language-code">LANG 02</span><span><strong>کەڵهوڕی</strong><small>ڕێڕەوی وانە بە زوانی کەڵهوڕی</small></span></button>
-<button class="language-choice" type="button" data-language="hawrami" aria-pressed="false"><span class="language-code">LANG 03</span><span><strong>هەورامی</strong><small>ڕێڕەوی وانە بە زوانی هەورامی</small></span></button>
-<button class="language-choice" type="button" data-language="kurmanji" aria-pressed="false"><span class="language-code">LANG 04</span><span><strong>کورمانجی</strong><small>ڕێڕەوی وانە بە زوانی کورمانجی</small></span></button>
+<button class="language-choice" type="button" data-language="central" aria-pressed="false"><span class="language-code">REGION 01</span><span><strong>بەشی بازنەی ناوەندی</strong><small>کۆرسی ١ · ٢٦ وانەی ئێستا</small></span></button>
+<button class="language-choice" type="button" data-language="mukriani" aria-pressed="false"><span class="language-code">DIALECT 01</span><span><strong>موکریانی</strong><small>وانەکانی کۆرسی ١ لەم ڕێڕەوەش دەکرێنەوە</small></span></button>
+<button class="language-choice" type="button" data-language="slemani" aria-pressed="false"><span class="language-code">DIALECT 02</span><span><strong>سلێمانی</strong><small>وانەکانی کۆرسی ١ لەم ڕێڕەوەش دەکرێنەوە</small></span></button>
+<button class="language-choice" type="button" data-language="hawrami" aria-pressed="false"><span class="language-code">LANG 03</span><span><strong>هەورامی</strong><small>ڕێڕەوی تایبەت بە زوانی هەورامی</small></span></button>
+<button class="language-choice" type="button" data-language="kalhuri" aria-pressed="false"><span class="language-code">REGION 02</span><span><strong>بازنەی باشور</strong><small>کەڵهوڕی · وانە بە زوانی خۆی</small></span></button>
+<button class="language-choice" type="button" data-language="kurmanji" aria-pressed="false"><span class="language-code">REGION 03</span><span><strong>بازنەی باکور</strong><small>کورمانجی · وانە بە زوانی خۆی</small></span></button>
 <button class="language-choice" type="button" data-language="phonetics" aria-pressed="false"><span class="language-code">COURSE 02</span><span><strong>فۆنێتیک و فۆنۆلۆجی</strong><small>کۆرسی ٢ · زانستی دەنگ</small></span></button>
 </div></section>
 <div class="language-coming" id="languageComing" role="status" hidden><h3 id="languageComingTitle"></h3><p id="languageComingText"></p><button type="button" class="language-back" id="languageBack">گەڕانەوە بۆ هەڵبژاردنی زوانەکان</button></div>
@@ -119,20 +121,20 @@
 const catalog=document.getElementById("catalog"),search=document.getElementById("catalogSearch"),courseFilter=document.getElementById("courseFilter"),filter=document.getElementById("sectionFilter"),overall=document.getElementById("overallProgress");
 let lessons=[],courses=[],progression={enabled:false,requirePreviousCompletion:true},activeLanguage=null,catalogReady=false;
 const hub=document.getElementById("languageHub"),languageComing=document.getElementById("languageComing"),languageComingTitle=document.getElementById("languageComingTitle"),languageComingText=document.getElementById("languageComingText"),catalogTools=document.getElementById("catalogTools");
-const languageLabels={kalhuri:"کەڵهوڕی",hawrami:"هەورامی",kurmanji:"کورمانجی"};
+const languageLabels={kalhuri:"کەڵهوڕی",hawrami:"هەورامی",kurmanji:"کورمانجی",mukriani:"موکریانی",slemani:"سلێمانی"};
 function applyLanguageView(language){
  activeLanguage=language;
  document.querySelectorAll(".language-choice").forEach(btn=>btn.setAttribute("aria-pressed",String(btn.dataset.language===language)));
- const showCatalog=language==="central"||language==="phonetics";
+ const showCatalog=["central","mukriani","slemani","phonetics"].includes(language);
  catalogTools.hidden=!showCatalog;catalog.hidden=!showCatalog;overall.hidden=!showCatalog;languageComing.hidden=showCatalog;
  if(!language)return;
  if(!showCatalog){
-   languageComingTitle.textContent="ڕێڕەوی "+languageLabels[language];
+   languageComingTitle.textContent=language==="kalhuri"?"بازنەی باشور · کەڵهوڕی":language==="kurmanji"?"بازنەی باکور · کورمانجی":"ڕێڕەوی "+languageLabels[language];
    languageComingText.textContent="ئەم بەشە بۆ وانەی تایبەت بە زوانی "+languageLabels[language]+" ئامادە کراوە. وانەکان لەم ڕێڕەوەدا بە زوانی خۆیان دادەنرێن؛ بۆیە ناوەڕۆکی کۆرسی ١ بە جێی وانەی ئەم زوانە دانانرێت.";
    return;
  }
  if(catalogReady){
-   courseFilter.value=language==="central"?"course-current":"course-2";
+   courseFilter.value=["central","mukriani","slemani"].includes(language)?"course-current":"course-2";
    filter.value="all";search.value="";
    render();
  }
