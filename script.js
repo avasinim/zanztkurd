@@ -1552,38 +1552,82 @@ async function markLessonComplete(courseId, lessonKey){
 })();
 
 
-/* Avasin minimal language switcher */
+/* Avasin modern compact multilingual switcher */
 (function(){
   "use strict";
   function setupAvasinLanguageSelector(){
     let target=document.getElementById("google_translate_element");
-    if(!target){
-      const panel=document.createElement("details");
+    let panel=document.getElementById("avasin-global-language");
+    if(!panel){
+      panel=document.createElement("details");
       panel.className="avasin-language-mini";
       panel.id="avasin-global-language";
-      panel.innerHTML='<summary aria-label="گۆڕینی زمانی ماڵپەڕ"><span class="avasin-language-mini-icon" aria-hidden="true">◎</span><span class="avasin-language-current">کوردی</span><span class="avasin-language-chevron" aria-hidden="true">⌄</span></summary><div class="avasin-language-mini-panel"><div class="avasin-language-panel-caption">زمانی ماڵپەڕ</div><div id="google_translate_element" aria-label="هەڵبژاردنی زمانی ماڵپەڕ"></div></div>';
-      target=panel.querySelector("#google_translate_element");
+      panel.innerHTML='<summary aria-label="گۆڕینی زمانی ماڵپەڕ"><span class="avasin-language-current" aria-label="زمانی ئێستا: کوردی">ک</span><span class="avasin-language-chevron" aria-hidden="true">⌄</span></summary><div class="avasin-language-mini-panel"><div class="avasin-language-panel-caption">زمانی ماڵپەڕ</div><div class="avasin-language-options" role="listbox" aria-label="هەڵبژاردنی زمانی ماڵپەڕ"></div><div id="google_translate_element" aria-label="هەڵبژاردنی زمانی ماڵپەڕ" class="avasin-google-translate-source"></div></div>';
       document.body.appendChild(panel);
+      target=panel.querySelector("#google_translate_element");
+    }else if(!panel.querySelector(".avasin-language-options")){
+      const options=document.createElement("div");
+      options.className="avasin-language-options";
+      options.setAttribute("role","listbox");
+      options.setAttribute("aria-label","هەڵبژاردنی زمانی ماڵپەڕ");
+      const caption=panel.querySelector(".avasin-language-panel-caption");
+      if(caption)caption.insertAdjacentElement("afterend",options);
+      else panel.querySelector(".avasin-language-mini-panel")?.prepend(options);
     }
+    const label=panel.querySelector(".avasin-language-current");
+    const list=panel.querySelector(".avasin-language-options");
+    const getSelect=()=>panel.querySelector("#google_translate_element select.goog-te-combo");
     const updateCurrentLanguage=()=>{
-      const select=document.querySelector("#google_translate_element select.goog-te-combo");
-      const label=document.querySelector(".avasin-language-current");
+      const select=getSelect();
       if(!select||!label)return;
       const selected=select.options[select.selectedIndex];
       const value=selected?selected.textContent.trim():"";
-      if(!select.value||!value||/select language|choose language/i.test(value)){
-        label.textContent="کوردی";
-        label.setAttribute("aria-label","زمانی ئێستا: کوردی");
-      }else{
-        label.textContent=value;
-        label.setAttribute("aria-label","زمانی ئێستا: "+value);
-      }
+      const language=(!select.value||!value||/select language|choose language/i.test(value))?"کوردی":value;
+      label.textContent=Array.from(language.trim())[0]||"ک";
+      label.setAttribute("aria-label","زمانی ئێستا: "+language);
+      panel.querySelectorAll(".avasin-language-option").forEach(button=>{
+        const active=button.dataset.lang===select.value;
+        button.classList.toggle("is-active",active);
+        button.setAttribute("aria-selected",active?"true":"false");
+      });
+    };
+    const renderOptions=()=>{
+      const select=getSelect();
+      if(!select||!list)return false;
+      const existing=new Set(Array.from(list.querySelectorAll("button")).map(b=>b.dataset.lang));
+      Array.from(select.options).forEach((option,index)=>{
+        const name=option.textContent.trim();
+        if(!option.value||!name||/select language|choose language/i.test(name)||existing.has(option.value))return;
+        const button=document.createElement("button");
+        button.type="button";
+        button.className="avasin-language-option avasin-language-option-style-"+(index%8);
+        button.dataset.lang=option.value;
+        button.setAttribute("role","option");
+        button.setAttribute("aria-label",name);
+        button.innerHTML='<span class="avasin-language-option-initial" aria-hidden="true"></span><span class="avasin-language-option-name"></span><span class="avasin-language-option-mark" aria-hidden="true">↗</span>';
+        button.querySelector(".avasin-language-option-initial").textContent=Array.from(name)[0]||"";
+        button.querySelector(".avasin-language-option-name").textContent=name;
+        button.addEventListener("click",()=>{
+          const current=getSelect();
+          if(!current)return;
+          current.value=option.value;
+          current.dispatchEvent(new Event("change",{bubbles:true}));
+          updateCurrentLanguage();
+          panel.open=false;
+        });
+        list.appendChild(button);
+      });
+      updateCurrentLanguage();
+      return true;
     };
     const observeSelector=()=>{
-      const select=document.querySelector("#google_translate_element select.goog-te-combo");
+      const select=getSelect();
       if(!select)return false;
-      select.addEventListener("change",()=>window.setTimeout(updateCurrentLanguage,0));
-      updateCurrentLanguage();
+      if(select.dataset.avasinObserved!=="true"){
+        select.addEventListener("change",()=>window.setTimeout(updateCurrentLanguage,0));
+        select.dataset.avasinObserved="true";
+      }
+      renderOptions();
       return true;
     };
     window.googleTranslateElementInit=function(){
@@ -1602,6 +1646,11 @@ async function markLessonComplete(courseId, lessonKey){
       loader.dataset.avasinGoogleTranslate="true";
       document.head.appendChild(loader);
     }else if(window.google?.translate?.TranslateElement)window.googleTranslateElementInit();
+    const targetNode=panel.querySelector("#google_translate_element");
+    if(targetNode){
+      const observer=new MutationObserver(()=>observeSelector());
+      observer.observe(targetNode,{childList:true,subtree:true});
+    }
   }
   if(document.readyState==="loading")document.addEventListener("DOMContentLoaded",setupAvasinLanguageSelector,{once:true});
   else setupAvasinLanguageSelector();
