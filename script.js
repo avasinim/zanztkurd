@@ -1707,14 +1707,10 @@ async function markLessonComplete(courseId, lessonKey){
     if(!section){
       section=document.createElement("div");
       section.className="v2-footer-social";
-      section.innerHTML="<h4>تۆڕەکانی ئێمە</h4>";
       grid.appendChild(section);
-    }else{
-      const heading=section.querySelector("h4");
-      if(heading)heading.textContent="تۆڕەکانی ئێمە";
     }
-    if(!section.querySelector('a[href="https://www.youtube.com/@zimannas3366"]'))section.insertAdjacentHTML("beforeend",youtubeMarkup);
-    if(!section.querySelector('a[href="https://t.me/zimannasi"]'))section.insertAdjacentHTML("beforeend",telegramMarkup);
+    /* Rebuild the contents so legacy text links become clean, icon-only buttons. */
+    section.innerHTML='<h4>تۆڕەکانی ئێمە</h4>'+youtubeMarkup+telegramMarkup;
   }
   function setupSocialLinks(){
     const modernFooters=Array.from(document.querySelectorAll("footer.v2-footer"));
