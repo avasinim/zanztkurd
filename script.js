@@ -1557,7 +1557,7 @@ async function markLessonComplete(courseId, lessonKey){
   "use strict";
   function setupAvasinLanguageSelector(){
     let target=document.getElementById("google_translate_element");
-    let panel=document.getElementById("avasin-global-language");
+    let panel=document.getElementById("avasin-global-language")||document.querySelector(".avasin-language-mini");
     if(!panel){
       panel=document.createElement("details");
       panel.className="avasin-language-mini";
