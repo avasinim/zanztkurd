@@ -23,6 +23,12 @@
 .language-hub-head h3{margin:5px 0;color:#20392d;font-size:clamp(1.2rem,2.5vw,1.65rem)}
 .language-hub-head p{margin:0;color:#667168;line-height:1.9;font-size:.9rem;max-width:650px}
 .language-hub-grid{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:11px}
+/* Keep each region submenu directly beneath its matching region button. */
+.region-subchoices{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:11px;margin-top:11px}
+#northChoices{grid-column:1;grid-template-columns:minmax(0,1fr)}
+#centralChoices{grid-column:2;grid-template-columns:minmax(0,1fr)}
+#southChoices{grid-column:3;grid-template-columns:minmax(0,1fr)}
+#regionComing{grid-column:1 / -1}
 .language-choice{display:flex;flex-direction:column;align-items:flex-start;justify-content:space-between;gap:12px;min-height:148px;padding:17px 15px;text-align:right;font:inherit;color:#253b30;background:#fff;border:1px solid #d8ded4;border-radius:14px;cursor:pointer;transition:transform .18s,border-color .18s,box-shadow .18s}
 .language-choice:hover{transform:translateY(-3px);border-color:#9dad9d;box-shadow:0 9px 22px rgba(27,42,35,.08)}
 .language-choice[aria-pressed="true"]{background:#223b30;color:#fff;border-color:#b99a69;box-shadow:0 8px 22px rgba(34,59,48,.17)}
