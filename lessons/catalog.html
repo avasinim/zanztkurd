@@ -109,6 +109,9 @@
 <button class="language-choice" type="button" data-region="south" aria-pressed="false"><span class="language-code">REGION 03</span><span><strong>بازنەی باشور</strong><small>کەڵهوڕ · لەکی</small></span></button>
 </div>
 <div class="region-subchoices" id="regionSubchoices" hidden>
+<div class="language-hub-grid" id="northChoices" role="group" aria-label="زوانی بازنەی باکور" hidden>
+<button class="language-choice" type="button" data-language="kurmanji" aria-pressed="false"><span class="language-code">DIALECT 01</span><span><strong>کورمانجی</strong><small>ڕێڕەوی تایبەت بە زوانی کورمانجی</small></span></button>
+</div>
 <div class="language-hub-grid" id="centralChoices" role="group" aria-label="زوانەکانی بازنەی ناوەندی" hidden>
 <button class="language-choice" type="button" data-language="central-course" aria-pressed="false"><span class="language-code">COURSE 01</span><span><strong>موکریانی و سلێمانی</strong><small>کۆرسی ١ · ٢٦ وانەی ئێستا</small></span></button>
 <button class="language-choice" type="button" data-language="hawrami" aria-pressed="false"><span class="language-code">DIALECT 02</span><span><strong>هەورامی</strong><small>ڕێڕەوی تایبەت بە زوانی هەورامی</small></span></button>
@@ -130,6 +133,7 @@ let lessons=[],courses=[],progression={enabled:false,requirePreviousCompletion:t
 const hub=document.getElementById("languageHub"),languageComing=document.getElementById("languageComing"),languageComingTitle=document.getElementById("languageComingTitle"),languageComingText=document.getElementById("languageComingText"),catalogTools=document.getElementById("catalogTools");
 const languageLabels={kalhuri:"کەڵهوڕ",laki:"لەکی",hawrami:"هەورامی",kurmanji:"کورمانجی",mukriani:"موکریانی",slemani:"سلێمانی"};
 const regionSubchoices=document.getElementById("regionSubchoices");
+const northChoices=document.getElementById("northChoices");
 const centralChoices=document.getElementById("centralChoices");
 const southChoices=document.getElementById("southChoices");
 const regionComing=document.getElementById("regionComing");
@@ -142,19 +146,15 @@ function applyLanguageView(language){
  const isRegion=["north","central","south"].includes(language);
  if(isRegion){
    regionSubchoices.hidden=false;
+   northChoices.hidden=language!=="north";
    centralChoices.hidden=language!=="central";
    southChoices.hidden=language!=="south";
-   regionComing.hidden=language==="central"||language==="south";
-   if(language==="north"){
-     regionComingTitle.textContent="بازنەی باکور · کورمانجی";
-     regionComingText.textContent="ئەم بەشە بۆ وانەکانی کورمانجییە. وانەکان کاتێک ناوەڕۆکی تایبەتیان ئامادە بێت لێرە دادەنرێن.";
-   }else if(language==="south"){
-     regionComingTitle.textContent="بازنەی باشور · کەڵهوڕ و لەکی";
-   }
+   regionComing.hidden=true;
    catalogTools.hidden=true;catalog.hidden=true;overall.hidden=true;languageComing.hidden=true;
    return;
  }
  regionSubchoices.hidden=false;
+ northChoices.hidden=true;
  centralChoices.hidden=true;
  southChoices.hidden=true;
  regionComing.hidden=true;
