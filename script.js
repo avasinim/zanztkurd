@@ -1552,11 +1552,13 @@ async function markLessonComplete(courseId, lessonKey){
 })();
 
 
-/* Avasin modern compact multilingual switcher — resilient initialization */
+/* Avasin language selector — external full-page translation fallback.
+   The former Website Translator widget was retired by Google in October 2026.
+   Use Google's public page-translation URL instead; no API key is embedded. */
 (function(){
   "use strict";
   const LANGUAGES=[
-    {code:"ku",name:"کوردی",initial:"ک"},
+    {code:"ckb",name:"کوردی (سۆرانی)",initial:"ک"},
     {code:"en",name:"English",initial:"E"},
     {code:"ar",name:"العربية",initial:"ع"},
     {code:"tr",name:"Türkçe",initial:"T"},
@@ -1573,7 +1575,7 @@ async function markLessonComplete(courseId, lessonKey){
       panel=document.createElement("details");
       panel.className="avasin-language-mini";
       panel.id="avasin-global-language";
-      panel.innerHTML='<summary aria-label="گۆڕینی زمانی ماڵپەڕ"><span class="avasin-language-current" aria-label="زمانی ئێستا: کوردی">ک</span><span class="avasin-language-chevron" aria-hidden="true">⌄</span></summary><div class="avasin-language-mini-panel"><div class="avasin-language-panel-caption">زمانی ماڵپەڕ</div><div class="avasin-language-options" role="listbox" aria-label="هەڵبژاردنی زمانی ماڵپەڕ"></div><div id="google_translate_element" class="avasin-google-translate-source" aria-hidden="true"></div></div>';
+      panel.innerHTML='<summary aria-label="گۆڕینی زمانی ماڵپەڕ"><span class="avasin-language-current" aria-label="زمانی ئێستا: کوردی">ک</span><span class="avasin-language-chevron" aria-hidden="true">⌄</span></summary><div class="avasin-language-mini-panel"><div class="avasin-language-panel-caption">زمانی ماڵپەڕ</div><div class="avasin-language-options" role="listbox" aria-label="هەڵبژاردنی زمانی ماڵپەڕ"></div></div>';
       document.body.appendChild(panel);
     }
     const inner=panel.querySelector(".avasin-language-mini-panel");
@@ -1587,70 +1589,26 @@ async function markLessonComplete(courseId, lessonKey){
       const caption=panel.querySelector(".avasin-language-panel-caption");
       if(caption)caption.insertAdjacentElement("afterend",list);else inner.prepend(list);
     }
-    let source=panel.querySelector("#google_translate_element");
-    if(!source){
-      source=document.createElement("div");
-      source.id="google_translate_element";
-      source.className="avasin-google-translate-source";
-      source.setAttribute("aria-hidden","true");
-      inner.appendChild(source);
-    }
     const label=panel.querySelector(".avasin-language-current");
-    const getSelect=()=>source.querySelector("select.goog-te-combo");
-    const updateCurrent=(language)=>{
-      const select=getSelect();
-      let code=select&&select.value?select.value:(document.documentElement.lang||"ku").split("-")[0];
+    const currentPath=()=>window.location.href.split("#")[0];
+    const updateCurrent=(code)=>{
       const lang=LANGUAGES.find(item=>item.code===code)||LANGUAGES[0];
-      if(label){label.textContent=lang.initial;label.setAttribute("aria-label","زمانی ئێستا: "+lang.name);}
+      if(label){label.textContent=lang.initial;label.setAttribute("aria-label","زمانی هەڵبژێردراو: "+lang.name);}
       list.querySelectorAll(".avasin-language-option").forEach(button=>{
         const active=button.dataset.lang===code;
         button.classList.toggle("is-active",active);
         button.setAttribute("aria-selected",active?"true":"false");
       });
     };
-    const ensureTranslator=()=>{
-      if(window.google&&window.google.translate&&window.google.translate.TranslateElement){
-        window.googleTranslateElementInit();
+    const chooseLanguage=(lang)=>{
+      panel.open=false;
+      if(lang.code==="ckb"){
+        updateCurrent("ckb");
         return;
       }
-      if(!document.querySelector("script[data-avasin-google-translate]")){
-        const loader=document.createElement("script");
-        loader.src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit";
-        loader.async=true;
-        loader.dataset.avasinGoogleTranslate="true";
-        loader.onerror=()=>{panel.dataset.translateStatus="unavailable";};
-        document.head.appendChild(loader);
-      }
-    };
-    const chooseLanguage=(lang)=>{
-      updateCurrent(lang);
-      panel.open=false;
-      ensureTranslator();
-      const apply=()=>{
-        const select=getSelect();
-        if(!select)return false;
-        if(lang.code==="ku"){
-          select.value="";
-          select.dispatchEvent(new Event("change",{bubbles:true}));
-          updateCurrent(lang);
-          return true;
-        }
-        const option=Array.from(select.options).find(item=>item.value===lang.code);
-        if(!option)return false;
-        select.value=lang.code;
-        select.dispatchEvent(new Event("change",{bubbles:true}));
-        updateCurrent(lang);
-        return true;
-      };
-      if(!apply()){
-        let attempts=0;
-        const retry=()=>{
-          attempts++;
-          if(apply()||attempts>=20)return;
-          window.setTimeout(retry,250);
-        };
-        window.setTimeout(retry,250);
-      }
+      const translatedUrl="https://translate.google.com/translate?sl=ckb&tl="+encodeURIComponent(lang.code)+"&u="+encodeURIComponent(currentPath());
+      window.open(translatedUrl,"_blank","noopener,noreferrer");
+      updateCurrent(lang.code);
     };
     if(!list.dataset.built){
       LANGUAGES.forEach((lang,index)=>{
@@ -1668,27 +1626,7 @@ async function markLessonComplete(courseId, lessonKey){
       });
       list.dataset.built="true";
     }
-    window.googleTranslateElementInit=function(){
-      if(!window.google?.translate?.TranslateElement||source.dataset.initialized==="true")return;
-      try{
-        new window.google.translate.TranslateElement({
-          pageLanguage:"ku",includedLanguages:"en,ar,tr,fa,az,ru,de,fr,es",autoDisplay:false,
-          layout:window.google.translate.TranslateElement.InlineLayout.SIMPLE
-        },"google_translate_element");
-        source.dataset.initialized="true";
-        const observer=new MutationObserver(()=>{
-          const select=getSelect();
-          if(!select)return;
-          select.addEventListener("change",()=>updateCurrent(),{passive:true});
-          observer.disconnect();
-          updateCurrent();
-        });
-        observer.observe(source,{childList:true,subtree:true});
-      }catch(error){source.dataset.initialized="false";}
-    };
-    if(document.readyState==="loading")document.addEventListener("DOMContentLoaded",ensureTranslator,{once:true});
-    else ensureTranslator();
-    updateCurrent();
+    updateCurrent("ckb");
   }
   if(document.readyState==="loading")document.addEventListener("DOMContentLoaded",setupAvasinLanguageSelector,{once:true});
   else setupAvasinLanguageSelector();
