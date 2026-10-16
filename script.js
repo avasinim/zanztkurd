@@ -1607,8 +1607,9 @@ async function markLessonComplete(courseId, lessonKey){
         return;
       }
       const translatedUrl="https://translate.google.com/translate?sl=ckb&tl="+encodeURIComponent(lang.code)+"&u="+encodeURIComponent(currentPath());
-      window.open(translatedUrl,"_blank","noopener,noreferrer");
-      updateCurrent(lang.code);
+      // Navigate in the current tab so popup blockers cannot silently stop the action.
+      // Users can return to the original Kurdish page with the browser Back button.
+      window.location.assign(translatedUrl);
     };
     if(!list.dataset.built){
       LANGUAGES.forEach((lang,index)=>{
