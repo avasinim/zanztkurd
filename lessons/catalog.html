@@ -110,10 +110,8 @@
 </div>
 <div class="region-subchoices" id="regionSubchoices" hidden>
 <div class="language-hub-grid" id="centralChoices" role="group" aria-label="زوانەکانی بازنەی ناوەندی" hidden>
-<button class="language-choice" type="button" data-language="mukriani" aria-pressed="false"><span class="language-code">DIALECT 01</span><span><strong>موکریانی</strong><small>کۆرسی ١ · ٢٦ وانەی ئێستا</small></span></button>
-<button class="language-choice" type="button" data-language="slemani" aria-pressed="false"><span class="language-code">DIALECT 02</span><span><strong>سلێمانی</strong><small>کۆرسی ١ · ٢٦ وانەی ئێستا</small></span></button>
-<button class="language-choice" type="button" data-language="hawrami" aria-pressed="false"><span class="language-code">DIALECT 03</span><span><strong>هەورامی</strong><small>ڕێڕەوی تایبەت بە زوانی هەورامی</small></span></button>
-<button class="language-choice" type="button" data-language="phonetics" aria-pressed="false"><span class="language-code">COURSE 02</span><span><strong>فۆنێتیک و فۆنۆلۆجی</strong><small>کۆرسی ٢ · زانستی دەنگ</small></span></button>
+<button class="language-choice" type="button" data-language="central-course" aria-pressed="false"><span class="language-code">COURSE 01</span><span><strong>موکریانی و سلێمانی</strong><small>کۆرسی ١ · ٢٦ وانەی ئێستا</small></span></button>
+<button class="language-choice" type="button" data-language="hawrami" aria-pressed="false"><span class="language-code">DIALECT 02</span><span><strong>هەورامی</strong><small>ڕێڕەوی تایبەت بە زوانی هەورامی</small></span></button>
 </div>
 <div class="language-coming" id="regionComing" role="status" hidden><h3 id="regionComingTitle"></h3><p id="regionComingText"></p></div>
 </div></section></section>
@@ -154,7 +152,7 @@ function applyLanguageView(language){
  regionSubchoices.hidden=false;
  centralChoices.hidden=true;
  regionComing.hidden=true;
- const showCatalog=language==="mukriani"||language==="slemani"||language==="phonetics";
+ const showCatalog=language==="central-course"||language==="phonetics";
  catalogTools.hidden=!showCatalog;catalog.hidden=!showCatalog;overall.hidden=!showCatalog;
  if(!language){regionSubchoices.hidden=true;return;}
  if(!showCatalog){
