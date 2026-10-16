@@ -155,8 +155,11 @@ function applyLanguageView(language){
  southChoices.hidden=true;
  const showCatalog=language==="central-course"||language==="phonetics";
  catalogTools.hidden=!showCatalog;catalog.hidden=!showCatalog;overall.hidden=!showCatalog;
+ languageComing.hidden=showCatalog;
  if(!language)return;
  if(!showCatalog){
+   languageComingTitle.textContent="ڕێڕەوی "+(languageLabels[language]||language);
+   languageComingText.textContent="ئەم بەشە بۆ وانەی تایبەت بە زوانی "+(languageLabels[language]||language)+" ئامادە کراوە. وانەکان بە زوانی خۆیان زیاد دەکرێن.";
    return;
  }
  if(catalogReady){
