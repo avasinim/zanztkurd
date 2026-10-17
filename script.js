@@ -1692,6 +1692,7 @@ async function markLessonComplete(courseId, lessonKey){
         "هەڵبژاردنی زمانی ماڵپەڕ":{en:"Choose site language",ar:"اختيار لغة الموقع",tr:"Site dilini seç",fa:"انتخاب زبان وب‌سایت",az:"Sayt dilini seç",ru:"Выбрать язык сайта",de:"Seitensprache wählen",fr:"Choisir la langue du site",es:"Elegir idioma del sitio"}
   };
   const originals=new WeakMap();
+  const attributeOriginals=new WeakMap();
   let activeLanguage="ckb";
   let observer=null;
   const uiSelector='a,button,label,summary,[role="button"],[role="menuitem"],.chip,.v2-footer-social,h1,h2,h3,h4';
@@ -1712,11 +1713,33 @@ async function markLessonComplete(courseId, lessonKey){
     const nextValue=code==="ckb"?original:(translated?leading+translated+trailing:original);
     if(node.nodeValue!==nextValue)node.nodeValue=nextValue;
   }
+  function applyUiAttributes(root,code){
+    if(!root||root.nodeType!==Node.ELEMENT_NODE)return;
+    const selector='[placeholder],[title],[aria-label],[alt]';
+    const elements=[];
+    if(root.matches?.(selector))elements.push(root);
+    if(root.querySelectorAll)elements.push(...root.querySelectorAll(selector));
+    const ignored='.lesson-content,article,.article-body,.lesson-body,.topic-content,.book-content,[data-no-translate],script,style,textarea,code,pre,.notranslate';
+    for(const el of elements){
+      if(el.closest(ignored))continue;
+      let originalsForElement=attributeOriginals.get(el);
+      if(!originalsForElement){originalsForElement=new Map();attributeOriginals.set(el,originalsForElement);}
+      for(const attr of ['placeholder','title','aria-label','alt']){
+        if(!el.hasAttribute(attr))continue;
+        if(!originalsForElement.has(attr))originalsForElement.set(attr,el.getAttribute(attr));
+        const original=originalsForElement.get(attr)||'';
+        const translated=LABELS[original.trim()]&&LABELS[original.trim()][code];
+        const nextValue=code==='ckb'?original:(translated||original);
+        if(el.getAttribute(attr)!==nextValue)el.setAttribute(attr,nextValue);
+      }
+    }
+  }
   function localizeUi(code,notify=true){
     activeLanguage=code;
     const walker=document.createTreeWalker(document.body,NodeFilter.SHOW_TEXT);
     const nodes=[];while(walker.nextNode())if(isUiNode(walker.currentNode))nodes.push(walker.currentNode);
     nodes.forEach(n=>applyNode(n,code));
+    applyUiAttributes(document.body,code);
     const lang=LANGUAGES.find(x=>x.code===code)||LANGUAGES[0];
     document.documentElement.lang=code;
     const panel=document.getElementById("avasin-global-language")||document.querySelector(".avasin-language-mini");
@@ -1786,6 +1809,7 @@ async function markLessonComplete(courseId, lessonKey){
               const walker=document.createTreeWalker(node,NodeFilter.SHOW_TEXT);
               const added=[];while(walker.nextNode())if(isUiNode(walker.currentNode))added.push(walker.currentNode);
               added.forEach(n=>applyNode(n,activeLanguage));
+              applyUiAttributes(node,activeLanguage);
             }
           });
         }
