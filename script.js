@@ -238,10 +238,10 @@ window.ZANSTI_GET_SUPABASE_CLIENT = window.ZANSTI_GET_SUPABASE_CLIENT || functio
     }
   }
 
-  document.addEventListener("click",function(ev){
-    const a=ev.target.closest&&ev.target.closest("a[href],a[data-lesson-href]");
-    if(a) allowOrRedirect(ev,a);
-  },true);
+  /* Lesson links use native navigation. The destination page performs the same
+     authentication, enrollment, and progression checks before showing content.
+     Avoid intercepting clicks here: this global capture handler could suppress
+     catalog/course controls when an access check stalls or fails. */
 
   (async function pageGate(){
     try{
