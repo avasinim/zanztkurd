@@ -1598,6 +1598,31 @@ async function markLessonComplete(courseId, lessonKey){
     "بینینی وانەکان":{en:"View lessons",ar:"عرض الدروس",tr:"Dersleri görüntüle",fa:"مشاهده درس‌ها",az:"Dərslərə bax",ru:"Смотреть уроки",de:"Lektionen ansehen",fr:"Voir les leçons",es:"Ver lecciones"},
     "چوونە پەنێڵی بەڕێوبەرایەتی ←":{en:"Open admin panel ←",ar:"فتح لوحة الإدارة ←",tr:"Yönetim panelini aç ←",fa:"بازکردن پنل مدیریت ←",az:"İdarəetmə panelini aç ←",ru:"Открыть панель управления ←",de:"Adminbereich öffnen ←",fr:"Ouvrir le panneau d’administration ←",es:"Abrir panel de administración ←"},
     "دروستکردنی هەژمار":{en:"Create account",ar:"إنشاء حساب",tr:"Hesap oluştur",fa:"ایجاد حساب",az:"Hesab yarat",ru:"Создать аккаунт",de:"Konto erstellen",fr:"Créer un compte",es:"Crear cuenta"},
+    "سەرچاوەی جیهان":{en:"Global resources",ar:"المصادر العالمية",tr:"Küresel kaynaklar",fa:"منابع جهانی",az:"Qlobal mənbələr",ru:"Мировые ресурсы",de:"Globale Ressourcen",fr:"Ressources mondiales",es:"Recursos globales"},
+    "سەرچاوە زانستییەکانی جیهان":{en:"Global academic resources",ar:"المصادر الأكاديمية العالمية",tr:"Küresel akademik kaynaklar",fa:"منابع علمی جهانی",az:"Qlobal elmi mənbələr",ru:"Мировые научные ресурсы",de:"Globale akademische Ressourcen",fr:"Ressources académiques mondiales",es:"Recursos académicos globales"},
+    "وێبلۆگ":{en:"Blog",ar:"المدونة",tr:"Blog",fa:"وبلاگ",az:"Bloq",ru:"Блог",de:"Blog",fr:"Blog",es:"Blog"},
+    "پەنێڵی خوێندکار":{en:"Student dashboard",ar:"لوحة الطالب",tr:"Öğrenci paneli",fa:"پنل دانشجو",az:"Tələbə paneli",ru:"Панель студента",de:"Studentenbereich",fr:"Espace étudiant",es:"Panel del estudiante"},
+    "پەنێڵی بەڕێوبەرایەتی":{en:"Admin panel",ar:"لوحة الإدارة",tr:"Yönetim paneli",fa:"پنل مدیریت",az:"İdarəetmə paneli",ru:"Панель администратора",de:"Administrationsbereich",fr:"Panneau d’administration",es:"Panel de administración"},
+    "پەڕەی سەرەکی":{en:"Home",ar:"الرئيسية",tr:"Ana sayfa",fa:"صفحه اصلی",az:"Əsas səhifə",ru:"Главная",de:"Startseite",fr:"Accueil",es:"Inicio"},
+    "ناڤیگەیشنی گرنگ":{en:"Main navigation",ar:"التنقل الرئيسي",tr:"Ana gezinme",fa:"ناوبری اصلی",az:"Əsas naviqasiya",ru:"Главная навигация",de:"Hauptnavigation",fr:"Navigation principale",es:"Navegación principal"},
+    "پەڕەی تایبەتی خوێندکار":{en:"Student area",ar:"مساحة الطالب",tr:"Öğrenci alanı",fa:"بخش دانشجو",az:"Tələbə bölməsi",ru:"Раздел студента",de:"Studentenbereich",fr:"Espace étudiant",es:"Área del estudiante"},
+    "چوونەژوورەوە و هەژمار":{en:"Sign-in and account",ar:"تسجيل الدخول والحساب",tr:"Giriş ve hesap",fa:"ورود و حساب",az:"Giriş və hesab",ru:"Вход и аккаунт",de:"Anmeldung und Konto",fr:"Connexion et compte",es:"Inicio de sesión y cuenta"},
+    "زانیاری و سیاسەتەکان":{en:"Information and policies",ar:"المعلومات والسياسات",tr:"Bilgi ve politikalar",fa:"اطلاعات و سیاست‌ها",az:"Məlumat və siyasətlər",ru:"Информация и правила",de:"Informationen und Richtlinien",fr:"Informations et politiques",es:"Información y políticas"},
+    "سیاسەتی پاراستنی نهێنی":{en:"Privacy policy",ar:"سياسة الخصوصية",tr:"Gizlilik politikası",fa:"سیاست حریم خصوصی",az:"Məxfilik siyasəti",ru:"Политика конфиденциальности",de:"Datenschutzerklärung",fr:"Politique de confidentialité",es:"Política de privacidad"},
+    "مەرج و یاساکانی بەکارهێنان":{en:"Terms of use",ar:"شروط الاستخدام",tr:"Kullanım koşulları",fa:"شرایط استفاده",az:"İstifadə şərtləri",ru:"Условия использования",de:"Nutzungsbedingungen",fr:"Conditions d’utilisation",es:"Términos de uso"},
+    "دەستگەیشتنی دیجیتاڵ":{en:"Digital accessibility",ar:"إمكانية الوصول الرقمي",tr:"Dijital erişilebilirlik",fa:"دسترس‌پذیری دیجیتال",az:"Rəqəmsal əlçatanlıq",ru:"Цифровая доступность",de:"Digitale Barrierefreiheit",fr:"Accessibilité numérique",es:"Accesibilidad digital"},
+    "ئیمەیڵ":{en:"Email",ar:"البريد الإلكتروني",tr:"E-posta",fa:"ایمیل",az:"E-poçt",ru:"Электронная почта",de:"E-Mail",fr:"E-mail",es:"Correo electrónico"},
+    "وشەی نهێنی":{en:"Password",ar:"كلمة المرور",tr:"Şifre",fa:"گذرواژه",az:"Şifrə",ru:"Пароль",de:"Passwort",fr:"Mot de passe",es:"Contraseña"},
+    "ناوی تەواو":{en:"Full name",ar:"الاسم الكامل",tr:"Ad soyad",fa:"نام کامل",az:"Tam ad",ru:"Полное имя",de:"Vollständiger Name",fr:"Nom complet",es:"Nombre completo"},
+    "تۆمارکردن":{en:"Register",ar:"إنشاء حساب",tr:"Kayıt ol",fa:"ثبت‌نام",az:"Qeydiyyat",ru:"Регистрация",de:"Registrieren",fr:"S’inscrire",es:"Registrarse"},
+    "چوونە نێو پەنێڵی خوێندکار ←":{en:"Open student dashboard ←",ar:"فتح لوحة الطالب ←",tr:"Öğrenci panelini aç ←",fa:"ورود به پنل دانشجو ←",az:"Tələbə panelini aç ←",ru:"Открыть панель студента ←",de:"Studentenbereich öffnen ←",fr:"Ouvrir l’espace étudiant ←",es:"Abrir panel del estudiante ←"},
+    "بینینی کۆرس":{en:"View course",ar:"عرض الدورة",tr:"Kursu görüntüle",fa:"مشاهده دوره",az:"Kursa bax",ru:"Посмотреть курс",de:"Kurs ansehen",fr:"Voir le cours",es:"Ver curso"},
+    "خۆتۆمارکردن لە کۆرس":{en:"Enroll in course",ar:"التسجيل في الدورة",tr:"Kursa kaydol",fa:"ثبت‌نام در دوره",az:"Kursa yazıl",ru:"Записаться на курс",de:"Für den Kurs anmelden",fr:"S’inscrire au cours",es:"Inscribirse en el curso"},
+    "پڕۆفایل":{en:"Profile",ar:"الملف الشخصي",tr:"Profil",fa:"نمایه",az:"Profil",ru:"Профиль",de:"Profil",fr:"Profil",es:"Perfil"},
+    "پاشەکەوتکردنی پڕۆفایل":{en:"Save profile",ar:"حفظ الملف الشخصي",tr:"Profili kaydet",fa:"ذخیره نمایه",az:"Profili saxla",ru:"Сохранить профиль",de:"Profil speichern",fr:"Enregistrer le profil",es:"Guardar perfil"},
+    "کۆرسەکانم":{en:"My courses",ar:"دوراتي",tr:"Kurslarım",fa:"دوره‌های من",az:"Kurslarım",ru:"Мои курсы",de:"Meine Kurse",fr:"Mes cours",es:"Mis cursos"},
+    "ناردنەوەی ئیمەیڵی پشت‌ڕاست‌کردنەوە":{en:"Resend verification email",ar:"إعادة إرسال رسالة التحقق",tr:"Doğrulama e-postasını yeniden gönder",fa:"ارسال دوباره ایمیل تأیید",az:"Təsdiq e-poçtunu yenidən göndər",ru:"Повторно отправить письмо подтверждения",de:"Bestätigungs-E-Mail erneut senden",fr:"Renvoyer l’e-mail de vérification",es:"Reenviar correo de verificación"},
+    "چۆن دەست بە خوێندن بکەیت؟":{en:"How to start learning",ar:"كيف تبدأ التعلّم",tr:"Öğrenmeye nasıl başlanır",fa:"چگونه یادگیری را آغاز کنید",az:"Öyrənməyə necə başlamaq olar",ru:"Как начать обучение",de:"So beginnen Sie mit dem Lernen",fr:"Comment commencer à apprendre",es:"Cómo empezar a aprender"},
     "هەڵبژاردنی زمانی ماڵپەڕ":{en:"Choose site language",ar:"اختيار لغة الموقع",tr:"Site dilini seç",fa:"انتخاب زبان وب‌سایت",az:"Sayt dilini seç",ru:"Выбрать язык сайта",de:"Seitensprache wählen",fr:"Choisir la langue du site",es:"Elegir idioma del sitio"}
   };
   const originals=new WeakMap();
@@ -1620,7 +1645,7 @@ async function markLessonComplete(courseId, lessonKey){
     const translated=LABELS[trimmed]&&LABELS[trimmed][code];
     node.nodeValue=code==="ckb"?original:(translated?leading+translated+trailing:original);
   }
-  function localizeUi(code){
+  function localizeUi(code,notify=true){
     activeLanguage=code;
     const walker=document.createTreeWalker(document.body,NodeFilter.SHOW_TEXT);
     const nodes=[];while(walker.nextNode())if(isUiNode(walker.currentNode))nodes.push(walker.currentNode);
@@ -1643,8 +1668,10 @@ async function markLessonComplete(courseId, lessonKey){
       if(summary)summary.setAttribute("aria-label",LABELS["هەڵبژاردنی زمانی ماڵپەڕ"][code]||"هەڵبژاردنی زمانی ماڵپەڕ");
     }
     try{localStorage.setItem("avasin-site-language",code);}catch(_){}
-    if(code!=="ckb")showStatus("ڕووکاری ماڵپەڕ گۆڕدرا. ناوەڕۆکی زانستی و وانەکان بە دەقی سەرچاوە ماونەتەوە؛ وەرگێڕانی تەواوی پەڕەکان دواتر جیاواز چاک دەکرێت.");
-    else showStatus("زمانی ڕووکاری ماڵپەڕ گەڕایەوە بۆ کوردیی سۆرانی.");
+    if(notify){
+      if(code!=="ckb")showStatus("ڕووکاری ماڵپەڕ گۆڕدرا. ناوەڕۆکی زانستی و وانەکان بە دەقی سەرچاوە ماونەتەوە؛ وەرگێڕانی تەواوی پەڕەکان دواتر جیاواز چاک دەکرێت.");
+      else showStatus("زمانی ڕووکاری ماڵپەڕ گەڕایەوە بۆ کوردیی سۆرانی.");
+    }
   }
   function showStatus(message){
     let status=document.getElementById("avasin-translation-status");
@@ -1672,7 +1699,7 @@ async function markLessonComplete(courseId, lessonKey){
         button.innerHTML='<span class="avasin-language-option-initial" aria-hidden="true"></span><span class="avasin-language-option-name"></span><span class="avasin-language-option-mark" aria-hidden="true">✓</span>';
         button.querySelector(".avasin-language-option-initial").textContent=lang.initial;
         button.querySelector(".avasin-language-option-name").textContent=lang.name;
-        button.addEventListener("click",()=>{panel.open=false;localizeUi(lang.code);});
+        button.addEventListener("click",()=>{panel.open=false;localizeUi(lang.code,true);});
         list.appendChild(button);
       });
       list.dataset.built="true";
@@ -1683,22 +1710,26 @@ async function markLessonComplete(courseId, lessonKey){
     observer=new MutationObserver(records=>{
       if(activeLanguage==="ckb")return;
       records.forEach(record=>{
-        if(record.type==="childList")record.addedNodes.forEach(node=>{
-          if(node.nodeType===Node.TEXT_NODE)applyNode(node,activeLanguage);
-          else if(node.nodeType===Node.ELEMENT_NODE){
-            const walker=document.createTreeWalker(node,NodeFilter.SHOW_TEXT);
-            const added=[];while(walker.nextNode())if(isUiNode(walker.currentNode))added.push(walker.currentNode);
-            added.forEach(n=>applyNode(n,activeLanguage));
-          }
-        });
+        if(record.type==="characterData"){
+          applyNode(record.target,activeLanguage);
+        }else if(record.type==="childList"){
+          record.addedNodes.forEach(node=>{
+            if(node.nodeType===Node.TEXT_NODE)applyNode(node,activeLanguage);
+            else if(node.nodeType===Node.ELEMENT_NODE){
+              const walker=document.createTreeWalker(node,NodeFilter.SHOW_TEXT);
+              const added=[];while(walker.nextNode())if(isUiNode(walker.currentNode))added.push(walker.currentNode);
+              added.forEach(n=>applyNode(n,activeLanguage));
+            }
+          });
+        }
       });
     });
-    function startObserver(){observer.observe(document.body,{subtree:true,childList:true});}
+    function startObserver(){observer.observe(document.body,{subtree:true,childList:true,characterData:true});}
     function rememberUi(){
       const walker=document.createTreeWalker(document.body,NodeFilter.SHOW_TEXT);
       while(walker.nextNode())if(isUiNode(walker.currentNode))remember(walker.currentNode);
     }
-    localizeUi(saved);
+    localizeUi(saved,false);
     startObserver();
   }
   if(document.readyState==="loading")document.addEventListener("DOMContentLoaded",setup,{once:true});
