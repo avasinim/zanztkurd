@@ -1755,11 +1755,23 @@ async function markLessonComplete(courseId, lessonKey){
       if(translationIgnored(node))continue;
       const original=dynamicTranslationOriginals.has(node)?dynamicTranslationOriginals.get(node):node.nodeValue;
       const trimmed=String(original||"").trim();
-      if(trimmed.length<2 || trimmed.length>700 || !/[\p{L}]/u.test(trimmed))continue;
+      if(trimmed.length<2 || !/[\p{L}]/u.test(trimmed))continue;
       if(!dynamicTranslationOriginals.has(node))dynamicTranslationOriginals.set(node,node.nodeValue);
       nodes.push({node,text:original});
     }
     return nodes;
+  }
+  function splitTranslationText(text,maxLength=620){
+    const parts=[];
+    let rest=String(text||"");
+    while(rest.length>maxLength){
+      let cut=rest.lastIndexOf(" ",maxLength);
+      if(cut<Math.floor(maxLength*0.55))cut=maxLength;
+      parts.push(rest.slice(0,cut));
+      rest=rest.slice(cut);
+    }
+    if(rest)parts.push(rest);
+    return parts;
   }
   function translationWait(ms){return new Promise(resolve=>setTimeout(resolve,ms));}
   async function translatePageContent(code){
@@ -1792,45 +1804,56 @@ async function markLessonComplete(courseId, lessonKey){
       return;
     }
     const endpoint=config.url.replace(/\/$/,"")+"/functions/v1/translate-page";
-    let translatedCount=0,failed=false;
-    for(let i=0;i<nodes.length;i+=20){
-      if(runId!==translationRunId || activeLanguage!==code)return;
-      const batch=nodes.slice(i,i+20);
-      const uncached=[],positions=[];
-      batch.forEach((item,index)=>{
-        const key=code+"\u0000"+item.text;
+    const units=[];
+    for(const item of nodes){
+      const pieces=splitTranslationText(item.text);
+      units.push({node:item.node,original:item.text,pieces,translated:new Array(pieces.length),failed:false});
+    }
+    const requests=[];
+    for(const unit of units){
+      unit.pieces.forEach((piece,index)=>{
+        const key=code+"\u0000"+piece;
         let cached=dynamicTranslationCache.get(key);
         if(cached===undefined){try{cached=sessionStorage.getItem("avasin-translation:"+key)??undefined;}catch(_){}}
-        if(cached!==undefined){dynamicTranslationCache.set(key,cached);item.node.nodeValue=cached;translatedCount++;}
-        else {uncached.push(item.text);positions.push(index);}
+        if(cached!==undefined){
+          dynamicTranslationCache.set(key,cached);
+          unit.translated[index]=cached;
+        }else requests.push({unit,index,text:piece,key});
       });
-      if(uncached.length){
-        try{
-          const response=await fetch(endpoint,{
-            method:"POST",
-            headers:{"Content-Type":"application/json","apikey":config.publishableKey},
-            body:JSON.stringify({target:code,texts:uncached})
-          });
-          if(!response.ok)throw new Error("HTTP "+response.status);
-          const payload=await response.json();
-          if(!Array.isArray(payload.translations)||payload.translations.length!==uncached.length)throw new Error("Invalid translation response");
-          payload.translations.forEach((value,j)=>{
-            if(typeof value!=="string"||!value)return;
-            const item=batch[positions[j]];
-            const key=code+"\u0000"+item.text;
-            dynamicTranslationCache.set(key,value);
-            try{sessionStorage.setItem("avasin-translation:"+key,value);}catch(_){}
-            if(item.node.isConnected)item.node.nodeValue=value;
-            translatedCount++;
-          });
-        }catch(error){
-          failed=true;
-          console.warn("[Avasin translation]",error);
-        }
-      }
-      if(i+20<nodes.length)await translationWait(450);
     }
-    if(runId!==translationRunId)return;
+    let failed=false,translatedCount=0;
+    for(let i=0;i<requests.length;i+=8){
+      if(runId!==translationRunId || activeLanguage!==code)return;
+      const batch=requests.slice(i,i+8);
+      try{
+        const response=await fetch(endpoint,{
+          method:"POST",
+          headers:{"Content-Type":"application/json","apikey":config.publishableKey},
+          body:JSON.stringify({target:code,texts:batch.map(item=>item.text)})
+        });
+        if(!response.ok)throw new Error("HTTP "+response.status);
+        const payload=await response.json();
+        if(!Array.isArray(payload.translations)||payload.translations.length!==batch.length)throw new Error("Invalid translation response");
+        payload.translations.forEach((value,j)=>{
+          const request=batch[j];
+          if(typeof value!=="string"||!value.trim()){request.unit.failed=true;failed=true;return;}
+          request.unit.translated[request.index]=value;
+          dynamicTranslationCache.set(request.key,value);
+          try{sessionStorage.setItem("avasin-translation:"+request.key,value);}catch(_){}
+        });
+      }catch(error){
+        failed=true;
+        batch.forEach(item=>item.unit.failed=true);
+        console.warn("[Avasin translation]",error);
+      }
+      if(i+8<requests.length)await translationWait(700);
+    }
+    if(runId!==translationRunId || activeLanguage!==code)return;
+    for(const unit of units){
+      if(unit.failed || unit.translated.some(part=>typeof part!=="string"))continue;
+      if(unit.node.isConnected)unit.node.nodeValue=unit.translated.join("");
+      translatedCount++;
+    }
     if(failed)showStatus("بەشێک لە دەقەکان وەرنەگێڕدرا؛ خزمەتگوزاریی وەرگێڕان سنووردارە. دەتوانیت دواتر هەوڵ بدەیتەوە.");
     else showStatus("وەرگێڕانی "+translatedCount+" بەشی دەق تەواو بوو.");
   }
