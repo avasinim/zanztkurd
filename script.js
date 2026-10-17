@@ -1618,10 +1618,11 @@ async function markLessonComplete(courseId, lessonKey){
     }
     if(batch.length)batches.push(batch);
     for(const group of batches){
-      if(target!==activeLanguage) return;
+      if(target!==activeLanguage) return false;
       try{await translateBatch(group,target);}
-      catch(error){console.warn("[Avasin translation]",error);showStatus("وەرگێڕان بەردەست نییە؛ تکایە دووبارە هەوڵ بدە.");return;}
+      catch(error){console.warn("[Avasin translation]",error);return false;}
     }
+    return true;
   }
   function showStatus(message){
     let status=document.getElementById("avasin-translation-status");
