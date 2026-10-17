@@ -1552,8 +1552,9 @@ async function markLessonComplete(courseId, lessonKey){
 })();
 
 
-/* Avasin Standard — functional site-wide text translation.
-   Translation is requested from the Supabase Edge Function; no provider secret is exposed in the browser. */
+/* Avasin Standard — reliable UI localization.
+   Only interface labels are localized here. Lesson/article body text is never rewritten.
+   Full-page machine translation remains a separate task until a reliable provider is configured. */
 (function(){
   "use strict";
   const LANGUAGES=[
@@ -1568,106 +1569,89 @@ async function markLessonComplete(courseId, lessonKey){
     {code:"fr",name:"Français",initial:"F"},
     {code:"es",name:"Español",initial:"E"}
   ];
+  const LABELS={
+    "فێربون":{en:"Learning",ar:"التعلّم",tr:"Öğrenme",fa:"یادگیری",az:"Öyrənmə",ru:"Обучение",de:"Lernen",fr:"Apprentissage",es:"Aprendizaje"},
+    "زمان‌ناسی":{en:"Linguistics",ar:"علم اللغة",tr:"Dilbilim",fa:"زبان‌شناسی",az:"Dilçilik",ru:"Языкознание",de:"Linguistik",fr:"Linguistique",es:"Lingüística"},
+    "وانەکان":{en:"Lessons",ar:"الدروس",tr:"Dersler",fa:"درس‌ها",az:"Dərslər",ru:"Уроки",de:"Lektionen",fr:"Leçons",es:"Lecciones"},
+    "کتێب‌خانە":{en:"Library",ar:"المكتبة",tr:"Kütüphane",fa:"کتابخانه",az:"Kitabxana",ru:"Библиотека",de:"Bibliothek",fr:"Bibliothèque",es:"Biblioteca"},
+    "کتێبخانە":{en:"Library",ar:"المكتبة",tr:"Kütüphane",fa:"کتابخانه",az:"Kitabxana",ru:"Библиотека",de:"Bibliothek",fr:"Bibliothèque",es:"Biblioteca"},
+    "دەستەی ئەکادێمی":{en:"Academic team",ar:"الفريق الأكاديمي",tr:"Akademik ekip",fa:"گروه دانشگاهی",az:"Akademik heyət",ru:"Академическая команда",de:"Akademisches Team",fr:"Équipe académique",es:"Equipo académico"},
+    "دەربارەی ئاڤاشین":{en:"About Avasin",ar:"عن آفاسين",tr:"Avasin hakkında",fa:"درباره ئاڤاشین",az:"Avasin haqqında",ru:"Об Авасин",de:"Über Avasin",fr:"À propos d’Avasin",es:"Acerca de Avasin"},
+    "چوونەژورەوە":{en:"Sign in",ar:"تسجيل الدخول",tr:"Giriş yap",fa:"ورود",az:"Daxil ol",ru:"Войти",de:"Anmelden",fr:"Se connecter",es:"Iniciar sesión"},
+    "چوونەژوورەوە":{en:"Sign in",ar:"تسجيل الدخول",tr:"Giriş yap",fa:"ورود",az:"Daxil ol",ru:"Войти",de:"Anmelden",fr:"Se connecter",es:"Iniciar sesión"},
+    "چوونەدەرەوە":{en:"Sign out",ar:"تسجيل الخروج",tr:"Çıkış yap",fa:"خروج",az:"Çıxış",ru:"Выйти",de:"Abmelden",fr:"Se déconnecter",es:"Cerrar sesión"},
+    "گەڕانەوە":{en:"Back",ar:"رجوع",tr:"Geri",fa:"بازگشت",az:"Geri",ru:"Назад",de:"Zurück",fr:"Retour",es:"Volver"},
+    "گەڕانەوە بۆ پەڕەی سەرەکی":{en:"Back to home",ar:"العودة إلى الصفحة الرئيسية",tr:"Ana sayfaya dön",fa:"بازگشت به صفحه اصلی",az:"Əsas səhifəyə qayıt",ru:"На главную",de:"Zur Startseite",fr:"Retour à l’accueil",es:"Volver al inicio"},
+    "پەیوەندی":{en:"Contact",ar:"اتصل بنا",tr:"İletişim",fa:"تماس",az:"Əlaqə",ru:"Контакты",de:"Kontakt",fr:"Contact",es:"Contacto"},
+    "زمانی ماڵپەڕ":{en:"Site language",ar:"لغة الموقع",tr:"Site dili",fa:"زبان وب‌سایت",az:"Saytın dili",ru:"Язык сайта",de:"Seitensprache",fr:"Langue du site",es:"Idioma del sitio"},
+    "هەمو کتێبەکان ←":{en:"All books ←",ar:"كل الكتب ←",tr:"Tüm kitaplar ←",fa:"همه کتاب‌ها ←",az:"Bütün kitablar ←",ru:"Все книги ←",de:"Alle Bücher ←",fr:"Tous les livres ←",es:"Todos los libros ←"},
+    "کاتەلۆگی وانەکان":{en:"Lesson catalog",ar:"فهرس الدروس",tr:"Ders kataloğu",fa:"فهرست درس‌ها",az:"Dərs kataloqu",ru:"Каталог уроков",de:"Lektionskatalog",fr:"Catalogue des leçons",es:"Catálogo de lecciones"},
+    "ڕێڕەوی فێربون":{en:"Learning path",ar:"مسار التعلّم",tr:"Öğrenme yolu",fa:"مسیر یادگیری",az:"Öyrənmə yolu",ru:"Учебный маршрут",de:"Lernpfad",fr:"Parcours d’apprentissage",es:"Ruta de aprendizaje"},
+    "پێشکەوتن":{en:"Progress",ar:"التقدّم",tr:"İlerleme",fa:"پیشرفت",az:"İrəliləyiş",ru:"Прогресс",de:"Fortschritt",fr:"Progression",es:"Progreso"},
+    "وانە تەواوکراوەکان":{en:"Completed lessons",ar:"الدروس المكتملة",tr:"Tamamlanan dersler",fa:"درس‌های تکمیل‌شده",az:"Tamamlanmış dərslər",ru:"Завершённые уроки",de:"Abgeschlossene Lektionen",fr:"Leçons terminées",es:"Lecciones completadas"},
+    "هەمو ڕێڕەوەکان":{en:"All paths",ar:"كل المسارات",tr:"Tüm yollar",fa:"همه مسیرها",az:"Bütün yollar",ru:"Все маршруты",de:"Alle Lernpfade",fr:"Tous les parcours",es:"Todas las rutas"},
+    "هەمو بەشەکان":{en:"All sections",ar:"كل الأقسام",tr:"Tüm bölümler",fa:"همه بخش‌ها",az:"Bütün bölmələr",ru:"Все разделы",de:"Alle Bereiche",fr:"Toutes les sections",es:"Todas las secciones"},
+    "گەڕان بە نێو بابەتەکان‌دا":{en:"Search topics",ar:"البحث في الموضوعات",tr:"Konularda ara",fa:"جست‌وجو در موضوعات",az:"Mövzularda axtar",ru:"Поиск по темам",de:"Themen durchsuchen",fr:"Rechercher des sujets",es:"Buscar temas"},
+    "تۆڕەکانی ئێمە":{en:"Our networks",ar:"شبكاتنا",tr:"Sosyal ağlarımız",fa:"شبکه‌های ما",az:"Şəbəkələrimiz",ru:"Наши сети",de:"Unsere Netzwerke",fr:"Nos réseaux",es:"Nuestras redes"},
+    "یوتیوب":{en:"YouTube",ar:"يوتيوب",tr:"YouTube",fa:"یوتیوب",az:"YouTube",ru:"YouTube",de:"YouTube",fr:"YouTube",es:"YouTube"},
+    "تەلەگرام":{en:"Telegram",ar:"تيليغرام",tr:"Telegram",fa:"تلگرام",az:"Telegram",ru:"Телеграм",de:"Telegram",fr:"Telegram",es:"Telegram"},
+    "بینینی وانەکان":{en:"View lessons",ar:"عرض الدروس",tr:"Dersleri görüntüle",fa:"مشاهده درس‌ها",az:"Dərslərə bax",ru:"Смотреть уроки",de:"Lektionen ansehen",fr:"Voir les leçons",es:"Ver lecciones"},
+    "چوونە پەنێڵی بەڕێوبەرایەتی ←":{en:"Open admin panel ←",ar:"فتح لوحة الإدارة ←",tr:"Yönetim panelini aç ←",fa:"بازکردن پنل مدیریت ←",az:"İdarəetmə panelini aç ←",ru:"Открыть панель управления ←",de:"Adminbereich öffnen ←",fr:"Ouvrir le panneau d’administration ←",es:"Abrir panel de administración ←"},
+    "دروستکردنی هەژمار":{en:"Create account",ar:"إنشاء حساب",tr:"Hesap oluştur",fa:"ایجاد حساب",az:"Hesab yarat",ru:"Создать аккаунт",de:"Konto erstellen",fr:"Créer un compte",es:"Crear cuenta"},
+    "هەڵبژاردنی زمانی ماڵپەڕ":{en:"Choose site language",ar:"اختيار لغة الموقع",tr:"Site dilini seç",fa:"انتخاب زبان وب‌سایت",az:"Sayt dilini seç",ru:"Выбрать язык сайта",de:"Seitensprache wählen",fr:"Choisir la langue du site",es:"Elegir idioma del sitio"}
+  };
   const originals=new WeakMap();
   let activeLanguage="ckb";
-  let translating=false;
   let observer=null;
-  const endpoint="https://hjpmorabqdhuchpnowiw.supabase.co/functions/v1/translate-page";
-  const config=window.ZANSTI_SUPABASE||{};
-  const excluded='script,style,noscript,textarea,input,select,option,code,pre,[contenteditable="true"],[data-no-translate],.notranslate';
-  function eligible(node){
+  const uiSelector='a,button,label,summary,[role="button"],[role="menuitem"],.chip,.v2-footer-social,h1,h2,h3,h4';
+  const ignoredSelector='.lesson-content,article,.article-body,.lesson-body,.topic-content,.book-content,[data-no-translate],script,style,textarea,input,select,option,code,pre,.notranslate';
+  function isUiNode(node){
     const p=node&&node.parentElement;
-    return !!(p && node.nodeValue && node.nodeValue.trim() && !p.closest(excluded));
+    return !!(p && !p.closest(ignoredSelector) && p.closest(uiSelector));
   }
-  function collect(root){
-    const found=[];
-    if(!root)return found;
-    if(root.nodeType===Node.TEXT_NODE){if(eligible(root))found.push(root);return found;}
-    if(root.nodeType!==Node.ELEMENT_NODE || root.matches(excluded))return found;
-    const walker=document.createTreeWalker(root,NodeFilter.SHOW_TEXT);
-    let n;while((n=walker.nextNode()))if(eligible(n))found.push(n);
-    return found;
+  function remember(node){if(node&&!originals.has(node))originals.set(node,node.nodeValue);}
+  function applyNode(node,code){
+    if(!node||!node.isConnected||!isUiNode(node))return;
+    remember(node);
+    const original=originals.get(node);
+    const trimmed=String(original||"").trim();
+    const leading=(String(original||"").match(/^\s*/)||[""])[0];
+    const trailing=(String(original||"").match(/\s*$/)||[""])[0];
+    const translated=LABELS[trimmed]&&LABELS[trimmed][code];
+    node.nodeValue=code==="ckb"?original:(translated?leading+translated+trailing:original);
   }
-  function remember(nodes){
-    nodes.forEach(n=>{if(!originals.has(n))originals.set(n,n.nodeValue);});
-  }
-  async function translateBatch(nodes,target){
-    const texts=nodes.map(n=>originals.get(n));
-    const response=await fetch(endpoint,{
-      method:"POST",
-      headers:{"Content-Type":"application/json","apikey":config.publishableKey||""},
-      body:JSON.stringify({target,texts})
-    });
-    if(!response.ok)throw new Error("Translation service returned "+response.status);
-    const data=await response.json();
-    if(!Array.isArray(data.translations)||data.translations.length!==nodes.length)throw new Error("Invalid translation response");
-    nodes.forEach((node,i)=>{
-      if(node.isConnected && typeof data.translations[i]==="string" && data.translations[i])node.nodeValue=data.translations[i];
-    });
-  }
-  async function translateNodes(nodes,target){
-    if(!nodes.length)return;
-    remember(nodes);
-    if(target==="ckb"){nodes.forEach(n=>{if(n.isConnected)n.nodeValue=originals.get(n);});return;}
-    const batches=[];let batch=[],chars=0;
-    for(const node of nodes){
-      const value=originals.get(node)||"";
-      if(batch.length && (batch.length>=20 || chars+value.length>5000)){batches.push(batch);batch=[];chars=0;}
-      if(value.length>700){continue;}
-      batch.push(node);chars+=value.length;
+  function localizeUi(code){
+    activeLanguage=code;
+    const walker=document.createTreeWalker(document.body,NodeFilter.SHOW_TEXT);
+    const nodes=[];while(walker.nextNode())if(isUiNode(walker.currentNode))nodes.push(walker.currentNode);
+    nodes.forEach(n=>applyNode(n,code));
+    const lang=LANGUAGES.find(x=>x.code===code)||LANGUAGES[0];
+    document.documentElement.lang=code;
+    const panel=document.getElementById("avasin-global-language")||document.querySelector(".avasin-language-mini");
+    if(panel){
+      const label=panel.querySelector(".avasin-language-current");
+      if(label){label.textContent=lang.initial;label.setAttribute("aria-label","زمانی هەڵبژێردراو: "+lang.name);}
+      const list=panel.querySelector(".avasin-language-options");
+      list?.querySelectorAll(".avasin-language-option").forEach(button=>{
+        const active=button.dataset.lang===code;
+        button.classList.toggle("is-active",active);
+        button.setAttribute("aria-selected",active?"true":"false");
+      });
+      const caption=panel.querySelector(".avasin-language-panel-caption");
+      if(caption)caption.textContent=(LABELS["زمانی ماڵپەڕ"][code]||"زمانی ماڵپەڕ");
+      const summary=panel.querySelector("summary");
+      if(summary)summary.setAttribute("aria-label",LABELS["هەڵبژاردنی زمانی ماڵپەڕ"][code]||"هەڵبژاردنی زمانی ماڵپەڕ");
     }
-    if(batch.length)batches.push(batch);
-    for(const group of batches){
-      if(target!==activeLanguage) return false;
-      try{await translateBatch(group,target);}
-      catch(error){console.warn("[Avasin translation]",error);return false;}
-    }
-    return true;
+    try{localStorage.setItem("avasin-site-language",code);}catch(_){}
+    if(code!=="ckb")showStatus("ڕووکاری ماڵپەڕ گۆڕدرا. ناوەڕۆکی زانستی و وانەکان بە دەقی سەرچاوە ماونەتەوە؛ وەرگێڕانی تەواوی پەڕەکان دواتر جیاواز چاک دەکرێت.");
+    else showStatus("زمانی ڕووکاری ماڵپەڕ گەڕایەوە بۆ کوردیی سۆرانی.");
   }
   function showStatus(message){
     let status=document.getElementById("avasin-translation-status");
     if(!status){status=document.createElement("div");status.id="avasin-translation-status";status.setAttribute("role","status");status.style.cssText="position:fixed;bottom:12px;left:12px;z-index:99999;max-width:min(360px,90vw);padding:.65rem .9rem;border-radius:10px;background:#173f32;color:#f6e8c4;font:14px/1.5 sans-serif;box-shadow:0 4px 18px #0003";document.body.appendChild(status);}
     status.textContent=message;
     clearTimeout(status._hideTimer);
-    status._hideTimer=setTimeout(()=>status.remove(),5000);
-  }
-  function updateCurrent(code,list,label){
-    const lang=LANGUAGES.find(item=>item.code===code)||LANGUAGES[0];
-    if(label){label.textContent=lang.initial;label.setAttribute("aria-label","زمانی هەڵبژێردراو: "+lang.name);}
-    if(list)list.querySelectorAll(".avasin-language-option").forEach(button=>{
-      const active=button.dataset.lang===code;
-      button.classList.toggle("is-active",active);
-      button.setAttribute("aria-selected",active?"true":"false");
-    });
-  }
-  async function applyLanguage(code){
-    activeLanguage=code;
-    try{localStorage.setItem("avasin-site-language",code);}catch(_){}
-    const panel=document.getElementById("avasin-global-language")||document.querySelector(".avasin-language-mini");
-    const list=panel&&panel.querySelector(".avasin-language-options");
-    const label=panel&&panel.querySelector(".avasin-language-current");
-    updateCurrent(code,list,label);
-    const nodes=collect(document.body);
-    remember(nodes);
-    translating=true;
-    if(observer)observer.disconnect();
-    if(code==="ckb"){
-      nodes.forEach(n=>{if(n.isConnected)n.nodeValue=originals.get(n);});
-      document.documentElement.lang="ckb";
-      translating=false;
-      if(observer)observer.observe(document.body,{subtree:true,childList:true,characterData:true});
-      return;
-    }
-    document.documentElement.lang=code;
-    showStatus("وەرگێڕانی ماڵپەڕ دەستی پێ‌کرد…");
-    const success=await translateNodes(nodes,code);
-    translating=false;
-    if(observer)observer.observe(document.body,{subtree:true,childList:true,characterData:true});
-    if(success){
-      showStatus("وەرگێڕان تەواو بوو: "+(LANGUAGES.find(x=>x.code===code)?.name||code));
-    }else{
-      showStatus("وەرگێڕان سەرکەوتوو نەبوو؛ خزمەتگوزاریی وەرگێڕان داواکارییەکەی ڕەت کردەوە. پێویستە سێرڤیسی وەرگێڕان چاک بکرێت.");
-    }
+    status._hideTimer=setTimeout(()=>status.remove(),6500);
   }
   function setup(){
     let panel=document.getElementById("avasin-global-language")||document.querySelector(".avasin-language-mini");
@@ -1676,8 +1660,7 @@ async function markLessonComplete(courseId, lessonKey){
       panel.innerHTML='<summary aria-label="گۆڕینی زمانی ماڵپەڕ"><span class="avasin-language-current">ک</span><span class="avasin-language-chevron" aria-hidden="true">⌄</span></summary><div class="avasin-language-mini-panel"><div class="avasin-language-panel-caption">زمانی ماڵپەڕ</div><div class="avasin-language-options" role="listbox" aria-label="هەڵبژاردنی زمانی ماڵپەڕ"></div></div>';
       document.body.appendChild(panel);
     }
-    let inner=panel.querySelector(".avasin-language-mini-panel");
-    if(!inner)return;
+    const inner=panel.querySelector(".avasin-language-mini-panel");if(!inner)return;
     let list=panel.querySelector(".avasin-language-options");
     if(!list){list=document.createElement("div");list.className="avasin-language-options";inner.appendChild(list);}
     const label=panel.querySelector(".avasin-language-current");
@@ -1689,24 +1672,34 @@ async function markLessonComplete(courseId, lessonKey){
         button.innerHTML='<span class="avasin-language-option-initial" aria-hidden="true"></span><span class="avasin-language-option-name"></span><span class="avasin-language-option-mark" aria-hidden="true">✓</span>';
         button.querySelector(".avasin-language-option-initial").textContent=lang.initial;
         button.querySelector(".avasin-language-option-name").textContent=lang.name;
-        button.addEventListener("click",()=>{panel.open=false;applyLanguage(lang.code);});
+        button.addEventListener("click",()=>{panel.open=false;localizeUi(lang.code);});
         list.appendChild(button);
       });
       list.dataset.built="true";
     }
     let saved="ckb";try{const s=localStorage.getItem("avasin-site-language");if(LANGUAGES.some(x=>x.code===s))saved=s;}catch(_){}
-    updateCurrent(saved,list,label);
-    remember(collect(document.body));
+    rememberUi();
+    const observerFn=()=>{if(activeLanguage==="ckb")return;rememberUi();};
     observer=new MutationObserver(records=>{
-      if(translating||activeLanguage==="ckb")return;
-      const added=[];
+      if(activeLanguage==="ckb")return;
       records.forEach(record=>{
-        if(record.type==="childList")record.addedNodes.forEach(n=>added.push(...collect(n)));
+        if(record.type==="childList")record.addedNodes.forEach(node=>{
+          if(node.nodeType===Node.TEXT_NODE)applyNode(node,activeLanguage);
+          else if(node.nodeType===Node.ELEMENT_NODE){
+            const walker=document.createTreeWalker(node,NodeFilter.SHOW_TEXT);
+            const added=[];while(walker.nextNode())if(isUiNode(walker.currentNode))added.push(walker.currentNode);
+            added.forEach(n=>applyNode(n,activeLanguage));
+          }
+        });
       });
-      if(added.length){remember(added);translateNodes(added,activeLanguage);}
     });
-    observer.observe(document.body,{subtree:true,childList:true,characterData:false});
-    if(saved!=="ckb")applyLanguage(saved);
+    function startObserver(){observer.observe(document.body,{subtree:true,childList:true});}
+    function rememberUi(){
+      const walker=document.createTreeWalker(document.body,NodeFilter.SHOW_TEXT);
+      while(walker.nextNode())if(isUiNode(walker.currentNode))remember(walker.currentNode);
+    }
+    localizeUi(saved);
+    startObserver();
   }
   if(document.readyState==="loading")document.addEventListener("DOMContentLoaded",setup,{once:true});
   else setup();
