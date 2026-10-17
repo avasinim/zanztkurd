@@ -1734,6 +1734,86 @@ async function markLessonComplete(courseId, lessonKey){
       }
     }
   }
+  const dynamicTranslationOriginals=new Map();
+  const dynamicTranslationCache=new Map();
+  let translationRunId=0;
+  function translationIgnored(node){
+    const parent=node&&node.parentElement;
+    return !parent || !!parent.closest('.lesson-content,.lesson-body,.article-body,.topic-content,.book-content,[data-no-translate],script,style,textarea,input,select,option,code,pre,svg,.notranslate,article') || isUiNode(node);
+  }
+  function collectPageTextNodes(){
+    const walker=document.createTreeWalker(document.body,NodeFilter.SHOW_TEXT);
+    const nodes=[];
+    while(walker.nextNode()){
+      const node=walker.currentNode;
+      if(translationIgnored(node))continue;
+      const original=dynamicTranslationOriginals.has(node)?dynamicTranslationOriginals.get(node):node.nodeValue;
+      const trimmed=String(original||"").trim();
+      if(trimmed.length<2 || trimmed.length>700 || !/[\p{L}]/u.test(trimmed))continue;
+      if(!dynamicTranslationOriginals.has(node))dynamicTranslationOriginals.set(node,node.nodeValue);
+      nodes.push({node,text:original});
+    }
+    return nodes;
+  }
+  function translationWait(ms){return new Promise(resolve=>setTimeout(resolve,ms));}
+  async function translatePageContent(code){
+    const runId=++translationRunId;
+    const nodes=collectPageTextNodes();
+    if(code==="ckb"){
+      for(const [node,original] of dynamicTranslationOriginals){
+        if(node.isConnected && node.nodeValue!==original)node.nodeValue=original;
+      }
+      return;
+    }
+    if(!nodes.length)return;
+    showStatus("وەرگێڕانی ناوەڕۆکی گشتی دەستی پێکرد...");
+    const config=window.ZANSTI_SUPABASE;
+    if(!config?.url || !config?.publishableKey){
+      showStatus("پەیوەندیی وەرگێڕان ئامادە نییە؛ تکایە دواتر هەوڵ بدەوە.");
+      return;
+    }
+    const endpoint=config.url.replace(/\/$/,"")+"/functions/v1/translate-page";
+    let translatedCount=0,failed=false;
+    for(let i=0;i<nodes.length;i+=20){
+      if(runId!==translationRunId || activeLanguage!==code)return;
+      const batch=nodes.slice(i,i+20);
+      const uncached=[],positions=[];
+      batch.forEach((item,index)=>{
+        const key=code+"\u0000"+item.text;
+        const cached=dynamicTranslationCache.get(key);
+        if(cached!==undefined){item.node.nodeValue=cached;translatedCount++;}
+        else {uncached.push(item.text);positions.push(index);}
+      });
+      if(uncached.length){
+        try{
+          const response=await fetch(endpoint,{
+            method:"POST",
+            headers:{"Content-Type":"application/json","apikey":config.publishableKey},
+            body:JSON.stringify({target:code,texts:uncached})
+          });
+          if(!response.ok)throw new Error("HTTP "+response.status);
+          const payload=await response.json();
+          if(!Array.isArray(payload.translations)||payload.translations.length!==uncached.length)throw new Error("Invalid translation response");
+          payload.translations.forEach((value,j)=>{
+            if(typeof value!=="string"||!value)return;
+            const item=batch[positions[j]];
+            const key=code+"\u0000"+item.text;
+            dynamicTranslationCache.set(key,value);
+            try{sessionStorage.setItem("avasin-translation:"+key,value);}catch(_){}
+            if(item.node.isConnected)item.node.nodeValue=value;
+            translatedCount++;
+          });
+        }catch(error){
+          failed=true;
+          console.warn("[Avasin translation]",error);
+        }
+      }
+      if(i+20<nodes.length)await translationWait(450);
+    }
+    if(runId!==translationRunId)return;
+    if(failed)showStatus("بەشێک لە دەقەکان وەرنەگێڕدرا؛ خزمەتگوزاریی وەرگێڕان سنووردارە. دەتوانیت دواتر هەوڵ بدەیتەوە.");
+    else showStatus("وەرگێڕانی "+translatedCount+" بەشی دەق تەواو بوو.");
+  }
   function localizeUi(code,notify=true){
     activeLanguage=code;
     const walker=document.createTreeWalker(document.body,NodeFilter.SHOW_TEXT);
@@ -1759,8 +1839,13 @@ async function markLessonComplete(courseId, lessonKey){
     }
     try{localStorage.setItem("avasin-site-language",code);}catch(_){}
     if(notify){
-      if(code!=="ckb")showStatus("ڕووکاری ماڵپەڕ گۆڕدرا. ناوەڕۆکی زانستی و وانەکان بە دەقی سەرچاوە ماونەتەوە؛ وەرگێڕانی تەواوی پەڕەکان دواتر جیاواز چاک دەکرێت.");
-      else showStatus("زمانی ڕووکاری ماڵپەڕ گەڕایەوە بۆ کوردیی سۆرانی.");
+      if(code!=="ckb"){
+        showStatus("ڕووکاری ماڵپەڕ گۆڕدرا؛ وەرگێڕانی بەشە گشتییەکان دەستی پێکرد.");
+        void translatePageContent(code);
+      }else{
+        void translatePageContent(code);
+        showStatus("زمانی ڕووکاری ماڵپەڕ گەڕایەوە بۆ کوردیی سۆرانی.");
+      }
     }
   }
   function showStatus(message){
