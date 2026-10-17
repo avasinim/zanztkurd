@@ -1773,7 +1773,20 @@ async function markLessonComplete(courseId, lessonKey){
     }
     if(!nodes.length)return;
     showStatus("وەرگێڕانی ناوەڕۆکی گشتی دەستی پێکرد...");
-    const config=window.ZANSTI_SUPABASE;
+    let config=window.ZANSTI_SUPABASE;
+    if(!config?.url || !config?.publishableKey){
+      try{
+        await new Promise((resolve,reject)=>{
+          const existing=document.getElementById("avasin-translation-config");
+          if(existing){existing.addEventListener("load",resolve,{once:true});existing.addEventListener("error",reject,{once:true});return;}
+          const loader=document.createElement("script");
+          loader.id="avasin-translation-config";
+          loader.src=(location.pathname.includes("/lessons/")?"../supabase-config.js":"supabase-config.js")+"?v=20261017-translation";
+          loader.onload=resolve;loader.onerror=reject;document.head.appendChild(loader);
+        });
+        config=window.ZANSTI_SUPABASE;
+      }catch(_){}
+    }
     if(!config?.url || !config?.publishableKey){
       showStatus("پەیوەندیی وەرگێڕان ئامادە نییە؛ تکایە دواتر هەوڵ بدەوە.");
       return;
