@@ -1739,7 +1739,13 @@ async function markLessonComplete(courseId, lessonKey){
   let translationRunId=0;
   function translationIgnored(node){
     const parent=node&&node.parentElement;
-    return !parent || !!parent.closest('.lesson-content,.lesson-body,.article-body,.topic-content,.book-content,[data-no-translate],script,style,textarea,input,select,option,code,pre,svg,.notranslate,article') || isUiNode(node);
+    if(!parent || parent.closest('.lesson-content,.lesson-body,.article-body,.topic-content,.book-content,[data-no-translate],script,style,textarea,input,select,option,code,pre,svg,.notranslate'))return true;
+    if(isUiNode(node)){
+      const original=originals.has(node)?originals.get(node):node.nodeValue;
+      const known=LABELS[String(original||"").trim()];
+      return !!(known && known[activeLanguage]);
+    }
+    return false;
   }
   function collectPageTextNodes(){
     const walker=document.createTreeWalker(document.body,NodeFilter.SHOW_TEXT);
