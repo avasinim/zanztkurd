@@ -1552,9 +1552,8 @@ async function markLessonComplete(courseId, lessonKey){
 })();
 
 
-/* Avasin language selector — external full-page translation fallback.
-   The former Website Translator widget was retired by Google in October 2026.
-   Use Google's public page-translation URL instead; no API key is embedded. */
+/* Avasin Standard — functional site-wide text translation.
+   Translation is requested from the Supabase Edge Function; no provider secret is exposed in the browser. */
 (function(){
   "use strict";
   const LANGUAGES=[
@@ -1569,71 +1568,144 @@ async function markLessonComplete(courseId, lessonKey){
     {code:"fr",name:"Français",initial:"F"},
     {code:"es",name:"Español",initial:"E"}
   ];
-  function setupAvasinLanguageSelector(){
+  const originals=new WeakMap();
+  let activeLanguage="ckb";
+  let translating=false;
+  let observer=null;
+  const endpoint="https://hjpmorabqdhuchpnowiw.supabase.co/functions/v1/translate-page";
+  const config=window.ZANSTI_SUPABASE||{};
+  const excluded='script,style,noscript,textarea,input,select,option,code,pre,[contenteditable="true"],[data-no-translate],.notranslate';
+  function eligible(node){
+    const p=node&&node.parentElement;
+    return !!(p && node.nodeValue && node.nodeValue.trim() && !p.closest(excluded));
+  }
+  function collect(root){
+    const found=[];
+    if(!root)return found;
+    if(root.nodeType===Node.TEXT_NODE){if(eligible(root))found.push(root);return found;}
+    if(root.nodeType!==Node.ELEMENT_NODE || root.matches(excluded))return found;
+    const walker=document.createTreeWalker(root,NodeFilter.SHOW_TEXT);
+    let n;while((n=walker.nextNode()))if(eligible(n))found.push(n);
+    return found;
+  }
+  function remember(nodes){
+    nodes.forEach(n=>{if(!originals.has(n))originals.set(n,n.nodeValue);});
+  }
+  async function translateBatch(nodes,target){
+    const texts=nodes.map(n=>originals.get(n));
+    const response=await fetch(endpoint,{
+      method:"POST",
+      headers:{"Content-Type":"application/json","apikey":config.publishableKey||""},
+      body:JSON.stringify({target,texts})
+    });
+    if(!response.ok)throw new Error("Translation service returned "+response.status);
+    const data=await response.json();
+    if(!Array.isArray(data.translations)||data.translations.length!==nodes.length)throw new Error("Invalid translation response");
+    nodes.forEach((node,i)=>{
+      if(node.isConnected && typeof data.translations[i]==="string" && data.translations[i])node.nodeValue=data.translations[i];
+    });
+  }
+  async function translateNodes(nodes,target){
+    if(!nodes.length)return;
+    remember(nodes);
+    if(target==="ckb"){nodes.forEach(n=>{if(n.isConnected)n.nodeValue=originals.get(n);});return;}
+    const batches=[];let batch=[],chars=0;
+    for(const node of nodes){
+      const value=originals.get(node)||"";
+      if(batch.length && (batch.length>=20 || chars+value.length>5000)){batches.push(batch);batch=[];chars=0;}
+      if(value.length>700){continue;}
+      batch.push(node);chars+=value.length;
+    }
+    if(batch.length)batches.push(batch);
+    for(const group of batches){
+      if(target!==activeLanguage) return;
+      try{await translateBatch(group,target);}
+      catch(error){console.warn("[Avasin translation]",error);showStatus("وەرگێڕان بەردەست نییە؛ تکایە دووبارە هەوڵ بدە.");return;}
+    }
+  }
+  function showStatus(message){
+    let status=document.getElementById("avasin-translation-status");
+    if(!status){status=document.createElement("div");status.id="avasin-translation-status";status.setAttribute("role","status");status.style.cssText="position:fixed;bottom:12px;left:12px;z-index:99999;max-width:min(360px,90vw);padding:.65rem .9rem;border-radius:10px;background:#173f32;color:#f6e8c4;font:14px/1.5 sans-serif;box-shadow:0 4px 18px #0003";document.body.appendChild(status);}
+    status.textContent=message;
+    clearTimeout(status._hideTimer);
+    status._hideTimer=setTimeout(()=>status.remove(),5000);
+  }
+  function updateCurrent(code,list,label){
+    const lang=LANGUAGES.find(item=>item.code===code)||LANGUAGES[0];
+    if(label){label.textContent=lang.initial;label.setAttribute("aria-label","زمانی هەڵبژێردراو: "+lang.name);}
+    if(list)list.querySelectorAll(".avasin-language-option").forEach(button=>{
+      const active=button.dataset.lang===code;
+      button.classList.toggle("is-active",active);
+      button.setAttribute("aria-selected",active?"true":"false");
+    });
+  }
+  async function applyLanguage(code){
+    activeLanguage=code;
+    try{localStorage.setItem("avasin-site-language",code);}catch(_){}
+    const panel=document.getElementById("avasin-global-language")||document.querySelector(".avasin-language-mini");
+    const list=panel&&panel.querySelector(".avasin-language-options");
+    const label=panel&&panel.querySelector(".avasin-language-current");
+    updateCurrent(code,list,label);
+    const nodes=collect(document.body);
+    remember(nodes);
+    translating=true;
+    if(observer)observer.disconnect();
+    if(code==="ckb"){
+      nodes.forEach(n=>{if(n.isConnected)n.nodeValue=originals.get(n);});
+      document.documentElement.lang="ckb";
+      translating=false;
+      if(observer)observer.observe(document.body,{subtree:true,childList:true,characterData:true});
+      return;
+    }
+    document.documentElement.lang=code;
+    showStatus("وەرگێڕانی ماڵپەڕ دەستی پێ‌کرد…");
+    await translateNodes(nodes,code);
+    translating=false;
+    if(observer)observer.observe(document.body,{subtree:true,childList:true,characterData:true});
+    showStatus("زمان گۆڕدرا: "+(LANGUAGES.find(x=>x.code===code)?.name||code));
+  }
+  function setup(){
     let panel=document.getElementById("avasin-global-language")||document.querySelector(".avasin-language-mini");
     if(!panel){
-      panel=document.createElement("details");
-      panel.className="avasin-language-mini";
-      panel.id="avasin-global-language";
-      panel.innerHTML='<summary aria-label="گۆڕینی زمانی ماڵپەڕ"><span class="avasin-language-current" aria-label="زمانی ئێستا: کوردی">ک</span><span class="avasin-language-chevron" aria-hidden="true">⌄</span></summary><div class="avasin-language-mini-panel"><div class="avasin-language-panel-caption">زمانی ماڵپەڕ</div><div class="avasin-language-options" role="listbox" aria-label="هەڵبژاردنی زمانی ماڵپەڕ"></div></div>';
+      panel=document.createElement("details");panel.className="avasin-language-mini";panel.id="avasin-global-language";
+      panel.innerHTML='<summary aria-label="گۆڕینی زمانی ماڵپەڕ"><span class="avasin-language-current">ک</span><span class="avasin-language-chevron" aria-hidden="true">⌄</span></summary><div class="avasin-language-mini-panel"><div class="avasin-language-panel-caption">زمانی ماڵپەڕ</div><div class="avasin-language-options" role="listbox" aria-label="هەڵبژاردنی زمانی ماڵپەڕ"></div></div>';
       document.body.appendChild(panel);
     }
-    const inner=panel.querySelector(".avasin-language-mini-panel");
+    let inner=panel.querySelector(".avasin-language-mini-panel");
     if(!inner)return;
     let list=panel.querySelector(".avasin-language-options");
-    if(!list){
-      list=document.createElement("div");
-      list.className="avasin-language-options";
-      list.setAttribute("role","listbox");
-      list.setAttribute("aria-label","هەڵبژاردنی زمانی ماڵپەڕ");
-      const caption=panel.querySelector(".avasin-language-panel-caption");
-      if(caption)caption.insertAdjacentElement("afterend",list);else inner.prepend(list);
-    }
+    if(!list){list=document.createElement("div");list.className="avasin-language-options";inner.appendChild(list);}
     const label=panel.querySelector(".avasin-language-current");
-    const currentPath=()=>window.location.href.split("#")[0];
-    const updateCurrent=(code)=>{
-      const lang=LANGUAGES.find(item=>item.code===code)||LANGUAGES[0];
-      if(label){label.textContent=lang.initial;label.setAttribute("aria-label","زمانی هەڵبژێردراو: "+lang.name);}
-      list.querySelectorAll(".avasin-language-option").forEach(button=>{
-        const active=button.dataset.lang===code;
-        button.classList.toggle("is-active",active);
-        button.setAttribute("aria-selected",active?"true":"false");
-      });
-    };
-    const chooseLanguage=(lang)=>{
-      panel.open=false;
-      if(lang.code==="ckb"){
-        updateCurrent("ckb");
-        return;
-      }
-      const translatedUrl="https://translate.google.com/translate?sl=ckb&tl="+encodeURIComponent(lang.code)+"&u="+encodeURIComponent(currentPath());
-      // Navigate in the current tab so popup blockers cannot silently stop the action.
-      // Users can return to the original Kurdish page with the browser Back button.
-      window.location.assign(translatedUrl);
-    };
     if(!list.dataset.built){
       LANGUAGES.forEach((lang,index)=>{
-        const button=document.createElement("button");
-        button.type="button";
+        const button=document.createElement("button");button.type="button";
         button.className="avasin-language-option avasin-language-option-style-"+(index%8);
-        button.dataset.lang=lang.code;
-        button.setAttribute("role","option");
-        button.setAttribute("aria-label",lang.name);
-        button.innerHTML='<span class="avasin-language-option-initial" aria-hidden="true"></span><span class="avasin-language-option-name"></span><span class="avasin-language-option-mark" aria-hidden="true">↗</span>';
+        button.dataset.lang=lang.code;button.setAttribute("role","option");button.setAttribute("aria-label",lang.name);
+        button.innerHTML='<span class="avasin-language-option-initial" aria-hidden="true"></span><span class="avasin-language-option-name"></span><span class="avasin-language-option-mark" aria-hidden="true">✓</span>';
         button.querySelector(".avasin-language-option-initial").textContent=lang.initial;
         button.querySelector(".avasin-language-option-name").textContent=lang.name;
-        button.addEventListener("click",()=>chooseLanguage(lang));
+        button.addEventListener("click",()=>{panel.open=false;applyLanguage(lang.code);});
         list.appendChild(button);
       });
       list.dataset.built="true";
     }
-    updateCurrent("ckb");
+    let saved="ckb";try{const s=localStorage.getItem("avasin-site-language");if(LANGUAGES.some(x=>x.code===s))saved=s;}catch(_){}
+    updateCurrent(saved,list,label);
+    remember(collect(document.body));
+    observer=new MutationObserver(records=>{
+      if(translating||activeLanguage==="ckb")return;
+      const added=[];
+      records.forEach(record=>{
+        if(record.type==="childList")record.addedNodes.forEach(n=>added.push(...collect(n)));
+      });
+      if(added.length){remember(added);translateNodes(added,activeLanguage);}
+    });
+    observer.observe(document.body,{subtree:true,childList:true,characterData:false});
+    if(saved!=="ckb")applyLanguage(saved);
   }
-  if(document.readyState==="loading")document.addEventListener("DOMContentLoaded",setupAvasinLanguageSelector,{once:true});
-  else setupAvasinLanguageSelector();
+  if(document.readyState==="loading")document.addEventListener("DOMContentLoaded",setup,{once:true});
+  else setup();
 })();
-
-
 /* Avasin social links: ensure the network section is present across site pages */
 (function(){
   "use strict";
