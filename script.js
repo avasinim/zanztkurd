@@ -1780,8 +1780,9 @@ async function markLessonComplete(courseId, lessonKey){
       const uncached=[],positions=[];
       batch.forEach((item,index)=>{
         const key=code+"\u0000"+item.text;
-        const cached=dynamicTranslationCache.get(key);
-        if(cached!==undefined){item.node.nodeValue=cached;translatedCount++;}
+        let cached=dynamicTranslationCache.get(key);
+        if(cached===undefined){try{cached=sessionStorage.getItem("avasin-translation:"+key)??undefined;}catch(_){}}
+        if(cached!==undefined){dynamicTranslationCache.set(key,cached);item.node.nodeValue=cached;translatedCount++;}
         else {uncached.push(item.text);positions.push(index);}
       });
       if(uncached.length){
@@ -1841,12 +1842,11 @@ async function markLessonComplete(courseId, lessonKey){
     if(notify){
       if(code!=="ckb"){
         showStatus("ڕووکاری ماڵپەڕ گۆڕدرا؛ وەرگێڕانی بەشە گشتییەکان دەستی پێکرد.");
-        void translatePageContent(code);
       }else{
-        void translatePageContent(code);
         showStatus("زمانی ڕووکاری ماڵپەڕ گەڕایەوە بۆ کوردیی سۆرانی.");
       }
     }
+    void translatePageContent(code);
   }
   function showStatus(message){
     let status=document.getElementById("avasin-translation-status");
