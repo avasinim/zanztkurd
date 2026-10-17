@@ -1660,10 +1660,14 @@ async function markLessonComplete(courseId, lessonKey){
     }
     document.documentElement.lang=code;
     showStatus("وەرگێڕانی ماڵپەڕ دەستی پێ‌کرد…");
-    await translateNodes(nodes,code);
+    const success=await translateNodes(nodes,code);
     translating=false;
     if(observer)observer.observe(document.body,{subtree:true,childList:true,characterData:true});
-    showStatus("زمان گۆڕدرا: "+(LANGUAGES.find(x=>x.code===code)?.name||code));
+    if(success){
+      showStatus("وەرگێڕان تەواو بوو: "+(LANGUAGES.find(x=>x.code===code)?.name||code));
+    }else{
+      showStatus("وەرگێڕان سەرکەوتوو نەبوو؛ خزمەتگوزاریی وەرگێڕان داواکارییەکەی ڕەت کردەوە. پێویستە سێرڤیسی وەرگێڕان چاک بکرێت.");
+    }
   }
   function setup(){
     let panel=document.getElementById("avasin-global-language")||document.querySelector(".avasin-language-mini");
