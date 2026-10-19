@@ -168,6 +168,11 @@ body.content-page{--ink:#17231f;--muted:#65716b;--green:#315344;--green2:#476b59
    const shouldOpen=button.getAttribute("aria-expanded")!=="true";
    regionButtons.forEach(function(other){other.setAttribute("aria-expanded",String(other===button&&shouldOpen));});
    Object.keys(choiceGroups).forEach(function(key){choiceGroups[key].hidden=!(key===region&&shouldOpen);});
+   const kurmanjiCourses=document.getElementById("learningKurmanjiCourses");
+   if(kurmanjiCourses)kurmanjiCourses.hidden=true;
+   const kurmanjiButton=document.querySelector('[data-learning-choice="kurmanji"]');
+   if(kurmanjiButton)kurmanjiButton.setAttribute("aria-expanded","false");
+   document.querySelectorAll("[data-learning-choice]").forEach(function(choice){choice.setAttribute("aria-pressed","false");});
    status.hidden=true;
   });
  });
