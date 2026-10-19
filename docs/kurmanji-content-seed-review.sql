@@ -340,7 +340,7 @@ VALUES
 <section class="klesson-card"><h2>تێبینیی مێتۆدی</h2><p class="klesson-note">ئەم پێداچوونەوەیە تاقیکردنەوەی زانیارییە، نەک جێگرەوەی ڕاهێنانی لەگەڵ دەقی سەرچاوە. هەر نموونەیەکی نوێ پێش بەکارهێنانی فێرکاری دەبێت بە سەرچاوەی ڕێزمانی بەراورد بکرێت.</p></section>
 <section class="klesson-card"><h2>پرسیارەکانی پێداچوونەوە</h2><ol><li>پاشگری -ek، ئەزافە و حاڵەت چ جیاوازییەکیان هەیە؟</li><li>بۆچی فۆڕمی جێناو بە کات و جۆری ڕستە پەیوەستە؟</li><li>لە شیکردنەوەی زانستیی ڕستەدا چۆن سەرچاوە بەکار دەهێنیت؟</li></ol></section>
 <section class="klesson-card"><h2>سەرچاوەکان</h2><ul><li>Haig, Geoffrey, and Öpengin, Ergin. (2018). “Northern Kurdish (Kurmanjî).” In <em>The Languages and Linguistics of Western Asia: An Areal Perspective</em>, pp. 106–158. De Gruyter Mouton. <a href="https://doi.org/10.1515/9783110421682-004" target="_blank" rel="noopener">DOI</a> · <a href="https://multicast.aspra.uni-bamberg.de/data/pubs/Haig2018_Northern-Kurdish_Kurmanji.pdf" target="_blank" rel="noopener">PDF</a>.</li><li>Thackston, W. M. (2006). <em>Kurmanji Kurdish: A Reference Grammar with Selected Readings.</em> Renas Media. <a href="https://kurdishacademy.org/?page_id=623" target="_blank" rel="noopener">وەشانی سەرچاوە</a>.</li></ul><p class="klesson-note">نموونە و یاساکان لە چوارچێوەی کورمانجیی ستاندارددا پێشکەش کراون؛ بۆ جیاوازیی شێوەزار و فۆڕمی تایبەت، دەبێت سەرچاوە و سیاق دیاری بکرێن.</p></section>',now())
-ON CONFLICT (course_id, lesson_key) DO UPDATE
+ON CONFLICT (lesson_key) DO UPDATE
 SET title=EXCLUDED.title, content_html=EXCLUDED.content_html, updated_at=now();
 
 -- Safety: draft must be reviewed and tested before use.
