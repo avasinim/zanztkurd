@@ -1,98 +1,96 @@
 import "jsr:@supabase/functions-js/edge-runtime.d.ts";
 
-const allowedOrigins = new Set(["https://avasinim.github.io"]);
-const allowedTargets = new Set(["en", "ar", "tr", "fa", "az", "ru", "de", "fr", "es"]);
+const ALLOWED_ORIGINS = new Set([
+  "https://avasinim.github.io",
+  "https://zanztkurd.github.io"
+]);
+const ALLOWED_LANGS = new Set(["en","ar","tr","fa","az","ru","de","fr","es"]);
 const corsHeaders = (origin: string) => ({
-  "Access-Control-Allow-Origin": allowedOrigins.has(origin) ? origin : "https://avasinim.github.io",
+  "Access-Control-Allow-Origin": ALLOWED_ORIGINS.has(origin) ? origin : "https://avasinim.github.io",
   "Access-Control-Allow-Headers": "authorization, apikey, content-type, x-client-info",
   "Access-Control-Allow-Methods": "POST, OPTIONS",
-  "Vary": "Origin",
+  "Vary": "Origin"
 });
+const json = (data: unknown, status: number, headers: Record<string,string>) =>
+  new Response(JSON.stringify(data), { status, headers: { ...headers, "Content-Type": "application/json; charset=utf-8" } });
 
-async function translateOne(text: string, target: string, apiKey: string | undefined): Promise<string | null> {
-  try {
-    if (apiKey) {
-      const response = await fetch(
-        "https://translation.googleapis.com/language/translate/v2?key=" + encodeURIComponent(apiKey),
-        {
-          method: "POST",
-          headers: { "Content-Type": "application/json" },
-          body: JSON.stringify({ q: text, source: "ckb", target, format: "text" }),
-          signal: AbortSignal.timeout(12000),
-        },
-      );
-      if (!response.ok) {
-        console.error("[translate-page] Google API returned", response.status);
-        return null;
+// The free endpoint rate-limits bursts. Keep a small isolate-local cache and
+// make provider requests sequentially, with bounded retries for HTTP 429.
+const translationCache = new Map<string,string>();
+const MAX_CACHE_ENTRIES = 1200;
+const wait = (ms: number) => new Promise(resolve => setTimeout(resolve, ms));
+
+async function translateOne(text: string, target: string): Promise<string> {
+  const key = target + "\u0000" + text;
+  const cached = translationCache.get(key);
+  if (cached) return cached;
+  const hosts = ["https://translate.google.com/translate_a/single", "https://translate.googleapis.com/translate_a/single"];
+  let lastError: Error = new Error("Translation provider failed");
+  for (let attempt = 0; attempt < 4; attempt++) {
+    try {
+      const url = new URL(hosts[attempt % hosts.length]);
+      url.searchParams.set("client", "gtx");
+      url.searchParams.set("sl", "auto");
+      url.searchParams.set("tl", target);
+      url.searchParams.set("dt", "t");
+      url.searchParams.set("q", text);
+      const response = await fetch(url, { headers: { "Accept": "application/json", "User-Agent": "Mozilla/5.0" } });
+      if (response.status === 429 || response.status >= 500) {
+        lastError = new Error("Provider status " + response.status);
+        if (attempt < 3) {
+          await wait([500, 1000, 1800, 2500][attempt]);
+          continue;
+        }
+        break;
       }
-      const result = await response.json().catch(() => ({}));
-      const translated = result?.data?.translations?.[0]?.translatedText;
-      return typeof translated === "string" && translated.trim() ? translated : null;
+      if (!response.ok) throw new Error("Provider status " + response.status);
+      const data = await response.json();
+      if (!Array.isArray(data) || !Array.isArray(data[0])) throw new Error("Unexpected provider response");
+      const result = data[0]
+        .filter((part: unknown) => Array.isArray(part) && typeof part[0] === "string")
+        .map((part: unknown[]) => String(part[0]))
+        .join("");
+      if (!result) throw new Error("Empty translation");
+      if (translationCache.size >= MAX_CACHE_ENTRIES) {
+        const firstKey = translationCache.keys().next().value;
+        if (firstKey !== undefined) translationCache.delete(firstKey);
+      }
+      translationCache.set(key, result);
+      return result;
+    } catch (error) {
+      lastError = error instanceof Error ? error : new Error(String(error));
+      if (attempt < 3) await wait([500, 1000, 1800, 2500][attempt]);
     }
-
-    // No-key fallback. This public Google Translate endpoint is unofficial and may
-    // be rate-limited; a failed item is returned as null rather than replacing source text.
-    const url = new URL("https://translate.googleapis.com/translate_a/single");
-    url.searchParams.set("client", "gtx");
-    url.searchParams.set("sl", "ckb");
-    url.searchParams.set("tl", target);
-    url.searchParams.set("dt", "t");
-    url.searchParams.set("q", text);
-    const response = await fetch(url, { signal: AbortSignal.timeout(12000) });
-    if (!response.ok) {
-      console.error("[translate-page] no-key fallback returned", response.status);
-      return null;
-    }
-    const result = await response.json().catch(() => null);
-    const chunks = Array.isArray(result?.[0]) ? result[0] : [];
-    const translated = chunks.map((chunk: unknown) =>
-      Array.isArray(chunk) && typeof chunk[0] === "string" ? chunk[0] : ""
-    ).join("");
-    return translated.trim() ? translated : null;
-  } catch (error) {
-    console.error("[translate-page] item failed", error);
-    return null;
   }
+  throw lastError;
 }
 
 Deno.serve(async (req: Request) => {
-  const origin = req.headers.get("origin") ?? "";
+  const origin = req.headers.get("origin") || "";
   const headers = corsHeaders(origin);
+  if (req.method === "OPTIONS") return new Response(null, { headers });
+  if (req.method !== "POST") return json({ error: "Method not allowed" }, 405, headers);
+  if (!ALLOWED_ORIGINS.has(origin)) return json({ error: "Origin not allowed" }, 403, headers);
 
-  if (req.method === "OPTIONS") return new Response("ok", { headers });
-  if (req.method !== "POST") {
-    return Response.json({ error: "method_not_allowed" }, { status: 405, headers });
-  }
-  if (origin && !allowedOrigins.has(origin)) {
-    return Response.json({ error: "origin_not_allowed" }, { status: 403, headers });
-  }
-
-  let body: { text?: unknown; texts?: unknown; target?: unknown };
   try {
-    body = await req.json();
-  } catch {
-    return Response.json({ error: "invalid_json" }, { status: 400, headers });
+    const body = await req.json();
+    const target = String(body?.target || "");
+    const texts = body?.texts;
+    if (!ALLOWED_LANGS.has(target)) return json({ error: "Unsupported language" }, 400, headers);
+    if (!Array.isArray(texts) || texts.length < 1 || texts.length > 20 ||
+        texts.some((t: unknown) => typeof t !== "string" || t.length > 700)) {
+      return json({ error: "Invalid text batch" }, 400, headers);
+    }
+    const total = texts.reduce((sum: number, t: string) => sum + t.length, 0);
+    if (total > 5000) return json({ error: "Batch too large" }, 413, headers);
+
+    const translations: string[] = [];
+    for (const text of texts as string[]) {
+      translations.push(await translateOne(text, target));
+    }
+    return json({ translations }, 200, { ...headers, "Cache-Control": "no-store" });
+  } catch (error) {
+    console.error("[translate-page]", error);
+    return json({ error: "Translation provider failed or is rate-limited; retry shortly" }, 502, headers);
   }
-
-  const target = typeof body.target === "string" ? body.target : "";
-  const texts = Array.isArray(body.texts)
-    ? body.texts
-    : typeof body.text === "string" ? [body.text] : [];
-
-  if (!allowedTargets.has(target) || texts.length < 1 || texts.length > 8 ||
-      texts.some((item) => typeof item !== "string" || !item.trim() || item.length > 5000)) {
-    return Response.json(
-      { error: "invalid_input", message: "Provide 1–8 text items (each up to 5000 characters) and a supported target language." },
-      { status: 400, headers },
-    );
-  }
-
-  const apiKey = Deno.env.get("GOOGLE_CLOUD_TRANSLATE_API_KEY");
-  const translations: (string | null)[] = [];
-  // Keep provider calls sequential to reduce rate-limit spikes.
-  for (const item of texts as string[]) {
-    translations.push(await translateOne(item.trim(), target, apiKey));
-  }
-
-  return Response.json({ translations }, { headers });
 });
