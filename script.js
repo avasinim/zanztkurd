@@ -1964,6 +1964,99 @@ async function markLessonComplete(courseId, lessonKey){
   if(document.readyState==="loading")document.addEventListener("DOMContentLoaded",setup,{once:true});
   else setup();
 })();
+/* ===== Kurmanji sequential completion gate ===== */
+(function(){
+  const COURSES={
+    "kurmanji-course-1":{
+      id:"kurmanji-course-1",
+      files:Array.from({length:26},(_,i)=>"kurmanji-course-1-lesson-"+String(i+1).padStart(2,"0")+".html"),
+      storage:"avasin_kurmanji_course1_completed_v1"
+    },
+    "kurmanji-course-2":{
+      id:"kurmanji-course-2",
+      files:Array.from({length:12},(_,i)=>"kurmanji-course-2-lesson-"+String(i+1).padStart(2,"0")+".html"),
+      storage:"avasin_kurmanji_course2_completed_v1"
+    }
+  };
+  const path=(location.pathname.split("/").pop()||"").toLowerCase();
+  const course=Object.values(COURSES).find(c=>c.files.includes(path));
+  if(!course)return;
+  const current=course.files.indexOf(path);
+
+  function done(){
+    try{return new Set(JSON.parse(localStorage.getItem(course.storage)||"[]").map(Number));}
+    catch(e){return new Set();}
+  }
+  function save(values){
+    localStorage.setItem(course.storage,JSON.stringify([...values].sort((a,b)=>a-b)));
+  }
+  function firstIncomplete(){
+    const values=done();
+    for(let i=0;i<course.files.length;i++)if(!values.has(i))return i;
+    return course.files.length;
+  }
+  function addStyles(){
+    if(document.getElementById("kurmanji-completion-styles"))return;
+    const style=document.createElement("style");
+    style.id="kurmanji-completion-styles";
+    style.textContent=".kurmanji-completion-gate{margin:20px 0;padding:20px;border:1px solid #273d3226;border-right:4px solid #b38a58;border-radius:14px;background:#f7f6f0}.kurmanji-completion-gate h3{margin:0 0 8px;color:#26372f;font-size:1.1rem}.kurmanji-completion-gate p{margin:0 0 14px;line-height:1.9;color:#66716b}.kurmanji-complete-btn{border:0;border-radius:10px;padding:11px 18px;background:#273f34;color:#fff;font-weight:800;cursor:pointer}.kurmanji-complete-btn:disabled{opacity:.6;cursor:not-allowed}";
+    document.head.appendChild(style);
+  }
+  async function setup(){
+    const isOwner=await window.ZANSTI_OWNER_CHECK;
+    addStyles();
+    await window.ZANSTI_SYNC_PROGRESS(course.id,course.files,course.storage,isOwner===true);
+    const completed=done(),first=firstIncomplete();
+    if(!isOwner&&current>first){
+      location.replace(course.files[first]||course.files[0]);
+      return;
+    }
+    const actions=document.querySelector(".klesson-actions");
+    if(!actions||actions.parentElement.querySelector(".kurmanji-completion-gate"))return;
+    const already=completed.has(current);
+    const next=current+1<course.files.length?current+1:null;
+    const gate=document.createElement("section");
+    gate.className="kurmanji-completion-gate";
+    gate.innerHTML="<h3>"+(already?"ئەم وانە پێشتر تەواوکراوە.":"کۆتایی وانە")+"</h3><p>"+(already?"پێشکەوتنی ئەم وانەیە لە سیستەمدا پاشەکەوت کراوە.":"دوای خوێندنەوەی تەواوی وانە، دوگمەی خوارەوە هەڵ‌بژێرە بۆ پاشەکەوتکردنی تەواوبون و کردنەوەی وانەی دواتر.")+"</p><button class=\"kurmanji-complete-btn\" type=\"button\" "+(already?"disabled":"")+">"+(already?"✓ تەواوکراوە":"✓ نیشان‌دان وەک تەواوکراو")+"</button>";
+    actions.parentElement.insertBefore(gate,actions);
+    gate.querySelector("button").addEventListener("click",async function(){
+      const button=this;
+      button.disabled=true;
+      button.textContent="لە سیستەمدا پاشەکەوت دەکرێت...";
+      const result=await markLessonComplete(course.id,path);
+      if(!result.ok){
+        button.disabled=false;
+        button.textContent="✓ نیشان‌دان وەک تەواوکراو";
+        gate.querySelector("p").textContent="پاشەکەوتکردن سەرکەوتوو نەبوو. پشتڕاستی هەژمار و تۆماربوون لە کۆرسەکە بپشکنە و دووبارە هەوڵ بدەوە.";
+        return;
+      }
+      const latest=done();
+      latest.add(current);
+      save(latest);
+      button.textContent="✓ تەواوکراوە";
+      gate.querySelector("h3").textContent="وانەکە بە سەرکەوتوویی تەواو کرا.";
+      gate.querySelector("p").textContent=next!==null?"وانەی دواتر ئێستا کراوەتەوە.":"هەموو وانەکانی ئەم کۆرسە تەواو کراون.";
+      button.disabled=true;
+      if(next!==null)setTimeout(()=>location.href=course.files[next],650);
+    });
+  }
+  function guardForwardNavigation(){
+    document.addEventListener("click",function(event){
+      const link=event.target.closest&&event.target.closest("a[href]");
+      if(!link)return;
+      const target=(link.getAttribute("href")||"").split("?")[0].split("#")[0].split("/").pop().toLowerCase();
+      const targetIndex=course.files.indexOf(target);
+      if(targetIndex<=current)return;
+      if(done().has(current))return;
+      event.preventDefault();
+      event.stopImmediatePropagation();
+      document.querySelector(".kurmanji-completion-gate")?.scrollIntoView({behavior:"smooth",block:"center"});
+    },true);
+  }
+  guardForwardNavigation();
+  setup();
+})();
+
 /* Avasin social links: ensure the network section is present across site pages */
 (function(){
   "use strict";
