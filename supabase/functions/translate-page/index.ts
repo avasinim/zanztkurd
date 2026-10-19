@@ -20,49 +20,72 @@ const translationCache = new Map<string,string>();
 const MAX_CACHE_ENTRIES = 1200;
 const wait = (ms: number) => new Promise(resolve => setTimeout(resolve, ms));
 
-async function translateOne(text: string, target: string): Promise<string> {
-  const key = target + "\u0000" + text;
+async function translateOne(text: string, target: string): Promise<string | null> {
+  const key = target + "\\u0000" + text;
   const cached = translationCache.get(key);
   if (cached) return cached;
-  const hosts = ["https://translate.google.com/translate_a/single", "https://translate.googleapis.com/translate_a/single"];
-  let lastError: Error = new Error("Translation provider failed");
-  for (let attempt = 0; attempt < 4; attempt++) {
+
+  const googleHosts = [
+    "https://translate.googleapis.com/translate_a/single",
+    "https://translate.google.com/translate_a/single",
+  ];
+  for (let attempt = 0; attempt < googleHosts.length; attempt++) {
     try {
-      const url = new URL(hosts[attempt % hosts.length]);
+      const url = new URL(googleHosts[attempt]);
       url.searchParams.set("client", "gtx");
       url.searchParams.set("sl", "auto");
       url.searchParams.set("tl", target);
       url.searchParams.set("dt", "t");
       url.searchParams.set("q", text);
-      const response = await fetch(url, { headers: { "Accept": "application/json", "User-Agent": "Mozilla/5.0" } });
-      if (response.status === 429 || response.status >= 500) {
-        lastError = new Error("Provider status " + response.status);
-        if (attempt < 3) {
-          await wait([500, 1000, 1800, 2500][attempt]);
-          continue;
-        }
-        break;
+      const response = await fetch(url, {
+        headers: { "Accept": "application/json", "User-Agent": "Mozilla/5.0" },
+        signal: AbortSignal.timeout(6500),
+      });
+      if (!response.ok) {
+        console.warn("[translate-page] Google fallback status", response.status);
+        continue;
       }
-      if (!response.ok) throw new Error("Provider status " + response.status);
       const data = await response.json();
-      if (!Array.isArray(data) || !Array.isArray(data[0])) throw new Error("Unexpected provider response");
+      if (!Array.isArray(data) || !Array.isArray(data[0])) continue;
       const result = data[0]
         .filter((part: unknown) => Array.isArray(part) && typeof part[0] === "string")
         .map((part: unknown[]) => String(part[0]))
         .join("");
-      if (!result) throw new Error("Empty translation");
-      if (translationCache.size >= MAX_CACHE_ENTRIES) {
-        const firstKey = translationCache.keys().next().value;
-        if (firstKey !== undefined) translationCache.delete(firstKey);
+      if (result.trim()) {
+        if (translationCache.size >= MAX_CACHE_ENTRIES) {
+          const firstKey = translationCache.keys().next().value;
+          if (firstKey !== undefined) translationCache.delete(firstKey);
+        }
+        translationCache.set(key, result);
+        return result;
       }
-      translationCache.set(key, result);
-      return result;
     } catch (error) {
-      lastError = error instanceof Error ? error : new Error(String(error));
-      if (attempt < 3) await wait([500, 1000, 1800, 2500][attempt]);
+      console.warn("[translate-page] Google fallback attempt failed", error);
     }
   }
-  throw lastError;
+
+  // Secondary no-key fallback. A provider outage should affect only this item,
+  // not discard the other successful translations in the same batch.
+  for (const host of ["https://lingva.lunar.icu", "https://lingva.ml"]) {
+    try {
+      const url = host + "/api/v1/auto/" + encodeURIComponent(target) + "/" + encodeURIComponent(text);
+      const response = await fetch(url, { signal: AbortSignal.timeout(6500) });
+      if (!response.ok) continue;
+      const data = await response.json().catch(() => null);
+      const result = typeof data?.translation === "string" ? data.translation : "";
+      if (result.trim()) {
+        if (translationCache.size >= MAX_CACHE_ENTRIES) {
+          const firstKey = translationCache.keys().next().value;
+          if (firstKey !== undefined) translationCache.delete(firstKey);
+        }
+        translationCache.set(key, result);
+        return result;
+      }
+    } catch (error) {
+      console.warn("[translate-page] secondary provider attempt failed", error);
+    }
+  }
+  return null;
 }
 
 Deno.serve(async (req: Request) => {
