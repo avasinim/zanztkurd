@@ -38,3 +38,28 @@ No live database rows, policies, or functions were changed during this audit.
 - The 38 lessons are fetched from `lesson_content` only after authorization; the static HTML no longer exposes the lesson body.
 - All 38 pages load for an enrolled user, and direct access is denied for a non-enrolled user.
 - No live Supabase changes and no PR merge occur without explicit authorization.
+
+## Implementation update — 2026-10-19
+
+The baseline findings above describe the state before the current implementation commits. The following work is now staged on `kurmanji-courses`:
+
+- Added `supabase/migrations/20261019090000_add_kurmanji_courses_and_protected_lessons.sql`: registers the two Kurmanji courses, seeds all 38 lesson bodies, and extends `can_read_lesson_content` / `complete_lesson`.
+- Added `docs/kurmanji-content-seed-review.sql` as a rollback-only review copy. It contains 38 unique keys: 26 Course 1 lessons and 12 Course 2 lessons. The seed conflict target matches the existing `lesson_content` primary key on `lesson_key`.
+- Converted all 38 lesson pages to protected shells and added the shared `script.js` loader.
+- Extended `script.js` with Kurmanji course-ID mapping, access checks, progress synchronization, and server-backed completion controls.
+- Added both Kurmanji courses to `dashboard.html`, including enrollment actions and per-course progress counting.
+- Updated PR #2 description to reflect the protected-content work; PR #2 remains open and Draft.
+
+### Checks completed
+
+- Shared `script.js` compiles with `new Function`.
+- Dashboard inline JavaScript compiles with `new Function`.
+- Seed and migration checks report 38 unique lesson keys (26 + 12), both course IDs, and the expected RPC definitions.
+- Representative first and final pages from both courses have a `.lesson-content` shell, load `script.js`, and no longer embed lesson-card bodies.
+
+### Still required before release
+
+- No migration has been applied to the live Supabase project.
+- Browser-based end-to-end checks and test-project migration execution have not been performed.
+- Verify every lesson body against the source pages and test direct URL access, enrollment, first lesson, locked next lesson, completion, owner bypass, and course-final status.
+- Do not merge PR #2 or apply the migration until those checks pass and release is explicitly approved.
