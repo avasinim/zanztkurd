@@ -266,11 +266,11 @@ window.ZANSTI_GET_SUPABASE_CLIENT = window.ZANSTI_GET_SUPABASE_CLIENT || functio
         const target=path;
         const courseId=courseIdForTarget(target);
         if(!owner && !await hasEnrollment(got.sb,got.session.user.id,courseId)){
-          location.replace("../dashboard.html?enroll=required");
+          location.replace((location.pathname.includes("/lessons/")?"../dashboard.html":"dashboard.html")+"?enroll=required");
           return;
         }
         if(!owner && !await hasPreviousLessonCompleted(got.sb,got.session.user.id,courseId,target)){
-          location.replace("../dashboard.html?lesson=locked");
+          location.replace((location.pathname.includes("/lessons/")?"../dashboard.html":"dashboard.html")+"?lesson=locked");
           return;
         }
         await loadProtectedLessonContent(got.sb,target);
