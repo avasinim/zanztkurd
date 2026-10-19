@@ -63,6 +63,49 @@ async function translateOne(text: string, target: string): Promise<string | null
     console.warn("[translate-page] MyMemory provider attempt failed", error);
   }
 
+  // Alternate unofficial Google endpoint, separate from translate.googleapis.com.
+  // It returns an object with sentences[].trans; use only when it provides a real change.
+  try {
+    const url = new URL("https://clients5.google.com/translate_a/t");
+    url.searchParams.set("client", "dict-chrome-ex");
+    url.searchParams.set("sl", "auto");
+    url.searchParams.set("tl", target);
+    url.searchParams.set("q", text);
+    const response = await fetch(url, {
+      headers: {
+        "Accept": "application/json",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36",
+      },
+      signal: AbortSignal.timeout(6500),
+    });
+    if (!response.ok) {
+      console.warn("[translate-page] Google alternate provider status", response.status);
+    } else {
+      const data = await response.json().catch(() => null);
+      const result = Array.isArray(data?.sentences)
+        ? data.sentences.map((part: unknown) => {
+            if (!part || typeof part !== "object") return "";
+            const sentence = part as Record<string, unknown>;
+            return typeof sentence.trans === "string" ? sentence.trans : "";
+          }).join("")
+        : "";
+      if (result.trim() && result.trim().toLowerCase() !== text.trim().toLowerCase()) {
+        if (translationCache.size >= MAX_CACHE_ENTRIES) {
+          const firstKey = translationCache.keys().next().value;
+          if (firstKey !== undefined) translationCache.delete(firstKey);
+        }
+        translationCache.set(key, result);
+        return result;
+      }
+      console.warn("[translate-page] Google alternate provider returned no usable translation", {
+        hasTranslation: Boolean(result.trim()),
+        sameAsInput: result.trim().toLowerCase() === text.trim().toLowerCase(),
+      });
+    }
+  } catch (error) {
+    console.warn("[translate-page] Google alternate provider attempt failed", error);
+  }
+
   const googleHosts = [
     "https://translate.googleapis.com/translate_a/single",
     "https://translate.google.com/translate_a/single",
