@@ -83,3 +83,12 @@ Use separate student accounts in the test project, with no real student data.
 8. **Dashboard:** counts and statuses match the server-side progress records after refresh and re-login.
 
 Record each test as PASS/FAIL with the test account role and browser console/network errors. Do not mark the release ready until these runtime tests have actually run.
+
+## Additional compatibility check — 2026-10-19
+
+Read-only inspection of the current production RPC definitions confirmed:
+
+- `enroll_in_course(p_course_id text)` checks that the requested ID exists in `public.courses`, then creates/updates the user's enrollment. It does not hard-code an allowlist of course IDs, so the new course IDs are compatible once the migration inserts the course rows.
+- `student_has_enrollment(p_course_id text)` checks the current user's enrollment for that supplied course ID and active/completed status.
+- This was a definition-only inspection. No enrollment was created, no RPC was called as a student, and no production data was changed.
+- Runtime confirmation is still required in the disposable test project after migration.
