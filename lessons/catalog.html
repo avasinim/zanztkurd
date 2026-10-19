@@ -111,7 +111,7 @@
 <div class="region-column">
 <button class="language-choice" type="button" data-region="north" aria-pressed="false"><span class="language-code">REGION 01</span><span><strong>بازنەی باکور</strong></span></button>
 <div class="language-hub-grid region-language-list" id="northChoices" role="group" aria-label="زوانی بازنەی باکور" hidden>
-<button class="language-choice" type="button" data-language="kurmanji" aria-pressed="false"><span class="language-code">DIALECT 01</span><span><strong>کورمانجی</strong><small>ڕێڕەوی تایبەت بە زوانی کورمانجی</small></span></button>
+<button class="language-choice" type="button" data-language="kurmanji-course-1" aria-pressed="false"><span class="language-code">COURSE 01</span><span><strong>ڕێنووسی سەرەتاییی کورمانجی</strong><small>٢٦ وانە · ئەلفبێ و ڕێنووس</small></span></button><button class="language-choice" type="button" data-language="kurmanji-course-2" aria-pressed="false"><span class="language-code">COURSE 02</span><span><strong>مۆرفۆلۆجی و ڕێزمانی کورمانجی</strong><small>١٢ وانە · وشە و ڕستە</small></span></button>
 </div></div>
 <div class="region-column">
 <button class="language-choice" type="button" data-region="central" aria-pressed="false"><span class="language-code">REGION 02</span><span><strong>بازنەی ناوەندی</strong></span></button>
@@ -134,11 +134,13 @@
 const catalog=document.getElementById("catalog"),search=document.getElementById("catalogSearch"),courseFilter=document.getElementById("courseFilter"),filter=document.getElementById("sectionFilter"),overall=document.getElementById("overallProgress");
 let lessons=[],courses=[],progression={enabled:false,requirePreviousCompletion:true},activeLanguage=null,catalogReady=false,ownerCanOpenAll=false;
 const hub=document.getElementById("languageHub"),languageComing=document.getElementById("languageComing"),languageComingTitle=document.getElementById("languageComingTitle"),languageComingText=document.getElementById("languageComingText"),catalogTools=document.getElementById("catalogTools");
-const languageLabels={kalhuri:"کەڵهوڕ",laki:"لەکی",hawrami:"هەورامی",kurmanji:"کورمانجی",mukriani:"موکریانی",slemani:"سلێمانی"};
+const languageLabels={kalhuri:"کەڵهوڕ",laki:"لەکی",hawrami:"هەورامی",kurmanji:"کورمانجی","kurmanji-course-1":"ڕێنووسی سەرەتاییی کورمانجی","kurmanji-course-2":"مۆرفۆلۆجی و ڕێزمانی کورمانجی",mukriani:"موکریانی",slemani:"سلێمانی"};
 const northChoices=document.getElementById("northChoices");
 const centralChoices=document.getElementById("centralChoices");
 const southChoices=document.getElementById("southChoices");
 function applyLanguageView(language){
+ if(language==="kurmanji-course-1"){window.location.href="../kurmanji-course-1.html";return;}
+ if(language==="kurmanji-course-2"){window.location.href="../kurmanji-course-2.html";return;}
  activeLanguage=language;
  document.querySelectorAll(".language-choice[data-region]").forEach(btn=>btn.setAttribute("aria-pressed",String(btn.dataset.region===language)));
  document.querySelectorAll(".language-choice[data-language]").forEach(btn=>btn.setAttribute("aria-pressed",String(btn.dataset.language===language)));
