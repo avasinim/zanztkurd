@@ -107,9 +107,9 @@ window.ZANSTI_GET_SUPABASE_CLIENT = window.ZANSTI_GET_SUPABASE_CLIENT || functio
     return (href||"").split("?")[0].split("#")[0].split("/").pop().toLowerCase();
   }
   function courseIdForTarget(target){
-    if(/^kurmanji-course-1-lesson-\\d{2}\\.html$/.test(target)) return "kurmanji-course-1";
-    if(/^kurmanji-course-2-lesson-\\d{2}\\.html$/.test(target)) return "kurmanji-course-2";
-    return /^course-2-\\d+\\.html$/.test(target) ? "phonetics-phonology-kurdik" : "orthography-kurdik";
+    if(/^kurmanji-course-1-lesson-\d{2}\.html$/.test(target)) return "kurmanji-course-1";
+    if(/^kurmanji-course-2-lesson-\d{2}\.html$/.test(target)) return "kurmanji-course-2";
+    return /^course-2-\d+\.html$/.test(target) ? "phonetics-phonology-kurdik" : "orthography-kurdik";
   }
   function isProtectedLessonTarget(href){
     const target=targetOf(href);
