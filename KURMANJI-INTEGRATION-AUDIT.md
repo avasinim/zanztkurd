@@ -90,3 +90,10 @@ A read-only Supabase security-advisor query on 2026-10-19 reported 11 warnings f
 - GitHub Actions for the audit-document commit completed successfully for `Validate academic lesson catalog` and `Validate lesson navigation`.
 - These checks validate repository structure/navigation, not live Supabase migration execution or browser end-to-end access control. Those release blockers remain.
 
+## Follow-up security hardening — 2026-10-19
+
+- Added an explicit active/completed enrollment check inside `can_read_lesson_content(text,text)` before a non-owner receives a positive answer. The `lesson_content` RLS policy remains the second authorization layer.
+- Verified the change was committed as `449af8f9d5edd4b09d816868e0f65e3c41f7d858` and re-read the migration from the branch.
+- Re-ran repository CI for that commit: `Validate academic lesson catalog` and `Validate lesson navigation` both completed successfully.
+- Static consistency check: migration and review seed each contain 38 unique Kurmanji lesson keys (26 + 12); both key sets match, and the content-seed INSERT sections are byte-identical.
+- These checks do not replace the still-required test-database migration run or browser end-to-end authorization tests. The live Supabase project remains unchanged; PR #2 remains open and Draft.
