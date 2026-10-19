@@ -1739,7 +1739,7 @@ async function markLessonComplete(courseId, lessonKey){
   let translationRunId=0;
   function translationIgnored(node){
     const parent=node&&node.parentElement;
-    if(!parent || parent.closest('.lesson-content,.lesson-body,.book-content,[data-no-translate],script,style,textarea,input,select,option,code,pre,svg,.notranslate'))return true;
+    if(!parent || parent.closest('.lesson-content,.lesson-body,.book-content,.article-body,.topic-content,[data-no-translate],script,style,textarea,input,select,option,code,pre,svg,.notranslate'))return true;
     if(isUiNode(node)){
       const original=originals.has(node)?originals.get(node):node.nodeValue;
       const known=LABELS[String(original||"").trim()];
