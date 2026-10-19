@@ -63,3 +63,24 @@ The baseline findings above describe the state before the current implementation
 - Browser-based end-to-end checks and test-project migration execution have not been performed.
 - Verify every lesson body against the source pages and test direct URL access, enrollment, first lesson, locked next lesson, completion, owner bypass, and course-final status.
 - Do not merge PR #2 or apply the migration until those checks pass and release is explicitly approved.
+
+## Read-only database compatibility review — 2026-10-19
+
+The connected production database was inspected with read-only metadata/function-definition queries only; no SQL was applied.
+
+- The live `public.courses` schema supports the migration's `id`, `title`, `description`, and `total_lessons` insert fields; `created_at` has a default.
+- The live `public.lesson_content` schema has required `lesson_key`, `course_id`, `title`, `content_html`, and `updated_at` fields. The previously confirmed conflict key is `lesson_key`.
+- The live `enroll_in_course(text)` checks `public.courses` for the requested ID and creates an active enrollment, so registering the two new course rows is compatible with the existing enrollment path.
+- The current lesson-content SELECT policy requires an active/completed enrollment and `can_read_lesson_content(course_id, lesson_key)`, except for the site owner. The proposed migration extends that same function with ordered keys for both Kurmanji courses.
+- The live `can_read_lesson_content(text,text)` and `complete_lesson(text,text)` functions are `SECURITY DEFINER`; their existing ACLs grant execution to `authenticated` and `service_role` (not `anon`). The migration uses `CREATE OR REPLACE FUNCTION`, which preserves existing function privileges; this should still be verified in the test project after migration.
+- The proposed completion logic retains the existing special grouped accounting for `orthography-kurdik` and adds straightforward 32-, 26-, and 12-key counts for the phonetics and Kurmanji courses.
+
+### Existing project-wide security advisor findings
+
+A read-only Supabase security-advisor query on 2026-10-19 reported 11 warnings for authenticated-executable `SECURITY DEFINER` functions, including existing admin/enrollment/lesson RPCs, plus a warning that leaked-password protection is disabled. These are project-wide findings, not proof of a defect introduced by this branch. Review their authorization logic and intended access separately; do not change production settings as part of this Kurmanji migration.
+
+### Remaining release blockers
+
+- The migration has **not** been executed against a test project, so SQL runtime behavior and post-migration grants/policies remain unverified.
+- No browser end-to-end test has been run. Validate anonymous and unenrolled access, enrolled first lesson, locked next lesson, successful completion, owner bypass, final-course completion, and dashboard progress in a non-production environment.
+
