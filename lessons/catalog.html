@@ -132,7 +132,7 @@
 <script>
 (async function(){
 const catalog=document.getElementById("catalog"),search=document.getElementById("catalogSearch"),courseFilter=document.getElementById("courseFilter"),filter=document.getElementById("sectionFilter"),overall=document.getElementById("overallProgress");
-let lessons=[],courses=[],progression={enabled:false,requirePreviousCompletion:true},activeLanguage=null,catalogReady=false;
+let lessons=[],courses=[],progression={enabled:false,requirePreviousCompletion:true},activeLanguage=null,catalogReady=false,ownerCanOpenAll=false;
 const hub=document.getElementById("languageHub"),languageComing=document.getElementById("languageComing"),languageComingTitle=document.getElementById("languageComingTitle"),languageComingText=document.getElementById("languageComingText"),catalogTools=document.getElementById("catalogTools");
 const languageLabels={kalhuri:"کەڵهوڕ",laki:"لەکی",hawrami:"هەورامی",kurmanji:"کورمانجی",mukriani:"موکریانی",slemani:"سلێمانی"};
 const northChoices=document.getElementById("northChoices");
@@ -195,6 +195,7 @@ if(activeLanguage)applyLanguageView(activeLanguage);else render();
 }catch(e){console.error("[Avasin] catalog data load failed",e);const loading=catalog.querySelector(".catalog-loading");if(loading)loading.textContent="داتای کاتەلۆگ بار نەبوو؛ دەتوانیت لە وانە پیشاندراوەکاندا بگەڕێیت. پەڕەکە نوێ بکەرەوە بۆ هەوڵدانەوە."}
 function isDone(l){const scope=l.courseId||"course";const key=l.courseLessonNumber||l.number||l.originalNumber;return localStorage.getItem("lesson-completed:"+scope+":"+key)==="true"||localStorage.getItem("lesson-progress:"+scope+":"+key)==="completed"}
 function isLocked(l){
+if(ownerCanOpenAll)return false;
 if(!progression.enabled||!progression.requirePreviousCompletion)return false;
 const courseLessons=lessons.filter(x=>x.courseId===l.courseId);
 const idx=courseLessons.findIndex(x=>x.id===l.id);
@@ -231,6 +232,11 @@ async function syncCatalogProgressFromServer(){
     if(!sb)throw Error("Supabase client unavailable");
     const {data:{session},error:sessionError}=await sb.auth.getSession();
     if(sessionError)throw sessionError;
+    ownerCanOpenAll=false;
+    if(session){
+      const {data:isOwner,error:ownerError}=await sb.rpc("is_site_owner");
+      if(!ownerError && isOwner===true){ownerCanOpenAll=true;render();return;}
+    }
     if(!session){
       clearCourse("course-current",26);
       clearCourse("course-2",32);
