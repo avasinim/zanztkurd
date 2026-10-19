@@ -84,3 +84,9 @@ A read-only Supabase security-advisor query on 2026-10-19 reported 11 warnings f
 - The migration has **not** been executed against a test project, so SQL runtime behavior and post-migration grants/policies remain unverified.
 - No browser end-to-end test has been run. Validate anonymous and unenrolled access, enrolled first lesson, locked next lesson, successful completion, owner bypass, final-course completion, and dashboard progress in a non-production environment.
 
+## Seed consistency and repository CI — 2026-10-19
+
+- Compared all 38 lesson INSERT rows in the release migration with the corresponding rows in `docs/kurmanji-content-seed-review.sql`: all 38 rows are byte-identical, and both files contain the same 38 unique lesson keys.
+- GitHub Actions for the audit-document commit completed successfully for `Validate academic lesson catalog` and `Validate lesson navigation`.
+- These checks validate repository structure/navigation, not live Supabase migration execution or browser end-to-end access control. Those release blockers remain.
+
