@@ -94,7 +94,7 @@ async function translateOne(text: string, target: string): Promise<string | null
   try {
     const url = new URL("https://api.mymemory.translated.net/get");
     url.searchParams.set("q", text);
-    url.searchParams.set("langpair", "ku|" + target);
+    url.searchParams.set("langpair", "ckb-IQ|" + target);
     const response = await fetch(url, {
       headers: { "Accept": "application/json" },
       signal: AbortSignal.timeout(8000),
