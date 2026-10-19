@@ -51,7 +51,13 @@ async function translateOne(text: string, target: string): Promise<string | null
         translationCache.set(key, result);
         return result;
       }
-      console.warn("[translate-page] MyMemory returned no usable translation", status);
+      console.warn("[translate-page] MyMemory returned no usable translation", {
+        responseStatus: status,
+        hasTranslation: Boolean(result.trim()),
+        sameAsInput: result.trim().toLowerCase() === text.trim().toLowerCase(),
+        matchCount: Number(data?.matches?.length || 0),
+        responseDetails: typeof data?.responseDetails === "string" ? data.responseDetails.slice(0, 120) : null
+      });
     }
   } catch (error) {
     console.warn("[translate-page] MyMemory provider attempt failed", error);
