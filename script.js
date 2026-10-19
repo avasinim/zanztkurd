@@ -85,7 +85,7 @@ window.ZANSTI_GET_SUPABASE_CLIENT = window.ZANSTI_GET_SUPABASE_CLIENT || functio
    Lesson content and the lesson catalog require authentication + enrollment. */
 (function(){
   const path=(location.pathname.split("/").pop()||"").toLowerCase();
-  const isLesson=/^0(?:1[7-9]|[2-4]\d|5[0-8])\.html$/.test(path)||/^course-2-\d+\.html$/.test(path);
+  const isLesson=/^0(?:1[7-9]|[2-4]\d|5[0-8])\.html$/.test(path)||/^course-2-\d+\.html$/.test(path)||/^kurmanji-course-[12]-lesson-\d{2}\.html$/.test(path);
   const isCatalog=path==="catalog.html" && /\/lessons\/catalog\.html$/i.test(location.pathname);
   const isProtectedCatalogTarget=(href)=>{ return /(?:^|\/)lessons\/catalog\.html(?:$|[?#])/i.test(String(href||"")); };
   if(isLesson){
@@ -106,9 +106,14 @@ window.ZANSTI_GET_SUPABASE_CLIENT = window.ZANSTI_GET_SUPABASE_CLIENT || functio
   function targetOf(href){
     return (href||"").split("?")[0].split("#")[0].split("/").pop().toLowerCase();
   }
+  function courseIdForTarget(target){
+    if(/^kurmanji-course-1-lesson-\\d{2}\\.html$/.test(target)) return "kurmanji-course-1";
+    if(/^kurmanji-course-2-lesson-\\d{2}\\.html$/.test(target)) return "kurmanji-course-2";
+    return /^course-2-\\d+\\.html$/.test(target) ? "phonetics-phonology-kurdik" : "orthography-kurdik";
+  }
   function isProtectedLessonTarget(href){
     const target=targetOf(href);
-    return /^0(?:1[7-9]|[2-4]\d|5[0-8])\.html$/.test(target)||/^course-2-\d+\.html$/.test(target);
+    return /^0(?:1[7-9]|[2-4]\d|5[0-8])\.html$/.test(target)||/^course-2-\d+\.html$/.test(target)||/^kurmanji-course-[12]-lesson-\d{2}\.html$/.test(target);
   }
   let supabaseReadyPromise=null;
   function loadScriptOnce(src,id){
@@ -160,6 +165,12 @@ window.ZANSTI_GET_SUPABASE_CLIENT = window.ZANSTI_GET_SUPABASE_CLIENT || functio
     return !error && data===true;
   }
   function lessonOrderFor(target){
+    if(/^kurmanji-course-1-lesson-\d{2}\.html$/.test(target)){
+      return Array.from({length:26},(_,i)=>"kurmanji-course-1-lesson-"+String(i+1).padStart(2,"0")+".html");
+    }
+    if(/^kurmanji-course-2-lesson-\d{2}\.html$/.test(target)){
+      return Array.from({length:12},(_,i)=>"kurmanji-course-2-lesson-"+String(i+1).padStart(2,"0")+".html");
+    }
     if(/^course-2-\d+\.html$/.test(target)){
       return Array.from({length:32},(_,i)=>"course-2-"+String(i+1).padStart(2,"0")+".html");
     }
@@ -222,7 +233,7 @@ window.ZANSTI_GET_SUPABASE_CLIENT = window.ZANSTI_GET_SUPABASE_CLIENT || functio
       if(!got?.session){location.href=authUrl(a.href||new URL(rawHref,location.href).href);return;}
       const owner=await isOwner(got.sb);
       const target=targetOf(rawHref);
-        const courseId=/^course-2-\d+\.html$/.test(target)?"phonetics-phonology-kurdik":"orthography-kurdik";
+        const courseId=courseIdForTarget(target);
         if(!owner && !await hasEnrollment(got.sb,got.session.user.id,courseId)){
           location.href=(location.pathname.includes("/lessons/")?"../dashboard.html":"dashboard.html")+"?enroll=required";
           return;
@@ -253,7 +264,7 @@ window.ZANSTI_GET_SUPABASE_CLIENT = window.ZANSTI_GET_SUPABASE_CLIENT || functio
         }
         const owner=await isOwner(got.sb);
         const target=path;
-        const courseId=/^course-2-\d+\.html$/.test(target)?"phonetics-phonology-kurdik":"orthography-kurdik";
+        const courseId=courseIdForTarget(target);
         if(!owner && !await hasEnrollment(got.sb,got.session.user.id,courseId)){
           location.replace("../dashboard.html?enroll=required");
           return;
