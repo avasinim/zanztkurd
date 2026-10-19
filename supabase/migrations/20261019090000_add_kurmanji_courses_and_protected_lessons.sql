@@ -359,6 +359,19 @@ BEGIN
   IF uid IS NULL THEN RETURN false; END IF;
   IF public.is_site_owner() THEN RETURN true; END IF;
 
+  -- Defense in depth: an authenticated user must be enrolled before this
+  -- RPC reports any lesson as readable. The lesson_content RLS policy also
+  -- enforces enrollment, but the RPC should not report access on its own.
+  IF NOT EXISTS (
+    SELECT 1
+    FROM public.enrollments e
+    WHERE e.user_id = uid
+      AND e.course_id = p_course_id
+      AND e.status IN ('active','completed')
+  ) THEN
+    RETURN false;
+  END IF;
+
   IF p_course_id = 'phonetics-phonology-kurdik' THEN
     SELECT array_agg('course-2-' || lpad(n::text,2,'0') || '.html' ORDER BY n)
       INTO lesson_order FROM generate_series(1,32) AS g(n);
