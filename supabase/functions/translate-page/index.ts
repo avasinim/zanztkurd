@@ -89,6 +89,37 @@ async function translateOne(text: string, target: string): Promise<string | null
       console.warn("[translate-page] secondary provider attempt failed", error);
     }
   }
+  // Last-resort no-key provider. MyMemory uses the generic Kurdish code (ku);
+  // it may not support every Sorani phrase, so accept only explicit successful results.
+  try {
+    const url = new URL("https://api.mymemory.translated.net/get");
+    url.searchParams.set("q", text);
+    url.searchParams.set("langpair", "ku|" + target);
+    const response = await fetch(url, {
+      headers: { "Accept": "application/json" },
+      signal: AbortSignal.timeout(8000),
+    });
+    if (!response.ok) {
+      console.warn("[translate-page] MyMemory provider status", response.status);
+    } else {
+      const data = await response.json().catch(() => null);
+      const result = typeof data?.responseData?.translatedText === "string"
+        ? data.responseData.translatedText
+        : "";
+      const status = Number(data?.responseStatus);
+      if (status === 200 && result.trim() && result.trim().toLowerCase() !== text.trim().toLowerCase()) {
+        if (translationCache.size >= MAX_CACHE_ENTRIES) {
+          const firstKey = translationCache.keys().next().value;
+          if (firstKey !== undefined) translationCache.delete(firstKey);
+        }
+        translationCache.set(key, result);
+        return result;
+      }
+      console.warn("[translate-page] MyMemory returned no usable translation", status);
+    }
+  } catch (error) {
+    console.warn("[translate-page] MyMemory provider attempt failed", error);
+  }
   return null;
 }
 
