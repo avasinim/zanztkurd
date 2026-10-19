@@ -66,13 +66,17 @@ async function translateOne(text: string, target: string): Promise<string | null
 
   // Secondary no-key fallback. A provider outage should affect only this item,
   // not discard the other successful translations in the same batch.
-  for (const host of ["https://lingva.lunar.icu", "https://lingva.ml"]) {
+  for (const host of ["https://lingva.lunar.icu", "https://lingva.ml", "https://lingva.garudalinux.org"]) {
     try {
       const url = host + "/api/v1/auto/" + encodeURIComponent(target) + "/" + encodeURIComponent(text);
       const response = await fetch(url, { signal: AbortSignal.timeout(6500) });
-      if (!response.ok) continue;
+      if (!response.ok) {
+        console.warn("[translate-page] Lingva provider status", host, response.status);
+        continue;
+      }
       const data = await response.json().catch(() => null);
       const result = typeof data?.translation === "string" ? data.translation : "";
+      if (!result.trim() && data?.error) console.warn("[translate-page] Lingva provider error", host, String(data.error).slice(0,160));
       if (result.trim()) {
         if (translationCache.size >= MAX_CACHE_ENTRIES) {
           const firstKey = translationCache.keys().next().value;
