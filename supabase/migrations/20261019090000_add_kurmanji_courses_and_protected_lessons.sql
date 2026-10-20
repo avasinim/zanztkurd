@@ -407,7 +407,7 @@ BEGIN
 END;
 $function$;
 
-REVOKE ALL ON FUNCTION public.can_read_lesson_content(text,text) FROM PUBLIC;
+REVOKE ALL ON FUNCTION public.can_read_lesson_content(text,text) FROM PUBLIC, anon;
 GRANT EXECUTE ON FUNCTION public.can_read_lesson_content(text,text) TO authenticated;
 
 CREATE OR REPLACE FUNCTION public.complete_lesson(p_course_id text, p_lesson_key text)
@@ -522,7 +522,7 @@ END;
 $function$;
 
 -- Preserve/confirm the intended RPC exposure.
-REVOKE ALL ON FUNCTION public.complete_lesson(text,text) FROM PUBLIC;
+REVOKE ALL ON FUNCTION public.complete_lesson(text,text) FROM PUBLIC, anon;
 GRANT EXECUTE ON FUNCTION public.complete_lesson(text,text) TO authenticated;
 
 COMMIT;
