@@ -2,31 +2,42 @@ import "jsr:@supabase/functions-js/edge-runtime.d.ts";
 import { createClient } from "https://esm.sh/@supabase/supabase-js@2";
 
 const SITE_ORIGIN = "https://avasinim.github.io";
-const corsHeaders = {
-  "Access-Control-Allow-Origin": SITE_ORIGIN,
-  "Access-Control-Allow-Headers": "authorization, content-type, apikey, x-client-info",
-  "Access-Control-Allow-Methods": "POST, OPTIONS",
-  "Vary": "Origin",
-};
+// Local origins are allowed only for development/testing; the Edge Function remains owner-only.
+const ALLOWED_ORIGINS = new Set([
+  SITE_ORIGIN,
+  "http://localhost:8000",
+  "http://127.0.0.1:8000",
+]);
 
-function json(body: unknown, status = 200) {
+function corsHeaders(origin = SITE_ORIGIN) {
+  return {
+    "Access-Control-Allow-Origin": origin,
+    "Access-Control-Allow-Headers": "authorization, content-type, apikey, x-client-info",
+    "Access-Control-Allow-Methods": "POST, OPTIONS",
+    "Vary": "Origin",
+  };
+}
+
+function json(body: unknown, status = 200, origin = SITE_ORIGIN) {
   return new Response(JSON.stringify(body), {
     status,
-    headers: { ...corsHeaders, "Content-Type": "application/json; charset=utf-8" },
+    headers: { ...corsHeaders(origin), "Content-Type": "application/json; charset=utf-8" },
   });
 }
 
 Deno.serve(async (req: Request) => {
-  if (req.method === "OPTIONS") {
-    return new Response(null, { status: 204, headers: corsHeaders });
-  }
-  if (req.method !== "POST") return json({ error: "method_not_allowed" }, 405);
-
   const origin = req.headers.get("origin");
-  if (origin && origin !== SITE_ORIGIN) return json({ error: "origin_not_allowed" }, 403);
+  if (origin && !ALLOWED_ORIGINS.has(origin)) return respond({ error: "origin_not_allowed" }, 403);
+  const responseOrigin = origin && ALLOWED_ORIGINS.has(origin) ? origin : SITE_ORIGIN;
+  const respond = (body: unknown, status = 200) => json(body, status, responseOrigin);
+
+  if (req.method === "OPTIONS") {
+    return new Response(null, { status: 204, headers: corsHeaders(responseOrigin) });
+  }
+  if (req.method !== "POST") return respond({ error: "method_not_allowed" }, 405);
 
   const authorization = req.headers.get("authorization");
-  if (!authorization?.startsWith("Bearer ")) return json({ error: "authentication_required" }, 401);
+  if (!authorization?.startsWith("Bearer ")) return respond({ error: "authentication_required" }, 401);
 
   const supabaseUrl = Deno.env.get("SUPABASE_URL");
   const supabaseAnonKey = Deno.env.get("SUPABASE_ANON_KEY");
@@ -34,10 +45,10 @@ Deno.serve(async (req: Request) => {
   const beatApiModel = Deno.env.get("BEATAPI_MODEL");
 
   if (!supabaseUrl || !supabaseAnonKey) {
-    return json({ error: "server_configuration_incomplete" }, 503);
+    return respond({ error: "server_configuration_incomplete" }, 503);
   }
   if (!beatApiKey || !beatApiModel) {
-    return json({ error: "beatapi_not_configured" }, 503);
+    return respond({ error: "beatapi_not_configured" }, 503);
   }
 
   const supabase = createClient(supabaseUrl, supabaseAnonKey, {
@@ -46,21 +57,21 @@ Deno.serve(async (req: Request) => {
   });
 
   const { data: userData, error: userError } = await supabase.auth.getUser();
-  if (userError || !userData.user) return json({ error: "invalid_session" }, 401);
+  if (userError || !userData.user) return respond({ error: "invalid_session" }, 401);
 
   // Initial release is owner-only to prevent unexpected API usage or charges.
   const { data: isOwner, error: ownerError } = await supabase.rpc("is_site_owner");
-  if (ownerError || isOwner !== true) return json({ error: "owner_access_required" }, 403);
+  if (ownerError || isOwner !== true) return respond({ error: "owner_access_required" }, 403);
 
   let body: { messages?: unknown };
   try {
-    body = await req.json();
+    body = await req.respond();
   } catch {
-    return json({ error: "invalid_json" }, 400);
+    return respond({ error: "invalid_json" }, 400);
   }
 
   if (!Array.isArray(body.messages) || body.messages.length < 1 || body.messages.length > 8) {
-    return json({ error: "messages_must_contain_1_to_8_items" }, 400);
+    return respond({ error: "messages_must_contain_1_to_8_items" }, 400);
   }
 
   let totalChars = 0;
@@ -68,12 +79,12 @@ Deno.serve(async (req: Request) => {
   for (const item of body.messages) {
     if (!item || (item.role !== "user" && item.role !== "assistant") ||
         typeof item.content !== "string" || item.content.trim().length === 0) {
-      return json({ error: "invalid_message_format" }, 400);
+      return respond({ error: "invalid_message_format" }, 400);
     }
     totalChars += item.content.length;
     messages.push({ role: item.role, content: item.content.slice(0, 6000) });
   }
-  if (totalChars > 12000) return json({ error: "request_too_large" }, 413);
+  if (totalChars > 12000) return respond({ error: "request_too_large" }, 413);
 
   const systemMessage = {
     role: "system",
@@ -97,25 +108,25 @@ Deno.serve(async (req: Request) => {
       }),
     });
   } catch {
-    return json({ error: "beatapi_connection_failed" }, 502);
+    return respond({ error: "beatapi_connection_failed" }, 502);
   }
 
   if (!upstream.ok) {
     // Do not forward upstream bodies, which may contain implementation details.
-    return json({ error: "beatapi_request_failed", upstream_status: upstream.status }, 502);
+    return respond({ error: "beatapi_request_failed", upstream_status: upstream.status }, 502);
   }
 
   let result: { choices?: { message?: { content?: unknown } }[]; model?: string };
   try {
-    result = await upstream.json();
+    result = await upstream.respond();
   } catch {
-    return json({ error: "invalid_beatapi_response" }, 502);
+    return respond({ error: "invalid_beatapi_response" }, 502);
   }
 
   const answer = result.choices?.[0]?.message?.content;
   if (typeof answer !== "string" || answer.length === 0) {
-    return json({ error: "empty_beatapi_response" }, 502);
+    return respond({ error: "empty_beatapi_response" }, 502);
   }
 
-  return json({ answer, model: result.model ?? beatApiModel });
+  return respond({ answer, model: result.model ?? beatApiModel });
 });
