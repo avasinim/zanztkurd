@@ -402,3 +402,20 @@ Attributive adjectives in Kurmanji normally follow the noun and are linked by ez
 
 ### Result
 **The lesson's core indefinite suffix and singular case forms are source-supported.** Its key teaching caveat is to introduce the oblique case as a grammatical pattern with several functions and to show that demonstratives inflect in oblique contexts; dialect variation should be acknowledged. Only this audit document was appended; lesson text, seed SQL, migrations, main, and production database were not changed.
+
+## Source review — course 1, lesson 24: possession and possessive expressions (2026-10-21)
+
+### Claims corroborated
+- Kurmanji expresses possession with an ezafe-linked noun phrase; the possessed noun is the head and the possessor follows it. The noun's ezafe form agrees in gender and number with the head noun, not with the possessor. Haig & Öpengin, “Northern Kurdish (Kurmanjî),” §2.3.1: https://multicast.aspra.uni-bamberg.de/data/pubs/Haig2018_Northern-Kurdish_Kurmanji.pdf
+- The independent/oblique pronoun forms used as possessors are min, te, wî, wê, me, we, wan; the University of Arizona Kurmanji overview explicitly distinguishes nominative forms (ez, tu, ew, em, hûn) from oblique forms and notes oblique pronouns in possessive constructions: https://iranian-languages.arizona.edu/node/7
+- Haig & Öpengin also attest free/demonstrative ezafe forms (yê/ya/yên) that can stand for an omitted noun or introduce a possessive/identifying phrase. They are not simply interchangeable with the bound linking ezafe; their interpretation depends on construction and agreement.
+
+### Items needing editorial or source-specific checking
+1. **“pirtûka min/te/wî/wê”** is a useful beginner pattern, but the lesson must specify the noun's gender and case context. The ezafe ending belongs to the head noun; in a full clause, noun and ezafe may show oblique-case forms.
+2. **Pronoun mapping table:** nominative-to-oblique correspondences are useful (ez→min, tu→te, ew→wî/wê, em→me, hûn→we, ew plural→wan), but the mapping is not a standalone possessive suffix paradigm. State that these are oblique independent pronouns functioning as possessors in the shown NP.
+3. **“birayê min ê mezin”** should be checked for intended reading and segmentation: the possessive ezafe after *bira* and the adjective's additional ezafe must be parsed clearly; give a natural translation that preserves whether *mezin* means “big” or “older.”
+4. **Free ezafe:** yê spî, ya te, yên mezin are structurally plausible examples, but their translations should reflect the omitted antecedent (“the white one,” “the one belonging to you,” “the big ones”) rather than automatically rendering them as “this/that.” Check agreement and whether each example is an NP fragment or a complete clause.
+5. **Variety scope:** ezafe morphology and some possessive constructions vary across Kurmanji varieties. Keep claims tied to the stated standard/reference variety, and obtain a Kurdish-language editorial review of Sorani glosses.
+
+### Result
+**The central possession strategy and oblique possessor pronouns are supported.** The lesson should make explicit that ezafe agrees with the possessed/head noun, distinguish bound linking ezafe from free ezafe, and refine the glosses of the examples. Only this audit entry was appended; lesson text, seed SQL, migrations, main, and production database were not changed.
