@@ -133,3 +133,10 @@ A wider search also found only the existing draft PR #2; it did not reveal anoth
 - The ten public routines are SECURITY DEFINER with an explicitly empty search path in the current test database. This confirms the current catalog configuration only; function body authorization and role grants must still be evaluated separately. The auth trigger is present and should not be mistaken for a public callable website RPC.
 - A fresh commit-search attempt for each of the six database-only migration names returned no matching commits. This is another limited search result, not proof of absence from every Git object, unlisted branch, local clone, or external backup.
 - No database writes, migration replays, user-data changes, production project access, or `main` edits were performed during these checks.
+
+
+## Follow-up checks — complete visible public RLS policy inventory (2026-10-21)
+- Read-only `pg_policies` inspection returned policies for the six public application tables and no policies in the `storage` or `auth` schemas at inspection time.
+- A read-only storage check returned zero rows in `storage.buckets`, zero rows in `storage.objects`, and zero storage policies. This is the current test project state only; it does not establish anything about production storage.
+- Catalog counts returned zero ordinary public tables without RLS and zero public tables with FORCE RLS enabled. RLS is enabled on every ordinary public table, but FORCE RLS is not enabled on any of them. Table owners and privileged roles can have different RLS behavior; this inventory is not a substitute for role-by-role testing.
+- No policy, bucket, object, table, or data changes were made. Production was not accessed.
