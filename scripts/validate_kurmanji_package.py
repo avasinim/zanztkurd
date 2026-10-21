@@ -19,6 +19,20 @@ if not seed_files:
 
 seed_text = "\n".join(path.read_text(encoding="utf-8") for path in seed_files)
 
+# The shared script must never normalize text or attributes inside source-loaded
+# lesson content. This is a preservation check, not a content rewrite.
+shared_script = ROOT / "script.js"
+if not shared_script.exists():
+    ERRORS.append("Missing shared access-control script: script.js")
+else:
+    script_text = shared_script.read_text(encoding="utf-8")
+    if 'parent.closest(".lesson-content")' not in script_text:
+        ERRORS.append("Shared text normalizer does not skip lesson-content text nodes")
+    if 'if(el.closest(".lesson-content")) return;' not in script_text:
+        ERRORS.append("Shared text normalizer does not skip lesson-content attributes")
+    if 'Avasin access gate' not in script_text:
+        ERRORS.append("Shared access-control gate marker is missing from script.js")
+
 for course_id, count in expected.items():
     expected_names = {
         f"{course_id}-lesson-{number:02d}.html"
