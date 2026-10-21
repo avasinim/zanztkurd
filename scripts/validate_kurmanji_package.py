@@ -56,3 +56,5 @@ print(
     "OK: all 38 Kurmanji lesson pages exist and each expected lesson key "
     "appears in the seed SQL package. Lesson content was not modified."
 )
+
+# Trigger CI after adding this validator; lesson/source content remains untouched.
