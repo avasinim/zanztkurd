@@ -57,3 +57,31 @@ Public bibliographic/source pages confirm that Thackston's *Kurmanji Kurdish: A 
 - Status: **alphabet inventory corroborated; source quality/pinpointing still needs improvement before release**. No lesson text changed.
 
 These are limited source checks, not certification of all examples or all 38 lessons. Continue lesson-by-lesson, record exact source sections where possible, and do not auto-rewrite seed or migration text.
+
+## Source review — course 1, lesson 03: Kurmanji vowels (2026-10-21)
+
+### Primary cross-check
+The University of Arizona's Iranian Languages resource, “Kurmanji Kurdish,” explicitly lists eight monophthongs and gives the orthography, IPA value, example, and English gloss. The lesson's eight table rows match that resource:
+
+| Letter | IPA | Lesson example | Gloss in the source | Assessment |
+|---|---|---|---|---|
+| î | /i/ | hîn | still | Matches |
+| i | /ɪ/ | dil | heart | Matches |
+| ê | /e/ | lêv | lip | Matches |
+| e | /æ/ | belg | leaf | Matches |
+| o | /o/ | nod | ninety | Matches |
+| a | /ɑ/ | qaz | goose | Matches |
+| û | /u/ | bûz | ice | Matches |
+| u | /ʊ/ | qul | hole | Matches |
+
+Source: University of Arizona, Iranian Languages, “Kurmanji Kurdish,” Phonology → Vowels: https://iranian-languages.arizona.edu/node/7
+
+### Independent scholarly context and caveats
+- Thackston, *Kurmanji Kurdish: A Reference Grammar with Selected Readings* (2006), gives matching example words and describes the sound values, including the distinction between î/i, ê/e, and û/u. A publicly accessible reproduction of the relevant section is available at https://www.kurdipedia.org/files/books/2013/92279.PDF; use the published book itself for formal citation where possible.
+- The research article “Pharyngeals in Kurmanji Kurdish: a reanalysis of their source and status” reproduces a vowel-phoneme table based on Thackston (2006) and discusses phonetic variation: https://fis.uni-bamberg.de/server/api/core/bitstreams/a68c2d85-1c88-4b9b-a128-765c125a0f11/content
+- The broad claim that Kurmanji has eight vowel phonemes is supported by these references. However, the phonetic realization of some vowels—especially /æ/ (written e), /ɪ/ (written i), and /ʊ/ (written u)—can vary by speaker and environment. The lesson's note that e may be realized [ə] or [ɛ] is consistent with the Arizona description; avoid implying one exact phonetic realization for every speaker.
+- The table's example spellings and English glosses match the Arizona resource. The Sorani glosses in the lesson (e.g. “قاز”, “گەڵا”, “لێو”, “دڵ”, “هێشتا”, “نەوەد”, “کون”, “سەهۆڵ”) are translations added for Kurdish-speaking learners; the English-source page does not independently verify each Sorani translation. These translations should receive a separate Kurdish editorial check before release.
+- The page shell loads lesson body from the lesson_content record via script.js; this audit checked the lesson body in the split seed and migration, not the live production page. No browser or production DB change was made.
+
+### Result and release status
+**Result: vowel inventory and all eight Latin-letter/IPA/example/English-gloss pairs are corroborated.** Kurdish glosses and broader editorial wording still need review. This is a positive source check for lesson 03, not certification of all 38 lessons. No teaching content, seed row, or migration SQL was changed; only this audit document was updated. Do not deploy the migration or merge PR #3 on the basis of this single-lesson review.
