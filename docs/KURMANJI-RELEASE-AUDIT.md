@@ -41,3 +41,19 @@ The Supabase Preview check was skipped, so this is not evidence that the SQL mig
 ## Preliminary reference check — course 1, lesson 01
 
 Public bibliographic/source pages confirm that Thackston's *Kurmanji Kurdish: A Reference Grammar with Selected Readings* is a relevant grammar and includes a section on alphabet and sounds; the available description also notes that Kurmanji has been written in more than one script, with a modified Turkish Latin alphabet prominent in Turkey and Europe. Haig's 2018 chapter is a relevant scholarly overview of Northern Kurdish/Kurmanjî. These sources support the broad need to distinguish the language from its writing system and to avoid presenting one script as the only script historically used. However, the lesson's individual statements have not yet been matched to exact pages/sections in the source texts, and its bibliography lacks verified pinpoint citations. Therefore lesson 01 remains **partially supported at overview level, not source-verified**. Sources checked: [Kurdish Academy / Thackston](https://kurdishacademy.org/?page_id=623), [Google Books bibliographic record](https://books.google.com/books/about/Kurmanji_Kurdish.html?id=fXhwvwEACAAJ), [De Gruyter / Haig and Khan volume](https://www.degruyterbrill.com/document/doi/10.1515/9783110421682/html), [Haig chapter PDF](https://multicast.aspra.uni-bamberg.de/data/pubs/Haig2018_Northern-Kurdish_Kurmanji.pdf).
+
+## Source review — course 1, lessons 01–02 (2026-10-21)
+
+### Lesson 01 — language vs. writing system
+- The current lesson distinguishes Kurmanji as a language variety from the alphabet and orthographic rules used to write it. This is conceptually appropriate.
+- Thackston's reference grammar explicitly describes Kurmanji being written in multiple scripts, including a modified Turkish Latin alphabet prominent in Turkey and Europe, and Cyrillic in Armenia/Azerbaijan; this supports avoiding any claim that Latin is the only script ever used for Kurmanji. Public source: https://kurdishacademy.org/?page_id=623
+- Haig (2018), “Northern Kurdish (Kurmanjî),” pp. 106–158, is a relevant scholarly overview, but the lesson's general bibliography does not yet tie individual claims to exact pages.
+- Status: **partially supported at overview level; not fully source-verified**. No lesson text changed.
+
+### Lesson 02 — Hawar alphabet and 31 letters
+- The lesson lists the 31-letter Hawar alphabet in this order: A B C Ç D E Ê F G H I Î J K L M N O P Q R S Ş T U Û V W X Y Z. The list agrees with the alphabet table reproduced in the academic article “Modified LSB For Hiding Encrypted Kurdish Text Into Digital Image,” *Academic Journal of Nawroz University* 7(4) (2018/2019), DOI: https://doi.org/10.25007/ajnu.v7n4a298, section 3.1, printed pp. 256–257; the paper states 26 basic Latin letters plus five diacritic letters, totalling 31.
+- This is an independent cross-check of the count and order, but that paper's primary topic is steganography, not Kurdish linguistics. It should be treated as corroborative only; a dedicated Kurmanji grammar/orthography source should be used for final scholarly approval.
+- The lesson also says the five marked letters are Ç, Ê, Î, Ş, Û and notes Q, W, X occur in the alphabet; both are consistent with the listed Hawar sequence.
+- Status: **alphabet inventory corroborated; source quality/pinpointing still needs improvement before release**. No lesson text changed.
+
+These are limited source checks, not certification of all examples or all 38 lessons. Continue lesson-by-lesson, record exact source sections where possible, and do not auto-rewrite seed or migration text.
