@@ -116,3 +116,12 @@ The public-function catalog query found 10 functions: the four owner-admin RPCs,
 ### Audit limitations
 
 The repository search did not recover the six migration bodies, so the final ledger is still incomplete. Current schema inspection helps validate effects but cannot uniquely reconstruct the exact original SQL, transaction boundaries, comments, or the order in which policies were created and later removed. Do not write replacement migration files or mutate the migration ledger based only on inferred effects.
+
+
+### Follow-up checks — repository schema snapshot
+
+The repository's `supabase/schema.sql` was inspected on both the test branch and the PR base commit. It is a historical/production-foundation snapshot, not a reliable substitute for the six missing test migration files. In particular, it contains older behavior and settings that differ from the current test database and later security hardening (including an older `student_has_enrollment` function definition with `search_path=public`, older course counts, and an older profile-trigger/function design). The file's existence therefore does not establish the exact SQL or ordering of the DB-only migration records.
+
+The current test-branch copy has blob SHA `1ae82df1b1373dd16913f4dddd349a1b10cd70f2`; the PR-base copy has blob SHA `017a243dc1c2a68536d272267aaee03c2e145b09`. Neither contains the missing test migration files by their recorded filenames. Do not replay `supabase/schema.sql` into the test or production project and do not copy its older function definitions over the current hardened definitions.
+
+A wider search also found only the existing draft PR #2; it did not reveal another PR containing the six missing migration bodies. These checks narrow the available repository sources but do not prove the SQL is absent from every unlisted commit/tree or external local backup.
