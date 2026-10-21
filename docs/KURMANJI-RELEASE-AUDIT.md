@@ -740,3 +740,19 @@ Before making any lesson edits, prepare a proposed correction plan grouped by se
   4. Bibliography entry for Thackston (2006) lacks publisher/publication details, and neither listed source is tied to a specific section or page in the lesson. Verify the edition and relevant pages before publication; do not invent page references.
 - **Disposition:** No urgent factual contradiction was identified in this introductory outline. The principal gaps are terminology precision, one worked example, and bibliographic completeness. These are recommendations, not implemented fixes.
 - **Scope guard:** Only `docs/KURMANJI-RELEASE-AUDIT.md` was updated. No lesson body, seed SQL, migration, production database, or `main` branch was modified. This entry does not establish that CI passed or that PR #3 is release-ready.
+
+## Course 1 — Lesson 02 source audit
+
+- **Seed source:** `docs/kurmanji-content-seed-part-01.sql`
+- **Seed key:** `kurmanji-course-1-lesson-02.html`
+- **Title:** ئەلفبێی هاوار و ٣١ پیتەکەی
+- **Scope checked:** listed alphabet order, five letters with diacritics, Q/W/X, grapheme-versus-sound distinction, practice prompts, and listed sources.
+- **Authoritative source checked:** Haig’s academic overview of Standard Kurmanjî identifies the Hawar-derived modified Roman alphabet as the written standard and explicitly notes variation. The standard alphabet is commonly presented as 31 letters; see [Haig, “Northern Kurdish (Kurmanjî)” (University of Bamberg PDF)](https://www.uni-bamberg.de/fileadmin/aspra/06_Team/Publications_and_CV/haig_2018_ch.2.3_northern_kurdish.pdf) and the University of Bamberg publication copy [here](https://multicast.aspra.uni-bamberg.de/data/pubs/Haig2018_Northern-Kurdish_Kurmanji.pdf).
+- **What is sound:** The 31 uppercase letters appear in the expected order: A B C Ç D E Ê F G H I Î J K L M N O P Q R S Ş T U Û V W X Y Z. The five marked letters are correctly listed as Ç, Ê, Î, Ş and Û. The lesson correctly warns that a written letter and a speech sound are not identical concepts, and it avoids the overclaim that each letter always has exactly one pronunciation in every word and variety.
+- **Issues / recommendations for a later approved content pass:**
+  1. The displayed alphabet currently contains uppercase letters only. Add the corresponding lowercase forms beside each uppercase form (A/a, B/b …) so learners can recognize the forms they will actually meet in ordinary text.
+  2. Explain that Ç, Ê, Î, Ş and Û are distinct letters in this orthography, not optional decorative accents. Include a small contrastive reading/writing exercise with source-checked words; do not imply that removing the marks is harmless.
+  3. The exercise asks why C/Ç and S/Ş must not be treated as the same, but it does not provide example words or answer guidance. Add verified examples and a short answer key in a future content pass.
+  4. The bibliography gives general references but does not connect the alphabet list to a specific page/section in the academic source. Verify the relevant section and retain a page/section locator before publication. The cited Arizona resource should also be checked for current accessibility and exact bibliographic details.
+- **Disposition:** No material error was found in the 31-letter inventory or its order. The main pedagogical gap is the absence of lowercase forms and worked examples; bibliographic locators need verification. Recommendations only—not implemented fixes.
+- **Scope guard:** Only `docs/KURMANJI-RELEASE-AUDIT.md` was updated. No lesson body, seed SQL, migration, production database, or `main` branch was modified. This entry does not establish that CI passed or that PR #3 is release-ready.
