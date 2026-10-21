@@ -677,3 +677,27 @@ The lesson’s central guidance is sound: identify subject, verb and (where pres
 ### Result
 
 **The lesson’s general principles are accurate but too abstract for a standalone lesson because it contains no worked Kurmanji sentences.** The priority is to add source-verified examples that demonstrate neutral SOV, discourse-driven fronting, and the ezafe structure of noun phrases. Only this audit entry was appended; lesson HTML, seed SQL, migrations, `main`, and the production database were not changed.
+
+## Source review — course 2, lesson 12: review and final assessment (2026-10-21)
+
+**Seed reviewed:** `docs/kurmanji-content-seed-part-05.sql`, key `kurmanji-course-2-lesson-12.html`. Exact lesson title: **پێداچوونەوە و تاقیکردنەوەی کۆتایی**.
+
+### Findings
+
+The lesson appropriately treats the final review as a synthesis of morphology, noun phrases, pronouns/case, verb tense and transitivity, negation, questions, and word order. It also correctly says that a learner should support analysis with a source and context rather than treating an isolated example as a universal rule. However, the current “final assessment” is still a set of broad prompts: there are no actual Kurmanji sentences, no scoring criteria, no answer key, and no explicit coverage map showing which course objectives are assessed. This makes it a useful checklist but not yet a reliable summative assessment.
+
+The source grammar supports the need for construction-sensitive assessment: Standard Kurmanji has case contrasts that depend on syntactic function and construction; in particular, oblique case appears in several roles, including objects of present-tense transitive verbs, possessors in ezafe constructions, and subjects of past-tense transitive clauses. Ezafe forms also vary with gender/number and dialect. See Haig & Öpengin, “Northern Kurdish (Kurmanjî),” https://doi.org/10.1515/9783110421682-004; Thackston, *Kurmanji Kurdish: A Reference Grammar with Selected Readings* (2006), accessible via https://kurdishacademy.org/?page_id=623. Bibliographic metadata for Thackston is independently listed by Google Books: https://books.google.com/books/about/Kurmanji_Kurdish.html?id=fXhwvwEACAAJ.
+
+### Recommended revisions for a later content-editing pass
+
+1. **Turn the checklist into a balanced assessment.** Map each question to an explicit objective: morphology, noun phrase/ezafe, case and pronouns, tense/aspect and transitivity, negation/interrogatives, and constituent order/discourse.
+2. **Use real Standard Kurmanji sentences.** Include a mix of simple and moderately complex examples, with reliable source provenance and translations. Do not create unverified forms solely to fill an exercise.
+3. **Require a structured analysis.** For each sentence, ask learners to identify morphemes, noun phrase structure, grammatical roles and case, verb form, polarity/question type, and neutral versus contextually marked word order where applicable.
+4. **Add an answer key and scoring rubric.** Award separate points for identification, explanation, and evidence/source use; accept justified alternatives when the construction or dialect allows variation.
+5. **Avoid conflating categories.** Distinguish morpheme/root/stem, grammatical case versus semantic role, tense versus aspect/mood, and negation versus interrogative structure.
+6. **Add an explicit Standard Kurmanji scope note.** Where a dialect-specific form is used, label the variety and cite the source; do not grade a variant as incorrect merely because it differs from the chosen standard.
+7. **Remove the duplicated DOI link** in the bibliography during a later editorial cleanup.
+
+### Result
+
+**The review lesson covers the right domains, but its current questions are insufficient for a dependable final test.** The priority is a source-verified sentence set, an objective-to-question map, and an answer key/rubric. Only this audit entry was appended; lesson HTML, seed SQL, migrations, `main`, and the production database were not changed.
