@@ -610,3 +610,25 @@ The lesson is appropriately cautious in saying that verb forms depend on tense a
 ### Result
 
 **The lesson’s high-level claims are sound, but it currently offers a framework rather than a teachable paradigm.** The main missing evidence is a sourced set of verb forms and complete clauses showing how stem, person/number, tense/aspect, transitivity, and agreement interact. Only this audit entry was appended; lesson body, seed SQL, migrations, `main`, and the production database were not changed.
+
+## Source review — course 2, lesson 9: present, past and future tense (2026-10-21)
+
+**Seed reviewed:** `docs/kurmanji-content-seed-part-05.sql`, key `kurmanji-course-2-lesson-09.html`. This review is based on the exact lesson HTML in the seed; no lesson content was edited.
+
+### Findings
+
+The lesson correctly cautions that Kurmanji tense forms are not one uniform pattern and that transitivity affects past-tense clause structure. The source chapter describes the Standard Kurmanji future as a future particle `(d)ê` or `wê` combined with a present subjunctive verb form; it also notes dialectal differences. Present-indicative forms commonly use `di-`, while subjunctive forms commonly use `bi-`; these should be taught as patterns with documented exceptions, not as exceptionless rules. See Haig, “Northern Kurdish (Kurmanjî),” §§2.6.3–2.6.4 and Table 14. https://doi.org/10.1515/9783110421682-004
+
+### Recommended revisions for a later content-editing pass
+
+1. **Add a tense/aspect overview table.** Distinguish present indicative, subjunctive, simple past, past progressive/imperfective, and future; avoid implying that tense and aspect are interchangeable labels.
+2. **Show a consistent verb paradigm.** Give verified Standard Kurmanji forms for one suitable verb across the relevant tenses, with person/number marking, a gloss, and translation. Check the chosen verb against Haig’s Table 14 or Thackston.
+3. **Explain the future accurately.** Show `(d)ê/wê` with a subjunctive form and a complete sentence. Mention that the particle’s position can vary and that common verbs may omit `bi-` in the future construction.
+4. **Separate prefixes by function.** Explain the usual roles of `di-`, `bi-`, `na-`, and `ne-`, including that negation and tense/mood interact and that lexical exceptions exist.
+5. **Retain the transitivity warning with evidence.** Add a present transitive and a past transitive clause, marking subject, object, and agreement controller. Do not suggest that past tense alone automatically produces the same pattern in every dialect or construction.
+6. **Make review questions applied.** Ask learners to classify tense/aspect, identify the verb stem and prefixes, and explain the future marker in actual sentences; provide answer guidance.
+7. **Remove the duplicated Haig & Öpengin DOI** from the bibliography during a later editorial cleanup, and cite the specific sections/tables used.
+
+### Result
+
+**The lesson’s general caution is sound, but it lacks the paradigms and worked examples needed to verify the tense rules.** The most important additions are a sourced tense/aspect table, a consistent verb paradigm, and complete Standard Kurmanji examples that keep dialect variation visible. Only this audit entry was appended; lesson body, seed SQL, migrations, `main`, and the production database were not changed.
