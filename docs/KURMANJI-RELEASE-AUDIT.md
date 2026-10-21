@@ -304,3 +304,18 @@ The lesson's central description—ordinary present/habitual verbs commonly use 
 
 ### Result and action
 **Result: the main present-tense rule, sample conjugations, and default verb-final order are supported.** No clear grammar error found in the core paradigm. Flag compound **hîn bûn**, irregular present stems, and consistent spelling for expert/editorial review. Audit-only: no lesson body, seed, migration, production DB, or main branch changed.
+
+## Source review — course 1, lesson 18: negation in simple clauses (2026-10-21)
+
+### Core findings
+The lesson's central rule—present indicative negation normally replaces **di-** with **na-**, rather than stacking the two—is supported by Gündoğdu (2015), Haig & Öpengin (2018), Thackston, and KurdiPedia's grammar lessons. The examples **Ez naxwînim**, **Ez naçim**, **Ez nanivîsim**, and **Ez nabêjim** follow the ordinary pattern. **Ez nizanim** is a well-attested special form; **nikarim** is another important exception omitted from the lesson's current note. Sources: https://doi.org/10.1093/acprof:oso/9780190210434.003.0007 ; https://doi.org/10.1515/9783110421682-004 ; https://sites.fas.harvard.edu/~iranian/Kurmanji/kurmanji_complete.pdf ; https://www.kurdipedia.org/files/books/2023/474430.PDF .
+
+### Specific corrections/review flags (do not auto-edit)
+- **Exception list incomplete:** lesson mentions *zanîn → nizanim* but should also alert learners to *karîn → nikarim*. Haig & Öpengin explicitly identify both as taking **ni-** in present negation.
+- **Negative imperative:** **Nexwîne!** and **Neke!** are plausible standard negative commands with **ne-** replacing the positive/subjunctive **bi-**; KurdiPedia's lesson confirms the negative subjunctive/imperative prefix **ne-**. The note about older/regional **me-** is reasonable, but should cite a source specifically documenting the variety/usage before presenting it as broadly applicable.
+- **Copula/nominal negation:** **Ez ne mamosteyek im** is a recognizable pattern, but spacing and segmentation of **ne** with copular forms varies across orthographies/analyses. Keep the lesson's caution and have a Kurmanji grammar editor standardize it. **Ew li vir nîne** is plausible; distinguish negative copula/absence forms from ordinary verbal **na-** negation and from existential **tune/tunîne** where appropriate.
+- The academic article abstract establishes that negation has several prefix shapes (**n(a)-, n(e)-, ni-**) and that negation blocks certain TAM prefixes, but it does not by itself verify every example in the lesson. Haig & Öpengin and the pedagogical grammar provide the paradigm-level support.
+- Sorani translations are not independently validated by the Kurmanji grammar sources and need native Sorani editorial review.
+
+### Result and action
+**Result: the present-negation rule and key examples are corroborated.** The lesson should explicitly include **nikarim** among the important **ni-** exceptions, and the negative imperative/coplanar spelling conventions need variety-aware editorial confirmation. Audit-only update: no lesson body, seed, migration, production DB, or main branch changed.
