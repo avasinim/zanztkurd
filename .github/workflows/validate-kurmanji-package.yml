@@ -12,7 +12,8 @@ on:
   pull_request:
     branches: ["main"]
     paths:
-      - "kurmanji-course-*-lesson-*.html"
+      - "kurmanji-course-*.html"
+      - "script.js"
       - "docs/kurmanji-content-seed-part-*.sql"
       - "scripts/validate_kurmanji_package.py"
       - ".github/workflows/validate-kurmanji-package.yml"
