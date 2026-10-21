@@ -165,3 +165,19 @@ Yari's Kurmanji greetings page independently attests these lesson forms and mean
 
 ### Result and action
 **Result: lesson's general learning objective and its caution about dialect variation are supported, but the p/pˤ explanation contains a terminology/phonetic conflation that should be corrected before release.** This audit flags it; no lesson body, seed row, migration, production DB, or main branch was edited. Sources include Arizona (Thackston 2006, as cited there), Haig (2018), and EURPhon/Thackston's inventory: https://eurphon.info/languages/html?lang_id=250 .
+
+## Source review — course 1, lesson 09: personal and place names (2026-10-21)
+
+### Verified / supported points
+- **Name spellings should be preserved and checked, not casually respelled.** A scholarly publication on Kurdish transcription explicitly describes choosing Kurdish-alphabet forms for many personal/geographical names while retaining widely recognized alternative transliterations where useful; this supports the lesson's contextual, non-absolutist guidance. Source: *Enacting Citizenship*, transcription/geographical-locations note: https://ruj.uj.edu.pl/bitstreams/4e877737-2363-4979-bf93-5ae4176ea49a/download .
+- **Place-name pairs are real usage variants:** Hewlêr/Erbil and Amed/Diyarbakır are documented as alternate names in scholarly and teaching references. Kurdi School's Kurmanji grammar explicitly gives Amed = Diyarbakır, Hewlêr = Erbil, Wan = Van, and explains the oblique/locative forms ji Amedê, li Swêdê, ji Qamişloyê. Haig & Öpengin (2018) documents the Kurmanji oblique case, with proper names often showing zero marking or variable behavior. Sources: https://kurdischool.com/grammar.html ; https://multicast.aspra.uni-bamberg.de/data/pubs/Haig2018_Northern-Kurdish_Kurmanji.pdf .
+- **Latin-script capitalization scope:** Initial capitals in examples such as Azad, Rojîn, Amed are a conventional presentation for Hawar/Latin text, but the rule must be scoped to Latin-script Kurmanji; Kurdish written in Perso-Arabic script does not have upper/lowercase. Do not present capitalization as a universal property of all Kurdish writing systems. Background: Littell et al. (LREC 2016), https://aclanthology.org/L16-1529/ .
+
+### Caveats / editorial checks
+- The lesson lists Azad, Rojîn, Şilan, Berfîn and Mem û Zîn as examples. They are illustrative, but the audit has not independently established the etymology, preferred spelling, or individual bearers' official spellings for each personal name. For real people, use their own chosen/official spelling; for literary names, cite a reliable edition.
+- **Amed/Diyarbakır, Hewlêr/Erbil, Wan/Van, Qamişlo** should be described as language-/context-dependent names, not universally interchangeable labels. Academic publishing may use a familiar international form alongside the Kurdish form, depending on audience and editorial policy.
+- **Ez li Amedê dijîm** and **Ez ji Qamişloyê me** are plausible teaching examples for place-name inflection, and Kurdi School confirms the relevant -ê / -yê pattern. However, proper names can have variable or zero oblique marking (Haig & Öpengin); retain these forms as sourced examples, not a mechanical rule for every place name. Sorani translations should receive Kurdish editorial review.
+- The lesson's wording “the Kurmanji form of the place name” is useful but can be politically/contextually sensitive; neutral phrasing such as “the form used in the Kurmanji text, with a familiar/official alternative in parentheses when needed” is safer and more precise.
+
+### Result and action
+**Result: the lesson's practical advice to preserve name spellings and acknowledge alternate toponyms is supported.** The grammar examples are corroborated as useful forms, with a caveat that proper-name case marking is not wholly mechanical. No lesson body, seed, migration, production database, or main branch was edited; only this audit note was added.
