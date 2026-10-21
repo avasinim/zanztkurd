@@ -188,6 +188,9 @@ else:
         'data-learning-course="kurmanji-course-1"',
         'data-learning-course="kurmanji-course-2"',
         'id="learningKurmanjiCourses"',
+        'const generalCurriculum=document.querySelector(".learning-lessons");',
+        'if(generalCurriculum)generalCurriculum.hidden=region==="north"&&shouldOpen;',
+        '.learning-lessons[hidden]{display:none!important}',
     ):
         if required not in learning_html:
             ERRORS.append(f"North-circle learning pathway is missing required selector: {required}")
