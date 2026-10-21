@@ -19,6 +19,32 @@ if not seed_files:
 
 seed_text = "\n".join(path.read_text(encoding="utf-8") for path in seed_files)
 
+# Guard the migration's known cross-course invariants. These checks are static;
+# they do not apply SQL or claim to replace a disposable-database test.
+migration_path = ROOT / "supabase" / "migrations" / "20261019090000_add_kurmanji_courses_and_protected_lessons.sql"
+if not migration_path.exists():
+    ERRORS.append("Missing Kurmanji course-content migration")
+else:
+    migration_text = migration_path.read_text(encoding="utf-8")
+    for required in (
+        "SET total_lessons = 32",
+        "p_course_id = 'orthography-kurdik' OR NOT public.is_site_owner()",
+        "REVOKE ALL ON FUNCTION public.can_read_lesson_content(text,text) FROM PUBLIC, anon",
+        "REVOKE ALL ON FUNCTION public.complete_lesson(text,text) FROM PUBLIC, anon",
+        "SET search_path TO ''",
+    ):
+        if required not in migration_text:
+            ERRORS.append(f"Kurmanji migration is missing a required safety invariant: {required}")
+    stale_source_url = "https://multicast.aspra.uni-bamberg.de/data/pubs/Haig2018_Northern-Kurdish_Kurmanji.pdf"
+    if stale_source_url in migration_text or stale_source_url in seed_text:
+        ERRORS.append("A moved Bamberg grammar PDF URL remains in the migration or seed package")
+    for course_id, count in expected.items():
+        for number in range(1, count + 1):
+            key = f"{course_id}-lesson-{number:02d}.html"
+            row_pattern = re.compile(r"\\(['\"]" + re.escape(key) + r"['\"]\\s*,")
+            if len(row_pattern.findall(migration_text)) != 1:
+                ERRORS.append(f"Migration must contain exactly one content row for {key}")
+
 # The shared script must never normalize text or attributes inside source-loaded
 # lesson content. This is a preservation check, not a content rewrite.
 shared_script = ROOT / "script.js"
