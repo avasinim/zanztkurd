@@ -137,3 +137,19 @@ The lesson's examples **av** (“water”), **dil** (“heart”), **lêv** (“
 
 ### Result and action
 **Result: the ten core Kurmanji word forms and their English source meanings are corroborated; the lesson's Sorani glosses and the roj orthography note remain editorially reviewable.** No lesson body, seed row, migration, production database, or main branch was changed. Only this audit document was updated.
+
+## Source review — course 1, lesson 07: common greetings and phrases (2026-10-21)
+
+### Confirmed against the Yari beginner phrase guide
+Yari's Kurmanji greetings page independently attests these lesson forms and meanings: **Silav** (hello), **Rojbaş** (good day), **Şevbaş** (good night), **Bi xêr hatî** (welcome, singular), **Tu çawa yî?** (how are you?), **Ez baş im, spas** (I'm fine, thanks), **Ji kerema xwe** (please), **Erê** (yes), and **Na** (no). Yari also explicitly reports both **spas** and **sipas** as thank-you variants and notes regional variation. Source: https://yari.krd/learn/kurdish-greetings/ .
+
+### Important refinements
+- **Şevbaş** is glossed as “good night” by Yari, not literally “good evening”; retain the lesson's intended nighttime usage, but avoid presenting it as an exact equivalent of an evening greeting.
+- **Bi xêr hatî** is addressed to one arriving person. A plural/formal form is not covered by this lesson; do not generalize the singular expression.
+- The lesson's gloss **“Bi xêr hatî — welcome”** is corroborated. However, its Sorani “بەخێربێیت” should be checked for person/number and naturalness by a Kurdish editor.
+- **Rojbaş / Roj baş** spacing varies in teaching materials. Keep one editorial house style consistently; the phrase source uses Rojbaş, while other resources write Roj baş. This is a formatting/orthographic convention, not evidence of different meaning.
+- **Spas/sipas** variation is directly supported. The lesson cautiously describes sipas as a regional/variant form; this is appropriate, though the source does not map each variant to a precise region.
+- The phrase list is corroborated by a learner-oriented source, not by a peer-reviewed grammar. The audit confirms common usage forms, not a full scholarly account of dialectal pragmatics.
+
+### Result and action
+**Result: the principal phrase spellings and English meanings are corroborated by Yari; the notes above identify small glossing and scope cautions.** No lesson body, seed row, migration, production DB, or main branch was changed. Only the audit document was updated.
