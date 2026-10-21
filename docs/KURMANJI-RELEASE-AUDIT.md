@@ -756,3 +756,20 @@ Before making any lesson edits, prepare a proposed correction plan grouped by se
   4. The bibliography gives general references but does not connect the alphabet list to a specific page/section in the academic source. Verify the relevant section and retain a page/section locator before publication. The cited Arizona resource should also be checked for current accessibility and exact bibliographic details.
 - **Disposition:** No material error was found in the 31-letter inventory or its order. The main pedagogical gap is the absence of lowercase forms and worked examples; bibliographic locators need verification. Recommendations only—not implemented fixes.
 - **Scope guard:** Only `docs/KURMANJI-RELEASE-AUDIT.md` was updated. No lesson body, seed SQL, migration, production database, or `main` branch was modified. This entry does not establish that CI passed or that PR #3 is release-ready.
+
+## Course 1 — Lesson 03 source audit
+
+- **Seed source:** `docs/kurmanji-content-seed-part-01.sql`
+- **Seed key:** `kurmanji-course-1-lesson-03.html`
+- **Title:** ڤاوڵەکان و نیشانەنووسییان
+- **Scope checked:** eight written vowel letters, example-word table, marked-letter distinctions, claims about pronunciation, exercises, and bibliography.
+- **Sources checked:** Haig, “Northern Kurdish (Kurmanjî)” (2018), especially the phonology discussion and vowel tables, pp. 110–111; see [University of Bamberg PDF](https://multicast.aspra.uni-bamberg.de/data/pubs/Haig2018_Northern-Kurdish_Kurmanji.pdf). The chapter distinguishes five full/tense vowel categories written `a, ê, î, o, û` from three lax vowel categories written `e, i, u`, and documents dialectal variation.
+- **What is sound:** The lesson correctly lists the eight written vowel letters `a, e, ê, i, î, o, u, û` and warns learners not to collapse `e/ê`, `i/î`, or `u/û`. It also appropriately warns that comparisons to sounds in other languages are not fully reliable.
+- **Issues / recommendations for a later approved content pass:**
+  1. The lesson title and first section should explicitly distinguish **eight vowel letters** from the phonological analysis of vowel sounds. The academic description is more nuanced than “eight vowel letters = eight sounds”: it distinguishes full/tense and lax vowels, and the written `i` and `u` can represent centralized vowels in the described standard analysis.
+  2. “نیشانەی ^” is a loose way to describe the circumflex. Prefer a clear learner-facing description such as “نیشانەی سەر پیت (ê, î, û)” and show uppercase/lowercase forms consistently.
+  3. Recheck every word/gloss pair against the cited dictionary/source before publication. In particular, the lesson’s Sorani glosses for `belg`, `nod`, `qul`, and `bûz` need explicit source verification; the current seed does not provide IPA or a source locator for each item. Do not silently replace these examples without an approved content pass.
+  4. Add IPA or a careful pronunciation guide for each vowel category and at least one worked example contrasting the written letters `e/ê`, `i/î`, and `u/û`. Explain that phonetic realization and some lexical spellings can vary by dialect.
+  5. The Arizona resource is cited for the table, but the lesson does not record a specific subsection or retrieval/edition detail. Confirm that the link still supports each word and gloss; use Haig (2018), pp. 110–111, for the phonological distinction.
+- **Disposition:** The inventory of eight vowel letters is appropriate for the orthographic introduction, but the lesson currently risks conflating letters and phonological categories and needs word/gloss verification. These are audit findings, not implemented fixes.
+- **Scope guard:** Only `docs/KURMANJI-RELEASE-AUDIT.md` was updated. No lesson body, seed SQL, migration, production database, or `main` branch was modified. This entry does not establish that CI passed or that PR #3 is release-ready.
