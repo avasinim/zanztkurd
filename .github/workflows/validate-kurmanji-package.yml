@@ -21,6 +21,7 @@ on:
       - "script.js"
       - "docs/kurmanji-content-seed-part-*.sql"
       - "scripts/validate_kurmanji_package.py"
+      - "scripts/test_north_circle_ui.py"
       - ".github/workflows/validate-kurmanji-package.yml"
   workflow_dispatch:
 
