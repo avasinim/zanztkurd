@@ -437,3 +437,21 @@ Attributive adjectives in Kurmanji normally follow the noun and are linked by ez
 
 ### Result
 **The central direct/oblique contrast and the split-alignment teaching point are supported.** The noun table is a sound standard paradigm, but the *mirov* row and the broad wording about overt case marking need qualification; examples should be explicitly segmented and dialect scope stated. Only this audit entry was appended; lesson content, seed SQL, migrations, main, and production database were not changed.
+
+## Source review — course 1, lesson 26: final review and self-assessment (2026-10-21)
+
+### Claims corroborated
+- The contrasts highlighted in the review are meaningful in the Hawar Latin orthography: **c / ç** represent /d͡ʒ/ and /t͡ʃ/; **s / ş** represent /s/ and /ʃ/; **i / î** and **u / û** represent distinct vowel qualities. The Arizona Kurmanji reference provides the inventory and the lesson's example words *çak*, *şaş*, *dil*, *îro* and *roj*: https://iranian-languages.arizona.edu/node/7
+- The basic sentence examples are consistent with earlier course topics: *Ez nan dixwim* (present transitive clause), *Tu çawa yî?* (question), *Ez naxwînim* (negative), *Ez wî mirovî dibînim* (present transitive with oblique object), and *Min ew dît* (past transitive with oblique agent).
+- The note about *r* versus *rr* has a real phonetic basis: the reference describes *r* as a flap and *rr* as a trill where that distinction is represented. However, the distinction is not consistently represented in all standard written usage and some dialectal distinctions are not encoded.
+
+### Items needing editorial or source-specific checking
+1. **Review coverage is incomplete for a “final assessment.”** It rehearses selected spelling and grammar topics but does not systematically test all course outcomes or give a lesson-to-skill blueprint. Include a coverage matrix linking each earlier lesson to at least one assessment item.
+2. **Alphabet review is selective.** It mentions four pairs but omits other relevant distinctions, especially *e/ê* and *o* versus the short/long vowel pairs, and gives no IPA or listening discrimination task. Avoid implying the four pairs are the entire vowel/consonant inventory.
+3. **“r/rr” wording should remain qualified.** Prefer “in reference descriptions, *r* commonly represents a flap and *rr* may mark a trill; usage and representation vary” rather than implying a fully uniform standard spelling contrast.
+4. **Answer key and scoring:** the eight questions have no model answers, marking criteria, or pass threshold. Since the lesson correctly says self-assessment is not formal certification, either add an answer key and transparent rubric or label it clearly as formative practice only.
+5. **Question alignment:** item 4 asks for *herî* (superlative) without revisiting that pattern in the review examples; item 5 asks for *-ek* (indefinite singular) without an example in this lesson. These can be valid cumulative questions, but should link learners back to the relevant lessons and include expected answer criteria.
+6. **Translation and variety check:** the Sorani glosses, especially *Ez wî mirovî dibînim* and *Min ew dît*, need a Kurdish-language editorial review for naturalness and consistent rendering of *mirov*. Keep the course's stated standard-Kurmanji scope and acknowledge variation.
+
+### Result
+**The selected orthographic contrasts and review sentences are broadly supported.** The main issue is assessment design rather than a central factual error: the final review needs clearer coverage, answer criteria, and qualified wording on *r/rr*. Only this audit entry was appended; lesson content, seed SQL, migrations, main, and production database were not changed.
