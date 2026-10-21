@@ -6,6 +6,7 @@ This integration is being staged on the `kurmanji-test-config` branch and the se
 
 - The `beatapi-assistant` Supabase Edge Function is deployed and reported **ACTIVE** in test project `zanztkurd-kurmanji-test` (project ref `juwsjljbdwyncicybwoq`).
 - JWT verification is enabled. The function requires an authenticated user and checks the existing `is_site_owner()` RPC; it is intended for the site owner only.
+- CORS now allows the production Pages origin plus `http://localhost:8000` and `http://127.0.0.1:8000` for local testing. This allowlist change is deployed only to the test Supabase project; owner-only authentication remains required.
 - The owner dashboard UI for the BeatAPI assistant is committed on `kurmanji-test-config` in `admin.html`. It invokes the Edge Function through the Supabase client.
 - **End-to-end verification is still pending:** we have not yet confirmed a successful real response from BeatAPI through the authenticated dashboard UI.
 - The test-branch UI is not on the production GitHub Pages site, which uses `main`. Do not merge or publish to production without explicit approval.
