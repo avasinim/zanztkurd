@@ -655,3 +655,25 @@ The lesson gives a cautious overview of three topics: verbal negation, negation 
 ### Result
 
 **The lesson is directionally sound but under-exemplified.** Its biggest accuracy risk is leaving learners with an overgeneralized `na-`/ `di-` replacement rule. A sourced construction-by-construction table, paired examples for nominal negation, and complete interrogative examples are the priority. Only this audit entry was appended; lesson HTML, seed SQL, migrations, `main`, and the production database were not changed.
+
+## Source review — course 2, lesson 11: word order and sentence structure (2026-10-21)
+
+**Seed reviewed:** `docs/kurmanji-content-seed-part-05.sql`, key `kurmanji-course-2-lesson-11.html`. Exact lesson title: **ڕێکخستنی وشەکان و پێکهاتەی ڕستە**.
+
+### Findings
+
+The lesson’s central guidance is sound: identify subject, verb and (where present) object; treat subject–object–verb (SOV) as the basic neutral pattern rather than an exceptionless rule; and account for discourse context when evaluating word order. Haig’s grammatical sketch explicitly describes pragmatically neutral Kurmanji clauses as SOV (with a qualified goal/recipient component) while noting that order is not rigidly fixed and direct objects can be fronted for pragmatic purposes. The lesson’s noun-phrase description is also broadly consistent with the source: possessors and descriptive adjectives typically follow the head noun and are linked through ezafe. Sources: Haig, “Northern Kurdish (Kurmanjî),” §§2.3 and 2.7.1, https://doi.org/10.1515/9783110421682-004; accessible University of Bamberg chapter PDF: https://multicast.aspra.uni-bamberg.de/data/pubs/Haig2018_Northern-Kurdish_Kurmanji.pdf.
+
+### Recommended revisions for a later content-editing pass
+
+1. **Add full, glossed sentence examples.** The current lesson gives no actual Kurmanji sentence. Add a neutral intransitive clause and a transitive SOV clause, with translation and labels for subject, object and verb.
+2. **Show a contrastive fronting example.** Compare a neutral SOV clause with a contextually focused object-fronted version, and explain that fronting changes information structure/focus rather than automatically making the sentence ungrammatical.
+3. **Qualify the word-order rule precisely.** Describe SOV as the pragmatic-neutral baseline, not an absolute rule; note that recipient/goal placement and some patterns vary by construction and regional variety.
+4. **Add an explicit noun-phrase pattern.** Give a sourced example showing noun + ezafe + possessor/adjective. Explain that ezafe forms vary with the head noun’s gender/number in Standard Kurmanji and that dialect variation exists.
+5. **Separate grammatical roles from case marking.** Have learners identify subject/object first, then inspect direct/oblique case and the verb’s transitivity; do not imply that semantic roles alone always determine the surface form.
+6. **Expand exercises with answer guidance.** Ask learners to label constituents, identify the neutral order, explain a fronted constituent in context, and mark the ezafe relation.
+7. **Remove the duplicated Haig & Öpengin DOI** from the bibliography in a later cleanup.
+
+### Result
+
+**The lesson’s general principles are accurate but too abstract for a standalone lesson because it contains no worked Kurmanji sentences.** The priority is to add source-verified examples that demonstrate neutral SOV, discourse-driven fronting, and the ezafe structure of noun phrases. Only this audit entry was appended; lesson HTML, seed SQL, migrations, `main`, and the production database were not changed.
