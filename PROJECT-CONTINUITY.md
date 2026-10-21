@@ -283,3 +283,107 @@
 - گۆڕینی ڕێنووسی `گۆڕان‌کاری` و پشکنینی `کۆتایی` لە پەڕەی فێربون تۆمار کراوە.
 - لە ئێستا بە دواوە هەر گۆڕانکارییەکی گرنگی پڕۆژە دەبێت لە `CHANGELOG.md` تۆمار بکرێت.
 - `COURSE-REGISTRY.md` هێشتا سندی سەرەکیی ناساندنی دەورەکانە و `PROJECT-CONTINUITY.md` سندی بەردەوامییە؛ `CHANGELOG.md` تۆماری کارە جێبەجێکراوەکانە.
+
+
+---
+
+# تۆماری بەردەوامیی نوێ — 2026-10-21 (Authentication / Supabase test)
+
+> ئەم بەشە نوێترین دۆخی کاری پڕۆژەیە و لە خاڵە مێژووییە کۆنەکانی سەرەوە پێشترە. ئەو خاڵانەی لەگەڵ ئەم بەشە ناکۆکن، تا پشکنینی نوێ و بەڵگەی ڕاستەقینە بە دۆخی ئێستا دانانرێن.
+
+## 1. سنووری دەستکاری و پاراستن
+- کۆگا: `avasinim/zanztkurd`
+- برانچی تاقیکردنەوەی ئێستا: `kurmanji-test-config`
+- کۆتا SHA ـی تۆمارکراوی پێش ئەم نوێکردنەوەیە: `69bedc74caa4ea1fb7efe6bfa8c0ffc21095dfd7`؛ دوای commit ـی ئەم فایلە SHA نوێیەکە لە ئەنجامی GitHub پشتڕاست بکەوە.
+- Supabase ـی تاقیکردنەوە: `juwsjljbdwyncicybwoq`
+- Supabase ـی بەرهەمهێنان: `hjpmorabqdhuchpnowiw` — **دەستکاری مەکە** بەبێ ڕێگەپێدانی ڕاستەوخۆ.
+- `main` — **دەستکاری مەکە** و PR ـی کراوە مەخە ناو `main` بەبێ ڕێگەپێدانی ڕاستەوخۆ.
+- هیچ هەژمارێکی نوێ دروست مەکە؛ هەژماری خاوەن و خوێندکار پێشتر هەن.
+- هیچ داتای enrollment، lesson progress یان پێشکەوتنی خوێندکار مەسڕەوە، مەگوازەوە و مەگۆڕە.
+- هیچ نهێنی، وشەی نهێنی یان زانیاریی دەستگەیشتنی هەژمارەکان داوا مەکە یان بڵاو مەکەرەوە.
+- PDF ـی «فۆنێتیک و فۆنۆلۆجی کوردیک — سابیر ژاکاو» بە هیچ شێوەیەک دووبارە لە GitHub ـی گشتی بڵاو مەکەوە.
+
+## 2. دۆخی مایگرەیشنەکانی Supabase
+لە پشکنینی کۆتاییدا ١٤ مایگرەیشن لە test DB تۆمار کراون، بەڵام ٢١ فایل لە `supabase/migrations` ـی برانچی تاقیکردنەوە هەن. ژمارەکان بە تەنها بەڵگەی هەڵە نین؛ بەڵام ID و ناوەکان بە تەواوی هاوتا نین.
+
+مایگرەیشنە تۆمارکراوەکانی test DB:
+```
+20261020052016 test_baseline_schema
+20261020052024 add_kurmanji_courses_and_protected_lessons_test
+20261020052056 restrict_test_rpc_anon_execution
+20261020052347 mirror_production_rls_policies_for_kurmanji_test
+20261021051149 add_student_has_enrollment_rpc
+20261021052625 register_kurmanji_test_courses
+20261021053900 tighten_profile_trigger_and_course_indexes
+20261021054729 restrict_student_enrollment_insert_status
+20261021060103 restrict_anon_table_privileges_test
+20261021070221 restore_owner_admin_dashboard_rpcs_test
+20261021070238 lock_down_owner_admin_rpcs_test
+20261021111049 harden_course_enrollment_test
+20261021111825 revoke_authenticated_truncate_test
+20261021112047 remove_redundant_student_enrollment_insert_policy_test
+```
+
+جیاوازییە پشتڕاستکراوەکان:
+- `test_baseline_schema`، `restrict_test_rpc_anon_execution`، `mirror_production_rls_policies_for_kurmanji_test`، `add_student_has_enrollment_rpc`، `revoke_authenticated_truncate_test` و `remove_redundant_student_enrollment_insert_policy_test` وەک فایل لە برانچی ئێستادا نەدۆزراونەتەوە.
+- ناوی تۆمارکراوی `add_kurmanji_courses_and_protected_lessons_test` لەگەڵ `20261019090000_add_kurmanji_courses_and_protected_lessons.sql` جیاوازە.
+- `register_kurmanji_test_courses`: DB ID `20261021052625`، بەڵام فایل `20261021090000_register_kurmanji_test_courses.sql`.
+- `restrict_student_enrollment_insert_status`: DB ID `20261021054729`، بەڵام فایل `20261021060000_restrict_student_enrollment_insert_status.sql`.
+- `harden_course_enrollment_test`: DB ID `20261021111049`، بەڵام فایل `20261021120000_harden_course_enrollment_test.sql`.
+
+**یاسا:** هیچ مایگرەیشنێک دووبارە جێبەجێ مەکە، migration history مەگۆڕە و فایلێکی نوێ تەنها لەسەر ناوەکە دروست مەکە. سەرەتا ناوەڕۆکی SQL ـی جێبەجێکراو و دۆخی ڕاستەقینەی DB بەراورد بکە؛ پاشان پلانێکی reconciliation بنووسە. ئەگەر ئامرازی GitHub نووسین ڕەت کردەوە، هەمان داواکاری دووبارە مەکە و هیچ سنورێک مەشکێنە.
+
+## 3. پاراستنی خۆتۆمارکردن و TRUNCATE لە test DB
+- `enrollments`: مۆڵەتی INSERT ـی ڕاستەوخۆ بۆ `authenticated` نیە؛ سیاسەتی کۆنی `Students enroll themselves` لابراوە.
+- لە ٦ خشتەی پشکنراو، مۆڵەتی `TRUNCATE` بۆ `authenticated` نیە: `courses`, `enrollments`, `lesson_content`, `lesson_progress`, `profiles`, `site_owners`.
+- `enroll_in_course(text)` لە test DB بە `SECURITY DEFINER` و `search_path=''` دانراوە؛ پێویستی بە session ـی authenticated و پشتڕاستکردنەوەی ئیمەیڵ یان تەلەفۆن هەیە، مەگەر خاوەنی ماڵپەڕ بێت. مۆڵەتی EXECUTE بۆ `authenticated` هەیە و بۆ `PUBLIC, anon` لابراوە.
+- فەنکشنەکانی `can_read_lesson_content` و `complete_lesson` پشکنینی دەستگەیشتن، enrollment و ڕیزبەندی وانەکان جێبەجێ دەکەن. پێویستە لە تاقیکردنەوەی ڕاستەقینەدا دووبارە پشتڕاست بکرێنەوە.
+- هەندێک SECURITY DEFINER RPC بە مەبەست بۆ کارەکانی خوێندکار و خاوەن دانراون؛ بە شێوەی گشتی مۆڵەتیان لێ مەسەنەوە. چوار admin RPC ـەکە owner guard هەیانە و EXECUTE ـی `anon` ـیان داخراوە.
+
+## 4. ئاگادارکردنەوەکانی Supabase
+- `auth_leaked_password_protection` ناچالاکە؛ لە ڕێکخستنەکانی Auth پشکنین و چالاککردنی پێویستە، بەڵام بەبێ پشتڕاستکردنەوەی گۆڕانکاری ڕاستەوخۆ مەکە.
+- security advisor ٩ SECURITY DEFINER function ـی authenticated نیشان داوە. ئەمە بە تەنها بەڵگەی کێشە نیە؛ guard و مۆڵەتی هەر فەنکشنێک بە جیا پشکنە.
+- دوو ئیندێکس `enrollments_course_id_idx` و `lesson_progress_course_id_idx` وەک بەکارهێنەنەکراو ئاگادار کراونەتەوە؛ لەبەر داتای کەمی test بەبێ بەڵگە مەیسڕەوە.
+- هەموو ٦ خشتەی سەرەوە RLS ـیان چالاکە؛ ئەمە نابێت وەک بەڵگەی تەواوی پاراستنی هەموو خشتەکان لێک بدرێتەوە.
+
+## 5. کۆرس و داتای تاقیکردنەوە
+- `kurmanji-course-1`: ٢٦ وانە، ٢٦ content row، هیچ content ـی بەتاڵ نیە.
+- `kurmanji-course-2`: ١٢ وانە، ١٢ content row، هیچ content ـی بەتاڵ نیە.
+- `orthography-kurdik`: ٢٦ وانە.
+- `phonetics-phonology-kurdik`: ٣٢ وانە؛ ژمارەی ٣٢ لە registry/frontend/DB بەکاردێت. migration ـێکی کۆن کە ٢٧ دەڵێت کۆنە؛ ژمارەکە بۆ ٢٧ مەگۆڕە.
+- یەک enrollment ـی `kurmanji-course-1` active بوو؛ ٥ progress row ـی ئەم کۆرسە هی خاوەنی ماڵپەڕ بوون. ئەمە بەڵگەی ونبونی داتای خوێندکار نیە؛ هیچ row ـێک مەسڕەوە و مەگوازەوە.
+- بۆ `kurmanji-course-2` enrollment/progress ـێک لە پشکنینی پێشوو دەرنەکەوت.
+- `dashboard.html` پشکنینی session، پشتڕاستکردنەوە، owner و `sb.rpc('enroll_in_course',{p_course_id:cfg.id})` بەکاردێنێت.
+- `script.js` بۆ `student_has_enrollment`, `is_site_owner`, `complete_lesson` RPC بانگ دەکات.
+
+## 6. تاقیکردنەوەی ڕاستەقینە — هێشتا تەواو نیە
+**هیچ browser E2E ـی ڕاستەقینە بە session ـی خوێندکار ئەنجام نەدراوە.** هیچ بانگەشەیەک مەکە کە چوونەژوورەوە، خۆتۆمارکردن یان تەواوکردنی وانەکان بە سەرکەوتوویی تاقی کراونەتەوە.
+
+ڕێڕەوی پەسەندکراوی تاقیکردنەوە:
+1. خوێندکار بچێتە ژوورەوە بە شێوەی پارێزراو؛ هیچ وشەی نهێنی لە چەتدا مەخوازە.
+2. پشتڕاستی بکەرەوە کە هەژمارەکە ئیمەیڵ یان تەلەفۆنی پشتڕاستکراوەی هەیە.
+3. خۆتۆمارکردن لە کۆرس تاقی بکەرەوە.
+4. دڵنیا ببەوە وانەی ١ دەکرێتەوە.
+5. پێش تەواوکردنی وانەی ١، وانەی ٢ قوفڵ بێت.
+6. وانەی ١ تەواو بکە؛ پاشان وانەی ٢ دەستپێگەیشتوو بێت.
+7. refresh/دووبارە چوونەژوورەوە تاقی بکەرەوە بۆ دڵنیابوون لە پاراستنی progress.
+8. هیچ داتای ڕاستەقینە مەسڕەوە؛ تەنها ئەنجامی ڕوون و بەڵگەدار تۆمار بکە.
+
+ئامرازی browser automation ـی گونجاو لە کۆمەڵە ئامرازە بەردەستەکاندا نەدۆزرایەوە؛ بۆیە E2E هێشتا ئەنجام نەدراوە.
+
+## 7. کارەکانی داهاتوو بە ڕیزبەندی
+1. بەراوردی read-only ـی migration SQL ـەکان لەگەڵ schema، function definition، grants و RLS ـی test DB.
+2. دروستکردنی خشتەی mapping: DB migration ID ↔ فایل ↔ ناوەڕۆکی SQL ↔ بەڵگەی دۆخی DB.
+3. پێشنیاری reconciliation ـێکی پارێزراو؛ هیچ migration replay، reset، truncate، force push یان rewrite ـی migration history مەکە.
+4. پشکنینی Auth leaked-password protection و بەڵگەکردنی ئەنجام؛ چالاککردن تەنها بە ڕێگای ڕێکخستنی ڕەوا و پشتڕاستکردنەوە.
+5. دۆزینەوەی ڕێگای E2E ـی پارێزراو بۆ خوێندکار و جێبەجێکردنی ڕێڕەوی سەرەوە.
+6. تەنها دوای بەڵگەی پشکنین، PROJECT-CONTINUITY.md و CHANGELOG.md نوێ بکەرەوە.
+
+## 8. کۆتا دۆخ و پەیامی دەست‌پێکردنەوە
+- هیچ گۆڕانکارییەک لە `main` یان production Supabase نەکراوە.
+- هیچ هەژمار، enrollment یان progress ـێک نەسڕدراوەتەوە و نەگوازراوەتەوە.
+- migration reconciliation و student browser E2E هێشتا تەواو نەبوون.
+- بەردەوامیی داهاتوو تەنها لە برانچی `kurmanji-test-config` و Supabase test ref ـی `juwsjljbdwyncicybwoq` بێت.
+
+دەقی دەست‌پێکردنەوە:
+> «PROJECT-CONTINUITY.md ـی `avasinim/zanztkurd` بخوێنەوە، بەتایبەتی بەشی “تۆماری بەردەوامیی نوێ — 2026-10-21”. سەرەتا دۆخی branch و migration ـەکان بە شێوەی read-only پشتڕاست بکەرەوە. بەبێ بەڵگە SQL دووبارە جێبەجێ مەکە، `main` و production مەدەستکاری، و هیچ داتای خوێندکار مەگۆڕە. لە mapping ـی migration SQL و test DB بەردەوام بە؛ پاشان ڕێڕەوی E2E ـی خوێندکار تاقی بکەرەوە. تەنها ئەنجامی پشتڕاستکراو تۆمار بکە.»
