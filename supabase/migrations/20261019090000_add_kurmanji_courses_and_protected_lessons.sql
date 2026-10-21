@@ -471,7 +471,9 @@ BEGIN
     RAISE EXCEPTION 'NOT_ENROLLED';
   END IF;
 
-  IF lesson_index > 1 AND NOT public.is_site_owner() THEN
+  -- Preserve the existing orthography rule: owner completion remains sequential there.
+  -- Owners may bypass sequencing in phonetics and the new Kurmanji courses.
+  IF lesson_index > 1 AND (p_course_id = 'orthography-kurdik' OR NOT public.is_site_owner()) THEN
     previous_key := lesson_order[lesson_index - 1];
     IF NOT EXISTS (
       SELECT 1 FROM public.lesson_progress lp
