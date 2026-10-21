@@ -806,3 +806,20 @@ Before making any lesson edits, prepare a proposed correction plan grouped by se
   4. Add a precise locator to the Arizona source’s orthography table and the relevant vowel discussion in Haig (2018); the general links are relevant, but currently the lesson does not specify table/section/page locators.
 - **Disposition:** The core letter inventory, example spellings, and glosses are supported by the cited phonology/orthography resource. The main remaining needs are clearer consonant-versus-vowel grouping, pronunciation support, and more traceable citations. Recommendations only; no lesson content has been changed.
 - **Scope guard:** Only `docs/KURMANJI-RELEASE-AUDIT.md` was updated. No lesson body, seed SQL, migration, production database, or `main` branch was modified. This entry does not establish that CI passed or that PR #3 is release-ready.
+
+## Course 1 — Lesson 06 source audit
+
+- **Seed source:** `docs/kurmanji-content-seed-part-01.sql`
+- **Seed key:** `kurmanji-course-1-lesson-06.html`
+- **Title:** خوێندنەوە و نووسینی وشەی سادە
+- **Scope checked:** reading method, ten example words and Sorani glosses, orthographic notes, writing exercises, self-assessment, and bibliography.
+- **Authoritative source checked:** University of Arizona, Iranian Languages, “Kurmanji Kurdish,” including its orthography chart and vowel examples; the resource gives `av` “water,” `dil` “heart,” `lêv` “lip,” `hîn` “still,” `qaz` “goose,” `qul` “hole,” `çak` “good,” `şaş` “wrong,” and `yek` “one.” See [University of Arizona phonology and orthography](https://iranian-languages.arizona.edu/node/7). The page also cautions that vowel letters correspond to distinct vowel qualities and that some phonetic distinctions vary by dialect.
+- **What is sound:** The listed spellings are consistent with the source examples. The lesson’s focus on preserving diacritics and checking word meanings against a reference is pedagogically appropriate. The table correctly uses `çak` and `şaş` to reinforce the contrast between `c/ç` and `s/ş`.
+- **Issues / recommendations for a later approved content pass:**
+  1. Correct the exercise prompt “وشەکانی qul و hîn بەراورد بکە و جیاوازیی u و î…”: `qul` contains `u`, while `hîn` contains `î`, so the contrast is indeed present, but the teaching note should explain that these letters represent different vowel qualities, not merely different-looking characters. Add IPA or a careful pronunciation cue.
+  2. The Sorani glosses are broadly supported by the cited chart, but the lesson should avoid implying each word has only one meaning. The current note already acknowledges polysemy; preserve that caveat and add dictionary locators for entries if available.
+  3. The prompt asks learners to write uppercase and lowercase forms but does not supply the expected forms or an answer key. Add a compact model, e.g. `AV / av`, `DIL / dil`, `LÊV / lêv`, `HÎN / hîn`, `QAZ / qaz`, while ensuring diacritics are preserved.
+  4. Add a short, fully worked example showing how to check spelling, pronunciation, and meaning separately. Avoid the claim that spelling is perfectly one-to-one with pronunciation, because the academic source documents dialect variation and orthographically unmarked phonetic contrasts.
+  5. The listed Yari dictionary link should be checked for exact entry-level support during final bibliography cleanup; the University of Arizona source currently supports most of the listed example words directly.
+- **Disposition:** The core word spellings and the selected glosses are largely supported by the cited academic resource. The lesson is suitable as an introductory practice unit, with improvements needed in pronunciation guidance, model answers, and source traceability. Recommendations only; no lesson content has been changed.
+- **Scope guard:** Only `docs/KURMANJI-RELEASE-AUDIT.md` was updated. No lesson body, seed SQL, migration, production database, or `main` branch was modified. This entry does not establish that CI passed or that PR #3 is release-ready.
