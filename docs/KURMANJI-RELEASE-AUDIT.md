@@ -956,3 +956,19 @@ Before making any lesson edits, prepare a proposed correction plan grouped by se
 - **Avasin spelling pass:** The static page for lesson 13 was checked against the current Avasin house-style spellings; no further text substitutions were required. The lesson’s Sorani prose in the seed was already aligned with the same preferred forms. Latin-script Kurmanji numerals and diacritics were preserved.
 - **Scope / verification:** The static page was fetched and inspected; this pass did not change its content. The audit entry is the only file changed in this lesson-review step. No migration, production database, or `main` branch was touched. No new CI or browser-test success is claimed.
 - **Curriculum quality criterion:** Teach number forms accurately, connect them to noun morphology and syntax, show standard/dialect variants transparently, and provide answerable exercises with feedback and traceable sources.
+
+## Course 1 — Lesson 14 source and Avasin spelling audit
+
+- **Seed/static source:** `docs/kurmanji-content-seed-part-02.sql`; `kurmanji-course-1-lesson-14.html`.
+- **Lesson key/title:** `kurmanji-course-1-lesson-14.html` — ڕەنگ و ناوی شتە ڕۆژانەکان.
+- **Sources checked:** Omniglot, “Colours in Kurdish (Kurmanji)”; Thackston, *Kurmanji Kurdish: A Reference Grammar with Selected Readings*; Goethe-Verlag, Kurmanji lesson “Renkler.” References: https://omniglot.com/language/colours/multilingual.htm ; https://sites.fas.harvard.edu/~iranian/Kurmanji/kurmanji_complete.pdf ; https://www.goethe-verlag.com/book2/TR/TRKU/TRKU016.HTM.
+- **Supported vocabulary:** The principal forms `sor` (red), `şîn` (blue), `kesk` (green), `zer` (yellow), `reş` (black), `spî` (white), and `qehweyî` (brown) are attested in the checked resources. Keep Latin diacritics such as `ş`, `î`, and `ê` intact.
+- **Issues / recommendations for a future content pass:**
+  1. The current lesson teaches only seven colors. Add common useful items such as `mor` (purple), `pembe` (pink), `pirteqalî` (orange), and `gewr` (grey), but note that lexical choices and loanwords can vary by region/source.
+  2. The line “colours behave as adjectives” is too general without illustrating Kurmanji word order and the ezafe construction. Show a simple predicative pattern (`Ev pirtûk sor e.`) separately from a noun phrase with an attributive adjective, and explain the distinction with a source-backed model.
+  3. Recheck `Telefon li ser maseyê ye.` against the selected grammar/reference. The locative preposition `li ser` governs an oblique form; teach the noun form in context rather than treating `maseyê` as a general dictionary form. A more complete explanation should identify the base noun and the case/construct form.
+  4. The sentence `Ez pirtûkê dixwînim.` uses a marked noun form in a present transitive clause. Add a concise note on the relevant oblique marking and avoid overgeneralizing it to every noun phrase.
+  5. Add a small answer key, pronunciation/audio if available, and an exercise that requires learners to distinguish predicative adjective sentences from noun phrases with attributive adjectives. Record exact section/page locators for Thackston.
+- **Avasin spelling pass:** The static page was checked against Avasin preferred Sorani spellings; any substitutions made were restricted to Sorani prose. Kurmanji Latin vocabulary and diacritics were preserved.
+- **Verification and scope:** The audit entry is recorded in this document; static-page changes, if any, were fetched again for verification. No production database, migrations, or `main` branch was changed. No CI/browser test result is claimed.
+- **Curriculum quality criterion:** Keep vocabulary source-traceable, demonstrate grammar through contrasting examples, explain case/ezafe only as far as the learner can apply it, and include exercises with answer keys.
