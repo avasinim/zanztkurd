@@ -14,17 +14,17 @@ expected = {
 }
 
 seed_files = sorted(SEED_DIR.glob("kurmanji-content-seed-part-*.sql"))
-if len(seed_files) < 1:
+if not seed_files:
     ERRORS.append("No Kurmanji seed SQL files found under docs/")
 
 seed_text = "\n".join(path.read_text(encoding="utf-8") for path in seed_files)
 
 for course_id, count in expected.items():
-    found_pages = sorted(ROOT.glob(f"{course_id}-lesson-*.html"))
     expected_names = {
         f"{course_id}-lesson-{number:02d}.html"
         for number in range(1, count + 1)
     }
+    found_pages = sorted(ROOT.glob(f"{course_id}-lesson-*.html"))
     actual_names = {path.name for path in found_pages}
 
     for missing in sorted(expected_names - actual_names):
@@ -34,11 +34,29 @@ for course_id, count in expected.items():
 
     for number in range(1, count + 1):
         key = f"{course_id}-lesson-{number:02d}.html"
+        page = ROOT / key
+        if page.exists():
+            html = page.read_text(encoding="utf-8")
+            if f'data-lesson-key="{key}"' not in html:
+                ERRORS.append(f"Lesson page has missing/mismatched data-lesson-key: {key}")
+            if not re.search(r'<script\b[^>]*src=["\'][^"\']*script\.js(?:\?[^"\']*)?["\']', html, re.I):
+                ERRORS.append(f"Lesson page does not load the shared access-control script: {key}")
+            if not re.search(r'<meta\s+name=["\']robots["\']\s+content=["\']noindex,follow["\']', html, re.I):
+                ERRORS.append(f"Lesson page is missing noindex,follow metadata: {key}")
+            content_box = re.search(
+                r'<div\s+class=["\']lesson-content["\'][^>]*>(.*?)</div>',
+                html,
+                re.I | re.S,
+            )
+            if not content_box:
+                ERRORS.append(f"Lesson page is missing the server-loaded content container: {key}")
+            elif "بارکردنی ناوەڕۆکی وانەکە" not in content_box.group(1):
+                ERRORS.append(f"Lesson page content container does not use the expected loading placeholder: {key}")
+
         occurrences = len(re.findall(re.escape(key), seed_text))
         if occurrences == 0:
             ERRORS.append(f"Lesson key missing from seed SQL files: {key}")
         elif occurrences > 1:
-            # Each key should appear exactly once as an INSERT row key.
             row_pattern = re.compile(
                 r"\(['\"]" + re.escape(key) + r"['\"]\s*,"
             )
@@ -53,8 +71,7 @@ if ERRORS:
     sys.exit(1)
 
 print(
-    "OK: all 38 Kurmanji lesson pages exist and each expected lesson key "
-    "appears in the seed SQL package. Lesson content was not modified."
+    "OK: all 38 Kurmanji lesson pages exist; expected seed keys are present; "
+    "lesson keys, shared access-control script, noindex metadata, and server-loaded "
+    "content placeholders are consistent. Lesson content was not modified."
 )
-
-# Trigger CI after adding this validator; lesson/source content remains untouched.
