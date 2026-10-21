@@ -335,3 +335,19 @@ The lesson's principal question words are attested in Kurmanji grammar and teach
 
 ### Result and action
 **Result: core interrogative vocabulary is supported.** Recommend adding the **kî/kê** case contrast and a brief **çend/çiqas** distinction; validate **têyî** and the Sorani translations. Audit-only: no lesson body, seed, migration, production DB, or main branch changed.
+
+## Source review — course 1, lesson 20: word order in the clause (2026-10-21)
+
+### Core claim supported, with precision needed
+The lesson's main point—that pragmatically neutral Kurmanji clauses commonly follow subject–object–verb order, while the order is not rigid—is directly supported by Haig & Öpengin's grammar sketch. Their more precise description is **SOVG**, where G is a goal/recipient/addressee argument; they also note that objects can be fronted for pragmatic reasons. https://multicast.aspra.uni-bamberg.de/data/pubs/Haig2018_Northern-Kurdish_Kurmanji.pdf (section 3.7.1; also https://www.kurdipedia.org/files/relatedfiles/2022/421402/0001.PDF).
+
+### Specific editorial / grammar checks
+- **Avoid overgeneralizing “SOV”:** Label it the neutral/default pattern, and mention the fuller SOVG pattern for motion, transfer, and speech verbs. Some recipients/goals can occur after the predicate or be expressed with adpositions, depending on construction and dialect.
+- **Past transitive clauses are not a simple SOV teaching extension:** Kurmanji has split alignment/ergative patterns in past transitive clauses. In those clauses the transitive subject can be oblique, the object direct, and verb agreement may track the object; the lesson's note that past transitive grammar is more complex is important and should remain. https://multicast.aspra.uni-bamberg.de/data/pubs/Haig2018_Northern-Kurdish_Kurmanji.pdf ; https://www.uni-bamberg.de/fileadmin/aspra/06_Team/Publications_and_CV/haig_opengin_2015_gender_kurdish_offprint.pdf.
+- **Example “Tu pirtûkê dixwînî”:** The definite/oblique marking in present transitive clauses is relevant; “pirtûkê” can be analyzed as an oblique object in this environment. The Sorani gloss (“کتێبەکە دەخوێنیتەوە”) is plausible, but validate the exact definite reading and whether “دەخوێنیت” or “دەخوێنیتەوە” better matches the intended verb.
+- **Example “Em kurdî hîn dibin”:** Treat **hîn bûn** as a learning construction, but verify that the intended sense is “we learn Kurdish / we are learning Kurdish”; the syntactic label “object/content” is a pedagogical simplification.
+- **Fronting example:** **Vê pirtûkê, ez dixwînim** is offered as an information-structure illustration, not as a freely interchangeable word order. The lesson appropriately says context is needed; confirm punctuation, prosody, and native acceptability before presenting it as a model.
+- **Intransitive examples:** **Ew diçe** is a straightforward subject + verb example. **Zarok radizê** and **Em li malê dimînin** should be checked for the chosen spelling/standard and Sorani gloss (particularly the intended sense of *radizê*).
+
+### Result and action
+**Result: the default SOV teaching is sound, provided it is explicitly qualified as neutral/default and not an inflexible rule.** Preserve the warning about past transitive split alignment; improve precision around goal arguments and verify the sample translations/inflections with a Kurmanji editor. Audit-only: no lesson content, seed, migrations, production DB, or main branch changed.
