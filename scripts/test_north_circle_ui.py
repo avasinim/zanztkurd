@@ -109,7 +109,7 @@ class NorthCircleBrowserTests(unittest.TestCase):
         page.goto(f"{BASE_URL}/lessons/catalog.html", wait_until="domcontentloaded")
         page.locator('[data-region="north"]').click()
         sizes = page.evaluate(
-            "() => ({width: document.documentElement.clientWidth, scroll: document.documentElement.scrollWidth})"
+            """() => ({width: document.documentElement.clientWidth, scroll: document.documentElement.scrollWidth, offenders: [...document.querySelectorAll("body *")].map(e => ({tag:e.tagName, id:e.id, cls:typeof e.className === "string" ? e.className : "", left:Math.round(e.getBoundingClientRect().left), right:Math.round(e.getBoundingClientRect().right), display:getComputedStyle(e).display})).filter(e => e.display !== "none" && (e.right > document.documentElement.clientWidth + 2 || e.left < -2)).sort((a,b) => b.right-a.right).slice(0,12)})"""
         )
         self.assertLessEqual(sizes["scroll"], sizes["width"] + 1, f"mobile horizontal overflow: {sizes}")
 
