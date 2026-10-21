@@ -65,7 +65,7 @@ Deno.serve(async (req: Request) => {
 
   let body: { messages?: unknown };
   try {
-    body = await req.respond();
+    body = await req.json();
   } catch {
     return respond({ error: "invalid_json" }, 400);
   }
@@ -118,7 +118,7 @@ Deno.serve(async (req: Request) => {
 
   let result: { choices?: { message?: { content?: unknown } }[]; model?: string };
   try {
-    result = await upstream.respond();
+    result = await upstream.json();
   } catch {
     return respond({ error: "invalid_beatapi_response" }, 502);
   }
