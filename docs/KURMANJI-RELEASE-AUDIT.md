@@ -257,3 +257,19 @@ The core colour words **sor** (red), **şîn** (blue), **kesk** (green), **zer**
 
 ### Result and action
 **Result: the basic colour vocabulary is corroborated; object vocabulary and example sentence morphology are plausible but not fully independently verified from the consulted references.** No clear lexical error was established. Flag Sorani gloss review and the unexplained object/locative morphology for expert review. Audit-only update: no lesson HTML, seed, migration, production DB, or main branch changed.
+
+## Source review — course 1, lesson 15: family vocabulary (2026-10-21)
+
+### Lexical support
+The family vocabulary source from Kurmanji School and the KurdiPedia *Kurmanji Kurdish, Lesson 2* support the core entries **malbat** (family), **dayik** (mother), **bav** (father), **kur** (son/boy), **keç** (daughter/girl), **bira** (brother), **xwişk** (sister), and **zarok** (child). They also document common possessive phrases such as **dayîka min / bavê min / birayê min / xwişka min**. References: https://kurmanjischool.com/en/family-in-kurmanji/ ; https://www.kurdipedia.org/files/books/2023/474430.PDF ; https://muugumuugu.github.io/bOOkshelF/languagesNcodes/Kurmanji.pdf .
+
+### Cautions and verification gaps
+- **kal** is not safely glossed only as “grandfather”: references also give **bapîr** (and **kalik** in some sources) for grandfather, while **kal** may mean an old/elderly man and can vary regionally. The lesson's own caution is appropriate; recommend presenting *bapîr* as the clearer basic kinship term and treating *kal* as a variant/lexical item requiring a specific dictionary citation.
+- **pîrik** is attested for grandmother in some resources, alongside **dapîr**; variation is real. Keep the note and identify which variety/source is being taught.
+- **mêr** means “man” and may mean “husband” in context; **jin** means “woman” and may mean “wife.” The lesson correctly warns that context matters.
+- The possessive examples are broadly corroborated, but spellings/inflections vary: sources show **dayîka min** as well as **dayika min**, **bavê min**, **birayê min**, **xwişka min**. Choose one orthographic convention and keep it consistent. The lesson's own note appropriately says inflection depends on grammatical context.
+- **Ev dayika min e** is an attested pattern (some sources write *dayîka*); **Navê bavê min Azad e** is plausible, but the exact possessive/ezafe spelling should be checked against the course's chosen grammar. **Ez bi malbata xwe re dijîm** is a plausible reflexive/with-phrase example; do not use it to claim *xwe* has only one syntactic distribution.
+- Sorani translations are not externally verified by Kurmanji references; native Sorani editorial review remains necessary.
+
+### Result and action
+**Result: core kinship vocabulary and possessive phrase patterns are supported.** Main editorial issue is the potentially over-specific gloss of **kal** and the need to standardize spellings such as **dayika/dayîka**. No lesson text was changed; this is an audit-only finding. Seed, migration, production DB, and main remain untouched.
