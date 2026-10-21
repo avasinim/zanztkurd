@@ -27,7 +27,7 @@ function json(body: unknown, status = 200, origin = SITE_ORIGIN) {
 
 Deno.serve(async (req: Request) => {
   const origin = req.headers.get("origin");
-  if (origin && !ALLOWED_ORIGINS.has(origin)) return respond({ error: "origin_not_allowed" }, 403);
+  if (origin && !ALLOWED_ORIGINS.has(origin)) return json({ error: "origin_not_allowed" }, 403);
   const responseOrigin = origin && ALLOWED_ORIGINS.has(origin) ? origin : SITE_ORIGIN;
   const respond = (body: unknown, status = 200) => json(body, status, responseOrigin);
 
