@@ -1136,3 +1136,12 @@ Before making any lesson edits, prepare a proposed correction plan grouped by se
 - **Content scope:** The review appropriately revisits morphemes, roots and affixes, noun structure, ezafe, possession, pronoun case, verb tense/aspect categories, negation, questions, and word order. Its own methodological note correctly says new example sentences should be checked against a reliable grammar and context, rather than treating every rule as exceptionless.
 - **Static wrapper:** The lesson page has one `script.js?v=20261019-kurmanji-protected` tag at the end of the document; no duplicate script tag was found. Two navigation links point to the course overview with different labels; left unchanged because this is redundant navigation rather than a correctness defect.
 - **Verification and scope:** The edited seed and audit were fetched again to verify the single DOI link and this entry. No changes were made to `main`, migrations, or the production database. No CI or full browser-test success is claimed.
+
+
+## Cross-page navigation audit — Kurmanji course indexes and lesson catalog
+
+- **Scope:** Inspected `kurmanji-course-1.html`, `kurmanji-course-2.html`, and `lessons/catalog.html` on `kurmanji-clean-release`; compared their local HTML references with the repository's current file tree (144 HTML files). This was a static repository check, not a live HTTP crawl.
+- **Catalog links:** Every local HTML `href` and `src` reference extracted from `lessons/catalog.html` resolved to a path present in the branch tree; zero missing local targets were found. The catalog's legacy course 2 links (`lessons/course-2-01.html` through `course-2-32.html`) all exist in the repository, as do the current course index and lesson links.
+- **Course indexes:** Course 1 lists lessons 01–26 and course 2 lists lessons 01–12; their linked lesson pages and navigation targets exist. Each course index has one `script.js?v=20261017-kurmanji-path` include. The reviewed lesson wrappers use one `script.js?v=20261019-kurmanji-protected` include; these version labels differ but are not by themselves proof of a broken link, so they were left unchanged.
+- **Decision:** No code change was warranted by this pass. Do not treat this as proof that every remote URL, browser interaction, or runtime data-loading path works; those require separate live/runtime checks.
+- **Safety scope:** Only the audit document was updated. No changes were made to `main`, migrations, or the production database. No CI or full browser-test success is claimed.
