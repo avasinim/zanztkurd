@@ -122,7 +122,7 @@ body.content-page{--ink:#17231f;--muted:#65716b;--green:#315344;--green2:#476b59
     <div class="student-dashboard-copy">
       <span class="student-dashboard-kicker">ئاڤاشین · بەشی خوێندکار</span>
       <h2 id="student-dashboard-title">پەنێڵی تایبەتی خوێندکار</h2>
-      <p>هەموو زانیارییەکانی فێربونت لە یەک شوێندا بەڕێوە ببە. لە پەنێڵی خوێندکارەوە دەتوانیت دۆخی هەژمارەکەت و پێش‌کەوتنی کۆرسەکانت بە ئاسانی ببینیت.</p>
+      <p>هەمو زانیارییەکانی فێربونت لە یەک شوێندا بەڕێوە ببە. لە پەنێڵی خوێندکارەوە دەتوانیت دۆخی هەژمارەکەت و پێش‌کەوتنی کۆرسەکانت بە ئاسانی ببینیت.</p>
     </div>
   </div>
   <div class="student-dashboard-features" aria-label="تایبەتمەندییەکانی پەنێڵی خوێندکار">
@@ -197,7 +197,7 @@ body.content-page{--ink:#17231f;--muted:#65716b;--green:#315344;--green2:#476b59
     if(target)target.scrollIntoView({behavior:"smooth",block:"start"});
     return;
    }
-   status.textContent="ڕێڕەوی تایبەت بە «"+(labels[choice]||choice)+"» لەم سیستەمەدا جیا کراوەتەوە. ناوەڕۆکی کۆرسە فەرمییە بەردەستەکان لە خوارەوە و لە کاتەلۆگی وانەکان دەتوانرێت ببینرێت.";
+   status.textContent="ڕێڕەوی تایبەت بە «"+(labels[choice]||choice)+"» لەم سیستەمەدا جیا کراوەتەوە. نێوەڕۆکی کۆرسە فەرمییە بەردەستەکان لە خوارەوە و لە کاتەلۆگی وانەکان دەتوانرێت ببینرێت.";
    status.hidden=false;
   });
  });
@@ -306,7 +306,7 @@ body.content-page{--ink:#17231f;--muted:#65716b;--green:#315344;--green2:#476b59
   if(hero)hero.insertAdjacentHTML('afterend','<div class="course-context" style="margin-top:18px;display:inline-flex;padding:8px 13px;border:1px solid rgba(226,210,177,.25);border-radius:999px;color:#ddcfb0;font-weight:800;font-size:.82rem">'+(course==='1'?'دەورەی ١ · ڕێنوسی زوانی کوردیک':'دەورەی ٢ · فۆنێتیک و فۆنۆلۆجی زوانی کوردیک')+'</div>');
   const back=document.createElement('a');
   back.href='learning.html';
-  back.textContent='گەڕانەوە بۆ هەموو ڕێڕەوەکان';
+  back.textContent='گەڕانەوە بۆ هەمو ڕێڕەوەکان';
   back.style.cssText='display:inline-flex;margin:18px 0 0;padding:9px 13px;border:1px solid rgba(39,61,50,.16);border-radius:9px;background:#fff;color:#315344;text-decoration:none;font-weight:800';
   const intro=document.querySelector('.learning-intro');
   if(intro)intro.appendChild(back);
