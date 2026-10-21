@@ -273,3 +273,18 @@ The family vocabulary source from Kurmanji School and the KurdiPedia *Kurmanji K
 
 ### Result and action
 **Result: core kinship vocabulary and possessive phrase patterns are supported.** Main editorial issue is the potentially over-specific gloss of **kal** and the need to standardize spellings such as **dayika/dayîka**. No lesson text was changed; this is an audit-only finding. Seed, migration, production DB, and main remain untouched.
+
+## Source review — course 1, lesson 16: days and time (2026-10-21)
+
+### Corroborated vocabulary
+The seven day names in the lesson—**duşem, sêşem, çarşem, pêncşem, în, şemî, yekşem**—match the Kurmanji list in *Kurmanji Kurdish, Lesson 4* (Muugumuugu), the Parsian Joman self-study grammar, 50languages, and other Kurmanji learning references. The basic time words **îro** (today), **niha** (now), **paşê** (later), **hefte** (week), **meh** (month), and **sal** (year) are also attested. Sources: https://muugumuugu.github.io/bOOkshelF/languagesNcodes/Kurmanji.pdf ; https://www.parsianjoman.org/wp-content/uploads/Kurmanji.pdf ; https://50languages.com/fa/learn/phrasebook-lessons/170/ku ; https://kurdishacademy.ch/kurmancu00ee/dersen/courses/course-10.html .
+
+### Variants / items needing care
+- Friday occurs as **în**, **înî**, and in inflected expressions such as **roja înê**; the lesson's short form **în** is attested, but it should note common variant/inflected forms.
+- Tomorrow is commonly **sibe/sibê**; yesterday is commonly **duh/duhî**. The lesson's **doh** is not the dominant spelling in the references consulted and should be checked against the chosen dictionary/orthography before release. (Do not silently normalize without selecting a house style.)
+- **sibê** can also refer to morning/next morning in context, so the Sorani gloss “سبەی / بەیانیی داهاتوو” is sensibly context-sensitive.
+- **dereng** is usually “late”; the Sorani “دواکەوتوو / درەنگ” is reasonable but needs native Sorani editorial review. **zû** (“early/soon”) is context-dependent.
+- The four sample sentences are plausible beginner examples, but the reviewed day-word lists do not establish their full grammar: **Ez sibê têm** (future-time adverb with present-form verb), **Em îro dixwînin**, and **Ez niha amade me** should be validated with the course's selected grammar/native speaker. Keep the lesson's caution; avoid presenting them as definitive paradigms.
+
+### Result and action
+**Result: the weekday set and several basic time terms are independently corroborated.** The main spelling question is **doh** versus **duh/duhî**; Friday and tomorrow/yesterday forms need a brief variation note. Sample sentence grammar and Sorani glosses remain editorial-review items. Audit-only: no lesson body, seed, migration, production DB, or main branch changed.
