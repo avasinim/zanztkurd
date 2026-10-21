@@ -85,7 +85,7 @@ const session=sessionResult?.data?.session;
 if(!session){location.replace('auth.html?next=admin.html');return}
 const owner=await sb.rpc('is_site_owner');
 if(owner.error||owner.data!==true){document.body.innerHTML='<main style="min-height:100vh;display:grid;place-items:center;padding:30px;background:#f3f1ea;font-family:system-ui;text-align:center"><div><h1>دەستگەیشتن ڕەتکرایەوە</h1><p>ئەم پەنێڵە تەنیا بۆ خاوەنی ماڵپەڕە.</p><a href="dashboard.html">گەڕانەوە</a></div></main>';return}
-let tab=pendingTab, users=[], enrollments=[], progress=[], feedbackRows=[];
+let tab=pendingTab, users=[], enrollments=[], progress=[], feedbackRows=[];let beatMessages=[],beatBusy=false;
 async function load(){
  $('content').innerHTML='<div class="loading">داتا نوێ دەکرێتەوە...</div>';
  const [u,e,p]=await Promise.all([sb.rpc('admin_list_users'),sb.rpc('admin_list_enrollments'),sb.rpc('admin_list_progress')]);
