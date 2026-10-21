@@ -138,7 +138,14 @@ const languageLabels={kalhuri:"کەڵهوڕ",laki:"لەکی",hawrami:"هەورا
 const northChoices=document.getElementById("northChoices");
 const centralChoices=document.getElementById("centralChoices");
 const southChoices=document.getElementById("southChoices");
+const catalogHero=document.querySelector(".catalog-hero");
+const studentAccessStrip=document.querySelector(".student-access-strip");
+const catalogIntro=document.querySelector(".catalog-intro");
 function applyLanguageView(language){
+ const northOnly=language==="north";
+ if(catalogHero)catalogHero.hidden=northOnly;
+ if(studentAccessStrip)studentAccessStrip.hidden=northOnly;
+ if(catalogIntro)catalogIntro.hidden=northOnly;
  if(language==="kurmanji-course-1"){window.location.href="../kurmanji-course-1.html";return;}
  if(language==="kurmanji-course-2"){window.location.href="../kurmanji-course-2.html";return;}
  activeLanguage=language;
