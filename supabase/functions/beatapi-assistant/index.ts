@@ -18,10 +18,19 @@ function corsHeaders(origin = SITE_ORIGIN) {
   };
 }
 
-function json(body: unknown, status = 200, origin = SITE_ORIGIN) {
+function json(
+  body: unknown,
+  status = 200,
+  origin = SITE_ORIGIN,
+  extraHeaders: Record<string, string> = {},
+) {
   return new Response(JSON.stringify(body), {
     status,
-    headers: { ...corsHeaders(origin), "Content-Type": "application/json; charset=utf-8" },
+    headers: {
+      ...corsHeaders(origin),
+      ...extraHeaders,
+      "Content-Type": "application/json; charset=utf-8",
+    },
   });
 }
 
@@ -29,7 +38,11 @@ Deno.serve(async (req: Request) => {
   const origin = req.headers.get("origin");
   if (origin && !ALLOWED_ORIGINS.has(origin)) return json({ error: "origin_not_allowed" }, 403);
   const responseOrigin = origin && ALLOWED_ORIGINS.has(origin) ? origin : SITE_ORIGIN;
-  const respond = (body: unknown, status = 200) => json(body, status, responseOrigin);
+  const respond = (
+    body: unknown,
+    status = 200,
+    extraHeaders: Record<string, string> = {},
+  ) => json(body, status, responseOrigin, extraHeaders);
 
   if (req.method === "OPTIONS") {
     return new Response(null, { status: 204, headers: corsHeaders(responseOrigin) });
@@ -112,7 +125,24 @@ Deno.serve(async (req: Request) => {
   }
 
   if (!upstream.ok) {
-    // Do not forward upstream bodies, which may contain implementation details.
+    // Never forward upstream bodies. Preserve rate-limit semantics without exposing secrets.
+    if (upstream.status === 429) {
+      const retryHeader = upstream.headers.get("retry-after");
+      const parsedRetry = retryHeader && /^\d+$/.test(retryHeader.trim())
+        ? Number(retryHeader.trim())
+        : null;
+      const retrySeconds = parsedRetry !== null && Number.isFinite(parsedRetry)
+        ? Math.min(3600, Math.max(1, parsedRetry))
+        : null;
+      const headers = retrySeconds !== null
+        ? { "Retry-After": String(retrySeconds) }
+        : {};
+      return respond(
+        { error: "beatapi_rate_limited", retry_after_seconds: retrySeconds },
+        429,
+        headers,
+      );
+    }
     return respond({ error: "beatapi_request_failed", upstream_status: upstream.status }, 502);
   }
 
