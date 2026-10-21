@@ -103,3 +103,23 @@ Source: University of Arizona, Iranian Languages, “Kurmanji Kurdish,” Phonol
 
 ### Result and action
 **Result: partly supported, with wording risks around RR, X and Q.** This is an audit finding, not permission to rewrite the lesson automatically. The teaching content, split seed, migration, and production site remain unchanged. A later content edit should be proposed only after the editorial standard and source-specific orthographic claims are verified.
+
+## Source review — course 1, lesson 05: five additional Hawar letters (2026-10-21)
+
+### Cross-check against the University of Arizona table
+The lesson's five letters and sample words match the university's Kurmanji orthography table:
+- **ç — çak — “good”**; the letter is represented as /t͡ʃ/.
+- **ş — şaş — “wrong”**; /ʃ/.
+- **ê — êş — “pain”**; /e/ in the Arizona table.
+- **î — îro — “today”**; /i/.
+- **û — bûz — “ice”**; /u/.
+Source: University of Arizona, Iranian Languages, “Kurmanji Kurdish,” sections “Phonology” and “Orthography”: https://iranian-languages.arizona.edu/node/7 . The source explicitly lists all five word/meaning pairs, so this is stronger than a general alphabet-only cross-check.
+
+### Interpretation and limits
+- The Hawar alphabet has 31 letters, including 26 basic Latin letters and the five additional letters ç, ê, î, ş and û. The teaching point that diacritics are meaningful parts of the letter forms—not decoration—is accurate for learning standard spelling.
+- The lesson correctly distinguishes ç from c, ş from s, ê from e, î from i, and û from u in orthography. Avoid implying that the marks alone explain every phonetic detail or that each sound has identical realization across all Kurmanji varieties.
+- The five Sorani glosses (“باش”، “هەڵە”، “ئازار”، “ئەمڕۆ”، “سەهۆڵ”) correspond to the English glosses given in the Arizona table. As these are Sorani editorial translations rather than direct quotations from the source, they are linguistically plausible and source-aligned, but still benefit from a Kurdish-language editorial review.
+- Corroborating discussion: Songül Gündoğdu, “Remarks on Vowels and Consonants in Kurmanji,” which discusses the 31-letter alphabet and how standard spelling does not represent every phonetic distinction: https://www.researchgate.net/publication/303040378_Remarks_on_Vowels_and_Consonants_in_Kurmanji
+
+### Result and action
+**Result: all five letter/example/English-gloss pairs are corroborated by the University of Arizona source; no material discrepancy found in the lesson's central teaching point.** The teaching body, seed row, migration, and production site were not changed. The lesson remains part of the wider 38-lesson review and is not, by itself, a release approval.
