@@ -319,3 +319,19 @@ The lesson's central rule—present indicative negation normally replaces **di-*
 
 ### Result and action
 **Result: the present-negation rule and key examples are corroborated.** The lesson should explicitly include **nikarim** among the important **ni-** exceptions, and the negative imperative/coplanar spelling conventions need variety-aware editorial confirmation. Audit-only update: no lesson body, seed, migration, production DB, or main branch changed.
+
+## Source review — course 1, lesson 19: questions and interrogative words (2026-10-21)
+
+### Vocabulary corroboration
+The lesson's principal question words are attested in Kurmanji grammar and teaching references: **kî** (who; direct-case form), **kê** (who/whom in oblique contexts), **çi** (what), **li ku/kû** (where), **kengî/kengê** (when), **çima** (why), **çawa** (how), **çiqas** (how much), **çend** (how many), and **kîjan** (which). References include University of Arizona's Kurmanji overview, Institut kurde de Paris's question-word list, KurdiPedia grammar materials, and the Kurmanji grammar PDF. Sources: https://iranian-languages.arizona.edu/node/7 ; https://bnk.institutkurde.org/images/pdf/DTP48ZMAL1.pdf ; https://www.kurdipedia.org/files/books/2013/88758.PDF ; https://internationalistcommune.com/wp-content/uploads/2024/01/kurmanji-basic.pdf .
+
+### Grammar / editorial notes
+- **Case distinction:** The lesson lists **kî** as “who” but does not introduce **kê**, the oblique counterpart used in object positions (e.g., **Tu kê dixwazî?** “Whom do you want?”). This is a useful follow-up point; do not teach *kî* as invariant.
+- **Question-word placement:** A scholarly study of Kurmanji phrase structure describes wh-words as commonly remaining in their base position (“wh-in-situ”), so examples such as **Tu çi dixwazî?** are well-formed in that respect. Avoid imposing English-style obligatory fronting.
+- **Forms vary:** Sources show **li ku/kû/kuderê**, **kengî/kengê**, and alternative “how” forms. The lesson's variation caveat is appropriate; state the chosen standard and add common variants where useful.
+- **çiqas vs çend:** They are not exact interchangeable equivalents in all contexts: **çend** typically asks a count (“how many”), while **çiqas** often asks amount/degree (“how much/how far”). The lesson's gloss “چەند / تا چەند” for **çiqas** is broadly useful, but a contrastive example would sharpen it.
+- **Yes/no questions:** The examples **Tu baş î?**, **Tu kurdî dizanî?**, and **Ew li malê ye?** are plausible. Intonation and punctuation are relevant, but the lesson should avoid suggesting that a question mark alone captures all spoken question patterns.
+- **Potential example check:** **Tu kengî têyî?** appears intended as “When are you coming?”; the exact verb form/spelling should be checked against the course's chosen grammar and native Kurmanji review. Other examples are plausible, but Sorani glosses require native editorial verification.
+
+### Result and action
+**Result: core interrogative vocabulary is supported.** Recommend adding the **kî/kê** case contrast and a brief **çend/çiqas** distinction; validate **têyî** and the Sorani translations. Audit-only: no lesson body, seed, migration, production DB, or main branch changed.
