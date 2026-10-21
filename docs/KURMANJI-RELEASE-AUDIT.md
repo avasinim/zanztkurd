@@ -473,3 +473,21 @@ Attributive adjectives in Kurmanji normally follow the noun and are linked by ez
 
 ### Result
 **The core definition of morphology and the free/bound morpheme distinction are sound.** The lesson is methodologically cautious, but needs a worked Kurmanji segmentation, clearer root/stem/inflection distinctions, and a small bibliography cleanup. Only this audit entry was appended; lesson content, seed SQL, migrations, main, and production database were not changed.
+
+## Source review — course 2, lesson 2: root, prefix and suffix (2026-10-21)
+
+### Claims corroborated
+- The lesson's distinction between root and stem/base is a useful morphological starting point: a root is the lexical core, while a stem/base is the form to which inflectional material can attach; depending on the analysis, a stem may already contain derivational morphology.
+- Prefixes precede a base and suffixes follow it. The lesson correctly warns that position alone does not prove a morpheme boundary: segmentation requires evidence from form, meaning and repeated patterns.
+- The Kurmanji singular indefinite marker -ek is a well-attested suffix in Standard Kurmanji, but its realization and distribution vary across varieties. Haig & Öpengin (2018), discussion of nominal morphology and dialect variation: https://multicast.aspra.uni-bamberg.de/data/pubs/Haig2018_Northern-Kurdish_Kurmanji.pdf
+
+### Items needing editorial or source-specific checking
+1. **No actual segmented example is supplied.** Add a verified pair such as *gund* ‘village’ and *gund-ek* ‘a village’, and explicitly mark the segmentation as *gund-ek* = base + singular indefinite suffix. Cross-reference lesson 4.
+2. **Root and base definitions need tighter wording.** The lesson says the root is the basic unit and the base may take affixes, but should define derivation versus inflection: derivation can form a new lexeme or change category/meaning; inflection expresses grammatical features without necessarily creating a new lexeme.
+3. **Prefix/suffix scope:** do not imply that all Kurmanji morphology is suffixal or that any initial/final string is automatically an affix. A candidate affix must have a repeatable form-function relationship across examples. Verbal preverbs and inflectional prefixes provide additional patterns beyond the nominal -ek example.
+4. **Bibliography duplicate:** the Haig & Öpengin DOI is listed twice in the seed content for this lesson. Remove the duplicate in a future editorial pass; this audit does not alter the lesson body.
+5. **Assessment is too abstract:** all three review questions are definitional. Add a short worked segmentation and ask learners to explain which evidence supports the boundary, with a model answer.
+6. **Dialect scope:** retain the standard-Kurmanji framing and qualify -ek as a common singular indefinite marker, since surface forms and realization vary regionally.
+
+### Result
+**The introductory definitions and methodological caution are sound.** The main weakness is lack of a worked Kurmanji word analysis and explicit derivation/inflection contrast. Only this audit entry was appended; lesson content, seed SQL, migrations, main, and production database were not changed.
