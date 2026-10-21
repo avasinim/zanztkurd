@@ -1127,3 +1127,12 @@ Before making any lesson edits, prepare a proposed correction plan grouped by se
 - **Avasin Sorani spelling:** In this lesson's seed entry, `نموونە` was normalized to `نمونە` (three occurrences), `پێویست` to `پەیویست` (six occurrences), `هەموو` to `هەمو` (one occurrence), and `ڕوون` to `ڕون` (two occurrences). Kurmanji Latin forms and diacritics were preserved.
 - **Static wrapper:** The lesson page contains one `script.js?v=20261019-kurmanji-protected` tag; no duplicate script was found.
 - **Verification and scope:** The seed record was changed only for project spelling, then the seed, wrapper, and audit were fetched again to verify the spelling changes and audit entry. No changes were made to `main`, migrations, or the production database. No CI or full browser-test success is claimed.
+
+
+## Course 2 — Lesson 12 static citation and wrapper audit
+
+- **Files inspected:** The lesson 12 record in `docs/kurmanji-content-seed-part-05.sql`, its static HTML wrapper, and the existing course 2 synthesis. The seed SQL was read only and not executed.
+- **Citation cleanup:** The Haig & Öpengin (2018) reference repeated the exact same DOI link twice in a row. Removed the duplicate anchor from the lesson 12 seed record, leaving one working DOI link to the chapter “Northern Kurdish (Kurmanjî)” (https://doi.org/10.1515/9783110421682-004). This was a presentation cleanup; no claim was made that the source itself changed.
+- **Content scope:** The review appropriately revisits morphemes, roots and affixes, noun structure, ezafe, possession, pronoun case, verb tense/aspect categories, negation, questions, and word order. Its own methodological note correctly says new example sentences should be checked against a reliable grammar and context, rather than treating every rule as exceptionless.
+- **Static wrapper:** The lesson page has one `script.js?v=20261019-kurmanji-protected` tag at the end of the document; no duplicate script tag was found. Two navigation links point to the course overview with different labels; left unchanged because this is redundant navigation rather than a correctness defect.
+- **Verification and scope:** The edited seed and audit were fetched again to verify the single DOI link and this entry. No changes were made to `main`, migrations, or the production database. No CI or full browser-test success is claimed.
