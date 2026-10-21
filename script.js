@@ -6,18 +6,21 @@
     .replace(/گەڕان بە ناو بابەتەکاندا/g,"گەڕان بە نێو بابەتەکان‌دا");
   const fixAvasinSpelling = root => {
     if(!root) return;
+    // Scientific lesson content must retain source-book spelling verbatim.
+    if(root.nodeType===Node.ELEMENT_NODE && root.closest && root.closest(".lesson-content")) return;
     const walker=document.createTreeWalker(root,NodeFilter.SHOW_TEXT);
     const nodes=[];
     while(walker.nextNode()) nodes.push(walker.currentNode);
     for(const node of nodes){
       const parent=node.parentElement;
-      if(parent && /^(SCRIPT|STYLE|NOSCRIPT|TEXTAREA)$/i.test(parent.tagName)) continue;
+      if(parent && (parent.closest(".lesson-content") || /^(SCRIPT|STYLE|NOSCRIPT|TEXTAREA)$/i.test(parent.tagName))) continue;
       if(node.nodeValue && needsAvasinNormalization(node.nodeValue)){
         node.nodeValue=normalizeAvasinText(node.nodeValue);
       }
     }
     if(root.querySelectorAll){
       root.querySelectorAll("[title],[aria-label],[placeholder],[alt]").forEach(el=>{
+        if(el.closest(".lesson-content")) return;
         for(const attr of ["title","aria-label","placeholder","alt"]){
           const value=el.getAttribute(attr);
           if(value && needsAvasinNormalization(value)) el.setAttribute(attr,normalizeAvasinText(value));
@@ -33,14 +36,14 @@
       if(record.type==="characterData"){
         const n=record.target;
         const p=n.parentElement;
-        if(!(p && /^(SCRIPT|STYLE|NOSCRIPT|TEXTAREA)$/i.test(p.tagName)) && n.nodeValue && needsAvasinNormalization(n.nodeValue)){
+        if(!(p && (p.closest(".lesson-content") || /^(SCRIPT|STYLE|NOSCRIPT|TEXTAREA)$/i.test(p.tagName))) && n.nodeValue && needsAvasinNormalization(n.nodeValue)){
           n.nodeValue=normalizeAvasinText(n.nodeValue);
         }
       }else{
         record.addedNodes.forEach(node=>{
           if(node.nodeType===Node.TEXT_NODE){
             const p=node.parentElement;
-            if(!(p && /^(SCRIPT|STYLE|NOSCRIPT|TEXTAREA)$/i.test(p.tagName)) && node.nodeValue && needsAvasinNormalization(node.nodeValue)){
+            if(!(p && (p.closest(".lesson-content") || /^(SCRIPT|STYLE|NOSCRIPT|TEXTAREA)$/i.test(p.tagName))) && node.nodeValue && needsAvasinNormalization(node.nodeValue)){
               node.nodeValue=normalizeAvasinText(node.nodeValue);
             }
           }else if(node.nodeType===Node.ELEMENT_NODE) fixAvasinSpelling(node);
