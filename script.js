@@ -15,7 +15,7 @@
     [/دەستپێکردن/g,"دەست‌پێ‌کردن"]
   ];
   const normalizeAvasinText = value => replacements.reduce((text,[pattern,replacement])=>text.replace(pattern,replacement),value);
-  const needsAvasinNormalization = value => replacements.some(([pattern])=>pattern.test(value));
+  const needsAvasinNormalization = value => replacements.some(([pattern])=>new RegExp(pattern.source).test(value));
   const fixAvasinSpelling = root => {
     if(!root) return;
     const walker=document.createTreeWalker(root,NodeFilter.SHOW_TEXT);
