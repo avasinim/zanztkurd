@@ -548,3 +548,22 @@ Attributive adjectives in Kurmanji normally follow the noun and are linked by ez
 
 ### Result
 **The lesson’s core description of ezafe with adjectives and possessors is supported by the reference grammar.** It needs segmented examples, explicit identification of the head noun as agreement controller, and a practical exercise. Only this audit entry was appended; lesson body, seed SQL, migrations, main branch and production database were not changed.
+
+## Source review — course 2, lesson 6: possession and possessive pronouns (2026-10-21)
+
+### Claims corroborated
+- The lesson is right that Kurmanji expresses possession through noun-phrase structure including ezafe, and that the ezafe form is associated with the head noun rather than simply copied from the possessor. Haig & Öpengin (2018), “Northern Kurdish (Kurmanjî),” discusses nominal phrases, ezafe and possessive constructions: https://doi.org/10.1515/9783110421682-004
+- The lesson correctly distinguishes independent personal pronouns from possessive constructions and warns that the function must be read in context.
+- *xwe* is a reflexive pronoun whose form does not inflect for person and number in the way ordinary independent personal pronouns do; its antecedent and interpretation depend on clause structure and discourse context. This should be taught with full sentences, not just the isolated form.
+
+### Items needing editorial or source-specific checking
+1. **The only possession example is under-explained.** For *mal-a me* ‘our house’, identify *mal* ‘house’ as the head noun, *-a* as the ezafe form associated with this noun, and *me* as the first-person plural possessor expression. Clarify that this is a noun phrase rather than a possessive suffix attached directly to *mal*.
+2. **“Possessive pronouns change by person and number” is too vague.** Add a table of verified Standard Kurmanji forms with a clear distinction between independent pronouns, possessive/oblique forms, and ezafe-linked possessors. Do not mix these categories or imply that one form functions identically in every construction.
+3. **Reflexive *xwe* needs contrasts.** Add two attested, fully glossed examples in which *xwe* refers back to the clause’s subject, and a contrast showing why its antecedent cannot be decided from the word alone. Verify each example against the reference grammar before publication.
+4. **Agreement/controller explanation:** explicitly state that the ezafe form is selected with reference to the head noun’s grammatical properties in the Standard Kurmanji pattern; the possessor’s person/number does not by itself determine the ezafe form.
+5. **Assessment is not practical enough.** Ask learners to mark the head noun, ezafe, possessor and reflexive pronoun in complete sentences, then identify the antecedent of *xwe*. Include answer guidance.
+6. **Duplicate bibliography entry:** the Haig & Öpengin DOI appears twice in the source list. Remove the duplicate during a later editorial pass.
+7. **Source precision:** cite the relevant page/section for *mal-a me* and the reflexive analysis, rather than citing the chapter generally. Retain the Standard Kurmanji and dialect-variation caveat.
+
+### Result
+**The lesson’s broad account of possession, ezafe and reflexive *xwe* is plausible and consistent with the reference-grammar framework, but examples and categories need sharper documentation.** Only this audit entry was appended; lesson body, seed SQL, migrations, main branch and production database were not changed.
