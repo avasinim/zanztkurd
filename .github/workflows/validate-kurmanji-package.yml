@@ -5,6 +5,8 @@ on:
     branches: ["kurmanji-test-config"]
     paths:
       - "kurmanji-course-*.html"
+      - "learning.html"
+      - "lessons/catalog.html"
       - "script.js"
       - "docs/kurmanji-content-seed-part-*.sql"
       - "scripts/validate_kurmanji_package.py"
