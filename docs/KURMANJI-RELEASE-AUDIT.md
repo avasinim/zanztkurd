@@ -288,3 +288,19 @@ The seven day names in the lesson—**duşem, sêşem, çarşem, pêncşem, în,
 
 ### Result and action
 **Result: the weekday set and several basic time terms are independently corroborated.** The main spelling question is **doh** versus **duh/duhî**; Friday and tomorrow/yesterday forms need a brief variation note. Sample sentence grammar and Sorani glosses remain editorial-review items. Audit-only: no lesson body, seed, migration, production DB, or main branch changed.
+
+## Source review — course 1, lesson 17: basic present-tense verbs (2026-10-21)
+
+### Grammar corroboration
+The lesson's central description—ordinary present/habitual verbs commonly use **di- + present stem + personal ending**—is supported by the University of Arizona Kurmanji overview, Thackston's reference grammar, and KurdiPedia's *Kurmanji Kurdish, Lesson 3*. These sources also confirm the six-person pattern for **xwendin** (Ez dixwînim; Tu dixwînî; Ew dixwîne; Em/Hûn/Ew dixwînin), the present forms **diçim** (çûn), **dikim** (kirin), **dinivîsim** (nivîsîn), and **dixwim** (xwarin), plus the basic SOV/verb-final order. References: https://iranian-languages.arizona.edu/node/7 ; https://sites.fas.harvard.edu/~iranian/Kurmanji/kurmanji_complete.pdf ; https://www.kurdipedia.org/files/books/2023/474430.PDF .
+
+### Important nuance / editorial notes
+- The lesson correctly labels its formula as a general rule, not universal. The present stem is not always predictable from the infinitive; irregular/common stems (e.g. dîtin → bîn-, xwestin → xwaz-, hatin → hê-/tê forms) should be taught separately. The lesson's note on irregular forms is valuable.
+- **Ez diçim** and **Ez dikim** are supported. For **xwendin**, the present stem is **xwîn-**, not mechanically *xwend-*; the displayed conjugation uses the correct **dixwîn-** forms.
+- **Ez pirtûkekê dixwînim** illustrates an indefinite oblique object appropriately in broad terms. Its case morphology should be taught with the noun/oblique lesson rather than inferred from the verb-conjugation table alone.
+- **Em kurdî hîn dibin** is a plausible “we learn Kurdish” example, but *hîn bûn* is a compound construction; the present tense pattern should not be generalized from it as if it were a simple verb stem. A grammar/native-editor check is recommended.
+- **Tu çi dinivîsî?** is an understandable example; sources vary in transcription/orthography (e.g. *dinivîsî* vs. forms with reduced spelling). Select the course's standard and keep it consistent.
+- The lesson's SOV statement is a useful default, but word order can shift for focus/discourse. Its caveat already acknowledges this; retain it.
+
+### Result and action
+**Result: the main present-tense rule, sample conjugations, and default verb-final order are supported.** No clear grammar error found in the core paradigm. Flag compound **hîn bûn**, irregular present stems, and consistent spelling for expert/editorial review. Audit-only: no lesson body, seed, migration, production DB, or main branch changed.
