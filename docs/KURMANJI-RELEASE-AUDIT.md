@@ -242,3 +242,18 @@ Haig (2018, §2.4 “Numerals”) and Thackston's Kurmanji grammar list the core
 
 ### Result and action
 **Result: the 1–20 cardinal vocabulary is broadly verified.** No numeric item is clearly wrong in the selected Standard Kurmanji teaching variety. Flag the asserted morphology in *Ez du pirtûkan dixwînim* and the scope of the variation note for expert review before release. Audit-only update; lesson HTML, seed, migration, production database, and main were not changed.
+
+## Source review — course 1, lesson 14: colours and everyday objects (2026-10-21)
+
+### Vocabulary corroboration
+The core colour words **sor** (red), **şîn** (blue), **kesk** (green), **zer** (yellow), **reş** (black), **spî** (white), and **qehweyî** (brown) are independently listed for Kurmanji by Omniglot, Institut kurde de Paris, and additional Kurmanji vocabulary references. The lesson's common-object words **pirtûk**, **pênûs**, **defter**, **derî**, **kursî**, **mase**, **telefon**, **av**, **nan**, and **mal** are plausible standard/common vocabulary; however, the sources retrieved in this review chiefly corroborate the colour list, not every object entry. Sources: https://omniglot.com/language/colours/multilingual.htm ; https://bnk.institutkurde.org/images/pdf/DTP48ZMAL1.pdf ; https://www.learnentry.com/english-kurmanji/vocabulary/color-in-kurmanji/ .
+
+### Grammar and editorial cautions
+- The lesson appropriately notes that colour adjectives and sentence patterns vary by grammatical construction. The examples **Ev pirtûk sor e**, **Ev pênûs reş e**, and **Av sar e** are plausible predicate-adjective clauses; they should not be presented as a complete guide to attributive adjective placement/ezafe.
+- **Telefon li ser maseyê ye** is a useful locative sentence; the form **maseyê** is inflected in the locative/oblique environment. This should be verified against the selected course grammar/native editorial review, rather than used to infer a blanket rule.
+- **Ez pirtûkê dixwînim** uses a marked object form. The lesson says “some suffixes” occur but does not explain the construction. Keep it as a model sentence only until the object marking is explicitly explained in a later grammar lesson or checked by an expert.
+- **kesk** can be glossed “green”; **şîn** is conventionally “blue” in many Kurmanji lists, though its historical/cultural colour range and regional semantics may not map one-to-one to Sorani colour labels. The Sorani glosses, especially **spî → سپێ** and the shades/colour distinctions, need native Sorani editorial confirmation.
+- The table gives **qehweyî** for brown. Sources support this spelling, while variant spellings and forms occur; maintain one house spelling and note variation where relevant.
+
+### Result and action
+**Result: the basic colour vocabulary is corroborated; object vocabulary and example sentence morphology are plausible but not fully independently verified from the consulted references.** No clear lexical error was established. Flag Sorani gloss review and the unexplained object/locative morphology for expert review. Audit-only update: no lesson HTML, seed, migration, production DB, or main branch changed.
