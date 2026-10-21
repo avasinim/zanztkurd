@@ -93,3 +93,26 @@ Their effects must be reconstructed from actual database state and trustworthy h
 ## Verification boundaries
 
 The database queries in this audit are read-only snapshots of the test project's state at the time of execution. They do not prove that browser login, self-enrollment, lesson locking/unlocking, or progress persistence has passed end-to-end testing.
+
+
+## Follow-up checks — 2026-10-21
+
+### Historical-source search
+
+GitHub code/file search and commit search were run for each of the six DB-only migration names listed above. No results were returned for any of the six. This means the connector search did not recover their source; it does not prove the files never existed or that they are absent from every historical ref. Exact SQL remains unrecovered unless found through further commit/tree inspection.
+
+### Current catalog objects checked
+
+The current index catalog for the six public tables contains:
+- Primary/unique indexes: `courses_pkey`, `enrollments_pkey`, `lesson_content_pkey`, `lesson_progress_pkey`, `profiles_pkey`, `profiles_student_number_key`, `site_owners_pkey`.
+- Course-related secondary indexes: `enrollments_course_id_idx`, `lesson_content_course_id_idx`, `lesson_progress_course_id_idx`.
+
+These three secondary indexes exist in the test database. This establishes current presence, not which historical migration first created them.
+
+A follow-up trigger query across schemas found `auth.on_auth_user_created_profile`, an AFTER INSERT trigger on `auth.users` calling `public.create_profile_for_new_user()`. The current function is SECURITY DEFINER with an empty search path; it inserts `id` and `full_name` into `public.profiles` from the new auth user and does nothing on ID conflict. No profile trigger was returned by a query limited to public tables, so trigger inspection must include the auth schema.
+
+The public-function catalog query found 10 functions: the four owner-admin RPCs, `can_read_lesson_content`, `complete_lesson`, `create_profile_for_new_user`, `enroll_in_course`, `is_site_owner`, and `student_has_enrollment`. All were SECURITY DEFINER and had `search_path=''`. Catalog privilege checks showed anon EXECUTE false for all 10. Authenticated EXECUTE is true for the website RPCs and owner-guarded functions; it is false for `create_profile_for_new_user()`, which is trigger-invoked. This is a current-state snapshot and not proof of historical migration equivalence.
+
+### Audit limitations
+
+The repository search did not recover the six migration bodies, so the final ledger is still incomplete. Current schema inspection helps validate effects but cannot uniquely reconstruct the exact original SQL, transaction boundaries, comments, or the order in which policies were created and later removed. Do not write replacement migration files or mutate the migration ledger based only on inferred effects.
