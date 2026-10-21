@@ -1,26 +1,35 @@
-/* ===== Avasin Standard — global visible-text wording ===== */
+/* ===== Avasin Standard — global visible-text spelling ===== */
 (function(){
-  const needsAvasinNormalization = value => value.includes("ڕێکخراو") || value.includes("گەڕان بە ناو بابەتەکاندا");
-  const normalizeAvasinText = value => value
-    .replace(/ڕێکخراو/g,"ڕێک‌خراو")
-    .replace(/گەڕان بە ناو بابەتەکاندا/g,"گەڕان بە نێو بابەتەکان‌دا");
+  const replacements = [
+    [/نووسراوە/g,"نوسراوە"],
+    [/نووسینی/g,"نوسینی"],
+    [/نووسین/g,"نوسین"],
+    [/فێربوون/g,"فێربون"],
+    [/هەموو/g,"هەمو"],
+    [/نموونە/g,"نمونە"],
+    [/پێویست/g,"پەیویست"],
+    [/ڕوون/g,"ڕون"],
+    [/ناوەڕۆک/g,"نێوەڕۆک"],
+    [/چییە/g,"چیە"],
+    [/نییە/g,"نیە"],
+    [/دەستپێکردن/g,"دەست‌پێ‌کردن"]
+  ];
+  const normalizeAvasinText = value => replacements.reduce((text,[pattern,replacement])=>text.replace(pattern,replacement),value);
+  const needsAvasinNormalization = value => replacements.some(([pattern])=>pattern.test(value));
   const fixAvasinSpelling = root => {
     if(!root) return;
-    // Scientific lesson content must retain source-book spelling verbatim.
-    if(root.nodeType===Node.ELEMENT_NODE && root.closest && root.closest(".lesson-content")) return;
     const walker=document.createTreeWalker(root,NodeFilter.SHOW_TEXT);
     const nodes=[];
     while(walker.nextNode()) nodes.push(walker.currentNode);
     for(const node of nodes){
       const parent=node.parentElement;
-      if(parent && (parent.closest(".lesson-content") || /^(SCRIPT|STYLE|NOSCRIPT|TEXTAREA)$/i.test(parent.tagName))) continue;
+      if(parent && /^(SCRIPT|STYLE|NOSCRIPT|TEXTAREA)$/i.test(parent.tagName)) continue;
       if(node.nodeValue && needsAvasinNormalization(node.nodeValue)){
         node.nodeValue=normalizeAvasinText(node.nodeValue);
       }
     }
     if(root.querySelectorAll){
       root.querySelectorAll("[title],[aria-label],[placeholder],[alt]").forEach(el=>{
-        if(el.closest(".lesson-content")) return;
         for(const attr of ["title","aria-label","placeholder","alt"]){
           const value=el.getAttribute(attr);
           if(value && needsAvasinNormalization(value)) el.setAttribute(attr,normalizeAvasinText(value));
@@ -36,14 +45,14 @@
       if(record.type==="characterData"){
         const n=record.target;
         const p=n.parentElement;
-        if(!(p && (p.closest(".lesson-content") || /^(SCRIPT|STYLE|NOSCRIPT|TEXTAREA)$/i.test(p.tagName))) && n.nodeValue && needsAvasinNormalization(n.nodeValue)){
+        if(!(p && /^(SCRIPT|STYLE|NOSCRIPT|TEXTAREA)$/i.test(p.tagName)) && n.nodeValue && needsAvasinNormalization(n.nodeValue)){
           n.nodeValue=normalizeAvasinText(n.nodeValue);
         }
       }else{
         record.addedNodes.forEach(node=>{
           if(node.nodeType===Node.TEXT_NODE){
             const p=node.parentElement;
-            if(!(p && (p.closest(".lesson-content") || /^(SCRIPT|STYLE|NOSCRIPT|TEXTAREA)$/i.test(p.tagName))) && node.nodeValue && needsAvasinNormalization(node.nodeValue)){
+            if(!(p && /^(SCRIPT|STYLE|NOSCRIPT|TEXTAREA)$/i.test(p.tagName)) && node.nodeValue && needsAvasinNormalization(node.nodeValue)){
               node.nodeValue=normalizeAvasinText(node.nodeValue);
             }
           }else if(node.nodeType===Node.ELEMENT_NODE) fixAvasinSpelling(node);
@@ -55,7 +64,6 @@
   if(document.readyState==="loading") document.addEventListener("DOMContentLoaded",start,{once:true});
   else start();
 })();
-
 /* Ensure the shared academic UI stylesheet is the last stylesheet in the cascade.
    This resolves older page-local CSS overriding the compact design layer. */
 (function(){
