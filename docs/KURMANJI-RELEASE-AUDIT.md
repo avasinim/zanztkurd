@@ -181,3 +181,20 @@ Yari's Kurmanji greetings page independently attests these lesson forms and mean
 
 ### Result and action
 **Result: the lesson's practical advice to preserve name spellings and acknowledge alternate toponyms is supported.** The grammar examples are corroborated as useful forms, with a caveat that proper-name case marking is not wholly mechanical. No lesson body, seed, migration, production database, or main branch was edited; only this audit note was added.
+
+## Source review — course 1, lesson 10: beginner expressions (2026-10-21)
+
+### Cross-checks
+- Yari's beginner greetings/phrases resource corroborates the lesson's basic forms **Silav**, **Rojbaş**, **Şevbaş**, **Bi xêr hatî**, **Tu çawa yî?**, **Ez baş im**, **spas**, **Ji kerema xwe**, **Erê**, and **Na**. See https://yari.krd/learn/kurdish-greetings/ . This is learner-oriented corroboration, not a full pragmatic/dialectal grammar.
+- **Bi xatirê te** is an established farewell expression (“goodbye / farewell”), but its exact use and spelling may vary by source and context. The lesson appropriately avoids a rigid pragmatic claim; compare Yari's everyday phrase materials and Thackston's reference grammar (https://sites.fas.harvard.edu/~iranian/Kurmanji/kurmanji_complete.pdf).
+- **Bi xêr hatî** is a singular welcome form. The lesson correctly notes that forms can vary by number/gender; avoid treating the cited form as the universal plural/formal greeting.
+- **Tu çawa yî? / Ez baş im** are sound beginner singular examples. **Ez jî baş im** (“I too am well”) is a plausible conversational continuation; ensure the teaching note explains jî as “also/too,” not a redundant “also me.”
+- **Biborîne** is a valid apology/“excuse me” form in Kurmanji learner/reference materials, but exact morphology and alternatives are not sufficiently pinned down here to endorse it as the sole standard spelling. Lesson already flags variation; retain that caution.
+
+### Editorial caveats
+- Sorani renderings such as “بەیانیت باش,” “شەوت باش,” and “خواحافیز” need native Kurdish editorial review for naturalness and pragmatic equivalence. “Rojbaş” may function as a general daytime greeting, not strictly “good morning.”
+- The phrase “Ji kerema xwe” is polite “please,” but its sentence placement/intonation depends on the request; lesson's one-word gloss is only an introductory shortcut.
+- Do not infer a fixed universal distinction between formal/informal greetings from this short list; social conventions and dialects vary.
+
+### Result and action
+**Result: the central beginner phrases are corroborated; no critical linguistic error was established in this lesson, but Sorani pragmatics and the precise usage of farewell/apology expressions deserve editorial review.** Audit only was updated; no lesson HTML, seed, migration, production DB, or main branch changed.
