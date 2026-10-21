@@ -419,3 +419,21 @@ Attributive adjectives in Kurmanji normally follow the noun and are linked by ez
 
 ### Result
 **The central possession strategy and oblique possessor pronouns are supported.** The lesson should make explicit that ezafe agrees with the possessed/head noun, distinguish bound linking ezafe from free ezafe, and refine the glosses of the examples. Only this audit entry was appended; lesson text, seed SQL, migrations, main, and production database were not changed.
+
+## Source review — course 1, lesson 25: direct and oblique case (2026-10-21)
+
+### Claims corroborated
+- Standard Kurmanji distinguishes Direct (typically unmarked) and Oblique case. The oblique is used, among other functions, for present-tense transitive objects, adpositional complements, possessors in ezafe phrases, and agents/subjects of past-tense transitive clauses. Haig & Öpengin (2018), Table 7 and §3.2.3: https://multicast.aspra.uni-bamberg.de/data/pubs/Haig2018_Northern-Kurdish_Kurmanji.pdf
+- The lesson's core noun paradigm matches the reference table for standard Kurmanji: masculine *gund / gund-î*, *gund-ek / gund-ek-î*; feminine *jin / jin-ê*, *jin-ek / jin-ek-ê*. However, overt marking on masculine singular nouns is variable, and oblique marking can be suppressed before ezafe.
+- Pronoun pairs *ez/min*, *tu/te*, *ew/wî-wê*, *em/me*, *hûn/we*, *ew/wan* are standard direct/oblique contrasts. Direct/oblique should not be equated mechanically with nominative/accusative.
+- The alignment contrast is accurately introduced: in a canonical present transitive clause, the subject is Direct and object Oblique; in a canonical past transitive clause, the agent is Oblique and the patient Direct, with verb agreement typically tracking the patient. This is commonly described as split alignment/ergativity in past transitive clauses.
+
+### Items needing editorial or source-specific checking
+1. **“mirov / mirov”** is too categorical as a teaching example. Some masculine singular nouns show no overt oblique form, but whether marking appears depends on noun type, construction and regional variety. Label it as an example of possible zero marking, not a general paradigm rule.
+2. **Generalization about noun endings:** explain that -î/-ê are the reference standard singular oblique endings, but masculine singular marking has notable variation; the source specifically notes suppression before ezafe.
+3. **Example “Ez wî mirovî dibînim”** should be parsed explicitly: *ez* is Direct subject, *wî mirovî* is Oblique object (demonstrative plus noun); check the intended lexical gloss of *mirov* (“person/man”) in the Kurdish translation.
+4. **“Min ew dît”** is a good compact ergative example, but annotate *min* as Oblique agent and *ew* as Direct patient; note that the direct pronoun form itself does not display a special patient ending here.
+5. **Terminology:** retain Direct/Oblique as grammatical labels and avoid presenting them as ordinary semantic “direct/indirect” roles. State that the pattern describes a canonical standard variety and that dialectal deviations exist.
+
+### Result
+**The central direct/oblique contrast and the split-alignment teaching point are supported.** The noun table is a sound standard paradigm, but the *mirov* row and the broad wording about overt case marking need qualification; examples should be explicitly segmented and dialect scope stated. Only this audit entry was appended; lesson content, seed SQL, migrations, main, and production database were not changed.
