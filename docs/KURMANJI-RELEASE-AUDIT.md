@@ -567,3 +567,24 @@ Attributive adjectives in Kurmanji normally follow the noun and are linked by ez
 
 ### Result
 **The lesson’s broad account of possession, ezafe and reflexive *xwe* is plausible and consistent with the reference-grammar framework, but examples and categories need sharper documentation.** Only this audit entry was appended; lesson body, seed SQL, migrations, main branch and production database were not changed.
+
+## Source review — course 2, lesson 7: personal pronouns and direct/oblique case (2026-10-21)
+
+**Seed reviewed:** `docs/kurmanji-content-seed-part-05.sql`, key `kurmanji-course-2-lesson-07.html`. This review is based on the exact lesson HTML stored in the seed; no lesson content was edited.
+
+### Findings
+
+The lesson’s core caution is sound: Kurmanji case cannot be reduced to a universal rule that subjects are always direct or always oblique. The cited reference chapter describes a direct/oblique case distinction and split alignment: in present-tense transitive clauses the subject is typically direct, while in past-tense transitive clauses the subject may be oblique. The lesson also correctly identifies the standard personal-pronoun sets as an important topic, but it gives no complete sentence examples to show their syntactic distribution. See Haig, “Northern Kurdish (Kurmanjî),” §2.2.1 and the discussion of clause syntax. https://doi.org/10.1515/9783110421682-004
+
+### Recommended revisions for a later content-editing pass
+
+1. **Add a verified pronoun table.** Present `ez, tu, ew, em, hûn, ew` and `min, te, wî/wê, me, we, wan` in separate columns, with person, number, and gender distinctions where applicable. Label them as direct and oblique forms; do not call the oblique set simply “possessive pronouns.”
+2. **Show the contrast in full sentences.** Include at least one present-tense transitive example and one past-tense transitive example, each with a word-by-word gloss and translation, checked against the reference grammar. Identify the subject, object, verb tense, and case of each noun phrase/pronoun.
+3. **Qualify the rule.** Explain that case marking depends on grammatical construction and tense/aspect patterns, and that a learner should analyze the whole clause rather than infer case from the semantic role “subject” or “object” alone.
+4. **Improve the review questions.** The first question currently asks for the oblique forms of `ez, tu, ew` but does not require learners to use them in context. Add a sentence-analysis task and answer key.
+5. **Remove the duplicated DOI** in the Haig & Öpengin bibliography entry during the next editorial cleanup.
+6. **Specify source sections/pages** for the pronoun paradigms and split-ergative examples. Keep the caveat that the lesson describes Standard Kurmanji and should not imply every dialect has identical forms or distributions.
+
+### Result
+
+**The lesson’s central warning about case is correct, but the current explanation remains schematic.** A pronoun paradigm alone is not enough: verified, glossed sentence pairs are needed to teach how direct/oblique forms work in context. Only this audit entry was appended; lesson body, seed SQL, migrations, `main`, and the production database were not changed.
