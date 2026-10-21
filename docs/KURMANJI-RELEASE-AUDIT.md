@@ -724,3 +724,19 @@ Before making any lesson edits, prepare a proposed correction plan grouped by se
 ### Final status for this pass
 
 **Course 2 source-review pass: 12/12 lessons documented. Full release audit: still incomplete.** This synthesis was appended to this audit document only. No lesson content, seed SQL, migration, production database, or `main` was changed.
+
+## Course 1 — Lesson 01 source audit
+
+- **Seed source:** `docs/kurmanji-content-seed-part-01.sql`
+- **Seed key:** `kurmanji-course-1-lesson-01.html`
+- **Title:** ناسینی کورمانجی و چوارچێوەی ڕێنووسی لاتینی
+- **Scope checked:** introductory definition of Kurmanji, distinction among language/alphabet/orthography, course boundary, review questions, and bibliography. This is a source review only; no lesson content was changed.
+- **Evidence reviewed:** Haig’s scholarly sketch describes a widely accepted written Standard Kurmanjî using a modified Roman alphabet, with conventions associated with the Hawar publications of the 1930s, while explicitly recognizing regional variation. See [Haig, “Northern Kurdish (Kurmanjî)” (2018), University of Bamberg PDF](https://www.uni-bamberg.de/fileadmin/aspra/06_Team/Publications_and_CV/haig_2018_ch.2.3_northern_kurdish.pdf) and the bibliographic record at [University of Bamberg](https://fis.uni-bamberg.de/entities/publication/06ab181d-1e09-43da-87f4-92453eaf5057).
+- **What is sound:** The lesson appropriately separates the writing system from the language itself, identifies the Latin-based Hawar orthography as its scope, flags regional variation, and avoids claiming that one spelling convention represents every spoken variety. The course boundary is clearly stated.
+- **Issues / recommendations for a later approved content pass:**
+  1. Define the target consistently as **Northern Kurdish (Kurmanjî)** or **Standard Kurmanjî** where appropriate. The current phrase describing it as one of the “forms/paths” of Kurdish is understandable but linguistically underspecified; explain that naming and classification can vary by scholarly framework.
+  2. Tighten the definitions of *language*, *alphabet*, and *orthography*. The current definitions are pedagogically serviceable but broad; clarify that an alphabet is a set of graphemes used by a writing system, while orthography concerns conventional rules for representing language in writing.
+  3. The introductory lesson has no concrete Kurmanji example showing the difference between a written form, a grapheme, and pronunciation. Add a short, source-verified example in a future content pass, with the standard spelling and a carefully scoped pronunciation note.
+  4. Bibliography entry for Thackston (2006) lacks publisher/publication details, and neither listed source is tied to a specific section or page in the lesson. Verify the edition and relevant pages before publication; do not invent page references.
+- **Disposition:** No urgent factual contradiction was identified in this introductory outline. The principal gaps are terminology precision, one worked example, and bibliographic completeness. These are recommendations, not implemented fixes.
+- **Scope guard:** Only `docs/KURMANJI-RELEASE-AUDIT.md` was updated. No lesson body, seed SQL, migration, production database, or `main` branch was modified. This entry does not establish that CI passed or that PR #3 is release-ready.
