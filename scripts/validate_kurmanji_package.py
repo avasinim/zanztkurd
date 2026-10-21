@@ -69,7 +69,7 @@ for course_id, count in expected.items():
 
             # Validate actual previous/next links, not just the presence of page files.
             actions = re.search(
-                r'<div\s+class=["\']klesson-actions["'][^>]*>(.*?)</div>',
+                r'<div\s+class=["\']klesson-actions["\'][^>]*>(.*?)</div>',
                 html,
                 re.I | re.S,
             )
