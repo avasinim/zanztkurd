@@ -701,3 +701,26 @@ The source grammar supports the need for construction-sensitive assessment: Stan
 ### Result
 
 **The review lesson covers the right domains, but its current questions are insufficient for a dependable final test.** The priority is a source-verified sentence set, an objective-to-question map, and an answer key/rubric. Only this audit entry was appended; lesson HTML, seed SQL, migrations, `main`, and the production database were not changed.
+
+## Cross-lesson synthesis — course 2 lessons 1–12 (2026-10-21)
+
+### Scope and completion
+
+The audit document now contains individual source-review entries for **all 12 lessons in course 2**, matching the lesson keys and titles in `docs/kurmanji-content-seed-part-05.sql`. This completes the lesson-by-lesson review pass for course 2 only; it does **not** complete the release gate requiring review of all 38 lessons across both courses. Course 1's 26 lessons remain outside this pass unless separately reviewed.
+
+### Cross-cutting findings
+
+1. **The material is mostly a conceptual outline rather than a worked course.** Across the reviewed lessons, the recurring weakness is the lack of source-verified, complete Kurmanji sentences with translations, morpheme/gloss information, and explicit explanation. This especially affects verb paradigms, case, ezafe, negation, interrogatives, and word order.
+2. **State the variety and scope consistently.** The lessons generally say “Standard Kurmanji,” which is useful, but examples and rules should identify the variety/source and mark known regional variation. Do not present construction-sensitive patterns as universal rules.
+3. **Separate related grammatical categories.** Future editing should keep root/stem/infinitive distinct; distinguish tense, aspect and mood; distinguish syntactic function from semantic role and case; and treat negation by construction rather than as a single prefix-substitution rule.
+4. **Make the assessment evidence-based.** Lesson 12 needs real source-verified sentences, a clear map from course objectives to questions, an answer key, and a rubric that accepts justified variation.
+5. **Bibliography cleanup is a repeated editorial issue.** The reviewed seed lesson entries repeat the same Haig & Öpengin DOI link. This should be corrected in a separate, explicitly approved content-cleanup pass—not during this audit-only task.
+6. **Do not treat recommendations as implemented fixes.** All recommendations in these entries are findings for a later content-editing pass. No lesson body, seed file, migration, production database, or `main` branch has been modified as part of this review sequence.
+
+### Recommended next stage
+
+Before making any lesson edits, prepare a proposed correction plan grouped by severity and cross-references: (A) scientific accuracy/scope, (B) missing examples and paradigms, (C) assessment design, and (D) bibliography/formatting. Present proposed text and cited evidence for review; only after approval should lesson content changes be made. Separately continue the remaining source-verification gate for course 1's 26 lessons, and verify test-database migration and authorization/progression behavior before PR #3 can be considered release-ready.
+
+### Final status for this pass
+
+**Course 2 source-review pass: 12/12 lessons documented. Full release audit: still incomplete.** This synthesis was appended to this audit document only. No lesson content, seed SQL, migration, production database, or `main` was changed.
