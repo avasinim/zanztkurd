@@ -164,8 +164,15 @@ else:
         'if(language==="kurmanji-course-1"){window.location.href="../kurmanji-course-1.html";return;}',
         'if(language==="kurmanji-course-2"){window.location.href="../kurmanji-course-2.html";return;}',
         'northChoices.hidden=language!=="north"',
+        'const catalogHero=document.querySelector(".catalog-hero");',
+        'const studentAccessStrip=document.querySelector(".student-access-strip");',
+        'const catalogIntro=document.querySelector(".catalog-intro");',
+        'const northOnly=language==="north";',
+        'if(catalogHero)catalogHero.hidden=northOnly;',
+        'if(studentAccessStrip)studentAccessStrip.hidden=northOnly;',
+        'if(catalogIntro)catalogIntro.hidden=northOnly;',
         'catalogTools.hidden=true;catalog.hidden=true;overall.hidden=true;languageComing.hidden=true;',
-        '.catalog-tools[hidden],#catalog[hidden]',
+        '.catalog-hero[hidden],.student-access-strip[hidden],.catalog-intro[hidden]',
     ):
         if required not in catalog_html:
             ERRORS.append(f"North-circle catalog navigation is missing required behavior: {required}")
