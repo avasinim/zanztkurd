@@ -243,7 +243,11 @@ function render(){
    beatBusy=true;render();
    try{
     const result=await sb.functions.invoke('beatapi-assistant',{body:{messages:beatMessages}});
-    if(result.error)throw new Error(result.error.message||'نەتوانرا پەیوەندی بە BeatAPI بکرێت.');
+    if(result.error){
+      let detail=result.error.message||'نەتوانرا پەیوەندی بە BeatAPI بکرێت.';
+      try{const ctx=result.error.context;if(ctx&&typeof ctx.clone==='function'){const payload=await ctx.clone().json();if(payload&&typeof payload.error==='string'){const safe={authentication_required:'پێویستی بە چوونەژوورەوە هەیە.',invalid_session:'دانیشتنی چوونەژوورەوە نادروستە؛ دووبارە بچۆ ژوورەوە.',owner_access_required:'هەژمارەکە لە Supabase ـی تاقیکردنەوەدا مۆڵەتی Owner نییە.',server_configuration_incomplete:'ڕێکخستنی سێرڤەر تەواو نییە.',beatapi_not_configured:'BEATAPI_API_KEY یان BEATAPI_MODEL لە Secrets ـی Supabase دانەنراوە.',beatapi_connection_failed:'پەیوەندی بە خزمەتگوزاری BeatAPI نەکرا.',beatapi_request_failed:'BeatAPI داواکارییەکەی ڕەت کردەوە؛ دۆخی وەڵام: '+String(payload.upstream_status||'نادیار'),invalid_beatapi_response:'وەڵامی BeatAPI بە شێوەی چاوەڕوانکراو نەبوو.',empty_beatapi_response:'BeatAPI وەڵامی بەتاڵی گەڕاندەوە.',origin_not_allowed:'سەرچاوەی وێبگەڕ ڕێگەپێدراو نییە.'};detail=safe[payload.error]||('کۆدی هەڵە: '+payload.error);}}}catch{}
+      throw new Error(detail);
+    }
     const answer=result.data?.answer;
     if(typeof answer!=='string'||!answer.trim())throw new Error('وەڵامێکی دروست لە BeatAPI نەگەڕایەوە.');
     beatMessages.push({role:'assistant',content:answer});
