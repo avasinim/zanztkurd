@@ -8,6 +8,8 @@ Scope: test branch `kurmanji-test-config` and Supabase test project only. Do not
 - [x] 12 Course 2 lesson HTML pages are present.
 - [x] Expected lesson keys are represented in the Kurmanji seed SQL package.
 - [x] GitHub Actions package-integrity workflow passed (2026-10-21).
+- [x] Shared text-normalization script excludes `.lesson-content` text and attributes; validator checks this safeguard.
+- [x] Latest validation workflow passed after the source-text preservation fix (2026-10-21).
 - [x] Supabase test database contains 26 Course 1 and 12 Course 2 lesson-content rows; no empty content rows were found.
 
 ## Required browser acceptance checks
