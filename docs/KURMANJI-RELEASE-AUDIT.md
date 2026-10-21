@@ -510,3 +510,22 @@ Attributive adjectives in Kurmanji normally follow the noun and are linked by ez
 
 ### Result
 **The lesson’s broad cautions are sound, but it is not yet sufficiently operational as a teaching unit.** The key missing elements are verified examples, explicit agreement analysis and a concrete treatment of plural patterns. This audit entry only; no lesson body, seed SQL, migrations, main branch, or production database was changed.
+
+## Source review — course 2, lesson 4: definite and indefinite nouns; suffix -ek (2026-10-21)
+
+### Claims corroborated
+- The lesson correctly presents **-ek** as a common singular indefinite marker in Standard Kurmanji. Haig & Öpengin (2018), Table 7, explicitly gives masculine *gund / gund-î / gund-ek / gund-ek-î* and feminine *jin / jin-ê / jin-ek / jin-ek-ê* across direct and oblique cases: https://multicast.aspra.uni-bamberg.de/data/pubs/Haig2018_Northern-Kurdish_Kurmanji.pdf
+- The statement that a bare noun is not automatically definite is correct. A noun without -ek can have a definite or generic/sortal reading depending on context; the source illustrates this distinction with *hirc* ‘bear’ and *hirc-ek* ‘a bear’.
+- It is appropriate to warn that case and ezafe affect the visible form. The oblique marking and its interaction with ezafe are not reducible to a single universal surface pattern, and regional variation is documented by Haig & Öpengin.
+
+### Items needing editorial or source-specific checking
+1. **Transliteration consistency:** the lesson writes *gundek* in the first example but later uses morpheme-separated *gund-ek*. Choose one convention and explain the hyphen as a linguistic segmentation mark, not ordinary spelling.
+2. **Add a full paradigm:** use the four source-attested forms *gund, gund-î, gund-ek, gund-ek-î* and the parallel feminine forms *jin, jin-ê, jin-ek, jin-ek-ê*. Label direct/oblique case and masculine/feminine clearly; explain that these are Standard Kurmanji reference forms, not a guarantee that every dialect preserves every contrast.
+3. **Avoid overgeneralization about definiteness:** the absence of -ek does not itself encode a dedicated definite article. Teach that bare nouns are interpreted through context and may be definite or generic.
+4. **Explain the grammar of the oblique case:** the lesson names direct/oblique case but does not explain the main functions of oblique forms. A short note should mention typical functions (e.g. object of a present-tense transitive verb, complement of an adposition, possessor in an ezafe construction, and subject of a past-tense transitive verb), with a caution that distribution and overt marking vary.
+5. **Assessment:** the questions are relevant but need an application task. Ask learners to identify the case and interpretation of *gund-ek* versus *gund-ek-î* and to explain why a bare noun cannot be classified as definite without context.
+6. **Duplicate bibliography entry:** the Haig & Öpengin DOI is repeated in this lesson’s source list. Remove the duplicate in a later editorial pass.
+7. **Source metadata:** the Thackston reference link points to a Kurdish Academy landing page rather than directly to the cited grammar PDF. In a future bibliography cleanup, use a stable, direct source link if permitted and verify the edition details.
+
+### Result
+**The central explanation of -ek and the contextual interpretation of bare nouns is sound.** The main improvements are a complete source-attested paradigm, consistent segmentation, a clearer account of case, and a practical exercise. Only this audit entry was appended; lesson content, seed SQL, migrations, main, and production database were not changed.
