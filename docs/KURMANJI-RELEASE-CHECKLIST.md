@@ -32,6 +32,7 @@ Use a dedicated test student account, not the site-owner account. Do not write t
 
 - [ ] Confirm leaked-password protection is enabled in Supabase Auth settings.
 - [ ] Review Supabase security-advisor warnings for SECURITY DEFINER RPCs; retain authenticated execution only where required by the application and validate authorization inside each function.
+- [x] Tighten the student self-enrollment INSERT policy to require `status = 'active'` and `completed_at IS NULL` (test DB migration applied and policy verified).
 - [ ] Verify RLS and enrollment checks using a student account.
 - [ ] Confirm production database and production branch have not been changed by test-only migrations.
 - [ ] Confirm no scientific lesson text or source-book examples were changed during technical testing.
