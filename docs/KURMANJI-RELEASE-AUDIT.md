@@ -85,3 +85,21 @@ Source: University of Arizona, Iranian Languages, “Kurmanji Kurdish,” Phonol
 
 ### Result and release status
 **Result: vowel inventory and all eight Latin-letter/IPA/example/English-gloss pairs are corroborated.** Kurdish glosses and broader editorial wording still need review. This is a positive source check for lesson 03, not certification of all 38 lessons. No teaching content, seed row, or migration SQL was changed; only this audit document was updated. Do not deploy the migration or merge PR #3 on the basis of this single-lesson review.
+
+## Source review — course 1, lesson 04: consonants and orthography (2026-10-21)
+
+### What is supported
+- The 31-letter Hawar Latin alphabet contains 23 consonant letters and 8 vowel letters. The lesson's list contains 23 consonant-letter entries when R/RR is counted as one row; the distinction between a letter inventory and the full phoneme inventory must remain explicit.
+- The broad definition of a consonant as a speech sound produced with some constriction or obstruction in the vocal tract is suitable for an introductory lesson.
+- The standard grapheme-to-sound examples C /d͡ʒ/, Ç /t͡ʃ/, Ş /ʃ/, J /ʒ/, Y /j/, W /w/, H /h/, and Q /q/ are broadly consistent with the standard Kurmanji orthography and the University of Arizona overview.
+- Sources: University of Arizona, “Kurmanji Kurdish” (phonology and consonants): https://iranian-languages.arizona.edu/node/7 ; Haig & Öpengin (2018), “Northern Kurdish (Kurmanjî),” section 2.1.2 and Table 5: https://www.uni-bamberg.de/fileadmin/aspra/06_Team/Publications_and_CV/haig_2018_ch.2.3_northern_kurdish.pdf ; EURPhon (citing Thackston 2006): https://eurphon.info/languages/html?lang_id=250
+
+### Issues that should be resolved before release
+1. **R / RR:** the row suggests that “RR” is part of a standard spelling distinction for trill versus tap. Haig & Öpengin describe /r/ and /ɾ/ as separate sounds, but this does not by itself establish “rr” as a standard Hawar alphabet letter or a universally required spelling rule. The lesson should distinguish a phonetic distinction from an orthographic convention and cite a dedicated orthography source before retaining this wording.
+2. **X:** the lesson says standard x represents /χ/. The University of Arizona table describes standard x as covering uvular fricative values including /χ/ and /ʁ/, with dialectal variation. The current wording is too categorical; qualify it rather than implying a single realization in every variety.
+3. **P, T, K and affricates:** the table gives simple IPA values /p t k/ and /t͡ʃ/ for the general spelling, then notes elsewhere that aspiration and lack of aspiration can distinguish spoken sounds but are not consistently represented in standard orthography. This is broadly defensible as an introductory simplification, but the lesson should clearly label the table as a practical grapheme guide, not a complete phoneme inventory.
+4. **Q description:** “وەستانی بێ‌دەنگی لووتکەیی” is potentially ambiguous in Sorani. IPA /q/ is a voiceless uvular stop/plosive. A Kurdish-language editorial review should choose a clear and consistent technical term.
+5. **Scope of consonant count:** scholarly inventories differ depending on whether dialectal, aspirated/unaspirated, and pharyngeal sounds are counted as separate phonemes. Haig & Öpengin explicitly discuss variation and the controversial status of pharyngeals. The lesson correctly warns that it is not a complete phoneme inventory; preserve this caution.
+
+### Result and action
+**Result: partly supported, with wording risks around RR, X and Q.** This is an audit finding, not permission to rewrite the lesson automatically. The teaching content, split seed, migration, and production site remain unchanged. A later content edit should be proposed only after the editorial standard and source-specific orthographic claims are verified.
