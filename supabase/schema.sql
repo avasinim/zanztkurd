@@ -29,9 +29,13 @@ create table if not exists public.lesson_progress (
   primary key(user_id,course_id,lesson_key)
 );
 
+-- TEST BRANCH ONLY: seed the two main courses and the two Kurmanji courses.
+-- Keep this seed aligned with migration 20261021090000_register_kurmanji_test_courses.sql.
 insert into public.courses(id,title,description,total_lessons) values
 ('orthography-kurdik','کۆرسی زانستی و ئەکادێمیکی ڕێنوسی زوانی کوردیک','دەورەی ١؛ ئەلفبێ، پیت، نوسین و سیستەمی ڕێنوسی زوانی کوردیک.',26),
-('phonetics-phonology-kurdik','کۆرسی ئەکادێمیک و زانستی فۆنێتیک و فۆنۆلۆجی زوانی کوردیک','دەورەی ٢؛ فۆنێتیک، فۆنۆلۆجی، ئەکوستیک، درک و توێژینەوە.',25)
+('phonetics-phonology-kurdik','کۆرسی ئەکادێمیک و زانستی فۆنێتیک و فۆنۆلۆجی زوانی کوردیک','دەورەی ٢؛ فۆنێتیک، فۆنۆلۆجی، ئەکوستیک، درک و توێژینەوە.',32),
+('kurmanji-course-1','کۆرسی ١ — ڕێنووسی سەرەتاییی کورمانجی','کۆرسی سەرەتایی بۆ فێربونی ڕێنووس و سیستەمی نوسینی کورمانجی.',26),
+('kurmanji-course-2','کۆرسی ٢ — مۆرفۆلۆجی و ڕێزمانی کورمانجی','کۆرسی مۆرفۆلۆجی و ڕێزمانی کورمانجی.',12)
 on conflict(id) do update set title=excluded.title,description=excluded.description,total_lessons=excluded.total_lessons;
 
 alter table public.profiles enable row level security;
