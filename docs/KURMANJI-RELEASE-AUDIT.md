@@ -213,3 +213,17 @@ Thackston's Kurmanji reference grammar and Haig & Öpengin (2018) support the br
 
 ### Result and action
 **Result: the central pronoun forms and direct/oblique distinction are supported; no clear wrong form found in the sampled paradigm.** Main risk is pedagogical oversimplification of grammatical case, copular forms, and reflexive antecedence. Flag for future editorial refinement, but do not modify lesson content automatically. Audit only updated; no seed/migration/production DB/main changed.
+
+## Source review — course 1, lesson 12: demonstratives (2026-10-21)
+
+### Supported core
+Haig & Öpengin's scholarly description of Standard Kurmanji gives **ev** as the direct/proximate demonstrative (“this/these”) and **ew** as the direct/distal demonstrative (“that/those”), with substantial dialectal variation. The University of Arizona's Kurmanji overview independently lists the same basic contrast. The lesson's beginner contrast **ev = near** and **ew = far**, and its observation that **ew** can also function as a third-person personal pronoun, are therefore supported. Sources: Haig & Öpengin (2018), https://doi.org/10.1515/9783110421682-004 ; Haig's Northern Kurdish chapter, https://multicast.aspra.uni-bamberg.de/data/pubs/Haig2018_Northern-Kurdish_Kurmanji.pdf ; University of Arizona, https://iranian-languages.arizona.edu/node/7 .
+
+### Scope and example cautions
+- **The table is only the direct-case beginner contrast.** Standard Kurmanji also has oblique demonstrative forms: proximate **vî / vê / van** and distal **wî / wê / wan** (masculine singular / feminine singular / plural). The lesson itself mentions that form changes with sentence structure, but omitting this paradigm is acceptable only if the table is clearly labelled as the *direct forms* and later lessons cover oblique forms. Dialectal variation is documented; do not imply this is every dialect's full paradigm.
+- **ev pirtûk** is a supported demonstrative + noun sequence (“this book”). **Ev baş e** can be taught as an independent demonstrative (“this is good”). **Ew baş e** is inherently context-sensitive: it may mean “that is good” or, as a personal pronoun, “he/she is good”; the lesson's warning is useful.
+- **Ev pirtûk baş e** and **Ew mal mezin e** are plausible beginner predicative clauses (“this book is good”; “that house is big”). The adjective in these examples is predicative, so these examples do not by themselves teach the attributive noun–adjective/ezafe construction. Avoid generalizing their word order to a noun phrase with an attributive adjective.
+- The distinction “independent demonstrative pronoun” versus “demonstrative determiner” is a useful pedagogical description. A full grammatical treatment should distinguish direct/oblique case and dialectal noun-phrase demonstrative markers (some varieties have additional suffixes/clitics on the noun); Haig & Öpengin document these, so they should not be collapsed into a universal beginner rule.
+
+### Result and action
+**Result: the lesson's core ev/ew distance contrast and its caution about ew ambiguity are corroborated.** The main limitation is scope: label the table as direct forms and note that oblique forms and dialectal NP marking are outside this lesson. No demonstrative form in the displayed examples was established as clearly erroneous. This is an audit finding only; no lesson HTML, seed, migration, production DB, or main branch was edited.
