@@ -41,7 +41,7 @@ else:
     for course_id, count in expected.items():
         for number in range(1, count + 1):
             key = f"{course_id}-lesson-{number:02d}.html"
-            row_pattern = re.compile(r"\\(['\"]" + re.escape(key) + r"['\"]\\s*,")
+            row_pattern = re.compile(r"\(['\"]" + re.escape(key) + r"['\"]\s*,")
             if len(row_pattern.findall(migration_text)) != 1:
                 ERRORS.append(f"Migration must contain exactly one content row for {key}")
 
