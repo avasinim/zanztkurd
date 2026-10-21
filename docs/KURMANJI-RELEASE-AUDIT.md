@@ -972,3 +972,21 @@ Before making any lesson edits, prepare a proposed correction plan grouped by se
 - **Avasin spelling pass:** The static page was checked against Avasin preferred Sorani spellings; any substitutions made were restricted to Sorani prose. Kurmanji Latin vocabulary and diacritics were preserved.
 - **Verification and scope:** The audit entry is recorded in this document; static-page changes, if any, were fetched again for verification. No production database, migrations, or `main` branch was changed. No CI/browser test result is claimed.
 - **Curriculum quality criterion:** Keep vocabulary source-traceable, demonstrate grammar through contrasting examples, explain case/ezafe only as far as the learner can apply it, and include exercises with answer keys.
+
+
+## Course 1 — Lesson 15 source and Avasin spelling audit
+
+- **Seed/static source:** `docs/kurmanji-content-seed-part-02.sql`; `kurmanji-course-1-lesson-15.html`.
+- **Lesson key/title:** `kurmanji-course-1-lesson-15.html` — وشەکانی خێزان.
+- **Sources listed in the lesson and used for follow-up verification:** Yari, Kurmanji–English dictionary (https://yari.krd/dictionary/); W. M. Thackston, *Kurmanji Kurdish: A Reference Grammar with Selected Readings* (https://sites.fas.harvard.edu/~iranian/Kurmanji/kurmanji_complete.pdf); University of Arizona Iranian Languages, Kurmanji resources (https://iranian-languages.arizona.edu/node/7).
+- **Supported strengths:** The lesson introduces useful family vocabulary (`dayik`, `bav`, `kur`, `keç`, `bira`, `xwişk`, `jin`, `zarok`) and attempts to contextualize possessive phrases rather than presenting only isolated words. It appropriately warns learners that regional forms can vary and permits a fictional family for personal exercises.
+- **Issues / recommendations for a future content pass:**
+  1. Review `kal` as a translation for “grandfather”: it can mean an old/elderly man in relevant usage and should not be taught as a universally exact kinship term without a dictionary citation and contextual example. Compare with a clearly sourced term such as `bapîr` where appropriate.
+  2. Explain that `malbat` is “family,” while individual kinship terms name specific relations; add a sourced, natural example for each core term.
+  3. The forms `dayika min`, `bavê min`, `birayê min`, and `xwişka min` illustrate different noun/ezafe shapes. Explain the pattern with a concise, source-backed table rather than implying that one possessive template applies to every noun.
+  4. Verify `Ev dayika min e.` against the selected standard and explain the intended reading (“This is my mother”) and the construction. Add contrasting examples and an answer key for exercises 1–3.
+  5. The exercise “introduce your family” is privacy-aware; retain the fictional-family alternative. Add a short scoring rubric covering vocabulary, word order, and possessive/ezafe forms.
+  6. Add exact page/section locators for the grammar reference and identify the chosen Kurmanji variety/standard; mark dialect variants instead of silently treating them as errors.
+- **Avasin spelling pass:** The static lesson page was fetched and inspected. Sorani prose uses forms including `نوسین`, `ڕون`, and `فێربونی` consistent with the Avasin preferences checked here. Kurmanji Latin forms and diacritics (`ç`, `ş`, `î`, `ê`) were preserved; no static-page edit was required in this pass.
+- **Verification and scope:** The lesson page and seed block were fetched and inspected; this review step changes only this audit document. No production database, migrations, or `main` branch was changed. No CI or full browser-test success is claimed.
+- **Curriculum quality criterion:** Teach kinship vocabulary with traceable lexical sources, distinguish dictionary forms from inflected/ezafe forms, give natural contextual examples and answer keys, and protect learner privacy in personal prompts.
