@@ -351,3 +351,20 @@ The lesson's main point—that pragmatically neutral Kurmanji clauses commonly f
 
 ### Result and action
 **Result: the default SOV teaching is sound, provided it is explicitly qualified as neutral/default and not an inflexible rule.** Preserve the warning about past transitive split alignment; improve precision around goal arguments and verify the sample translations/inflections with a Kurmanji editor. Audit-only: no lesson content, seed, migrations, production DB, or main branch changed.
+
+## Source review — course 1, lesson 21: adjectives and description (2026-10-21)
+
+### Main point corroborated
+Attributive adjectives in Kurmanji normally follow the noun and are linked by ezafe. Haig & Öpengin's description of the noun phrase gives the sequence head noun + ezafe + adjective; ezafe inflects for the head noun's gender/number, while the adjective itself is generally invariant. Their examples include **bajar-ek-î mezin** ‘a big town’ and plural **kum-ên reş** ‘black hats’. Source: https://multicast.aspra.uni-bamberg.de/data/pubs/Haig2018_Northern-Kurdish_Kurmanji.pdf, §2.3; corroborating teaching reference: https://internationalistcommune.com/wp-content/uploads/2024/01/kurmanji-basic.pdf.
+
+### Specific notes
+- **bajarê mezin** is a plausible definite/neutral phrase “the big town/city”; the lesson correctly warns that context determines definiteness. **bajar-ek-î mezin** is the clearer indefinite “a big town.” Its segmentation should be consistently represented as **bajar-ek-î** (indefinite suffix + masculine ezafe), not left unexplained as a hyphenated string.
+- **maleke biçûk** is likely intended as “a small house.” Verify the feminine indefinite ezafe form and spelling against the adopted standard; published teaching paradigms commonly give **maleke sor** for “a red apple” and distinguish masculine **-ekî** from feminine **-eke**.
+- **pirtûka nû** is a plausible feminine noun + ezafe + adjective form; make sure the noun's lexical gender is taught or documented, since ezafe form is not arbitrary.
+- **kum-ên reş** is supported as plural noun + plural ezafe + adjective. The lesson's gloss “کڵاوەکان” is plausible, but validate lexical choice and Sorani translation.
+- The text says ezafe depends on gender, number **and case**. This is broadly right, but beginner exposition should distinguish ezafe agreement on the noun phrase head from case marking and from the adjective's own form; do not imply the adjective regularly inflects like an Indo-European agreeing adjective.
+- The seven adjective lexemes **mezin, biçûk, nû, kevn, baş, reş, spî** are standard-looking basic vocabulary; Sorani glosses and exact spelling (including **biçûk/biçuk**) should be reviewed consistently.
+- Section 4 correctly separates attributive adjective phrases from predicative descriptions, but it intentionally gives no full predicate sentence. Keep that boundary, and add sourced examples in a later lesson rather than implying both constructions use the same ezafe pattern.
+
+### Result and action
+**Result: noun-after-adjective ordering and ezafe linkage are substantiated.** Recommended refinement: explicitly contrast definite **bajarê mezin** with indefinite **bajarekî mezin**, verify **maleke biçûk** and noun genders, and review vocabulary glosses. Audit-only: no lesson body, seed, migration, production DB, or main branch changed.
