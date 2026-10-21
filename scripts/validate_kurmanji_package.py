@@ -33,6 +33,24 @@ else:
     if 'Avasin access gate' not in script_text:
         ERRORS.append("Shared access-control gate marker is missing from script.js")
 
+    # Keep the Kurmanji browser gate and server-authoritative completion path
+    # covered by CI, not just the static HTML files.
+    for required in (
+        'kurmanji-course-1-lesson-',
+        'kurmanji-course-2-lesson-',
+        'can_read_lesson_content',
+        'complete_lesson',
+        'ZANSTI_SYNC_PROGRESS',
+        'markLessonComplete',
+        'kurmanji-completion-gate',
+    ):
+        if required not in script_text:
+            ERRORS.append(f"Kurmanji runtime gate is missing required integration: {required}")
+    if 'length:26' not in script_text and 'length: 26' not in script_text:
+        ERRORS.append("Kurmanji Course 1 gate is not configured for 26 lessons")
+    if 'length:12' not in script_text and 'length: 12' not in script_text:
+        ERRORS.append("Kurmanji Course 2 gate is not configured for 12 lessons")
+
 for course_id, count in expected.items():
     expected_names = {
         f"{course_id}-lesson-{number:02d}.html"
@@ -140,6 +158,7 @@ if ERRORS:
 print(
     "OK: all 38 Kurmanji lesson pages exist; expected seed keys are present; "
     "lesson keys, shared access-control script, noindex metadata, server-loaded "
-    "content placeholders, previous/next navigation, course boundaries, and "
-    "course-plan ordering are consistent. Lesson content was not modified."
+    "content placeholders, previous/next navigation, course boundaries, course-plan "
+    "ordering, and Kurmanji runtime integration markers are consistent. "
+    "Lesson content was not modified."
 )
