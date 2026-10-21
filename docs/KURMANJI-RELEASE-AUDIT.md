@@ -455,3 +455,21 @@ Attributive adjectives in Kurmanji normally follow the noun and are linked by ez
 
 ### Result
 **The selected orthographic contrasts and review sentences are broadly supported.** The main issue is assessment design rather than a central factual error: the final review needs clearer coverage, answer criteria, and qualified wording on *r/rr*. Only this audit entry was appended; lesson content, seed SQL, migrations, main, and production database were not changed.
+
+## Source review — course 2, lesson 1: morphology and word structure (2026-10-21)
+
+### Claims corroborated
+- Morphology studies the internal structure of words; morphemes are units associated with lexical meaning or grammatical function. A morpheme need not be an independent word: bound morphemes such as affixes attach to a base. University of Sheffield's linguistics overview states this distinction clearly: https://www.sheffield.ac.uk/linguistics/home/all-about-linguistics/about-website/branches-linguistics/morphology/what-morphology
+- The lesson's methodological warning is sound: not every phonological segment or syllable is a morpheme. Analysis should be supported by recurring form–function contrasts across words, not by arbitrary division.
+- Kurmanji singular indefinite -ek is a valid introductory example of a grammatical suffix. Haig & Öpengin (2018) describe -ek as the singular indefinite marker in Standard Kurmanji, with case marking potentially following it: https://www.uni-bamberg.de/fileadmin/aspra/06_Team/Publications_and_CV/HaigOepengin2018_Kurmanji_Kurdish_.pdf
+
+### Items needing editorial or source-specific checking
+1. **Word versus morpheme definition:** “word is an independent unit” is a useful first approximation, but should be framed as a practical distinction rather than an absolute definition; linguistic analyses recognize bound roots and multiword grammatical constructions.
+2. **Course example is underdeveloped:** -ek is named but no actual Kurmanji word is segmented. Add a minimal pair such as *gund* ‘village’ vs. *gund-ek* ‘a village’, with the warning that case and ezafe can add further morphology. This should be linked to lesson 4 on indefinite nouns.
+3. **Root versus stem:** the lesson names root, word-formation morphemes, and inflectional markers but provides no worked analysis separating root, stem/base, derivation and inflection. A short segmented example from a verified Kurmanji source would make the distinction teachable.
+4. **Source list quality:** the Haig & Öpengin DOI is duplicated twice in the bibliography. Remove the duplicate in a future editorial pass and make sure the cited edition/page range is consistent.
+5. **Assessment alignment:** the three review questions are appropriate for an introduction but test definitions only; add a short analysis task requiring learners to identify a base and an affix, and explain why a proposed segmentation is or is not supported.
+6. **Variety scope:** the note about dialect variation is appropriate. Keep -ek described as a common standard Kurmanji singular indefinite marker, not an automatic suffix that can be assigned to every noun or word.
+
+### Result
+**The core definition of morphology and the free/bound morpheme distinction are sound.** The lesson is methodologically cautious, but needs a worked Kurmanji segmentation, clearer root/stem/inflection distinctions, and a small bibliography cleanup. Only this audit entry was appended; lesson content, seed SQL, migrations, main, and production database were not changed.
