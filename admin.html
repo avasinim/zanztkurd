@@ -64,14 +64,8 @@ if(earlyRefresh) earlyRefresh.onclick=()=>location.reload();
 if(earlyLogout) earlyLogout.onclick=()=>location.href='auth.html';
 let pendingTab='users';
 document.querySelectorAll('.tab').forEach(b=>b.addEventListener('click',()=>{
+  // Remember early tab selection while Supabase initializes; do not show a false loading warning.
   pendingTab=b.dataset.tab||'users';
-  document.querySelectorAll('.tab').forEach(x=>x.classList.toggle('active',x===b));
-  const content=document.getElementById('content');
-  const m=document.getElementById('message');
-  if(content && !content.querySelector('.admin-table') && m){
-    m.textContent='پەیوەندی و بارکردنی داتا هێشتا تەواو نەبووە؛ تکایە چەند چرکە چاوەڕێ بکە یان «نوێکردنەوە» هەڵبژێرە.';
-    m.style.display='block';
-  }
 }));
 
 const $=id=>document.getElementById(id), ar=n=>String(n??0).replace(/\d/g,d=>'٠١٢٣٤٥٦٧٨٩'[d]);
