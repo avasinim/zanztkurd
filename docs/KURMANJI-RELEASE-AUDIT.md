@@ -632,3 +632,26 @@ The lesson correctly cautions that Kurmanji tense forms are not one uniform patt
 ### Result
 
 **The lesson’s general caution is sound, but it lacks the paradigms and worked examples needed to verify the tense rules.** The most important additions are a sourced tense/aspect table, a consistent verb paradigm, and complete Standard Kurmanji examples that keep dialect variation visible. Only this audit entry was appended; lesson body, seed SQL, migrations, `main`, and the production database were not changed.
+
+## Source review — course 2, lesson 10: negative and interrogative sentences (2026-10-21)
+
+**Seed reviewed:** `docs/kurmanji-content-seed-part-05.sql`, key `kurmanji-course-2-lesson-10.html`. Exact lesson title: **ڕستەی نەفی و پرسیاری**.
+
+### Findings
+
+The lesson gives a cautious overview of three topics: verbal negation, negation in nominal sentences, and yes/no versus information questions. Its warning not to generalize from one verb is appropriate. However, the explanation of `na-` as replacing `di-` in many present forms is too narrow to stand alone without examples and a clear statement of scope. Haig’s grammatical sketch documents `na-` as a common negative indicative marker, `ne-` for subjunctive negation, and exceptions such as `ni-zanim` “I don’t know” and `ni-karim` “I cannot”; it also notes dialect-specific differences in negative forms. The Oxford chapter “Negation in Kurmanji” likewise analyzes several negative markers and their interaction with other prefixes. Sources: Haig, “Northern Kurdish (Kurmanjî),” https://doi.org/10.1515/9783110421682-004; Gündoğdu, “Negation in Kurmanji,” https://doi.org/10.1093/acprof:oso/9780190210434.003.0007.
+
+### Recommended revisions for a later content-editing pass
+
+1. **Teach negation by construction, not by a single substitution rule.** Provide a compact table for present indicative, subjunctive, imperative, past forms, and the copula/nominal predicate, with the scope clearly limited to Standard Kurmanji.
+2. **Include sourced exceptions.** Add examples such as `nizanim` (“I don’t know”) and `nikarim` (“I cannot”) where appropriate, and verify the orthographic spacing/prefix convention used throughout the course.
+3. **Distinguish `na-` and `ne-` by mood/construction.** Avoid implying that `na-` is the universal negative marker or that every verb simply replaces `di-` with `na-`.
+4. **Explain nominal-sentence negation separately.** The current section names this category but gives no actual nominal sentence, form, or contrast with verbal negation. Add a positive/negative pair and identify the predicate.
+5. **Add complete question examples.** Give at least one yes/no question and one information question, with a translation and the question word identified. Explain intonation only as one possible cue, not as a substitute for a documented grammatical pattern.
+6. **Document word order carefully.** Show a neutral question and a contextually focused variant; explain that focus and discourse context can affect placement, rather than giving an unsupported fixed order rule.
+7. **Improve the review questions.** Ask learners to negate and question full sentences, then identify which construction and negative marker are used. Include answer guidance.
+8. **Remove the duplicated DOI link** in the bibliography in a later cleanup.
+
+### Result
+
+**The lesson is directionally sound but under-exemplified.** Its biggest accuracy risk is leaving learners with an overgeneralized `na-`/ `di-` replacement rule. A sourced construction-by-construction table, paired examples for nominal negation, and complete interrogative examples are the priority. Only this audit entry was appended; lesson HTML, seed SQL, migrations, `main`, and the production database were not changed.
