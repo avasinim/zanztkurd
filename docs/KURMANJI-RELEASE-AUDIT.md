@@ -123,3 +123,17 @@ Source: University of Arizona, Iranian Languages, “Kurmanji Kurdish,” sectio
 
 ### Result and action
 **Result: all five letter/example/English-gloss pairs are corroborated by the University of Arizona source; no material discrepancy found in the lesson's central teaching point.** The teaching body, seed row, migration, and production site were not changed. The lesson remains part of the wider 38-lesson review and is not, by itself, a release approval.
+
+## Source review — course 1, lesson 06: reading and writing simple words (2026-10-21)
+
+### Verified word forms and meanings
+The lesson's examples **av** (“water”), **dil** (“heart”), **lêv** (“lip”), **hîn** (“still”), **qaz** (“goose”), **qul** (“hole”), **çak** (“good”), **şaş** (“wrong”), **îro** (“today”), and **yek** (“one”) are attested in the University of Arizona Kurmanji phonology/orthography table. This directly corroborates the Latin spellings and English meanings used as the lesson's source basis. Source: University of Arizona, “Kurmanji Kurdish”: https://iranian-languages.arizona.edu/node/7 . Yari's Kurmanji–English dictionary is an additional lexical resource and notes that entries have audio for many words: https://yari.krd/dictionary/ .
+
+### Editorial caveats
+- The lesson's Sorani translations are not the source's English glosses. They appear broadly aligned, but should receive Kurdish editorial review. In particular, translate **qul** with an unambiguous Sorani equivalent for “hole/opening” in the intended sense, so the short gloss does not accidentally suggest a different bodily meaning.
+- **roj** (“day”) is a valid familiar Kurmanji word, but the Arizona table's displayed orthography/example rows place roj alongside its rr entry for the trill. The lesson uses roj as a simple spelling example and only says that j is a distinct letter. This is not enough evidence to teach any rule about r/rr; retain the limited point or verify it against a dedicated orthography reference.
+- The page's general advice to check words in a dictionary rather than infer their meaning from Sorani/English resemblance is sound.
+- Sources are lexical/orthographic corroboration, not a full peer-reviewed evaluation of every Sorani gloss or exercise.
+
+### Result and action
+**Result: the ten core Kurmanji word forms and their English source meanings are corroborated; the lesson's Sorani glosses and the roj orthography note remain editorially reviewable.** No lesson body, seed row, migration, production database, or main branch was changed. Only this audit document was updated.
