@@ -227,3 +227,18 @@ Haig & Öpengin's scholarly description of Standard Kurmanji gives **ev** as the
 
 ### Result and action
 **Result: the lesson's core ev/ew distance contrast and its caution about ew ambiguity are corroborated.** The main limitation is scope: label the table as direct forms and note that oblique forms and dialectal NP marking are outside this lesson. No demonstrative form in the displayed examples was established as clearly erroneous. This is an audit finding only; no lesson HTML, seed, migration, production DB, or main branch was edited.
+
+## Source review — course 1, lesson 13: numbers 1–20 (2026-10-21)
+
+### Number forms corroborated
+Haig (2018, §2.4 “Numerals”) and Thackston's Kurmanji grammar list the core cardinal forms: **yek, du/didu, sê/sisê, çar, pênc, şeş, heft, heşt, neh, deh, yanzdeh/yazdeh, dwanzdeh/dwanzdeh, sêzdeh, çardeh, panzdeh, şanzdeh, hevdeh, hejdeh, nozdeh, bîst**. The lesson's choices are substantially consistent with these references. Sources: https://multicast.aspra.uni-bamberg.de/data/pubs/Haig2018_Northern-Kurdish_Kurmanji.pdf (§2.4); https://www.kurdipedia.org/files/books/2013/92279.PDF (§9); https://www.omniglot.com/language/numbers/kurdish.htm .
+
+### Variation and editorial notes
+- The lesson gives **yanzdeh, diwanzdeh, panzdeh, şanzdeh**. References document variants such as **yazdeh/yanzdeh**, **dwanzdeh/dwanzdeh**, and regional/orthographic variants. This is a reasonable chosen teaching set, but state that spelling/pronunciation variants exist; do not label alternatives as errors.
+- The note says “11, 12 and 15” vary; sources show variation also in other numerals (including 2 and 3, and 16), so the wording should be “some numerals, especially…” rather than implying variation is limited to those three.
+- **Ez du pirtûkan dixwînim** is the example most in need of source-level grammatical review. The text asserts *pirtûkan* is the oblique plural because it is an object of a present-tense verb. That categorical explanation is not established by the numeral lists, and it risks teaching that every counted direct object must take that form. Verify the exact construction against a grammar/native editor before release; do not automatically replace it.
+- **Min sê pênûs hene** and **Ew pênc rojan li vir e** are plausible instructional examples, but the Sorani translations and intended temporal reading of the latter should receive Kurdish editorial review. The second is better glossed explicitly as a duration (“he/she is here for five days”) if that is intended.
+- The cardinal list is solid; ordinal numerals, counting syntax, and dialect differences are beyond this lesson's narrow scope.
+
+### Result and action
+**Result: the 1–20 cardinal vocabulary is broadly verified.** No numeric item is clearly wrong in the selected Standard Kurmanji teaching variety. Flag the asserted morphology in *Ez du pirtûkan dixwînim* and the scope of the variation note for expert review before release. Audit-only update; lesson HTML, seed, migration, production database, and main were not changed.
