@@ -125,3 +125,11 @@ The repository's `supabase/schema.sql` was inspected on both the test branch and
 The current test-branch copy has blob SHA `1ae82df1b1373dd16913f4dddd349a1b10cd70f2`; the PR-base copy has blob SHA `017a243dc1c2a68536d272267aaee03c2e145b09`. Neither contains the missing test migration files by their recorded filenames. Do not replay `supabase/schema.sql` into the test or production project and do not copy its older function definitions over the current hardened definitions.
 
 A wider search also found only the existing draft PR #2; it did not reveal another PR containing the six missing migration bodies. These checks narrow the available repository sources but do not prove the SQL is absent from every unlisted commit/tree or external local backup.
+
+
+## Follow-up checks — test schema inventory and object scope (2026-10-21)
+- A read-only inventory of `public`, `auth`, and `storage` returned 41 tables total across the schemas visible to this inventory (27 `auth`, 8 `storage`, and 6 `public`). The six application tables in `public` are `courses`, `site_owners`, `enrollments`, `lesson_content`, `lesson_progress`, and `profiles`; RLS is enabled on all six.
+- A read-only catalog query found no ordinary or materialized views in `public`, ten public routines, and one non-internal trigger in the inspected `public`/`auth` scope: `auth.users.on_auth_user_created_profile`, which invokes `create_profile_for_new_user()`.
+- The ten public routines are SECURITY DEFINER with an explicitly empty search path in the current test database. This confirms the current catalog configuration only; function body authorization and role grants must still be evaluated separately. The auth trigger is present and should not be mistaken for a public callable website RPC.
+- A fresh commit-search attempt for each of the six database-only migration names returned no matching commits. This is another limited search result, not proof of absence from every Git object, unlisted branch, local clone, or external backup.
+- No database writes, migration replays, user-data changes, production project access, or `main` edits were performed during these checks.
