@@ -1,0 +1,48 @@
+name: Validate Kurmanji course package
+
+on:
+  push:
+    branches: ["kurmanji-test-config"]
+    paths:
+      - "kurmanji-course-*.html"
+      - "learning.html"
+      - "lessons/catalog.html"
+      - "script.js"
+      - "docs/kurmanji-content-seed-part-*.sql"
+      - "scripts/validate_kurmanji_package.py"
+      - "scripts/test_north_circle_ui.py"
+      - ".github/workflows/validate-kurmanji-package.yml"
+  pull_request:
+    branches: ["main"]
+    paths:
+      - "kurmanji-course-*.html"
+      - "learning.html"
+      - "lessons/catalog.html"
+      - "script.js"
+      - "docs/kurmanji-content-seed-part-*.sql"
+      - "scripts/validate_kurmanji_package.py"
+      - "scripts/test_north_circle_ui.py"
+      - ".github/workflows/validate-kurmanji-package.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  kurmanji-package-integrity:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+      - name: Validate Kurmanji lesson pages and seed keys
+        run: python scripts/validate_kurmanji_package.py
+      - name: Install Playwright browser tests
+        run: |
+          python -m pip install --upgrade pip playwright
+          python -m playwright install --with-deps chromium
+      - name: Run north-circle browser regression tests
+        run: python scripts/test_north_circle_ui.py
