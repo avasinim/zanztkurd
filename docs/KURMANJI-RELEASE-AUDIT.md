@@ -529,3 +529,22 @@ Attributive adjectives in Kurmanji normally follow the noun and are linked by ez
 
 ### Result
 **The central explanation of -ek and the contextual interpretation of bare nouns is sound.** The main improvements are a complete source-attested paradigm, consistent segmentation, a clearer account of case, and a practical exercise. Only this audit entry was appended; lesson content, seed SQL, migrations, main, and production database were not changed.
+
+## Source review — course 2, lesson 5: ezafe and noun–adjective relations (2026-10-21)
+
+### Claims corroborated
+- The lesson correctly states that descriptive adjectives normally follow the noun in Kurmanji and are linked to the head noun by an ezafe form. Haig & Öpengin (2018), §2.3–2.3.1, describes the basic noun-phrase structure and gives *bajar-ek-î mezin* ‘a big town’ as an example: https://multicast.aspra.uni-bamberg.de/data/pubs/Haig2018_Northern-Kurdish_Kurmanji.pdf
+- The lesson’s claim that ezafe also links a noun to a possessor is supported by examples such as *mal-a me* ‘our house’. The ezafe form agrees with the head noun’s gender and number in Standard Kurmanji.
+- The note about dialect variation is important and should remain. The form and analysis of ezafe show variation across Kurmanji varieties; avoid presenting the Standard Kurmanji pattern as universal to all dialects.
+
+### Items needing editorial or source-specific checking
+1. **Give the morphology of the example explicitly.** In *bajar-ek-î mezin*, explain *bajar* ‘town/city’ + *-ek* indefinite singular + *-î* masculine singular ezafe + *mezin* ‘big’. Clarify that the ezafe is a linker agreeing with the head noun, not a suffix marking the adjective itself.
+2. **Add the contrasting possessor example.** Use *mal-a me* ‘our house’, with *mal* ‘house’ + feminine singular ezafe *-a* + *me* ‘we/us’ in the relevant oblique/possessive form. Make clear that the possessor follows the head noun and is not itself the agreement controller.
+3. **Qualify “agreement”:** the ezafe agrees with the head noun’s grammatical gender/number in the Standard Kurmanji pattern; it does not agree with the following adjective or possessor. For plural nouns, show a checked plural example such as *kum-ên min yên reş* ‘these black hats of mine’ from the source.
+4. **Phrase structure is underspecified.** The lesson mentions determiners, numerals, possessors and adjectives but offers no ordering example. Add one source-attested noun phrase with multiple dependents and label its parts; Haig & Öpengin’s schema places possessors before descriptive adjectives when both occur.
+5. **Assessment needs a worked task.** Ask learners to identify the head noun, ezafe form, possessor/adjective and agreement features in two examples; include an answer key.
+6. **Duplicate bibliography entry:** the Haig & Öpengin DOI is repeated in this lesson’s source list. Remove the duplicate in a future editorial cleanup.
+7. **Terminology and dialect scope:** define *ezafe* consistently as a grammatical linking construction/marker, while noting that analyses vary between suffix, clitic and particle across descriptions and dialects.
+
+### Result
+**The lesson’s core description of ezafe with adjectives and possessors is supported by the reference grammar.** It needs segmented examples, explicit identification of the head noun as agreement controller, and a practical exercise. Only this audit entry was appended; lesson body, seed SQL, migrations, main branch and production database were not changed.
