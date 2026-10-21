@@ -368,3 +368,20 @@ Attributive adjectives in Kurmanji normally follow the noun and are linked by ez
 
 ### Result and action
 **Result: noun-after-adjective ordering and ezafe linkage are substantiated.** Recommended refinement: explicitly contrast definite **bajarê mezin** with indefinite **bajarekî mezin**, verify **maleke biçûk** and noun genders, and review vocabulary glosses. Audit-only: no lesson body, seed, migration, production DB, or main branch changed.
+
+## Source review — course 1, lesson 22: comparative and superlative adjectives (2026-10-21)
+
+### Claims corroborated
+- The regular comparative pattern adjective + -tir and use of ji before the comparison standard are supported by Thackston's *Kurmanji Kurdish: A Reference Grammar with Selected Readings* (comparative section; public PDF: https://sites.fas.harvard.edu/~iranian/Kurmanji/kurmanji_complete.pdf) and the Kurmanji teaching lesson reproduced by Kurdipedia (Lesson 6, “Comparatives”: https://www.kurdipedia.org/files/books/2023/474430.PDF).
+- The sources explicitly record mezin → mezintir as regular and meztir as an alternative; they also record baş → baştir alongside çêtir as an alternative. Thus the lesson's inclusion of both mezin forms is warranted, but the table should not imply that every variety/source uses them with identical frequency.
+- Two superlative strategies are attested: herî + adjective and -tirîn. The Kurdipedia teaching source notes that -tirîn forms precede the noun they modify, unlike the ordinary postposed adjective in an izafe phrase. Thackston also discusses -tirîn and herî, while cautioning that herî can carry an intensifying (“really/most”) nuance depending on context. Sources: https://www.kurdipedia.org/files/books/2023/474430.PDF ; https://www.kurdipedia.org/files/books/2013/92279.PDF ; supplementary grammar tables: https://ezdixan.de/en/wiki/grammatik
+
+### Items needing editorial or source-specific checking
+1. herî mezin / mezintirîn: both are valid superlative patterns, but they are not interchangeable mechanically in every noun phrase. Keep the distinct word order explanation, and verify the precise sample phrase against the chosen reference grammar.
+2. biçûk → biçûktir: sources and teaching materials show spelling/lexical variants such as piçûk/biçûk. Confirm which spelling standard this course adopts; do not silently normalize it.
+3. kêmtir / zêdetir: these express “less/more” and can mark degree or quantity; the lesson should distinguish them from the productive adjective suffix rule rather than present them as a simple mirror-image pair of adjective inflections.
+4. Meyrem ji birayê xwe mezintir e: the comparative form is attested, but mezin can mean “big” or “older” according to context. The Sorani translation should make the intended reading explicit (e.g. age, if that is intended), and the morphology of birayê xwe should be checked in context.
+5. The lesson cites Karacan & Khalid (2016), a cross-dialect comparison study; its general Kurdish claims should not alone be treated as proof of a specifically Standard Kurmanji rule. Prefer the Kurmanji reference grammars for the core paradigm and identify dialectal scope where the article is used.
+
+### Result
+**Core comparative and superlative patterns are supported; lesson 22 is partially source-verified.** The main unresolved points are spelling/dialect consistency, contextual interpretation of the comparison example, and keeping degree adverbs distinct from suffixal comparison. No lesson text, seed SQL, migration, main, or production database was changed; this entry only records the audit findings.
