@@ -408,3 +408,12 @@ Query ـی read-only هەر ٦ خشتەی `courses`, `profiles`, `enrollments`, 
 
 ### بڕیاری migration reconciliation
 هێشتا هیچ migration ـێک دووبارە جێبەجێ نەکراوە و هیچ migration history ـێک نەگۆڕدراوە. هەنگاوی داهاتوو دەبێت mapping ـی migration ID ↔ فایل ↔ SQL ـی ڕاستەقینە بە شێوەی read-only تەواو بکرێت. فایلە ونبووەکان تەنها دوای بەراوردی ورد و لە ڕێگای نووسینی پارێزراوی پەسەندکراو زیاد بکرێن؛ ئەگەر GitHub write tool ڕەت کردەوە، بە هیچ شێوەیەک بە workaround ـی ناپارێزراو تێپەڕ مەکە.
+
+
+### پشکنینی CI ـی PR #2 — 2026-10-21
+- لە commit ـی PR head بە SHA `8e6239801aec2247ace994031be96fc212f3b316`، دوو GitHub Actions workflow کە بۆ PR ـەکە ڕاپۆرت کراون تەواو بوون بە ئەنجامی `success`:
+  - `Validate academic lesson catalog`، run `39374434077`.
+  - `Validate lesson navigation`، run `39374433928`.
+- Combined commit statuses هیچ status ـێکی تر نەگەڕاندەوە و لیستی review ـەکانی PR #2 بەتاڵ بوو لە کاتی پشکنین.
+- ئەم دوو workflow ـە تەنها پشکنینی catalog و navigation پشتڕاست دەکەنەوە؛ ئەمە بەڵگەی browser E2E، چوونەژوورەوەی قوتابی، enrollment، sequential unlocking، progress persistence، یان جێبەجێکردنی migration لە Supabase نیە.
+- PR #2 هێشتا Draft ـە و نابێت merge بکرێت یان migration ـی live جێبەجێ بکرێت بەبێ ڕێنمایی ڕوونی خاوەن پڕۆژە.
