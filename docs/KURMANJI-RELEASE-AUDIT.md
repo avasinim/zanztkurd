@@ -198,3 +198,18 @@ Yari's Kurmanji greetings page independently attests these lesson forms and mean
 
 ### Result and action
 **Result: the central beginner phrases are corroborated; no critical linguistic error was established in this lesson, but Sorani pragmatics and the precise usage of farewell/apology expressions deserve editorial review.** Audit only was updated; no lesson HTML, seed, migration, production DB, or main branch changed.
+
+## Source review — course 1, lesson 11: personal pronouns (2026-10-21)
+
+### Verified core paradigm
+Thackston's Kurmanji reference grammar and Haig & Öpengin (2018) support the broad distinction between direct/unoblique pronoun forms and the forms used in oblique contexts. The lesson's core forms **ez/min, tu/te, em/me, hûn/we, ew/wan** are consistent with the standard introductory paradigm; **wî/wê** represent gendered oblique third-person singular forms. Arizona's language overview also distinguishes the direct and oblique forms and illustrates their grammatical distribution. Sources: https://sites.fas.harvard.edu/~iranian/Kurmanji/kurmanji_complete.pdf ; https://doi.org/10.1515/9783110421682-004 ; https://iranian-languages.arizona.edu/node/7 .
+
+### Key caveats
+- **“Direct = subject” is too narrow as a definition.** The lesson says direct pronouns “often appear as subjects in ordinary present sentences,” which is a helpful first approximation, but the case system is syntactic/grammatical, not simply a subject-versus-object split. In ergative/past constructions and other environments, argument alignment changes. The lesson's later warning that oblique forms are not limited to past tense is important and should remain prominent.
+- **ew = he/she/they:** the same written form can serve third-person singular or plural; number must be resolved by agreement/context. This is correctly noted. Sorani “ئەو/ئەوان” glosses are reasonable.
+- **wî/wê:** gendered forms are useful but their distribution should be taught within a particular grammatical construction; avoid presenting them as a universal one-to-one “his/her” possessive equivalent.
+- **Predicate/copula forms im, î, ye, in:** examples are broadly standard. But “vary according to noun/adjective ending and sentence structure” could mislead: forms are person/number agreement/copular clitics, and their phonological/orthographic realization depends on construction. Recommend precise wording in a later edit.
+- **xwe:** reflexive is not always simply “refers back to the subject” in every construction; its antecedent is constrained by syntax and clause structure. Example “Ez ji dayika xwe hez dikim” is a standard reflexive/possessive use (my own mother), but the lesson's simplified description should be treated as introductory.
+
+### Result and action
+**Result: the central pronoun forms and direct/oblique distinction are supported; no clear wrong form found in the sampled paradigm.** Main risk is pedagogical oversimplification of grammatical case, copular forms, and reflexive antecedence. Flag for future editorial refinement, but do not modify lesson content automatically. Audit only updated; no seed/migration/production DB/main changed.
