@@ -491,3 +491,22 @@ Attributive adjectives in Kurmanji normally follow the noun and are linked by ez
 
 ### Result
 **The introductory definitions and methodological caution are sound.** The main weakness is lack of a worked Kurmanji word analysis and explicit derivation/inflection contrast. Only this audit entry was appended; lesson content, seed SQL, migrations, main, and production database were not changed.
+
+## Source review — course 2, lesson 3: nouns, grammatical gender and number (2026-10-21)
+
+### Claims corroborated
+- The lesson correctly distinguishes grammatical gender from natural/biological sex. In Kurmanji, gender is a grammatical property of nouns and is visible in parts of the agreement system; it should not be inferred from real-world sex alone.
+- The lesson appropriately cautions against assuming one plural formation rule applies to every noun. Kurmanji nominal forms and agreement patterns require attention to the noun class, case and dialect.
+- The observation that gender and number interact with ezafe forms is directionally correct for Standard Kurmanji. Haig & Öpengin (2018), “Northern Kurdish (Kurmanjî),” discusses nominal morphology, gender, case and ezafe: https://doi.org/10.1515/9783110421682-004. Thackston’s reference grammar is also relevant: https://sites.fas.harvard.edu/~iranian/Kurmanji/kurmanji_complete.pdf
+
+### Items needing editorial or source-specific checking
+1. **The lesson is almost entirely abstract.** It names gender, singular/plural and ezafe agreement but gives no Kurmanji noun paradigms or fully glossed examples. Add a small, source-checked table showing masculine/feminine nouns and singular/plural forms in context.
+2. **Gender and agreement need an explicit worked example.** Show the head noun, the ezafe form and the agreeing adjective together; identify which element controls agreement. Do not imply that the following word alone determines the ezafe form.
+3. **Plural morphology is asserted but not taught.** Add two or more attested plural patterns, label them as examples rather than a universal rule, and cite the exact grammar section or page for each.
+4. **Terminology:** define “grammatical gender” separately from “natural gender,” and clarify that the lesson concerns grammatical classification and agreement rather than a claim about people’s identity or sex.
+5. **Assessment alignment:** the review questions test definitions but not recognition or production. Add a short exercise asking learners to identify gender/number and select the appropriate ezafe form from attested examples, with an answer key.
+6. **Duplicate bibliography entry:** the Haig & Öpengin DOI is listed twice in this lesson’s source list. Remove the duplicate in a later editorial pass.
+7. **Dialect scope:** the Standard Kurmanji caveat is helpful. Keep it and cite a specific source/page when a form is presented as standard; distinguish regional variants where the evidence warrants it.
+
+### Result
+**The lesson’s broad cautions are sound, but it is not yet sufficiently operational as a teaching unit.** The key missing elements are verified examples, explicit agreement analysis and a concrete treatment of plural patterns. This audit entry only; no lesson body, seed SQL, migrations, main branch, or production database was changed.
