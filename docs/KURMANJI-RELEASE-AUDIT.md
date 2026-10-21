@@ -588,3 +588,25 @@ The lesson’s core caution is sound: Kurmanji case cannot be reduced to a unive
 ### Result
 
 **The lesson’s central warning about case is correct, but the current explanation remains schematic.** A pronoun paradigm alone is not enough: verified, glossed sentence pairs are needed to teach how direct/oblique forms work in context. Only this audit entry was appended; lesson body, seed SQL, migrations, `main`, and the production database were not changed.
+
+## Source review — course 2, lesson 8: verb, stem, person and number (2026-10-21)
+
+**Seed reviewed:** `docs/kurmanji-content-seed-part-05.sql`, key `kurmanji-course-2-lesson-08.html`. This review is based on the exact lesson HTML in the seed; no lesson content was edited.
+
+### Findings
+
+The lesson is appropriately cautious in saying that verb forms depend on tense and clause type, that transitivity matters, and that an overt subject pronoun does not mean the verb lacks person marking. These points align with Haig & Öpengin’s description of Kurmanji verbal morphology: finite verbs take person/number agreement suffixes, and the indexed core argument differs by construction—typically the intransitive subject across tenses, the transitive subject in present forms, and the transitive object in past forms. Their chapter also documents dialect variation in stems and endings. https://doi.org/10.1515/9783110421682-004
+
+### Recommended revisions for a later content-editing pass
+
+1. **Define “root” versus “stem” carefully.** The current lesson asks learners to distinguish the basic form and verb root but does not define either. Explain the infinitive, present stem, and past stem as separate analytical forms where the verb requires them; do not imply every verb can be derived by one uniform operation.
+2. **Add a compact, sourced paradigm.** Use one common verb with verified present- and past-stem forms and person/number endings. Mark any stem alternation explicitly and cite the exact table/section in Haig & Öpengin or Thackston.
+3. **Demonstrate agreement with complete clauses.** Contrast an intransitive verb, a present-tense transitive verb, and a past-tense transitive verb. Identify person/number marking and explain which argument controls agreement in each example.
+4. **Explain transitivity operationally.** Give a clear example of a transitive verb with an object and an intransitive verb without a direct object; note that syntactic behavior, not translation alone, determines the analysis.
+5. **Strengthen the exercises.** Ask learners to identify the stem, tense/aspect marking, person/number ending, transitivity, and agreement controller in actual sentences, with an answer key.
+6. **Keep dialect boundaries explicit.** The reference chapter documents dialect-specific stem differences, including in common verbs. Label the lesson’s forms as Standard Kurmanji and do not generalize one dialect’s form to all Kurmanji.
+7. **Remove the duplicated Haig & Öpengin DOI** from the bibliography during the next editorial cleanup.
+
+### Result
+
+**The lesson’s high-level claims are sound, but it currently offers a framework rather than a teachable paradigm.** The main missing evidence is a sourced set of verb forms and complete clauses showing how stem, person/number, tense/aspect, transitivity, and agreement interact. Only this audit entry was appended; lesson body, seed SQL, migrations, `main`, and the production database were not changed.
