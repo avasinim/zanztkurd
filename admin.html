@@ -229,6 +229,32 @@ async function loadFeedback(){
 }
 function render(){
  const q=$('search').value.trim().toLowerCase();
+ if(tab==='beatapi'){
+  const transcript=beatMessages.map(m=>'<div class="beatapi-message '+m.role+'"><strong>'+(m.role==='user'?'تۆ':'BeatAPI')+'</strong><div>'+esc(m.content)+'</div></div>').join('');
+  $('content').innerHTML='<div class="beatapi-chat"><p class="beatapi-note">ئەم یاریدەدەرە تەنیا بۆ خاوەن ماڵپەڕە و لە ڕێگەی فەنکشنی پارێزراوی Supabase کار دەکات. کلیلی BeatAPI لە وێبگەڕدا نانێردرێت. گفتوگۆکان تەنیا لە ماوەی ئەم لاپەڕەیەدا دەمێننەوە.</p><div id="beatapiMessages" class="beatapi-messages">'+(transcript||'<div class="empty">پرسیارەکەت بنووسە بۆ دەستپێکردن.</div>')+'</div><form id="beatapiForm" class="beatapi-form"><label for="beatapiPrompt"><strong>پرسیار یان داواکاری</strong></label><textarea id="beatapiPrompt" maxlength="4000" placeholder="پرسیارەکەت بنووسە..." required></textarea><button id="beatapiSend" type="submit">ناردن بۆ BeatAPI</button></form><div id="beatapiError" class="message" style="display:none;margin-top:12px"></div></div>';
+  const form=$('beatapiForm'),prompt=$('beatapiPrompt');
+  $('beatapiMessages').scrollTop=$('beatapiMessages').scrollHeight;
+  form.onsubmit=async event=>{
+   event.preventDefault();if(beatBusy)return;
+   const value=prompt.value.trim();if(!value)return;
+   beatMessages.push({role:'user',content:value});prompt.value='';
+   let chars=beatMessages.reduce((sum,m)=>sum+m.content.length,0);
+   while(beatMessages.length>1&&(beatMessages.length>8||chars>11000)){const removed=beatMessages.shift();chars-=removed.content.length;}
+   beatBusy=true;render();
+   try{
+    const result=await sb.functions.invoke('beatapi-assistant',{body:{messages:beatMessages}});
+    if(result.error)throw new Error(result.error.message||'نەتوانرا پەیوەندی بە BeatAPI بکرێت.');
+    const answer=result.data?.answer;
+    if(typeof answer!=='string'||!answer.trim())throw new Error('وەڵامێکی دروست لە BeatAPI نەگەڕایەوە.');
+    beatMessages.push({role:'assistant',content:answer});
+    let total=beatMessages.reduce((sum,m)=>sum+m.content.length,0);
+    while(beatMessages.length>1&&(beatMessages.length>8||total>11000)){const removed=beatMessages.shift();total-=removed.content.length;}
+   }catch(error){
+    beatMessages.push({role:'assistant',content:'هەڵە لە پەیوەندی بە BeatAPI: '+(error?.message||'هەڵەی نەناسراو')+'. نهێنییەکان، مۆدێل و دەسەڵاتی خاوەن ماڵپەڕ پشکنە.'});
+   }finally{beatBusy=false;render();}
+  };
+  return;
+ }
  if(tab==='feedback'){
   const state=document.getElementById('feedbackFilter')?.value||'pending';
   $('content').innerHTML='<div class="toolbar" style="padding:14px 18px;border-bottom:1px solid var(--line)"><label for="feedbackFilter" style="align-self:center;font-weight:800">پیشاندانی:</label><select id="feedbackFilter"><option value="pending">چاوەڕوانی پەسەندکردن</option><option value="approved">پەسەندکراو</option><option value="rejected">ڕەتکراوە</option><option value="all">هەموویان</option></select><button id="feedbackReload">نوێکردنەوە</button></div><div id="feedbackContent" class="feedback-admin-list"><div class="loading">کۆمێنتەکان بار دەکرێن...</div></div>';
