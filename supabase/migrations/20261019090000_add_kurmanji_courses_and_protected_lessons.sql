@@ -1,7 +1,10 @@
 -- Kurmanji course registration, lesson content, and sequential access RPCs.
 -- Review before applying. This file is committed to the feature branch only.
 -- It has NOT been applied to the live Supabase project.
--- Source HTML is preserved in docs/kurmanji-content-seed-review.sql for audit.
+-- Review reference: docs/kurmanji-content-seed-part-01.sql through part-05.sql.
+-- IMPORTANT: the split seed package and this migration are not byte-identical;
+-- explanatory Sorani text has orthographic normalization in this migration.
+-- Verify semantic examples and source wording lesson-by-lesson before release.
 
 BEGIN;
 
