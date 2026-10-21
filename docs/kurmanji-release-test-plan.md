@@ -24,6 +24,13 @@ ORDER BY c.id;
 
 -- Expected: kurmanji-course-1 = 26/26; kurmanji-course-2 = 12/12.
 
+-- 1a. Verify the existing phonetics course total matches the authoritative 32-lesson registry.
+SELECT id, total_lessons
+FROM public.courses
+WHERE id = 'phonetics-phonology-kurdik';
+
+-- Expected: one row with total_lessons = 32.
+
 -- 2. Missing or duplicate lesson keys in each expected sequence.
 WITH expected AS (
   SELECT 'kurmanji-course-1'::text AS course_id,
