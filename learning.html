@@ -84,6 +84,7 @@ body.content-page{--ink:#17231f;--muted:#65716b;--green:#315344;--green2:#476b59
 
 /* Curriculum register */
 .learning-lessons{margin-top:34px;padding-top:31px;border-top:1px solid var(--line)}
+.learning-lessons[hidden]{display:none!important}
 .learning-lessons>h3{display:flex;align-items:center;gap:13px;margin:0 0 8px;color:var(--ink);font-size:1.65rem;font-weight:800}
 .learning-lessons>h3:before{content:"";width:5px;height:31px;border-radius:9px;background:var(--gold)}
 .learning-lessons>p{margin:0;color:var(--muted);line-height:2}
@@ -161,6 +162,7 @@ body.content-page{--ink:#17231f;--muted:#65716b;--green:#315344;--green2:#476b59
   south:document.getElementById("learningSouthChoices")
  };
  const status=document.getElementById("learningRegionStatus");
+ const generalCurriculum=document.querySelector(".learning-lessons");
  const labels={ "kurmanji-course-1":"ڕێنووسی سەرەتاییی کورمانجی","kurmanji-course-2":"مۆرفۆلۆجی و ڕێزمانی کورمانجی",kurmanji:"کورمانجی",hawrami:"هەورامی",kalhuri:"کەڵهوڕ",laki:"لەکی"};
  regionButtons.forEach(function(button){
   button.addEventListener("click",function(){
@@ -168,6 +170,7 @@ body.content-page{--ink:#17231f;--muted:#65716b;--green:#315344;--green2:#476b59
    const shouldOpen=button.getAttribute("aria-expanded")!=="true";
    regionButtons.forEach(function(other){other.setAttribute("aria-expanded",String(other===button&&shouldOpen));});
    Object.keys(choiceGroups).forEach(function(key){choiceGroups[key].hidden=!(key===region&&shouldOpen);});
+   if(generalCurriculum)generalCurriculum.hidden=region==="north"&&shouldOpen;
    const kurmanjiCourses=document.getElementById("learningKurmanjiCourses");
    if(kurmanjiCourses)kurmanjiCourses.hidden=true;
    const kurmanjiButton=document.querySelector('[data-learning-choice="kurmanji"]');
