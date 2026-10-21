@@ -151,6 +151,40 @@ for course_id, count in expected.items():
             "exactly once and in numeric order"
         )
 
+# The north-circle UI must route to its own Kurmanji courses rather than
+# leaving the general 58-lesson catalog visible.
+catalog_path = ROOT / "lessons" / "catalog.html"
+if not catalog_path.exists():
+    ERRORS.append("Missing lesson catalog: lessons/catalog.html")
+else:
+    catalog_html = catalog_path.read_text(encoding="utf-8")
+    for required in (
+        'data-language="kurmanji-course-1"',
+        'data-language="kurmanji-course-2"',
+        'if(language==="kurmanji-course-1"){window.location.href="../kurmanji-course-1.html";return;}',
+        'if(language==="kurmanji-course-2"){window.location.href="../kurmanji-course-2.html";return;}',
+        'northChoices.hidden=language!=="north"',
+        'catalogTools.hidden=true;catalog.hidden=true;overall.hidden=true;languageComing.hidden=true;',
+        '.catalog-tools[hidden],#catalog[hidden]',
+    ):
+        if required not in catalog_html:
+            ERRORS.append(f"North-circle catalog navigation is missing required behavior: {required}")
+
+learning_path = ROOT / "learning.html"
+if not learning_path.exists():
+    ERRORS.append("Missing learning pathway page: learning.html")
+else:
+    learning_html = learning_path.read_text(encoding="utf-8")
+    for required in (
+        'data-learning-region="north"',
+        'data-learning-choice="kurmanji"',
+        'data-learning-course="kurmanji-course-1"',
+        'data-learning-course="kurmanji-course-2"',
+        'id="learningKurmanjiCourses"',
+    ):
+        if required not in learning_html:
+            ERRORS.append(f"North-circle learning pathway is missing required selector: {required}")
+
 if ERRORS:
     print("\n".join(f"ERROR: {item}" for item in ERRORS))
     sys.exit(1)
