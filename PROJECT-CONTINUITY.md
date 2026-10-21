@@ -387,3 +387,24 @@
 
 دەقی دەست‌پێکردنەوە:
 > «PROJECT-CONTINUITY.md ـی `avasinim/zanztkurd` بخوێنەوە، بەتایبەتی بەشی “تۆماری بەردەوامیی نوێ — 2026-10-21”. سەرەتا دۆخی branch و migration ـەکان بە شێوەی read-only پشتڕاست بکەرەوە. بەبێ بەڵگە SQL دووبارە جێبەجێ مەکە، `main` و production مەدەستکاری، و هیچ داتای خوێندکار مەگۆڕە. لە mapping ـی migration SQL و test DB بەردەوام بە؛ پاشان ڕێڕەوی E2E ـی خوێندکار تاقی بکەرەوە. تەنها ئەنجامی پشتڕاستکراو تۆمار بکە.»
+
+
+## پشکنینی read-only ـی دواتر — 2026-10-21
+
+### پشتڕاستکردنەوەی فەنکشنەکان لە test DB
+ناوەڕۆکی ڕاستەقینەی فەنکشنەکان لە PostgreSQL خوێندرایەوە؛ ئەمانە ئەنجامی query ـن، نەک تەنها پشتبەستن بە migration file:
+- `student_has_enrollment(text)`: `SECURITY DEFINER`، `search_path='' `، تەنها enrollment ـی `auth.uid()` ـی خۆی دەبینێت، status ـی active/completed پشکنین دەکات؛ `anon EXECUTE=false` و `authenticated EXECUTE=true`.
+- `enroll_in_course(text)`: `SECURITY DEFINER`، `search_path=''`، `auth.uid()`، پشتڕاستکردنەوەی ئیمەیڵ/تەلەفۆن بۆ خوێندکار، دڵنیابوون لە بوونی کۆرس، پاراستنی status ـی completed؛ `anon EXECUTE=false` و `authenticated EXECUTE=true`.
+- `can_read_lesson_content(text,text)`: پێویستی بە user ID و enrollment هەیە، خاوەن bypass ـی تایبەتی هەیە، ڕیزبەندی وانە و key ـی کۆرس پشکنین دەکات؛ `anon EXECUTE=false` و `authenticated EXECUTE=true`.
+- `complete_lesson(text,text)`: پشکنینی user، verified account، enrollment و وانەی پێشوو؛ progress بە upsert تۆمار دەکات؛ `anon EXECUTE=false` و `authenticated EXECUTE=true`.
+- ئەم پشکنینە بەڵگەی دۆخی ئێستای DB ـە، بەڵام جێگەی browser E2E ناگرێتەوە.
+
+### دۆخی خشتە و policy ـەکان
+Query ـی read-only هەر ٦ خشتەی `courses`, `profiles`, `enrollments`, `lesson_progress`, `lesson_content`, `site_owners` پشتڕاستی کردەوە کە RLS چالاکە و `authenticated TRUNCATE=false` ـە.
+- `enrollments`: `authenticated INSERT=false`؛ policy ـی کۆنی `Students enroll themselves` نیە.
+- `courses`, `lesson_content`, `lesson_progress`, `profiles`, `site_owners`: table-level `authenticated INSERT=true` لە privilege query دەرکەوت، بەڵام ئەمە بە تەنها ڕێگەی نووسینی row نادات؛ RLS policy ـەکانیش دەبێت لەگەڵ role و row predicate ـەکانیان هەڵبسەنگێندرێن. بەتایبەتی policy ـەکانی owner-only بە تەنها نابێت بە هەڵە وەک دەستگەیشتنی گشتی لێک بدرێنەوە.
+- `lesson_progress`: INSERT/UPDATE/DELETE policy ـەکان owner-only نیشان دراون؛ خوێندکاران SELECT ـی خۆیان/خاوەن هەیە. `complete_lesson` بە `SECURITY DEFINER` progress تۆمار دەکات.
+- `profiles`: policy ـی SELECT بۆ profile ـی خۆی و UPDATE بۆ profile ـی خۆی هەیە؛ هەر پشکنینێکی زیادە دەبێت بە predicate ـی policy و column grants بکرێت، نەک تەنها table grants.
+
+### بڕیاری migration reconciliation
+هێشتا هیچ migration ـێک دووبارە جێبەجێ نەکراوە و هیچ migration history ـێک نەگۆڕدراوە. هەنگاوی داهاتوو دەبێت mapping ـی migration ID ↔ فایل ↔ SQL ـی ڕاستەقینە بە شێوەی read-only تەواو بکرێت. فایلە ونبووەکان تەنها دوای بەراوردی ورد و لە ڕێگای نووسینی پارێزراوی پەسەندکراو زیاد بکرێن؛ ئەگەر GitHub write tool ڕەت کردەوە، بە هیچ شێوەیەک بە workaround ـی ناپارێزراو تێپەڕ مەکە.
