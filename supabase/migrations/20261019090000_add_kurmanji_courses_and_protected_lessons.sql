@@ -12,6 +12,13 @@ VALUES
 ON CONFLICT (id) DO UPDATE
 SET title=EXCLUDED.title, description=EXCLUDED.description, total_lessons=EXCLUDED.total_lessons;
 
+-- The protected progression RPC below expects all 32 catalogued phonetics lessons.
+-- Keep the database completion total aligned with COURSE-REGISTRY.md and script.js.
+UPDATE public.courses
+SET total_lessons = 32
+WHERE id = 'phonetics-phonology-kurdik'
+  AND total_lessons <> 32;
+
 INSERT INTO public.lesson_content (lesson_key, course_id, title, content_html, updated_at)
 VALUES
 ('kurmanji-course-1-lesson-01.html','kurmanji-course-1','ناسینی کورمانجی و چوارچێوەی ڕێنووسی لاتینی','<section class="klesson-card"><h2>١. کورمانجی چییە؟</h2><p>کورمانجی (Kurmancî) یەکێکە لە شێوە و ڕێڕەوە زمانییە سەرەکییەکانی کوردی. لە زۆرێک لە بەکارهێنانە نووسراوە هاوچەرخەکاندا، کورمانجی بە ئەلفبێی لاتینیی هاوار دەنووسرێت. ئەم وانەیە ئەم سیستەمەی نووسین دەکاتە بابەتی سەرەکی؛ بەڵام نابێت ئەلفبێی نووسین لە خودی زمان یان لە هەموو تایبەتمەندییە دەنگییەکانی جیاوازییە زمانییەکان یەکسان بگیرێت.</p></section>
