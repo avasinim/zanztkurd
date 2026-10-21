@@ -385,3 +385,20 @@ Attributive adjectives in Kurmanji normally follow the noun and are linked by ez
 
 ### Result
 **Core comparative and superlative patterns are supported; lesson 22 is partially source-verified.** The main unresolved points are spelling/dialect consistency, contextual interpretation of the comparison example, and keeping degree adverbs distinct from suffixal comparison. No lesson text, seed SQL, migration, main, or production database was changed; this entry only records the audit findings.
+
+## Source review — course 1, lesson 23: nouns and determiners (2026-10-21)
+
+### Claims corroborated
+- Standard Kurmanji has no dedicated general definite article corresponding to Sorani -aka/-akan; bare nouns can be definite or generic according to context. Indefiniteness on singular nouns is commonly marked by -ek. Haig & Öpengin (2018), §2.2 and Table 7: https://doi.org/10.1515/9783110421682-004 ; open chapter: https://multicast.aspra.uni-bamberg.de/data/pubs/Haig2018_Northern-Kurdish_Kurmanji.pdf
+- The lesson's core case/indefiniteness paradigm is confirmed: masculine gund / gund-î / gund-ek / gund-ek-î; feminine jin / jin-ê / jin-ek / jin-ek-ê. However, the oblique case is grammatical and has several functions (including present-tense transitive objects, adposition complements, possessors in ezafe, and subjects of past-tense transitive clauses); it should not be glossed merely as “object case.” The marking also shows dialectal variation and may be absent on bare masculine singular nouns in some varieties. Sources: Haig & Öpengin 2018, Table 7 and §2.2; Haig & Öpengin 2015: https://www.uni-bamberg.de/fileadmin/aspra/06_Team/Publications_and_CV/haig_opengin_2015_gender_kurdish_offprint.pdf
+- The proximal/distal distinction ev ‘this’ and ew ‘that’ is valid. The standard oblique demonstrative forms are proximal vî (masculine singular), vê (feminine singular), van (plural), and distal wî, wê, wan respectively. Haig & Öpengin 2018, Table 10, also notes regional variation and demonstrative-related clitics/suffixes on the noun phrase.
+
+### Items needing editorial or source-specific checking
+1. **“No definite marker” needs a careful qualification.** Say that Kurmanji lacks a single general definite article comparable to Sorani -aka/-akan; bare nouns receive definite or generic readings from context. Avoid claiming that no variety or construction has any additional definiteness-related marking.
+2. **Direct/oblique labels:** the lesson correctly gives the core singular paradigm, but explain that direct vs oblique is not simply nominative vs accusative and is not synonymous with subject vs object. The past-tense transitive alignment differs from present-tense patterns.
+3. **Demonstratives:** ev pirtûk / ew pirtûk are useful direct-case beginner forms. Add or clearly defer oblique examples (li vî welatî; vê jinê; wî mêrîkî) and plural van/wan, so learners do not infer that ev/ew remain unchanged in all syntactic contexts.
+4. **“ev jin” and “ew pirtûk”:** these are bare demonstrative-NP examples; translations such as “this woman/that book” are context-appropriate, but full case-marked forms depend on their grammatical role.
+5. Sorani glosses and any claim contrasting Kurmanji with Sorani should receive Kurdish editorial review; keep the contrast specific to the standard varieties described by the cited source.
+
+### Result
+**The lesson's core indefinite suffix and singular case forms are source-supported.** Its key teaching caveat is to introduce the oblique case as a grammatical pattern with several functions and to show that demonstratives inflect in oblique contexts; dialect variation should be acknowledged. Only this audit document was appended; lesson text, seed SQL, migrations, main, and production database were not changed.
