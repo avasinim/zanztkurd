@@ -790,3 +790,19 @@ Before making any lesson edits, prepare a proposed correction plan grouped by se
   5. The cited sources are appropriate in topic, but the lesson should add precise subsection/table or page locators, and confirm the Arizona page’s current contents when the final bibliography is prepared.
 - **Disposition:** The central orthographic correspondences are broadly sound. The main scientific risk is that the compact table may be read as a complete and dialect-neutral phoneme inventory, especially for aspiration and R/RR. Recommendations only; no lesson content has been changed.
 - **Scope guard:** Only `docs/KURMANJI-RELEASE-AUDIT.md` was updated. No lesson body, seed SQL, migration, production database, or `main` branch was modified. This entry does not establish that CI passed or that PR #3 is release-ready.
+
+## Course 1 — Lesson 05 source audit
+
+- **Seed source:** `docs/kurmanji-content-seed-part-01.sql`
+- **Seed key:** `kurmanji-course-1-lesson-05.html`
+- **Title:** پیتە تایبەتەکان: ç، ş، ê، î، û
+- **Scope checked:** the five marked letters, example words and Sorani glosses, uppercase/lowercase forms, spelling exercises, and listed references.
+- **Authoritative source checked:** University of Arizona, Iranian Languages, “Kurmanji Kurdish,” which lists the standard letter-to-IPA correspondences and example words for all five letters; Haig (2018), “Northern Kurdish (Kurmanjî),” for vowel categories and dialect variation. See [University of Arizona phonology and orthography](https://iranian-languages.arizona.edu/node/7) and [Haig 2018 chapter PDF](https://multicast.aspra.uni-bamberg.de/data/pubs/Haig2018_Northern-Kurdish_Kurmanji.pdf).
+- **What is sound:** The lesson correctly treats `ç, ş, ê, î, û` as distinct letters in standard Latin-based Kurmanji orthography, not decorative marks. The correspondences `ç` /t͡ʃ/, `ş` /ʃ/, `ê` /e/, `î` /i/, and `û` /u/ are consistent with the Arizona chart. The examples `çak` (“good”), `şaş` (“wrong”), `êş` (“pain”), `îro` (“today”), and `bûz` (“ice”) are listed there with the same glosses.
+- **Issues / recommendations for a later approved content pass:**
+  1. Make clear that the five marked letters are part of the 31-letter Latin-based orthography, but they are not all the same phonological type: `ç` and `ş` are consonant letters, while `ê`, `î`, and `û` are vowel letters.
+  2. Add the IPA or an accessible pronunciation cue beside each example, with a note that actual phonetic realization may vary by dialect; do not imply that a single pronunciation guide captures every variety.
+  3. The exercise to copy the uppercase/lowercase forms is appropriate, but the later exercise asking learners to find further examples should include a source-checked worked example and an answer key.
+  4. Add a precise locator to the Arizona source’s orthography table and the relevant vowel discussion in Haig (2018); the general links are relevant, but currently the lesson does not specify table/section/page locators.
+- **Disposition:** The core letter inventory, example spellings, and glosses are supported by the cited phonology/orthography resource. The main remaining needs are clearer consonant-versus-vowel grouping, pronunciation support, and more traceable citations. Recommendations only; no lesson content has been changed.
+- **Scope guard:** Only `docs/KURMANJI-RELEASE-AUDIT.md` was updated. No lesson body, seed SQL, migration, production database, or `main` branch was modified. This entry does not establish that CI passed or that PR #3 is release-ready.
