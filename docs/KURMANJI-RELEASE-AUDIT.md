@@ -1443,3 +1443,16 @@ Before making any lesson edits, prepare a proposed correction plan grouped by se
 - Updated `scripts/validate_kurmanji_package.py` on `kurmanji-clean-release` to verify required Avasin replacement mappings instead of requiring the normalizer to skip lesson content, and to accept the current placeholder spelling plus existing legacy variants. This aligns the static checks with the established Avasin normalization behavior; it does not change lesson content, the runtime script, seeds, SQL, or migrations.
 - Re-read the updated validator through GitHub after the commit. Commit: `462a35c35f73dcb790096fdd0ef491f0b8b5f4bb`. The updated validator has not yet been confirmed by a fresh CI run, and browser tests remain unverified; do not mark the package validation as passing until a new run confirms it.
 - Scope: validator and this audit log only. No `main`, PR #3 merge, production Supabase, production database, seed execution, or migration changes.
+
+
+## Test-project lesson-content key and course-ID mismatch — read-only check — 2026-10-22
+- Target confirmed by project metadata as `zanztkurd-kurmanji-test` (`juwsjljbdwyncicybwoq`), region `us-west-2`, status `ACTIVE_HEALTHY`. All SQL in this check was read-only; no production project was queried or modified.
+- Current source wrappers use the expected production course IDs and static keys: Course 1 pages such as `lessons/017.html` declare `data-lesson-key="017.html"`; the Course 2 page `lessons/course-2-01.html` declares `data-lesson-key="course-2-01.html"`. `script.js` fetches `lesson_content.content_html` by the exact `data-lesson-key` and does not use a local HTML fallback when the row is missing.
+- The test database has 4 course records. Read-only aggregate query returned:
+  - `orthography-kurdik`: configured for 26 lessons, **0** `lesson_content` rows.
+  - `phonetics-phonology-kurdik`: configured for 32 lessons, **0** `lesson_content` rows.
+  - `kurmanji-course-1`: 26 rows, keys in the `kurmanji-course-1-lesson-NN.html` format.
+  - `kurmanji-course-2`: 12 rows, keys in the `kurmanji-course-2-lesson-NN.html` format.
+- The two sets of existing 38 rows therefore do not match the current static site course IDs or keys. The static loader's exact-key lookup means the current site's 26 + 32 lesson pages cannot obtain content from these rows in this test database. This is a confirmed test-environment data mismatch, not evidence by itself about the production database.
+- Migration history in the test project lists 14 entries (baseline through `20261021112047_remove_redundant_student_enrollment_insert_policy_test`). The earlier repository history noted more migration files in the protected branch. Do not run missing migrations or insert/update content as part of this audit; first reconcile the authoritative source migration/seed payload and compare exact lesson keys and HTML. No writes, migrations, seed execution, lesson-body changes, or production access were performed.
+- Next safe step: inspect the branch's source-of-truth content migration/seed for the `orthography-kurdik` 26 keys and `phonetics-phonology-kurdik` 32 keys, then make a non-destructive diff against the test DB. Only after verifying exact content should any test DB repair be proposed separately. Production remains untouched and protected.
