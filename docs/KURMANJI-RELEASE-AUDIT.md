@@ -2374,3 +2374,8 @@ Read-only comparison of seed and test DB bodies confirms that matching titles/he
 - Lesson 07: seed attributes the direct/oblique pronoun table to Haig (2018); DB attributes it to Haig and Öpengin (2018). Approximate lengths: seed 2,307; DB 2,218.
 
 These are source-attribution and body-content differences, not safe automatic orthography-only fixes. Verify each claim against the exact publication before changing either source. Preserve Latin Kurmanji examples unless evidence supports a correction. The three test-project rows were read with SELECT only; no lesson, seed, migration, or database content was changed.
+
+
+## Source verification: Ezafe examples in lessons 05–06 — 2026-10-22
+
+Checked the University of Bamberg-hosted Haig (2018) chapter, section §2.3.1, “The ezafe construction”. It explicitly gives (4) `bajar-ek-î mezin` glossed “a big town” and (5) `mal-a me` glossed “our house”. This directly supports the seed's attribution of these two examples to Geoffrey Haig (2018), “Northern Kurdish (Kurmanjî)”, pp. 106–158, §2.3.1. The Bamberg bibliographic record identifies Haig as the chapter's sole author and Haig and Geoffrey Khan as editors of the book. The separate Haig & Öpengin (2018) work is “Kurmanji Kurdish in Turkey: Structure, varieties, and status”, in a different edited volume. Therefore, for these exact examples, the DB attribution to “Haig و Öpengin” is not supported by the cited passage; keep the finding scoped to these examples and do not generalize it to every lesson claim without checking its source. No lesson content or database row was changed; this update records source evidence only.
