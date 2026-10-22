@@ -1201,3 +1201,9 @@ Before making any lesson edits, prepare a proposed correction plan grouped by se
 - Parsed the 38 seed-row HTML fragments (course 1 lessons 01–26; course 2 lessons 01–12) with a row-boundary-aware static scan. Every record contains 4–7 `klesson-card` sections and 4–7 `h2` headings; each has a source/reference section. No record showed an empty paragraph, empty list item, or a heading/card count below the scan's minimum threshold.
 - No source files changed in this pass; the scan found no clear structural defect warranting an edit.
 - **Scope:** counts and simple empty-element patterns only; this is not full HTML validation, pedagogical review, or proof that every claim is supported by a source. Seed SQL remains unexecuted; no changes to `main`, migrations, or production DB; no browser/CI pass is claimed.
+
+
+## Seed lesson-link destination sweep — 38 Kurmanji records
+- Re-scanned all five draft seed SQL files (38 lesson HTML fragments) and extracted unique `href` values.
+- Found 19 distinct href destinations; all are absolute external HTTP(S) URLs. No relative/local lesson-content hrefs were present, so there were no repository-local destination paths to resolve and no broken local hrefs to repair in this scope.
+- No source files changed. This is a static href inventory only: it does not establish that external sites are currently reachable, safe, or that linked resources support every nearby claim. Seed files were not executed; no migrations, production DB, or `main` changes.
