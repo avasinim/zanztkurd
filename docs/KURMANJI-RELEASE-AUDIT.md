@@ -1237,3 +1237,10 @@ Before making any lesson edits, prepare a proposed correction plan grouped by se
 - Compared the active Avasin text-normalization spellings in `script.js` against all 38 HTML fragments in the five draft Kurmanji seed parts, including occurrences inside `<code>`/`<pre>` blocks.
 - Result: none of the scanned fragments contain the listed legacy Sorani spellings targeted by the normalizer; no potential lesson-example collision was identified in this seed corpus.
 - Scope limitation: this is a static check of these 38 seed fragments only, not all site pages or dynamic text from external services. No lesson or runtime code was changed; seed SQL was not executed.
+
+
+## Protected lesson-wrapper navigation and runtime include recheck — 2026-10-22
+- Re-fetched and checked all 38 Kurmanji lesson wrapper HTML files (Course 1: 26; Course 2: 12) on `kurmanji-clean-release`.
+- Each wrapper's `data-lesson-key` equals its filename; each includes exactly one `script.js?v=20261019-kurmanji-protected` reference; expected within-course previous/next lesson destinations are present, with no previous link on lesson 1 and no next link on each course's final lesson.
+- Result: 38/38 passed these static wrapper checks; no correction was needed.
+- Scope limitation: verifies source markup and link targets only; it does not exercise browser navigation, auth/enrollment gates, or lesson completion. No production, migration, or seed changes were made.
