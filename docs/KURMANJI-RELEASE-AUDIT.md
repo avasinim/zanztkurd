@@ -1384,3 +1384,12 @@ Before making any lesson edits, prepare a proposed correction plan grouped by se
 - Re-fetched all four files after reverting; each contains `بڕگە` in the relevant content and the replacement introduced in the previous audit is absent from these files.
 - Going forward, preserve `بڕگە` and do not automatically normalize this term to `هجا`; follow the owner's latest explicit instruction for this terminology. The previous audit entry above records the historical change, but this correction supersedes its recommendation.
 - Scope: only the four content/catalog files and this audit log were updated. No lesson science, Latin Kurmanji forms, SQL, migrations, `main`, production Supabase, or production DB changes.
+
+
+## Static audit: Course 2 lesson-page wiring and navigation — 2026-10-22
+- Reviewed `lessons/course-2-01.html` through `lessons/course-2-32.html` on `kurmanji-clean-release`.
+- All 32 pages have a `.lesson-content` container whose `data-lesson-key` matches that page's filename (`course-2-NN.html`), and all include the shared `../script.js?v=20261014-academic-ui-cascade-fix` loader.
+- The previous/next links form a continuous sequence: lesson 01 has no previous link, lesson 32 has no next link, and intermediate pages point to the immediately adjacent lesson. All checked pages include lesson navigation.
+- The visible page titles follow the numbered sequence 1–32. The shared loader queries `lesson_content` by the exact `data-lesson-key`, displays a clear error if content is unavailable, and does not silently substitute a different lesson.
+- No definite static HTML wiring/navigation defect was found, so no lesson page or scientific text was changed. The page content itself is served from `lesson_content`; this source inspection does not prove that the matching rows exist in a live/test database or that runtime rendering succeeds. No database, migration, seed, `main`, or production changes were made.
+- Terminology note for human review only: the title of Course 2 lesson 16 uses `سیلاب`, while lesson 6 uses `بڕگە`. No automatic replacement was made; preserve `بڕگە` and do not normalize it to `هجا`.
