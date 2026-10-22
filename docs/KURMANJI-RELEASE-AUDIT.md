@@ -2000,3 +2000,13 @@ No HTML, `script.js`, seed file, migration, `main`, PR #3, or database was chang
 - The source tree contains book-derived Markdown lessons in `lessons/section-07/`, but that folder represents a book section (“writing system”), and the repository's mapping rules explicitly say site lesson numbers are not interchangeable with book lesson/section numbers. Therefore those Markdown files cannot safely be bulk-mapped to the 32 phonetics course pages without a verified per-lesson mapping.
 - Safe decision: no course HTML, seed, migrations, database records, lesson text, title, or progression logic changed. Before implementation, reconcile the implementation note with test data and identify the authoritative source for each of the 32 lesson bodies. Preserve the official titles and Avasin orthography, and do not invent or copy content across mismatched mappings.
 
+
+
+### Duplicate-content suspicion — static-shell comparison — 2026-10-22
+
+- Compared the static HTML shells for `lessons/course-2-01.html`, `course-2-02.html`, `course-2-03.html`, `course-2-25.html`, `course-2-26.html`, and `course-2-32.html` on `kurmanji-clean-release`.
+- Confirmed: these pages reuse a very similar HTML/CSS layout and loading placeholder. The lesson-specific title, metadata, `data-lesson-key`, and previous/next navigation differ, but the scientific lesson body is not embedded in the page. The placeholder says the lesson content is loading; `script.js` is responsible for retrieving it by exact key from `lesson_content`.
+- Therefore the visual/structural repetition is real, but it does **not** prove the actual scientific lesson bodies are duplicates. Since the read-only test database query found zero rows for `phonetics-phonology-kurdik`, the available test evidence cannot compare the 32 intended bodies or determine whether they repeat each other. It does show that the course body content is not provisioned in that test database.
+- Next safe audit: obtain the actual 32 content bodies from a verified, authorized source and compare normalized text hashes plus section/paragraph similarity, then manually review likely duplicates against the source book. Do not manufacture missing bodies, bulk-map unrelated Markdown lessons, or change production/test data without approval.
+- No lesson page, course title, seed, migration, or database row was changed in this check.
+
