@@ -2,7 +2,7 @@ name: Validate Kurmanji course package
 
 on:
   push:
-    branches: ["kurmanji-test-config"]
+    branches: ["kurmanji-test-config", "kurmanji-clean-release"]
     paths:
       - "kurmanji-course-*.html"
       - "learning.html"
