@@ -1172,3 +1172,11 @@ Before making any lesson edits, prepare a proposed correction plan grouped by se
 - The comparison exposed legacy Sorani spellings in seed parts 01 and 03 (part 02 already had none of the tracked forms). Applied only the established Avasin text substitutions to those seed HTML strings; no Kurmanji Latin forms, lesson topics, examples, row keys, or SQL execution behavior were changed. Seed part 01 commit: `c7fbc0d`; seed part 03 commit: `d330020`.
 - Re-fetched seed parts 01–03 after the edits. The tracked legacy forms `نووسراوە`, `نووسینی`, `نووسین`, `فێربوون`, `هەموو`, `نموونە`, `پێویست`, `ڕوون`, `ناوەڕۆک`, `چییە`, `نییە`, and `دەستپێکردن` are absent from all three files.
 - **Limit of this pass:** the wrappers intentionally load lesson-card HTML by key; this check establishes wrapper/seed identity and title parity, not a live Supabase render or a complete byte-for-byte/semantic audit of all lesson bodies. Seed SQL was not executed. No changes to `main`, migrations, or production DB; no browser/CI pass is claimed.
+
+
+## Duplicate DOI-link cleanup — Course 2 seed lessons 01–11
+
+- A targeted reference-link scan found the same DOI anchor repeated twice in the Haig & Öpengin (2018) reference in course 2 seed lessons 01–11 (11 rows across seed parts 04 and 05). Lesson 12 had already been cleaned in an earlier audit.
+- Removed only the second identical DOI anchor and its separator in those 11 seed records; the bibliographic citation and single working DOI link remain. Commits: seed part 04 `80fe36a`; seed part 05 `8e8a9b9`.
+- Re-fetched both seed files. Each of the 12 course 2 seed records now contains exactly one occurrence of that DOI URL, and the repeated-anchor pattern is absent. No lesson text, linguistic examples, row keys, or reference metadata was changed.
+- Seed SQL remains unexecuted. No changes to `main`, migrations, or production DB; no browser/CI pass is claimed.
