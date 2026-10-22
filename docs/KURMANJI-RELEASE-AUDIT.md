@@ -1270,3 +1270,9 @@ Before making any lesson edits, prepare a proposed correction plan grouped by se
 - Compared every lesson pagePath in lessons/index.json against the files present in the lessons directory on kurmanji-clean-release.
 - All 74 index entries point to an existing file; no duplicate lesson IDs or duplicate pagePath values were found. The directory listing contains 80 HTML files, including non-indexed support/legacy pages, so this check validates the 74 catalog data references rather than asserting that every HTML file is a catalog lesson.
 - No source edit was needed. Static repository check only; no browser navigation/runtime test, and no main, migration, seed execution, or production database change.
+
+
+## Catalog logical-lesson progression and completion-key reconciliation — 2026-10-22
+- Compared `lessons/index.json` logical grouping against the inline catalog renderer in `lessons/catalog.html`. The index contains 58 logical lesson IDs across the two Kurdish phonetics/writing courses (26 course-current + 32 course-2); repeated `courseLessonNumber` values in course-current correctly represent multi-page lessons, not duplicate logical units.
+- Verified the catalog's `c1Ends` server-progress mapping has all 26 logical course-current numbers and each mapped final HTML page agrees with the last page listed for that logical lesson in the index. The course-2 progress resolver matches the `course-2-NN.html` naming pattern, and both lesson course IDs have corresponding course metadata (course-2 is also defensively supplied by the renderer).
+- Result: no mismatch or safe source correction identified. The check is static; it does not query Supabase progress, test auth/owner behavior, or run the catalog in a browser. No seed SQL or migrations were executed; no production DB or `main` changes.
