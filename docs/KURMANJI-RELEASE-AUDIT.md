@@ -2148,3 +2148,8 @@ In Northern Circle course 2 lesson 4 (indefinite nouns and `-ek`), clarified the
 ### Clarified ezafe and oblique possessor in `mal-a me` — 2026-10-22
 
 In Northern Circle course 2 lesson 6, expanded the explanation of `mal-a me` (“our house”): `-a` is the ezafe linker connecting the noun with its possessor, while `me` is the oblique form corresponding to direct `em`, used here as the possessor. This makes the distinction between the ezafe linker and the possessor pronoun explicit. The example is preserved. Checked against Haig (2018), “Northern Kurdish (Kurmanjî),” and its treatment of noun case and ezafe: https://doi.org/10.1515/9783110421682-004. No migrations, main branch, or production database were changed.
+
+
+### Clarified ezafe agreement and indefinite noun phrase — 2026-10-22
+
+In Northern Circle course 2 lesson 5, clarified the analysis of `bajar-ek-î mezin`: `-ek` marks indefiniteness, `-î` is the masculine ezafe linker, and `mezin` is the adjective, which remains uninflected in this ezafe construction. Softened the broad statement about ezafe agreement by noting variation in forms following indefinite `-ek`. Also reiterated that possessors in ezafe constructions use oblique forms. This is grounded in Haig (2018), “Northern Kurdish (Kurmanjî),” §2.3.1, example (4) and the accompanying discussion: https://doi.org/10.1515/9783110421682-004. No source text was invented and no production resources were changed.
