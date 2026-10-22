@@ -1919,3 +1919,10 @@ Read-only follow-up of `lessons/index.json` confirms that the `058.html` inconsi
 - This inspection does not establish the live database's applied migration state, current rows, or runtime behavior. No attempt was made to query or modify any database. Do not resolve this by editing a migration or production data without explicit authorization and a reviewed compatibility plan; first reconcile the intended course scope, progress counting, prerequisite sequence, and existing student progress.
 - No HTML, JavaScript, catalog, seed, migration, or database changes were made for this finding. Static source review only; no browser/runtime test. No changes to `main`, production Supabase, migrations, or PR #3.
 
+### 2026-10-22 — Cross-check of Course 2 progress reporting versus access/completion gates
+- Compared `20261011104927_align_course_2_to_source_lessons_25_27.sql` with `20261013085913_admin_progress_reporting_consistency.sql`, `supabase/schema.sql`, and the static shell for `course-2-28.html`.
+- Confirmed the repository contains two conflicting definitions of Course 2 scope: the access/completion functions in the inspected 2026-10-11 migration and the `courses.total_lessons` update use 27; the 2026-10-13 admin progress-reporting function explicitly counts keys 01–32; the base schema initializes the course at 25; and the current UI exposes 32 lessons. Thus admin progress counting, course completion thresholds, and lesson-access gates are not demonstrably aligned in source.
+- The static shell for lesson 28 uses the expected `course-2-28.html` key and links to lessons 27 and 29, but that alone cannot guarantee the database RPC accepts lesson 28 or that content rows exist.
+- This is a cross-file static consistency finding, not a claim about the currently applied live database state. No migrations or schema files were changed, and no database was queried or modified. Resolve only after agreeing the authoritative course scope and reviewing existing progress/enrollment implications.
+- Audit file updated and re-read after write. No changes to `main`, production Supabase, migrations, or PR #3.
+
