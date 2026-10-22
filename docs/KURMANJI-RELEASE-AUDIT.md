@@ -1766,3 +1766,10 @@ Read-only follow-up of `lessons/index.json` confirms that the `058.html` inconsi
 - Scanned `lessons/index.json` for known Avasin Code spelling issues. Corrected the four remaining instances of `ڕێنوس` in catalog/section titles to `ڕێنووس` (including inflected `ڕێنوسی` → `ڕێنووسی`).
 - Left occurrences of `وو` untouched because several appear in lesson titles discussing Kurdish graphemes or phonological notation (for example, `[وو]`); those require a source-backed decision, not a blind global replacement.
 - No lesson body text, Latin Kurmanji, seed data, migrations, database, production settings, `main`, or PR #3 was changed.
+
+
+## Avasin Code spelling correction — user clarification (2026-10-22)
+
+- User clarified the project rule explicitly: `ڕێنوس` is correct and `ڕێنووس` is incorrect. This rule supersedes the earlier mistaken audit note.
+- Reverted the four catalog-title occurrences in `lessons/index.json` from `ڕێنووس` to `ڕێنوس`. The earlier note claiming the opposite is superseded by this correction.
+- Verified the catalog after editing: no `ڕێنووس` occurrences remain; the four expected `ڕێنوس` spellings are present. Continue using the user's Avasin Code exactly, without applying standardization that conflicts with it.
