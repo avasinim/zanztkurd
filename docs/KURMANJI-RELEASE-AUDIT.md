@@ -2443,3 +2443,12 @@ The user tested the deployed catalog and reported that the Northern Circle butto
 - Do not merge PR #3 wholesale, change `main`, or write to production Supabase without explicit approval. First finish source/content and migration/RPC review, test in an isolated non-production environment, and then propose a narrowly scoped release.
 - No code, production branch, or database was changed as part of this live-site diagnosis.
 
+
+
+## Branch navigation cross-check — 2026-10-22
+
+A read-only inspection of `lessons/catalog.html` on `kurmanji-clean-release` confirms that the Northern Circle choices already include two distinct entries: `kurmanji-course-1` (26 lessons) and `kurmanji-course-2` (12 lessons). The `applyLanguageView(language)` handler routes those exact identifiers to the matching root-level landing pages, `../kurmanji-course-1.html` and `../kurmanji-course-2.html`. Thus, on the protected branch, the selector-to-landing-page wiring is present; the observed live-site symptom is consistent with the deployed catalog being an older version, not evidence that this branch handler is missing those routes.
+
+This does **not** clear the release for deployment: the live production project still has no `lesson_content` rows for either Kurmanji course, and its current `can_read_lesson_content` / `complete_lesson` functions do not support these course IDs. The catalog, landing pages, lesson shells, content rows, and RPC/access-control changes must be validated and released as one coordinated package after source reconciliation and isolated-environment testing.
+
+Scope: read-only branch inspection and audit documentation only. No catalog code, lesson content, migration, `main`, or production database was changed.
