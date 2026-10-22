@@ -1897,3 +1897,10 @@ Read-only follow-up of `lessons/index.json` confirms that the `058.html` inconsi
 - Re-fetched static shells `017.html` through `022.html`. Each existing page has a matching `data-lesson-key`, exactly one shared `script.js` include, and visible titles aligned with the catalog entries. The prev/next chain runs from page 017 (first course lesson; no previous link) through 018–022 and onward to 023.
 - Catalog entries `017.html`–`022.html` are each registered once in `section-07`, with logical Course 1 lesson numbers 1–6. The repository does not contain `015.html` or `016.html`; the catalog likewise has no entries for those filenames, so no missing-link repair is indicated by this check.
 - No definite defect found; no lesson/catalog edits made. Static repository inspection only—not a browser rendering, scientific body/seed comparison, runtime key check, or database test.
+
+
+### 2026-10-22 — Course 1 early filename range check (001–016)
+- Checked repository presence and catalog registration for physical page filenames `001.html`–`016.html` under `lessons/`.
+- None of these sixteen filenames exists on the protected branch, and none is registered in `lessons/index.json`. The actual Course 1 catalog begins at `017.html`, mapped to logical learner lesson 1; the previously audited 017–022 chain continues onward.
+- This confirms a filename/catalog gap only; it does not establish that lesson content was deleted or that files should be recreated. No replacement pages, catalog entries, lesson text, seed, migration, or database changes were made.
+- Static GitHub repository inspection only; no browser, runtime-content, or scientific-source validation. No changes to `main`, production Supabase, migrations, or PR #3.
