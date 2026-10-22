@@ -1786,7 +1786,7 @@ Read-only follow-up of `lessons/index.json` confirms that the `058.html` inconsi
 ## Course 2 lessons 7–10: branding audit (2026-10-22)
 
 - Continued the same safe branding scan through lessons 7–10. Each page had the incorrect brand `ئەکادێمای ئاڤاشین` twice, in the document title and site header.
-- Corrected eight occurrences to `ئەکادێمیای ئاڤاشین`. Lesson 6 was rechecked and already had the approved brand and the Avasin term `هجا`; no change was needed there.
+- Corrected eight occurrences to `ئەکادێمیای ئاڤاشین`. Lesson 6 was rechecked and already had the approved brand; it did not contain the disallowed term `هجا`, so no orthographic change was needed there.
 - No lesson scientific prose, phonetic/phonological notation, lesson keys, routes, or scripts were changed.
 
 ## Course 2 lessons 16–20: branding audit (2026-10-22)
