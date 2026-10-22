@@ -2038,3 +2038,20 @@ No HTML, `script.js`, seed file, migration, `main`, PR #3, or database was chang
 - Source notes inside the checked-in seed bodies name Geoffrey Haig (2018), W. M. Thackston (2006), University of Arizona's “Kurmanji Kurdish — Phonology and Orthography,” and other listed references in early lessons. The course-2 seed repeats the Haig/Thackston source note across its grammar lessons. This audit does not treat Sabir Jakaw's book as an authority for Northern Circle.
 - Safe conclusion: no exact duplicated body was detected in the 38 seed rows, but the overlap in the two courses' learning objectives is real enough to merit a lesson-by-lesson progression audit. Before changing content, check the cited Northern Kurdish/Kurmanji references and the actual source editions/sections. No lesson text, seed, migration, database row, production branch, or production database was changed.
 
+
+
+### Northern Circle progression audit — course 1 vs course 2 — 2026-10-22
+
+- Scope: the 26 course-1 lessons and 12 course-2 lessons in the five checked-in Northern Circle seed files only. The seed records include distinct lesson-specific section headings; the course-2 lessons also share a consistent “methodological note / review questions / sources” structure, which is expected scaffolding and is not itself proof of duplicated teaching content.
+- Potentially overlapping learning outcomes requiring a pedagogical check (not automatic deletion):
+  - Course 1 lesson 11 (personal pronouns) and course 2 lesson 7 (personal pronouns plus direct/oblique case and past-system alignment).
+  - Course 1 lesson 17 (basic present-tense verbs) and course 2 lessons 8–9 (verb roots/person/number and present/past/future).
+  - Course 1 lesson 18 (negation in simple sentences) and course 2 lesson 10 (negative and interrogative sentences).
+  - Course 1 lesson 20 (word order) and course 2 lesson 11 (word order, noun phrase, information structure).
+  - Course 1 lesson 23 (nouns and determiners) and course 2 lessons 3–4 (grammatical gender/number, definiteness/indefiniteness, -ek).
+  - Course 1 lesson 24 (possessive expressions) and course 2 lesson 6 (possessive construction/pronouns and xwe).
+  - Course 1 lesson 25 (direct/oblique case) and course 2 lesson 7 (personal pronouns, case and past-system alignment).
+- The titles and section headings suggest a possible progression from introductory use in course 1 to explicit grammatical analysis in course 2, so the overlap may be intentional. To verify, each paired lesson needs a concept-by-concept comparison: introductory goal, new rule, examples, exercises, and expected learner outcome. Keep both lessons when course 2 adds demonstrably new analysis; revise only if the same explanation/examples are repeated without a higher-level learning objective.
+- Source quality observation: lessons 1–6 already note that some bibliographic details or page references still need verification; later course-1 lessons generally include source lists, but the seed text alone does not establish that each cited claim/example was checked against the cited page. Record precise edition, section/page, and accessible stable URL/DOI where available before public release. Do not replace sources with Sabir Jakaw's book for Northern Circle.
+- No source-backed evidence currently justifies deleting or merging any of these lessons. This remains a flagged curriculum-progression review, not a confirmed duplicate-body finding. No lesson content, seed, migration, database row, production branch, or production database was changed.
+
