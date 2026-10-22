@@ -104,3 +104,16 @@ A focused read of the proposed `complete_lesson(text,text)` body found a course-
 This may be a deliberate administrator convenience, not automatically a defect. However, the different owner behavior between courses is material and should not be accidental. Before approving the migration, choose one policy explicitly: (a) owners may bypass lesson sequencing for all courses, (b) owners must follow sequencing for all courses, or (c) preserve the existing course-specific behavior with a documented reason and tests. Test owner access to an unknown course/key as well as owner completion of a later lesson without prior progress.
 
 This is a static code review only. No function was executed, and no migration, database, lesson content, or production branch was changed.
+
+
+## Migration lesson-key coverage check — 2026-10-22
+
+A static scan of the current proposed migration (`supabase/migrations/20261019090000_add_kurmanji_courses_and_protected_lessons.sql`, blob `d1f17442ddb3bb8e6b5f2384bdcd14f6e1e451a9`) checked the lesson-content VALUES keys against the intended course ranges:
+
+- Course 1: 26 matching lesson keys, numbered 01–26.
+- Course 2: 12 matching lesson keys, numbered 01–12.
+- Total: 38 keys; no duplicate, missing, or unexpected Kurmanji lesson keys found by this static check.
+- The SQL file has an explicit `BEGIN` / `COMMIT` transaction boundary.
+- The migration does not create a `lesson_content` RLS policy and does not define `enroll_in_course(text)`; it relies on the existing target schema's policy and enrollment RPC. This dependency must be rechecked against the exact deployment target and is not evidence that a live rollout is ready.
+
+This check validates key coverage only; it does not validate lesson-body scientific accuracy, seed equivalence, database execution, or learner-facing runtime behavior. No database or application code was changed.
