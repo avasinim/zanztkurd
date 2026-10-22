@@ -1788,3 +1788,11 @@ Read-only follow-up of `lessons/index.json` confirms that the `058.html` inconsi
 - Continued the same safe branding scan through lessons 7–10. Each page had the incorrect brand `ئەکادێمای ئاڤاشین` twice, in the document title and site header.
 - Corrected eight occurrences to `ئەکادێمیای ئاڤاشین`. Lesson 6 was rechecked and already had the approved brand and the Avasin term `هجا`; no change was needed there.
 - No lesson scientific prose, phonetic/phonological notation, lesson keys, routes, or scripts were changed.
+
+## Course 2 lessons 16–20: branding audit (2026-10-22)
+
+- Re-read `lessons/course-2-16.html` through `lessons/course-2-20.html` on `kurmanji-clean-release`.
+- Corrected ten occurrences of the incorrect brand `ئەکادێمای ئاڤاشین` (document title and site header, two per page) to `ئەکادێمیای ئاڤاشین`.
+- No lesson body text, Latin Kurmanji, lesson keys, canonical URLs, navigation routes, scripts, seed data, migrations, or database content was changed.
+- Re-read the five pages after editing and checked the approved brand, one `script.js` reference per page, matching `data-lesson-key`, canonical URL, and adjacent lesson navigation.
+- This is a static repository-file verification only; no live browser test was performed. The separate lessons 11–15 brand fixes remain pending because the earlier write attempt was blocked.
