@@ -1659,3 +1659,12 @@ The current Course 2 catalog is a phonetics/phonology course, beginning with spe
 The source-review headings earlier in this document that say “course 1, lesson NN” and discuss the legacy seed's Hawar/Latin Kurmanji lessons refer to rows named kurmanji-course-1-lesson-NN.html in the legacy seed package. They must **not** be read as verification of the current catalog's logical lesson NN or the wrapper page 017.html–058.html. The current catalog has a different lesson sequence and subject scope, as recorded in the scope comparison above.
 
 Likewise, the previous source-review notes for “course 2, lesson NN” that concern morphology/grammar apply to the legacy 12-row seed package only; they do not verify current Course 2's 32 phonetics/phonology lessons. Until an evidence-backed crosswalk exists, retain these notes as historical checks of legacy material and mark the current catalog lesson bodies as not yet verified by those checks. This clarification changes audit interpretation only; it does not alter any lesson or seed content.
+
+## Northern wrapper spot-audit — pages 017–028 (2026-10-22)
+
+Reviewed wrappers 017.html–028.html for the wrapper-owned data key, shared script inclusion, neighboring navigation, Avasin Academy branding, and visible metadata/source-note anomalies.
+
+- **Safe spelling fix:** `lessons/026.html` contained the header spelling `ئەکادەمای ئاڤاشین`; changed only that occurrence to the established `ئەکادێمیای ئاڤاشین`. Re-fetched the file and verified the incorrect form is absent, the correct brand form occurs twice, `data-lesson-key="026.html"` remains intact, exactly one shared `script.js` include remains, and previous/next links still point to `025.html` and `027.html`. Commit: `ea5b3f5737f11d4d059a0bdc96f8f30e9a7499ae`.
+- **No key/navigation defect found in this sample:** all 12 wrappers have a matching `data-lesson-key`, one shared script include, and the expected adjacent wrapper links for the inspected range.
+- **Needs source review, not an automatic edit:** `lessons/024.html` visibly contains source-note list entries `پرشەدارێکی زمانەوانی ١` and `پرشەدارێکی زمانەوانی ٢`, which look like placeholders rather than complete references. They were left unchanged because replacing them requires the actual source/citation details.
+- This spot-audit did not inspect or change central-circle lesson content, seed SQL, migrations, database contents, production configuration, `main`, or PR #3.
