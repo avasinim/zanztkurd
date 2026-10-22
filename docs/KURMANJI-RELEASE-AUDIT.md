@@ -2153,3 +2153,8 @@ In Northern Circle course 2 lesson 6, expanded the explanation of `mal-a me` (�
 ### Clarified ezafe agreement and indefinite noun phrase — 2026-10-22
 
 In Northern Circle course 2 lesson 5, clarified the analysis of `bajar-ek-î mezin`: `-ek` marks indefiniteness, `-î` is the masculine ezafe linker, and `mezin` is the adjective, which remains uninflected in this ezafe construction. Softened the broad statement about ezafe agreement by noting variation in forms following indefinite `-ek`. Also reiterated that possessors in ezafe constructions use oblique forms. This is grounded in Haig (2018), “Northern Kurdish (Kurmanjî),” §2.3.1, example (4) and the accompanying discussion: https://doi.org/10.1515/9783110421682-004. No source text was invented and no production resources were changed.
+
+
+### Corrected pronoun review question in course 2 lesson 7 — 2026-10-22
+
+Corrected the review question so it asks for both the direct and oblique forms of `ez`, `tu`, and `ew`. The previous wording asked only for oblique forms while naming the direct forms, which made the task internally inconsistent. The pronoun paradigm itself was not changed. Checked against Haig (2018), “Northern Kurdish (Kurmanjî),” Table 9 (personal pronouns): https://doi.org/10.1515/9783110421682-004. No production resources were changed.
