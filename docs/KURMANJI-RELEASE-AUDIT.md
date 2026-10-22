@@ -2351,3 +2351,15 @@ A further read-only comparison was completed for the eight remaining course 2 ro
 Lessons 01–03, 07, and 12 retain the same visible section-heading sequence; lessons 04–06 also retain the same sequence despite larger length differences. The test DB versions of lessons 04–06 show notable differences in cited-author wording at the beginning of the body (e.g. lesson 06 says “Haig and Öpengin” where the seed cites Haig (2018)); these must be checked against the exact bibliography item rather than changed automatically. The lesson 01 heading spellings should be resolved by checking the literal seed string and the Avasin Code, not by relying on a length or normalization heuristic.
 
 **Current overall conclusion for course 2 lessons 01–12:** the database rows and titles are present, but none of the 12 content bodies should be considered synchronized with the seed merely because headings align. Lessons 08–11 have clear missing instructional sections in the DB variant; lessons 01–07 and 12 have body-text drift, with citation and orthography review still needed. Keep all content unchanged until the content source of truth is explicitly selected and the exact diffs are reconciled. No seed, HTML, JavaScript, migration, or database changes were made in this pass.
+
+
+## Follow-up: first-divergence inspection, course 2 lessons 01–07 and 12 — 2026-10-22
+
+Compared seed bodies with read-only test-project rows after stripping HTML tags and collapsing whitespace. This is a focused first-divergence check, not a full sentence-by-sentence source verification.
+
+- **Lesson 01:** seed uses Avasin forms `نیە`, `پەیویستە`, `هەمو`, `نمونە`; DB uses `نییە`, `پێویستە`, `هەموو`, `نموونە`. The third heading also differs: seed `٣. نمونەی پشکنین`, DB `٣. نموونەی پشکنین`.
+- **Lessons 02–04:** initial differences include `پەیویستە`/`پێویستە`, `ڕون`/`ڕوون`, and `نمونە`/`نموونە`, consistent with orthography drift in Sorani prose. Preserve Latin Kurmanji forms.
+- **Lessons 05–07:** the DB's first-divergence text changes source attribution from Haig (2018) to “Haig و Öpengin” or “Haig و Öpengin (2018)”. The previously checked university publication records indicate that the cited “Northern Kurdish (Kurmanjî)” chapter is by Geoffrey Haig alone, while Haig & Öpengin is a separate work. Lesson 06's DB body is materially shorter and omits explanatory details present in seed; lesson 05 is shorter despite matching headings. Verify claims against the exact source before correcting citations or restoring content.
+- **Lesson 12:** heading sequence matches, but later methodology/review-question wording differs; full comparison remains open.
+
+**Conclusion:** lessons 01–04 show clear Avasin spelling drift; lessons 05–07 show citation/source attribution drift and body rewrites; lesson 12 has later body-text drift. A full sentence-level comparison and source verification should precede any replacement. No lesson, seed, script, migration, or database content was changed; Supabase access was read-only and limited to the test project.
