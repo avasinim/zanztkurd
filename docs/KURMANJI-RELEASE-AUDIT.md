@@ -2183,3 +2183,8 @@ Expanded the Northern Circle course 2 word-order lesson with Haig (2018), §2.7.
 ### Reviewed course 2 lesson 12 capstone review — 2026-10-22
 
 Reviewed the Northern Circle course 2 final review lesson in `part-05`. Its tasks ask learners to distinguish morphology, nominal structure, pronoun case, tense/transitivity, negation, and word order, and explicitly require source/context support for each analysis. The methodology note correctly warns that the exercise is not a substitute for checking a grammar source. No scientific text or seed content was changed in this pass because the lesson contains no new Kurmanji forms requiring correction; the source-attestation requirement is appropriate for a capstone exercise. This review remains scoped to the Northern Circle course 2 seed and Haig (2018) citation already present in the lesson. No migrations, `main`, or production Supabase resources were changed.
+
+
+### Corrected source attribution in course 2 lesson 4 — 2026-10-22
+
+During the follow-up review of Northern Circle course 2 lessons 1–6, corrected the methodology note in lesson 4: the nominal case/indefiniteness table and the distinction between direct and oblique forms are attributed to Geoffrey Haig (2018), “Northern Kurdish (Kurmanjî),” rather than Haig & Öpengin (2018), which is a separate work. The lesson's linguistic explanation and Kurmanji forms were not changed. Source: https://doi.org/10.1515/9783110421682-004. Only `kurmanji-clean-release` was changed; no migrations, `main`, or production Supabase resources were touched.
