@@ -1781,3 +1781,10 @@ Read-only follow-up of `lessons/index.json` confirms that the `058.html` inconsi
 - Corrected all ten occurrences to the project-approved brand `ئەکادێمیای ئاڤاشین`. No scientific lesson text, lesson keys, routes, or phonological notation was changed.
 - Re-read each changed page after the edits and checked that the incorrect brand no longer appears, the approved brand is present, each page retains exactly one `script.js` reference and the matching `data-lesson-key`.
 - Avasin Code reminder: `ڕێنوس` is correct; `ڕێنووس` is incorrect. This user clarification supersedes any earlier contrary audit note.
+
+
+## Course 2 lessons 7–10: branding audit (2026-10-22)
+
+- Continued the same safe branding scan through lessons 7–10. Each page had the incorrect brand `ئەکادێمای ئاڤاشین` twice, in the document title and site header.
+- Corrected eight occurrences to `ئەکادێمیای ئاڤاشین`. Lesson 6 was rechecked and already had the approved brand and the Avasin term `هجا`; no change was needed there.
+- No lesson scientific prose, phonetic/phonological notation, lesson keys, routes, or scripts were changed.
