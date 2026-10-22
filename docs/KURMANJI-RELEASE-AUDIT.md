@@ -1668,3 +1668,13 @@ Reviewed wrappers 017.html–028.html for the wrapper-owned data key, shared scr
 - **No key/navigation defect found in this sample:** all 12 wrappers have a matching `data-lesson-key`, one shared script include, and the expected adjacent wrapper links for the inspected range.
 - **Needs source review, not an automatic edit:** `lessons/024.html` visibly contains source-note list entries `پرشەدارێکی زمانەوانی ١` and `پرشەدارێکی زمانەوانی ٢`, which look like placeholders rather than complete references. They were left unchanged because replacing them requires the actual source/citation details.
 - This spot-audit did not inspect or change central-circle lesson content, seed SQL, migrations, database contents, production configuration, `main`, or PR #3.
+
+
+## Northern wrapper spot-audit — pages 029–040 (2026-10-22)
+
+- Re-read lessons/029.html–lessons/040.html on kurmanji-clean-release and statically checked each wrapper's own data-lesson-key, shared script.js include count, canonical URL, neighboring navigation, Academy brand spelling, and targeted legacy orthography terms.
+- **Wrapper integrity:** all 12 pages use their own filename as data-lesson-key, include exactly one shared script.js reference, and have canonical URLs matching their page paths. Sequential previous/next links are intact from 029.html through 041.html for this sample.
+- **Avasin spelling scan:** no occurrences of the known incorrect brand variants ئەکادەمای ئاڤاشین / ئەکادێمای ئاڤاشین, or the targeted forms چییە, نییە, بەرامبەر, بزوێن, and نەبزوێن were found in these wrappers. No wrapper-level spelling correction was justified in this batch.
+- **Needs a focused metadata cleanup review:** lessons/034.html contains two JSON-LD LearningResource script blocks with overlapping page metadata. This pass did not remove either block because the exact intended structured-data fields should be compared before editing. The page's canonical URL, key, navigation, and shared-script count are correct.
+- Some page titles and displayed lesson numbers represent a multi-part course sequence rather than a direct filename-to-course-number mapping. Preserve the explicit registry/catalog order; do not reorder pages by filename or infer scientific content from titles alone.
+- This was a static wrapper check, not a browser end-to-end test or source verification of dynamically loaded lesson bodies. No central-circle content, lesson body, seed SQL, migration, database, production configuration, main, or PR #3 was changed. Only this audit document is updated in this pass.
