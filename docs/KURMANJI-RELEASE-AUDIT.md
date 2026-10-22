@@ -1845,3 +1845,9 @@ Read-only follow-up of `lessons/index.json` confirms that the `058.html` inconsi
 - Rechecked all static pages 21–32: each has the matching `data-lesson-key`, exactly one script include, and correctly sequential `rel="prev"` / `rel="next"` links.
 - Lesson 32 correctly has no next link; lessons 21–32 link back/forward to the adjacent lesson numbers. Combined with the 01–20 recheck above, static navigation metadata is consistent across all 32 pages.
 - Static repository inspection only; no HTML edits, database checks, or browser tests.
+
+
+### 2026-10-22 — Avasin spelling correction in lessons 048 and 054
+- Applied the user's explicitly confirmed spelling `ڕێنوس` in the two static lesson shells where `ڕێنووس` appeared in descriptive text (lesson 048: 1 occurrence; lesson 054: 6 occurrences).
+- Re-fetched both changed files and verified that the incorrect spelling now occurs 0 times and the preferred spelling occurs 1 and 6 times respectively.
+- No scientific lesson-body text, Latin Kurmanji forms, lesson keys, seed files, migrations, or database were changed. Static source verification only.
