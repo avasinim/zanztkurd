@@ -1938,3 +1938,9 @@ Read-only follow-up of `lessons/index.json` confirms that the `058.html` inconsi
 - No static-shell defect was found in this range. This does not establish that matching `lesson_content` rows exist or that the live server will authorize completion for lessons 28–32; the source-level server/browser progression mismatch remains unresolved.
 - No HTML, JavaScript, catalog, seed, migration, or database changes were made. Audit entry was re-read after writing. No changes to `main`, production Supabase, or PR #3.
 
+### 2026-10-22 — Static shell audit for Course 2 lessons 01–26
+- Re-read `lessons/course-2-01.html` through `lessons/course-2-26.html` on `kurmanji-clean-release`.
+- All 26 shells exist, each has exactly one matching `data-lesson-key`, exactly one shared `script.js` reference, and the Avasin Academy brand. Navigation links form a continuous sequence: lesson 01 has no previous-lesson link; lessons 02–26 link to the immediately preceding and following lessons. The link from lesson 26 to lesson 27 is present.
+- Combined with the separately recorded shell audits for lessons 27–32, static navigation/key checks cover all 32 Course 2 lesson shells. This is not proof of database content-row coverage or live server authorization; the previously recorded 27-versus-32 progression mismatch remains unresolved.
+- No lesson HTML, JavaScript, catalog, seed, migration, or database changes were made. Audit entry was re-read after writing. No changes to `main`, production Supabase, or PR #3.
+
