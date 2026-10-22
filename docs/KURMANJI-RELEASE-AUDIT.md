@@ -1264,3 +1264,9 @@ Before making any lesson edits, prepare a proposed correction plan grouped by se
 - Compared the catalog's displayed totals (96 lessons overall; 58 Kurdish and 38 Kurmanji) with the current lessons/index.json and the previously verified Kurmanji lesson inventories.
 - The index contains 74 physical HTML lesson pages: 42 pages assigned to course-current collapse into 26 logical lessons (multi-page units include logical lessons 22, 23, and 25); course-2 contains 32 physical pages and 32 logical lessons. Adding the two Kurmanji pathways (26 + 12) yields 96 logical lessons, with Kurdish totaling 26 + 32 = 58 and Kurmanji totaling 26 + 12 = 38. The advertised catalog totals therefore reconcile when multi-page units are counted as single lessons.
 - No source change was warranted. This is a static JSON/count comparison; it does not test rendered catalog behavior or progress reconciliation in a browser. No main, migration, seed execution, or production database changes.
+
+
+## Lesson-index pagePath integrity audit — 2026-10-22
+- Compared every lesson pagePath in lessons/index.json against the files present in the lessons directory on kurmanji-clean-release.
+- All 74 index entries point to an existing file; no duplicate lesson IDs or duplicate pagePath values were found. The directory listing contains 80 HTML files, including non-indexed support/legacy pages, so this check validates the 74 catalog data references rather than asserting that every HTML file is a catalog lesson.
+- No source edit was needed. Static repository check only; no browser navigation/runtime test, and no main, migration, seed execution, or production database change.
