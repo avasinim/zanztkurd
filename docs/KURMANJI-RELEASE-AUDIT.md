@@ -2431,3 +2431,15 @@ Southern-region initial inspection: `learning.html` offers `بازنەی باش�
 Read-only check of the Supabase project configured by the current `main` site's `supabase-config.js` (project ref `hjpmorabqdhuchpnowiw`) confirmed that `public.lesson_content` currently contains only these course IDs: `orthography-kurdik` (42 rows) and `phonetics-phonology-kurdik` (32 rows). A read-only query for `kurmanji-course-1` and `kurmanji-course-2` returned zero rows. Therefore the two Kurmanji course pages and 38 lesson shells from `kurmanji-clean-release` must not be published as a functioning course yet: the current lesson loader fetches each lesson body from `lesson_content`, so pages would not have their expected content in the live project. This is separate from the catalog navigation fix and explains why changing only `lessons/catalog.html` is insufficient.
 
 Release-safe next step: prepare and review a production-ready Kurmanji content package and access-control plan, but do not insert content, apply migrations, or change production configuration without an explicit, separately scoped authorization. No production data was changed by this check. The current `main` branch, live site, production database, and migrations remain unchanged.
+
+## Live-site reproduction — 2026-10-22
+
+The user tested the deployed catalog and reported that the Northern Circle button responds, but the Kurmanji lessons do not appear. A read-only inspection of the deployed URL `https://avasinim.github.io/zanztkurd/lessons/catalog.html` confirms that the live page is still the older catalog: it presents a single generic Kurmanji dialect choice, not the two distinct course choices now present in `kurmanji-clean-release`. The new course landing pages `kurmanji-course-1.html` and `kurmanji-course-2.html` exist on the protected branch, but the deployed course-1 URL was not accessible during this check. This is consistent with the new course pages not yet being published to GitHub Pages; it does not prove a defect in the Northern Circle button itself.
+
+### Safe conclusion and next gate
+
+- The live symptom is a release/deployment mismatch, compounded by the previously confirmed absence of live `lesson_content` rows for `kurmanji-course-1` and `kurmanji-course-2` and live RPC functions that do not yet support those IDs.
+- Do not try to solve this by publishing only `lessons/catalog.html`: its branch version routes to root-level Kurmanji course pages, so the matching pages and lesson pages must be part of the same release.
+- Do not merge PR #3 wholesale, change `main`, or write to production Supabase without explicit approval. First finish source/content and migration/RPC review, test in an isolated non-production environment, and then propose a narrowly scoped release.
+- No code, production branch, or database was changed as part of this live-site diagnosis.
+
