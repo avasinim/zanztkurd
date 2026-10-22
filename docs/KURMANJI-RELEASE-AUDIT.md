@@ -1606,3 +1606,11 @@ Scope: read-only source inspection followed by an audit-document update on `kurm
 - Continued the Northern-only navigation review by checking `aria-label` text in lesson wrappers `017.html`–`058.html`. Some accessible labels still used Western digits even after the visible navigation labels had been standardized.
 - Standardized only the digit characters inside navigation `aria-label` attributes on these 23 wrappers: `020.html`, `023.html`, `025.html`–`038.html`, `044.html`–`046.html`, `051.html`, `052.html`, `057.html`, and `058.html`. Existing hrefs, navigation order, visible text, titles, and lesson bodies were preserved.
 - This is a text-accessibility consistency fix only. No central-circle files, shared script, catalog/index, lesson scientific content, seed, SQL, migration, `main`, or database were changed.
+
+## Northern dynamic-content key coverage — full seed-pack comparison (2026-10-22)
+
+- Re-read all five checked-in draft seed files (`kurmanji-content-seed-part-01.sql` through `part-05.sql`) and `lessons/index.json` on `kurmanji-clean-release`; this is a read-only comparison, not a database query or seed execution.
+- The five draft files contain 38 lesson-key occurrences and 38 unique legacy keys (26 for `kurmanji-course-1`, 12 for `kurmanji-course-2`). The current index declares 74 page paths. Comparing the seed keys directly with those current `pagePath` values produces **0 exact matches**.
+- Example of the two naming schemes: current page paths use names such as `017.html` and `course-2-01.html`; seed rows use names such as `kurmanji-course-1-lesson-01.html` and `kurmanji-course-2-lesson-01.html`. The names are not directly interchangeable, and the seed package also has fewer rows than the current index's page paths.
+- This establishes a repository-level content-key coverage gap; it does **not** establish which missing/current lesson body should be assigned to any key. Do not solve it by bulk-renaming keys or copying legacy HTML. The next safe step is to map each legacy row to its authoritative source lesson and verify content scope before proposing a migration plan.
+- No SQL, lesson page, catalog/index, shared script, database, central-circle lesson content, `main`, or PR #3 was changed in this comparison; this audit note is the only intended edit.
