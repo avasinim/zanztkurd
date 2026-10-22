@@ -1954,3 +1954,21 @@ Read-only follow-up of `lessons/index.json` confirms that the `058.html` inconsi
 - Remaining uncertainty: the latest migration contains no literal `course-2-01.html`…`course-2-32.html` content-row inserts. This source inspection alone cannot prove that all 32 `lesson_content` rows exist in the deployed database, nor which migrations are actually applied there. No database connection/query or migration execution was performed.
 - Safe conclusion: repository migration source now aligns the progression RPC and course total to 32; content-row coverage and deployed migration state still require a separately authorized test-environment verification. Do not change production or run migrations without explicit approval.
 
+
+
+## Cross-package lesson-key audit — 2026-10-22
+
+### Confirmed repository-source mismatch: the 32-lesson phonetics route has no matching rows in the Kurmanji seed package
+
+Read-only inspection of all five split seed files found exactly 38 rows:
+- 26 keys for `kurmanji-course-1`: `kurmanji-course-1-lesson-01.html` through `kurmanji-course-1-lesson-26.html`.
+- 12 keys for `kurmanji-course-2`: `kurmanji-course-2-lesson-01.html` through `kurmanji-course-2-lesson-12.html`.
+- No rows in those seed files use the 32 static phonetics route keys `course-2-01.html` through `course-2-32.html`, and none use course ID `phonetics-phonology-kurdik`.
+
+The current `script.js` protected-lesson loader reads `data-lesson-key` and queries `public.lesson_content` by that exact key. The sampled static pages `lessons/course-2-01.html`, `lessons/course-2-28.html`, and `lessons/course-2-32.html` use matching route keys `course-2-01.html`, `course-2-28.html`, and `course-2-32.html`; the script maps these targets to `phonetics-phonology-kurdik`. The 2026-10-19 migration adjusts that course's total to 32 and describes 32-lesson progression, but its inserted lesson-content rows are the 26 + 12 Kurmanji-course rows, not content rows for these 32 phonetics keys.
+
+**Impact:** repository sources alone do not provide matching `lesson_content` records for the protected 32-lesson phonetics route. If no separately provisioned rows exist in the deployed database, `loadProtectedLessonContent` will display its “lesson content row missing” error for those pages. This is a source-level provisioning gap, not proof of the live database's current contents; no database query was performed.
+
+**Safe action taken:** record the mismatch only. Do not fabricate or copy lesson bodies from HTML into SQL, change scientific content, modify migrations, or alter course/progression rules without verifying the intended source of truth and the existing student-progress model. Next safe verification is a read-only query in an explicitly authorized test environment for `lesson_content` keys and `course_id` values covering `course-2-01.html`–`course-2-32.html`, followed by a plan that preserves existing completion records.
+
+No HTML, `script.js`, seed file, migration, `main`, PR #3, or database was changed in this audit step.
