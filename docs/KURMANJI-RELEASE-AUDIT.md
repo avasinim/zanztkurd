@@ -2543,3 +2543,28 @@ Expanded the comparison from course 2 lessons 07–12 to all five seed parts and
 The current migration cannot be declared content-equivalent to the seed on the basis of matching keys. Before release, produce a field-aware, HTML-decoded diff of each `content_html` value, normalize only approved Sorani/Avasin spelling and markup differences, and manually review all remaining pedagogical, citation, and Latin Kurmanji differences against the cited sources. Preserve Latin Kurmanji spellings exactly unless source evidence supports a correction.
 
 No lesson page, seed, migration, application code, `main`, production database, or PR state was changed. Only this audit record was extended; no SQL was executed and no live-browser or production verification was performed.
+
+
+## Consolidated shell/navigation verification and CI trigger — 2026-10-22
+
+Performed a single static pass across all 38 Kurmanji lesson shell files (course 1 lessons 01–26 and course 2 lessons 01–12), rather than only the last six lessons.
+
+- All 38 pages have a `data-lesson-key` matching their own filename.
+- All 38 include the shared `script.js`.
+- All 38 include `noindex,follow` metadata.
+- Previous/next lesson links match numeric order and stay within their own course, including first/last lesson boundaries.
+- This validates the repository HTML source only; it does not prove that a live protected content request succeeds or that student progress persists.
+
+### Safe CI improvement applied
+
+Updated `.github/workflows/validate-kurmanji-package.yml` so the package-integrity and north-circle Playwright UI checks also trigger on relevant pushes to `kurmanji-clean-release`, not only `kurmanji-test-config`. The workflow still runs static checks and a locally mocked browser UI test; it does not touch Supabase or validate real student authentication.
+
+- Workflow commit: `bbf21a8c0bca9708971a227d19c71661630c4870`
+- The workflow file was re-read after the update and the new branch trigger was verified.
+- GitHub Actions runs were observed queued for the new commit at the time of this audit; queued is not a pass, so their final results must be checked before reporting CI success.
+
+### Overall release boundary
+
+The HTML shell/navigation layer is consistent in this static pass. The content-equivalence issue remains a distinct blocker: all 38 lesson keys match between the five seed packages and the migration, but key equality does not establish that the lesson bodies are equivalent. Do not apply the migration or publish the Kurmanji course as fully working until the source-backed content differences and the real Supabase student journey are validated in an isolated test project.
+
+No lesson content, seed, migration, `main`, production database, or PR merge was changed in this pass.
