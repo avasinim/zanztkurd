@@ -2138,3 +2138,8 @@ In the Northern Circle course 2 pronoun table, clarified that direct `ew` is use
 ### Added explicit parsing for direct/oblique case examples — 2026-10-22
 
 Added short pedagogical notes under the two existing examples `Ez wî mirovî dibînim` and `Min ew dît` in the Northern Circle course 2 case lesson. The notes explicitly identify direct vs. oblique arguments and explain the basic present-tense vs. past-transitive agreement contrast, while keeping the original Kurmanji examples and translations unchanged. The analysis was checked against Haig (2018), §2.7.2, and the University of Arizona Kurmanji grammar page. Sources: https://multicast.aspra.uni-bamberg.de/data/pubs/Haig2018_Northern-Kurdish_Kurmanji.pdf and https://iranian-languages.arizona.edu/node/7. No migrations, main branch, or production database were changed.
+
+
+### Distinguished oblique marking from ezafe in similar-looking forms — 2026-10-22
+
+In Northern Circle course 2 lesson 4 (indefinite nouns and `-ek`), clarified the contrast between `gund-ek-î` / `jin-ek-ê` as indefinite oblique noun forms and `bajar-ek-î mezin`, where `-î` functions as the ezafe linker before the adjective. The note now warns that a similar surface form does not guarantee the same grammatical function; the phrase structure and context must be checked. This supports the lesson's goal of separating indefiniteness, case, and ezafe rather than treating the endings as interchangeable. Source checked against Haig (2018), “Northern Kurdish (Kurmanjî),” including the nominal case table and §2.3.1: https://doi.org/10.1515/9783110421682-004. No migrations, main branch, or production database were changed.
