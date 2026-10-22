@@ -2158,3 +2158,8 @@ In Northern Circle course 2 lesson 5, clarified the analysis of `bajar-ek-î mez
 ### Corrected pronoun review question in course 2 lesson 7 — 2026-10-22
 
 Corrected the review question so it asks for both the direct and oblique forms of `ez`, `tu`, and `ew`. The previous wording asked only for oblique forms while naming the direct forms, which made the task internally inconsistent. The pronoun paradigm itself was not changed. Checked against Haig (2018), “Northern Kurdish (Kurmanjî),” Table 9 (personal pronouns): https://doi.org/10.1515/9783110421682-004. No production resources were changed.
+
+
+### Added source-backed verb-form comparison to course 2 lesson 8 — 2026-10-22
+
+Added a concise worked comparison from Haig (2018), Table 14, to Northern Circle course 2 lesson 8: `ez dibêjim` (present transitive), `ez hatim` (past intransitive), and `min xwar` (past transitive). The note explicitly warns learners that pronoun forms and verb agreement depend on tense and transitivity, rather than implying one uniform paradigm. These are source-attested examples, not invented forms. Source: https://doi.org/10.1515/9783110421682-004 (PDF table also available at https://multicast.aspra.uni-bamberg.de/data/pubs/Haig2018_Northern-Kurdish_Kurmanji.pdf). No production resources were changed.
