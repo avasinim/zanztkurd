@@ -1558,3 +1558,10 @@ Scope: read-only source inspection followed by an audit-document update on `kurm
 - Corrected the Northern-circle tags in both maps for lessons 5, 11, 13, and 20–23: `بزوێن` forms are now `ڤاوڵ` forms, and `نەبزوێن` forms in these tags are now `کۆنسۆنەنت` forms.
 - Re-read `script.js`: remaining `بزوێن` / `نەبزوێن` tag entries are only in Central-circle keys 205, 212, and 213; these were deliberately left unchanged as requested.
 - Only tag metadata was changed. Lesson body text, Central-circle content, database, seeds, migrations, `main`, and PR #3 were not changed.
+
+## Northern lesson-wrapper metadata review — 2026-10-22
+
+- Re-read the Northern-circle wrapper pages `lessons/017.html`–`lessons/058.html` in focused batches, checking page titles, descriptions, canonical URLs, lesson keys, shared-script references, and known Avasin orthography variants.
+- No additional definite wrapper-level orthography or URL defect was established in this pass; no lesson scientific text was changed.
+- One factual item remains deliberately unedited pending source comparison: the description in `lessons/020.html` states `٣٧ واچ، ٢٩ کۆنسۆنەنت، ٨ ڤاوڵ و ٥ واچی تێکەڵ`. Verify these counts against the referenced source before changing the statement.
+- The non-numeric filename ordering around lesson 24 and the multi-part lesson sequences remains intentional per `COURSE-REGISTRY.md`; no reordering was made.
