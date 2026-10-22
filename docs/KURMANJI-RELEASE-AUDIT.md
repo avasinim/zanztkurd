@@ -2123,3 +2123,8 @@ Compared course-2 lesson content on possession/reflexives with Haig (2018), sect
 ### Corrected attribution of ezafe example — 2026-10-22
 
 A source check located the exact example `bajar-ek-î mezin` in Geoffrey Haig (2018), “Northern Kurdish (Kurmanjî),” §2.3.1, example (4), in the publisher-hosted chapter PDF. The lesson had attributed it to “Haig and Öpengin,” which points to a different 2018 publication. Corrected both the lesson attribution and its method note to cite Haig (2018), §2.3.1, example (4). This is a citation attribution correction; the Kurmanji example itself is unchanged. Verified against https://www.uni-bamberg.de/fileadmin/aspra/06_Team/Publications_and_CV/haig_2018_ch.2.3_northern_kurdish.pdf and the DOI https://doi.org/10.1515/9783110421682-004. No migrations, main branch, or production database were changed.
+
+
+### Clarified qualification on past-transitive agreement — 2026-10-22
+
+In the Northern Circle course 2 case lesson, softened an overly categorical sentence about past-transitive verbs agreeing with the object rather than the subject. The lesson now states this as the basic ergative pattern while explicitly noting documented dialect/contextual variation in agreement and object case. This matches Haig (2018), §2.7.2, which outlines canonical ergative alignment and discusses non-canonical agreement and double-oblique patterns. No Kurmanji example was replaced, and no Central Circle material was used as evidence. Source: https://www.uni-bamberg.de/fileadmin/aspra/06_Team/Publications_and_CV/haig_2018_ch.2.3_northern_kurdish.pdf. No migrations, main branch, or production database were changed.
