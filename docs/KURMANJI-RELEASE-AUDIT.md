@@ -1711,4 +1711,11 @@ Read-only follow-up of `lessons/index.json` confirms that the `058.html` inconsi
 - No changes were made to `lessons/index.json`, `058.html`, `script.js`, catalog rendering, lesson content, Seed, migrations, or any database. The prior guardrail remains: do not edit the title, eyebrow, section assignment, navigation, or `COURSE1_FILES` until the intended course outline is confirmed.
 - Next evidence step: inspect the authoritative book/source outline for the final course-1 lesson and compare it with the registered lesson 26 and the actual content record for `058.html` in the authorized test environment. Record the result as a decision table before implementing any fix. No production database or `main` access is authorized.
 
+## Lesson 26 source-package cross-check — punctuation vs legacy review row (2026-10-22)
+
+- Re-read the current wrapper `lessons/058.html`, its entry in `lessons/index.json`, and all five checked-in draft seed SQL parts. The current wrapper consistently presents the page title and description as lesson 26, “خاڵبەندی” (punctuation), and its navigation marks this as the end of the current course.
+- The registry also assigns `058.html` to logical lesson 26, but groups it under the section “فۆنێتیک و فۆنۆلۆجی مێژویی”; the wrapper eyebrow says “فۆنێتیک و فۆنۆلۆجی · دەورەی ١”. These section/eyebrow labels conflict with the punctuation-focused page title and description.
+- The legacy draft seed row `kurmanji-course-1-lesson-26.html` is titled “پێداچوونەوە و هەڵسەنگاندنی کۆتایی” and reviews Kurmanji Latin orthography/reading. It is not a valid direct replacement for the current punctuation lesson, and the legacy seed row key does not match `058.html`.
+- This comparison confirms a metadata/classification discrepancy but does not establish the intended final section label from the authoritative course outline. Therefore no title, eyebrow, registry section, navigation, seed, or lesson body was changed. Do not import the legacy review content into `058.html` or change its category until the intended course outline is confirmed.
+- No production database was queried or changed; no migration, `main`, or PR #3 was touched. Only this audit document was updated.
 
