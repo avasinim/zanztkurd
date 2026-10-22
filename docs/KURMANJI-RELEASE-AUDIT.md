@@ -2143,3 +2143,8 @@ Added short pedagogical notes under the two existing examples `Ez wî mirovî di
 ### Distinguished oblique marking from ezafe in similar-looking forms — 2026-10-22
 
 In Northern Circle course 2 lesson 4 (indefinite nouns and `-ek`), clarified the contrast between `gund-ek-î` / `jin-ek-ê` as indefinite oblique noun forms and `bajar-ek-î mezin`, where `-î` functions as the ezafe linker before the adjective. The note now warns that a similar surface form does not guarantee the same grammatical function; the phrase structure and context must be checked. This supports the lesson's goal of separating indefiniteness, case, and ezafe rather than treating the endings as interchangeable. Source checked against Haig (2018), “Northern Kurdish (Kurmanjî),” including the nominal case table and §2.3.1: https://doi.org/10.1515/9783110421682-004. No migrations, main branch, or production database were changed.
+
+
+### Clarified ezafe and oblique possessor in `mal-a me` — 2026-10-22
+
+In Northern Circle course 2 lesson 6, expanded the explanation of `mal-a me` (“our house”): `-a` is the ezafe linker connecting the noun with its possessor, while `me` is the oblique form corresponding to direct `em`, used here as the possessor. This makes the distinction between the ezafe linker and the possessor pronoun explicit. The example is preserved. Checked against Haig (2018), “Northern Kurdish (Kurmanjî),” and its treatment of noun case and ezafe: https://doi.org/10.1515/9783110421682-004. No migrations, main branch, or production database were changed.
