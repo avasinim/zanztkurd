@@ -1187,3 +1187,10 @@ Before making any lesson edits, prepare a proposed correction plan grouped by se
 - Re-scanned all five Kurmanji seed SQL parts (course 1 lessons 01–26; course 2 lessons 01–12) for obvious HTML/link hygiene defects within lesson records: duplicate identical `href` values, empty anchor elements, `img` elements without an `alt` attribute, empty/hash-only links, JavaScript pseudo-URLs, and common placeholder markers (TODO/FIXME/PLACEHOLDER/example.com).
 - The scan reported no such findings in the 38 lesson records. No source files were changed in this pass; therefore there is no lesson-content or spelling edit to report.
 - **Scope:** this is a static pattern scan, not a browser-rendering, accessibility conformance, external-link availability, or full HTML parser validation. Seed SQL was not executed. No changes to `main`, migrations, or production DB; no browser/CI pass is claimed.
+
+
+## Final Avasin spelling sweep — seed prose
+
+- A final targeted sweep of the five seed SQL parts found two instances of the Sorani prose spelling `بەرامبەر` (course 1 lesson 17 and course 2 lesson 10). Replaced those instances with the project's preferred Avasin spelling `بەرابەر`; the occurrences were in Sorani explanatory prose, not Kurmanji Latin examples or technical source notation.
+- Re-fetched seed parts 03 and 05 and confirmed the old spelling is absent and the preferred form is present. Commits: part 03 `a4ea49f`; part 05 `a852986`.
+- This is an orthographic-only adjustment; no linguistic rule, example, lesson key, or SQL behavior was changed. Seed SQL remains unexecuted; no changes to `main`, migrations, or production DB; no browser/CI pass is claimed.
