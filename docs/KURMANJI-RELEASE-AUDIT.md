@@ -1691,3 +1691,14 @@ Reviewed the static HTML shells for all 18 pages from `lessons/041.html` through
 
 Protected scope preserved: `main`, the Central circle, PR #3, Seed SQL, migrations, and all databases were not intentionally changed.
 
+## Follow-up: course-sequence consistency review (2026-10-22)
+
+A targeted review of `script.js`, `lessons/056.html`, `lessons/057.html`, `lessons/058.html`, and the course selector in `lessons/catalog.html` found a release-blocking consistency question that needs mapping evidence before any content changes:
+
+- The `COURSE1_FILES` sequence and `lessonMeta()` in `script.js` classify `057.html` as lesson 25, part 6 of 6, and `058.html` as lesson 26. The page shells for `056.html` and `057.html` instead identify themselves as phonetics/phonology, lesson 25 parts 5 and 6; `058.html` is titled “خاڵبەندی” (punctuation), yet its eyebrow still says “فۆنێتیک و فۆنۆلۆجی · دەورەی ١”. The previous/next links connect these pages, but their subject labels indicate a possible course-boundary or page-mapping mismatch.
+- The catalog’s North-region selector describes Kurmanji course 2 as morphology/grammar with 12 lessons, while the Central-region selector describes course 2 as Kurdish phonetics/phonology with 32 lessons. These are distinct course tracks and must not be reconciled by copying or renaming Seed rows.
+- The loader in `script.js` fetches `lesson_content` by the exact page key (e.g. `058.html`). This static inspection does not establish whether the corresponding live database row exists or whether its body matches the page title.
+- No lesson HTML, course mapping, Seed, migration, database, or runtime loader was changed during this follow-up. Do not change the title, eyebrow, navigation, `COURSE1_FILES`, or course selector until the authoritative intended course/page map and matching content records are checked.
+- Recommended next verification: inspect the exact `lesson_content` keys and course IDs in the authorized test environment, compare the content titles with the catalog and source lessons, then record a single explicit mapping table before proposing any edits. No production database or main-branch access is authorized by this audit.
+
+
