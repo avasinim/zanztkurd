@@ -1802,3 +1802,9 @@ Read-only follow-up of `lessons/index.json` confirms that the `058.html` inconsi
 - Re-fetched each changed page from `kurmanji-clean-release`: each has 0 remaining incorrect spellings and 2 approved brand occurrences.
 - Scope was limited to the brand text. Scientific lesson content, Latin Kurmanji, lesson keys, navigation, scripts, seed files, migrations, and databases were not changed.
 - Verification was against repository file contents only; no live browser or database test was performed.
+
+### 2026-10-22 — Course 2 lessons 26–32: static shell/navigation check
+- Re-read `lessons/course-2-26.html` through `course-2-32.html` on `kurmanji-clean-release`.
+- All seven pages have their matching `data-lesson-key`, canonical URL, and one `script.js` include. Prev/next links form the expected sequence from lesson 26 through lesson 32; lesson 32 has no next lesson.
+- Each page has two approved `ئەکادێمیای ئاڤاشین` brand occurrences and no `ئەکادێمای ئاڤاشین` typo. No edits were needed in these seven files.
+- This is repository/static inspection only, not a live browser test. Lesson scientific body/seed correspondence was not asserted by this shell/navigation check.
