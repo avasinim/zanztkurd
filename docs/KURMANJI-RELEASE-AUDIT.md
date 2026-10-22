@@ -1565,3 +1565,10 @@ Scope: read-only source inspection followed by an audit-document update on `kurm
 - No additional definite wrapper-level orthography or URL defect was established in this pass; no lesson scientific text was changed.
 - One factual item remains deliberately unedited pending source comparison: the description in `lessons/020.html` states `٣٧ واچ، ٢٩ کۆنسۆنەنت، ٨ ڤاوڵ و ٥ واچی تێکەڵ`. Verify these counts against the referenced source before changing the statement.
 - The non-numeric filename ordering around lesson 24 and the multi-part lesson sequences remains intentional per `COURSE-REGISTRY.md`; no reordering was made.
+
+## Northern lesson-navigation numeral consistency — 2026-10-22
+
+- A wrapper review found that several lesson-navigation labels mixed Western digits (for example, `3`, `10`, `21`) with the Kurdish/Arabic-script numerals used elsewhere.
+- Standardized only the visible lesson numbers inside navigation links in the affected Northern-circle wrappers, preserving the link destinations, lesson sequence, titles, body text, and Latin Kurmanji forms.
+- Re-read representative updated pages (`020`, `023`, `027`, `038`, `044`, `052`, and `058`) and confirmed the navigation labels now use Kurdish numerals.
+- This was a display-consistency correction only. Central-circle pages and terms, `main`, database, seeds, and migrations were not changed.
