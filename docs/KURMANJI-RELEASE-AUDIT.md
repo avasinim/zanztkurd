@@ -2128,3 +2128,8 @@ A source check located the exact example `bajar-ek-î mezin` in Geoffrey Haig (2
 ### Clarified qualification on past-transitive agreement — 2026-10-22
 
 In the Northern Circle course 2 case lesson, softened an overly categorical sentence about past-transitive verbs agreeing with the object rather than the subject. The lesson now states this as the basic ergative pattern while explicitly noting documented dialect/contextual variation in agreement and object case. This matches Haig (2018), §2.7.2, which outlines canonical ergative alignment and discusses non-canonical agreement and double-oblique patterns. No Kurmanji example was replaced, and no Central Circle material was used as evidence. Source: https://www.uni-bamberg.de/fileadmin/aspra/06_Team/Publications_and_CV/haig_2018_ch.2.3_northern_kurdish.pdf. No migrations, main branch, or production database were changed.
+
+
+### Clarified person-pronoun gender/number paradigm — 2026-10-22
+
+In the Northern Circle course 2 pronoun table, clarified that direct `ew` is used for third-person singular and plural, so number is context-dependent; in oblique singular, `wî` is masculine and `wê` feminine, while plural oblique is `wan`. The table already contained the relevant forms; this change makes the gender/number contrast explicit in the explanatory prose and parenthetical. Checked against Haig (2018), Table 9, and the University of Arizona Kurmanji page. Source: https://multicast.aspra.uni-bamberg.de/data/pubs/Haig2018_Northern-Kurdish_Kurmanji.pdf and https://iranian-languages.arizona.edu/node/7. No migrations, main branch, or production database were changed.
