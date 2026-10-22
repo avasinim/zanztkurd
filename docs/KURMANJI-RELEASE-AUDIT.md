@@ -1600,3 +1600,9 @@ Scope: read-only source inspection followed by an audit-document update on `kurm
 - The current catalog/index maps `032.html` to course lesson 16, titled `پیتەکانی (ع، غ) و شی‌کردنەوەی فۆنێتیکی و فۆنۆلۆجی`; its wrapper uses `data-lesson-key="032.html"` and loads the shared `script.js`.
 - The legacy draft seed's row for `kurmanji-course-1-lesson-16.html` is titled `ڕۆژەکانی هەفتە و کات`. This is a concrete example of the already-recorded mismatch between current wrapper keys/content scope and the 38-row legacy seed package; it is **not** evidence that either lesson text should be copied over the other.
 - The lesson body in the current wrapper is loaded dynamically, so the static wrapper alone does not expose the authoritative lesson text for scientific review. No lesson text, catalog/index, seed, SQL, migration, shared script, central-circle page, `main`, or database was changed. The existing content-key/source-packaging blocker remains unresolved and must not be bypassed by auto-copying the legacy row.
+
+## Northern lesson-navigation accessibility numeral consistency — 2026-10-22
+
+- Continued the Northern-only navigation review by checking `aria-label` text in lesson wrappers `017.html`–`058.html`. Some accessible labels still used Western digits even after the visible navigation labels had been standardized.
+- Standardized only the digit characters inside navigation `aria-label` attributes on these 23 wrappers: `020.html`, `023.html`, `025.html`–`038.html`, `044.html`–`046.html`, `051.html`, `052.html`, `057.html`, and `058.html`. Existing hrefs, navigation order, visible text, titles, and lesson bodies were preserved.
+- This is a text-accessibility consistency fix only. No central-circle files, shared script, catalog/index, lesson scientific content, seed, SQL, migration, `main`, or database were changed.
