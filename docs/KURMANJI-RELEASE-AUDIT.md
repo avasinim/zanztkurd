@@ -1219,3 +1219,9 @@ Before making any lesson edits, prepare a proposed correction plan grouped by se
 - Parsed the 38 HTML fragment string literals across all five draft seed parts and checked opening/closing element nesting with a stack-based tag scan; HTML void elements were excluded from the closing-tag requirement.
 - Result: all 38 fragments passed; no mismatched closing tags or unclosed non-void elements were detected.
 - Scope limitation: this is a static tag-balance check, not a full browser HTML5 conformance, rendering, accessibility, or runtime test. Seed SQL remains draft documentation and was not executed.
+
+
+## Lesson-fragment IDs and embedded-control inventory — 2026-10-22
+- Inspected the 38 HTML content fragments in all five draft seed parts for explicit `id` attributes and embedded form/control/media elements (`form`, `label`, `button`, `input`, `select`, `textarea`, `table`, `img`, `iframe`, `audio`, `video`, `details`, `summary`).
+- Result: no explicit IDs and none of the listed embedded controls or media elements were present; therefore no duplicate/empty IDs or control-label pairing defects were identified in these fragments.
+- Scope limitation: this inventory does not evaluate accessibility of the outer lesson page, CSS visibility, keyboard behavior, or the site navigation. Seed SQL was not executed.
