@@ -2178,3 +2178,8 @@ Expanded the Northern Circle course 2 negation lesson with examples explicitly g
 ### Added source-attested word-order analysis to course 2 lesson 11 — 2026-10-22
 
 Expanded the Northern Circle course 2 word-order lesson with Haig (2018), §2.7.1: the source-attested example `Wî mirov-î çay anî` (“That man brought tea”) is parsed as subject–object–verb, and the note explains that SOV is the neutral baseline rather than an exceptionless rule. It also preserves the source's qualifications about pragmatic fronting of direct objects and variation in goal/recipient placement. Source: https://doi.org/10.1515/9783110421682-004 and https://www.uni-bamberg.de/fileadmin/aspra/06_Team/Publications_and_CV/haig_2018_ch.2.3_northern_kurdish.pdf. Only `kurmanji-clean-release` was changed; no migrations, `main`, or production Supabase resources were touched.
+
+
+### Reviewed course 2 lesson 12 capstone review — 2026-10-22
+
+Reviewed the Northern Circle course 2 final review lesson in `part-05`. Its tasks ask learners to distinguish morphology, nominal structure, pronoun case, tense/transitivity, negation, and word order, and explicitly require source/context support for each analysis. The methodology note correctly warns that the exercise is not a substitute for checking a grammar source. No scientific text or seed content was changed in this pass because the lesson contains no new Kurmanji forms requiring correction; the source-attestation requirement is appropriate for a capstone exercise. This review remains scoped to the Northern Circle course 2 seed and Haig (2018) citation already present in the lesson. No migrations, `main`, or production Supabase resources were changed.
