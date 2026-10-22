@@ -1742,3 +1742,12 @@ Read-only follow-up of `lessons/index.json` confirms that the `058.html` inconsi
 - Therefore the section-label mismatch is user-visible: later Course 1 cards are displayed with the “فۆنێتیک و فۆنۆلۆجی مێژویی” label and the section filter offers that grouping. It is not only unused metadata.
 - The renderer sorts by course and logical lesson number, so section grouping and lesson order are separate concerns. Before editing the index, build a complete proposed table that preserves each of the 42 physical Course 1 pages, their 26 logical lesson numbers, and multi-part groupings (lessons 22, 23 and 25). Do not edit the renderer or registry automatically to mask the metadata inconsistency.
 
+## Avasin orthography sync: lesson 25 part 2 catalog title (2026-10-22)
+
+- Compared the visible page `lessons/053.html` with its `lessons/index.json` registry entry.
+- The page title and `h1` already use `هجا`, but the catalog metadata still said `بڕگە`, contrary to the project's explicit Avasin Code requirement.
+- Made the definite, narrow metadata-only correction in `lessons/index.json`: `بڕگە و /شوا/؛ پێکهاتەی CV و هێشوی کۆنسۆنەنت` → `هجا و /شوا/؛ پێکهاتەی CV و هێشوی کۆنسۆنەنت`.
+- Kept `pagePath`, `id`, `number`, `courseLessonNumber`, `courseId`, section grouping and lesson body unchanged. No scientific wording or Latin Kurmanji spelling was changed.
+- Re-read the registry and page after editing to verify the title matches. Broader section grouping discrepancy remains documented and was not silently remapped.
+- No changes to `main`, Supabase, seeds, migrations, or PR #3.
+
