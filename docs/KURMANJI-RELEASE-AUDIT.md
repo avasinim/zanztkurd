@@ -2196,3 +2196,7 @@ In Northern Circle course 2 lesson 6, replaced the generic methodology note with
 ### Clarified bibliography alignment in course 2 lesson 2 — 2026-10-22
 
 In Northern Circle course 2 lesson 2, removed the vague phrase “Haig and Öpengin” from the methodology note because that specific work was not listed in the lesson bibliography. Reworded the note to direct learners to compare dialect-specific sources for dialect differences, without changing the lesson’s scientific claims or any Kurmanji examples. This avoids an implicit citation that readers cannot resolve from the lesson’s own source list. No migrations, `main`, or production Supabase resources were changed.
+
+### Clarified Thackston source-link labels in course 2 lessons 1–6 — 2026-10-22
+
+Reviewed the Thackston bibliography links in Northern Circle course 2 lessons 1–6. Replaced the ambiguous link label “وەشانی سەرچاوە” (“source version”) with “پەڕەی کتێب لە ئەکادێمیای کوردی” (“book page at Kurdish Academy”), preserving the same destination URL and all bibliographic details. This is a link-label clarity improvement only; it does not assert that the linked page is a specific edition or prove the edition metadata. No lesson science, Latin Kurmanji forms, migrations, `main`, or production database were changed.
