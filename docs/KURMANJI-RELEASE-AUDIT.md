@@ -1821,3 +1821,9 @@ Read-only follow-up of `lessons/index.json` confirms that the `058.html` inconsi
 - The checked-in legacy seed/migration `docs/kurmanji-content-seed-part-04.sql`, `part-05.sql`, and `supabase/migrations/20261019090000_add_kurmanji_courses_and_protected_lessons.sql` use a different key namespace for the newly added Kurmanji content (`kurmanji-course-2-lesson-NN`) and a different course ID. They are not, by themselves, content rows for the static phonetics Course 2 shells.
 - Consequently, the legacy seed does not establish that the static Course 2 page keys have backing content. The front-end explicitly displays a “content row not found” error when the exact key is absent. Confirm actual intended content provisioning/key mapping before changing HTML or database logic.
 - No page keys, script, seed, migration, or database were changed. This is a source-code/static comparison, not a live Supabase query or browser test.
+
+
+### 2026-10-22 — Course 2 static shell navigation check (lessons 26–32)
+- Re-read static shells `lessons/course-2-26.html` through `lessons/course-2-32.html` on `kurmanji-clean-release`.
+- Each page has a numbered title, matching `data-lesson-key="course-2-NN.html"`, and exactly one script include. Prev/next links follow the numeric sequence for lessons 26–31; lesson 32 links back to 31 and, as the final lesson, has no next link.
+- This is static HTML inspection only. It does not verify rendered navigation, authentication, or availability of matching `lesson_content` rows in Supabase. No lesson HTML, seed, migration, or database was changed.
