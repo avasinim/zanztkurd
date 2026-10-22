@@ -2491,7 +2491,7 @@ Read-only verification of the six static lesson shells and `docs/kurmanji-conten
 
 - All six shells (07–12) have a matching `data-lesson-key`, the expected previous/next lesson links, and the expected versioned `script.js` include. The lesson 12 forward navigation returns to the course landing page, as expected.
 - The shells are presentation/navigation scaffolds; they do not establish that lesson content is available. The protected lesson loader still depends on the matching `lesson_content` row in Supabase, and the live project previously checked has zero rows for both Kurmanji course IDs.
-- The draft seed part 05 contains six occurrences of the same Haig & Öpengin DOI across the six lesson records; inspection of the source excerpts shows the DOI link is repeated twice within each bibliography entry. This appears to be a definite citation-format duplication, but it has **not** been edited because lesson seed/source text is under the no-unsubstantiated-content-change guardrail. Remove the repeated link only in a separately reviewed, coordinated seed/migration correction.
+- Superseded by the 2026-10-22 full-package recheck below: current seed part 05 has one DOI hyperlink in each of the six matching bibliography entries, not two repeated anchors. The displayed DOI label repeats the identifier as link text, which is normal and is not a second hyperlink.
 - Lesson 12 remains an assessment checklist rather than a complete scored assessment: it needs sourced authentic Kurmanji examples, an answer key, and a grading rubric before it can be treated as a fully self-checking final test. This is an instructional-content finding, not a shell defect; no scientific lesson text was changed.
 
 ### Result / next action
@@ -2508,7 +2508,7 @@ Compared the six lesson records in `docs/kurmanji-content-seed-part-05.sql` agai
 - All six records exist in both sources and their `lesson_key`, `course_id`, and lesson titles match the corresponding shell headings in substance. The migration applies Avasin orthographic normalization in some titles: lesson 09 has `ڕابردوو / داهاتوو` in the shell and seed but `ڕابردو / داهاتو` in the migration; lesson 12 has `پێداچوونەوە` in the shell and seed but `پێداچونەوە` in the migration. Treat these as known spelling divergences, not evidence that the keys are wrong.
 - **The records are not content-equivalent, and the differences are larger than orthographic normalization.** A static comparison of the six SQL record spans shows substantial length differences: migration records are shorter than seed records for lessons 07–11, while the migration's lesson 12 record is longer. This supports the migration's own warning that the two sources are not byte-identical; it is not safe to assume normalization alone explains the drift.
 - Some source-backed Kurmanji examples explicitly present in the seed are absent from the corresponding migration record: lesson 08's `ez dibêjim`, `ez hatim`, and `min xwar`; lesson 09's `ez dibêjim`, `ez hatim`, `min xwar`, `ez dihatim`, `min dixwar`, and the cited future construction; lesson 10's `nizanim`, `nikarim`, `ne-hatin`, and `ne-di-hatin`. These are material pedagogical/source-example differences, not just punctuation or Sorani spelling. They require a source-by-source semantic review before release.
-- Bibliography formatting also differs: the seed uses a displayed `DOI:` label and its DOI URL is duplicated in each lesson record; the migration has a differently formatted bibliography. Neither side was edited during this audit.
+- Bibliography formatting differs between seed and migration (for example, display-label formatting), but the current full-package check found no repeated DOI anchors within individual bibliography list items. The migration's incorrect author/title attribution for this DOI was corrected in a source-backed follow-up below.
 - Lesson 12's assessment content differs between seed and migration too. Do not treat either version as release-ready solely because both rows exist; its assessment still needs authentic sourced examples, an answer key, and a grading rubric.
 
 ### Required follow-up / release boundary
@@ -2568,3 +2568,19 @@ Updated `.github/workflows/validate-kurmanji-package.yml` so the package-integri
 The HTML shell/navigation layer is consistent in this static pass. The content-equivalence issue remains a distinct blocker: all 38 lesson keys match between the five seed packages and the migration, but key equality does not establish that the lesson bodies are equivalent. Do not apply the migration or publish the Kurmanji course as fully working until the source-backed content differences and the real Supabase student journey are validated in an isolated test project.
 
 No lesson content, seed, migration, `main`, production database, or PR merge was changed in this pass.
+
+
+## Source-backed bibliography correction and DOI-link recheck — 2026-10-22
+
+Verified the metadata for DOI `10.1515/9783110421682-004` against the University of Bamberg publication record and bibliographic record: the chapter “Northern Kurdish (Kurmanjî)” is authored by Geoffrey Haig; Geoffrey Haig and Geoffrey Khan are the editors of *The Languages and Linguistics of Western Asia: An Areal Perspective*. It is not authored by Haig and Ergin Öpengin. References to Öpengin and Haig's separate 2018 work must not be substituted for this chapter.
+
+- Corrected 23 bibliography list items in the proposed migration that incorrectly attributed this DOI-linked chapter to Haig and Öpengin and/or used the title “Overview of Northern Kurdish (Kurmanjî)”. The section-specific notes (for example, references to negation, ezafe, pronouns, case, and Table 7) were preserved.
+- Re-read the migration after the change. The static check found zero remaining bibliography list items that pair this DOI with Öpengin, and the canonical citation is present.
+- Rechecked all five split seed files and the migration for repeated DOI hyperlinks inside individual `<li>` bibliography items. No duplicate anchors were found. The visible DOI identifier in the link label is not a duplicate URL.
+- No Latin Kurmanji examples, lesson explanations, course keys, schema statements, grants, or migration execution behavior were intentionally changed by this citation-only correction. The seed files were not changed.
+
+Source references:
+- University of Bamberg publication record: `https://fis.uni-bamberg.de/entities/publication/06ab181d-1e09-43da-87f4-92453eaf5057`
+- DOI: `https://doi.org/10.1515/9783110421682-004`
+
+The migration still differs substantively from the seed in lesson bodies, so this citation correction does not constitute approval to apply the migration or release the course. The correction is limited to bibliographic attribution and does not resolve unrelated content-equivalence or real student-journey tests.
