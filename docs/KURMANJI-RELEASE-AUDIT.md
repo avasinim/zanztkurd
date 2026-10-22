@@ -1316,3 +1316,10 @@ Before making any lesson edits, prepare a proposed correction plan grouped by se
 - Result: the progress page's counts and row badges do not read the current lesson page's namespaced values, and its reset action does not clear those namespaced values. It therefore cannot reliably represent/reset progress produced by the current lesson page. This is a source-level key mismatch, not a live account-data observation.
 - No source change was made in this pass: a correct fix should decide whether this page is retired, updated to use the same user-scoped contract and authoritative server progress, or redirected to the current catalog. Guessing a storage migration or deleting other keys risks confusing learner state.
 - Scope: static comparison of `lesson.html`, `lessons/progress.html`, and `lessons/index.json`; no browser test, auth-switch test, or Supabase query. No `main`, migration, seed execution, or production database change.
+
+
+## Performance report course-2 coverage correction — 2026-10-22
+- Compared `lessons/performance.html`'s report-generation list with `lessons/index.json`: the index contains 32 unique Course 2 pages (`course-2-01.html` through `course-2-32.html`), and all seven tail pages 26–32 exist on this protected branch.
+- The report had `Array.from({length:25}, ...)`, so its server-backed summary omitted Course 2 lessons 26–32 and reported only 25 Course 2 logical rows. Changed that bound to 32; no lesson content, scoring rules, IDs, SQL, or data records were changed.
+- Re-fetched the changed report and audit note after commit to verify the new bound and recorded finding. This is a source-level correction; the report was not run in a browser and no live Supabase results were queried.
+- No changes to `main`, migrations, seed execution, or production database.
