@@ -1479,3 +1479,13 @@ A further read-only trace followed the current lesson wrapper into the shared lo
 - The loader displays an explicit missing-content error if no exact-key row exists. Therefore, matching wrapper navigation and script inclusion is not enough to demonstrate that the current 58 pages can render their lesson bodies.
 
 **Finding:** the checked-in draft seed package is not a direct data source for the current 58 wrapper keys, and the loader has no compatibility mapping between the two naming schemes. The exact-key mismatch already observed in the test database remains a release blocker until the authoritative 58 lesson bodies, their intended course IDs, and a safe test-only packaging/loading path are established. Do not auto-copy legacy rows or edit seeds/migrations as a shortcut. No lesson text, seed, migration, database, or production configuration was changed in this trace.
+
+## Follow-up clarification — course mapping and test boundary — 2026-10-22
+
+The earlier note about `course-current` versus `orthography-kurdik` needs clarification. `course-current` is the catalog/index scope label; `script.js` maps the numbered writing-system pages to the database course ID `orthography-kurdik`. The inspected migration `20261011104927_align_course_2_to_source_lessons_25_27.sql` uses the same numbered page keys for that course. The naming difference alone is not a confirmed defect.
+
+A separate course-2 scope mismatch remains: the current catalog and wrapper set expose 32 lessons, while the inspected migration sets `phonetics-phonology-kurdik.total_lessons = 27` and its sequential-access/completion arrays cover lessons 01–27 only. The intended scope of lessons 28–32 must be resolved before release. No migration was run.
+
+Environment safety: the checked-in `supabase-config.js` points to project ref `hjpmorabqdhuchpnowiw`, different from the known test-project ref `juwsjljbdwyncicybwoq`. The configured project is therefore not confirmed as the approved test environment. Do not use this client config for test-browser validation or writes; any end-to-end test must explicitly target the approved test project. No database requests or changes were made.
+
+This corrects the earlier interpretation: the `course-current` / `orthography-kurdik` difference is catalog-scope vs database-course naming, not itself evidence of broken enrollment mapping. The content blocker remains the lack of a verified mapping from the 58 current wrapper keys to authoritative lesson-content rows in the approved test environment.
