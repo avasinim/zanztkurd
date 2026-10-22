@@ -30,3 +30,17 @@ This is a read-only release-readiness note for `kurmanji-clean-release`. No SQL 
 - Release audit: `docs/KURMANJI-RELEASE-AUDIT.md`
 - Split SQL packages: `docs/kurmanji-content-seed-part-01.sql` through `part-05.sql`
 - Proposed migration: `supabase/migrations/20261019090000_add_kurmanji_courses_and_protected_lessons.sql`
+
+
+## Content-by-content comparison — 2026-10-22 follow-up
+
+A structured comparison of the five split SQL packages against the 38 lesson rows embedded in `20261019090000_add_kurmanji_courses_and_protected_lessons.sql` found:
+
+- All 38 lesson keys exist in both places, but **all 38 lesson HTML bodies differ** after whitespace normalization.
+- Six lesson titles differ as well: course 1 lessons 01, 03, 07, 26 and course 2 lessons 09, 12.
+- The differences are not merely formatting. Examples include the migration changing Avasin spellings such as `ڕێنووسی` to `ڕێنوسی`, `دوور` to `دوور`/shortened forms, `بەرابەر` to `بەرامبەر`, and `نوسراو`-related wording; it also shortens or rewrites lesson sections. Course 1 lesson 25's extracted HTML is 1,034 characters shorter in the migration than in the split seed, and course 2 lesson 06 is 693 characters shorter. These length differences alone do not establish which version is scientifically correct, but they require review before release.
+- Bibliography attribution differs in some migration lesson bodies: split seed references cite Haig (2018), while migration text sometimes attributes the same material to “Haig and Öpengin (2018)”. This needs source-level correction; do not accept the migration text automatically.
+
+### Updated release decision
+
+The migration is **not content-equivalent** to the approved split SQL package and must not be applied as-is. Preserve the split seed/source as the comparison baseline, review each discrepancy, restore Avasin Code spellings in Sorani explanatory text, preserve Latin Kurmanji forms, and verify scientific statements and citations against the source. Do not mechanically replace all migration content without that review. No database write or production change was made during this comparison.
