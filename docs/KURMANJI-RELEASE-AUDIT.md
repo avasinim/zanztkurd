@@ -1258,3 +1258,9 @@ Before making any lesson edits, prepare a proposed correction plan grouped by se
 - The lessons catalog contains links to both Kurmanji course overview pages (`../kurmanji-course-1.html`, `../kurmanji-course-2.html`).
 - Result: the static index-to-wrapper and catalog-to-course entry links are internally consistent. No source correction was needed.
 - Scope: static href extraction on `kurmanji-clean-release`; does not test browser navigation, auth/enrollment, or runtime rendering. No `main`, migration, seed execution, or production DB changes.
+
+
+## Catalog lesson-count and logical-page grouping audit — 2026-10-22
+- Compared the catalog's displayed totals (96 lessons overall; 58 Kurdish and 38 Kurmanji) with the current lessons/index.json and the previously verified Kurmanji lesson inventories.
+- The index contains 74 physical HTML lesson pages: 42 pages assigned to course-current collapse into 26 logical lessons (multi-page units include logical lessons 22, 23, and 25); course-2 contains 32 physical pages and 32 logical lessons. Adding the two Kurmanji pathways (26 + 12) yields 96 logical lessons, with Kurdish totaling 26 + 32 = 58 and Kurmanji totaling 26 + 12 = 38. The advertised catalog totals therefore reconcile when multi-page units are counted as single lessons.
+- No source change was warranted. This is a static JSON/count comparison; it does not test rendered catalog behavior or progress reconciliation in a browser. No main, migration, seed execution, or production database changes.
