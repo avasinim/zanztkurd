@@ -1393,3 +1393,11 @@ Before making any lesson edits, prepare a proposed correction plan grouped by se
 - The visible page titles follow the numbered sequence 1–32. The shared loader queries `lesson_content` by the exact `data-lesson-key`, displays a clear error if content is unavailable, and does not silently substitute a different lesson.
 - No definite static HTML wiring/navigation defect was found, so no lesson page or scientific text was changed. The page content itself is served from `lesson_content`; this source inspection does not prove that the matching rows exist in a live/test database or that runtime rendering succeeds. No database, migration, seed, `main`, or production changes were made.
 - Terminology note for human review only: the title of Course 2 lesson 16 uses `سیلاب`, while lesson 6 uses `بڕگە`. No automatic replacement was made; preserve `بڕگە` and do not normalize it to `هجا`.
+
+
+## Global audit-log consistency review — 2026-10-22
+- Reviewed the audit log's section index and the most recent navigation, report, storage, and orthography entries on `kurmanji-clean-release`.
+- The document contains 109 section headings and no exact duplicate heading strings. Recent findings are separated into distinct checks (navigation, report-to-catalog alignment, storage-scope concerns, and static lesson-page wiring) rather than recorded as duplicate headings.
+- Terminology conflict resolved by precedence: the earlier section “Avasin orthography: syllable terminology” records a historical change that was later reverted. The subsequent “Correction: preserve the term بڕگە” is the controlling instruction; preserve `بڕگە` and do not replace it with `هجا`. The earlier section is retained as audit history, not as current guidance.
+- The latest static Course 2 page-wiring review found no definite HTML navigation or `data-lesson-key` mismatch. Its limitation remains: source inspection does not verify live `lesson_content` rows or browser rendering.
+- This pass is a consistency review of the audit log, not a fresh re-execution of every historical test or claim. No lesson text, catalog, seed, SQL, migrations, `main`, or production database was changed. Only this audit document was updated.
