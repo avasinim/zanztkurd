@@ -2208,3 +2208,7 @@ Reviewed the lesson “Morphology and word structure” in `kurmanji-content-see
 ### Reviewed Northern Circle course 2 lesson 2 — 2026-10-22
 
 Reviewed “Root, prefix, and suffix” in `kurmanji-content-seed-part-04.sql`. The lesson appropriately distinguishes root and stem as terms whose definitions can vary by analytical framework, defines prefixes/suffixes by position, and cautions against unsupported segmentation. The `-ek` example is explicitly qualified rather than presented as an exceptionless rule. The bibliography was left unchanged; no unverified publication metadata or unsupported linguistic forms were introduced. No lesson-seed edit was needed in this pass. This review was limited to the current Northern Circle seed; no changes were made to `main`, migrations, or production data.
+
+### Reviewed Northern Circle course 2 lesson 3 — 2026-10-22
+
+Reviewed “Noun, grammatical gender, and number” in `kurmanji-content-seed-part-04.sql`. The lesson correctly distinguishes grammatical gender from natural sex and avoids claiming one plural rule applies to all nouns. The ezafe agreement explanation is directionally useful but remains general; a future expansion should add source-attested paradigms/examples and specify the relevant construction before making more detailed claims. No precise counterexample was established in this pass, so the seed lesson was not rewritten and no forms were invented. References and metadata were left unchanged. Scope remains Northern Circle course 2; no changes to `main`, migrations, or production data.
