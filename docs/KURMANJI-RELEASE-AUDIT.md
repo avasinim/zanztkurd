@@ -1363,3 +1363,10 @@ Before making any lesson edits, prepare a proposed correction plan grouped by se
 - Safe fix in `lesson.html`: navigation now builds its previous/next sequence from all catalog records sharing the current course ID, preserving each course boundary while allowing navigation across section boundaries. It uses the already-loaded `window.__zanstiLessons` list and retains escaped titles and encoded IDs.
 - Verification: re-fetched `lesson.html` after commit and confirmed the new same-course filter is present. Static source check only; no browser navigation test performed.
 - Scope: no lesson text, catalog data, IDs, SQL, migrations, seed execution, `main`, or production database changes.
+
+
+## Course navigation boundaries and cross-course isolation — 2026-10-22
+- Re-checked the updated `renderNavigation()` against the current `lessons/index.json`. The builder filters the full catalog to the active course before choosing adjacent records, so section boundaries within a course can be crossed while the first/last records of each course do not receive a previous/next record from another course.
+- Static boundary checks: Course 1 starts at `writing-system-section-07-lesson-017` and ends at `phonetics-section-10-lesson-058`; Course 2 starts at `course-2-lesson-01` and ends at `course-2-lesson-32`. The sequence has two course IDs and no navigation adjacency should cross those IDs. The catalog contains 42 physical records for Course 1 and 32 for Course 2; these are page records, not the 26 and 32 logical lesson totals.
+- No further source change needed. Verification is static only; the browser navigation path and clicked links were not runtime-tested.
+- Scope: no lesson content, catalog records, IDs, SQL, migrations, seed execution, `main`, or production database changes.
