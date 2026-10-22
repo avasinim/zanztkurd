@@ -1815,3 +1815,9 @@ Read-only follow-up of `lessons/index.json` confirms that the `058.html` inconsi
 - This reveals a repository-level coverage discrepancy: the legacy seed parts inspected do not provide matching Course 2 content keys for lessons 13–32. It does **not** establish whether newer content is provisioned elsewhere or what production/test DB currently contains.
 - No seed, migration, database, lesson body, or mapping was changed. Do not fill this gap by guessing/reusing unrelated lesson content; verify intended source and provisioning path before any repair.
 - Verification was static file inspection only.
+
+### 2026-10-22 — Course 2 runtime lesson-content key mismatch (static code finding)
+- Re-read the static shell for `lessons/course-2-13.html` (and representative shells 16, 25, 32): the content placeholder uses `data-lesson-key="course-2-NN.html"`, and `script.js` queries `lesson_content` by that exact key.
+- The checked-in legacy seed/migration `docs/kurmanji-content-seed-part-04.sql`, `part-05.sql`, and `supabase/migrations/20261019090000_add_kurmanji_courses_and_protected_lessons.sql` use a different key namespace for the newly added Kurmanji content (`kurmanji-course-2-lesson-NN`) and a different course ID. They are not, by themselves, content rows for the static phonetics Course 2 shells.
+- Consequently, the legacy seed does not establish that the static Course 2 page keys have backing content. The front-end explicitly displays a “content row not found” error when the exact key is absent. Confirm actual intended content provisioning/key mapping before changing HTML or database logic.
+- No page keys, script, seed, migration, or database were changed. This is a source-code/static comparison, not a live Supabase query or browser test.
