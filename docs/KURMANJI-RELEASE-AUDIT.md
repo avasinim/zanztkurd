@@ -1231,3 +1231,9 @@ Before making any lesson edits, prepare a proposed correction plan grouped by se
 - Scanned `href` and `src` attribute values in all 38 HTML lesson fragments across the five draft seed parts.
 - Result: no empty URL attributes, relative/local references, non-HTTP(S)/mailto schemes, or whitespace-containing HTTP(S) URL values were found.
 - Scope limitation: this checks URL attribute syntax/patterns only; it does not test whether external destinations resolve, are trustworthy, or remain available. Seed SQL was not executed.
+
+
+## Runtime Avasin-normalizer collision scan against Kurmanji lesson seeds — 2026-10-22
+- Compared the active Avasin text-normalization spellings in `script.js` against all 38 HTML fragments in the five draft Kurmanji seed parts, including occurrences inside `<code>`/`<pre>` blocks.
+- Result: none of the scanned fragments contain the listed legacy Sorani spellings targeted by the normalizer; no potential lesson-example collision was identified in this seed corpus.
+- Scope limitation: this is a static check of these 38 seed fragments only, not all site pages or dynamic text from external services. No lesson or runtime code was changed; seed SQL was not executed.
