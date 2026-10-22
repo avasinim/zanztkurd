@@ -1863,3 +1863,8 @@ Read-only follow-up of `lessons/index.json` confirms that the `058.html` inconsi
 - Re-fetched these four static lesson files and compared their displayed lesson identifiers and `data-lesson-key` values with the corresponding `lessons/index.json` catalog entries.
 - The keys match the filenames; catalog numbering/title mapping aligns with the lesson identifiers (048→23, 054/057→parts of lesson 25, 058→26). The incorrect `ڕێنووس` spelling remains absent from these checked shells.
 - No additional edits were needed. Static source review only; no lesson-body scientific validation or browser/database testing.
+
+
+### 2026-10-22 — Course 1 multipart navigation chain spot-check (045–052)
+- Re-fetched static pages 045–052 and inspected each lesson key and visible previous/next links. The linked chain intentionally crosses nonconsecutive filenames: 048 → 049 → 050 → 051 → 045 → 052; page 045 links back to 051 and forward to 052, while 052 continues to 053. This reflects multipart lessons and file naming, not a simple numeric filename sequence.
+- The links form a continuous chain across the checked pages; no navigation edits were warranted. Static HTML inspection only; no browser execution, scientific content review, seed/runtime key validation, or database access.
