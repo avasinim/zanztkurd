@@ -1164,3 +1164,11 @@ Before making any lesson edits, prepare a proposed correction plan grouped by se
 - Re-fetched all 38 wrapper files after edits. The scan found none of the tracked legacy forms `نموونە`, `پێویست`, `هەموو`, `ڕوون`, `ناوەڕۆک`, `چییە`, `نییە`, `نووسین`, `فێربوون`, or `دەستپێکردن` in the wrapper HTML source.
 - For all 38 wrappers, `data-lesson-key` still matches the filename and each has exactly one `script.js?v=20261019-kurmanji-protected` include. Their lesson navigation links still point to the adjacent lesson(s) expected from the sequence; first and last lessons link to the relevant course index rather than an out-of-range lesson.
 - These were limited source-text replacements; Kurmanji Latin examples, lesson keys, titles, and navigation structure were not rewritten. Seed SQL remains unexecuted. No changes to `main`, migrations, or production database; no full browser or CI test is claimed.
+
+
+## Seed-to-wrapper identity and Avasin spelling parity — 38 Kurmanji lessons
+
+- Compared the SQL seed row keys and lesson titles against the matching static wrapper `data-lesson-key` and hero `<h1>` across course 1 lessons 01–26 and course 2 lessons 01–12. All 38 keys map to the expected wrapper, and all 38 seed titles match their wrapper hero titles after the Avasin spelling pass.
+- The comparison exposed legacy Sorani spellings in seed parts 01 and 03 (part 02 already had none of the tracked forms). Applied only the established Avasin text substitutions to those seed HTML strings; no Kurmanji Latin forms, lesson topics, examples, row keys, or SQL execution behavior were changed. Seed part 01 commit: `c7fbc0d`; seed part 03 commit: `d330020`.
+- Re-fetched seed parts 01–03 after the edits. The tracked legacy forms `نووسراوە`, `نووسینی`, `نووسین`, `فێربوون`, `هەموو`, `نموونە`, `پێویست`, `ڕوون`, `ناوەڕۆک`, `چییە`, `نییە`, and `دەستپێکردن` are absent from all three files.
+- **Limit of this pass:** the wrappers intentionally load lesson-card HTML by key; this check establishes wrapper/seed identity and title parity, not a live Supabase render or a complete byte-for-byte/semantic audit of all lesson bodies. Seed SQL was not executed. No changes to `main`, migrations, or production DB; no browser/CI pass is claimed.
