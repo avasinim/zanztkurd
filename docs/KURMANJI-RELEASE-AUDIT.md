@@ -1796,3 +1796,9 @@ Read-only follow-up of `lessons/index.json` confirms that the `058.html` inconsi
 - No lesson body text, Latin Kurmanji, lesson keys, canonical URLs, navigation routes, scripts, seed data, migrations, or database content was changed.
 - Re-read the five pages after editing and checked the approved brand, one `script.js` reference per page, matching `data-lesson-key`, canonical URL, and adjacent lesson navigation.
 - This is a static repository-file verification only; no live browser test was performed. The separate lessons 11–15 brand fixes remain pending because the earlier write attempt was blocked.
+
+### 2026-10-22 — Course 2 lessons 11–15 and 21–25: branding spelling
+- Corrected the two visible site-brand occurrences in each of `lessons/course-2-11.html` through `course-2-15.html`, and `course-2-21.html` through `course-2-25.html`, from `ئەکادێمای ئاڤاشین` to the approved `ئەکادێمیای ئاڤاشین`.
+- Re-fetched each changed page from `kurmanji-clean-release`: each has 0 remaining incorrect spellings and 2 approved brand occurrences.
+- Scope was limited to the brand text. Scientific lesson content, Latin Kurmanji, lesson keys, navigation, scripts, seed files, migrations, and databases were not changed.
+- Verification was against repository file contents only; no live browser or database test was performed.
