@@ -1499,3 +1499,12 @@ This corrects the earlier interpretation: the `course-current` / `orthography-ku
 - This is a source-level inconsistency and a release blocker for lessons 28–32 until the intended authoritative course scope is decided. It does not establish which count is correct, and it is not permission to edit or run migrations.
 - The checked migration is function/course metadata logic, not an authoritative content payload for all 58 current wrappers. A targeted repository search did not find a migration inserting lesson-content rows for the current wrapper keys; the previously documented 38-row draft seed package still uses legacy key names and must not be copied into the current wrapper scheme.
 - Scope: read-only GitHub source inspection on `kurmanji-clean-release`. No files changed in this check, no database queries or writes, no seed execution, no migration execution, no `main` change, and no PR #3 merge.
+
+
+## Correction: authoritative Course 2 count is already recorded — 2026-10-22
+
+- Read `COURSE-REGISTRY.md` and `lessons/index.json` directly. The current formal decision is explicit: Course 1 = 26 lessons; Course 2 = 32 lessons; total catalog = 58. Course 2 lessons 25–32 were added by the user's request, and lesson 32 is explicitly accepted as the current catalog endpoint.
+- Therefore the 27-vs-32 issue is **not an unresolved question about the intended catalog scope**. The documented source of truth is 32. The migration `20261011104927_align_course_2_to_source_lessons_25_27.sql` is inconsistent with that accepted registry because its access/completion arrays and `total_lessons` stop at 27.
+- The admin reporting migration already recognizes all 32 Course 2 keys, confirming internal implementation drift. Release work should reconcile the access/completion logic to the accepted 32-lesson registry, but migration edits or execution are outside this read-only audit and must not happen without explicit authorization.
+- Metadata discrepancy noted, not silently changed: the registry labels lesson 31 with `سرتێس`, while the current wrapper and `lessons/index.json` use `سترێس`. Do not normalize this technical term until its intended spelling is checked against the source/reference and the Avasin standard.
+- Re-read verification: the registry explicitly lists lessons 25–32 and states Course 2 = 32; `lessons/index.json` declares `lessonCount: 32`. No website lesson body, seed, migration, or database was changed in this check.
