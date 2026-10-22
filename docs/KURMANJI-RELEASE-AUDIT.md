@@ -1251,3 +1251,10 @@ Before making any lesson edits, prepare a proposed correction plan grouped by se
 - This is a security-hardening observation, not a confirmed vulnerability: the reviewed code alone does not establish whether database writes are restricted to trusted/authorized authors or whether server-side validation exists. The current Kurmanji seed corpus is curated, but the runtime also reads database content.
 - Recommendation for a separately authorized security review: verify the effective `lesson_content` INSERT/UPDATE policies and trusted content-authoring path; if untrusted authors can supply HTML, sanitize with a maintained allowlist before rendering. No code or database policy was changed in this audit.
 - Scope: static inspection of the checked-in runtime source only; no browser exploit test, live RLS inspection, migration execution, seed execution, production DB change, or `main` change.
+
+
+## Kurmanji course-index and catalog entry-point check — 2026-10-22
+- Parsed lesson destinations in the two Kurmanji course overview pages: Course 1 lists exactly 26 unique lesson links (01–26), and Course 2 lists exactly 12 unique lesson links (01–12); no expected destination was missing and no unexpected lesson link appeared.
+- The lessons catalog contains links to both Kurmanji course overview pages (`../kurmanji-course-1.html`, `../kurmanji-course-2.html`).
+- Result: the static index-to-wrapper and catalog-to-course entry links are internally consistent. No source correction was needed.
+- Scope: static href extraction on `kurmanji-clean-release`; does not test browser navigation, auth/enrollment, or runtime rendering. No `main`, migration, seed execution, or production DB changes.
