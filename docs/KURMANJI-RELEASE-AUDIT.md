@@ -1808,3 +1808,10 @@ Read-only follow-up of `lessons/index.json` confirms that the `058.html` inconsi
 - All seven pages have their matching `data-lesson-key`, canonical URL, and one `script.js` include. Prev/next links form the expected sequence from lesson 26 through lesson 32; lesson 32 has no next lesson.
 - Each page has two approved `ئەکادێمیای ئاڤاشین` brand occurrences and no `ئەکادێمای ئاڤاشین` typo. No edits were needed in these seven files.
 - This is repository/static inspection only, not a live browser test. Lesson scientific body/seed correspondence was not asserted by this shell/navigation check.
+
+### 2026-10-22 — Course 2 static lesson pages vs repository seed coverage
+- Inspected `docs/kurmanji-content-seed-part-04.sql` and `part-05.sql`: the checked-in legacy seed contains Course 2 lesson-content keys only for lessons 01–12 (six in part 04 and six in part 05).
+- The static Course 2 lesson shell set is `lessons/course-2-01.html` through `course-2-32.html`, and the official Course 2 registry/implementation records 32 lessons.
+- This reveals a repository-level coverage discrepancy: the legacy seed parts inspected do not provide matching Course 2 content keys for lessons 13–32. It does **not** establish whether newer content is provisioned elsewhere or what production/test DB currently contains.
+- No seed, migration, database, lesson body, or mapping was changed. Do not fill this gap by guessing/reusing unrelated lesson content; verify intended source and provisioning path before any repair.
+- Verification was static file inspection only.
