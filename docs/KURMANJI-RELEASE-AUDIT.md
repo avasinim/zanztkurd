@@ -2010,3 +2010,12 @@ No HTML, `script.js`, seed file, migration, `main`, PR #3, or database was chang
 - Next safe audit: obtain the actual 32 content bodies from a verified, authorized source and compare normalized text hashes plus section/paragraph similarity, then manually review likely duplicates against the source book. Do not manufacture missing bodies, bulk-map unrelated Markdown lessons, or change production/test data without approval.
 - No lesson page, course title, seed, migration, or database row was changed in this check.
 
+
+
+### Cross-course duplicate suspicion — registry and legacy lesson inventory — 2026-10-22
+
+- Read `lessons/index.json` and the corresponding course registry entries. The repository has two distinct inventories: the legacy `course-current` sequence (including numbered pages `017.html`–`058.html`, with some titles on the same phonetics topics) and the newer `course-2` sequence (`course-2-01.html`–`course-2-32.html`). They have separate course IDs and lesson keys; numeric lesson numbers are not a valid mapping.
+- Confirmed topic overlap exists at the broad subject level: for example, the legacy pages 052–057 cover schwa, CV structure, consonant clusters and phonemic contrasts, while the new course includes lessons on syllable structure and consonant clusters/prosody. This overlap alone does not prove duplicated lesson bodies; the specific lesson titles and learning scopes are not identical, and both inventories load bodies from separate keys.
+- This makes the user's duplicate concern reasonable to investigate in two dimensions: (1) repeated HTML/CSS shell, already confirmed; (2) repeated scientific body content across the two course inventories, still unverified because the authorized test DB has no rows for the newer `phonetics-phonology-kurdik` course and the repository contains only loading placeholders in those new HTML pages.
+- Safe next step is a read-only body comparison using an authorized export or verified source for both inventories, first exact normalized hashes, then similarity review and source-book cross-check. No body should be deleted, merged, or reassigned based on title/number alone. No application files, lesson content, seed, migration, or database row changed in this audit.
+
