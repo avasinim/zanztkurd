@@ -1678,3 +1678,16 @@ Reviewed wrappers 017.html–028.html for the wrapper-owned data key, shared scr
 - **Needs a focused metadata cleanup review:** lessons/034.html contains two JSON-LD LearningResource script blocks with overlapping page metadata. This pass did not remove either block because the exact intended structured-data fields should be compared before editing. The page's canonical URL, key, navigation, and shared-script count are correct.
 - Some page titles and displayed lesson numbers represent a multi-part course sequence rather than a direct filename-to-course-number mapping. Preserve the explicit registry/catalog order; do not reorder pages by filename or infer scientific content from titles alone.
 - This was a static wrapper check, not a browser end-to-end test or source verification of dynamically loaded lesson bodies. No central-circle content, lesson body, seed SQL, migration, database, production configuration, main, or PR #3 was changed. Only this audit document is updated in this pass.
+
+## Static lesson-page audit — lessons 041–058 (2026-10-22)
+
+Reviewed the static HTML shells for all 18 pages from `lessons/041.html` through `lessons/058.html` on `kurmanji-clean-release`.
+
+- All 18 pages have a single `data-lesson-key` matching the page filename, a canonical URL matching that filename, and exactly one `script.js` include.
+- The previous/next links were inspected as a connected sequence. Some filename numbers are intentionally out of lesson order: for example, lesson 044 links to 046, and the sequence later routes 051 to 045 before continuing to 052. These links follow the lesson numbering/part sequence, so they were preserved rather than “corrected” to numeric filename order.
+- Applied only definite Avasin Code orthography/terminology fixes in page-shell metadata and headings: `lessons/048.html` changed `ڕێنوس` to `ڕێنووس`; `lessons/053.html` and `lessons/057.html` changed `بڕگە` to `هجا`; `lessons/054.html` changed `ڕێنوس` to `ڕێنووس`. No lesson body in Seed or database was edited, and no scientific claim was rewritten.
+- The review also noticed that `lessons/058.html` omits the header call-to-action used on many earlier pages; this was not changed because it is a consistency observation rather than a confirmed functional defect.
+- This pass is a static HTML-shell/navigation/orthography check, not a source-based scientific verification of the loaded lesson bodies or a live-browser/database test.
+
+Protected scope preserved: `main`, the Central circle, PR #3, Seed SQL, migrations, and all databases were not intentionally changed.
+
