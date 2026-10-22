@@ -1885,3 +1885,9 @@ Read-only follow-up of `lessons/index.json` confirms that the `058.html` inconsi
 - Re-fetched static pages 031–038. Each page's `data-lesson-key` matches its filename, each includes one `script.js`, and previous/next links connect the inspected pages in sequence.
 - Compared catalog mappings: pages 031–033 are learner lessons 15–17 in section-07; pages 034–038 are learner lessons 18–22 in section-10. The section transition between pages 033 and 034 does not break the navigation chain.
 - No definite defect found and no lesson edits made. Static HTML/catalog review only; no browser execution, scientific body review, seed/runtime key validation, or database access.
+
+
+### 2026-10-22 — Course 1 navigation/catalog spot-check (023–030)
+- Re-fetched static lesson shells `023.html` through `030.html` and checked their visible lesson titles, `data-lesson-key`, previous/next anchors, and `script.js` include. All eight keys match their filenames; each page includes the shared script once; links connect the sequence 022→023→…→030→031 without a break.
+- Compared the eight page paths and catalog titles in `lessons/index.json`: all are registered exactly once under `section-07`, mapped to logical Course 1 lessons 7–14, and the catalog titles match each HTML title/heading. Lesson 10 (page 026) is explicitly presented as part 2 of lesson 9, consistent between shell and catalog.
+- No definite defect found; no lesson/catalog edits made. Static source review only—no rendered browser check, scientific body/seed correspondence check, runtime key verification, or database access.
