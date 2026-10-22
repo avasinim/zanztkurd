@@ -1593,3 +1593,10 @@ Scope: read-only source inspection followed by an audit-document update on `kurm
 - All 42 files have a canonical URL matching their repository page path and a description meta tag. Where an Open Graph title was present, it matched the HTML title. The targeted malformed-URL scan found no matches.
 - No files required a change in this pass. This does not validate deployed HTTP responses, browser rendering, or the scientific accuracy of lesson bodies.
 - Central-circle content, shared vocabulary, `main`, database objects, seeds, and migrations were left untouched.
+
+## Northern catalog lesson 16 — current wrapper vs legacy seed key example (2026-10-22)
+
+- Re-read `lessons/032.html` and the checked-in draft seed `docs/kurmanji-content-seed-part-02.sql` on `kurmanji-clean-release`.
+- The current catalog/index maps `032.html` to course lesson 16, titled `پیتەکانی (ع، غ) و شی‌کردنەوەی فۆنێتیکی و فۆنۆلۆجی`; its wrapper uses `data-lesson-key="032.html"` and loads the shared `script.js`.
+- The legacy draft seed's row for `kurmanji-course-1-lesson-16.html` is titled `ڕۆژەکانی هەفتە و کات`. This is a concrete example of the already-recorded mismatch between current wrapper keys/content scope and the 38-row legacy seed package; it is **not** evidence that either lesson text should be copied over the other.
+- The lesson body in the current wrapper is loaded dynamically, so the static wrapper alone does not expose the authoritative lesson text for scientific review. No lesson text, catalog/index, seed, SQL, migration, shared script, central-circle page, `main`, or database was changed. The existing content-key/source-packaging blocker remains unresolved and must not be bypassed by auto-copying the legacy row.
