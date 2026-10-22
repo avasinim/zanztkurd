@@ -1827,3 +1827,9 @@ Read-only follow-up of `lessons/index.json` confirms that the `058.html` inconsi
 - Re-read static shells `lessons/course-2-26.html` through `lessons/course-2-32.html` on `kurmanji-clean-release`.
 - Each page has a numbered title, matching `data-lesson-key="course-2-NN.html"`, and exactly one script include. Prev/next links follow the numeric sequence for lessons 26–31; lesson 32 links back to 31 and, as the final lesson, has no next link.
 - This is static HTML inspection only. It does not verify rendered navigation, authentication, or availability of matching `lesson_content` rows in Supabase. No lesson HTML, seed, migration, or database was changed.
+
+
+### 2026-10-22 — Course 2 catalog/title parity (all 32 static pages)
+- Compared each Course 2 entry in `lessons/index.json` against the corresponding static HTML `<title>` on `kurmanji-clean-release`, excluding the shared Avasin brand suffix.
+- All 32 catalog titles matched their corresponding page titles exactly. This check covers the catalog title field and HTML document title only; it does not validate lesson body scientific accuracy, browser rendering, or runtime content availability.
+- No catalog or lesson page was changed. Static repository inspection only.
