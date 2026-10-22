@@ -2133,3 +2133,8 @@ In the Northern Circle course 2 case lesson, softened an overly categorical sent
 ### Clarified person-pronoun gender/number paradigm — 2026-10-22
 
 In the Northern Circle course 2 pronoun table, clarified that direct `ew` is used for third-person singular and plural, so number is context-dependent; in oblique singular, `wî` is masculine and `wê` feminine, while plural oblique is `wan`. The table already contained the relevant forms; this change makes the gender/number contrast explicit in the explanatory prose and parenthetical. Checked against Haig (2018), Table 9, and the University of Arizona Kurmanji page. Source: https://multicast.aspra.uni-bamberg.de/data/pubs/Haig2018_Northern-Kurdish_Kurmanji.pdf and https://iranian-languages.arizona.edu/node/7. No migrations, main branch, or production database were changed.
+
+
+### Added explicit parsing for direct/oblique case examples — 2026-10-22
+
+Added short pedagogical notes under the two existing examples `Ez wî mirovî dibînim` and `Min ew dît` in the Northern Circle course 2 case lesson. The notes explicitly identify direct vs. oblique arguments and explain the basic present-tense vs. past-transitive agreement contrast, while keeping the original Kurmanji examples and translations unchanged. The analysis was checked against Haig (2018), §2.7.2, and the University of Arizona Kurmanji grammar page. Sources: https://multicast.aspra.uni-bamberg.de/data/pubs/Haig2018_Northern-Kurdish_Kurmanji.pdf and https://iranian-languages.arizona.edu/node/7. No migrations, main branch, or production database were changed.
