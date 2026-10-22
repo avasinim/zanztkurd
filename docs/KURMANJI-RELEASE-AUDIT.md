@@ -1944,3 +1944,8 @@ Read-only follow-up of `lessons/index.json` confirms that the `058.html` inconsi
 - Combined with the separately recorded shell audits for lessons 27–32, static navigation/key checks cover all 32 Course 2 lesson shells. This is not proof of database content-row coverage or live server authorization; the previously recorded 27-versus-32 progression mismatch remains unresolved.
 - No lesson HTML, JavaScript, catalog, seed, migration, or database changes were made. Audit entry was re-read after writing. No changes to `main`, production Supabase, or PR #3.
 
+### 2026-10-22 — Course 2 roadmap progress refresh
+- Source-level defect found in `script.js`: `learningGate()` computed the first incomplete Course 2 lesson directly from local storage without first refreshing the completion list from server-side `lesson_progress`. A learner with valid server progress could therefore see later lessons incorrectly locked on the learning roadmap until a lesson page performed a sync.
+- Safe fix on `kurmanji-clean-release`: the roadmap now awaits the existing `ZANSTI_SYNC_PROGRESS` helper before calculating the first incomplete lesson. This reuses the existing server-authoritative sync and does not change database policy, progress rows, lesson text, migrations, or Latin Kurmanji spellings.
+- Verification required: re-fetch `script.js` and this audit file from the same branch, confirm the sync call appears before `firstIncomplete()`, and inspect the exact diff. No production runtime or live database test was performed.
+
