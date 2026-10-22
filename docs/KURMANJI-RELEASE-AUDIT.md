@@ -1207,3 +1207,9 @@ Before making any lesson edits, prepare a proposed correction plan grouped by se
 - Re-scanned all five draft seed SQL files (38 lesson HTML fragments) and extracted unique `href` values.
 - Found 19 distinct href destinations; all are absolute external HTTP(S) URLs. No relative/local lesson-content hrefs were present, so there were no repository-local destination paths to resolve and no broken local hrefs to repair in this scope.
 - No source files changed. This is a static href inventory only: it does not establish that external sites are currently reachable, safe, or that linked resources support every nearby claim. Seed files were not executed; no migrations, production DB, or `main` changes.
+
+
+## External link attribute check — 38 Kurmanji seed records
+- Inspected 100 anchor opening tags in the five draft seed SQL files.
+- All links configured to open a separate browsing context included `noopener` in their `rel` attribute. No clear attribute-level issue was found; lesson sources remain unchanged.
+- Static check only; external destination trust and availability were not tested. Seed SQL remains unexecuted; no production or main-branch changes.
