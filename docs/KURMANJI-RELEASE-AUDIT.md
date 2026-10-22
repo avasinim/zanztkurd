@@ -2497,3 +2497,24 @@ Read-only verification of the six static lesson shells and `docs/kurmanji-conten
 ### Result / next action
 
 The static shell navigation/key wiring for lessons 07–12 passes this limited check. Seed bibliographic duplication and lesson 12 assessment completeness remain documented follow-up items. This was not a live browser test, a seed-vs-migration equivalence test, or a production availability test. No lesson file, seed, migration, application code, `main`, or production database was changed in this step.
+
+
+## Course 2 lessons 07–12 seed-to-migration content comparison — 2026-10-22
+
+Compared the six lesson records in `docs/kurmanji-content-seed-part-05.sql` against the matching `lesson_content` rows in `supabase/migrations/20261019090000_add_kurmanji_courses_and_protected_lessons.sql`, then cross-checked the six HTML shell headings and keys. This is static source comparison only; the migration remains unapplied to production.
+
+### Findings
+
+- All six records exist in both sources and their `lesson_key`, `course_id`, and lesson titles match the corresponding shell headings in substance. The migration applies Avasin orthographic normalization in some titles: lesson 09 has `ڕابردوو / داهاتوو` in the shell and seed but `ڕابردو / داهاتو` in the migration; lesson 12 has `پێداچوونەوە` in the shell and seed but `پێداچونەوە` in the migration. Treat these as known spelling divergences, not evidence that the keys are wrong.
+- **The records are not content-equivalent, and the differences are larger than orthographic normalization.** A static comparison of the six SQL record spans shows substantial length differences: migration records are shorter than seed records for lessons 07–11, while the migration's lesson 12 record is longer. This supports the migration's own warning that the two sources are not byte-identical; it is not safe to assume normalization alone explains the drift.
+- Some source-backed Kurmanji examples explicitly present in the seed are absent from the corresponding migration record: lesson 08's `ez dibêjim`, `ez hatim`, and `min xwar`; lesson 09's `ez dibêjim`, `ez hatim`, `min xwar`, `ez dihatim`, `min dixwar`, and the cited future construction; lesson 10's `nizanim`, `nikarim`, `ne-hatin`, and `ne-di-hatin`. These are material pedagogical/source-example differences, not just punctuation or Sorani spelling. They require a source-by-source semantic review before release.
+- Bibliography formatting also differs: the seed uses a displayed `DOI:` label and its DOI URL is duplicated in each lesson record; the migration has a differently formatted bibliography. Neither side was edited during this audit.
+- Lesson 12's assessment content differs between seed and migration too. Do not treat either version as release-ready solely because both rows exist; its assessment still needs authentic sourced examples, an answer key, and a grading rubric.
+
+### Required follow-up / release boundary
+
+1. Choose the reviewed canonical lesson content for each record, using the cited linguistic source(s) to verify every Latin Kurmanji example and the Sorani explanation.
+2. Reconcile seed and migration as a coordinated change, preserving Latin spellings exactly where sourced and applying the Avasin Code only to Sorani/site text. Do not silently copy one version over the other.
+3. Re-run a normalized record-level diff for all 38 Kurmanji records, not just lessons 07–12, and review all semantic/example differences before any migration is considered for release.
+
+No lesson HTML, seed, migration, application code, `main`, production database, or PR state was changed. Only this audit document is being extended; no live browser test or production DB test was performed.
