@@ -1244,3 +1244,10 @@ Before making any lesson edits, prepare a proposed correction plan grouped by se
 - Each wrapper's `data-lesson-key` equals its filename; each includes exactly one `script.js?v=20261019-kurmanji-protected` reference; expected within-course previous/next lesson destinations are present, with no previous link on lesson 1 and no next link on each course's final lesson.
 - Result: 38/38 passed these static wrapper checks; no correction was needed.
 - Scope limitation: verifies source markup and link targets only; it does not exercise browser navigation, auth/enrollment gates, or lesson completion. No production, migration, or seed changes were made.
+
+
+## Runtime lesson HTML insertion review — 2026-10-22
+- Read the protected lesson loader in `script.js`: it retrieves `lesson_content.content_html` for the wrapper's `data-lesson-key` and assigns the returned string to `.lesson-content.innerHTML`; this excerpt contains no client-side HTML sanitizer.
+- This is a security-hardening observation, not a confirmed vulnerability: the reviewed code alone does not establish whether database writes are restricted to trusted/authorized authors or whether server-side validation exists. The current Kurmanji seed corpus is curated, but the runtime also reads database content.
+- Recommendation for a separately authorized security review: verify the effective `lesson_content` INSERT/UPDATE policies and trusted content-authoring path; if untrusted authors can supply HTML, sanitize with a maintained allowlist before rendering. No code or database policy was changed in this audit.
+- Scope: static inspection of the checked-in runtime source only; no browser exploit test, live RLS inspection, migration execution, seed execution, production DB change, or `main` change.
