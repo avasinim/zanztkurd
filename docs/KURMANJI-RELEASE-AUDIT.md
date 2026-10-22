@@ -1551,3 +1551,10 @@ Scope: read-only source inspection followed by an audit-document update on `kurm
 - In the page metadata of all 42 northern-circle wrappers `lessons/017.html`–`lessons/058.html`, replaced the inconsistent brand spelling `ئەکادێمای ئاڤاشین` with the project's preferred `ئەکادێمیای ئاڤاشین`.
 - The replacement was limited to this exact brand phrase; lesson titles, scientific body text, Latin Kurmanji forms, navigation, and central-circle files were not otherwise changed.
 - This was applied only on `kurmanji-clean-release`. No database, seed, migration, `main`, or PR #3 was touched.
+
+## Northern-circle vowel terminology follow-up — 2026-10-22
+
+- A deeper review found a second duplicated lesson-tag map in `script.js`; the earlier terminology fix had not covered every copy.
+- Corrected the Northern-circle tags in both maps for lessons 5, 11, 13, and 20–23: `بزوێن` forms are now `ڤاوڵ` forms, and `نەبزوێن` forms in these tags are now `کۆنسۆنەنت` forms.
+- Re-read `script.js`: remaining `بزوێن` / `نەبزوێن` tag entries are only in Central-circle keys 205, 212, and 213; these were deliberately left unchanged as requested.
+- Only tag metadata was changed. Lesson body text, Central-circle content, database, seeds, migrations, `main`, and PR #3 were not changed.
