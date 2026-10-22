@@ -1727,3 +1727,12 @@ Read-only follow-up of `lessons/index.json` confirms that the `058.html` inconsi
 - The legacy Seed row `kurmanji-course-1-lesson-26.html` remains a different final-review lesson and does not match `058.html`; it was not copied, executed, or modified.
 - Verification after the edit: the wrapper still uses `data-lesson-key="058.html"`, includes `../script.js` once, retains canonical `.../lessons/058.html`, links back to `057.html`, and has no next-lesson link because it marks the end of Course 1. The new eyebrow is present. No seed, migration, database, `main`, or PR #3 was changed.
 
+## Course 1 section grouping review (2026-10-22)
+
+- Cross-checked the current `lessons/index.json` section membership against `COURSE-REGISTRY.md`, which defines all 26 Course 1 lessons as the orthography course and explicitly lists `058.html` (“خاڵبەندی”) as lesson 26.
+- The mismatch is broader than lesson 26: `section-10` is labelled “فۆنێتیک و فۆنۆلۆجی مێژویی” but contains Course 1 lessons 18–26, including the letter-specific pages 034–051, the schwa sequence 052–057, and punctuation 058. Their page eyebrow labels also use phonetics wording in several places. Meanwhile `section-07` contains only Course 1 lessons 1–17.
+- This is a catalog grouping / presentation inconsistency, not evidence that those lesson bodies or lesson numbers are wrong. No bulk move was made: relocating the later lessons or renaming the section could change section filters and display order, and should be handled as one reviewed catalog decision rather than a one-file patch.
+- The narrow, confirmed fix already applied to `058.html` remains: its eyebrow now reads “ڕێنوسی زوانی کوردیک · دەورەی ١”. Its title, route key, canonical URL, script include and end-of-course navigation were re-read and verified after editing.
+- Next safe step: inspect the catalog renderer’s handling of `sectionId` and `sectionTitle`, then prepare a complete proposed grouping table for all 42 Course 1 physical pages before changing `lessons/index.json` or any other eyebrow. Do not change lesson scientific text, legacy seed rows, migrations, or database content on the basis of section labels alone.
+- No changes were made to `main`, production Supabase, migrations, or PR #3.
+
