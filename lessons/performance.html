@@ -61,7 +61,7 @@
     const catalogByPath=new Map(lessons.map(l=>[l.pagePath,l]));
     const reportLessons=[
       ...course1Groups.map((pages,index)=>({id:'course1-logical-'+(index+1),courseId:'orthography-kurdik',pages,quizIds:pages.map(p=>catalogByPath.get(p)?.id).filter(Boolean),title:catalogByPath.get(pages[0])?.title||('وانەی '+(index+1)),sectionTitle:'دەورەی ١ — ڕێنوسی زوانی کوردیک'})),
-      ...Array.from({length:25},(_,i)=>{const page='course-2-'+String(i+1).padStart(2,'0')+'.html';const l=catalogByPath.get(page);return {id:'course2-logical-'+(i+1),courseId:'phonetics-phonology-kurdik',pages:[page],quizIds:l?.id?[l.id]:[],title:l?.title||('وانەی '+(i+1)),sectionTitle:'دەورەی ٢ — فۆنێتیک و فۆنۆلۆجی زوانی کوردیک'};})
+      ...Array.from({length:32},(_,i)=>{const page='course-2-'+String(i+1).padStart(2,'0')+'.html';const l=catalogByPath.get(page);return {id:'course2-logical-'+(i+1),courseId:'phonetics-phonology-kurdik',pages:[page],quizIds:l?.id?[l.id]:[],title:l?.title||('وانەی '+(i+1)),sectionTitle:'دەورەی ٢ — فۆنێتیک و فۆنۆلۆجی زوانی کوردیک'};})
     ];
     const isDone=l=>l.pages.every(page=>progress.has(l.courseId+'|'+page));
     const passedQuizIds=new Set((quizResponse.data||[]).map(row=>row.lesson_id));
