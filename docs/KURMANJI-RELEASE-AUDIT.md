@@ -2483,3 +2483,17 @@ Scope: read-only inspection of `script.js`, `learning.html`, `supabase/schema.sq
 ### Result / boundary
 
 Static review supports that the current Kurmanji migration contains server-side enrollment, prerequisite, and completion checks, but it does not prove that the migration has applied successfully or that browser behavior passes. Live end-to-end testing and safe test-database migration remain release blockers. No application code, lesson body, seed, migration, production database, `main`, or PR merge was changed in this audit step.
+
+
+## Course 2 lessons 07–12 shell and seed cross-check — 2026-10-22
+
+Read-only verification of the six static lesson shells and `docs/kurmanji-content-seed-part-05.sql`:
+
+- All six shells (07–12) have a matching `data-lesson-key`, the expected previous/next lesson links, and the expected versioned `script.js` include. The lesson 12 forward navigation returns to the course landing page, as expected.
+- The shells are presentation/navigation scaffolds; they do not establish that lesson content is available. The protected lesson loader still depends on the matching `lesson_content` row in Supabase, and the live project previously checked has zero rows for both Kurmanji course IDs.
+- The draft seed part 05 contains six occurrences of the same Haig & Öpengin DOI across the six lesson records; inspection of the source excerpts shows the DOI link is repeated twice within each bibliography entry. This appears to be a definite citation-format duplication, but it has **not** been edited because lesson seed/source text is under the no-unsubstantiated-content-change guardrail. Remove the repeated link only in a separately reviewed, coordinated seed/migration correction.
+- Lesson 12 remains an assessment checklist rather than a complete scored assessment: it needs sourced authentic Kurmanji examples, an answer key, and a grading rubric before it can be treated as a fully self-checking final test. This is an instructional-content finding, not a shell defect; no scientific lesson text was changed.
+
+### Result / next action
+
+The static shell navigation/key wiring for lessons 07–12 passes this limited check. Seed bibliographic duplication and lesson 12 assessment completeness remain documented follow-up items. This was not a live browser test, a seed-vs-migration equivalence test, or a production availability test. No lesson file, seed, migration, application code, `main`, or production database was changed in this step.
