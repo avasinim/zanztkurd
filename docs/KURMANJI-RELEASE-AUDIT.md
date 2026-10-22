@@ -1579,3 +1579,10 @@ Scope: read-only source inspection followed by an audit-document update on `kurm
 - Standardized Western digits to Kurdish numerals in the 26 crawlable catalog links that point to the Northern-circle course's main lesson pages (files `017.html`–`058.html)); the non-numeric multi-part file mapping was preserved.
 - Re-read the updated catalog file and confirmed all 26 matching North-course link labels contain no Western digits. Links for other course files were not changed.
 - No Central-circle lesson page, lesson body, course mapping, database, seed, migration, or `main` change was made.
+
+## Northern wrapper integrity spot-check — 2026-10-22
+
+- Re-read the 42 Northern-circle numbered wrappers `lessons/017.html`–`lessons/058.html` in batches, checking each page title, `data-lesson-key`, inclusion of `script.js`, and the previously standardized Avasin Academy brand spelling.
+- All 42 checked wrappers use their own filename as `data-lesson-key`, include one `script.js` reference, and use `ئەکادێمیای ئاڤاشین` rather than the older brand variant.
+- The targeted scan did not find the specific legacy forms `چییە`, `نییە`, or `بەرامبەر` in these wrappers. No lesson-body changes were justified by this wrapper-level pass; technical/source wording and the user's preferred term `بڕگە` were preserved.
+- This is a static wrapper check, not a full scientific source review or browser end-to-end test. Central-circle pages and shared central-course vocabulary were not edited.
