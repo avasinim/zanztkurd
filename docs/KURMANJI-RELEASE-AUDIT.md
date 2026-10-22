@@ -1572,3 +1572,10 @@ Scope: read-only source inspection followed by an audit-document update on `kurm
 - Standardized only the visible lesson numbers inside navigation links in the affected Northern-circle wrappers, preserving the link destinations, lesson sequence, titles, body text, and Latin Kurmanji forms.
 - Re-read representative updated pages (`020`, `023`, `027`, `038`, `044`, `052`, and `058`) and confirmed the navigation labels now use Kurdish numerals.
 - This was a display-consistency correction only. Central-circle pages and terms, `main`, database, seeds, and migrations were not changed.
+
+## Northern catalog crawlable-link numeral consistency — 2026-10-22
+
+- Continued the navigation consistency pass in `lessons/catalog.html`.
+- Standardized Western digits to Kurdish numerals in the 26 crawlable catalog links that point to the Northern-circle course's main lesson pages (files `017.html`–`058.html)); the non-numeric multi-part file mapping was preserved.
+- Re-read the updated catalog file and confirmed all 26 matching North-course link labels contain no Western digits. Links for other course files were not changed.
+- No Central-circle lesson page, lesson body, course mapping, database, seed, migration, or `main` change was made.
