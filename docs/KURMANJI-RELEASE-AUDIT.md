@@ -2173,3 +2173,8 @@ Added a worked comparison to Northern Circle course 2 lesson 9 using Geoffrey Ha
 ### Added source-attested negation contrasts to course 2 lesson 10 — 2026-10-22
 
 Expanded the Northern Circle course 2 negation lesson with examples explicitly given in Haig (2018), “Northern Kurdish (Kurmanjî),” in the discussion of TAM/negation prefixes: `nizanim` and `nikarim` as exceptions to the common `na-` pattern, plus `ne-hatin` and `ne-di-hatin` contrasting simple-past and past-progressive negation. The note cautions against generalizing from one verb and retains the source's Latin forms. Source: https://doi.org/10.1515/9783110421682-004 and https://multicast.aspra.uni-bamberg.de/data/pubs/Haig2018_Northern-Kurdish_Kurmanji.pdf. Only `kurmanji-clean-release` was changed; no migrations, `main`, or production Supabase resources were touched.
+
+
+### Added source-attested word-order analysis to course 2 lesson 11 — 2026-10-22
+
+Expanded the Northern Circle course 2 word-order lesson with Haig (2018), §2.7.1: the source-attested example `Wî mirov-î çay anî` (“That man brought tea”) is parsed as subject–object–verb, and the note explains that SOV is the neutral baseline rather than an exceptionless rule. It also preserves the source's qualifications about pragmatic fronting of direct objects and variation in goal/recipient placement. Source: https://doi.org/10.1515/9783110421682-004 and https://www.uni-bamberg.de/fileadmin/aspra/06_Team/Publications_and_CV/haig_2018_ch.2.3_northern_kurdish.pdf. Only `kurmanji-clean-release` was changed; no migrations, `main`, or production Supabase resources were touched.
