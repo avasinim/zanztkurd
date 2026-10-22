@@ -1982,3 +1982,12 @@ No HTML, `script.js`, seed file, migration, `main`, PR #3, or database was chang
 - **Verified test-environment finding:** the 32-lesson phonetics course is registered in the test database, but its `lesson_content` table has no rows for that course. This confirms the provisioning gap in the test project; it does not establish the current production database state.
 - **Next safe step:** inspect the intended authoritative source for the 32 phonetics/phonology lesson bodies and determine how those pages are meant to be served. Do not generate rows by copying unverified HTML, and do not apply migrations or change production. Before any data-writing step, prepare a reviewed mapping for all 32 lesson keys/course IDs and test that existing student completion records remain unchanged.
 
+
+
+### Follow-up source-of-truth check — protected phonetics pages — 2026-10-22
+
+- Re-read `script.js` on `kurmanji-clean-release`. `loadProtectedLessonContent` selects only `content_html` from `public.lesson_content` where `lesson_key` exactly equals the page's `data-lesson-key`; if no row/content is returned, it replaces the placeholder with the explicit “lesson content was not found in the database” error. The page gate invokes this loader after authentication, enrollment, and previous-lesson checks.
+- Re-read static pages `lessons/course-2-01.html`, `lessons/course-2-02.html`, and `lessons/course-2-32.html`. The inspected lesson bodies are placeholders rather than an embedded fallback lesson text; each page supplies a heading and exact `data-lesson-key` and depends on the database loader for its main content.
+- This means there is no safe static-HTML fallback to switch to without designing and reviewing a different content-serving approach. The 32-lesson course cannot be considered ready for students in the test environment until a verified content source and provisioning plan are established.
+- No application code, lesson HTML, seed, migration, course progression, student data, or production resource was changed during this follow-up. This entry records source inspection only.
+
