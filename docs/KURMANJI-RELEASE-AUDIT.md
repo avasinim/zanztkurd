@@ -1839,3 +1839,9 @@ Read-only follow-up of `lessons/index.json` confirms that the `058.html` inconsi
 - Rechecked the HTML `rel="prev"` and `rel="next"` links for static Course 2 pages 01–20, alongside `data-lesson-key` and script count.
 - Pages 01–20 have the expected sequential prev/next targets (lesson 01 has no previous; lessons 02–20 link to adjacent numbered pages), each has the matching page key and exactly one script include.
 - Pages 21–32 were previously recorded as checked in the audit; this recheck stopped at 20 due to tool-call limits. Static repository inspection only; no page edits, database checks, or browser tests.
+
+
+### 2026-10-22 — Course 2 navigation chain recheck (lessons 21–32)
+- Rechecked all static pages 21–32: each has the matching `data-lesson-key`, exactly one script include, and correctly sequential `rel="prev"` / `rel="next"` links.
+- Lesson 32 correctly has no next link; lessons 21–32 link back/forward to the adjacent lesson numbers. Combined with the 01–20 recheck above, static navigation metadata is consistent across all 32 pages.
+- Static repository inspection only; no HTML edits, database checks, or browser tests.
