@@ -2452,3 +2452,34 @@ A read-only inspection of `lessons/catalog.html` on `kurmanji-clean-release` con
 This does **not** clear the release for deployment: the live production project still has no `lesson_content` rows for either Kurmanji course, and its current `can_read_lesson_content` / `complete_lesson` functions do not support these course IDs. The catalog, landing pages, lesson shells, content rows, and RPC/access-control changes must be validated and released as one coordinated package after source reconciliation and isolated-environment testing.
 
 Scope: read-only branch inspection and audit documentation only. No catalog code, lesson content, migration, `main`, or production database was changed.
+
+
+## Student journey / authorization static audit — 2026-10-22
+
+Scope: read-only inspection of `script.js`, `learning.html`, `supabase/schema.sql`, and the current branch migration `supabase/migrations/20261019090000_add_kurmanji_courses_and_protected_lessons.sql`. This is a code review, not a live browser test or a test-database execution.
+
+### Findings confirmed from code
+
+1. **Enrollment and lesson-content access are checked server-side as well as in the browser.** The lesson page gate requires a session, calls `student_has_enrollment(course_id)` for non-owners, and asks `can_read_lesson_content(course_id, lesson_key)` before loading the protected `lesson_content.content_html`. The current Kurmanji migration's RPC checks authentication, active/completed enrollment, a valid lesson key, and the previous lesson's server-recorded progress. Its `lesson_content` RLS policy remains the decisive data boundary; client-side link disabling alone is not a security control.
+
+2. **Completion is server-authoritative.** `markLessonComplete()` calls `complete_lesson`; the current migration validates the course and lesson key, requires enrollment for non-owners, enforces previous-lesson completion according to the course/owner policy, and inserts progress in `lesson_progress`. Client-side `localStorage` is a UI cache, while `ZANSTI_SYNC_PROGRESS` attempts to refresh it from server rows and clears the cache on read errors. Direct browser edits to local storage must never be treated as proof of completion.
+
+3. **Owner sequencing is intentionally asymmetric, with a UX inconsistency to decide.** The current migration lets the owner bypass prerequisites in phonetics and both Kurmanji courses, but preserves sequential completion for `orthography-kurdik`. However, the browser page gate bypasses the previous-lesson check for the owner in every course. Thus the owner can open a later orthography lesson but may be unable to mark it complete until the prior lesson is complete. This is not necessarily a data-security bypass, because `complete_lesson` is server-side authoritative, but it is inconsistent behavior that should be explicitly accepted or harmonized before release. Do not change the policy without approval.
+
+4. **Fail-closed behavior needs a live check.** If the page gate throws while initializing, its catch block inserts an error message into `.lesson-content` and restores page visibility. In the normal path, content is fetched only after the access checks pass; verify in a browser that a timeout/RPC failure never exposes any embedded lesson body or other protected data. The page's initial HTML and every protected lesson template must be inspected as part of this test.
+
+5. **Progress counts and completion state need end-to-end assertions.** The current Kurmanji migration calculates completed lesson counts from the recognized lesson-key array for each Kurmanji course and compares against `courses.total_lessons`. Test the first lesson, a valid next lesson, a skipped lesson, repeated completion, a forged/unknown key, and final-course completion; verify both `lesson_progress` and `enrollments.status/completed_at`. Also test unverified accounts and ensure the owner exception is the intended one.
+
+### Required test matrix before release
+
+- Signed out: direct URL and catalog click both redirect to authentication; no protected HTML is rendered.
+- Signed in, unverified, not enrolled: no course content or completion write; enrollment verification behavior is consistent with the RPC and UI.
+- Verified, unenrolled student: cannot read protected content or call completion successfully.
+- Enrolled student: first lesson opens; next lesson remains blocked until previous completion is persisted; direct URL, altered query/hash, modified `localStorage`, and manually enabled links do not bypass the server RPC/RLS.
+- Completion: server progress survives refresh/new session; duplicate completion is idempotent; invalid course/key is rejected; final completion updates enrollment state correctly.
+- Owner: verify the agreed exception separately for phonetics, Kurmanji course 1, Kurmanji course 2, and orthography; resolve the open-versus-complete mismatch for orthography by explicit policy decision.
+- Failure paths: Supabase SDK/config unavailable, RPC errors, missing `lesson_content` row, and network timeout all show a safe error without protected fallback content.
+
+### Result / boundary
+
+Static review supports that the current Kurmanji migration contains server-side enrollment, prerequisite, and completion checks, but it does not prove that the migration has applied successfully or that browser behavior passes. Live end-to-end testing and safe test-database migration remain release blockers. No application code, lesson body, seed, migration, production database, `main`, or PR merge was changed in this audit step.
