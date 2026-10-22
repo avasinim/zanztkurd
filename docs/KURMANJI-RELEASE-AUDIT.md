@@ -2103,3 +2103,8 @@ Found and corrected two additional seed references in `docs/kurmanji-content-see
 ### Additional DOI/title audit in course-2 seeds — 2026-10-22
 
 A cross-file scan found seven more occurrences in `docs/kurmanji-content-seed-part-03.sql` where the De Gruyter DOI for Geoffrey Haig's chapter “Northern Kurdish (Kurmanjî)” was paired with the incorrect authorship “Geoffrey Haig & Ergin Öpengin” and the title “Overview of Northern Kurdish (Kurmanjî).” Corrected those seven citations to the verified chapter title, single author, editors, book title, and pages 106–158. The surrounding topical notes (e.g. negation, syntax, noun phrases, case) were left intact because they refer to subject areas discussed in the chapter, but those particular lesson claims still require page-level checking before being treated as individually verified. Re-read the changed file and confirmed the old title/attribution pattern no longer appears. No lesson explanations, Latin Kurmanji examples, migrations, main branch, or production database were changed.
+
+
+### Further consistency pass: Haig chapter metadata in course-1 seed — 2026-10-22
+
+Normalized four bibliography entries in `docs/kurmanji-content-seed-part-01.sql` that already linked to DOI `10.1515/9783110421682-004` but omitted the editors in the book citation and/or used an uninformative bare “DOI” label. One additional entry had the DOI as plain text; it is now a clickable DOI link. These edits standardize bibliographic metadata only and do not assert page-level verification of each lesson claim. Re-fetched the changed file after the commit to verify the expected four standardized entries. No lesson prose or Latin Kurmanji forms changed; no main, migrations, or production database touched.
