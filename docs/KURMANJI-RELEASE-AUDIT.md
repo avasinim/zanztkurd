@@ -2188,3 +2188,7 @@ Reviewed the Northern Circle course 2 final review lesson in `part-05`. Its task
 ### Corrected source attribution in course 2 lesson 4 — 2026-10-22
 
 During the follow-up review of Northern Circle course 2 lessons 1–6, corrected the methodology note in lesson 4: the nominal case/indefiniteness table and the distinction between direct and oblique forms are attributed to Geoffrey Haig (2018), “Northern Kurdish (Kurmanjî),” rather than Haig & Öpengin (2018), which is a separate work. The lesson's linguistic explanation and Kurmanji forms were not changed. Source: https://doi.org/10.1515/9783110421682-004. Only `kurmanji-clean-release` was changed; no migrations, `main`, or production Supabase resources were touched.
+
+### Added precise source locations for course 2 lesson 6 — 2026-10-22
+
+In Northern Circle course 2 lesson 6, replaced the generic methodology note with precise locations in Geoffrey Haig (2018), “Northern Kurdish (Kurmanjî)”: §2.3.1, example (5), supports `mal-a me` (“our house”), and §2.2.3 supports the invariant reflexive `xwe` and its use for coreference with the subject of the same clause in Standard Kurmanjî. The note also cautions that Western Kurmanji has documented variation, so the standard pattern should not be generalized across dialects. Source: https://doi.org/10.1515/9783110421682-004. This was a source/citation clarification only; no production resources or migrations were changed.
