@@ -1180,3 +1180,10 @@ Before making any lesson edits, prepare a proposed correction plan grouped by se
 - Removed only the second identical DOI anchor and its separator in those 11 seed records; the bibliographic citation and single working DOI link remain. Commits: seed part 04 `80fe36a`; seed part 05 `8e8a9b9`.
 - Re-fetched both seed files. Each of the 12 course 2 seed records now contains exactly one occurrence of that DOI URL, and the repeated-anchor pattern is absent. No lesson text, linguistic examples, row keys, or reference metadata was changed.
 - Seed SQL remains unexecuted. No changes to `main`, migrations, or production DB; no browser/CI pass is claimed.
+
+
+## Seed lesson HTML hygiene scan — 38 Kurmanji lesson records
+
+- Re-scanned all five Kurmanji seed SQL parts (course 1 lessons 01–26; course 2 lessons 01–12) for obvious HTML/link hygiene defects within lesson records: duplicate identical `href` values, empty anchor elements, `img` elements without an `alt` attribute, empty/hash-only links, JavaScript pseudo-URLs, and common placeholder markers (TODO/FIXME/PLACEHOLDER/example.com).
+- The scan reported no such findings in the 38 lesson records. No source files were changed in this pass; therefore there is no lesson-content or spelling edit to report.
+- **Scope:** this is a static pattern scan, not a browser-rendering, accessibility conformance, external-link availability, or full HTML parser validation. Seed SQL was not executed. No changes to `main`, migrations, or production DB; no browser/CI pass is claimed.
