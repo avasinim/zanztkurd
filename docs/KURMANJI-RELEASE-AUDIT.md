@@ -1538,3 +1538,10 @@ Scope: read-only source inspection followed by an audit-document update on `kurm
 - Re-read the changed file after commit and confirmed the central-circle array `205` remains unchanged (`بزوێن` / `نەبزوێن`). No global replacement was used.
 - A read-only scan of the northern-circle lesson HTML files `017.html`–`058.html` found no literal `بزوێن` occurrences in those HTML wrappers; the concrete occurrence was in the lesson-tag metadata in `script.js`.
 - Scope: `kurmanji-clean-release` only. No central-circle content, lesson scientific body, database, seed, migration, `main`, or PR #3 was changed.
+
+## Northern-circle structured-data URL repairs — 2026-10-22
+
+- `lessons/024.html`: corrected two malformed HTTPS URLs in JSON-LD BreadcrumbList (`https:/schema.org` and the site-root item URL).
+- `lessons/034.html`: corrected two malformed HTTPS URLs in JSON-LD LearningResource (`https:/schema.org` and the lesson canonical `url` field).
+- These are deterministic URL syntax errors; lesson body text and titles were not changed.
+- Changes were made only on `kurmanji-clean-release`. No central-circle file, database, seed, migration, `main`, or PR #3 was touched.
