@@ -1972,3 +1972,13 @@ The current `script.js` protected-lesson loader reads `data-lesson-key` and quer
 **Safe action taken:** record the mismatch only. Do not fabricate or copy lesson bodies from HTML into SQL, change scientific content, modify migrations, or alter course/progression rules without verifying the intended source of truth and the existing student-progress model. Next safe verification is a read-only query in an explicitly authorized test environment for `lesson_content` keys and `course_id` values covering `course-2-01.html`–`course-2-32.html`, followed by a plan that preserves existing completion records.
 
 No HTML, `script.js`, seed file, migration, `main`, PR #3, or database was changed in this audit step.
+
+
+### Read-only verification against the named Kurmanji test project — 2026-10-22
+
+- Confirmed the queried Supabase project is named `zanztkurd-kurmanji-test` (project ref `juwsjljbdwyncicybwoq`), status active/healthy. No SQL writes, migrations, or schema changes were issued.
+- Read-only query of `public.courses` confirms `phonetics-phonology-kurdik` exists with `total_lessons = 32`; `kurmanji-course-1` has 26 and `kurmanji-course-2` has 12.
+- Read-only aggregate query of `public.lesson_content` returned only two course IDs: `kurmanji-course-1` with 26 rows (keys `kurmanji-course-1-lesson-01.html`…`kurmanji-course-1-lesson-26.html`) and `kurmanji-course-2` with 12 rows (keys `kurmanji-course-2-lesson-01.html`…`kurmanji-course-2-lesson-12.html`). No `lesson_content` rows were returned for `phonetics-phonology-kurdik`, and a join against its expected route-key pattern `course-2-01.html`…`course-2-32.html` returned no matching lesson rows.
+- **Verified test-environment finding:** the 32-lesson phonetics course is registered in the test database, but its `lesson_content` table has no rows for that course. This confirms the provisioning gap in the test project; it does not establish the current production database state.
+- **Next safe step:** inspect the intended authoritative source for the 32 phonetics/phonology lesson bodies and determine how those pages are meant to be served. Do not generate rows by copying unverified HTML, and do not apply migrations or change production. Before any data-writing step, prepare a reviewed mapping for all 32 lesson keys/course IDs and test that existing student completion records remain unchanged.
+
