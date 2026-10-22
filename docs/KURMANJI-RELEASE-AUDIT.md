@@ -2236,3 +2236,7 @@ Rechecked `kurmanji-course-2-lesson-07.html` in `docs/kurmanji-content-seed-part
 ### Northern Circle course 2 lesson 8 — Avasin orthography and source check — 2026-10-22
 
 Rechecked `kurmanji-course-2-lesson-08.html` in `docs/kurmanji-content-seed-part-05.sql`. The three worked verb examples `ez dibêjim`, `ez hatim`, and `min xwar` remain attributed to Haig (2018), Table 14, with the distinction between present transitive, past intransitive, and past transitive forms preserved. The Avasin Code scan found one disallowed spelling `هەموو` in the explanation; corrected it to `هەمو`. Re-fetched the seed and audit files after the edit and verified the corrected form and the audit entry. No Latin Kurmanji forms, migrations, `main`, or production database were changed.
+
+### Follow-up verification: Northern Circle course 2 lesson 8 — 2026-10-22
+
+Re-fetched and re-reviewed `kurmanji-course-2-lesson-08.html` in `docs/kurmanji-content-seed-part-05.sql`. Verified that the source-backed comparison `ez dibêjim` (present transitive), `ez hatim` (past intransitive), and `min xwar` (past transitive) remains present and attributed to Haig (2018), Table 14. Re-ran the narrow Avasin Code scan for `چییە`, `نییە`, `بەرامبەر`, `فێربوون`, `هەموو`, `بڕگە`, and `هجا`; all counts were zero, including the previously corrected `هەموو`. No new lesson edit was needed. No migrations, `main`, or production database changes.
