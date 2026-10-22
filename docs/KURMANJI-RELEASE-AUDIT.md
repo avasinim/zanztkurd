@@ -1323,3 +1323,10 @@ Before making any lesson edits, prepare a proposed correction plan grouped by se
 - The report had `Array.from({length:25}, ...)`, so its server-backed summary omitted Course 2 lessons 26–32 and reported only 25 Course 2 logical rows. Changed that bound to 32; no lesson content, scoring rules, IDs, SQL, or data records were changed.
 - Re-fetched the changed report and audit note after commit to verify the new bound and recorded finding. This is a source-level correction; the report was not run in a browser and no live Supabase results were queried.
 - No changes to `main`, migrations, seed execution, or production database.
+
+
+## Performance report mapping cross-check after Course 2 coverage fix — 2026-10-22
+- Rechecked `lessons/performance.html` against `lessons/index.json` after increasing the Course 2 report generator to 32.
+- Static mapping results: the report defines 26 Course 1 logical groups covering all 42 indexed Course 1 page records exactly once, with no missing or unindexed page paths; the Course 2 generator now creates 32 rows, matching all 32 indexed Course 2 page records. Together the report is configured for 58 logical lesson rows (26 + 32).
+- Every page path referenced by the Course 1 groups exists in the index, and pages grouped into one logical lesson share the same course lesson number. No additional source correction was indicated by this cross-check.
+- Scope: source/index consistency only; no browser interaction, authentication session, or live Supabase data was tested. No lesson content, migrations, seed execution, `main`, or production database changes.
