@@ -1467,3 +1467,15 @@ Before making any lesson edits, prepare a proposed correction plan grouped by se
 ## North-circle static wrapper sweep — 2026-10-22
 
 A fresh read-only check on `kurmanji-clean-release` covered all 58 current course lesson wrappers: 26 `kurmanji-course-1-lesson-NN.html` pages and 32 `lessons/course-2-NN.html` pages. For every wrapper, the exact `data-lesson-key` matched its filename, the shared `script.js` was included, and the expected adjacent lesson links were present in sequence. No wrapper-key, script-include, or adjacent-navigation defects were found in this sweep. This verifies static wrapper integrity only; it does not override the separately confirmed test-database exact-key mismatch above, prove browser/database loading, or certify lesson science/source accuracy. No lesson text, seed, migration, or database was changed.
+
+## North-circle content-source and loader trace — 2026-10-22
+
+A further read-only trace followed the current lesson wrapper into the shared loader and compared it with the checked-in split seed package:
+
+- The current writing-system pages under `lessons/` put their literal wrapper filename in `data-lesson-key` (for example, `lessons/017.html` uses `017.html`).
+- `script.js` reads that value and queries `public.lesson_content` with an exact `lesson_key = data-lesson-key` match. It does not map current wrapper names to legacy seed keys.
+- The five split seed files are explicitly marked draft and contain 38 rows keyed as `kurmanji-course-1-lesson-NN.html` and `kurmanji-course-2-lesson-NN.html`; they do not define the 58 current wrapper keys (`017.html`–`058.html` and `course-2-NN.html`).
+- The current `lessons/index.json` describes the 017+ pages as `course-current`, while the access gate's `courseIdForTarget()` maps those numbered pages to `orthography-kurdik` by default. This is a metadata/access-policy difference that needs reconciliation against the intended course record and RLS policy before claiming end-to-end correctness; this static observation alone does not establish which identifier is authoritative.
+- The loader displays an explicit missing-content error if no exact-key row exists. Therefore, matching wrapper navigation and script inclusion is not enough to demonstrate that the current 58 pages can render their lesson bodies.
+
+**Finding:** the checked-in draft seed package is not a direct data source for the current 58 wrapper keys, and the loader has no compatibility mapping between the two naming schemes. The exact-key mismatch already observed in the test database remains a release blocker until the authoritative 58 lesson bodies, their intended course IDs, and a safe test-only packaging/loading path are established. Do not auto-copy legacy rows or edit seeds/migrations as a shortcut. No lesson text, seed, migration, database, or production configuration was changed in this trace.
