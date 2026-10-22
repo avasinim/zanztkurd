@@ -1719,3 +1719,11 @@ Read-only follow-up of `lessons/index.json` confirms that the `058.html` inconsi
 - This comparison confirms a metadata/classification discrepancy but does not establish the intended final section label from the authoritative course outline. Therefore no title, eyebrow, registry section, navigation, seed, or lesson body was changed. Do not import the legacy review content into `058.html` or change its category until the intended course outline is confirmed.
 - No production database was queried or changed; no migration, `main`, or PR #3 was touched. Only this audit document was updated.
 
+## Authoritative registry cross-check and safe eyebrow correction (2026-10-22)
+
+- Read `COURSE-REGISTRY.md` and confirmed its closed Course 1 outline explicitly lists lesson 26 as “خاڵبەندی” at `lessons/058.html`; Course 1 is “ڕێنوسی زوانی کوردیک” and is the 26-lesson orthography course. This resolves the question of whether the punctuation title belongs to the current 26-lesson track: the title and course number are intentional.
+- Made one narrowly scoped, evidence-backed correction in `lessons/058.html`: changed only the eyebrow from `فۆنێتیک و فۆنۆلۆجی · دەورەی ١` to `ڕێنوسی زوانی کوردیک · دەورەی ١`. The lesson title, description, `data-lesson-key`, canonical URL, script include, and previous/terminal navigation were left unchanged.
+- The catalog entry for `058.html` still sits under `section-10` (“فۆنێتیک و فۆنۆلۆجی مێژوویی”), despite the authoritative Course 1 outline. This remaining section-assignment inconsistency is documented, not silently repaired: moving the entry between sections would alter catalog grouping/order and needs a deliberate registry decision.
+- The legacy Seed row `kurmanji-course-1-lesson-26.html` remains a different final-review lesson and does not match `058.html`; it was not copied, executed, or modified.
+- Verification after the edit: the wrapper still uses `data-lesson-key="058.html"`, includes `../script.js` once, retains canonical `.../lessons/058.html`, links back to `057.html`, and has no next-lesson link because it marks the end of Course 1. The new eyebrow is present. No seed, migration, database, `main`, or PR #3 was changed.
+
