@@ -2363,3 +2363,14 @@ Compared seed bodies with read-only test-project rows after stripping HTML tags 
 - **Lesson 12:** heading sequence matches, but later methodology/review-question wording differs; full comparison remains open.
 
 **Conclusion:** lessons 01–04 show clear Avasin spelling drift; lessons 05–07 show citation/source attribution drift and body rewrites; lesson 12 has later body-text drift. A full sentence-level comparison and source verification should precede any replacement. No lesson, seed, script, migration, or database content was changed; Supabase access was read-only and limited to the test project.
+
+
+## Review update: lessons 05–07 — 2026-10-22
+
+Read-only comparison of seed and test DB bodies confirms that matching titles/headings do not mean the content is equivalent.
+
+- Lesson 05: seed attributes `bajar-ek-î mezin` to Geoffrey Haig (2018); the DB text instead names Haig and Öpengin. Approximate body lengths: seed 2,386 characters; DB 2,135.
+- Lesson 06: seed explains `mal-a me`, the function of `-a`, and the relation between `me` and `em`; the DB explanation is shorter and attributes the example to Haig and Öpengin. Approximate lengths: seed 2,757; DB 2,114.
+- Lesson 07: seed attributes the direct/oblique pronoun table to Haig (2018); DB attributes it to Haig and Öpengin (2018). Approximate lengths: seed 2,307; DB 2,218.
+
+These are source-attribution and body-content differences, not safe automatic orthography-only fixes. Verify each claim against the exact publication before changing either source. Preserve Latin Kurmanji examples unless evidence supports a correction. The three test-project rows were read with SELECT only; no lesson, seed, migration, or database content was changed.
