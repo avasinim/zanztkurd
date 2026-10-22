@@ -70,3 +70,23 @@ Reviewed the proposed migration's `can_read_lesson_content(text,text)` and `comp
 ### Static-review decision
 
 Do not apply this migration to production yet. Next, read the exact live definitions of `lesson_content` RLS policies, `public.is_site_owner()`, course enrollment constraints, and existing progression functions, then test the proposed replacement in an isolated non-production database. No production or test database was changed during this review.
+
+
+## Live schema and function compatibility check — 2026-10-22
+
+A read-only inspection of the live Supabase project `hjpmorabqdhuchpnowiw` compared the currently deployed access/progression functions and RLS policies with the proposed migration. No writes were issued.
+
+### Confirmed live-state mismatch
+
+- The live `lesson_content` SELECT policy, **“Enrolled users and owners can read lesson content,”** requires enrollment and calls `can_read_lesson_content(course_id, lesson_key)` for non-owner users.
+- The currently deployed `public.can_read_lesson_content(text,text)` recognizes only `phonetics-phonology-kurdik` and `orthography-kurdik`; all other course IDs return `false`. It has no Kurmanji course branches.
+- The currently deployed `public.complete_lesson(text,text)` also recognizes only those two existing course IDs; a Kurmanji course ID falls through to `COURSE_NOT_FOUND`. It has no Kurmanji lesson-order or completion-count branch.
+- Therefore, even if Kurmanji content rows were inserted by a separate means, the current live access and completion functions would not support learner access/completion for those new courses. The proposed migration's function changes are a necessary compatibility dependency, not optional cleanup.
+- The deployed `public.enroll_in_course(text)` does check for a confirmed email or phone for non-owners, and the four inspected functions are `SECURITY DEFINER`, owned by `postgres`, configured with an empty `search_path`, and currently executable by `authenticated` and `service_role` (not `anon`/PUBLIC according to the returned ACL).
+- The live RLS policy for `lesson_content` has an explicit owner shortcut before its enrollment/progression expression. The proposed migration's helper function also returns true for a site owner before validating the course and lesson key. This is a deliberate-looking owner bypass, but must be reviewed as part of the intended authorization model.
+
+### Consequence for release sequencing
+
+Do not publish the Kurmanji catalog/pages or load lesson rows in isolation. A safe release must treat the course rows, all 38 reconciled lesson bodies, the access/progression function updates, and the RLS behavior as one coordinated change. Before production approval, test: (a) enrolled learner can read lesson 1, (b) later lessons remain blocked until the preceding lesson is complete, (c) non-enrolled learner cannot read content, (d) unverified user cannot enroll/complete, (e) site-owner behavior is intentional, and (f) existing phonetics and orthography progression remains unchanged.
+
+This is a static/read-only compatibility finding. No database state was modified, and no production deployment is approved by this note.
