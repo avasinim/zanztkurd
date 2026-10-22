@@ -2232,3 +2232,7 @@ Reviewed `kurmanji-course-2-lesson-07.html` in `kurmanji-content-seed-part-05.sq
 ### Northern Circle course 2 lesson 7 — pronoun paradigm clarification — 2026-10-22
 
 Rechecked `kurmanji-course-2-lesson-07.html` in `docs/kurmanji-content-seed-part-05.sql`. Updated the methodology note to attribute the pronoun table to Haig (2018), Table 9, matching the chapter actually listed in the lesson bibliography and the prior source audit. Added an explicit distinction: direct `ew` can refer to third-person singular masculine/feminine or plural, with number/gender recovered from context; oblique `wî` is masculine singular, `wê` feminine singular, and `wan` plural. Existing pronoun forms and the caution about tense/transitivity were preserved. Re-fetched both files after editing and verified the attribution and explanation. No migrations, `main`, or production database changes.
+
+### Northern Circle course 2 lesson 8 — Avasin orthography and source check — 2026-10-22
+
+Rechecked `kurmanji-course-2-lesson-08.html` in `docs/kurmanji-content-seed-part-05.sql`. The three worked verb examples `ez dibêjim`, `ez hatim`, and `min xwar` remain attributed to Haig (2018), Table 14, with the distinction between present transitive, past intransitive, and past transitive forms preserved. The Avasin Code scan found one disallowed spelling `هەموو` in the explanation; corrected it to `هەمو`. Re-fetched the seed and audit files after the edit and verified the corrected form and the audit entry. No Latin Kurmanji forms, migrations, `main`, or production database were changed.
