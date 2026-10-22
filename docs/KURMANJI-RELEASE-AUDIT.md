@@ -1622,3 +1622,34 @@ Scope: read-only source inspection followed by an audit-document update on `kurm
 - The Course 1 seed title sequence also differs from the current catalog sequence: legacy row 01 is `ناسینی کورمانجی و چوارچێوەی ڕێنووسی لاتینی`, while current Course 1 lesson 1 is `بەراوردی ئەلفبێی عەرەبی، فارسی و ئینگلیزی`; legacy row 16 is `ڕۆژەکانی هەفتە و کات`, while current lesson 16 is `پیتەکانی (ع، غ) و شی‌کردنەوەی فۆنێتیکی و فۆنۆلۆجی`. This is a title/scope mismatch signal, not permission to infer where the legacy HTML belongs.
 - **Release implication:** do not repoint the 12 Course 2 seed rows to the current phonetics course, rename all keys, or load these legacy rows into a live database. First identify the authoritative content source for each current lesson and prepare a row-by-row mapping for review. Preserve the current course catalog and all lesson content until that evidence exists.
 - No lesson, catalog/index, seed SQL, migration, shared script, database, central-circle content, `main`, or PR #3 was changed. Only this audit document was updated.
+
+## Legacy seed-to-current lesson scope audit — row-by-row title/topic grouping (2026-10-22)
+
+This pass compared all 38 legacy seed rows' titles and opening section headings with the current lessons/index.json lesson titles, ordered by courseLessonNumber. It is a scope comparison only; no row is declared a safe content mapping based on numbering alone.
+
+### Legacy course 1 (26 rows) versus current writing/phonetics sequence (26 logical lessons)
+
+- **Legacy rows 01–08** cover introductory Kurmanji language/script framing, the 31-letter Hawar Latin alphabet, vowels, consonants, marked Latin letters, reading simple words, common spellings, and the distinction between writing and pronunciation.
+- **Current logical lessons 01–08** instead cover comparisons among Arabic/Persian/English alphabets; Kurdish and Hawrami alphabets; Kelhuri and Southern-circle alphabets; the Northern-circle alphabet; Kurdish vowels/consonants; letter shapes and connected/disconnected forms; an overall Kurdish alphabet table; and introductory Kurdish orthography.
+- There is some broad overlap around alphabet/orthography, but the script focus, target content, and sequence are not equivalent. These rows cannot be treated as interchangeable lesson bodies.
+
+- **Legacy rows 09–16** cover personal/place names, everyday phrases, personal pronouns, demonstratives, numbers 1–20, colors/everyday objects, family vocabulary, and days/time.
+- **Current logical lessons 09–16** cover the letter alif form and its writing (parts 1–2), then spelling rules for letter groups (ب، پ، ت), (خ، ج، چ، ح), (د، ز، ژ), (س، ش), (ر، ڕ), and (ع، غ), including phonetic/phonological analysis. These topics do not match.
+
+- **Legacy rows 17–25** cover basic present-tense verbs, negation, questions, word order, adjectives/comparison, nouns and determiners, possession, and direct/oblique case.
+- **Current logical lessons 17–25** cover letter groups (ف، ڤ، ق), (ک، گ), /ڵ/ versus /ل/, then letters (ێ، ە), (ێ), (ی), several orthographic/phonetic/morphophonological topics involving ی and و, the letter ه, and a sequence on schwa /ə/, syllable structure, and phonological alternations. The subject scope does not match.
+- **Legacy row 26** is a review of spelling, reading, vocabulary, and sentences; current logical lesson 26 is titled “خاڵبەندی” (punctuation), so the titles and stated focus do not align.
+
+### Legacy course 2 (12 rows) versus current Course 2 (32 lessons)
+
+All 12 legacy rows cover morphology and grammar: morphemes/word structure; roots and affixes; grammatical gender/number; definiteness and -ek; ezafe; possession; pronouns/case; verb roots/person/number; tense; negation/questions; word order/syntax; and a grammar review.
+
+The current Course 2 catalog is a phonetics/phonology course, beginning with speech-production anatomy, types of speech sounds, phonemes/phonological systems, sound change, vowels/consonants, syllable structure, stress/intonation/rhythm, transcription/IPA, acoustic analysis, articulation, vowel/consonant systems, allophones, and further phonetics/phonology lessons. Thus **none of the 12 legacy Course 2 rows is a safe direct match by lesson number or title**. This does not prove that no isolated paragraph could be reused after source review; it does rule out automatic row-level remapping.
+
+### Safe disposition
+
+1. Keep all 38 legacy seed rows quarantined as a **legacy package with mismatched course scope and keys**; do not bulk-rename keys or import their HTML into the current catalog.
+2. Do not alter lessons/index.json, wrapper keys, script.js, seed SQL, migrations, or any database as part of this comparison.
+3. To establish any reuse, compare an individual paragraph/example against the authoritative source and the actual current lesson body, then record a specific, evidence-backed mapping for review. Matching a general topic or a lesson number is insufficient.
+4. The current course-1 grouping includes a logical lesson-number reuse for several related page paths (e.g. multiple entries carry courseLessonNumber 22, 23, or 25); preserve the explicit catalog order and page paths rather than inferring order from filenames.
+5. No central-circle lesson, main, PR #3, migration, Supabase database, or production configuration was changed. Only this audit document is being updated.
