@@ -1991,3 +1991,12 @@ No HTML, `script.js`, seed file, migration, `main`, PR #3, or database was chang
 - This means there is no safe static-HTML fallback to switch to without designing and reviewing a different content-serving approach. The 32-lesson course cannot be considered ready for students in the test environment until a verified content source and provisioning plan are established.
 - No application code, lesson HTML, seed, migration, course progression, student data, or production resource was changed during this follow-up. This entry records source inspection only.
 
+
+
+### Authoritative-source and course-registry cross-check — 2026-10-22
+
+- Read `COURSE-REGISTRY.md` and `COURSE-2-IMPLEMENTATION.md` on `kurmanji-clean-release`. The registry confirms the intended 32 official lesson titles and explicitly warns that the existence of the 32 HTML files does not prove content correctness or Supabase provisioning. It also says lesson titles 26–32 are not all independently source-verified, so they must not be renamed or scientifically rewritten by inference.
+- The implementation note says lessons 25–32 have Supabase content, while the read-only query against the named test project returned no `lesson_content` rows for `phonetics-phonology-kurdik`. These statements conflict for the test project. The test query is direct evidence of the current test database state; the implementation note may describe an earlier/different environment or intended state, but the repository alone does not resolve that discrepancy.
+- The source tree contains book-derived Markdown lessons in `lessons/section-07/`, but that folder represents a book section (“writing system”), and the repository's mapping rules explicitly say site lesson numbers are not interchangeable with book lesson/section numbers. Therefore those Markdown files cannot safely be bulk-mapped to the 32 phonetics course pages without a verified per-lesson mapping.
+- Safe decision: no course HTML, seed, migrations, database records, lesson text, title, or progression logic changed. Before implementation, reconcile the implementation note with test data and identify the authoritative source for each of the 32 lesson bodies. Preserve the official titles and Avasin orthography, and do not invent or copy content across mismatched mappings.
+
