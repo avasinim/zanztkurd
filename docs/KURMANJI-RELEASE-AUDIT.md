@@ -1586,3 +1586,10 @@ Scope: read-only source inspection followed by an audit-document update on `kurm
 - All 42 checked wrappers use their own filename as `data-lesson-key`, include one `script.js` reference, and use `ئەکادێمیای ئاڤاشین` rather than the older brand variant.
 - The targeted scan did not find the specific legacy forms `چییە`, `نییە`, or `بەرامبەر` in these wrappers. No lesson-body changes were justified by this wrapper-level pass; technical/source wording and the user's preferred term `بڕگە` were preserved.
 - This is a static wrapper check, not a full scientific source review or browser end-to-end test. Central-circle pages and shared central-course vocabulary were not edited.
+
+## Northern wrapper SEO metadata and URL scan — 2026-10-22
+
+- Static-checked all 42 Northern-circle wrappers `lessons/017.html`–`lessons/058.html` for canonical URL alignment, description metadata, Open Graph title consistency, and malformed `http:/` / `https:/` URL patterns.
+- All 42 files have a canonical URL matching their repository page path and a description meta tag. Where an Open Graph title was present, it matched the HTML title. The targeted malformed-URL scan found no matches.
+- No files required a change in this pass. This does not validate deployed HTTP responses, browser rendering, or the scientific accuracy of lesson bodies.
+- Central-circle content, shared vocabulary, `main`, database objects, seeds, and migrations were left untouched.
