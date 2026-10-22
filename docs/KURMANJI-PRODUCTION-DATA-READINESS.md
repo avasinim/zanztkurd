@@ -39,7 +39,7 @@ A structured comparison of the five split SQL packages against the 38 lesson row
 - All 38 lesson keys exist in both places, but **all 38 lesson HTML bodies differ** after whitespace normalization.
 - Six lesson titles differ as well: course 1 lessons 01, 03, 07, 26 and course 2 lessons 09, 12.
 - The differences are not merely formatting. Examples include the migration changing Avasin spellings such as `ڕێنووسی` to `ڕێنوسی`, `دوور` to `دور` and `دوو` to `دو`, `بەرابەر` to `بەرامبەر`, and `نوسراو`-related wording; it also shortens or rewrites lesson sections. Course 1 lesson 25's extracted HTML is 1,034 characters shorter in the migration than in the split seed, and course 2 lesson 06 is 693 characters shorter. These length differences alone do not establish which version is scientifically correct, but they require review before release.
-- Bibliography attribution differs in some migration lesson bodies: split seed references cite Haig (2018), while migration text sometimes attributes the same material to “Haig and Öpengin (2018)”. This needs source-level correction; do not accept the migration text automatically.
+- Bibliography attribution defect found in the migration was corrected on 2026-10-22: 23 DOI-linked list items now cite Geoffrey Haig as chapter author and Geoffrey Haig & Geoffrey Khan as book editors, matching the institutional publication record. This citation-only fix does not resolve the broader lesson-body differences.
 
 ### Updated release decision
 
@@ -129,3 +129,12 @@ Read-only comparison of `script.js`, the two Kurmanji lesson HTML shells, the pr
 - The client-side progression check delegates to `can_read_lesson_content`; completion delegates to `complete_lesson`. No RPC name or argument mismatch was found in this static cross-check.
 
 Limitations: this is source inspection plus a read-only catalog query, not an authenticated end-to-end test. It does not establish that the new Kurmanji rows exist in production, that the proposed migration is safe to apply, or that RLS behavior has been runtime-tested. No database, migration, application code, or `main` branch was changed.
+
+
+## Source-backed citation correction — 2026-10-22
+
+The DOI `10.1515/9783110421682-004` identifies Geoffrey Haig's chapter “Northern Kurdish (Kurmanjî)” in *The Languages and Linguistics of Western Asia: An Areal Perspective*, edited by Geoffrey Haig and Geoffrey Khan. The migration's 23 affected bibliography items were corrected to this attribution; section-specific citation notes were retained. The migration was not applied, and no production database was changed.
+
+Verification references:
+- University of Bamberg publication record: https://fis.uni-bamberg.de/entities/publication/06ab181d-1e09-43da-87f4-92453eaf5057
+- DOI: https://doi.org/10.1515/9783110421682-004
