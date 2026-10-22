@@ -1932,3 +1932,9 @@ Read-only follow-up of `lessons/index.json` confirms that the `058.html` inconsi
 - Therefore, if this migration's function definition is the one currently deployed, attempting to record completion for lessons 28–32 will be rejected server-side even though the browser gate includes those lessons. This is a conditional source-based implication; the deployed database function was not queried, so live behavior remains unverified.
 - The browser gate and server function must be reconciled together after confirming the intended course scope. No code, seed, migration, or database changes were made in this pass. Audit file re-read after update; no changes to `main`, production Supabase, or PR #3.
 
+### 2026-10-22 — Static shell audit for Course 2 lessons 27–32
+- Re-read `lessons/course-2-27.html` through `lessons/course-2-32.html` on `kurmanji-clean-release`.
+- All six shells use the matching `data-lesson-key` (`course-2-NN.html`), include exactly one reference to the shared `script.js`, and use the expected Avasin Academy brand. The previous/next chain is continuous from lesson 27 through lesson 32; lesson 32 correctly presents an end-of-course marker rather than a next-lesson link.
+- No static-shell defect was found in this range. This does not establish that matching `lesson_content` rows exist or that the live server will authorize completion for lessons 28–32; the source-level server/browser progression mismatch remains unresolved.
+- No HTML, JavaScript, catalog, seed, migration, or database changes were made. Audit entry was re-read after writing. No changes to `main`, production Supabase, or PR #3.
+
