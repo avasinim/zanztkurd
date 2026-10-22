@@ -1377,3 +1377,10 @@ Before making any lesson edits, prepare a proposed correction plan grouped by se
 - Applied the exact terminology substitution `بڕگە` → `هجا` only in those four files, including metadata, visible titles, and the short phrase about /schwa/. No Latin Kurmanji forms, lesson structure, examples, or phonological claims were changed. This is a terminology/orthography correction explicitly required by Avasin Code, not a scientific-content rewrite.
 - Re-fetched each modified file after its commit; all four checks confirmed the old term is absent and the replacement is present. Static verification only; no browser/runtime test.
 - Scope: no seed execution, SQL, migrations, `main`, production Supabase, or production DB changes.
+
+
+## Correction: preserve the term بڕگە — 2026-10-22
+- Follow-up instruction from the project owner: do not replace `بڕگە` with `هجا`. The prior terminology change was therefore reverted in `lessons/053.html`, `lessons/course-2-06.html`, `lessons/index.json`, and `lessons/catalog.html`.
+- Re-fetched all four files after reverting; each contains `بڕگە` in the relevant content and the replacement introduced in the previous audit is absent from these files.
+- Going forward, preserve `بڕگە` and do not automatically normalize this term to `هجا`; follow the owner's latest explicit instruction for this terminology. The previous audit entry above records the historical change, but this correction supersedes its recommendation.
+- Scope: only the four content/catalog files and this audit log were updated. No lesson science, Latin Kurmanji forms, SQL, migrations, `main`, production Supabase, or production DB changes.
