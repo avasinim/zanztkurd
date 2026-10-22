@@ -1225,3 +1225,9 @@ Before making any lesson edits, prepare a proposed correction plan grouped by se
 - Inspected the 38 HTML content fragments in all five draft seed parts for explicit `id` attributes and embedded form/control/media elements (`form`, `label`, `button`, `input`, `select`, `textarea`, `table`, `img`, `iframe`, `audio`, `video`, `details`, `summary`).
 - Result: no explicit IDs and none of the listed embedded controls or media elements were present; therefore no duplicate/empty IDs or control-label pairing defects were identified in these fragments.
 - Scope limitation: this inventory does not evaluate accessibility of the outer lesson page, CSS visibility, keyboard behavior, or the site navigation. Seed SQL was not executed.
+
+
+## Seed-fragment URL attribute syntax sweep — 2026-10-22
+- Scanned `href` and `src` attribute values in all 38 HTML lesson fragments across the five draft seed parts.
+- Result: no empty URL attributes, relative/local references, non-HTTP(S)/mailto schemes, or whitespace-containing HTTP(S) URL values were found.
+- Scope limitation: this checks URL attribute syntax/patterns only; it does not test whether external destinations resolve, are trustworthy, or remain available. Seed SQL was not executed.
