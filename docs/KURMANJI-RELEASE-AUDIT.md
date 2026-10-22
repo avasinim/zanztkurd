@@ -1330,3 +1330,9 @@ Before making any lesson edits, prepare a proposed correction plan grouped by se
 - Static mapping results: the report defines 26 Course 1 logical groups covering all 42 indexed Course 1 page records exactly once, with no missing or unindexed page paths; the Course 2 generator now creates 32 rows, matching all 32 indexed Course 2 page records. Together the report is configured for 58 logical lesson rows (26 + 32).
 - Every page path referenced by the Course 1 groups exists in the index, and pages grouped into one logical lesson share the same course lesson number. No additional source correction was indicated by this cross-check.
 - Scope: source/index consistency only; no browser interaction, authentication session, or live Supabase data was tested. No lesson content, migrations, seed execution, `main`, or production database changes.
+
+
+## Performance report output escaping and per-user query scope — 2026-10-22
+- Reviewed the dynamic rendering in `lessons/performance.html`. Lesson titles and section labels pass through the local `esc()` helper before being concatenated into report HTML; error text is also escaped before insertion. The status classes and labels are selected from fixed local branches, not interpolated from database values.
+- The report's `lesson_progress` and `lesson_quiz_results` queries both filter by the authenticated `session.user.id`; quiz rows additionally filter to `passed = true`. No cross-user query-scope defect or unescaped catalog-title insertion was found in this static pass.
+- No source code change was needed. Scope is source inspection only; no browser, malicious-input, authentication-switch, or live database test was performed. No changes to `main`, migrations, seed execution, or production database.
