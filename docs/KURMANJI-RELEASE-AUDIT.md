@@ -1874,3 +1874,8 @@ Read-only follow-up of `lessons/index.json` confirms that the `058.html` inconsi
 - Re-fetched pages 053–058; each has a matching `data-lesson-key` and exactly one script include. Previous/next links are contiguous through 053→054→055→056→057→058; page 058 correctly has no next link.
 - Compared these pages against `lessons/index.json`: 053–057 are grouped as parts of learner lesson 25, and 058 maps to learner lesson 26 (خاڵبەندی). No navigation or catalog edits were warranted.
 - Static source inspection only; no browser execution, lesson-body scientific validation, seed/runtime key validation, or database access.
+
+
+### 2026-10-22 — Course 1 navigation/catalog spot-check (039–046)
+- Re-fetched pages 039–044 and 046; all inspected pages have matching `data-lesson-key`, one script include, and sequential visible previous/next links within their segment. Page 044 links to 046, not 045, which is intentional in the learner sequence: catalog maps 046 to learner lesson 23, while 045 is learner lesson 24 and is reached after the multipart run 046–051 (051→045→052).
+- Compared the relevant page paths and learner lesson numbers in `lessons/index.json`; no correction was indicated. Static source review only; no browser execution, scientific lesson-body review, seed/runtime key validation, or database access.
