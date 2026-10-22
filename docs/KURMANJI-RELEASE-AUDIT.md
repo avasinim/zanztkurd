@@ -2118,3 +2118,8 @@ Checked the noun-case paradigm in the Northern Kurdish chapter by Geoffrey Haig 
 ### Source-based improvement: reflexive possessor `xwe` — 2026-10-22
 
 Compared course-2 lesson content on possession/reflexives with Haig (2018), section 2.3.1, example (9) (chapter PDF pp. 118–119 depending on pagination). The original lesson described `xwe` as something that “can” be used when coreferential with the subject, which understated the standard Kurmanji rule in the cited same-clause possessive construction: the reflexive `xwe` is required instead of the personal oblique pronoun `min`. Updated the explanation and added the source-attested example `Ez li mal-a xwe me` (‘I am at my house’), with a Sorani explanation. The Latin Kurmanji form was copied from the source and not normalized. Re-read the changed seed file and confirmed the new rule/example are present. Source: https://doi.org/10.1515/9783110421682-004, §2.3.1. No migrations, main branch, or production database were changed.
+
+
+### Corrected attribution of ezafe example — 2026-10-22
+
+A source check located the exact example `bajar-ek-î mezin` in Geoffrey Haig (2018), “Northern Kurdish (Kurmanjî),” §2.3.1, example (4), in the publisher-hosted chapter PDF. The lesson had attributed it to “Haig and Öpengin,” which points to a different 2018 publication. Corrected both the lesson attribution and its method note to cite Haig (2018), §2.3.1, example (4). This is a citation attribution correction; the Kurmanji example itself is unchanged. Verified against https://www.uni-bamberg.de/fileadmin/aspra/06_Team/Publications_and_CV/haig_2018_ch.2.3_northern_kurdish.pdf and the DOI https://doi.org/10.1515/9783110421682-004. No migrations, main branch, or production database were changed.
