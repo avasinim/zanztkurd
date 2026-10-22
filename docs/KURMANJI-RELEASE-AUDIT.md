@@ -1545,3 +1545,9 @@ Scope: read-only source inspection followed by an audit-document update on `kurm
 - `lessons/034.html`: corrected two malformed HTTPS URLs in JSON-LD LearningResource (`https:/schema.org` and the lesson canonical `url` field).
 - These are deterministic URL syntax errors; lesson body text and titles were not changed.
 - Changes were made only on `kurmanji-clean-release`. No central-circle file, database, seed, migration, `main`, or PR #3 was touched.
+
+## Northern-circle brand spelling consistency — 2026-10-22
+
+- In the page metadata of all 42 northern-circle wrappers `lessons/017.html`–`lessons/058.html`, replaced the inconsistent brand spelling `ئەکادێمای ئاڤاشین` with the project's preferred `ئەکادێمیای ئاڤاشین`.
+- The replacement was limited to this exact brand phrase; lesson titles, scientific body text, Latin Kurmanji forms, navigation, and central-circle files were not otherwise changed.
+- This was applied only on `kurmanji-clean-release`. No database, seed, migration, `main`, or PR #3 was touched.
