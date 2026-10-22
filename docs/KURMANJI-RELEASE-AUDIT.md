@@ -1773,3 +1773,11 @@ Read-only follow-up of `lessons/index.json` confirms that the `058.html` inconsi
 - User clarified the project rule explicitly: `ڕێنوس` is correct and `ڕێنووس` is incorrect. This rule supersedes the earlier mistaken audit note.
 - Reverted the four catalog-title occurrences in `lessons/index.json` from `ڕێنووس` to `ڕێنوس`. The earlier note claiming the opposite is superseded by this correction.
 - Verified the catalog after editing: no `ڕێنووس` occurrences remain; the four expected `ڕێنوس` spellings are present. Continue using the user's Avasin Code exactly, without applying standardization that conflicts with it.
+
+
+## Course 2 lessons 1–5: branding audit (2026-10-22)
+
+- Read-only review found the incorrect brand spelling `ئەکادێمای ئاڤاشین` in the document title and site header of `lessons/course-2-01.html` through `lessons/course-2-05.html` (two occurrences per page).
+- Corrected all ten occurrences to the project-approved brand `ئەکادێمیای ئاڤاشین`. No scientific lesson text, lesson keys, routes, or phonological notation was changed.
+- Re-read each changed page after the edits and checked that the incorrect brand no longer appears, the approved brand is present, each page retains exactly one `script.js` reference and the matching `data-lesson-key`.
+- Avasin Code reminder: `ڕێنوس` is correct; `ڕێنووس` is incorrect. This user clarification supersedes any earlier contrary audit note.
