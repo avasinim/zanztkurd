@@ -2518,3 +2518,28 @@ Compared the six lesson records in `docs/kurmanji-content-seed-part-05.sql` agai
 3. Re-run a normalized record-level diff for all 38 Kurmanji records, not just lessons 07–12, and review all semantic/example differences before any migration is considered for release.
 
 No lesson HTML, seed, migration, application code, `main`, production database, or PR state was changed. Only this audit document is being extended; no live browser test or production DB test was performed.
+
+
+## All 38 Kurmanji seed/migration key and title inventory — 2026-10-22
+
+Expanded the comparison from course 2 lessons 07–12 to all five seed parts and the current Kurmanji migration. This is static repository inspection only.
+
+### Inventory result
+
+- The five seed parts contain 38 recognized Kurmanji lesson records across the two course IDs, with 38 unique lesson keys.
+- The migration contains 38 recognized Kurmanji lesson records, also with 38 unique keys. The key inventory matches: no missing or extra lesson keys were found in this pass.
+- Matching keys do **not** mean matching lesson content. A title inventory found spelling differences in at least these records:
+  - Course 1, lesson 01: `ڕێنووسی` in seed vs `ڕێنوسی` in migration.
+  - Course 1, lesson 03: `نیشانەنووسییان` vs `نیشانەنوسییان`.
+  - Course 1, lesson 07: `ڕێنووسی` vs `ڕێنوسی`.
+  - Course 1, lesson 26: `پێداچوونەوە` vs `پێداچونەوە`.
+  - Course 2, lesson 09: `ڕابردوو و داهاتوو` vs `ڕابردو و داهاتو`.
+  - Course 2, lesson 12: `پێداچوونەوە` vs `پێداچونەوە`.
+- Record-span lengths are also materially different in several places; for example, course 1 lesson 25 and course 2 lessons 04–11 have notably shorter migration spans than their seed counterparts in this static comparison. Length alone is not a semantic verdict, but it is a strong review signal and must not be treated as harmless normalization.
+- The earlier lesson 07–12 comparison identified concrete Kurmanji examples present in the seed but not found in the matching migration records for lessons 08–10. Those differences remain open and need source-level verification.
+
+### Decision
+
+The current migration cannot be declared content-equivalent to the seed on the basis of matching keys. Before release, produce a field-aware, HTML-decoded diff of each `content_html` value, normalize only approved Sorani/Avasin spelling and markup differences, and manually review all remaining pedagogical, citation, and Latin Kurmanji differences against the cited sources. Preserve Latin Kurmanji spellings exactly unless source evidence supports a correction.
+
+No lesson page, seed, migration, application code, `main`, production database, or PR state was changed. Only this audit record was extended; no SQL was executed and no live-browser or production verification was performed.
