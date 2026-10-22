@@ -1701,4 +1701,14 @@ A targeted review of `script.js`, `lessons/056.html`, `lessons/057.html`, `lesso
 - No lesson HTML, course mapping, Seed, migration, database, or runtime loader was changed during this follow-up. Do not change the title, eyebrow, navigation, `COURSE1_FILES`, or course selector until the authoritative intended course/page map and matching content records are checked.
 - Recommended next verification: inspect the exact `lesson_content` keys and course IDs in the authorized test environment, compare the content titles with the catalog and source lessons, then record a single explicit mapping table before proposing any edits. No production database or main-branch access is authorized by this audit.
 
+## Follow-up: catalog registry confirms lesson 058 classification conflict (2026-10-22)
+
+Read-only follow-up of `lessons/index.json` confirms that the `058.html` inconsistency is not limited to the wrapper eyebrow:
+
+- The registry places `058.html` inside section `section-10`, titled `فۆنێتیک و فۆنۆلۆجی مێژویی`, and assigns it `courseLessonNumber: 26`.
+- The same registry gives that entry the lesson title `خاڵبەندی` (punctuation), while `056.html` and `057.html` are the final two entries of the schwa sequence under course lesson 25. The wrapper for `058.html` also retains the phonetics/phonology eyebrow. This is an internal registry/subject classification conflict requiring editorial confirmation.
+- The broader course registry names its top-level course `phonetics-phonology-kurdik`, while section 07 is explicitly titled as the first orthography-focused cycle. Therefore it would be unsafe to decide from the filename or one title alone whether punctuation is intended as a final orthography lesson, a misplaced entry, or a separate course item.
+- No changes were made to `lessons/index.json`, `058.html`, `script.js`, catalog rendering, lesson content, Seed, migrations, or any database. The prior guardrail remains: do not edit the title, eyebrow, section assignment, navigation, or `COURSE1_FILES` until the intended course outline is confirmed.
+- Next evidence step: inspect the authoritative book/source outline for the final course-1 lesson and compare it with the registered lesson 26 and the actual content record for `058.html` in the authorized test environment. Record the result as a decision table before implementing any fix. No production database or `main` access is authorized.
+
 
