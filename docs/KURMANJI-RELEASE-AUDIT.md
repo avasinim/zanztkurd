@@ -1531,3 +1531,10 @@ Differences requiring source-based review (titles left unchanged):
 Interpretation: these are verified registry/catalog text differences, not proof that either wording is scientifically wrong. In particular, terminology choices and Kurdish spelling must not be silently unified without checking the book/source and the Avasin orthography standard. Lesson 31's `سرتێس` / `سترێس` discrepancy was already recorded above; it is repeated in this table only to keep this comparison complete.
 
 Scope: read-only source inspection followed by an audit-document update on `kurmanji-clean-release`. No lesson title, scientific body, seed, migration, database, `main`, or PR #3 was changed.
+
+## Northern-circle terminology correction — 2026-10-22
+
+- In `script.js`, updated only the northern-circle lesson-tag arrays for lesson keys `20`–`23`: `بزوێنەکان` → `ڤاوڵەکان`, `بزوێن` → `ڤاوڵ`, and `بزوێن و نەبزوێن` → `ڤاوڵ و کۆنسۆنەنت`.
+- Re-read the changed file after commit and confirmed the central-circle array `205` remains unchanged (`بزوێن` / `نەبزوێن`). No global replacement was used.
+- A read-only scan of the northern-circle lesson HTML files `017.html`–`058.html` found no literal `بزوێن` occurrences in those HTML wrappers; the concrete occurrence was in the lesson-tag metadata in `script.js`.
+- Scope: `kurmanji-clean-release` only. No central-circle content, lesson scientific body, database, seed, migration, `main`, or PR #3 was changed.
