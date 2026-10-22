@@ -1736,3 +1736,9 @@ Read-only follow-up of `lessons/index.json` confirms that the `058.html` inconsi
 - Next safe step: inspect the catalog renderer’s handling of `sectionId` and `sectionTitle`, then prepare a complete proposed grouping table for all 42 Course 1 physical pages before changing `lessons/index.json` or any other eyebrow. Do not change lesson scientific text, legacy seed rows, migrations, or database content on the basis of section labels alone.
 - No changes were made to `main`, production Supabase, migrations, or PR #3.
 
+## Catalog renderer impact verified (2026-10-22)
+
+- Read `lessons/catalog.html` around the catalog data loader and renderer. It loads `./index.json`, copies each section's `title` and `id` into every lesson entry, populates the section filter from those section records, and prints `sectionTitle` on each lesson card.
+- Therefore the section-label mismatch is user-visible: later Course 1 cards are displayed with the “فۆنێتیک و فۆنۆلۆجی مێژویی” label and the section filter offers that grouping. It is not only unused metadata.
+- The renderer sorts by course and logical lesson number, so section grouping and lesson order are separate concerns. Before editing the index, build a complete proposed table that preserves each of the 42 physical Course 1 pages, their 26 logical lesson numbers, and multi-part groupings (lessons 22, 23 and 25). Do not edit the renderer or registry automatically to mask the metadata inconsistency.
+
