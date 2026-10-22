@@ -1213,3 +1213,9 @@ Before making any lesson edits, prepare a proposed correction plan grouped by se
 - Inspected 100 anchor opening tags in the five draft seed SQL files.
 - All links configured to open a separate browsing context included `noopener` in their `rel` attribute. No clear attribute-level issue was found; lesson sources remain unchanged.
 - Static check only; external destination trust and availability were not tested. Seed SQL remains unexecuted; no production or main-branch changes.
+
+
+## Seed HTML element nesting check — 2026-10-22
+- Parsed the 38 HTML fragment string literals across all five draft seed parts and checked opening/closing element nesting with a stack-based tag scan; HTML void elements were excluded from the closing-tag requirement.
+- Result: all 38 fragments passed; no mismatched closing tags or unclosed non-void elements were detected.
+- Scope limitation: this is a static tag-balance check, not a full browser HTML5 conformance, rendering, accessibility, or runtime test. Seed SQL remains draft documentation and was not executed.
