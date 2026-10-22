@@ -2019,3 +2019,12 @@ No HTML, `script.js`, seed file, migration, `main`, PR #3, or database was chang
 - This makes the user's duplicate concern reasonable to investigate in two dimensions: (1) repeated HTML/CSS shell, already confirmed; (2) repeated scientific body content across the two course inventories, still unverified because the authorized test DB has no rows for the newer `phonetics-phonology-kurdik` course and the repository contains only loading placeholders in those new HTML pages.
 - Safe next step is a read-only body comparison using an authorized export or verified source for both inventories, first exact normalized hashes, then similarity review and source-book cross-check. No body should be deleted, merged, or reassigned based on title/number alone. No application files, lesson content, seed, migration, or database row changed in this audit.
 
+
+
+### Scope correction — Northern Circle only — 2026-10-22
+
+- User clarification takes precedence: the active task is **بازنەی باکور (Northern Circle)** and its Kurmanji courses only. **بازنەی ناوەندی (Central Circle) and the separate 32-lesson `phonetics-phonology-kurdik` course are out of scope** for the current duplicate-content investigation.
+- The preceding section titled “Cross-course duplicate suspicion — registry and legacy lesson inventory” concerns the separate phonetics/phonology inventories and must not be used as evidence about Northern Circle Kurmanji lessons. It is retained as historical audit context, but is explicitly excluded from the current task.
+- For Northern Circle, the relevant lesson keys/files are `kurmanji-course-1-lesson-01.html` through `kurmanji-course-1-lesson-26.html` and `kurmanji-course-2-lesson-01.html` through `kurmanji-course-2-lesson-12.html`, with body content loaded by `script.js` from `lesson_content`. The current test seed inventory is 26 rows for `kurmanji-course-1` and 12 rows for `kurmanji-course-2`; the content source used for Northern Circle must be audited on its own terms and not attributed to Sabir Jakaw's book.
+- Next audit target: compare only those 38 Northern Circle Kurmanji lesson bodies across the checked-in seed files and their actual lesson keys, investigate repeated text/title/learning objectives, and verify against the actual source used for Northern Circle. Do not use the Sabir Jakaw book or any Central Circle material as the authority for this task. No lesson content, seed, migration, database row, or production resource changed in this scope correction.
+
