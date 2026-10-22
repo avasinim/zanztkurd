@@ -2240,3 +2240,7 @@ Rechecked `kurmanji-course-2-lesson-08.html` in `docs/kurmanji-content-seed-part
 ### Follow-up verification: Northern Circle course 2 lesson 8 — 2026-10-22
 
 Re-fetched and re-reviewed `kurmanji-course-2-lesson-08.html` in `docs/kurmanji-content-seed-part-05.sql`. Verified that the source-backed comparison `ez dibêjim` (present transitive), `ez hatim` (past intransitive), and `min xwar` (past transitive) remains present and attributed to Haig (2018), Table 14. Re-ran the narrow Avasin Code scan for `چییە`, `نییە`, `بەرامبەر`, `فێربوون`, `هەموو`, `بڕگە`, and `هجا`; all counts were zero, including the previously corrected `هەموو`. No new lesson edit was needed. No migrations, `main`, or production database changes.
+
+### Re-verified Northern Circle course 2 lesson 8 — 2026-10-22
+
+Re-read the current seed entry for `kurmanji-course-2-lesson-08.html` after the recent pronoun work. The three contrasting source-backed examples remain present and translated: `ez dibêjim` (present transitive), `ez hatim` (past intransitive), and `min xwar` (past transitive), attributed to Haig (2018), Table 14. The lesson appropriately cautions against treating agreement as uniform across tense and transitivity, and it does not claim to provide a complete verb paradigm. No new definite factual or orthographic error was established in this pass, so the seed was left unchanged. No `main`, migrations, or production database changes.
