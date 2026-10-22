@@ -1401,3 +1401,11 @@ Before making any lesson edits, prepare a proposed correction plan grouped by se
 - Terminology conflict resolved by precedence: the earlier section “Avasin orthography: syllable terminology” records a historical change that was later reverted. The subsequent “Correction: preserve the term بڕگە” is the controlling instruction; preserve `بڕگە` and do not replace it with `هجا`. The earlier section is retained as audit history, not as current guidance.
 - The latest static Course 2 page-wiring review found no definite HTML navigation or `data-lesson-key` mismatch. Its limitation remains: source inspection does not verify live `lesson_content` rows or browser rendering.
 - This pass is a consistency review of the audit log, not a fresh re-execution of every historical test or claim. No lesson text, catalog, seed, SQL, migrations, `main`, or production database was changed. Only this audit document was updated.
+
+
+## Course 1 physical-page navigation spot-check — 2026-10-22
+- Sampled physical Course 1 pages `017.html`, `018.html`, `019.html`, `020.html`, `021.html`, `030.html`, `040.html`, `050.html`, `054.html`, `055.html`, `056.html`, `057.html`, and `058.html` on `kurmanji-clean-release`.
+- All sampled pages have a `.lesson-content` container with a matching `data-lesson-key` and exactly one shared `script.js` include. The early sample pages 017–021 and 030 contain static `lesson-nav` markup; the sampled pages 040, 050, and 054–058 do not.
+- The index maps physical pages 054–057 to logical Course 1 lesson 25 and page 058 to logical lesson 26. The missing static navigation on the later templates is therefore a follow-up question about the intended navigation contract, not enough evidence by itself to safely insert hard-coded links across grouped physical pages. No page source was changed in this pass.
+- Next check: compare all 42 Course 1 page records with the catalog's actual click targets and the shared renderer's navigation behavior, then decide whether these static pages are direct learner entry points or legacy/fallback wrappers before making any navigation change.
+- Scope: targeted source spot-check only, not a complete 42-page audit; no browser clicking, runtime content fetch, database query, seed execution, scientific lesson text change, `main`, migrations, or production database changes.
