@@ -1370,3 +1370,10 @@ Before making any lesson edits, prepare a proposed correction plan grouped by se
 - Static boundary checks: Course 1 starts at `writing-system-section-07-lesson-017` and ends at `phonetics-section-10-lesson-058`; Course 2 starts at `course-2-lesson-01` and ends at `course-2-lesson-32`. The sequence has two course IDs and no navigation adjacency should cross those IDs. The catalog contains 42 physical records for Course 1 and 32 for Course 2; these are page records, not the 26 and 32 logical lesson totals.
 - No further source change needed. Verification is static only; the browser navigation path and clicked links were not runtime-tested.
 - Scope: no lesson content, catalog records, IDs, SQL, migrations, seed execution, `main`, or production database changes.
+
+
+## Avasin orthography: syllable terminology — 2026-10-22
+- Static scan found four live source surfaces still using `بڕگە`, contrary to the project's explicit Avasin Code preference to use `هجا`: `lessons/053.html` (six occurrences, including title/metadata and its short lesson heading), `lessons/course-2-06.html` (three title/metadata occurrences), `lessons/index.json` (two catalog titles), and `lessons/catalog.html` (one legacy course link).
+- Applied the exact terminology substitution `بڕگە` → `هجا` only in those four files, including metadata, visible titles, and the short phrase about /schwa/. No Latin Kurmanji forms, lesson structure, examples, or phonological claims were changed. This is a terminology/orthography correction explicitly required by Avasin Code, not a scientific-content rewrite.
+- Re-fetched each modified file after its commit; all four checks confirmed the old term is absent and the replacement is present. Static verification only; no browser/runtime test.
+- Scope: no seed execution, SQL, migrations, `main`, production Supabase, or production DB changes.
