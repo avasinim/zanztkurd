@@ -949,6 +949,9 @@ async function markLessonComplete(courseId, lessonKey){
     const links=document.querySelectorAll('a[href*="lessons/course-2-"]');
     if(!links.length)return;
     styles();
+    /* Refresh server-authoritative progress before calculating which lessons
+       should be locked on the learning roadmap. */
+    await window.ZANSTI_SYNC_PROGRESS("phonetics-phonology-kurdik",COURSE2_FILES,STORAGE,false);
     const first=firstIncomplete();
     links.forEach(function(a){
       const m=(a.getAttribute("href")||"").match(/course-2-(\d+)\.html$/);
