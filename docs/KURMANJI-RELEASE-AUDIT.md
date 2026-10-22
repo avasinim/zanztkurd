@@ -1851,3 +1851,9 @@ Read-only follow-up of `lessons/index.json` confirms that the `058.html` inconsi
 - Applied the user's explicitly confirmed spelling `ڕێنوس` in the two static lesson shells where `ڕێنووس` appeared in descriptive text (lesson 048: 1 occurrence; lesson 054: 6 occurrences).
 - Re-fetched both changed files and verified that the incorrect spelling now occurs 0 times and the preferred spelling occurs 1 and 6 times respectively.
 - No scientific lesson-body text, Latin Kurmanji forms, lesson keys, seed files, migrations, or database were changed. Static source verification only.
+
+
+### 2026-10-22 — Keep site-wide orthography normalizer from changing meaning
+- Reviewed the site-wide text normalization list in `script.js`. Two rules were not spelling normalization: `دەربارەی → لەبوارەی` and `زیاد → زۆر` can alter phrasing/meaning, so removed only those two substitutions.
+- Re-fetched `script.js` and verified those rules are absent; the remaining normalization list is intact. No lesson scientific text, Latin Kurmanji, seed, migration, or database was changed.
+- Static source check only; JavaScript/browser behavior was not executed.
