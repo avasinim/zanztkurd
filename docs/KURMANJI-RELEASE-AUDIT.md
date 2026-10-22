@@ -2163,3 +2163,8 @@ Corrected the review question so it asks for both the direct and oblique forms o
 ### Added source-backed verb-form comparison to course 2 lesson 8 — 2026-10-22
 
 Added a concise worked comparison from Haig (2018), Table 14, to Northern Circle course 2 lesson 8: `ez dibêjim` (present transitive), `ez hatim` (past intransitive), and `min xwar` (past transitive). The note explicitly warns learners that pronoun forms and verb agreement depend on tense and transitivity, rather than implying one uniform paradigm. These are source-attested examples, not invented forms. Source: https://doi.org/10.1515/9783110421682-004 (PDF table also available at https://multicast.aspra.uni-bamberg.de/data/pubs/Haig2018_Northern-Kurdish_Kurmanji.pdf). No production resources were changed.
+
+
+### Added source-attested tense and aspect contrasts to course 2 lesson 9 — 2026-10-22
+
+Added a worked comparison to Northern Circle course 2 lesson 9 using Geoffrey Haig (2018), “Northern Kurdish (Kurmanjî),” Table 14 and §2.6.4: present transitive `ez dibêjim`, simple past intransitive `ez hatim`, simple past transitive `min xwar`, past-progressive contrasts `ez dihatim` and `min dixwar`, plus the source-transcribed future example `ew dē mesel-ē ji te re bēž-e`. The text distinguishes tense/aspect and transitivity, explicitly preserves the future example's source transcription, and does not invent new Kurmanji forms. Source: https://doi.org/10.1515/9783110421682-004 and https://multicast.aspra.uni-bamberg.de/data/pubs/Haig2018_Northern-Kurdish_Kurmanji.pdf. Only the protected `kurmanji-clean-release` branch was changed; no migration, `main`, or production Supabase resource was changed.
