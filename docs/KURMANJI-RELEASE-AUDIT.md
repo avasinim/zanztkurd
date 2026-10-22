@@ -1857,3 +1857,9 @@ Read-only follow-up of `lessons/index.json` confirms that the `058.html` inconsi
 - Reviewed the site-wide text normalization list in `script.js`. Two rules were not spelling normalization: `دەربارەی → لەبوارەی` and `زیاد → زۆر` can alter phrasing/meaning, so removed only those two substitutions.
 - Re-fetched `script.js` and verified those rules are absent; the remaining normalization list is intact. No lesson scientific text, Latin Kurmanji, seed, migration, or database was changed.
 - Static source check only; JavaScript/browser behavior was not executed.
+
+
+### 2026-10-22 — Recheck corrected lesson shell/catalog metadata (048, 054, 057, 058)
+- Re-fetched these four static lesson files and compared their displayed lesson identifiers and `data-lesson-key` values with the corresponding `lessons/index.json` catalog entries.
+- The keys match the filenames; catalog numbering/title mapping aligns with the lesson identifiers (048→23, 054/057→parts of lesson 25, 058→26). The incorrect `ڕێنووس` spelling remains absent from these checked shells.
+- No additional edits were needed. Static source review only; no lesson-body scientific validation or browser/database testing.
