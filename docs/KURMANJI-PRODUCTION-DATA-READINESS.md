@@ -117,3 +117,15 @@ A static scan of the current proposed migration (`supabase/migrations/2026101909
 - The migration does not create a `lesson_content` RLS policy and does not define `enroll_in_course(text)`; it relies on the existing target schema's policy and enrollment RPC. This dependency must be rechecked against the exact deployment target and is not evidence that a live rollout is ready.
 
 This check validates key coverage only; it does not validate lesson-body scientific accuracy, seed equivalence, database execution, or learner-facing runtime behavior. No database or application code was changed.
+
+
+## Front-end RPC integration cross-check — 2026-10-22
+
+Read-only comparison of `script.js`, the two Kurmanji lesson HTML shells, the proposed migration, and the live production function catalog found:
+
+- The client calls `student_has_enrollment(p_course_id)`, `is_site_owner()`, `can_read_lesson_content(p_course_id, p_lesson_key)`, and `complete_lesson(p_course_id, p_lesson_key)`.
+- The live production function catalog contains these same function names and argument signatures. The proposed migration replaces the two lesson-access/progress functions but does not replace the enrollment or owner-check functions.
+- The lesson HTML shells carry matching `data-lesson-key` values, and the client reads `content_html` from `lesson_content` using that key. Course IDs are inferred from the Kurmanji lesson-key prefix.
+- The client-side progression check delegates to `can_read_lesson_content`; completion delegates to `complete_lesson`. No RPC name or argument mismatch was found in this static cross-check.
+
+Limitations: this is source inspection plus a read-only catalog query, not an authenticated end-to-end test. It does not establish that the new Kurmanji rows exist in production, that the proposed migration is safe to apply, or that RLS behavior has been runtime-tested. No database, migration, application code, or `main` branch was changed.
