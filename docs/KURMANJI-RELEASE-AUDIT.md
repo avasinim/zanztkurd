@@ -1751,3 +1751,11 @@ Read-only follow-up of `lessons/index.json` confirms that the `058.html` inconsi
 - Re-read the registry and page after editing to verify the title matches. Broader section grouping discrepancy remains documented and was not silently remapped.
 - No changes to `main`, Supabase, seeds, migrations, or PR #3.
 
+
+
+## Course 2 lesson 6 Avasin orthography correction (2026-10-22)
+
+- In `lessons/course-2-06.html`, corrected the lesson-shell title, description, and visible heading from `بڕگە` to `هجا` according to the Avasin Code. Also corrected the two Academy brand occurrences from `ئەکادێمای ئاڤاشین` to `ئەکادێمیای ئاڤاشین`. No explanatory/scientific body text or Latin Kurmanji spelling was changed.
+- Updated the matching `lessons/index.json` catalog title from `بڕگە` to `هجا`, so the catalog card and lesson shell use the same title.
+- Changes were limited to the protected `kurmanji-clean-release` branch. No Seed SQL, migrations, database, production configuration, `main`, or PR #3 was touched.
+- Post-edit verification was performed by re-fetching both changed files and checking the corrected term, Academy branding, page key, shared script include, canonical URL, and catalog title. This was a static verification, not a live browser or database test.
