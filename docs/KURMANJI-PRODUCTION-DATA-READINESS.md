@@ -90,3 +90,17 @@ A read-only inspection of the live Supabase project `hjpmorabqdhuchpnowiw` compa
 Do not publish the Kurmanji catalog/pages or load lesson rows in isolation. A safe release must treat the course rows, all 38 reconciled lesson bodies, the access/progression function updates, and the RLS behavior as one coordinated change. Before production approval, test: (a) enrolled learner can read lesson 1, (b) later lessons remain blocked until the preceding lesson is complete, (c) non-enrolled learner cannot read content, (d) unverified user cannot enroll/complete, (e) site-owner behavior is intentional, and (f) existing phonetics and orthography progression remains unchanged.
 
 This is a static/read-only compatibility finding. No database state was modified, and no production deployment is approved by this note.
+
+
+## Owner progression behavior — explicit release decision required — 2026-10-22
+
+A focused read of the proposed `complete_lesson(text,text)` body found a course-specific owner behavior that should be explicitly accepted or changed before release:
+
+- For `phonetics-phonology-kurdik` and both Kurmanji course IDs, a site owner can complete a later lesson without the preceding lesson being present in `lesson_progress`.
+- For `orthography-kurdik`, the function intentionally keeps sequential completion even for the owner.
+- The access-check helper `can_read_lesson_content(text,text)` also returns `true` for the site owner before validating the course ID or lesson key. The live RLS policy has a similar owner shortcut, as documented above.
+- For ordinary learners, the proposed completion function checks enrollment and prior-lesson completion; this note is about the exceptional owner path only.
+
+This may be a deliberate administrator convenience, not automatically a defect. However, the different owner behavior between courses is material and should not be accidental. Before approving the migration, choose one policy explicitly: (a) owners may bypass lesson sequencing for all courses, (b) owners must follow sequencing for all courses, or (c) preserve the existing course-specific behavior with a documented reason and tests. Test owner access to an unknown course/key as well as owner completion of a later lesson without prior progress.
+
+This is a static code review only. No function was executed, and no migration, database, lesson content, or production branch was changed.
