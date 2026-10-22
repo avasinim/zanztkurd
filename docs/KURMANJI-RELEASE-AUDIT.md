@@ -1653,3 +1653,9 @@ The current Course 2 catalog is a phonetics/phonology course, beginning with spe
 3. To establish any reuse, compare an individual paragraph/example against the authoritative source and the actual current lesson body, then record a specific, evidence-backed mapping for review. Matching a general topic or a lesson number is insufficient.
 4. The current course-1 grouping includes a logical lesson-number reuse for several related page paths (e.g. multiple entries carry courseLessonNumber 22, 23, or 25); preserve the explicit catalog order and page paths rather than inferring order from filenames.
 5. No central-circle lesson, main, PR #3, migration, Supabase database, or production configuration was changed. Only this audit document is being updated.
+
+## Audit-numbering clarification — legacy seed labels are not current catalog lessons (2026-10-22)
+
+The source-review headings earlier in this document that say “course 1, lesson NN” and discuss the legacy seed's Hawar/Latin Kurmanji lessons refer to rows named kurmanji-course-1-lesson-NN.html in the legacy seed package. They must **not** be read as verification of the current catalog's logical lesson NN or the wrapper page 017.html–058.html. The current catalog has a different lesson sequence and subject scope, as recorded in the scope comparison above.
+
+Likewise, the previous source-review notes for “course 2, lesson NN” that concern morphology/grammar apply to the legacy 12-row seed package only; they do not verify current Course 2's 32 phonetics/phonology lessons. Until an evidence-backed crosswalk exists, retain these notes as historical checks of legacy material and mark the current catalog lesson bodies as not yet verified by those checks. This clarification changes audit interpretation only; it does not alter any lesson or seed content.
