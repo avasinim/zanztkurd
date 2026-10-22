@@ -52,10 +52,23 @@ if not shared_script.exists():
     ERRORS.append("Missing shared access-control script: script.js")
 else:
     script_text = shared_script.read_text(encoding="utf-8")
-    if 'parent.closest(".lesson-content")' not in script_text:
-        ERRORS.append("Shared text normalizer does not skip lesson-content text nodes")
-    if 'if(el.closest(".lesson-content")) return;' not in script_text:
-        ERRORS.append("Shared text normalizer does not skip lesson-content attributes")
+    # Avasin normalization is intentionally applied to source-loaded lesson text
+    # as well as static UI text; keep the canonical replacements in this shared script.
+    for required in (
+        '[/نووسراوە/g,"نوسراوە"]',
+        '[/نووسینی/g,"نوسینی"]',
+        '[/نووسین/g,"نوسین"]',
+        '[/فێربوون/g,"فێربون"]',
+        '[/هەموو/g,"هەمو"]',
+        '[/نموونە/g,"نمونە"]',
+        '[/پێویست/g,"پەیویست"]',
+        '[/ڕوون/g,"ڕون"]',
+        '[/ناوەڕۆک/g,"نێوەڕۆک"]',
+        '[/چییە/g,"چیە"]',
+        '[/نییە/g,"نیە"]',
+    ):
+        if required not in script_text:
+            ERRORS.append(f"Shared Avasin normalizer is missing required spelling mapping: {required}")
     if 'Avasin access gate' not in script_text:
         ERRORS.append("Shared access-control gate marker is missing from script.js")
 
@@ -108,7 +121,7 @@ for course_id, count in expected.items():
             )
             if not content_box:
                 ERRORS.append(f"Lesson page is missing the server-loaded content container: {key}")
-            elif "بارکردنی ناوەڕۆکی وانەکە" not in content_box.group(1):
+            elif not any(phrase in content_box.group(1) for phrase in ("بارکردنی نێوەڕۆکی وانەکە", "بارکردنی ناوەڕۆکی وانەکە", "نێوەڕۆکی وانە بار دەکرێت")):
                 ERRORS.append(f"Lesson page content container does not use the expected loading placeholder: {key}")
 
             # Validate actual previous/next links, not just the presence of page files.
