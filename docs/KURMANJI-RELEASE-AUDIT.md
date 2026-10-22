@@ -1926,3 +1926,9 @@ Read-only follow-up of `lessons/index.json` confirms that the `058.html` inconsi
 - This is a cross-file static consistency finding, not a claim about the currently applied live database state. No migrations or schema files were changed, and no database was queried or modified. Resolve only after agreeing the authoritative course scope and reviewing existing progress/enrollment implications.
 - Audit file updated and re-read after write. No changes to `main`, production Supabase, migrations, or PR #3.
 
+### 2026-10-22 — Course 2 browser gate compared with server completion RPC
+- Re-read `script.js` and the Course 2 progression migration on `kurmanji-clean-release`.
+- The browser-side Course 2 gate constructs a 32-item order (`course-2-01.html` through `course-2-32.html`). The inspected server-side `complete_lesson` function in `20261011104927_align_course_2_to_source_lessons_25_27.sql` accepts only keys 01–27 for this course and raises `INVALID_LESSON` for keys outside that list.
+- Therefore, if this migration's function definition is the one currently deployed, attempting to record completion for lessons 28–32 will be rejected server-side even though the browser gate includes those lessons. This is a conditional source-based implication; the deployed database function was not queried, so live behavior remains unverified.
+- The browser gate and server function must be reconciled together after confirming the intended course scope. No code, seed, migration, or database changes were made in this pass. Audit file re-read after update; no changes to `main`, production Supabase, or PR #3.
+
