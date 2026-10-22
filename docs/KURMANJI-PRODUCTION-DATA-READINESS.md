@@ -44,3 +44,29 @@ A structured comparison of the five split SQL packages against the 38 lesson row
 ### Updated release decision
 
 The migration is **not content-equivalent** to the approved split SQL package and must not be applied as-is. Preserve the split seed/source as the comparison baseline, review each discrepancy, restore Avasin Code spellings in Sorani explanatory text, preserve Latin Kurmanji forms, and verify scientific statements and citations against the source. Do not mechanically replace all migration content without that review. No database write or production change was made during this comparison.
+
+
+## RPC and access-control static review — 2026-10-22 follow-up
+
+Reviewed the proposed migration's `can_read_lesson_content(text,text)` and `complete_lesson(text,text)` definitions, grants, and transaction boundary. This was source inspection only; no function was executed against a database.
+
+### Positive controls present
+
+- Both functions are declared `SECURITY DEFINER` with an empty `search_path`; application objects are schema-qualified in the reviewed function bodies.
+- Both reject unauthenticated callers; `complete_lesson` also rejects non-owner users without a confirmed email or phone.
+- `complete_lesson` checks enrollment for non-owners, validates the course and lesson key, and enforces prior-lesson completion for ordinary learners.
+- Execute privileges are revoked from `PUBLIC` and `anon`, then granted to `authenticated`.
+- The SQL file is wrapped in a transaction.
+
+### Release-blocking review items
+
+1. **Broad change surface:** this is not a content-only migration. It upserts both Kurmanji course records, changes the phonetics course total from any non-32 value to 32, and replaces two shared progression/access functions. The effects on existing courses must be tested against the exact live schema and client expectations before approval.
+2. **Access-policy dependency:** the migration defines an access-check RPC but does not itself create or verify the RLS policy on `lesson_content`. Before release, inspect the live policy definition and confirm that it invokes the intended check, that direct table access remains appropriately restricted, and that function ownership/grants match the deployment model.
+3. **Owner shortcut:** `can_read_lesson_content` returns true for a site owner before validating the requested course ID or lesson key. This may be intentional for owner-wide content access, but should be explicitly approved and checked against the RLS policy's use of the function.
+4. **Progression compatibility:** the migration hard-codes lesson-key order arrays for four course IDs, including the existing phonetics and orthography courses. Compare every key to the deployed catalog and current progress records; the orthography completion-count grouping and the special placement of `045.html` deserve regression tests.
+5. **Source/content defects:** the migration's lesson 07 course-2 bibliography duplicates the same DOI link twice, and the migration content uses inconsistent source attribution relative to the split seed. Review these while reconciling the 38 body differences.
+6. **Prerequisite assumptions:** the functions depend on existing tables, columns, and `public.is_site_owner()`. Confirm those definitions and their security properties in the target schema before applying; this migration does not establish them itself.
+
+### Static-review decision
+
+Do not apply this migration to production yet. Next, read the exact live definitions of `lesson_content` RLS policies, `public.is_site_owner()`, course enrollment constraints, and existing progression functions, then test the proposed replacement in an isolated non-production database. No production or test database was changed during this review.
