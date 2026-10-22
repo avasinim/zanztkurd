@@ -1489,3 +1489,13 @@ A separate course-2 scope mismatch remains: the current catalog and wrapper set 
 Environment safety: the checked-in `supabase-config.js` points to project ref `hjpmorabqdhuchpnowiw`, different from the known test-project ref `juwsjljbdwyncicybwoq`. The configured project is therefore not confirmed as the approved test environment. Do not use this client config for test-browser validation or writes; any end-to-end test must explicitly target the approved test project. No database requests or changes were made.
 
 This corrects the earlier interpretation: the `course-current` / `orthography-kurdik` difference is catalog-scope vs database-course naming, not itself evidence of broken enrollment mapping. The content blocker remains the lack of a verified mapping from the 58 current wrapper keys to authoritative lesson-content rows in the approved test environment.
+
+
+## Cross-function Course 2 scope check — 2026-10-22
+
+- Re-read the protected-branch migrations that define Course 2 sequential access/completion and admin progress reporting.
+- `20261011104927_align_course_2_to_source_lessons_25_27.sql` explicitly defines Course 2's `lesson_order` as `course-2-01.html` through `course-2-27.html` in both `can_read_lesson_content` and `complete_lesson`, and sets `total_lessons = 27`.
+- `20261013085913_admin_progress_reporting_consistency.sql`, however, includes `course-2-28.html` through `course-2-32.html` in its Course 2 reporting key list. This confirms the 27-vs-32 discrepancy is not only between the site and one migration: the reporting function and the sequential-access/completion functions encode different Course 2 scopes.
+- This is a source-level inconsistency and a release blocker for lessons 28–32 until the intended authoritative course scope is decided. It does not establish which count is correct, and it is not permission to edit or run migrations.
+- The checked migration is function/course metadata logic, not an authoritative content payload for all 58 current wrappers. A targeted repository search did not find a migration inserting lesson-content rows for the current wrapper keys; the previously documented 38-row draft seed package still uses legacy key names and must not be copied into the current wrapper scheme.
+- Scope: read-only GitHub source inspection on `kurmanji-clean-release`. No files changed in this check, no database queries or writes, no seed execution, no migration execution, no `main` change, and no PR #3 merge.
