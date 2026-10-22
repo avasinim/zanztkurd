@@ -1508,3 +1508,26 @@ This corrects the earlier interpretation: the `course-current` / `orthography-ku
 - The admin reporting migration already recognizes all 32 Course 2 keys, confirming internal implementation drift. Release work should reconcile the access/completion logic to the accepted 32-lesson registry, but migration edits or execution are outside this read-only audit and must not happen without explicit authorization.
 - Metadata discrepancy noted, not silently changed: the registry labels lesson 31 with `سرتێس`, while the current wrapper and `lessons/index.json` use `سترێس`. Do not normalize this technical term until its intended spelling is checked against the source/reference and the Avasin standard.
 - Re-read verification: the registry explicitly lists lessons 25–32 and states Course 2 = 32; `lessons/index.json` declares `lessonCount: 32`. No website lesson body, seed, migration, or database was changed in this check.
+
+## New metadata cross-check: Course 2 registry vs catalog titles — 2026-10-22
+
+Compared the 32 Course 2 title entries in `COURSE-REGISTRY.md` with the corresponding `course-2-01.html`–`course-2-32.html` entries in `lessons/index.json`. This is a separate title-metadata comparison; it does not repeat the wrapper/navigation sweep.
+
+Differences requiring source-based review (titles left unchanged):
+
+| Lesson | Registry title | Catalog title |
+|---:|---|---|
+| 4 | پەیوەندی دەنگەکان و گۆڕانکاریە فۆنۆلۆجیەکان | پەیوەندی دەنگەکان و گۆڕان‌کاریە فۆنۆلۆجیەکان |
+| 5 | سیستەمی بزوێن و نەبزوێنەکان | سیستەمی ڤاوڵ و کۆنسۆنەنتەکان |
+| 6 | سیلاب و پێکهاتەی فۆنۆلۆجی وشە | بڕگە و پێکهاتەی فۆنۆلۆجی وشە |
+| 12 | سیستەمی بزوێنەکان و شی‌کردنەوەی ئەکوستیکی | سیستەمی ڤاوڵەکان و شی‌کردنەوەی ئەکوستیکی |
+| 13 | سیستەمی نەبزوێنەکان و شی‌کردنەوەی فۆنێتیکی | سیستەمی کۆنسۆنەنتەکان و شی‌کردنەوەی فۆنێتیکی |
+| 15 | گۆڕانکاریە فۆنۆلۆجیەکان و پەیوەندی دەنگەکان | گۆڕان‌کاریە فۆنۆلۆجیەکان و پەیوەندی دەنگەکان |
+| 23 | کۆئارتیکولەیشن و گۆڕانکاری فۆنێتیکی لە ئاخاڤتنی بەردەوام‌دا | کۆئارتیکولەیشن و گۆڕان‌کاری فۆنێتیکی لە ئاخاڤتنی بەردەوام‌دا |
+| 26 | ڕێسا، نواندنی ژێرەوەیی، بێ‌لایەنبوون و لێکچوون | ڕێسا، نواندنی ژێرەوەیی، بێ‌لایەن‌بون و لێکچوون |
+| 30 | درێژکردنەوە و کورتکردنەوەی دەنگ | درێژکردنەوە و کورت‌کردنەوەی دەنگ |
+| 31 | تایبەتمەندییە ناکەرتییەکان و سرتێس | تایبەتمەندییە ناکەرتیەکان و سترێس |
+
+Interpretation: these are verified registry/catalog text differences, not proof that either wording is scientifically wrong. In particular, terminology choices and Kurdish spelling must not be silently unified without checking the book/source and the Avasin orthography standard. Lesson 31's `سرتێس` / `سترێس` discrepancy was already recorded above; it is repeated in this table only to keep this comparison complete.
+
+Scope: read-only source inspection followed by an audit-document update on `kurmanji-clean-release`. No lesson title, scientific body, seed, migration, database, `main`, or PR #3 was changed.
