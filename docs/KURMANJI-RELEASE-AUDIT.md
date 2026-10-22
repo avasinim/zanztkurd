@@ -2314,3 +2314,17 @@ A second read-only comparison extracted section-heading structure from each seed
 Static shell recheck for lesson pages 08–11 confirms their `<h1>` titles and `data-lesson-key` values correspond to the expected lesson keys. Their lesson bodies are loaded through `script.js`, so static HTML does not contain the complete rendered lesson text. This supports the need to compare the seed with the test DB payload; it does not prove which DB payload is intended at runtime.
 
 Risk-based conclusion: do not sync bodies automatically. Prioritize lessons 8–11 for a full section-by-section review because the database version appears to omit one instructional section from each; then inspect the other lessons for content and citation differences. No changes were made to seed SQL, lesson HTML, JavaScript, or any database. Only this audit note was updated.
+
+
+## Detailed section review: course 2 lessons 08–11 — 2026-10-22
+
+Read-only comparison of seed HTML sections against the test-project rows confirms the extra sections are substantial instructional content, not only heading formatting:
+
+- Lesson 08: seed section `٤. بەراوردی فۆڕمەکان` gives a contrast among `ez dibêjim`, `ez hatim`, and `min xwar`, with a reference to Haig (2018), Table 14. The database body omits that section.
+- Lesson 09: seed section `٤. بەراوردی فۆڕمەکانی کردار` contrasts `ez dibêjim`, `ez hatim`, `min xwar`, and additional simple vs continuous past forms; the database body omits that section.
+- Lesson 10: seed section `٤. نمونەی نەفی لە سەرچاوەی زانستی` discusses `na-` vs `di-`, examples `nizanim` and `nikarim`, and past negation forms; the database body omits that section.
+- Lesson 11: seed section `٤. نمونەی ڕستە و ڕیزبەندیی بنەڕەتی` explains SOV order with `Wî mirov-î çay anî`; the database body omits that section.
+
+A source check of the chapter citation found that “Northern Kurdish (Kurmanjî)” is authored by Geoffrey Haig alone, pp. 106–158, in the volume edited by Geoffrey Haig and Geoffrey Khan (DOI: `10.1515/9783110421682-004`). The seed citation’s author/editor distinction is consistent with the source. The database citation “Haig and Öpengin (2018)” appears to conflate this chapter with a separate joint publication, so it should not replace the seed citation without review. Sources checked: the chapter PDF hosted by the University of Bamberg and the university bibliographic record (https://fis.uni-bamberg.de/entities/publication/06ab181d-1e09-43da-87f4-92453eaf5057).
+
+The same comparison found Avasin Code spellings in the database variants that differ from seed, including `نییە`, `چییە`, `هەموو`, `بەرامبەر`, and `نموونە`. These are clear orthography drift indicators, but this audit deliberately does not bulk-edit database text because the missing sections and citation discrepancy require content-level reconciliation first. No database writes or lesson/seed changes were made.
