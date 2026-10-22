@@ -1891,3 +1891,9 @@ Read-only follow-up of `lessons/index.json` confirms that the `058.html` inconsi
 - Re-fetched static lesson shells `023.html` through `030.html` and checked their visible lesson titles, `data-lesson-key`, previous/next anchors, and `script.js` include. All eight keys match their filenames; each page includes the shared script once; links connect the sequence 022→023→…→030→031 without a break.
 - Compared the eight page paths and catalog titles in `lessons/index.json`: all are registered exactly once under `section-07`, mapped to logical Course 1 lessons 7–14, and the catalog titles match each HTML title/heading. Lesson 10 (page 026) is explicitly presented as part 2 of lesson 9, consistent between shell and catalog.
 - No definite defect found; no lesson/catalog edits made. Static source review only—no rendered browser check, scientific body/seed correspondence check, runtime key verification, or database access.
+
+
+### 2026-10-22 — Course 1 navigation/catalog spot-check (017–022; filename gap 015–016)
+- Re-fetched static shells `017.html` through `022.html`. Each existing page has a matching `data-lesson-key`, exactly one shared `script.js` include, and visible titles aligned with the catalog entries. The prev/next chain runs from page 017 (first course lesson; no previous link) through 018–022 and onward to 023.
+- Catalog entries `017.html`–`022.html` are each registered once in `section-07`, with logical Course 1 lesson numbers 1–6. The repository does not contain `015.html` or `016.html`; the catalog likewise has no entries for those filenames, so no missing-link repair is indicated by this check.
+- No definite defect found; no lesson/catalog edits made. Static repository inspection only—not a browser rendering, scientific body/seed comparison, runtime key check, or database test.
