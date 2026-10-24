@@ -2807,3 +2807,12 @@ This section supersedes the earlier 2026-10-21/22 statements that the current mi
 - **Content presence:** covers possessive pronoun forms (`min, te, wî, wê, me, we, wan`), noun-phrase ezafe, free ezafe forms `yê/ya/yên`, exercises, and references including Haig (2018), University of Arizona, and Thackston.
 - **Scientific review flags:** examples such as `pirtûka min`, `birayê min ê mezin`, and the gender/number/case-conditioned forms `yê/ya/yên` require checking against the cited reference grammar and exact syntactic context. The lesson itself cautions against treating all forms as one uniform rule; this pass does not independently validate each paradigm. No definite page/seed wiring mismatch was found; no lesson text, seed, migration, or Latin Kurmanji form was changed.
 - Re-read the audit file after updating and confirmed this entry is present. Only the protected branch was modified; no database operation was performed.
+
+
+## Lesson 25 — direct and oblique case (2026-10-24)
+
+- Cross-checked `kurmanji-course-1-lesson-25.html` against its row in `docs/kurmanji-content-seed-part-04.sql`.
+- **Structural match:** page and seed titles agree (`حاڵەتی ڕاستەوخۆ و ناڕاستەوخۆ`); `data-lesson-key="kurmanji-course-1-lesson-25.html"` matches the seed key; shared `script.js` is loaded; previous/next links point to lessons 24 and 26.
+- **Content presence:** the seed introduces direct/oblique case, nominal forms by gender/number/indefiniteness, pronoun forms, transitive clauses and ergative alignment, with exercises and grammar references.
+- **Scientific review flags:** the forms `gund/gund-î`, `gund-ek/gund-ek-î`, `jin/jin-ê` and the account of oblique marking/ergativity need checking against Haig and Thackston, including dialect and syntactic context. This is a structural/coverage check, not a source-verified paradigm audit. No definite page/seed wiring mismatch was found; no lesson text, seed, migration, or Latin Kurmanji form was changed.
+- Re-read the audit file after updating and confirmed this entry is present. Only the protected branch was modified; no database operation was performed.
