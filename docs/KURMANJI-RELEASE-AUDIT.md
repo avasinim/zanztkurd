@@ -3272,3 +3272,19 @@ This section supersedes the earlier 2026-10-21/22 statements that the current mi
 
 ### Result
 **Basic SOV/SV patterns and the non-rigid nature of word order: corroborated. Several exact examples, glosses, and the fronting example: still open for sentence-level verification.** No lesson body, seed tuple, migration, database, or production branch was changed. This is a source review, not a runtime/security release certification.
+
+## Source review — course 1, lesson 21: adjectives and description (2026-10-24)
+
+### What is corroborated
+- Kurmanji noun phrases commonly place an attributive adjective after the noun and use an ezafe linker; the shape of ezafe depends on grammatical features and the construction. Haig’s description of Northern Kurdish noun phrases and the beginner-course overview of ezafe support teaching noun + ezafe + adjective as a basic pattern.
+- The distinction between an adjective modifying a noun inside a noun phrase and a predicate adjective in a full clause is pedagogically important and correctly flagged in this lesson.
+- Sources checked: [Geoffrey Haig (2018), *Northern Kurdish (Kurmanjî)*](https://www.uni-bamberg.de/fileadmin/aspra/06_Team/Publications_and_CV/haig_2018_ch.2.3_northern_kurdish.pdf); [Kurdisch-Akademie, *Kurmancî für Anfänger*, “Ezafe” overview](https://kurdisch-akademie.de/kurmanci-anfaenger); [*Kurmanji Kurdish for Beginners*](https://internationalistcommune.com/wp-content/uploads/2024/01/Kurmanji_Kurdish_For_The_Beginners_compressed.pdf).
+
+### Items still requiring editorial verification
+- The exact forms **bajarê mezin**, **bajarekî mezin**, **maleke biçûk**, **pirtûka nû**, and **kumên reş** should be checked one by one for definiteness, gender, number, oblique case, and the intended dialect. The general ezafe rule alone does not certify each form or its Sorani gloss.
+- The lesson’s gloss **“bajarê mezin — شارە گەورەکە”** depends on context; the Kurmanji form itself does not necessarily encode the Sorani definite article in a one-to-one way. Clarify the intended context rather than asserting a universal equivalence.
+- The lesson does not yet give a sourced, worked example of a predicate adjective in a full clause. Add one only after checking it against a reliable reference grammar.
+- Bibliography entries should be made more precise with page/section references for the exact noun-phrase forms.
+
+### Result
+**General adjective position and ezafe as the noun–adjective linker: corroborated. Individual inflected noun phrases and glosses: partially verified and still open.** No lesson body, seed tuple, migration, database, or production branch was changed. This is a source-level review only, not runtime/security certification.
