@@ -3424,8 +3424,10 @@ This section supersedes the earlier 2026-10-21/22 statements that the current mi
 - Both `can_read_lesson_content(text,text)` and `complete_lesson(text,text)` exist as SECURITY DEFINER functions with an empty pinned search path. Read-only privilege checks: EXECUTE denied to `anon`, allowed to `authenticated` and `service_role`. `lesson_content` has RLS enabled; its SELECT policy requires site-owner status or active/completed enrollment plus the lesson-access RPC.
 - These checks establish current test-project metadata, counts, and policy/grant configuration only. They do **not** prove actual signed-in student behavior, enrollment/unlock/completion persistence, the exact release migration's clean-install behavior, or production readiness. No database writes, migration applications, live-site changes, PR merge, or deployment occurred.
 
-## GitHub Actions status — protected branch head `3171ad94364f2121fd68a4d06389b66c8ae2b769` (2026-10-24)
+## GitHub Actions status — protected branch head `fac6fe1d348f3d9f89c157a8811728b01bb8e799` (2026-10-24, rechecked)
 
-- `Validate lesson navigation` run `40085126835`: success.
-- `Validate academic lesson catalog` run `40085126996`: success.
-- `Validate Kurmanji course package` run `40085126855`: was still in progress at the time of this audit update; do not mark it passed until its final conclusion is checked.
+- `Validate lesson navigation` run `40085262089`: success.
+- `Validate academic lesson catalog` run `40085262037`: success.
+- `Validate Kurmanji course package` run `40085262046`: success.
+- This supersedes the prior note that the package check was still in progress. The three configured PR-triggered Actions checks are now complete and green on the current head. The Supabase Preview workflow was skipped; no migration replay or live Supabase verification is implied.
+- The static checks being green does not clear the release gates listed above: clean replay of the exact release migration, authenticated runtime testing, and scientific/source verification remain outstanding.
