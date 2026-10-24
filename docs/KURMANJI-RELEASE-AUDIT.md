@@ -247,8 +247,7 @@ Haig (2018, §2.4 “Numerals”) and Thackston's Kurmanji grammar list the core
 **Result: the 1–20 cardinal vocabulary is broadly verified.** No numeric item is clearly wrong in the selected Standard Kurmanji teaching variety. Flag the asserted morphology in *Ez du pirtûkan dixwînim* and the scope of the variation note for expert review before release. Audit-only update; lesson HTML, seed, migration, production database, and main were not changed.
 
 ## Source review — course 1, lesson 14: colours and everyday objects (2026-10-21)
-### Vocabulary corroboration
-The core colour words **sor** (red), **şîn** (blue), **kesk** (green), **zer** (yellow), **reş** (black), **spî** (white), and **qehweyî** (brown) are independently listed for Kurmanji by Omniglot, Institut kurde de Paris, and additional Kurmanji vocabulary references. The lesson's common-object words **pirtûk**, **pênûs**, **defter**, **derî**, **kursî**, **mase**, **telefon**, **av**, **nan**, and **mal** are plausible standard/common vocabulary; however, the sources retrieved in this review chiefly corroborate the colour list, not every object entry. Sources: https://omniglot.com/language/colours/multilingual.htm ; https://bnk.institutkurde.org/images/pdf/DTP48ZMAL1.pdf ; https://www.learnentry.com/english-kurmanji/vocabulary/color-in-kurmanji/ .
+### Vocabulary corroborationThe core colour words **sor** (red), **şîn** (blue), **kesk** (green), **zer** (yellow), **reş** (black), **spî** (white), and **qehweyî** (brown) are independently listed for Kurmanji by Omniglot, Institut kurde de Paris, and additional Kurmanji vocabulary references. The lesson's common-object words **pirtûk**, **pênûs**, **defter**, **derî**, **kursî**, **mase**, **telefon**, **av**, **nan**, and **mal** are plausible standard/common vocabulary; however, the sources retrieved in this review chiefly corroborate the colour list, not every object entry. Sources: https://omniglot.com/language/colours/multilingual.htm ; https://bnk.institutkurde.org/images/pdf/DTP48ZMAL1.pdf ; https://www.learnentry.com/english-kurmanji/vocabulary/color-in-kurmanji/ .
 
 ### Grammar and editorial cautions
 - The lesson appropriately notes that colour adjectives and sentence patterns vary by grammatical construction. The examples **Ev pirtûk sor e**, **Ev pênûs reş e**, and **Av sar e** are plausible predicate-adjective clauses; they should not be presented as a complete guide to attributive adjective placement/ezafe.
@@ -497,8 +496,7 @@ Attributive adjectives in Kurmanji normally follow the noun and are linked by ez
 ## Source review — course 2, lesson 3: nouns, grammatical gender and number (2026-10-21)
 
 ### Claims corroborated- The lesson correctly distinguishes grammatical gender from natural/biological sex. In Kurmanji, gender is a grammatical property of nouns and is visible in parts of the agreement system; it should not be inferred from real-world sex alone.
-- The lesson appropriately cautions against assuming one plural formation rule applies to every noun. Kurmanji nominal forms and agreement patterns require attention to the noun class, case and dialect.
-- The observation that gender and number interact with ezafe forms is directionally correct for Standard Kurmanji. Haig & Öpengin (2018), “Northern Kurdish (Kurmanjî),” discusses nominal morphology, gender, case and ezafe: https://doi.org/10.1515/9783110421682-004. Thackston’s reference grammar is also relevant: https://sites.fas.harvard.edu/~iranian/Kurmanji/kurmanji_complete.pdf
+- The lesson appropriately cautions against assuming one plural formation rule applies to every noun. Kurmanji nominal forms and agreement patterns require attention to the noun class, case and dialect.- The observation that gender and number interact with ezafe forms is directionally correct for Standard Kurmanji. Haig & Öpengin (2018), “Northern Kurdish (Kurmanjî),” discusses nominal morphology, gender, case and ezafe: https://doi.org/10.1515/9783110421682-004. Thackston’s reference grammar is also relevant: https://sites.fas.harvard.edu/~iranian/Kurmanji/kurmanji_complete.pdf
 
 ### Items needing editorial or source-specific checking
 1. **The lesson is almost entirely abstract.** It names gender, singular/plural and ezafe agreement but gives no Kurmanji noun paradigms or fully glossed examples. Add a small, source-checked table showing masculine/feminine nouns and singular/plural forms in context.
@@ -747,8 +745,7 @@ Before making any lesson edits, prepare a proposed correction plan grouped by se
 - **Seed source:** `docs/kurmanji-content-seed-part-01.sql`
 - **Seed key:** `kurmanji-course-1-lesson-02.html`- **Title:** ئەلفبێی هاوار و ٣١ پیتەکەی
 - **Scope checked:** listed alphabet order, five letters with diacritics, Q/W/X, grapheme-versus-sound distinction, practice prompts, and listed sources.
-- **Authoritative source checked:** Haig’s academic overview of Standard Kurmanjî identifies the Hawar-derived modified Roman alphabet as the written standard and explicitly notes variation. The standard alphabet is commonly presented as 31 letters; see [Haig, “Northern Kurdish (Kurmanjî)” (University of Bamberg PDF)](https://www.uni-bamberg.de/fileadmin/aspra/06_Team/Publications_and_CV/haig_2018_ch.2.3_northern_kurdish.pdf) and the University of Bamberg publication copy [here](https://multicast.aspra.uni-bamberg.de/data/pubs/Haig2018_Northern-Kurdish_Kurmanji.pdf).
-- **What is sound:** The 31 uppercase letters appear in the expected order: A B C Ç D E Ê F G H I Î J K L M N O P Q R S Ş T U Û V W X Y Z. The five marked letters are correctly listed as Ç, Ê, Î, Ş and Û. The lesson correctly warns that a written letter and a speech sound are not identical concepts, and it avoids the overclaim that each letter always has exactly one pronunciation in every word and variety.
+- **Authoritative source checked:** Haig’s academic overview of Standard Kurmanjî identifies the Hawar-derived modified Roman alphabet as the written standard and explicitly notes variation. The standard alphabet is commonly presented as 31 letters; see [Haig, “Northern Kurdish (Kurmanjî)” (University of Bamberg PDF)](https://www.uni-bamberg.de/fileadmin/aspra/06_Team/Publications_and_CV/haig_2018_ch.2.3_northern_kurdish.pdf) and the University of Bamberg publication copy [here](https://multicast.aspra.uni-bamberg.de/data/pubs/Haig2018_Northern-Kurdish_Kurmanji.pdf).- **What is sound:** The 31 uppercase letters appear in the expected order: A B C Ç D E Ê F G H I Î J K L M N O P Q R S Ş T U Û V W X Y Z. The five marked letters are correctly listed as Ç, Ê, Î, Ş and Û. The lesson correctly warns that a written letter and a speech sound are not identical concepts, and it avoids the overclaim that each letter always has exactly one pronunciation in every word and variety.
 - **Issues / recommendations for a later approved content pass:**
   1. The displayed alphabet currently contains uppercase letters only. Add the corresponding lowercase forms beside each uppercase form (A/a, B/b …) so learners can recognize the forms they will actually meet in ordinary text.
   2. Explain that Ç, Ê, Î, Ş and Û are distinct letters in this orthography, not optional decorative accents. Include a small contrastive reading/writing exercise with source-checked words; do not imply that removing the marks is harmless.
@@ -997,8 +994,7 @@ Before making any lesson edits, prepare a proposed correction plan grouped by se
 - **Seed/static source:** `docs/kurmanji-content-seed-part-02.sql`; `kurmanji-course-1-lesson-16.html`.- **Lesson key/title:** `kurmanji-course-1-lesson-16.html` — ڕۆژەکانی هەفتە و کات.
 - **Sources checked:** Thackston, *Kurmanji Kurdish: A Reference Grammar with Selected Readings*, section on substantives/days and telling time (https://sites.fas.harvard.edu/~iranian/Kurmanji/kurmanji_complete.pdf); Kurdi School, “Kurmanji grammar, explained simply” (https://kurdischool.com/grammar.html); Kurdish Academy, “Course 10: Dem û Roj” (https://kurdishacademy.ch/kurmancu00ee/dersen/courses/course-10.html); Kurmanji Kurdish, Lesson 4 (https://www.kurdipedia.org/files/books/2023/474430.PDF?ver=133232623527294231).
 - **Supported strengths:** The day-name set `duşem`, `sêşem`, `çarşem`, `pêncşem`, `în`, `şemî`, and `yekşem` is attested in the checked resources. The lesson usefully groups days with common time words (`îro`, `sibê`, `doh`, `niha`, `paşê`, `hefte`, `meh`, `sal`) and provides simple sentence-level practice.
-- **Issues / recommendations for a future content pass:**
-  1. Make the spelling/lexical choices consistent with the selected Kurmanji reference. Sources differ between forms such as `doh` and `duh/duhî`, and `sibê` and `sibe`; present the chosen form as the course standard and note alternatives as source/dialect variants rather than treating them automatically as mistakes.
+- **Issues / recommendations for a future content pass:**  1. Make the spelling/lexical choices consistent with the selected Kurmanji reference. Sources differ between forms such as `doh` and `duh/duhî`, and `sibê` and `sibe`; present the chosen form as the course standard and note alternatives as source/dialect variants rather than treating them automatically as mistakes.
   2. Teach the oblique/construct forms in context: day names may take forms such as `roja sêşemê` and `roja şemiyê`; the bare dictionary form is not interchangeable with every phrase used for “on Tuesday/Saturday.” Add sourced examples and explain only the relevant pattern at this beginner level.
   3. Review `Îro duşem e.` for capitalization consistency and teach the reusable question/answer pair `Îro çi roj e?` — `Îro pêncşem e.` from a sourced model.
   4. Check the translations and tense/context of `Ez sibê têm.` (“I come/am coming tomorrow”), `Em îro dixwînin.`, and `Ez niha amade me.`; explain that a time adverb plus a present-form verb can express a scheduled or contextually future event, without presenting it as a general future-tense rule.
@@ -1247,8 +1243,7 @@ Before making any lesson edits, prepare a proposed correction plan grouped by se
 ## Runtime lesson HTML insertion review — 2026-10-22
 - Read the protected lesson loader in `script.js`: it retrieves `lesson_content.content_html` for the wrapper's `data-lesson-key` and assigns the returned string to `.lesson-content.innerHTML`; this excerpt contains no client-side HTML sanitizer.
 - This is a security-hardening observation, not a confirmed vulnerability: the reviewed code alone does not establish whether database writes are restricted to trusted/authorized authors or whether server-side validation exists. The current Kurmanji seed corpus is curated, but the runtime also reads database content.
-- Recommendation for a separately authorized security review: verify the effective `lesson_content` INSERT/UPDATE policies and trusted content-authoring path; if untrusted authors can supply HTML, sanitize with a maintained allowlist before rendering. No code or database policy was changed in this audit.
-- Scope: static inspection of the checked-in runtime source only; no browser exploit test, live RLS inspection, migration execution, seed execution, production DB change, or `main` change.
+- Recommendation for a separately authorized security review: verify the effective `lesson_content` INSERT/UPDATE policies and trusted content-authoring path; if untrusted authors can supply HTML, sanitize with a maintained allowlist before rendering. No code or database policy was changed in this audit.- Scope: static inspection of the checked-in runtime source only; no browser exploit test, live RLS inspection, migration execution, seed execution, production DB change, or `main` change.
 
 
 ## Kurmanji course-index and catalog entry-point check — 2026-10-22
@@ -1496,7 +1491,6 @@ This corrects the earlier interpretation: the `course-current` / `orthography-ku
 - This is a source-level inconsistency and a release blocker for lessons 28–32 until the intended authoritative course scope is decided. It does not establish which count is correct, and it is not permission to edit or run migrations.
 - The checked migration is function/course metadata logic, not an authoritative content payload for all 58 current wrappers. A targeted repository search did not find a migration inserting lesson-content rows for the current wrapper keys; the previously documented 38-row draft seed package still uses legacy key names and must not be copied into the current wrapper scheme.
 - Scope: read-only GitHub source inspection on `kurmanji-clean-release`. No files changed in this check, no database queries or writes, no seed execution, no migration execution, no `main` change, and no PR #3 merge.
-
 
 ## Correction: authoritative Course 2 count is already recorded — 2026-10-22
 
@@ -1748,7 +1742,6 @@ Read-only follow-up of `lessons/index.json` confirms that the `058.html` inconsi
 - No changes to `main`, Supabase, seeds, migrations, or PR #3.
 
 
-
 ## Course 2 lesson 6 Avasin orthography correction (2026-10-22)
 
 - In `lessons/course-2-06.html`, corrected the lesson-shell title, description, and visible heading from `بڕگە` to `هجا` according to the Avasin Code. Also corrected the two Academy brand occurrences from `ئەکادێمای ئاڤاشین` to `ئەکادێمیای ئاڤاشین`. No explanatory/scientific body text or Latin Kurmanji spelling was changed.
@@ -1998,7 +1991,6 @@ No HTML, `script.js`, seed file, migration, `main`, PR #3, or database was chang
 
 
 ### Duplicate-content suspicion — static-shell comparison — 2026-10-22
-
 - Compared the static HTML shells for `lessons/course-2-01.html`, `course-2-02.html`, `course-2-03.html`, `course-2-25.html`, `course-2-26.html`, and `course-2-32.html` on `kurmanji-clean-release`.
 - Confirmed: these pages reuse a very similar HTML/CSS layout and loading placeholder. The lesson-specific title, metadata, `data-lesson-key`, and previous/next navigation differ, but the scientific lesson body is not embedded in the page. The placeholder says the lesson content is loading; `script.js` is responsible for retrieving it by exact key from `lesson_content`.
 - Therefore the visual/structural repetition is real, but it does **not** prove the actual scientific lesson bodies are duplicates. Since the read-only test database query found zero rows for `phonetics-phonology-kurdik`, the available test evidence cannot compare the 32 intended bodies or determine whether they repeat each other. It does show that the course body content is not provisioned in that test database.
@@ -2248,7 +2240,6 @@ Reviewed `kurmanji-course-2-lesson-09.html` in `docs/kurmanji-content-seed-part-
 A second exact scan of lesson 9 found two remaining occurrences that the first replacement had not removed: `بەرامبەر` in the past-form comparison and `نییە` in the sentence describing the source transcription. Corrected them to the Avasin Code forms `بەرابەر` and `نیە`. Re-fetched the seed and verified the disallowed strings `بەرامبەر`, `چییە`, `نییە`, `فێربوون`, `هەموو`, `بڕگە`, and `هجا` now all have zero occurrences in lesson 9. The duplicate methodology sentence remains reduced to one occurrence, and the Latin Kurmanji examples remain intact. No `main`, migrations, or production database changes.
 
 ### Follow-up verification: Northern Circle course 2 lessons 8–9 — 2026-10-22
-
 Re-fetched `docs/kurmanji-content-seed-part-05.sql` and checked the current versions of lessons 8 and 9. Lesson 8 still contains the source-backed contrasts `ez dibêjim`, `ez hatim`, and `min xwar` attributed to Haig (2018), Table 14. Lesson 9 retains the previously reviewed simple-past/past-progressive contrasts `ez hatim` / `ez dihatim` and `min xwar` / `min dixwar`, plus the future example `ew dē mesel-ē ji te re bēž-e` in source transcription. The narrow Avasin Code scan of lesson 9 found zero exact matches for `چییە`, `نییە`, `بەرامبەر`, `فێربوون`, `هەموو`, `بڕگە`, and `هجا`. These are follow-up checks of already corrected lessons, not new scientific edits; no additional seed changes were needed. No `main`, migrations, or production database changes.
 
 
@@ -2497,7 +2488,6 @@ The static shell navigation/key wiring for lessons 07–12 passes this limited c
 Compared the six lesson records in `docs/kurmanji-content-seed-part-05.sql` against the matching `lesson_content` rows in `supabase/migrations/20261019090000_add_kurmanji_courses_and_protected_lessons.sql`, then cross-checked the six HTML shell headings and keys. This is static source comparison only; the migration remains unapplied to production.
 
 ### Findings
-
 - All six records exist in both sources and their `lesson_key`, `course_id`, and lesson titles match the corresponding shell headings in substance. The migration applies Avasin orthographic normalization in some titles: lesson 09 has `ڕابردوو / داهاتوو` in the shell and seed but `ڕابردو / داهاتو` in the migration; lesson 12 has `پێداچوونەوە` in the shell and seed but `پێداچونەوە` in the migration. Treat these as known spelling divergences, not evidence that the keys are wrong.
 - **The records are not content-equivalent, and the differences are larger than orthographic normalization.** A static comparison of the six SQL record spans shows substantial length differences: migration records are shorter than seed records for lessons 07–11, while the migration's lesson 12 record is longer. This supports the migration's own warning that the two sources are not byte-identical; it is not safe to assume normalization alone explains the drift.
 - Some source-backed Kurmanji examples explicitly present in the seed are absent from the corresponding migration record: lesson 08's `ez dibêjim`, `ez hatim`, and `min xwar`; lesson 09's `ez dibêjim`, `ez hatim`, `min xwar`, `ez dihatim`, `min dixwar`, and the cited future construction; lesson 10's `nizanim`, `nikarim`, `ne-hatin`, and `ne-di-hatin`. These are material pedagogical/source-example differences, not just punctuation or Sorani spelling. They require a source-by-source semantic review before release.
@@ -2747,8 +2737,7 @@ This section supersedes the earlier 2026-10-21/22 statements that the current mi
 
 ## Lesson 19 — questions and interrogative words (2026-10-24)
 - Cross-checked `kurmanji-course-1-lesson-19.html` against its row in `docs/kurmanji-content-seed-part-03.sql`.
-- **Structural match:** page and seed title agree (`پرسیار و وشە پرسیارییەکان)); the `data-lesson-key` matches the seed key; the shared `script.js` is loaded; previous/next links point to lessons 18 and 20.
-- **Content presence:** the seed covers interrogatives `kî`, `çi`, `li ku`, `kengî`, `çima`, `çawa`, `çiqas`, `kîjan`; yes/no questions; open questions; exercises; and references to Haig (2018), Thackston, and the University of Arizona.
+- **Structural match:** page and seed title agree (`پرسیار و وشە پرسیارییەکان)); the `data-lesson-key` matches the seed key; the shared `script.js` is loaded; previous/next links point to lessons 18 and 20.- **Content presence:** the seed covers interrogatives `kî`, `çi`, `li ku`, `kengî`, `çima`, `çawa`, `çiqas`, `kîjan`; yes/no questions; open questions; exercises; and references to Haig (2018), Thackston, and the University of Arizona.
 - **Review limit:** this pass checks page/seed wiring and section coverage, not a full source-based assessment of every interrogative construction and translation. The lesson itself directs readers to verify forms against grammars and dictionaries. No definite structural mismatch was found; no lesson text or Latin Kurmanji forms were changed.
 
 
@@ -2997,8 +2986,7 @@ This section supersedes the earlier 2026-10-21/22 statements that the current mi
 
 ## Source review — course 1, lesson 07: common-word spelling (2026-10-24)
 
-### Static page and seed comparison
-- Read `kurmanji-course-1-lesson-07.html` and the matching row in `docs/kurmanji-content-seed-part-01.sql` on `kurmanji-clean-release`.
+### Static page and seed comparison- Read `kurmanji-course-1-lesson-07.html` and the matching row in `docs/kurmanji-content-seed-part-01.sql` on `kurmanji-clean-release`.
 - Page title and seed title match: **ڕێنووسی وشە باوەکان**. The page's lesson key matches the seed key; it loads the protected `script.js` and links to lessons 06 and 08.
 - The seed teaches common phrases and preservation of Hawar letters such as ç, ş, ê and î. It explicitly notes variation in `spas/sipas` rather than labelling one form incorrect.
 
@@ -3247,8 +3235,7 @@ This section supersedes the earlier 2026-10-21/22 statements that the current mi
 ## Source review — course 1, lesson 20: word order in sentences (2026-10-24)
 
 ### What is corroborated
-- The neutral/basic word order of Kurmanji is **SOV** in transitive clauses, while intransitive clauses commonly have **SV**. Haig (2018), §2.7.1, explicitly describes neutral clause order as SOV(G) and notes that it is not rigidly fixed. The academic thesis *The Phrase Structure of Two Dialects of Kurmanji Kurdish*, §1.3.1, illustrates **Ez pirtûkê dixwînim** (“I am reading the book”) as S–O–V.
-- The lesson correctly warns that word order may vary for pragmatic emphasis and that transitive past clauses have additional alignment/agreement complexity. These points are consistent with Haig’s description of clause syntax and split ergativity.
+- The neutral/basic word order of Kurmanji is **SOV** in transitive clauses, while intransitive clauses commonly have **SV**. Haig (2018), §2.7.1, explicitly describes neutral clause order as SOV(G) and notes that it is not rigidly fixed. The academic thesis *The Phrase Structure of Two Dialects of Kurmanji Kurdish*, §1.3.1, illustrates **Ez pirtûkê dixwînim** (“I am reading the book”) as S–O–V.- The lesson correctly warns that word order may vary for pragmatic emphasis and that transitive past clauses have additional alignment/agreement complexity. These points are consistent with Haig’s description of clause syntax and split ergativity.
 - Sources checked: [Geoffrey Haig (2018), *Northern Kurdish (Kurmanjî)*, especially §2.7.1](https://www.uni-bamberg.de/fileadmin/aspra/06_Team/Publications_and_CV/haig_2018_ch.2.3_northern_kurdish.pdf); [*The Phrase Structure of Two Dialects of Kurmanji Kurdish*, §1.3.1](https://digitalarchive.library.bogazici.edu.tr/bitstreams/c22fcd85-97d8-4c48-98ab-8cc623449fff/download).
 
 ### Items still requiring editorial verification
@@ -3347,3 +3334,24 @@ This section supersedes the earlier 2026-10-21/22 statements that the current mi
 
 ### Result and boundaries
 **Status: page/seed identity, wrapper key, script reference, adjacent navigation, core noun-case paradigm, pronoun sets, and the present-transitive example corroborated. The exact past-tense example/gloss remains pending pinpointed verification.** No lesson HTML, seed tuple, migration, database, `main`, production deployment, or PR state was changed. Only this audit document is being updated on `kurmanji-clean-release`.
+
+## Source review — course 1, lesson 26: final review and self-assessment (2026-10-24)
+
+### Static page and seed comparison
+- Read `kurmanji-course-1-lesson-26.html`, the matching row in `docs/kurmanji-content-seed-part-04.sql`, and the course plan on `kurmanji-clean-release`.
+- The wrapper heading, course-plan entry, and seed title agree: **پێداچوونەوە و هەڵسەنگاندنی کۆتایی**. The wrapper's `data-lesson-key` matches `kurmanji-course-1-lesson-26.html`; it loads `script.js?v=20261019-kurmanji-protected`; the previous-lesson link points to lesson 25, and there is no next-lesson link, as expected for the final lesson.
+- The seed record is present and contains a review of Latin orthography, common vocabulary/sentences, a short test, a self-assessment table, and a source list. The wrapper uses a runtime loading placeholder, so this static check does not establish that the seed-backed content renders successfully in the deployed site.
+
+### Findings and disposition
+- The distinction between `c/ç`, `s/ş`, `i/î`, and `u/û` is appropriate for the Kurmanji Latin alphabet review. The examples `çak`, `şaş`, `dil`, and `îro` are plausible basic vocabulary examples; however, this pass did not independently verify every gloss against a dictionary entry.
+- The statement that `r` and `rr` distinguish forms in some words is not illustrated with a minimal pair in the lesson. This is a pedagogical weakness, but without an explicitly sourced pair it is not safe to invent an example. Record it as a future improvement, not a confirmed factual error.
+- The sentence `Ez naxwînim` is glossed as “I do not read/study.” Its precise lexical interpretation can depend on context; the seed does not provide that context. No automatic alteration of Latin Kurmanji forms is justified.
+- The self-assessment table correctly describes itself as non-official and does not claim to certify proficiency. The quiz is a broad review of the course's covered topics.
+- The Avasin-script audit was limited to definite issues. This review did not establish a single, unambiguous orthographic correction that warrants editing the lesson text; avoid bulk replacement and preserve all Latin Kurmanji spellings.
+
+### Sources and limits
+- The seed cites the University of Arizona Kurmanji resource, Haig (2018), Thackston, and the Yari Kurmanji–English dictionary. This pass checked the lesson's internal consistency and source list, but did not independently validate every exercise, translation, or dictionary gloss against each cited reference.
+- The review is a repository source inspection, not a browser/runtime test, and does not certify that the live deployment has the protected branch's files.
+
+### Result and boundaries
+**Status: lesson 26 identity, title alignment, wrapper key, script reference, final-lesson navigation, review structure, and non-certifying self-assessment verified. A sourced `r/rr` contrast and complete lexical/editorial proofread remain possible future work.** No lesson HTML, seed tuple, migration, database, `main`, production deployment, or PR state was changed; only this audit record is being added on `kurmanji-clean-release`.
