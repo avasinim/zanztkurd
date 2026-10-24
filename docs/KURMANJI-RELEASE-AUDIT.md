@@ -2918,3 +2918,12 @@ This section supersedes the earlier 2026-10-21/22 statements that the current mi
 - Source: Haig (2018), [“Northern Kurdish (Kurmanjî),” §2.6.1 and Tables 13–16](https://multicast.aspra.uni-bamberg.de/data/pubs/Haig2018_Northern-Kurdish_Kurmanji.pdf).
 - **Result:** the general `di-` + present-stem + agreement pattern is supported, with a specific dialect-sensitivity flag for the `xwarin` example. No lesson text, seed row, migration, Latin Kurmanji form, or database was changed.
 
+## Source cross-check — lesson 16: weekdays and time vocabulary (2026-10-24)
+
+- Re-read the lesson page and exact lesson-16 seed row. The title agrees between the page and seed; the page key is `kurmanji-course-1-lesson-16.html`, and its navigation links connect lessons 15–17 with the shared `script.js` included.
+- Compared the seven weekday forms with Thackston's *Kurmanji Kurdish: A Reference Grammar with Selected Readings*, §9.2, and an independently published beginner lesson on weekdays. Both list the same core sequence: `duşem, sêşem, çarşem, pêncşem, în, şemî, yekşem`. The lesson's forms are therefore supported by reference material.
+- Time adverbs show source/dialect variation: Thackston gives `duhî` for “yesterday” and `sibe` for “tomorrow,” while other Kurmanji learning references use `duh` and `sibê`. The lesson's `doh` is not the exact form in the checked Thackston list, but the sources reviewed here do not establish that it is categorically invalid in the target variety. Keep the existing dialect note and do not replace the form without a more specific source for the course's intended variety.
+- The translations for `îro` (“today”), `niha` (“now”), `paşê` (“later”), `roj` (“day”), `şev` (“night”), `hefte` (“week”), `meh` (“month”), and `sal` (“year”) align with the checked learning references. The sentence examples remain introductory and the lesson itself explicitly calls for further grammar/speaker verification of time expressions.
+- Sources: Thackston, [*Kurmanji Kurdish: A Reference Grammar with Selected Readings*, §9.2–9.3](https://sites.fas.harvard.edu/~iranian/Kurmanji/kurmanji_complete.pdf); [*Kurmanji Kurdish, Lesson 4*](https://www.kurdipedia.org/files/books/2023/474430.PDF); [Kurmanji School, “Time in Kurmanji”](https://kurmanjischool.com/en/what-time-is-it-in-kurmanji/).
+- **Result:** weekday spellings are corroborated; the “yesterday/tomorrow” variants require target-dialect consistency, but no definite error was established. No lesson text, seed row, migration, Latin Kurmanji form, or database was changed.
+
