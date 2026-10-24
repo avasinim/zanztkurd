@@ -3074,3 +3074,20 @@ This section supersedes the earlier 2026-10-21/22 statements that the current mi
 
 ### Result
 **Status: page/seed identity, navigation and overall consonant inventory verified; the specific `r/rr` orthographic claim and exact phonetic notation for `x` remain qualified items for further source review.** Audit record only; no lesson HTML, seed, migration, database or production branch changed.
+
+
+## Source review — course 1, lesson 03: vowels and diacritics (2026-10-24)
+
+### Static page and seed comparison
+- Read `kurmanji-course-1-lesson-03.html` and its corresponding row in `docs/kurmanji-content-seed-part-01.sql` on `kurmanji-clean-release`.
+- Page title and seed title agree: **ڤاوڵەکان و نیشانەنووسییان**. The page's `data-lesson-key` is `kurmanji-course-1-lesson-03.html`; it loads `script.js?v=20261019-kurmanji-protected`; navigation points back to lesson 02 and forward to lesson 04.
+- The lesson presents the eight standard Kurmanji vowel letters `a, e, ê, i, î, o, u, û` and the examples `qaz, belg, lêv, dil, hîn, nod, qul, bûz`. These examples and the eight-vowel inventory match the University of Arizona's Kurmanji phonology/orthography table. https://iranian-languages.arizona.edu/node/7
+- The lesson correctly emphasizes that `e/ê`, `i/î`, and `u/û` are distinct letters with different vowel values; the source describes eight monophthongs and distinguishes these pairs in both the phonology and orthography tables.
+
+### Qualification and outcome
+- The phrase “نیشانەی ^” describes the circumflex-shaped mark informally. This is understandable but typographically less precise than calling it a circumflex/diacritic; no content edit was made because it does not create a demonstrated scientific error and the current audit is preserving source-backed lesson content.
+- The listed glosses, including `bûz` (“سەهۆڵ”), align with the University of Arizona table. The source notes that pronunciation realizations may vary by speaker/dialect; the lesson already cautions that dialect differences can occur.
+- No definite error was established that warrants editing the lesson HTML or seed. Latin Kurmanji spellings were preserved. No migration, database, production branch, or `main` changes were made.
+
+### Result
+**Status: lesson identity, navigation, vowel inventory, examples, and core orthographic distinctions verified; audit record only.**
