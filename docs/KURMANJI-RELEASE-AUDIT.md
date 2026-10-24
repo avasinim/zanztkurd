@@ -4033,3 +4033,12 @@ The script's server-progress sync also filters `lesson_progress` by the supplied
 - Seed row exists (4,187 characters). Migration parity remains unverified because the migration file path returns 404 on the current branch; no unsupported equality claim is made and no lesson/seed payload was edited.
 - Re-read verification confirmed this audit entry, wrapper key/navigation, protected script, and seed row. No SQL was executed; no database, `main`, PR #3, or deployment was changed.
 
+
+## Northern Circle — lesson 19 question words and question forms review (2026-10-24)
+
+- Reviewed `kurmanji-course-1-lesson-19.html` and its seed row in `docs/kurmanji-content-seed-part-03.sql`. Wrapper title/H1, `data-lesson-key`, previous/next links (lessons 18/20), and protected `script.js?v=20261019-kurmanji-protected` are correct.
+- Question words checked: `kî, çi, li ku, kengî, çima, çawa, çiqas, kîjan`. The lesson separates yes/no questions from open questions and notes that word order and pronunciation can vary by context. Examples include `Tu baş î?`, `Tu li ku dijî?`, `Navê te çi ye?`, and `Tu çima kurdî hîn dibî?`; no definite Kurmanji grammar error established in this pass.
+- Avasin Code pass: the Sorani gloss `ناوی تۆ چیە؟` follows the requested `چیە` spelling. No `بڕگە` was found. Latin Kurmanji forms were preserved; no content change made.
+- Seed row exists (3,679 characters). Migration parity remains unverified because the migration file path returns 404 on the current branch; no equality claim is made. No lesson/seed payload was edited.
+- Re-read verification confirmed this audit entry, wrapper key/navigation, protected script, and seed row. No SQL was executed; no database, `main`, PR #3, or deployment was changed.
+
