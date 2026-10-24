@@ -4114,3 +4114,11 @@ The script's server-progress sync also filters `lesson_progress` by the supplied
 - Important limitation / release blocker: this is a repository-static audit, not a live Supabase/browser test. It does not prove the 26 rows are installed in the intended test database, that the query succeeds under RLS, or that course access/enrollment and lesson completion work. Existing integration audit documents migration and end-to-end tests as outstanding. Do not treat the static seed inventory as evidence of live DB parity.
 - No lesson scientific text or Latin Kurmanji forms changed during this cross-file pass. No SQL or database writes, no `main` changes, no PR merge, and no deployment occurred.
 
+
+## Read-only test-database presence check (2026-10-24)
+
+- Read-only inspection of the Supabase project named `zanztkurd-kurmanji-test` (`juwsjljbdwyncicybwoq`) found `kurmanji-course-1` registered with `total_lessons = 26` and exactly 26 `lesson_content` rows. The returned key list contains `kurmanji-course-1-lesson-01.html` through `kurmanji-course-1-lesson-26.html`; every returned row has a nonempty `content_html` (lengths 2,522–5,258 characters).
+- The same read-only check found `kurmanji-course-2` registered with 12 lessons and 12 matching content rows. Migration history includes `20261024121045_validate_kurmanji_release_course_data_and_progression`.
+- This improves the evidence beyond the static repository audit: Course 1's keys and content rows currently exist in the named test project. It does **not** prove that the live website's current browser session can read them under RLS, that each database body exactly matches the current seed file, or that sign-in/enrollment/progression works end-to-end. Those remain separate release tests.
+- All queries were read-only. No migration was applied, no row or schema was changed, and production/main/PR #3/deployment were untouched.
+
