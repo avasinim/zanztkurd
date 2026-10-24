@@ -2613,3 +2613,11 @@ This section supersedes the earlier 2026-10-21/22 statements that the current mi
 - Re-read the site-wide Avasin spelling normalizer and its `MutationObserver`. The observer processes newly inserted DOM text, so text loaded dynamically into protected lesson pages is also subject to the normalizer's substitutions (including forms such as `نموونە` → `نمونە`, `فێربوون` → `فێربون`, and `هەموو` → `هەمو`).
 - This establishes the implementation behavior, not that any particular Kurmanji linguistic example is damaged. Because these replacements are broad text substitutions, source-sensitive examples should be reviewed against the authoritative lesson/source before treating the rendered text as academically verified. Preserve Latin Kurmanji forms; do not make an unsubstantiated code change based only on this observation.
 - No code or lesson payload was changed in this review. No Supabase query was executed against a live project, no migration was applied, and no production/main/PR action was taken.
+
+
+## Migration SQL structural finding — 2026-10-24 (needs explicit migration review)
+
+- While comparing `docs/kurmanji-content-seed-part-05.sql` with `supabase/migrations/20261019090000_add_kurmanji_courses_and_protected_lessons.sql`, a likely SQL-structure defect was found in the migration rows for Kurmanji course 2 lessons 8–12.
+- In each inspected row, the tuple appears to close at `',now()),` immediately after the first lesson-content section, while subsequent HTML sections (method note, review questions, and sources) continue outside that tuple. If the checked-in file is exactly as fetched, those trailing HTML fragments are not valid standalone `VALUES` rows and the migration is not safe to apply as written.
+- This is a static finding only: no migration was run, and no database was contacted. The migration file has **not** been edited because migrations are protected by the project's explicit approval boundary.
+- **Release blocker:** do not apply this migration to any database or merge PR #3 until the complete SQL structure is reviewed and the seed/migration content is compared with a parser or disposable test database. Confirm the exact full migration text and every affected row before preparing a proposed fix.
