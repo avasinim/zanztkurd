@@ -3914,3 +3914,12 @@ The script's server-progress sync also filters `lesson_progress` by the supplied
 - Checked the main examples against the University of Arizona Iranian Languages reference (https://iranian-languages.arizona.edu/node/7): `av` /ɑ/ “water”, `dil` /ɪ/ “heart”, `lêv` /e/ “lip”, `hîn` /i/ “still”, `qaz` /ɑ/ “goose”, `qul` /ʊ/ “hole”, `çak` /t͡ʃ/ “good”, `şaş` /ʃ/ “wrong”, and `yek` /j/. Added a note that IPA symbols describe sounds rather than letters and that pronunciation can vary by dialect.
 - Preserved the title, course ID/key, order, and HTML wrapper. The seed row was updated first and then copied into the matching migration row; post-write parity and wrapper checks remain to be completed.
 - Source-file changes only on `kurmanji-clean-release`. No SQL execution, database write, `main` change, PR merge, or deployment.
+
+## Northern Circle — lesson 7 everyday phrases and Avasin orthography (2026-10-24)
+
+- Reviewed the existing lesson-7 content for Kurmanji course 1, “ڕێنووسی وشە باوەکان”. The lesson already includes a beginner phrase table, spelling pitfalls, practice tasks, and a bibliography; no lesson title, lesson key, course ID, or static wrapper change was needed.
+- Checked the phrase list against Yari’s “Greetings and everyday phrases for beginners (Kurmanji)” reference: `Silav`, `Rojbaş`, `Şevbaş`, `Bi xêr hatî`, `Tu çawa yî?`, `Spas` / `sipas`, `Ji kerema xwe`, `Erê`, and `Na`. Yari explicitly notes regional variation between `spas` and `sipas`; the lesson retains that caveat rather than labelling one form universally wrong. Source: https://yari.krd/learn/kurdish-greetings/
+- Corrected the Sorani table heading from the non-Avasin form `نکته‌ی ڕێنووسی` to `تێبینیی ڕێنووسی` in both the draft seed and matching migration payload.
+- Re-read both SQL source files after the updates and verified that the complete lesson-7 row is identical in seed and migration, the corrected heading is present, and the old heading is absent. Re-read the static HTML wrapper and verified its title, `data-lesson-key="kurmanji-course-1-lesson-07.html"`, previous link to lesson 6, next link to lesson 8, and protected `script.js?v=20261019-kurmanji-protected` reference remain unchanged.
+- Source-file edits only on `kurmanji-clean-release`. No SQL was executed; no database, `main`, PR #3, or deployment was changed.
+
