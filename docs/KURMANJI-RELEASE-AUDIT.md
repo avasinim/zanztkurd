@@ -2717,3 +2717,11 @@ This section supersedes the earlier 2026-10-21/22 statements that the current mi
 - Migration commit: `fa73da8c22538e4c4a3646e8572abf47f44ba1b0`. This is a feature-branch-only change; it has not been applied to any database.
 - **CI result:** the PostgreSQL-aware parser, package integrity validator, and all three north-circle browser regression tests passed for corrected migration commit `fa73da8c22538e4c4a3646e8572abf47f44ba1b0`. The subsequent audit-only commit also passed its package, navigation, and catalog workflows.
 - Remaining release gates: validate the migration against a disposable PostgreSQL/Supabase-compatible database and complete the content equivalence review. Parser success and exact seed tuple reuse do not alone prove schema/RPC runtime compatibility or scientific equivalence to earlier static lesson bodies. `main`, PR #3 merge state, production database, seeds, and static lesson bodies remain untouched.
+
+## Exact migration/seed parity guard added to CI — 2026-10-24
+
+- Added `scripts/validate_kurmanji_seed_parity.py`. It extracts SQL tuple boundaries while respecting single-quoted strings and doubled quote escapes, then compares the 38 migration tuples byte-for-byte and in order with the five split seed files.
+- The check requires exactly 38 unique lesson keys in the expected order: 26 course-1 lessons followed by 12 course-2 lessons. It is read-only and does not connect to a database or rewrite content.
+- Added the parity check to `.github/workflows/validate-kurmanji-package.yml`, after PostgreSQL parsing and before the broader package/browser checks; included the script in both push and pull-request path filters.
+- Initial CI runs are in progress. Record their actual result before claiming parity validation passes.
+- This strengthens source consistency checks only. It does not replace the disposable-database migration/RPC test or scientific content review. No seed/static lesson text, `main`, PR #3 merge state, or database was changed.
