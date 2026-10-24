@@ -3440,3 +3440,12 @@ This section supersedes the earlier 2026-10-21/22 statements that the current mi
 - Visible navigation is sequential: lessons 2–12 link to the preceding lesson; lessons 1–11 link to the following lesson; lesson 1 has no previous link and lesson 12 has no next link.
 - The wrapper headings were captured and inspected as part of this check. No key/script/navigation mismatch was found, so no HTML fix was warranted.
 - Scope limitation: this is static wrapper verification. It does not verify runtime seed fetching/rendering, authenticated student access, or scientific validity of all lesson bodies. No lesson text, seed, migration, database, `main`, merge, or deployment was changed.
+
+
+## Avasin orthography correction — phonology course lesson terms (2026-10-24)
+
+- During a targeted sweep of the 32 static phonetics/phonology lesson wrappers and the catalog/search metadata, found inconsistent Sorani terminology for the phonological syllable: the course catalog used **بڕگە** in lesson 6 and **سیلاب** in lesson 16, while the Avasin orthography standard calls for **هجا**.
+- Applied only terminology/visible-label consistency fixes: changed the catalog entries for lessons 6 and 16, the lesson 16 HTML title/description, and the corresponding lesson-tag/search metadata in `script.js` to **هجا**. The script metadata's descriptive phrase was aligned to **پێکهاتەی هجا**.
+- This is an orthographic/editorial correction, not a change to the phonological analysis or lesson body. No Latin Kurmanji forms, seed content, migration, database, `main`, PR merge, or deployment was changed.
+- Static wrapper sweep findings for the 32 pages: files exist; lesson keys match their filenames; the shared script reference is present; previous/next links follow the sequence with expected endpoints. This does not establish runtime content rendering, accessibility, or scientific correctness of lesson bodies.
+- **Verification still needed:** inspect the resulting diff and run the configured CI on the new head; ensure the shared script's runtime text normalization does not alter unrelated scientific terms. This edit does not clear the release gates for clean migration replay, authenticated runtime tests, and source-based scientific review.
