@@ -3600,3 +3600,12 @@ This section supersedes the earlier 2026-10-21/22 statements that the current mi
 - The shared `../script.js` is included.
 - The navigation has two links and a final-course marker; the two-column desktop grid is consistent with the two links.
 - No definite wrapper title, key, or navigation defect was found. Seed/database content, scientific accuracy, and rendered browser behavior were not validated. No lesson HTML, seed, migration, database, `main`, merge, or deployment was changed.
+
+## Consolidated wrapper-audit status — Course 2 lessons 1–32 (2026-10-24)
+
+- The existing all-wrapper sweep records static checks across all 32 Course 2 lesson pages; the recent individual records for lessons 28–32 have now also been re-read and verified against the branch files.
+- Recent individual checks confirm lesson number/title alignment, matching `data-lesson-key`, shared `../script.js`, and the expected previous/next chain for lessons 28–31. Lesson 32 correctly links back to lesson 31 and displays a non-link end-of-course marker.
+- **Known presentation follow-up:** lessons 26–31 have three navigation items while the desktop `.lesson-nav` grid defines two columns. This causes the third item to wrap onto a second row; it is not a broken navigation target. Lesson 32 has two links plus its end marker and is consistent with the two-column grid. No CSS/HTML was changed as part of this consolidation.
+- **Record hygiene:** an earlier lesson-27 wrapper note appears twice in the audit history. Both entries describe the same two-column/three-link observation; this is duplicate documentation, not evidence of a duplicate page or a second defect. Preserve the history rather than deleting records during this pass.
+- **Release boundary:** wrapper coverage is not a release approval. The release status remains blocked by the previously recorded source-verification, safe test-migration/RPC, runtime authorization/progression, and seed/migration content-parity gates. No production database operation is authorized.
+- No lesson body, seed, migration, database, `main`, PR merge, or deployment was changed.
