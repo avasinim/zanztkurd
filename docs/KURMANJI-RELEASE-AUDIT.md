@@ -2670,3 +2670,11 @@ This section supersedes the earlier 2026-10-21/22 statements that the current mi
 - Therefore, passing this workflow cannot certify that the current migration is syntactically valid or that its lesson payloads match the seed files. This explains how package checks can pass while the row-structure concern remains unresolved; it does not by itself prove a particular database error.
 - Local tool availability check found no `psql`, `pg_format`, `sqlfluff`, `pglast`, `sqlglot`, or `sqlparse` installed in this execution environment. No network install, database connection, or SQL execution was attempted.
 - Safe next step remains: run a PostgreSQL-aware parser in a controlled environment, then compare all 38 parsed lesson rows against all five parsed seed files. No migration, seed, lesson body, `main`, PR #3, or database was modified in this check.
+
+
+## Quote-state structural scan of the current migration — 2026-10-24
+
+- Re-fetched the exact migration and all five seed files from `kurmanji-clean-release` and ran a quote-state / parenthesis-depth scan over the `INSERT INTO public.lesson_content` statement.
+- The five seed files each contain one complete 8-row VALUES statement (8 + 8 + 8 + 8 + 6 = 38 rows). In contrast, the migration scan reaches multiple `<section` starts while outside any SQL string literal immediately after a tuple-like closure; the first observed context is `... </section>',now()), <section class="klesson-card">...`. The same scan's tuple depth becomes negative and it does not find a clean statement terminator. This is stronger structural evidence than a regex-only count, although it is still a lexical scan, not a PostgreSQL parser.
+- The current migration therefore has a high-confidence SQL row/string-boundary defect in its lesson-content INSERT region. Do not execute it. The exact intended repair remains unknown: blindly wrapping HTML or deleting early tuple closures could corrupt lesson content, titles, row boundaries, or SQL escaping.
+- No migration or seed was edited. Next safe action is to build a reviewed, parser-backed extraction from the seed files and compare it against static lesson pages; only after exact row mapping and quote escaping are proven should a proposed migration correction be prepared for review. Production and `main` remain untouched.
