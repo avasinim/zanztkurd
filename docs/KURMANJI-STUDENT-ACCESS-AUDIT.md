@@ -10,6 +10,8 @@ The lesson gate requires an authenticated session, active enrollment in the matc
 
 On `kurmanji-clean-release`, `dashboard.html` now includes enrollment/progress cards for both Kurmanji courses, uses the matching course IDs in `enroll_in_course`, links to the corresponding course plans, and counts progress using the official Kurmanji lesson keys. General course IDs and their progress logic are retained.
 
+The protected lesson gate now preserves the requested course ID in the redirect (`dashboard.html?enroll=required&course=kurmanji-course-1`, or course 2), and the dashboard scrolls to and highlights that exact Kurmanji enrollment card. This prevents a learner who clicked a Kurmanji lesson from being left to guess which course to enroll in or following the unrelated central-circle/general-course route.
+
 ## Release limitations
 
 - This change is on `kurmanji-clean-release` only. It has not been merged to `main` or deployed.
