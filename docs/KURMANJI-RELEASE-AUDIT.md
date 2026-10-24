@@ -4105,3 +4105,12 @@ The script's server-progress sync also filters `lesson_progress` by the supplied
 - Items requiring a source-specific check before changing: the lesson's claim that standard Kurmanji distinguishes `r` and `rr` in some words, and the example `çak` glossed as “good” / `şaş` glossed as “wrong”. These may depend on dialect or orthographic convention; do not silently normalize them without checking the cited source/dialect.
 - Seed row is present (4,061 characters at audit time). Migration parity remains unverified. No SQL was executed; no production database, `main`, PR #3, or deployment was changed.
 
+
+## Course 1 cross-file integration audit (2026-10-24)
+
+- Enumerated the protected branch tree: exactly 26 static wrapper pages exist, named `kurmanji-course-1-lesson-01.html` through `kurmanji-course-1-lesson-26.html`. The course overview contains 26 lesson links in matching sequence.
+- Checked the shared loader implementation in `script.js`: it reads `.lesson-content`, obtains `data-lesson-key`, selects `content_html` from `public.lesson_content` by `lesson_key`, and shows an explicit error state when the query fails or the row is missing. The filename-order helper recognizes the zero-padded Course 1 key format and returns 26 lessons.
+- Seed inventory across `docs/kurmanji-content-seed-part-01.sql` through `part-04.sql` contains all 26 Course 1 keys once each, partitioned as 1–8, 9–16, 17–24, and 25–26. Course overview links and lesson wrappers use the same key pattern.
+- Important limitation / release blocker: this is a repository-static audit, not a live Supabase/browser test. It does not prove the 26 rows are installed in the intended test database, that the query succeeds under RLS, or that course access/enrollment and lesson completion work. Existing integration audit documents migration and end-to-end tests as outstanding. Do not treat the static seed inventory as evidence of live DB parity.
+- No lesson scientific text or Latin Kurmanji forms changed during this cross-file pass. No SQL or database writes, no `main` changes, no PR merge, and no deployment occurred.
+
