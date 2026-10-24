@@ -3056,3 +3056,21 @@ This section supersedes the earlier 2026-10-21/22 statements that the current mi
 
 ### Result
 **Status: page/seed identity, navigation and core orthography lesson verified; one word gloss remains unconfirmed.** Audit record only; no lesson HTML, seed, migration, database or production branch changed.
+
+
+## Source review — course 1, lesson 04: consonants and writing (2026-10-24)
+
+### Static page and seed comparison
+- Read `kurmanji-course-1-lesson-04.html` and the matching row in `docs/kurmanji-content-seed-part-01.sql` on `kurmanji-clean-release`.
+- The page and seed titles match: **کۆنسۆنەنتەکان و پەیوەندییان بە نوسینەوە**. The lesson key matches, `script.js?v=20261019-kurmanji-protected` is loaded, and links navigate to lessons 03 and 05.
+- The seed's consonant list contains the 23 consonant letters of the 31-letter Hawar alphabet; the lesson distinguishes consonant letters from sounds and notes that not every phonetic distinction is represented in standard spelling.
+
+### Source cross-check and qualification
+- Yari's alphabet reference lists 31 Kurmanji letters, including 8 vowels and 23 consonants, and describes the distinct values of `c/ç`, `s/ş`, `j`, `q`, and `x`. https://yari.krd/learn/kurmanji-alphabet/
+- The University of Arizona reference and Haig's description of Northern Kurdish support the broad distinction between standard orthography and phonetic/dialect variation. https://iranian-languages.arizona.edu/node/7 ; https://doi.org/10.1515/9783110421682-004
+- The `r/rr` note (tap versus trill) is qualified in the lesson as applying only in some writing varieties/dialects, but this pass did not locate a direct authoritative source for that particular orthographic convention. It remains a flagged claim to verify, not a confirmed error.
+- The description of `x` as `/χ/` may be too narrow as a general statement because phonetic descriptions and transcription conventions vary; avoid making a more specific universal claim without dialect-specific evidence.
+- No definite error requiring a lesson/seed edit was established. Latin Kurmanji spellings were not changed.
+
+### Result
+**Status: page/seed identity, navigation and overall consonant inventory verified; the specific `r/rr` orthographic claim and exact phonetic notation for `x` remain qualified items for further source review.** Audit record only; no lesson HTML, seed, migration, database or production branch changed.
