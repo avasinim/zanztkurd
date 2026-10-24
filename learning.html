@@ -197,7 +197,14 @@ body.content-page{--ink:#17231f;--muted:#65716b;--green:#315344;--green2:#476b59
     if(target)target.scrollIntoView({behavior:"smooth",block:"start"});
     return;
    }
-   status.textContent="ڕێڕەوی تایبەت بە «"+(labels[choice]||choice)+"» لەم سیستەمەدا جیا کراوەتەوە. نێوەڕۆکی کۆرسە فەرمییە بەردەستەکان لە خوارەوە و لە کاتەلۆگی وانەکان دەتوانرێت ببینرێت.";
+   status.replaceChildren();
+   const pathName=labels[choice]||choice;
+   status.appendChild(document.createTextNode("ڕێڕەوی تایبەت بە «"+pathName+"» هێشتا بە وانەی پشتڕاستکراو نەبەستراوەتەوە؛ بۆ ئەوەی وانەیەک بە هەڵە بە ناوچەکەوە نەبەسترێت، تکایە کاتەلۆگی گشتی ببینە. "));
+   const catalogLink=document.createElement("a");
+   catalogLink.href="lessons/catalog.html";
+   catalogLink.textContent="کردنەوەی کاتەلۆگی وانەکان";
+   catalogLink.className="learning-region-catalog-link";
+   status.appendChild(catalogLink);
    status.hidden=false;
   });
  });
