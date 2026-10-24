@@ -2816,3 +2816,13 @@ This section supersedes the earlier 2026-10-21/22 statements that the current mi
 - **Content presence:** the seed introduces direct/oblique case, nominal forms by gender/number/indefiniteness, pronoun forms, transitive clauses and ergative alignment, with exercises and grammar references.
 - **Scientific review flags:** the forms `gund/gund-î`, `gund-ek/gund-ek-î`, `jin/jin-ê` and the account of oblique marking/ergativity need checking against Haig and Thackston, including dialect and syntactic context. This is a structural/coverage check, not a source-verified paradigm audit. No definite page/seed wiring mismatch was found; no lesson text, seed, migration, or Latin Kurmanji form was changed.
 - Re-read the audit file after updating and confirmed this entry is present. Only the protected branch was modified; no database operation was performed.
+
+
+## Lesson 26 — review and final assessment (2026-10-24)
+
+- Cross-checked `kurmanji-course-1-lesson-26.html` against its row in `docs/kurmanji-content-seed-part-04.sql`.
+- **Structural match:** page title and seed title agree (`پێداچوونەوە و هەڵسەنگاندنی کۆتایی`); `data-lesson-key="kurmanji-course-1-lesson-26.html"` matches the seed key; shared `script.js` is loaded; the previous link points to lesson 25. No next link is expected because this is the last lesson in course 1.
+- **Content presence:** the review includes orthography contrasts (`c/ç`, `s/ş`, `i/î`, `u/û`), sentence order, questions, negation, possessives, case/ergativity, a short assessment, self-assessment, and reference links.
+- **Scientific review flags:** the example `Ez wî mirovî dibînim` and past transitive `Min ew dît` should be verified against the cited grammar for case marking and context. Also, `şaş` is glossed as “wrong”; verify the exact lexical form and intended example against a reliable Kurmanji dictionary before treating it as a teaching standard. No unsupported correction was made during this structural pass.
+- **Orthography note:** Kurdish explanatory text was checked for project conventions at a surface level; this does not replace a full Avasin Code scan of every page and seed.
+- Re-read the audit file after updating and confirmed this entry is present. Only the protected branch was modified; no database operation was performed.
