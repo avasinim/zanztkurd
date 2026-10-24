@@ -214,6 +214,16 @@ else{
   await loadCourse(COURSES.c2,null,isOwner);
   await loadCourse(COURSES.kurmanji1,null,isOwner);
   await loadCourse(COURSES.kurmanji2,null,isOwner);
+  const requestedCourse=new URLSearchParams(location.search).get('course');
+  const requestedCard=requestedCourse==='kurmanji-course-1'?'kurmanji1Enroll':requestedCourse==='kurmanji-course-2'?'kurmanji2Enroll':null;
+  if(requestedCard){
+    const card=$(requestedCard)?.closest('.course-card');
+    if(card){
+      card.style.outline='3px solid #b99a69';
+      card.style.outlineOffset='3px';
+      card.scrollIntoView({behavior:'smooth',block:'center'});
+    }
+  }
   const {data:enrollments}=await sb.from('enrollments').select('course_id,status,enrolled_at').eq('user_id',user.id);
   const activeEnrollments=(enrollments||[]).filter(e=>e.status==='active'||e.status==='completed');
   $('courseCount').textContent=isOwner?String(Object.keys(COURSES).length):String(activeEnrollments.length);
