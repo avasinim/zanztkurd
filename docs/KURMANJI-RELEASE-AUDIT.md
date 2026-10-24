@@ -3710,3 +3710,11 @@ This section supersedes the earlier 2026-10-21/22 statements that the current mi
 - The opening comments of `20261011104927_align_course_2_to_source_lessons_25_27.sql` explicitly say the agreed source scope is lessons 1–27, identify lessons 25–27 with printed pages 172–255, and say to preserve additional lesson 28–30 rows and student progress.
 - This proves the migration intentionally scopes server-side progression to 27, but does not prove the public 32-lesson catalog is obsolete: `lessons/index.json`, `lessons/catalog.html`, `learning.html`, and wrappers still expose 32 lessons.
 - The repo therefore contains conflicting scope declarations. Do not silently reduce the UI to 27 or expand the SQL RPC arrays to 32 without the project owner's authoritative scope decision. No lesson content, migration, database, `main`, PR merge, or deployment was changed.
+
+
+## Clarification after course naming correction — Kurmanji track vs phonetics course (2026-10-24)
+
+- The project owner clarified the intended Kurmanji track structure: Northern-circle Course 1 (`kurmanji-course-1`) has 26 lessons; Kurmanji Course 2 (`kurmanji-course-2`, morphology and grammar) has 12 lessons. Together these two Kurmanji courses contain 38 lessons.
+- Rechecked `learning.html` and `lessons/catalog.html`: both already label `kurmanji-course-1` as 26 lessons and `kurmanji-course-2` as 12 lessons. `docs/kurmanji-content-seed-part-05.sql` and the audit's prior 12/12 review refer to this separate Kurmanji Course 2.
+- The earlier 32-vs-27 finding concerns a different course ID, `phonetics-phonology-kurdik`, with static wrappers named `course-2-NN.html` and the phonetics/phonology catalog. It must not be conflated with Kurmanji Course 2 (`kurmanji-course-2`). The previous “Course 2” phrasing was ambiguous; interpret the 27-vs-32 release blocker only as the separate phonetics/phonology course until that course's scope is resolved.
+- No catalog count change is needed for the Kurmanji 26+12 structure based on these checks. This clarification does not authorize changing SQL, seeds, databases, `main`, PR #3, or deployment.
