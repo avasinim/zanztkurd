@@ -3494,3 +3494,10 @@ This section supersedes the earlier 2026-10-21/22 statements that the current mi
 - Re-read `lessons/course-2-20.html` on `kurmanji-clean-release`. The visible heading/title identify lesson 20 (“پڕۆسە فۆنێتیکی و فۆنۆلۆجیەکان لە ئاخاڤتنی بەردەوام‌دا”); `data-lesson-key="course-2-20.html"` matches the filename; previous/next links point to lessons 19/21; and the shared `../script.js` include is present.
 - No definite wrapper/key/navigation mismatch was found in this limited check, so no lesson HTML or scientific body was changed.
 - Scope limitation: this static wrapper check does not verify the seed/database lesson body, scientific source accuracy, browser rendering, or authenticated access. No seed, migration, database, `main`, PR merge, or deployment was changed.
+
+
+## Integrated static check — phonology course lesson 21 wrapper (2026-10-24)
+
+- Re-read `lessons/course-2-21.html` on `kurmanji-clean-release`. The visible title/H1 identify lesson 21 (“پەیوەندی فۆنێتیک، ئەکوستیک و فۆنۆلۆجی لە شی‌کردنەوەی دەنگ‌دا”); `data-lesson-key="course-2-21.html"` matches the filename; previous/next links point to lessons 20/22; and the shared `../script.js` include is present.
+- No definite wrapper/key/navigation defect was established in this limited inspection; no lesson HTML or scientific body was changed.
+- Scope limitation: this static wrapper check does not verify seed/database content, scientific source accuracy, runtime rendering, or authenticated access. No seed, migration, database, `main`, PR merge, or deployment was changed.
