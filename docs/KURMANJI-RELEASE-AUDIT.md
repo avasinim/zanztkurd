@@ -3923,3 +3923,11 @@ The script's server-progress sync also filters `lesson_progress` by the supplied
 - Re-read both SQL source files after the updates and verified that the complete lesson-7 row is identical in seed and migration, the corrected heading is present, and the old heading is absent. Re-read the static HTML wrapper and verified its title, `data-lesson-key="kurmanji-course-1-lesson-07.html"`, previous link to lesson 6, next link to lesson 8, and protected `script.js?v=20261019-kurmanji-protected` reference remain unchanged.
 - Source-file edits only on `kurmanji-clean-release`. No SQL was executed; no database, `main`, PR #3, or deployment was changed.
 
+## Northern Circle — lesson 8 writing versus pronunciation (2026-10-24)
+
+- Reviewed the complete lesson-8 body, seed row, migration row, and static HTML wrapper. The lesson teaches the distinction between a written grapheme, a phoneme, and actual pronunciation; it includes the vowel pairs `e/ê`, `i/î`, `u/û`, and notes on rhotics `r/rr` and dialect-dependent unaspirated/pharyngealized stops.
+- Checked the phonology claims against the University of Arizona Iranian Languages reference. It confirms that Kurmanji has eight monophthongs; `r` commonly represents the flap /ɾ/ and `rr` may mark the trill /r/, though the distinction is often not written consistently; and the contrast between aspirated and unaspirated stops is not present in all dialects and is not generally marked in standard Latin orthography. Source: https://iranian-languages.arizona.edu/node/7
+- The same general dialect caution is consistent with Haig & Öpengin’s description of variation across Kurmanji varieties: https://fis.uni-bamberg.de/handle/uniba/46925
+- No lesson-8 scientific wording was changed because the existing caveats already preserve the distinction between phonetic detail, standard spelling, and dialect variation. Re-read verification confirmed exact lesson-8 row parity between the seed and migration (3,548 characters each), the Arizona and Haig source links, the title/key, previous link to lesson 7, next link to lesson 9, and protected `script.js?v=20261019-kurmanji-protected` reference.
+- Source-file audit only. No SQL was executed; no database, `main`, PR #3, or deployment was changed.
+
