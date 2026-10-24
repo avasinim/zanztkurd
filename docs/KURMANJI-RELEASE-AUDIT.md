@@ -2630,3 +2630,11 @@ This section supersedes the earlier 2026-10-21/22 statements that the current mi
 - Scope of this finding: course 2 lessons 08–12 in supabase/migrations/20261019090000_add_kurmanji_courses_and_protected_lessons.sql. This check does not certify the remainder of the migration or all seed/migration rows.
 - No migration, seed, lesson HTML, database, main, or PR was modified. The only change from this follow-up is this audit note on kurmanji-clean-release.
 - Required next step: prepare a proposed correction for review on the protected branch, preserving each lesson's full scientific HTML and comparing the corrected SQL against the seed. Do not apply it to a database or merge PR #3 without explicit approval.
+
+### Expanded scan: the same SQL structure repeats across all 38 explicit lesson rows — 2026-10-24
+
+- A follow-up scan of every explicit `kurmanji-course-{1,2}-lesson-NN.html` tuple in the migration found 38 rows, and each row has two `',now())` terminators before the next lesson key/end of the explicit rows. This is not limited to lessons 08–12.
+- The first terminator in each row follows the first HTML section; further lesson HTML appears after that close and before the second terminator. The seed file, by contrast, has the complete HTML payload inside one row ending per lesson.
+- This makes the migration's explicit lesson-content `VALUES` section a broad release blocker affecting course 1 lessons 01–26 and course 2 lessons 01–12, based on static text structure. No SQL parser or database execution has been used, so do not infer the exact server error beyond the structural evidence.
+- The previous note identifying lessons 08–12 should be read as the initial sample; this expanded scan supersedes its narrow scope. The full migration still needs parser-based validation and comparison against the seed before any proposed correction is approved.
+- No migration, seed, lesson HTML, database, main, or PR was modified; only this audit document was updated on `kurmanji-clean-release`.
