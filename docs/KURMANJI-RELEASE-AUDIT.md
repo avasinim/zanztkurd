@@ -2678,3 +2678,17 @@ This section supersedes the earlier 2026-10-21/22 statements that the current mi
 - The five seed files each contain one complete 8-row VALUES statement (8 + 8 + 8 + 8 + 6 = 38 rows). In contrast, the migration scan reaches multiple `<section` starts while outside any SQL string literal immediately after a tuple-like closure; the first observed context is `... </section>',now()), <section class="klesson-card">...`. The same scan's tuple depth becomes negative and it does not find a clean statement terminator. This is stronger structural evidence than a regex-only count, although it is still a lexical scan, not a PostgreSQL parser.
 - The current migration therefore has a high-confidence SQL row/string-boundary defect in its lesson-content INSERT region. Do not execute it. The exact intended repair remains unknown: blindly wrapping HTML or deleting early tuple closures could corrupt lesson content, titles, row boundaries, or SQL escaping.
 - No migration or seed was edited. Next safe action is to build a reviewed, parser-backed extraction from the seed files and compare it against static lesson pages; only after exact row mapping and quote escaping are proven should a proposed migration correction be prepared for review. Production and `main` remain untouched.
+
+
+## Fast-path release triage and Southern-region selector — 2026-10-24
+
+### Safe user-facing correction
+- The Southern-region buttons for Kalhori and Laki in `learning.html` previously showed wording that implied a dedicated regional path had already been established, although the click handler only displayed a generic message and did not map the selection to a verified lesson sequence.
+- Updated the handler to state plainly that a dedicated path has not yet been linked to verified lessons and to provide a direct link to `lessons/catalog.html`. It does not assign lesson 019 to Kalhori (or any other lesson to a regional path) without evidence.
+- The change is confined to `learning.html` on `kurmanji-clean-release`; no lesson body, scientific text, seed, migration, database, `main`, or PR was changed.
+
+### Release decision — keep blocked
+- The current migration `supabase/migrations/20261019090000_add_kurmanji_courses_and_protected_lessons.sql` still has the previously documented high-confidence SQL string/row-boundary defect in its `lesson_content` INSERT region. The static lexical scan is not a PostgreSQL parse; do not execute the migration.
+- The 38-row seed package represents a legacy curriculum (26 lessons for `kurmanji-course-1` and 12 for `kurmanji-course-2`) whose topics do not reliably correspond to the current 26-lesson writing/orthography path and 32-lesson phonetics/phonology path. Lesson number/title alone is not a safe mapping rule.
+- Fastest safe completion sequence: (1) preserve the current release block; (2) validate and fix the regional selector without inventing lesson mappings; (3) reconcile the legacy 38-row content against authoritative current lesson sources; (4) use a PostgreSQL-aware parser and disposable test database to validate a reviewed migration candidate; (5) run the package and browser regression workflows; (6) only then request explicit release approval. No production or `main` changes are authorized by this audit.
+- Verification limitation: the source change was written to the protected working branch. The final re-fetch check is required before describing it as verified; no browser test or SQL execution is claimed here.
