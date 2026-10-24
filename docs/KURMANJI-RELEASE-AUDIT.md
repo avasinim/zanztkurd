@@ -3888,3 +3888,12 @@ The script's server-progress sync also filters `lesson_progress` by the supplied
 - Clarified the distinction between orthographic letters and IPA, and included the source's caveat that the vowel written `e` may have [ə]/[ɛ] realizations across varieties. Added guided comparison and spelling-preservation exercises without treating one pronunciation as universal.
 - Updated the lesson-3 row identically in the draft seed and matching migration payload. This is a source-file edit only; no SQL was executed and no database was written.
 - Re-read verification is required after the file updates. No `main`, PR #3, production database, or deployment changes are authorized.
+
+
+## Northern Circle — lesson 4 consonants and orthography (2026-10-24)
+
+- Checked the existing lesson-4 consonant inventory against the University of Arizona Iranian Languages page. Expanded the consonant table with representative IPA values and clarified that letters, phonemes, and allophonic/variety-specific realizations are not interchangeable concepts.
+- Added evidence-based notes on the tap/trill distinction (/ɾ/ vs /r/), dialect-dependent aspirated/unaspirated stops, and the fact that both /χ/ and /ʁ/ may be represented by standard orthographic `x` in relevant varieties. Avoided claiming that these contrasts occur uniformly in all Kurmanji dialects.
+- Added analytical exercises and retained the lesson title, key, course ID, order, and static wrapper/navigation. Updated the corresponding lesson-4 row identically in the draft seed and migration payload.
+- Source reviewed: University of Arizona, Iranian Languages, “Kurmanji Kurdish — Phonology and Orthography” (https://iranian-languages.arizona.edu/node/7); Haig (2018); Thackston (2006).
+- Source-file edits only. No SQL was executed, no database was written, and no deployment, `main`, or PR #3 changes were made.
