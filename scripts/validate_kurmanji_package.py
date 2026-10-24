@@ -266,6 +266,35 @@ else:
         if required not in learning_html:
             ERRORS.append(f"North-circle learning pathway is missing required selector: {required}")
 
+# Student enrollment handoff must expose the Kurmanji courses and preserve course context
+# in both delegated-link checks and the direct lesson-page gate.
+dashboard_path = ROOT / "dashboard.html"
+script_path = ROOT / "script.js"
+if not dashboard_path.exists():
+    ERRORS.append("Missing student dashboard: dashboard.html")
+else:
+    dashboard_html = dashboard_path.read_text(encoding="utf-8")
+    for required in (
+        "kurmanji1:{id:'kurmanji-course-1',total:26",
+        "kurmanji2:{id:'kurmanji-course-2',total:12",
+        'id="kurmanji1Enroll"',
+        'id="kurmanji2Enroll"',
+        "new URLSearchParams(location.search).get('course')",
+        "card.scrollIntoView({behavior:'smooth',block:'center'})",
+    ):
+        if required not in dashboard_html:
+            ERRORS.append(f"Student dashboard is missing Kurmanji enrollment handoff behavior: {required}")
+if not script_path.exists():
+    ERRORS.append("Missing shared access-control script: script.js")
+else:
+    script_html = script_path.read_text(encoding="utf-8")
+    for required in (
+        "const courseParam=encodeURIComponent(courseId);",
+        'location.href=dashboardPath+"?enroll=required&course="+courseParam;',
+        'location.replace(dashboardPath+"?enroll=required&course="+courseParam);',
+    ):
+        if required not in script_html:
+            ERRORS.append(f"Protected lesson redirect does not preserve course context: {required}")
 if ERRORS:
     print("\n".join(f"ERROR: {item}" for item in ERRORS))
     sys.exit(1)
