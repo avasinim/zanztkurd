@@ -4139,3 +4139,12 @@ The script's server-progress sync also filters `lesson_progress` by the supplied
 - Lesson 26: wrapper and seed title are `پێداچونەوە و هەڵسەنگاندنی کۆتایی`; test DB title is `پێداچوونەوە و هەڵسەنگاندنی کۆتایی`. The HTML body matches exactly. This is a confirmed title-only orthography difference; apply Avasin Code only after the project’s canonical title spelling is confirmed, then keep wrapper, seed and DB metadata aligned.
 - No content or database changes made. The seed files are marked DRAFT and explicitly caution against installation before review. No SQL writes/migrations, production DB, `main`, PR merge or deployment.
 
+
+## Safe draft-seed correction: Course 1 lesson 07 (2026-10-24)
+
+- Confirmed the row for `kurmanji-course-1-lesson-07.html` in `docs/kurmanji-content-seed-part-01.sql` had been mapped to the unrelated alphabet/phonetic-table lesson. The actual static wrapper title and test database title are both `ڕێنووسی وشە باوەکان`, and the test database HTML is the everyday-word/phrase lesson (e.g. `Silav`, `Rojbaş`, `Şevbaş`, `Tu çawa yî?`).
+- Safely corrected only the **draft seed row 07** to use the matching title and HTML from the existing test row. This does not write to the database and does not change any scientific source content; it repairs a definite seed-row mapping mismatch.
+- Updated file: `docs/kurmanji-content-seed-part-01.sql`; commit `08016d0d8501a329846794d6810207c2896f7496`.
+- Seed files remain marked DRAFT. The unrelated alphabet-table lesson/source audit remains a separate task; no attempt was made to move it into course 1 lesson 07.
+- No database writes/migrations, no production project, no `main`, no PR merge, no deployment.
+
