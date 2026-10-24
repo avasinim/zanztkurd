@@ -2598,3 +2598,10 @@ This section supersedes the earlier 2026-10-21/22 statements that the current mi
 - Updated the production-readiness note so the old mismatch finding is explicitly superseded.
 
 **Scope and release boundary:** this establishes seed/migration payload synchronization, not independent academic fact-checking of every claim, not successful application of the migration, and not live student access/progression. The target live Supabase project still lacks the 38 Kurmanji lesson rows, so the course is not yet operational in production. No migration was executed, no production database or `main` was changed, and no PR was merged.
+
+
+## Post-reconciliation CI and migration static scan — 2026-10-24
+
+- For branch head `006c91f872d332ed78734de7aaa16cd6a2cfb871`, all three relevant GitHub Actions workflows completed successfully: [academic lesson catalog](https://github.com/avasinim/zanztkurd/actions/runs/40065118591), [lesson navigation](https://github.com/avasinim/zanztkurd/actions/runs/40065118607), and [Kurmanji package validation](https://github.com/avasinim/zanztkurd/actions/runs/40065118586).
+- A read-only lexical scan of `supabase/migrations/20261019090000_add_kurmanji_courses_and_protected_lessons.sql` found one explicit transaction pair (`BEGIN`/`COMMIT`), two `CREATE OR REPLACE FUNCTION` definitions (`can_read_lesson_content`, `complete_lesson`), and no `DROP`, `TRUNCATE`, `DELETE FROM`, or `ALTER TABLE` statements. This is only a coarse static scan; it does not establish SQL validity, safe behavior against the actual schema, or correct RLS/function semantics.
+- **Release remains blocked:** CI validates repository/package invariants, not a successful Supabase migration, browser E2E behavior, live authorization/progression, or complete scholarly verification of all 38 lesson bodies. Do not apply this migration to production or merge PR #3 on the strength of these checks.
