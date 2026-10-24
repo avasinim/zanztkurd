@@ -2762,3 +2762,12 @@ This section supersedes the earlier 2026-10-21/22 statements that the current mi
 - **Content presence:** the seed covers interrogatives `kî`, `çi`, `li ku`, `kengî`, `çima`, `çawa`, `çiqas`, `kîjan`; yes/no questions; open questions; exercises; and references to Haig (2018), Thackston, and the University of Arizona.
 - **Review limit:** this pass checks page/seed wiring and section coverage, not a full source-based assessment of every interrogative construction and translation. The lesson itself directs readers to verify forms against grammars and dictionaries. No definite structural mismatch was found; no lesson text or Latin Kurmanji forms were changed.
 
+
+
+## Lesson 20 — basic word order (2026-10-24)
+
+- Cross-checked `kurmanji-course-1-lesson-20.html` against the matching row in `docs/kurmanji-content-seed-part-03.sql`.
+- **Structural match:** page title and seed title agree (`ڕیزبەندی وشەکان لە ڕستەدا`); `data-lesson-key="kurmanji-course-1-lesson-20.html"` matches the seed key; the shared `script.js` is loaded; previous/next links point to lessons 19 and 21.
+- **Content presence:** the seed covers the common SOV pattern, transitive examples (`Ez nan dixwim`, `Tu pirtûkê dixwînî`, `Em kurdî hîn dibin`), intransitive clauses, adjuncts, fronting/emphasis, exercises, and references including Haig (2018), University of Manchester, MELL, and Thackston.
+- **Scientific review limit:** the seed itself qualifies SOV as a common, unmarked pattern rather than an absolute rule and flags fronting examples for contextual/source verification. This pass verifies wiring and section coverage, not a full syntax review or source-by-source validation of each example. No definite structural mismatch was found; no lesson text, seed, migration, or Latin Kurmanji spelling was changed.
+- Re-read the audit file after updating it to verify this entry is present. The protected branch only was changed; no database operation was performed.
