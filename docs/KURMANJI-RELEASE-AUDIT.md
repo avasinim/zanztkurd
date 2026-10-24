@@ -4015,3 +4015,12 @@ The script's server-progress sync also filters `lesson_progress` by the supplied
 - Two coordinated-review flags were recorded rather than making a one-file edit: (1) the word for “yesterday” is written `doh`, whereas the checked sources give `duh` or `duhî`; confirm the intended variety/source before correcting; (2) Sorani gloss `زوو` for `zû` conflicts with the Avasin Code preference to avoid `وو`, so the project-preferred spelling should be applied consistently. The gloss `sibê` (“tomorrow / tomorrow morning”) is context-sensitive, and the lesson already notes that time expressions should be checked in context.
 - No lesson payload was changed because the branch-level migration fetch still returns 404; do not make an isolated seed/HTML edit that risks breaking static/seed/migration parity. This step updates only the audit log. No SQL was executed; no database, `main`, PR #3, or deployment was changed.
 
+
+## Northern Circle — lesson 17 basic verbs and present tense review (2026-10-24)
+
+- Checked `kurmanji-course-1-lesson-17.html` and its seed row in `docs/kurmanji-content-seed-part-03.sql`. Wrapper title/H1, `data-lesson-key`, previous/next links (lessons 16/18), and protected `script.js?v=20261019-kurmanji-protected` are correct.
+- Seed row is present (3,629 characters). The live branch path for migration `supabase/migrations/20261024122051_add_kurmanji_courses_and_protected_lessons.sql` returns 404, and the earlier historical migration snapshot is not an adequate authoritative comparison for lesson 17. Therefore seed/migration parity is **not verified** for this lesson; no claim of equality is made.
+- Reviewed the lesson's description of the regular present-tense pattern `di- + verb stem + personal ending`, conjugation examples (`Ez dixwînim`, `Tu dixwînî`, `Ew dixwîne`, `Em/Hûn/Ew dixwînin`) and SOV examples. The lesson explicitly limits the rule to regular verbs and flags exceptions; no definite grammatical error was established from the available evidence, so no Kurmanji forms were changed.
+- Avasin Code pass: Kurdish text includes required forms such as `نوسین`, `پەیویست`, `هەمو`, and `نمونە`; no use of `بڕگە` was found in this lesson. No Latin Kurmanji forms were normalized.
+- No lesson payload was changed. Audit log only. No SQL was executed; no database, `main`, PR #3, or deployment was changed.
+
