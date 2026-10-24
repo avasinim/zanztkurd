@@ -45,8 +45,9 @@ else:
             if len(row_pattern.findall(migration_text)) != 1:
                 ERRORS.append(f"Migration must contain exactly one content row for {key}")
 
-# The shared script must never normalize text or attributes inside source-loaded
-# lesson content. This is a preservation check, not a content rewrite.
+# Check that the shared script retains the canonical Avasin mappings used
+# for Kurdish site UI and server-loaded lesson content. This is a static
+# presence check; it does not rewrite files or validate every rendered string.
 shared_script = ROOT / "script.js"
 if not shared_script.exists():
     ERRORS.append("Missing shared access-control script: script.js")
