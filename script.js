@@ -1530,7 +1530,7 @@ async function markLessonComplete(courseId, lessonKey){
   }
   function fixTextNode(node){
     if(!node || node.nodeType!==Node.TEXT_NODE || !node.parentElement) return;
-    if(node.parentElement.closest('script,style,noscript,textarea,input,select,option,[contenteditable="true"]')) return;
+    if(node.parentElement.closest('script,style,noscript,textarea,input,select,option,code,pre,kbd,samp,[contenteditable="true"]')) return;
     const next=normalize(node.nodeValue);
     if(next!==node.nodeValue) node.nodeValue=next;
   }
