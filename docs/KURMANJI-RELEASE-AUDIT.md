@@ -3617,3 +3617,10 @@ This section supersedes the earlier 2026-10-21/22 statements that the current mi
 - Re-fetched all six wrappers after the edits. Each has the three-column desktop rule, the single-column mobile rule, exactly one lesson navigation block with three links, and the matching `data-lesson-key`.
 - This is a source-level verification only; browser rendering and responsive behavior have not been visually tested.
 - Changes are confined to `kurmanji-clean-release`. No `main`, production/test database, seed, migration, PR merge, or deployment operation was performed.
+
+## Avasin orthography normalization — syllable term (2026-10-24)
+
+- Added the explicit global visible-text normalization rule `/بڕگە/g → هجا` to the existing Avasin spelling replacement list in `script.js`, alongside the existing rules for `چییە → چیە` and `نییە → نیە`.
+- This follows the user's explicit Avasin Code requirement to use `هجا`, not `بڕگە`. The existing text-node and attribute normalization mechanism applies the rule to visible text, including dynamically inserted lesson content.
+- No Latin Kurmanji spelling, scientific lesson source, seed, migration, or database value was edited. The rule is source-level verified only; browser behavior was not run in this pass.
+- Confined to `kurmanji-clean-release`; no `main`, PR merge, or deployment was performed.
