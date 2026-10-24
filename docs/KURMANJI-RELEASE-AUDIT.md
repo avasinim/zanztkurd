@@ -3143,3 +3143,26 @@ This section supersedes the earlier 2026-10-21/22 statements that the current mi
 ### Boundaries
 - This was a limited course-plan consistency pass, not certification of all 26 lesson bodies or all 38 course bodies.
 - No seed SQL, migration, database, production deployment, `main`, or PR merge was changed or performed.
+
+
+## Follow-up: distinguish the two separate “lesson 07” records (2026-10-24)
+
+- A cross-check of `COURSE-REGISTRY.md`, `PROJECT-CONTINUITY.md`, and the actual `lessons/023.html` file confirms a separate phonetics/orthography lesson titled **جەدوەلی ئەلفبێی زوانی کوردیک**. Its page description and table-specific markup identify consonant and vowel tables, and its source context points to the book passage on pp. 72–75.
+- This is a different lesson namespace from `kurmanji-course-1-lesson-07.html`, which belongs to the 26-lesson introductory Kurmanji course and currently teaches greetings/everyday expressions. The same display number “7” must not be used to overwrite content across these separate courses.
+- Therefore, the earlier lesson-07 scope flag applies only to `kurmanji-course-1-lesson-07.html`. The alphabet-table lesson is already represented separately by `lessons/023.html`. The source book PDF/pages were not re-opened in this pass, so this confirms repository mapping and existing table structure—not a fresh verification of every table cell against the original book.
+- No lesson body, seed, migration, source PDF, database, `main`, production deployment, or PR was changed in this follow-up.
+
+## Source review — Kurmanji course 1, lesson 16: days of the week and time (2026-10-24)
+
+### Static page and seed comparison
+- Read `kurmanji-course-1-lesson-16.html` and the matching row in `docs/kurmanji-content-seed-part-02.sql` on `kurmanji-clean-release`.
+- Page title and seed title match: **ڕۆژەکانی هەفتە و کات**. The `data-lesson-key` matches the seed key; the page loads `script.js?v=20261019-kurmanji-protected`; previous/next links point to lessons 15 and 17.
+- The seed contains seven weekday labels, time vocabulary, four sample sentences, practice tasks, and a references section. It explicitly cautions that some sample sentences and time constructions still require verification against grammar references and real Kurmanji usage.
+
+### Qualification and outcome
+- The seed cites Yari's dictionary/learning resources, Thackston's reference grammar, and the University of Arizona Kurmanji resource. This pass did not independently verify every weekday variant, lexical gloss, or inflected sentence against those sources, so no claim of full lexical validation is made.
+- The seed's caveats are appropriately transparent. No definite linguistic error was established from the available comparison alone, so the lesson body and seed were not edited and Latin Kurmanji forms were preserved.
+- No migration, database, production branch, `main`, or PR merge was changed.
+
+### Result
+**Status: lesson 16 page/seed identity and navigation verified; vocabulary and example sentences remain candidates for a dedicated source-by-source proofread.** Audit record only.
