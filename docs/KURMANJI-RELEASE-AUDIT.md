@@ -2960,3 +2960,12 @@ This section supersedes the earlier 2026-10-21/22 statements that the current mi
 - Sources: [Haig (2018), Northern Kurdish (Kurmanji), §2.2.3](https://www.uni-bamberg.de/fileadmin/aspra/06_Team/Publications_and_CV/haig_2018_ch.2.3_northern_kurdish.pdf); [University of Arizona — Kurmanji Kurdish](https://iranian-languages.arizona.edu/node/7).
 - **Result:** demonstrative basics are supported; one adjective phrase is flagged for targeted verification. No lesson text, seed row, migration, Latin Kurmanji form, or database was changed.
 
+## Source cross-check — lesson 11: personal pronouns (2026-10-24)
+
+- Re-read the page and exact seed row. The page and seed titles match (`جێناوە کەسییەکان`); the expected lesson key, shared `script.js`, and navigation to lessons 10 and 12 are present.
+- Haig (2018, §2.2.3, Table 9) and the University of Arizona Kurmanji resource confirm the six direct/oblique pairs taught here: `ez/min`, `tu/te`, `ew/wî-wê`, `em/me`, `hûn/we`, and plural `ew/wan`. The sources confirm that `xwe` is an invariant reflexive form used across persons and numbers, and that the third-person `ew` forms are related to the distal demonstrative. The lesson's warning that oblique forms are not limited to past tense is accurate.
+- The present-tense/copy examples (`Ez xwendekar im`, `Tu baş î`, `Ew mamoste ye`, `Em li vir in`, `Hûn baş in`) fit the basic subject-pronoun/copula pattern described in the Arizona resource. `Ez ji dayika xwe hez dikim` is also compatible with the reflexive construction described by Haig; `xwe` refers back to the clause subject.
+- Scope note: this lesson introduces the direct/oblique distinction but does not give the full case-conditioned distribution. That is acceptable at this level because the lesson explicitly defers detailed use to later grammar lessons. No definite factual or structural defect was found in the checked material.
+- Sources: [Haig (2018), Northern Kurdish (Kurmanji), §2.2.3](https://www.uni-bamberg.de/fileadmin/aspra/06_Team/Publications_and_CV/haig_2018_ch.2.3_northern_kurdish.pdf); [University of Arizona — Kurmanji Kurdish, Syntax / Pronouns](https://iranian-languages.arizona.edu/node/7).
+- **Result:** pronoun paradigms and the reflexive example are source-supported. No lesson text, seed row, migration, Latin Kurmanji spelling, or database was changed.
+
