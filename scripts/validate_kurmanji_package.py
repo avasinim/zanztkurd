@@ -21,7 +21,7 @@ seed_text = "\n".join(path.read_text(encoding="utf-8") for path in seed_files)
 
 # Guard the migration's known cross-course invariants. These checks are static;
 # they do not apply SQL or claim to replace a disposable-database test.
-migration_path = ROOT / "supabase" / "migrations" / "20261019090000_add_kurmanji_courses_and_protected_lessons.sql"
+migration_path = ROOT / "supabase" / "migrations" / "20261024122051_add_kurmanji_courses_and_protected_lessons.sql"
 if not migration_path.exists():
     ERRORS.append("Missing Kurmanji course-content migration")
 else:
