@@ -4087,3 +4087,12 @@ The script's server-progress sync also filters `lesson_progress` by the supplied
 - Seed row exists (4,545 characters). Migration parity remains unverified because the migration path returns 404 on the current branch. No lesson/seed payload was edited.
 - Re-read verification confirmed the audit entry, wrapper key/navigation, protected script, and seed row. No SQL was executed; no database, `main`, PR #3, or deployment was changed.
 
+
+## Northern Circle — lesson 25 direct and oblique case review (2026-10-24)
+
+- Reviewed `kurmanji-course-1-lesson-25.html` and the authoritative seed row in `docs/kurmanji-content-seed-part-04.sql`. Wrapper title/H1, `data-lesson-key`, previous/next links (lessons 24/26), and protected `script.js?v=20261019-kurmanji-protected` are correct.
+- The lesson explains direct/oblique case, noun and pronoun forms, present transitive clauses, and the ergative alignment pattern in transitive past clauses. Examples include `Ez wî mirovî dibînim` and `Min ew dît`; no definite scientific error was established during this pass. Latin Kurmanji forms were not changed.
+- Fixed one definite Sorani typo in the lesson 25 seed content: `نەردرکێت` → `نەردەکەوێت` (sentence about the oblique marker not being overtly visible in some varieties). Only this seed file was changed; static wrapper remains a content-loader shell.
+- Avasin Code review: checked `چیە`, `هەمو`, `ڕونتر`, `نمونە`, and `جیاوازی`; no `بڕگە` found. Seed row exists (5,353 characters before the one-word correction).
+- Migration parity remains unverified because the migration path returns 404 on the current branch. Re-read verification of the changed seed, wrapper key/navigation, protected script, and audit entry is required and was performed after the commits. No SQL was executed; no database, `main`, PR #3, or deployment was changed.
+
