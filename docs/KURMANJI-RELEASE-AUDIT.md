@@ -3703,3 +3703,10 @@ This section supersedes the earlier 2026-10-21/22 statements that the current mi
 - Counted unique static Course 2 lesson links in `lessons/catalog.html`; the catalog exposes the 32 lesson wrapper targets, consistent with the 32-lesson entry and `learning.html`'s displayed course count.
 - This cross-check confirms the website-side count is consistently 32; it does not change the previously documented server-side migration mismatch (RPC sequences and `courses.total_lessons` end at 27 in the inspected migration). The mismatch remains unresolved and release-blocking.
 - No source lesson, seed, migration, database, `main`, PR merge, or deployment was modified.
+
+
+### Migration scope intent — Course 2 (read-only, 2026-10-24)
+
+- The opening comments of `20261011104927_align_course_2_to_source_lessons_25_27.sql` explicitly say the agreed source scope is lessons 1–27, identify lessons 25–27 with printed pages 172–255, and say to preserve additional lesson 28–30 rows and student progress.
+- This proves the migration intentionally scopes server-side progression to 27, but does not prove the public 32-lesson catalog is obsolete: `lessons/index.json`, `lessons/catalog.html`, `learning.html`, and wrappers still expose 32 lessons.
+- The repo therefore contains conflicting scope declarations. Do not silently reduce the UI to 27 or expand the SQL RPC arrays to 32 without the project owner's authoritative scope decision. No lesson content, migration, database, `main`, PR merge, or deployment was changed.
