@@ -91,6 +91,37 @@ else:
     if 'length:12' not in script_text and 'length: 12' not in script_text:
         ERRORS.append("Kurmanji Course 2 gate is not configured for 12 lessons")
 
+
+# Keep the student enrollment handoff course-specific. These static checks
+# catch regressions where a protected Kurmanji lesson drops the requested
+# course or the dashboard no longer exposes/focuses the matching enrollment card.
+dashboard_path = ROOT / "dashboard.html"
+if not dashboard_path.exists():
+    ERRORS.append("Missing student dashboard: dashboard.html")
+else:
+    dashboard_html = dashboard_path.read_text(encoding="utf-8")
+    for required in (
+        "kurmanji1:{id:'kurmanji-course-1',total:26",
+        "kurmanji2:{id:'kurmanji-course-2',total:12",
+        'id="kurmanji1Enroll"',
+        'id="kurmanji2Enroll"',
+        "requestedCourse==='kurmanji-course-1'?'kurmanji1Enroll'",
+        "requestedCourse==='kurmanji-course-2'?'kurmanji2Enroll'",
+        "card.scrollIntoView({behavior:'smooth',block:'center'})",
+    ):
+        if required not in dashboard_html:
+            ERRORS.append(f"Student dashboard is missing Kurmanji enrollment routing/card behavior: {required}")
+
+if not shared_script.exists():
+    pass
+else:
+    for required in (
+        'const courseParam=encodeURIComponent(courseId);',
+        'location.href=dashboardPath+"?enroll=required&course="+courseParam;',
+    ):
+        if required not in script_text:
+            ERRORS.append(f"Protected lesson redirect is not preserving course context: {required}")
+
 for course_id, count in expected.items():
     expected_names = {
         f"{course_id}-lesson-{number:02d}.html"
