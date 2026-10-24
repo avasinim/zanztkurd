@@ -3473,3 +3473,10 @@ This section supersedes the earlier 2026-10-21/22 statements that the current mi
 - The wrapper title uses the lesson topic “پڕۆسۆدی، تیشک‌خستن، ئاواز و ڕێتمی ئاخاڤتن”. No definite Avasin orthography or structural defect was established in this limited wrapper check, so no lesson HTML was changed.
 - GitHub Actions on branch head `780880f2e092c682f0041942ca990927dc1ebccf` completed successfully: lesson navigation (run `40086757829`), academic catalog (run `40086757612`), and Kurmanji package (run `40086757704`). Combined commit-status endpoint returned no status entries; the three named Actions runs are the positive evidence here.
 - Scope limitation: this is a static wrapper and configured-CI check. It does not verify the lesson's database/seed body, source accuracy, runtime loading/access, or release readiness. No lesson body, seed, migration, database, `main`, PR merge, or deployment was changed.
+
+
+## Integrated static check — phonology course lesson 18 wrapper (2026-10-24)
+
+- Re-read `lessons/course-2-18.html` on `kurmanji-clean-release`. The title/H1 identify lesson 18 (“فۆنێتیکی بیستن و درک‌کردنی دەنگ”); `data-lesson-key="course-2-18.html"` matches the filename; previous/next links point to lessons 17/19; and the shared `../script.js` include is present.
+- No definite wrapper/navigation defect was established in this limited check; no lesson HTML or scientific content was changed.
+- Scope limitation: static shell inspection does not establish seed/database body parity, source accuracy, browser rendering, or authenticated access. No seed, migration, database, `main`, PR merge, or deployment was touched.
