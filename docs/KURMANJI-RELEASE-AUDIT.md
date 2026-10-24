@@ -3861,3 +3861,13 @@ The script's server-progress sync also filters `lesson_progress` by the supplied
 - This is a confirmed content-availability gap in the test database for the two Central Circle courses, not a reason to reuse Kurmanji lesson content. The course metadata totals remain 26 and 32 respectively.
 - Next safe step: compare each Central Circle HTML source page's `data-lesson-key`, title, and source body against its own intended seed/migration package; prepare a separate, source-faithful seed/migration for review on the test branch/project only. Do not execute it until all 58 source lesson bodies and keys are reconciled.
 - No production project, `main`, deployed site, migrations, or database writes were touched.
+
+
+## Academic enrichment scope reset — Northern Circle only (2026-10-24)
+
+- User clarified that Central Circle is already completed and must not be reopened or changed in this workstream.
+- Current scope is exclusively Northern Circle: Course 1 (26 lessons, introductory Kurmanji orthography) and Course 2 (12 lessons, Kurmanji morphology/grammar).
+- Editorial target: preserve current lesson page design, file names, lesson keys, course IDs, previous/next navigation, and separation between the two courses; enrich lesson content with deeper explanations, more source-grounded examples, guided analysis exercises, and better bibliographies.
+- Lesson 1 content expanded in matching seed and migration rows: adds distinctions among language/script/orthography/dialect, source-aware example analysis, four orthographic examples, research-method notes, review exercises, and a third bibliographic source on Kurmanji variation.
+- Source basis: Haig (2018), “Northern Kurdish (Kurmanjî)” (DOI 10.1515/9783110421682-004); Thackston (2006), *Kurmanji Kurdish: A Reference Grammar with Selected Readings*; Haig & Öpengin (2018), “Kurmanjî Kurdish in Turkey: Structure, varieties, and status” (University of Bamberg record).
+- This is a content-enrichment draft, not release approval. Seed/migration row parity, PostgreSQL parser, and course-specific lesson routing must be verified after commit. No database writes, migration execution, production deployment, or changes to `main` are authorized.
