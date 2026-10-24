@@ -3223,3 +3223,19 @@ This section supersedes the earlier 2026-10-21/22 statements that the current mi
 
 ### Result
 **Present-tense formation and the core *xwendin* paradigm: corroborated at introductory level. Sentence-by-sentence source verification and Sorani editorial review remain open.** No lesson body, seed tuple, migration, database, or production branch was changed. This is a source-level review only; it does not certify the whole 38-lesson package or runtime authorization/progression.
+
+## Source review — course 1, lesson 18: negation in simple sentences (2026-10-24)
+
+### What is corroborated
+- The lesson correctly presents **na-** as the usual present-indicative negation prefix replacing **di-**, rather than stacking both prefixes.
+- The stated exception for **zanîn** (*Ez nizanim*, “I do not know”) is supported by the beginner reference. **karîn** (“to be able”) is another important **ni-** exception, although it is not the focus of this lesson.
+- The lesson distinguishes negative imperatives from ordinary present-tense negation. **ne-** is documented in standard Kurmanji imperative/subjunctive negation; dialectal and historical sources also document alternatives, so the note about variation is important.
+- Sources reviewed: [University of Arizona — Kurmanji Kurdish](https://iranian-languages.arizona.edu/node/7), [*Kurmanji Kurdish for Beginners*, Lesson 5](https://www.kurdipedia.org/files/books/2023/474430.PDF), [Songül Gündoğdu, “Negation in Kurmanji,” Oxford University Press](https://doi.org/10.1093/acprof:oso/9780190210434.003.0007), and [Geoffrey Haig, “Northern Kurdish (Kurmanjî): An Areal Perspective”](https://doi.org/10.1515/9783110421682-004).
+
+### Items still requiring editorial verification
+- The nominal-predicate example **“Ez ne mamosteyek im.”** and its Sorani gloss should be checked against the course’s chosen reference grammar. Do not change it based on this review alone.
+- The copula example **“Ew li vir nîne.”** and the negative imperative pair **“Bike! / Neke!”** are plausible, but need pinpointed source examples and consistent treatment of dialect/orthographic variants.
+- The lesson bibliography cites relevant works, but page/section-level citations should be added for the specific nominal negation and imperative examples.
+
+### Result
+**Core present-tense negation rule and the special form *nizanim*: corroborated. Nominal negation and individual imperative examples: still open for pinpointed verification.** No lesson body, seed tuple, migration, database, or production branch was changed. This is a source-level review only; it does not certify the whole package or runtime authorization/progression.
