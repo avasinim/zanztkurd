@@ -2704,9 +2704,11 @@ This section supersedes the earlier 2026-10-21/22 statements that the current mi
 
 - Added `scripts/validate_kurmanji_sql.py`, which uses `pglast` (PostgreSQL's parser) to parse the current migration and all five split seed SQL files. It is read-only, makes no database connection, and does not edit lesson content.
 - Updated `.github/workflows/validate-kurmanji-package.yml` to install `pglast` and run this parser before the existing static and browser checks. The new script is included in both push and pull-request path filters.
-- The workflow was triggered on `kurmanji-clean-release` for commit `ef5cb58a6d9c69bd70c926021e71b98671d6c063`; at the time of this audit note, the run was still in progress. Its result must be checked before claiming parser failure or success.
-- This parser step checks PostgreSQL SQL syntax only. It does not yet extract and compare all 38 complete lesson tuples, verify schema dependencies, or replace a disposable-database migration test.
-- No migration, seed, static lesson body, `main`, PR #3 merge state, or database was modified. Keep release blocked pending the parser result and full row-by-row reconciliation.true
+- The initial run for commit `ef5cb58a6d9c69bd70c926021e71b98671d6c063` exposed a PostgreSQL syntax error in the migration at a literal `<` character. This was confirmed by the parser rather than a text heuristic.
+- The migration's `lesson_content` INSERT was then rebuilt from the five parser-valid split seed files, preserving their row tuples verbatim; see the section below. The corrected migration passed the PostgreSQL parser in CI.
+- CI on corrected migration commit `fa73da8c22538e4c4a3646e8572abf47f44ba1b0` passed the SQL parser, package integrity validator, and all three north-circle browser regression tests. The follow-up audit-document commit `27f2bdf617f2d5bbbab2cf546c5ee8da0160fae9` also has successful package, navigation, and catalog workflows.
+- The static validator confirms all 38 lesson pages, `data-lesson-key`, shared `script.js`, noindex metadata, loading placeholders, previous/next navigation, course boundaries, course-plan order, seed key presence, and runtime integration markers. Because the lesson HTML is intentionally server-loaded, this does not prove the stored HTML payload is scientifically equivalent to every previous static lesson body.
+- A disposable PostgreSQL/Supabase-compatible migration test is still required to validate schema dependencies and RPC behavior before release. No database was connected to or changed; `main`, PR #3 merge state, seed files, and static lesson bodies remain untouched. Keep release blocked until that runtime test and content review are complete.
 
 ## Rebuilt migration lesson INSERT from the five parser-valid seed files — 2026-10-24
 
