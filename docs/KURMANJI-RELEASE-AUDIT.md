@@ -2835,3 +2835,11 @@ This section supersedes the earlier 2026-10-21/22 statements that the current mi
 - The shared-script validator requires the project's canonical Avasin spelling mappings and checks the course runtime-gate integration markers. A runtime normalizer is not a substitute for reviewing source text: normalization can only cover the explicitly listed patterns.
 - **CI improvement:** added `docs/KURMANJI-RELEASE-AUDIT.md` to both push and pull-request path filters for `.github/workflows/validate-kurmanji-package.yml`, so future audit-only commits also trigger the package integrity checks. Workflow update commit: `8f6fd6d48949237e6f2c04914e40e3b6ea9ea64c`.
 - This checkpoint is not a claim that every Kurdish string has been exhaustively audited against the Avasin Code or that every Kurmanji paradigm has been checked against its sources. Scientific flags from lessons 18 and 21–26 remain evidence-required review items. No lesson text, seed SQL, migration, or database was changed.
+
+
+## Avasin spelling surface scan and validator clarification (2026-10-24)
+
+- Read-only scan of all five split seed files found no raw occurrences of the prohibited spellings `چییە`, `نییە`, or `بڕگە`. It did find a small number of canonicalization candidates such as `پێویست`, `ڕوون`, and `نووسین` in seed HTML; the shared `script.js` contains the corresponding Avasin mappings (`پەیویست`, `ڕون`, `نوسین`) for rendered Kurdish text. These source occurrences were left untouched because the runtime mapping is intentional and no lesson/source content should be rewritten without evidence.
+- The raw substring `وو` appears many times in the seed package, but it also occurs inside legitimate Latin Kurmanji strings and cannot be treated as a reliable Sorani-spelling defect by substring search. No blanket replacement was attempted.
+- Corrected a contradictory comment in `scripts/validate_kurmanji_package.py`: it now accurately describes the normalizer check as a static presence check for Avasin mappings, not a claim that source-loaded lesson text is never normalized. Validator comment-only commit: `2cd484c86e9cfd7222721db616379302903c24d9`.
+- This scan is a targeted surface check, not a full linguistic review of every Kurdish text node or a source-based verification of Kurmanji paradigms. No lesson text, seed SQL, migration, or database was changed.
