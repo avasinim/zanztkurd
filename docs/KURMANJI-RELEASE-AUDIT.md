@@ -3550,3 +3550,14 @@ This section supersedes the earlier 2026-10-21/22 statements that the current mi
 - Re-read `lessons/course-2-27.html` on `kurmanji-clean-release`. The visible title/H1 identify lesson 27 (“لێکنەچوون، تێچوون و جێگۆڕکێی دەنگ”); `data-lesson-key="course-2-27.html"` matches the filename; previous/next links point to lessons 26/28; and the shared `../script.js` include is present.
 - The navigation uses a two-column grid with three links, so one link wraps to a second row at wider widths. This is a presentation inconsistency also seen in lesson 26; recorded for follow-up and left unchanged in this pass.
 - Scope limitation: this static wrapper check does not verify seed/database body, scientific source accuracy, browser rendering, or authenticated access. No lesson HTML, seed, migration, database, `main`, PR merge, or deployment was changed.
+
+## Static wrapper audit — Course 2, lesson 28 (2026-10-24)
+
+- **File reviewed:** `lessons/course-2-28.html` on `kurmanji-clean-release`.
+- **Title and heading:** document title and H1 both identify lesson 28, “جێگرتنەوەی دەنگ”; the lesson number and topic are consistent.
+- **Content key:** `data-lesson-key="course-2-28.html"` matches the wrapper filename.
+- **Navigation:** previous and next links point to `course-2-27.html` and `course-2-29.html`, respectively. The wrapper also links back to the Course 2 landing page.
+- **Shared script:** `../script.js` is included.
+- **Layout note:** the navigation contains three links, while `.lesson-nav` uses a two-column grid at desktop widths. The third link will wrap onto another row. This is a presentation observation, not a navigation-breaking defect; no CSS change was made in this wrapper-only pass.
+- **Result and limits:** no definite wrapper key, title, or previous/next-link defect was found. This pass did not validate seed/database content, scientific accuracy, or rendered browser behavior. Only this audit note was appended; no lesson HTML, seed, migration, database, `main`, merge, or deployment was changed.
+
