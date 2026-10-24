@@ -2638,3 +2638,7 @@ This section supersedes the earlier 2026-10-21/22 statements that the current mi
 - This makes the migration's explicit lesson-content `VALUES` section a broad release blocker affecting course 1 lessons 01–26 and course 2 lessons 01–12, based on static text structure. No SQL parser or database execution has been used, so do not infer the exact server error beyond the structural evidence.
 - The previous note identifying lessons 08–12 should be read as the initial sample; this expanded scan supersedes its narrow scope. The full migration still needs parser-based validation and comparison against the seed before any proposed correction is approved.
 - No migration, seed, lesson HTML, database, main, or PR was modified; only this audit document was updated on `kurmanji-clean-release`.
+### Review-only correction proposal added — 2026-10-24
+
+- Added `docs/proposals/KURMANJI-MIGRATION-ROW-STRUCTURE-PROPOSAL.md` on this branch. It records the narrowly scoped mechanical transformation to review, validation gates, and production-safety boundary.
+- The proposal is not the migration and does not change executable migration behavior. The migration itself remains untouched pending explicit authorization and parser/seed validation.
