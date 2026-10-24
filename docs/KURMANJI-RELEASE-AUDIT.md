@@ -3465,3 +3465,11 @@ This section supersedes the earlier 2026-10-21/22 statements that the current mi
 - Rechecked `lessons/course-2-16.html` on the protected branch after the correction: the page description, title and H1 use **بڕگە**; `data-lesson-key="course-2-16.html"` matches the file; previous/next links point to lessons 15/17; the shared `../script.js` include is present. Catalog entries for lessons 6 and 16 and script search metadata also use **بڕگە**.
 - CI cannot be declared green from the available status response for corrected head `a2a0561ff6a34a55606dd35063cade0e81a886b0`: the combined commit status returned no status entries, and the workflow-run endpoint returned no PR-triggered runs. This is **unknown/not verified**, not a pass or failure. Run/check the repository's configured Actions for this head before relying on CI.
 - Static wrapper checks do not validate lesson body science, seed parity, runtime loading or deployment.
+
+
+## Integrated static check — phonology course lesson 17 wrapper (2026-10-24)
+
+- Re-read `lessons/course-2-17.html` on `kurmanji-clean-release`. The visible lesson number/title identify lesson 17; `data-lesson-key="course-2-17.html"` matches the filename; previous/next links point to lessons 16/18; and the shared `../script.js` include is present.
+- The wrapper title uses the lesson topic “پڕۆسۆدی، تیشک‌خستن، ئاواز و ڕێتمی ئاخاڤتن”. No definite Avasin orthography or structural defect was established in this limited wrapper check, so no lesson HTML was changed.
+- GitHub Actions on branch head `780880f2e092c682f0041942ca990927dc1ebccf` completed successfully: lesson navigation (run `40086757829`), academic catalog (run `40086757612`), and Kurmanji package (run `40086757704`). Combined commit-status endpoint returned no status entries; the three named Actions runs are the positive evidence here.
+- Scope limitation: this is a static wrapper and configured-CI check. It does not verify the lesson's database/seed body, source accuracy, runtime loading/access, or release readiness. No lesson body, seed, migration, database, `main`, PR merge, or deployment was changed.
