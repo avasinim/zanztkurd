@@ -4051,3 +4051,12 @@ The script's server-progress sync also filters `lesson_progress` by the supplied
 - Seed row exists (4,013 characters). Migration parity remains unverified because the migration path returns 404 on the current branch. No lesson/seed payload was edited.
 - Re-read verification confirmed the audit entry, wrapper key/navigation, protected script, and seed row. No SQL was executed; no database, `main`, PR #3, or deployment was changed.
 
+
+## Northern Circle — lesson 21 adjective and ezafe review (2026-10-24)
+
+- Reviewed `kurmanji-course-1-lesson-21.html` and the seed row in `docs/kurmanji-content-seed-part-03.sql`. Wrapper title/H1, `data-lesson-key`, previous/next links (lessons 20/22), and protected `script.js?v=20261019-kurmanji-protected` are correct.
+- The lesson distinguishes attributive adjectives in noun phrases from predicative use, introduces ezafe, and cautions that its form depends on grammatical features and construction. Examples include `bajarê mezin`, `maleke biçûk`, `pirtûka nû`, `bajar-ek-î mezin`, and `kum-ên reş`. Because the page itself flags the indefinite-noun example as source-based and the precise morphology/segmentation merits checking against the cited grammar, no Latin Kurmanji example was altered without further evidence.
+- Avasin Code review: checked spellings including `چیە`, `هەمو`, `پەیویست`, `نمونە`, `ڕون`, and `جیاوازی`; no `بڕگە` found.
+- Seed row exists (4,621 characters). Migration parity remains unverified because the migration path returns 404 on the current branch. No lesson/seed payload was edited.
+- Re-read verification confirmed the audit entry, wrapper key/navigation, protected script, and seed row. No SQL was executed; no database, `main`, PR #3, or deployment was changed.
+
