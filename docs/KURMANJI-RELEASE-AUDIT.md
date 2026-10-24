@@ -4060,3 +4060,12 @@ The script's server-progress sync also filters `lesson_progress` by the supplied
 - Seed row exists (4,621 characters). Migration parity remains unverified because the migration path returns 404 on the current branch. No lesson/seed payload was edited.
 - Re-read verification confirmed the audit entry, wrapper key/navigation, protected script, and seed row. No SQL was executed; no database, `main`, PR #3, or deployment was changed.
 
+
+## Northern Circle — lesson 22 comparison of adjectives review (2026-10-24)
+
+- Reviewed `kurmanji-course-1-lesson-22.html` and its seed row in `docs/kurmanji-content-seed-part-03.sql`. Wrapper title/H1, `data-lesson-key`, previous/next links (lessons 21/23), and protected `script.js?v=20261019-kurmanji-protected` are correct.
+- Lesson covers positive/comparative/superlative adjective forms, `-tir`, `herî`, `-tirîn`, `ji` in comparative clauses, and notes variation in forms such as `mezintir/meztir`. Examples `baş/baştir`, `biçûk/biçûktir`, `dirêj/dirêjtir`, and `Meyrem ji birayê xwe mezintir e` were reviewed. The page explicitly recognizes source/dialect variation; no definite error established, so Latin Kurmanji forms were not changed.
+- Avasin Code review: checked `پەیویست`, `هەمو`, `نمونە`, `ڕون`, and `جیاوازی`; no `بڕگە` found.
+- Seed row exists (4,187 characters). Migration parity remains unverified because the migration path returns 404 on the current branch. No lesson/seed payload was edited.
+- Re-read verification confirmed the audit entry, wrapper key/navigation, protected script, and seed row. No SQL was executed; no database, `main`, PR #3, or deployment was changed.
+
