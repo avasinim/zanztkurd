@@ -3449,3 +3449,11 @@ This section supersedes the earlier 2026-10-21/22 statements that the current mi
 - This is an orthographic/editorial correction, not a change to the phonological analysis or lesson body. No Latin Kurmanji forms, seed content, migration, database, `main`, PR merge, or deployment was changed.
 - Static wrapper sweep findings for the 32 pages: files exist; lesson keys match their filenames; the shared script reference is present; previous/next links follow the sequence with expected endpoints. This does not establish runtime content rendering, accessibility, or scientific correctness of lesson bodies.
 - **Verification still needed:** inspect the resulting diff and run the configured CI on the new head; ensure the shared script's runtime text normalization does not alter unrelated scientific terms. This edit does not clear the release gates for clean migration replay, authenticated runtime tests, and source-based scientific review.
+
+
+## Correction — Avasin syllable terminology (2026-10-24)
+
+- **Supersedes the preceding “Avasin orthography correction — phonology course lesson terms” note where it says the required term is “هجا.”** That conclusion was incorrect: the user's Avasin Code specifies **بڕگە**, not **هجا**.
+- Restored **بڕگە** in the visible title/description of static phonology lesson 16, catalog titles for lessons 6 and 16, and the corresponding lesson search/tag metadata in `script.js` (including “پێکهاتەی بڕگە” and “کۆدای بڕگە”).
+- These are terminology corrections only. No lesson scientific body, Latin Kurmanji, seed, migration, database, `main`, PR merge, or deployment was changed.
+- Re-read verification and CI status are to be recorded only after checks complete on the resulting branch head.
