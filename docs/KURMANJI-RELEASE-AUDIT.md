@@ -3779,3 +3779,11 @@ This section supersedes the earlier 2026-10-21/22 statements that the current mi
 - Corrected those spellings to `پەیویست`, `ڕون`, and `نوسین` in `docs/kurmanji-content-seed-part-04.sql` / `docs/kurmanji-content-seed-part-05.sql`, and applied the exact same replacements to the corresponding migration payload. No static lesson body, Latin Kurmanji form, RPC logic, course sequence, or database was changed.
 - Re-read and re-parsed the SQL tuple structure after the edits: migration = 38 tuples, seed package = 38 tuples, 38 unique keys in each, no missing/extra keys, and exact tuple-by-tuple parity remains intact. The targeted forbidden spellings now have zero occurrences across the five seed files.
 - This was a source-only correction on `kurmanji-clean-release`. PostgreSQL parser execution was not available in this pass, so full grammar-level SQL validation remains pending; no migration was run, no database was changed, and `main` / PR #3 / production deployment were untouched.
+
+
+## Follow-up: Course 1 static lesson-wrapper navigation audit (2026-10-24)
+
+- Inspected all 26 static wrappers `kurmanji-course-1-lesson-01.html` through `kurmanji-course-1-lesson-26.html` on `kurmanji-clean-release`.
+- All 26 have the matching `data-lesson-key`, a `lesson-content` container, and a `script.js` reference. All expected adjacent previous/next lesson links were found for the sequence; the first/last boundary links are appropriately absent rather than pointing outside the course.
+- This is a static source inspection, not a browser-authenticated end-to-end test. No wrapper edits were required in this pass. Continue the scientific/content parity audit separately; passing navigation structure does not certify lesson scientific accuracy.
+- No `main`, production deployment, database, or migration execution was involved.
