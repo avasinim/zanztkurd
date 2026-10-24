@@ -3256,3 +3256,19 @@ This section supersedes the earlier 2026-10-21/22 statements that the current mi
 
 ### Result
 **Core interrogative vocabulary: corroborated. Selected sentence forms, glosses, and the description of question-word position: partially verified and still open.** No lesson body, seed tuple, migration, database, or production branch was changed. This is a source-level review only; it does not certify the whole package or runtime authorization/progression.
+
+## Source review — course 1, lesson 20: word order in sentences (2026-10-24)
+
+### What is corroborated
+- The neutral/basic word order of Kurmanji is **SOV** in transitive clauses, while intransitive clauses commonly have **SV**. Haig (2018), §2.7.1, explicitly describes neutral clause order as SOV(G) and notes that it is not rigidly fixed. The academic thesis *The Phrase Structure of Two Dialects of Kurmanji Kurdish*, §1.3.1, illustrates **Ez pirtûkê dixwînim** (“I am reading the book”) as S–O–V.
+- The lesson correctly warns that word order may vary for pragmatic emphasis and that transitive past clauses have additional alignment/agreement complexity. These points are consistent with Haig’s description of clause syntax and split ergativity.
+- Sources checked: [Geoffrey Haig (2018), *Northern Kurdish (Kurmanjî)*, especially §2.7.1](https://www.uni-bamberg.de/fileadmin/aspra/06_Team/Publications_and_CV/haig_2018_ch.2.3_northern_kurdish.pdf); [*The Phrase Structure of Two Dialects of Kurmanji Kurdish*, §1.3.1](https://digitalarchive.library.bogazici.edu.tr/bitstreams/c22fcd85-97d8-4c48-98ab-8cc623449fff/download).
+
+### Items still requiring editorial verification
+- The example **“Zarok radizê”** and its Sorani translation, and **“Em li malê dimînin”**, should be checked against a specific cited paradigm/dialect source before being treated as fully verified.
+- **“Vê pirtûkê, ez dixwînim”** is presented as a fronted-object/emphasis example, but the exact punctuation, discourse context, and naturalness require a source-backed review. Haig documents pragmatic fronting in general; that does not automatically verify this exact sentence.
+- The description of **kurdî** as “object/content” in **“Em kurdî hîn dibin”** needs more careful syntactic explanation: it should not be labelled a direct object without confirming the analysis of the construction.
+- The bibliography’s broad references should be tightened with section/page pointers for individual examples.
+
+### Result
+**Basic SOV/SV patterns and the non-rigid nature of word order: corroborated. Several exact examples, glosses, and the fronting example: still open for sentence-level verification.** No lesson body, seed tuple, migration, database, or production branch was changed. This is a source review, not a runtime/security release certification.
