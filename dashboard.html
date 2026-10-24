@@ -82,6 +82,16 @@
 <p id="progressText">0% ـی ڕێڕەو تەواو کراوە</p>
 <div class="course-actions"><a id="course2View" class="primary" href="course-2.html">بینینی کۆرس</a><a id="course2Learn" href="learning.html">ڕێڕەوی فێربون</a><button id="course2Enroll" hidden>خۆتۆمارکردن لە کۆرس</button></div>
 </article>
+<article class="card course-card">
+<h2 class="course-title">کۆرسی ١ — ڕێنووسی سەرەتاییی کورمانجی</h2>
+<p id="kurmanji1Status">پشکنین...</p><div class="progress"><span id="kurmanji1Bar"></span></div><p id="kurmanji1Text">٠٪ ـی ڕێڕەو تەواو کراوە</p>
+<div class="course-actions"><a id="kurmanji1View" class="primary" href="kurmanji-course-1.html">بینینی کۆرس</a><a id="kurmanji1Learn" href="kurmanji-course-1.html">پلانی ٢٦ وانە</a><button id="kurmanji1Enroll" hidden>خۆتۆمارکردن لە کۆرس</button></div>
+</article>
+<article class="card course-card">
+<h2 class="course-title">کۆرسی ٢ — مۆرفۆلۆجی و ڕێزمانی کورمانجی</h2>
+<p id="kurmanji2Status">پشکنین...</p><div class="progress"><span id="kurmanji2Bar"></span></div><p id="kurmanji2Text">٠٪ ـی ڕێڕەو تەواو کراوە</p>
+<div class="course-actions"><a id="kurmanji2View" class="primary" href="kurmanji-course-2.html">بینینی کۆرس</a><a id="kurmanji2Learn" href="kurmanji-course-2.html">پلانی ١٢ وانە</a><button id="kurmanji2Enroll" hidden>خۆتۆمارکردن لە کۆرس</button></div>
+</article>
 <article class="card notice" id="verifyNotice" hidden><h2>چالاک‌کردنی هەژمار پێویستە</h2><p>بۆ تۆماربون لە کۆرسەکان، سەرەتا هەژمارەکەت بە ڕێگەی پشت‌ڕاستکردنەوەی نێردراو چالاک بکە.</p><button id="resendVerify" style="padding:9px 13px;border:1px solid #ccd8d3;border-radius:9px;background:#fff;color:#29473d;font-weight:800;cursor:pointer">ناردنەوەی ئیمەیڵی پشت‌ڕاست‌کردنەوە</button><span id="verifyMessage" class="muted"></span></article><article class="card enroll-panel" id="enrollInfo"><div class="enroll-summary-mark">ڕەوش</div><h2>پوختەی بەشداربون</h2><p id="enrollSummary" class="muted">پشکنین...</p></article>
 </section></main>
 <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
@@ -94,7 +104,9 @@ else{
  const authCallback=new URL('auth.html?mode=verified',siteBase).href;
  const COURSES={
   c1:{id:'orthography-kurdik',total:26,status:'course1Status',bar:'course1Bar',text:'course1Text',enroll:'course1Enroll',learn:'course1Learn'},
-  c2:{id:'phonetics-phonology-kurdik',total:32,status:'course2Status',bar:'progressBar',text:'progressText',enroll:'course2Enroll',learn:'course2Learn'}
+  c2:{id:'phonetics-phonology-kurdik',total:32,status:'course2Status',bar:'progressBar',text:'progressText',enroll:'course2Enroll',learn:'course2Learn'},
+  kurmanji1:{id:'kurmanji-course-1',total:26,status:'kurmanji1Status',bar:'kurmanji1Bar',text:'kurmanji1Text',enroll:'kurmanji1Enroll',learn:'kurmanji1Learn',learnHref:'kurmanji-course-1.html'},
+  kurmanji2:{id:'kurmanji-course-2',total:12,status:'kurmanji2Status',bar:'kurmanji2Bar',text:'kurmanji2Text',enroll:'kurmanji2Enroll',learn:'kurmanji2Learn',learnHref:'kurmanji-course-2.html'}
  };
  const $=id=>document.getElementById(id);
  async function load(){
@@ -196,6 +208,18 @@ else{
   }
   await loadCourse(COURSES.c1,null,isOwner);
   await loadCourse(COURSES.c2,null,isOwner);
+  await loadCourse(COURSES.kurmanji1,null,isOwner);
+  await loadCourse(COURSES.kurmanji2,null,isOwner);
+  const requestedCourse=new URLSearchParams(location.search).get('course');
+  const requestedCard=requestedCourse==='kurmanji-course-1'?'kurmanji1Enroll':requestedCourse==='kurmanji-course-2'?'kurmanji2Enroll':null;
+  if(requestedCard){
+    const card=$(requestedCard)?.closest('.course-card');
+    if(card){
+      card.style.outline='3px solid #b99a69';
+      card.style.outlineOffset='3px';
+      card.scrollIntoView({behavior:'smooth',block:'center'});
+    }
+  }
   const {data:enrollments}=await sb.from('enrollments').select('course_id,status,enrolled_at').eq('user_id',user.id);
   const activeEnrollments=(enrollments||[]).filter(e=>e.status==='active'||e.status==='completed');
   $('courseCount').textContent=isOwner?'2':String(activeEnrollments.length);
