@@ -3696,3 +3696,10 @@ This section supersedes the earlier 2026-10-21/22 statements that the current mi
 - Continued reading the same latest migration and confirmed `public.complete_lesson(text,text)` repeats the Course 2 sequence ending at lesson 27. It rejects keys outside that sequence with `INVALID_LESSON`, so lessons 28–32 cannot be completed through this RPC as written.
 - The migration also sets `courses.total_lessons = 27` for `phonetics-phonology-kurdik`, while the current website/catalog scope describes Course 2 as 32 lessons and the site total as 58. This is a second scope/consistency question that must be resolved explicitly: either the approved course scope is 27, or the access RPC, completion RPC, course total, and displayed catalog need one consistent agreed count.
 - This confirms the issue is broader than opening lessons 28–32: sequential access, completion recording, and course completion totals are coupled. No migration was edited or executed; the discrepancy is documented for a future authorized fix and disposable-database test.
+
+### Catalog/index count cross-check — Course 2 (read-only, 2026-10-24)
+
+- Parsed `lessons/index.json` and confirmed its `course-2` entry declares 32 lessons with the final item `course-2-32.html`.
+- Counted unique static Course 2 lesson links in `lessons/catalog.html`; the catalog exposes the 32 lesson wrapper targets, consistent with the 32-lesson entry and `learning.html`'s displayed course count.
+- This cross-check confirms the website-side count is consistently 32; it does not change the previously documented server-side migration mismatch (RPC sequences and `courses.total_lessons` end at 27 in the inspected migration). The mismatch remains unresolved and release-blocking.
+- No source lesson, seed, migration, database, `main`, PR merge, or deployment was modified.
