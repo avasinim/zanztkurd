@@ -4024,3 +4024,12 @@ The script's server-progress sync also filters `lesson_progress` by the supplied
 - Avasin Code pass: Kurdish text includes required forms such as `نوسین`, `پەیویست`, `هەمو`, and `نمونە`; no use of `بڕگە` was found in this lesson. No Latin Kurmanji forms were normalized.
 - No lesson payload was changed. Audit log only. No SQL was executed; no database, `main`, PR #3, or deployment was changed.
 
+
+## Northern Circle — lesson 18 negation review (2026-10-24)
+
+- Reviewed `kurmanji-course-1-lesson-18.html` and the matching row in `docs/kurmanji-content-seed-part-03.sql`. Wrapper title/H1, lesson key, previous/next links (lessons 17/19), and protected `script.js?v=20261019-kurmanji-protected` were verified.
+- The lesson explains present-indicative negation with `na-` replacing `di-` (`Ez dixwînim → Ez naxwînim`, `Ez diçim → Ez naçim`), the irregular `nizanim`, negative copula with `ne`, and negative imperatives with `ne-` (while noting older/regional `me-`). These distinctions are consistent with the consulted grammar references, including Gündoğdu (2015), Haig & Öpengin (2018), and the Kurdi School grammar. Sources: https://academic.oup.com/book/36257/chapter-abstract/316293132 ; https://www.uni-bamberg.de/fileadmin/aspra/06_Team/Publications_and_CV/HaigOepengin2018_Kurmanji_Kurdish_.pdf ; https://kurdischool.com/grammar.html.
+- No definite linguistic error established; dialect variation is explicitly acknowledged and no Latin Kurmanji spellings were changed. Avasin Code review found the project forms `نیە`, `نوسین`, `پەیویست`, `نمونە`, `هەمو`, and `ڕون` used as expected; no `بڕگە` found.
+- Seed row exists (4,187 characters). Migration parity remains unverified because the migration file path returns 404 on the current branch; no unsupported equality claim is made and no lesson/seed payload was edited.
+- Re-read verification confirmed this audit entry, wrapper key/navigation, protected script, and seed row. No SQL was executed; no database, `main`, PR #3, or deployment was changed.
+
