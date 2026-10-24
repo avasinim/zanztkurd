@@ -2741,3 +2741,11 @@ This section supersedes the earlier 2026-10-21/22 statements that the current mi
 - The seed row contains seven weekday labels, time vocabulary, four beginner example sentences, exercises, and dictionary/grammar references. The page body is server-loaded, so the seed row is the content source; no duplicate static lesson body was added.
 - No definite page/key/navigation mismatch was found, so no lesson text or Latin Kurmanji form was changed. This is a structural/content-presence check, not a source-by-source scientific approval of every example.
 - Latest audit commit `b6e00024c6e4c4e0ad881e02dea9b4c954122f89`: all three GitHub Actions workflows (package integrity, lesson navigation, academic catalog) completed successfully. See the run links in the repository Actions history.
+
+## Lesson 17 — basic present-tense verbs (2026-10-24)
+- Cross-checked `kurmanji-course-1-lesson-17.html` against the matching tuple in `docs/kurmanji-content-seed-part-03.sql`.
+- **Structural match:** page title and seed title both identify lesson 17 as `کردار و کاتی ئێستای بنەڕەتی`; `data-lesson-key="kurmanji-course-1-lesson-17.html"` matches the seed key; the page loads the shared `script.js`; previous/next links point to lessons 16 and 18.
+- **Content presence:** seed payload includes the `di-` present-tense pattern, conjugation examples for `xwendin`, common verbs (`çûn`, `kirin`, `nivîsîn`, `xwarin`), basic SOV order, exercises, and grammar references (University of Arizona, Thackston, Kurdi School).
+- **Scientific gate remains open:** this pass verifies page/seed wiring and the presence of sections, not every conjugation, translation, or source claim. In particular, validate the full paradigm and any irregular forms against the cited reference grammar before approving the lesson scientifically. No Latin Kurmanji forms or lesson text were changed.
+- **Avasin orthography:** no safe, definite content correction was made in this structural pass. Preserve the source's Latin Kurmanji spellings; apply Avasin text normalization only where the shared site behavior is intended.
+
