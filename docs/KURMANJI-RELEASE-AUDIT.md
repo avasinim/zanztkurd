@@ -3624,3 +3624,10 @@ This section supersedes the earlier 2026-10-21/22 statements that the current mi
 - This follows the user's explicit Avasin Code requirement to use `هجا`, not `بڕگە`. The existing text-node and attribute normalization mechanism applies the rule to visible text, including dynamically inserted lesson content.
 - No Latin Kurmanji spelling, scientific lesson source, seed, migration, or database value was edited. The rule is source-level verified only; browser behavior was not run in this pass.
 - Confined to `kurmanji-clean-release`; no `main`, PR merge, or deployment was performed.
+
+## Avasin orthography normalization — baraber spelling (2026-10-24)
+
+- Added the explicit visible-text rule `/بەرامبەر/g → بەرابەر` to the shared `script.js` Avasin replacement list, following the project owner's stated orthography.
+- The rule uses the existing text-node/attribute normalizer and therefore also covers visible lesson text inserted after initial page load.
+- This is a spelling normalization only. No Latin Kurmanji forms, source lesson files, seed, migrations, or database values were changed. Browser-level behavior remains untested.
+- Change is limited to `kurmanji-clean-release`; no `main`, database operation, PR merge, or deployment was performed.
