@@ -2771,3 +2771,12 @@ This section supersedes the earlier 2026-10-21/22 statements that the current mi
 - **Content presence:** the seed covers the common SOV pattern, transitive examples (`Ez nan dixwim`, `Tu pirtûkê dixwînî`, `Em kurdî hîn dibin`), intransitive clauses, adjuncts, fronting/emphasis, exercises, and references including Haig (2018), University of Manchester, MELL, and Thackston.
 - **Scientific review limit:** the seed itself qualifies SOV as a common, unmarked pattern rather than an absolute rule and flags fronting examples for contextual/source verification. This pass verifies wiring and section coverage, not a full syntax review or source-by-source validation of each example. No definite structural mismatch was found; no lesson text, seed, migration, or Latin Kurmanji spelling was changed.
 - Re-read the audit file after updating it to verify this entry is present. The protected branch only was changed; no database operation was performed.
+
+
+## Lesson 21 — adjectives and description (2026-10-24)
+
+- Cross-checked `kurmanji-course-1-lesson-21.html` against the matching row in `docs/kurmanji-content-seed-part-03.sql`.
+- **Structural match:** page title and seed title agree (`هاوەڵناو و وەسفکردن`); `data-lesson-key="kurmanji-course-1-lesson-21.html"` matches the seed key; the shared `script.js` is loaded; previous/next links point to lessons 20 and 22.
+- **Content presence:** the seed covers adjective meaning, common descriptive vocabulary, noun–adjective order and ezafe, adjective use in noun phrases versus clauses, exercises, and references including Haig (2018), the University of Arizona, and Thackston.
+- **Scientific review flags:** the exact segmentation and interpretation of forms such as `bajar-ek-î mezin`, `maleke biçûk`, and `kum-ên reş` should be checked against the cited grammar and its orthographic/morphological conventions before scientific approval. The lesson itself labels some forms as source-based or instructional examples, but this structural pass does not independently validate those claims. No definite page/seed wiring mismatch was found; no lesson text, seed, migration, or Latin Kurmanji form was changed.
+- The audit file was re-read after the update to verify this entry. Only the protected branch was modified; no database operation was performed.
