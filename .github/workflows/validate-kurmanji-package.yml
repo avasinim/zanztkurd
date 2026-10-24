@@ -5,6 +5,7 @@ on:
     branches: ["kurmanji-test-config", "kurmanji-clean-release"]
     paths:
       - "kurmanji-course-*.html"
+      - "dashboard.html"
       - "learning.html"
       - "lessons/catalog.html"
       - "script.js"
@@ -15,6 +16,7 @@ on:
       - "scripts/validate_kurmanji_seed_parity.py"
       - "scripts/test_north_circle_ui.py"
       - "docs/KURMANJI-RELEASE-AUDIT.md"
+      - "docs/KURMANJI-STUDENT-ACCESS-AUDIT.md"
       - ".github/workflows/validate-kurmanji-package.yml"
   pull_request:
     branches: ["main"]
