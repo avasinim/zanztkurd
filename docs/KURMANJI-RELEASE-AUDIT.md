@@ -3091,3 +3091,20 @@ This section supersedes the earlier 2026-10-21/22 statements that the current mi
 
 ### Result
 **Status: lesson identity, navigation, vowel inventory, examples, and core orthographic distinctions verified; audit record only.**
+
+
+## Source review — course 1, lesson 02: Hawar alphabet (2026-10-24)
+
+### Static page and seed comparison
+- Read `kurmanji-course-1-lesson-02.html` and its matching row in `docs/kurmanji-content-seed-part-01.sql` on `kurmanji-clean-release`.
+- The page and seed titles match: **ئەلفبێی هاوار و ٣١ پیتەکەی**. The page's `data-lesson-key` matches the lesson key, `script.js?v=20261019-kurmanji-protected` is loaded, and navigation links point to lessons 01 and 03.
+- The displayed alphabet has 31 letters in the standard order: `A B C Ç D E Ê F G H I Î J K L M N O P Q R S Ş T U Û V W X Y Z`. This agrees with the University of Arizona, Yari, and other alphabet references. https://iranian-languages.arizona.edu/node/7 ; https://yari.krd/learn/kurmanji-alphabet/
+- The lesson correctly identifies the five marked letters as `ç, ê, î, ş, û` and explains that letter and sound are not identical concepts. The source reference lists 8 vowel letters and the distinctions `e/ê`, `i/î`, and `u/û`.
+
+### Qualification and outcome
+- The lesson's statement that removing a diacritic changes the official spelling is a sound general teaching point; specific words still need to retain their conventional spelling and cannot be inferred from the diacritic alone.
+- No definite error was established in the alphabet inventory, order, page/seed identity, or navigation. No lesson HTML or seed edits were warranted; Latin Kurmanji forms were preserved.
+- No migration, database, production branch, or `main` changes were made.
+
+### Result
+**Status: alphabet inventory/order, lesson identity, and navigation verified; audit record only.**
