@@ -2891,3 +2891,20 @@ This section supersedes the earlier 2026-10-21/22 statements that the current mi
 - The demonstratives `ev` (“this/these”) and `ew` (“that/those”) are supported as the basic proximal/distal forms. Their surface realization and case behavior in full noun phrases must still be read in context; the lesson already cautions that oblique constructions can change the forms.
 - Sources: Haig (2018), [“Northern Kurdish (Kurmanjî),” §2.3 and Table 7](https://multicast.aspra.uni-bamberg.de/data/pubs/Haig2018_Northern-Kurdish_Kurmanji.pdf); University of Arizona, [Kurmanji Kurdish — Nouns and Pronouns](https://iranian-languages.arizona.edu/node/7).
 - **Result:** the core `-ek` and direct/oblique claims are supported by grammar sources. This is a focused check, not a complete validation of all possible noun phrases or dialects. No lesson text, seed row, migration, Latin Kurmanji form, or database was changed.
+
+
+## Source cross-check — lesson 21: adjectives and ezafe (2026-10-24)
+
+- Compared the lesson's noun–adjective order and cited examples with Haig (2018), “Northern Kurdish (Kurmanjî),” §2.3 and §2.3.1, and Haig & Öpengin (2018), “Kurmanji Kurdish in Turkey.”
+- Haig explicitly describes descriptive adjectives as following the noun and normally occurring with ezafe; the grammar sketch gives `bajar-ek-î mezin` (“a big town”) and `kum-ên … reş` (“black hats …”) as examples. This corroborates the lesson's central order and the examples `bajar-ek-î mezin` and `kum-ên reş`.
+- The sources also note variation in ezafe forms, particularly after indefinite `-ek`, and differences across dialects. The lesson appropriately warns against applying one ending to all nouns. The lesson's examples `bajarê mezin` and `maleke biçûk` should still be taught as context-sensitive surface forms, not universal templates.
+- Sources: Haig (2018), [“Northern Kurdish (Kurmanjî),” §2.3–2.3.1](https://multicast.aspra.uni-bamberg.de/data/pubs/Haig2018_Northern-Kurdish_Kurmanji.pdf); Haig & Öpengin (2018), [“Kurmanji Kurdish in Turkey,” ezafe discussion](https://www.uni-bamberg.de/fileadmin/aspra/06_Team/Publications_and_CV/HaigOepengin2018_Kurmanji_Kurdish_.pdf).
+- **Result:** noun–adjective order and the source-cited ezafe patterns are supported. Dialect and indefinite-noun variation remain important; no lesson text, seed row, migration, Latin Kurmanji form, or database was changed.
+
+## Source cross-check — lesson 18: verbal, copular and imperative negation (2026-10-24)
+
+- Re-read the exact seed content and checked it against Songül Gündoğdu (2015), “Negation in Kurmanji,” and the Êzdîxan grammar tables, which summarize the standard present-tense `na-/ni-` patterns, copular/preterite `ne-`, and imperative/subjunctive `ne-` with older or regional `me-` variants.
+- The lesson's main point that present negation blocks the affirmative `di-` prefix is consistent with the published analysis of Kurmanji negation morphology. The special form `Ez nizanim` is also explicitly noted by the grammar tables.
+- The lesson already includes a qualification that `me-` occurs in some older/regional uses (e.g. `me-ke!`) and does not claim all dialects are identical. This caveat should be retained. The example `Ez ne mamosteyek im` is marked in the lesson as introductory and spelling-sensitive; the available source check does not establish a definite error in that example.
+- Sources: Gündoğdu (2015), [“Negation in Kurmanji,” Oxford University Press](https://doi.org/10.1093/acprof:oso/9780190210434.003.0007); Êzdîxan, [Grammar Tables — Negation and Modal Constructions](https://ezdixan.de/en/wiki/grammatik); Thackston, [*Kurmanji Kurdish: A Reference Grammar with Selected Readings*](https://sites.fas.harvard.edu/~iranian/Kurmanji/kurmanji_complete.pdf).
+- **Result:** the principal negation patterns and dialect qualification are supported at the grammar-reference level. Full dialect-specific paradigms and the copular example need a deeper source check before any content edit; no lesson text, seed row, migration, Latin Kurmanji form, or database was changed.
