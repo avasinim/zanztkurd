@@ -3174,3 +3174,13 @@ This section supersedes the earlier 2026-10-21/22 statements that the current mi
 - **Routing evidence:** `learning.html` on `kurmanji-clean-release` routes the selected course-1 option to `kurmanji-course-1.html`. The corresponding main-branch page does not contain that route, consistent with the deployed site using an older release.
 - **Disposition:** Release/deployment blocker. Do not patch around the missing page by changing links to unrelated lesson pages. Do not copy the protected branch to `main`, merge PR #3, deploy, or modify production Supabase as part of this diagnosis. The protected branch's static route fix is not live until an explicitly authorized coordinated release; database/RPC and student-access release gates remain open.
 - **Verification scope:** Read-only comparison of `main` and `kurmanji-clean-release` file availability and course-selection routing. No browser runtime, student-account, production database, or live deployment configuration was changed.
+
+## Static audit of all 38 Kurmanji lesson wrappers — 2026-10-24
+
+- Inspected all 26 course-1 wrappers (`kurmanji-course-1-lesson-01.html` through `-26.html`) and all 12 course-2 wrappers (`kurmanji-course-2-lesson-01.html` through `-12.html`) on `kurmanji-clean-release`.
+- All 38 files were retrievable from the protected branch. Each inspected wrapper has a non-empty `<title>`, the expected exact `data-lesson-key` matching its filename, and loads the shared `script.js?v=20261019-kurmanji-protected`.
+- Previous/next navigation is sequential across the inspected wrappers: course 1 lessons 01–26 link to their adjacent lesson(s), with lesson 01 having no previous lesson and lesson 26 having no next lesson; course 2 lessons 01–12 follow the same boundary behavior.
+- The visible titles inspected in each wrapper align with the corresponding course landing-page lesson list for the sampled/compared titles. This static pass does not verify that the deployed `main` branch contains these files, that the seed content renders at runtime, or that authenticated Supabase reads/progress writes work.
+- No wrapper, scientific lesson content, seed, migration, `main`, production database, or PR state was changed by this audit.
+- **Result:** Static wrapper identity, shared-script reference, and adjacent navigation pass for all 38 lesson pages on the protected branch. Live 404 and authenticated runtime checks remain release blockers.
+
