@@ -2749,3 +2749,10 @@ This section supersedes the earlier 2026-10-21/22 statements that the current mi
 - **Scientific gate remains open:** this pass verifies page/seed wiring and the presence of sections, not every conjugation, translation, or source claim. In particular, validate the full paradigm and any irregular forms against the cited reference grammar before approving the lesson scientifically. No Latin Kurmanji forms or lesson text were changed.
 - **Avasin orthography:** no safe, definite content correction was made in this structural pass. Preserve the source's Latin Kurmanji spellings; apply Avasin text normalization only where the shared site behavior is intended.
 
+## Lesson 18 — negation in simple sentences (2026-10-24)
+- Cross-checked `kurmanji-course-1-lesson-18.html` against the matching row in `docs/kurmanji-content-seed-part-03.sql`.
+- **Structural match:** page and seed title agree (`نەفی لە ڕستەی سادەدا)); `data-lesson-key="kurmanji-course-1-lesson-18.html"` matches the seed key; shared `script.js` is loaded; previous/next links point to lessons 17 and 19.
+- **Content presence:** the seed includes present-tense verbal negation with `na-`, the special negative form `Ez nizanim`, nominal/copular negation examples, negative imperative examples using `ne-`, exercises, and cited academic references including Gündoğdu (2015), Haig (2018), and Thackston.
+- **Scientific review flag:** the page itself acknowledges variation, but the exact segmentation/spelling of `Ez ne mamosteyek im`, the scope of `ne-` versus `me-` in negative imperatives, and the generalizations across dialects need explicit verification against the cited references before the lesson is marked scientifically approved. This is not a confirmed error, so no scientific text was changed.
+- No Latin Kurmanji spellings, seed content, or migration content were changed in this pass.
+
