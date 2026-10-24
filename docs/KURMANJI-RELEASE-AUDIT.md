@@ -3761,5 +3761,5 @@ This section supersedes the earlier 2026-10-21/22 statements that the current mi
 
 - Rechecked the current course-plan page, lesson wrapper, and seed-backed title after noticing that the earlier audit entry described a title variant that did not match the actual current file contents.
 - Applied the Avasin spelling `پێداچونەوە و هەڵسەنگاندنی کۆتایی` consistently to the visible course-plan link, lesson 26 wrapper heading, and the seed row's title field. This follows the project's stated preference to avoid `وو` in Sorani project text.
-- The edit is limited to the title phrase in those three files. It does not alter Latin Kurmanji forms, lesson scientific content, progression, migration SQL, database state, or production.
+- The edit is limited to the title phrase in the course-plan page, lesson wrapper, seed row, and matching migration row. The migration title was updated only to preserve exact seed/migration row parity; no migration logic, Latin Kurmanji forms, lesson scientific content, or progression rules changed. No database or production operation was performed.
 - Re-read verification completed after the edits: all three updated files contain the Avasin title phrase, and none of those three files contains the former title phrase. This is an orthographic consistency correction, not a scientific-content approval.
