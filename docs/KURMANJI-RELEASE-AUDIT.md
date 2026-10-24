@@ -3771,3 +3771,11 @@ This section supersedes the earlier 2026-10-21/22 statements that the current mi
 - Corrected only that meta-description word in `kurmanji-course-1-lesson-26.html`; no lesson body, Latin Kurmanji spelling, seed, migration, navigation, or progression logic was changed.
 - Re-read verification: the wrapper contains the Avasin form in its visible heading and meta description, and the former meta-description phrase is absent. Seed/migration parity was independently rechecked in this audit pass: 38 rows in each source, 38 unique keys each, no missing/extra keys, and all 38 SQL tuples match exactly in order.
 - This was a static source fix on `kurmanji-clean-release` only. No `main`, PR #3, deployment, migration execution, or database write was performed.
+
+
+## Follow-up: seed orthography parity cleanup (2026-10-24)
+
+- A focused scan of the five split Kurmanji seed files found remaining Avasin Code spellings in Course 2 content: `پێویست` (2 occurrences), `ڕوون` (1), and `نووسین` (2). These were orthographic variants only, not changes to linguistic claims or Latin Kurmanji examples.
+- Corrected those spellings to `پەیویست`, `ڕون`, and `نوسین` in `docs/kurmanji-content-seed-part-04.sql` / `docs/kurmanji-content-seed-part-05.sql`, and applied the exact same replacements to the corresponding migration payload. No static lesson body, Latin Kurmanji form, RPC logic, course sequence, or database was changed.
+- Re-read and re-parsed the SQL tuple structure after the edits: migration = 38 tuples, seed package = 38 tuples, 38 unique keys in each, no missing/extra keys, and exact tuple-by-tuple parity remains intact. The targeted forbidden spellings now have zero occurrences across the five seed files.
+- This was a source-only correction on `kurmanji-clean-release`. PostgreSQL parser execution was not available in this pass, so full grammar-level SQL validation remains pending; no migration was run, no database was changed, and `main` / PR #3 / production deployment were untouched.
