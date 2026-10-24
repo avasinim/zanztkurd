@@ -3536,3 +3536,10 @@ This section supersedes the earlier 2026-10-21/22 statements that the current mi
 - Re-read `lessons/course-2-26.html` on `kurmanji-clean-release`. The visible title/H1 identify lesson 26 (“ڕێسا، نواندنی ژێرەوەیی، بێ‌لایەن‌بون و لێکچوون”); `data-lesson-key="course-2-26.html"` matches the filename; previous/next links point to lessons 25/27; and the shared `../script.js` include is present.
 - Noted a presentational inconsistency for follow-up: `.lesson-nav` defines a two-column grid although the navigation contains three links. This makes the third link wrap to a second row at wider widths. Left the lesson HTML unchanged in this audit pass to avoid an unrequested style edit.
 - Scope limitation: this static wrapper check does not verify seed/database body, scientific source accuracy, browser rendering, or authenticated access. No seed, migration, database, `main`, PR merge, or deployment was changed.
+
+
+## Integrated static check — phonology course lesson 27 wrapper (2026-10-24)
+
+- Re-read `lessons/course-2-27.html` on `kurmanji-clean-release`. The visible title/H1 identify lesson 27 (“لێکنەچوون، تێچوون و جێگۆڕکێی دەنگ”); `data-lesson-key="course-2-27.html"` matches the filename; previous/next links point to lessons 26/28; and the shared `../script.js` include is present.
+- The same presentation inconsistency noted in lesson 26 appears here: `.lesson-nav` uses a two-column grid for three links. Logged as a cross-lesson style follow-up; left HTML/CSS unchanged during this audit pass.
+- Scope limitation: this static wrapper check does not verify seed/database body, scientific source accuracy, browser rendering, or authenticated access. No seed, migration, database, `main`, PR merge, or deployment was changed.
