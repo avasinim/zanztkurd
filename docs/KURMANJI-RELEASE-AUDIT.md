@@ -3823,3 +3823,15 @@ The 12 morphology lessons in the Kurmanji seed/migration must not be substituted
 The current Kurmanji seed package contains 38 rows in total (26 basic orthography + 12 morphology). This package does not contain the 32 Central Circle phonetics/phonology lesson bodies; that is a scope distinction, not proof that the Kurmanji course has a defect. Audit the Central Circle content source separately and verify its own course ID, lesson keys, content availability, and progress flow without mixing it with the Kurmanji release.
 
 This clarification supersedes the previous heading's implication that the different course keys alone constituted a defect. Static wrapper checks do not prove runtime content loading. No production database, `main`, merge, or deployment was changed.
+
+
+## Course-route separation check (2026-10-24)
+
+Read-only inspection of `script.js` on `kurmanji-clean-release` confirms distinct routing/progress definitions for the Kurmanji and Central Circle paths:
+
+- `kurmanji-course-1-lesson-NN.html` maps to `kurmanji-course-1`, with 26 lesson keys and local fallback storage `avasin_kurmanji_course1_completed_v1`.
+- `kurmanji-course-2-lesson-NN.html` maps to `kurmanji-course-2`, with 12 lesson keys and local fallback storage `avasin_kurmanji_course2_completed_v1`.
+- `course-2-NN.html` maps to `phonetics-phonology-kurdik`, with a 32-lesson sequence and separate local fallback storage `zanztkurd_course2_completed_v2`.
+- Other protected numbered orthography pages map to `orthography-kurdik`; they are not mapped to either Kurmanji course ID.
+
+The script's server-progress sync also filters `lesson_progress` by the supplied `course_id`, so the course identifier is part of the separation. This is static code inspection, not a live end-to-end test of every student's enrollment/access state. Do not merge these course IDs or reuse one course's content for another. No production database, `main`, merge, or deployment was changed.
