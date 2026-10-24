@@ -3755,3 +3755,11 @@ This section supersedes the earlier 2026-10-21/22 statements that the current mi
 - With the enrolled non-owner's UUID temporarily set as the request JWT subject inside a single SQL statement, `can_read_lesson_content` returned true for lesson 01 and false for lessons 02 and 26, consistent with the current empty progress for that student. A simulated call to `complete_lesson('kurmanji-course-1','kurmanji-course-1-lesson-01.html')` returned `active`, `completed_count = 1`, `total_lessons = 26`; the call was wrapped in `BEGIN ... ROLLBACK`, so the smoke test was not intended to persist a completion row.
 - **Limitations:** the SQL editor runs with elevated database privileges; this does not reproduce a browser request under the authenticated role, prove SELECT RLS behavior, or validate actual Supabase Auth sessions. It also does not validate every student journey or the production database. A disposable authenticated-browser test remains required before release.
 - No lesson content, seed, migration, `main`, PR merge, production database, or deployment was changed. Only this audit note is added to `kurmanji-clean-release`.
+
+
+## Avasin orthography correction — Course 1 lesson 26 title (2026-10-24)
+
+- Rechecked the current course-plan page, lesson wrapper, and seed-backed title after noticing that the earlier audit entry described a title variant that did not match the actual current file contents.
+- Applied the Avasin spelling `پێداچونەوە و هەڵسەنگاندنی کۆتایی` consistently to the visible course-plan link, lesson 26 wrapper heading, and the seed row's title field. This follows the project's stated preference to avoid `وو` in Sorani project text.
+- The edit is limited to the title phrase in those three files. It does not alter Latin Kurmanji forms, lesson scientific content, progression, migration SQL, database state, or production.
+- Re-read verification is pending in this audit entry until the updated files are fetched and checked. This is an orthographic consistency correction, not a scientific-content approval.
