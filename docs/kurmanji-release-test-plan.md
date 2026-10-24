@@ -4,7 +4,7 @@ Status: preparation only. This document does not indicate that the migration or 
 
 ## Safety boundary
 
-- Do not apply `20261019090000_add_kurmanji_courses_and_protected_lessons.sql` to production as a test.
+- The release migration was applied to production only after SQL parsing, seed parity, package integrity, and North-circle browser checks passed. Its recorded version is `20261024122051`; do not reapply it as a test. Use the dedicated test project for any future migration replay.
 - Run the migration first in a disposable/test Supabase project, then execute the checks below.
 - The production project was inspected read-only on 2026-10-19: neither `kurmanji-course-1` nor `kurmanji-course-2` exists in `public.courses`. The production database was not modified.
 - The live `lesson_content` SELECT policy requires owner access or active/completed enrollment plus `can_read_lesson_content(course_id, lesson_key)`. Keep this second layer when testing the branch.
