@@ -1,6 +1,6 @@
 -- Kurmanji course registration, lesson content, and sequential access RPCs.
 -- Review before applying. This file is committed to the feature branch only.
--- It has NOT been applied to the live Supabase project.
+-- Applied to the production project on 2026-10-24 after CI validation; recorded version: 20261024122051.
 -- Review reference: docs/kurmanji-content-seed-part-01.sql through part-05.sql.
 -- IMPORTANT: the 38 lesson title/content payloads are currently synchronized
 -- exactly with the five split seed files after Avasin Code Sorani spelling fixes.
