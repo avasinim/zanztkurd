@@ -3022,3 +3022,20 @@ This section supersedes the earlier 2026-10-21/22 statements that the current mi
 
 ### Result
 **Status: static page/seed alignment verified; the core phrase examples and variation caveat are supported by learning references. The title's scope is somewhat broader than the lesson content, so consider a title/content decision during a later course-wide consistency pass.** No automatic content rewrite was made.
+
+
+## Source review — course 1, lesson 06: reading and writing simple words (2026-10-24)
+
+### Static page and seed comparison
+- Read `kurmanji-course-1-lesson-06.html` and the matching `kurmanji-course-1-lesson-06.html` row in `docs/kurmanji-content-seed-part-01.sql` on `kurmanji-clean-release`.
+- The page and seed titles match: **خوێندنەوە و نوسینی وشەی سادە**. The page's `data-lesson-key` matches the seed key, `script.js?v=20261019-kurmanji-protected` is loaded, and navigation links point to lessons 05 and 07.
+- Seed content includes the intended reading/writing sequence, vocabulary table, writing exercises, self-check and references.
+
+### Source cross-check and issues
+- The University of Arizona's Kurmanji phonology/orthography reference confirms examples including `av` “water”, `dil` “heart”, `lêv` “lip”, `çak` “good”, `şaş` “wrong”, `roj` “day”, and the distinct vowel letters `i/î`, `u/û`, `e/ê`. https://iranian-languages.arizona.edu/node/7
+- Haig's chapter on Northern Kurdish provides additional examples including `lêv` “lip”, `av` “water”, and contrasts among written vowel categories. https://multicast.aspra.uni-bamberg.de/data/pubs/Haig2018_Northern-Kurdish_Kurmanji.pdf
+- The listed forms and central lesson objective are broadly supported. The source list includes Thackston (2006), but the lesson's particular glosses should still be checked against a dictionary or the cited grammar when doing a full lexical proofread; this audit does not claim every gloss was independently confirmed.
+- No definite content error was established that warrants editing the lesson or seed. No Latin Kurmanji spellings were normalized.
+
+### Result
+**Status: page/seed title, lesson key, navigation and content structure verified; core examples and vowel distinctions source-supported.** Audit record only; no lesson HTML, seed, migration, database or production branch changed.
