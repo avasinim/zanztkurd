@@ -3288,3 +3288,21 @@ This section supersedes the earlier 2026-10-21/22 statements that the current mi
 
 ### Result
 **General adjective position and ezafe as the noun–adjective linker: corroborated. Individual inflected noun phrases and glosses: partially verified and still open.** No lesson body, seed tuple, migration, database, or production branch was changed. This is a source-level review only, not runtime/security certification.
+
+## Source review — course 1, lesson 22: comparative and superlative adjectives (2026-10-24)
+
+### What is corroborated
+- The comparative is commonly formed with **-tir**, and **ji** introduces the comparison standard: **Meyrem ji birayê xwe mezintir e** (“Meyrem is older than her brother”). This exact example appears in *Kurmanji Kurdish, Lesson 6*, section B.
+- The lesson’s **baş → baştir**, **mezin → mezintir/meztir**, and **dirêj → dirêjtir** examples are supported by learner/reference grammars. Some adjectives have alternate or irregular comparative forms, e.g. **baş → çêtir/baştir**, **pir → bêtir/pirtir**, and **mezin → meztir/mezintir**.
+- Two common superlative strategies are documented: **herî + adjective** (e.g. **herî baş**) and the suffix **-tirîn** (e.g. **mezintirîn**). The **-tirîn** form is placed before the noun it modifies, unlike the usual post-nominal adjective in an ezafe phrase.
+- Sources checked: [*Kurmanji Kurdish, Lesson 6*, sections B–C](https://www.kurdipedia.org/files/books/2023/474430.PDF); [Thackston, *Kurmanji Kurdish: A Reference Grammar with Selected Readings*, §10](https://www.kurdishacademy.org/?page_id=623); [Karacan & Khalid (2016), “Adjectives in Kurdish language: Comparison between dialects”](https://dergipark.org.tr/en/pub/ijoks/article/259420); [Êzdîxan, “Grammar Tables — Adjective Comparison”](https://ezdixan.de/en/wiki/grammatik).
+
+### Items still requiring editorial verification
+- The phrase **“herî kêmtir”** in the lesson’s table mixes two comparative-degree markers and should not be taught as a standard superlative without a source. A clearer beginner contrast is **kêmtir** (“less”) versus **herî …** (“most”) in separate constructions.
+- The example **“Meyrem ji birayê xwe mezintir e”** is a valid comparative pattern, but the Sorani gloss should specify “مەریەم لە براکەی خۆی گەورەترە/تەمەن‌گەورەترە” according to the intended meaning; do not silently conflate physical size and age.
+- The entry **“mezintir bajar”** should not be treated as a verified superlative: for the intended meaning “the biggest city,” check a sourced construction such as **mezintirîn bajar** or **bajarê herî mezin**, with the full noun-phrase syntax reviewed.
+- Some examples and labels mix “superlative” with “more/less” degree adverbs; these should be separated pedagogically. No content edit was made because the audit instruction requires definite, evidence-backed fixes only.
+- The bibliography should provide pinpoint references for the specific forms and state that usage can vary by dialect/source.
+
+### Result
+**The core comparative and the two common superlative strategies: corroborated. The phrase “herî kêmtir”, some noun-phrase examples, and the Sorani gloss distinctions: flagged for correction/review.** No lesson body, seed tuple, migration, database, or production branch was changed. This is a source-level review, not runtime/security certification.
