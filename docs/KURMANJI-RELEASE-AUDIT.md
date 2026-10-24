@@ -4130,3 +4130,12 @@ The script's server-progress sync also filters `lesson_progress` by the supplied
 - This is a confirmed release-consistency gap, not proof that one side is automatically correct. The seed files are explicitly draft data seeds and current repository notes say content should be reviewed before installation. Do not overwrite the test database or alter scientific content just to make the strings equal. Next safe step is to compare each discrepant row with its static wrapper and the source-backed lesson audit, then decide which side is authoritative and document any intentional difference.
 - Read-only comparison only: no SQL writes or migrations, no production project, no `main`, no PR merge, and no deployment.
 
+
+## Follow-up: authority check for the 9 discrepant Course 1 rows (read-only, 2026-10-24)
+
+- Rechecked the static wrappers, seed titles, and test-database titles for all nine mismatches.
+- For lessons 01–06 and 25, wrapper title = seed title = database title. Their HTML bodies still differ between seed and test DB; this is a body-level discrepancy and must be reviewed against the lesson-specific source/audit before any replacement.
+- Lesson 07 is a definite seed metadata mismatch: the static wrapper and test DB title are `ڕێنووسی وشە باوەکان`, while the draft seed says `خشتەی ئەلفبێ و نیشانە فۆنێتیکییەکان`. Because the draft seed comments say it was extracted from current static pages, this seed row is stale or incorrectly mapped. Do not blindly replace the whole body: verify the lesson 07 source/audit and rebuild this draft row from the approved content.
+- Lesson 26: wrapper and seed title are `پێداچونەوە و هەڵسەنگاندنی کۆتایی`; test DB title is `پێداچوونەوە و هەڵسەنگاندنی کۆتایی`. The HTML body matches exactly. This is a confirmed title-only orthography difference; apply Avasin Code only after the project’s canonical title spelling is confirmed, then keep wrapper, seed and DB metadata aligned.
+- No content or database changes made. The seed files are marked DRAFT and explicitly caution against installation before review. No SQL writes/migrations, production DB, `main`, PR merge or deployment.
+
