@@ -2,9 +2,10 @@
 -- Review before applying. This file is committed to the feature branch only.
 -- It has NOT been applied to the live Supabase project.
 -- Review reference: docs/kurmanji-content-seed-part-01.sql through part-05.sql.
--- IMPORTANT: the split seed package and this migration are not byte-identical;
--- explanatory Sorani text has orthographic normalization in this migration.
--- Verify semantic examples and source wording lesson-by-lesson before release.
+-- IMPORTANT: the 38 lesson title/content payloads are currently synchronized
+-- exactly with the five split seed files after Avasin Code Sorani spelling fixes.
+-- Keep seed and migration payloads coordinated; verify any future Latin Kurmanji
+-- or scientific-content edits against the cited source before release.
 
 BEGIN;
 
