@@ -3978,3 +3978,13 @@ The script's server-progress sync also filters `lesson_progress` by the supplied
 - Migration limitation remains: fetching the migration by branch ref `kurmanji-clean-release` returns 404, while the historical snapshot contains matching rows. Do not perform a one-sided seed change or claim the pending lesson-10 `Êvarbaş!` update is complete. Resolve the branch-level migration state before coordinated updates.
 - This audit-only step does not modify lesson HTML, seed, migration, database, `main`, PR #3, or deployment.
 
+
+## Northern Circle — lesson 13 numbers 1–20 review (2026-10-24)
+
+- Reviewed `kurmanji-course-1-lesson-13.html`, the complete lesson-13 seed row in `docs/kurmanji-content-seed-part-02.sql`, and the matching row in the migration snapshot at `4220345b2174cab47338c35f5d7d887239ed00ac`.
+- Re-read verification: seed and migration rows match exactly (3,731 characters). Page title/H1 are `ژمارەکان ١–٢٠`; `data-lesson-key` is `kurmanji-course-1-lesson-13.html`; previous/next links point to lessons 12/14; protected script reference is intact.
+- Source comparison: the cardinal forms `yek, du, sê, çar, pênc, şeş, heft, heşt, neh, deh, yanzdeh, diwanzdeh, sêzdeh, çardeh, panzdeh, şanzdeh, hevdeh, hejdeh, nozdeh, bîst` align with the documented Northern Kurdish forms in Omniglot and Haig (2018), with acknowledged variants especially around 11–16. The lesson explicitly tells learners that sources differ and that source spelling should be kept consistent; this is appropriate. Sources reviewed: Omniglot (Northern Kurmanji numbers) and Haig, “Northern Kurdish (Kurmanjî),” §2.4 Numerals.
+- One sentence-level grammar point in the examples, `Ez du pirtûkan dixwînim`, may merit further review against a grammar source for the interaction of numerals, noun number, and oblique object marking. Available evidence in this pass was insufficient to classify it as definitely wrong, so it was not changed. The other number examples were not edited without stronger evidence.
+- Avasin orthography check: preferred forms `نوسین`, `نمونە`, `پەیویست`, `ڕون` were preserved in the explanatory text. Latin Kurmanji spellings were not normalized or changed.
+- This step updates only the audit document. No SQL was executed; no database, `main`, PR #3, or deployment was changed. The branch-level migration fetch still returns 404, so only the available snapshot was used for static parity verification.
+
