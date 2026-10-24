@@ -3879,3 +3879,12 @@ The script's server-progress sync also filters `lesson_progress` by the supplied
 - Added the 8-vowel / 23-consonant classification, explicit handling of the five marked letters, notes on preserving diacritics in digital text/search, alphabetic ordering and indexing, and guided review exercises.
 - Preserved the existing lesson key, course ID, title, lesson order and wrapper. Seed and migration lesson-2 rows were compared for exact parity before commit.
 - Scope remains Northern Circle only. No database writes, migration execution, deployment, or changes to `main`.
+
+
+## Northern Circle — lesson 3 vowel table and source review (2026-10-24)
+
+- Rechecked the actual lesson-3 source row and static wrapper on `kurmanji-clean-release`; the wrapper title, lesson key, previous/next links, and `script.js` reference were already consistent, so the HTML wrapper was left unchanged.
+- Checked the vowel table against the University of Arizona Iranian Languages page. Added the source's eight orthographic vowel-to-IPA correspondences and preserved its lexical examples: `qaz` (goose), `belg` (leaf), `lêv` (lip), `dil` (heart), `hîn` (still), `nod` (ninety), `qul` (hole), and `bûz` (ice). The Sorani/Kurdish glosses are explicitly presented as learner aids, not as a replacement for the source's English glosses.
+- Clarified the distinction between orthographic letters and IPA, and included the source's caveat that the vowel written `e` may have [ə]/[ɛ] realizations across varieties. Added guided comparison and spelling-preservation exercises without treating one pronunciation as universal.
+- Updated the lesson-3 row identically in the draft seed and matching migration payload. This is a source-file edit only; no SQL was executed and no database was written.
+- Re-read verification is required after the file updates. No `main`, PR #3, production database, or deployment changes are authorized.
