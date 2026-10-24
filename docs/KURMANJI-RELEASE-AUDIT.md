@@ -3997,3 +3997,12 @@ The script's server-progress sync also filters `lesson_progress` by the supplied
 - Sample sentences are suitable for introductory vocabulary practice; no definite scientific or Latin spelling error was established. The Sorani rendering `سپێ` for `spî` may be reviewed against the academy's preferred Sorani spelling in a future orthographic sweep, but this pass does not silently normalize it without a project-specific decision. The rest of the text was checked against Avasin Code preferences; Latin Kurmanji forms were preserved.
 - No lesson payload was changed. This step updates only the audit log. No SQL was executed; no database, `main`, PR #3, or deployment was changed. The migration remains unavailable by branch ref (404), so parity is checked against the known commit snapshot only.
 
+
+## Northern Circle — lesson 15 family vocabulary review (2026-10-24)
+
+- Reviewed `kurmanji-course-1-lesson-15.html`, the complete lesson-15 seed row in `docs/kurmanji-content-seed-part-02.sql`, and the corresponding row in migration snapshot `4220345b2174cab47338c35f5d7d887239ed00ac`.
+- Re-read verification: seed and snapshot migration rows match exactly (3,727 characters). Title/H1 are `وشەکانی خێزان`; lesson key is `kurmanji-course-1-lesson-15.html`; navigation points to lessons 14/16; protected `script.js?v=20261019-kurmanji-protected` reference is intact.
+- Scientific/lexical review: `malbat`, `dayik`, `bav`, `kur`, `keç`, `bira`, `xwişk`, `mêr`, `jin`, and `zarok` are consistent with basic Kurmanji family vocabulary. The lesson appropriately flags that `kal` and `pîrik` can require contextual or regional checking rather than presenting every kinship gloss as universally fixed. The examples `dayika min`, `bavê min`, `birayê min`, `xwişka min`, and `Ez bi malbata xwe re dijîm` are pedagogically plausible; no definite error was established that justifies changing the lesson.
+- Avasin Code check: the Sorani explanatory layer was checked for preferred spellings such as `نوسین`, `ڕون`, `پەیویست`, `فێربون`, and `نمونە`. Latin Kurmanji spellings and diacritics were preserved.
+- No lesson content was modified. Only the audit document is updated. No SQL was executed; no database, `main`, PR #3, or deployment was changed. Migration parity refers to the known snapshot only because branch-ref fetch still returns 404.
+
