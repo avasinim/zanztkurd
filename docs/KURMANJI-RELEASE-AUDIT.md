@@ -3184,3 +3184,11 @@ This section supersedes the earlier 2026-10-21/22 statements that the current mi
 - No wrapper, scientific lesson content, seed, migration, `main`, production database, or PR state was changed by this audit.
 - **Result:** Static wrapper identity, shared-script reference, and adjacent navigation pass for all 38 lesson pages on the protected branch. Live 404 and authenticated runtime checks remain release blockers.
 
+## Migration/seed exact-row parity recheck — 2026-10-24
+
+- Read the five split seed files (`docs/kurmanji-content-seed-part-01.sql` through `-part-05.sql`) and the Kurmanji protected-content migration on `kurmanji-clean-release`.
+- Independently extracted the `INSERT INTO public.lesson_content ... VALUES ... ON CONFLICT` tuples while respecting SQL single-quoted strings and doubled quote escapes.
+- **Result:** 38 migration tuples and 38 seed tuples; all 38 keys unique; tuple contents and ordering match exactly, in the expected order of course 1 lessons 01–26 followed by course 2 lessons 01–12.
+- This establishes source-file parity only. It does not prove the migration has been applied to the intended database, that live rows are correct, or that student authorization/progress flows work at runtime.
+- No SQL was executed against any database, and no migration, seed content, `main`, production database, or PR merge was changed by this recheck.
+
