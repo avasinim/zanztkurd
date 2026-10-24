@@ -4069,3 +4069,12 @@ The script's server-progress sync also filters `lesson_progress` by the supplied
 - Seed row exists (4,187 characters). Migration parity remains unverified because the migration path returns 404 on the current branch. No lesson/seed payload was edited.
 - Re-read verification confirmed the audit entry, wrapper key/navigation, protected script, and seed row. No SQL was executed; no database, `main`, PR #3, or deployment was changed.
 
+
+## Northern Circle — lesson 23 nouns and determiners review (2026-10-24)
+
+- Reviewed `kurmanji-course-1-lesson-23.html` and its seed row in `docs/kurmanji-content-seed-part-03.sql`. Wrapper title/H1, `data-lesson-key`, previous/next links (lessons 22/24), and protected `script.js?v=20261019-kurmanji-protected` are correct.
+- The lesson distinguishes semantic definiteness from a dedicated definite suffix, presents `-ek` as an indefinite marker, and introduces direct/oblique forms and demonstratives `ev/ew`. Forms `gund-ek`, `gund-ek-î`, `jin-ek`, `jin-ek-ê`, `ev pirtûk`, and `ew pirtûk` were reviewed. No definite error established from this inspection; no Latin Kurmanji forms were changed.
+- Avasin Code review: uses `نیە`, `هەمو`, `ڕون`, `نمونە`, and `جیاوازی`; no `بڕگە` found. No changes to lesson or seed payload.
+- Seed row exists (4,066 characters). Migration parity remains unverified because the migration path returns 404 on the current branch.
+- Re-read verification confirmed the audit entry, wrapper key/navigation, protected script, and seed row. No SQL was executed; no database, `main`, PR #3, or deployment was changed.
+
