@@ -3638,3 +3638,11 @@ This section supersedes the earlier 2026-10-21/22 statements that the current mi
 - Rationale: global visible-text spelling replacements should not silently rewrite literal code samples or preformatted source examples. This narrows normalization to ordinary page text while preserving the existing Avasin spelling rules.
 - Re-fetched and verified the source after editing; all three guards include the code/preformatted-element exclusion. This is source-level verification, not a browser runtime test.
 - No lesson source content, Latin Kurmanji spellings, seed, migration, or database was edited. Change is confined to `kurmanji-clean-release`; no `main`, PR merge, or deployment operation was performed.
+
+## Course 2 lesson 16 — Avasin term consistency (2026-10-24)
+
+- During the Course 2 wrapper sweep, found three source-level occurrences of `بڕگە` in `lessons/course-2-16.html`: the HTML title, meta description, and H1.
+- Replaced only those three instances with the explicitly required Avasin form `هجا`, preserving the lesson number, topic meaning, navigation, lesson key, and shared script reference.
+- Re-fetched the file after the change and verified the title, description, and H1 use the same Avasin term; no `بڕگە` occurrence remains in this wrapper.
+- Static wrapper checks across Course 2 lessons 1–25 found matching `data-lesson-key`, shared script references, and sequential previous/next links for the pages inspected. Lesson 1 correctly has no previous-lesson link; lesson 25 points forward to lesson 26. Browser rendering and scientific-source parity were not tested.
+- No Latin Kurmanji forms, seed, migrations, database, `main`, PR merge, or deployment operation was changed.
