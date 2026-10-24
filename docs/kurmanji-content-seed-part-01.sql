@@ -67,7 +67,7 @@ VALUES
   ('kurmanji-course-1-lesson-03.html','kurmanji-course-1','ڤاوڵەکان و نیشانەنووسییان','<section class="klesson-card"><h2>١. هەشت پیتی ڤاوڵ و هاوتاکانیان لە IPA</h2>
 <p>لە ڕێنووسی لاتینیی باوی کورمانجی، هەشت پیتی ڤاوڵ بۆ نوێنەرایەتیی هەشت مۆنۆفتۆنگی سەرەکی بەکاردێن. خشتەی خوارەوە فۆڕمی نووسراو، نیشانەی دەنگناسیی نێودەوڵەتی (IPA)، نمونە و واتای ئینگلیزیی سەرچاوەکە نیشان دەدات. IPA وەسفی دەنگە، نەک پیتی ئەلفبێ.</p>
 <table class="klesson-table"><thead><tr><th>پیت</th><th>IPA</th><th>نمونە</th><th>واتا</th></tr></thead><tbody>
-<tr><td>A a</td><td>/ɑ/</td><td>qaz</td><td>غاز / goose</td></tr>
+<tr><td>A a</td><td>/ɑ/</td><td>qaz</td><td>قاز / goose</td></tr>
 <tr><td>E e</td><td>/æ/</td><td>belg</td><td>گەڵا / leaf</td></tr>
 <tr><td>Ê ê</td><td>/e/</td><td>lêv</td><td>لێو / lip</td></tr>
 <tr><td>I i</td><td>/ɪ/</td><td>dil</td><td>دڵ / heart</td></tr>
