@@ -2732,3 +2732,12 @@ This section supersedes the earlier 2026-10-21/22 statements that the current mi
 - Re-checked GitHub Actions job results for the latest audit commit `6493d9f5ce068ae48f4eb60dfb9277979fb7739a`: lesson-navigation validation passed; academic lesson catalog validation passed.
 - Re-checked the package-integrity run for the preceding code commit `9d83510a43bc314e7fd993d045be35186415446c`: the job completed successfully. Its completed steps include installing `pglast`, parsing the migration and five seed files, exact migration/seed row parity, package validation, and the browser regression tests.
 - These checks validate static SQL grammar and tuple parity, not execution against the actual schema, RPC behavior, permissions, or scientific correctness. The migration has not been applied to any database. PR #3 remains unmerged, and `main` and production remain untouched.
+
+
+## Lesson 16 focused cross-check — 2026-10-24
+
+- Checked `kurmanji-course-1-lesson-16.html` against the matching row in `docs/kurmanji-content-seed-part-02.sql`.
+- Confirmed the lesson number and title agree (`وانەی ١٦ — ڕۆژەکانی هەفتە و کات` / `ڕۆژەکانی هەفتە و کات`), the `data-lesson-key` is `kurmanji-course-1-lesson-16.html`, the previous/next links point to lessons 15 and 17, and the page loads the shared `script.js` access-control entry point.
+- The seed row contains seven weekday labels, time vocabulary, four beginner example sentences, exercises, and dictionary/grammar references. The page body is server-loaded, so the seed row is the content source; no duplicate static lesson body was added.
+- No definite page/key/navigation mismatch was found, so no lesson text or Latin Kurmanji form was changed. This is a structural/content-presence check, not a source-by-source scientific approval of every example.
+- Latest audit commit `b6e00024c6e4c4e0ad881e02dea9b4c954122f89`: all three GitHub Actions workflows (package integrity, lesson navigation, academic catalog) completed successfully. See the run links in the repository Actions history.
