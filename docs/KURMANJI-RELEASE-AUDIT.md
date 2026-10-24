@@ -2584,3 +2584,17 @@ Source references:
 - DOI: `https://doi.org/10.1515/9783110421682-004`
 
 The migration still differs substantively from the seed in lesson bodies, so this citation correction does not constitute approval to apply the migration or release the course. The correction is limited to bibliographic attribution and does not resolve unrelated content-equivalence or real student-journey tests.
+
+
+## Full 38-row seed/migration reconciliation and Avasin Code pass — 2026-10-24
+
+This section supersedes the earlier 2026-10-21/22 statements that the current migration lesson payloads remained different from the split seeds. Those earlier comparisons accurately described the then-current branch state; the following coordinated correction has now been made.
+
+- Parsed all five split seed files and the 38 migration lesson tuples by their SQL fields (lesson key, course ID, title, content HTML). Before correction, differences included missing instructional sections and examples in course 2 lessons 04–08, as well as title/spelling drift.
+- Replaced only the 38 migration lesson title/content values with the corresponding page-extracted seed values. Course registration, RPC/security logic, grants, schema statements, and transaction structure were left intact.
+- Applied approved Sorani Avasin Code spelling corrections to both sides in tandem: `نموونە` → `نمونە` in seed parts 04–05 and the migration; `ڕێنوسی` → `ڕێنووسی` and `پێداچونەوە` → `پێداچوونەوە` in the migration where present. No Latin Kurmanji forms were changed by these replacements.
+- Re-read all six SQL files and parsed them again. Result: **38 seed rows, 38 migration rows, zero title/content payload mismatches**. The exact checked Avasin-disallowed strings `چییە`, `نییە`, `بەرامبەر`, `فێربوون`, `هەموو`, `نموونە`, and `بڕگە` have zero occurrences in the 38 seed title/body payloads.
+- Corrected the migration header comment to describe the current synchronized state and the requirement to keep future edits coordinated.
+- Updated the production-readiness note so the old mismatch finding is explicitly superseded.
+
+**Scope and release boundary:** this establishes seed/migration payload synchronization, not independent academic fact-checking of every claim, not successful application of the migration, and not live student access/progression. The target live Supabase project still lacks the 38 Kurmanji lesson rows, so the course is not yet operational in production. No migration was executed, no production database or `main` was changed, and no PR was merged.
