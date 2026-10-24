@@ -2706,4 +2706,4 @@ This section supersedes the earlier 2026-10-21/22 statements that the current mi
 - Updated `.github/workflows/validate-kurmanji-package.yml` to install `pglast` and run this parser before the existing static and browser checks. The new script is included in both push and pull-request path filters.
 - The workflow was triggered on `kurmanji-clean-release` for commit `ef5cb58a6d9c69bd70c926021e71b98671d6c063`; at the time of this audit note, the run was still in progress. Its result must be checked before claiming parser failure or success.
 - This parser step checks PostgreSQL SQL syntax only. It does not yet extract and compare all 38 complete lesson tuples, verify schema dependencies, or replace a disposable-database migration test.
-- No migration, seed, static lesson body, `main`, PR #3 merge state, or database was modified. Keep release blocked pending the parser result and full row-by-row reconciliation.
+- No migration, seed, static lesson body, `main`, PR #3 merge state, or database was modified. Keep release blocked pending the parser result and full row-by-row reconciliation.true
