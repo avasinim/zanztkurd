@@ -4122,3 +4122,11 @@ The script's server-progress sync also filters `lesson_progress` by the supplied
 - This improves the evidence beyond the static repository audit: Course 1's keys and content rows currently exist in the named test project. It does **not** prove that the live website's current browser session can read them under RLS, that each database body exactly matches the current seed file, or that sign-in/enrollment/progression works end-to-end. Those remain separate release tests.
 - All queries were read-only. No migration was applied, no row or schema was changed, and production/main/PR #3/deployment were untouched.
 
+
+## Course 1 seed-to-test-database content comparison (read-only, 2026-10-24)
+
+- Parsed the four current draft seed files and fetched all Course 1 rows from test project `juwsjljbdwyncicybwoq`. Both sides contain 26 matching lesson keys.
+- Exact comparison of `title` and `content_html` shows **9 mismatched rows**: lessons 01–06, 07, 25, and 26. Lesson 07's title differs between seed and database; lesson 26's title differs although its HTML currently matches byte-for-byte; lessons 01–06 and 25 have matching titles but different HTML. The other 17 Course 1 rows match both title and HTML exactly.
+- This is a confirmed release-consistency gap, not proof that one side is automatically correct. The seed files are explicitly draft data seeds and current repository notes say content should be reviewed before installation. Do not overwrite the test database or alter scientific content just to make the strings equal. Next safe step is to compare each discrepant row with its static wrapper and the source-backed lesson audit, then decide which side is authoritative and document any intentional difference.
+- Read-only comparison only: no SQL writes or migrations, no production project, no `main`, no PR merge, and no deployment.
+
