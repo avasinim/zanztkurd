@@ -3797,3 +3797,13 @@ This section supersedes the earlier 2026-10-21/22 statements that the current mi
 - Navigation links point back to the course, to lesson 30 with `rel="prev"`, and to lesson 32 with `rel="next"`. These are the expected adjacent lesson paths.
 - The navigation grid is explicitly three columns on desktop and collapses to one column at widths up to 600px, matching the three visible navigation items; no wrapper/CSS correction is indicated by this static check.
 - **Scope limit:** this confirms static HTML wiring only. It does not verify that lesson 31's database/seed body loads, its scientific claims against sources, or browser/authenticated runtime behavior. No lesson body, seed, migration, database, `main`, merge, or deployment was changed.
+
+
+## Static wrapper audit — course 2, lesson 32 (2026-10-24)
+
+- Inspected `lessons/course-2-32.html` on `kurmanji-clean-release`.
+- The page title, meta description, visible H1, and hero number identify lesson 32 consistently as “هێشوی کۆنسۆنەنت، تۆن، ئاوازە، لەرە و ڕاوەستان”.
+- The content mount uses `data-lesson-key="course-2-32.html"` and the page loads `../script.js?v=20261014-academic-ui-cascade-fix`.
+- The previous link correctly points to `course-2-31.html` with `rel="prev"`. The page ends with a non-link completion label, not a next-lesson link, which is correct for the final lesson in course 2.
+- The navigation CSS declares two columns while three navigation items are rendered (return-to-course, previous lesson, and final-course label). This means the final label occupies a second row at desktop widths. It is a small visual inconsistency, not a navigation failure; no CSS change was made because the current task is a static audit and no responsive/browser regression test has been run.
+- **Scope limit:** this confirms static wrapper structure only. It does not establish that the lesson body loads from seed/database or that the scientific content is source-verified. No lesson body, seed, migration, database, `main`, merge, or deployment was changed.
