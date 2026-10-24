@@ -3431,3 +3431,12 @@ This section supersedes the earlier 2026-10-21/22 statements that the current mi
 - `Validate Kurmanji course package` run `40085262046`: success.
 - This supersedes the prior note that the package check was still in progress. The three configured PR-triggered Actions checks are now complete and green on the current head. The Supabase Preview workflow was skipped; no migration replay or live Supabase verification is implied.
 - The static checks being green does not clear the release gates listed above: clean replay of the exact release migration, authenticated runtime testing, and scientific/source verification remain outstanding.
+
+
+## Integrated static check — Kurmanji morphology course 2 wrappers (2026-10-24)
+
+- Re-read all 12 files `kurmanji-course-2-lesson-01.html` through `...-12.html` on `kurmanji-clean-release`.
+- All 12 wrappers have the expected lesson-specific `data-lesson-key` and reference the shared `script.js?v=20261019-kurmanji-protected`.
+- Visible navigation is sequential: lessons 2–12 link to the preceding lesson; lessons 1–11 link to the following lesson; lesson 1 has no previous link and lesson 12 has no next link.
+- The wrapper headings were captured and inspected as part of this check. No key/script/navigation mismatch was found, so no HTML fix was warranted.
+- Scope limitation: this is static wrapper verification. It does not verify runtime seed fetching/rendering, authenticated student access, or scientific validity of all lesson bodies. No lesson text, seed, migration, database, `main`, merge, or deployment was changed.
