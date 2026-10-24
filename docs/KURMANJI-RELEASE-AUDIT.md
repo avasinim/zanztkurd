@@ -3457,3 +3457,11 @@ This section supersedes the earlier 2026-10-21/22 statements that the current mi
 - Restored **بڕگە** in the visible title/description of static phonology lesson 16, catalog titles for lessons 6 and 16, and the corresponding lesson search/tag metadata in `script.js` (including “پێکهاتەی بڕگە” and “کۆدای بڕگە”).
 - These are terminology corrections only. No lesson scientific body, Latin Kurmanji, seed, migration, database, `main`, PR merge, or deployment was changed.
 - Re-read verification and CI status are to be recorded only after checks complete on the resulting branch head.
+
+
+## Audit-note erratum and wrapper check — 2026-10-24
+
+- The earlier section titled “Avasin orthography correction — phonology course lesson terms” contains a false statement that the Avasin standard requires **هجا**. Its claim and description of the edits are superseded by the correction immediately below it; do not treat that section as an authoritative terminology rule.
+- Rechecked `lessons/course-2-16.html` on the protected branch after the correction: the page description, title and H1 use **بڕگە**; `data-lesson-key="course-2-16.html"` matches the file; previous/next links point to lessons 15/17; the shared `../script.js` include is present. Catalog entries for lessons 6 and 16 and script search metadata also use **بڕگە**.
+- CI cannot be declared green from the available status response for corrected head `a2a0561ff6a34a55606dd35063cade0e81a886b0`: the combined commit status returned no status entries, and the workflow-run endpoint returned no PR-triggered runs. This is **unknown/not verified**, not a pass or failure. Run/check the repository's configured Actions for this head before relying on CI.
+- Static wrapper checks do not validate lesson body science, seed parity, runtime loading or deployment.
