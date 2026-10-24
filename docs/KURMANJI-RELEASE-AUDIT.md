@@ -3763,3 +3763,11 @@ This section supersedes the earlier 2026-10-21/22 statements that the current mi
 - Applied the Avasin spelling `پێداچونەوە و هەڵسەنگاندنی کۆتایی` consistently to the visible course-plan link, lesson 26 wrapper heading, and the seed row's title field. This follows the project's stated preference to avoid `وو` in Sorani project text.
 - The edit is limited to the title phrase in the course-plan page, lesson wrapper, seed row, and matching migration row. The migration title was updated only to preserve exact seed/migration row parity; no migration logic, Latin Kurmanji forms, lesson scientific content, or progression rules changed. No database or production operation was performed.
 - Re-read verification completed after the edits: all three updated files contain the Avasin title phrase, and none of those three files contains the former title phrase. This is an orthographic consistency correction, not a scientific-content approval.
+
+
+## Follow-up: lesson 26 metadata orthography (2026-10-24)
+
+- Rechecked the lesson 26 wrapper after the earlier title correction. The visible heading and course-plan link used the Avasin form `پێداچونەوە`, but the HTML meta description still contained the non-standard `پێداچوونەوە` spelling. The text normalizer does not guarantee correction of HTML metadata, so this was a real consistency gap.
+- Corrected only that meta-description word in `kurmanji-course-1-lesson-26.html`; no lesson body, Latin Kurmanji spelling, seed, migration, navigation, or progression logic was changed.
+- Re-read verification: the wrapper contains the Avasin form in its visible heading and meta description, and the former meta-description phrase is absent. Seed/migration parity was independently rechecked in this audit pass: 38 rows in each source, 38 unique keys each, no missing/extra keys, and all 38 SQL tuples match exactly in order.
+- This was a static source fix on `kurmanji-clean-release` only. No `main`, PR #3, deployment, migration execution, or database write was performed.
