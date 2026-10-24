@@ -2789,3 +2789,12 @@ This section supersedes the earlier 2026-10-21/22 statements that the current mi
 - **Content presence:** the seed covers positive/comparative/superlative adjective degrees, `-tir`, `herî`, `-tirîn`, `ji` in comparison clauses, exercises, and references including Karacan & Khalid (2016), Haig (2018), and Thackston.
 - **Scientific review flags:** forms `mezintir/meztir`, `mezintirîn`, and the distribution of `herî` versus `-tirîn` need direct checking against the cited grammars and dialect descriptions. The lesson notes dialect variation, but this pass does not independently confirm every morphological form or its distribution. No definite page/seed wiring mismatch was found; no lesson text, seed, migration, or Latin Kurmanji form was changed.
 - Re-read the audit file after updating and confirmed this entry is present. Only the protected branch was modified; no database operation was performed.
+
+
+## Lesson 23 — nouns and determiners (2026-10-24)
+
+- Cross-checked `kurmanji-course-1-lesson-23.html` against its row in `docs/kurmanji-content-seed-part-03.sql`.
+- **Structural match:** page title and seed title agree (`ناو و دیارخەرەکان`); `data-lesson-key="kurmanji-course-1-lesson-23.html"` matches the seed key; shared `script.js` is loaded; previous/next links point to lessons 22 and 24.
+- **Content presence:** the seed covers definiteness/context, the indefinite marker `-ek`, direct/oblique case forms, demonstratives `ev/ew`, exercises, and references including Haig (2018), University of Arizona, and Thackston.
+- **Scientific review flags:** the exact paradigms and segmentation of `gund-ek-î`, `jin-ek-ê`, and the demonstrative noun phrases should be checked against the cited reference grammar and its case terminology before scientific approval. This structural pass does not independently verify every morphological claim. No definite page/seed wiring mismatch was found; no lesson text, seed, migration, or Latin Kurmanji form was changed.
+- Re-read the audit file after the update and confirmed the entry is present. Only the protected branch was modified; no database operation was performed.
