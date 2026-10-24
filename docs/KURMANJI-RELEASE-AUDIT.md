@@ -2843,3 +2843,14 @@ This section supersedes the earlier 2026-10-21/22 statements that the current mi
 - The raw substring `وو` appears many times in the seed package, but it also occurs inside legitimate Latin Kurmanji strings and cannot be treated as a reliable Sorani-spelling defect by substring search. No blanket replacement was attempted.
 - Corrected a contradictory comment in `scripts/validate_kurmanji_package.py`: it now accurately describes the normalizer check as a static presence check for Avasin mappings, not a claim that source-loaded lesson text is never normalized. Validator comment-only commit: `2cd484c86e9cfd7222721db616379302903c24d9`.
 - This scan is a targeted surface check, not a full linguistic review of every Kurdish text node or a source-based verification of Kurmanji paradigms. No lesson text, seed SQL, migration, or database was changed.
+
+
+## Latest CI re-check — 2026-10-24
+
+- Re-checked GitHub Actions for audit commit `2944bf6969eb97f4f8b67307db468280efc03aef`. All three workflows completed successfully:
+  - Lesson navigation: run [40075167710](https://github.com/avasinim/zanztkurd/actions/runs/40075167710).
+  - Academic lesson catalog: run [40075167711](https://github.com/avasinim/zanztkurd/actions/runs/40075167711).
+  - Kurmanji course package integrity: run [40075167729](https://github.com/avasinim/zanztkurd/actions/runs/40075167729).
+- Also confirmed all three workflows passed for validator-comment commit `2cd484c86e9cfd7222721db616379302903c24d9`: runs [40075154958](https://github.com/avasinim/zanztkurd/actions/runs/40075154958), [40075154899](https://github.com/avasinim/zanztkurd/actions/runs/40075154899), and [40075154907](https://github.com/avasinim/zanztkurd/actions/runs/40075154907), respectively.
+- These are successful automated checks for navigation, catalog integrity, package validation, SQL parsing, seed parity, and the configured browser regression tests. They do not prove migration execution against a database, authorization behavior against Supabase, or source-level scientific correctness for all lesson claims.
+- This entry documents CI evidence only. No lesson page, seed SQL, migration, validator code, `main`, PR #3 merge state, or database was changed in this update.
