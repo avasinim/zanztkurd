@@ -2944,3 +2944,11 @@ This section supersedes the earlier 2026-10-21/22 statements that the current mi
 - The sentence `Ev pirtûk sor e.` was not treated as a proven defect: the sources confirm the adjective-plus-copula pattern, but this pass did not find a source specific enough to justify rewriting the demonstrative phrase or changing the target variety. No Latin Kurmanji spellings were normalized.
 - **Result:** lexical core and basic colour construction are supported; regional variants remain explicitly noted. No lesson text, seed row, migration, or database was changed.
 
+## Source cross-check — lesson 13: numbers 1–20 (2026-10-24)
+
+- Re-read the static lesson page and exact seed row. The page title is `ژمارەکان ١–٢٠`; the seed title matches; the expected lesson key, shared `script.js`, and navigation links to lessons 12 and 14 are present.
+- Compared the listed forms with Geoffrey Haig, “Northern Kurdish (Kurmanji),” §2.4 Numerals (2018), the Omniglot Northern Kurdish table, and KurdiPedia's *Kurmanji Kurdish, Lesson 2*. The core forms 1–20 are attested across these sources. Differences are especially visible for 2 (`du/didu`), 3 (`sê/sisê`), 11 (`yanzdeh/yazdeh`), 12 (`dwanzdeh/diwanzdeh/dozdeh`), and some 15–16 spellings. Haig also explicitly notes regional regularization of 11–19 in western varieties. The lesson's own note about source/variety variation is therefore warranted.
+- The lesson's `pirtûkan` object form in `Ez du pirtûkan dixwînim` is consistent with the oblique-case teaching note, but this pass did not independently validate every full example sentence. `Min sê pênûs hene` and `Ew pênc rojan li vir e` remain examples for a later full clause-level review; no evidence in this pass establishes a definite error that would justify rewriting them.
+- Sources: Haig (2018), [Northern Kurdish (Kurmanji), §2.4 Numerals](https://www.uni-bamberg.de/fileadmin/aspra/06_Team/Publications_and_CV/haig_2018_ch.2.3_northern_kurdish.pdf); [Omniglot — Northern (Kurmanji) Kurdish numbers](https://www.omniglot.com/language/numbers/kurdish.htm); [KurdiPedia — Kurmanji Kurdish, Lesson 2](https://www.kurdipedia.org/files/books/2023/474430.PDF).
+- **Result:** number vocabulary is broadly source-supported; documented forms vary by source and region. No lesson text, seed row, migration, Latin Kurmanji spelling, or database was changed.
+
