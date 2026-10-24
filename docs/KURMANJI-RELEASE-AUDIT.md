@@ -3669,3 +3669,10 @@ This section supersedes the earlier 2026-10-21/22 statements that the current mi
 - Extended that normalizer's text-node exclusion selector to skip those code/sample elements, matching the earlier protection added to the Avasin-specific normalizer.
 - Re-fetched `script.js` after the change and verified both normalizers now exclude code/sample text nodes. The first normalizer retains its existing three guarded text-processing paths; the secondary normalizer now includes the same code/sample exclusions in `fixTextNode`.
 - This is source-level verification only; no browser regression test was run. No lesson science, Latin Kurmanji spellings, seed, migration, database, `main`, PR merge, or deployment was changed.
+
+## Course 2 static wrapper sweep — lessons 1–32 (2026-10-24)
+
+- Re-fetched the static HTML wrappers for all 32 Course 2 lessons on `kurmanji-clean-release`.
+- Checked each wrapper's `data-lesson-key` against its matching filename (`course-2-NN.html`), page title, and available previous/next navigation targets. The keys match the filenames, and where previous/next links are present they point to the adjacent lesson; lesson 1 has no previous link and lesson 32 has no next link, as expected.
+- Scanned the wrappers for known Avasin-standard variants including `بڕگە`, `سیلاب`, `چییە`, `نییە`, `هەموو`, `بەرامبەر`, and common spelling variants. No remaining matches were found in the checked static wrappers. Lessons 6 and 16 now use `هجا` in their static headings.
+- This check covers wrapper HTML only. The lesson body is fetched at runtime from Supabase `lesson_content`; this does not prove that the stored body content loads or matches its seed/migration payload, and no database was queried or changed. No migration, seed, `main`, PR merge, or deployment was touched.
