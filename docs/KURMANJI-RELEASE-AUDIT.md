@@ -3414,3 +3414,18 @@ This section supersedes the earlier 2026-10-21/22 statements that the current mi
 
 ### Current decision
 **Not production-ready yet.** Static CI is green, and wrapper navigation was checked, but real Supabase migration/access tests and full scientific review remain release blockers. No production database, `main`, merge, or deployment action was performed.
+
+
+## Read-only verification of disposable Kurmanji test project — 2026-10-24
+
+- Supabase project lookup identified `juwsjljbdwyncicybwoq` as `zanztkurd-kurmanji-test` (separate from the live site project `hjpmorabqdhuchpnowiw`). All queries in this check were read-only and ran only against the named test project.
+- The test project's migration history contains the test-specific migration `add_kurmanji_courses_and_protected_lessons_test` (version `20261020052024`), not the release-branch migration filename/version. Therefore this verifies the test schema/data state, **not** that the exact PR migration has been freshly replayed from a clean database.
+- Read-only course/content counts: `kurmanji-course-1` = 26 configured lessons / 26 content rows; `kurmanji-course-2` = 12 / 12; `phonetics-phonology-kurdik` = 32 configured lessons / 0 `lesson_content` rows (the 32 phonetics lessons are represented by the site's separate static lesson path; this zero is not evidence of missing Kurmanji seed content).
+- Both `can_read_lesson_content(text,text)` and `complete_lesson(text,text)` exist as SECURITY DEFINER functions with an empty pinned search path. Read-only privilege checks: EXECUTE denied to `anon`, allowed to `authenticated` and `service_role`. `lesson_content` has RLS enabled; its SELECT policy requires site-owner status or active/completed enrollment plus the lesson-access RPC.
+- These checks establish current test-project metadata, counts, and policy/grant configuration only. They do **not** prove actual signed-in student behavior, enrollment/unlock/completion persistence, the exact release migration's clean-install behavior, or production readiness. No database writes, migration applications, live-site changes, PR merge, or deployment occurred.
+
+## GitHub Actions status — protected branch head `3171ad94364f2121fd68a4d06389b66c8ae2b769` (2026-10-24)
+
+- `Validate lesson navigation` run `40085126835`: success.
+- `Validate academic lesson catalog` run `40085126996`: success.
+- `Validate Kurmanji course package` run `40085126855`: was still in progress at the time of this audit update; do not mark it passed until its final conclusion is checked.
