@@ -1,5 +1,8 @@
 # Proposed repair: Kurmanji lesson-content SQL row structure
 
+> [!WARNING]
+> **UNVALIDATED — DO NOT APPLY AS-IS.** A later text-level comparison (2026-10-24) found that none of the 38 temporarily reconstructed HTML payloads matched the corresponding seed payload byte-for-byte. The proposed one-boundary transformation has not been validated with a PostgreSQL-aware parser, and this document is not an executable patch. Preserve the migration and lesson text until a quote-aware, row-by-row reconstruction and review establishes the intended payloads.
+
 Status: **proposal only — not applied to the migration or any database**  
 Target branch for this proposal: `kurmanji-clean-release`  
 Target file for a future reviewed change: `supabase/migrations/20261019090000_add_kurmanji_courses_and_protected_lessons.sql`
