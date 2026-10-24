@@ -25,7 +25,7 @@
     while(walker.nextNode()) nodes.push(walker.currentNode);
     for(const node of nodes){
       const parent=node.parentElement;
-      if(parent && /^(SCRIPT|STYLE|NOSCRIPT|TEXTAREA)$/i.test(parent.tagName)) continue;
+      if(parent && (/^(SCRIPT|STYLE|NOSCRIPT|TEXTAREA)$/i.test(parent.tagName) || parent.closest("code,pre,kbd,samp"))) continue;
       if(node.nodeValue && needsAvasinNormalization(node.nodeValue)){
         node.nodeValue=normalizeAvasinText(node.nodeValue);
       }
@@ -47,14 +47,14 @@
       if(record.type==="characterData"){
         const n=record.target;
         const p=n.parentElement;
-        if(!(p && /^(SCRIPT|STYLE|NOSCRIPT|TEXTAREA)$/i.test(p.tagName)) && n.nodeValue && needsAvasinNormalization(n.nodeValue)){
+        if(!(p && (/^(SCRIPT|STYLE|NOSCRIPT|TEXTAREA)$/i.test(p.tagName) || p.closest("code,pre,kbd,samp"))) && n.nodeValue && needsAvasinNormalization(n.nodeValue)){
           n.nodeValue=normalizeAvasinText(n.nodeValue);
         }
       }else{
         record.addedNodes.forEach(node=>{
           if(node.nodeType===Node.TEXT_NODE){
             const p=node.parentElement;
-            if(!(p && /^(SCRIPT|STYLE|NOSCRIPT|TEXTAREA)$/i.test(p.tagName)) && node.nodeValue && needsAvasinNormalization(node.nodeValue)){
+            if(!(p && (/^(SCRIPT|STYLE|NOSCRIPT|TEXTAREA)$/i.test(p.tagName) || p.closest("code,pre,kbd,samp"))) && node.nodeValue && needsAvasinNormalization(node.nodeValue)){
               node.nodeValue=normalizeAvasinText(node.nodeValue);
             }
           }else if(node.nodeType===Node.ELEMENT_NODE) fixAvasinSpelling(node);
