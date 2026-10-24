@@ -64,22 +64,38 @@ VALUES
 <p>ژمارەی پیتەکان و ڕیزبەندیی ئەلفبێ بە ئاسانی دەتوانرێت بە لیستی فەرمیی ئەلفبێ بپشکنرێت؛ بەڵام بانگەشەی دەنگناسیی ورد پێویستی بە سەرچاوەی دەنگناسی و نمونەی پشتڕاستکراوە هەیە. لەم وانەیەدا نمونەکان بۆ فێربونی پیت و ڕێنووسن، نەک بۆ دیاریکردنی تەواوی سیستەمی فۆنۆلۆژی.</p>
 </section>
 <section class="klesson-card"><h2>سەرچاوەکان</h2><ol><li>Haig, Geoffrey. (2018). “Northern Kurdish (Kurmanjî).” In Geoffrey Haig & Geoffrey Khan (eds.), <em>The Languages and Linguistics of Western Asia: An Areal Perspective</em>, pp. 106–158. De Gruyter Mouton. <a href="https://doi.org/10.1515/9783110421682-004" target="_blank" rel="noopener">DOI: 10.1515/9783110421682-004</a>.</li><li>Thackston, W. M. (2006). <em>Kurmanji Kurdish: A Reference Grammar with Selected Readings</em>. Harvard University.</li><li>University of Arizona, Iranian Languages. <a href="https://iranian-languages.arizona.edu/node/7" target="_blank" rel="noopener">Kurmanji Kurdish</a>.</li></ol><p class="klesson-note">سەرچاوەکان بۆ چوارچێوەی گشتیی زمان و ڕێنووس دانراون. بۆ وەشانی کۆتایی، دەبێت هەر نمونەیەکی ورد بە چاپی سەرچاوەی ڕێنووسەکەوە بگونجێندرێت.</p></section>',now()),
-  ('kurmanji-course-1-lesson-03.html','kurmanji-course-1','ڤاوڵەکان و نیشانەنووسییان','<section class="klesson-card"><h2>١. هەشت پیتی ڤاوڵ</h2><p>لە ڕێنووسی لاتینیی باوی کورمانجی، هەشت پیتی ڤاوڵ هەن:</p>
-<table class="klesson-table"><thead><tr><th>پیت</th><th>تێبینیی ڕێنووسی</th><th>نمونە</th><th>واتا</th></tr></thead><tbody>
-<tr><td>A a</td><td>پیتی ڤاوڵ</td><td>qaz</td><td>قاز</td></tr>
-<tr><td>E e</td><td>جیاوازە لە Ê</td><td>belg</td><td>گەڵا</td></tr>
-<tr><td>Ê ê</td><td>پیتی جیاواز بە نیشانەی ^</td><td>lêv</td><td>لێو</td></tr>
-<tr><td>I i</td><td>جیاوازە لە Î</td><td>dil</td><td>دڵ</td></tr>
-<tr><td>Î î</td><td>پیتی جیاواز بە نیشانەی ^</td><td>hîn</td><td>هێشتا</td></tr>
-<tr><td>O o</td><td>پیتی ڤاوڵ</td><td>nod</td><td>نەوەد</td></tr>
-<tr><td>U u</td><td>جیاوازە لە Û</td><td>qul</td><td>کون</td></tr>
-<tr><td>Û û</td><td>پیتی جیاواز بە نیشانەی ^</td><td>bûz</td><td>سەهۆڵ</td></tr>
+  ('kurmanji-course-1-lesson-03.html','kurmanji-course-1','ڤاوڵەکان و نیشانەنووسییان','<section class="klesson-card"><h2>١. هەشت پیتی ڤاوڵ و هاوتاکانیان لە IPA</h2>
+<p>لە ڕێنووسی لاتینیی باوی کورمانجی، هەشت پیتی ڤاوڵ بۆ نوێنەرایەتیی هەشت مۆنۆفتۆنگی سەرەکی بەکاردێن. خشتەی خوارەوە فۆڕمی نووسراو، نیشانەی دەنگناسیی نێودەوڵەتی (IPA)، نمونە و واتای ئینگلیزیی سەرچاوەکە نیشان دەدات. IPA وەسفی دەنگە، نەک پیتی ئەلفبێ.</p>
+<table class="klesson-table"><thead><tr><th>پیت</th><th>IPA</th><th>نمونە</th><th>واتا</th></tr></thead><tbody>
+<tr><td>A a</td><td>/ɑ/</td><td>qaz</td><td>غاز / goose</td></tr>
+<tr><td>E e</td><td>/æ/</td><td>belg</td><td>گەڵا / leaf</td></tr>
+<tr><td>Ê ê</td><td>/e/</td><td>lêv</td><td>لێو / lip</td></tr>
+<tr><td>I i</td><td>/ɪ/</td><td>dil</td><td>دڵ / heart</td></tr>
+<tr><td>Î î</td><td>/i/</td><td>hîn</td><td>هێشتا / still</td></tr>
+<tr><td>O o</td><td>/o/</td><td>nod</td><td>نەوەد / ninety</td></tr>
+<tr><td>U u</td><td>/ʊ/</td><td>qul</td><td>کون / hole</td></tr>
+<tr><td>Û û</td><td>/u/</td><td>bûz</td><td>سەهۆڵ / ice</td></tr>
 </tbody></table>
-<p class="klesson-note">نمونەکان و واتاکانیان بە پشت‌بەستن بە خشتەی ڕێنووس و دەنگی کورمانجی لە سەرچاوەی زانکۆی ئەریزۆنا هەڵبژێردراون؛ لە بەکارهێنانی ڕۆژانەدا دەتوانێت هەندێک جیاوازیی شێوەزار هەبێت.</p></section>
-<section class="klesson-card"><h2>٢. نیشانەی ^ بێ‌واتا نیە</h2><p>لە نوسینی کورمانجی، <strong>ê</strong> لە <strong>e</strong>، <strong>î</strong> لە <strong>i</strong>، و <strong>û</strong> لە <strong>u</strong> جیاوازن. بۆیە لە فێربون و نوسینی وشەکاندا پەیویستە نیشانەکە بە وردی بپارێزرێت. گۆڕینی پیتێک بە پیتێکی هاوشێوە، دەتوانێت شێوەی وشە بگۆڕێت یان ڕێنووسەکە نادروست بکات.</p><p>لە ڕووی دەنگناسییەوە، سەرچاوەکان جیاوازیی دەنگیی نێوان ئەم پیتانە بە شێوەی IPA ڕون دەکەنەوە؛ بەڵام باشترە فێرخواز تەنیا لەسەر هاوشێوەیی دەنگەکان لە زمانێکی دیکەوە بڕیار نەدات، چونکە هاوتاکردنەوەی دەنگ بە زمانی ئینگلیزی یان کوردیی ناوەندی تەواو و ورد نیە.</p></section>
-<section class="klesson-card"><h2>٣. ڕاهێنان</h2><ol><li>هەشت پیتی ڤاوڵ بە پیتی گەورە و بچووک بنووسە.</li><li>جیاوازیی نوسینی e/ê، i/î و u/û دیاری بکە.</li><li>وشەکانی qaz، belg، lêv، dil، hîn، nod، qul و bûz بخوێنەوە و نیشانەی پیتەکان بپارێزە.</li></ol></section>
-<section class="klesson-card"><h2>سەرچاوەکان</h2><ol><li>University of Arizona, Iranian Languages. <a href="https://iranian-languages.arizona.edu/node/7" target="_blank" rel="noopener">Kurmanji Kurdish — Phonology and Orthography</a> (خشتەی ڤاوڵ و نمونەی وشەکان).</li><li>Haig, Geoffrey. (2018). “Northern Kurdish (Kurmanjî).” In Geoffrey Haig & Geoffrey Khan (eds.), <em>The Languages and Linguistics of Western Asia: An Areal Perspective</em>, pp. 106–158. De Gruyter Mouton. <a href="https://doi.org/10.1515/9783110421682-004" target="_blank" rel="noopener">DOI</a>.</li><li>Thackston, W. M. (2006). <em>Kurmanji Kurdish: A Reference Grammar with Selected Readings</em>. Harvard University.</li></ol></section>',now()),
-  ('kurmanji-course-1-lesson-04.html','kurmanji-course-1','کۆنسۆنەنتەکان و پەیوەندییان بە نوسینەوە','<section class="klesson-card"><h2>١. کۆنسۆنەنت چیە؟</h2><p>کۆنسۆنەنت (consonant) دەنگێکە کە لە دروستبوونیدا هەوا لە ڕێگای دەمدا بە بەربەستێک یان تەنگەبەرێک ڕووبەڕوو دەبێتەوە. لە نوسینی کورمانجی، پیتەکانی ئەلفبێ بە پێی ڕێنووسی لاتینی بەکاردێن؛ بەڵام پیت و دەنگ یەک شت نین، چونکە پەیوەندیی نێوانیان لە هەمو شێوەزارەکاندا هەمیشە یەکسان نیە.</p></section>
+<p class="klesson-note">IPA و واتاکانی ئینگلیزی لە خشتەی دەنگناسیی پەڕەی Iranian Languages ـی زانکۆی ئەریزۆنا وەرگیراون. وەرگێڕانی کوردیی واتاکان بۆ یارمەتیی فێرخواز زیاد کراوە؛ ئەگەر لە فەرهەنگ یان شێوەزارێکدا فۆڕمی جیاواز هەبێت، پێویستە بە سەرچاوەی تایبەت پشتڕاست بکرێتەوە.</p></section>
+<section class="klesson-card"><h2>٢. نیشانەی پیت بەشێکە لە ڕێنووس</h2>
+<p>لە نووسینی کورمانجی، <strong>e</strong> و <strong>ê</strong>، <strong>i</strong> و <strong>î</strong>، هەروەها <strong>u</strong> و <strong>û</strong> پیتە جیاوازن و لە خشتەی دەنگناسیشدا بە IPAی جیاواز نیشان دەدرێن. نیشانەی چەرخەک (circumflex) لە <em>ê, î, û</em> بەشێکە لە فۆڕمی پیتەکە؛ نابێت لە کاتی نووسین، کۆپی‌کردن یان فهرستکردندا بەبێ هۆکار بسڕدرێتەوە.</p>
+<p>خشتەی زانکۆی ئەریزۆنا بۆ ئەم هەشت ڤاوڵە بە ڕیزبەندییەکی دیاریکراو IPA بەکاردهێنێت: <em>a /ɑ/، e /æ/، ê /e/، i /ɪ/، î /i/، o /o/، u /ʊ/، û /u/</em>. ئەم نیشانەکانە وەسفی سیستەمی گشتیی ڕێنووس و دەنگن؛ نابێت لەوەوە وا تێبگەین کە وردەکاریی دەربڕین لە هەمو ناوچە و قسەکەرێکدا یەکسانە.</p></section>
+<section class="klesson-card"><h2>٣. جیاوازیی شێوەزار و ڕێبازی خوێندنەوە</h2>
+<p>پەڕەی زانکۆی ئەریزۆنا تێبینی دەکات کە ڤاوڵی نووسراو بە <em>e</em> کە بە /æ/ نیشان دەدرێت، لە هەندێک شێوەزاردا دەتوانێت هەڵگری دەربڕینی نزیک لە /ə/ یان /ɛ/ بێت؛ بۆ زۆر قسەکەر دەربڕینەکە لە هەمو ژینگەکاندا نزیکترە لە /ɛ/. بۆیە IPA لێرەدا وەسفێکی ڕێنووس-دەنگیی گشتییە، نەک یاسایەکی بێ‌جیاوازی بۆ هەمو شێوەزارەکان.</p>
+<p>کاتی فێربون، وشەکە بە نووسینی ڕەسەن بخوێنەوە، پیتی ڤاوڵ دیاری بکە، و تەنیا کاتێک کە سەرچاوەی دەنگی بەردەستە بڕیار لەسەر وردەکاریی دەربڕین بدە. هاوتاکردنەوەی دەنگەکان بە دەنگی ئینگلیزی یان کوردیی ناوەندی تەنیا ڕێنماییەکی نزیکە، نەک جێگرەوەی سەرچاوەی دەنگناسی.</p></section>
+<section class="klesson-card"><h2>٤. ڕاهێنانی شیکاری</h2><ol>
+<li>هەشت پیتی ڤاوڵ بە پیتی گەورە و بچووک بنووسە.</li>
+<li>لە خشتەکەدا e/ê، i/î و u/û بە بەراوردی IPA جیا بکەرەوە.</li>
+<li>وشەکانی <em>qaz, belg, lêv, dil, hîn, nod, qul, bûz</em> بخوێنەوە و پیتی ڤاوڵی هەر یەک دیاری بکە.</li>
+<li>بۆچی ناتوانین بە تەنیا لەسەر پیتی نووسراو بڕیار بدەین کە دەربڕینی هەمو قسەکەرێک بە تەواوی یەکسانە؟ بە تێبینیی سەرچاوە و جیاوازیی ناوچەیی وەڵام بدەوە.</li>
+<li>لە کۆپی‌کردنی وشەکاندا نیشانەکانی <em>ê, î, û</em> بپارێزە و پاشان فۆڕمی نووسراو لەگەڵ سەرچاوەکە بەراورد بکە.</li>
+</ol></section>
+<section class="klesson-card"><h2>سەرچاوەکان</h2><ol>
+<li>University of Arizona, Iranian Languages. <a href="https://iranian-languages.arizona.edu/node/7" target="_blank" rel="noopener">Kurmanji Kurdish — Phonology and Orthography</a> (خشتەی هەشت ڤاوڵ، IPA، نمونە و تێبینیی شێوەزار).</li>
+<li>Haig, Geoffrey. (2018). “Northern Kurdish (Kurmanjî).” In Geoffrey Haig &amp; Geoffrey Khan (eds.), <em>The Languages and Linguistics of Western Asia: An Areal Perspective</em>, pp. 106–158. De Gruyter Mouton. <a href="https://doi.org/10.1515/9783110421682-004" target="_blank" rel="noopener">DOI</a>.</li>
+<li>Thackston, W. M. (2006). <em>Kurmanji Kurdish: A Reference Grammar with Selected Readings</em>. Harvard University.</li>
+</ol><p class="klesson-note">سەرچاوەی زانکۆی ئەریزۆنا بۆ نمونە و IPA بە شێوەی ڕاستەوخۆ پشکنراوە. ئەم وانەیە پێشەکییە بۆ ڤاوڵەکان؛ وردەکاریی فۆنۆلۆژی و جیاوازیی شێوەزارەکان لە پێویستیدا دەبێت لە سەرچاوەی تایبەتیانەوە بخوێندرێنەوە.</p></section>',now()),
+('kurmanji-course-1-lesson-04.html','kurmanji-course-1','کۆنسۆنەنتەکان و پەیوەندییان بە نوسینەوە','<section class="klesson-card"><h2>١. کۆنسۆنەنت چیە؟</h2><p>کۆنسۆنەنت (consonant) دەنگێکە کە لە دروستبوونیدا هەوا لە ڕێگای دەمدا بە بەربەستێک یان تەنگەبەرێک ڕووبەڕوو دەبێتەوە. لە نوسینی کورمانجی، پیتەکانی ئەلفبێ بە پێی ڕێنووسی لاتینی بەکاردێن؛ بەڵام پیت و دەنگ یەک شت نین، چونکە پەیوەندیی نێوانیان لە هەمو شێوەزارەکاندا هەمیشە یەکسان نیە.</p></section>
 <section class="klesson-card"><h2>٢. پیتە کۆنسۆنەنتەکان</h2><p>لە ئەلفبێی ٣١ پیتی کورمانجی، ئەمانە وەک پیتی کۆنسۆنەنت بەکاردێن:</p><table class="klesson-table"><thead><tr><th>پیت</th><th>تێبینیی خوێندنەوە</th></tr></thead><tbody>
 <tr><td>B b</td><td>کۆنسۆنەنتی دەنگدار</td></tr><tr><td>C c</td><td>لە خشتەی IPAدا بە /d͡ʒ/ نوێنەرایەتی دەکرێت</td></tr><tr><td>Ç ç</td><td>/t͡ʃ/</td></tr><tr><td>D d</td><td>/d/</td></tr><tr><td>F f</td><td>/f/</td></tr><tr><td>G g</td><td>/g/</td></tr><tr><td>H h</td><td>/h/</td></tr><tr><td>J j</td><td>/ʒ/</td></tr><tr><td>K k</td><td>/k/ لە شێوەی گشتیی نوسین</td></tr><tr><td>L l</td><td>/l/</td></tr><tr><td>M m</td><td>/m/</td></tr><tr><td>N n</td><td>/n/</td></tr><tr><td>P p</td><td>/p/ لە شێوەی گشتیی نوسین</td></tr><tr><td>Q q</td><td>وەستانی بێ‌دەنگی لووتکەیی /q/</td></tr><tr><td>R r / RR rr</td><td>جیاوازیی لە نێوان tap و trill لە هەندێک نوسین و شێوەزاردا</td></tr><tr><td>S s</td><td>/s/</td></tr><tr><td>Ş ş</td><td>/ʃ/</td></tr><tr><td>T t</td><td>/t/ لە شێوەی گشتیی نوسین</td></tr><tr><td>V v</td><td>/v/</td></tr><tr><td>W w</td><td>/w/</td></tr><tr><td>X x</td><td>لە ڕێنووسی ستاندارددا دەنگی /χ/ نیشان دەدات؛ بە پێی شێوەزار دەکرێت جیاوازی هەبێت</td></tr><tr><td>Y y</td><td>/j/</td></tr><tr><td>Z z</td><td>/z/</td></tr></tbody></table>
 <p class="klesson-note">ئەم خشتەیە بۆ ناسینی پیت و پەیوەندیی باویانە، نەک تۆماری تەواوی هەمو فونیمەکانی کورمانجی. سەرچاوەی زانکۆی ئەریزۆنا هەندێک جیاوازیی دەنگی و شێوەزاری وەک جیاوازیی aspirated/unaspirated و trill/tap ڕون دەکاتەوە کە هەمیشە لە ڕێنووسی ستاندارددا نیشان نادرێن.</p></section>
