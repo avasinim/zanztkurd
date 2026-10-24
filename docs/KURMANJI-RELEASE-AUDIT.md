@@ -3590,3 +3590,13 @@ This section supersedes the earlier 2026-10-21/22 statements that the current mi
 - The shared `../script.js` is included.
 - The navigation has three links while the desktop grid defines two columns, so one link wraps onto another row. Recorded as a presentation inconsistency; CSS was not changed.
 - No definite wrapper title, key, or previous/next-link defect was found. Seed/database content, scientific accuracy, and rendered browser behavior were not validated. No lesson HTML, seed, migration, database, `main`, merge, or deployment was changed.
+
+## Static wrapper audit — Course 2, lesson 32 (2026-10-24)
+
+- File reviewed: `lessons/course-2-32.html` on `kurmanji-clean-release`.
+- Document title and H1 both identify lesson 32, “هێشوی کۆنسۆنەنت، تۆن، ئاوازە، لەرە و ڕاوەستان”; the number and topic match.
+- `data-lesson-key="course-2-32.html"` matches the wrapper filename.
+- Previous link points to `course-2-31.html`; the Course 2 landing link is present. The final-course marker is shown as non-link text, so no next-lesson link is expected.
+- The shared `../script.js` is included.
+- The navigation has two links and a final-course marker; the two-column desktop grid is consistent with the two links.
+- No definite wrapper title, key, or navigation defect was found. Seed/database content, scientific accuracy, and rendered browser behavior were not validated. No lesson HTML, seed, migration, database, `main`, merge, or deployment was changed.
