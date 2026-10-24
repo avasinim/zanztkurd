@@ -232,7 +232,7 @@
     <div>
       <h3>پاڵ‌پشتیەکی دڵ‌خوازانە</h3>
       <p>وانەکان و نێوەڕۆک فێرکاری زانستی کورد بەبێ پارەدان لەبەردەستی هەموانن. پاڵ‌پشتی دارایی تەنیا بە ویستی خۆتە و یارمەتیدەرە بۆ بەردەوامی و پەرەپێ‌دانی پڕۆژەکە.</p>
-      <p class="avasin-support-mini-note">بەکارهێنانی ماڵپەڕ پێویستی بە پاڵ‌پشتی دارایی نیە و هیچ خزمەت‌گوزارییەک بەهۆی نەکردنی پاڵ‌پشتی سنوردار ناکرێت.</p>
+      <p class="avasin-support-mini-note">بەکارهێنانی ماڵپەڕ پەیویستی بە پاڵ‌پشتی دارایی نیە و هیچ خزمەت‌گوزارییەک بەهۆی نەکردنی پاڵ‌پشتی سنوردار ناکرێت.</p>
     </div>
     <aside class="avasin-support-mini-bank">
       <h3>پاڵ‌پشتی لە ڕێگەی هەژماری بانکی</h3>
@@ -359,7 +359,7 @@
   const say=t=>{status.textContent=t;};
   const dateFmt=v=>{try{return new Intl.DateTimeFormat("ckb",{dateStyle:"medium"}).format(new Date(v));}catch(e){return "";}};
   async function init(){
-    if(!window.ZANSTI_SUPABASE?.ready||!window.supabase?.createClient){say("خزمەتگوزاری خاڵ پێدان لەم کاتەدا ئامادە نییە.");list.textContent="کۆمێنتەکان لەم کاتەدا بەردەست نین.";return;}
+    if(!window.ZANSTI_SUPABASE?.ready||!window.supabase?.createClient){say("خزمەتگوزاری خاڵ پێدان لەم کاتەدا ئامادە نیە.");list.textContent="کۆمێنتەکان لەم کاتەدا بەردەست نین.";return;}
     const client=window.supabase.createClient(window.ZANSTI_SUPABASE.url,window.ZANSTI_SUPABASE.publishableKey);
     const [ratings,comments]=await Promise.all([
       client.from("site_feedback_submissions").select("rating").eq("moderation_status","approved"),
