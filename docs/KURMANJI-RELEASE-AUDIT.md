@@ -3787,3 +3787,13 @@ This section supersedes the earlier 2026-10-21/22 statements that the current mi
 - All 26 have the matching `data-lesson-key`, a `lesson-content` container, and a `script.js` reference. All expected adjacent previous/next lesson links were found for the sequence; the first/last boundary links are appropriately absent rather than pointing outside the course.
 - This is a static source inspection, not a browser-authenticated end-to-end test. No wrapper edits were required in this pass. Continue the scientific/content parity audit separately; passing navigation structure does not certify lesson scientific accuracy.
 - No `main`, production deployment, database, or migration execution was involved.
+
+
+## Static wrapper audit — course 2, lesson 31 (2026-10-24)
+
+- Inspected `lessons/course-2-31.html` on `kurmanji-clean-release`.
+- The document title, meta description, visible H1, and hero number consistently identify lesson 31 as “تایبەتمەندییە ناکەرتیەکان و سترێس”.
+- The content mount uses `data-lesson-key="course-2-31.html"`; the page references `../script.js?v=20261014-academic-ui-cascade-fix`.
+- Navigation links point back to the course, to lesson 30 with `rel="prev"`, and to lesson 32 with `rel="next"`. These are the expected adjacent lesson paths.
+- The navigation grid is explicitly three columns on desktop and collapses to one column at widths up to 600px, matching the three visible navigation items; no wrapper/CSS correction is indicated by this static check.
+- **Scope limit:** this confirms static HTML wiring only. It does not verify that lesson 31's database/seed body loads, its scientific claims against sources, or browser/authenticated runtime behavior. No lesson body, seed, migration, database, `main`, merge, or deployment was changed.
