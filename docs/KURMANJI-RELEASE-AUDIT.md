@@ -3396,3 +3396,21 @@ This section supersedes the earlier 2026-10-21/22 statements that the current mi
 - This was a static wrapper/filename/navigation check only. It does not prove that every lesson_content database row exists, is readable under RLS/enrollment rules, or renders correctly in a browser.
 - It does not validate scientific accuracy, seed-to-live database equality, student/owner access, runtime console/network errors, mobile behavior, or production deployment state.
 - No source lesson, seed, migration, database, main, production deployment, or PR state was changed during this check.
+
+
+## Consolidated release gate status — 2026-10-24
+
+### Automated checks on current protected-branch head
+- Current head checked: `1306c897b887ba877099c1cdf6e2f9a0a50ca9a5`.
+- GitHub Actions completed successfully for: `Validate lesson navigation` (run `40084976736`), `Validate academic lesson catalog` (run `40084976667`), and `Validate Kurmanji course package` (run `40084976650`).
+- These green checks establish that the configured static/catalog/package/browser-mock tests passed on this head; they do not establish production Supabase behavior or deployment readiness.
+
+### Must-pass gates before production release
+1. Run the migration only in a disposable/non-production Supabase project; capture and resolve any exact migration error. Confirm course totals, row uniqueness, RLS/RPC permissions and effects on existing courses.
+2. Execute real authenticated browser flows against that test project: signed-out access, enrolled/unenrolled student, lesson access and sequential unlock, completion persistence/reporting, owner path, and regression of existing Kurdish courses.
+3. Complete source-by-source scientific verification of all 38 Kurmanji lesson bodies, recording confirmed corrections separately from dialect-sensitive/uncertain examples. Do not mass-edit lesson text or Latin Kurmanji forms without evidence.
+4. Verify seed-to-test-DB parity and runtime rendering/network/console behavior, then perform a final mobile/accessibility smoke test.
+5. Only after all gates pass, request explicit production-release authorization before merging the draft PR, applying any production migration, or deploying. This audit does not authorize those production operations.
+
+### Current decision
+**Not production-ready yet.** Static CI is green, and wrapper navigation was checked, but real Supabase migration/access tests and full scientific review remain release blockers. No production database, `main`, merge, or deployment action was performed.
