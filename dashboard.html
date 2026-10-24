@@ -222,7 +222,7 @@ else{
   }
   const {data:enrollments}=await sb.from('enrollments').select('course_id,status,enrolled_at').eq('user_id',user.id);
   const activeEnrollments=(enrollments||[]).filter(e=>e.status==='active'||e.status==='completed');
-  $('courseCount').textContent=isOwner?'2':String(activeEnrollments.length);
+  $('courseCount').textContent=isOwner?String(Object.keys(COURSES).length):String(activeEnrollments.length);
   $('enrollSummary').textContent=isOwner?'دەسەڵاتی خاوەنماڵپەڕ چالاکە؛ دەستگەیشتن بە هەردوو کۆرس بەردەستە.':activeEnrollments.length===0?'هێشتا هیچ کۆرسێکت تۆمار نەکردووە.':activeEnrollments.length===1?'١ کۆرس بە ناوی تۆ تۆمار کراوە.':activeEnrollments.length+' کۆرس بە ناوی تۆ تۆمار کراون.';
  }
  $('logout').onclick=async()=>{await sb.auth.signOut();location.href='auth.html';};
