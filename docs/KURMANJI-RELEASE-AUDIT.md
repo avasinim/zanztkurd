@@ -3108,3 +3108,21 @@ This section supersedes the earlier 2026-10-21/22 statements that the current mi
 
 ### Result
 **Status: alphabet inventory/order, lesson identity, and navigation verified; audit record only.**
+
+
+## Source review — course 1, lesson 01: introduction to Kurmanji and Latin orthography (2026-10-24)
+
+### Static page and seed comparison
+- Read `kurmanji-course-1-lesson-01.html` and the corresponding row in `docs/kurmanji-content-seed-part-01.sql` on `kurmanji-clean-release`.
+- The page title and seed title match: **ناسینی کورمانجی و چوارچێوەی ڕێنووسی لاتینی**. The `data-lesson-key` matches the lesson key, `script.js?v=20261019-kurmanji-protected` is loaded, and navigation links lead to the course plan, the Northern circle/learning page, and lesson 02.
+- The content distinguishes language, alphabet, and orthography and correctly frames the course as an introduction to the Hawar Latin writing system rather than a complete account of all Kurdish varieties.
+- Haig's academic overview describes a widely used written standard for Kurmanji based on the modified Roman alphabet and the Hawar conventions, while noting regional variation. This supports the lesson's broad framing and caution against generalizing one form to every variety. https://www.uni-bamberg.de/fileadmin/aspra/06_Team/Publications_and_CV/haig_2018_ch.2.3_northern_kurdish.pdf
+- The lesson says morphology and grammar are treated in course 2; the current `kurmanji-course-2.html` page is titled “کۆرسی ٢ — مۆرفۆلۆجی و ڕێزمانی کورمانجی” and describes word structure, word classes, pronouns, ezafe, verbs, and sentence structure, so the cross-course reference is consistent with the current catalog.
+
+### Qualification and outcome
+- The cited sources are general references, and the seed itself notes that detailed publication/page references have not yet been verified. This is appropriately disclosed; no unsupported page numbers should be added.
+- No definite scientific, page/seed identity, or navigation error was established. No lesson HTML or seed edit was warranted; Latin Kurmanji spellings were preserved.
+- No migration, database, production branch, or `main` changes were made.
+
+### Result
+**Status: introductory scope, page/seed identity, navigation, and course 2 cross-reference verified; audit record only.**
