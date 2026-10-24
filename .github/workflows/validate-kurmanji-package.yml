@@ -1,0 +1,62 @@
+name: Validate Kurmanji course package
+
+on:
+  push:
+    branches: ["kurmanji-test-config", "kurmanji-clean-release"]
+    paths:
+      - "kurmanji-course-*.html"
+      - "learning.html"
+      - "lessons/catalog.html"
+      - "script.js"
+      - "docs/kurmanji-content-seed-part-*.sql"
+      - "supabase/migrations/20261024122051_add_kurmanji_courses_and_protected_lessons.sql"
+      - "scripts/validate_kurmanji_package.py"
+      - "scripts/validate_kurmanji_sql.py"
+      - "scripts/validate_kurmanji_seed_parity.py"
+      - "scripts/test_north_circle_ui.py"
+      - "docs/KURMANJI-RELEASE-AUDIT.md"
+      - ".github/workflows/validate-kurmanji-package.yml"
+  pull_request:
+    branches: ["main"]
+    paths:
+      - "kurmanji-course-*.html"
+      - "learning.html"
+      - "lessons/catalog.html"
+      - "script.js"
+      - "docs/kurmanji-content-seed-part-*.sql"
+      - "supabase/migrations/20261024122051_add_kurmanji_courses_and_protected_lessons.sql"
+      - "scripts/validate_kurmanji_package.py"
+      - "scripts/validate_kurmanji_sql.py"
+      - "scripts/validate_kurmanji_seed_parity.py"
+      - "scripts/test_north_circle_ui.py"
+      - "docs/KURMANJI-RELEASE-AUDIT.md"
+      - ".github/workflows/validate-kurmanji-package.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  kurmanji-package-integrity:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+      - name: Install PostgreSQL SQL parser
+        run: python -m pip install --upgrade pip pglast
+      - name: Parse Kurmanji migration and seed SQL with PostgreSQL parser
+        run: python scripts/validate_kurmanji_sql.py
+      - name: Verify exact migration and seed row parity
+        run: python scripts/validate_kurmanji_seed_parity.py
+      - name: Validate Kurmanji lesson pages and seed keys
+        run: python scripts/validate_kurmanji_package.py
+      - name: Install Playwright browser tests
+        run: |
+          python -m pip install --upgrade pip playwright
+          python -m playwright install --with-deps chromium
+      - name: Run north-circle browser regression tests
+        run: python scripts/test_north_circle_ui.py
