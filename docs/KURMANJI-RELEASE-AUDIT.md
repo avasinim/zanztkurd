@@ -2707,3 +2707,11 @@ This section supersedes the earlier 2026-10-21/22 statements that the current mi
 - The workflow was triggered on `kurmanji-clean-release` for commit `ef5cb58a6d9c69bd70c926021e71b98671d6c063`; at the time of this audit note, the run was still in progress. Its result must be checked before claiming parser failure or success.
 - This parser step checks PostgreSQL SQL syntax only. It does not yet extract and compare all 38 complete lesson tuples, verify schema dependencies, or replace a disposable-database migration test.
 - No migration, seed, static lesson body, `main`, PR #3 merge state, or database was modified. Keep release blocked pending the parser result and full row-by-row reconciliation.true
+
+## Rebuilt migration lesson INSERT from the five parser-valid seed files — 2026-10-24
+
+- Replaced only the `INSERT INTO public.lesson_content ... ON CONFLICT` statement in the feature-branch migration, using the row tuples extracted from the five split seed SQL files. The source seed files and all static lesson pages were not edited.
+- Pre-write checks found 8 + 8 + 8 + 8 + 6 = **38 tuples**, with **38 unique lesson keys**, ordered from `kurmanji-course-1-lesson-01.html` through `kurmanji-course-2-lesson-12.html`. Tuple extraction tracked SQL single-quoted strings, escaped quote pairs, and parenthesis depth.
+- Migration commit: `fa73da8c22538e4c4a3646e8572abf47f44ba1b0`. This is a feature-branch-only change; it has not been applied to any database.
+- **Validation still required:** the PostgreSQL-aware CI parser must pass on this exact commit, then the existing package/browser checks should run. Matching the seed tuple set does not by itself prove that each seed payload matches its static lesson page, nor does parser success prove runtime/schema compatibility.
+- Do not release or apply this migration until the parser and regression checks pass and a disposable PostgreSQL/Supabase-compatible migration test confirms the schema and RPC changes. `main`, PR #3 merge state, production database, seeds, and static lesson bodies remain untouched.
