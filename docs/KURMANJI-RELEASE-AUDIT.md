@@ -2699,3 +2699,11 @@ This section supersedes the earlier 2026-10-21/22 statements that the current mi
 - This scan found only 8 top-level tuple starts, a final parenthesis depth of -19, 160 points where the depth becomes negative, and 105 `<section` starts while outside a SQL string. These counts depend on the scan's exact lexical rules and are not a PostgreSQL parser result; they reinforce the existing block rather than establish the intended repair.
 - **Stale migration comment identified:** the opening comments in the migration still claim the 38 title/content payloads are “synchronized exactly” with the five split seed files. That statement conflicts with the later reconciliation findings documented above and must not be treated as a validation result. The migration itself was deliberately left unchanged under the current safety constraint.
 - No SQL was executed, no database was accessed, and no migration, seed, lesson body, `main`, or PR #3 was changed. Release remains blocked. Next step is not another heuristic scan: use a PostgreSQL-aware parser in a controlled environment, extract the 38 tuples from both sources, and compare them against the authoritative static lesson pages before preparing any migration repair.
+
+## PostgreSQL-aware parser added to CI — 2026-10-24
+
+- Added `scripts/validate_kurmanji_sql.py`, which uses `pglast` (PostgreSQL's parser) to parse the current migration and all five split seed SQL files. It is read-only, makes no database connection, and does not edit lesson content.
+- Updated `.github/workflows/validate-kurmanji-package.yml` to install `pglast` and run this parser before the existing static and browser checks. The new script is included in both push and pull-request path filters.
+- The workflow was triggered on `kurmanji-clean-release` for commit `ef5cb58a6d9c69bd70c926021e71b98671d6c063`; at the time of this audit note, the run was still in progress. Its result must be checked before claiming parser failure or success.
+- This parser step checks PostgreSQL SQL syntax only. It does not yet extract and compare all 38 complete lesson tuples, verify schema dependencies, or replace a disposable-database migration test.
+- No migration, seed, static lesson body, `main`, PR #3 merge state, or database was modified. Keep release blocked pending the parser result and full row-by-row reconciliation.
