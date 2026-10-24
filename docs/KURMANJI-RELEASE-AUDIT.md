@@ -3931,3 +3931,11 @@ The script's server-progress sync also filters `lesson_progress` by the supplied
 - No lesson-8 scientific wording was changed because the existing caveats already preserve the distinction between phonetic detail, standard spelling, and dialect variation. Re-read verification confirmed exact lesson-8 row parity between the seed and migration (3,548 characters each), the Arizona and Haig source links, the title/key, previous link to lesson 7, next link to lesson 9, and protected `script.js?v=20261019-kurmanji-protected` reference.
 - Source-file audit only. No SQL was executed; no database, `main`, PR #3, or deployment was changed.
 
+## Northern Circle — lesson 7 source-based alphabet table (2026-10-24)
+
+- Corrected a prior content mismatch: lesson 7 had been a greetings/phrase lesson, although the user's instruction was for an alphabet table based on pages 72–75 of Sabir Jakaw's `فۆنێتیک و فۆنۆلۆجی کوردیک`.
+- Replaced the phrase-focused body with a source-based comparative table for consonants and vowels, referencing pages 73–75 and explaining the difference between orthographic letters and phonetic notation (APA/IPA). Included the eight Kurmanji Latin vowels and explicit caveats that the book's broader comparative Kurdish notation table is not automatically equivalent to standard Kurmanji Latin spelling.
+- Applied Avasin orthography throughout Sorani explanatory text; preserved Kurmanji Latin forms and marked letters.
+- Copied the full revised lesson-7 row from the seed into the matching migration payload. Re-read verification must confirm exact row parity, HTML wrapper integrity, and this audit entry.
+- Source-file edits on `kurmanji-clean-release` only. No SQL was executed; no database, `main`, PR #3, or deployment was changed.
+
