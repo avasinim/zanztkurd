@@ -2642,3 +2642,8 @@ This section supersedes the earlier 2026-10-21/22 statements that the current mi
 
 - Added `docs/proposals/KURMANJI-MIGRATION-ROW-STRUCTURE-PROPOSAL.md` on this branch. It records the narrowly scoped mechanical transformation to review, validation gates, and production-safety boundary.
 - The proposal is not the migration and does not change executable migration behavior. The migration itself remains untouched pending explicit authorization and parser/seed validation.
+### Validation caveat for the repair proposal — 2026-10-24
+
+- A temporary in-memory transformation was explored, without writing to the migration. The initial example rule that only removes a premature closure after `</section>` is too narrow: a broader static scan found 65 premature closure patterns across the 38 rows involving section/div/p tags and whitespace variations.
+- A quick text extraction comparison did not establish seed equivalence; therefore the proposal must not be treated as a validated patch. Do not apply the suggested mechanical transformation as-is. A quote-aware SQL parser or carefully reviewed row-by-row reconstruction is needed to preserve the complete payload and compare it accurately against all five seed parts.
+- No executable SQL, migration, seed, lesson HTML, database, main, or PR was modified in this check.
