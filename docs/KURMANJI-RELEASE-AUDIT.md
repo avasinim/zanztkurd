@@ -3239,3 +3239,20 @@ This section supersedes the earlier 2026-10-21/22 statements that the current mi
 
 ### Result
 **Core present-tense negation rule and the special form *nizanim*: corroborated. Nominal negation and individual imperative examples: still open for pinpointed verification.** No lesson body, seed tuple, migration, database, or production branch was changed. This is a source-level review only; it does not certify the whole package or runtime authorization/progression.
+
+## Source review — course 1, lesson 19: questions and interrogatives (2026-10-24)
+
+### What is corroborated
+- The main inventory is broadly supported by Kurmanji references: **kî** (who), **çi** (what), **kengî** (when), **çima** (why), **çawa** (how), **kîjan** (which), and **çiqas** (how much/how far). The beginner reference *Kurmanji Kurdish Basics*, §11.6, gives examples such as **Tu çima hatî?**, **Tu kengî hatî?**, **Ev kî bû?**, and **Kîjan baştir e?**.
+- **li ku** (“where”) and **Tu li ku yî?** (“Where are you?”) are supported by Kurmanji grammar references.
+- The lesson’s distinction between open information questions and yes/no questions is pedagogically sound. Yes/no questions may be formed through intonation and, in many contexts, with a question particle such as **ma**; do not imply that a written question mark alone describes spoken question formation.
+- Sources reviewed: [*Kurmanji Kurdish Basics*, §11.6](https://internationalistcommune.com/wp-content/uploads/2024/01/kurmanji-basic.pdf), [Kurmanji grammar — interrogatives](https://www.kurdipedia.org/files/books/2013/88758.PDF), [Kurdische Grammatik — question sentences](https://www.kurdischegrammatik.com/der-satz/), and [research on Kurmanji phrase structure](https://digitalarchive.library.bogazici.edu.tr/bitstreams/c22fcd85-97d8-4c48-98ab-8cc623449fff/download).
+
+### Items still requiring editorial verification
+- The lesson lists **çi** glossed “چی” and uses **Tu çi dixwazî?** (“What do you want?”), but the Sorani gloss “تۆ چی دەوێت؟” should be edited only after the project’s Sorani style and dialect are confirmed; this pass does not establish a definite error.
+- The example **“Tu kengî têyî?”** and the phrase **“Tu bi çi awayî hatî?”** need sentence-level checking against a consistent grammar source. The inventory is sound, but the inflected verb forms and exact translations should not be presumed verified merely because the question word is correct.
+- The statement that question words and their position vary with sentence context is useful; avoid overgeneralizing that all question words must stand at the beginning. Academic description documents wh-words in their base positions in some Kurmanji structures.
+- The bibliography should eventually give pinpoint section/page references for the example sentences.
+
+### Result
+**Core interrogative vocabulary: corroborated. Selected sentence forms, glosses, and the description of question-word position: partially verified and still open.** No lesson body, seed tuple, migration, database, or production branch was changed. This is a source-level review only; it does not certify the whole package or runtime authorization/progression.
