@@ -3809,14 +3809,17 @@ This section supersedes the earlier 2026-10-21/22 statements that the current mi
 - **Scope limit:** this confirms static wrapper structure only. It does not establish that the lesson body loads from seed/database or that the scientific content is source-verified. No lesson body, seed, migration, database, `main`, merge, or deployment was changed.
 
 
-## Integration blocker — Course 2 wrapper/database key mismatch (2026-10-24)
+## Clarification — the four course paths are separate (2026-10-24)
 
-A cross-check of the static wrappers, `script.js`, the 38-row migration payload, and the five split seed files found a concrete integration mismatch that the wrapper-only checks do not detect:
+The project owner confirmed that the two circles and their courses must remain distinct:
 
-- The 32 phonetics/phonology pages use keys `course-2-01.html` through `course-2-32.html` in `data-lesson-key`. `script.js` queries `lesson_content.lesson_key` using that exact attribute, and maps those page paths to course ID `phonetics-phonology-kurdik`.
-- The current migration/seed payload instead contains 12 Course 2 rows keyed `kurmanji-course-2-lesson-01.html` through `kurmanji-course-2-lesson-12.html`, under course ID `kurmanji-course-2`. Their titles/content describe a morphology/grammar course, not the 32 phonetics/phonology wrappers.
-- The 20 Course 2 phonetics pages numbered 13–32 have no matching lesson-content rows in this migration/seed package. Therefore the existing 32 wrappers cannot load their intended lesson bodies from this payload; this is not merely a navigation or wrapper typo.
-- **No automatic key replacement is safe:** changing wrapper keys to the 12 existing rows would serve different course content and still leave lessons 13–32 without content. The correct fix requires agreeing on the canonical Course 2 dataset/course ID, then preparing and source-verifying the intended 32 phonetics lesson bodies and a matching seed/migration package, or deliberately restoring the separate 12-lesson morphology course as its own distinct course.
-- The check was static and read-only. No wrapper, lesson body, seed, migration, database, `main`, PR merge, or deployment was changed. The migration has not been executed against any database.
+- Northern Circle, Course 1: Kurmanji basic orthography (26 lessons).
+- Northern Circle, Course 2: Kurmanji morphology/grammar (12 lesson-content rows in the current Kurmanji seed package).
+- Central Circle, Course 1: Kurdish orthography (26 lessons).
+- Central Circle, Course 2: Kurdish phonetics and phonology (32 lesson wrappers, course ID `phonetics-phonology-kurdik`).
 
-This finding supersedes any interpretation of the individual wrapper checks as proof that Course 2 content is connected correctly. Those checks establish only that the wrappers' own metadata and navigation are internally consistent.
+The 12 morphology lessons in the Kurmanji seed/migration must not be substituted for, or renamed as, the 32 phonetics/phonology lessons. Their different course IDs and lesson keys are expected because they are different courses.
+
+The current Kurmanji seed package contains 38 rows in total (26 basic orthography + 12 morphology). This package does not contain the 32 Central Circle phonetics/phonology lesson bodies; that is a scope distinction, not proof that the Kurmanji course has a defect. Audit the Central Circle content source separately and verify its own course ID, lesson keys, content availability, and progress flow without mixing it with the Kurmanji release.
+
+This clarification supersedes the previous heading's implication that the different course keys alone constituted a defect. Static wrapper checks do not prove runtime content loading. No production database, `main`, merge, or deployment was changed.
