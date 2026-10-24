@@ -3949,3 +3949,12 @@ The script's server-progress sync also filters `lesson_progress` by the supplied
 - Avasin orthography was checked in the Sorani explanatory text; the Kurmanji Latin forms and diacritics were preserved. No HTML, lesson body, seed, or migration content was changed in this audit step.
 - Audit-document-only change on `kurmanji-clean-release`. No SQL was executed and no database, `main`, PR #3, or deployment was changed.
 
+
+## Northern Circle — lesson 10 initial phrases review (2026-10-24)
+
+- Re-read the lesson-10 static HTML wrapper, the complete seed row in `docs/kurmanji-content-seed-part-02.sql`, and the matching migration row from the available migration snapshot. The wrapper title/H1, lesson key, previous/next links (lessons 9/11), and protected `script.js?v=20261019-kurmanji-protected` reference are consistent.
+- The lesson-10 seed row and available migration snapshot are exactly identical (3,556 characters). The lesson covers greetings, introductions, polite requests, and a short conversation.
+- Source check against Yari confirms `Êvarbaş` is an evening greeting, while `Şevbaş` is used for good night / late-night farewell; Yari also confirms `Bi xatirê te`, `Bi xêr hatî`, `Tu çawa yî?`, `Spas`/`sipas`, `Ji kerema xwe`, `Erê`, and `Na` (https://yari.krd/learn/kurdish-greetings/). The current lesson table includes `Şevbaş` but lacks a separate `Êvarbaş` row, so the table could incorrectly leave evening greetings underrepresented. This is a definite, source-supported content gap to fix by adding `Êvarbaş!` as “ئێوارە باش!” and describing it as an evening greeting, while keeping `Şevbaş!` as a night-time / bedtime farewell.
+- No content edit was made in this pass because the migration file could not be fetched by the current branch ref (the available commit snapshot can be read, but the branch-level file lookup returns 404). Do not update only the seed: the lesson payload must be changed in the static source/seed and matching migration together, followed by exact parity verification. This is recorded as a pending coordinated correction, not as a completed fix.
+- No SQL was executed; no database, `main`, PR #3, or deployment was changed.
+
