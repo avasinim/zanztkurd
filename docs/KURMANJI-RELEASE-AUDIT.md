@@ -4006,3 +4006,12 @@ The script's server-progress sync also filters `lesson_progress` by the supplied
 - Avasin Code check: the Sorani explanatory layer was checked for preferred spellings such as `نوسین`, `ڕون`, `پەیویست`, `فێربون`, and `نمونە`. Latin Kurmanji spellings and diacritics were preserved.
 - No lesson content was modified. Only the audit document is updated. No SQL was executed; no database, `main`, PR #3, or deployment was changed. Migration parity refers to the known snapshot only because branch-ref fetch still returns 404.
 
+
+## Northern Circle — lesson 16 weekdays and time vocabulary review (2026-10-24)
+
+- Reviewed `kurmanji-course-1-lesson-16.html`, the complete lesson-16 row in `docs/kurmanji-content-seed-part-02.sql`, and the corresponding row in migration snapshot `4220345b2174cab47338c35f5d7d887239ed00ac`.
+- Re-read verification: seed and migration snapshot rows match exactly (3,225 characters). Title/H1 are `ڕۆژەکانی هەفتە و کات`; lesson key is `kurmanji-course-1-lesson-16.html`; previous/next links point to lessons 15/17; protected script remains `script.js?v=20261019-kurmanji-protected`.
+- Source check: the seven weekday forms `duşem, sêşem, çarşem, pêncşem, în, şemî, yekşem` match the Kurmanji weekday list in *Kurmanji Kurdish, Lesson 4*, §2.2 and Kurmanji School’s time guide. The time words `îro, niha, paşê, sibê` are also supported by those references. Sources: https://www.kurdipedia.org/files/books/2023/474430.PDF and https://kurmanjischool.com/en/what-time-is-it-in-kurmanji/.
+- Two coordinated-review flags were recorded rather than making a one-file edit: (1) the word for “yesterday” is written `doh`, whereas the checked sources give `duh` or `duhî`; confirm the intended variety/source before correcting; (2) Sorani gloss `زوو` for `zû` conflicts with the Avasin Code preference to avoid `وو`, so the project-preferred spelling should be applied consistently. The gloss `sibê` (“tomorrow / tomorrow morning”) is context-sensitive, and the lesson already notes that time expressions should be checked in context.
+- No lesson payload was changed because the branch-level migration fetch still returns 404; do not make an isolated seed/HTML edit that risks breaking static/seed/migration parity. This step updates only the audit log. No SQL was executed; no database, `main`, PR #3, or deployment was changed.
+
