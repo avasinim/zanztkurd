@@ -2987,3 +2987,21 @@ This section supersedes the earlier 2026-10-21/22 statements that the current mi
 
 ### Result
 **Status: static page/seed alignment verified; place-name spellings broadly corroborated; exact inflected sentence forms and some Kurdish glosses remain only partially source-verified.** This is not full scientific certification of lesson 09. Continue with lesson-by-lesson review and do not auto-copy seed content into the migration or vice versa.
+
+
+## Source review — course 1, lesson 08: orthography versus pronunciation (2026-10-24)
+
+### Static page and seed comparison
+- Read `kurmanji-course-1-lesson-08.html` and its row in `docs/kurmanji-content-seed-part-01.sql` on `kurmanji-clean-release`.
+- The page title and seed title match: **جیاوازی نێوان نوسین و دەربڕین**.
+- The page uses `data-lesson-key="kurmanji-course-1-lesson-08.html"`, loads the protected course `script.js`, and links back to lesson 07 and forward to lesson 09. These static references are consistent.
+- The seed content explains the distinction among written letters, phonemes, pronunciation, and standardized spelling. It includes examples e/ê, i/î, u/û, r/rr, and the dialect-sensitive /pˤ/ contrast.
+
+### Source cross-check
+- The University of Arizona's Iranian Languages resource, “Kurmanji Kurdish,” supports the core lesson point that standard spelling does not represent every pronunciation detail: it notes that unaspirated stops may be phonemically distinct in some Kurmanji varieties, that this distinction is not shown in standard Latin spelling, and that the contrast is absent in some dialects. It also describes the trill/flap distinction and variation in pharyngeal sounds. Source: https://iranian-languages.arizona.edu/node/7
+- Haig and Öpengin's scholarly overview of Northern Kurdish gives a generalized consonant inventory and discusses dialectal variation, supporting the need to avoid presenting every phonetic contrast as universal: https://www.uni-bamberg.de/fileadmin/aspra/06_Team/Publications_and_CV/haig_2018_ch.2.3_northern_kurdish.pdf
+- **Caution:** the lesson's specific wording that `r / rr` marks tap versus trill “in some writing systems” needs a more precise orthographic source before being treated as a general rule. The cited Arizona source supports a phonetic trill/flap distinction, but does not by itself establish that `rr` is a standard spelling convention across Kurmanji. Keep this as a source-verification item; do not silently rewrite the lesson or Latin examples.
+- The claim about `/pˤ/` should remain explicitly dialect-sensitive. The Arizona overview describes unaspirated stops as often accompanied by slight pharyngealization and says the distinction is not present in all dialects; it should not be generalized to all Kurmanji speakers.
+
+### Result
+**Status: page/seed title and navigation alignment verified; the lesson's central spelling-versus-pronunciation distinction is supported; the precise `r/rr` orthographic claim remains unverified.** No lesson HTML, seed row, migration, database, or production branch was changed.
