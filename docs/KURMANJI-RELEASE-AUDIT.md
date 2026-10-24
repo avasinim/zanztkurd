@@ -3192,3 +3192,18 @@ This section supersedes the earlier 2026-10-21/22 statements that the current mi
 - This establishes source-file parity only. It does not prove the migration has been applied to the intended database, that live rows are correct, or that student authorization/progress flows work at runtime.
 - No SQL was executed against any database, and no migration, seed content, `main`, production database, or PR merge was changed by this recheck.
 
+## Source review — course 1, lesson 16: days of the week and time vocabulary (2026-10-24)
+
+### What is corroborated
+- The seven Kurmanji day names in the lesson body match the table in *Kurmanji Kurdish for Beginners*, Lesson 4, §2.2 “Days of the week/Rojên heftêyê”: **Duşem, Sêşem, Çarşem, Pêncşem, În, Şemî, Yekşem**. The order and the Sorani glosses in the seed are consistent with the intended Monday–Sunday mapping.
+- The same source’s §2.3 lists common time adverbs including **niha** (“now”), **paşê** (“later”), **duhî** (“yesterday”), **îro** (“today”), and **sibe** (“tomorrow”). A separate beginner time-and-days resource also corroborates the day-name inventory and examples such as **Îro Duşem e**.
+- Sources reviewed: [*Kurmanji Kurdish for Beginners*, Lesson 4 PDF](https://www.kurdipedia.org/files/books/2023/474430.PDF), [Kurdish Academy — Course 10: Dem û Roj](https://kurdishacademy.ch/kurmancu00ee/dersen/courses/course-10.html), and [University of Arizona — Kurmanji Kurdish](https://iranian-languages.arizona.edu/node/7).
+
+### Items still requiring editorial verification
+- The lesson uses **sibê** and **doh** in its time-word table, while the reviewed beginner lesson writes **sibe** and **duhî**; other resources also use **duh**. These may reflect spelling/usage variants, so this review does **not** establish that either form is wrong. Keep the variants visible and confirm them against the course’s chosen dictionary/grammar before any edit.
+- The Sorani gloss **“sibê — سبەی / بەیانیی داهاتوو”** gives two closely related interpretations; its intended meaning should be checked in sentence context.
+- The sample sentences **“Ez sibê têm.”**, **“Em îro dixwînin.”**, and **“Ez niha amade me.”** were not all independently verified against a pinpointed grammar source in this pass. The lesson itself correctly labels them as introductory and calls for further checking; retain that caution until a grammar reference is checked.
+- The lesson’s general bibliography links are useful starting points, but it does not yet provide pinpoint page/section citations for every time word and example.
+
+### Result
+**Day-name list: corroborated. Time vocabulary: partially corroborated, with spelling/usage variants and example sentences still open.** No lesson body, seed tuple, migration, database, or production branch was changed. This is a source-level review only; it does not certify the whole 38-lesson package or runtime authorization/progression.
