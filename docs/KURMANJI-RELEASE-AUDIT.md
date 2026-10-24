@@ -1,5 +1,8 @@
 # Kurmanji course release audit — 2026-10-19
 
+
+> **Current validation status (2026-10-24): RELEASE BLOCKED.** Any earlier audit passage claiming that all 38 migration payloads were parsed and synchronized, or that title/content mismatches were zero, is superseded by the later structural scan and reconciliation notes below. The current migration has not been validated by a PostgreSQL-aware parser; the 38-row content comparison remains heuristic. Do not apply the migration or use it for release until quote-aware parsing and row-by-row validation are completed.
+
 ## Current state
 - PR #3 is the current draft review path for the Kurmanji course changes; it is open and unmerged.
 - The course content migration defines 26 lessons for `kurmanji-course-1` and 12 lessons for `kurmanji-course-2`.
