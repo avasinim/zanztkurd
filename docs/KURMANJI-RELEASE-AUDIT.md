@@ -2798,3 +2798,12 @@ This section supersedes the earlier 2026-10-21/22 statements that the current mi
 - **Content presence:** the seed covers definiteness/context, the indefinite marker `-ek`, direct/oblique case forms, demonstratives `ev/ew`, exercises, and references including Haig (2018), University of Arizona, and Thackston.
 - **Scientific review flags:** the exact paradigms and segmentation of `gund-ek-î`, `jin-ek-ê`, and the demonstrative noun phrases should be checked against the cited reference grammar and its case terminology before scientific approval. This structural pass does not independently verify every morphological claim. No definite page/seed wiring mismatch was found; no lesson text, seed, migration, or Latin Kurmanji form was changed.
 - Re-read the audit file after the update and confirmed the entry is present. Only the protected branch was modified; no database operation was performed.
+
+
+## Lesson 24 — possession and possessive expressions (2026-10-24)
+
+- Cross-checked `kurmanji-course-1-lesson-24.html` against its row in `docs/kurmanji-content-seed-part-03.sql`.
+- **Structural match:** page title and seed title agree (`خاوەنداری لە دەربڕینەکاندا`); `data-lesson-key="kurmanji-course-1-lesson-24.html"` matches the seed key; shared `script.js` is loaded; previous/next links point to lessons 23 and 25.
+- **Content presence:** covers possessive pronoun forms (`min, te, wî, wê, me, we, wan`), noun-phrase ezafe, free ezafe forms `yê/ya/yên`, exercises, and references including Haig (2018), University of Arizona, and Thackston.
+- **Scientific review flags:** examples such as `pirtûka min`, `birayê min ê mezin`, and the gender/number/case-conditioned forms `yê/ya/yên` require checking against the cited reference grammar and exact syntactic context. The lesson itself cautions against treating all forms as one uniform rule; this pass does not independently validate each paradigm. No definite page/seed wiring mismatch was found; no lesson text, seed, migration, or Latin Kurmanji form was changed.
+- Re-read the audit file after updating and confirmed this entry is present. Only the protected branch was modified; no database operation was performed.
