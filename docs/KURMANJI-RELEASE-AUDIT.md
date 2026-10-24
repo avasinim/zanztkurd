@@ -3851,3 +3851,13 @@ The script's server-progress sync also filters `lesson_progress` by the supplied
 - Static `script.js` routing distinguishes the two Kurmanji page patterns from Central Circle numbered pages; server progress queries filter by `course_id`. This supports separation in code but does not prove runtime authorization or persistence.
 - Rechecked Central Circle lesson wrappers `lessons/course-2-31.html` and `lessons/course-2-32.html`: keys match filenames, lesson 31 links to 30 and 32, and lesson 32 links back to 31 with no next-lesson link.
 - Remaining verification: test all four start-course actions and lesson-body loading in a browser; verify each course's own content keys/data source; test prerequisites and completion persistence for signed-out, unenrolled, enrolled, and owner roles. No database or deployment test was run in this step.
+
+
+## Read-only course-content inventory — test Supabase project (2026-10-24)
+
+- Ran read-only SQL against the designated test project only; no data or schema was modified.
+- `public.courses` contains all four distinct course IDs and expected totals: `kurmanji-course-1` (26), `kurmanji-course-2` (12), `orthography-kurdik` (26), and `phonetics-phonology-kurdik` (32).
+- Joining `courses` to `lesson_content` shows content rows/unique keys of 26/26 for Kurmanji Course 1 and 12/12 for Kurmanji Course 2, but 0/0 for Central Circle orthography and 0/0 for Central Circle phonetics/phonology.
+- This is a confirmed content-availability gap in the test database for the two Central Circle courses, not a reason to reuse Kurmanji lesson content. The course metadata totals remain 26 and 32 respectively.
+- Next safe step: compare each Central Circle HTML source page's `data-lesson-key`, title, and source body against its own intended seed/migration package; prepare a separate, source-faithful seed/migration for review on the test branch/project only. Do not execute it until all 58 source lesson bodies and keys are reconciled.
+- No production project, `main`, deployed site, migrations, or database writes were touched.
