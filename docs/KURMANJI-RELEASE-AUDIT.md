@@ -3631,3 +3631,10 @@ This section supersedes the earlier 2026-10-21/22 statements that the current mi
 - The rule uses the existing text-node/attribute normalizer and therefore also covers visible lesson text inserted after initial page load.
 - This is a spelling normalization only. No Latin Kurmanji forms, source lesson files, seed, migrations, or database values were changed. Browser-level behavior remains untested.
 - Change is limited to `kurmanji-clean-release`; no `main`, database operation, PR merge, or deployment was performed.
+
+## Text normalizer safety — preserve code examples (2026-10-24)
+
+- Updated all three text-node normalization guards in `script.js` to skip text inside `code`, `pre`, `kbd`, and `samp`, in addition to the existing script/style/noscript/textarea exclusions.
+- Rationale: global visible-text spelling replacements should not silently rewrite literal code samples or preformatted source examples. This narrows normalization to ordinary page text while preserving the existing Avasin spelling rules.
+- Re-fetched and verified the source after editing; all three guards include the code/preformatted-element exclusion. This is source-level verification, not a browser runtime test.
+- No lesson source content, Latin Kurmanji spellings, seed, migration, or database was edited. Change is confined to `kurmanji-clean-release`; no `main`, PR merge, or deployment operation was performed.
