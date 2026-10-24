@@ -2826,3 +2826,12 @@ This section supersedes the earlier 2026-10-21/22 statements that the current mi
 - **Scientific review flags:** the example `Ez wî mirovî dibînim` and past transitive `Min ew dît` should be verified against the cited grammar for case marking and context. Also, `şaş` is glossed as “wrong”; verify the exact lexical form and intended example against a reliable Kurmanji dictionary before treating it as a teaching standard. No unsupported correction was made during this structural pass.
 - **Orthography note:** Kurdish explanatory text was checked for project conventions at a surface level; this does not replace a full Avasin Code scan of every page and seed.
 - Re-read the audit file after updating and confirmed this entry is present. Only the protected branch was modified; no database operation was performed.
+
+
+## Package-wide structural checkpoint (2026-10-24)
+
+- Reviewed the current static validator and CI workflow after completing lessons 24–26. The package validator expects 26 Course 1 pages and 12 Course 2 pages, checks each page's lesson key, shared `script.js`, `noindex,follow` metadata, loading placeholder, sequential previous/next navigation and course boundaries, plus numeric ordering in each course plan.
+- The SQL checks separately parse the migration and all five seed files with PostgreSQL's parser and compare all 38 migration tuples against the seed package byte-for-byte and in order. These are static source checks; they do not prove the migration has been applied safely or that lesson grammar is scientifically correct.
+- The shared-script validator requires the project's canonical Avasin spelling mappings and checks the course runtime-gate integration markers. A runtime normalizer is not a substitute for reviewing source text: normalization can only cover the explicitly listed patterns.
+- **CI improvement:** added `docs/KURMANJI-RELEASE-AUDIT.md` to both push and pull-request path filters for `.github/workflows/validate-kurmanji-package.yml`, so future audit-only commits also trigger the package integrity checks. Workflow update commit: `8f6fd6d48949237e6f2c04914e40e3b6ea9ea64c`.
+- This checkpoint is not a claim that every Kurdish string has been exhaustively audited against the Avasin Code or that every Kurmanji paradigm has been checked against its sources. Scientific flags from lessons 18 and 21–26 remain evidence-required review items. No lesson text, seed SQL, migration, or database was changed.
