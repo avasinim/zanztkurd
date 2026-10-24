@@ -3207,3 +3207,19 @@ This section supersedes the earlier 2026-10-21/22 statements that the current mi
 
 ### Result
 **Day-name list: corroborated. Time vocabulary: partially corroborated, with spelling/usage variants and example sentences still open.** No lesson body, seed tuple, migration, database, or production branch was changed. This is a source-level review only; it does not certify the whole 38-lesson package or runtime authorization/progression.
+
+## Source review — course 1, lesson 17: basic present tense (2026-10-24)
+
+### What is corroborated
+- The lesson’s general description of the Kurmanji present/habitual form—present stem with the aspect prefix **di-** and person-number ending—is supported by the University of Arizona’s “Kurmanji Kurdish” grammar overview, which also warns that the past tense has a different agreement pattern and treats irregular verbs separately.
+- The forms **Ez dixwînim, Tu dixwînî, Ew dixwîne, Em/Hûn/Ew dixwînin** are consistent with a beginner grammar table for *xwendin* (“to read/study”). The lesson’s core examples **Ez diçim**, **Ez dikim**, and **Ez dinivîsim** are also consistent with the referenced verb paradigms.
+- The broad verb-final / SOV description is appropriate as the default basic order, as long as the lesson’s own qualification is preserved that word order can change for emphasis or information structure.
+- Sources reviewed: [University of Arizona — Kurmanji Kurdish](https://iranian-languages.arizona.edu/node/7), [Kurdi School — Kurmanji grammar, explained simply](https://kurdischool.com/grammar.html), and [Thackston, *Kurmanji Kurdish: A Reference Grammar with Selected Readings*](https://sites.fas.harvard.edu/~iranian/Kurmanji/kurmanji_complete.pdf).
+
+### Items still requiring editorial verification
+- The lesson appropriately states that the formula is a generalization, not a rule without exceptions. Keep this qualification: Kurmanji has irregular present forms (including *hatin* and *anîn*) and the past tense has distinct agreement/case behavior.
+- The sentence **“Em kurdî hîn dibin.”** and the Sorani glosses were not independently checked against a pinpointed grammar page in this pass. They remain pending a focused source/translation review.
+- The bibliography provides broad links but does not yet map every example to a precise page, section, or table.
+
+### Result
+**Present-tense formation and the core *xwendin* paradigm: corroborated at introductory level. Sentence-by-sentence source verification and Sorani editorial review remain open.** No lesson body, seed tuple, migration, database, or production branch was changed. This is a source-level review only; it does not certify the whole 38-lesson package or runtime authorization/progression.
