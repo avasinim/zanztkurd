@@ -3968,3 +3968,13 @@ The script's server-progress sync also filters `lesson_progress` by the supplied
 - Pending item retained from the lesson-10 audit: add the source-supported `Êvarbaş!` evening greeting in a coordinated update to the static lesson source, seed, and migration. The branch-level fetch of the migration currently returns 404 even though the available snapshot at `4220345b2174cab47338c35f5d7d887239ed00ac` contains the row. Do not update only the seed or claim the lesson-10 correction complete until all three payloads can be updated and re-read together.
 - This step changes only the audit document on `kurmanji-clean-release`. No SQL was executed; no database, `main`, PR #3, or deployment was changed.
 
+
+## Northern Circle — lesson 12 demonstratives review (2026-10-24)
+
+- Reviewed `kurmanji-course-1-lesson-12.html`, the complete lesson-12 seed row in `docs/kurmanji-content-seed-part-02.sql`, and the migration payload available at snapshot commit `4220345b2174cab47338c35f5d7d887239ed00ac`.
+- Re-read verification: seed and available migration lesson-12 rows match exactly (3,407 characters). Page title/H1 are `جێناوە ئاماژەییەکان`; `data-lesson-key` is `kurmanji-course-1-lesson-12.html`; previous/next navigation points to lessons 11/13; protected script reference remains `script.js?v=20261019-kurmanji-protected`.
+- Scientific review: `ev` is presented as the proximal demonstrative and `ew` as the distal demonstrative; the lesson distinguishes independent pronoun use (`Ev baş e.`) from use with a noun (`ev pirtûk`). It also appropriately warns that `ew` can function as a third-person pronoun and that interpretation depends on context. No definite grammatical error was established from the examples presented, so no unsupported content change was made.
+- Avasin orthography review: explanatory Kurdish was checked for the project's preferred forms, including `فێربون`, `نمونە`, `هەمو`, `نێوەڕۆک`, and `ڕون`; no definite correction requiring a source or context change was identified in this lesson payload. Latin Kurmanji forms were preserved.
+- Migration limitation remains: fetching the migration by branch ref `kurmanji-clean-release` returns 404, while the historical snapshot contains matching rows. Do not perform a one-sided seed change or claim the pending lesson-10 `Êvarbaş!` update is complete. Resolve the branch-level migration state before coordinated updates.
+- This audit-only step does not modify lesson HTML, seed, migration, database, `main`, PR #3, or deployment.
+
