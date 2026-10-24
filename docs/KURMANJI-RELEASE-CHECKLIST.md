@@ -7,10 +7,10 @@ Scope: test branch `kurmanji-test-config` and Supabase test project only. Do not
 - [x] 26 Course 1 lesson HTML pages are present.
 - [x] 12 Course 2 lesson HTML pages are present.
 - [x] Expected lesson keys are represented in the Kurmanji seed SQL package.
-- [x] GitHub Actions package-integrity workflow passed (2026-10-21).
+- [x] GitHub Actions package-integrity workflow passed (2026-10-24; see current run linked in the release audit).
 - [x] Shared text-normalization script excludes `.lesson-content` text and attributes; validator checks this safeguard.
-- [x] Latest validation workflow passed after the source-text preservation fix (2026-10-21).
-- [x] Supabase test database contains 26 Course 1 and 12 Course 2 lesson-content rows; no empty content rows were found.
+- [x] Latest catalog, navigation, and package validation workflows passed for the reconciled branch head (2026-10-24; see release audit links).
+- [ ] Reconfirm in the currently designated isolated test Supabase project that the migration applies cleanly and yields 26 Course 1 and 12 Course 2 lesson-content rows, with no empty rows. (An earlier test-DB snapshot was reported on 2026-10-21; this checklist does not treat it as validation of the current reconciled migration.)
 
 ## Required browser acceptance checks
 
