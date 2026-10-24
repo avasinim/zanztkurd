@@ -3958,3 +3958,13 @@ The script's server-progress sync also filters `lesson_progress` by the supplied
 - No content edit was made in this pass because the migration file could not be fetched by the current branch ref (the available commit snapshot can be read, but the branch-level file lookup returns 404). Do not update only the seed: the lesson payload must be changed in the static source/seed and matching migration together, followed by exact parity verification. This is recorded as a pending coordinated correction, not as a completed fix.
 - No SQL was executed; no database, `main`, PR #3, or deployment was changed.
 
+
+## Northern Circle — lesson 11 personal pronouns review (2026-10-24)
+
+- Reviewed `kurmanji-course-1-lesson-11.html`, the complete lesson-11 seed row in `docs/kurmanji-content-seed-part-02.sql`, and the migration payload available at commit snapshot `4220345b2174cab47338c35f5d7d887239ed00ac`.
+- Re-read verification: the seed and migration lesson-11 rows match exactly (4,574 characters); the title and H1 are `جێناوە کەسییەکان`; `data-lesson-key` is `kurmanji-course-1-lesson-11.html`; navigation points to lessons 10 and 12; and the protected `script.js?v=20261019-kurmanji-protected` reference remains unchanged.
+- Scientific review: the lesson distinguishes direct pronouns (`ez, tu, ew, em, hûn`) from oblique forms (`min, te, wî/wê, me, we, wan`), correctly notes that `ew` can refer to singular or plural according to context, and introduces `xwe` as reflexive. Its examples `navê min`, `bi te re`, and `Ez ji dayika xwe hez dikim` are consistent with the cited Kurmanji grammar sources (University of Arizona Iranian Languages; Haig 2018; Thackston). No definite scientific error was established, so lesson content and Latin Kurmanji spellings were not changed.
+- Avasin orthography check: Sorani explanatory text was checked against the project conventions, including `نوسین`, `نمونە`, `ڕون`, and `فێربون`; no unambiguous additional correction was necessary in the lesson payload.
+- Pending item retained from the lesson-10 audit: add the source-supported `Êvarbaş!` evening greeting in a coordinated update to the static lesson source, seed, and migration. The branch-level fetch of the migration currently returns 404 even though the available snapshot at `4220345b2174cab47338c35f5d7d887239ed00ac` contains the row. Do not update only the seed or claim the lesson-10 correction complete until all three payloads can be updated and re-read together.
+- This step changes only the audit document on `kurmanji-clean-release`. No SQL was executed; no database, `main`, PR #3, or deployment was changed.
+
