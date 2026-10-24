@@ -3382,3 +3382,17 @@ This section supersedes the earlier 2026-10-21/22 statements that the current mi
 
 ### Result and boundaries
 **Status: lesson 26 identity, wrapper key, script reference, final-lesson navigation, review structure, and non-certifying self-assessment verified. The course-plan title spelling variant remains as previously recorded; a sourced `r/rr` contrast and complete lexical/editorial proofread remain possible future work.** No lesson HTML, seed tuple, migration, database, `main`, production deployment, or PR state was changed.
+
+
+## Integrated static release check — course 1 lesson wrappers (2026-10-24)
+
+### Scope and results
+- Checked all 26 Kurmanji course 1 HTML wrappers in the protected branch.
+- For each wrapper, confirmed the data-lesson-key matches its own filename and the page references the shared protected script.js version.
+- Checked adjacent lesson navigation: lessons 1–25 link forward to the next numbered lesson; lessons 2–26 link back to the preceding lesson; lesson 1 has no previous-lesson link and lesson 26 has no next-lesson link. No mismatch was found in this structural sweep.
+- Compared course counts and naming in the catalog with the script's lesson sequencing: Kurmanji orthography course 1 is 26 lessons; Kurmanji morphology/grammar course 2 is 12 lessons (kurmanji-course-2-lesson-XX.html); the distinct Kurdish phonetics/phonology course has 32 pages (lessons/course-2-XX.html). The script's 12-entry order for the Kurmanji morphology course and 32-entry order for phonetics are therefore consistent with these separate paths; the superficially similar filenames refer to different courses.
+
+### Limits / remaining release gates
+- This was a static wrapper/filename/navigation check only. It does not prove that every lesson_content database row exists, is readable under RLS/enrollment rules, or renders correctly in a browser.
+- It does not validate scientific accuracy, seed-to-live database equality, student/owner access, runtime console/network errors, mobile behavior, or production deployment state.
+- No source lesson, seed, migration, database, main, production deployment, or PR state was changed during this check.
