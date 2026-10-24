@@ -3939,3 +3939,13 @@ The script's server-progress sync also filters `lesson_progress` by the supplied
 - Copied the full revised lesson-7 row from the seed into the matching migration payload. Re-read verification must confirm exact row parity, HTML wrapper integrity, and this audit entry.
 - Source-file edits on `kurmanji-clean-release` only. No SQL was executed; no database, `main`, PR #3, or deployment was changed.
 
+
+## Northern Circle — lesson 9 personal and place names (2026-10-24)
+
+- Audited `kurmanji-course-1-lesson-09.html`, the complete lesson-9 row in `docs/kurmanji-content-seed-part-02.sql`, and the matching payload in migration `20261024122051_add_kurmanji_courses_and_protected_lessons.sql`.
+- The lesson teaches capitalization of personal/place names, preservation of Kurmanji Latin diacritics (`ç, ş, ê, î, û`), context-sensitive use of alternative place names, and the distinction between a name's spelling and grammatical case endings.
+- Source check: Kurdi School's Kurmanji grammar explicitly gives `ji Amedê`, `li Amedê`, and `ji Qamişloyê`, and notes paired city names such as Amed/Diyarbakır, Hewlêr/Erbil, and Wan/Van (https://kurdischool.com/grammar.html). Haig, “Northern Kurdish (Kurmanjî)” also describes the Kurmanji oblique case after adpositions and notes that zero marking is common with proper nouns (https://multicast.aspra.uni-bamberg.de/data/pubs/Haig2018_Northern-Kurdish_Kurmanji.pdf). The lesson's examples are consistent with these sources; no scientific-content change was justified.
+- Re-read verification: the complete lesson-9 SQL row is exactly identical in seed and migration (3,841 characters); title and course ID match; HTML title/H1 and `data-lesson-key="kurmanji-course-1-lesson-09.html"` agree; previous/next links point to lessons 8/10; and the protected script reference remains `script.js?v=20261019-kurmanji-protected`.
+- Avasin orthography was checked in the Sorani explanatory text; the Kurmanji Latin forms and diacritics were preserved. No HTML, lesson body, seed, or migration content was changed in this audit step.
+- Audit-document-only change on `kurmanji-clean-release`. No SQL was executed and no database, `main`, PR #3, or deployment was changed.
+
