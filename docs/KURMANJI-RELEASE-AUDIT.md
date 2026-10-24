@@ -4096,3 +4096,12 @@ The script's server-progress sync also filters `lesson_progress` by the supplied
 - Avasin Code review: checked `چیە`, `هەمو`, `ڕونتر`, `نمونە`, and `جیاوازی`; no `بڕگە` found. Seed row exists (5,353 characters before the one-word correction).
 - Migration parity remains unverified because the migration path returns 404 on the current branch. Re-read verification of the changed seed, wrapper key/navigation, protected script, and audit entry is required and was performed after the commits. No SQL was executed; no database, `main`, PR #3, or deployment was changed.
 
+
+## Northern Circle — lesson 26 final review and self-assessment (2026-10-24)
+
+- Reviewed `kurmanji-course-1-lesson-26.html` and its seed row in `docs/kurmanji-content-seed-part-04.sql`. Wrapper title/H1, `data-lesson-key`, previous link to lesson 25, and protected `script.js?v=20261019-kurmanji-protected` are consistent; there is no next-lesson link because this is lesson 26, the end of course 1.
+- Reviewed the recap table, short assessment, self-assessment checklist, and listed references. The recap spans alphabet/orthography, basic sentence order, questions, negation, adjectives, indefinite marking, direct/oblique case and transitive past/ergativity. The page does not provide an answer key or a formal score; its self-assessment note correctly says it is not formal certification.
+- Avasin Code check: observed forms include `نوسین`, `نیە`, `هەمو`, `ڕون`, `نمونە`, and `جیاوازی`; the course title uses the project spelling `پێداچونەوە`. No Latin Kurmanji forms were changed. No definite, evidence-backed correction was made in this pass.
+- Items requiring a source-specific check before changing: the lesson's claim that standard Kurmanji distinguishes `r` and `rr` in some words, and the example `çak` glossed as “good” / `şaş` glossed as “wrong”. These may depend on dialect or orthographic convention; do not silently normalize them without checking the cited source/dialect.
+- Seed row is present (4,061 characters at audit time). Migration parity remains unverified. No SQL was executed; no production database, `main`, PR #3, or deployment was changed.
+
