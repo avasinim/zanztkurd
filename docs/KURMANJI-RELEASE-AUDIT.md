@@ -3988,3 +3988,12 @@ The script's server-progress sync also filters `lesson_progress` by the supplied
 - Avasin orthography check: preferred forms `نوسین`, `نمونە`, `پەیویست`, `ڕون` were preserved in the explanatory text. Latin Kurmanji spellings were not normalized or changed.
 - This step updates only the audit document. No SQL was executed; no database, `main`, PR #3, or deployment was changed. The branch-level migration fetch still returns 404, so only the available snapshot was used for static parity verification.
 
+
+## Northern Circle — lesson 14 colours and everyday objects review (2026-10-24)
+
+- Reviewed `kurmanji-course-1-lesson-14.html`, the full lesson-14 row in `docs/kurmanji-content-seed-part-02.sql`, and its matching row in the migration snapshot at `4220345b2174cab47338c35f5d7d887239ed00ac`.
+- Re-read verification: the seed and migration rows match exactly (3,627 characters). Page title/H1 are `ڕەنگ و ناوی شتە ڕۆژانەکان`; key is `kurmanji-course-1-lesson-14.html`; navigation points to lessons 13/15; protected script remains `script.js?v=20261019-kurmanji-protected`.
+- Source check: the colour terms `sor`, `şîn`, `kesk`, `zer`, `reş`, `spî`, and `qehweyî` agree with the Kurmanji colour vocabulary in Institut kurde de Paris, “Kurmancî” no. 2, and independent Kurmanji dictionaries. These sources support red, blue, green, yellow, black, white, and brown respectively. The lesson correctly flags source/dialect variants rather than flattening them. Citations: Institut kurde de Paris, *Kurmancî*, no. 2 (colour vocabulary); Kurmanci.org dictionary.
+- Sample sentences are suitable for introductory vocabulary practice; no definite scientific or Latin spelling error was established. The Sorani rendering `سپێ` for `spî` may be reviewed against the academy's preferred Sorani spelling in a future orthographic sweep, but this pass does not silently normalize it without a project-specific decision. The rest of the text was checked against Avasin Code preferences; Latin Kurmanji forms were preserved.
+- No lesson payload was changed. This step updates only the audit log. No SQL was executed; no database, `main`, PR #3, or deployment was changed. The migration remains unavailable by branch ref (404), so parity is checked against the known commit snapshot only.
+
