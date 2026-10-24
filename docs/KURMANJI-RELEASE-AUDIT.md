@@ -3835,3 +3835,19 @@ Read-only inspection of `script.js` on `kurmanji-clean-release` confirms distinc
 - Other protected numbered orthography pages map to `orthography-kurdik`; they are not mapped to either Kurmanji course ID.
 
 The script's server-progress sync also filters `lesson_progress` by the supplied `course_id`, so the course identifier is part of the separation. This is static code inspection, not a live end-to-end test of every student's enrollment/access state. Do not merge these course IDs or reuse one course's content for another. No production database, `main`, merge, or deployment was changed.
+
+
+## Avasin orthography normalization correction — 2026-10-24
+
+- During the four-path routing audit, inspection of `script.js` found a definite conflict with the Avasin editorial standard: the global visible-text normalization explicitly replaced `بڕگە` with `هجا`.
+- Removed only that replacement rule. The normalizer now leaves `بڕگە` unchanged; the remaining Avasin normalization rules and Latin Kurmanji forms were not changed.
+- Re-read the changed `script.js` after the commit and verified that the obsolete replacement rule is absent. This is a targeted source-level check, not a browser test of every text node or every route.
+- Change committed on `kurmanji-clean-release`: `0d096113b92423fe1d7e5951868fd70fe7107052`.
+- No lesson bodies, seed files, migrations, database, `main`, PR merge, or deployment were changed.
+
+## Four-path audit — current findings (2026-10-24)
+
+- Confirmed the catalog contains separate choices for Northern Circle courses `kurmanji-course-1` and `kurmanji-course-2`, and separate Central Circle routes `orthography-kurdik` (26 lessons) and `phonetics-phonology-kurdik` (32 lessons).
+- Static `script.js` routing distinguishes the two Kurmanji page patterns from Central Circle numbered pages; server progress queries filter by `course_id`. This supports separation in code but does not prove runtime authorization or persistence.
+- Rechecked Central Circle lesson wrappers `lessons/course-2-31.html` and `lessons/course-2-32.html`: keys match filenames, lesson 31 links to 30 and 32, and lesson 32 links back to 31 with no next-lesson link.
+- Remaining verification: test all four start-course actions and lesson-body loading in a browser; verify each course's own content keys/data source; test prerequisites and completion persistence for signed-out, unenrolled, enrolled, and owner roles. No database or deployment test was run in this step.
