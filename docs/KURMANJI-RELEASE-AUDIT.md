@@ -3646,3 +3646,11 @@ This section supersedes the earlier 2026-10-21/22 statements that the current mi
 - Re-fetched the file after the change and verified the title, description, and H1 use the same Avasin term; no `بڕگە` occurrence remains in this wrapper.
 - Static wrapper checks across Course 2 lessons 1–25 found matching `data-lesson-key`, shared script references, and sequential previous/next links for the pages inspected. Lesson 1 correctly has no previous-lesson link; lesson 25 points forward to lesson 26. Browser rendering and scientific-source parity were not tested.
 - No Latin Kurmanji forms, seed, migrations, database, `main`, PR merge, or deployment operation was changed.
+
+## Course 2 wrapper sweep — lessons 26–32 (2026-10-24)
+
+- Re-fetched lesson wrappers 26–32 on `kurmanji-clean-release` and checked the `data-lesson-key`, title, meta description, H1, shared `script.js` reference, and previous/next navigation.
+- Lessons 26–31 have three navigation links (course return, previous, next) and sequential previous/next targets; lesson 32 has the course return and previous links, with no next link as the final lesson.
+- The inspected titles, descriptions, and H1s match their lesson numbers and titles. No occurrences of the specifically checked older Avasin spellings/terms were found in these seven wrappers.
+- This is static source inspection only; it does not verify browser rendering, lesson-body scientific accuracy, or database/seed parity.
+- No files outside the audit note were changed during this sweep. No seed, migration, database, `main`, PR merge, or deployment operation was performed.
