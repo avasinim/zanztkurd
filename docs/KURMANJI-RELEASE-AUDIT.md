@@ -2756,3 +2756,9 @@ This section supersedes the earlier 2026-10-21/22 statements that the current mi
 - **Scientific review flag:** the page itself acknowledges variation, but the exact segmentation/spelling of `Ez ne mamosteyek im`, the scope of `ne-` versus `me-` in negative imperatives, and the generalizations across dialects need explicit verification against the cited references before the lesson is marked scientifically approved. This is not a confirmed error, so no scientific text was changed.
 - No Latin Kurmanji spellings, seed content, or migration content were changed in this pass.
 
+## Lesson 19 — questions and interrogative words (2026-10-24)
+- Cross-checked `kurmanji-course-1-lesson-19.html` against its row in `docs/kurmanji-content-seed-part-03.sql`.
+- **Structural match:** page and seed title agree (`پرسیار و وشە پرسیارییەکان)); the `data-lesson-key` matches the seed key; the shared `script.js` is loaded; previous/next links point to lessons 18 and 20.
+- **Content presence:** the seed covers interrogatives `kî`, `çi`, `li ku`, `kengî`, `çima`, `çawa`, `çiqas`, `kîjan`; yes/no questions; open questions; exercises; and references to Haig (2018), Thackston, and the University of Arizona.
+- **Review limit:** this pass checks page/seed wiring and section coverage, not a full source-based assessment of every interrogative construction and translation. The lesson itself directs readers to verify forms against grammars and dictionaries. No definite structural mismatch was found; no lesson text or Latin Kurmanji forms were changed.
+
