@@ -281,7 +281,9 @@ window.ZANSTI_GET_SUPABASE_CLIENT = window.ZANSTI_GET_SUPABASE_CLIENT || functio
         const target=path;
         const courseId=courseIdForTarget(target);
         if(!owner && !await hasEnrollment(got.sb,got.session.user.id,courseId)){
-          location.replace((location.pathname.includes("/lessons/")?"../dashboard.html":"dashboard.html")+"?enroll=required");
+          const dashboardPath=(location.pathname.includes("/lessons/")?"../dashboard.html":"dashboard.html");
+          const courseParam=encodeURIComponent(courseId);
+          location.replace(dashboardPath+"?enroll=required&course="+courseParam);
           return;
         }
         if(!owner && !await hasPreviousLessonCompleted(got.sb,got.session.user.id,courseId,target)){
