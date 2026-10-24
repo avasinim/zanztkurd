@@ -3166,3 +3166,11 @@ This section supersedes the earlier 2026-10-21/22 statements that the current mi
 
 ### Result
 **Status: lesson 16 page/seed identity and navigation verified; vocabulary and example sentences remain candidates for a dedicated source-by-source proofread.** Audit record only.
+
+## Live course-1 404 triage — 2026-10-24
+
+- **User-observed live failure:** `https://avasinim.github.io/zanztkurd/kurmanji-course-1.html` returns the site's 404 page.
+- **Confirmed repository cause:** `kurmanji-course-1.html` is present on `kurmanji-clean-release` (blob `cb49c867e64118869f3256c8c06294a7d2c3f104`), but fetching the same path from `main` returns GitHub API `NOT_FOUND`. The linked lesson shell `kurmanji-course-1-lesson-01.html` is also present on the protected branch. This establishes a release-branch mismatch for the landing page; it does not establish that the course is production-ready.
+- **Routing evidence:** `learning.html` on `kurmanji-clean-release` routes the selected course-1 option to `kurmanji-course-1.html`. The corresponding main-branch page does not contain that route, consistent with the deployed site using an older release.
+- **Disposition:** Release/deployment blocker. Do not patch around the missing page by changing links to unrelated lesson pages. Do not copy the protected branch to `main`, merge PR #3, deploy, or modify production Supabase as part of this diagnosis. The protected branch's static route fix is not live until an explicitly authorized coordinated release; database/RPC and student-access release gates remain open.
+- **Verification scope:** Read-only comparison of `main` and `kurmanji-clean-release` file availability and course-selection routing. No browser runtime, student-account, production database, or live deployment configuration was changed.
