@@ -1,7 +1,7 @@
 # Kurmanji course release audit — 2026-10-19
 
 
-> **Current validation status (2026-10-24): RELEASE BLOCKED.** Any earlier audit passage claiming that all 38 migration payloads were parsed and synchronized, or that title/content mismatches were zero, is superseded by the later structural scan and reconciliation notes below. The current migration has not been validated by a PostgreSQL-aware parser; the 38-row content comparison remains heuristic. Do not apply the migration or use it for release until quote-aware parsing and row-by-row validation are completed.
+> **Current validation status (2026-10-24): RELEASE BLOCKED — static SQL checks now pass; runtime/content gates remain.** The migration's lesson-content INSERT was rebuilt on `kurmanji-clean-release` from the five parser-valid split seed files. The current migration and all five seed files now pass the PostgreSQL-aware `pglast` parser, and the new parity validator confirms all 38 row tuples match byte-for-byte and in order. CI also passes package-integrity, lesson-navigation, and academic-catalog checks for the latest audit commit. These are static/CI results only: no migration has been run against a database, and the stored payloads have not been source-verified against all authoritative lesson materials. Do not merge PR #3 or apply the migration until a disposable PostgreSQL/Supabase-compatible migration/RPC test and the scientific content review are complete.
 
 ## Current state
 - PR #3 is the current draft review path for the Kurmanji course changes; it is open and unmerged.
@@ -2723,5 +2723,12 @@ This section supersedes the earlier 2026-10-21/22 statements that the current mi
 - Added `scripts/validate_kurmanji_seed_parity.py`. It extracts SQL tuple boundaries while respecting single-quoted strings and doubled quote escapes, then compares the 38 migration tuples byte-for-byte and in order with the five split seed files.
 - The check requires exactly 38 unique lesson keys in the expected order: 26 course-1 lessons followed by 12 course-2 lessons. It is read-only and does not connect to a database or rewrite content.
 - Added the parity check to `.github/workflows/validate-kurmanji-package.yml`, after PostgreSQL parsing and before the broader package/browser checks; included the script in both push and pull-request path filters.
-- Initial CI runs are in progress. Record their actual result before claiming parity validation passes.
+- **CI result (latest checked): passed.** For commit `9d83510a43bc314e7fd993d045be35186415446c`, the package-integrity job completed successfully, including PostgreSQL parsing, exact seed parity, package checks, and browser regression tests. The navigation and catalog workflows also passed for the latest audit-only commit `6493d9f5ce068ae48f4eb60dfb9277979fb7739a`.
 - This strengthens source consistency checks only. It does not replace the disposable-database migration/RPC test or scientific content review. No seed/static lesson text, `main`, PR #3 merge state, or database was changed.
+
+
+## Latest CI status re-check — 2026-10-24
+
+- Re-checked GitHub Actions job results for the latest audit commit `6493d9f5ce068ae48f4eb60dfb9277979fb7739a`: lesson-navigation validation passed; academic lesson catalog validation passed.
+- Re-checked the package-integrity run for the preceding code commit `9d83510a43bc314e7fd993d045be35186415446c`: the job completed successfully. Its completed steps include installing `pglast`, parsing the migration and five seed files, exact migration/seed row parity, package validation, and the browser regression tests.
+- These checks validate static SQL grammar and tuple parity, not execution against the actual schema, RPC behavior, permissions, or scientific correctness. The migration has not been applied to any database. PR #3 remains unmerged, and `main` and production remain untouched.
