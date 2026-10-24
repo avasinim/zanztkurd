@@ -3906,3 +3906,11 @@ The script's server-progress sync also filters `lesson_progress` by the supplied
 - Preserved the title, course ID, key, lesson order, and static HTML wrapper/navigation (`data-lesson-key`, previous lesson 4, next lesson 6, and protected `script.js` version). Exact seed/migration lesson-row parity and the post-write contents must be rechecked.
 - Source: University of Arizona, Iranian Languages, “Kurmanji Kurdish,” Orthography table: https://iranian-languages.arizona.edu/node/7. This supports the listed examples and IPA values; it does not imply all dialects pronounce every phoneme identically.
 - Source-file changes only on `kurmanji-clean-release`; no SQL execution, database write, `main` change, PR merge, or deployment.
+
+
+## Northern Circle — lesson 6 guided reading and spelling (2026-10-24)
+
+- Expanded the lesson into a guided workflow: identify letters, preserve marked forms, distinguish orthographic letters from IPA symbols, verify meanings in a dictionary, and keep dialect pronunciation variation separate from standard spelling.
+- Checked the main examples against the University of Arizona Iranian Languages reference (https://iranian-languages.arizona.edu/node/7): `av` /ɑ/ “water”, `dil` /ɪ/ “heart”, `lêv` /e/ “lip”, `hîn` /i/ “still”, `qaz` /ɑ/ “goose”, `qul` /ʊ/ “hole”, `çak` /t͡ʃ/ “good”, `şaş` /ʃ/ “wrong”, and `yek` /j/. Added a note that IPA symbols describe sounds rather than letters and that pronunciation can vary by dialect.
+- Preserved the title, course ID/key, order, and HTML wrapper. The seed row was updated first and then copied into the matching migration row; post-write parity and wrapper checks remain to be completed.
+- Source-file changes only on `kurmanji-clean-release`. No SQL execution, database write, `main` change, PR merge, or deployment.
