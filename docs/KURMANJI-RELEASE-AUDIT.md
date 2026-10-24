@@ -3126,3 +3126,20 @@ This section supersedes the earlier 2026-10-21/22 statements that the current mi
 
 ### Result
 **Status: introductory scope, page/seed identity, navigation, and course 2 cross-reference verified; audit record only.**
+
+
+## Course 1 consistency pass — plan titles and lesson 07 scope (2026-10-24)
+
+### Safe Avasin orthography corrections
+- Compared the 26-lesson plan in `kurmanji-course-1.html` with the split course-1 seed titles and the lesson-page conventions.
+- Corrected only three visible plan-link titles to use the established Avasin spelling `نوسین` rather than `نووسین`: lesson 04 (`نوسینەوە`), lesson 06 (`نوسینی`), and lesson 08 (`نوسین`). This is a presentation/orthography-only correction; lesson bodies, Latin Kurmanji forms, seed rows, and migrations were not changed.
+- Re-fetched `kurmanji-course-1.html` after the edit. All three corrected strings are present and the three old variants are absent. Commit: `6f600087c0dc73e84b2ba175a515f0353b2d4911`.
+
+### Course structure finding — lesson 07
+- The course plan and static lesson page title lesson 07 as `ڕێنووسی وشە باوەکان`; its seed content primarily teaches greetings and everyday phrases (`Silav`, `Rojbaş`, `Şevbaş`, `Bi xêr hatî`, `Tu çawa yî?`, and related expressions).
+- This is a genuine scope mismatch worth resolving: the current title promises a broader common-word spelling lesson, while the current examples focus on greetings/phrases. Earlier project direction also specified that lesson 07 should use an alphabet table from the source book, pp. 72–75, rather than minimal pairs. That source passage has not been rechecked in this pass, so the requested replacement content is **not** treated as source-verified and has not been written.
+- Next safe step: locate and verify the cited book pages, then propose the lesson-07 title/content alignment as a separately evidenced change. Do not overwrite the seed or migration until the source passage is verified and the canonical lesson text is agreed.
+
+### Boundaries
+- This was a limited course-plan consistency pass, not certification of all 26 lesson bodies or all 38 course bodies.
+- No seed SQL, migration, database, production deployment, `main`, or PR merge was changed or performed.
