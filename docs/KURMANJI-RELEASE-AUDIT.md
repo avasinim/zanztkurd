@@ -3807,3 +3807,16 @@ This section supersedes the earlier 2026-10-21/22 statements that the current mi
 - The previous link correctly points to `course-2-31.html` with `rel="prev"`. The page ends with a non-link completion label, not a next-lesson link, which is correct for the final lesson in course 2.
 - The navigation CSS declares two columns while three navigation items are rendered (return-to-course, previous lesson, and final-course label). This means the final label occupies a second row at desktop widths. It is a small visual inconsistency, not a navigation failure; no CSS change was made because the current task is a static audit and no responsive/browser regression test has been run.
 - **Scope limit:** this confirms static wrapper structure only. It does not establish that the lesson body loads from seed/database or that the scientific content is source-verified. No lesson body, seed, migration, database, `main`, merge, or deployment was changed.
+
+
+## Integration blocker — Course 2 wrapper/database key mismatch (2026-10-24)
+
+A cross-check of the static wrappers, `script.js`, the 38-row migration payload, and the five split seed files found a concrete integration mismatch that the wrapper-only checks do not detect:
+
+- The 32 phonetics/phonology pages use keys `course-2-01.html` through `course-2-32.html` in `data-lesson-key`. `script.js` queries `lesson_content.lesson_key` using that exact attribute, and maps those page paths to course ID `phonetics-phonology-kurdik`.
+- The current migration/seed payload instead contains 12 Course 2 rows keyed `kurmanji-course-2-lesson-01.html` through `kurmanji-course-2-lesson-12.html`, under course ID `kurmanji-course-2`. Their titles/content describe a morphology/grammar course, not the 32 phonetics/phonology wrappers.
+- The 20 Course 2 phonetics pages numbered 13–32 have no matching lesson-content rows in this migration/seed package. Therefore the existing 32 wrappers cannot load their intended lesson bodies from this payload; this is not merely a navigation or wrapper typo.
+- **No automatic key replacement is safe:** changing wrapper keys to the 12 existing rows would serve different course content and still leave lessons 13–32 without content. The correct fix requires agreeing on the canonical Course 2 dataset/course ID, then preparing and source-verifying the intended 32 phonetics lesson bodies and a matching seed/migration package, or deliberately restoring the separate 12-lesson morphology course as its own distinct course.
+- The check was static and read-only. No wrapper, lesson body, seed, migration, database, `main`, PR merge, or deployment was changed. The migration has not been executed against any database.
+
+This finding supersedes any interpretation of the individual wrapper checks as proof that Course 2 content is connected correctly. Those checks establish only that the wrappers' own metadata and navigation are internally consistent.
