@@ -3529,3 +3529,10 @@ This section supersedes the earlier 2026-10-21/22 statements that the current mi
 - Re-read `lessons/course-2-25.html` on `kurmanji-clean-release`. The visible title/H1 identify lesson 25 (“ئەرک و دەوری فۆنۆلۆجی”); `data-lesson-key="course-2-25.html"` matches the filename; previous/next links point to lessons 24/26; and the shared `../script.js` include is present.
 - The description metadata mentions the Sabir Zhakaw source, while the visible page title is shorter; this is not by itself a definite defect. No wrapper/key/navigation defect was found, and no lesson HTML or scientific body was changed.
 - Scope limitation: this static wrapper check does not verify seed/database body, scientific source accuracy, browser rendering, or authenticated access. No seed, migration, database, `main`, PR merge, or deployment was changed.
+
+
+## Integrated static check — phonology course lesson 26 wrapper (2026-10-24)
+
+- Re-read `lessons/course-2-26.html` on `kurmanji-clean-release`. The visible title/H1 identify lesson 26 (“ڕێسا، نواندنی ژێرەوەیی، بێ‌لایەن‌بون و لێکچوون”); `data-lesson-key="course-2-26.html"` matches the filename; previous/next links point to lessons 25/27; and the shared `../script.js` include is present.
+- Noted a presentational inconsistency for follow-up: `.lesson-nav` defines a two-column grid although the navigation contains three links. This makes the third link wrap to a second row at wider widths. Left the lesson HTML unchanged in this audit pass to avoid an unrequested style edit.
+- Scope limitation: this static wrapper check does not verify seed/database body, scientific source accuracy, browser rendering, or authenticated access. No seed, migration, database, `main`, PR merge, or deployment was changed.
