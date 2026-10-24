@@ -3306,3 +3306,20 @@ This section supersedes the earlier 2026-10-21/22 statements that the current mi
 
 ### Result
 **The core comparative and the two common superlative strategies: corroborated. The phrase “herî kêmtir”, some noun-phrase examples, and the Sorani gloss distinctions: flagged for correction/review.** No lesson body, seed tuple, migration, database, or production branch was changed. This is a source-level review, not runtime/security certification.
+
+## Source review — course 1, lesson 23: nouns and determiners (2026-10-24)
+
+### What is corroborated
+- Haig & Öpengin (2018), Table 7, explicitly gives the Standard Kurmanji contrast: masculine singular **gund / gund-î / gund-ek / gund-ek-î** and feminine singular **jin / jin-ê / jin-ek / jin-ek-ê** (direct definite / oblique definite / direct indefinite / oblique indefinite). This supports the lesson’s core examples **gund**, **gundek**, **jin**, **jinek**, and the gender-sensitive oblique forms **gundekî**, **jinekê**.
+- Kurmanji does not use a standalone definite article in the same way as Sorani. Definiteness is often contextually inferred, while **-ek** marks singular indefiniteness. The lesson is right to caution against mechanically transferring Sorani definite marking to Kurmanji.
+- **ev** (“this/these”) and **ew** (“that/those”) are the direct-form demonstratives; in oblique contexts they change form (commonly **vî/wî** masculine singular, **vê/wê** feminine singular, **van/wan** plural), and the noun may show corresponding case marking.
+- Sources checked: [Haig (2018), *Northern Kurdish (Kurmanjî)*, Table 7](https://multicast.aspra.uni-bamberg.de/data/pubs/Haig2018_Northern-Kurdish_Kurmanji.pdf); [University of Arizona, *Kurmanji Kurdish*](https://iranian-languages.arizona.edu/node/7); [Êzdîxan, *Grammar Tables*](https://ezdixan.de/en/wiki/grammatik).
+
+### Items still requiring editorial verification
+- The lesson’s statement that “the direct form is definite” is too broad if read as a universal grammatical definite article. Bare nouns can be interpreted generically or as definite depending on context; this nuance is partly explained later in the lesson but should be made explicit.
+- **ev pirtûk / ew pirtûk / ev jin** are useful direct-form illustrations, but the lesson should not imply that these forms remain unchanged in every syntactic position. Oblique forms must be demonstrated separately.
+- The description that Kurmanji has “no definite suffix” should be limited to standard Kurmanji and not generalized to all dialects or all varieties without qualification.
+- The audit source confirms the forms above for Standard Kurmanji; other dialects may vary. No lesson-body change made during this pass.
+
+### Result
+**Core singular indefiniteness and direct/oblique gender forms: corroborated by an academic reference table. Definiteness wording and demonstrative paradigms across syntactic cases: need careful qualification.** No lesson body, seed tuple, migration, database, or production branch was changed. This is a source review, not runtime/security certification.
