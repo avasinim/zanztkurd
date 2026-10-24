@@ -3662,3 +3662,10 @@ This section supersedes the earlier 2026-10-21/22 statements that the current mi
 - Re-fetched all three files after the edits. Verified that `learning.html`, `lessons/index.json`, and `lessons/catalog.html` no longer contain either stale term in these course labels; validated `lessons/index.json` with JSON parsing.
 - This addresses visible catalog/index consistency only. It does not alter lesson seed content or database rows, and does not prove the dynamically loaded lesson bodies have matching content.
 - No migrations, database, `main`, PR merge, or deployment operation was performed.
+
+## Secondary site-wide normalizer — preserve code samples (2026-10-24)
+
+- A further inspection of `script.js` found a second, separate visible-text normalizer that still processed text nodes inside `code`, `pre`, `kbd`, and `samp` elements.
+- Extended that normalizer's text-node exclusion selector to skip those code/sample elements, matching the earlier protection added to the Avasin-specific normalizer.
+- Re-fetched `script.js` after the change and verified both normalizers now exclude code/sample text nodes. The first normalizer retains its existing three guarded text-processing paths; the secondary normalizer now includes the same code/sample exclusions in `fixTextNode`.
+- This is source-level verification only; no browser regression test was run. No lesson science, Latin Kurmanji spellings, seed, migration, database, `main`, PR merge, or deployment was changed.
