@@ -32,7 +32,9 @@ This is a read-only release-readiness note for `kurmanji-clean-release`. No SQL 
 - Proposed migration: `supabase/migrations/20261019090000_add_kurmanji_courses_and_protected_lessons.sql`
 
 
-## Content-by-content comparison — 2026-10-22 follow-up
+## Content-by-content comparison — 2026-10-22 (historical finding, superseded 2026-10-24)
+
+**Superseded:** the later field-aware reconciliation recorded in `docs/KURMANJI-RELEASE-AUDIT.md` on 2026-10-24 synchronized all 38 migration lesson title/content payloads with the five split seed files and reverified zero mismatches. The discrepancy inventory below describes the pre-reconciliation state only; do not treat it as the current comparison result. The newer synchronization still does not prove scientific accuracy or runtime correctness.
 
 A structured comparison of the five split SQL packages against the 38 lesson rows embedded in `20261019090000_add_kurmanji_courses_and_protected_lessons.sql` found:
 
@@ -41,9 +43,9 @@ A structured comparison of the five split SQL packages against the 38 lesson row
 - The differences are not merely formatting. Examples include the migration changing Avasin spellings such as `ڕێنووسی` to `ڕێنوسی`, `دوور` to `دور` and `دوو` to `دو`, `بەرابەر` to `بەرامبەر`, and `نوسراو`-related wording; it also shortens or rewrites lesson sections. Course 1 lesson 25's extracted HTML is 1,034 characters shorter in the migration than in the split seed, and course 2 lesson 06 is 693 characters shorter. These length differences alone do not establish which version is scientifically correct, but they require review before release.
 - Bibliography attribution defect found in the migration was corrected on 2026-10-22: 23 DOI-linked list items now cite Geoffrey Haig as chapter author and Geoffrey Haig & Geoffrey Khan as book editors, matching the institutional publication record. This citation-only fix does not resolve the broader lesson-body differences.
 
-### Updated release decision
+### Historical release decision (superseded 2026-10-24)
 
-The migration is **not content-equivalent** to the approved split SQL package and must not be applied as-is. Preserve the split seed/source as the comparison baseline, review each discrepancy, restore Avasin Code spellings in Sorani explanatory text, preserve Latin Kurmanji forms, and verify scientific statements and citations against the source. Do not mechanically replace all migration content without that review. No database write or production change was made during this comparison.
+At the time, the migration was not content-equivalent to the split SQL package. That specific mismatch was resolved by the later coordinated reconciliation; the current release decision remains **not ready**, because source-level academic review, isolated test-database migration, browser E2E, and authorization/progression tests are still outstanding. No database write or production change was made during the earlier comparison.
 
 
 ## RPC and access-control static review — 2026-10-22 follow-up
@@ -145,3 +147,8 @@ Verification references:
 The earlier static report that all 38 migration bodies differed from the split seed is now historical and superseded. On the protected branch, the 38 migration lesson title/content values have been synchronized directly to the corresponding seed records, and Avasin Code spelling corrections were applied to both seed and migration in tandem. A field-aware reparse verified 38 rows on each side and zero title/content mismatches.
 
 This does not change the live readiness decision: the production Supabase project still has no `lesson_content` rows for the two Kurmanji course IDs. No SQL was executed against production. Remaining release gates are source-backed review of the scientific material and a safe test-project migration plus end-to-end access/progression checks.
+
+
+## Current reconciliation status — 2026-10-24
+
+The 2026-10-24 audit section is the current source of truth for seed/migration payload parity: 38 unique lesson rows on each side, zero title/content mismatches after coordinated Avasin Code Sorani spelling edits. Older dated sections above are retained as audit history and explicitly marked superseded. The release blockers remain independent: scholarly source verification for all lessons, safe non-production migration execution, schema/RLS/RPC review, and authenticated browser progression tests. Production is unchanged and the PR remains draft/unmerged.
