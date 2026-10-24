@@ -2969,3 +2969,21 @@ This section supersedes the earlier 2026-10-21/22 statements that the current mi
 - Sources: [Haig (2018), Northern Kurdish (Kurmanji), §2.2.3](https://www.uni-bamberg.de/fileadmin/aspra/06_Team/Publications_and_CV/haig_2018_ch.2.3_northern_kurdish.pdf); [University of Arizona — Kurmanji Kurdish, Syntax / Pronouns](https://iranian-languages.arizona.edu/node/7).
 - **Result:** pronoun paradigms and the reflexive example are source-supported. No lesson text, seed row, migration, Latin Kurmanji spelling, or database was changed.
 
+
+
+## Source review — course 1, lesson 09: personal names and place names (2026-10-24)
+
+### Static page and seed comparison
+- Read `kurmanji-course-1-lesson-09.html` and the corresponding row in `docs/kurmanji-content-seed-part-02.sql` on `kurmanji-clean-release`.
+- Page title and seed title both read **ناوە کەسییەکان و شوێنەکان**.
+- The page's `data-lesson-key` is `kurmanji-course-1-lesson-09.html`; it loads `script.js?v=20261019-kurmanji-protected` and links to lesson 08 and lesson 10. These static references are internally consistent.
+- The seed row includes examples of personal names (Azad, Rojîn, Şilan, Berfîn, Mem û Zîn) and place names (Amed/Diyarbakır, Hewlêr/Erbil, Wan/Van, Qamişlo).
+
+### Reference cross-check and limits
+- The place-name pairings Amed–Diyarbakır, Hewlêr–Erbil, Wan–Van, and Qamişlo–Qamishli are corroborated as commonly used Kurdish/local forms in the consulted place-name lists and references: https://nlka.net/eng/wp-content/uploads/2023/06/Kurdish-City-Names-of-Kurdistan.pdf and https://kurdishnames.org/en/name/hewler/.
+- Kurdi School's Kurmanji grammar resource identifies `li` and `ji` as basic prepositions and gives examples of place expressions: https://kurdischool.com/grammar.html. This supports the lesson's broad teaching point that place names appear in grammatical constructions, but it does not independently verify the exact forms `Ez li Amedê dijîm` and `Ez ji Qamişloyê me` as printed. Those two inflected forms remain pending a direct check against a specialist grammar/source.
+- The lesson correctly cautions that names may have different forms across languages and contexts and that a person's preferred/formal spelling should not be silently normalized. Keep diacritics such as ş, î, ê and û when they belong to the chosen spelling.
+- No source was found that justifies a mandatory change to the lesson's Latin Kurmanji spellings. No lesson HTML, seed row, migration, database, or production branch was changed.
+
+### Result
+**Status: static page/seed alignment verified; place-name spellings broadly corroborated; exact inflected sentence forms and some Kurdish glosses remain only partially source-verified.** This is not full scientific certification of lesson 09. Continue with lesson-by-lesson review and do not auto-copy seed content into the migration or vice versa.
