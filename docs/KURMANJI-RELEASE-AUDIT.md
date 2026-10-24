@@ -3609,3 +3609,11 @@ This section supersedes the earlier 2026-10-21/22 statements that the current mi
 - **Record hygiene:** an earlier lesson-27 wrapper note appears twice in the audit history. Both entries describe the same two-column/three-link observation; this is duplicate documentation, not evidence of a duplicate page or a second defect. Preserve the history rather than deleting records during this pass.
 - **Release boundary:** wrapper coverage is not a release approval. The release status remains blocked by the previously recorded source-verification, safe test-migration/RPC, runtime authorization/progression, and seed/migration content-parity gates. No production database operation is authorized.
 - No lesson body, seed, migration, database, `main`, PR merge, or deployment was changed.
+
+## Navigation layout correction — Course 2 lessons 26–31 (2026-10-24)
+
+- Corrected the inline `.lesson-nav` desktop grid from two columns to three columns in `lessons/course-2-26.html` through `lessons/course-2-31.html`, matching the three existing navigation links on each page.
+- Kept the existing mobile breakpoint at 600px with a single-column layout; lesson content, links, keys, shared script, seed, and migrations were not changed.
+- Re-fetched all six wrappers after the edits. Each has the three-column desktop rule, the single-column mobile rule, exactly one lesson navigation block with three links, and the matching `data-lesson-key`.
+- This is a source-level verification only; browser rendering and responsive behavior have not been visually tested.
+- Changes are confined to `kurmanji-clean-release`. No `main`, production/test database, seed, migration, PR merge, or deployment operation was performed.
