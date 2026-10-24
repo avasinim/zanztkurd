@@ -3323,3 +3323,20 @@ This section supersedes the earlier 2026-10-21/22 statements that the current mi
 
 ### Result
 **Core singular indefiniteness and direct/oblique gender forms: corroborated by an academic reference table. Definiteness wording and demonstrative paradigms across syntactic cases: need careful qualification.** No lesson body, seed tuple, migration, database, or production branch was changed. This is a source review, not runtime/security certification.
+
+## Source review — course 1, lesson 24: possession and possessive forms (2026-10-24)
+
+### What is corroborated
+- Standard Kurmanji personal pronouns distinguish direct forms (**ez, tu, ew, em, hûn**) from oblique forms (**min, te, wî/wê, me, we, wan**). The oblique forms are used as possessors in noun phrases.
+- The basic examples **pirtûka min** (“my book”), **pirtûka te** (“your book”), **pirtûka wî/wê** (“his/her book”), and **pirtûka me/we/wan** are consistent with the standard possessive/ezafe construction; the ezafe form agrees with the head noun.
+- **yê/ya/yên** are not simply extra possessive pronouns. They can function as free/demonstrative ezafe forms (“the one(s) that…/the one(s) of…”) and their form depends on gender and number. The lesson is right to distinguish these from ordinary possessive constructions.
+- Sources checked: [Haig (2018), *Northern Kurdish (Kurmanjî)*, §2.2.3 and §3.3.1](https://multicast.aspra.uni-bamberg.de/data/pubs/Haig2018_Northern-Kurdish_Kurmanji.pdf); [University of Arizona, *Kurmanji Kurdish*](https://iranian-languages.arizona.edu/node/7); [Thackston, *Kurmanji Kurdish: A Reference Grammar with Selected Readings*](https://agorism.dev/book/kurdish/kurmanji_1_grammar.pdf).
+
+### Items still requiring editorial verification
+- The gloss **pirtûka min** as “کتێبەکەی من” is understandable but can suggest definiteness more strongly than the Kurmanji form itself encodes; a neutral gloss such as “کتێبی من” is safer unless the discourse makes it definite.
+- **birayê min ê mezin** is a multi-link ezafe phrase; confirm the intended meaning and full agreement pattern against the referenced grammar before using it as an introductory model.
+- **yê spî**, **ya te**, and **yên mezin** should be labelled explicitly as free/demonstrative ezafe examples, not as simple possessive determiners. The exact glosses depend on context.
+- A useful improvement would be a small table contrasting subject pronouns (direct) with possessive forms (oblique), with one fully sourced example per person. No body/seed edit made in this review.
+
+### Result
+**Direct/oblique pronoun contrast, possessive use of oblique forms, and the broad ezafe analysis: corroborated. Some Sorani glosses and multi-link examples: need tighter context and citation.** No lesson body, seed tuple, migration, database, or production branch was changed. This is a source review, not runtime/security certification.
