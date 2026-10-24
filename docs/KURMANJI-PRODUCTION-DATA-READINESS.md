@@ -11,7 +11,7 @@ This is a read-only release-readiness note for `kurmanji-clean-release`. No SQL 
 - The five split SQL content packages contain 38 unique Kurmanji lesson keys: 26 for course 1 and 12 for course 2. All 38 expected keys are represented; no duplicate or missing key was found in the extracted key sets.
 - Migration `supabase/migrations/20261019090000_add_kurmanji_courses_and_protected_lessons.sql` also contains those same 38 unique lesson keys.
 - The split content SQL files explicitly use `BEGIN` and `ROLLBACK`, so they are review/dry-run scripts rather than a data load that persists rows.
-- The migration header explicitly warns that the migration and split seed package are not byte-identical and that explanatory Sorani text was normalized in the migration. Key coverage matching does not prove content equivalence.
+- **Superseded by the 2026-10-24 reconciliation:** all 38 migration lesson title/content payloads now exactly match the five split seed files after coordinated Avasin Code Sorani spelling corrections. This verifies payload synchronization only; it does not replace source verification or live release testing.
 - The migration also changes course registration/progression behavior and grants/revokes access on functions. It therefore needs a separate schema, RLS, RPC-authorization, and content-equivalence review; it is not safe to treat it as a simple content-only import.
 
 ## Release decision
@@ -20,7 +20,7 @@ This is a read-only release-readiness note for `kurmanji-clean-release`. No SQL 
 
 ## Required next actions before any production change
 
-1. Compare all 38 lesson bodies in the migration against the approved split seed/source, not just lesson-key coverage; resolve every substantive or orthographic difference under Avasin Code without altering Latin Kurmanji forms or unsupported scientific claims.
+1. The 38 seed/migration title and content payloads have been synchronized and statically rechecked. Before release, complete source-level academic review and live test-project migration/authentication/progression tests; preserve Latin Kurmanji forms unless source evidence supports a change.
 2. Review the migration's course updates, RPC definitions, function grants, sequential-access logic, and RLS assumptions against the actual live schema and existing policies.
 3. Test the reviewed package in an isolated non-production database/project with explicit authorization, then verify content loading, lesson progression, access controls, and course counts.
 4. Only after that review, prepare a narrowly scoped release plan. Do not merge the 529-commit/137-file PR wholesale, apply the migration, or write to production without separate explicit approval.
@@ -138,3 +138,10 @@ The DOI `10.1515/9783110421682-004` identifies Geoffrey Haig's chapter “Northe
 Verification references:
 - University of Bamberg publication record: https://fis.uni-bamberg.de/entities/publication/06ab181d-1e09-43da-87f4-92453eaf5057
 - DOI: https://doi.org/10.1515/9783110421682-004
+
+
+## Updated content synchronization status — 2026-10-24
+
+The earlier static report that all 38 migration bodies differed from the split seed is now historical and superseded. On the protected branch, the 38 migration lesson title/content values have been synchronized directly to the corresponding seed records, and Avasin Code spelling corrections were applied to both seed and migration in tandem. A field-aware reparse verified 38 rows on each side and zero title/content mismatches.
+
+This does not change the live readiness decision: the production Supabase project still has no `lesson_content` rows for the two Kurmanji course IDs. No SQL was executed against production. Remaining release gates are source-backed review of the scientific material and a safe test-project migration plus end-to-end access/progression checks.
