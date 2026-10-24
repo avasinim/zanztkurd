@@ -3871,3 +3871,11 @@ The script's server-progress sync also filters `lesson_progress` by the supplied
 - Lesson 1 content expanded in matching seed and migration rows: adds distinctions among language/script/orthography/dialect, source-aware example analysis, four orthographic examples, research-method notes, review exercises, and a third bibliographic source on Kurmanji variation.
 - Source basis: Haig (2018), “Northern Kurdish (Kurmanjî)” (DOI 10.1515/9783110421682-004); Thackston (2006), *Kurmanji Kurdish: A Reference Grammar with Selected Readings*; Haig & Öpengin (2018), “Kurmanjî Kurdish in Turkey: Structure, varieties, and status” (University of Bamberg record).
 - This is a content-enrichment draft, not release approval. Seed/migration row parity, PostgreSQL parser, and course-specific lesson routing must be verified after commit. No database writes, migration execution, production deployment, or changes to `main` are authorized.
+
+
+## Northern Circle — lesson 2 academic enrichment (2026-10-24)
+
+- Expanded the lesson “ئەلفبێی هاوار و ٣١ پیتەکەی” in the matching draft seed and existing migration row.
+- Added the 8-vowel / 23-consonant classification, explicit handling of the five marked letters, notes on preserving diacritics in digital text/search, alphabetic ordering and indexing, and guided review exercises.
+- Preserved the existing lesson key, course ID, title, lesson order and wrapper. Seed and migration lesson-2 rows were compared for exact parity before commit.
+- Scope remains Northern Circle only. No database writes, migration execution, deployment, or changes to `main`.
