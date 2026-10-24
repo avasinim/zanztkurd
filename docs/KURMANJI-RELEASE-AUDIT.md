@@ -3654,3 +3654,11 @@ This section supersedes the earlier 2026-10-21/22 statements that the current mi
 - The inspected titles, descriptions, and H1s match their lesson numbers and titles. No occurrences of the specifically checked older Avasin spellings/terms were found in these seven wrappers.
 - This is static source inspection only; it does not verify browser rendering, lesson-body scientific accuracy, or database/seed parity.
 - No files outside the audit note were changed during this sweep. No seed, migration, database, `main`, PR merge, or deployment operation was performed.
+
+## Course 2 lesson label consistency — Avasin orthography (2026-10-24)
+
+- A cross-file comparison found stale lesson labels outside the individual HTML wrappers: Course 2 lesson 6 used `بڕگە` in `learning.html` and `lessons/catalog.html`; lesson 16 used `سیلاب` in `learning.html` and `lessons/index.json`, and `بڕگە` in the crawlable catalog links.
+- Updated only these displayed/indexed labels to the required Avasin term `هجا`, keeping lesson numbers, URLs, keys, and topic descriptions intact.
+- Re-fetched all three files after the edits. Verified that `learning.html`, `lessons/index.json`, and `lessons/catalog.html` no longer contain either stale term in these course labels; validated `lessons/index.json` with JSON parsing.
+- This addresses visible catalog/index consistency only. It does not alter lesson seed content or database rows, and does not prove the dynamically loaded lesson bodies have matching content.
+- No migrations, database, `main`, PR merge, or deployment operation was performed.
