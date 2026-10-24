@@ -2621,3 +2621,12 @@ This section supersedes the earlier 2026-10-21/22 statements that the current mi
 - In each inspected row, the tuple appears to close at `',now()),` immediately after the first lesson-content section, while subsequent HTML sections (method note, review questions, and sources) continue outside that tuple. If the checked-in file is exactly as fetched, those trailing HTML fragments are not valid standalone `VALUES` rows and the migration is not safe to apply as written.
 - This is a static finding only: no migration was run, and no database was contacted. The migration file has **not** been edited because migrations are protected by the project's explicit approval boundary.
 - **Release blocker:** do not apply this migration to any database or merge PR #3 until the complete SQL structure is reviewed and the seed/migration content is compared with a parser or disposable test database. Confirm the exact full migration text and every affected row before preparing a proposed fix.
+
+### Follow-up verification of the suspected SQL defect — 2026-10-24
+
+- Re-fetched the complete migration and docs/kurmanji-content-seed-part-05.sql from kurmanji-clean-release.
+- Confirmed all five affected migration rows (course 2 lessons 08, 09, 10, 11, and 12) contain two `',now())` row terminators before the next lesson key. The first terminator appears after the first HTML section; additional HTML sections then occur outside the tuple, followed by a second terminator.
+- The matching seed file has one row terminator per affected lesson, after the complete HTML payload. This supports treating the migration's row structure as a confirmed static defect in the fetched file, not merely a title/content difference.
+- Scope of this finding: course 2 lessons 08–12 in supabase/migrations/20261019090000_add_kurmanji_courses_and_protected_lessons.sql. This check does not certify the remainder of the migration or all seed/migration rows.
+- No migration, seed, lesson HTML, database, main, or PR was modified. The only change from this follow-up is this audit note on kurmanji-clean-release.
+- Required next step: prepare a proposed correction for review on the protected branch, preserving each lesson's full scientific HTML and comparing the corrected SQL against the seed. Do not apply it to a database or merge PR #3 without explicit approval.
