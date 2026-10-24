@@ -12,6 +12,10 @@ On `kurmanji-clean-release`, `dashboard.html` now includes enrollment/progress c
 
 The protected lesson gate now preserves the requested course ID in the redirect (`dashboard.html?enroll=required&course=kurmanji-course-1`, or course 2), and the dashboard scrolls to and highlights that exact Kurmanji enrollment card. This prevents a learner who clicked a Kurmanji lesson from being left to guess which course to enroll in or following the unrelated central-circle/general-course route.
 
+A second path in the direct lesson-page access gate was also found to redirect an un-enrolled user with only `?enroll=required`, dropping the course ID. That path is now corrected to preserve `&course=kurmanji-course-1` or `&course=kurmanji-course-2`, just like the delegated-link path. The package validator now checks both redirect paths so a future change cannot silently reintroduce this context loss.
+
+The reported symptom on the live site has a separate, decisive explanation: `main`'s `dashboard.html` does not contain either Kurmanji enrollment card, while `kurmanji-clean-release` does. Thus the live dashboard will continue to show only the two general courses until the protected branch is explicitly approved, merged, and deployed. The branch fix itself cannot change the live site.
+
 A static regression guard was added to `scripts/validate_kurmanji_package.py` to check both course IDs/totals, both enrollment-card IDs, the requested-course selection/scroll behavior, and the course-preserving lesson redirect. GitHub Actions run [40096807490](https://github.com/avasinim/zanztkurd/actions/runs/40096807490) passed for commit `cad470495d70ab4ed533e4dc254744067df831ea`.
 
 ## Release limitations
