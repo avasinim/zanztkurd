@@ -3039,3 +3039,20 @@ This section supersedes the earlier 2026-10-21/22 statements that the current mi
 
 ### Result
 **Status: page/seed title, lesson key, navigation and content structure verified; core examples and vowel distinctions source-supported.** Audit record only; no lesson HTML, seed, migration, database or production branch changed.
+
+
+## Source review — course 1, lesson 05: special Hawar letters (2026-10-24)
+
+### Static page and seed comparison
+- Read `kurmanji-course-1-lesson-05.html` and its matching row in `docs/kurmanji-content-seed-part-01.sql` on `kurmanji-clean-release`.
+- The page and seed titles align: **پیتە تایبەتەکان: ç، ş، ê، î، û**. The page's `data-lesson-key` matches the seed key, the protected `script.js` is loaded, and navigation points to lessons 04 and 06.
+- The lesson covers the five letters, examples, uppercase/lowercase forms, practice and references.
+
+### Source cross-check
+- Yari's Kurmanji alphabet guide identifies the Hawar alphabet as 31 letters and explains that `ç`, `ş`, `ê`, `î`, and `û` are distinct letters whose diacritics matter; it distinguishes the vowel pairs `e/ê`, `i/î`, and `u/û`. https://yari.krd/learn/kurmanji-alphabet/
+- The University of Arizona's Kurmanji phonology/orthography reference is cited by the lesson and provides an independent reference for the orthography and example words. https://iranian-languages.arizona.edu/node/7
+- The lesson's core teaching point—that these marks are part of the letters rather than optional decoration—is supported. The examples `çak`, `şaş`, `êş`, and `îro` are consistent with available learning references. The exact gloss `bûz` “ice” was not independently confirmed in this pass, so it remains a small lexical verification item rather than a proven error.
+- No definite error justifies changing the lesson or seed; Latin Kurmanji forms were preserved.
+
+### Result
+**Status: page/seed identity, navigation and core orthography lesson verified; one word gloss remains unconfirmed.** Audit record only; no lesson HTML, seed, migration, database or production branch changed.
