@@ -3005,3 +3005,20 @@ This section supersedes the earlier 2026-10-21/22 statements that the current mi
 
 ### Result
 **Status: page/seed title and navigation alignment verified; the lesson's central spelling-versus-pronunciation distinction is supported; the precise `r/rr` orthographic claim remains unverified.** No lesson HTML, seed row, migration, database, or production branch was changed.
+
+
+## Source review — course 1, lesson 07: common-word spelling (2026-10-24)
+
+### Static page and seed comparison
+- Read `kurmanji-course-1-lesson-07.html` and the matching row in `docs/kurmanji-content-seed-part-01.sql` on `kurmanji-clean-release`.
+- Page title and seed title match: **ڕێنووسی وشە باوەکان**. The page's lesson key matches the seed key; it loads the protected `script.js` and links to lessons 06 and 08.
+- The seed teaches common phrases and preservation of Hawar letters such as ç, ş, ê and î. It explicitly notes variation in `spas/sipas` rather than labelling one form incorrect.
+
+### Source cross-check
+- Yari's beginner guide lists `Silav`, `Rojbaş`, `Şevbaş`, `Bi xêr hatî`, `Tu çawa yî?`, `Ez baş im`, `Spas/sipas`, `Ji kerema xwe`, `Erê`, and `Na`; it also explicitly notes regional variation. https://yari.krd/learn/kurdish-greetings/
+- Kurdi School's Kurmanji grammar resource likewise lists `Rojbaş`, `Silav`, `Bi xatirê te`, and `Ez baş im, spas`. https://kurdischool.com/grammar.html
+- The examples and lesson's caution about diacritics and regional variants are generally supported. One minor accuracy issue is that the heading says “ڕێنووسی وشە باوەکان” (common-word spelling), while the lesson content mostly presents everyday phrases/greetings rather than a broad set of common vocabulary. This is a scope/label concern, not evidence that the Kurmanji forms are wrong.
+- No evidence supports normalizing or changing the Latin Kurmanji forms in this lesson. No lesson HTML, seed row, migration, database, or production branch was changed.
+
+### Result
+**Status: static page/seed alignment verified; the core phrase examples and variation caveat are supported by learning references. The title's scope is somewhat broader than the lesson content, so consider a title/content decision during a later course-wide consistency pass.** No automatic content rewrite was made.
