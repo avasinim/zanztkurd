@@ -3718,3 +3718,11 @@ This section supersedes the earlier 2026-10-21/22 statements that the current mi
 - Rechecked `learning.html` and `lessons/catalog.html`: both already label `kurmanji-course-1` as 26 lessons and `kurmanji-course-2` as 12 lessons. `docs/kurmanji-content-seed-part-05.sql` and the audit's prior 12/12 review refer to this separate Kurmanji Course 2.
 - The earlier 32-vs-27 finding concerns a different course ID, `phonetics-phonology-kurdik`, with static wrappers named `course-2-NN.html` and the phonetics/phonology catalog. It must not be conflated with Kurmanji Course 2 (`kurmanji-course-2`). The previous “Course 2” phrasing was ambiguous; interpret the 27-vs-32 release blocker only as the separate phonetics/phonology course until that course's scope is resolved.
 - No catalog count change is needed for the Kurmanji 26+12 structure based on these checks. This clarification does not authorize changing SQL, seeds, databases, `main`, PR #3, or deployment.
+
+
+## Kurmanji progression RPC verification — 26 + 12 lessons (read-only, 2026-10-24)
+
+- Re-read `supabase/migrations/20261019090000_add_kurmanji_courses_and_protected_lessons.sql` at blob `81c2bea806ae4ddbfd7ab16b32c682216496f5cd`.
+- Its course upsert sets `kurmanji-course-1` to 26 lessons and `kurmanji-course-2` to 12 lessons. Both `can_read_lesson_content` and `complete_lesson` generate ordered lesson keys for exactly 1–26 and 1–12 respectively; the migration's content payload contains 26 Course 1 keys and 12 Course 2 keys. This matches the two Kurmanji course cards in `learning.html` and `lessons/catalog.html`.
+- The same migration separately handles `phonetics-phonology-kurdik` as a 32-lesson course. Its `course-2-NN.html` keys are a different namespace from `kurmanji-course-2-lesson-NN.html`; never conflate these names or counts. The 27-vs-32 finding belongs only to the separate phonetics/phonology course.
+- This is static source inspection only. The migration has not been executed and no database was queried or changed in this pass. No seed, lesson page, migration, `main`, PR #3, or deployment was changed; only this audit note was added.
