@@ -3897,3 +3897,12 @@ The script's server-progress sync also filters `lesson_progress` by the supplied
 - Added analytical exercises and retained the lesson title, key, course ID, order, and static wrapper/navigation. Updated the corresponding lesson-4 row identically in the draft seed and migration payload.
 - Source reviewed: University of Arizona, Iranian Languages, “Kurmanji Kurdish — Phonology and Orthography” (https://iranian-languages.arizona.edu/node/7); Haig (2018); Thackston (2006).
 - Source-file edits only. No SQL was executed, no database was written, and no deployment, `main`, or PR #3 changes were made.
+
+
+## Northern Circle — lesson 5 marked letters and diacritics (2026-10-24)
+
+- Rechecked the lesson-5 seed and migration payload against the University of Arizona Iranian Languages reference, which lists `ç` /t͡ʃ/ (`çak`, “good”), `ş` /ʃ/ (`şaş`, “wrong”), `ê` /e/ (`êş`, “pain”), `î` /i/ (`îro`, “today”), and `û` /u/ (`bûz`, “ice/provided as ice in the lesson gloss`). The five lesson examples and their letter/IPA associations match the reference.
+- Clarified the pedagogical distinction between the two marked consonants (`ç`, `ş`) and the three marked vowels (`ê`, `î`, `û`), and named the cedilla/circumflex marks so learners understand they are part of the orthographic form, not decoration.
+- Preserved the title, course ID, key, lesson order, and static HTML wrapper/navigation (`data-lesson-key`, previous lesson 4, next lesson 6, and protected `script.js` version). Exact seed/migration lesson-row parity and the post-write contents must be rechecked.
+- Source: University of Arizona, Iranian Languages, “Kurmanji Kurdish,” Orthography table: https://iranian-languages.arizona.edu/node/7. This supports the listed examples and IPA values; it does not imply all dialects pronounce every phoneme identically.
+- Source-file changes only on `kurmanji-clean-release`; no SQL execution, database write, `main` change, PR merge, or deployment.
