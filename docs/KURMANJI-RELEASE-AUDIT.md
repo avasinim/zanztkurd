@@ -2780,3 +2780,12 @@ This section supersedes the earlier 2026-10-21/22 statements that the current mi
 - **Content presence:** the seed covers adjective meaning, common descriptive vocabulary, noun–adjective order and ezafe, adjective use in noun phrases versus clauses, exercises, and references including Haig (2018), the University of Arizona, and Thackston.
 - **Scientific review flags:** the exact segmentation and interpretation of forms such as `bajar-ek-î mezin`, `maleke biçûk`, and `kum-ên reş` should be checked against the cited grammar and its orthographic/morphological conventions before scientific approval. The lesson itself labels some forms as source-based or instructional examples, but this structural pass does not independently validate those claims. No definite page/seed wiring mismatch was found; no lesson text, seed, migration, or Latin Kurmanji form was changed.
 - The audit file was re-read after the update to verify this entry. Only the protected branch was modified; no database operation was performed.
+
+
+## Lesson 22 — adjective comparison (2026-10-24)
+
+- Cross-checked `kurmanji-course-1-lesson-22.html` against the matching row in `docs/kurmanji-content-seed-part-03.sql`.
+- **Structural match:** page and seed titles agree (`بەراوردکردنی تایبەتمەندییەکان`); `data-lesson-key="kurmanji-course-1-lesson-22.html"` matches the seed key; `script.js` is loaded; previous/next links point to lessons 21 and 23.
+- **Content presence:** the seed covers positive/comparative/superlative adjective degrees, `-tir`, `herî`, `-tirîn`, `ji` in comparison clauses, exercises, and references including Karacan & Khalid (2016), Haig (2018), and Thackston.
+- **Scientific review flags:** forms `mezintir/meztir`, `mezintirîn`, and the distribution of `herî` versus `-tirîn` need direct checking against the cited grammars and dialect descriptions. The lesson notes dialect variation, but this pass does not independently confirm every morphological form or its distribution. No definite page/seed wiring mismatch was found; no lesson text, seed, migration, or Latin Kurmanji form was changed.
+- Re-read the audit file after updating and confirmed this entry is present. Only the protected branch was modified; no database operation was performed.
