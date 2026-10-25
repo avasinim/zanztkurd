@@ -4259,3 +4259,11 @@ The script's server-progress sync also filters `lesson_progress` by the supplied
 - Static adjacent navigation is consistent: lesson 01 has no previous lesson; lessons 02–11 link to both expected neighbors; lesson 12 links to lesson 11 and has no next lesson.
 - Cross-checked the two Northern Circle course index pages against `lessons/catalog.html`: Course 1 is labelled as basic Kurmanji orthography with 26 lessons; Course 2 is labelled as Kurmanji morphology/grammar with 12 lessons. The separate 32-lesson phonetics/phonology path is a different catalog entry and must not be conflated with Northern Circle Course 2.
 - This is static HTML/catalog consistency only. It does not prove lesson payload retrieval, region-button behavior in a browser, or persistence of student progress. Existing runtime, source-verification, and database release gates remain open; no seed, migration, database, `main`, or deployment changes were made.
+
+
+## Avasin orthography alignment — Course 1 lesson 26 seed title (2026-10-25)
+
+- Compared the Course 1 lesson-26 wrapper title/H1 with its corresponding row in `docs/kurmanji-content-seed-part-04.sql`.
+- The wrapper already used `پێداچوونەوە`, but the draft seed row title still had `پێداچونەوە`. Corrected only that row's title to match the verified wrapper spelling; no `content_html`, lesson science, Latin Kurmanji, migration, or database content was changed.
+- Seed file commit: `d618fb87ef36c09ea140a74273e617f579275e10`. Re-fetched the seed file and confirmed the corrected title occurs once and the old variant is absent.
+- This fixes the draft seed title only; it does not update or certify any database row or deployed lesson payload.
