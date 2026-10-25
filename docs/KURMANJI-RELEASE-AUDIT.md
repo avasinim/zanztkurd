@@ -4267,3 +4267,11 @@ The script's server-progress sync also filters `lesson_progress` by the supplied
 - The wrapper already used `پێداچوونەوە`, but the draft seed row title still had `پێداچونەوە`. Corrected only that row's title to match the verified wrapper spelling; no `content_html`, lesson science, Latin Kurmanji, migration, or database content was changed.
 - Seed file commit: `d618fb87ef36c09ea140a74273e617f579275e10`. Re-fetched the seed file and confirmed the corrected title occurs once and the old variant is absent.
 - This fixes the draft seed title only; it does not update or certify any database row or deployed lesson payload.
+
+
+## Fast seed-title orthography sweep — split seeds 01–05 (2026-10-25)
+
+- Re-fetched all five split draft seed files and inspected the 38 lesson-title tuples (8 + 8 + 8 + 8 + 6).
+- No title tuple contained the specifically checked unwanted variants `پێداچونەوە`, `چییە`, `نییە`, or `بڕگە`.
+- This is a narrow title-only lexical scan, not a full body orthography audit or a comparison against all wrapper titles. The known lesson-26 seed title mismatch was corrected separately and re-fetched.
+- No lesson body, migration, database, `main`, or deployment changes were made in this sweep.
