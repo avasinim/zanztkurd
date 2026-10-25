@@ -4177,3 +4177,11 @@ The script's server-progress sync also filters `lesson_progress` by the supplied
 - Lesson 04: unresolved source-dependent points remain, especially whether rr should be taught as an orthographic distinction or only discussed as a phonetic contrast, the range of values for x, the scope of the consonant inventory, and the wording of the Sorani gloss for q. These need source-specific resolution before any scientific text is changed.
 - Decision: retain the existing seed/database discrepancies as unresolved; do not synchronize payloads automatically. A safe next action is a Kurdish editorial/source check of lesson 04's listed caveats, then proceed through lessons 05–06 against their own sources. This entry records the existing evidence and the decision; it does not claim a new scientific source check or a database comparison.
 - No lesson, seed, migration, schema, or database row was changed. No SQL was executed; main, production Supabase, PR #3, and deployment remain untouched.
+
+
+## Wrapper metadata review: Course 1 lessons 04–06 (2026-10-25)
+
+- Re-read the static HTML wrappers and corresponding split-seed rows for lessons 04–06 on `kurmanji-clean-release`. Their visible H1 titles, `data-lesson-key` values, and seed row titles align. All three wrappers call `script.js?v=20261019-kurmanji-protected`; previous/next navigation points to the adjacent lesson files.
+- Definite wrapper metadata issue found in lesson 05: the visible H1 and seed title included the five marked letters (`ç، ş، ê، î، û`), but the browser `<title>` omitted them. Updated only the HTML document title to `وانەی ٥ — پیتە تایبەتەکان: ç، ş، ê، î، û | ئاڤاشین` so browser/tab metadata agrees with the visible heading. No lesson-body scientific content or seed data was changed.
+- Lesson 04 and lesson 06 wrapper titles required no change in this pass. Existing source-review caveats for lesson 04 (rr, x, phoneme inventory scope, Sorani gloss for q) remain open; this metadata fix does not resolve them. Lessons 05–06 content still need source-specific review before release approval.
+- Verification: re-read the updated lesson 05 file and confirmed the new `<title>` is present and the prior shortened title is absent. Re-read this audit entry after writing. No SQL writes or migrations were performed; no changes to `main`, production Supabase, PR #3, or deployment.
