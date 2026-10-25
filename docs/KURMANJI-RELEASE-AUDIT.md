@@ -4275,3 +4275,11 @@ The script's server-progress sync also filters `lesson_progress` by the supplied
 - No title tuple contained the specifically checked unwanted variants `پێداچونەوە`, `چییە`, `نییە`, or `بڕگە`.
 - This is a narrow title-only lexical scan, not a full body orthography audit or a comparison against all wrapper titles. The known lesson-26 seed title mismatch was corrected separately and re-fetched.
 - No lesson body, migration, database, `main`, or deployment changes were made in this sweep.
+
+
+## Wrapper-to-seed title spot-check — Course 1 lessons 01–12 (2026-10-25)
+
+- Compared the title tuples in seed parts 01–02 for lessons 01–16 against the fetched HTML H1s for lessons 01–12.
+- Lessons 01–12: each HTML H1 exactly matches its seed title; all 12 wrappers also retain the expected `data-lesson-key` and protected `script.js?v=20261019-kurmanji-protected` loader.
+- Lessons 13–16 seed titles were read, but their wrapper H1s were not included in this spot-check. This result does not validate lesson-body content or runtime fetching.
+- No lesson files, seed payloads, migrations, database, `main`, or deployment were changed in this spot-check.
