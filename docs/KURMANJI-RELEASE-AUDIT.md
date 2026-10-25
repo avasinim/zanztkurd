@@ -4148,3 +4148,12 @@ The script's server-progress sync also filters `lesson_progress` by the supplied
 - Seed files remain marked DRAFT. The unrelated alphabet-table lesson/source audit remains a separate task; no attempt was made to move it into course 1 lesson 07.
 - No database writes/migrations, no production project, no `main`, no PR merge, no deployment.
 
+
+
+## Follow-up: lessons 01–06 authority review and test-row fingerprints (read-only, 2026-10-25)
+
+- Re-read the current static wrappers for Course 1 lessons 01–06 on `kurmanji-clean-release`. Their page titles and `data-lesson-key` values match the corresponding test-database titles and keys. No wrapper metadata mismatch was established in this pass.
+- Re-ran a read-only query against test project `zanztkurd-kurmanji-test` (`juwsjljbdwyncicybwoq`) for the six rows. Database HTML lengths are 2,522, 2,734, 2,674, 3,604, 2,727, and 2,698 characters respectively; the six rows exist and have nonempty content. This agrees with the previously recorded database lengths, but lengths/fingerprints alone do not establish which text is academically authoritative.
+- The split seed file is explicitly labeled DRAFT and says its lesson-card HTML was extracted from the current static lesson pages. Existing source-review entries for lessons 01–06 provide partial/source-specific checks, with unresolved editorial caveats (including Kurdish glosses and the orthographic/phonetic framing in lesson 04). These reviews do not justify copying either the seed or database payload wholesale over the other.
+- Decision: **no content replacement in this pass**. Keep the six body mismatches as release blockers until the exact lesson-card payloads are compared against the static-page source and the source-backed review, and any editorial differences are classified as intentional or erroneous. Do not treat a shorter/longer body as proof of correctness.
+- No seed, lesson page, migration, schema, or database row was changed. The query was read-only. No changes to `main`, production Supabase, PR #3, or deployment.
