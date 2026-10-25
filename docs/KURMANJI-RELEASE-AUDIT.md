@@ -4251,3 +4251,11 @@ The script's server-progress sync also filters `lesson_progress` by the supplied
 - Checked adjacent navigation links: lessons 02–25 link to both expected neighbors; lesson 01 links forward but has no previous lesson; lesson 26 links backward but has no next lesson. No broken adjacent-link pattern was found in the static wrappers.
 - The lesson-26 wrapper spelling fix is present: title and H1 both use `پێداچوونەوە`.
 - This sweep validates only repository HTML structure and links, not whether `script.js` successfully retrieves the right payload, whether Northern Circle course selection works in a browser, or whether authentication/enrollment/progress actions persist. Do not treat this as runtime or release approval; the existing release gates remain open.
+
+
+## Static wrapper sweep — Northern Circle Course 2, lessons 01–12 (2026-10-25)
+
+- Re-fetched all 12 `kurmanji-course-2-lesson-XX.html` wrappers. All 12 have a title, H1, matching `data-lesson-key`, the protected `script.js?v=20261019-kurmanji-protected` loader, and a `.lesson-content` mount point.
+- Static adjacent navigation is consistent: lesson 01 has no previous lesson; lessons 02–11 link to both expected neighbors; lesson 12 links to lesson 11 and has no next lesson.
+- Cross-checked the two Northern Circle course index pages against `lessons/catalog.html`: Course 1 is labelled as basic Kurmanji orthography with 26 lessons; Course 2 is labelled as Kurmanji morphology/grammar with 12 lessons. The separate 32-lesson phonetics/phonology path is a different catalog entry and must not be conflated with Northern Circle Course 2.
+- This is static HTML/catalog consistency only. It does not prove lesson payload retrieval, region-button behavior in a browser, or persistence of student progress. Existing runtime, source-verification, and database release gates remain open; no seed, migration, database, `main`, or deployment changes were made.
