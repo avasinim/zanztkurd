@@ -4243,3 +4243,11 @@ The script's server-progress sync also filters `lesson_progress` by the supplied
 - Corrected the three inconsistent heading/metadata occurrences to the established Avasin spelling `پێداچوونەوە`; no lesson body, seed, migration, database, `main`, or deployment was changed.
 - Re-fetched the wrapper after commit `7668bd95b2213a6c015f17dc4c5be0dec7f26019`. Verified the browser title and H1 now agree, the revised spelling appears in all four intended places (including the existing intro), and the old variant is absent.
 - This is a wrapper orthography fix only; it does not certify the lesson's scientific body or prove live-site behavior. Release remains blocked by the previously recorded content/source and end-to-end gates.
+
+
+## Static wrapper sweep — Course 1 lessons 01–26 (2026-10-25)
+
+- Re-fetched all 26 wrapper HTML files from `kurmanji-clean-release` in three batches. All 26 files were retrievable and had a browser title, H1, matching `data-lesson-key`, the protected `script.js?v=20261019-kurmanji-protected` loader, and a `.lesson-content` mount point.
+- Checked adjacent navigation links: lessons 02–25 link to both expected neighbors; lesson 01 links forward but has no previous lesson; lesson 26 links backward but has no next lesson. No broken adjacent-link pattern was found in the static wrappers.
+- The lesson-26 wrapper spelling fix is present: title and H1 both use `پێداچوونەوە`.
+- This sweep validates only repository HTML structure and links, not whether `script.js` successfully retrieves the right payload, whether Northern Circle course selection works in a browser, or whether authentication/enrollment/progress actions persist. Do not treat this as runtime or release approval; the existing release gates remain open.
