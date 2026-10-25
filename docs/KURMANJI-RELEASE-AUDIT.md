@@ -4235,3 +4235,11 @@ The script's server-progress sync also filters `lesson_progress` by the supplied
 - Re-fetched the changed seed file after commit `a8b8ee58222ff9a1cb51f28c99602e9d98bfeb28`; verified the new row appears exactly once and the revised `Şevbaş` wording is present.
 - **Scope limit:** this edit changed neither `script.js`, any migration, the database, `main`, nor a deployment. It updates the draft seed only; it does not prove or change the lesson_content payload currently served by the live site. Do not claim lesson 10 is fixed in production until the approved content source is safely synchronized and verified.
 - **Release remains blocked** by the previously recorded source review of all 38 payloads, seed/migration/database divergence, safe migration/RPC testing, and real authentication/enrollment/progression persistence tests.
+
+
+## Avasin orthography correction — Course 1, lesson 26 wrapper (2026-10-25)
+
+- Re-read `kurmanji-course-1-lesson-26.html` on `kurmanji-clean-release`. The browser title, visible H1, and meta description used `پێداچونەوە`, while the same wrapper's introductory paragraph already used `پێداچوونەوە`.
+- Corrected the three inconsistent heading/metadata occurrences to the established Avasin spelling `پێداچوونەوە`; no lesson body, seed, migration, database, `main`, or deployment was changed.
+- Re-fetched the wrapper after commit `7668bd95b2213a6c015f17dc4c5be0dec7f26019`. Verified the browser title and H1 now agree, the revised spelling appears in all four intended places (including the existing intro), and the old variant is absent.
+- This is a wrapper orthography fix only; it does not certify the lesson's scientific body or prove live-site behavior. Release remains blocked by the previously recorded content/source and end-to-end gates.
