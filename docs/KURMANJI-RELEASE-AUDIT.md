@@ -4291,3 +4291,12 @@ The script's server-progress sync also filters `lesson_progress` by the supplied
 - Each wrapper contains the expected `data-lesson-key`, protected script loader (`script.js?v=20261019-kurmanji-protected`), and `.lesson-content` mount point.
 - This confirms static title/wrapper alignment only; it does not prove runtime seed retrieval, full content accuracy, or completion/progress persistence.
 - No lesson or seed content, migrations, database, `main`, or deployment changed during this check.
+
+
+## Pre-switch preservation checkpoint — Avasin Academy (2026-10-25)
+
+- Preservation checkpoint prepared on `kurmanji-clean-release` before switching to another project.
+- Includes the current release-audit record and all branch commits up to this checkpoint, including the recent static wrapper/title checks and the Course 1 lesson-26 Avasin orthography correction.
+- A separate backup branch will point to this exact checkpoint commit. This is a remote Git snapshot, not a local ZIP/archive download.
+- No changes to `main`, production Supabase/database, migrations, PR #3 merge state, or deployment are authorized or performed as part of this checkpoint.
+- Remaining Avasin work is intentionally preserved as open: full lesson-body/source review, seed/migration/database mismatch investigation, runtime/auth/progress testing, and release gates. Do not treat the project as release-ready.
