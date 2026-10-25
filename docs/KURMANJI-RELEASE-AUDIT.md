@@ -4283,3 +4283,11 @@ The script's server-progress sync also filters `lesson_progress` by the supplied
 - Lessons 01–12: each HTML H1 exactly matches its seed title; all 12 wrappers also retain the expected `data-lesson-key` and protected `script.js?v=20261019-kurmanji-protected` loader.
 - Lessons 13–16 seed titles were read, but their wrapper H1s were not included in this spot-check. This result does not validate lesson-body content or runtime fetching.
 - No lesson files, seed payloads, migrations, database, `main`, or deployment were changed in this spot-check.
+
+
+## Wrapper-to-seed title check — Course 1 lessons 13–18 (2026-10-25)
+
+- Compared the six HTML H1 titles against their seed title tuples; all six match exactly.
+- Each wrapper contains the expected `data-lesson-key`, protected script loader (`script.js?v=20261019-kurmanji-protected`), and `.lesson-content` mount point.
+- This confirms static title/wrapper alignment only; it does not prove runtime seed retrieval, full content accuracy, or completion/progress persistence.
+- No lesson or seed content, migrations, database, `main`, or deployment changed during this check.
