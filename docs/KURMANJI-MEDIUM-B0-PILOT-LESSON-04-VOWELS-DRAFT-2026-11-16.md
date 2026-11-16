@@ -178,7 +178,7 @@ Heke tu peyvekê nizanî, ji mamoste bipirse. Peyveke nû bêyî piştrastkirin�
 ## 15. Peyvên nû
 
 - **dengdêr** — tîpa dengdêr
-- **peyڤ** — yekeya watedar a zimanê
+- **peyv** — yekeya watedar a zimanê
 - **nîşan** — tişta ku li ser tîpekê tê danîn
 - **cuda** — ne wekî hev
 - **binê xêzê de bîne** — xêzekê li binê tiştekî çêke
@@ -197,38 +197,38 @@ Ev nirxandin ji bo pratîka dersê ye; pîvaneke CEFR, belgeya astê an nirxandi
 ## 17. Têbînî ji bo mamoste û redaktor
 
 1. Di vê dersê de heşt tîpên dengdêr ên nivîsî tên fêrkirin: **a, e, ê, i, î, o, u, û**.
-2. Ev heشت tîp bi heşt fonemên dengdêr ên Kurmancî yên di ravekirina Haig de têkildar in; lê têkچوونا fonetîkî ya wan ne yek awaye.
+2. Ev heşt tîp bi heşt fonemên dengdêr ên Kurmancî yên di ravekirina Haig de têkildar in; lê lê bilêvkirina wan di hemû şêwazan de yek awayî nîne.
 3. Di ravekirina Haig de pênc dengdêrên tijî/tense bi **a, ê, î, o, û** tên nivîsîn; sê dengdêrên lawaz/lax bi **e, u, i** tên nivîsîn. Ev cudahî ji bo mamoste ye û di vê dersa destpêkê de ne pêdivî ye ku xwendekar wê bi zimanê teknîkî fêr bibe.
 4. Dirêjahiya dengê bi tenê wekî cudahiyeke fonemîk nayê fêrkirin; Haig dibêje ku dengdêrên tijî bi taybetî di hin şertên peyvê de dirêj tên bilêvkirin, lê dirêjahiya dengê bi xwe cudahiyeke fonemîk nîne.
 5. Di herêmên cuda de taybetmendiyên dengdêr dikarin biguherin. Ji bo vê dersê deng tomar neke û bilêvkirinê bi pîvanekê nexemlîne.
 6. Peyvên nimûneyî û wateyên wan divê ji aliyê redaktorê Kurmancî ve careke din bên kontrolkirin.
-7. Her gotin û fê'la ku di fیدباکê de tê bikaranîn divê ji aliyê redaktorê ve bê piştrastkirin.
+7. Her gotin û fê'la ku di bersivdanê de tê bikaranîn divê ji aliyê redaktorê ve bê piştrastkirin.
 
-## 18. Çavkaniyên zanistî û سنووری بەڵگە
+## 18. Çavkaniyên zanistî û sînorê belgeyan
 
-### Çavکانی سەرەکی
+### Çavkaniyên sereke
 
 **Haig, Geoffrey (2018), “Northern Kurdish (Kurmanjî),” in *The Languages and Linguistics of Western Asia*, pp. 106–158.**  
 PDF: https://multicast.aspra.uni-bamberg.de/data/pubs/Haig2018_Northern-Kurdish_Kurmanji.pdf
 
-بەشی پەیوەندیدار:
-- §2.1.1, pp. 109–112: سیستەمی دەنگدەر، تێکەڵبوونی شێوەی تێن و لاواز، نموونە وشەکان و جیاوازییە ناوچەییەکان.
-- pp. 109–110: نموونەکانی **mal, sêv, spî, bûk, toz** و وشەکانی تر.
-- pp. 111–112: نموونەکانی **em, dest, ser, dev, guh, gund** و تێبینییەکانی شێوەزار.
+Beşên girêdayî:
+- §2.1.1, pp. 109–112: vowel system, tense/lax contrasts, example words and regional variation.
+- pp. 109–110: Examples such as **mal, sêv, spî, bûk, toz** و وشەکانی تر.
+- pp. 111–112: Examples such as **em, dest, ser, dev, guh, gund** و dialect notes.
 
 **Haig, Geoffrey & Öpengin, Ergin (2018), “Kurmanji Kurdish in Turkey: Structure, varieties, and status.”**  
 سەرچاوەی بنەڕەتی بۆ شێوەی ستاندارد و گۆڕانی ناوچەیی. بۆ هەر بانگەشەیەکی تایبەت پێویستە بەشی پەیوەندیدار و لاپەڕەکە دیاری بکرێت.
 
 **University of Arizona, Iranian Languages — “Kurmanji Kurdish.”**  
 https://iranian-languages.arizona.edu/node/7  
-سەرچاوەی یارمەتیدەر بۆ پێکهاتەی دەنگدەر و نووسینی IPA؛ لەگەڵ سەرچاوەی Haig بەراورد بکرێت، نەک بە تەنیا.
+A supplementary source for vowel structure and IPA notation; compare it with Haig rather than using it alone.
 
-### سنووری بەڵگە
+### Evidence limits
 
-- ژمارەی هەشت دەنگدەر و پەیوەندییەکانیان بە نووسینی Hawar لە سەرچاوەی Haig پشتگیری دەکرێت.
-- پێویست نییە خشتەی دەنگدەرەکان لە وانەی B0دا ببێتە وانەی IPA.
-- ئەم نموونانە لە سەرچاوەی Haig وەرگیراون یان لەسەر بنەمای نموونەی بەڵگەدار هەڵبژێردراون؛ بەڵام گفتوگۆ و ڕاهێنانەکان دەستنووسی مامۆستان و وەرگێڕانی کورمانجی نییە.
-- هیچ دەنگدانێکی تاک بە شێوەی گشتی بۆ هەموو شێوەزارەکان دانانرێت.
+- Haig supports the eight-vowel analysis and the relationship between the vowel phonemes and Hawar spellings.
+- The B0 lesson should not turn the vowel chart into an IPA lesson.
+- The listed word examples are drawn from Haig's documented examples; the dialogue and exercises are instructor-authored and are not presented as corpus quotations.
+- No single pronunciation is claimed to represent all regional varieties.
 
 ## 19. بڕیاری بڵاوکردنەوە
 
