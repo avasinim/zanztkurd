@@ -50,3 +50,29 @@ The migration header currently states that all 38 lesson title/content payloads 
 6. Keep production, `main`, merge, and deployment decisions separate from this documentation-only review and require explicit authorization for those actions.
 
 **Disposition: release gate remains blocked. No lesson or database content was changed by this review.**
+
+
+## Provenance and canonical-source investigation — 2026-11-16
+
+A follow-up check of Git history clarifies why the large Course 1 differences exist:
+
+- The release migration was committed as `bbc4e96f07f96c034a7d62232cd2d169ceeb3eef` at **2026-10-24 12:24 UTC**. Its parent was `73964544b4b759a6cfab72b4ce2ee5e7a9a3c980`.
+- The split seed part 01 was then deliberately enriched later on **2026-10-24**, after the migration:
+  - Lesson 01: `ef730f59d2585ff741b8d708b58078bb67a47bd5` — “Enrich Northern Kurmanji lesson 1 academic content” (13:56 UTC).
+  - Lesson 02: `daa9898df7d5f82ea7cee05fa890b40b1bbcc2e9` — “Enrich Northern Kurmanji lesson 2” (13:57 UTC).
+  - Lesson 03: `7ba3bf8fe87e32e00102352068313722ccc787e7` — “Enrich Northern Circle Kurmanji lesson 3 vowel table” (14:00 UTC), followed by `ff4b53750f50a8029a4e53dc197af827ce6f27e8` — “Correct Sorani gloss in Kurmanji lesson 3”.
+  - Lesson 04: `cac9fee8ce450dcea17d5e0e1acfdd09be3b122f` — “Enrich Northern Circle Kurmanji lesson 4 consonants” (14:02 UTC).
+  - Lesson 05: `51cab71e00cd2cc842635b5a920ebc62fd7e8695` — “Enrich Kurmanji lesson 5 marked-letter distinctions” (14:03 UTC).
+  - Lesson 06: `179f834a8a462ebba1cfdc83c69a1744b2296478` — “Enrich Kurmanji lesson 6 reading and spelling practice” (14:05 UTC).
+  - Lesson 07 was also changed later that afternoon, but is outside the 12-row mismatch list.
+- Course 1 lesson 10 has a later explicit source-based change: `a8b8ee58222ff9a1cb51f28c99602e9d98bfeb28`, “content: distinguish evening and night greetings in Kurmanji lesson 10” (2026-10-25 07:43 UTC).
+- The current static wrappers for Course 1 lessons 01–06 are shells: each contains a `.lesson-content` mount with a `data-lesson-key` and loads `script.js`; they do not contain the full teaching body inline. Therefore the wrappers cannot independently adjudicate the seed-versus-migration text.
+- The existing source-audit sections for lessons 01–06 in `docs/KURMANJI-RELEASE-AUDIT.md` explicitly use the split seed as the reviewed lesson source and record the scientific/editorial caveats. Those audits are useful supporting evidence, but they do not prove every later-added paragraph was separately source-checked.
+
+### Revised assessment
+
+The 12 differences are not random unexplained drift. At least the major Course 1 lesson 01–06 expansions were deliberately committed to the split seed **after** the migration release commit. The migration is therefore an older snapshot and its “exactly synchronized” header is stale. The later seed is the more recent authored draft for those rows, but the remaining source/editorial caveats still apply; this finding alone does not authorize copying all seed payloads into a migration or claiming the deployed database matches either file.
+
+### Next safe action
+
+Use the later split seed as the working review candidate for lessons 01–06, preserve the migration snapshot, and inspect the exact commit patches/source notes for each enrichment. After that, prepare a proposed reconciliation patch on a new isolated branch, with no database execution, merge, or deployment.
