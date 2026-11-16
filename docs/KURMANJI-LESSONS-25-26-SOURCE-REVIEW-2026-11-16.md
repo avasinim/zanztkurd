@@ -75,3 +75,20 @@ References:
 - The highest-priority course-wide follow-up is a consolidated editorial/action register: separate confirmed factual errors (if any), dialect-sensitive alternatives, unsourced sample sentences, Sorani copy-edit items, and unresolved seed/test-database parity. Do not make bulk lesson edits from the review notes.
 - The course's runtime and release gates remain separate: source review does not prove live lesson retrieval, RLS/enrollment behavior, progress persistence, or production readiness.
 - No lesson content, Latin Kurmanji spelling, seed SQL, migration, database, `main`, PR #3, or deployment was changed in this pass.
+
+
+## Addendum — final cross-check of the lesson-26 orthography table (2026-11-16)
+
+A final close reading of the University of Arizona orthography page identified an internal example inconsistency that should be preserved as an explicit editorial flag:
+
+- The prose says that the trill/flap contrast is often not represented in writing, and that where the contrast is written the trill is represented by `rr`.
+- In the same page's letter table, the row labelled `rr` gives `roj` (“day”) as its example, but the example is spelled with a single `r`, not `rr`.
+- Therefore, the page supports the general `r/rr` distinction, but its table example cannot by itself establish the spelling or pronunciation of `roj`. Do not cite that table row as decisive proof that the word should be written `rr`, and do not silently change the lesson's `roj`.
+- The current lesson's wording that `r` and `rr` can distinguish forms in some words is compatible with the source's prose. The existing recommendation remains: describe `rr` as a digraph/convention rather than an extra letter in the 31-letter Hawar alphabet, and add a minimal pair only after independent verification from a second reliable source and course-editor approval.
+
+The lexical checks for the lesson-26 examples were also refined:
+- `çak` = “good”, `şaş` = “wrong”, `dil` = “heart”, `îro` = “today”, and `roj` = “day” have supporting dictionary or teaching-source evidence. The `şaş` / `şeş` distinction should be retained carefully: `şaş` means “wrong”, while `şeş` means “six”.
+- This does not replace a full dictionary audit of every phrase or sentence in lesson 26.
+
+### Addendum decision
+No lesson text, seed, migration, database, wrapper, or release file was changed. This note narrows the evidentiary claim about `roj` and `rr`; it does not establish a confirmed error in the lesson itself.
