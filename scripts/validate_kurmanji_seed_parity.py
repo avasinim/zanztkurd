@@ -9,7 +9,7 @@ import re
 import sys
 
 ROOT = Path(__file__).resolve().parents[1]
-MIGRATION = ROOT / "supabase/migrations/20261019090000_add_kurmanji_courses_and_protected_lessons.sql"
+MIGRATION = ROOT / "supabase/migrations/20261024122051_add_kurmanji_courses_and_protected_lessons.sql"
 SEED_FILES = sorted((ROOT / "docs").glob("kurmanji-content-seed-part-*.sql"))
 
 
