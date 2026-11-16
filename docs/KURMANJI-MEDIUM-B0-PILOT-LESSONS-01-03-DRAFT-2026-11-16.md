@@ -262,7 +262,7 @@ Rêza tîpan bi klavyeya xwe binivîse. Piştre van pênc tîpan bi awayê biç�
 - Ev ders tenê nasîna tîpan e; nirxandina deng û fonemê di vê dersê de nake.
 - Di font û klavyeyê de **ç, ê, î, ş, û** bi awayê rast nîşan bide.
 - Di testên teknîkî de NFC û NFD wekî formên Unicode kontrol bike; nîşanên tîpan qet jê meke.
-- Pêşniyara 31 tîpê ya Hawarê wekî inventory-ya bingehîn bikar bîne, lê her şêwazê nivîsînê yê zêدە/alternatîf di belgeya siyaseta ortografiyê de bi awayekî cuda qeyd bike.
+- Pêşniyara 31 tîpê ya Hawarê wekî inventory-ya bingehîn bikar bîne, lê her şêwazê nivîsînê yê zêde/alternatîf di belgeya siyaseta ortografiyê de bi awayekî cuda qeyd bike.
 
 ---
 
