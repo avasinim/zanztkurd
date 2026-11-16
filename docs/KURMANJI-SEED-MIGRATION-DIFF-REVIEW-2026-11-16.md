@@ -76,3 +76,20 @@ The 12 differences are not random unexplained drift. At least the major Course 1
 ### Next safe action
 
 Use the later split seed as the working review candidate for lessons 01–06, preserve the migration snapshot, and inspect the exact commit patches/source notes for each enrichment. After that, prepare a proposed reconciliation patch on a new isolated branch, with no database execution, merge, or deployment.
+
+
+### Commit-patch verification
+
+The actual GitHub commit patches were opened, not inferred from commit titles alone. They confirm the later seed changes replaced or expanded the corresponding lesson rows:
+
+| Lesson | Commit patch | Confirmed change |
+|---|---|---|
+| 01 | `ef730f5` | +28 / -1 lines in part 01; adds the academic distinction and related material after the earlier core sections. |
+| 02 | `daa9898` | +23 lines in part 01; adds vowel/consonant classification and related teaching material. |
+| 03 | `7ba3bf8` and `ff4b537` | Reworks the vowel table and corrects a Sorani gloss. |
+| 04 | `cac9fee` | +55 / -8 lines in part 01; substantial consonant lesson expansion. |
+| 05 | `51cab71` | Replaces the lesson row (+1 / -1 SQL lines); the row is a single long SQL line, so the line count does not indicate a trivial content change. |
+| 06 | `179f834` | Reworks the reading/spelling practice (+16 / -16 lines); the row is likewise stored as a long SQL line. |
+| 10 | `a8b8ee5` | Adds `Êvarbaş!` and changes the `Şevbaş!` usage note (+2 / -1 lines). |
+
+This confirms the main pattern: the migration captured the earlier lesson bodies, while the split seed received deliberate later content revisions. It does not remove the need to validate each added claim and example against the sources recorded in the release audit.
