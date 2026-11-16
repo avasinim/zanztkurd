@@ -369,7 +369,7 @@ Li dora xwe du tiştên ku dikarî bi kurmancî binav bikî bibîne. Navê wan b
 ### Peyvên nû
 
 - **deng** — tiştê ku di axaftinê de tê bihîstin
-- **peyڤ** — yekeya watedar a zimanê
+- **peyv** — yekeya watedar a zimanê
 - **veqetandin** — tiştek ji tiştekî din cuda kirin
 - **nivîs** — tiştê ku hatiye nivîsîn
 - **bihîstin** — dengê guhê xwe pê gihîştin
