@@ -2,7 +2,7 @@ name: Validate Kurmanji course package
 
 on:
   push:
-    branches: ["kurmanji-test-config", "kurmanji-clean-release"]
+    branches: ["kurmanji-test-config", "kurmanji-clean-release", "fix/kurmanji-ci-current-migration"]
     paths:
       - "kurmanji-course-*.html"
       - "dashboard.html"
@@ -10,7 +10,7 @@ on:
       - "lessons/catalog.html"
       - "script.js"
       - "docs/kurmanji-content-seed-part-*.sql"
-      - "supabase/migrations/20261019090000_add_kurmanji_courses_and_protected_lessons.sql"
+      - "supabase/migrations/20261024122051_add_kurmanji_courses_and_protected_lessons.sql"
       - "scripts/validate_kurmanji_package.py"
       - "scripts/validate_kurmanji_sql.py"
       - "scripts/validate_kurmanji_seed_parity.py"
@@ -27,7 +27,7 @@ on:
       - "lessons/catalog.html"
       - "script.js"
       - "docs/kurmanji-content-seed-part-*.sql"
-      - "supabase/migrations/20261019090000_add_kurmanji_courses_and_protected_lessons.sql"
+      - "supabase/migrations/20261024122051_add_kurmanji_courses_and_protected_lessons.sql"
       - "scripts/validate_kurmanji_package.py"
       - "scripts/validate_kurmanji_sql.py"
       - "scripts/validate_kurmanji_seed_parity.py"
