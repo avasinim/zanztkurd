@@ -136,7 +136,7 @@ References:
 ### Review flags
 1. The lesson mentions `zanîn → nizanim` but omits the other well-known present-negation exception `karîn → nikarim`. This is a clear omission in the learner-facing exception note, not a request to edit it automatically.
 2. The negative commands `Nexwîne!` and `Neke!` are consistent with sources describing `ne-` in negative imperative/subjunctive forms. Other literature records prohibitive `me-` in some varieties/analyses. The seed's claim that this is “older/regional” needs a precise variety-specific citation; avoid reducing the variation to a universal historical label.
-3. `Ez ne mamosteyek im` raises spacing/segmentation questions for nominal/c copular negation. `Ew li vir nîne` should be distinguished from ordinary verbal `na-` negation and from existential constructions. Both require a Kurmanji editor's consistency decision.
+3. `Ez ne mamosteyek im` raises spacing/segmentation questions for nominal/copular negation. `Ew li vir nîne` should be distinguished from ordinary verbal `na-` negation and from existential constructions. Both require a Kurmanji editor's consistency decision.
 4. Sorani translations and punctuation need native editorial review.
 
 **Assessment:** present verbal negation is corroborated. The exception note should account for `nikarîn/nikarim`; imperative and copular patterns need a variety-aware editorial pass.
