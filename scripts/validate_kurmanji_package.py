@@ -62,7 +62,7 @@ else:
         re.I | re.S,
     )
     complete_match = re.search(
-        r"CREATE OR REPLACE FUNCTION public\.complete_lesson\b.*?\\$function\\$;",
+        r"CREATE OR REPLACE FUNCTION public\.complete_lesson\b.*?\$function\$;",
         latest_sql,
         re.I | re.S,
     )
