@@ -269,38 +269,40 @@ class NorthCircleBrowserTests(unittest.TestCase):
               email_confirmed_at: "2026-01-01T00:00:00Z",
               phone_confirmed_at: null
             }};
-            window.supabase = {
-              createClient: () => ({
-                auth: { getSession: async () => ({data: {session}, error: null}) },
-                rpc: async (name, args) => {
-                  window.__rpcCalls.push({name, args});
-                  if (name === "is_site_owner") return {data: false, error: null};
-                  if (name === "student_has_enrollment") return {data: true, error: null};
-                  if (name === "can_read_lesson_content") return {data: true, error: null};
-                  if (name === "complete_lesson") return {
-                    data: {status: "active", completed_count: 1, total_lessons: 26},
-                    error: null
-                  };
-                  return {data: null, error: null};
-                },
-                from: (table) => ({
-                  select: () => ({
+            const client = {
+              auth: { getSession: async () => ({data: {session}, error: null}) },
+              rpc: async (name, args) => {
+                window.__rpcCalls.push({name, args});
+                if (name === "is_site_owner") return {data: false, error: null};
+                if (name === "student_has_enrollment") return {data: true, error: null};
+                if (name === "can_read_lesson_content") return {data: true, error: null};
+                if (name === "complete_lesson") return {
+                  data: {status: "active", completed_count: 1, total_lessons: 26},
+                  error: null
+                };
+                return {data: null, error: null};
+              },
+              from: (table) => ({
+                select: () => ({
+                  eq: () => ({
                     eq: () => ({
-                      eq: () => ({
-                        limit: () => ({
-                          maybeSingle: async () => ({
-                            data: {content_html: "<p>synthetic lesson body</p>"},
-                            error: null
-                          })
-                        }),
-                        then: (resolve) => resolve({data: [], error: null})
-                      })
+                      limit: () => ({
+                        maybeSingle: async () => ({
+                          data: {content_html: "<p>synthetic lesson body</p>"},
+                          error: null
+                        })
+                      }),
+                      then: (resolve) => resolve({data: [], error: null})
                     })
                   })
                 })
               })
             };
-        """)
+            window.supabase = {createClient: () => client};
+            window.ZANSTI_GET_SUPABASE_CLIENT = () => client;
+            window.ZANSTI_OWNER_CHECK = Promise.resolve(false);
+            window.ZANSTI_SYNC_PROGRESS = async () => true;
+        """))
         context.route(
             "**/supabase-config.js*",
             lambda route: route.fulfill(
