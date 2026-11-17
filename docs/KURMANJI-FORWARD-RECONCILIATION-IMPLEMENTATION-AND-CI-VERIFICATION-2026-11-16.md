@@ -39,7 +39,7 @@ No seed file, lesson page, runtime code, production setting or database was chan
 
 GitHub Actions run: [44030537924](https://github.com/avasinim/zanztkurd/actions/runs/44030537924)
 
-<badge>success</badge> All job steps completed successfully:
+**Status: success** All job steps completed successfully:
 - PostgreSQL parser: historical migration, new forward migration, and all five seed files parsed.
 - Parity validator: historical baseline blob unchanged; 38 keys in expected order; exactly 12 overlay rows; effective payload exactly matches all five seed files.
 - Package validator: all 38 lesson pages, seed keys, route/navigation and runtime integration checks passed.
