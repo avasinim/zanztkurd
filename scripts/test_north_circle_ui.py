@@ -208,6 +208,58 @@ class NorthCircleBrowserTests(unittest.TestCase):
         page.close()
         context.close()
 
+    def test_phone_verified_student_can_open_course_scoped_learning_route(self):
+        context = self.browser.new_context(viewport={"width": 390, "height": 844})
+        context.add_init_script("""
+            window.supabase = {
+              createClient: () => ({
+                auth: { getSession: async () => ({ data: { session: { user: {
+                  id: "synthetic-phone-learner",
+                  email_confirmed_at: null,
+                  phone_confirmed_at: "2026-11-17T00:00:00Z"
+                }}}})},
+                rpc: async (name) => ({
+                  data: name === "is_site_owner" ? false :
+                        name === "student_has_enrollment" ? true : true,
+                  error: null
+                }),
+                from: () => ({
+                  select: () => ({
+                    eq: () => ({
+                      eq: async () => ({data: [], error: null})
+                    })
+                  })
+                })
+              })
+            };
+        """)
+        context.route(
+            "**/supabase-config.js*",
+            lambda route: route.fulfill(
+                status=200,
+                content_type="application/javascript",
+                body='window.ZANSTI_SUPABASE={ready:true,url:"https://example.invalid",publishableKey:"test"};',
+            ),
+        )
+        context.route(
+            "**/cdn.jsdelivr.net/npm/@supabase/supabase-js@2*",
+            lambda route: route.fulfill(
+                status=200,
+                content_type="application/javascript",
+                body="window.supabase=window.supabase||{};",
+            ),
+        )
+        page = context.new_page()
+        page.goto(f"{BASE_URL}/learning.html?course=1", wait_until="domcontentloaded")
+        page.wait_for_timeout(500)
+        self.assertTrue(
+            page.url.endswith("/learning.html?course=1"),
+            f"phone-verified enrolled learner was redirected unexpectedly: {page.url}",
+        )
+        self.assertFalse("verify=required" in page.url)
+        page.close()
+        context.close()
+
     def test_mobile_catalog_has_no_horizontal_overflow(self):
         page = self.page
         page.goto(f"{BASE_URL}/lessons/catalog.html", wait_until="domcontentloaded")
