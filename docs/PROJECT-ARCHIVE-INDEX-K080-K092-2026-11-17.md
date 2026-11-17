@@ -3,7 +3,8 @@
 Archive date: 2026-11-17  
 Repository: `avasinim/zanztkurd`  
 Working branch: `fix/kurmanji-ci-current-migration`  
-Archived working-branch HEAD: `fbfaa7e7df58f6b98bd49ca9ffd6c410f60372d9`  
+Source snapshot before archive index: `fbfaa7e7df58f6b98bd49ca9ffd6c410f60372d9`  
+Final archived working-branch HEAD: `9ef281efed6d3a4a93e5ffe7636c7045fe93e7c7`  
 Protected `main` HEAD at archive time: `cf045a888b8df6d4f3e8e7b51078d64f12f9aca3`
 
 This index preserves a navigable record of the K-080 through K-092 work series. The working branch contains the source changes, regression tests and audit reports. The immutable before/after backup refs below preserve the key checkpoints. This is an index and archive record; it does not publish or deploy the site.
@@ -11,7 +12,7 @@ This index preserves a navigable record of the K-080 through K-092 work series. 
 ## 1. Where the archived work lives
 
 - Working branch snapshot: `backup/b3-project-archive-before-2026-11-17` → `fbfaa7e7df58f6b98bd49ca9ffd6c410f60372d9`
-- Final archive-index commit will be on `fix/kurmanji-ci-current-migration`; a matching after-archive backup will point to that final commit.
+- Final archive-index commit: `9ef281efed6d3a4a93e5ffe7636c7045fe93e7c7`; after-archive backup: `backup/b3-project-archive-after-2026-11-17` → the same SHA.
 - `main` was not changed and remains `cf045a888b8df6d4f3e8e7b51078d64f12f9aca3`.
 
 ## 2. Completed work register
@@ -41,7 +42,7 @@ Each listed backup is a separate Git branch ref. Do not force-update or reuse th
 | K-080 | `backup/b3-k080-normalizer-fix-before-2026-11-17` → `82a32fe672a419b88fc015ea11c029ee31a98248` | `backup/b3-k080-normalizer-fix-after-2026-11-17` → `b056c42e2451fe03b3c73345b7034bd3621ede42` |
 | K-081 | `backup/b3-k081-unknown-lesson-guard-before-2026-11-17` → `b056c42e2451fe03b3c73345b7034bd3621ede42` | `backup/b3-k081-unknown-lesson-guard-after-2026-11-17` → `54332fc2e514069ba8c8654d753ab12033bcf893` |
 | K-082 | `backup/b3-k082-rls-policy-audit-before-2026-11-17` → `54332fc2e514069ba8c8654d753ab12033bcf893` | `backup/b3-k082-rls-policy-audit-after-2026-11-17` → `b55552d01d2640d301dd4a023d9b1e70f0fc7714` |
-| K-083 | `backup/b3-k083-rls-semantics-before-2026-11-17` → `b55552d01d2640d301dd4a023d9b1e70f0fc7714` | `backup/b3-k083-rls-semantics-after-2026-11-17` → report checkpoint |
+| K-083 | `backup/b3-k083-rls-semantics-before-2026-11-17` → `b55552d01d2640d301dd4a023d9b1e70f0fc7714` | `backup/b3-k083-rls-semantics-after-2026-11-17` → `41e151c6a290c10a2a93e1e584b5cd51d9a5ebda` |
 | K-084 | `backup/b3-k084-student-route-audit-before-2026-11-17` → `41e151c6a290c10a2a93e1e584b5cd51d9a5ebda` | `backup/b3-k084-student-route-audit-after-report-2026-11-17` → `027318cbc0f983b12e6fe5ee698518914510e58b` |
 | K-085 | `backup/b3-k085-completion-rpc-test-before-2026-11-17` → `027318cbc0f983b12e6fe5ee698518914510e58b` | `backup/b3-k085-completion-rpc-test-after-2026-11-17` → `c56bfd274e05840269eb9ad17ffb15f91adbc874` |
 | K-086 | `backup/b3-k086-kurmanji-navigation-audit-before-2026-11-17` → `c56bfd274e05840269eb9ad17ffb15f91adbc874` | `backup/b3-k086-kurmanji-navigation-audit-after-2026-11-17` → `8de147733d969be0b13af6c7f38191c031887968` |
@@ -52,7 +53,7 @@ Each listed backup is a separate Git branch ref. Do not force-update or reuse th
 | K-091 | `backup/b3-k091-admin-surface-audit-before-2026-11-17` → `60016c41c290ba5df1b66a82ca2ea36b9bc14acf` | `backup/b3-k091-admin-surface-audit-after-2026-11-17` → `ea68564b1be4e7555330ba5fefe8dea708818052` |
 | K-092 | `backup/b3-k092-library-storage-policy-audit-before-2026-11-17` → `ea68564b1be4e7555330ba5fefe8dea708818052` | `backup/b3-k092-library-storage-policy-audit-after-2026-11-17` → `fbfaa7e7df58f6b98bd49ca9ffd6c410f60372d9` |
 
-Note: K-083 and K-084 also have intermediate checkpoints recorded in their individual work notes; the final K-084 report backup is the post-report checkpoint above. K-085's final post-report backup is listed above.
+Note: K-084 also has an intermediate post-code/pre-report checkpoint: `backup/b3-k084-student-route-audit-after-2026-11-17` → `60bc94dec40933316a3138cb5b2a6558176cf5c6`. K-085's final post-report backup is listed above.
 
 ## 4. Current outstanding decisions / verification gaps
 
