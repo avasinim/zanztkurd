@@ -97,4 +97,4 @@ No lesson body, seed SQL, migration, schema, static page, application code, vali
 
 - Pre-work backup: `backup/c1-l09-toponym-oblique-case-before-2026-11-17`
 - Baseline SHA: `08b366a2788adfd29ff06f0e414cb2eab29654b1`
-- Post-work backup: to be recorded after commit and exact ref/blob verification.
+- Post-work backup: `backup/c1-l09-toponym-oblique-case-after-2026-11-17` (points to the final documentation commit after verification).
