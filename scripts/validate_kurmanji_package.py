@@ -45,16 +45,16 @@ else:
             if len(row_pattern.findall(migration_text)) != 1:
                 ERRORS.append(f"Migration must contain exactly one content row for {key}")
 
-# Check that the shared script retains the canonical Avasin mappings used
-# for Kurdish site UI and server-loaded lesson content. This is a static
-# presence check; it does not rewrite files or validate every rendered string.
+# Check that the shared script retains the canonical Avasin mappings for static
+# site UI while protecting authored, server-loaded lesson content from rewriting.
+# Browser regression coverage below exercises dynamically inserted lesson HTML.
 shared_script = ROOT / "script.js"
 if not shared_script.exists():
     ERRORS.append("Missing shared access-control script: script.js")
 else:
     script_text = shared_script.read_text(encoding="utf-8")
-    # Avasin normalization is intentionally applied to source-loaded lesson text
-    # as well as static UI text; keep the canonical replacements in this shared script.
+    # Keep the spelling map for eligible static UI text, but never apply it to
+    # the authored .lesson-content subtree.
     for required in (
         '[/نووسراوە/g,"نوسراوە"]',
         '[/نووسینی/g,"نوسینی"]',
@@ -67,6 +67,13 @@ else:
         '[/ناوەڕۆک/g,"نێوەڕۆک"]',
         '[/چییە/g,"چیە"]',
         '[/نییە/g,"نیە"]',
+        'const isLessonContentNode = node =>',
+        'element.matches(".lesson-content") || element.closest(".lesson-content")',
+        'if(isLessonContentNode(node) ||',
+        'if(isLessonContentNode(el)) return;',
+        'if(!isLessonContentNode(n) &&',
+        'if(!isLessonContentNode(node) &&',
+        'node.nodeType===Node.ELEMENT_NODE && !isLessonContentNode(node)',
     ):
         if required not in script_text:
             ERRORS.append(f"Shared Avasin normalizer is missing required spelling mapping: {required}")
