@@ -13,6 +13,7 @@ from pglast.parser import ParseError
 ROOT = Path(__file__).resolve().parents[1]
 FILES = [
     ROOT / "supabase/migrations/20261024122051_add_kurmanji_courses_and_protected_lessons.sql",
+    ROOT / "supabase/migrations/20261116120000_reconcile_kurmanji_seed_content.sql",
     *sorted((ROOT / "docs").glob("kurmanji-content-seed-part-*.sql")),
 ]
 
