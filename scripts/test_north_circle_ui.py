@@ -129,6 +129,85 @@ class NorthCircleBrowserTests(unittest.TestCase):
         self.assertEqual(lesson_title, "پێویست")
         self.assertEqual(ui_text, "پەیویست")
 
+    def test_unknown_kurmanji_lesson_key_is_rejected_before_content_query(self):
+        context = self.browser.new_context(viewport={"width": 390, "height": 844})
+        context.add_init_script("""
+            window.__lessonContentQueries = 0;
+            window.supabase = {
+              createClient: () => ({
+                auth: { getSession: async () => ({
+                  data: { session: { user: { id: "synthetic-learner" } } }
+                })},
+                rpc: async (name) => ({
+                  data: name === "is_site_owner" ? false :
+                        name === "student_has_enrollment" ? true : true,
+                  error: null
+                }),
+                from: (table) => {
+                  if (table === "lesson_content") window.__lessonContentQueries += 1;
+                  return {
+                    select: () => ({
+                      eq: () => ({
+                        limit: () => ({
+                          maybeSingle: async () => ({
+                            data: { content_html: "<p>UNEXPECTED_CONTENT</p>" },
+                            error: null
+                          })
+                        })
+                      })
+                    })
+                  };
+                }
+              })
+            };
+        """)
+        context.route(
+            "**/supabase-config.js*",
+            lambda route: route.fulfill(
+                status=200,
+                content_type="application/javascript",
+                body='window.ZANSTI_SUPABASE={ready:true,url:"https://example.invalid",publishableKey:"test"};',
+            ),
+        )
+        context.route(
+            "**/cdn.jsdelivr.net/npm/@supabase/supabase-js@2*",
+            lambda route: route.fulfill(
+                status=200,
+                content_type="application/javascript",
+                body="window.supabase=window.supabase||{};",
+            ),
+        )
+        redirects = []
+
+        def block_locked_dashboard(route):
+            if "lesson=locked" in route.request.url:
+                redirects.append(route.request.url)
+                route.abort()
+            else:
+                route.continue_()
+
+        context.route("**/dashboard.html*", block_locked_dashboard)
+        page = context.new_page()
+        lesson_html = (ROOT / "kurmanji-course-1-lesson-01.html").read_text(encoding="utf-8")
+        page.route(
+            "**/kurmanji-course-1-lesson-99.html",
+            lambda route: route.fulfill(
+                status=200,
+                content_type="text/html",
+                body=lesson_html,
+            ),
+        )
+        page.goto(f"{BASE_URL}/kurmanji-course-1-lesson-99.html", wait_until="domcontentloaded")
+        page.wait_for_timeout(300)
+        self.assertTrue(redirects, "unknown lesson key did not enter the locked-lesson flow")
+        self.assertEqual(
+            page.evaluate("window.__lessonContentQueries"),
+            0,
+            "unknown lesson key must be rejected before querying lesson_content",
+        )
+        page.close()
+        context.close()
+
     def test_mobile_catalog_has_no_horizontal_overflow(self):
         page = self.page
         page.goto(f"{BASE_URL}/lessons/catalog.html", wait_until="domcontentloaded")
