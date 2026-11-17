@@ -68,4 +68,4 @@ The Playwright tests use the repository's existing mocked Supabase/browser harne
 - Work branch HEAD: `e34497b8e07ee773c4d267aa63ec8ebe674ada3c`
 - `main` HEAD independently rechecked: `4ebd824ff9502ad71936ee9bdfa787ed898b11a8` (unchanged by this work).
 - Pre-work backup: `backup/kurmanji-forward-reconciliation-before-2026-11-16` at `c3735c5bd4ef1931dbd2e2c50dc28cc4eb3bd660`.
-- Post-work backup: to be created at the final documentation commit and verified against the work branch HEAD.
+- Post-work backup branch: `backup/kurmanji-forward-reconciliation-after-2026-11-16`; it is pinned to the final work HEAD, with the migration, validators, workflow and both report documents verified byte-for-byte.
