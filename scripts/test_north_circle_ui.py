@@ -260,6 +260,81 @@ class NorthCircleBrowserTests(unittest.TestCase):
         page.close()
         context.close()
 
+    def test_kurmanji_completion_uses_server_rpc_then_opens_next_lesson(self):
+        context = self.browser.new_context(viewport={"width": 390, "height": 844})
+        context.add_init_script("""
+            window.__rpcCalls = [];
+            const session = {user: {
+              id: "synthetic-kurmanji-learner",
+              email_confirmed_at: "2026-01-01T00:00:00Z",
+              phone_confirmed_at: null
+            }};
+            window.supabase = {
+              createClient: () => ({
+                auth: { getSession: async () => ({data: {session}, error: null}) },
+                rpc: async (name, args) => {
+                  window.__rpcCalls.push({name, args});
+                  if (name === "is_site_owner") return {data: false, error: null};
+                  if (name === "student_has_enrollment") return {data: true, error: null};
+                  if (name === "can_read_lesson_content") return {data: true, error: null};
+                  if (name === "complete_lesson") return {
+                    data: {status: "active", completed_count: 1, total_lessons: 26},
+                    error: null
+                  };
+                  return {data: null, error: null};
+                },
+                from: (table) => ({
+                  select: () => ({
+                    eq: () => ({
+                      eq: () => ({
+                        limit: () => ({
+                          maybeSingle: async () => ({
+                            data: {content_html: "<p>synthetic lesson body</p>"},
+                            error: null
+                          })
+                        }),
+                        then: (resolve) => resolve({data: [], error: null})
+                      })
+                    })
+                  })
+                })
+              })
+            };
+        """)
+        context.route(
+            "**/supabase-config.js*",
+            lambda route: route.fulfill(
+                status=200,
+                content_type="application/javascript",
+                body='window.ZANSTI_SUPABASE={ready:true,url:"https://example.invalid",publishableKey:"test"};',
+            ),
+        )
+        context.route(
+            "**/cdn.jsdelivr.net/npm/@supabase/supabase-js@2*",
+            lambda route: route.fulfill(
+                status=200,
+                content_type="application/javascript",
+                body="window.supabase=window.supabase||{};",
+            ),
+        )
+        page = context.new_page()
+        page.goto(
+            f"{BASE_URL}/kurmanji-course-1-lesson-01.html",
+            wait_until="domcontentloaded",
+        )
+        page.locator(".kurmanji-completion-gate button").wait_for(timeout=5000)
+        page.locator(".kurmanji-completion-gate button").click()
+        page.wait_for_url("**/kurmanji-course-1-lesson-02.html", timeout=5000)
+        calls = page.evaluate("window.__rpcCalls")
+        completion = [call for call in calls if call["name"] == "complete_lesson"]
+        self.assertEqual(len(completion), 1)
+        self.assertEqual(completion[0]["args"], {
+            "p_course_id": "kurmanji-course-1",
+            "p_lesson_key": "kurmanji-course-1-lesson-01.html",
+        })
+        page.close()
+        context.close()
+
     def test_mobile_catalog_has_no_horizontal_overflow(self):
         page = self.page
         page.goto(f"{BASE_URL}/lessons/catalog.html", wait_until="domcontentloaded")
