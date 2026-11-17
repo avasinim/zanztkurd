@@ -7,9 +7,11 @@ The project should treat the **post-release split seed package as the current ed
 For the 12 mismatches, the chosen target is:
 
 - Keep the enriched seed payloads for Course 1 lessons 01–06 and 10. These are substantive post-release teaching improvements, with clear commit provenance. Their factual claims must still be reviewed against the sources cited in the lessons.
-- Lesson 25: keep the seed's grammatical wording `نەردەکەوێت` (the migration's `نەردرکێت` is a malformed spelling), but correct the seed's `ڕونتر` to `ڕوونتر`.
-- Lessons 30 and 32: use `پێویستە`, not `پەیویستە`.
-- Lessons 35 and 36: use `نووسینەی` and `نووسینی`, not `نوسینەی` and `نوسینی`.
+- Lesson 25: keep the seed's grammatical wording `نەردەکەوێت` and preserve `ڕونتر` as the project-defined Avasin spelling.
+- Lessons 30 and 32: preserve `پەیویستە`, the Avasin house spelling.
+- Lessons 35 and 36: preserve `نوسینەی` and `نوسینی`, the Avasin house spellings.
+
+These five small differences are not defects to normalize to general Sorani orthography. The repository's `script.js` explicitly maps `نووسین` to `نوسین`, `پێویست` to `پەیویست`, and `ڕوون` to `ڕون`; `validate_kurmanji_package.py` also treats these mappings as required project invariants. The seed's forms are therefore intentional within Avasin's house style and must be preserved. The migration's differing forms are not the target.
 
 The five small-row decisions concern the Sorani explanatory text, not Kurmanji target forms. They do not justify changing any Kurmanji Latin-script word.
 
@@ -34,14 +36,15 @@ The seed-only commit history explicitly describes academic enrichment/revision o
 
 These additions are pedagogically useful and align with the cited specialist literature, but they are not automatically error-free merely because they are later.
 
-### 3. Apply precise Sorani spelling corrections to the small differences
+### 3. Preserve the Avasin Sorani house style
 
-- **نووسین / نووسینی / نووسینەی:** the Sorani orthography note on Kurdipedia explicitly gives `نووسین` among forms written with double waw when the two waw positions are consonantal. This supports `نووسینی` and its inflected form rather than the single-waw variants.
-- **ڕوونتر:** the same Sorani orthography discussion gives `ڕوون`; an orthography note specifically illustrates `ڕوونتر`. Use the double-waw form.
-- **پێویستە:** this is the established Sorani spelling for “is necessary / must”; `پەیویستە` is not selected as the course form.
-- **نەردەکەوێت:** this is the intelligible Sorani verbal phrase in the lesson context (“does not appear/become visible”). The migration's `نەردرکێت` is a malformed string and should not be retained.
+The five small differences must be resolved in favour of the current seed payload, not by replacing it with a general Sorani spelling convention. The repository itself provides direct project-specific evidence:
 
-Sources for these Sorani decisions are supporting editorial references rather than a claim that one web page is a binding language authority. Avasin's own house-style guide should eventually supersede general usage where it has a documented, internally consistent rule.
+- `script.js` explicitly normalizes `نووسین` to `نوسین`, `پێویست` to `پەیویست`, and `ڕوون` to `ڕون`.
+- `scripts/validate_kurmanji_package.py` asserts that these exact mappings remain present as required Avasin spelling rules.
+- The current seed files use the corresponding Avasin forms in lessons 25, 30, 32, 35 and 36.
+
+Therefore preserve `ڕونتر`, `پەیویستە`, `نوسینەی` and `نوسینی` in the seed-derived target. Do not “correct” them to `ڕوونتر`, `پێویستە`, `نووسینەی` or `نووسینی`. General Sorani orthography sources do not override a documented project house style. For lesson 25, retain the seed's `نەردەکەوێت`; the historical migration's `نەردرکێت` is not the chosen lesson wording.
 
 ### 4. Confirm the Kurmanji language facts against specialist sources
 
@@ -64,8 +67,8 @@ Sources for these Sorani decisions are supporting editorial references rather th
 The correct implementation is **not** to edit `20261024122051_add_kurmanji_courses_and_protected_lessons.sql`.
 
 The next code change should:
-1. Normalize the five small Sorani text differences in the relevant split seed rows to the chosen forms above.
-2. Add a new, forward-only migration that updates the 12 selected lesson rows to the chosen canonical payloads. It must target only the 12 explicit lesson keys, verify the expected course/key set and affected-row count, and fail atomically if the preconditions are not met.
+1. Preserve all five current seed spellings under the documented Avasin house style; do not rewrite the seed files merely to match general Sorani orthography.
+2. Add a new, forward-only migration that updates the 12 selected lesson rows to the exact current seed payloads. It must target only the 12 explicit lesson keys, verify the expected course/key set and affected-row count, and fail atomically if the preconditions are not met.
 3. Change `scripts/validate_kurmanji_seed_parity.py` so it validates the **effective post-migration content** (historical release migration plus the new forward migration overlay) against the current five-seed package. It must separately assert that the historical migration remains an immutable 38-row release baseline. It must not falsely demand that a historical applied migration equal a later mutable seed package.
 4. Update workflow paths so the new forward migration and validator are checked by CI. Do not broaden the task into unrelated CI cleanup.
 5. Run the relevant parser/parity tests in an isolated local checkout and inspect the exact diff. Do not apply the migration to production, connect to production Supabase, merge, deploy, or alter main.
@@ -80,8 +83,7 @@ This document records the editorial decision and the safe technical design. It d
 - W. M. Thackston, *Kurmanji Kurdish: A Reference Grammar with Selected Readings* (phonology, pp. 1–5; see the cited reference copy): https://www.kurdipedia.org/files/books/2013/92279.PDF
 - Institute of the Estonian Language, KNAB, “Kurdish / Kurmanji Roman alphabet (Hawar 1932)” (letter and IPA correspondences): https://arhiiv.eki.ee/knab/lat/kblku2.pdf
 - Ergin Öpengin (2017), review of Mistefa Aydogan, *Rêbera Rastnivîsînê*, *Kurdish Studies* 5(1), pp. 118–122, DOI 10.1163/9789004506152_012: https://brill.com/display/book/9789004506152/9789004506152_webready_content_text.pdf
-- Kurdish orthography note on double-waw spellings including `نووسین` and `ڕوون`: https://www.kurdipedia.org/default.aspx?lng=1&q=20221113205548445087
-- Kurdish orthography note illustrating `ڕوونتر`: https://emrro.com/ewwishaney.htm
+- Project-specific Avasin spelling authority: `script.js` and `scripts/validate_kurmanji_package.py` (repository files; the house-style mappings are the controlling rule for Sorani explanatory text in this project).
 - Yari, “Kurmanji greetings and everyday phrases” (Êvarbaş / Şevbaş usage): https://yari.krd/learn/kurdish-greetings/
 - *Kurmanji Kurdish for the Beginners*, lesson 1, greetings table (Êvarbaş / Şevbaş): https://www.internationalistcommune.com/wp-content/uploads/2024/01/Kurmanji_Kurdish_For_The_Beginners_compressed.pdf
 
