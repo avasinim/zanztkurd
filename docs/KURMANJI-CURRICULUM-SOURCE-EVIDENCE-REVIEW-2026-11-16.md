@@ -8,22 +8,28 @@ This is a source-attribution and claim-verification review. It is not a dialect 
 
 ## Confirmed claims
 
-### 1. Hawar alphabet and vowel system
+### 1. Introductory concepts, alphabet and vowel system
+
+- Course 1 lesson 1 separates language, script/alphabet, orthography and dialect/variety. Haig (2018, pp. 107–108) explicitly distinguishes a broadly used written Standard Kurmanjî, loosely based on Cizre/Botan, from the substantial regional variation across Kurmanji varieties. This supports the lesson's warning not to treat every dialect feature as an orthographic error.
+- Course 1 lesson 2's 31-letter Hawar inventory and the split into eight vowel letters and 23 consonant letters are consistent with the Arizona orthography table and KNAB's Hawar (1932) inventory. The 23 figure is a count of consonant **letters**, not a claim that the language has only 23 consonant phonemes.
+- Course 1 lesson 3's eight-letter/eight-monophthong framing is directly supported by Arizona. Haig (2018, pp. 109–110) independently describes eight simple vowel phonemes and distinguishes five tense/long from three lax/short vowels. The two sources use slightly different IPA descriptions for the short high unrounded vowel in some transcriptions; the lesson correctly identifies Arizona as its direct IPA table source and notes dialectal variation.
+
+### 2. Hawar alphabet examples and orthographic distinctions
 
 - The University of Arizona Kurmanji page gives the eight vowel correspondences and examples used in Course 1 lesson 3: `a /ɑ/ qaz`, `e /æ/ belg`, `ê /e/ lêv`, `i /ɪ/ dil`, `î /i/ hîn`, `o /o/ nod`, `u /ʊ/ qul`, and `û /u/ bûz`.
 - The same page's orthography table explicitly includes the Course 1 lesson 5 examples: `çak`, `êş`, `îro`, `şaş`, and `bûz`, with their letter/IPA/gloss correspondences. The earlier note questioning `êş` and `îro` provenance was incorrect and has been corrected.
 - Haig (2018, pp. 109–110) independently describes eight simple vowel phonemes, distinguishing five tense/long vowels from three lax/short vowels. This supports the course's eight-vowel inventory while adding a useful phonological distinction for later teaching.
 - KNAB identifies the Roman alphabet as the Kurmanji Hawar alphabet (1932). It is a useful corroborating orthographic reference, although its table also includes Arabic-script mappings and should not be mistaken for a standalone phonological inventory.
 
-### 2. Consonants and orthography
+### 3. Consonants and orthography
 
 - The Arizona page explicitly notes that several dialectal phonemic distinctions are not represented in standard Kurmanji orthography, including /h/ vs /ħ/, /ʔ/ vs /ʕ/, /χ/ vs /ʁ/, and aspirated vs unaspirated voiceless consonants.
 - It also states that the trill/flap distinction is often ignored in orthography and, when marked, the trill is indicated by `rr` rather than `r`.
-- Haig (2018, pp. 113–114, Tables 5–6) provides a phonemic consonant scheme, a three-way contrast for stops/affricates in the relevant descriptions, and a distinction between trill /r/ and flap /ɾ/. This confirms that letter count and phoneme count must not be conflated.
+- Haig (2018, pp. 113–114, Tables 5–6) provides a phonemic consonant scheme, a three-way contrast for stops/affricates in the relevant descriptions, and a distinction between trill /r/ and flap /ɾ/. Thackston (2006, pp. 1–5) independently treats aspirated/unaspirated stops, orthographic variants, doubled consonants and the furtive i. These references confirm that letter count and phoneme count must not be conflated.
 - Course 1 lesson 4 now labels `RR rr` explicitly as a **two-letter digraph/convention, not a separate Hawar alphabet letter**. The exact same clarification is mirrored in the forward migration. It must not be counted as a 32nd alphabet letter.
 - Course 1 lesson 4's explanation that X can cover /χ/ and /ʁ/ in standard writing is supported by the Arizona orthography note. The distinction is dialectal/phonological and is not always shown in standard spelling.
 
-### 3. Direct and oblique case
+### 4. Direct and oblique case
 
 - Haig (2018, p. 115, Table 7) gives the exact paradigms used in Course 1 lesson 25 and Course 2 lesson 4:
   - masculine singular definite: `gund` / `gund-î`
@@ -34,13 +40,13 @@ This is a source-attribution and claim-verification review. It is not a dialect 
 - Haig and Öpengin (2015) describe the direct/oblique opposition and split alignment: present-tense transitive subjects are direct and objects oblique, while past-tense transitive subjects are oblique and objects direct. This supports the distinction taught in lesson 25.
 - Haig (2018, pp. 118–119) gives `mal-a me` ‘our house’ and the same-clause reflexive example `Ez li mal-a xwe me`, rejecting `mal-a min` in that coreferential context. This directly supports Course 2 lesson 6.
 
-### 4. Verb tense and negation
+### 5. Verb tense and negation
 
 - Haig (2018, p. 126, Table 14) gives the same paradigmatic examples used in Course 2 lesson 9: `ez dibêjim`, `ez hatim`, `ez dihatim`, `min xwar`, and `min dixwar`.
 - Haig (2018, pp. 128–129, §2.6.4) gives the future pattern with `dē/wē` plus a present subjunctive verb, including the exact example `ew dē mesel-ē ji te re bēž-e`. The lesson's description is source-aligned.
 - Haig (2018, p. 126) states that `na-` replaces the present indicative prefix `di-` in many present forms, with the lexical exceptions `zanîn` and `karîn` taking `ni-`; it also gives `ne-hatin` and `ne-di-hatin` for simple and progressive past negation. This supports Course 2 lesson 10, including its exception warning.
 
-### 5. Everyday greetings
+### 6. Everyday greetings
 
 - The current Yari Kurmanji phrase reference distinguishes `Êvarbaş` as an evening greeting and `Şevbaş` as a good-night expression, and lists `Bi xêr hatî` as a singular welcome. This supports Course 1 lesson 10.
 - Keep the lesson's note that usage varies by context and region; do not present the listed expressions as the only possible greetings in every Kurmanji community.
