@@ -338,6 +338,94 @@ class NorthCircleBrowserTests(unittest.TestCase):
         page.close()
         context.close()
 
+    def test_protected_lesson_content_requires_auth_enrollment_and_server_sequence(self):
+        scenarios = [
+            ("unenrolled", False, True, 0),
+            ("sequence_denied", True, False, 0),
+            ("content_rls_denied", True, True, 1),
+        ]
+        for scenario, enrolled, sequence_allowed, expected_content_queries in scenarios:
+            with self.subTest(scenario=scenario):
+                context = self.browser.new_context(viewport={"width": 390, "height": 844})
+                context.add_init_script(f"""
+                    window.__lessonContentQueries = 0;
+                    const scenario = "{scenario}";
+                    const client = {{
+                      auth: {{getSession: async () => ({{
+                        data: {{session: {{user: {{id: "synthetic-learner"}}}}}},
+                        error: null
+                      }})}},
+                      rpc: async (name) => {{
+                        if (name === "is_site_owner") return {{data: false, error: null}};
+                        if (name === "student_has_enrollment") return {{data: {str(enrolled).lower()}, error: null}};
+                        if (name === "can_read_lesson_content") return {{data: {str(sequence_allowed).lower()}, error: null}};
+                        return {{data: null, error: null}};
+                      }},
+                      from: (table) => {{
+                        if (table === "lesson_content") window.__lessonContentQueries += 1;
+                        return {{
+                          select: () => ({{
+                            eq: () => ({{
+                              limit: () => ({{
+                                maybeSingle: async () => scenario === "content_rls_denied"
+                                  ? {{data: null, error: {{message: "row-level security denied"}}}}
+                                  : {{data: {{content_html: "<p>UNEXPECTED_PRIVATE_CONTENT</p>"}}, error: null}}
+                              }})
+                            }})
+                          }})
+                        }};
+                      }}
+                    }};
+                    window.supabase = {{createClient: () => client}};
+                    window.ZANSTI_GET_SUPABASE_CLIENT = () => client;
+                """)
+                context.route(
+                    "**/supabase-config.js*",
+                    lambda route: route.fulfill(
+                        status=200,
+                        content_type="application/javascript",
+                        body='window.ZANSTI_SUPABASE={ready:true,url:"https://example.invalid",publishableKey:"test"};',
+                    ),
+                )
+                context.route(
+                    "**/cdn.jsdelivr.net/npm/@supabase/supabase-js@2*",
+                    lambda route: route.fulfill(
+                        status=200,
+                        content_type="application/javascript",
+                        body="window.supabase=window.supabase||{};",
+                    ),
+                )
+                dashboard_redirects = []
+
+                def block_dashboard(route):
+                    dashboard_redirects.append(route.request.url)
+                    route.abort()
+
+                context.route("**/dashboard.html*", block_dashboard)
+                page = context.new_page()
+                page.goto(
+                    f"{BASE_URL}/kurmanji-course-1-lesson-01.html",
+                    wait_until="domcontentloaded",
+                )
+                page.wait_for_timeout(400)
+                self.assertEqual(
+                    page.evaluate("window.__lessonContentQueries"),
+                    expected_content_queries,
+                    f"unexpected lesson_content query count for {scenario}",
+                )
+                if scenario == "content_rls_denied":
+                    self.assertFalse(dashboard_redirects)
+                    self.assertIn("نەتوانرا نێوەڕۆکی وانەکە", page.locator(".lesson-content").inner_text())
+                    self.assertNotIn("UNEXPECTED_PRIVATE_CONTENT", page.locator(".lesson-content").inner_text())
+                else:
+                    self.assertTrue(
+                        dashboard_redirects,
+                        f"{scenario} did not redirect before loading protected content",
+                    )
+                    self.assertNotIn("UNEXPECTED_PRIVATE_CONTENT", page.locator(".lesson-content").inner_text())
+                page.close()
+                context.close()
+
     def test_mobile_catalog_has_no_horizontal_overflow(self):
         page = self.page
         page.goto(f"{BASE_URL}/lessons/catalog.html", wait_until="domcontentloaded")
