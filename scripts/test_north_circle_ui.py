@@ -302,7 +302,7 @@ class NorthCircleBrowserTests(unittest.TestCase):
             window.ZANSTI_GET_SUPABASE_CLIENT = () => client;
             window.ZANSTI_OWNER_CHECK = Promise.resolve(false);
             window.ZANSTI_SYNC_PROGRESS = async () => true;
-        """))
+        """)
         context.route(
             "**/supabase-config.js*",
             lambda route: route.fulfill(
