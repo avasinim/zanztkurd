@@ -227,7 +227,8 @@ window.ZANSTI_GET_SUPABASE_CLIENT = window.ZANSTI_GET_SUPABASE_CLIENT || functio
   async function hasPreviousLessonCompleted(sb,userId,courseId,target){
     const order=lessonOrderFor(target);
     const index=order.indexOf(target);
-    if(index<=0)return true;
+    if(index===-1)return false;
+    if(index===0)return true;
     /* Ask the same server-side policy used by lesson_content RLS. This avoids
        mismatches between a direct lesson_progress SELECT and the real gate. */
     const {data,error}=await sb.rpc("can_read_lesson_content",{
