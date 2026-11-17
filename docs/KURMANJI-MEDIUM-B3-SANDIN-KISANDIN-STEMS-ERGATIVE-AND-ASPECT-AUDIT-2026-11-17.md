@@ -145,7 +145,7 @@ Recommended instructional order:
 2. I. I. Tsukerman (1964), “To the Determination of the Term ‘Transitive Verb’ in Kurmanji,” *Palaestinskij Sbornik* 11(74), p.44: **ez te dişînim / min tu şandî**: https://www.orientalstudies.ru/rus/images/pdf/journals/PPS_11_74_1964.pdf
 3. *Kurmanji Kurdish, Lesson 4*, p.12: present-stem rule **-andin → -în**, including **şandin → şîn-** and **kişandin → kişîn-**: https://muugumuugu.github.io/bOOkshelF/languagesNcodes/Kurmanji.pdf
 4. W. M. Thackston, *Kurmanji Kurdish: A Reference Grammar with Selected Readings*, §18.3, p.48: plural agreement with extended patients and **Wêneyên min bala rojname û hunermendan kişandin**: https://agorism.dev/book/kurdish/kurmanji_1_grammar.pdf
-5. Abdullah Karabax, *Rêzimana Kurdî ya Kurmancî*, example 224, p.171: **kişandin** past progressive positive and negative forms: https://kurdishlo.org/pdf/learning/R%C3%AAzimana%20Kurmanc%C3%AE%20%28DA9%A9%D8%A7%D9%84Kurdpirtuk%29%20.pdf
+5. Abdullah Karabax, *Rêzimana Kurdî ya Kurmancî*, example 224, p.171: **kişandin** past progressive positive and negative forms: https://kurdishlo.org/pdf/learning/R%C3%AAzimana%20Kurmanc%C3%AE%20%28%DA%A9%D8%A7%D9%86%D8%A7%D9%84Kurdpirtuk%29%20.pdf
 6. *Ferhenga Kurmancî–Îngilîzî* (Chyet), entry **kişandin**, example **Wî şeşar li min kişand**: https://www.kurdipedia.org/files/books/2014/76082.PDF?ver=130437966300000000
 7. Kurdolingo, entry **kişandin**, present stem and example **Şano gelekî bala min dikişîne**: https://kurdolingo.com/en/ferheng/kisandin
 8. Kurmancî–Turkish Ferheng, entry **kişandin**, meanings and example uses: https://kurmanci.app/peyv/kişandin
