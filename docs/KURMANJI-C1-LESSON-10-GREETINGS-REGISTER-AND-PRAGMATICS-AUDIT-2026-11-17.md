@@ -155,4 +155,4 @@ No lesson body, seed SQL, migration, schema, static page, application code, vali
 
 - Pre-work backup: `backup/c1-l10-greetings-pragmatics-before-2026-11-17`
 - Baseline SHA: `06a2b90b9da1988ad94292a615fdd99fe75c63b2`
-- Post-work backup: to be recorded after commit and exact ref/blob verification.
+- Post-work backup: `backup/c1-l10-greetings-pragmatics-after-2026-11-17` (points to the final documentation commit after verification).
