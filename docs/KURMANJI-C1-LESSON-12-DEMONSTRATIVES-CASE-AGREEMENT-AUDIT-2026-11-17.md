@@ -150,4 +150,4 @@ No lesson body, seed SQL, migration, schema, static page, application code, vali
 
 - Pre-work backup: `backup/c1-l12-demonstratives-before-2026-11-17`
 - Baseline SHA: `80f7b8915d86002969ee6cfe2457f4786479baa5`
-- Post-work backup: to be recorded after commit and exact ref/blob verification.
+- Post-work backup: `backup/c1-l12-demonstratives-after-2026-11-17` (points to the final documentation commit after verification).
