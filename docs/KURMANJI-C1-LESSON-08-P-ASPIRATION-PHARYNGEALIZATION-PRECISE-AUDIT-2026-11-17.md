@@ -135,4 +135,4 @@ No lesson body, seed SQL, migration, schema, static page, application code, vali
 
 - Pre-work backup: `backup/c1-l08-p-aspiration-pharyngealization-before-2026-11-17`
 - Baseline SHA: `cfcfce2dc348d43633aef2948d674ad42aa7364c`
-- Post-work backup: to be recorded after commit and exact ref/blob verification.
+- Post-work backup: `backup/c1-l08-p-aspiration-pharyngealization-after-2026-11-17` (points to the final documentation commit after verification).
