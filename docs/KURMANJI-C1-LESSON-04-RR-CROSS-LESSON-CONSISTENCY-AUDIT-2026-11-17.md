@@ -113,4 +113,4 @@ No lesson body, seed SQL, migration, schema, static shell, application code, val
 
 - Pre-work backup: `backup/c1-l04-rr-cross-lesson-consistency-before-2026-11-17`
 - Baseline SHA: `266c048d5740f322f280db4c4d6a4c0397a54203`
-- Post-work backup: to be recorded after commit and exact ref/blob verification.
+- Post-work backup: `backup/c1-l04-rr-cross-lesson-consistency-after-2026-11-17` (advanced to the final documentation commit after verification).
