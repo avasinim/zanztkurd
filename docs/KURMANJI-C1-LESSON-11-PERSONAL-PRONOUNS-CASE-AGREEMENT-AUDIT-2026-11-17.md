@@ -155,4 +155,4 @@ No lesson body, seed SQL, migration, schema, static page, application code, vali
 
 - Pre-work backup: `backup/c1-l11-pronoun-case-before-2026-11-17`
 - Baseline SHA: `27e7def5219c06bb700ca6eba1277a1717d5577c`
-- Post-work backup: to be recorded after commit and exact ref/blob verification.
+- Post-work backup: `backup/c1-l11-pronoun-case-after-2026-11-17` (points to the final documentation commit after verification).
