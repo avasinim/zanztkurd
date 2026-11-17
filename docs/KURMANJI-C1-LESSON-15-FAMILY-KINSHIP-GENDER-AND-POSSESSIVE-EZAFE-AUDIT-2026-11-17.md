@@ -171,4 +171,4 @@ No lesson body, seed SQL, migration, schema, static page, application code, vali
 
 - Pre-work backup: backup/c1-l15-family-vocabulary-before-2026-11-17
 - Baseline SHA: fa8bc7a7f4695bfa7360bcf66311865f6f01ce81
-- Post-work backup: to be recorded after commit and exact ref/blob verification.
+- Post-work backup: backup/c1-l15-family-vocabulary-after-2026-11-17 (points to the final documentation commit after verification).
