@@ -104,6 +104,31 @@ class NorthCircleBrowserTests(unittest.TestCase):
         self.assertFalse(page.locator(".learning-lessons").is_hidden())
         self.assertTrue(page.locator("#learningKurmanjiCourses").is_hidden())
 
+    def test_global_spelling_normalizer_never_rewrites_lesson_content(self):
+        page = self.page
+        page.goto(f"{BASE_URL}/index.html", wait_until="domcontentloaded")
+        page.wait_for_load_state("networkidle")
+        page.evaluate("""
+            () => {
+              const lesson = document.createElement("div");
+              lesson.className = "lesson-content";
+              lesson.innerHTML = '<p title="پێویست">پێویست نییە</p>';
+              document.body.appendChild(lesson);
+
+              const ordinary = document.createElement("p");
+              ordinary.id = "normalizer-ui-fixture";
+              ordinary.textContent = "پێویست";
+              document.body.appendChild(ordinary);
+            }
+        """)
+        page.wait_for_timeout(100)
+        lesson_text = page.locator(".lesson-content p").inner_text()
+        lesson_title = page.locator(".lesson-content p").get_attribute("title")
+        ui_text = page.locator("#normalizer-ui-fixture").inner_text()
+        self.assertEqual(lesson_text, "پێویست نییە")
+        self.assertEqual(lesson_title, "پێویست")
+        self.assertEqual(ui_text, "پەیویست")
+
     def test_mobile_catalog_has_no_horizontal_overflow(self):
         page = self.page
         page.goto(f"{BASE_URL}/lessons/catalog.html", wait_until="domcontentloaded")
