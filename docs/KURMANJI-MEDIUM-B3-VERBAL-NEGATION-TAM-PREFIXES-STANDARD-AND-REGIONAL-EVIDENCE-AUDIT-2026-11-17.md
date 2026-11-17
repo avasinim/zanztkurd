@@ -125,7 +125,7 @@ A form such as **ne-di-hatin** must not be stored as a single unanalyzed “nega
   - §3.4.2.3, p. 148: Western Kurmanjî past-imperfective and imperative negation.
   - University of Bamberg PDF: https://www.uni-bamberg.de/fileadmin/aspra/06_Team/Publications_and_CV/haig_2018_ch.2.3_northern_kurdish.pdf
 - Songül Gündoğdu (2015), “Negation in Kurmanji”, in Stela Manova (ed.), *Affix Ordering Across Languages and Frameworks*, pp. 154–172, Oxford University Press. DOI: https://doi.org/10.1093/acprof:oso/9780190210434.003.0007
-- Afsaneh? No secondary source is used here to override the two sources above. The study's published abstract is used only for its stated analysis of n(a)-, n(e)-, ni- and prefix blocking.
+- The published abstract of Gündoğdu (2015) is used only for its stated analysis of n(a)-, n(e)-, ni- and prefix blocking.
 
 ## Change boundary
 
