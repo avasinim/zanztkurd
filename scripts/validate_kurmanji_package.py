@@ -57,7 +57,7 @@ if not latest_migration_path.exists():
 else:
     latest_sql = latest_migration_path.read_text(encoding="utf-8")
     read_match = re.search(
-        r"CREATE OR REPLACE FUNCTION public\.can_read_lesson_content\b.*?\\$function\\$;",
+        r"CREATE OR REPLACE FUNCTION public\.can_read_lesson_content\b.*?\$function\$;",
         latest_sql,
         re.I | re.S,
     )
