@@ -404,7 +404,7 @@ class NorthCircleBrowserTests(unittest.TestCase):
                 context.route("**/dashboard.html*", block_dashboard)
                 page = context.new_page()
                 page.goto(
-                    f"{BASE_URL}/kurmanji-course-1-lesson-01.html",
+                    f"{BASE_URL}/kurmanji-course-1-lesson-02.html",
                     wait_until="domcontentloaded",
                 )
                 page.wait_for_timeout(400)
@@ -422,7 +422,10 @@ class NorthCircleBrowserTests(unittest.TestCase):
                         dashboard_redirects,
                         f"{scenario} did not redirect before loading protected content",
                     )
-                    self.assertNotIn("UNEXPECTED_PRIVATE_CONTENT", page.locator(".lesson-content").inner_text())
+                    rendered_text = page.evaluate(
+                        "document.querySelector('.lesson-content')?.innerText || ''"
+                    )
+                    self.assertNotIn("UNEXPECTED_PRIVATE_CONTENT", rendered_text)
                 page.close()
                 context.close()
 
