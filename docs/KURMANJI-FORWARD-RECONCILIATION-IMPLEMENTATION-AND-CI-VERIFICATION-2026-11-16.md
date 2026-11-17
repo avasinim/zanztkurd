@@ -32,12 +32,13 @@ Branch: `fix/kurmanji-ci-current-migration`
 3. Updated `scripts/validate_kurmanji_sql.py` to parse the new forward migration.
 
 4. Updated `.github/workflows/validate-kurmanji-package.yml` so both push and pull-request path filters include the new migration.
+5. After the academic source review, clarified in Course 1 lesson 4 that `RR rr` is a two-letter digraph/convention, not an independent Hawar alphabet letter. The exact same content row was updated in the forward migration; all other seed rows remain unchanged.
 
-No seed file, lesson page, runtime code, production setting or database was changed.
+No lesson page, runtime code, production setting or database was changed.
 
 ## Verification
 
-GitHub Actions run: [44030537924](https://github.com/avasinim/zanztkurd/actions/runs/44030537924)
+Latest post-clarification GitHub Actions run: [44031226651](https://github.com/avasinim/zanztkurd/actions/runs/44031226651) (**success**). The earlier initial reconciliation run [44030537924](https://github.com/avasinim/zanztkurd/actions/runs/44030537924) also passed before the RR clarification.
 
 **Status: success** All job steps completed successfully:
 - PostgreSQL parser: historical migration, new forward migration, and all five seed files parsed.
@@ -61,11 +62,14 @@ The Playwright tests use the repository's existing mocked Supabase/browser harne
 - Guarded forward migration: `d4d211ef6cd453dcb8aa900dc8e4e9b4eb2d6509`
 - SQL parser coverage: `74ade8c0fdb274342d214d6e861d37e01dc1ad64`
 - Effective parity validator: `cd5500dc7da0d47e69e33fb242ca98401e3b8230`
-- Workflow path coverage / successful CI: `e34497b8e07ee773c4d267aa63ec8ebe674ada3c`
+- Workflow path coverage / first successful CI: `e34497b8e07ee773c4d267aa63ec8ebe674ada3c`
+- RR digraph clarification in seed: `0880c888b8e5b0f09287f5f79d8d7fc3ce55f074`
+- Mirrored RR clarification in forward migration: `0317fd4ff452c38f1700a5cabf3255ec89bb8dce`
+- Corrected source decision and created source-evidence review: `ba77d0b4559eaa8a342099b0d838648e9e116005`, `39af3fccb553f2ffe25fbdb44ddc6f6f027c0504`
 
 ## Branch and backup record
 
-- Work branch HEAD: `e34497b8e07ee773c4d267aa63ec8ebe674ada3c`
+- Work branch HEAD at initial CI success: `e34497b8e07ee773c4d267aa63ec8ebe674ada3c`; later source-review updates are recorded in the commits above.
 - `main` HEAD independently rechecked: `4ebd824ff9502ad71936ee9bdfa787ed898b11a8` (unchanged by this work).
 - Pre-work backup: `backup/kurmanji-forward-reconciliation-before-2026-11-16` at `c3735c5bd4ef1931dbd2e2c50dc28cc4eb3bd660`.
 - Post-work backup branch: `backup/kurmanji-forward-reconciliation-after-2026-11-16`; it is pinned to the final work HEAD, with the migration, validators, workflow and both report documents verified byte-for-byte.
