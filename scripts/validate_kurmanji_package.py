@@ -45,6 +45,61 @@ else:
             if len(row_pattern.findall(migration_text)) != 1:
                 ERRORS.append(f"Migration must contain exactly one content row for {key}")
 
+# Validate the latest checked-in migration's server-side access and completion
+# RPCs as well as the browser guard. The older 20261019090000 migration is not
+# the final definition after the later 20261024122051 replacement.
+latest_migration_path = (
+    ROOT / "supabase" / "migrations"
+    / "20261024122051_add_kurmanji_courses_and_protected_lessons.sql"
+)
+if not latest_migration_path.exists():
+    ERRORS.append("Missing latest Kurmanji access-control migration")
+else:
+    latest_sql = latest_migration_path.read_text(encoding="utf-8")
+    read_match = re.search(
+        r"CREATE OR REPLACE FUNCTION public\\.can_read_lesson_content\\b.*?\\$function\\$;",
+        latest_sql,
+        re.I | re.S,
+    )
+    complete_match = re.search(
+        r"CREATE OR REPLACE FUNCTION public\\.complete_lesson\\b.*?\\$function\\$;",
+        latest_sql,
+        re.I | re.S,
+    )
+    if not read_match:
+        ERRORS.append("Latest Kurmanji migration is missing can_read_lesson_content")
+    else:
+        read_sql = read_match.group(0)
+        for required in (
+            "generate_series(1,32)",
+            "generate_series(1,26)",
+            "generate_series(1,12)",
+            "array_position(lesson_order, p_lesson_key)",
+            "IF lesson_index IS NULL THEN RETURN false",
+            "public.is_site_owner()",
+            "public.enrollments",
+            "public.lesson_progress",
+        ):
+            if required not in read_sql:
+                ERRORS.append(
+                    f"Latest lesson-read RPC is missing access/order invariant: {required}"
+                )
+    if not complete_match:
+        ERRORS.append("Latest Kurmanji migration is missing complete_lesson")
+    else:
+        complete_sql = complete_match.group(0)
+        for required in (
+            "array_position(lesson_order, p_lesson_key)",
+            "IF lesson_index IS NULL THEN RAISE EXCEPTION 'INVALID_LESSON'",
+            "PREVIOUS_LESSON_REQUIRED",
+            "INSERT INTO public.lesson_progress",
+            "public.enrollments",
+        ):
+            if required not in complete_sql:
+                ERRORS.append(
+                    f"Latest lesson-completion RPC is missing validation invariant: {required}"
+                )
+
 # Check that the shared script retains the canonical Avasin mappings for static
 # site UI while protecting authored, server-loaded lesson content from rewriting.
 # Browser regression coverage below exercises dynamically inserted lesson HTML.
@@ -77,6 +132,15 @@ else:
     ):
         if required not in script_text:
             ERRORS.append(f"Shared Avasin normalizer is missing required spelling mapping: {required}")
+    if "if(index===-1)return false;" not in script_text:
+        ERRORS.append("Browser lesson gate must reject unknown lesson keys")
+    for required in (
+        'Array.from({length:26},(_,i)=>"kurmanji-course-1-lesson-"',
+        'Array.from({length:12},(_,i)=>"kurmanji-course-2-lesson-"',
+    ):
+        if required not in script_text:
+            ERRORS.append(f"Browser lesson order is missing expected Kurmanji sequence: {required}")
+
     if 'Avasin access gate' not in script_text:
         ERRORS.append("Shared access-control gate marker is missing from script.js")
 
