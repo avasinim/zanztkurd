@@ -341,7 +341,7 @@ body.content-page{--ink:#17231f;--muted:#65716b;--green:#315344;--green2:#476b59
     if(!session){location.replace(authUrl);return;}
     const {data:isOwner}=await sb.rpc('is_site_owner');
     if(isOwner===true)return;
-    if(!session.user.email_confirmed_at){
+    if(!session.user.email_confirmed_at&&!session.user.phone_confirmed_at){
       location.replace('dashboard.html?verify=required');
       return;
     }
