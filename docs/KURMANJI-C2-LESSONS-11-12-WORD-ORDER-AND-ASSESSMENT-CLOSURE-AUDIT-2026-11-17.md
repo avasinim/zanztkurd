@@ -168,4 +168,4 @@ No lesson body, seed SQL, migration, schema, application code, validator, test, 
 
 - Pre-work backup: `backup/c2-l11-l12-assessment-closure-before-2026-11-17`
 - Baseline SHA: `da01601f190fdc11720d2d90858c52a193393728`
-- Post-work backup: to be recorded after commit and exact ref/blob verification.
+- Post-work backup: `backup/c2-l11-l12-assessment-closure-after-2026-11-17` (advanced to the final documentation commit after verification).
