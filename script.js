@@ -17,20 +17,25 @@
   ];
   const normalizeAvasinText = value => replacements.reduce((text,[pattern,replacement])=>text.replace(pattern,replacement),value);
   const needsAvasinNormalization = value => replacements.some(([pattern])=>new RegExp(pattern.source).test(value));
+  const isLessonContentNode = node => {
+    const element = node?.nodeType === Node.ELEMENT_NODE ? node : node?.parentElement;
+    return !!(element && (element.matches(".lesson-content") || element.closest(".lesson-content")));
+  };
   const fixAvasinSpelling = root => {
-    if(!root) return;
+    if(!root || isLessonContentNode(root)) return;
     const walker=document.createTreeWalker(root,NodeFilter.SHOW_TEXT);
     const nodes=[];
     while(walker.nextNode()) nodes.push(walker.currentNode);
     for(const node of nodes){
       const parent=node.parentElement;
-      if(parent && (/^(SCRIPT|STYLE|NOSCRIPT|TEXTAREA)$/i.test(parent.tagName) || parent.closest("code,pre,kbd,samp"))) continue;
+      if(isLessonContentNode(node) || (parent && (/^(SCRIPT|STYLE|NOSCRIPT|TEXTAREA)$/i.test(parent.tagName) || parent.closest("code,pre,kbd,samp")))) continue;
       if(node.nodeValue && needsAvasinNormalization(node.nodeValue)){
         node.nodeValue=normalizeAvasinText(node.nodeValue);
       }
     }
     if(root.querySelectorAll){
       root.querySelectorAll("[title],[aria-label],[placeholder],[alt]").forEach(el=>{
+        if(isLessonContentNode(el)) return;
         for(const attr of ["title","aria-label","placeholder","alt"]){
           const value=el.getAttribute(attr);
           if(value && needsAvasinNormalization(value)) el.setAttribute(attr,normalizeAvasinText(value));
@@ -46,17 +51,17 @@
       if(record.type==="characterData"){
         const n=record.target;
         const p=n.parentElement;
-        if(!(p && (/^(SCRIPT|STYLE|NOSCRIPT|TEXTAREA)$/i.test(p.tagName) || p.closest("code,pre,kbd,samp"))) && n.nodeValue && needsAvasinNormalization(n.nodeValue)){
+        if(!isLessonContentNode(n) && !(p && (/^(SCRIPT|STYLE|NOSCRIPT|TEXTAREA)$/i.test(p.tagName) || p.closest("code,pre,kbd,samp"))) && n.nodeValue && needsAvasinNormalization(n.nodeValue)){
           n.nodeValue=normalizeAvasinText(n.nodeValue);
         }
       }else{
         record.addedNodes.forEach(node=>{
           if(node.nodeType===Node.TEXT_NODE){
             const p=node.parentElement;
-            if(!(p && (/^(SCRIPT|STYLE|NOSCRIPT|TEXTAREA)$/i.test(p.tagName) || p.closest("code,pre,kbd,samp"))) && node.nodeValue && needsAvasinNormalization(node.nodeValue)){
+            if(!isLessonContentNode(node) && !(p && (/^(SCRIPT|STYLE|NOSCRIPT|TEXTAREA)$/i.test(p.tagName) || p.closest("code,pre,kbd,samp"))) && node.nodeValue && needsAvasinNormalization(node.nodeValue)){
               node.nodeValue=normalizeAvasinText(node.nodeValue);
             }
-          }else if(node.nodeType===Node.ELEMENT_NODE) fixAvasinSpelling(node);
+          }else if(node.nodeType===Node.ELEMENT_NODE && !isLessonContentNode(node)) fixAvasinSpelling(node);
         });
       }
     }
