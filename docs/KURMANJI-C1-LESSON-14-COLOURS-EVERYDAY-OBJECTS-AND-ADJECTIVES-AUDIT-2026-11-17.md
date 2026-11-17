@@ -159,4 +159,4 @@ No lesson body, seed SQL, migration, schema, static page, application code, vali
 
 - Pre-work backup: `backup/c1-l14-colours-everyday-objects-before-2026-11-17`
 - Baseline SHA: `99571c49cb61e4c1e6b51f692edec34f3219a0ae`
-- Post-work backup: to be recorded after commit and exact ref/blob verification.
+- Post-work backup: `backup/c1-l14-colours-everyday-objects-after-2026-11-17` (points to the final documentation commit after verification).
