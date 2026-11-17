@@ -121,4 +121,4 @@ No lesson body, seed SQL, migration, schema, HTML shell, application code, valid
 
 - Pre-work backup: `backup/c2-l10-question-payload-audit-before-2026-11-17`
 - Baseline SHA: `91f0bf0789dfb71840819548b7af825c4d52b104`
-- Post-work backup: to be recorded after commit and exact ref/blob verification.
+- Post-work backup: `backup/c2-l10-question-payload-audit-after-2026-11-17` (updated to the final documentation commit after verification).
