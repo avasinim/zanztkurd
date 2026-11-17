@@ -71,4 +71,4 @@ This is a source-attribution and claim-verification review. It is not a dialect 
 
 ## Change and verification boundary
 
-The only lesson-content clarification from this review is the RR digraph label in Course 1 lesson 4. The same row is updated in the forward migration so the overlay remains byte-identical to the seed. The historical release migration is unchanged. The parity and SQL checks are expected to run in the existing branch CI; this report does not claim the migration has been applied to a database.
+The only lesson-content clarification from this review is the RR digraph label in Course 1 lesson 4. The same row is updated in the forward migration so the overlay remains byte-identical to the seed. The historical release migration is unchanged. The post-clarification CI run 44031226651 completed successfully: PostgreSQL parsing, exact seed parity, package validation and all three browser regression tests passed. This report does not claim the migration has been applied to a database.
