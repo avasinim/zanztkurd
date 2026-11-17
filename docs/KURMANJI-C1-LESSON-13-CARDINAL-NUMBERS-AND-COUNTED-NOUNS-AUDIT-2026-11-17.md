@@ -153,4 +153,4 @@ No lesson body, seed SQL, migration, schema, static page, application code, vali
 
 - Pre-work backup: `backup/c1-l13-cardinal-numbers-before-2026-11-17`
 - Baseline SHA: `c983d19189f061e090f35c895db8ab714c90a712`
-- Post-work backup: to be recorded after commit and exact ref/blob verification.
+- Post-work backup: `backup/c1-l13-cardinal-numbers-after-2026-11-17` (points to the final documentation commit after verification).
