@@ -208,11 +208,43 @@ class RowCourseIdTests(unittest.TestCase):
                 with self.assertRaises(ValueError):
                     VALIDATOR.row_course_id(row, "fixture")
 
-    def test_maps_only_expected_kurmanji_course_keys(self):
+    def test_maps_only_in_range_kurmanji_lesson_keys(self):
         self.assertEqual(VALIDATOR.expected_course_id("kurmanji-course-1-lesson-01.html"), "kurmanji-course-1")
+        self.assertEqual(VALIDATOR.expected_course_id("kurmanji-course-1-lesson-26.html"), "kurmanji-course-1")
         self.assertEqual(VALIDATOR.expected_course_id("kurmanji-course-2-lesson-12.html"), "kurmanji-course-2")
-        with self.assertRaises(ValueError):
-            VALIDATOR.expected_course_id("other-course-lesson-01.html")
+        for key in (
+            "other-course-lesson-01.html",
+            "kurmanji-course-1-lesson-27.html",
+            "kurmanji-course-2-lesson-13.html",
+            "kurmanji-course-1-lesson-x.html",
+            "kurmanji-course-1-lesson-01",
+        ):
+            with self.subTest(key=key):
+                with self.assertRaises(ValueError):
+                    VALIDATOR.expected_course_id(key)
+
+    def test_accepts_matching_row_course_id(self):
+        VALIDATOR.validate_row_course_id(
+            "('kurmanji-course-1-lesson-01.html','kurmanji-course-1','title')",
+            "kurmanji-course-1-lesson-01.html",
+            "fixture",
+        )
+
+    def test_rejects_cross_course_row_assignment(self):
+        with self.assertRaisesRegex(ValueError, "course_id mismatch"):
+            VALIDATOR.validate_row_course_id(
+                "('kurmanji-course-1-lesson-01.html','kurmanji-course-2','title')",
+                "kurmanji-course-1-lesson-01.html",
+                "fixture",
+            )
+
+    def test_rejects_malformed_lesson_key_even_when_course_id_matches_prefix(self):
+        with self.assertRaisesRegex(ValueError, "unexpected Kurmanji lesson key"):
+            VALIDATOR.validate_row_course_id(
+                "('kurmanji-course-1-lesson-xx.html','kurmanji-course-1','title')",
+                "kurmanji-course-1-lesson-xx.html",
+                "fixture",
+            )
 
 
 class RowKeyTests(unittest.TestCase):
