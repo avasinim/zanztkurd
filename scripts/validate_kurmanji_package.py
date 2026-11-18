@@ -380,6 +380,69 @@ else:
     ):
         if required not in script_html:
             ERRORS.append(f"Protected lesson redirect does not preserve course context: {required}")
+# Static privilege-contract regression checks. These validate committed SQL source;
+# they do not connect to Supabase or replace live JWT/RLS tests.
+admin_migration_path = ROOT / "supabase" / "migrations" / "20261007152000_admin_dashboard.sql"
+if not admin_migration_path.exists():
+    ERRORS.append("Missing owner-admin RPC migration")
+else:
+    admin_sql = admin_migration_path.read_text(encoding="utf-8")
+    admin_contracts = {
+        "admin_list_users": "()",
+        "admin_list_enrollments": "()",
+        "admin_list_progress": "()",
+        "admin_set_enrollment_status": "(uuid,text,text)",
+    }
+    for function_name, signature in admin_contracts.items():
+        match = re.search(
+            rf"create\\s+or\\s+replace\\s+function\\s+public\\.{function_name}\\b"
+            rf"[\\s\\S]*?\\bas\\s+(\\$[a-z_]*\\$)([\\s\\S]*?)\\1\\s*;",
+            admin_sql,
+            re.I,
+        )
+        if not match:
+            ERRORS.append(f"Admin RPC definition is missing or unparsable: {function_name}")
+            continue
+        body = match.group(2).lower()
+        if "if not public.is_site_owner()" not in body:
+            ERRORS.append(f"Admin RPC lacks its in-function site-owner guard: {function_name}")
+        definition_start = admin_sql[match.start():match.end()].lower()
+        if not re.search(r"set\\s+search_path\\s*=", definition_start):
+            ERRORS.append(f"Admin SECURITY DEFINER RPC lacks an explicit search_path: {function_name}")
+        revoke = rf"revoke\\s+all\\s+on\\s+function\\s+public\\.{function_name}\\s*{re.escape(signature)}\\s+from\\s+public"
+        grant = rf"grant\\s+execute\\s+on\\s+function\\s+public\\.{function_name}\\s*{re.escape(signature)}\\s+to\\s+authenticated"
+        if not re.search(revoke, admin_sql, re.I):
+            ERRORS.append(f"Admin RPC must revoke default PUBLIC execution: {function_name}")
+        if not re.search(grant, admin_sql, re.I):
+            ERRORS.append(f"Admin RPC must explicitly grant authenticated execution: {function_name}")
+
+# Learner-facing privileged RPCs must retain explicit identity and access checks.
+if latest_migration_path.exists():
+    for function_name, required_tokens in {
+        "can_read_lesson_content": (
+            "auth.uid()", "public.is_site_owner()", "public.enrollments",
+            "public.lesson_progress", "array_position(lesson_order, p_lesson_key)",
+        ),
+        "complete_lesson": (
+            "auth.uid()", "email_confirmed_at", "phone_confirmed_at",
+            "public.enrollments", "previous_lesson_required",
+            "insert into public.lesson_progress",
+        ),
+    }.items():
+        match = re.search(
+            rf"create\\s+or\\s+replace\\s+function\\s+public\\.{function_name}\\b"
+            rf"[\\s\\S]*?\\bas\\s+(\\$[a-z_]*\\$)([\\s\\S]*?)\\1\\s*;",
+            latest_sql,
+            re.I,
+        )
+        if not match:
+            ERRORS.append(f"Learner RPC definition is missing or unparsable: {function_name}")
+            continue
+        body = match.group(2).lower()
+        for token in required_tokens:
+            if token.lower() not in body:
+                ERRORS.append(f"Learner RPC {function_name} is missing authorization invariant: {token}")
+
 if ERRORS:
     print("\n".join(f"ERROR: {item}" for item in ERRORS))
     sys.exit(1)
