@@ -51,7 +51,7 @@ This establishes structural presence, not linguistic correctness or release cert
 | 06 Possession and possessive pronouns | Gives `mal-a me` and reflexive `xwe` example | Title promises a broader possessive-pronoun system, but there is no complete scoped paradigm. Distinguish oblique personal pronouns in possessor position from independent possessive forms. |
 | 07 Personal pronouns and direct/oblique case | Lists direct and oblique pronoun forms; explains case is not a simple subject/object label | Needs contrastive full-sentence examples that show present transitive vs past transitive alignment and the agreement controller. |
 | 08 Verb, stem, person and number | Includes `ez dibêjim`, `ez hatim`, `min xwar` | The three examples are useful but not a worked paradigm. Explicitly show present transitive subject agreement, past intransitive subject agreement, and past transitive object agreement; identify zero third-person marking where relevant. |
-| 09 Present, past and future | Compares present/past forms, simple vs progressive past, and gives a future particle + subjunctive example | The seed says the future Latin form is preserved from Haig, but the previously audited source transcription differs. Do not call it a verbatim quotation until a specialist resolves the notation/variety. Add an explicit construction breakdown only after that check. |
+| 09 Present, past and future | Compares present/past forms, simple vs progressive past, and gives a future particle + subjunctive example | Direct inspection of Haig (2018), p. 129, example (27), confirms the current payload's `ew dē mesel-ē ji te re bēž-e` matches the printed source form. The earlier repository evidence-register variant `ew dê mesel-ê ji te re bêj-ê` was a transcription error. Keep the exact source form and citation; do not normalize its macrons/circumflexes. |
 | 10 Negation and questions | Covers `na-`, `nizanim/nikarim`, past negative forms, and question categories | The question section has no exact Kurmanji examples. Separate verbal, non-verbal and existential negation; clarify the past-progressive `ne-` + `di-` pattern. Question examples need source/variety labels and native review before insertion. |
 | 11 Word order and clause structure | Gives one SOV sentence and discusses focus/fronting and Goal/recipient variation | A useful introductory rule, but only one worked sentence. Add an independently verified Goal/recipient example and label neutral order vs pragmatic fronting; avoid presenting SOV as invariant. |
 | 12 Review and final test | Contains open-ended analysis instructions and three review questions | This is review/self-assessment, not a specified scored examination. No item count, answer key, scoring, threshold, retake policy, or result-persistence contract is defined in the lesson body. |
@@ -71,7 +71,7 @@ For each future example, record one of:
 - adapted example (explicitly labelled, with adaptation and variety stated);
 - instructor-created example (native specialist validated).
 
-Do not call the current Lesson 09 future example a verbatim Haig quotation until the discrepancy is resolved. Do not silently change Kurmanji Latin forms, diacritics, morpheme boundaries, or dialect forms.
+Lesson 09's future sentence has now been verified as an exact Haig (2018:129, example 27) transcription. The earlier claim-register mismatch was an internal transcription error and is corrected in K121. Do not silently change Kurmanji Latin forms, diacritics, morpheme boundaries, or dialect forms.
 
 ### 5.3 Sorani editorial consistency
 
@@ -79,7 +79,7 @@ The current Sorani explanatory prose contains variants previously identified in 
 
 ## 6. Recommended closure order
 
-1. **P0 — Reference and transcription:** formally identify the pedagogical reference variety; resolve Lesson 09 future transcription and all source quotation/adaptation labels.
+1. **P0 — Reference and transcription:** formally identify the pedagogical reference variety; preserve the now-verified Lesson 09 future quotation and resolve remaining source quotation/adaptation labels.
 2. **P1 — Core paradigms:** prepare specialist-checked worked material for Lessons 03, 06, 07 and 08 (plural, possessive pronouns, direct/oblique contrast, and agreement controller).
 3. **P1 — Verb system and negation:** refine Lessons 09–10 with exact TAM/negation contrasts and named variety boundaries; add question examples only after validation.
 4. **P2 — Syntax:** add a source-attested Goal/recipient example and distinguish neutral word order from pragmatic fronting in Lesson 11.
