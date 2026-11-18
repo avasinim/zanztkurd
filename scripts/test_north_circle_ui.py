@@ -439,5 +439,181 @@ class NorthCircleBrowserTests(unittest.TestCase):
         self.assertLessEqual(sizes["scroll"], sizes["width"] + 1, f"mobile horizontal overflow: {sizes}")
 
 
+    def test_kurmanji_course2_completion_uses_its_own_server_rpc_and_unlocks_lesson2(self):
+        context = self.browser.new_context(viewport={"width": 390, "height": 844})
+        context.add_init_script("""
+            window.__rpcCalls = [];
+            const completed = () => JSON.parse(sessionStorage.getItem("__course2Done") || "[]");
+            const client = {
+              auth: {getSession: async () => ({data: {session: {user: {
+                id: "synthetic-kurmanji-course2-learner",
+                email_confirmed_at: "2026-01-01T00:00:00Z",
+                phone_confirmed_at: null
+              }}}, error: null})},
+              rpc: async (name, args) => {
+                window.__rpcCalls.push({name, args});
+                if (name === "is_site_owner") return {data: false, error: null};
+                if (name === "student_has_enrollment") return {data: true, error: null};
+                if (name === "can_read_lesson_content") return {
+                  data: completed().includes(args.p_lesson_key), error: null
+                };
+                if (name === "complete_lesson") {
+                  const keys = completed();
+                  if (!keys.includes(args.p_lesson_key)) keys.push(args.p_lesson_key);
+                  sessionStorage.setItem("__course2Done", JSON.stringify(keys));
+                  return {data: {status: "active", completed_count: keys.length, total_lessons: 12}, error: null};
+                }
+                return {data: null, error: null};
+              },
+              from: (table) => ({
+                select: () => ({
+                  eq: () => ({
+                    eq: () => ({
+                      then: (resolve) => resolve({
+                        data: completed().map(lesson_key => ({lesson_key})), error: null
+                      }),
+                      limit: () => ({
+                        maybeSingle: async () => ({
+                          data: {content_html: "<p>synthetic Course 2 lesson body</p>"}, error: null
+                        })
+                      })
+                    }),
+                    limit: () => ({
+                      maybeSingle: async () => ({
+                        data: {content_html: "<p>synthetic Course 2 lesson body</p>"}, error: null
+                      })
+                    })
+                  })
+                })
+              })
+            };
+            window.supabase = {createClient: () => client};
+            window.ZANSTI_GET_SUPABASE_CLIENT = () => client;
+            window.ZANSTI_OWNER_CHECK = Promise.resolve(false);
+            window.ZANSTI_SYNC_PROGRESS = async (courseId, files, storage) => {
+              const keys = completed();
+              const indexes = keys.map(key => files.indexOf(key)).filter(i => i >= 0);
+              localStorage.setItem(storage, JSON.stringify(indexes));
+              return true;
+            };
+        """)
+        context.route(
+            "**/supabase-config.js*",
+            lambda route: route.fulfill(
+                status=200,
+                content_type="application/javascript",
+                body='window.ZANSTI_SUPABASE={ready:true,url:"https://example.invalid",publishableKey:"test"};',
+            ),
+        )
+        context.route(
+            "**/cdn.jsdelivr.net/npm/@supabase/supabase-js@2*",
+            lambda route: route.fulfill(
+                status=200,
+                content_type="application/javascript",
+                body="window.supabase=window.supabase||{};",
+            ),
+        )
+        page = context.new_page()
+        page.goto(
+            f"{BASE_URL}/kurmanji-course-2-lesson-01.html",
+            wait_until="domcontentloaded",
+        )
+        page.locator(".kurmanji-completion-gate .kurmanji-complete-btn").wait_for(timeout=5000)
+        page.locator(".kurmanji-completion-gate .kurmanji-complete-btn").click()
+        page.wait_for_url("**/kurmanji-course-2-lesson-02.html", timeout=5000)
+        calls = page.evaluate("window.__rpcCalls")
+        completion = [call for call in calls if call["name"] == "complete_lesson"]
+        self.assertEqual(len(completion), 1)
+        self.assertEqual(completion[0]["args"], {
+            "p_course_id": "kurmanji-course-2",
+            "p_lesson_key": "kurmanji-course-2-lesson-01.html",
+        })
+        self.assertEqual(
+            page.evaluate('JSON.parse(sessionStorage.getItem("__course2Done"))'),
+            ["kurmanji-course-2-lesson-01.html"],
+        )
+        page.close()
+        context.close()
+
+    def test_kurmanji_course2_direct_out_of_sequence_lesson_redirects_to_first_incomplete(self):
+        context = self.browser.new_context(viewport={"width": 390, "height": 844})
+        context.add_init_script("""
+            window.__lessonQueries = [];
+            const client = {
+              auth: {getSession: async () => ({data: {session: {user: {
+                id: "synthetic-kurmanji-course2-locked-learner"
+              }}}, error: null})},
+              rpc: async (name) => {
+                if (name === "is_site_owner") return {data: false, error: null};
+                if (name === "student_has_enrollment") return {data: true, error: null};
+                if (name === "can_read_lesson_content") return {data: false, error: null};
+                return {data: null, error: null};
+              },
+              from: (table) => ({
+                select: () => ({
+                  eq: () => ({
+                    eq: () => ({
+                      then: (resolve) => resolve({data: [], error: null}),
+                      limit: () => ({
+                        maybeSingle: async () => {
+                          window.__lessonQueries.push(location.pathname);
+                          return {data: {content_html: "<p>UNLOCKED_COURSE2_CONTENT</p>"}, error: null};
+                        }
+                      })
+                    }),
+                    limit: () => ({
+                      maybeSingle: async () => {
+                        window.__lessonQueries.push(location.pathname);
+                        return {data: {content_html: "<p>UNLOCKED_COURSE2_CONTENT</p>"}, error: null};
+                      }
+                    })
+                  })
+                })
+              })
+            };
+            window.supabase = {createClient: () => client};
+            window.ZANSTI_GET_SUPABASE_CLIENT = () => client;
+            window.ZANSTI_OWNER_CHECK = Promise.resolve(false);
+            window.ZANSTI_SYNC_PROGRESS = async (courseId, files, storage) => {
+              localStorage.setItem(storage, "[]");
+              return true;
+            };
+        """)
+        context.route(
+            "**/supabase-config.js*",
+            lambda route: route.fulfill(
+                status=200,
+                content_type="application/javascript",
+                body='window.ZANSTI_SUPABASE={ready:true,url:"https://example.invalid",publishableKey:"test"};',
+            ),
+        )
+        context.route(
+            "**/cdn.jsdelivr.net/npm/@supabase/supabase-js@2*",
+            lambda route: route.fulfill(
+                status=200,
+                content_type="application/javascript",
+                body="window.supabase=window.supabase||{};",
+            ),
+        )
+        page = context.new_page()
+        page.goto(
+            f"{BASE_URL}/kurmanji-course-2-lesson-03.html",
+            wait_until="domcontentloaded",
+        )
+        page.wait_for_url("**/kurmanji-course-2-lesson-01.html", timeout=5000)
+        self.assertEqual(
+            page.evaluate("window.__lessonQueries"),
+            ["/kurmanji-course-2-lesson-01.html"],
+            "locked Course 2 lesson 3 content must never be queried",
+        )
+        self.assertNotIn(
+            "UNLOCKED_COURSE2_CONTENT",
+            page.locator(".lesson-content").inner_text(),
+        )
+        page.close()
+        context.close()
+
+
+
 if __name__ == "__main__":
     unittest.main(verbosity=2)
