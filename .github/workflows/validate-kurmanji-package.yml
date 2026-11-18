@@ -52,6 +52,8 @@ on:
       - "scripts/test_kurmanji_sql_lexer.py"
       - "scripts/validate_kurmanji_seed_parity.py"
       - "scripts/test_north_circle_ui.py"
+      - "scripts/test_kurmanji_live_test_browser.py"
+      - "scripts/test_kurmanji_live_test_browser_guard.py"
       - "docs/KURMANJI-RELEASE-AUDIT.md"
       - "docs/KURMANJI-STUDENT-ACCESS-AUDIT.md"
       - ".github/workflows/validate-kurmanji-package.yml"
