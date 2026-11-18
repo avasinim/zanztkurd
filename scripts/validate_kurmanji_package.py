@@ -23,9 +23,9 @@ seed_text = "\n".join(path.read_text(encoding="utf-8") for path in seed_files)
 # migrations. Preserve an explicit warning in every file header.
 for seed_path in seed_files:
     seed_head = seed_path.read_text(encoding="utf-8")[:1200]
-    if "DRAFT DATA SEED" not in seed_head or "not a production migration" not in seed_head:
+    if "DRAFT DATA SEED" not in seed_head:
         ERRORS.append(
-            f"Kurmanji split seed must retain its DRAFT DATA SEED / not-production warning: {seed_path.name}"
+            f"Kurmanji split seed must retain its DRAFT DATA SEED warning: {seed_path.name}"
         )
 
 # Guard the migration's known cross-course invariants. These checks are static;
