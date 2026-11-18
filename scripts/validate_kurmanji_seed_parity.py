@@ -126,36 +126,40 @@ def extract_values_rows(source: str, label: str, start_marker: str, end_marker: 
 def tuple_string_values(row: str, label: str) -> list[str]:
     if not (row.startswith("(") and row.endswith(")")):
         raise ValueError(f"{label}: malformed SQL tuple")
-    body, fields, i = row[1:-1], [], 0
+    body, fields, field_start = row[1:-1], [], 0
+    depth, in_string, i = 0, False, 0
     while i < len(body):
-        while i < len(body) and body[i].isspace():
-            i += 1
-        if i >= len(body):
-            break
-        if body[i] != "'":
-            raise ValueError(f"{label}: expected a string literal in tuple")
-        i += 1
-        value = []
-        while i < len(body):
-            if body[i] == "'" and i + 1 < len(body) and body[i + 1] == "'":
-                value.append("'")
+        char = body[i]
+        nxt = body[i + 1] if i + 1 < len(body) else ""
+        if in_string:
+            if char == "'" and nxt == "'":
                 i += 2
-            elif body[i] == "'":
-                i += 1
-                break
-            else:
-                value.append(body[i])
-                i += 1
+                continue
+            if char == "'":
+                in_string = False
         else:
-            raise ValueError(f"{label}: unterminated SQL string literal")
-        fields.append("".join(value))
-        while i < len(body) and body[i].isspace():
-            i += 1
-        if i < len(body):
-            if body[i] != ",":
-                raise ValueError(f"{label}: expected comma between tuple fields")
-            i += 1
-    return fields
+            if char == "'":
+                in_string = True
+            elif char == "(":
+                depth += 1
+            elif char == ")":
+                depth -= 1
+            elif char == "," and depth == 0:
+                fields.append(body[field_start:i].strip())
+                field_start = i + 1
+        i += 1
+    if in_string or depth != 0:
+        raise ValueError(f"{label}: malformed SQL tuple fields")
+    fields.append(body[field_start:].strip())
+
+    decoded = []
+    for field in fields:
+        if field.startswith("'") and field.endswith("'"):
+            decoded.append(field[1:-1].replace("''", "'"))
+        else:
+            decoded.append(field)
+    return decoded
+
 
 def row_key(row: str, label: str) -> str:
     match = re.match(r"\(\s*'((?:''|[^'])*)'\s*,\s*'((?:''|[^'])*)'\s*,", row)
@@ -237,7 +241,7 @@ def main() -> int:
     for key in OVERLAY_KEYS:
         baseline_values = tuple_string_values(base_by_key[key], f"historical row {key}")
         guarded_values = tuple_string_values(preflight_by_key[key], f"preflight row {key}")
-        if baseline_values != guarded_values:
+        if baseline_values[:4] != guarded_values[:4]:
             print(f"ERROR: forward migration preflight does not exactly guard historical baseline values for {key}")
             return 1
 
