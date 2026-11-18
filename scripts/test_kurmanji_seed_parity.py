@@ -189,6 +189,32 @@ class TupleStringValuesTests(unittest.TestCase):
                     tuple_string_values(row, "fixture")
 
 
+class RowCourseIdTests(unittest.TestCase):
+    def test_reads_course_id_from_second_literal_field(self):
+        self.assertEqual(
+            VALIDATOR.row_course_id("('lesson-01','kurmanji-course-1','title')", "fixture"),
+            "kurmanji-course-1",
+        )
+
+    def test_decodes_doubled_apostrophe_in_course_id(self):
+        self.assertEqual(
+            VALIDATOR.row_course_id("('lesson-01','course''s-id','title')", "fixture"),
+            "course's-id",
+        )
+
+    def test_rejects_unquoted_or_missing_course_id(self):
+        for row in ("('lesson-01',course-1,'title')", "('lesson-01')", "('lesson-01',NULL,'title')"):
+            with self.subTest(row=row):
+                with self.assertRaises(ValueError):
+                    VALIDATOR.row_course_id(row, "fixture")
+
+    def test_maps_only_expected_kurmanji_course_keys(self):
+        self.assertEqual(VALIDATOR.expected_course_id("kurmanji-course-1-lesson-01.html"), "kurmanji-course-1")
+        self.assertEqual(VALIDATOR.expected_course_id("kurmanji-course-2-lesson-12.html"), "kurmanji-course-2")
+        with self.assertRaises(ValueError):
+            VALIDATOR.expected_course_id("other-course-lesson-01.html")
+
+
 class RowKeyTests(unittest.TestCase):
     def test_reads_key_from_two_literal_prefix_fields(self):
         self.assertEqual(
