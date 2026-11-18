@@ -320,11 +320,11 @@ Haig (2018, §2.6.4) describes the future construction using `dê/wê` and a sub
 **Editorial consequence:** do not teach future as a single suffix attached to the lexical stem.
 
 ### C2-L09-03 — The exact copied future example in the lesson is a verbatim Haig quotation
-**Status: UNRESOLVED UNTIL PDF TRANSCRIPTION CHECK**
+**Status: SUPPORTED — EXACT SOURCE FORM VERIFIED**
 
-The source review flags the lesson's Latin transcription as needing direct comparison with Haig §2.6.4. The source's printed form is reported as `ew dê mesel-ê ji te re bêj-ê`; exact diacritics, hyphenation and inflection must be compared to the original PDF.
+Direct inspection of Haig (2018), §2.6.4, p. 129, example (27), confirms the exact printed form is `ew dē mesel-ē ji te re bēž-e`, glossed ‘He will tell you the issue.’ This exactly matches the current Course 2 Lesson 09 payload. The earlier register's alternative `ew dê mesel-ê ji te re bêj-ê` was a transcription error in this register, not a discrepancy in the lesson.
 
-**Editorial consequence:** do not label the lesson form a quotation until verified. Preserve source orthography in quotations and distinguish any house-style adaptation.
+**Editorial consequence:** the current lesson form may be labelled an exact quotation (Q) with Haig (2018:129, example 27), provided its gloss and attribution are retained. Preserve the source's `dē / mesel-ē / bēž-e` spelling; do not normalize it to a different diacritic convention.
 
 ### C2-L09-04 — Future particle and verb inflection are separate grammatical components
 **Status: SUPPORTED**
@@ -452,7 +452,7 @@ A guided analysis task can support learner reflection, but the source review doe
 2. Require every example to be labelled **source-attested**, **adapted**, or **instructor-created**.
 3. Add the Standard Kurmanji plural paradigm to Lesson 03, with the restricted/variable status of direct indefinite `-in`.
 4. Keep direct/oblique case, gender, ezafe and nominal suffixes distinct in Lessons 03–07.
-5. Verify the exact future transcription in Lesson 09 against the source PDF.
+5. Preserve the now-verified exact future transcription in Lesson 09; do not change the source's `dē / mesel-ē / bēž-e` spelling.
 6. Build a separate evidence set for question formation before adding examples to Lesson 10.
 7. Specify whether Lesson 12 is a review or a scored final assessment.
 
@@ -488,6 +488,6 @@ The historical seed/migration differences must remain preserved until the owner 
 
 **Course 2 lessons 01–12: claim-level evidence register completed; not release-certified.**
 
-The most consequential supported corrections are the Standard Kurmanji plural paradigm, the separation of case and ezafe, the tense-sensitive verb agreement system, and the templatic interaction of negation with TAM. The main unresolved areas are the precise possessive paradigm promised by Lesson 06, source transcription of the future example, question formation and non-verbal negation examples, and whether Lesson 12 is intended as a review or a scored test.
+The most consequential supported corrections are the Standard Kurmanji plural paradigm, the separation of case and ezafe, the tense-sensitive verb agreement system, and the templatic interaction of negation with TAM. The main unresolved areas are the precise possessive paradigm promised by Lesson 06, basic question-formation examples and non-verbal negation examples, and whether Lesson 12 is intended as a review or a scored test. The Lesson 09 future quotation is now verified against Haig (2018:129, example 27).
 
 No lesson body, seed SQL, migration, database, application code, `main`, PR #3, CI or deployment was changed.
