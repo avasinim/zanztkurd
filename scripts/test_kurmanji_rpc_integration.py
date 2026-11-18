@@ -10,6 +10,7 @@ from __future__ import annotations
 import os
 import sys
 from pathlib import Path
+from urllib.parse import urlsplit
 
 import psycopg
 
@@ -18,6 +19,33 @@ FIXTURE = ROOT / "supabase/tests/kurmanji_rpc_fixture.sql"
 MIGRATION = ROOT / "supabase/migrations/20261118100000_enforce_full_lesson_prefix_progression.sql"
 HELPER_TESTS = ROOT / "supabase/tests/kurmanji_full_prefix_progression.sql"
 RPC_TESTS = ROOT / "supabase/tests/kurmanji_rpc_integration.sql"
+
+_LOOPBACK_HOSTS = {"localhost", "127.0.0.1", "::1"}
+_DISPOSABLE_DATABASE = "kurmanji_test"
+_ALLOWED_PORT = 5432
+
+
+def validate_database_url(database_url: str) -> None:
+    """Reject any target except the dedicated local CI/test database."""
+    try:
+        parsed = urlsplit(database_url)
+        hostname = parsed.hostname
+        port = parsed.port
+    except ValueError as exc:
+        raise ValueError("DATABASE_URL must be a valid PostgreSQL URL.") from exc
+
+    if parsed.scheme not in {"postgres", "postgresql"}:
+        raise ValueError("DATABASE_URL must use the postgres or postgresql scheme.")
+    if hostname not in _LOOPBACK_HOSTS:
+        raise ValueError("Refusing to connect: DATABASE_URL host must be localhost or a loopback IP.")
+    if port not in {None, _ALLOWED_PORT}:
+        raise ValueError(f"Refusing to connect: disposable PostgreSQL must use port {_ALLOWED_PORT}.")
+    if parsed.path.lstrip("/") != _DISPOSABLE_DATABASE:
+        raise ValueError(
+            f"Refusing to connect: database name must be exactly {_DISPOSABLE_DATABASE!r}."
+        )
+    if parsed.fragment:
+        raise ValueError("DATABASE_URL must not contain a fragment.")
 
 
 def run_file(connection: psycopg.Connection, path: Path) -> None:
@@ -34,6 +62,12 @@ def main() -> int:
     database_url = os.environ.get("DATABASE_URL")
     if not database_url:
         print("ERROR: DATABASE_URL must point to a disposable PostgreSQL database.", file=sys.stderr)
+        return 2
+
+    try:
+        validate_database_url(database_url)
+    except ValueError as exc:
+        print(f"ERROR: {exc}", file=sys.stderr)
         return 2
 
     try:
