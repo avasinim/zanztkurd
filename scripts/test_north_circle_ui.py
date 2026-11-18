@@ -442,7 +442,7 @@ class NorthCircleBrowserTests(unittest.TestCase):
     def test_kurmanji_course2_completion_uses_its_own_server_rpc_and_unlocks_lesson2(self):
         context = self.browser.new_context(viewport={"width": 390, "height": 844})
         context.add_init_script("""
-            window.__rpcCalls = [];
+            window.__rpcCalls = JSON.parse(sessionStorage.getItem("__course2RpcCalls") || "[]");
             const completed = () => JSON.parse(sessionStorage.getItem("__course2Done") || "[]");
             const client = {
               auth: {getSession: async () => ({data: {session: {user: {
@@ -452,6 +452,7 @@ class NorthCircleBrowserTests(unittest.TestCase):
               }}}, error: null})},
               rpc: async (name, args) => {
                 window.__rpcCalls.push({name, args});
+                sessionStorage.setItem("__course2RpcCalls", JSON.stringify(window.__rpcCalls));
                 if (name === "is_site_owner") return {data: false, error: null};
                 if (name === "student_has_enrollment") return {data: true, error: null};
                 if (name === "can_read_lesson_content") return {
