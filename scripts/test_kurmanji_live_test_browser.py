@@ -170,15 +170,19 @@ def run_browser_smoke_test() -> None:
                     raise AssertionError(f"Test lesson content check failed for {page_name}.")
                 print(f"PASS: authenticated Test learner read {page_name} (content body not logged).")
 
-            anonymous = browser.new_context(viewport={"width": 390, "height": 844})
-            anonymous_page = anonymous.new_page()
-            anonymous_page.goto(
+            # Reuse the routed context so the anonymous check cannot fall back
+            # to the production supabase-config.js. Clear all browser auth state
+            # first, then navigate in the same Test-isolated request context.
+            context.clear_cookies()
+            page.evaluate("() => { localStorage.clear(); sessionStorage.clear(); }")
+            page.goto(
                 f"{BASE_URL}/kurmanji-course-1-lesson-01.html",
                 wait_until="domcontentloaded",
             )
-            anonymous_page.wait_for_url("**/auth.html**", timeout=15000)
+            page.wait_for_url("**/auth.html**", timeout=15000)
+            if "auth.html" not in page.url:
+                raise AssertionError("Unauthenticated browser was not redirected to the login page.")
             print("PASS: unauthenticated browser was redirected before protected lesson access.")
-            anonymous.close()
 
             if blocked_hosts:
                 raise AssertionError("Unexpected non-Test Supabase host was blocked; isolation check failed.")
