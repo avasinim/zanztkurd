@@ -395,8 +395,8 @@ else:
     }
     for function_name, signature in admin_contracts.items():
         match = re.search(
-            rf"create\\s+or\\s+replace\\s+function\\s+public\\.{function_name}\\b"
-            rf"[\\s\\S]*?\\bas\\s+(\\$[a-z_]*\\$)([\\s\\S]*?)\\1\\s*;",
+            rf"create\s+or\s+replace\s+function\s+public\.{function_name}\b"
+            rf"[\s\S]*?\bas\s+(\$[a-z_]*\$)([\s\S]*?)\1\s*;",
             admin_sql,
             re.I,
         )
@@ -407,10 +407,10 @@ else:
         if "if not public.is_site_owner()" not in body:
             ERRORS.append(f"Admin RPC lacks its in-function site-owner guard: {function_name}")
         definition_start = admin_sql[match.start():match.end()].lower()
-        if not re.search(r"set\\s+search_path\\s*=", definition_start):
+        if not re.search(r"set\s+search_path\s*=", definition_start):
             ERRORS.append(f"Admin SECURITY DEFINER RPC lacks an explicit search_path: {function_name}")
-        revoke = rf"revoke\\s+all\\s+on\\s+function\\s+public\\.{function_name}\\s*{re.escape(signature)}\\s+from\\s+public"
-        grant = rf"grant\\s+execute\\s+on\\s+function\\s+public\\.{function_name}\\s*{re.escape(signature)}\\s+to\\s+authenticated"
+        revoke = rf"revoke\s+all\s+on\s+function\s+public\.{function_name}\s*{re.escape(signature)}\s+from\s+public"
+        grant = rf"grant\s+execute\s+on\s+function\s+public\.{function_name}\s*{re.escape(signature)}\s+to\s+authenticated"
         if not re.search(revoke, admin_sql, re.I):
             ERRORS.append(f"Admin RPC must revoke default PUBLIC execution: {function_name}")
         if not re.search(grant, admin_sql, re.I):
@@ -430,8 +430,8 @@ if latest_migration_path.exists():
         ),
     }.items():
         match = re.search(
-            rf"create\\s+or\\s+replace\\s+function\\s+public\\.{function_name}\\b"
-            rf"[\\s\\S]*?\\bas\\s+(\\$[a-z_]*\\$)([\\s\\S]*?)\\1\\s*;",
+            rf"create\s+or\s+replace\s+function\s+public\.{function_name}\b"
+            rf"[\s\S]*?\bas\s+(\$[a-z_]*\$)([\s\S]*?)\1\s*;",
             latest_sql,
             re.I,
         )
