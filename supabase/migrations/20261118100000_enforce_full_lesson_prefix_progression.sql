@@ -23,7 +23,7 @@ AS $function$
     ELSE NOT EXISTS (
       SELECT 1
       FROM unnest(p_lesson_order[1:(p_lesson_index - 1)]) AS required(lesson_key)
-      WHERE NOT (required.lesson_key = ANY(COALESCE(p_completed_keys, ARRAY[]::text[])))
+      WHERE NOT COALESCE(required.lesson_key = ANY(COALESCE(p_completed_keys, ARRAY[]::text[])), false)
     )
   END;
 $function$;
