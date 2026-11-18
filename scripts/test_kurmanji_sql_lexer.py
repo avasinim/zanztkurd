@@ -72,7 +72,7 @@ class TokenizeSqlTests(unittest.TestCase):
 
     def test_multi_token_marker_is_supported(self):
         source = "SELECT 'ON CONFLICT'; ON   CONFLICT (lesson_key)"
-        self.assertEqual(find_sql_marker(source, "ON   CONFLICT"), source.rfind("ON"))
+        self.assertEqual(find_sql_marker(source, "ON   CONFLICT"), source.index("ON   CONFLICT"))
 
     def test_marker_inside_larger_identifier_is_ignored(self):
         source = "INSERT NOTVALUES; VALUES (1)"
