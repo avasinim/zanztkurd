@@ -315,7 +315,7 @@ def main() -> int:
             print(f"ERROR: static H1 heading differs from effective database title for {key}")
             return 1
         if ".lesson-content" not in page_html or not re.search(
-            r'data-lesson-key=["\\']' + re.escape(key) + r'["\\']',
+            r"""data-lesson-key=["']""" + re.escape(key) + r"""["']""",
             page_html,
         ):
             print(f"ERROR: static lesson page is not wired to its exact protected content key for {key}")
