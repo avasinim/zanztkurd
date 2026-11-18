@@ -169,6 +169,21 @@ def row_key(row: str, label: str) -> str:
     return match.group(1).replace("''", "'")
 
 
+def row_course_id(row: str, label: str) -> str:
+    match = re.match(r"\(\s*'(?:''|[^']*)'\s*,\s*'((?:''|[^'])*)'\s*,", row)
+    if not match:
+        raise ValueError(f"{label}: row does not contain a literal course_id in its second field")
+    return match.group(1).replace("''", "'")
+
+
+def expected_course_id(lesson_key: str) -> str:
+    if lesson_key.startswith("kurmanji-course-1-lesson-"):
+        return "kurmanji-course-1"
+    if lesson_key.startswith("kurmanji-course-2-lesson-"):
+        return "kurmanji-course-2"
+    raise ValueError(f"unexpected Kurmanji lesson key: {lesson_key}")
+
+
 def main() -> int:
     if len(SEED_FILES) != 5:
         print(f"ERROR: expected 5 split seed files, found {len(SEED_FILES)}")
@@ -211,6 +226,22 @@ def main() -> int:
         overlay_keys = [row_key(row, "forward migration") for row in overlay_rows]
         preflight_keys = [row_key(row, "forward migration preflight") for row in preflight_rows]
         seed_keys = [row_key(row, "seed package") for row in seed_rows]
+
+        course_datasets = (
+            ("historical migration", base_keys, base_rows),
+            ("forward migration", overlay_keys, overlay_rows),
+            ("forward migration preflight", preflight_keys, preflight_rows),
+            ("seed package", seed_keys, seed_rows),
+        )
+        for label, keys, rows in course_datasets:
+            for key, row in zip(keys, rows):
+                actual_course_id = row_course_id(row, label)
+                expected_id = expected_course_id(key)
+                if actual_course_id != expected_id:
+                    raise ValueError(
+                        f"{label}: course_id mismatch for {key}; "
+                        f"expected {expected_id}, found {actual_course_id}"
+                    )
     except (OSError, UnicodeError, ValueError) as exc:
         print(f"ERROR: {exc}")
         return 1
