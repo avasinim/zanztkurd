@@ -111,3 +111,14 @@ jobs:
         run: python -m unittest discover -s scripts -p "test_kurmanji_live_test_browser_guard.py" -v
       - name: Compile isolated Test browser runner
         run: python -m py_compile scripts/test_kurmanji_live_test_browser.py
+      # Real Test access is opt-in: only a manual dispatch can use these secrets.
+      # The runner fails closed unless the exact Test project and a pre-enrolled
+      # Test learner are supplied; it blocks all non-allowlisted database writes.
+      - name: Run read-only isolated Test browser smoke test (manual dispatch only)
+        if: github.event_name == 'workflow_dispatch'
+        env:
+          AVASIN_TEST_SUPABASE_URL: ${{ secrets.AVASIN_TEST_SUPABASE_URL }}
+          AVASIN_TEST_SUPABASE_PUBLISHABLE_KEY: ${{ secrets.AVASIN_TEST_SUPABASE_PUBLISHABLE_KEY }}
+          AVASIN_TEST_STUDENT_EMAIL: ${{ secrets.AVASIN_TEST_STUDENT_EMAIL }}
+          AVASIN_TEST_STUDENT_PASSWORD: ${{ secrets.AVASIN_TEST_STUDENT_PASSWORD }}
+        run: python scripts/test_kurmanji_live_test_browser.py
