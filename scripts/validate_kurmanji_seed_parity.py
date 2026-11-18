@@ -317,8 +317,6 @@ def main() -> int:
         if "lesson-content" not in page_html or f'data-lesson-key="{key}"' not in page_html:
             print(f"ERROR: static lesson page is not wired to its exact protected content key for {key}")
             return 1
-            print(f"ERROR: static lesson page is not wired to its exact protected content key for {key}")
-            return 1
 
     print("PASS: historical release migration remains byte-identical to its recorded Git blob.")
     print("PASS: 38 historical baseline tuples and 38 seed tuples have the expected ordered keys.")
