@@ -56,3 +56,15 @@ The static code review found no definite mismatch requiring a K127 test correcti
 - No test learner or OTP created/sent.
 - No content, runtime, SQL, RLS, or grants changed.
 - No deployment, PR, merge, or `main` update.
+
+
+## CI completion addendum — verified 2026-11-18
+
+After this static review was committed, workflow run [44257368596](https://github.com/avasinim/zanztkurd/actions/runs/44257368596) completed with conclusion **success** at `2026-11-18T07:19:08Z`.
+
+All workflow steps completed successfully, including:
+
+- Install Playwright browser tests
+- Run north-circle browser regression tests
+
+This confirms that the K127 synthetic browser suite, including the new Course 2 unauthenticated, unenrolled, sequence-denied, and mocked content-RLS-denied cases, passed in GitHub Actions. It does not convert the mocked fixtures into live Supabase Auth/RLS acceptance tests.
