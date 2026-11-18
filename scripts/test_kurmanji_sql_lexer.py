@@ -74,6 +74,22 @@ class TokenizeSqlTests(unittest.TestCase):
         source = "SELECT 'ON CONFLICT'; ON   CONFLICT (lesson_key)"
         self.assertEqual(find_sql_marker(source, "ON   CONFLICT"), source.rfind("ON"))
 
+    def test_marker_inside_larger_identifier_is_ignored(self):
+        source = "INSERT NOTVALUES; VALUES (1)"
+        self.assertEqual(find_sql_marker(source, "VALUES"), source.rfind("VALUES"))
+
+    def test_marker_with_identifier_suffix_is_ignored(self):
+        source = "INSERT VALUES_suffix; VALUES (1)"
+        self.assertEqual(find_sql_marker(source, "VALUES"), source.rfind("VALUES"))
+
+    def test_multi_token_marker_with_identifier_suffix_is_ignored(self):
+        source = "ON   CONFLICTING; ON   CONFLICT (lesson_key)"
+        self.assertEqual(find_sql_marker(source, "ON   CONFLICT"), source.rfind("ON"))
+
+    def test_marker_with_identifier_prefix_is_ignored(self):
+        source = "XVALUES; VALUES (1)"
+        self.assertEqual(find_sql_marker(source, "VALUES"), source.rfind("VALUES"))
+
     def test_source_spans_reconstruct_exact_input(self):
         source = "SELECT /* c */ E'a" + chr(92) + "'b', $x$z$x$;"
         tokens = list(tokenize_sql(source))
