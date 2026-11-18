@@ -135,9 +135,9 @@ The exact “current text” snippets below are quoted from the split seed paylo
 > «بۆ داهاتوو، Haig (§2.6.4) نمونەی ew dē mesel-ē ji te re bēž-e دەهێنێتەوە...»
 
 **Proposed correction (A — exact transcription check):**
-> «فۆڕمی داهاتوو لە سەرچاوەی Haigدا بە شێوەی `ew dê mesel-ê ji te re bêj-ê` هاتووە. پێش بڵاوکردنەوە، نووسینی لاتینی و نیشانەکانی درێژی دەبێت ڕاستەوخۆ لە PDFی سەرچاوە و لەگەڵ شێوازی ڕێنووسی کۆرس بەراورد بکرێن. پاشان `dê` و فۆڕمی کردار بە جیاوازی ڕوون بکرێنەوە؛ داهاتوو بە پاشگری تاک دروست نابێت.»
+> «فۆڕمی داهاتوو لە وانەکەدا `ew dē mesel-ē ji te re bēž-e` ـە. ئەم نووسینە لە Haig (2018:129)، نموونەی (27)، بە هەمان شێوە هاتووە؛ بۆیە وەک وەرگرتنی ڕاستەوخۆی سەرچاوە بپارێزرێت. `dē` نیشانەی داهاتووە و `bēž-e` فۆڕمی subjunctive ـی کرداری `gotin` ـە. نیشانەکانی درێژی و نووسینی لاتینی بەبێ بەڵگە مەگۆڕە.»
 
-**Reason:** The current lesson's Latin transcription should not be treated as a verbatim quote until it is checked against the actual PDF. Haig describes future as a particle plus subjunctive construction, with dialect and verb-specific details.
+**Reason:** Direct inspection of Haig (2018:129), example (27), confirms that the current lesson's exact Latin transcription matches the source. The earlier alternative transcription in the claim register was erroneous. Haig describes future as a particle plus subjunctive construction, with dialect and verb-specific details.
 
 **Disposition:** Mandatory source transcription check; no silent correction to Latin text.
 
