@@ -84,7 +84,7 @@ class TokenizeSqlTests(unittest.TestCase):
 
     def test_multi_token_marker_with_identifier_suffix_is_ignored(self):
         source = "ON   CONFLICTING; ON   CONFLICT (lesson_key)"
-        self.assertEqual(find_sql_marker(source, "ON   CONFLICT"), source.rfind("ON"))
+        self.assertEqual(find_sql_marker(source, "ON   CONFLICT"), source.index("ON   CONFLICT", source.index(";") + 1))
 
     def test_marker_with_identifier_prefix_is_ignored(self):
         source = "XVALUES; VALUES (1)"
