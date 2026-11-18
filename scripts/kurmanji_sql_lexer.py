@@ -130,10 +130,17 @@ def tokenize_sql(source: str) -> Iterator[Token]:
         yield Token("symbol", source[start:i], start, i)
 
 
+def _is_identifier_continue(char: str) -> bool:
+    """Match PostgreSQL unquoted identifier continuation characters."""
+    return char.isalnum() or char in "_$"
+
+
 def find_sql_marker(source: str, marker: str, start: int = 0) -> int:
-    """Find a marker outside comments and quoted constructs; return -1 if absent.
+    """Find a marker outside comments/quotes and at identifier boundaries.
 
     Markers may span multiple ordinary SQL tokens (for example ON CONFLICT).
+    If a marker begins or ends with an identifier character, the adjacent
+    source character must not continue an unquoted SQL identifier.
     """
     if not marker:
         raise ValueError("marker must not be empty")
@@ -142,11 +149,26 @@ def find_sql_marker(source: str, marker: str, start: int = 0) -> int:
         for token in tokenize_sql(source)
         if token.kind in _OPAQUE_KINDS
     ]
+    marker_starts_identifier = _is_identifier_continue(marker[0])
+    marker_ends_identifier = _is_identifier_continue(marker[-1])
     candidate = source.find(marker, start)
     while candidate >= 0:
         candidate_end = candidate + len(marker)
-        if not any(candidate < end and candidate_end > span_start
-                   for span_start, end in opaque_spans):
+        overlaps_opaque = any(
+            candidate < end and candidate_end > span_start
+            for span_start, end in opaque_spans
+        )
+        left_boundary_ok = (
+            not marker_starts_identifier
+            or candidate == 0
+            or not _is_identifier_continue(source[candidate - 1])
+        )
+        right_boundary_ok = (
+            not marker_ends_identifier
+            or candidate_end == len(source)
+            or not _is_identifier_continue(source[candidate_end])
+        )
+        if not overlaps_opaque and left_boundary_ok and right_boundary_ok:
             return candidate
         candidate = source.find(marker, candidate + 1)
     return -1
