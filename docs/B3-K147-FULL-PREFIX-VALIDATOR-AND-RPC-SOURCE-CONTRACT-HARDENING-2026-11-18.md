@@ -14,11 +14,13 @@ These are source-contract checks. They detect accidental deletion or weakening o
 
 ## CI evidence
 GitHub Actions run `44262966061` was triggered by this validator-file change on the isolated work branch.
-At the time this report was written:
+Final verified result for GitHub Actions run `44262966061`:
 - PostgreSQL SQL parser: passed.
 - Migration/seed parity: passed.
 - Kurmanji package validator (including the new 16-case and RPC source contracts): passed.
-- Playwright browser installation: still in progress; browser regression execution had not yet started.
+- Playwright browser installation: passed.
+- North-circle browser regression tests: passed.
+- Entire `kurmanji-package-integrity` job: SUCCESS.
 - Supabase Preview: skipped because the branch is not associated with a Supabase Branch.
 
 The workflow path filters still omit the proposed full-prefix migration and SQL test paths. That CI trigger configuration was deliberately not changed in K147; it remains a separately reviewed CI configuration task. A change to the validator itself does trigger the workflow.
@@ -38,4 +40,4 @@ The workflow path filters still omit the proposed full-prefix migration and SQL 
 - Validator update commit: `00779dc496a0876b21d10c73b4334ec75f5b8513`
 - Main baseline observed: `cf045a888b8df6d4f3e8e7b51078d64f12f9aca3`
 
-Report records the observed CI state at authoring time; browser test completion must be verified separately.
+The complete package-integrity workflow run is verified successful; Supabase Preview remains skipped and no database branch was created.
