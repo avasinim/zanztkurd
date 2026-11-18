@@ -389,7 +389,7 @@ else:
     prefix_sql = prefix_migration_path.read_text(encoding="utf-8").lower()
     for required in (
         "create or replace function public.has_completed_lesson_prefix",
-        "revoke all on function public.has_completed_lesson_prefix(text[],text[],integer) from public, anon, authenticated",
+        "revoke all on function public.has_completed_lesson_prefix(text[],text[],integer) from public, anon, authenticated, service_role",
         "public.has_completed_lesson_prefix(completed_keys, lesson_order, lesson_index)",
         "from public.lesson_progress lp",
         "array_agg(lp.lesson_key)",
