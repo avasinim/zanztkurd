@@ -17,6 +17,7 @@ on:
       - "supabase/tests/kurmanji_rpc_fixture.sql"
       - "supabase/tests/kurmanji_rpc_integration.sql"
       - "scripts/test_kurmanji_rpc_integration.py"
+      - "scripts/test_kurmanji_rpc_integration_runner.py"
       - "scripts/validate_kurmanji_package.py"
       - "scripts/validate_kurmanji_sql.py"
       - "scripts/kurmanji_sql_lexer.py"
@@ -42,6 +43,7 @@ on:
       - "supabase/tests/kurmanji_rpc_fixture.sql"
       - "supabase/tests/kurmanji_rpc_integration.sql"
       - "scripts/test_kurmanji_rpc_integration.py"
+      - "scripts/test_kurmanji_rpc_integration_runner.py"
       - "scripts/validate_kurmanji_package.py"
       - "scripts/validate_kurmanji_sql.py"
       - "scripts/kurmanji_sql_lexer.py"
@@ -85,6 +87,8 @@ jobs:
         run: python scripts/validate_kurmanji_sql.py
       - name: Run PostgreSQL SQL lexer unit tests
         run: python -m unittest discover -s scripts -p "test_kurmanji_sql_lexer.py" -v
+      - name: Test disposable PostgreSQL runner URL guard
+        run: python -m unittest discover -s scripts -p "test_kurmanji_rpc_integration_runner.py" -v
       - name: Run Kurmanji progression RPC integration tests
         env:
           DATABASE_URL: postgresql://postgres:postgres@localhost:5432/kurmanji_test
