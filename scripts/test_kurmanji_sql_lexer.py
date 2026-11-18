@@ -1,7 +1,11 @@
 """Tests for the standalone PostgreSQL lexical scanner."""
 import unittest
 
-from kurmanji_sql_lexer import find_sql_marker, tokenize_sql
+from kurmanji_sql_lexer import (
+    find_dollar_quoted_do_block,
+    find_sql_marker,
+    tokenize_sql,
+)
 
 
 class TokenizeSqlTests(unittest.TestCase):
@@ -96,6 +100,75 @@ class TokenizeSqlTests(unittest.TestCase):
         self.assertEqual("".join(token.text for token in tokens), source)
         self.assertEqual(tokens[0].start, 0)
         self.assertEqual(tokens[-1].end, len(source))
+
+
+class DollarQuotedDoBlockTests(unittest.TestCase):
+    def test_finds_named_do_block_span(self):
+        source = "DO $preflight$ BEGIN PERFORM 1; END $preflight$;"
+        start = source.index("$preflight$")
+        end = source.rindex("$preflight$") + len("$preflight$")
+        self.assertEqual(
+            find_dollar_quoted_do_block(source, "$preflight$"),
+            (start, end),
+        )
+
+    def test_allows_whitespace_and_comments_between_do_and_body(self):
+        source = "DO /* comment */\n $apply$ BEGIN NULL; END $apply$;"
+        start = source.index("$apply$")
+        end = source.rindex("$apply$") + len("$apply$")
+        self.assertEqual(
+            find_dollar_quoted_do_block(source, "$apply$"),
+            (start, end),
+        )
+
+    def test_ignores_do_text_inside_comment_and_string(self):
+        source = (
+            "-- DO $preflight$ fake $preflight$\n"
+            "SELECT 'DO $preflight$ fake $preflight
+    unittest.main()
+;\n"
+            "DO $preflight$ BEGIN NULL; END $preflight$;"
+        )
+        start = source.rindex("$preflight$")
+        # rindex points to the closing delimiter; locate the opening one
+        start = source.index("$preflight$", source.index("DO $preflight$"))
+        end = source.rindex("$preflight$") + len("$preflight$")
+        self.assertEqual(
+            find_dollar_quoted_do_block(source, "$preflight$"),
+            (start, end),
+        )
+
+    def test_requires_exact_tag(self):
+        source = "DO $Preflight$ BEGIN NULL; END $Preflight$;"
+        self.assertIsNone(find_dollar_quoted_do_block(source, "$preflight$"))
+
+    def test_respects_start_offset(self):
+        source = (
+            "DO $preflight$ BEGIN NULL; END $preflight$; "
+            "DO $apply$ BEGIN NULL; END $apply$;"
+        )
+        second_do = source.index("DO $apply$")
+        start = source.index("$apply$")
+        end = source.rindex("$apply$") + len("$apply$")
+        self.assertEqual(
+            find_dollar_quoted_do_block(source, "$apply$", second_do),
+            (start, end),
+        )
+
+    def test_rejects_invalid_tag_and_negative_start(self):
+        with self.assertRaisesRegex(ValueError, "exact PostgreSQL"):
+            find_dollar_quoted_do_block("DO $x$ body $x$", "preflight")
+        with self.assertRaisesRegex(ValueError, "non-negative"):
+            find_dollar_quoted_do_block("DO $ body $", "$", -1)
+
+    def test_unterminated_dollar_body_fails_closed(self):
+        with self.assertRaisesRegex(ValueError, "unterminated dollar-quoted"):
+            find_dollar_quoted_do_block("DO $body$ unfinished", "$body$")
+
+    def test_returns_none_when_no_matching_do_body_exists(self):
+        self.assertIsNone(
+            find_dollar_quoted_do_block("SELECT $preflight$ text $preflight$;", "$preflight$")
+        )
 
 
 if __name__ == "__main__":
