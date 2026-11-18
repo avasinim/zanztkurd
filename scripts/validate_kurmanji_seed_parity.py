@@ -306,7 +306,7 @@ def main() -> int:
         page_html = page_path.read_text(encoding="utf-8")
         title_values = tuple_string_values(effective[key], f"effective row {key}")
         expected_title = title_values[2]
-        heading_match = re.search(r"<h1\\b[^>]*>(.*?)</h1>", page_html, re.IGNORECASE | re.DOTALL)
+        heading_match = re.search(r"<h1[^>]*>(.*?)</h1>", page_html, re.IGNORECASE | re.DOTALL)
         if not heading_match:
             print(f"ERROR: static lesson page has no H1 heading for {key}")
             return 1
