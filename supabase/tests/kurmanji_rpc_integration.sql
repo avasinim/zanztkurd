@@ -79,6 +79,9 @@ BEGIN
   IF public.can_read_lesson_content('not-a-course', 'lesson-01.html') THEN
     RAISE EXCEPTION 'unknown course must not grant lesson access';
   END IF;
+  IF public.can_read_lesson_content('kurmanji-course-1', 'not-a-real-lesson.html') THEN
+    RAISE EXCEPTION 'unknown lesson key must not grant lesson access';
+  END IF;
   BEGIN
     PERFORM public.complete_lesson('kurmanji-course-1', 'not-a-real-lesson.html');
     RAISE EXCEPTION 'expected INVALID_LESSON';
