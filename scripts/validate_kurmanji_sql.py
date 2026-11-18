@@ -14,6 +14,8 @@ ROOT = Path(__file__).resolve().parents[1]
 FILES = [
     ROOT / "supabase/migrations/20261024122051_add_kurmanji_courses_and_protected_lessons.sql",
     ROOT / "supabase/migrations/20261116120000_reconcile_kurmanji_seed_content.sql",
+    ROOT / "supabase/migrations/20261118100000_enforce_full_lesson_prefix_progression.sql",
+    ROOT / "supabase/tests/kurmanji_full_prefix_progression.sql",
     *sorted((ROOT / "docs").glob("kurmanji-content-seed-part-*.sql")),
 ]
 
