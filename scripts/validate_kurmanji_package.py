@@ -380,6 +380,40 @@ else:
     ):
         if required not in script_html:
             ERRORS.append(f"Protected lesson redirect does not preserve course context: {required}")
+# Full-prefix progression migration and SQL regression-test source contracts.
+prefix_migration_path = ROOT / "supabase" / "migrations" / "20261118100000_enforce_full_lesson_prefix_progression.sql"
+prefix_test_path = ROOT / "supabase" / "tests" / "kurmanji_full_prefix_progression.sql"
+if not prefix_migration_path.exists():
+    ERRORS.append("Missing full-prefix progression migration")
+else:
+    prefix_sql = prefix_migration_path.read_text(encoding="utf-8").lower()
+    for required in (
+        "create or replace function public.has_completed_lesson_prefix",
+        "revoke all on function public.has_completed_lesson_prefix(text[],text[],integer) from public, anon, authenticated",
+        "public.has_completed_lesson_prefix(completed_keys, lesson_order, lesson_index)",
+        "from public.lesson_progress lp",
+        "array_agg(lp.lesson_key)",
+        "raise exception 'previous_lesson_required'",
+    ):
+        if required not in prefix_sql:
+            ERRORS.append(f"Full-prefix migration is missing required progression contract: {required}")
+    if "lesson_order[lesson_index - 1]" in prefix_sql or "previous_key" in prefix_sql:
+        ERRORS.append("Full-prefix migration still contains immediate-predecessor-only progression logic")
+if not prefix_test_path.exists():
+    ERRORS.append("Missing full-prefix progression SQL regression tests")
+else:
+    prefix_test_sql = prefix_test_path.read_text(encoding="utf-8").lower()
+    for required in (
+        "contiguous prefix should be accepted",
+        "missing first lesson must reject access to lesson 3",
+        "missing middle lesson must reject access to lesson 4",
+        "lesson 1 must be available",
+        "out-of-range lesson index must be rejected",
+        "null progress must not satisfy a required prefix",
+    ):
+        if required not in prefix_test_sql:
+            ERRORS.append(f"Full-prefix SQL regression tests are missing case: {required}")
+
 # Static privilege-contract regression checks. These validate committed SQL source;
 # they do not connect to Supabase or replace live JWT/RLS tests.
 admin_migration_path = ROOT / "supabase" / "migrations" / "20261007152000_admin_dashboard.sql"
