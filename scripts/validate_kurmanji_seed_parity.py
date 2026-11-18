@@ -263,6 +263,24 @@ def main() -> int:
         print("ERROR: forward migration is missing safety guard(s): " + ", ".join(missing_guards))
         return 1
 
+    # Reconciliation must remain a content-only operation. Progress, enrollment,
+    # course catalog, and other tables are outside this migration's write scope.
+    if len(re.findall(r"(?im)^\\s*INSERT\\s+INTO\\s+public\\.lesson_content\\b", apply_sql)) != 1:
+        print("ERROR: forward migration must write to public.lesson_content exactly once")
+        return 1
+    if re.search(r"(?im)^\\s*(?:INSERT\\s+INTO|UPDATE|DELETE\\s+FROM|TRUNCATE)\\s+public\\.(?!lesson_content\\b)[a-z_]+", apply_sql):
+        print("ERROR: forward migration contains a write to a table outside public.lesson_content")
+        return 1
+    if re.search(r"\\b(?:lesson_progress|enrollments|courses)\\b", apply_sql, re.IGNORECASE):
+        print("ERROR: forward migration must not reference learner progress, enrollments, or course catalog in its apply phase")
+        return 1
+    if not re.search(
+        r"(?is)DO\\s+\\$apply\\$.*?ON\\s+CONFLICT\\s*\\(\\s*lesson_key\\s*\\)\\s+DO\\s+UPDATE\\s+SET\\s+title\\s*=\\s*EXCLUDED\\.title\\s*,\\s*content_html\\s*=\\s*EXCLUDED\\.content_html\\s*,\\s*updated_at\\s*=\\s*now\\(\\)\\s+WHERE\\s+public\\.lesson_content\\.course_id\\s*=\\s*EXCLUDED\\.course_id",
+        forward_sql,
+    ):
+        print("ERROR: forward migration update scope must remain title/content_html/updated_at with a course_id match")
+        return 1
+
     observed_drift = [key for key in EXPECTED_KEYS if base_by_key[key] != seed_by_key[key]]
     if observed_drift != OVERLAY_KEYS:
         print("ERROR: the exact baseline-to-seed drift set changed; review the forward migration key list")
@@ -281,6 +299,7 @@ def main() -> int:
     print("PASS: forward migration overlays exactly the 12 post-release drifted lesson rows.")
     print("PASS: preflight guards the exact historical values for those same 12 rows.")
     print("PASS: transaction, row-lock, 12-row preflight, and 12-row apply guards are present.")
+    print("PASS: reconciliation writes only lesson_content title/body/timestamp; learner progress and enrollments are outside scope.")
     print("PASS: effective post-migration payload matches all five seed files exactly.")
     print("No database connection was made; no files or lesson content were changed by this validator.")
     return 0
