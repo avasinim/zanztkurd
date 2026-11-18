@@ -177,7 +177,7 @@ def row_course_id(row: str, label: str) -> str:
 
 
 def expected_course_id(lesson_key: str) -> str:
-    match = re.fullmatch(r"kurmanji-course-([12])-lesson-(\\d{2})\\.html", lesson_key)
+    match = re.fullmatch(r"kurmanji-course-([12])-lesson-(\d{2})\.html", lesson_key)
     if not match:
         raise ValueError(f"unexpected Kurmanji lesson key: {lesson_key}")
     course_number, lesson_number = int(match.group(1)), int(match.group(2))
