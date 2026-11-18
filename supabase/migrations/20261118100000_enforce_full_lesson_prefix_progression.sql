@@ -161,7 +161,7 @@ BEGIN
     WHERE lp.user_id = uid AND lp.course_id = p_course_id;
 
     IF NOT public.has_completed_lesson_prefix(completed_keys, lesson_order, lesson_index) THEN
-      RAISE EXCEPTION 'previous_lesson_required';
+      RAISE EXCEPTION 'PREVIOUS_LESSON_REQUIRED';
     END IF;
   END IF;
 
