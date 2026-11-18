@@ -6,6 +6,7 @@ PostgreSQL syntax is checked separately by validate_kurmanji_sql.py.
 """
 from pathlib import Path
 import hashlib
+import html
 import re
 import sys
 
@@ -294,6 +295,32 @@ def main() -> int:
             print(f"ERROR: effective post-migration tuple differs from seed for {key}")
             return 1
 
+    # The static lesson shell and the protected database row must stay aligned.
+    # The shared runtime injects content_html into .lesson-content, while the
+    # page's visible H1 remains part of the static HTML shell.
+    for key in EXPECTED_KEYS:
+        page_path = ROOT / key
+        if not page_path.is_file():
+            print(f"ERROR: static lesson page is missing for {key}")
+            return 1
+        page_html = page_path.read_text(encoding="utf-8")
+        title_values = tuple_string_values(effective[key], f"effective row {key}")
+        expected_title = title_values[2]
+        heading_match = re.search(r"<h1\\b[^>]*>(.*?)</h1>", page_html, re.IGNORECASE | re.DOTALL)
+        if not heading_match:
+            print(f"ERROR: static lesson page has no H1 heading for {key}")
+            return 1
+        actual_heading = html.unescape(re.sub(r"<[^>]+>", "", heading_match.group(1))).strip()
+        if actual_heading != expected_title:
+            print(f"ERROR: static H1 heading differs from effective database title for {key}")
+            return 1
+        if ".lesson-content" not in page_html or not re.search(
+            r'data-lesson-key=["\\']' + re.escape(key) + r'["\\']',
+            page_html,
+        ):
+            print(f"ERROR: static lesson page is not wired to its exact protected content key for {key}")
+            return 1
+
     print("PASS: historical release migration remains byte-identical to its recorded Git blob.")
     print("PASS: 38 historical baseline tuples and 38 seed tuples have the expected ordered keys.")
     print("PASS: forward migration overlays exactly the 12 post-release drifted lesson rows.")
@@ -301,6 +328,7 @@ def main() -> int:
     print("PASS: transaction, row-lock, 12-row preflight, and 12-row apply guards are present.")
     print("PASS: reconciliation writes only lesson_content title/body/timestamp; learner progress and enrollments are outside scope.")
     print("PASS: effective post-migration payload matches all five seed files exactly.")
+    print("PASS: all 38 static H1 headings and protected lesson-content keys match the effective payload.")
     print("No database connection was made; no files or lesson content were changed by this validator.")
     return 0
 
