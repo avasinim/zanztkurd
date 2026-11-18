@@ -16,6 +16,8 @@ FILES = [
     ROOT / "supabase/migrations/20261116120000_reconcile_kurmanji_seed_content.sql",
     ROOT / "supabase/migrations/20261118100000_enforce_full_lesson_prefix_progression.sql",
     ROOT / "supabase/tests/kurmanji_full_prefix_progression.sql",
+    ROOT / "supabase/tests/kurmanji_rpc_fixture.sql",
+    ROOT / "supabase/tests/kurmanji_rpc_integration.sql",
     *sorted((ROOT / "docs").glob("kurmanji-content-seed-part-*.sql")),
 ]
 
