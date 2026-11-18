@@ -177,11 +177,24 @@ def row_course_id(row: str, label: str) -> str:
 
 
 def expected_course_id(lesson_key: str) -> str:
-    if lesson_key.startswith("kurmanji-course-1-lesson-"):
-        return "kurmanji-course-1"
-    if lesson_key.startswith("kurmanji-course-2-lesson-"):
-        return "kurmanji-course-2"
-    raise ValueError(f"unexpected Kurmanji lesson key: {lesson_key}")
+    match = re.fullmatch(r"kurmanji-course-([12])-lesson-(\\d{2})\\.html", lesson_key)
+    if not match:
+        raise ValueError(f"unexpected Kurmanji lesson key: {lesson_key}")
+    course_number, lesson_number = int(match.group(1)), int(match.group(2))
+    max_lessons = {1: 26, 2: 12}[course_number]
+    if not 1 <= lesson_number <= max_lessons:
+        raise ValueError(f"lesson number is outside course {course_number} range: {lesson_key}")
+    return f"kurmanji-course-{course_number}"
+
+
+def validate_row_course_id(row: str, lesson_key: str, label: str) -> None:
+    actual_course_id = row_course_id(row, label)
+    expected_id = expected_course_id(lesson_key)
+    if actual_course_id != expected_id:
+        raise ValueError(
+            f"{label}: course_id mismatch for {lesson_key}; "
+            f"expected {expected_id}, found {actual_course_id}"
+        )
 
 
 def main() -> int:
@@ -235,13 +248,7 @@ def main() -> int:
         )
         for label, keys, rows in course_datasets:
             for key, row in zip(keys, rows):
-                actual_course_id = row_course_id(row, label)
-                expected_id = expected_course_id(key)
-                if actual_course_id != expected_id:
-                    raise ValueError(
-                        f"{label}: course_id mismatch for {key}; "
-                        f"expected {expected_id}, found {actual_course_id}"
-                    )
+                validate_row_course_id(row, key, label)
     except (OSError, UnicodeError, ValueError) as exc:
         print(f"ERROR: {exc}")
         return 1
