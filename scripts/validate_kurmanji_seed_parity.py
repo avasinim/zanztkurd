@@ -254,7 +254,7 @@ def main() -> int:
         (re.search(r"GET DIAGNOSTICS matched_rows = ROW_COUNT", preflight_sql, re.IGNORECASE), "preflight row count"),
         (re.search(r"IF matched_rows <> 12 THEN", preflight_sql, re.IGNORECASE), "12-row preflight abort"),
         (re.search(r"RAISE EXCEPTION", preflight_sql, re.IGNORECASE), "preflight exception"),
-        (re.search(r"GET DIAGNOSTICS affected_rows = ROW_COUNT", apply_sql, re.IGNORECASE), "applied row count"),
+        (re.search(r"SELECT count\(\*\) INTO affected_rows FROM changed", apply_sql, re.IGNORECASE), "applied row count"),
         (re.search(r"IF affected_rows <> 12 THEN", apply_sql, re.IGNORECASE), "12-row apply abort"),
         (re.search(r"RAISE EXCEPTION", apply_sql, re.IGNORECASE), "apply exception"),
     )
