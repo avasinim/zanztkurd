@@ -38,8 +38,10 @@ def validate_database_url(database_url: str) -> None:
         raise ValueError("DATABASE_URL must use the postgres or postgresql scheme.")
     if hostname not in _LOOPBACK_HOSTS:
         raise ValueError("Refusing to connect: DATABASE_URL host must be localhost or a loopback IP.")
-    if port not in {None, _ALLOWED_PORT}:
-        raise ValueError(f"Refusing to connect: disposable PostgreSQL must use port {_ALLOWED_PORT}.")
+    # Require an explicit port. If omitted, libpq can consult PGPORT from the
+    # runner environment, making the effective destination less obvious.
+    if port != _ALLOWED_PORT:
+        raise ValueError(f"Refusing to connect: disposable PostgreSQL must explicitly use port {_ALLOWED_PORT}.")
     if parsed.path.lstrip("/") != _DISPOSABLE_DATABASE:
         raise ValueError(
             f"Refusing to connect: database name must be exactly {_DISPOSABLE_DATABASE!r}."
