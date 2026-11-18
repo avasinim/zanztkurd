@@ -17,6 +17,10 @@ class Token(NamedTuple):
 
 _DOLLAR_TAG = re.compile(r"\$(?:[A-Za-z_][A-Za-z_0-9]*)?\$")
 _IDENT_CONTINUE = re.compile(r"[A-Za-z_0-9$]")
+_OPAQUE_KINDS = {
+    "line_comment", "block_comment", "string", "escape_string",
+    "dollar_string", "quoted_identifier",
+}
 
 
 def tokenize_sql(source: str) -> Iterator[Token]:
@@ -62,7 +66,6 @@ def tokenize_sql(source: str) -> Iterator[Token]:
             yield Token("block_comment", source[start:i], start, i)
             continue
 
-        # E'...' is an escape string only at an identifier boundary.
         escape_prefix = (
             char in "eE"
             and i + 1 < size
@@ -72,9 +75,9 @@ def tokenize_sql(source: str) -> Iterator[Token]:
         if char == "'" or escape_prefix:
             if escape_prefix:
                 i += 1
-            i += 1  # opening apostrophe
+            i += 1
             while i < size:
-                if escape_prefix and source[i] == "\\\\":
+                if escape_prefix and source[i] == "\\":
                     i += 2
                     continue
                 if source[i] == "'":
@@ -109,8 +112,7 @@ def tokenize_sql(source: str) -> Iterator[Token]:
             match = _DOLLAR_TAG.match(source, i)
             if match:
                 tag = match.group(0)
-                body_start = match.end()
-                close_at = source.find(tag, body_start)
+                close_at = source.find(tag, match.end())
                 if close_at < 0:
                     raise ValueError(f"unterminated dollar-quoted string {tag}")
                 i = close_at + len(tag)
@@ -129,19 +131,22 @@ def tokenize_sql(source: str) -> Iterator[Token]:
 
 
 def find_sql_marker(source: str, marker: str, start: int = 0) -> int:
-    """Find a marker outside comments and quoted constructs; return -1 if absent."""
+    """Find a marker outside comments and quoted constructs; return -1 if absent.
+
+    Markers may span multiple ordinary SQL tokens (for example ON CONFLICT).
+    """
     if not marker:
         raise ValueError("marker must not be empty")
-    for token in tokenize_sql(source):
-        if token.end <= start:
-            continue
-        if token.kind in {
-            "line_comment", "block_comment", "string", "escape_string",
-            "dollar_string", "quoted_identifier",
-        }:
-            continue
-        candidate_start = max(token.start, start)
-        offset = source.find(marker, candidate_start, token.end)
-        if offset >= 0:
-            return offset
+    opaque_spans = [
+        (token.start, token.end)
+        for token in tokenize_sql(source)
+        if token.kind in _OPAQUE_KINDS
+    ]
+    candidate = source.find(marker, start)
+    while candidate >= 0:
+        candidate_end = candidate + len(marker)
+        if not any(candidate < end and candidate_end > span_start
+                   for span_start, end in opaque_spans):
+            return candidate
+        candidate = source.find(marker, candidate + 1)
     return -1
