@@ -172,3 +172,46 @@ def find_sql_marker(source: str, marker: str, start: int = 0) -> int:
             return candidate
         candidate = source.find(marker, candidate + 1)
     return -1
+
+def find_dollar_quoted_do_block(
+    source: str,
+    tag: str,
+    start: int = 0,
+) -> tuple[int, int] | None:
+    """Return the full source span of a DO block's dollar-quoted body.
+
+    The returned pair is (opening_delimiter_start, closing_delimiter_end).
+    The tag must be an exact PostgreSQL dollar-quote delimiter such as
+    "$preflight$" or "$$". Whitespace and SQL comments may separate DO
+    from the body. Dollar-quoted bodies remain opaque to ordinary marker
+    searches; this helper only identifies the outer block span.
+    """
+    if not _DOLLAR_TAG.fullmatch(tag):
+        raise ValueError("tag must be an exact PostgreSQL dollar-quote delimiter")
+    if start < 0:
+        raise ValueError("start must be non-negative")
+
+    tokens = list(tokenize_sql(source))
+    for index, token in enumerate(tokens):
+        if token.start < start or token.kind != "word" or token.text.upper() != "DO":
+            continue
+
+        next_index = index + 1
+        while next_index < len(tokens) and tokens[next_index].kind in {
+            "whitespace", "line_comment", "block_comment"
+        }:
+            next_index += 1
+        if next_index >= len(tokens):
+            continue
+
+        body = tokens[next_index]
+        if body.kind != "dollar_string":
+            continue
+        if not body.text.startswith(tag) or not body.text.endswith(tag):
+            continue
+        if len(body.text) < 2 * len(tag):
+            continue
+        return body.start, body.end
+
+    return None
+
