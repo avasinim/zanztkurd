@@ -24,6 +24,8 @@ on:
       - "scripts/test_kurmanji_sql_lexer.py"
       - "scripts/validate_kurmanji_seed_parity.py"
       - "scripts/test_north_circle_ui.py"
+      - "scripts/test_kurmanji_live_test_browser.py"
+      - "scripts/test_kurmanji_live_test_browser_guard.py"
       - "docs/KURMANJI-RELEASE-AUDIT.md"
       - "docs/KURMANJI-STUDENT-ACCESS-AUDIT.md"
       - ".github/workflows/validate-kurmanji-package.yml"
@@ -103,3 +105,7 @@ jobs:
           python -m playwright install --with-deps chromium
       - name: Run north-circle browser regression tests
         run: python scripts/test_north_circle_ui.py
+      - name: Validate isolated Test browser runner configuration
+        run: python -m unittest discover -s scripts -p "test_kurmanji_live_test_browser_guard.py" -v
+      - name: Compile isolated Test browser runner
+        run: python -m py_compile scripts/test_kurmanji_live_test_browser.py
