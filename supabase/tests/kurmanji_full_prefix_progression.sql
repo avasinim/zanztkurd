@@ -25,5 +25,9 @@ BEGIN
   IF public.has_completed_lesson_prefix(
     NULL, ARRAY['l01','l02'], 2
   ) THEN RAISE EXCEPTION 'NULL progress must not satisfy a required prefix'; END IF;
+
+  IF public.has_completed_lesson_prefix(
+    ARRAY[NULL]::text[], ARRAY['l01','l02'], 2
+  ) THEN RAISE EXCEPTION 'NULL entries must not satisfy a required prefix'; END IF;
 END;
 $tests$;
