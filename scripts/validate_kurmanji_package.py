@@ -410,6 +410,7 @@ else:
         "lesson 1 must be available",
         "out-of-range lesson index must be rejected",
         "null progress must not satisfy a required prefix",
+        "null entries must not satisfy a required prefix",
     ):
         if required not in prefix_test_sql:
             ERRORS.append(f"Full-prefix SQL regression tests are missing case: {required}")
