@@ -265,17 +265,17 @@ def main() -> int:
 
     # Reconciliation must remain a content-only operation. Progress, enrollment,
     # course catalog, and other tables are outside this migration's write scope.
-    if len(re.findall(r"(?im)^\\s*INSERT\\s+INTO\\s+public\\.lesson_content\\b", apply_sql)) != 1:
+    if len(re.findall(r"(?im)^\s*INSERT\s+INTO\s+public\.lesson_content\b", apply_sql)) != 1:
         print("ERROR: forward migration must write to public.lesson_content exactly once")
         return 1
-    if re.search(r"(?im)^\\s*(?:INSERT\\s+INTO|UPDATE|DELETE\\s+FROM|TRUNCATE)\\s+public\\.(?!lesson_content\\b)[a-z_]+", apply_sql):
+    if re.search(r"(?im)^\s*(?:INSERT\s+INTO|UPDATE|DELETE\s+FROM|TRUNCATE)\s+public\.(?!lesson_content\b)[a-z_]+", apply_sql):
         print("ERROR: forward migration contains a write to a table outside public.lesson_content")
         return 1
-    if re.search(r"\\b(?:lesson_progress|enrollments|courses)\\b", apply_sql, re.IGNORECASE):
+    if re.search(r"\b(?:lesson_progress|enrollments|courses)\b", apply_sql, re.IGNORECASE):
         print("ERROR: forward migration must not reference learner progress, enrollments, or course catalog in its apply phase")
         return 1
     if not re.search(
-        r"(?is)DO\\s+\\$apply\\$.*?ON\\s+CONFLICT\\s*\\(\\s*lesson_key\\s*\\)\\s+DO\\s+UPDATE\\s+SET\\s+title\\s*=\\s*EXCLUDED\\.title\\s*,\\s*content_html\\s*=\\s*EXCLUDED\\.content_html\\s*,\\s*updated_at\\s*=\\s*now\\(\\)\\s+WHERE\\s+public\\.lesson_content\\.course_id\\s*=\\s*EXCLUDED\\.course_id",
+        r"(?is)DO\s+\$apply\$.*?ON\s+CONFLICT\s*\(\s*lesson_key\s*\)\s+DO\s+UPDATE\s+SET\s+title\s*=\s*EXCLUDED\.title\s*,\s*content_html\s*=\s*EXCLUDED\.content_html\s*,\s*updated_at\s*=\s*now\(\)\s+WHERE\s+public\.lesson_content\.course_id\s*=\s*EXCLUDED\.course_id",
         forward_sql,
     ):
         print("ERROR: forward migration update scope must remain title/content_html/updated_at with a course_id match")
