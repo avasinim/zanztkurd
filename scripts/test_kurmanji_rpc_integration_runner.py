@@ -27,8 +27,12 @@ class ValidateDatabaseUrlTests(unittest.TestCase):
             validate_database_url("postgresql://postgres@localhost:5432/production")
 
     def test_rejects_unexpected_port(self):
-        with self.assertRaisesRegex(ValueError, "must use port 5432"):
+        with self.assertRaisesRegex(ValueError, "must explicitly use port 5432"):
             validate_database_url("postgresql://postgres@localhost:6543/kurmanji_test")
+
+    def test_rejects_missing_port(self):
+        with self.assertRaisesRegex(ValueError, "must explicitly use port 5432"):
+            validate_database_url("postgresql://postgres@localhost/kurmanji_test")
 
     def test_rejects_non_postgresql_scheme(self):
         with self.assertRaisesRegex(ValueError, "postgres or postgresql"):
@@ -44,9 +48,9 @@ class ValidateDatabaseUrlTests(unittest.TestCase):
 
     def test_rejects_query_parameters_that_could_override_connection_target(self):
         unsafe_urls = (
-            "postgresql://postgres@localhost/kurmanji_test?host=db.example.com",
-            "postgresql://postgres@localhost/kurmanji_test?port=6543",
-            "postgresql://postgres@localhost/kurmanji_test?dbname=production",
+            "postgresql://postgres@localhost:5432/kurmanji_test?host=db.example.com",
+            "postgresql://postgres@localhost:5432/kurmanji_test?port=6543",
+            "postgresql://postgres@localhost:5432/kurmanji_test?dbname=production",
         )
         for database_url in unsafe_urls:
             with self.subTest(database_url=database_url):
