@@ -162,10 +162,10 @@ def run_browser_smoke_test() -> None:
                 wait_until="domcontentloaded",
             )
             # The auth page renders its form before its async Supabase client setup
-            # attaches submit handlers. Wait for both injected Test config and the
-            # browser client so this smoke test cannot click an inert form.
+            # finishes and assigns the login submit handler. Wait for the actual
+            # handler as well as the Test config/client before submitting credentials.
             page.wait_for_function(
-                "window.ZANSTI_SUPABASE?.ready === true && typeof window.supabase?.createClient === 'function'",
+                "window.ZANSTI_SUPABASE?.ready === true && typeof window.supabase?.createClient === 'function' && typeof document.getElementById('loginForm')?.onsubmit === 'function'",
                 timeout=15000,
             )
             page.locator("#loginEmail").wait_for(state="visible", timeout=15000)
