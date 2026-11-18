@@ -429,6 +429,112 @@ class NorthCircleBrowserTests(unittest.TestCase):
                 page.close()
                 context.close()
 
+    def test_kurmanji_course2_denies_unauthenticated_unenrolled_and_locked_content(self):
+        scenarios = [
+            ("unauthenticated", False, False, False, 0),
+            ("unenrolled", True, False, True, 0),
+            ("sequence_denied", True, True, False, 0),
+            ("content_rls_denied", True, True, True, 1),
+        ]
+        for scenario, authenticated, enrolled, sequence_allowed, expected_queries in scenarios:
+            with self.subTest(scenario=scenario):
+                context = self.browser.new_context(viewport={"width": 390, "height": 844})
+                context.add_init_script(f"""
+                    window.__lessonContentQueries = 0;
+                    window.__rpcCalls = [];
+                    const scenario = "{scenario}";
+                    const session = { "null" if not authenticated else '{user: {id: "synthetic-course2-learner"}}' };
+                    const client = {{
+                      auth: {{getSession: async () => ({{data: {{session}}, error: null}})}},
+                      rpc: async (name, args) => {{
+                        window.__rpcCalls.push({{name, args}});
+                        if (name === "is_site_owner") return {{data: false, error: null}};
+                        if (name === "student_has_enrollment") return {{data: {str(enrolled).lower()}, error: null}};
+                        if (name === "can_read_lesson_content") return {{data: {str(sequence_allowed).lower()}, error: null}};
+                        return {{data: null, error: null}};
+                      }},
+                      from: (table) => {{
+                        if (table === "lesson_content") window.__lessonContentQueries += 1;
+                        return {{
+                          select: () => ({{
+                            eq: () => ({{
+                              limit: () => ({{
+                                maybeSingle: async () => scenario === "content_rls_denied"
+                                  ? {{data: null, error: {{message: "row-level security denied"}}}}
+                                  : {{data: {{content_html: "<p>UNEXPECTED_COURSE2_PRIVATE_CONTENT</p>"}}, error: null}}
+                              }})
+                            }})
+                          }})
+                        }};
+                      }}
+                    }};
+                    window.supabase = {{createClient: () => client}};
+                    window.ZANSTI_GET_SUPABASE_CLIENT = () => client;
+                """)
+                context.route(
+                    "**/supabase-config.js*",
+                    lambda route: route.fulfill(
+                        status=200,
+                        content_type="application/javascript",
+                        body='window.ZANSTI_SUPABASE={ready:true,url:"https://example.invalid",publishableKey:"test"};',
+                    ),
+                )
+                context.route(
+                    "**/cdn.jsdelivr.net/npm/@supabase/supabase-js@2*",
+                    lambda route: route.fulfill(
+                        status=200,
+                        content_type="application/javascript",
+                        body="window.supabase=window.supabase||{};",
+                    ),
+                )
+                auth_redirects = []
+                dashboard_redirects = []
+
+                def block_auth(route):
+                    auth_redirects.append(route.request.url)
+                    route.abort()
+
+                def block_dashboard(route):
+                    dashboard_redirects.append(route.request.url)
+                    route.abort()
+
+                context.route("**/auth.html*", block_auth)
+                context.route("**/dashboard.html*", block_dashboard)
+                page = context.new_page()
+                page.goto(
+                    f"{BASE_URL}/kurmanji-course-2-lesson-02.html",
+                    wait_until="domcontentloaded",
+                )
+                page.wait_for_timeout(450)
+                self.assertEqual(
+                    page.evaluate("window.__lessonContentQueries"),
+                    expected_queries,
+                    f"unexpected Course 2 lesson_content query count for {scenario}",
+                )
+                rendered_text = page.evaluate(
+                    "document.querySelector('.lesson-content')?.innerText || ''"
+                )
+                self.assertNotIn("UNEXPECTED_COURSE2_PRIVATE_CONTENT", rendered_text)
+                if scenario == "unauthenticated":
+                    self.assertTrue(auth_redirects, "unauthenticated Course 2 visit did not redirect to sign-in")
+                    self.assertFalse(dashboard_redirects)
+                    self.assertEqual(page.evaluate("window.__rpcCalls"), [])
+                elif scenario in ("unenrolled", "sequence_denied"):
+                    self.assertTrue(
+                        dashboard_redirects,
+                        f"{scenario} Course 2 visit did not redirect before loading protected content",
+                    )
+                    self.assertFalse(auth_redirects)
+                else:
+                    self.assertFalse(auth_redirects)
+                    self.assertFalse(dashboard_redirects)
+                    self.assertIn(
+                        "نەتوانرا نێوەڕۆکی وانەکە",
+                        page.locator(".lesson-content").inner_text(),
+                    )
+                page.close()
+                context.close()
+
     def test_mobile_catalog_has_no_horizontal_overflow(self):
         page = self.page
         page.goto(f"{BASE_URL}/lessons/catalog.html", wait_until="domcontentloaded")
