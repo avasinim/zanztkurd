@@ -28,7 +28,7 @@ AS $function$
   END;
 $function$;
 
-REVOKE ALL ON FUNCTION public.has_completed_lesson_prefix(text[],text[],integer) FROM PUBLIC, anon, authenticated;
+REVOKE ALL ON FUNCTION public.has_completed_lesson_prefix(text[],text[],integer) FROM PUBLIC, anon, authenticated, service_role;
 
 
 CREATE OR REPLACE FUNCTION public.can_read_lesson_content(p_course_id text, p_lesson_key text)
