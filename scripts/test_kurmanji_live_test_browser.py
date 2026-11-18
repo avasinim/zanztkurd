@@ -171,6 +171,15 @@ def run_browser_smoke_test() -> None:
             page.locator("#loginEmail").wait_for(state="visible", timeout=15000)
             page.locator("#loginEmail").fill(email)
             page.locator("#loginPassword").fill(password)
+            # Capture browser-native form validation and event delivery without
+            # recording the learner email, password, or any credential values.
+            page.evaluate("""() => {
+              const form = document.getElementById('loginForm');
+              const button = document.getElementById('loginSubmit');
+              window.__loginSubmitProbe = { clickSeen: false, submitSeen: false };
+              button.addEventListener('click', () => { window.__loginSubmitProbe.clickSeen = true; }, true);
+              form.addEventListener('submit', () => { window.__loginSubmitProbe.submitSeen = true; }, true);
+            }""")
             page.locator("#loginSubmit").click()
             try:
                 page.wait_for_url("**/kurmanji-course-1-lesson-01.html", timeout=20000)
@@ -181,10 +190,27 @@ def run_browser_smoke_test() -> None:
                     if message.count() and message.is_visible()
                     else ""
                 )
+                form_probe = page.evaluate("""() => {
+                  const form = document.getElementById('loginForm');
+                  const emailInput = document.getElementById('loginEmail');
+                  const passwordInput = document.getElementById('loginPassword');
+                  const handler = form?.onsubmit;
+                  return {
+                    form_valid: !!form?.checkValidity(),
+                    email_valid: !!emailInput?.checkValidity(),
+                    email_type: emailInput?.type || '(missing)',
+                    password_present: !!passwordInput?.value,
+                    submit_handler_attached: typeof handler === 'function',
+                    submit_handler_is_auth_handler: typeof handler === 'function' && String(handler).includes('signInWithPassword'),
+                    click_event_seen: !!window.__loginSubmitProbe?.clickSeen,
+                    submit_event_seen: !!window.__loginSubmitProbe?.submitSeen
+                  };
+                }""")
                 diagnostics = [
                     f"current_url={page.url}",
                     f"auth_message={auth_message or '(not displayed)'}",
                     f"auth_token_responses={auth_responses or ['(none observed)']}",
+                    "login_form_probe=" + json.dumps(form_probe, sort_keys=True),
                 ]
                 if browser_errors:
                     diagnostics.append("browser_errors=" + " | ".join(browser_errors[-5:]))
