@@ -5,9 +5,6 @@ from kurmanji_sql_lexer import find_sql_marker, tokenize_sql
 
 
 class TokenizeSqlTests(unittest.TestCase):
-    def kinds(self, source):
-        return [token.kind for token in tokenize_sql(source)]
-
     def test_line_comment_is_opaque(self):
         tokens = list(tokenize_sql("-- VALUES ('x')\nVALUES (1)"))
         self.assertEqual(tokens[0].kind, "line_comment")
@@ -71,6 +68,10 @@ class TokenizeSqlTests(unittest.TestCase):
     def test_marker_inside_escape_string_is_ignored(self):
         source = r"SELECT E'VALUES \' still string'; VALUES"
         self.assertEqual(find_sql_marker(source, "VALUES"), source.rfind("VALUES"))
+
+    def test_multi_token_marker_is_supported(self):
+        source = "SELECT 'ON CONFLICT'; ON /* gap */ CONFLICT (lesson_key)"
+        self.assertEqual(find_sql_marker(source, "ON /* gap */ CONFLICT"), source.rfind("ON"))
 
     def test_source_spans_reconstruct_exact_input(self):
         source = "SELECT /* c */ E'a\\'b', $x$z$x$;"
