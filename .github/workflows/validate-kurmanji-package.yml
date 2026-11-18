@@ -80,7 +80,7 @@ jobs:
         with:
           python-version: "3.x"
       - name: Install PostgreSQL SQL parser and integration driver
-        run: python -m pip install --upgrade pip pglast "psycopg[binary]==3.2.9"
+        run: python -m pip install --upgrade pip pglast "psycopg[binary]==3.3.9"
       - name: Parse Kurmanji migration and seed SQL with PostgreSQL parser
         run: python scripts/validate_kurmanji_sql.py
       - name: Run PostgreSQL SQL lexer unit tests
