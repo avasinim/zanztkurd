@@ -161,6 +161,13 @@ def run_browser_smoke_test() -> None:
                 f"{BASE_URL}/auth.html?next=kurmanji-course-1-lesson-01.html",
                 wait_until="domcontentloaded",
             )
+            # The auth page renders its form before its async Supabase client setup
+            # attaches submit handlers. Wait for both injected Test config and the
+            # browser client so this smoke test cannot click an inert form.
+            page.wait_for_function(
+                "window.ZANSTI_SUPABASE?.ready === true && typeof window.supabase?.createClient === 'function'",
+                timeout=15000,
+            )
             page.locator("#loginEmail").wait_for(state="visible", timeout=15000)
             page.locator("#loginEmail").fill(email)
             page.locator("#loginPassword").fill(password)
