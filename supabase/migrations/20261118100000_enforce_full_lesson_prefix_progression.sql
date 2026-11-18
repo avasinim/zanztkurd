@@ -15,11 +15,11 @@ IMMUTABLE
 SET search_path TO ''
 AS $function$
   SELECT CASE
-    WHEN p_lesson_index = 1 THEN true
     WHEN p_lesson_index IS NULL
       OR p_lesson_index < 1
       OR p_lesson_index > COALESCE(array_length(p_lesson_order, 1), 0)
       THEN false
+    WHEN p_lesson_index = 1 THEN true
     ELSE NOT EXISTS (
       SELECT 1
       FROM unnest(p_lesson_order[1:(p_lesson_index - 1)]) AS required(lesson_key)
@@ -111,7 +111,6 @@ DECLARE
   new_status text := 'active';
   lesson_order text[];
   lesson_index integer;
-  previous_key text;
   completed_keys text[];
 BEGIN
   IF uid IS NULL THEN RAISE EXCEPTION 'AUTH_REQUIRED'; END IF;
