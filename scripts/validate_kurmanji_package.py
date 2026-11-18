@@ -403,17 +403,74 @@ if not prefix_test_path.exists():
     ERRORS.append("Missing full-prefix progression SQL regression tests")
 else:
     prefix_test_sql = prefix_test_path.read_text(encoding="utf-8").lower()
-    for required in (
+    # Require every currently authored helper-level assertion, including
+    # boundary and malformed-input cases added in K145.
+    required_prefix_cases = (
         "contiguous prefix should be accepted",
         "missing first lesson must reject access to lesson 3",
         "missing middle lesson must reject access to lesson 4",
-        "lesson 1 must be available",
+        "lesson 1 must be available with an empty progress set",
         "out-of-range lesson index must be rejected",
         "null progress must not satisfy a required prefix",
         "null entries must not satisfy a required prefix",
-    ):
+        "empty progress must not unlock lesson 2",
+        "null lesson index must be rejected",
+        "zero lesson index must be rejected",
+        "null lesson order must be rejected",
+        "empty lesson order must be rejected",
+        "complete 26-lesson prefix must allow the final lesson",
+        "missing lesson 25 must block the final 26th lesson",
+        "complete 12-lesson prefix must allow the final lesson",
+        "missing lesson 11 must block the final 12th lesson",
+    )
+    for required in required_prefix_cases:
         if required not in prefix_test_sql:
             ERRORS.append(f"Full-prefix SQL regression tests are missing case: {required}")
+
+    # Guard the proposed RPC boundary as source text. This is not a live
+    # PostgreSQL/JWT/RLS test and deliberately does not imply deployment.
+    prefix_rpc_contracts = {
+        "can_read_lesson_content": (
+            "auth.uid()",
+            "public.is_site_owner()",
+            "public.enrollments",
+            "public.lesson_progress",
+            "public.has_completed_lesson_prefix(completed_keys, lesson_order, lesson_index)",
+        ),
+        "complete_lesson": (
+            "auth.uid()",
+            "email_confirmed_at",
+            "phone_confirmed_at",
+            "public.enrollments",
+            "public.has_completed_lesson_prefix(completed_keys, lesson_order, lesson_index)",
+            "raise exception 'previous_lesson_required'",
+            "insert into public.lesson_progress",
+        ),
+    }
+    for function_name, required_tokens in prefix_rpc_contracts.items():
+        start_at = prefix_sql.find(f"create or replace function public.{function_name}")
+        body_start = prefix_sql.find("as $function$", start_at) if start_at >= 0 else -1
+        body_end = prefix_sql.find("$function$;", body_start + 13) if body_start >= 0 else -1
+        if start_at < 0 or body_start < 0 or body_end < 0:
+            ERRORS.append(f"Full-prefix RPC definition is missing or unparsable: {function_name}")
+            continue
+        definition = prefix_sql[start_at:body_end]
+        body = prefix_sql[body_start + 13:body_end]
+        if "security definer" not in definition or "set search_path to ''" not in definition:
+            ERRORS.append(f"Full-prefix RPC must remain SECURITY DEFINER with an empty search_path: {function_name}")
+        for token in required_tokens:
+            if token not in body:
+                ERRORS.append(f"Full-prefix RPC {function_name} is missing authorization invariant: {token}")
+
+    for required in (
+        "revoke all on function public.can_read_lesson_content(text,text) from public, anon",
+        "grant execute on function public.can_read_lesson_content(text,text) to authenticated",
+        "revoke all on function public.complete_lesson(text,text) from public, anon",
+        "grant execute on function public.complete_lesson(text,text) to authenticated",
+        "revoke all on function public.has_completed_lesson_prefix(text[],text[],integer) from public, anon, authenticated, service_role",
+    ):
+        if required not in prefix_sql:
+            ERRORS.append(f"Full-prefix migration is missing privilege contract: {required}")
 
 # Static privilege-contract regression checks. These validate committed SQL source;
 # they do not connect to Supabase or replace live JWT/RLS tests.
