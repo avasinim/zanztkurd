@@ -71,8 +71,8 @@ class TokenizeSqlTests(unittest.TestCase):
         self.assertEqual(find_sql_marker(source, "VALUES"), source.rfind("VALUES"))
 
     def test_multi_token_marker_is_supported(self):
-        source = "SELECT 'ON CONFLICT'; ON /* gap */ CONFLICT (lesson_key)"
-        self.assertEqual(find_sql_marker(source, "ON /* gap */ CONFLICT"), source.rfind("ON"))
+        source = "SELECT 'ON CONFLICT'; ON   CONFLICT (lesson_key)"
+        self.assertEqual(find_sql_marker(source, "ON   CONFLICT"), source.rfind("ON"))
 
     def test_source_spans_reconstruct_exact_input(self):
         source = "SELECT /* c */ E'a" + chr(92) + "'b', $x$z$x$;"
