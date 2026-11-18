@@ -25,7 +25,8 @@ class TokenizeSqlTests(unittest.TestCase):
         self.assertEqual(token.text, "'it''s VALUES'")
 
     def test_escape_string_backslash_quote(self):
-        token = list(tokenize_sql(r"E'escaped \' quote'"))[0]
+        source = "E'escaped " + chr(92) + "' quote'"
+        token = list(tokenize_sql(source))[0]
         self.assertEqual(token.kind, "escape_string")
 
     def test_e_prefix_inside_identifier_is_not_escape_prefix(self):
@@ -66,7 +67,7 @@ class TokenizeSqlTests(unittest.TestCase):
         self.assertEqual(find_sql_marker(source, "VALUES"), source.rfind("VALUES"))
 
     def test_marker_inside_escape_string_is_ignored(self):
-        source = r"SELECT E'VALUES \' still string'; VALUES"
+        source = "SELECT E'VALUES " + chr(92) + "' still string'; VALUES"
         self.assertEqual(find_sql_marker(source, "VALUES"), source.rfind("VALUES"))
 
     def test_multi_token_marker_is_supported(self):
@@ -74,7 +75,7 @@ class TokenizeSqlTests(unittest.TestCase):
         self.assertEqual(find_sql_marker(source, "ON /* gap */ CONFLICT"), source.rfind("ON"))
 
     def test_source_spans_reconstruct_exact_input(self):
-        source = "SELECT /* c */ E'a\\'b', $x$z$x$;"
+        source = "SELECT /* c */ E'a" + chr(92) + "'b', $x$z$x$;"
         tokens = list(tokenize_sql(source))
         self.assertEqual("".join(token.text for token in tokens), source)
         self.assertEqual(tokens[0].start, 0)
