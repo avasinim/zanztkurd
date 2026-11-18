@@ -190,9 +190,9 @@ def run_browser_smoke_test() -> None:
                 raise AssertionError("A non-read-only Supabase request was blocked: " + ", ".join(blocked_writes))
 
             print("PASS: no lesson completion, enrollment, progress, or other database write was issued.")
-    finally:
-        if browser is not None:
+            # Close Chromium while Playwright sync runtime is still active.
             browser.close()
+    finally:
         server.terminate()
         try:
             server.wait(timeout=5)
