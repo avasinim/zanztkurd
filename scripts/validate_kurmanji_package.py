@@ -19,6 +19,15 @@ if not seed_files:
 
 seed_text = "\n".join(path.read_text(encoding="utf-8") for path in seed_files)
 
+# Split SQL files are historical/draft snapshots, never canonical production
+# migrations. Preserve an explicit warning in every file header.
+for seed_path in seed_files:
+    seed_head = seed_path.read_text(encoding="utf-8")[:1200]
+    if "DRAFT DATA SEED" not in seed_head or "not a production migration" not in seed_head:
+        ERRORS.append(
+            f"Kurmanji split seed must retain its DRAFT DATA SEED / not-production warning: {seed_path.name}"
+        )
+
 # Guard the migration's known cross-course invariants. These checks are static;
 # they do not apply SQL or claim to replace a disposable-database test.
 migration_path = ROOT / "supabase" / "migrations" / "20261019090000_add_kurmanji_courses_and_protected_lessons.sql"
@@ -56,6 +65,17 @@ if not latest_migration_path.exists():
     ERRORS.append("Missing latest Kurmanji access-control migration")
 else:
     latest_sql = latest_migration_path.read_text(encoding="utf-8")
+    # The latest migration is canonical. Draft split seeds provide key coverage
+    # only; their body text is intentionally not compared as authoritative.
+    for course_id, count in expected.items():
+        for number in range(1, count + 1):
+            key = f"{course_id}-lesson-{number:02d}.html"
+            row_pattern = re.compile(r"\\(['\"]" + re.escape(key) + r"['\"]\\s*,")
+            row_count = len(row_pattern.findall(latest_sql))
+            if row_count != 1:
+                ERRORS.append(
+                    f"Latest migration must contain exactly one canonical content row for {key}; found {row_count}"
+                )
     read_match = re.search(
         r"CREATE OR REPLACE FUNCTION public\.can_read_lesson_content\b.*?\$function\$;",
         latest_sql,
@@ -258,18 +278,14 @@ for course_id, count in expected.items():
                 ):
                     ERRORS.append(f"Lesson navigation crosses course boundaries: {key}")
 
-        occurrences = len(re.findall(re.escape(key), seed_text))
-        if occurrences == 0:
-            ERRORS.append(f"Lesson key missing from seed SQL files: {key}")
-        elif occurrences > 1:
-            row_pattern = re.compile(
-                r"\(['\"]" + re.escape(key) + r"['\"]\s*,"
+        row_pattern = re.compile(
+            r"\\(['\"]" + re.escape(key) + r"['\"]\\s*,"
+        )
+        row_count = len(row_pattern.findall(seed_text))
+        if row_count != 1:
+            ERRORS.append(
+                f"Expected exactly one draft seed reference row for {key}; found {row_count}"
             )
-            row_count = len(row_pattern.findall(seed_text))
-            if row_count != 1:
-                ERRORS.append(
-                    f"Expected one seed row for {key}; found {row_count}"
-                )
 
 # Course plan pages must link to every lesson once, in numeric order.
 for course_id, count in expected.items():
@@ -371,7 +387,8 @@ if ERRORS:
     sys.exit(1)
 
 print(
-    "OK: all 38 Kurmanji lesson pages exist; expected seed keys are present; "
+    "OK: all 38 Kurmanji lesson pages and canonical migration rows exist; "
+    "draft seed files are explicitly non-production references with complete key coverage; "
     "lesson keys, shared access-control script, noindex metadata, server-loaded "
     "content placeholders, previous/next navigation, course boundaries, course-plan "
     "ordering, and Kurmanji runtime integration markers are consistent. "
