@@ -314,7 +314,7 @@ def main() -> int:
         if actual_heading != expected_title:
             print(f"ERROR: static H1 heading differs from effective database title for {key}")
             return 1
-        if ".lesson-content" not in page_html or f'data-lesson-key="{key}"' not in page_html:
+        if "lesson-content" not in page_html or f'data-lesson-key="{key}"' not in page_html:
             print(f"ERROR: static lesson page is not wired to its exact protected content key for {key}")
             return 1
             print(f"ERROR: static lesson page is not wired to its exact protected content key for {key}")
