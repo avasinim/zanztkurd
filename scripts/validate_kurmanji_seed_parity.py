@@ -80,6 +80,83 @@ def extract_rows(source: str, label: str) -> list[str]:
     return rows
 
 
+
+def extract_values_rows(source: str, label: str, start_marker: str, end_marker: str) -> list[str]:
+    start = source.find(start_marker)
+    values_at = source.find("VALUES", start)
+    end = source.find(end_marker, values_at)
+    if min(start, values_at, end) < 0:
+        raise ValueError(f"{label}: expected VALUES tuple block not found")
+
+    body = source[values_at + len("VALUES"):end]
+    rows, depth, in_string, tuple_start = [], 0, False, -1
+    i = 0
+    while i < len(body):
+        char = body[i]
+        nxt = body[i + 1] if i + 1 < len(body) else ""
+        if in_string:
+            if char == "'" and nxt == "'":
+                i += 2
+                continue
+            if char == "'":
+                in_string = False
+            i += 1
+            continue
+        if char == "'":
+            in_string = True
+        elif char == "(":
+            if depth == 0:
+                tuple_start = i
+            depth += 1
+        elif char == ")":
+            depth -= 1
+            if depth < 0:
+                raise ValueError(f"{label}: unmatched closing parenthesis")
+            if depth == 0:
+                rows.append(body[tuple_start:i + 1])
+        i += 1
+
+    if in_string or depth != 0:
+        raise ValueError(f"{label}: unterminated SQL string or unbalanced tuple")
+    if not rows:
+        raise ValueError(f"{label}: no tuples found")
+    return rows
+
+
+def tuple_string_values(row: str, label: str) -> list[str]:
+    if not (row.startswith("(") and row.endswith(")")):
+        raise ValueError(f"{label}: malformed SQL tuple")
+    body, fields, i = row[1:-1], [], 0
+    while i < len(body):
+        while i < len(body) and body[i].isspace():
+            i += 1
+        if i >= len(body):
+            break
+        if body[i] != "'":
+            raise ValueError(f"{label}: expected a string literal in tuple")
+        i += 1
+        value = []
+        while i < len(body):
+            if body[i] == "'" and i + 1 < len(body) and body[i + 1] == "'":
+                value.append("'")
+                i += 2
+            elif body[i] == "'":
+                i += 1
+                break
+            else:
+                value.append(body[i])
+                i += 1
+        else:
+            raise ValueError(f"{label}: unterminated SQL string literal")
+        fields.append("".join(value))
+        while i < len(body) and body[i].isspace():
+            i += 1
+        if i < len(body):
+            if body[i] != ",":
+                raise ValueError(f"{label}: expected comma between tuple fields")
+            i += 1
+    return fields
+
 def row_key(row: str, label: str) -> str:
     match = re.match(r"\(\s*'((?:''|[^'])*)'\s*,\s*'((?:''|[^'])*)'\s*,", row)
     if not match:
@@ -110,9 +187,16 @@ def main() -> int:
 
     try:
         base_rows = extract_rows(base_bytes.decode("utf-8"), str(BASE_MIGRATION.relative_to(ROOT)))
+        forward_sql = FORWARD_MIGRATION.read_text(encoding="utf-8")
         overlay_rows = extract_rows(
-            FORWARD_MIGRATION.read_text(encoding="utf-8"),
+            forward_sql,
             str(FORWARD_MIGRATION.relative_to(ROOT)),
+        )
+        preflight_rows = extract_values_rows(
+            forward_sql,
+            "forward migration preflight",
+            "DO $preflight$",
+            ") AS expected",
         )
         seed_rows = []
         for path in SEED_FILES:
@@ -120,6 +204,7 @@ def main() -> int:
 
         base_keys = [row_key(row, "historical migration") for row in base_rows]
         overlay_keys = [row_key(row, "forward migration") for row in overlay_rows]
+        preflight_keys = [row_key(row, "forward migration preflight") for row in preflight_rows]
         seed_keys = [row_key(row, "seed package") for row in seed_rows]
     except (OSError, UnicodeError, ValueError) as exc:
         print(f"ERROR: {exc}")
@@ -140,10 +225,40 @@ def main() -> int:
     if len(set(overlay_keys)) != len(overlay_keys):
         print("ERROR: duplicate lesson_key detected in forward migration")
         return 1
+    if len(preflight_rows) != len(OVERLAY_KEYS) or preflight_keys != OVERLAY_KEYS:
+        print("ERROR: forward migration preflight must guard exactly the 12 drifted lesson keys in canonical order")
+        return 1
 
     base_by_key = dict(zip(base_keys, base_rows))
     overlay_by_key = dict(zip(overlay_keys, overlay_rows))
+    preflight_by_key = dict(zip(preflight_keys, preflight_rows))
     seed_by_key = dict(zip(seed_keys, seed_rows))
+
+    for key in OVERLAY_KEYS:
+        baseline_values = tuple_string_values(base_by_key[key], f"historical row {key}")
+        guarded_values = tuple_string_values(preflight_by_key[key], f"preflight row {key}")
+        if baseline_values != guarded_values:
+            print(f"ERROR: forward migration preflight does not exactly guard historical baseline values for {key}")
+            return 1
+
+    preflight_sql = forward_sql[forward_sql.find("DO $preflight$"):forward_sql.find("$preflight$;")]
+    apply_sql = forward_sql[forward_sql.find("DO $apply$"):]
+    required_guards = (
+        (re.search(r"(?m)^BEGIN;\\s*$", forward_sql), "transaction BEGIN"),
+        (re.search(r"(?m)^COMMIT;\\s*$", forward_sql), "transaction COMMIT"),
+        (re.search(r"FOR UPDATE OF actual", preflight_sql, re.IGNORECASE), "preflight row lock"),
+        (re.search(r"GET DIAGNOSTICS matched_rows = ROW_COUNT", preflight_sql, re.IGNORECASE), "preflight row count"),
+        (re.search(r"IF matched_rows <> 12 THEN", preflight_sql, re.IGNORECASE), "12-row preflight abort"),
+        (re.search(r"RAISE EXCEPTION", preflight_sql, re.IGNORECASE), "preflight exception"),
+        (re.search(r"GET DIAGNOSTICS affected_rows = ROW_COUNT", apply_sql, re.IGNORECASE), "applied row count"),
+        (re.search(r"IF affected_rows <> 12 THEN", apply_sql, re.IGNORECASE), "12-row apply abort"),
+        (re.search(r"RAISE EXCEPTION", apply_sql, re.IGNORECASE), "apply exception"),
+    )
+    missing_guards = [label for matched, label in required_guards if not matched]
+    if missing_guards:
+        print("ERROR: forward migration is missing safety guard(s): " + ", ".join(missing_guards))
+        return 1
+
     observed_drift = [key for key in EXPECTED_KEYS if base_by_key[key] != seed_by_key[key]]
     if observed_drift != OVERLAY_KEYS:
         print("ERROR: the exact baseline-to-seed drift set changed; review the forward migration key list")
@@ -160,6 +275,8 @@ def main() -> int:
     print("PASS: historical release migration remains byte-identical to its recorded Git blob.")
     print("PASS: 38 historical baseline tuples and 38 seed tuples have the expected ordered keys.")
     print("PASS: forward migration overlays exactly the 12 post-release drifted lesson rows.")
+    print("PASS: preflight guards the exact historical values for those same 12 rows.")
+    print("PASS: transaction, row-lock, 12-row preflight, and 12-row apply guards are present.")
     print("PASS: effective post-migration payload matches all five seed files exactly.")
     print("No database connection was made; no files or lesson content were changed by this validator.")
     return 0
