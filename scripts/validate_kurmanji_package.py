@@ -279,7 +279,7 @@ for course_id, count in expected.items():
                     ERRORS.append(f"Lesson navigation crosses course boundaries: {key}")
 
         row_pattern = re.compile(
-            r"\\(['\"]" + re.escape(key) + r"['\"]\\s*,"
+            r"\(['\"]" + re.escape(key) + r"['\"]\s*,
         )
         row_count = len(row_pattern.findall(seed_text))
         if row_count != 1:
