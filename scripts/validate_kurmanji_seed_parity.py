@@ -244,8 +244,8 @@ def main() -> int:
     preflight_sql = forward_sql[forward_sql.find("DO $preflight$"):forward_sql.find("$preflight$;")]
     apply_sql = forward_sql[forward_sql.find("DO $apply$"):]
     required_guards = (
-        (re.search(r"(?m)^BEGIN;\\s*$", forward_sql), "transaction BEGIN"),
-        (re.search(r"(?m)^COMMIT;\\s*$", forward_sql), "transaction COMMIT"),
+        (re.search(r"(?m)^BEGIN;\s*$", forward_sql), "transaction BEGIN"),
+        (re.search(r"(?m)^COMMIT;\s*$", forward_sql), "transaction COMMIT"),
         (re.search(r"FOR UPDATE OF actual", preflight_sql, re.IGNORECASE), "preflight row lock"),
         (re.search(r"GET DIAGNOSTICS matched_rows = ROW_COUNT", preflight_sql, re.IGNORECASE), "preflight row count"),
         (re.search(r"IF matched_rows <> 12 THEN", preflight_sql, re.IGNORECASE), "12-row preflight abort"),
