@@ -122,7 +122,7 @@ class DollarQuotedDoBlockTests(unittest.TestCase):
             "SELECT 'DO $preflight$ fake $preflight$';\n"
             "DO $preflight$ BEGIN NULL; END $preflight$;"
         )
-        start = source.index("$preflight$", source.index("DO $preflight$", source.index("SELECT")))
+        start = source.index("$preflight$", source.rindex("DO $preflight$"))
         end = source.rindex("$preflight$") + len("$preflight$")
         self.assertEqual(find_dollar_quoted_do_block(source, "$preflight$"), (start, end))
 
