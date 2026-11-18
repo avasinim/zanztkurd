@@ -81,7 +81,7 @@ def run_browser_smoke_test() -> None:
     url, key, email, password = read_test_config()
 
     try:
-        from playwright.sync_api import sync_playwright
+        from playwright.sync_api import TimeoutError as PlaywrightTimeoutError, sync_playwright
     except ImportError as exc:
         raise RuntimeError("Playwright is required: install it with python -m pip install playwright and python -m playwright install chromium.") from exc
 
@@ -140,6 +140,23 @@ def run_browser_smoke_test() -> None:
 
             context.route("**/*", isolate_supabase)
             page = context.new_page()
+            browser_errors: list[str] = []
+            auth_responses: list[str] = []
+            page.on("pageerror", lambda error: browser_errors.append(str(error)))
+            page.on(
+                "console",
+                lambda message: browser_errors.append(message.text)
+                if message.type == "error"
+                else None,
+            )
+            page.on(
+                "response",
+                lambda response: auth_responses.append(
+                    f"{response.status} {urlsplit(response.url).path}"
+                )
+                if "/auth/v1/token" in response.url
+                else None,
+            )
             page.goto(
                 f"{BASE_URL}/auth.html?next=kurmanji-course-1-lesson-01.html",
                 wait_until="domcontentloaded",
@@ -148,7 +165,26 @@ def run_browser_smoke_test() -> None:
             page.locator("#loginEmail").fill(email)
             page.locator("#loginPassword").fill(password)
             page.locator("#loginSubmit").click()
-            page.wait_for_url("**/kurmanji-course-1-lesson-01.html", timeout=20000)
+            try:
+                page.wait_for_url("**/kurmanji-course-1-lesson-01.html", timeout=20000)
+            except PlaywrightTimeoutError as exc:
+                message = page.locator("#authMessage")
+                auth_message = (
+                    message.inner_text().strip()
+                    if message.count() and message.is_visible()
+                    else ""
+                )
+                diagnostics = [
+                    f"current_url={page.url}",
+                    f"auth_message={auth_message or '(not displayed)'}",
+                    f"auth_token_responses={auth_responses or ['(none observed)']}",
+                ]
+                if browser_errors:
+                    diagnostics.append("browser_errors=" + " | ".join(browser_errors[-5:]))
+                raise RuntimeError(
+                    "Test learner login did not reach the protected lesson; "
+                    + "; ".join(diagnostics)
+                ) from exc
 
             for page_name, expected_key in COURSES:
                 if not page.url.endswith(page_name):
