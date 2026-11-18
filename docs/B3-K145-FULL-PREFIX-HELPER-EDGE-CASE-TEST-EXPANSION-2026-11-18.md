@@ -12,7 +12,7 @@ Updated `supabase/tests/kurmanji_full_prefix_progression.sql` with additional as
 - The exact final lesson boundary for a 12-lesson course.
 - A missing penultimate prerequisite blocks the final lesson in each course length.
 
-The previous seven cases remain. The file now contains 15 helper-level assertions in total.
+The previous seven cases remain. The file now contains 16 helper-level assertions in total.
 
 ## Scope and limitations
 - This SQL file calls the proposed helper and therefore can run only after the corresponding migration is applied in a disposable/test database.
