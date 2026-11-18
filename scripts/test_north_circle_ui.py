@@ -328,7 +328,7 @@ class NorthCircleBrowserTests(unittest.TestCase):
         page.locator(".kurmanji-completion-gate button").wait_for(timeout=5000)
         page.locator(".kurmanji-completion-gate button").click()
         page.wait_for_url("**/kurmanji-course-1-lesson-02.html", timeout=5000)
-        calls = page.evaluate('JSON.parse(sessionStorage.getItem("__course2RpcCalls") || "[]")')
+        calls = page.evaluate('JSON.parse(sessionStorage.getItem("__rpcCalls") || "[]")')
         completion = [call for call in calls if call["name"] == "complete_lesson"]
         self.assertEqual(len(completion), 1)
         self.assertEqual(completion[0]["args"], {
