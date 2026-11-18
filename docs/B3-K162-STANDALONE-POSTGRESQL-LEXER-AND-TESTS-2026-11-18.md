@@ -3,7 +3,7 @@ Date: 2026-11-18
 
 ## Scope
 
-Added a small standalone lexical scanner and a synthetic unit-test module. This is a preparatory implementation: it is deliberately not yet wired into the existing seed parity validator. That separation avoids silently changing production validation behavior before the new lexical handling is tested and reviewed.
+Added a small standalone lexical scanner and a synthetic unit-test module. This is a preparatory implementation: it is deliberately not yet wired into the existing seed parity validator. That separation avoids silently changing canonical validation behavior before the new lexical handling is executed and reviewed in a complete checkout.
 
 ## Files added
 
@@ -11,7 +11,7 @@ Added a small standalone lexical scanner and a synthetic unit-test module. This 
    - Emits tokens with exact source spans.
    - Recognizes whitespace, words, symbols, line comments, nested block comments, standard single-quoted strings with doubled apostrophes, E-strings with backslash escapes, dollar-quoted strings (including empty and tagged delimiters), and quoted identifiers with doubled double-quotes.
    - Rejects unterminated block comments, string literals, dollar-quoted strings, and quoted identifiers.
-   - Provides `find_sql_marker`, which ignores marker text occurring inside comments and quoted constructs and supports markers spanning multiple ordinary SQL tokens.
+   - Provides `find_sql_marker`, which ignores marker text occurring inside comments and quoted constructs and supports markers spanning ordinary SQL text.
 
 2. `scripts/test_kurmanji_sql_lexer.py`
    - Adds 17 synthetic unittest methods covering the supported lexical states, malformed input, marker discovery, and exact source-span reconstruction.
@@ -25,8 +25,7 @@ The current validator still uses its existing helper functions. This K162 change
 
 ## Verification
 
-- Both new files were committed to the isolated work branch.
-- Source was fetched back from GitHub for inspection after each write.
+- Both new files were committed to the isolated work branch and fetched back from GitHub for source inspection.
 - The 17-test module has **not** been executed in a complete repository checkout in this task.
 - The existing 30-test seed-parity module and full parity validator were not run.
 - No CI run, PostgreSQL syntax check, Supabase query, or database operation was performed.
@@ -41,4 +40,5 @@ No lesson text, seed SQL, migration, existing validator, existing test module, w
 - Starting HEAD: `e5ffd9d56f695fb46051190d795de46dc9a21e25`
 - Main observed before work: `cf045a888b8df6d4f3e8e7b51078d64f12f9aca3`
 - Pre-work backup: `backup/b3-k162-lexer-module-tests-before-2026-11-18`
-- Post-work backup: created after this report commit.
+- Original post-work checkpoint: `backup/b3-k162-lexer-module-tests-after-2026-11-18` (at `85a713760f073a16408e3db9a036c0d67b28d264))
+- Final post-work backup: `backup/b3-k162-lexer-module-tests-after-final-2026-11-18` (created after the final fixture correction and this report revision).
