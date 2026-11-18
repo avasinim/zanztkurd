@@ -44,7 +44,7 @@ class ValidateDatabaseUrlTests(unittest.TestCase):
 
     def test_rejects_url_fragment(self):
         with self.assertRaisesRegex(ValueError, "must not contain a fragment"):
-            validate_database_url("postgresql://postgres@localhost/kurmanji_test#other")
+            validate_database_url("postgresql://postgres@localhost:5432/kurmanji_test#other")
 
     def test_rejects_query_parameters_that_could_override_connection_target(self):
         unsafe_urls = (
