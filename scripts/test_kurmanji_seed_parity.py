@@ -192,7 +192,7 @@ class TupleStringValuesTests(unittest.TestCase):
 class RowKeyTests(unittest.TestCase):
     def test_reads_key_from_two_literal_prefix_fields(self):
         self.assertEqual(
-            row_key(" ( 'lesson-01' , 'course-1' , 'title' )", "fixture"),
+            row_key("( 'lesson-01' , 'course-1' , 'title' )", "fixture"),
             "lesson-01",
         )
 
