@@ -137,7 +137,7 @@ class ExtractValuesRowsTests(unittest.TestCase):
             extract_values_rows(source, "fixture", self.START, self.END)
 
     def test_unterminated_string_fails(self):
-        source = self.START + " VALUES ('k1,'c1') " + self.END
+        source = self.START + " VALUES ('k1,'c1) " + self.END
         with self.assertRaises(ValueError):
             extract_values_rows(source, "fixture", self.START, self.END)
 
