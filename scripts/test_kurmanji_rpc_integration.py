@@ -44,6 +44,11 @@ def validate_database_url(database_url: str) -> None:
         raise ValueError(
             f"Refusing to connect: database name must be exactly {_DISPOSABLE_DATABASE!r}."
         )
+    # libpq URI query parameters can carry alternate connection settings.
+    # This runner needs no query options, so reject them rather than risk a
+    # second host/port/dbname overriding the values checked above.
+    if parsed.query:
+        raise ValueError("Refusing to connect: DATABASE_URL query parameters are not permitted.")
     if parsed.fragment:
         raise ValueError("DATABASE_URL must not contain a fragment.")
 
