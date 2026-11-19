@@ -20,9 +20,10 @@ BASE_URL = "http://127.0.0.1:8766"
 EXPECTED_TEST_URL = "https://juwsjljbdwyncicybwoq.supabase.co"
 PRODUCTION_HOST = "hjpmorabqdhuchpnowiw.supabase.co"
 READ_ONLY_RPC = {"is_site_owner", "student_has_enrollment", "can_read_lesson_content"}
+# The configured Test learner is enrolled in Course 1 only. Do not make the
+# read-only login smoke test fail by requiring Course 2 enrollment.
 COURSES = (
     ("kurmanji-course-1-lesson-01.html", "kurmanji-course-1-lesson-01.html"),
-    ("kurmanji-course-2-lesson-01.html", "kurmanji-course-2-lesson-01.html"),
 )
 
 
