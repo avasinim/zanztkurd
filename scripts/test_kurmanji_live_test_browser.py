@@ -3,7 +3,7 @@
 
 This runner never registers users, enrolls accounts, completes lessons, writes
 progress, runs migrations, or seeds data. It requires a pre-provisioned Test
-student enrolled in both Kurmanji courses.
+student enrolled in Kurmanji Course 1.
 """
 from __future__ import annotations
 
