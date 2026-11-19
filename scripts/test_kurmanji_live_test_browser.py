@@ -151,6 +151,8 @@ def run_browser_smoke_test() -> None:
             page = context.new_page()
             browser_errors: list[str] = []
             auth_responses: list[str] = []
+            rpc_responses: list[str] = []
+            rpc_requests: list[str] = []
             page.on("pageerror", lambda error: browser_errors.append(str(error)))
             page.on(
                 "console",
@@ -159,11 +161,25 @@ def run_browser_smoke_test() -> None:
                 else None,
             )
             page.on(
+                "request",
+                lambda request: rpc_requests.append(f"{request.method} {urlsplit(request.url).path}")
+                if "/rest/v1/rpc/" in request.url
+                else None,
+            )
+            page.on(
                 "response",
                 lambda response: auth_responses.append(
                     f"{response.status} {urlsplit(response.url).path}"
                 )
                 if "/auth/v1/token" in response.url
+                else None,
+            )
+            page.on(
+                "response",
+                lambda response: rpc_responses.append(
+                    f"{response.status} {urlsplit(response.url).path}"
+                )
+                if "/rest/v1/rpc/" in response.url
                 else None,
             )
             page.goto(
@@ -219,6 +235,8 @@ def run_browser_smoke_test() -> None:
                     f"current_url={page.url}",
                     f"auth_message={auth_message or '(not displayed)'}",
                     f"auth_token_responses={auth_responses or ['(none observed)']}",
+                    f"rpc_requests={rpc_requests or ['(none observed)']}",
+                    f"rpc_responses={rpc_responses or ['(none observed)']}",
                     "login_form_probe=" + json.dumps(form_probe, sort_keys=True),
                 ]
                 if browser_errors:
@@ -233,6 +251,19 @@ def run_browser_smoke_test() -> None:
                     page.goto(f"{BASE_URL}/{page_name}", wait_until="domcontentloaded")
 
                 box = page.locator(".lesson-content")
+                # The access gate intentionally hides the document until its auth,
+                # enrollment and lesson-content checks finish. Wait for the gate to
+                # release visibility (or redirect to auth) before testing the box.
+                page.wait_for_function(
+                    "() => document.documentElement.style.visibility !== 'hidden' || location.pathname.endsWith('/auth.html')",
+                    timeout=30000,
+                )
+                if "auth.html" in page.url:
+                    raise AssertionError(
+                        "Protected lesson gate redirected to auth; "
+                        f"rpc_requests={rpc_requests or ['(none observed)']}; "
+                        f"rpc_responses={rpc_responses or ['(none observed)']}"
+                    )
                 box.wait_for(state="visible", timeout=10000)
                 page.wait_for_function(
                     """() => {
