@@ -63,7 +63,7 @@ def read_test_config() -> tuple[str, str, str, str]:
 
     # Do not silently trim a password: spaces can be legitimate password characters.
     # Detect common GitHub-secret paste errors without exposing the secret itself.
-    if password != password.strip() or any(char in password for char in "\\r\\n\\t"):
+    if password != password.strip() or any(char in password for char in "\r\n\t"):
         raise RuntimeError(
             "Test password secret contains leading/trailing whitespace or a line break. "
             "Update only the Test secret value; do not share the password in logs or chat."
