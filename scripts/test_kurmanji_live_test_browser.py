@@ -265,7 +265,54 @@ def run_browser_smoke_test() -> None:
                         f"rpc_requests={rpc_requests or ['(none observed)']}; "
                         f"rpc_responses={rpc_responses or ['(none observed)']}"
                     )
-                box.wait_for(state="visible", timeout=10000)
+                try:
+                    box.wait_for(state="visible", timeout=10000)
+                except PlaywrightTimeoutError as exc:
+                    box_probe = page.evaluate("""() => {
+                      const box = document.querySelector('.lesson-content');
+                      const chain = [];
+                      let node = box;
+                      for (let i = 0; node && i < 6; i++, node = node.parentElement) {
+                        const style = getComputedStyle(node);
+                        const rect = node.getBoundingClientRect();
+                        chain.push({
+                          tag: node.tagName,
+                          id: node.id || '',
+                          class_name: typeof node.className === 'string' ? node.className : '',
+                          display: style.display,
+                          visibility: style.visibility,
+                          opacity: style.opacity,
+                          width: Math.round(rect.width),
+                          height: Math.round(rect.height)
+                        });
+                      }
+                      const style = box ? getComputedStyle(box) : null;
+                      const rect = box?.getBoundingClientRect();
+                      return {
+                        url: location.href,
+                        document_visibility: document.documentElement.style.visibility,
+                        computed_document_visibility: getComputedStyle(document.documentElement).visibility,
+                        box_exists: !!box,
+                        box_visibility: style?.visibility || '(missing)',
+                        box_display: style?.display || '(missing)',
+                        box_aria_busy: box?.getAttribute('aria-busy') || '(unset)',
+                        box_text_length: (box?.innerText || '').trim().length,
+                        box_text_prefix: (box?.innerText || '').trim().slice(0, 100),
+                        box_rect: rect ? {width: Math.round(rect.width), height: Math.round(rect.height)} : null,
+                        ancestor_chain: chain
+                      };
+                    }""")
+                    details = [
+                        "lesson_box_probe=" + json.dumps(box_probe, ensure_ascii=False, sort_keys=True),
+                        f"rpc_requests={rpc_requests or ['(none observed)']}",
+                        f"rpc_responses={rpc_responses or ['(none observed)']}",
+                    ]
+                    if browser_errors:
+                        details.append("browser_errors=" + " | ".join(browser_errors[-8:]))
+                    raise AssertionError(
+                        "Protected lesson gate released, but .lesson-content was not visible; "
+                        + "; ".join(details)
+                    ) from exc
                 page.wait_for_function(
                     """() => {
                       const box = document.querySelector('.lesson-content');
