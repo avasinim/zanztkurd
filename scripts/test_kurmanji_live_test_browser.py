@@ -61,6 +61,14 @@ def read_test_config() -> tuple[str, str, str, str]:
     if not key.startswith("sb_publishable_"):
         raise RuntimeError("Refusing to run: browser key must be a Supabase publishable key, never a secret/service-role key.")
 
+    # Do not silently trim a password: spaces can be legitimate password characters.
+    # Detect common GitHub-secret paste errors without exposing the secret itself.
+    if password != password.strip() or any(char in password for char in "\\r\\n\\t"):
+        raise RuntimeError(
+            "Test password secret contains leading/trailing whitespace or a line break. "
+            "Update only the Test secret value; do not share the password in logs or chat."
+        )
+
     return url, key, email, password
 
 
@@ -79,6 +87,7 @@ def lesson_text_is_real(text: str) -> bool:
 
 def run_browser_smoke_test() -> None:
     url, key, email, password = read_test_config()
+    print(f"PASS: Test password secret formatting is clean (character_count={len(password)}; value hidden).")
 
     try:
         from playwright.sync_api import TimeoutError as PlaywrightTimeoutError, sync_playwright
