@@ -111,6 +111,28 @@ jobs:
         run: python -m unittest discover -s scripts -p "test_kurmanji_live_test_browser_guard.py" -v
       - name: Compile isolated Test browser runner
         run: python -m py_compile scripts/test_kurmanji_live_test_browser.py
+      - name: Safely verify Test credentials configuration (manual dispatch only)
+        if: github.event_name == 'workflow_dispatch'
+        env:
+          TEST_URL: ${{ secrets.AVASIN_TEST_SUPABASE_URL }}
+          TEST_KEY: ${{ secrets.AVASIN_TEST_SUPABASE_PUBLISHABLE_KEY }}
+          TEST_EMAIL: ${{ secrets.AVASIN_TEST_STUDENT_EMAIL }}
+          TEST_PASSWORD: ${{ secrets.AVASIN_TEST_STUDENT_PASSWORD }}
+        run: |
+          python - <<'PY'
+          import os
+          import sys
+
+          checks = {
+              "All four Test secrets are present": all(os.getenv(name) for name in ("TEST_URL", "TEST_KEY", "TEST_EMAIL", "TEST_PASSWORD")),
+              "URL matches the approved Test project": os.getenv("TEST_URL", "").rstrip("/") == "https://juwsjljbdwyncicybwoq.supabase.co",
+              "Publishable key has the expected prefix": os.getenv("TEST_KEY", "").startswith("sb_publishable_"),
+              "Student email has no surrounding whitespace": os.getenv("TEST_EMAIL", "") == os.getenv("TEST_EMAIL", "").strip(),
+          }
+          for label, passed in checks.items():
+              print(f"{'PASS' if passed else 'FAIL'}: {label}")
+          sys.exit(0 if all(checks.values()) else 1)
+          PY
       # Real Test access is opt-in: only a manual dispatch can use these secrets.
       # The runner fails closed unless the exact Test project and a pre-enrolled
       # Test learner are supplied; it blocks all non-allowlisted database writes.
