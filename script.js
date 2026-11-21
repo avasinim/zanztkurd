@@ -811,18 +811,22 @@ if(!window.ZANSTI_OWNER_CHECK){
 /* ===== Server progress sync for local UI fallback ===== */
 if(!window.ZANSTI_SYNC_PROGRESS){
   window.ZANSTI_SYNC_PROGRESS=async function(courseId,files,storage,includeOwner=false){
+    const clearCache=()=>{
+      try{localStorage.setItem(storage,"[]");}
+      catch(storageError){console.warn("[Avasin] unable to clear local progress cache",storageError);}
+    };
     try{
       if(typeof window.ZANSTI_WAIT_FOR_SUPABASE==="function" && !await window.ZANSTI_WAIT_FOR_SUPABASE())return false;
       if(!window.supabase?.createClient||!window.ZANSTI_SUPABASE?.ready)return false;
       const sb=window.ZANSTI_GET_SUPABASE_CLIENT();
       const {data:{session}}=await sb.auth.getSession();
-      if(!session)return;
+      if(!session)return false;
       const {data:owner}=await sb.rpc("is_site_owner");
       if(owner===true && !includeOwner)return;
       const {data:rows,error}=await sb.from("lesson_progress").select("lesson_key").eq("user_id",session.user.id).eq("course_id",courseId);
       if(error){
         console.error("[Avasin] progress sync failed; refusing to trust stale local completion cache",error);
-        localStorage.setItem(storage,"[]");
+        clearCache();
         return false;
       }
       const indexByFile=new Map(files.map((file,i)=>[file,i]));
@@ -831,7 +835,7 @@ if(!window.ZANSTI_SYNC_PROGRESS){
       return true;
     }catch(e){
       console.error("[Avasin] progress sync exception",e);
-      localStorage.setItem(storage,"[]");
+      clearCache();
       return false;
     }
   };
@@ -1078,7 +1082,8 @@ async function markLessonComplete(courseId, lessonKey){
     /* Never redirect a learner to lesson 1 because a temporary progress read failed.
        Reconcile the local cache only after a successful authoritative read. */
     if(serverProgressLoaded){
-      localStorage.setItem(STORAGE,JSON.stringify([...serverDone].sort((a,b)=>a-b)));
+      try{localStorage.setItem(STORAGE,JSON.stringify([...serverDone].sort((a,b)=>a-b)));}
+      catch(error){console.warn("[Avasin] unable to refresh Course 1 local progress cache",error);}
     }
     const s=serverProgressLoaded?serverDone:new Set(),first=firstIncomplete();
     /* Do not redirect a learner away from a lesson based on a progress snapshot.
@@ -1172,7 +1177,10 @@ async function markLessonComplete(courseId, lessonKey){
   async function learningGate(){
     if(!document.querySelector(".learning-sequence") || await window.ZANSTI_OWNER_CHECK)return;
     styles();
-    await window.ZANSTI_SYNC_PROGRESS("orthography-kurdik",COURSE1_FILES,STORAGE,true);
+    /* Never apply roadmap locks from stale localStorage when the server progress
+       snapshot is unavailable. The protected lesson page and RLS remain authoritative. */
+    const progressSyncOk=await window.ZANSTI_SYNC_PROGRESS("orthography-kurdik",COURSE1_FILES,STORAGE,true);
+    if(!progressSyncOk)return;
     const first=firstIncomplete();
     document.querySelectorAll('.learning-sequence a[href*="lessons/"]').forEach(function(a){
       const m=(a.getAttribute("href")||"").match(/lessons\/(\d+)\.html$/);if(!m)return;
