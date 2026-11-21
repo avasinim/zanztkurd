@@ -231,3 +231,39 @@ The separate terminology requirement remains unchanged: use `بڕگە`, never re
 - Keep Kurmanji Latin/Hawar content and other separately governed pathways distinct; this Sorani Avasin Code spelling clarification does not authorize changes to them.
 
 This section corrects the earlier audit's overly broad “preserve authored lesson form” recommendation for the four explicitly specified pairs. The safe technical boundary remains: no unscoped global rewriting, and no automatic change to lesson source files without an approved, reviewed content-editing task. No application code, validator, lesson content, checklist, seed, migration, production resource, or PR was changed in this documentation-only update.
+
+
+## 16. Source-level consistency check against the clarified Avasin Code style
+
+A targeted read-only check of nine lesson Markdown files on `fix/kurmanji-ci-current-migration` confirms that the newly clarified Avasin Code forms are not yet consistent across all sampled source lesson text.
+
+### Exact counts in the nine inspected lesson files
+
+| File | `نییە` | `چییە` | `هەموو` | `نموونە` | `بڕگە` |
+|---|---:|---:|---:|---:|---:|
+| `section-07/lesson-031.md` | 0 | 0 | 0 | 2 | 35 |
+| `section-07/lesson-021.md` | 1 | 0 | 0 | 4 | 7 |
+| `section-07/lesson-023.md` | 1 | 2 | 0 | 0 | 2 |
+| `section-07/lesson-029.md` | 1 | 0 | 0 | 0 | 20 |
+| `section-07/lesson-030.md` | 0 | 0 | 0 | 5 | 22 |
+| `section-07/lesson-032.md` | 0 | 0 | 0 | 8 | 27 |
+| `section-07/lesson-033.md` | 0 | 0 | 0 | 2 | 7 |
+| `section-10/lesson-034.md` | 1 | 2 | 1 | 0 | 0 |
+| `section-10/lesson-035.md` | 0 | 1 | 0 | 1 | 3 |
+| **Total** | **4** | **5** | **1** | **22** | **123** |
+
+The required Avasin Code forms for these explicit cases are `نیە`, `چیە`, `هەمو`, and `نمونە`. Thus, in this nine-file sample, there are at least 32 direct occurrences requiring editorial review (4 + 5 + 1 + 22). This is an exact count for the nine named files only, not a whole-repository count.
+
+The same sample contained zero occurrences of the exact sequence `ییی`. The raw substring `وو` occurred 64 times, but this raw count is **not** a count of erroneous extra letters: it includes valid spellings and cannot be safely reduced by a blanket replacement. The single-letter sequence `ی` is too common to count as an “extra” without word-level rules and examples. No automatic deletion of `وو` or `ی` is justified by this scan.
+
+### Technical consequence
+
+The current isolated-branch `script.js` intentionally skips all text under `.lesson-content` in its initial traversal and MutationObserver paths. That protects lesson source text from unscoped runtime rewriting, but it also means the preferred Avasin Code forms must be corrected in the authoritative source files (or in a specifically approved, source-aware publishing step) if those lessons are within the Avasin Code editorial scope.
+
+The isolated-branch validator (`scripts/validate_kurmanji_package.py`, blob `f550e3532b0084e1ba2198c76def360eb350b96d`) currently requires the static UI map entries for `هەموو` → `هەمو`, `نموونە` → `نمونە`, `چییە` → `چیە`, and `نییە` → `نیە`, and checks the `.lesson-content` guard. It does **not** currently validate that authored Avasin Code lesson source uses the preferred forms. Therefore a source lesson can contain the expanded spellings while the static validator still passes those spelling-map checks. This is a specific validator coverage gap, not evidence that CI has passed.
+
+### Scope and safe next step
+
+This is a targeted sample, not a complete corpus audit. Before changing lesson source, confirm which course/file families are governed by Avasin Code versus the separately protected Kurmanji Latin/Hawar pathway. Then perform a complete source-aware occurrence audit, review each affected sentence/example in context, and only then apply approved edits with the required pre/post backup refs. Do not run blanket replacements for `وو`, `ییی`, or `ی`; retain legitimate sequences. The explicit `بڕگە` terminology remains protected and must not be changed to `هجا`.
+
+No lesson text, runtime script, validator, registry, checklist, seed, migration, production resource, or PR was changed in this audit. Only this evidence report was extended.
