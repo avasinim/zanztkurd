@@ -899,11 +899,11 @@ async function markLessonComplete(courseId, lessonKey){
     if(current<0)return;
     const isOwner=await window.ZANSTI_OWNER_CHECK;
     styles();
-    await window.ZANSTI_SYNC_PROGRESS("phonetics-phonology-kurdik",COURSE2_FILES,STORAGE,isOwner===true);
-    const s=done(),first=firstIncomplete();
-    /* Owners can browse every lesson, but still need the completion action
-       to write their own progress to Supabase and have it appear in reports. */
-    if(!isOwner && current>first){location.replace(url(first));return;}
+    const progressSyncOk=await window.ZANSTI_SYNC_PROGRESS("phonetics-phonology-kurdik",COURSE2_FILES,STORAGE,isOwner===true);
+    const s=progressSyncOk?done():new Set(),first=progressSyncOk?firstIncomplete():0;
+    /* A temporary progress-read failure must never redirect a learner to lesson 1
+       or trust stale localStorage. The server-side page gate and RLS remain authoritative. */
+    if(!isOwner && progressSyncOk && current>first){location.replace(url(first));return;}
     const nav=document.querySelector(".lesson-nav");
     if(!nav||nav.parentElement.querySelector(".course2-gate"))return;
     const gate=document.createElement("div");
@@ -933,7 +933,10 @@ async function markLessonComplete(courseId, lessonKey){
   }
   async function navGate(){
     if(current<0 || await window.ZANSTI_OWNER_CHECK)return;
-    if(await window.ZANSTI_OWNER_CHECK)return;
+    /* If progress cannot be refreshed, do not let a stale browser cache block
+       navigation; the destination page re-checks access on the server. */
+    const progressSyncOk=await window.ZANSTI_SYNC_PROGRESS("phonetics-phonology-kurdik",COURSE2_FILES,STORAGE,false);
+    if(!progressSyncOk)return;
     document.addEventListener("click",function(ev){
       const a=ev.target.closest("a[href]");
       if(!a)return;
@@ -957,7 +960,8 @@ async function markLessonComplete(courseId, lessonKey){
     styles();
     /* Refresh server-authoritative progress before calculating which lessons
        should be locked on the learning roadmap. */
-    await window.ZANSTI_SYNC_PROGRESS("phonetics-phonology-kurdik",COURSE2_FILES,STORAGE,false);
+    const progressSyncOk=await window.ZANSTI_SYNC_PROGRESS("phonetics-phonology-kurdik",COURSE2_FILES,STORAGE,false);
+    if(!progressSyncOk)return;
     const first=firstIncomplete();
     links.forEach(function(a){
       const m=(a.getAttribute("href")||"").match(/course-2-(\d+)\.html$/);
@@ -2022,12 +2026,13 @@ async function markLessonComplete(courseId, lessonKey){
     style.textContent=".kurmanji-completion-gate{margin:20px 0;padding:20px;border:1px solid #273d3226;border-right:4px solid #b38a58;border-radius:14px;background:#f7f6f0}.kurmanji-completion-gate h3{margin:0 0 8px;color:#26372f;font-size:1.1rem}.kurmanji-completion-gate p{margin:0 0 14px;line-height:1.9;color:#66716b}.kurmanji-complete-btn{border:0;border-radius:10px;padding:11px 18px;background:#273f34;color:#fff;font-weight:800;cursor:pointer}.kurmanji-complete-btn:disabled{opacity:.6;cursor:not-allowed}";
     document.head.appendChild(style);
   }
+  let progressSyncOk=false;
   async function setup(){
     const isOwner=await window.ZANSTI_OWNER_CHECK;
     addStyles();
-    await window.ZANSTI_SYNC_PROGRESS(course.id,course.files,course.storage,isOwner===true);
-    const completed=done(),first=firstIncomplete();
-    if(!isOwner&&current>first){
+    progressSyncOk=await window.ZANSTI_SYNC_PROGRESS(course.id,course.files,course.storage,isOwner===true);
+    const completed=progressSyncOk?done():new Set(),first=progressSyncOk?firstIncomplete():0;
+    if(!isOwner&&progressSyncOk&&current>first){
       location.replace(course.files[first]||course.files[0]);
       return;
     }
@@ -2067,7 +2072,7 @@ async function markLessonComplete(courseId, lessonKey){
       const target=(link.getAttribute("href")||"").split("?")[0].split("#")[0].split("/").pop().toLowerCase();
       const targetIndex=course.files.indexOf(target);
       if(targetIndex<=current)return;
-      if(done().has(current))return;
+      if(!progressSyncOk || done().has(current))return;
       event.preventDefault();
       event.stopImmediatePropagation();
       document.querySelector(".kurmanji-completion-gate")?.scrollIntoView({behavior:"smooth",block:"center"});
