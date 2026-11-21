@@ -1,4 +1,4 @@
-name: K142 progress sync browser regression
+name: K142 and Kurmanji progress sync browser regression
 
 on:
   push:
@@ -12,6 +12,8 @@ on:
       - "lessons/018.html"
       - "lessons/course-2-01.html"
       - "lessons/course-2-02.html"
+      - "kurmanji-course-1-lesson-02.html"
+      - "kurmanji-course-2-lesson-02.html"
   pull_request:
     branches: ["main"]
     paths:
