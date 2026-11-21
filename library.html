@@ -1,6 +1,11 @@
 <!doctype html>
 <html lang="ckb" dir="rtl">
 <head>
+<style>
+.skip-link{position:absolute;top:8px;right:8px;z-index:1000;padding:10px 14px;background:#202824;color:#fff;border:2px solid #b48a52;border-radius:8px;transform:translateY(-160%)}
+.skip-link:focus{transform:translateY(0);outline:3px solid #b48a52;outline-offset:3px}
+#main-content:focus{outline:3px solid #8b6b3f;outline-offset:4px}
+</style>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>کتێب‌خانەی دیجیتاڵ | ئەکادێمیای ئاڤاشین</title>
@@ -19,10 +24,11 @@
 <link rel="stylesheet" href="style.css?v=20261014-academic-ui-final">
 </head>
 <body class="v2-home">
+<a class="skip-link" href="#main-content">بازدانەوە بۆ ناوەڕۆکی سەرەکی</a>
 <header class="v2-header"><div class="v2-shell v2-nav">
 <a class="v2-brand academy-brand" href="index.html" aria-label="ئەکادێمیای ئاڤاشین"><span class="academy-mark" aria-hidden="true">A</span><span class="academy-copy"><span class="academy-name">ئەکادێمیای ئاڤاشین</span><span class="academy-sub">ACADEMIC · LANGUAGE PLATFORM</span></span></a>
 <nav class="v2-nav-links" aria-label="ناڤیگیشن"><a href="learning.html">فێربون</a><a href="linguistics.html">زمان‌ناسی</a><a href="lessons/catalog.html">وانەکان</a><a href="library.html" aria-current="page">کتێب‌خانە</a><a href="sabir-zhakaw.html">دەستەی ئەکادێمی</a><a href="about.html">دەربارەی ئاڤاشین</a></nav><div class="v2-account-actions"><a class="v2-nav-account" id="accountLink" href="auth.html">چوونەژورەوە</a></div><button class="v2-menu" id="menuBtn" aria-label="مینیۆ">☰</button></div>
-<div class="v2-mobile-menu" id="mobileMenu"><a id="mobileAccountLink" href="auth.html">چوونەژورەوە</a><a href="learning.html">فێربون</a><a href="linguistics.html">زمان‌ناسی</a><a href="lessons/catalog.html">وانەکان</a><a href="#books">کتێب‌خانە</a><a href="sabir-zhakaw.html">دەستەی ئەکادێمی</a><a href="about.html">دەربارەی ئاڤاشین</a></div></header><main id="library-page">
+<div class="v2-mobile-menu" id="mobileMenu"><a id="mobileAccountLink" href="auth.html">چوونەژورەوە</a><a href="learning.html">فێربون</a><a href="linguistics.html">زمان‌ناسی</a><a href="lessons/catalog.html">وانەکان</a><a href="#books">کتێب‌خانە</a><a href="sabir-zhakaw.html">دەستەی ئەکادێمی</a><a href="about.html">دەربارەی ئاڤاشین</a></div></header><main id="main-content" tabindex="-1">
 <section class="v2-library" id="books" aria-labelledby="library-title">
 <div class="v2-shell">
 <div class="v2-section-head">
