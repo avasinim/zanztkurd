@@ -21,8 +21,10 @@
     @media(max-width:850px){.grid,.people-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.section-head{align-items:start;flex-direction:column;gap:5px}}
     @media(max-width:560px){.shell{width:min(100% - 26px,1160px)}.topline-inner{min-height:58px}.brand{font-size:.87rem}.brand small{font-size:.56rem;letter-spacing:1px}.back{font-size:.76rem;padding:6px 9px}.hero{padding:40px 0 29px}.grid,.people-grid{grid-template-columns:1fr}.resource,.person{min-height:0}.search-wrap{margin-top:20px}.section-head h2{font-size:1.2rem}}
   </style>
+<style>.skip-link{position:absolute;top:8px;right:8px;z-index:1000;padding:12px 16px;background:#fff;color:#173b2c;border:2px solid currentColor;border-radius:8px;transform:translateY(-160%)}.skip-link:focus{transform:translateY(0)}</style>
 </head>
 <body>
+  <a class="skip-link" href="#main-content">بازپەڕە بۆ ناوەڕۆکی سەرەکی</a>
   <header class="topline"><div class="shell topline-inner"><div class="brand">ئەکادێمیای ئاڤاشین<small>ACADEMIC LANGUAGE PLATFORM</small></div><a class="back" href="index.html">← گەڕانەوە بۆ ماڵپەڕ</a></div></header>
   <section class="hero"><div class="shell">
     <span class="eyebrow">GLOBAL LINGUISTICS DIRECTORY · AVASIN</span>
@@ -31,7 +33,7 @@
     <div class="hero-meta"><span class="pill">زمان‌ناسی گشتی</span><span class="pill">فۆنێتیک و فۆنۆلۆجی</span><span class="pill">زمانە جیهانیەکان</span><span class="pill">توێژینەوە و ئارشیف</span></div>
     <div class="search-wrap"><input id="resourceSearch" type="search" placeholder="بگەڕێ بۆ ناو، بابەت یا جۆری سەرچاوە..." aria-label="گەڕان لە سەرچاوە زانستیەکان"></div><div class="search-hint">گەڕان بە ناوی سەرچاوە، ناوی پسپۆڕ یا وشەیەکی وەک فۆنێتیک، داتابەیس، ئارشیف.</div>
   </div></section>
-  <main class="shell">
+  <main id="main-content" class="shell" tabindex="-1">
     <section class="section" aria-labelledby="institutions-title"><div class="section-head"><div><span class="kicker">01 / INSTITUTIONS & SOCIETIES</span><h2 id="institutions-title">دامەزراوە و کۆمەڵە زانستیەکان</h2></div><p>بۆ ناسینەوەی ڕێنماییە زانستیەکان، کۆنگرەکان، توێژینەوەکان و کۆمەڵگەی پسپۆڕانی زمان.</p></div><div class="grid">
       <a class="resource" data-search="international phonetic association ipa فۆنێتیک ئەلفوبێی دەنگی نێودەوڵەتی" href="https://www.internationalphoneticassociation.org/" target="_blank" rel="noopener noreferrer"><span class="type">Association · Phonetics</span><h3>International Phonetic Association (IPA)</h3><p>سەرچاوەی فەرمی بۆ ئەلفوبێی دەنگی نێودەوڵەتی، ڕێنمایی فۆنێتیک و گۆڤاری JIPA.</p><span class="domain">internationalphoneticassociation.org</span></a>
       <a class="resource" data-search="linguistic society of america lsa زمانناسی کۆمەڵە" href="https://www.lsadc.org/" target="_blank" rel="noopener noreferrer"><span class="type">Professional Society</span><h3>Linguistic Society of America (LSA)</h3><p>کۆمەڵەیەکی ئەکادیمی بۆ زمان‌ناسان، سەرچاوەی فێرکاری، پێشکەوتنە پیشەییەکان و پەیوەندی زانستی.</p><span class="domain">lsadc.org</span></a>
