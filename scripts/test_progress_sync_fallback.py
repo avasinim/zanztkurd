@@ -139,6 +139,48 @@ class ProgressSyncFallbackBrowserTests(unittest.TestCase):
             "[]",
         )
 
+    def test_kurmanji_course1_stale_completion_does_not_redirect_or_disable_button(self):
+        page = self.page
+        page.goto(f"{BASE_URL}/kurmanji-course-1-lesson-02.html", wait_until="domcontentloaded")
+        page.evaluate(
+            """() => localStorage.setItem(
+              "avasin_kurmanji_course1_completed_v1",
+              JSON.stringify([0, 1, 2, 3, 4])
+            )"""
+        )
+        page.reload(wait_until="domcontentloaded")
+        page.locator(".kurmanji-completion-gate").wait_for(state="visible", timeout=10000)
+
+        self.assertTrue(page.url.endswith("/kurmanji-course-1-lesson-02.html"))
+        button = page.locator(".kurmanji-complete-btn")
+        self.assertTrue(button.is_visible())
+        self.assertFalse(button.is_disabled())
+        self.assertEqual(
+            page.evaluate('localStorage.getItem("avasin_kurmanji_course1_completed_v1")'),
+            "[]",
+        )
+
+    def test_kurmanji_course2_stale_completion_does_not_redirect_or_disable_button(self):
+        page = self.page
+        page.goto(f"{BASE_URL}/kurmanji-course-2-lesson-02.html", wait_until="domcontentloaded")
+        page.evaluate(
+            """() => localStorage.setItem(
+              "avasin_kurmanji_course2_completed_v1",
+              JSON.stringify([0, 1, 2, 3, 4])
+            )"""
+        )
+        page.reload(wait_until="domcontentloaded")
+        page.locator(".kurmanji-completion-gate").wait_for(state="visible", timeout=10000)
+
+        self.assertTrue(page.url.endswith("/kurmanji-course-2-lesson-02.html"))
+        button = page.locator(".kurmanji-complete-btn")
+        self.assertTrue(button.is_visible())
+        self.assertFalse(button.is_disabled())
+        self.assertEqual(
+            page.evaluate('localStorage.getItem("avasin_kurmanji_course2_completed_v1")'),
+            "[]",
+        )
+
 
 if __name__ == "__main__":
     unittest.main(verbosity=2)
