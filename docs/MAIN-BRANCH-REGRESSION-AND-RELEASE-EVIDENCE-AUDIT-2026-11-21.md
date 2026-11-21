@@ -99,3 +99,27 @@ These are audit findings and proposed actions, not approved implementation instr
 ## 9. Next safe step
 
 Obtain owner approval for a narrowly scoped fix to the shared normalizer and validator on an isolated review branch, after a verified pre-work checkpoint. Separately request authoritative deployment evidence for the migration. Keep the 38 Kurmanji lesson bodies untouched until source-by-source academic review and qualified native-editor review are complete.
+
+
+## 10. Additional finding — release checklist contradicts current main source and validator
+
+A follow-up read-only inspection compared the main release checklist, main shared script, and main package validator:
+
+- `docs/KURMANJI-RELEASE-CHECKLIST.md`, blob `b04e4a6924f8103d7c1b11c7df7362d46bc26932`, line 11 marks as passed: “Shared text-normalization script excludes `.lesson-content` text and attributes; validator checks this safeguard.”
+- The same checklist, lines 13 and 19–30, leaves the current isolated-test-project migration revalidation and student browser acceptance sequence unchecked. It expressly says static checks do not prove end-to-end authentication, enrollment, or sequential access.
+- Main `script.js`, blob `da11a173d7e294cfc771377af387dd11f084e8d1`, lines 1–55, has no `.lesson-content` exclusion in its normalizer or MutationObserver, and its replacement list maps `بڕگە` to `هجا`.
+- Main `scripts/validate_kurmanji_package.py`, blob `386c1073cc0037ec521da7132c4a9d707634fc58`, lines 56–72, asserts presence of selected spelling mappings but does not assert an exclusion for `.lesson-content`. It does not test that the literal `بڕگە` survives. Its comment explicitly says normalization is intentionally applied to source-loaded lesson text.
+- The isolated working branch's `script.js`, blob `894b74ac50837fd8ea2ba8b1fa9aa7864e0fad4b`, contains an `isLessonContentNode` guard in the normalizer and mutation paths and does not contain the `بڕگە` → `هجا` mapping. This is evidence of a branch-level implementation difference only; it does not establish that the checklist's claim is true for main.
+
+**Conclusion:** the checklist's checked statement at line 11 is stale or describes a different revision than current main. It must not be treated as proof that main protects lesson content. The unchecked migration/browser items remain release gates. No CI workflow was executed as part of this follow-up, and no browser runtime reproduction was performed.
+
+## 11. Expanded action register
+
+| ID | Priority | Finding | Closure evidence required |
+|---|---|---|---|
+| MAIN-A05 | P1 | Release checklist claims lesson-content normalization exclusion and validator coverage that are absent from current main source and validator. | Align checklist with the exact audited commit; update only after code and validator tests prove lesson-content protection and preservation of **بڕگە**. |
+| MAIN-A06 | P1 | Release checklist itself leaves isolated test migration revalidation and student browser acceptance incomplete. | Dated test-project migration evidence plus completed student-account browser checks for both Kurmanji courses. |
+
+## 12. Scope clarification
+
+The audit has now inspected the full main normalizer block, the corresponding working-branch normalizer block, the relevant validator section, and the complete release checklist. This remains a targeted audit, not a complete review of all upstream commits or all changed files. No live-site behavior or production database state has been inferred from these static files.
