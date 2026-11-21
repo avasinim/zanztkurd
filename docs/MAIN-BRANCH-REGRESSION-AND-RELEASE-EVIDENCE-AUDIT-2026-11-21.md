@@ -1,0 +1,101 @@
+# Main-branch regression and release-evidence audit — 2026-11-21
+
+**Repository:** `avasinim/zanztkurd`  
+**Working branch:** `fix/kurmanji-ci-current-migration`  
+**Working-branch starting HEAD:** `36f0b4f7280cec11f0a134bf6329b31ebc7f3318`  
+**Pre-work checkpoint:** `backup/main-regression-audit-before-2026-11-21`  
+**Compared main HEAD:** `7acd17e43e191772af9f210e869caac6e00ba7ed`  
+**Status:** read-only evidence audit of upstream changes; this addendum records risks only. It does not authorize code, lesson, database, migration, merge, or deployment changes.
+
+## 1. Scope and safety
+
+The working branch was verified identical to its recorded HEAD `36f0b4f7280cec11f0a134bf6329b31ebc7f3318` before this documentation change. It remains 1,344 commits ahead and 40 behind `main` in the comparison recorded for this audit. No reconciliation was attempted.
+
+This addendum examines selected high-impact files on `main` and the open draft PR #3. It is not a complete review of all 40 upstream commits or all 91 changed paths. No claim of full upstream safety is made.
+
+## 2. P0 — shared text normalizer rewrites protected lesson terminology
+
+On `main`, `script.js` blob `da11a173d7e294cfc771377af387dd11f084e8d1` contains the replacement at line 16:
+
+```js
+[/بڕگە/g,"هجا"],
+```
+
+This globally maps the project-approved term **بڕگە** to **هجا** in the normalizer's replacement table. That conflicts with the established editorial requirement to use **بڕگە**, not **هجا**.
+
+The same `main` script applies normalization to text nodes and attributes, and its MutationObserver repeats the normalization for inserted content. Its lesson-content loader inserts server-loaded lesson HTML into `.lesson-content`. Therefore this mapping presents a credible risk of altering learner-facing text at runtime, depending on the normalization path and the affected node. This audit does not claim every lesson is affected; runtime reproduction was not performed.
+
+On the isolated working branch, `script.js` blob `894b74ac50837fd8ea2ba8b1fa9aa7864e0fad4b` does not contain that replacement mapping and includes an explicit `.lesson-content` exclusion in its early normalization guard. This is a branch comparison, not an authorization to copy either version over the other.
+
+**Required closure:** remove or narrow the global mapping only after owner approval; preserve `.lesson-content` and source-loaded lesson bodies from global normalization; add regression tests proving the literal term **بڕگە** survives static rendering, dynamically inserted nodes, and loaded lesson content. Do not change any lesson body as a workaround.
+
+## 3. P1 — package validator currently codifies the risky normalization
+
+The `main` validator, `scripts/validate_kurmanji_package.py`, blob `386c1073cc0037ec521da7132c4a9d707634fc58`, comments at lines 56–58 that normalization intentionally applies to source-loaded lesson text as well as static UI text. Its required-mapping checks include the shared normalizer requirements.
+
+This means a passing package-integrity check may enforce the behavior described in §2 rather than detect its risk. The validator should be revised alongside the normalizer after approval, with a negative assertion that lesson-body text is excluded from global replacements and that **بڕگە** remains unchanged.
+
+No validator was run in this audit; this is a source inspection finding, not a test result.
+
+## 4. P1 — migration deployment status is internally inconsistent in the evidence
+
+The `main` migration file `supabase/migrations/20261024122051_add_kurmanji_courses_and_protected_lessons.sql`, blob `06320c50a858e41d8ce21e7b4fdee3f6ae418cd9`, begins with a comment claiming it was applied to the production project on 2026-10-24. The same migration defines security-definer RPC functions and explicit privilege revocations/grants; this makes deployment status and authorization review material release evidence.
+
+However, PR #3's current description says the migration has not been validated in a disposable test project and explicitly says not to apply it to production. The split seed file `docs/kurmanji-content-seed-part-01.sql`, blob `323423bb03babd664f945522b5f5c7c3dfc0c973`, labels itself **DRAFT DATA SEED** and says the static lesson pages should remain unchanged until the complete seed and RPC changes are reviewed.
+
+These are conflicting documentary statements. Repository text alone cannot establish whether the migration was actually applied to production. No production project was accessed and no database query or write was performed.
+
+**Required closure:** a project owner or authorized database operator should verify the migration ledger and deployment record in the correct environment, then correct the documentary claim(s) with dated evidence. Do not infer production state from a SQL comment, PR description, local migration file, or test project.
+
+## 5. P1 — PR #3 remains explicitly blocked
+
+PR #3, “Isolate Kurmanji courses and North Circle routing,” was fetched during this audit and reports:
+- state: open;
+- draft: true;
+- merged: false;
+- head: `kurmanji-clean-release`;
+- base: `main`;
+- last updated: 2026-10-25.
+
+Its description records three passing GitHub checks on its then-current PR head, but also explicitly lists unresolved release blockers:
+1. Playwright mocks Supabase and does not verify real authentication, enrollment, lesson unlocking, or completion persistence.
+2. The migration has not been validated in a disposable test project.
+3. All 38 lesson bodies still need source-by-source scientific review.
+4. Migration effects on existing courses and authorization RPCs need review.
+
+The three historic check links in the PR description are not evidence that checks passed on the present `main` SHA or on the current isolated working branch. This audit did not obtain a current workflow-run result for either SHA.
+
+**Release disposition:** keep PR #3 draft and unmerged until every stated blocker has verifiable closure evidence and the owner explicitly authorizes release actions.
+
+## 6. Protected curriculum and inventory
+
+The `main` registry records:
+- Central curriculum: Course 1 = 26 lessons; Course 2 = 32 lessons; total 58.
+- North Circle Kurmanji pathway: Course 1 = 26 lessons; Course 2 = 12 lessons; total 38.
+- Total catalog inventory: 96 lessons.
+
+These are distinct course pathways and must not be conflated. This audit does not alter inventory, course mapping, lesson pages, seed data, or the separate Kurmanji Latin/Hawar pathway. The 26 + 12 northern pathway remains distinct from the 26 + 32 central curriculum.
+
+## 7. Action register updates proposed
+
+| ID | Priority | Finding | Closure evidence required |
+|---|---|---|---|
+| MAIN-A01 | P0 | Global `بڕگە` → `هجا` mapping in shared normalizer; risk to approved terminology and dynamically loaded lesson text. | Approved code fix, protected lesson-content path, regression tests for static and dynamic content. |
+| MAIN-A02 | P1 | Package validator requires normalization of source-loaded lesson text. | Validator changed to reject lesson-body normalization and assert preservation of **بڕگە**. |
+| MAIN-A03 | P1 | Production migration comment conflicts with PR's unvalidated-test-project warning and draft seed state. | Verified environment migration ledger/deployment evidence; corrected dated records. |
+| MAIN-A04 | P1 | PR #3 release blockers remain open; historic CI checks are not current-head evidence. | Current checks, disposable Supabase integration evidence, auth/enrollment/progression tests, and completed scholarly/native-speaker review. |
+
+These are audit findings and proposed actions, not approved implementation instructions.
+
+## 8. Explicit non-actions
+
+- No changes to `main`.
+- No merge, rebase, cherry-pick, force-push, or branch synchronization.
+- No edits to learner-facing lesson bodies, course inventory, seed files, CI, runtime, or migration.
+- No production database access, writes, migration, or deployment.
+- No change to PR #3.
+- No claim that the full 40-commit upstream range or all 91 changed files has been exhaustively reviewed.
+
+## 9. Next safe step
+
+Obtain owner approval for a narrowly scoped fix to the shared normalizer and validator on an isolated review branch, after a verified pre-work checkpoint. Separately request authoritative deployment evidence for the migration. Keep the 38 Kurmanji lesson bodies untouched until source-by-source academic review and qualified native-editor review are complete.
