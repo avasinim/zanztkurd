@@ -1,0 +1,45 @@
+name: K142 progress sync browser regression
+
+on:
+  push:
+    branches:
+      - "fix/b3-k142-progress-sync-fallback-2026-11-21"
+    paths:
+      - "script.js"
+      - "scripts/test_progress_sync_fallback.py"
+      - ".github/workflows/k142-progress-sync-browser.yml"
+      - "lessons/017.html"
+      - "lessons/018.html"
+      - "lessons/course-2-01.html"
+      - "lessons/course-2-02.html"
+  pull_request:
+    branches: ["main"]
+    paths:
+      - "script.js"
+      - "scripts/test_progress_sync_fallback.py"
+      - ".github/workflows/k142-progress-sync-browser.yml"
+      - "lessons/017.html"
+      - "lessons/018.html"
+      - "lessons/course-2-01.html"
+      - "lessons/course-2-02.html"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  progress-sync-regression:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+      - name: Install Playwright
+        run: |
+          python -m pip install --upgrade pip playwright
+          python -m playwright install --with-deps chromium
+      - name: Test stale local progress after server sync failure
+        run: python scripts/test_progress_sync_fallback.py
