@@ -123,3 +123,44 @@ A follow-up read-only inspection compared the main release checklist, main share
 ## 12. Scope clarification
 
 The audit has now inspected the full main normalizer block, the corresponding working-branch normalizer block, the relevant validator section, and the complete release checklist. This remains a targeted audit, not a complete review of all upstream commits or all changed files. No live-site behavior or production database state has been inferred from these static files.
+
+
+## 13. Full inventory of the 14 global replacement rules
+
+The audited `main/script.js` normalizer contains 14 literal replacement rules. The following table classifies their risk for source-authored lesson bodies. “UI-only candidate” means the rule may be considered for Avasin-owned interface copy after editorial confirmation; it does **not** mean the target spelling has been independently approved or should be imposed on course content.
+
+| # | Source text matched | Replacement | Risk / disposition for lesson bodies |
+|---:|---|---|---|
+| 1 | `نووسراوە` | `نوسراوە` | Orthographic/editorial substitution. UI-only candidate; preserve authored lesson form. |
+| 2 | `نووسینی` | `نوسینی` | Orthographic substitution. UI-only candidate; preserve authored lesson form. |
+| 3 | `نووسین` | `نوسین` | Orthographic substitution. UI-only candidate; preserve authored lesson form. |
+| 4 | `فێربوون` | `فێربون` | Orthographic substitution. UI-only candidate; preserve authored lesson form. |
+| 5 | `هەموو` | `هەمو` | Orthographic/lexical-form substitution. UI-only candidate; preserve authored lesson form. |
+| 6 | `نموونە` | `نمونە` | Orthographic substitution. UI-only candidate; preserve authored lesson form. |
+| 7 | `پێویست` | `پەیویست` | More than a harmless formatting change; changes the written form. UI-only candidate only after editorial confirmation; preserve lesson text. |
+| 8 | `بەرامبەر` | `بەرابەر` | Orthographic substitution. UI-only candidate; preserve authored lesson form. |
+| 9 | `ڕوون` | `ڕون` | Orthographic substitution. UI-only candidate; preserve authored lesson form. |
+| 10 | `ناوەڕۆک` | `نێوەڕۆک` | Lexical/orthographic form change. UI-only candidate only after editorial confirmation; preserve lesson text. |
+| 11 | `چییە` | `چیە` | Orthographic substitution. UI-only candidate; preserve authored lesson form. |
+| 12 | `نییە` | `نیە` | Orthographic substitution. UI-only candidate; preserve authored lesson form. |
+| 13 | `بڕگە` | `هجا` | Explicitly conflicts with the project requirement to use **بڕگە**, not **هجا**. Remove from the global mapping; do not reintroduce as an automatic lesson or UI substitution. |
+| 14 | `دەستپێکردن` | `دەست‌پێ‌کردن` | Adds joiner characters/word segmentation. This is a formatting transformation, but it still changes source text and may affect search/copy behavior. If retained, scope it to UI-owned strings only; preserve authored lesson text. |
+
+### Classification summary
+
+- **0 of 14** rules are safe to run indiscriminately over source-loaded lesson content.
+- **12 of 14** are possible UI-house-style candidates, subject to confirmation that each target form is actually the approved Avasin UI form.
+- **1 of 14** (`بڕگە` → `هجا`) conflicts with the explicit project terminology requirement and should be removed rather than merely scoped.
+- **1 of 14** (`دەستپێکردن` → `دەست‌پێ‌کردن`) is a spacing/joiner normalization candidate for UI-only text, not a source-content rewrite.
+
+This is a risk classification based on the literal replacement pairs and the known editorial constraints. It is not a scholarly linguistic ruling on every spelling variant. No corpus-wide occurrence scan was possible with the available GitHub connector actions in this pass, so this table does not claim that every matched form occurs in every course or page.
+
+### Recommended implementation boundary (not implemented)
+
+1. Keep source-loaded lesson content byte-for-byte/text-for-text as authored; do not normalize it at runtime.
+2. Apply any approved Avasin UI house-style rules only at the point where Avasin owns the UI string, not with a document-wide TreeWalker or MutationObserver over arbitrary page content.
+3. Remove the `بڕگە` → `هجا` rule entirely.
+4. Make the validator assert that all source lesson bodies are outside the global normalizer and include regression fixtures for each of the 14 source forms, including dynamically inserted `.lesson-content` nodes.
+5. Update the release checklist only after those safeguards exist in the exact commit being released. Do not mark the checklist's current stale line 11 as passed.
+
+No code, validator, lesson text, registry, checklist, seed, migration, or production resource was changed by this classification; only this audit report is being extended.
