@@ -27,6 +27,6 @@
   ],
   "quiz": [
     {"type":"short-answer","question":"ناوی ئینگلیزی ڤاوڵی شاراوە چییە؟","answer":"Schwa"},
-    {"type":"true-false","question":"Schwa تەنها تایبەت بە زمانی کوردییە.","answer":false}
+    {"type":"true-false","question":"Schwa تەنها تایبەت بە زوانی کوردیکیە.","answer":false}
   ]
 }
