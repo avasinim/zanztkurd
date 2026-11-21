@@ -164,3 +164,44 @@ This is a risk classification based on the literal replacement pairs and the kno
 5. Update the release checklist only after those safeguards exist in the exact commit being released. Do not mark the checklist's current stale line 11 as passed.
 
 No code, validator, lesson text, registry, checklist, seed, migration, or production resource was changed by this classification; only this audit report is being extended.
+
+
+## 14. Repository occurrence scan and review of the isolated lesson-content guard
+
+### Occurrence evidence on the default branch
+
+A GitHub code-search pass against the repository's default branch (`main`, commit `7acd17e43e191772af9f210e869caac6e00ba7ed`) returned lesson-file matches for multiple source strings used by the global normalizer. Examples include:
+
+- `بڕگە`: `lessons/section-07/lesson-031.md`, `lesson-021.md`, `lesson-023.md`, `lesson-029.md`, `lesson-030.md`, `lesson-032.md`, `lesson-033.md`, and `lessons/section-10/lesson-035.md`.
+- `هەموو`: `lessons/section-10/lesson-034.md`.
+- `نموونە`: multiple Section 07 and Section 10 lesson files, including `lesson-021.md`, `lesson-032.md`, `lesson-030.md`, `lesson-027.md`, and `lesson-020.md`.
+- `پێویست`: lesson matches include `lessons/section-07/lesson-024.md`, `lesson-033.md`, and `lesson-018.md`.
+- `ڕوون`: lesson matches include `lessons/section-07/lesson-021.md`, `lesson-026.md`, `lesson-033.md`, `lesson-032.md`, and `lesson-031.md`.
+- `ناوەڕۆک`: lesson matches include `lessons/section-07/lesson-033.md`, `lesson-032.md`, and `lessons/section-10/lesson-034.md`.
+- `چییە`: lesson matches include `lessons/section-07/lesson-023.md`, `lessons/section-10/lesson-034.md`, and other Section 07 lesson files.
+- `نییە`: lesson matches include `lessons/section-07/lesson-029.md`, `lesson-028.md`, `lesson-021.md`, `lesson-017.md`, `lesson-024.md`, `lessons/section-10/lesson-034.md`, and `lesson-023.md`.
+- `دەستپێکردن`: a lesson match appears in `lessons/section-07/lesson-017.md`.
+
+The code-search endpoint searches the default branch and returns a ranked, bounded set of matches (20 requested per term in this pass). Therefore these are confirmed examples, **not an exhaustive repository-wide count**. A search result proves the source form exists in the repository; the impact on a deployed page depends on which renderer loads that source and whether the normalizer traverses its rendered DOM.
+
+### What the isolated branch guard currently does
+
+The inspected isolated-branch `script.js` (`894b74ac50837fd8ea2ba8b1fa9aa7864e0fad4b`) contains an `isLessonContentNode` predicate that checks whether an element is, or is inside, `.lesson-content`. The predicate is used in these inspected paths:
+
+1. Initial text-node traversal: text nodes inside `.lesson-content` are skipped.
+2. Initial attribute pass: `title`, `aria-label`, `placeholder`, and `alt` on elements inside `.lesson-content` are skipped.
+3. MutationObserver character-data path: changed text nodes inside `.lesson-content` are skipped.
+4. MutationObserver added-node path: added text nodes inside `.lesson-content` are skipped; added elements that are themselves inside `.lesson-content` are not passed to the normalizer.
+
+This is a meaningful improvement over the audited `main` implementation, but it is **not yet proof of complete content isolation**. It depends on all protected lesson text being rendered beneath the exact `.lesson-content` class. Other source-backed content containers or alternate renderers are not shown to be covered by this predicate. The observer also does not observe later attribute-only mutations (`attributes: true` is not enabled); that is primarily a UI-normalization coverage gap, but it confirms that the implementation is not a comprehensive DOM normalization contract.
+
+### Required follow-up tests before treating the guard as release-safe
+
+- Add fixtures with every affected source form inside a normal `.lesson-content` node at initial page load.
+- Repeat with lesson content inserted after load, nested several elements deep, and text changed after insertion.
+- Verify protected lesson text and its four supported attributes remain byte-for-byte unchanged.
+- Test all actual lesson rendering paths, including the protected Supabase `content_html` insertion path and any static lesson-page path; confirm the class boundary is present before content is inserted.
+- Add a negative control proving an approved UI-owned string outside lesson content is normalized as intended.
+- Add a test for source-backed content outside `.lesson-content`; either prove no such renderer exists or explicitly exclude its container too.
+
+No runtime/browser test was executed in this audit. No source lesson, script, validator, checklist, migration, seed, production resource, or PR was changed. Only this audit document is extended.
