@@ -205,3 +205,29 @@ This is a meaningful improvement over the audited `main` implementation, but it 
 - Add a test for source-backed content outside `.lesson-content`; either prove no such renderer exists or explicitly exclude its container too.
 
 No runtime/browser test was executed in this audit. No source lesson, script, validator, checklist, migration, seed, production resource, or PR was changed. Only this audit document is extended.
+
+
+## 15. Authoritative clarification: Avasin Code orthography
+
+The project owner clarified the Avasin Code house style on 2026-11-21. This clarification supersedes any implication in Section 13 that the following forms should be preserved as the preferred Avasin Code spelling:
+
+| Preferred Avasin Code form | Do not expand it to |
+|---|---|
+| `نیە` | `نییە` |
+| `چیە` | `چییە` |
+| `هەمو` | `هەموو` |
+| `نمونە` | `نموونە` |
+
+The owner further specifies that unnecessary extra `وو`, `ییی`, or `ی` must not be appended, and that **all examples** in Avasin Code materials must follow this same house style. These are intentional Avasin Code conventions, not errors to be automatically “corrected” toward the expanded forms.
+
+The separate terminology requirement remains unchanged: use `بڕگە`, never replace it with `هجا`.
+
+### Implementation and editorial boundary
+
+- When writing or editing Avasin Code UI copy, lesson examples, or other Avasin Code-authored material, use the explicitly approved forms above consistently.
+- Do not infer approval for every other replacement rule in the 14-rule normalizer from this clarification; the remaining pairs require their own confirmation.
+- This editorial clarification does **not** justify a document-wide runtime TreeWalker/MutationObserver rewrite. Avasin Code forms should be authored correctly at the source or applied only in a deliberately scoped, tested Avasin-owned content pipeline.
+- Source-authored content must not be changed silently. Any existing lesson/example correction must be an explicit editorial change with review of its surrounding meaning.
+- Keep Kurmanji Latin/Hawar content and other separately governed pathways distinct; this Sorani Avasin Code spelling clarification does not authorize changes to them.
+
+This section corrects the earlier audit's overly broad “preserve authored lesson form” recommendation for the four explicitly specified pairs. The safe technical boundary remains: no unscoped global rewriting, and no automatic change to lesson source files without an approved, reviewed content-editing task. No application code, validator, lesson content, checklist, seed, migration, production resource, or PR was changed in this documentation-only update.
