@@ -72,6 +72,10 @@ else:
         ERRORS.append("Shared Avasin normalizer must exclude lesson-content text nodes")
     if '!el.closest(".lesson-content")' not in script_text:
         ERRORS.append("Shared Avasin normalizer must exclude lesson-content attributes")
+    if 'samp,.lesson-content,[contenteditable="true"]' not in script_text:
+        ERRORS.append("Secondary Avasin normalizer must exclude lesson-content text nodes")
+    if "value!==null && !el.closest('.lesson-content')" not in script_text:
+        ERRORS.append("Secondary Avasin normalizer must exclude lesson-content attributes")
     if 'Avasin access gate' not in script_text:
         ERRORS.append("Shared access-control gate marker is missing from script.js")
 
