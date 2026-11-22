@@ -1532,7 +1532,7 @@ async function markLessonComplete(courseId, lessonKey){
   }
   function fixTextNode(node){
     if(!node || node.nodeType!==Node.TEXT_NODE || !node.parentElement) return;
-    if(node.parentElement.closest('script,style,noscript,textarea,input,select,option,code,pre,kbd,samp,[contenteditable="true"]')) return;
+    if(node.parentElement.closest('script,style,noscript,textarea,input,select,option,code,pre,kbd,samp,.lesson-content,[contenteditable="true"]')) return;
     const next=normalize(node.nodeValue);
     if(next!==node.nodeValue) node.nodeValue=next;
   }
@@ -1540,7 +1540,7 @@ async function markLessonComplete(courseId, lessonKey){
     if(!el || el.nodeType!==Node.ELEMENT_NODE) return;
     for(const name of ['placeholder','aria-label','title','alt']){
       const value=el.getAttribute(name);
-      if(value!==null){const next=normalize(value);if(next!==value)el.setAttribute(name,next);}
+      if(value!==null && !el.closest('.lesson-content')){const next=normalize(value);if(next!==value)el.setAttribute(name,next);}
     }
   }
   function scan(root){
