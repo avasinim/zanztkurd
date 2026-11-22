@@ -84,7 +84,7 @@ VALUES
   ('kurmanji-course-1-lesson-14.html','kurmanji-course-1','ڕەنگ و ناوی شتە ڕۆژانەکان','<section class="klesson-card"><h2>١. ناوی ڕەنگەکان</h2><table class="klesson-table"><thead><tr><th>کورمانجی</th><th>واتا</th><th>تێبینی</th></tr></thead><tbody>
 <tr><td>sor</td><td>سوور</td><td>ڕەنگی سوور.</td></tr>
 <tr><td>şîn</td><td>شین</td><td>پیتی ş و î بە وردی بنووسە.</td></tr>
-<tr><td>kesk</td><td>سەوز</td><td>لە سەرچاوە و ناوچەکاندا واتای ڕەنگەکە بپشکنە.</td></tr>
+<tr><td>kesk</td><td>سەبز</td><td>لە سەرچاوە و ناوچەکاندا واتای ڕەنگەکە بپشکنە.</td></tr>
 <tr><td>zer</td><td>زەرد</td><td>ڕەنگی زەرد.</td></tr>
 <tr><td>reş</td><td>ڕەش</td><td>پیتی ş لە کۆتاییدا دەپارێزرێت.</td></tr>
 <tr><td>spî</td><td>سپێ</td><td>پیتی î لە کۆتاییدا دەپارێزرێت.</td></tr>
