@@ -23,7 +23,7 @@
     while(walker.nextNode()) nodes.push(walker.currentNode);
     for(const node of nodes){
       const parent=node.parentElement;
-      if(parent && (/^(SCRIPT|STYLE|NOSCRIPT|TEXTAREA)$/i.test(parent.tagName) || parent.closest("code,pre,kbd,samp"))) continue;
+      if(parent && (/^(SCRIPT|STYLE|NOSCRIPT|TEXTAREA)$/i.test(parent.tagName) || parent.closest("code,pre,kbd,samp,.lesson-content"))) continue;
       if(node.nodeValue && needsAvasinNormalization(node.nodeValue)){
         node.nodeValue=normalizeAvasinText(node.nodeValue);
       }
@@ -32,7 +32,7 @@
       root.querySelectorAll("[title],[aria-label],[placeholder],[alt]").forEach(el=>{
         for(const attr of ["title","aria-label","placeholder","alt"]){
           const value=el.getAttribute(attr);
-          if(value && needsAvasinNormalization(value)) el.setAttribute(attr,normalizeAvasinText(value));
+          if(value && !el.closest(".lesson-content") && needsAvasinNormalization(value)) el.setAttribute(attr,normalizeAvasinText(value));
         }
       });
     }
@@ -45,14 +45,14 @@
       if(record.type==="characterData"){
         const n=record.target;
         const p=n.parentElement;
-        if(!(p && (/^(SCRIPT|STYLE|NOSCRIPT|TEXTAREA)$/i.test(p.tagName) || p.closest("code,pre,kbd,samp"))) && n.nodeValue && needsAvasinNormalization(n.nodeValue)){
+        if(!(p && (/^(SCRIPT|STYLE|NOSCRIPT|TEXTAREA)$/i.test(p.tagName) || p.closest("code,pre,kbd,samp,.lesson-content"))) && n.nodeValue && needsAvasinNormalization(n.nodeValue)){
           n.nodeValue=normalizeAvasinText(n.nodeValue);
         }
       }else{
         record.addedNodes.forEach(node=>{
           if(node.nodeType===Node.TEXT_NODE){
             const p=node.parentElement;
-            if(!(p && (/^(SCRIPT|STYLE|NOSCRIPT|TEXTAREA)$/i.test(p.tagName) || p.closest("code,pre,kbd,samp"))) && node.nodeValue && needsAvasinNormalization(node.nodeValue)){
+            if(!(p && (/^(SCRIPT|STYLE|NOSCRIPT|TEXTAREA)$/i.test(p.tagName) || p.closest("code,pre,kbd,samp,.lesson-content"))) && node.nodeValue && needsAvasinNormalization(node.nodeValue)){
               node.nodeValue=normalizeAvasinText(node.nodeValue);
             }
           }else if(node.nodeType===Node.ELEMENT_NODE) fixAvasinSpelling(node);
