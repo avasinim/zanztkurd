@@ -45,16 +45,14 @@ else:
             if len(row_pattern.findall(migration_text)) != 1:
                 ERRORS.append(f"Migration must contain exactly one content row for {key}")
 
-# Check that the shared script retains the canonical Avasin mappings used
-# for Kurdish site UI and server-loaded lesson content. This is a static
-# presence check; it does not rewrite files or validate every rendered string.
+# Check that the shared script retains canonical Avasin UI spelling mappings
+# while preserving source-loaded lesson content from automatic text/attribute rewrites.
 shared_script = ROOT / "script.js"
 if not shared_script.exists():
     ERRORS.append("Missing shared access-control script: script.js")
 else:
     script_text = shared_script.read_text(encoding="utf-8")
-    # Avasin normalization is intentionally applied to source-loaded lesson text
-    # as well as static UI text; keep the canonical replacements in this shared script.
+    # Keep the canonical UI spelling mappings and ensure lesson content stays untouched.
     for required in (
         '[/نووسراوە/g,"نوسراوە"]',
         '[/نووسینی/g,"نوسینی"]',
@@ -70,6 +68,10 @@ else:
     ):
         if required not in script_text:
             ERRORS.append(f"Shared Avasin normalizer is missing required spelling mapping: {required}")
+    if 'parent.closest("code,pre,kbd,samp,.lesson-content")' not in script_text:
+        ERRORS.append("Shared Avasin normalizer must exclude lesson-content text nodes")
+    if '!el.closest(".lesson-content")' not in script_text:
+        ERRORS.append("Shared Avasin normalizer must exclude lesson-content attributes")
     if 'Avasin access gate' not in script_text:
         ERRORS.append("Shared access-control gate marker is missing from script.js")
 
