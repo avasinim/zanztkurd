@@ -87,6 +87,7 @@ const hashParams=new URLSearchParams(location.hash.replace(/^#/,''));
 let recoveryMode=authParams.get('mode')==='recovery'||authParams.get('type')==='recovery'||hashParams.get('type')==='recovery';
 const verifiedMode=authParams.get('mode')==='verified';
 let recovery=recoveryMode;
+let recoveryEventSeen=false;
 const recoveryControls=$('recoveryForm').querySelectorAll('input,button');
 const showRecoveryForm=()=>{
   recovery=true;
@@ -104,6 +105,7 @@ const setRecoveryReady=(ready,message)=>{
 
 sb.auth.onAuthStateChange((event,session)=>{
   if(event==='PASSWORD_RECOVERY'&&session){
+    recoveryEventSeen=true;
     recoveryMode=true;
     showRecoveryForm();
     setRecoveryReady(true,'بەستەری گەڕاندنەوە پشتڕاست کراوەتەوە. ئێستا وشەی نهێنیی نوێ دابنێ.');
@@ -112,8 +114,9 @@ sb.auth.onAuthStateChange((event,session)=>{
   if(recoveryMode){
     if(event==='INITIAL_SESSION'){
       showRecoveryForm();
-      if(session)setRecoveryReady(true,'هەژمارەکەت ئامادەی گۆڕینی وشەی نهێنییە.');
-      else setRecoveryReady(false,'بەستەری گۆڕینی وشەی نهێنی نادروستە یان بەسەرچووە. تکایە داواکارییەکی نوێ بنێرە.');
+      if(recoveryEventSeen&&session)setRecoveryReady(true,'هەژمارەکەت ئامادەی گۆڕینی وشەی نهێنییە.');
+      else if(!session)setRecoveryReady(false,'بەستەری گۆڕینی وشەی نهێنی نادروستە یان بەسەرچووە. تکایە داواکارییەکی نوێ بنێرە.');
+      else setRecoveryReady(false,'چاوەڕێی پشتڕاستکردنەوەی بەستەری گەڕاندنەوە...');
     }
     return;
   }
