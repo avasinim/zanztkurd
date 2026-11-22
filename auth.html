@@ -83,18 +83,42 @@ try{
   nextUrl=sameOrigin&&sameSite?u.href:new URL('index.html',siteBase).href;
 }catch(_){nextUrl=new URL('dashboard.html',siteBase).href;}
 const authParams=new URLSearchParams(location.search);
-const recoveryMode=authParams.get('mode')==='recovery';
+const hashParams=new URLSearchParams(location.hash.replace(/^#/,''));
+let recoveryMode=authParams.get('mode')==='recovery'||authParams.get('type')==='recovery'||hashParams.get('type')==='recovery';
 const verifiedMode=authParams.get('mode')==='verified';
-const authCallback=new URL('auth.html',siteBase).href;
 let recovery=recoveryMode;
+const recoveryControls=$('recoveryForm').querySelectorAll('input,button');
+const showRecoveryForm=()=>{
+  recovery=true;
+  document.querySelectorAll('.auth-tab').forEach(x=>x.classList.remove('active'));
+  $('loginForm').classList.add('hidden');
+  $('registerForm').classList.add('hidden');
+  $('otpForm').classList.add('hidden');
+  $('loginMethods').classList.add('hidden');
+  $('recoveryForm').classList.remove('hidden');
+};
+const setRecoveryReady=(ready,message)=>{
+  recoveryControls.forEach(x=>x.disabled=!ready);
+  if(message)msg(message);
+};
 
-sb.auth.getSession().then(({data})=>{
-  if(data.session&&!recoveryMode&&!verifiedMode)location.replace(nextUrl);
-  if(verifiedMode)msg(data.session?'ئیمەیڵەکەت بە سەرکەوتوویی پشتڕاست کراوە.':'ئیمەیڵەکەت پشتڕاست کراوە؛ ئێستا دەتوانیت بچیتە ژوورەوە.');
-  if(recoveryMode&&!data.session){msg('بەستەری گۆڕینی وشەی نهێنی نادروستە یان بەسەرچووە. تکایە داواکارییەکی نوێ بنێرە.');$('recoveryForm').querySelectorAll('input,button').forEach(x=>x.disabled=true);}
-});
 sb.auth.onAuthStateChange((event,session)=>{
-  if(recoveryMode&&event==='PASSWORD_RECOVERY'&&session){$('recoveryForm').querySelectorAll('input,button').forEach(x=>x.disabled=false);$('authMessage').style.display='none';}
+  if(event==='PASSWORD_RECOVERY'&&session){
+    recoveryMode=true;
+    showRecoveryForm();
+    setRecoveryReady(true,'بەستەری گەڕاندنەوە پشتڕاست کراوەتەوە. ئێستا وشەی نهێنیی نوێ دابنێ.');
+    return;
+  }
+  if(recoveryMode){
+    if(event==='INITIAL_SESSION'){
+      showRecoveryForm();
+      if(session)setRecoveryReady(true,'هەژمارەکەت ئامادەی گۆڕینی وشەی نهێنییە.');
+      else setRecoveryReady(false,'بەستەری گۆڕینی وشەی نهێنی نادروستە یان بەسەرچووە. تکایە داواکارییەکی نوێ بنێرە.');
+    }
+    return;
+  }
+  if(event==='INITIAL_SESSION'&&session&&!verifiedMode)location.replace(nextUrl);
+  if(event==='INITIAL_SESSION'&&verifiedMode)msg(session?'ئیمەیڵەکەت بە سەرکەوتوویی پشتڕاست کراوە.':'ئیمەیڵەکەت پشتڕاست کراوە؛ ئێستا دەتوانیت بچیتە ژوورەوە.');
 });
 
 $('loginForm').onsubmit=async e=>{
@@ -158,8 +182,25 @@ $('otpForm').onsubmit=async e=>{
 $('otpBack').onclick=e=>{e.preventDefault();$('otpForm').classList.add('hidden');$('authMessage').style.display='none';setAuthTab(otpMode==='register'?'register':'login');};
 
 $('resetLink').onclick=async e=>{e.preventDefault();const email=$('loginEmail').value.trim();if(!email)return msg('سەرەتا ئیمەیڵەکەت بنوسە.');const {error}=await sb.auth.resetPasswordForEmail(email,{redirectTo:new URL('auth.html?mode=recovery',siteBase).href});msg(error?'هەڵە لە ناردنی بەستەر: '+error.message:'بەستەری گۆڕینی وشەی نهێنی نێردرا. ئیمەیڵەکەت بپشکنە.')};
-$('recoveryForm').onsubmit=async e=>{e.preventDefault();if($('newPassword').value!==$('newPassword2').value)return msg('وشەکانی نهێنی یەکسان نین.');const {error}=await sb.auth.updateUser({password:$('newPassword').value});if(error)return msg(error.message);msg('وشەی نهێنی بە سەرکەوتوویی نوێکرایەوە.');setTimeout(()=>location.href='index.html',900)};
-if(recovery){document.querySelectorAll('.auth-tab').forEach(x=>x.classList.remove('active'));$('loginForm').classList.add('hidden');$('registerForm').classList.add('hidden');$('loginMethods').classList.add('hidden');$('recoveryForm').classList.remove('hidden');}
+$('recoveryForm').onsubmit=async e=>{
+ e.preventDefault();
+ if($('newPassword').value!==$('newPassword2').value)return msg('وشەکانی نهێنی یەکسان نین.');
+ const button=$('recoveryForm').querySelector('button[type="submit"]');
+ const oldLabel=button.textContent;
+ button.disabled=true;button.textContent='تکایە چاوەڕێ بکە...';
+ try{
+   const {error}=await sb.auth.updateUser({password:$('newPassword').value});
+   if(error)throw error;
+   $('newPassword').value='';$('newPassword2').value='';
+   msg('وشەی نهێنی بە سەرکەوتوویی نوێکرایەوە. ئێستا دەتوانیت بەردەوام بیت.');
+   setTimeout(()=>location.href='dashboard.html',1200);
+ }catch(error){
+   console.error('[Avasin Auth] password recovery failed',error);
+   msg(error?.message||'نوێکردنەوەی وشەی نهێنی سەرکەوتوو نەبوو. تکایە دووبارە هەوڵ بدە.');
+   button.disabled=false;button.textContent=oldLabel;
+ }
+};
+if(recovery){showRecoveryForm();setRecoveryReady(false,'چاوەڕێی پشتڕاستکردنەوەی بەستەری گەڕاندنەوە...');}
 }
 })();
 </script>
