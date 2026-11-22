@@ -146,7 +146,7 @@ else{
     $(cfg.status).innerHTML='<span class="course-status '+(enrollment?.status||'')+'">'+statusLabel+'</span>'+(enrollment?.enrolled_at?'<p class="date-line">بە ڕێکەوتی تۆماربون: '+new Date(enrollment.enrolled_at).toLocaleDateString('ku')+'</p>':'');
     elEnroll.hidden=owner||active||!verified;
     elLearn.classList.toggle('disabled',!active);
-    elLearn.setAttribute('href',cfg.id==='orthography-kurdik'?'learning.html?course=1':'learning.html?course=2');
+    elLearn.setAttribute('href',cfg.learnHref||(cfg.id==='orthography-kurdik'?'learning.html?course=1':'learning.html?course=2'));
     elLearn.setAttribute('aria-disabled',String(!active));
     elEnroll.onclick=async()=>{
       if(elEnroll.disabled)return;
@@ -197,6 +197,13 @@ else{
         ['052.html','053.html','054.html','055.html','056.html','057.html'],['058.html']
       ];
       count=groups.filter(g=>g.every(k=>keys.has(k))).length;
+    }else if(cfg.id==='kurmanji-course-1'||cfg.id==='kurmanji-course-2'){
+      /* Kurmanji progress uses its own canonical lesson filenames. */
+      const courseNumber=cfg.id==='kurmanji-course-1'?1:2;
+      const validKeys=Array.from({length:cfg.total},(_,i)=>
+        'kurmanji-course-'+courseNumber+'-lesson-'+String(i+1).padStart(2,'0')+'.html'
+      );
+      count=validKeys.filter(k=>keys.has(k)).length;
     }else{
       /* Count only the official Course 2 lesson keys, matching the admin report. */
       const validCourse2Keys=Array.from({length:cfg.total},(_,i)=>'course-2-'+String(i+1).padStart(2,'0')+'.html');
@@ -223,7 +230,7 @@ else{
   const {data:enrollments}=await sb.from('enrollments').select('course_id,status,enrolled_at').eq('user_id',user.id);
   const activeEnrollments=(enrollments||[]).filter(e=>e.status==='active'||e.status==='completed');
   $('courseCount').textContent=isOwner?String(Object.keys(COURSES).length):String(activeEnrollments.length);
-  $('enrollSummary').textContent=isOwner?'دەسەڵاتی خاوەنماڵپەڕ چالاکە؛ دەستگەیشتن بە هەردوو کۆرس بەردەستە.':activeEnrollments.length===0?'هێشتا هیچ کۆرسێکت تۆمار نەکردووە.':activeEnrollments.length===1?'١ کۆرس بە ناوی تۆ تۆمار کراوە.':activeEnrollments.length+' کۆرس بە ناوی تۆ تۆمار کراون.';
+  $('enrollSummary').textContent=isOwner?'دەسەڵاتی خاوەنماڵپەڕ چالاکە؛ دەستگەیشتن بە هەموو چوار کۆرس بەردەستە.':activeEnrollments.length===0?'هێشتا هیچ کۆرسێکت تۆمار نەکردووە.':activeEnrollments.length===1?'١ کۆرس بە ناوی تۆ تۆمار کراوە.':activeEnrollments.length+' کۆرس بە ناوی تۆ تۆمار کراون.';
  }
  $('logout').onclick=async()=>{await sb.auth.signOut();location.href='auth.html';};
  $('resendVerify').onclick=async()=>{
