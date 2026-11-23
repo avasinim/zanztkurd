@@ -66,6 +66,8 @@ The following are evidence findings from the cited source reviews. They can be t
 
 The current Part 05 seed row and the historical migration row contain the same incorrect source attribution. The migration header comment reports that it was applied to production on 2026-10-24, but this repository comment is not proof of the live database's current state.
 
+**Runtime visibility caveat (verified from repository code, not from the live service):** `kurmanji-course-2-lesson-11.html` is a shell whose `.lesson-content` element is populated by `script.js` through a Supabase `lesson_content` query. The learner-visible body therefore comes from the database at runtime, not from the static HTML file. This repository audit confirms the erroneous wording in the Part 05 seed and historical migration, but it does **not** establish that the current production row contains that wording or that the live page is currently displaying it. Live database contents and learner-visible rendering remain unverified.
+
 Required safe sequence, only after explicit approval:
 1. Approve the exact corrected learner-facing text and its full grammatical analysis.
 2. Verify the neutral SOVG teaching example independently; if none is available, teach the notation without inventing a sentence.
