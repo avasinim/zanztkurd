@@ -122,3 +122,12 @@ A focused cross-specification review of the Course 2 Part 05 seed and the histor
 The Lesson 09 future example is now source-context verified against Haig §2.6.4, p.129, example (27): `ew dē mesel-ē ji te re bēž-e` (“He will tell you the issue”). The source identifies `dē` as FUT and `bēž-e` as say.SUBJ.PRS-3SG. The remaining Lesson 09 gates are owner approval of the Sorani rendering and the course's aspect terminology.
 
 Repository evidence inspected: `docs/kurmanji-content-seed-part-05.sql` (blob SHA `2581b9362ee7a0972076d475db56b034e0e662cb`) and `supabase/migrations/20261024122051_add_kurmanji_courses_and_protected_lessons.sql` (blob SHA `06320c50a858e41d8ce21e7b4fdee3f6ae418cd9`). The live production database was not queried. This update does not change the overall decision: Course 2 remains not ready for final instructional sign-off.
+
+
+## Repository payload parity update — Lessons 01–06 (2026-11-23)
+
+A focused comparison of the six Course 2 lesson rows in `docs/kurmanji-content-seed-part-04.sql` and `supabase/migrations/20261024122051_add_kurmanji_courses_and_protected_lessons.sql` found exact row parity for Lessons 01–06. This confirms synchronization between these two repository artifacts only; it does not verify linguistic correctness, runtime behavior or the live database.
+
+The separate documentation-only audit records these lesson-level gaps: Lesson 01 needs worked segmentation and a free/bound morpheme contrast; Lesson 02 lacks a source-verified Kurmanjî prefix example despite its title; Lesson 03 needs concrete sourced gender/number and ezafe examples; Lessons 04–05 need explicit segmentation and contrastive phrase analysis; Lesson 06's title promises a possessive-pronoun scope broader than its current examples and requires owner decision D04.
+
+Audit document: `docs/KURMANJI-COURSE-2-LESSONS-01-06-SEED-MIGRATION-PAYLOAD-AUDIT-2026-11-23.md`. Inspected seed SHA: `0e4bf967e3a0f7ce2d55b53199c0b417807b4930`; migration SHA: `06320c50a858e41d8ce21e7b4fdee3f6ae418cd9`. No seed, migration, lesson payload or database was changed. Course 2 remains not ready for final instructional sign-off.
