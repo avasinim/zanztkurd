@@ -6,7 +6,7 @@ Status: Consolidated documentation-only control register. Not a learner-facing r
 
 **Course 2 is not yet ready for instructional sign-off or learner-facing implementation.**
 
-The audit and implementation-planning phase now has a lesson-by-lesson evidence trail and implementation-ready editorial specifications for Lessons 01–08 and 10–11. Lessons 09 and 12 have focused audits/proposals but still need their implementation-ready specifications. Several course-owner decisions remain blocking. No lesson payload has been changed.
+The audit and implementation-planning phase now has implementation-ready editorial specifications for Lessons 01–12. Lessons 09 and 12 still have open owner/source gates; several course-wide decisions remain blocking. No lesson payload has been changed.
 
 This register is the single coordination point for the remaining decisions, the evidence required to close each gate, and the order of work. It does not supersede the individual source audits or detailed specifications; where a conflict exists, the focused source audit and its exact source citation take precedence.
 
@@ -34,7 +34,7 @@ This register is the single coordination point for the remaining decisions, the 
 | 09 — کاتی ئێستا، ڕابردوو و داهاتوو | Source-located `di-`, simple/imperfective past pairs and future form | Approve aspect terminology; recheck future gloss/context; keep examples qualified | Implementation spec drafted; source-context and owner gates open |
 | 10 — نەفی و پرسیار | Haig §2.6.1 qualified negative patterns | Author clarifies ambiguous heading; current Standard Kurmanjî verification for `ma` and question words | Implementation spec drafted; owner/source gates open |
 | 11 — ڕێکخستنی وشەکان و پێکهاتەی ڕستە | Haig §2.7.1 neutral SOVG; §2.7.2 example (32) ergativity | Teach SOVG separately; cite `Wî mirov-î çay anî` to §2.7.2, example (32), p.131 | Implementation spec drafted |
-| 12 — پێداچوونەوە و تاقیکردنەوەی کۆتایی | Cumulative review and source-based analysis | Owner confirms review vs formal exam; if exam, approve complete scoring/assessment design | Audit/proposal exists; implementation spec still required |
+| 12 — پێداچوونەوە و تاقیکردنەوەی کۆتایی | Cumulative review and source-based analysis | Owner confirms review vs formal exam; if exam, approve complete scoring/assessment design | Implementation spec drafted; D08 remains open |
 
 “Implementation spec drafted” means a documentation plan exists; it does not mean the lesson has been edited, validated in the app or approved for release.
 
