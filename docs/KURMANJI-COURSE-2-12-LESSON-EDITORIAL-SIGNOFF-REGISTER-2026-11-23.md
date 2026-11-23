@@ -115,8 +115,8 @@ Still required to complete the same planning level:
 ## 7. Ordered remaining work
 
 1. Obtain and record D01–D09, starting with the terminology and author-only decisions.
-2. Prepare the Lesson 09 implementation-ready specification using its existing audit and detailed proposal; keep aspect terminology provisional until D03 closes.
-3. Prepare the Lesson 12 specification for a cumulative review by default; do not design a formal exam unless D08 explicitly chooses it.
+2. Close Lesson 09's source-context and owner gates: recheck the full future example and gloss, and retain provisional aspect terminology until D03 is resolved.
+3. Close Lesson 12's D08 decision: keep it as a cumulative review by default, or obtain explicit approval and complete exam-policy decisions before designing a formal exam.
 4. Reconcile all 12 lesson specifications against the approved terminology register.
 5. Perform a source-by-source verification pass for every Kurmanjî example and gloss, recording exact source sections/pages.
 6. Perform a separate instructional pass: objective → explanation → worked example → exercise → model answer/marking criteria.
