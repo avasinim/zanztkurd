@@ -170,7 +170,7 @@ Marking criteria:
 
 ## 7. Cross-lesson bridge and progression
 
-Lesson 04 should introduce the distinction between indefinite marking and oblique case, then preview the ambiguous-looking `-î) in the ezafe construction. Lesson 05 should revisit that exact contrast and explain ezafe systematically.
+Lesson 04 should introduce the distinction between indefinite marking and oblique case, then preview the ambiguous-looking `-î` in the ezafe construction. Lesson 05 should revisit that exact contrast and explain ezafe systematically.
 
 Lesson 05 should not introduce a new unexplained case paradigm. It should reuse the terms established in Lesson 04:
 - نیشانەی نادیاریی تاک
@@ -217,4 +217,4 @@ This specification does not:
 
 ## 11. Completion definition
 
-The editorial design for Lessons 04–05 is ready for owner review when the two lessons can teach and assess the contrast between `-ek), oblique case and ezafe using only source-attested forms, with visible segmentation, accurate construction labels, answer criteria and dialect qualifications. Implementation remains a separate, approval-gated task.
+The editorial design for Lessons 04–05 is ready for owner review when the two lessons can teach and assess the contrast between `-ek`, oblique case and ezafe using only source-attested forms, with visible segmentation, accurate construction labels, answer criteria and dialect qualifications. Implementation remains a separate, approval-gated task.
