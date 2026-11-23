@@ -112,3 +112,13 @@ The inspected SQL seed file was `docs/kurmanji-content-seed-part-05.sql`, blob S
 
 ## 10. Change boundary
 This synthesis is documentation only. No lesson HTML, SQL seed, course payload, application code, migration, database, Supabase resource, main branch, deployment or production data was changed. No runtime, learner-facing or release test is claimed.
+
+## 11. Repository payload and source-verification update (2026-11-23)
+
+A focused cross-specification review of the Course 2 Part 05 seed and the historical migration found a learner-facing Lesson 11 source-attribution defect. The seed currently attributes `Wî mirov-î çay anî` to Haig §2.7.1 and presents it as a general SOV example. Haig §2.7.1 instead describes neutral SOVG where G is a goal; the cited sentence is example (32), p.131, in §2.7.2 and illustrates past-transitive ergative alignment. The same incorrect lesson payload is present in `supabase/migrations/20261024122051_add_kurmanji_courses_and_protected_lessons.sql`. The migration header comment says it was applied to production on 2026-10-24; this is repository-comment evidence only, not a live database verification.
+
+**Required disposition:** treat this as a critical seed/migration parity issue. Do not edit the historical migration. If correction is authorized, coordinate a corrected seed with a new forward migration, verify the full case/role analysis, and teach neutral SOVG separately only with a fully source-verified clause. No seed, migration, SQL, database, Supabase resource, or learner-facing payload was changed in this audit.
+
+The Lesson 09 future example is now source-context verified against Haig §2.6.4, p.129, example (27): `ew dē mesel-ē ji te re bēž-e` (“He will tell you the issue”). The source identifies `dē` as FUT and `bēž-e` as say.SUBJ.PRS-3SG. The remaining Lesson 09 gates are owner approval of the Sorani rendering and the course's aspect terminology.
+
+Repository evidence inspected: `docs/kurmanji-content-seed-part-05.sql` (blob SHA `2581b9362ee7a0972076d475db56b034e0e662cb`) and `supabase/migrations/20261024122051_add_kurmanji_courses_and_protected_lessons.sql` (blob SHA `06320c50a858e41d8ce21e7b4fdee3f6ae418cd9`). The live production database was not queried. This update does not change the overall decision: Course 2 remains not ready for final instructional sign-off.
