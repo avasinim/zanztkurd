@@ -14,14 +14,14 @@ The following files were fetched from the same repository reference and compared
 
 | Document | Retrieved blob SHA |
 |---|---|
-| Lessons 01–03 and 06 specification | `1bb8b557d48e7d59b29a9f900c616d4188c686b3` |
+| Lessons 01–03 and 06 specification | `bba1a52a82c4dfebd3efffdd8bc32f108153cf54` |
 | Lessons 04–05 specification | `3fbca34c1c4c0c2f2bdc9b542ed3e2928f91ab04` |
 | Lessons 07–08 specification | `ec63617c0ab16429c9e5b13f2ae971f438bdb2f9` |
-| Lesson 09 specification | `d0a4d9c7fffbd3fb6b83c84aa759eef0ec16ef77` |
-| Lessons 10–11 specification | `299a5869c8f15a98595cfc8ba4f23dc85fd71d8d` |
+| Lesson 09 specification | `3aa985448dffed961ea09c5ed5918d4f06764306` |
+| Lessons 10–11 specification | `e60ec11dcd1d4420cae344cc4a89ef88059f871f` |
 | Lesson 12 specification | `8bdcd8ba109746ee786a0581231980e4abc7af01` |
 | Working terminology register | `9dc825d6d3cea2fd6c87d43436447ecf1fa10083` |
-| 12-lesson sign-off register (before this reconciliation) | `31b84f8cf78e5c5b65271def48ed15a33ac4ecd3` |
+| 12-lesson sign-off register (before this reconciliation) | `3f3fb49e5da3f1e0f5443819f433736f40211a0a` |
 
 The Lesson 01–03/06 wording correction and sign-off-register workflow correction were verified in the preceding post-work backup. This update adds the directly inspected seed discrepancy as C09.
 
@@ -151,9 +151,25 @@ The specifications consistently mark stem, aspect, syncretism, ergative alignmen
 3. Verify a complete SOVG example from Haig §2.7.1 or another approved current source, if the lesson requires a worked clause.
 4. Verify current Standard Kurmanjî question forms and the status of `ma`; clarify Lesson 10's heading with the author.
 5. Correct Lesson 11's seed citation and analysis only after explicit learner-content implementation approval; coordinate seed/migration parity and validate both artifacts.\n6. Reconcile all 12 specifications against the owner-approved terminology register.
-6. Conduct a source-by-source and independent instructional review.
-7. Present the final learner-facing change plan for explicit approval before implementation.
+7. Conduct a source-by-source and independent instructional review.
+8. Present the final learner-facing change plan for explicit approval before implementation.
 
 ## 8. Change boundary
 
 This audit and the accompanying corrections are documentation-only. No lesson HTML, SQL seed, course payload, application code, database, migration, Supabase resource, `main` branch, deployment or production data was changed. No runtime, navigation, release or production test is claimed.
+
+
+### C10 — Lessons 01–06 and 07–12 seed/migration parity audit added
+**Severity:** Medium; repository synchronization verified, instructional correctness remains separately gated.
+
+Two focused payload audits were completed against the split seed files and the historical course migration:
+- `docs/KURMANJI-COURSE-2-LESSONS-01-06-SEED-MIGRATION-PAYLOAD-AUDIT-2026-11-23.md`: Lessons 01–06 rows match exactly between `docs/kurmanji-content-seed-part-04.sql` and the migration.
+- `docs/KURMANJI-COURSE-2-LESSONS-07-12-SEED-MIGRATION-PAYLOAD-AUDIT-2026-11-23.md`: Lessons 07–12 rows match exactly between `docs/kurmanji-content-seed-part-05.sql` and the migration.
+
+These checks establish repository artifact parity for all 12 lessons, not linguistic correctness, runtime behavior or the current live database contents. The payload audits record the lesson-level editorial gaps. In particular, C09 remains a critical unresolved Lesson 11 defect: the seed and historical migration both misattribute and misanalyse `Wî mirov-î çay anî` as §2.7.1 SOV; the source audit identifies it as Haig §2.7.2 example (32), a past-transitive ergative example. No correction has been applied. The historical migration must not be rewritten; any authorized production correction would require a new forward migration.
+
+**Disposition:** retain the C09 block and all owner/source gates. Do not infer readiness from parity. No seed, migration, learner payload, database, application code or production resource was changed.
+
+## 9. Reconciliation note — 2026-11-23
+
+This cross-specification audit's document index has been refreshed to the currently inspected blob SHAs for the revised Lesson 01–03/06 and Lesson 09–11 specifications and the current sign-off register. The six lesson specifications, terminology register and sign-off register were fetched from one common repository ref for this reconciliation. This is a metadata/content consistency pass, not a new independent linguistic review of every source example.
