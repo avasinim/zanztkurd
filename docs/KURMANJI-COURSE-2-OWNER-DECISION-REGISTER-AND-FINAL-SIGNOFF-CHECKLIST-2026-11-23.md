@@ -20,15 +20,15 @@ For every item below, the owner/editor should record one of: **Approve**, **Revi
 
 | ID | Decision required | Evidence / current position | Owner action |
 |---|---|---|---|
-| D01 | Confirm the course's target variety and source boundary | The course is labelled Standard Kurmanjî, but Haig notes dialect variation; question particles and some word-order patterns are variety-sensitive. | Approve a precise target (including whether the course follows Haig's Standard Kurmanjî sketch and how regional variants are labelled), or supply another defined target. |
+| D01 | **Resolved — Standard Kurmanjî source boundary** | The course follows Haig (2018), “Northern Kurdish (Kurmanjî),” as its primary grammatical description and the Standard Kurmanjî variety represented there. Regional variants are not generalized into course rules; any future regional note must be explicitly sourced and labelled. | Apply this source boundary to all 12 lessons; retain the source-attested Kurmanjî forms and mark dialect-sensitive evidence separately. |
 | D02 | Approve the core morphology terminology | The working register distinguishes root (`ڕەگ`) from base (`بنەڕەت`); “stem” and several technical Sorani equivalents remain provisional. | Approve exact terms and definitions for root, base, stem, morpheme, inflection, derivation, syncretism, gender, number, transitivity, tense, aspect, and ergative alignment. |
 | D03 | **Resolved — clarify non-verbal predicate negation** | The intended topic is negation of non-verbal predicates, distinct from verbal negation. Haig (2018) reports source-attested examples `az nî birçî ma` and `az nê birçî ma` (citing Kömür 2003:19) and notes the ezafe/negation interaction. | Section 2 is now titled `نەفیی پێکهاتەی ناوەکرداری`; both source forms are included exactly as cited and explicitly labelled as source transcription, not generalized to every dialect. |
 | D04 | **Resolved — narrow Lesson 6 title and scope** | The lesson's actual sourced content is ezafe possession (`mal-a me`) and reflexive `xwe`; it does not teach a complete possessive-pronoun paradigm. | The title now names ezafe possession and reflexive `xwe`. The second section explicitly states that a full person/number paradigm is not taught here; no unsupported paradigm was added. |
 | D05 | **Resolved — Lesson 11 source correction** | The seed was corrected to teach neutral SOVG in §2.7.1 and identify `Wî mirov-î çay anî` as example (32) in §2.7.2, illustrating past-transitive ergative alignment. The separate forward migration and seed update were merged to `main`; the migration was applied to test and production. Both database rows now contain the corrected explanation. See [Haig (2018), pp. 130–131, §§2.7.1–2.7.2](https://multicast.aspra.uni-bamberg.de/data/pubs/Haig2018_Northern-Kurdish_Kurmanji.pdf#page=25). | Implemented and verified in both databases. Historical migration remains unchanged. Browser-rendered learner output still needs live end-to-end verification. |
 | D07 | **Resolved — classify Lesson 12 as an unscored final review** | The lesson summarizes Lessons 1–11, contains cumulative reflection and an open-ended analysis exercise, and has no timer, points, weighting, rubric, pass threshold, or formal answer key. | Title and method note now explicitly identify a final review/self-assessment, not a formal scored exam. No scoring system or pass/fail rule has been invented. |
 | D06 | **Resolved — standardize Lesson 9 aspect terminology and future gloss** | Haig Table 14 supports the simple past vs. past imperfective contrasts (`ez hatim` / `ez dihatim`; `min xwar` / `min dixwar`). Haig §2.6.4, p.129, example (27), supports `ew dē mesel-ē ji te re bēž-e`. | Use `ڕوانگەی کردار` for aspect and `ناتەواو` for imperfective. Sorani gloss now explicitly marks the future meaning: «ئەو لە داهاتوودا کێشەکە بۆ تۆ دەڵێت». Preserve the source-attested Kurmanjî form exactly. |
-| D08 | Decide whether interrogative particles/forms belong in Lesson 10 | `ma`, `gelo`, and `ka` have context- and variety-sensitive behaviour in the consulted literature; the available Yücel evidence concerns Muş Kurmanji and cannot silently become a universal Standard Kurmanjî rule. | Define the intended inventory and variety. Approve only source-scoped claims and examples; otherwise defer these forms. |
-| D09 | Approve final assessment policy across the course | Current lessons lack a consistent published scoring and answer-guidance policy. Lesson 12 cannot imply a scored final test unless these are defined. | Decide whether checks are formative or scored; if scored, approve item blueprint, marks, accepted variants, rubric, duration and pass rule. |
+| D08 | **Deferred — no interrogative-particle inventory in this course release** | `ma`, `gelo`, and `ka` have context- and variety-sensitive behaviour; the available Yücel evidence concerns Muş Kurmanji and is not a sufficient basis for a universal Standard Kurmanjî lesson. | Keep these particles out of the current learner-facing rule set. The existing generic distinction between yes/no and information questions remains; a sourced, variety-labelled particle lesson is future work. |
+| D09 | **Resolved — formative, unscored checks only** | The current 12-lesson release contains practice and review questions but no approved exam blueprint, marks, rubric, timing, or pass threshold. | Treat all current lesson checks as formative/self-assessment, not graded tests. Lesson 12 remains an unscored final review. Any future scored assessment requires a separate approved blueprint before implementation. |
 
 ## 3. Lesson-by-lesson editorial decisions
 
@@ -81,15 +81,15 @@ Haig (2018) §2.7.1 describes neutral SOVG (Subject–Object–Goal), with varia
 
 ## 6. Final sign-off checklist
 
-- [ ] D01 target variety and source boundary approved.
+- [x] D01 course variety fixed as the Standard Kurmanjî description in Haig (2018); regional variants must be sourced and labelled.
 - [ ] D02 terminology sheet approved and applied consistently.
 - [x] D03 Lesson 10 section clarified as non-verbal predicate negation with two source-attested forms, preserved in source transcription and bounded against dialect overgeneralization.
 - [x] D04 Lesson 6 title narrowed to ezafe possession and reflexive `xwe`; scope note explicitly excludes an unprovided full possessive-pronoun paradigm.
 - [x] D05 Lesson 11 source correction implemented through a separate forward migration and verified in test and production; historical migration unchanged.
 - [x] D07 Lesson 12 classified and titled as an unscored final review/self-assessment; no formal exam scoring or pass threshold.
 - [x] D06 Lesson 9 uses `ڕوانگەی کردار` for aspect and `ناتەواو` for imperfective; Sorani gloss explicitly marks the source-attested future meaning.
-- [ ] D08 interrogative inventory and variety scope approved or explicitly deferred.
-- [ ] D09 course assessment policy approved.
+- [x] D08 interrogative particles `ma`, `gelo`, `ka` explicitly deferred from this release; no unsupported universal rule added.
+- [x] D09 current checks designated formative/unscored; any future scored assessment requires a separate blueprint.
 - [ ] Each lesson has a clear objective, source-scoped example, appropriate analysis, applied practice, and model answer/marking criteria (or a documented reason for omission).
 - [ ] Cross-lesson terminology and Latin forms have been checked against the approved source boundary.
 - [ ] All learner-facing changes have a separate review and approval record.
