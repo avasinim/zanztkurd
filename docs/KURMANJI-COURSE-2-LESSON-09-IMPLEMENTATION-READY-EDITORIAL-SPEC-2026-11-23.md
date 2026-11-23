@@ -18,7 +18,7 @@ This lesson must not become a complete verb-conjugation chapter. It should teach
 4. Existing Lessons 09–10 detailed revision proposal, blob SHA `4fca0dc5315e9d50d567caff59bbadc316588ab4`.
 5. Course 2 master audit and terminology register. Their course-wide cautions apply here.
 
-The online PDF could not be re-opened during this pass because the host timed out. This specification therefore preserves the already documented source locations and does not claim a new independent page-by-page PDF verification. Before final learner-facing implementation, the full Haig context and exact gloss of the future clause must be rechecked against the source.
+The original multicast PDF endpoint timed out when opened directly, but the same Haig chapter was independently retrieved through the University of Bamberg-hosted chapter PDF text. Section 2.6.4, printed p.129, example (27), explicitly provides the form, interlinear gloss and English translation. This closes the source-context check for the cited future example; it is not a claim that the entire chapter was re-audited page by page.
 
 ## 3. Source-attested forms to preserve
 
@@ -158,8 +158,8 @@ Do not add a lesson banner, new course branding or unapproved content as part of
 ## 8. Owner/editor gates before implementation
 
 - [ ] **G01 — Aspect terminology:** approve `ڕوانگەی کردار` or supply the preferred Sorani equivalent and definition.
-- [ ] **G02 — Translation:** approve the Sorani gloss of the future example after full Haig §2.6.4 context is checked.
-- [ ] **G03 — Future analysis:** confirm the explanation of `dē` and `bēž-e` against the source context.
+- [ ] **G02 — Translation:** owner/editor approves the Sorani rendering and explicit future-context explanation; Haig's English gloss is confirmed as “He will tell you the issue.”
+- [x] **G03 — Future analysis:** Haig §2.6.4, example (27), p.129 confirms `dē` as FUT and `bēž-e` as say.SUBJ.PRS-3SG.
 - [ ] **G04 — Scope:** approve the lesson as a selected-example introduction, not a complete verb paradigm.
 - [ ] **G05 — Exercise scope:** confirm that Lesson 09 does not claim to test overt-object identification from `min xwar`.
 - [ ] **G06 — Course terminology:** cross-check all terms against the final approved Course 2 register.
@@ -173,7 +173,8 @@ No gate is considered closed merely because this specification proposes an edito
 - [ ] The intransitive/transitive distinction is preserved without equating case with grammatical role.
 - [ ] `min xwar` is never described as containing an overt object.
 - [ ] `di-` is not presented as universal or as a standalone explanation of all aspect.
-- [ ] The future example's full context, segmentation and Sorani translation are checked.
+- [x] The future example's source context and interlinear analysis are checked against Haig §2.6.4, example (27), p.129.
+- [ ] The owner/editor approves the Sorani rendering and its future-context explanation.
 - [ ] All Kurmanjî Latin forms remain source-faithful.
 - [ ] No unsourced example or reconstructed paradigm is added.
 - [ ] Exercises assess only taught material and include model-answer criteria.
@@ -189,7 +190,7 @@ No gate is considered closed merely because this specification proposes an edito
 3. Existing Lessons 09–10 detailed revision proposal, blob SHA `4fca0dc5315e9d50d567caff59bbadc316588ab4`.
 4. Course 2 working terminology register: `docs/KURMANJI-COURSE-2-WORKING-TERMINOLOGY-REGISTER-2026-11-23.md`.
 
-The source PDF timed out when reopened in this pass. The specification relies on the prior recorded source audit for the cited locations and explicitly requires a full-context recheck before the future example is expanded in learner-facing material. This is not a new independent source verification.
+Source-context check completed using the University of Bamberg-hosted Haig chapter PDF text: §2.6.4, example (27), printed p.129. The main future construction and its interlinear gloss are confirmed; the Sorani rendering remains subject to owner/editor approval.
 
 ## 11. Change boundary
 
