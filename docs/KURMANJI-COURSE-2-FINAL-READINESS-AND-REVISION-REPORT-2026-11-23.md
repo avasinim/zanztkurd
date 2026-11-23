@@ -114,3 +114,13 @@ This report is documentation only. No lesson HTML, seed SQL, course payload, app
 - Geoffrey Haig (2018), “Northern Kurdish (Kurmanjî),” especially Table 14, §2.6.1, §2.6.4, §2.7.1 and §2.7.2: https://multicast.aspra.uni-bamberg.de/data/pubs/Haig2018_Northern-Kurdish_Kurmanji.pdf
 - Kemal Badıllı (1965), *Türkçe İzahli Kürtçe Grameri (Kürmançça Lehçesi)*, used cautiously for interrogatives and question formation due to age and regional scope: https://www.kurdolojiakademi.net/wp-content/uploads/2021/11/Turkce-izahli-Kurtce-grameri-Kurmancca-lehcesi.pdf
 - Kurdîzan beginner question lesson, corroborative only: https://kurdizan.net/ders/pirs
+
+## 10. Critical repository-payload finding and updated evidence status (2026-11-23)
+
+A focused review of the Part 05 seed and the historical migration confirms that Lesson 11's learner-facing payload contains a source-attribution error: it assigns `Wî mirov-î çay anî` to Haig §2.7.1 and labels the construction as general SOV. Haig §2.7.1 describes neutral SOVG where G is a goal; the cited sentence is example (32), p.131, in §2.7.2 and illustrates past-transitive ergative alignment. The same incorrect payload occurs in `supabase/migrations/20261024122051_add_kurmanji_courses_and_protected_lessons.sql`. The migration header comment reports application to production on 2026-10-24, but the live database was not queried and its present state is not verified.
+
+This is a critical seed/migration parity defect, not merely a documentation typo. Do not rewrite the historical migration. Any authorized repair must coordinate a corrected seed and a new forward migration, independently validate the full grammatical analysis, and teach neutral SOVG separately with another fully source-verified clause. No seed, migration, database, Supabase resource or learner-facing content was changed.
+
+Lesson 09's future example is now source-context verified against Haig §2.6.4, p.129, example (27): `ew dē mesel-ē ji te re bēž-e` (“He will tell you the issue”); `dē` is FUT and `bēž-e` is say.SUBJ.PRS-3SG. Owner approval of the Sorani rendering and aspect terminology remains open. The overall readiness decision remains **not ready for final instructional sign-off**.
+
+Evidence inspected: Part 05 seed SHA `2581b9362ee7a0972076d475db56b034e0e662cb`; historical migration SHA `06320c50a858e41d8ce21e7b4fdee3f6ae418cd9`. These are repository artifacts; no live production-state claim is made.
