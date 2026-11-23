@@ -157,3 +157,34 @@ After this specification is committed:
 ## 10. Change boundary
 
 This is a documentation-only specification. No Lesson 12 HTML, SQL seed, learner-facing payload, application code, migration, database, Supabase resource, `main` branch, deployment or production data was changed. No runtime, navigation, release or production test is claimed.
+
+
+## 11. Direct Lesson 12 payload verification — 2026-11-23
+
+The exact Lesson 12 SQL tuple was recovered and compared in the current repository snapshot from both `docs/kurmanji-content-seed-part-05.sql` and `supabase/migrations/20261024122051_add_kurmanji_courses_and_protected_lessons.sql`. The extracted tuple, including the title, `content_html` and `now()` tail, is byte-for-byte identical in the two files (2,398 characters after removing only leading SQL indentation). This closes the earlier evidence gap about whether the Lesson 12 payload had been freshly fetched. It verifies repository artifact parity only, not live database state or deployed content.
+
+### 11.1 What the stored payload actually asks learners to do
+
+The payload contains four recap sections: morphology; nominal structure; verbs and clauses; and a final analysis task. The task asks learners to choose a Kurmanjî sentence and identify nouns and verbs, pronoun forms and case, ezafe and suffixes, tense and negation/questions, then support each decision with source and context. It also has three recap questions and a methodological note warning that new examples must be checked against a grammar source before instructional use.
+
+This is an open, learner-selected analysis task, not a controlled examination passage. It does not specify the sentence's length, accepted variety/source, minimum structures, expected response format, model answer, or feedback criteria. In addition, it asks the learner to inspect negation and questions even though Lesson 10's heading and question inventory remain unresolved. It can also invite learners to analyze forms not securely taught in the preceding lessons.
+
+### 11.2 Editorial disposition
+
+1. The evidence supports describing the current function as **cumulative review plus an open-ended source-based analysis task**.
+2. The title's `تاقیکردنەوە` wording still overpromises a formal test; there are no timed or scored test mechanics.
+3. The conservative review path remains preferable, but changing the title to «پێداچوونەوەی کۆتایی» still requires the owner's D08 approval.
+4. If Option A is approved, narrow the analysis task to already taught, source-verified forms; explicitly exclude unresolved Lesson 10 material and any unsupported learner-selected sentence. Prefer a controlled set of separate taught examples if no single complete sentence safely covers the target structures.
+5. Supply model answer elements or transparent feedback criteria, but do not add points, pass/fail rules, duration or a formal answer key without the corresponding content and assessment approvals.
+
+### 11.3 Verification checklist
+
+- [x] Exact Lesson 12 tuple fetched from the seed file.
+- [x] Exact Lesson 12 tuple fetched from the historical migration.
+- [x] Extracted tuples compared byte-for-byte (2,398 characters; identical).
+- [x] Actual four-section task and recap questions reviewed.
+- [x] Open-ended task and unresolved Lesson 10 dependency recorded.
+- [ ] Owner decision D08: cumulative review or formal examination.
+- [ ] Owner approval of any title/content revision.
+
+**Boundary:** this section documents existing payload content only. No lesson HTML, seed SQL, historical/new migration, application code, database, Supabase resource, `main` branch or deployment was changed. No live database or runtime test is claimed.
