@@ -105,8 +105,8 @@ else{
  const COURSES={
   c1:{id:'orthography-kurdik',total:26,status:'course1Status',bar:'course1Bar',text:'course1Text',enroll:'course1Enroll',learn:'course1Learn'},
   c2:{id:'phonetics-phonology-kurdik',total:32,status:'course2Status',bar:'progressBar',text:'progressText',enroll:'course2Enroll',learn:'course2Learn'},
-  kurmanji1:{id:'kurmanji-course-1',total:26,status:'kurmanji1Status',bar:'kurmanji1Bar',text:'kurmanji1Text',enroll:'kurmanji1Enroll',learn:'kurmanji1Learn',learnHref:'kurmanji-course-1.html'},
-  kurmanji2:{id:'kurmanji-course-2',total:12,status:'kurmanji2Status',bar:'kurmanji2Bar',text:'kurmanji2Text',enroll:'kurmanji2Enroll',learn:'kurmanji2Learn',learnHref:'kurmanji-course-2.html'}
+  kurmanji1:{id:'kurmanji-course-1',total:26,status:'kurmanji1Status',bar:'kurmanji1Bar',text:'kurmanji1Text',enroll:'kurmanji1Enroll',learn:'kurmanji1Learn',learnHref:'kurmanji-course-1.html',lessonKeyPrefix:'kurmanji-course-1-lesson-'},
+  kurmanji2:{id:'kurmanji-course-2',total:12,status:'kurmanji2Status',bar:'kurmanji2Bar',text:'kurmanji2Text',enroll:'kurmanji2Enroll',learn:'kurmanji2Learn',learnHref:'kurmanji-course-2.html',lessonKeyPrefix:'kurmanji-course-2-lesson-'}
  };
  const $=id=>document.getElementById(id);
  async function load(){
@@ -146,7 +146,7 @@ else{
     $(cfg.status).innerHTML='<span class="course-status '+(enrollment?.status||'')+'">'+statusLabel+'</span>'+(enrollment?.enrolled_at?'<p class="date-line">بە ڕێکەوتی تۆماربون: '+new Date(enrollment.enrolled_at).toLocaleDateString('ku')+'</p>':'');
     elEnroll.hidden=owner||active||!verified;
     elLearn.classList.toggle('disabled',!active);
-    elLearn.setAttribute('href',cfg.id==='orthography-kurdik'?'learning.html?course=1':'learning.html?course=2');
+    elLearn.setAttribute('href',cfg.learnHref||(cfg.id==='orthography-kurdik'?'learning.html?course=1':'learning.html?course=2'));
     elLearn.setAttribute('aria-disabled',String(!active));
     elEnroll.onclick=async()=>{
       if(elEnroll.disabled)return;
@@ -198,9 +198,10 @@ else{
       ];
       count=groups.filter(g=>g.every(k=>keys.has(k))).length;
     }else{
-      /* Count only the official Course 2 lesson keys, matching the admin report. */
-      const validCourse2Keys=Array.from({length:cfg.total},(_,i)=>'course-2-'+String(i+1).padStart(2,'0')+'.html');
-      count=validCourse2Keys.filter(k=>keys.has(k)).length;
+      /* Kurmanji progress uses the protected lesson-content keys, not legacy phonetics filenames. */
+      const keyPrefix=cfg.lessonKeyPrefix;
+      const validKeys=Array.from({length:cfg.total},(_,i)=>keyPrefix ? keyPrefix+String(i+1).padStart(2,'0')+'.html' : 'course-2-'+String(i+1).padStart(2,'0')+'.html');
+      count=validKeys.filter(k=>keys.has(k)).length;
     }
     const pct=Math.round(count/cfg.total*100);
     $(cfg.bar).style.width=pct+'%';$(cfg.text).textContent=pct+'% ـی ڕێڕەو تەواو کراوە · '+count+' لە '+cfg.total+' وانە';
