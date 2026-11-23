@@ -340,7 +340,7 @@ To avoid repetition and preserve a coherent progression:
 3. Lesson 03 introduces grammatical gender, number and head-noun agreement, with no invented plural forms.
 4. Lesson 04 provides the full `-ek` and oblique-case paradigm and the contrast with ezafe.
 5. Lesson 05 provides the full adjective/possessor ezafe constructions.
-6. Lesson 06 develops possession and the reflexive `xwe`, without claiming without claiming a full possessive paradigm unless approved.
+6. Lesson 06 develops possession and the reflexive `xwe`, without claiming a full possessive paradigm unless approved.
 
 This sequence prevents Lesson 01–03 from prematurely duplicating Lessons 04–05 and keeps Lesson 06's scope transparent.
 
