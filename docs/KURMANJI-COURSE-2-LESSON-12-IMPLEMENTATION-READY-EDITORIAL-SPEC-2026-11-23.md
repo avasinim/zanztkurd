@@ -172,7 +172,7 @@ This is an open, learner-selected analysis task, not a controlled examination pa
 ### 11.2 Editorial disposition
 
 1. The evidence supports describing the current function as **cumulative review plus an open-ended source-based analysis task**.
-2. The title's `تاقیکردنەوە` wording still overpromises a formal test; there are no timed or scored test mechanics.
+2. The title's `تاقیکردنەوە` wording and the methodological note's `تاقیکردنەوەی زانیارییە` (“knowledge check/test”) describe a review with a self-check element. They do **not** establish a formal scored examination: there are no controlled test items, timing, points, weighting, pass threshold, rubric or answer key. Editorial wording should preserve this distinction rather than claiming the lesson contains no test-like activity at all.
 3. The conservative review path remains preferable, but changing the title to «پێداچوونەوەی کۆتایی» still requires the owner's D08 approval.
 4. If Option A is approved, narrow the analysis task to already taught, source-verified forms; explicitly exclude unresolved Lesson 10 material and any unsupported learner-selected sentence. Prefer a controlled set of separate taught examples if no single complete sentence safely covers the target structures.
 5. Supply model answer elements or transparent feedback criteria, but do not add points, pass/fail rules, duration or a formal answer key without the corresponding content and assessment approvals.
@@ -188,3 +188,8 @@ This is an open, learner-selected analysis task, not a controlled examination pa
 - [ ] Owner approval of any title/content revision.
 
 **Boundary:** this section documents existing payload content only. No lesson HTML, seed SQL, historical/new migration, application code, database, Supabase resource, `main` branch or deployment was changed. No live database or runtime test is claimed.
+
+
+### 11.4 Wording precision note
+
+The methodological note in the existing HTML says `ئەم پێداچوونەوەیە تاقیکردنەوەی زانیارییە` (“this review is a knowledge check/test”). Accordingly, the accurate classification is **cumulative review with a knowledge-check/self-check element and an open-ended analysis task**, not simply “review only” and not a formal scored examination. This nuance should be preserved in any owner-facing decision about D08 and any future title revision.
