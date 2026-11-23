@@ -46,38 +46,35 @@ else:
                 ERRORS.append(f"Migration must contain exactly one content row for {key}")
 
 # Check that the shared script retains canonical Avasin mappings for site UI
-# while preserving source-loaded lesson text and examples verbatim. This is a
-# static presence check; it does not rewrite files or validate every rendered string.
+# and server-loaded lesson content. This is a static presence check; it does
+# not rewrite files or validate every rendered string.
 shared_script = ROOT / "script.js"
 if not shared_script.exists():
     ERRORS.append("Missing shared access-control script: script.js")
 else:
     script_text = shared_script.read_text(encoding="utf-8")
-    # Avasin normalization is restricted to ordinary site UI text. Source-loaded
-    # lesson containers and their examples must remain verbatim.
+    # Avasin normalization is intentionally applied to source-loaded lesson text
+    # as well as static UI text; keep the canonical replacements in this shared script.
     for required in (
         '[/نووسراوە/g,"نوسراوە"]',
+        '[/نووسراو/g,"نوسراو"]',
+        '[/نووسەر/g,"نوسەر"]',
         '[/نووسینی/g,"نوسینی"]',
         '[/نووسین/g,"نوسین"]',
         '[/فێربوون/g,"فێربون"]',
         '[/هەموو/g,"هەمو"]',
         '[/نموونە/g,"نمونە"]',
+        '[/کردووە/g,"کردوە"]',
         '[/پێویست/g,"پەیویست"]',
         '[/ڕوون/g,"ڕون"]',
         '[/ناوەڕۆک/g,"نێوەڕۆک"]',
         '[/چییە/g,"چیە"]',
         '[/نییە/g,"نیە"]',
+        '[/ییی/g,"یی"]',
+        '[/وو/g,"و"]',
     ):
         if required not in script_text:
             ERRORS.append(f"Shared Avasin normalizer is missing required spelling mapping: {required}")
-    for required in (
-        'element.closest("[data-lesson-key], .lesson-content")',
-        'if(isSourceLessonContent(el)) return;',
-        'isSourceLessonContent(p)',
-    ):
-        if required not in script_text:
-            ERRORS.append(f"Shared Avasin normalizer does not preserve lesson source text: {required}")
-
     if 'Avasin access gate' not in script_text:
         ERRORS.append("Shared access-control gate marker is missing from script.js")
 
