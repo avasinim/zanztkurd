@@ -195,3 +195,38 @@ Source-context check completed using the University of Bamberg-hosted Haig chapt
 ## 11. Change boundary
 
 This file is a documentation-only specification. No lesson HTML, SQL seed, lesson payload, application code, migration, database, Supabase resource, `main` branch, deployment or production data was changed. No runtime, navigation, release or production test is claimed.
+
+
+## 12. Direct-source recheck — 2026-11-23
+
+The tense/aspect examples and future construction were checked again against the Haig (2018) chapter text hosted by the University of Bamberg. This closes the direct-source check for the specific examples below; it does not close the owner/editor terminology and translation gates.
+
+### 12.1 Table 14 — paired past examples
+
+The source's Table 14 lists the simple-past intransitive `ez hatim` and the imperfective-past intransitive `ez dihatim`; it separately lists the simple-past transitive `min xwar` and the imperfective-past transitive `min dixwar`. The source's English renderings distinguish the simple-past event (“I came”; “I ate (sth.)”) from the past-progressive/imperfective reading (“I was coming”; “I was eating (sth.)”). The paired forms therefore support a past-time aspectual contrast in these examples. They do not establish a universal rule that `di-` alone always marks imperfective aspect across every verb or construction.
+
+The same table also places `ez dibêjim` in the simple-present transitive paradigm. Retain the existing qualification that `di-` appears in many present forms but is not a universal present marker; do not infer from the shared string that present `di-` and past imperfective `di-` have one identical function in every environment.
+
+### 12.2 Future — §2.6.4, example (27), printed p.129
+
+The source gives `ew dē mesel-ē ji te re bēž-e` and an interlinear gloss identifying `dē` as FUT and `bēž-e` as say.SUBJ.PRS-3SG. Its English translation is “He will tell you the issue.” This verifies the future construction and the source's grammatical labels. It does not by itself approve the existing Sorani translation in the seed; the owner/editor must approve an idiomatic Sorani rendering that makes the future reference explicit.
+
+### 12.3 Editorial consequences
+
+1. Keep the two past comparisons paired exactly as listed in §4.2.
+2. Describe the contrast as source-specific simple past versus imperfective/past-progressive, not as a universal prefix rule.
+3. Keep the transitive and intransitive pairs separate; do not infer an overt object in `min xwar` or `min dixwar`.
+4. Retain the future form unchanged and identify `dē` and `bēž-e` only as the source does.
+5. Do not finalize the Sorani label for aspect or the Sorani future translation until owner/editor approval.
+
+### 12.4 Verification checklist
+
+- [x] `ez hatim` / `ez dihatim` checked against Table 14.
+- [x] `min xwar` / `min dixwar` checked against Table 14.
+- [x] `ez dibêjim` checked against Table 14.
+- [x] `ew dē mesel-ē ji te re bēž-e` checked against §2.6.4, example (27), p.129.
+- [x] `dē` and `bēž-e` labels checked against the source interlinear gloss.
+- [ ] Owner/editor approval of the Sorani aspect term.
+- [ ] Owner/editor approval of the Sorani future translation and explanation.
+
+**Boundary:** documentation-only source recheck. No lesson HTML, seed SQL, migration, application code, database, Supabase resource, `main` branch or deployment was changed. No runtime or release testing is claimed.
