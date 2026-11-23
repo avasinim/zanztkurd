@@ -398,7 +398,7 @@
       const {data:{session}}=await client.auth.getSession();
       const result=await client.from("site_feedback_submissions").insert({rating,display_name:name||null,body:body||null,user_id:session?.user?.id||null});
       if(result.error){console.error("[Avasin site feedback] submit",result.error);say("نەتوانرا ناردن تەواو بکرێت؛ تکایە دواتر هەوڵ بدەرەوە.");}
-      else{form.reset();say(body?"سوپاس! خاڵ و کۆمێنتەکەت وەرگیرا؛ دوای پشکنین لە پەڕەی سەرەکی دەردەکەوێت.":"سوپاس! خاڵەکەت وەرگیرا؛ دوای پشکنین ناوەندی خاڵ نوێ دەکرێتەوە.");}
+      else{form.reset();say(body?"سوپاس! خاڵ و کۆمێنتەکەت وەرگیرا؛ دوای پشکنین لە پەڕەی سەرەکی دەردەکەوێت.":"سپاس! خاڵەکەت وەرگیرا؛ دوای پشکنین نێوەندی خاڵ، نوێ دەکرێتەوە.");}
     }catch(err){console.error("[Avasin site feedback] submit exception",err);say("هەڵەیەک ڕوویدا؛ تکایە دواتر هەوڵ بدەرەوە.");}
     finally{submit.disabled=false;}
   });
