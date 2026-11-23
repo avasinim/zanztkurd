@@ -221,3 +221,15 @@ The latest direct-source recheck artifacts now have these verified references:
 - Historical migration: blob SHA `06320c50a858e41d8ce21e7b4fdee3f6ae418cd9`.
 
 **Overall decision unchanged:** Course 2 remains not ready for final instructional sign-off. The Lesson 11 seed defect remains unfixed; Lesson 10's question inventory and nominal-clause example remain gated; owner terminology decisions remain open. No learner-facing lesson, seed SQL, historical/new migration, application code, database, Supabase resource, `main` branch or deployment was changed. No runtime, live-database or release test is claimed.
+
+
+### C16 — Haig §2.7.1 visual page check confirms SOVG notation; worked-example gap remains
+**Severity:** Medium; source notation closed, teaching example gap remains.
+
+The University of Bamberg-hosted Haig (2018) chapter was inspected both as extracted text and as page images for printed pp.130–131. The page image of p.130 confirms the notation is explicitly **SOVG**, not plain SOV; G stands for “Goal” and covers spatial goals, recipients of transfer verbs and addressees of speech verbs. The continuation on p.131 specifies that recipients with `dan` are usually placed immediately after the verb in the oblique case without an adposition; some dialects instead use `ji … ra` before the verb (SGOV), while southeastern varieties also show post-predicate goal placement.
+
+The inspected §2.7.1 passage is explanatory prose and does not itself supply a complete worked SOVG sentence. The nearby `Wî mirov-î çay anî` example appears under §2.7.2 and is explicitly a past-transitive ergative example; it is not an SOVG illustration. Example (34) later in §2.7.2 contains a speech clause with an expressed recipient, but it is a complex, multi-clause written-text example and is not a clean neutral SOVG teaching model. It should not be repurposed without a separate linguistic review.
+
+**Disposition:** retain SOVG as the exact notation and retain the open worked-example gap. Lesson 11 can accurately teach the notation and the meaning of G from Haig §2.7.1 without inventing a sentence. If a worked SOVG clause is required, locate a complete, variety-appropriate source example and verify its clause boundaries, constituent order and dialect before adding it. The seed defect remains separately critical and unfixed.
+
+**Source:** Haig (2018), §2.7.1–§2.7.2, printed pp.130–131, University of Bamberg-hosted chapter PDF. Page-image inspection confirmed the SOVG notation and the separation of the following ergativity discussion.
