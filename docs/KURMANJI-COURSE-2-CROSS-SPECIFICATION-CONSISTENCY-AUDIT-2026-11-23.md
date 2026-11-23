@@ -57,12 +57,14 @@ The Lesson 06 sequence contained the phrase “without claiming without claiming
 
 **Correction:** Remove the duplicated phrase. The sentence now reads “without claiming a full possessive paradigm unless approved.”
 
-### C03 — Lesson 09 future example remains a source-context gate
-**Severity:** High; linguistic/source gate, not a document inconsistency.
+### C03 — Lesson 09 future example source context is now verified; Sorani rendering still needs owner approval
+**Severity:** High; remaining owner/editor gate.
 
-The Lesson 09 specification consistently records the future construction `ew dē mesel-ē ji te re bēž-e`, but also explicitly states that the Haig PDF could not be reopened during that pass and that the complete clause gloss and analysis of `dē` and `bēž-e` must be rechecked before learner-facing use.
+The University of Bamberg-hosted Haig chapter PDF text confirms §2.6.4, printed p.129, example (27): `ew dē mesel-ē ji te re bēž-e`, glossed `3SG FUT issue-OBL.F from 2SG.OBL POST say.SUBJ.PRS-3SG`, with the English translation “He will tell you the issue.” This confirms `dē` as the future particle and `bēž-e` as a present-subjunctive form. The source-context check is complete for this example.
 
-**Disposition:** No gloss is approved by this cross-specification audit. Keep the exact form and existing provisional analysis out of expanded learner-facing explanation until the source-context gate is closed.
+The seed's Sorani rendering «ئەو کێشەکە بۆ تۆ دەڵێت» is compatible with the source meaning in a future context, but the lesson should explicitly explain that temporal reading. Owner/editor approval of the Sorani rendering remains open; the aspect terminology decision D03 also remains open.
+
+**Disposition:** The source-context gate is closed. Do not change the Sorani wording or learner-facing lesson until its rendering and explanation are approved.
 
 ### C04 — Lesson 10 question inventory remains unresolved
 **Severity:** High; owner/source gate.
