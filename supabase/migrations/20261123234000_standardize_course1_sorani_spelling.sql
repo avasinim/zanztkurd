@@ -45,7 +45,7 @@ BEGIN
     UPDATE public.lesson_content
     SET content_html =
       replace(
-        replace(
+        regexp_replace(
           replace(
             replace(
               replace(
@@ -56,7 +56,7 @@ BEGIN
             ),
             'نیە', 'نییە'
           ),
-          'هەموو?', 'هەموو'
+          'هەموو?', 'هەموو', 'g'
         ),
         'ڕون', 'ڕوون'
       )
