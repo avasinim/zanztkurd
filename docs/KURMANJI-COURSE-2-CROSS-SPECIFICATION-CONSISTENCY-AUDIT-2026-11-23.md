@@ -85,16 +85,19 @@ The specification correctly distinguishes Haig §2.7.1 neutral SOVG (where G is 
 
 The current repository seed file `docs/kurmanji-content-seed-part-05.sql` was fetched and verified at blob SHA `2581b9362ee7a0972076d475db56b034e0e662cb`. Its Lesson 11 row (`kurmanji-course-2-lesson-11.html`) currently says Haig §2.7.1 presents the basic SOV pattern and cites `Wî mirov-î çay anî` as that example. The row analyzes `Wî mirov-î` as subject, `çay` as object and `anî` as verb, and frames it as evidence for the SOV pattern.
 
-This conflicts with the corrected source audit and the Lessons 10–11 implementation specification: the cited clause is Haig (2018), §2.7.2, example (32), p.131, and illustrates past-transitive ergative alignment. Haig §2.7.1 describes neutral SOVG where a goal argument is present. The clause in example (32) must not be used as the worked example for §2.7.1 SOVG.
+The same incorrect learner-facing content is present in `supabase/migrations/20261024122051_add_kurmanji_courses_and_protected_lessons.sql`, fetched at blob SHA `06320c50a858e41d8ce21e7b4fdee3f6ae418cd9`. Its header comment states that this migration was applied to the production project on 2026-10-24. That comment is repository evidence only: the live production database was not queried, so its current row contents are not independently confirmed.
+
+This conflicts with the corrected source audit and the Lessons 10–11 implementation specification: the cited clause is Haig (2018), §2.7.2, example (32), p.131, and illustrates past-transitive ergative alignment. Haig §2.7.1 describes neutral SOVG where a goal argument is present. The clause in example (32) must not be used as the worked example for §2.7.1 SOVG. The official chapter PDF search text confirms both the §2.7.1 SOVG description and the §2.7.2 ergative example (32).
 
 **Required future correction after explicit learner-content implementation approval:**
 - replace the incorrect §2.7.1 attribution for `Wî mirov-î çay anî` with §2.7.2, example (32), p.131;
 - describe the clause as a past-transitive ergative example, with its case/role analysis checked against the source;
 - teach neutral SOVG separately, using a different complete source-verified clause if one is to be included;
 - do not invent a replacement SOVG sentence;
-- update the seed and any coordinated migration payload only under a separately approved change plan, then run the repository's SQL validation and seed/migration parity checks.
+- do not rewrite the already-applied historical migration file; if a live correction is explicitly authorized, prepare a new forward migration through the normal review process;
+- update the seed only under a separately approved change plan, and coordinate it with any new migration; run SQL validation and seed/migration parity checks before considering release.
 
-**Current state:** this is an identified defect in the repository seed, not a completed fix. No SQL or migration file was changed during this audit.
+**Current state:** this is an identified defect in both the repository seed and the historical migration file, not a completed fix. The migration header says it was applied to production, but the live database was not queried. No SQL, migration or production data was changed during this audit.
 
 ### C06 — Lesson 06 scope decision remains open
 **Severity:** High; owner decision D04.
