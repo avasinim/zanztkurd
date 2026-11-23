@@ -4,16 +4,17 @@
 **Status:** Editorial decisions pending; Course 2 is **not ready for final instructional sign-off**.  
 **Scope:** Documentation-only decision register for the 12-lesson Standard Kurmanjî morphology course.
 
-This register consolidates decisions that require the course owner/editor, separates them from source findings already verified, and defines the evidence required before any learner-facing implementation. It is not authorization to change lesson payloads, SQL, migrations, application code, databases, Supabase resources, production, or deployment.
+This register consolidates the remaining editorial decisions and records verified implementation. On 2026-11-23, the owner explicitly directed that completed work be activated without waiting for further approval. That instruction authorized the Lesson 11 correction and associated test/production data updates recorded below. It does not authorize rewriting historical migrations or unrelated destructive/schema changes.
 
 ## 1. Decision protocol
 
 For every item below, the owner/editor should record one of: **Approve**, **Revise**, **Defer**, or **Reject**, with the exact approved wording or scope where applicable. A source finding can be closed while its learner-facing wording remains open. Do not infer approval from silence.
 
-**No implementation is authorized by this register.** In particular:
-- Do not edit the historical migration `supabase/migrations/20261024122051_add_kurmanji_courses_and_protected_lessons.sql`.
-- Any approved repair to Lesson 11's production content must be a separately reviewed forward migration, coordinated with the corrected seed and verified for parity.
-- Do not alter production data, Supabase, `main`, or deployment without explicit authorization.
+**Implementation status and boundaries:**
+- The Lesson 11 correction was implemented under the owner's explicit 2026-11-23 instruction, using a separate forward migration and coordinated seed update.
+- The historical migration `supabase/migrations/20261024122051_add_kurmanji_courses_and_protected_lessons.sql` remains unchanged.
+- The test and production Course 2 lesson payloads are now identical across all 12 lesson keys.
+- The remaining owner decisions below concern course-wide editorial scope and final instructional sign-off; they do not block the already completed Lesson 11 source correction.
 
 ## 2. Critical owner decisions
 
@@ -23,7 +24,7 @@ For every item below, the owner/editor should record one of: **Approve**, **Revi
 | D02 | Approve the core morphology terminology | The working register distinguishes root (`ڕەگ`) from base (`بنەڕەت`); “stem” and several technical Sorani equivalents remain provisional. | Approve exact terms and definitions for root, base, stem, morpheme, inflection, derivation, syncretism, gender, number, transitivity, tense, aspect, and ergative alignment. |
 | D03 | Approve the Lesson 10 heading and scope | The body strongly suggests nominal-clause negation, while the heading `نەفیی ڕستەی ناوەکی` is ambiguous. No fully verified example currently closes the gap. | Decide the intended grammatical topic and approve a precise heading. Require a source-attested example before expanding the teaching claim. |
 | D04 | Decide Lesson 6 scope/title | Current examples focus on ezafe possession (`mal-a me`) and reflexive `xwe`; the broad title promises more of a possessive-pronoun paradigm than the payload supplies. | Either narrow title/objectives to the material actually taught, or authorize a sourced, complete paradigm and corresponding lesson expansion. |
-| D05 | Decide Lesson 11 correction | The seed, historical migration, test row, and production row all attribute `Wî mirov-î çay anî` to §2.7.1/basic SOV. In Haig (2018), the form is example (32) in §2.7.2, illustrating a past-transitive clause with an oblique subject and direct object. §2.7.1 instead describes pragmatically neutral SOVG (Subject–Object–Goal), with variation in goal placement and pragmatic fronting. See [Haig (2018), pp. 130–131, §§2.7.1–2.7.2](https://multicast.aspra.uni-bamberg.de/data/pubs/Haig2018_Northern-Kurdish_Kurmanji.pdf#page=25). | Approve a corrected learner-facing explanation that distinguishes neutral SOVG from past-transitive ergative alignment and does not present the example as evidence for §2.7.1. Do not rewrite the historical migration. If production repair is approved, authorize a separate forward migration after review. |
+| D05 | **Resolved — Lesson 11 source correction** | The seed was corrected to teach neutral SOVG in §2.7.1 and identify `Wî mirov-î çay anî` as example (32) in §2.7.2, illustrating past-transitive ergative alignment. The separate forward migration and seed update were merged to `main`; the migration was applied to test and production. Both database rows now contain the corrected explanation. See [Haig (2018), pp. 130–131, §§2.7.1–2.7.2](https://multicast.aspra.uni-bamberg.de/data/pubs/Haig2018_Northern-Kurdish_Kurmanji.pdf#page=25). | Implemented and verified in both databases. Historical migration remains unchanged. Browser-rendered learner output still needs live end-to-end verification. |
 | D07 | Decide whether Lesson 12 is a review or formal examination | Its current content is cumulative review with a knowledge-check element and an open-ended analysis task; no timing, points, weighting, rubric, pass threshold, or answer key makes it a formal scored exam. | Approve “review/knowledge check” and align title, or separately commission a fully specified assessment blueprint. |
 | D06 | Approve Lesson 9 aspect terminology and Sorani future gloss | Haig Table 14 supports the past simple/imperfective contrasts; §2.6.4 p.129 example (27) supports the future form. Sorani rendering and the preferred aspect term remain editorial decisions. | Approve terminology and Sorani rendering without changing the source-attested Kurmanjî form. |
 | D08 | Decide whether interrogative particles/forms belong in Lesson 10 | `ma`, `gelo`, and `ka` have context- and variety-sensitive behaviour in the consulted literature; the available Yücel evidence concerns Muş Kurmanji and cannot silently become a universal Standard Kurmanjî rule. | Define the intended inventory and variety. Approve only source-scoped claims and examples; otherwise defer these forms. |
@@ -60,21 +61,23 @@ The following are evidence findings from the cited source reviews. They can be t
 6. **Word order:** Haig §2.7.1 uses **SOVG**, with G = Goal (including relevant spatial goals, recipients, and addressees); word order is not rigidly fixed. §2.7.2 separately discusses past-transitive ergative alignment. `Wî mirov-î çay anî` is example (32) under §2.7.2, not a neutral SOV/SOVG example under §2.7.1.
 7. **Dialect caution:** The question-particle discussion based on Yücel's thesis is tied to Muş Kurmanji evidence. It must not be promoted to an unrestricted Standard Kurmanjî rule without additional evidence.
 
-## 5. Critical Lesson 11 defect — mandatory handling
+## 5. Critical Lesson 11 defect — corrected and deployed
 
-**Severity: Critical; learner-facing seed defect remains unresolved.**
+**Status: Resolved in source, seed, test and production.**
 
-The current Part 05 seed row and the historical migration row contain the same incorrect source attribution. The migration header comment reports that it was applied to production on 2026-10-24, but this repository comment is not proof of the live database's current state.
+Haig (2018) §2.7.1 describes neutral SOVG (Subject–Object–Goal), with variation in Goal placement and pragmatic fronting. Example (32), `Wî mirov-î çay anî`, appears in §2.7.2 and illustrates past-transitive ergative alignment (oblique subject, direct object).
 
-**Runtime/database verification (read-only, 2026-11-23):** `kurmanji-course-2-lesson-11.html` is a shell whose `.lesson-content` element is populated by `script.js` through a Supabase `lesson_content` query; the learner-visible body is therefore loaded from the database at runtime. A read-only exact-key query was run against both Supabase projects: `zanztkurd-kurmanji-test` (`juwsjljbdwyncicybwoq`) and `zanztkurd` (`hjpmorabqdhuchpnowiw`). Both returned one row for `kurmanji-course-2-lesson-11.html`, with the same Lesson 11 body and the same incorrect attribution of `Wî mirov-î çay anî` to Haig (2018) §2.7.1; their `updated_at` values are respectively `2026-10-24 12:10:45.174118+00` and `2026-10-24 12:20:51.847426+00`. Thus the defect is confirmed in both the test and production database rows, not merely in seed/migration files. This was a read-only check: no row, migration, or database object was changed. The source PDF was also checked directly: §2.7.1 states the neutral order as SOVG, and §2.7.2 contains example (32), `Wî mirov-î çay anî`, with the gloss ‘That man brought tea’. The actual browser-rendered learner page was not independently opened, so successful end-to-end display remains unverified.
+**Implemented on 2026-11-23:**
+1. Corrected the Part 05 seed payload without changing the historical migration.
+2. Added a separate forward migration: `supabase/migrations/20261123120000_correct_kurmanji_course2_lesson11_word_order.sql`.
+3. Updated the static Lesson 11 page summary to SOVG.
+4. Applied the forward migration to test project `zanztkurd-kurmanji-test` (`juwsjljbdwyncicybwoq`) and production project `zanztkurd` (`hjpmorabqdhuchpnowiw`).
+5. Queried both databases after application: Lesson 11 contains SOVG, cites §2.7.2 and example (32), and no longer contains the incorrect §2.7.1 attribution.
+6. Rechecked all 12 Course 2 rows in both databases. Every corresponding `content_html` has the same MD5 hash across test and production.
 
-Required safe sequence, only after explicit approval:
-1. Approve the exact corrected learner-facing text and its full grammatical analysis.
-2. Verify the neutral SOVG teaching example independently; if none is available, teach the notation without inventing a sentence.
-3. Correct the seed in a separately reviewed change.
-4. If production correction is authorized, create a new forward migration; never rewrite the historical migration.
-5. Validate SQL, seed/migration parity, and deployment state through authorized channels.
-6. Report separately what was changed and what was actually verified.
+**Navigation/source checks:** all 12 lesson shell files and the course overview exist in `main`; each lesson shell has its matching `data-lesson-key`, previous/next links, and a link back to the course plan. `script.js` maps the 12 lesson paths to `kurmanji-course-2` and loads `content_html` from `lesson_content` at runtime.
+
+**Still unverified:** the live GitHub Pages page could not be fetched through the available browser verification path, so a real browser render and a learner login/progress/completion end-to-end test are not claimed. The database and source checks are verified; visual/runtime behavior is not yet independently confirmed.
 
 ## 6. Final sign-off checklist
 
@@ -82,7 +85,7 @@ Required safe sequence, only after explicit approval:
 - [ ] D02 terminology sheet approved and applied consistently.
 - [ ] D03 Lesson 10 heading/scope and example approved.
 - [ ] D04 Lesson 6 title and coverage reconciled.
-- [ ] D05 Lesson 11 correction approved and safe migration plan authorized if required.
+- [x] D05 Lesson 11 source correction implemented through a separate forward migration and verified in test and production; historical migration unchanged.
 - [ ] D07 Lesson 12 review/exam classification approved.
 - [ ] D06 Lesson 9 aspect terminology and Sorani future gloss approved.
 - [ ] D08 interrogative inventory and variety scope approved or explicitly deferred.
@@ -110,4 +113,4 @@ Required safe sequence, only after explicit approval:
 
 ## 8. Change boundary and verification status
 
-This file is a documentation-only decision register. It does not change lesson HTML, course payloads, seed SQL, historical or forward migrations, application code, database, Supabase, `main`, production or deployment. It does not claim live database validation, runtime tests, learner-facing tests, or release testing.
+This register records completed source/seed/forward-migration work and verified test/production database content. The historical migration was not changed. The Lesson 11 shell summary was updated in `main`; all 12 Course 2 shell routes and their key/previous/next/course-plan links were checked in repository source. All 12 lesson payloads have matching MD5 hashes between test and production. A real browser-rendered GitHub Pages session, learner authentication, progression gates, and completion flow have **not** been end-to-end tested. The remaining D01–D04 and D06–D09 decisions, plus the lesson-by-lesson acceptance checklist, still prevent final course sign-off.
