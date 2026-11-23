@@ -185,3 +185,39 @@ A full-text check of Songül Gündoğdu Yücel's 2018 Boğaziçi University doct
 **Source:** Songül Gündoğdu Yücel (2018), *Argument–Adjunct Distinction in Kurmanji Kurdish*, PhD thesis, Boğaziçi University, §2.7.5, printed pp.101–105, especially examples (86)–(99). Repository/source URL: https://abis-files.bogazici.edu.tr/avesis/3420afbd-1f13-4de9-9948-d86ee87f41c3
 
 **Open gates:** owner approval of target variety; decision whether to teach `ma` and its pragmatic function; exact selection and gloss of question words; clarification of «نەفیی ڕستەی ناوەکی». No learner-facing lesson, seed, migration, code or database was changed.
+
+
+## 10. Direct-source and payload reconciliation update — 2026-11-23
+
+This update reconciles the latest Lesson 09 and Lessons 10–11 source rechecks with the actual learner payload rows. It remains documentation-only.
+
+### C12 — Lesson 10 heading is partially clarified by its own body, but still lacks a verified teaching example
+**Severity:** Medium; editorial interpretation narrowed, source and owner gates remain.
+
+A direct reread of the Lesson 10 seed row shows the heading `نەفیی ڕستەی ناوەکی` immediately followed by the sentence `نەفیی ڕستەی ناوەکی و نەفیی کردار هەمیشە بە هەمان فۆڕم دروست نابن` (“negation of a nominal clause and verbal negation are not always formed with the same form”). This makes **nominal-clause negation** the most strongly supported reading of the author's own wording; an embedded-clause reading is not supported by this row. Nevertheless, the payload provides no Kurmanjî example, form, gloss or identifiable source for the nominal-clause claim. Therefore the interpretation is narrowed, not fully source-validated.
+
+**Disposition:** Do not keep describing the heading as equally likely to mean an embedded clause. Record “nominal-clause negation (strongly indicated by the body text; owner confirmation still desirable)” in editorial notes. Do not invent a nominal predicate or negative construction. Require a current, variety-appropriate source and a complete checked example before learner-facing expansion. The heading and payload remain unchanged pending approval.
+
+### C13 — Lesson 10 question-particle source evidence: precise variety boundary retained
+**Severity:** High; source evidence clarified, target-variety decision open.
+
+The latest Lesson 10–11 implementation specification now records a direct recheck of Yücel (2018), a Boğaziçi University PhD thesis whose abstract explicitly identifies its empirical variety as Muş Kurmanji. Its question discussion (examples 97–99, printed pp.104–105) distinguishes `gelo`, `ka` and `ma` by discourse function: `gelo` is generally neutral with added curiosity; `ka` is closely tied to immediate discourse context; `ma` introduces an affirmative question expecting a negative answer or a negative question expecting an affirmative answer. The thesis's word-order examples (53)–(54), printed p.86, include Muş SOV, SOVG and OSV patterns.
+
+This refines the earlier C11 note: the thesis is specialist academic evidence, but its Muş empirical scope must remain explicit. It cannot by itself establish that all of these particles, spellings, distributions or word-order patterns belong to the course's selected Standard Kurmanjî variety. The question inventory remains gated on target-variety approval and suitable Standard Kurmanjî corroboration. For Lesson 11, the Muş examples are not replacements for Haig's Standard Kurmanjî analysis.
+
+### C14 — Lesson 11 source error and repository parity reconfirmed from exact payload rows
+**Severity:** Critical; unchanged learner-facing defect.
+
+The Lesson 11 seed row (`kurmanji-course-2-lesson-11.html`) and the corresponding historical migration row were fetched again from the same repository reference. Both contain the same learner-facing passage attributing `Wî mirov-î çay anî` to Haig §2.7.1 as the basic SOV example. Their extracted Lesson 11 row payloads remain identical. The direct Haig chapter text confirms that §2.7.1 describes pragmatically neutral SOVG where G is a goal, while `Wî mirov-î çay anî` is example (32) in §2.7.2 and illustrates past-transitive ergative alignment. See Haig's official University of Bamberg-hosted chapter text.
+
+**Required disposition:** keep the defect at critical priority. Correct the seed attribution and grammatical framing only after explicit learner-content approval; do not rewrite the historical migration. If production correction is separately approved, use a new forward migration, then validate SQL and seed/migration parity. The repository migration header reports application to production on 2026-10-24, but the live database has not been queried in this work.
+
+### C15 — Latest source-specification references refreshed
+
+The latest direct-source recheck artifacts now have these verified references:
+- Lesson 09 specification: `docs/KURMANJI-COURSE-2-LESSON-09-IMPLEMENTATION-READY-EDITORIAL-SPEC-2026-11-23.md`, blob SHA `d7e87f66fb92e513f5e414f9ab74dab6ae48ec5e`.
+- Lessons 10–11 specification: `docs/KURMANJI-COURSE-2-LESSONS-10-11-IMPLEMENTATION-READY-EDITORIAL-SPEC-2026-11-23.md`, blob SHA `142a96107599012fbbbca9b19c6e56df2d3d0c44`.
+- Seed Part 05: blob SHA `2581b9362ee7a0972076d475db56b034e0e662cb`.
+- Historical migration: blob SHA `06320c50a858e41d8ce21e7b4fdee3f6ae418cd9`.
+
+**Overall decision unchanged:** Course 2 remains not ready for final instructional sign-off. The Lesson 11 seed defect remains unfixed; Lesson 10's question inventory and nominal-clause example remain gated; owner terminology decisions remain open. No learner-facing lesson, seed SQL, historical/new migration, application code, database, Supabase resource, `main` branch or deployment was changed. No runtime, live-database or release test is claimed.
