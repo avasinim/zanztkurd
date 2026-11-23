@@ -1606,7 +1606,7 @@ async function markLessonComplete(courseId, lessonKey){
     "کتێب‌خانە":{en:"Library",ar:"المكتبة",tr:"Kütüphane",fa:"کتابخانه",az:"Kitabxana",ru:"Библиотека",de:"Bibliothek",fr:"Bibliothèque",es:"Biblioteca"},
     "کتێبخانە":{en:"Library",ar:"المكتبة",tr:"Kütüphane",fa:"کتابخانه",az:"Kitabxana",ru:"Библиотека",de:"Bibliothek",fr:"Bibliothèque",es:"Biblioteca"},
     "دەستەی ئەکادێمی":{en:"Academic team",ar:"الفريق الأكاديمي",tr:"Akademik ekip",fa:"گروه دانشگاهی",az:"Akademik heyət",ru:"Академическая команда",de:"Akademisches Team",fr:"Équipe académique",es:"Equipo académico"},
-    "دەربارەی ئاڤاشین":{en:"About Avasin",ar:"عن آفاسين",tr:"Avasin hakkında",fa:"درباره ئاڤاشین",az:"Avasin haqqında",ru:"Об Авасин",de:"Über Avasin",fr:"À propos d’Avasin",es:"Acerca de Avasin"},
+    "لەبوارەی ئاڤاشین":{en:"About Avasin",ar:"عن آفاسين",tr:"Avasin hakkında",fa:"درباره ئاڤاشین",az:"Avasin haqqında",ru:"Об Авасин",de:"Über Avasin",fr:"À propos d’Avasin",es:"Acerca de Avasin"},
     "چوونەژورەوە":{en:"Sign in",ar:"تسجيل الدخول",tr:"Giriş yap",fa:"ورود",az:"Daxil ol",ru:"Войти",de:"Anmelden",fr:"Se connecter",es:"Iniciar sesión"},
     "چوونەژوورەوە":{en:"Sign in",ar:"تسجيل الدخول",tr:"Giriş yap",fa:"ورود",az:"Daxil ol",ru:"Войти",de:"Anmelden",fr:"Se connecter",es:"Iniciar sesión"},
     "چوونەدەرەوە":{en:"Sign out",ar:"تسجيل الخروج",tr:"Çıkış yap",fa:"خروج",az:"Çıxış",ru:"Выйти",de:"Abmelden",fr:"Se déconnecter",es:"Cerrar sesión"},
