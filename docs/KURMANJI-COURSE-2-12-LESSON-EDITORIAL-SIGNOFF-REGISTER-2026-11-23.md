@@ -31,7 +31,7 @@ This register is the single coordination point for the remaining decisions, the 
 | 06 — خاوەنداری و جێناوی خاوەندار | `mal-a me`; `Ez li mal-a xwe me` | Owner chooses narrow scope/title or source-backed paradigm expansion; keep `xwe` within same-clause coreference | Implementation spec drafted |
 | 07 — جێناوە کەسییەکان و حاڵەت | Haig pronoun paradigm and direct/oblique distribution | Legible paradigm; fully glossed clauses; explain syncretic `ew`; case ≠ subject/object | Implementation spec drafted |
 | 08 — کردار، ڕەگ، کەس و ژمارە | Haig Table 14 transitive/intransitive contrasts | Three-way worked contrast; source-verified overt-object example; `min xwar` alone is not overt-object evidence | Implementation spec drafted |
-| 09 — کاتی ئێستا، ڕابردوو و داهاتوو | Source-located `di-`, simple/imperfective past pairs and future form | Approve tense/aspect terminology; analyze pairs; verify future gloss in context; qualify prefixes | Audit/proposal exists; implementation spec still required |
+| 09 — کاتی ئێستا، ڕابردوو و داهاتوو | Source-located `di-`, simple/imperfective past pairs and future form | Approve aspect terminology; recheck future gloss/context; keep examples qualified | Implementation spec drafted; source-context and owner gates open |
 | 10 — نەفی و پرسیار | Haig §2.6.1 qualified negative patterns | Author clarifies ambiguous heading; current Standard Kurmanjî verification for `ma` and question words | Implementation spec drafted; owner/source gates open |
 | 11 — ڕێکخستنی وشەکان و پێکهاتەی ڕستە | Haig §2.7.1 neutral SOVG; §2.7.2 example (32) ergativity | Teach SOVG separately; cite `Wî mirov-î çay anî` to §2.7.2, example (32), p.131 | Implementation spec drafted |
 | 12 — پێداچوونەوە و تاقیکردنەوەی کۆتایی | Cumulative review and source-based analysis | Owner confirms review vs formal exam; if exam, approve complete scoring/assessment design | Audit/proposal exists; implementation spec still required |
@@ -105,7 +105,7 @@ Course-wide source and readiness controls:
 - `docs/KURMANJI-COURSE-2-INTEGRATED-REVISION-BLUEPRINT-2026-11-23.md`
 
 Still required to complete the same planning level:
-- Lesson 09 implementation-ready specification;
+- Lesson 09 implementation-ready specification: `docs/KURMANJI-COURSE-2-LESSON-09-IMPLEMENTATION-READY-EDITORIAL-SPEC-2026-11-23.md` (now drafted; owner/source gates remain open);
 - Lesson 12 implementation-ready specification, conditional on D08;
 - final cross-lesson terminology reconciliation after D02–D03.
 
