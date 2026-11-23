@@ -71,7 +71,7 @@ The seed's Sorani rendering «ئەو کێشەکە بۆ تۆ دەڵێت» is comp
 
 The Lessons 10–11 specification does not treat the 1965 regional/historical reference as sufficient evidence to prescribe `ma` in the Standard Kurmanjî course. It also requires current-source verification for the question-word inventory and clarification of the ambiguous Lesson 10 heading.
 
-**Disposition:** Preserve the existing gate. Do not add `ma`, new interrogative paradigms or a guessed reinterpretation of the heading.
+**Disposition:** The evidence gate is now partly resolved: an academic 2018 Boğaziçi University doctoral thesis (Songül Gündoğdu Yücel, *Argument–Adjunct Distinction in Kurmanji Kurdish*, §2.7.5, printed pp.101–105) documents `gelo`, `ma` and `ka` as question particles, with discourse-related functions. It specifically describes `ma` as introducing an affirmative question that expects a negative answer, or a negative question that expects an affirmative answer; the thesis reports `ka` as the most frequent particle in its Muş Kurmanji data. This is not evidence to teach `ma` as a neutral, universally interchangeable yes/no marker. The course owner must still approve whether this discourse-specific use belongs in the selected course variety and how to gloss it. Do not add a broad `ma` rule or a new paradigm before that decision. The ambiguous Lesson 10 heading and the complete interrogative inventory remain unresolved.
 
 ### C05 — Lesson 11 needs a separate verified SOVG worked example
 **Severity:** Medium; instructional/source gap.
@@ -173,3 +173,15 @@ These checks establish repository artifact parity for all 12 lessons, not lingui
 ## 9. Reconciliation note — 2026-11-23
 
 This cross-specification audit's document index has been refreshed to the currently inspected blob SHAs for the revised Lesson 01–03/06 and Lesson 09–11 specifications and the current sign-off register. The six lesson specifications, terminology register and sign-off register were fetched from one common repository ref for this reconciliation. This is a metadata/content consistency pass, not a new independent linguistic review of every source example.
+
+
+### C11 — Lesson 10 question-particle evidence refined by an academic source
+**Severity:** High; source evidence strengthened, owner/variety decision remains open.
+
+A full-text check of Songül Gündoğdu Yücel's 2018 Boğaziçi University doctoral thesis, *Argument–Adjunct Distinction in Kurmanji Kurdish*, §2.7.5 “Interrogatives” (printed pp.101–105), adds a more precise source basis than the earlier beginner-level corroboration. The thesis describes polar questions as segmentally identical to declaratives and distinguished by intonation (examples 86–88). It also lists the content-question forms `kî`, `kê`, `çi`, `ku(der)`, `kengî/kengê`, `çima/çira`, `kîjan`, `çawa(n)/ça(n)kî`, `çiqas` and `çend`, with example clauses for several forms (examples 90–96). It describes `gelo`, `ma` and `ka` as question particles that can intensify polar and wh-questions (examples 97–98). Crucially, the source assigns different discourse functions: `gelo` generally has a neutral interpretation with added curiosity; `ka` is often tied to the immediate context and is reported as the most frequent particle in the Muş data; `ma` introduces an affirmative question expecting a negative answer or a negative question expecting an affirmative answer (examples 99a–b).
+
+**Editorial consequence:** the earlier blanket hold on any use of `ma` is too broad, but the opposite claim—that `ma` is a neutral, universal yes/no question particle—is also unsupported. The source supports a discourse-specific explanation, subject to the course owner's decision about the target variety and whether this advanced pragmatic distinction belongs in the beginner lesson. The thesis includes both Kurmanji-wide discussion and explicit Muş Kurmanji observations; it must not be treated as proof that every form/function is uniform across all regional varieties. The complete question-word list should not be copied wholesale into the lesson without item-by-item scope, form and example checks.
+
+**Source:** Songül Gündoğdu Yücel (2018), *Argument–Adjunct Distinction in Kurmanji Kurdish*, PhD thesis, Boğaziçi University, §2.7.5, printed pp.101–105, especially examples (86)–(99). Repository/source URL: https://abis-files.bogazici.edu.tr/avesis/3420afbd-1f13-4de9-9948-d86ee87f41c3
+
+**Open gates:** owner approval of target variety; decision whether to teach `ma` and its pragmatic function; exact selection and gloss of question words; clarification of «نەفیی ڕستەی ناوەکی». No learner-facing lesson, seed, migration, code or database was changed.
