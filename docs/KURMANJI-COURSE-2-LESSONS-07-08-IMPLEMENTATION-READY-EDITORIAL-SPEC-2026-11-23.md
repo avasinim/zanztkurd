@@ -269,3 +269,44 @@ Before any learner-facing edit:
 ## 9. Completion status
 
 This document is an implementation-ready editorial specification, not a claim that Lessons 07–08 have been revised or passed final instructional review. The learner-facing lessons remain unchanged. Course 2 remains subject to the master audit's P0 owner decisions and overall sign-off gate.
+
+
+## 10. Primary-source recheck — 2026-11-23
+
+The relevant pages of Haig (2018) were re-opened in the University of Bamberg-hosted chapter PDF and checked directly against the claims above. This closes the document's pending direct-page recheck for the cited paradigm items; it does not constitute owner approval or a review of the learner-facing prose.
+
+### 10.1 Scope of the source
+
+Haig describes the chapter's Standard Kurmanjî sketch as loosely based on the Cizre and Botan dialect area (§2, printed p.109), and explicitly notes regional variation. Accordingly, the paradigms below are valid for the source's stated Standard Kurmanjî framework; they should not be generalized to every Kurmanjî dialect or regional usage without qualification.
+
+### 10.2 Lesson 07 — Table 9 and case environments
+
+Haig Table 9 (printed p.117) confirms the direct/oblique pairs already reproduced in §4.2:
+- 1SG `ez / min`; 2SG `tu / te`;
+- 3SG `ew / wî (m.) / wê (f.)`;
+- 1PL `em / me`; 2PL `hûn / we`; 3PL `ew / wan`.
+
+The table directly supports the statement that the direct form `ew` is shared by third-person singular and plural; the oblique column differentiates masculine and feminine singular and plural. Haig §2.2.1 (printed pp.114–115) lists the oblique environments used in §4.4: present-transitive objects, specified goal/recipient arguments, adpositional complements, ezafe possessors and past-transitive subjects; direct case is used elsewhere in the described system. Haig §2.2.3 (printed p.117) separately confirms invariant `xwe` for all persons/numbers when coreference with the same-clause subject is intended. The present Lesson 07 scope does not require adding reflexive forms; this is background only.
+
+### 10.3 Lesson 08 — Table 14 and what the examples prove
+
+Haig Table 14 (printed p.127) directly lists:
+- `ez dibêjim` under simple present (transitive);
+- `ez hatim` under simple past (intransitive);
+- `min xwar` under simple past (transitive), translated by the source as “I ate (sth.)”.
+
+Haig §2.6.1 (printed p.125) states that finite-verb agreement indexes the intransitive subject in all tenses, the transitive subject in present tenses, and the transitive object in past tenses. It further states that past-transitive agreement varies by construction and that the simple-past form is based on the past stem plus the appropriate agreement marker. Haig §2.7.2 (printed pp.130–131) specifies the canonical past-transitive pattern: oblique transitive subject, direct object and verb agreement with the direct object.
+
+Therefore the three-way comparison in §5.2 is accurately grounded. The caution in §5.3 is also necessary: `min xwar` has no overt object expression in the cited form, so the learner must not be asked to identify an overt object's case or infer a visible object-agreement contrast from that token alone. The source's parenthetical “sth.” indicates an understood/unspecified object in the translation, not an overt noun in the example.
+
+### 10.4 Verification status and remaining gates
+
+- [x] Table 9 pronoun forms checked directly against Haig (2018), p.117.
+- [x] §2.2.1 oblique-case environments checked directly, pp.114–115.
+- [x] Table 14 examples checked directly, p.127.
+- [x] Agreement statement and transitivity distinction checked directly, §2.6.1, p.125.
+- [x] Past-transitive case/agreement pattern checked directly, §2.7.2, pp.130–131.
+- [ ] Owner approval of the target Standard Kurmanjî variety and Sorani terminology.
+- [ ] Approval of the exact learner-facing revision and any added examples.
+
+**Boundary:** this source recheck updates documentation only. No lesson HTML, seed SQL, migration, application code, database, Supabase resource, main branch or deployment was changed. No runtime or release test is claimed.
