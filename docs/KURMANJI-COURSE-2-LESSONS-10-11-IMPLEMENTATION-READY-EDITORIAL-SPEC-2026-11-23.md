@@ -277,3 +277,52 @@ This specification is ready for editorial implementation only when:
 - a second linguistic/source review and a separate instructional review are completed.
 
 **Change boundary:** this file is a documentation-only specification. No learner-facing lesson, HTML, SQL seed, application code, migration, database, Supabase resource, main branch, deployment or production data was changed. No runtime, navigation, release or production test is claimed.
+
+
+## 8. Direct-source recheck — questions and word order (2026-11-23)
+
+A further check was made against Songül Gündoğdu Yücel (2018), *Argument–Adjunct Distinction in Kurmanji Kurdish*, a Boğaziçi University doctoral thesis. Its abstract explicitly identifies the empirical variety as **Muş Kurmanji (MK)**. This matters: the thesis is valuable specialist evidence, but its forms and discourse judgements must not be silently relabelled as universal Standard Kurmanjî.
+
+### 8.1 Lesson 10 — question particles and discourse function
+
+The thesis's question-particle discussion (printed pp.104–105, examples (97)–(99)) records `gelo`, `ka` and `ma` in question constructions, including polar and wh-question contexts. It distinguishes their discourse functions:
+
+- `gelo` is described as generally neutral while conveying additional curiosity;
+- `ka` is described as closely tied to the immediate discourse context;
+- `ma` is described as introducing an affirmative question that expects a negative answer, or a negative question that expects an affirmative answer.
+
+The source also notes that these particles can intensify questions, and its examples include `Gelo/ka/ma ew HATİ-Y-E?` and `Ka te ÇI da wan?`. These are **Muş Kurmanji data**. They are not a licence to add the forms, spellings, examples or pragmatic rules to this course's Standard Kurmanjî lesson without a target-variety check.
+
+Editorial consequence: the earlier hold on treating `ma` as a neutral, interchangeable yes/no marker is reinforced. However, it would also be inaccurate to treat `ma` as a single-purpose polar-question particle: the thesis describes discourse-sensitive and expectation-related uses, including with negative questions. Keep the Lesson 10 teaching inventory on hold until the owner confirms the intended target variety and a current source appropriate to it. If `ma`, `gelo` or `ka` are later included, teach their distinct discourse functions and provide a complete source-checked example for each; do not collapse them into one generic “question marker” category.
+
+The same thesis documents question-word forms and word-order constraints in Muş Kurmanji, including `kî`, `çi`, `çima/çankî`, and `kengê`, and reports asymmetries in wh-phrase scrambling. These findings reinforce that a simple Sorani-to-Kurmanjî word list is not sufficient: the exact form, position, scope and variety must be checked together. Do not import the thesis's Muş forms or word-order judgements into the Standard Kurmanjî payload without explicit approval.
+
+### 8.2 Lesson 11 — independent word-order evidence and variety boundary
+
+The same thesis's §2.7.1 (printed p.86, example (53)) gives Muş Kurmanji examples for SOV and SOVG and §2.7.1 (example (54)) gives an OSV example with a fronted direct object. This independently confirms that a teaching account should distinguish a neutral order from pragmatically motivated fronting. However, the data are explicitly Muş Kurmanji; they are not substitutes for Haig's Standard Kurmanjî analysis.
+
+For the course's Standard Kurmanjî framing, retain Haig (2018) as the principal source: §2.7.1, printed pp.130–131, gives pragmatically neutral SOVG and qualifies word order as non-rigid; §2.7.2, example (32), printed p.131, gives `Wî mirov-î çay anî` as a past-transitive ergative-alignment example. The thesis does not change the correction required for the seed/migration attribution error.
+
+### 8.3 Editorial decisions after recheck
+
+1. Do not add `ma`, `gelo` or `ka` as interchangeable neutral question particles.
+2. Keep their Muş Kurmanji discourse functions in the source notes only unless the owner approves their inclusion and a Standard Kurmanjî source is confirmed.
+3. Do not mechanically import the thesis's Muş wh-forms, examples or scrambling rules into the Standard Kurmanjî lesson.
+4. Keep Haig §2.7.1 (neutral SOVG) and §2.7.2 example (32) (past-transitive ergative alignment) distinct.
+5. Do not use the Muş thesis examples as replacements for the Standard Kurmanjî examples in the learner payload.
+
+### 8.4 Verification checklist
+
+- [x] Thesis identity, doctoral status and empirical scope as Muş Kurmanji checked.
+- [x] `gelo`, `ka`, `ma` discourse distinctions checked against thesis examples (97)–(99), printed pp.104–105.
+- [x] Muş Kurmanji SOV, SOVG and OSV examples checked against §2.7.1, examples (53)–(54), printed p.86.
+- [x] Haig's Standard Kurmanjî neutral SOVG and past-transitive ergative example rechecked.
+- [ ] Owner approval of target variety and any question-particle inventory.
+- [ ] Current Standard Kurmanjî source and full examples for every learner-facing question particle/question word.
+- [ ] Explicit authorization before correcting the Lesson 11 seed and any separately approved forward migration.
+
+**Boundary:** documentation-only source recheck. No learner-facing lesson, HTML, SQL seed, historical/new migration, application code, database, Supabase resource, `main` branch or deployment was changed. No runtime or release testing is claimed.
+
+## 9. Additional source register
+
+Songül Gündoğdu Yücel (2018), *Argument–Adjunct Distinction in Kurmanji Kurdish*, PhD dissertation, Boğaziçi University. The thesis abstract identifies its empirical variety as Muş Kurmanji; relevant sections include the question discussion and §2.7.1 on word order. Repository/source discovery reference: https://avesis.bogazici.edu.tr/yonetilen-tez/9e057fa8-86ef-4cca-943a-e71978d7a652/argument-adjunct-distinction-in-kurmanji-kurdish
