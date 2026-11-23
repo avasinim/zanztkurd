@@ -24,10 +24,10 @@ For every item below, the owner/editor should record one of: **Approve**, **Revi
 | D03 | Approve the Lesson 10 heading and scope | The body strongly suggests nominal-clause negation, while the heading `نەفیی ڕستەی ناوەکی` is ambiguous. No fully verified example currently closes the gap. | Decide the intended grammatical topic and approve a precise heading. Require a source-attested example before expanding the teaching claim. |
 | D04 | Decide Lesson 6 scope/title | Current examples focus on ezafe possession (`mal-a me`) and reflexive `xwe`; the broad title promises more of a possessive-pronoun paradigm than the payload supplies. | Either narrow title/objectives to the material actually taught, or authorize a sourced, complete paradigm and corresponding lesson expansion. |
 | D05 | Decide Lesson 11 correction | The seed and historical migration attribute `Wî mirov-î çay anî` to §2.7.1/basic SOV. Haig places it in §2.7.2, example (32), as past-transitive ergative alignment. §2.7.1 describes neutral SOVG. | Explicitly approve a corrected learner-facing explanation. Do not rewrite the historical migration. If production repair is approved, authorize a separate forward migration after review. |
-| D08 | Decide whether Lesson 12 is a review or formal examination | Its current content is cumulative review with a knowledge-check element and an open-ended analysis task; no timing, points, weighting, rubric, pass threshold, or answer key makes it a formal scored exam. | Approve “review/knowledge check” and align title, or separately commission a fully specified assessment blueprint. |
-| D07 | Approve Lesson 9 aspect terminology and Sorani future gloss | Haig Table 14 supports the past simple/imperfective contrasts; §2.6.4 p.129 example (27) supports the future form. Sorani rendering and the preferred aspect term remain editorial decisions. | Approve terminology and Sorani rendering without changing the source-attested Kurmanjî form. |
-| D09 | Decide whether interrogative particles/forms belong in Lesson 10 | `ma`, `gelo`, and `ka` have context- and variety-sensitive behaviour in the consulted literature; the available Yücel evidence concerns Muş Kurmanji and cannot silently become a universal Standard Kurmanjî rule. | Define the intended inventory and variety. Approve only source-scoped claims and examples; otherwise defer these forms. |
-| D10 | Approve final assessment policy across the course | Current lessons lack a consistent published scoring and answer-guidance policy. Lesson 12 cannot imply a scored final test unless these are defined. | Decide whether checks are formative or scored; if scored, approve item blueprint, marks, accepted variants, rubric, duration and pass rule. |
+| D07 | Decide whether Lesson 12 is a review or formal examination | Its current content is cumulative review with a knowledge-check element and an open-ended analysis task; no timing, points, weighting, rubric, pass threshold, or answer key makes it a formal scored exam. | Approve “review/knowledge check” and align title, or separately commission a fully specified assessment blueprint. |
+| D06 | Approve Lesson 9 aspect terminology and Sorani future gloss | Haig Table 14 supports the past simple/imperfective contrasts; §2.6.4 p.129 example (27) supports the future form. Sorani rendering and the preferred aspect term remain editorial decisions. | Approve terminology and Sorani rendering without changing the source-attested Kurmanjî form. |
+| D08 | Decide whether interrogative particles/forms belong in Lesson 10 | `ma`, `gelo`, and `ka` have context- and variety-sensitive behaviour in the consulted literature; the available Yücel evidence concerns Muş Kurmanji and cannot silently become a universal Standard Kurmanjî rule. | Define the intended inventory and variety. Approve only source-scoped claims and examples; otherwise defer these forms. |
+| D09 | Approve final assessment policy across the course | Current lessons lack a consistent published scoring and answer-guidance policy. Lesson 12 cannot imply a scored final test unless these are defined. | Decide whether checks are formative or scored; if scored, approve item blueprint, marks, accepted variants, rubric, duration and pass rule. |
 
 ## 3. Lesson-by-lesson editorial decisions
 
@@ -43,10 +43,10 @@ These are not claims that every lesson is linguistically wrong. They identify th
 | 06 | Current `mal-a me` and `xwe` examples do not establish a full possessive-pronoun paradigm. | Resolve D04; do not reconstruct a paradigm from isolated examples. |
 | 07 | Direct/oblique pronouns need a complete worked example; `ew` form syncretism and case cannot be reduced to a fixed subject/object mapping. | Approve a sourced paradigm and contextual analysis with the relevant tense/transitivity qualifications. |
 | 08 | Verb-root discussion lacks a worked segmentation/paradigm; `min xwar` alone is not a transparent overt-object illustration. | Approve a source-attested, fully parsed example or narrow the objective. |
-| 09 | Simple past vs past imperfective needs explicit distinction; present `di-` must not be generalized as identical in every tense. Future gloss and aspect label remain open. | Resolve D07; retain exact source forms and explain the contrast with source scope. |
-| 10 | Negation forms `na-`, `ne-`, lexical `ni-` are not interchangeable; heading and question inventory remain open. | Resolve D03 and D09; add no unsourced full clause or universal question rule. |
+| 09 | Simple past vs past imperfective needs explicit distinction; present `di-` must not be generalized as identical in every tense. Future gloss and aspect label remain open. | Resolve D06; retain exact source forms and explain the contrast with source scope. |
+| 10 | Negation forms `na-`, `ne-`, lexical `ni-` are not interchangeable; heading and question inventory remain open. | Resolve D03 and D08; add no unsourced full clause or universal question rule. |
 | 11 | Critical source-attribution and grammatical-framing defect; no clean worked neutral SOVG example has yet been verified for this lesson. | Resolve D05. Teach SOVG notation accurately; do not repurpose the ergative example as SOVG. |
-| 12 | Current task is review/knowledge check, not a fully specified scored exam; it asks about topics whose Lesson 10 scope remains open. | Resolve D08 and D10; align all tasks with approved taught content and publish model answers/marking criteria. |
+| 12 | Current task is review/knowledge check, not a fully specified scored exam; it asks about topics whose Lesson 10 scope remains open. | Resolve D07 and D09; align all tasks with approved taught content and publish model answers/marking criteria. |
 
 ## 4. Source findings already verified (not owner decisions)
 
@@ -81,10 +81,10 @@ Required safe sequence, only after explicit approval:
 - [ ] D03 Lesson 10 heading/scope and example approved.
 - [ ] D04 Lesson 6 title and coverage reconciled.
 - [ ] D05 Lesson 11 correction approved and safe migration plan authorized if required.
-- [ ] D08 Lesson 12 review/exam classification approved.
-- [ ] D07 Lesson 9 aspect terminology and Sorani future gloss approved.
-- [ ] D09 interrogative inventory and variety scope approved or explicitly deferred.
-- [ ] D10 course assessment policy approved.
+- [ ] D07 Lesson 12 review/exam classification approved.
+- [ ] D06 Lesson 9 aspect terminology and Sorani future gloss approved.
+- [ ] D08 interrogative inventory and variety scope approved or explicitly deferred.
+- [ ] D09 course assessment policy approved.
 - [ ] Each lesson has a clear objective, source-scoped example, appropriate analysis, applied practice, and model answer/marking criteria (or a documented reason for omission).
 - [ ] Cross-lesson terminology and Latin forms have been checked against the approved source boundary.
 - [ ] All learner-facing changes have a separate review and approval record.
