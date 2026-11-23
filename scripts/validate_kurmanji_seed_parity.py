@@ -112,7 +112,7 @@ def main() -> int:
             print(f"ERROR: cannot read follow-up migration {path.name}: {exc}")
             return 1
         followup_keys.update(re.findall(
-            r"kurmanji-course-[12]-lesson-\\d{2}\\.html", migration_text
+            r"kurmanji-course-[12]-lesson-\d{2}\.html", migration_text
         ))
 
     mismatches = [
