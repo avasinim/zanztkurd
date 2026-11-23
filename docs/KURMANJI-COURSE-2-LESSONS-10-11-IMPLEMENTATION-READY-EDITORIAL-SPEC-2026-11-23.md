@@ -147,6 +147,18 @@ Keep three analytical layers distinct:
 
 Use the approved terminology register consistently. In particular, do not conflate case with grammatical role, or neutral SOVG order with ergative alignment.
 
+### 3.4.1 Current seed/migration defect — correction must be coordinated
+
+Direct inspection found that the learner-facing Lesson 11 payload in `docs/kurmanji-content-seed-part-05.sql` (blob SHA `2581b9362ee7a0972076d475db56b034e0e662cb`) still attributes `Wî mirov-î çay anî` to Haig §2.7.1 and frames it as the neutral SOV pattern. The same text occurs in historical migration `supabase/migrations/20261024122051_add_kurmanji_courses_and_protected_lessons.sql` (blob SHA `06320c50a858e41d8ce21e7b4fdee3f6ae418cd9`). The migration header states that it was applied to production on 2026-10-24; the live database was not queried.
+
+This is a concrete defect in the stored lesson payload, not merely a future editorial suggestion. After explicit approval to change learner-facing content:
+- correct the seed row to cite §2.7.2, example (32), p.131, and explain past-transitive ergative alignment;
+- do not rewrite the historical migration; if production correction is separately authorized, prepare a new forward migration;
+- retain a separate neutral SOVG explanation from §2.7.1 and add a worked clause only if a different complete source example is verified;
+- run SQL validation and seed/migration parity checks, then inspect the exact diff.
+
+No seed, migration or database change is authorized by this specification.
+
 ### 3.4 Correctly frame the existing example (32)
 
 Preserve the exact source-attested Kurmanjî sentence:
