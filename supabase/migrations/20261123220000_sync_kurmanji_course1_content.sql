@@ -232,8 +232,8 @@ BEGIN
   SET content_html = replace(content_html, 'پەیویست', 'پێویست'), updated_at = now()
   WHERE course_id = 'kurmanji-course-1' AND content_html LIKE '%پەیویست%';
   GET DIAGNOSTICS typo_rows = ROW_COUNT;
-  IF typo_rows NOT IN (0, 10) THEN
-    RAISE EXCEPTION 'Expected 0 or 10 Course 1 spelling rows, corrected %', typo_rows;
+  IF typo_rows NOT IN (0, 9) THEN
+    RAISE EXCEPTION 'Expected 0 or 9 Course 1 spelling rows, corrected %', typo_rows;
   END IF;
 
   UPDATE public.lesson_content
