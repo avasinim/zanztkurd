@@ -22,3 +22,9 @@
 
 ## Result
 **Mapping checks pass; lesson 09 correction remains unresolved.** Continue next with a source-based content review of lessons 1–8 and 10–12, and separately resolve the Lesson 09 correction gate without rewriting historical migration files.
+
+## Sequential navigation verification (additional pass)
+- Checked the navigation anchors in wrappers 01–12 by inspecting their link destinations and labels.
+- Lessons 02–11 each point backward to the immediately previous lesson and forward to the immediately next lesson; lesson 01 has no previous-lesson link and lesson 12 has no next-lesson link.
+- The initial compact extraction attempt incorrectly classified RTL arrow text while parsing; manual extraction of the anchor blocks corrected the parser interpretation. No navigation defect was found.
+- This does not change the limitation above: content grammar/source review remains pending.
