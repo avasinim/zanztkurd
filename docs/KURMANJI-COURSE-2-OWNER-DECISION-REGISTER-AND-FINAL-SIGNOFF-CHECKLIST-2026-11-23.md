@@ -1,0 +1,111 @@
+# Course 2 — Owner Decision Register and Final Sign-off Checklist
+
+**Date:** 2026-11-23  
+**Status:** Editorial decisions pending; Course 2 is **not ready for final instructional sign-off**.  
+**Scope:** Documentation-only decision register for the 12-lesson Standard Kurmanjî morphology course.
+
+This register consolidates decisions that require the course owner/editor, separates them from source findings already verified, and defines the evidence required before any learner-facing implementation. It is not authorization to change lesson payloads, SQL, migrations, application code, databases, Supabase resources, production, or deployment.
+
+## 1. Decision protocol
+
+For every item below, the owner/editor should record one of: **Approve**, **Revise**, **Defer**, or **Reject**, with the exact approved wording or scope where applicable. A source finding can be closed while its learner-facing wording remains open. Do not infer approval from silence.
+
+**No implementation is authorized by this register.** In particular:
+- Do not edit the historical migration `supabase/migrations/20261024122051_add_kurmanji_courses_and_protected_lessons.sql`.
+- Any approved repair to Lesson 11's production content must be a separately reviewed forward migration, coordinated with the corrected seed and verified for parity.
+- Do not alter production data, Supabase, `main`, or deployment without explicit authorization.
+
+## 2. Critical owner decisions
+
+| ID | Decision required | Evidence / current position | Owner action |
+|---|---|---|---|
+| D01 | Confirm the course's target variety and source boundary | The course is labelled Standard Kurmanjî, but Haig notes dialect variation; question particles and some word-order patterns are variety-sensitive. | Approve a precise target (including whether the course follows Haig's Standard Kurmanjî sketch and how regional variants are labelled), or supply another defined target. |
+| D02 | Approve the core morphology terminology | The working register distinguishes root (`ڕەگ`) from base (`بنەڕەت`); “stem” and several technical Sorani equivalents remain provisional. | Approve exact terms and definitions for root, base, stem, morpheme, inflection, derivation, syncretism, gender, number, transitivity, tense, aspect, and ergative alignment. |
+| D03 | Approve the Lesson 10 heading and scope | The body strongly suggests nominal-clause negation, while the heading `نەفیی ڕستەی ناوەکی` is ambiguous. No fully verified example currently closes the gap. | Decide the intended grammatical topic and approve a precise heading. Require a source-attested example before expanding the teaching claim. |
+| D04 | Decide Lesson 6 scope/title | Current examples focus on ezafe possession (`mal-a me`) and reflexive `xwe`; the broad title promises more of a possessive-pronoun paradigm than the payload supplies. | Either narrow title/objectives to the material actually taught, or authorize a sourced, complete paradigm and corresponding lesson expansion. |
+| D05 | Decide Lesson 11 correction | The seed and historical migration attribute `Wî mirov-î çay anî` to §2.7.1/basic SOV. Haig places it in §2.7.2, example (32), as past-transitive ergative alignment. §2.7.1 describes neutral SOVG. | Explicitly approve a corrected learner-facing explanation. Do not rewrite the historical migration. If production repair is approved, authorize a separate forward migration after review. |
+| D06 | Decide whether Lesson 12 is a review or formal examination | Its current content is cumulative review with a knowledge-check element and an open-ended analysis task; no timing, points, weighting, rubric, pass threshold, or answer key makes it a formal scored exam. | Approve “review/knowledge check” and align title, or separately commission a fully specified assessment blueprint. |
+| D07 | Approve Lesson 9 aspect terminology and Sorani future gloss | Haig Table 14 supports the past simple/imperfective contrasts; §2.6.4 p.129 example (27) supports the future form. Sorani rendering and the preferred aspect term remain editorial decisions. | Approve terminology and Sorani rendering without changing the source-attested Kurmanjî form. |
+| D08 | Decide whether interrogative particles/forms belong in Lesson 10 | `ma`, `gelo`, and `ka` have context- and variety-sensitive behaviour in the consulted literature; the available Yücel evidence concerns Muş Kurmanji and cannot silently become a universal Standard Kurmanjî rule. | Define the intended inventory and variety. Approve only source-scoped claims and examples; otherwise defer these forms. |
+| D09 | Approve final assessment policy across the course | Current lessons lack a consistent published scoring and answer-guidance policy. Lesson 12 cannot imply a scored final test unless these are defined. | Decide whether checks are formative or scored; if scored, approve item blueprint, marks, accepted variants, rubric, duration and pass rule. |
+
+## 3. Lesson-by-lesson editorial decisions
+
+These are not claims that every lesson is linguistically wrong. They identify the minimum owner/editor decision or teaching gap recorded in the audits.
+
+| Lesson | Current evidence-based gap | Required decision / acceptance condition |
+|---|---|---|
+| 01 | No worked segmentation, free/bound morpheme contrast, or model answer. | Approve a source-checked worked example and model analysis, or explicitly retain a narrower introductory objective. |
+| 02 | Title promises prefix coverage, but no source-verified Kurmanjî prefix example is present. | Supply/approve a source-attested prefix example or narrow the title and objective. |
+| 03 | No concrete sourced gender/number paradigm and sufficiently explained ezafe example. | Approve a variety-appropriate paradigm and a worked example with segmentation. |
+| 04 | Learner may confuse oblique case and ezafe; `-ek-î` has different functions in different contexts. | Approve explicit contrast: in `gund-ek-î`, indefinite suffix + oblique case; in `bajar-ek-î mezin`, the final `-î` is ezafe. Require full phrase analysis. |
+| 05 | `bajar-ek-î mezin` is not accompanied by a full segmentation/possessor phrase model. | Approve a complete phrase analysis and a source-verified possessor construction, or keep scope limited. |
+| 06 | Current `mal-a me` and `xwe` examples do not establish a full possessive-pronoun paradigm. | Resolve D04; do not reconstruct a paradigm from isolated examples. |
+| 07 | Direct/oblique pronouns need a complete worked example; `ew` form syncretism and case cannot be reduced to a fixed subject/object mapping. | Approve a sourced paradigm and contextual analysis with the relevant tense/transitivity qualifications. |
+| 08 | Verb-root discussion lacks a worked segmentation/paradigm; `min xwar` alone is not a transparent overt-object illustration. | Approve a source-attested, fully parsed example or narrow the objective. |
+| 09 | Simple past vs past imperfective needs explicit distinction; present `di-` must not be generalized as identical in every tense. Future gloss and aspect label remain open. | Resolve D07; retain exact source forms and explain the contrast with source scope. |
+| 10 | Negation forms `na-`, `ne-`, lexical `ni-` are not interchangeable; heading and question inventory remain open. | Resolve D03 and D08; add no unsourced full clause or universal question rule. |
+| 11 | Critical source-attribution and grammatical-framing defect; no clean worked neutral SOVG example has yet been verified for this lesson. | Resolve D05. Teach SOVG notation accurately; do not repurpose the ergative example as SOVG. |
+| 12 | Current task is review/knowledge check, not a fully specified scored exam; it asks about topics whose Lesson 10 scope remains open. | Resolve D06 and D09; align all tasks with approved taught content and publish model answers/marking criteria. |
+
+## 4. Source findings already verified (not owner decisions)
+
+The following are evidence findings from the cited source reviews. They can be treated as closed at the level of source interpretation, while learner-facing wording and implementation remain subject to approval.
+
+1. **Noun case and indefiniteness:** Haig and Öpengin's Standard Kurmanjî Table 7 distinguishes masculine and feminine singular direct/oblique forms, including `gund`, `gund-î`, `gund-ek`, `gund-ek-î`, `jin`, `jin-ê`, `jin-ek`, and `jin-ek-ê`. Oblique marking has stated syntactic functions and must not be equated with a single semantic role.
+2. **Ezafe:** `bajar-ek-î mezin` is a sourced example in which the final `-î` is ezafe; do not analyse it as the same function as the oblique `-î` in `gund-ek-î`. In `mal-a me`, `-a` is feminine ezafe and `me` is the oblique first-person plural possessor.
+3. **Reflexive:** `xwe` is used for same-clause subject coreference in the reviewed source analysis; do not infer a complete possessive paradigm from this fact.
+4. **Tense/aspect examples:** Haig Table 14 supports the reviewed contrasts `ez hatim` / `ez dihatim` and `min xwar` / `min dixwar`. Distinguish simple past from past imperfective; do not turn these examples into exceptionless rules beyond their source context.
+5. **Future example:** Haig §2.6.4 p.129 example (27), `ew dē mesel-ē ji te re bēž-e`, is source-attested as a future construction.
+6. **Word order:** Haig §2.7.1 uses **SOVG**, with G = Goal (including relevant spatial goals, recipients, and addressees); word order is not rigidly fixed. §2.7.2 separately discusses past-transitive ergative alignment. `Wî mirov-î çay anî` is example (32) under §2.7.2, not a neutral SOV/SOVG example under §2.7.1.
+7. **Dialect caution:** The question-particle discussion based on Yücel's thesis is tied to Muş Kurmanji evidence. It must not be promoted to an unrestricted Standard Kurmanjî rule without additional evidence.
+
+## 5. Critical Lesson 11 defect — mandatory handling
+
+**Severity: Critical; learner-facing seed defect remains unresolved.**
+
+The current Part 05 seed row and the historical migration row contain the same incorrect source attribution. The migration header comment reports that it was applied to production on 2026-10-24, but this repository comment is not proof of the live database's current state.
+
+Required safe sequence, only after explicit approval:
+1. Approve the exact corrected learner-facing text and its full grammatical analysis.
+2. Verify the neutral SOVG teaching example independently; if none is available, teach the notation without inventing a sentence.
+3. Correct the seed in a separately reviewed change.
+4. If production correction is authorized, create a new forward migration; never rewrite the historical migration.
+5. Validate SQL, seed/migration parity, and deployment state through authorized channels.
+6. Report separately what was changed and what was actually verified.
+
+## 6. Final sign-off checklist
+
+- [ ] D01 target variety and source boundary approved.
+- [ ] D02 terminology sheet approved and applied consistently.
+- [ ] D03 Lesson 10 heading/scope and example approved.
+- [ ] D04 Lesson 6 title and coverage reconciled.
+- [ ] D05 Lesson 11 correction approved and safe migration plan authorized if required.
+- [ ] D06 Lesson 12 review/exam classification approved.
+- [ ] D07 Lesson 9 aspect terminology and Sorani future gloss approved.
+- [ ] D08 interrogative inventory and variety scope approved or explicitly deferred.
+- [ ] D09 course assessment policy approved.
+- [ ] Each lesson has a clear objective, source-scoped example, appropriate analysis, applied practice, and model answer/marking criteria (or a documented reason for omission).
+- [ ] Cross-lesson terminology and Latin forms have been checked against the approved source boundary.
+- [ ] All learner-facing changes have a separate review and approval record.
+- [ ] Seed and migration parity is checked after any authorized change.
+- [ ] Runtime, database and release tests are performed only in the authorized environment and their results are recorded.
+
+**Sign-off rule:** Course 2 remains **not ready** until all critical decisions are resolved, the Lesson 11 defect has an approved disposition, and the lesson-by-lesson acceptance conditions are met.
+
+## 7. Related audit and specification documents
+
+- [Master audit synthesis and sign-off gate](KURMANJI-COURSE-2-MASTER-AUDIT-SYNTHESIS-AND-SIGNOFF-GATE-2026-11-23.md)
+- [Final readiness and revision report](KURMANJI-COURSE-2-FINAL-READINESS-AND-REVISION-REPORT-2026-11-23.md)
+- [Working terminology register](KURMANJI-COURSE-2-WORKING-TERMINOLOGY-REGISTER-2026-11-23.md)
+- [Consolidated instructional audit matrix](KURMANJI-COURSE-2-CONSOLIDATED-INSTRUCTIONAL-AUDIT-MATRIX-2026-11-23.md)
+- [Cross-specification consistency audit](KURMANJI-COURSE-2-CROSS-SPECIFICATION-CONSISTENCY-AUDIT-2026-11-23.md)
+- [Lessons 01–06 seed/migration payload audit](KURMANJI-COURSE-2-LESSONS-01-06-SEED-MIGRATION-PAYLOAD-AUDIT-2026-11-23.md)
+- [Lessons 07–12 seed/migration payload audit](KURMANJI-COURSE-2-LESSONS-07-12-SEED-MIGRATION-PAYLOAD-AUDIT-2026-11-23.md)
+- [Lesson 09 implementation-ready editorial spec](KURMANJI-COURSE-2-LESSON-09-IMPLEMENTATION-READY-EDITORIAL-SPEC-2026-11-23.md)
+- [Lessons 10–11 implementation-ready editorial spec](KURMANJI-COURSE-2-LESSONS-10-11-IMPLEMENTATION-READY-EDITORIAL-SPEC-2026-11-23.md)
+- [Lesson 12 implementation-ready editorial spec](KURMANJI-COURSE-2-LESSON-12-IMPLEMENTATION-READY-EDITORIAL-SPEC-2026-11-23.md)
+
+## 8. Change boundary and verification status
+
+This file is a documentation-only decision register. It does not change lesson HTML, course payloads, seed SQL, historical or forward migrations, application code, database, Supabase, `main`, production or deployment. It does not claim live database validation, runtime tests, learner-facing tests, or release testing.
