@@ -92,17 +92,48 @@ def main() -> int:
     if len(set(seed_keys)) != 38 or len(set(migration_keys)) != 38:
         print("ERROR: duplicate lesson_key detected in migration or seed package")
         return 1
-    if migration_rows != seed_rows:
-        limit = min(len(migration_rows), len(seed_rows))
-        mismatch = next((i for i in range(limit) if migration_rows[i] != seed_rows[i]), None)
-        if mismatch is None:
-            print("ERROR: migration and seed tuple counts/order differ")
-        else:
-            print(
-                f"ERROR: migration tuple differs from seed tuple at row {mismatch + 1} "
-                f"(migration key={migration_keys[mismatch]}, seed key={seed_keys[mismatch]})"
-            )
+    # The initial migration is immutable once applied. Later, separately
+    # reviewed migrations may intentionally enrich or correct individual
+    # lesson rows. Accept a tuple difference only when a later migration
+    # explicitly names that exact lesson key; otherwise fail closed.
+    if migration_keys != seed_keys:
+        print("ERROR: migration and seed lesson keys/order differ")
         return 1
+
+    later_migrations = sorted(
+        path for path in (ROOT / "supabase/migrations").glob("*.sql")
+        if path.name > MIGRATION.name
+    )
+    followup_keys = set()
+    for path in later_migrations:
+        try:
+            migration_text = path.read_text(encoding="utf-8")
+        except OSError as exc:
+            print(f"ERROR: cannot read follow-up migration {path.name}: {exc}")
+            return 1
+        followup_keys.update(re.findall(
+            r"kurmanji-course-[12]-lesson-\\d{2}\\.html", migration_text
+        ))
+
+    mismatches = [
+        key for key, base_row, seed_row in zip(migration_keys, migration_rows, seed_rows)
+        if base_row != seed_row
+    ]
+    unexplained = [key for key in mismatches if key not in followup_keys]
+    if unexplained:
+        print(
+            "ERROR: seed tuples differ from the immutable base migration without "
+            "an explicit later lesson migration: " + ", ".join(unexplained)
+        )
+        return 1
+    if mismatches:
+        print(
+            "PASS: " + str(len(mismatches)) +
+            " seed tuple(s) differ from the immutable base migration and have "
+            "explicit follow-up migrations: " + ", ".join(mismatches)
+        )
+    else:
+        print("PASS: all seed tuples exactly match the immutable base migration.")
     expected_keys = (
         [f"kurmanji-course-1-lesson-{n:02d}.html" for n in range(1, 27)]
         + [f"kurmanji-course-2-lesson-{n:02d}.html" for n in range(1, 13)]
