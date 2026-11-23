@@ -1,19 +1,18 @@
 /* ===== Avasin Standard — global visible-text spelling ===== */
 (function(){
   const replacements = [
-    [/نووسراوە/g,"نوسراوە"],
-    [/نووسینی/g,"نوسینی"],
-    [/نووسین/g,"نوسین"],
-    [/فێربوون/g,"فێربون"],
-    [/هەموو/g,"هەمو"],
-    [/نموونە/g,"نمونە"],
-    [/پەیویست/g,"پێویست"],
-    [/بەرامبەر/g,"بەرابەر"],
-    [/ڕوون/g,"ڕون"],
-    [/ناوەڕۆک/g,"نێوەڕۆک"],
-    [/چییە/g,"چیە"],
-    [/نییە/g,"نیە"],
-    [/دەستپێکردن/g,"دەست‌پێ‌کردن"]
+    [/نوسراوە/g,"نووسراوە"],
+    [/نوسینی/g,"نووسینی"],
+    [/نوسین/g,"نووسین"],
+    [/فێربون/g,"فێربوون"],
+    [/هەمو/g,"هەموو"],
+    [/نمونە/g,"نموونە"],
+    [/بەرابەر/g,"بەرامبەر"],
+    [/ڕون/g,"ڕوون"],
+    [/نێوەڕۆک/g,"ناوەڕۆک"],
+    [/چیە/g,"چییە"],
+    [/نیە/g,"نییە"],
+    [/دەست‌پێ‌کردن/g,"دەستپێکردن"]
   ];
   const normalizeAvasinText = value => replacements.reduce((text,[pattern,replacement])=>text.replace(pattern,replacement),value);
   const needsAvasinNormalization = value => replacements.some(([pattern])=>new RegExp(pattern.source).test(value));
