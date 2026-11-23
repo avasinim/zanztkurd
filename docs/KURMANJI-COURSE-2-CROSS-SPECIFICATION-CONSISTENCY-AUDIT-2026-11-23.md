@@ -23,7 +23,7 @@ The following files were fetched from the same repository reference and compared
 | Working terminology register | `9dc825d6d3cea2fd6c87d43436447ecf1fa10083` |
 | 12-lesson sign-off register (before this reconciliation) | `31b84f8cf78e5c5b65271def48ed15a33ac4ecd3` |
 
-The Lesson 01–03/06 wording correction and sign-off-register workflow correction are made in the same review branch as this audit. Their final versions are to be verified against the post-work backup.
+The Lesson 01–03/06 wording correction and sign-off-register workflow correction were verified in the preceding post-work backup. This update adds the directly inspected seed discrepancy as C09.
 
 ## 3. Confirmed consistency
 
@@ -78,6 +78,22 @@ The specification correctly distinguishes Haig §2.7.1 neutral SOVG (where G is 
 
 **Disposition:** Retain the distinction and record the worked-example gap until a complete source-attested SOVG clause is verified. Do not repurpose example (32) as an SOVG example.
 
+### C09 — Lesson 11 learner-facing seed retains the incorrect source section and analysis
+**Severity:** Critical; learner-facing content/source mismatch.
+
+The current repository seed file `docs/kurmanji-content-seed-part-05.sql` was fetched and verified at blob SHA `2581b9362ee7a0972076d475db56b034e0e662cb`. Its Lesson 11 row (`kurmanji-course-2-lesson-11.html`) currently says Haig §2.7.1 presents the basic SOV pattern and cites `Wî mirov-î çay anî` as that example. The row analyzes `Wî mirov-î` as subject, `çay` as object and `anî` as verb, and frames it as evidence for the SOV pattern.
+
+This conflicts with the corrected source audit and the Lessons 10–11 implementation specification: the cited clause is Haig (2018), §2.7.2, example (32), p.131, and illustrates past-transitive ergative alignment. Haig §2.7.1 describes neutral SOVG where a goal argument is present. The clause in example (32) must not be used as the worked example for §2.7.1 SOVG.
+
+**Required future correction after explicit learner-content implementation approval:**
+- replace the incorrect §2.7.1 attribution for `Wî mirov-î çay anî` with §2.7.2, example (32), p.131;
+- describe the clause as a past-transitive ergative example, with its case/role analysis checked against the source;
+- teach neutral SOVG separately, using a different complete source-verified clause if one is to be included;
+- do not invent a replacement SOVG sentence;
+- update the seed and any coordinated migration payload only under a separately approved change plan, then run the repository's SQL validation and seed/migration parity checks.
+
+**Current state:** this is an identified defect in the repository seed, not a completed fix. No SQL or migration file was changed during this audit.
+
 ### C06 — Lesson 06 scope decision remains open
 **Severity:** High; owner decision D04.
 
@@ -129,7 +145,7 @@ The specifications consistently mark stem, aspect, syncretism, ergative alignmen
 2. Reopen and verify the full Haig §2.6.4 context for Lesson 09's future construction and gloss.
 3. Verify a complete SOVG example from Haig §2.7.1 or another approved current source, if the lesson requires a worked clause.
 4. Verify current Standard Kurmanjî question forms and the status of `ma`; clarify Lesson 10's heading with the author.
-5. Reconcile all 12 specifications against the owner-approved terminology register.
+5. Correct Lesson 11's seed citation and analysis only after explicit learner-content implementation approval; coordinate seed/migration parity and validate both artifacts.\n6. Reconcile all 12 specifications against the owner-approved terminology register.
 6. Conduct a source-by-source and independent instructional review.
 7. Present the final learner-facing change plan for explicit approval before implementation.
 
