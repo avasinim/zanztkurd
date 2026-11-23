@@ -50,3 +50,14 @@ Parity is not proof of correctness: the Lesson 11 defect is duplicated identical
 
 ## 5. Change and verification boundary
 This audit is documentation only. No seed SQL, historical migration, new migration, lesson HTML, course payload, application code, database, Supabase resource, main branch, deployment or production data was changed. No live database inspection, SQL execution, runtime test or release test is claimed.
+
+
+## 6. Lesson 12 exact payload recheck — 2026-11-23
+
+The exact SQL tuple for `kurmanji-course-2-lesson-12.html` was extracted from both the seed file and the historical migration and compared byte-for-byte. The tuple is 2,398 characters in each file and is identical, including the title, learner-facing HTML and `now()` tail. This confirms repository-file parity for Lesson 12 specifically; it does not verify the live database.
+
+The payload is a four-part cumulative review plus an open-ended task asking learners to choose a Kurmanjî sentence and analyze nouns/verbs, pronoun forms/case, ezafe/suffixes, tense, negation/questions, and source/context. It is not a formal scored exam: no controlled passage, duration, points, weighting, pass threshold, rubric or answer key is present. The open task's request to analyze negation/questions exceeds the currently source-cleared Lesson 10 scope. Until Lesson 10 is resolved, these topics must not be treated as examinable course outcomes.
+
+**Disposition:** keep D08 open. The conservative Option A review path remains recommended but requires owner approval. If approved, rename only with authorization and constrain the task to taught, verified examples; supply model feedback criteria and exclude unresolved Lesson 10 material. Do not invent exam mechanics.
+
+**Files inspected:** seed SHA `2581b9362ee7a0972076d475db56b034e0e662cb`; migration SHA `06320c50a858e41d8ce21e7b4fdee3f6ae418cd9`. No seed, migration, learner-facing payload or database was changed.
