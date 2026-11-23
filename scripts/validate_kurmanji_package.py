@@ -56,7 +56,7 @@ else:
     # Avasin normalization is intentionally applied to source-loaded lesson text
     # as well as static UI text; keep the canonical replacements in this shared script.
     for required in (
-        '[/نووسراوە/g,"نوسراوە"]',
+        '[/نووسراوە/g,"نوسراو"]',
         '[/نووسراو/g,"نوسراو"]',
         '[/نووسەر/g,"نوسەر"]',
         '[/نووسینی/g,"نوسینی"]',
