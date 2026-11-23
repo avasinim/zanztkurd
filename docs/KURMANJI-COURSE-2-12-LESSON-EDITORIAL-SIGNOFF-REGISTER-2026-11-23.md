@@ -97,6 +97,10 @@ The following planning documents are available in the repository. They are speci
   `docs/KURMANJI-COURSE-2-LESSONS-07-08-IMPLEMENTATION-READY-EDITORIAL-SPEC-2026-11-23.md`
 - Lessons 10–11:
   `docs/KURMANJI-COURSE-2-LESSONS-10-11-IMPLEMENTATION-READY-EDITORIAL-SPEC-2026-11-23.md`
+- Lesson 09:
+  `docs/KURMANJI-COURSE-2-LESSON-09-IMPLEMENTATION-READY-EDITORIAL-SPEC-2026-11-23.md`
+- Lesson 12:
+  `docs/KURMANJI-COURSE-2-LESSON-12-IMPLEMENTATION-READY-EDITORIAL-SPEC-2026-11-23.md`
 
 Course-wide source and readiness controls:
 - `docs/KURMANJI-COURSE-2-MASTER-AUDIT-SYNTHESIS-AND-SIGNOFF-GATE-2026-11-23.md`
@@ -105,9 +109,8 @@ Course-wide source and readiness controls:
 - `docs/KURMANJI-COURSE-2-INTEGRATED-REVISION-BLUEPRINT-2026-11-23.md`
 
 Still required to complete the same planning level:
-- Lesson 09 implementation-ready specification: `docs/KURMANJI-COURSE-2-LESSON-09-IMPLEMENTATION-READY-EDITORIAL-SPEC-2026-11-23.md` (now drafted; owner/source gates remain open);
-- Lesson 12 implementation-ready specification, conditional on D08;
-- final cross-lesson terminology reconciliation after D02–D03.
+- final cross-lesson terminology reconciliation after D02–D03;
+- final cross-lesson source and instructional reconciliation after all owner/source gates close.
 
 ## 7. Ordered remaining work
 
