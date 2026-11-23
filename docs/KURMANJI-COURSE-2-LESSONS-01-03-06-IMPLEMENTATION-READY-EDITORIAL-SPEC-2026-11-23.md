@@ -316,7 +316,7 @@ Recommended tasks:
 5. Identify what additional evidence would be needed before claiming that the lesson teaches a full possessive-pronoun paradigm.
 
 Expected answers should:
-- identify `mal`, `-a` and `me) correctly;
+- identify `mal`, `-a` and `me` correctly;
 - state that the ezafe agrees with the head noun while the possessor is oblique;
 - explain that `xwe` refers back to the subject in the same clause in the cited example;
 - avoid generalizing beyond the verified context;
@@ -335,12 +335,12 @@ Expected answers should:
 ## 7. Cross-lesson sequencing and hand-offs
 
 To avoid repetition and preserve a coherent progression:
-1. Lesson 01 introduces word vs morpheme and previews `-ek) only as a bound suffix.
+1. Lesson 01 introduces word vs morpheme and previews `-ek` only as a bound suffix.
 2. Lesson 02 introduces root/base and prefix/suffix definitions, while leaving unsourced prefix segmentation explicitly unresolved.
 3. Lesson 03 introduces grammatical gender, number and head-noun agreement, with no invented plural forms.
-4. Lesson 04 provides the full `-ek) and oblique-case paradigm and the contrast with ezafe.
+4. Lesson 04 provides the full `-ek` and oblique-case paradigm and the contrast with ezafe.
 5. Lesson 05 provides the full adjective/possessor ezafe constructions.
-6. Lesson 06 develops possession and the reflexive `xwe), without claiming a full possessive paradigm unless approved.
+6. Lesson 06 develops possession and the reflexive `xwe`, without claiming without claiming a full possessive paradigm unless approved.
 
 This sequence prevents Lesson 01–03 from prematurely duplicating Lessons 04–05 and keeps Lesson 06's scope transparent.
 
