@@ -4192,3 +4192,279 @@ Ev berawirdkirin divê wek rêzikên dîrokî bên fêmkirin, ne wek rêbazeke k
 ## Têbînî ji bo pêşxistinê
 
 Ev ders ji rûpelên çapkirî 348–372 hatiye nûdabeşkirin. Berî belavkirinê divê hejmar û nîşanên herfên KE, nimûneyên hevdeng/hevnivîs, û hemû berawirdkirinên etîmolojîk bi çavkaniya çapkirî û pisporê kurmancî re bên kontrolkirin. Nêrîna nivîskar li ser pêşniyarên herfên nû wek nêrîneke çavkaniyê hatiye pêşkêşkirin; divê wek rêzikeke bê nîqaş neyê xwendin. Ev ders pêşnûse û hîn ne ji bo xwendekaran çalak e.
+
+---
+
+# Dersa 23 — Cudahiyên dengnasî di navbera kurmancî û soranî de
+
+**Çavkaniya dersê:** rûpelên çapkirî 373–386.  
+**Dem:** 60–75 deqîqe.
+
+## Armancên fêrbûnê
+
+Di dawiya dersê de xwendekar dikare:
+- cudahiyên peyvî, teşenasî û dengnasî ji hev cuda bike;
+- cudahiyên dengnasî di navbera kurmancî û soranî de bi nimûne rave bike;
+- guherînên V/W/M û R/RD nas bike;
+- bandora komdengên destpêkî, pifdarî û dengên H, L, Î/Ê û Û/WÊ şîrove bike;
+- cudahiyên standard û devokî ji hev cuda bike û ji gelemperîkirina zêde dûr bike.
+
+## 1. Cudahiyên navbera zaravayan
+
+Cudahiyên navbera zaravayên kurdî dikarin di sê beşên sereke de bên komkirin:
+
+1. **Cudahiyên peyvî (leksîkal):** du zaravayên cuda ji bo heman tiştî peyvên cuda bi kar tînin. Mînak, kurmancî *niha* û soranî *êsta*.
+2. **Cudahiyên teşenasî (morfolojîk):** peyv di her zaravayê de bi awayên cuda têne çemandin an teşeyên rêzimanî digirin. Mînak, kurmancî *kitêbên min* û soranî *kitêbekanim*; herwiha *dixwînim* û *dexwênim*.
+3. **Cudahiyên dengnasî (fonolojîk):** deng an rêza dengên peyvan di her zaravayê de cuda ye. Mînak, kurmancî *çav* û soranî *çaw*.
+
+Di vê dersê de giranî li ser beşa sêyem e. Çavkaniyê kurmancî bi soranî, kurdiya başûrî û zazakî re berawird dike, lê ev ders tenê beşa kurmancî-soranî vedigire.
+
+## 2. Rêbaza xwendina nimûneyan
+
+Nimûneyên dersê formên serdest ên ku nivîskar ji bo berawirdkirinê hilbijartine nîşan didin. Ew ne wateya wê ye ku her peyv di her devokê de bi heman awayî tê gotin. Di nav kurmancî û soranî de jî cudahiyên deverî hene.
+
+Armanca berawirdkirinê ne pîvandina başî, rastî, kevnîtî an pêşketina zaravayan e. Her zarav xwedî pergala xwe ya dengnasî ye. Cudahiyên ku li jêr tên pêşkêşkirin tenê ji bo nasîna pergala wan in.
+
+## 3. V di kurmancî de, W an M di soranî de
+
+Di peyvên xwemalî yên soranî de dengê V pir kêm e. Li şûna V ya kurmancî, di soranî de bi piranî W heye:
+
+| Kurmancî | Soranî |
+|---|---|
+| çav | çaw |
+| nav | naw |
+| sêv | sêw |
+| şev | şew |
+
+Di hin peyvan de li şûna V, M tê dîtin:
+
+| Kurmancî | Soranî |
+|---|---|
+| dev | dem |
+| ev / eve | em / eme |
+
+Di peyvên deynkirî de V dikare di soranî de jî bimîne; wek *evîn, mirov, televizyon, vîdyo*.
+
+Ji aliyê dîrokî ve, V/W ya piştî vokalan di gelek peyvan de ji M an B ya kevntir peyda bûye. Di gelek nimûneyan de ew di kurmancî de bûye V û di soranî de W.
+
+## 4. Koma RD di soranî û R di kurmancî de
+
+Di hejmareke mezin ya peyvan de koma dengên RD di soranî de heye, lê di kurmancî de tenê R dimîne:
+
+| Soranî | Kurmancî |
+|---|---|
+| birdin | birin |
+| kirdin | kirin |
+| mirdin | mirin |
+| pird | pir |
+| sard | sar |
+| xwardin | xwarin |
+
+Di zimanên din ên îranî de jî ev koma dengî tê dîtin; wek zazakî *berden, kerden, merden, warden* û farisî *borden, kerden, morden, x(v)arden*.
+
+Ravekirina dîrokî ya çavkaniyê ev e: di zimanên îranî yên kevn û navîn de li cihê R ya kurmancî û RD ya soranî, RT hebû. Paşê di kurmancî de T ketiye û R maye. Di hin peyvan de jî di soranî de RD li hember RT ya kurmancî ye; mînak *bijardin / bijartin*. Li vir T ya kurmancî nîşana demê ye.
+
+Ev rêbaz ne di her peyvê de derbasdar e. Peyvên wek *bar, car, ser, sîr, sor* di herdu zaravayan de bê D hene.
+
+## 5. Komdengên destpêkî: ST û guherîna soranî
+
+Soranî bi gelemperî komên konsonantî yên destpêka peyvê qebûl nake. Ji ber vê yekê li hember ST ya destpêkî ya kurmancî, di soranî de pir caran E li pêş tê zêdekirin:
+
+| Kurmancî | Soranî |
+|---|---|
+| stêr | estêre |
+| stûr | estûr |
+| sto / stu | esto |
+| Stembol | Estemboł |
+
+Di hin peyvan de li şûna zêdekirina E, T dikeve; mînak *standin / sendin* û *stendin / sendin*. T dikare di dawiya peyvê de jî bikeve; mînak kurmancî *dest* û soranî *des*.
+
+Lê ev rêzik bê îstîsna nîne. Di peyvên deynkirî de ST dikare di soranî de jî bimîne, wek *stran* û *studyo*. Herwiha hin komdengên din jî dikarin bi awayên cuda werin guherandin; mînak *şkeft / eşkewt*. Di hin peyvan de jî herdu zaravayên nêzî hev dimînin.
+
+## 6. Ç, K, P, T: pifdarî û bêpifî
+
+Di kurmancî de di destpêka peyvan de dengên Ç, K, P û T dikarin bi pifdarî (req) an bêpifî (nerm) bên gotin. Çavkaniyê van nimûneyan dide:
+
+| Herf | Nimûneya bipif | Nimûneya bêpif |
+|---|---|---|
+| Ç | çar | çav |
+| K | kurdî | kirin |
+| P | perde | pênc |
+| T | têr | te |
+
+Di soranî de Ç, K, P û T li destpêka peyvê bi gelemperî bipif in. Di nav an dawiya peyvên xwerû de ew bi gelemperî bêpif in. Di kurmancî de jî di nav û dawiya peyvê de bêpifî serdest e, lê li destpêka peyvê jî dikare bêpifî hebe.
+
+Mînak, Ç ya *çar* di kurmancî de bipif e, lê Ç ya *çav* bêpif e. Di soranî de Ç ya *çaw* jî wek Ç ya *çwar* bipif e.
+
+Di gelek devokên kurmancî de P, S, T û Z awayên qelew/emfatîk jî hene. Çavkaniyê *pez, sed, tav, zanîn* wek nimûne dide. Di soranî de rola qelewiyê bi van konsonantan tune ye an pir kêm e.
+
+## 7. H di herdu zaravayan de
+
+Di kurmancî de H dikare li destpêk, nav û dawiya peyvê were. Di soranî de H-ya ku wek di *heval* de ye bi gelemperî li dawiya peyvê nayê. Mînak:
+
+| Kurmancî | Soranî |
+|---|---|
+| deh | de |
+| neh | no |
+| guh | gwê |
+| reh / rih | reg / rîş |
+
+Ev gotin tenê ji bo H-ya *heval* e. H-ya ku di navê *Hesen* de ye, ji aliyê dengî ve cuda ye û di hin peyvên deynkirî yên soranî de dikare li dawiya peyvê jî were dîtin.
+
+Li nav peyvan de komdenga EH ya kurmancî di soranî de gelek caran A dide:
+
+| Kurmancî | Soranî |
+|---|---|
+| pehn | pan |
+| tehl | tał |
+| mehr | mare |
+| bêhn | bon |
+
+Li destpêka peyvê jî carinan H ya kurmancî di soranî de dikeve; mînak *hesp / esp*, *hêsan / asan*, *hejmartin / jimardin*, *hesin / asin*. Lê di hin peyvan de soranî H an HE heye, lê kurmancî tune ye; wek *war / hewar* û *ewr / hewr*.
+
+## 8. Vokalên I, Î, Ê û E
+
+### I ya kurmancî û E ya soranî
+
+Di gelek peyvan de li cihê I ya kurmancî, di soranî de E heye:
+
+| Kurmancî | Soranî |
+|---|---|
+| bi | be |
+| li | le |
+| bihar | behar |
+| dikim | dekem |
+| gihandin / gihiştin | geyandin / geyiştin |
+
+Di kurmancî de pêşpirtika berdewamiyê bi gelemperî *di-* ye; di soranî de *de-* an *e-* tê bikaranîn. Çavkaniyê dibêje ku E ya vê komê ji aliyê dîrokî ve kevntir e.
+
+### Î ya kurmancî û Ê ya soranî
+
+Li cihê Î ya kurmancî di soranî de gelek caran Ê heye:
+
+| Kurmancî | Soranî |
+|---|---|
+| Îran | Êran |
+| kî | kê |
+| diçînim | deçênim |
+
+Di gelek lêkerên ku bi *-andin* an *-endin* tên çêkirin de, rehê dema niha di kurmancî de *-în-* û di soranî de *-ên-* heye. Lê di hin peyvan de berevajî jî heye; mînak kurmancî *mêvan* û soranî *mîwan*. Li gorî ravekirina dîrokî ya çavkaniyê, di gelek nimûneyan de Ê bûye Î.
+
+### E ya kurmancî û Ê ya soranî di paşgirên lêkerê de
+
+Di paşgira lêkerên dema niha û bê de, bi kesê sêyem ê yekhejmar, di kurmancî de gelek caran E û di soranî de Ê heye:
+
+| Kurmancî | Soranî |
+|---|---|
+| diçîne | deçênê |
+| distîne | desênê |
+| dixwîne | dexwênê |
+| dinivîse | denûsê |
+
+Ev nimûne rêzeke teşeyî û dengî nîşan dide; divê bi awayê lêkerê û devoka armanc re were fêmkirin.
+
+## 9. L-ya zirav û L-ya qelew
+
+Di herdu zaravayan de du awayên L hene: L-ya zirav û L-ya qelew. Di kurmancî de ev herdu bi gelemperî bi heman herfa L tên nivîsîn, ji ber ku di pergala dengî ya kurmancî de cudahiya wan bi gelemperî wateyê naguherîne.
+
+Di soranî de ev cudahî girîngtir e û di alfabeya wê de bi **ل** û **ڵ** tê nîşandan. Ji bo berawirdkirinê, çavkaniyê L-ya zirav bi L û L-ya qelew bi Ł nîşan dide.
+
+| Kurmancî | Soranî |
+|---|---|
+| belê | bełê |
+| dil | dił |
+| gul | guł |
+| hilbijartin | hełbijardin |
+| mal | mał |
+
+Di hin devokên soranî de li şûna Ł, R tê gotin; mînak *mał → mar* û *bełê → berê*. Diyardeyeke nêzî vê di hin devokên kurmancî de jî tê dîtin.
+
+## 10. Û ya kurmancî û WÊ ya soranî
+
+Li dû konsonantên C, D, G, K û N, li cihê Û an komdenga UH ya kurmancî di soranî de gelek caran WÊ heye:
+
+| Kurmancî | Soranî |
+|---|---|
+| guh | gwê |
+| nû | nwê |
+| gûz | gwêz |
+| dijûn | cwên |
+| ji / li kû | le kwê(we) |
+
+Çavkaniyê vê cudahiyê bi formên îraniya kevn ve girê dide: formên kevn di kurmancî de bûne Û an UH û di soranî de WÊ.
+
+## 11. XWE- ya kurmancî û XO- ya soranî
+
+Li hember komdenga XWE- ya kurmancî, di soranî de hin caran XO- heye:
+
+| Kurmancî | Soranî |
+|---|---|
+| xwe | xo |
+| xweş | xoş |
+| xwelî | xoł(emêş) |
+
+Di soranî de komdenga XWE- bi awayê kurmancî nayê dîtin; lê li şûna wê her dem XO- nayê. Mînak *xwedî, xwedan / xudan, xweyî* di soranî de *xawen* û *xwendin, xwandin* di soranî de *xwêndin* e.
+
+Li gorî ravekirina dîrokî ya çavkaniyê, XWE- kevntir e û XO- ji wê peyda bûye. Di hin devokên kurmancî de jî XO- an XU- heye, lê XWE- di standardê de hatiye parastin.
+
+## 12. G û K wek [c] û [ç] di soranî de
+
+Di gelek devokên soranî de, gava Ê an WÊ li pey G bikeve, G dikare wek [c] were gotin. Gava heman deng li pey K bikeve, K dikare wek [ç] were gotin. Nimûneyên çavkaniyê:
+
+| Kurmancî | Soranî nivîskî | Soranî bilêvkirin |
+|---|---|---|
+| guh | gwê | [cwê] |
+| kî / kê | kê | [kê] |
+| ji / li kû | le kwê(we) | le [çwê]we |
+
+Çavkaniyê dibêje ku ev diyardeya niha di kurmancî de nayê dîtin, lê di dîroka zimanên îranî de guherînên nêzîk qewimîne. Mînakeke dîrokî ya wê peyva *çi/çî* ye ku bi peyva *kî/kê* re têkiliya rehî heye.
+
+## Bîr bîne
+
+- Cudahiyên navbera zaravayan dikarin peyvî, teşenasî an dengnasî bin.
+- Nimûneyên berawirdkirinê formên serdest in; ne her devok bi wan re yek e.
+- Di gelek peyvên xwemalî de V ya kurmancî li hember W an M ya soranî ye.
+- Di hin peyvan de RD ya soranî li hember R ya kurmancî ye.
+- Soranî bi gelemperî li destpêka peyvê komdengên wek ST bi E-ya pêşîn vediguherîne.
+- Pifdarî ya Ç, K, P û T di destpêka peyvê de di herdu zaravayan de wek hev nîne.
+- H, I/E, Î/Ê, L/Ł, Û/WÊ û XWE-/XO- jî cudahiyên girîng in.
+- Ev cudahî ne pîvaneke başî an rastiya zaravayan e; her zarav xwedî pergala xwe ye.
+
+## Çalakî û xwepirsîn
+
+**1.** Cudahiyên peyvî, teşenasî û dengnasî bi nimûneyên dersê rave bike.
+
+**2.** Di cotên *çav/çaw*, *nav/naw* û *dev/dem* de çi guherîn tê dîtin?
+
+**3.** Çima di *birin/birdin* de nayê gotin ku D di soranî de her dem zêde dibe?
+
+**4.** Soranî li destpêka peyva bi ST çi dike? Du nimûne binivîse.
+
+**5.** Cudahiyên pifdarî ya Ç di *çar* û *çav* de rave bike.
+
+**6.** H ya dawî di kurmancî û soranî de çawa cuda ye?
+
+**7.** Di cotên *bi/be*, *Îran/Êran* û *diçîne/deçênê* de cudahiya dengî çi ye?
+
+**8.** L û Ł di soranî de çi cudahî nîşan didin?
+
+**9.** Di cotên *guh/gwê* û *xweş/xoş* de guherîna dengî rave bike.
+
+**10.** Çima divê nimûneyên dersê wek rêzikên bêîstîsna neyên girtin?
+
+## Bersivên kurt
+
+1. Peyvî: *niha/êsta*; teşenasî: *kitêbên min/kitêbekanim*; dengnasî: *çav/çaw*.
+2. V ya kurmancî di soranî de gelek caran W û carinan M dibe.
+3. Ji ber ku di hin peyvan de D di dîrokê de ji RT maye, lê di gelek peyvên din de di herdu zaravayan de D tune ye.
+4. Gelek caran E li pêş ST tê zêdekirin: *stêr/estêre*, *stûr/estûr*.
+5. Di kurmancî de Ç ya *çar* bipif û ya *çav* bêpif e; di soranî de Ç ya *çaw* jî bipif e.
+6. H ya wek di *heval* de dikare li dawiya peyva kurmancî were, lê di soranî de bi gelemperî nayê.
+7. Kurmancî I li hember E ya soranî ye; Î gelek caran li hember Ê ye; di paşgira lêkerê de E ya kurmancî li hember Ê ya soranî ye.
+8. L zirav û Ł qelew in; di soranî de dikarin wate û cudahiya peyvan nîşan bidin.
+9. Û ya kurmancî di hin cihên soranî de bûye WÊ; XWE- ya kurmancî jî di hin peyvan de li hember XO- ya soranî ye.
+10. Ji ber ku devok û dever dikarin cuda bin; nivîskar nimûneyên serdest dide, ne hemû awayên gengaz.
+
+## Têbînî ji bo pêşxistinê
+
+Ev ders ji rûpelên çapkirî 373–386 hatiye nûdabeşkirin. Berî belavkirinê divê hemû nimûneyên soranî bi standarda nivîskî û devokên ku çavkaniyê behs dike re werin kontrolkirin. Nîşanên dengnasî, pifdarî, formên dîrokî, L/Ł û guherînên Î/Ê û Û/WÊ divê bi pisporê herdu zaravayan re bên piştrastkirin. Ev pêşnûseke fêrkarî ye, ne veguheztina rûpelên PDF bo nav kûrsê û hîn ne ji bo xwendekaran çalak e.
