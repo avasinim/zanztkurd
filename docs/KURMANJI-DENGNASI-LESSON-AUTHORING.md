@@ -2036,3 +2036,263 @@ Pirtûk herwiha hin peyvên bi eslê xwe îranî destnîşan dike ku di kurdî d
 ## Têbînî ji bo pêşxistinê
 
 Ev ders ji rûpelên çapkirî 155–167 hatiye nûdabeşkirin. Di çavkaniyê de di yek cihê danasîna P de nîşana IPA wek [b] hatiye nivîsîn, lê taybetmendiyên ku heman beşê ji bo P rave dike «dulêvî, sekinî, bêlerz» in; ji aliyê dengnasiyê ve nîşana P-ya bêlerz [p] e. Ev nakokî divê berî belavkirinê bi çavkaniya çapkirî/edîtorê re were kontrolkirin; di vê pêşnûsê de [p] wek nîşana dengnasî ya P hatiye bikaranîn. Herwiha cotên wateyî yên P-ya bipif/bêpif, guherînên dîrokî yên P, etîmolojiyên Q û şertên K→Q divê di nirxandina dawî de rasterast bi çavkaniyê re bên kontrolkirin. Dersa 14 ji rûpelên çapkirî 168–186 li ser dengên R û S e.
+
+
+---
+
+# Dersa 14 — Dengên R û S
+
+**Çavkaniya dersê:** rûpelên çapkirî 168–185.  
+**Dem:** 50–60 deqîqe.
+
+## Armancên fêrbûnê
+
+Di dawiya dersê de xwendekar dikare:
+- du awayên dengdana R-ê, R-ya req [r] û R-ya nerm [ɾ], ji hev cuda bike;
+- têkiliya R-ê bi L-ê û guherînên wan di hin peyv û devokan de rave bike;
+- nermbûna R-ê di nav peyvê de û ketina wê di hin peyvên pir bikaranîn de nas bike;
+- S wek dengekî pidûyî-xişok-vizok yê bêlerz [s] binasîne;
+- cihê S di peyvê de û komên konsonantan nas bike;
+- S-ya zirav û qelew wek du alofonên kurmancî nas bike;
+- hin guherînên dîrokî yên S-ê ji K û dengên din, û guherîna S bi H, X, Ç û T re rave bike.
+
+## 1. R — herfek û du deng
+
+Di dengnasiya kurdî de herfa **R/r** du awayên sereke yên gotinê hene. Herdu jî dengên pidûyî ne: di dema derxistina wan de ziman li herêma pidûyan nêzîk dibe.
+
+### R-ya req [r]
+
+Li destpêka peyvê R bi gelemperî bi lêdana çendcarî ya ziman li pidûyên jorîn tê derxistin. Pirtûk vê dengê **R-ya req** bi nav dike. Di IPA de bi **[r]** tê nîşandan.
+
+Nimûne: *rast, rev, rê, rind, ron, ruh, rû*.
+
+### R-ya nerm [ɾ]
+
+Li nav û dawiya peyvên xwerû de R bi piranî bi lêdaneke tenê ya ziman tê gotin. Pirtûk vê dengê **R-ya nerm** bi nav dike. Di IPA de bi **[ɾ]** tê nîşandan.
+
+Nimûne: *agir, baran, mêr, zîrek*.
+
+Di hin nivîsên dengnasiyê de R-ya nerm wek R/r û R-ya req wek Ř/ř tê nîşandan. Ev nîşankirin alîkar e ku herdu deng ji hev bên cudakirin; di rastnivîsîna asayî ya kurdî-latînî de herdu bi R/r tên nivîsîn.
+
+## 2. Cihê R di peyvan de
+
+R dikare li her sê cihên peyvê were:
+- **Destpêk:** *rabûn, rez, roj*.
+- **Nav:** *armanc, beran, ereb*.
+- **Dawî:** *bihar, dûr, par*.
+
+Li gorî lêkolîna ku pirtûk vedigêre, rêjeya herfa R di nivîsên kurmancî de 5,2% e. R şeşemîn herfa herî gelemperî ye; di nav konsonantan de tenê N ji wê pirtir e.
+
+Rêgeheke giştî ev e: R li destpêka peyvê req e; li nav û dawiya peyvên xwerû bi piranî nerm e. Lê peyvên pêkhatî dikarin taybet bin.
+
+## 3. R-ya req di peyvên pêkhatî de
+
+Di peyvên pêkhatî de, hêmanê duyem dikare R-ya req ya destpêka xwe biparêze. Ji bo nîşandana vê yekê, pirtûk di hin nimûneyan de **ř** bi kar tîne:
+- *biřojî, bêřojî, neřastî, neřazî*.
+
+Lê ev parastin bêistisna nîne. Di hin peyvên pêkhatî yên cihgirtî de R nerm bûye:
+- *îro* (ji *î + řo[j]*);
+- *nîvro* (ji *nîv + řo[j]*).
+
+Pirtûk destnîşan dike ku di soranî de ev nermbûn di van nimûneyan de pêk nehatiye û R-ya req hatiye parastin: *îmřo* û *nîweřo/nîmeřo*.
+
+## 4. Ketina R di nav û dawiya peyvê de
+
+Ji bilî nermbûnê, R carinan di nav an dawiya peyvê de bi temamî jî dikeve. Pirtûk vê yekê bi taybetî di hin peyvên pir bikaranîn de nîşan dide:
+- *îca* ji *îcar*;
+- *vêca* ji *vê carê*;
+- *heke* ji *heker/heger/eger*;
+- *cana* ji *carinan*;
+- *du ca* ji *du caran*.
+
+Ev nimûne guherînên gotinê ne; divê xwendekar wan wek rêzikeke bêistisna ji bo hemû peyvan negire.
+
+## 5. Têkiliya dîrokî ya R û L
+
+Di gelek peyvên xwemalî yên kurdî de R-ya îro ji L-ya kevn hatiye. Pirtûk vê guherînê bi berawirdkirina peyvên kurdî û hevrehên wan di zimanên din yên hindûewropî de rave dike.
+
+Nimûneyên sereke:
+- *rûvî/rovî* di kurmancî de; *rêwî* di soranî de; *rûbah* di farisî de; di sanskrîtî de *lopaka-* û di latînî de *vulpes*.
+- *roj, ron, ronahî* di kurdî de; di farisî de *rûz* û *rowşen*; di latînî de *lux, luceo, luna*; di inglîziya nû de *light*.
+
+Pirtûk sebebê nêzîkbûna dengên L û R bi wê yekê ve girêdide ku herdu deng pidûyî ne. Di derxistina wan de ziman bi herêma pidûyan re têkiliyê çêdike.
+
+Di demên dîrokî de L di hin zimanên îranî yên kevn de bûye R; paşê di zimanên îranî yên navîn de L dîsa li hin zimanan vegeriya. Ji ber vê yekê îro di kurdî, farisî û zimanên din ên îranî de hem L û hem R hene, lê ne her peyv bi heman rêyê guheriye.
+
+## 6. Guherîna L û R di devokan de
+
+Guherîna L/R di hin peyv û devokan de berdewam e:
+- Daçeka kurmancî *li* bi formên *le* di soranî û *ne* di hewramî de tê berawirdkirin; pirtûk vê komê bi formên kevn ên *ena, ên, in* re jî girêdide.
+- Di hin devokan de N di *nimêj* û *nivîn* de bûye L: *limêj, livîn*.
+- Di soraniya Hewlêrê de *mal* dikare wek *mar* were gotin.
+- Di hin devokan de *şelwar* bûye *şelwal*.
+- *per(r)* di hin devokan de wek *pel* tê gotin; lê di peyva pêkhatî *malper(r)* de forma bi R tê dîtin.
+- Peyva soranî *rîxolle* di kurdiya başûrî de *lêxerû* û di hewramî de *rêllexwa* ye.
+
+Ev nimûne nîşan didin ku guherîna L û R dikare bi devok û dîroka peyvê ve girêdayî be; ne her du deng di hemû peyvan de bi serbestî tên guhertin.
+
+## 7. S — pidûyî-xişok-vizok yê bêlerz
+
+Dengê **S/s** dengekî **pidûyî-xişok-vizok yê bêlerz** e. Di dema gotina wê de ziman nêzî pidûyan dibe; hewa ji nav tengiyekê derbas dibe û dengê xişokê çêdike. Perdeyên dengî di gewriyê de nalerizin. Nîşana wê di IPA de **[s]** e.
+
+## 8. Cihê S di peyvan de û dengrêziya wê
+
+S dikare li destpêk, nav û dawiya peyvê were:
+- **Destpêk:** *sal, sed, sîr, sor*.
+- **Nav:** *hesp, asin/hesin, dest, bîst, hasil*.
+- **Dawî:** *kes, werîs, sîs, behs*.
+
+Li gorî lêkolîna ku pirtûk vedigêre, rêjeya S di nivîsên kurmancî de 1,6% e. S dikare li destpêka peyvê bi du an sê konsonantan re were:
+- *stêr, standin, spî, stran*.
+
+Gava S li navê peyvê be, bi piranî T li pey wê tê:
+- *dest, bîst, hestî, mist, zivistan, lîstin*.
+
+Ev nimûne ji bo nasîna komên dengî ne; ne şertên bêistisna ji bo hemû peyvan in.
+
+## 9. S-ya zirav û S-ya qelew
+
+Di kurmancî de S dikare bi du awayên hinekî cuda were gotin:
+- **S-ya zirav:** wek S-ya asayî; nimûne: *ser, sê, sîr, sûr*.
+- **S-ya qelew:** bi dengdaneke paşvekişiyayî; nimûne: *sed, sibê, silav, sebir*.
+
+Di peyvên xwemalî de S-ya qelew bi gelemperî berî vokalên paşîn ên *a, o* tê bihîstin; S-ya zirav jî bi gelemperî berî vokalên pêşîn ên *î, e, ê* û herwiha berî *u, û* tê. Lê ev rêzik hemû rewşan venagire:
+- S-ya zirav: *ser, sêv, sîr, surehî, sûr*.
+- S-ya qelew: *sar, sor*.
+
+Berî *i* herdu away dikarin bên dîtin: *sivore/sivorî/simore/sihorî* bi S-ya zirav, lê *sivande, sivde* bi S-ya qelew. S-ya qelew carinan berî vokala pêşîn *e* jî tê, wek *sed, se/seg*.
+
+Di peyvên wergirtî de jî vokal dikare bandorê bike; wek *salon* û *soz*. Lê di peyvên esil-erebî de awayê S bi gelemperî bi awayê wê di zimanê jêder de girêdayî ye, ne tenê bi vokala piştî wê.
+
+### Fonem an alofon?
+
+Di erebî de S-ya zirav û S-ya qelew du fonemên cuda ne; guherandina wan dikare wateyê biguherîne. Lê di kurmancî de pirtûk wan wek du **alofonên heman fonemê** rave dike; ji ber ku nimûneyeke zelal nayê dîtin ku guherandina yekê bi ya din wateya peyvê biguherîne.
+
+Di kurmancî û zazakî de şertên hemûgir tune ne ku her carê pêşbînî bikin S dê zirav be an qelew. Ji ber vê yekê divê xwendekar nimûneyên peyvan û devokê jî li ber çavan bigire.
+
+## 10. S di peyvên ji erebî hatine de
+
+Di hin peyvên erebî de S-ya qelew diparêze, wek *şibe, şebir, şebî*; di hinên din de dibe S-ya zirav, wek *sihet*. Carinan S-ya zirav ya zimanê jêder jî di kurdî de qelew dibe, wek *şilav, şilametî*.
+
+Pirtûk bandora L û vokala paşîn A li ser qelewbûna S-ê di hin van peyvan de rave dike. Lê gelek peyvên erebî S-ya xwe diparêzin; wek *Salim* bi S-ya zirav û *Sabir* bi S-ya qelew, li gor awayê zimanê jêder.
+
+## 11. Çavkaniyên dîrokî yên S
+
+### S ji K
+
+Pirtûk cudahiya du komên mezin ên zimanên hindûewropî bi guherîna K-ya proto-hindûewropî rave dike:
+- **Koma kentûmî:** K-ya kevn parastiye an di hin zimanan de kiriye H; wek latînî, yûnaniya kevn, hîtîtî û ermenî. Navê komê ji peyva latînî *centum* hatiye.
+- **Koma satemî:** K-ya kevn di gelek peyvan de bûye S; wek zimanên îranî, hindistanî, slavî û baltî. Navê komê ji peyva avestayî *sete-* hatiye.
+
+Nimûneya berawirdkirinê:
+- kurdî: *ser, sed*; farisî: *ser, sed*; avestayî: *ser-, sete-*.
+- latînî: *cornu, centum*; yûnaniya kevn: *karê, êkaton*.
+
+Ev guherîn ne di hemû peyvan de pêk hatiye. Di hin cînavan de K hatiye parastin an bûye Ç, wek *kî, kû, kengî, kîjan* û *çi, çawa, çend, çima*.
+
+### S ji dengên din
+
+Hemû S-yan ji K-ya kevn nehatine. Pirtûk hin çavkaniyên din jî nîşan dide:
+- *rast* ji forma kevn a bi R û T;
+- *sar* ji bingeheke kevn a bi G;
+- *sê* di berawirdkirinê de bi T-ya hin zimanên din re têkildar e: avestayî *thrî*, latînî *tres*, inglîzî *three*.
+
+S di hin peyvan û devokan de bi Z an Ş jî diguhere:
+- kurmancî *zik* / soranî *sik*;
+- kurmancî *rast* / zazakî *raşt*.
+
+S bêlerz e; Z bilerz e. Di gotina Z de perdeyên dengî dilerizin, lê di S de na. Gava dengê bêlerz li pey Z were, Z dikare bêlerz bibe û wek S were gotin. Pirtûk vê yekê bi nimûneyên lêkeran nîşan dide: *di-lîz-im → lîstin* û *di-mîz-e → mîst*.
+
+Di hin peyvên erebî de S ji dengê didanî [θ] hatiye, wek *mîsal, asar, eser*. Di kurdî de [θ] bi gelemperî bûye S.
+
+## 12. Guherîna S bi H û dengên din
+
+### S bi H
+
+S-ya proto-hindûewropî ya destpêka peyvê, heke vokalek li pey wê were, di gelek zimanên îranî de bûye H. Nimûneya hejmarê heft:
+- kurmancî, farisî, avestayî: *heft/hepte-*;
+- sanskrîtî: *septan*; latînî: *septem*; inglîzî: *seven*.
+
+Di hin zimanên din de S bûye H an jî ketiye. Pirtûk herwiha nimûneyên *havîn, hev, heman, hemû* û *meh* bi hevrehên wan ên zimanên din re dide.
+
+Lê H-ya kurmancî herdem ji S-ya kevn nayê; di gelek peyvan de H ji bo rêgirtina li destpêka vokalê hatiye zêdekirin. Nimûne: kurmancî *hesp* li hemberî soranî *esp*, û kurmancî *hesin* li hemberî formên *asin*.
+
+### S bi X/H berî W, V an O
+
+S-ya kevn berî W/V/O di hin peyvan de di zimanên îranî de bûye X an H. Pirtûk van nimûneyan dide:
+- *xweh, xuşk*;
+- *xwandin/xwendin*;
+- *xwesû, xwezûr*.
+
+### S bi Ç
+
+Di hin peyvan de S-ya kevn di kurmanciya navendî de bûye Ç:
+- kurmanciya navendî *birçî*; kurmanciya rojhilatî û soranî *birsî*;
+- kurmancî *hirç*; soranî *wirç*; farisî *xers*; pehlewî *xirs*.
+
+Pirtûk ji bo *hirç* çavkaniyên din ên gengaz jî nîşan dide, ji Ş-ya zimanên kevn heta bandora ermenî. Ji ber vê yekê divê etîmolojiya peyvê bi ihtiyat were şîrovekirin.
+
+### S bi T
+
+Di peyva *mîras* de S-ya ku ji dengê didanî [θ] hatiye, di kurdî de di forma *mîrat* de bûye T. Pirtûk rêya guherînê bi vî awayî nîşan dide: *mîraθ → mîras → mîrat*. Di hin peyvên din de S û T li gor devokan bi hev diguherin, wek *rût/rûs*.
+
+## Berawirdkirina R û S
+
+| Taybetmendî | R | S |
+|---|---|---|
+| Cihê sereke | Pidûyî | Pidûyî |
+| Awayê dengdanê | Jenok / lêdana ziman | Xişok-vizok |
+| Lerz | Bilerz | Bêlerz |
+| Varyantên sereke | R-ya req [r] û R-ya nerm [ɾ] | S-ya zirav û S-ya qelew |
+| Taybetmendiya girîng | Li destpêkê bi gelemperî req | Dikare bi komên konsonantan re were |
+
+## Bîr bîne
+
+- R yek herf e, lê di kurmancî de du dengên wê hene: R-ya req [r] û R-ya nerm [ɾ].
+- R li destpêka peyvê bi gelemperî req e; li nav û dawiya peyvên xwerû bi piranî nerm e.
+- Di hin peyvên pêkhatî de R-ya req tê parastin; di hin peyvên pir bikaranîn de R dikare bikeve.
+- Di hin peyvên xwemalî de R-ya îro ji L-ya kevn hatiye; di devokan de jî L û R dikarin biguherin.
+- S dengekî pidûyî-xişok-vizok yê bêlerz e; [s].
+- S dikare li destpêk, nav û dawiya peyvê were; li destpêkê dikare bi komên konsonantan re be.
+- S-ya zirav û qelew di kurmancî de alofon in, ne du fonemên cuda.
+- S di dîroka peyvan de dikare ji K, T an dengên din were; di hin şertan de bibe H, X, Ç an T.
+- Guherînên dengî dikarin bi devok, zimanê jêder û dîroka peyvê ve girêdayî bin.
+
+## Çalakî û xwepirsîn
+
+**1.** R-ya req û R-ya nerm çi cudahiyên dengdanê hene? Nîşanên IPA-yên wan binivîse.
+
+**2.** Di peyvên *rast, agir, bihar* de R li kîjan cihê ye û bi gelemperî çawa tê gotin?
+
+**3.** Çima di hin peyvên pêkhatî de R-ya req tê parastin? Du nimûne bide.
+
+**4.** Du nimûneyên guherîna L/R di devokên kurdî de binivîse.
+
+**5.** S ji aliyê cihê derketinê, awayê derketinê û lerzê ve çawa tê danasîn?
+
+**6.** Di *stêr, dest, behs* de S li kîjan cihê peyvê ye?
+
+**7.** S-ya zirav û qelew di kurmancî de fonem in an alofon? Sedemê xwe rave bike.
+
+**8.** Koma kentûmî û satemî ji aliyê guherîna K-ya proto-hindûewropî ve çawa ji hev cuda dibin?
+
+**9.** Di peyva *heft* de çi guherîna dîrokî ya S→H tê dîtin?
+
+**10.** Du nimûneyên guherîna S bi X, Ç an T re bide.
+
+## Bersivên kurt
+
+1. R-ya req bi çend lêdanên ziman [r] e; R-ya nerm bi lêdaneke tenê [ɾ] e.
+2. *rast*: destpêk û req; *agir*: nav û nerm; *bihar*: dawî û bi gelemperî nerm.
+3. Hêmanê duyem dikare awayê destpêka xwe biparêze; wek *biřojî, neřastî*.
+4. *mal → mar* di soraniya Hewlêrê de; *şelwar → şelwal* di hin devokan de.
+5. S pidûyî-xişok-vizok û bêlerz e; [s].
+6. *stêr*: destpêk; *dest*: nav; *behs*: dawî.
+7. Alofon in; di kurmancî de guherandina wan bi hev wateya peyvê naguherîne.
+8. Kentûmî K diparêze an dike H; satemî di gelek peyvan de K dike S.
+9. S-ya kevn di zimanên îranî de li destpêka peyvê bûye H; *seven/septem* li hemberî *heft*.
+10. *weqt → wext* ji Q bo X; *birsî → birçî* ji S bo Ç; *mîraθ → mîras → mîrat* ji S bo T.
+
+## Têbînî ji bo pêşxistinê
+
+Ev ders ji rûpelên çapkirî 168–185 hatiye nûdabeşkirin. Nîşanên [r] û [ɾ] ji ravekirina pirtûkê ya R-ya req û nerm tên. Di beşa S-ya zirav/qelew de pirtûk şertan wek meyla giştî pêşkêş dike, ne wek rêzikên bêistisna; ji ber vê yekê di dersê de jî ev sînordarî hatiye parastin. Etîmolojiyên *hirç*, *rûvî* û hin nimûneyên L/R bi ihtiyat hatine pêşkêşkirin, ji ber ku çavkaniyê xwe jî çend rêyên gengaz nîşan dide. Berî belavkirinê, hemû nimûneyên devokî û rêyên etîmolojîk divê bi pisporê dengnasiyê re bên kontrolkirin. Dersa 15 dê li ser dengên Ş û Z be, li gorî beşa paşîn a çavkaniyê.
