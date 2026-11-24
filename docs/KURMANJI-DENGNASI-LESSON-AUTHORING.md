@@ -4288,14 +4288,21 @@ Pirtûk herwiha têgeha **cêwî/cêmik** (*doublet*) dide: du peyvên ji heman 
 
 ## 7. Nîqaşa zêdekirina herfên nû
 
-Di nivîsînê de gelek caran pêşniyar tê kirin ku ji bo cudahiya dengên Ç, K, P û T herfên cuda bên zêdekirin; an jî ji bo L, R û H-ya ku di hin devokan de awayên cuda hene nîşanên nû bên danîn.
+Di nivîsînê de pêşniyarên cuda hene ku ji bo cudahiya dengên Ç, K, P û T herfên cuda bên zêdekirin; an jî ji bo L, R û H-ya ku di hin devokan de awayên cuda hene nîşanên nû bên danîn.
 
-Nivîskar cudahiyên rast ên bilêvkirinê nas dike, lê dipirse gelo her cudahiya dengî divê bi herfeke nû were nivîsîn. Li gorî nêrîna ku di çavkaniyê de hatiye pêşkêşkirin:
-- hin varyant di hemû zaravayên kurdî de belav nînin;
-- hin cudahî alofon in û li gorî cihê dengê di peyvê de xuya dibin;
-- zêdekirina herfan dikare hînkirin û rastnivîsînê dijwartir bike;
-- kontekst û hevok gelek caran wateya peyvê zelal dikin;
-- ferheng û pirtûkên hînkirinê dikarin bilêvkirina deqîq bi nîşanên taybet nîşan bidin, bêyî ku alfabeya giştî bi herfên zêde giran bikin.
+Nivîskar cudahiyên rast ên bilêvkirinê nas dike, lê dipirse gelo her cudahiya dengî divê bi herfeke nû were nivîsîn. Di çavkaniyê de gelek nîqaşên taybet hene:
+
+- **Ç, K, P û T:** di kurmancî û zazakî de awayên bipif û bêpif hene. Ji bilî vê, P dikare bi sê awayên dengî û T bi çar awayên dengî were bilêvkirin. Ji ber vê yekê, tenê du herf ji bo her yekê danîn dê hemû varyantên rast nîşan nede.
+- **R:** R ya destpêka peyvê bi gelemperî şidandîtir e; R ya nava û dawiya peyvên xwerû bi gelemperî nermtir e. Li gorî şîroveya nivîskar, ev gelek caran alofonên heman dengî ne, ne du fonemên cuda.
+- **L:** L ya qelew di hin zarava û devokan de heye, lê di kurmancî de belavbûna wê sînordar e. Nivîskar yek L ji bo nivîsîna hevpar baştir dibîne.
+- **H:** di hin peyvan û devokan de du awayên bilêvkirin hene, lê nivîskar dibêje yek H dikare nivîsîna standard bihêle û cudahiya devokî di gotinê de biparêze.
+
+Li gorî nêrîna nivîskar, zêdekirina herfan dikare:
+- rêzikên rastnivîsînê zêde û fêrbûnê dijwartir bike;
+- cudahiya nivîsîna peyvan di navbera zaravayan de zêde bike;
+- xeletiyên nivîsînê zêde bike, bêyî ku hemû cudahiyên bilêvkirinê nîşan bide.
+
+Çavkaniyê herwiha jêxt dike ku xwîner peyvan di nav hevok û kontekstê de dixwîne, ne tenê pîtan bi tenê. Bo bilêvkirina deqîq, ferheng û pirtûkên hînkirinê dikarin nîşanên dengnasî bikar bînin, bêyî ku hemû wan nîşanan bibin beşek ji alfabeya giştî.
 
 Armanca vê beşê ne biryardana ku yek alfabe ji ya din baştir e. Mijar ew e ku cudahî û wekhevî bi delîl bên şîrovekirin û bandora her pêşniyarê li ser nivîsîna hevpar were nirxandin.
 
