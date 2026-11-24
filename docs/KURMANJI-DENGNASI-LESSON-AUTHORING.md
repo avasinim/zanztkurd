@@ -475,3 +475,107 @@ Ji ber vê yekê du ast ji hev cuda bikin:
 ## Têbînî ji bo pêşxistinê
 
 Ev ders ji rûpelên 29–39 hatî nûdabeşkirin. Nîşanên dengnasiyê û nimûneyên peyvan divê di kontrola dawî de rasterast bi PDF re bên berawirdkirin، bi taybetî nîşana Ṗ ku nivîskar di binpê de behsa sînordariya teknîkî ya çapkirinê dike. Dersa 5 ji rûpelên 40–43 li ser rêjeya herfan di nivîsên kurmancî de ye.
+
+
+
+---
+
+# Dersa 5 — Rêjeya herfan di nivîsên kurmancî de
+
+**Çavkaniya dersê:** rûpelên çapkirî 40–43.  
+**Dem:** 25–30 deqîqe.
+
+## Armancên fêrbûnê
+
+Di dawiya dersê de xwendekar dikare:
+- rave bike ka lêkolîna rêjeya herfan çawa hatiye kirin;
+- cudahiya hejmar û rêjeya herfan fam bike;
+- çend herfên pirbikaranîn û kêm-bikaranîn nas bike;
+- bandora paşgir, pêşgir û peyvên dubare li ser encamên hejmartinê rave bike;
+- sînorên vê vekolînê di bîr de bigire.
+
+## 1. Rêjeya herfan çi ye?
+
+Rêjeya herfan nîşan dide ku her herf di materyaleke nivîskî de çend caran tê bikaranîn، li gorî tevahiya herfan. Ev rêje bi hejmartina herfên di nivîsan de tê bidestxistin. Armanca wê ew e ku em bizanin di nivîsên kurmancî de kîjan herf zêdetir û kîjan kêmtir tên bikaranîn.
+
+Rêjeya herfan bi xwe re rêjeya dengên di axaftinê de nîne. Nivîs û gotin dikarin ji hev cuda bin؛ ji ber vê yekê encamên nivîsî divê wek daneyên nivîsê bên fêmkirin.
+
+## 2. Çawa lêkolîn hatiye kirin?
+
+Nivîskar çend nivîsên kurmancî berhev kiriye. Materyala lêkolînê bi giştî **52,705 herf** hebû. Berî hejmartinê hemû nîşanên xalbendiyê, wek nuqte، bêhnok، nîşana pirsê û gazîkirinê, jê hatine rakirin. Paşê rêjeya her herfê li gorî hejmara wê di tevahiya materyalê de hatiye hesabkirin.
+
+Nivîskar jî hişyar dike ku materyaleke ji bi milyonan herfan dikare encameke rasttir bide. Ji ber vê yekê 52,705 herf wêneyekî nêzîkî rastiyê dide، lê ne statîstîkeke bêkêmasî û dawî ye.
+
+## 3. Herfên herî pir tên bikaranîn
+
+Li gorî vê materyalê:
+- **E** bi rêjeya **11.6%** herfa herî pir hatiye bikaranîn.
+- **I** bi rêjeya **11.2%** di rêza duyem de ye.
+- **N** bi rêjeya **9.4%** herfa konsonantî ya herî pir hatiye bikaranîn.
+- **A** bi rêjeya **8.0%** hatiye.
+- **Ê** û **R** her yek bi rêjeya **5.2%** hatine hejmartin.
+
+Pirtûk destnîşan dike ku rêjeya herfan dikare li gor materyal û devokê biguhere. Bo nimûne، di hin devokan de I dikare ji E zêdetir be. Ji ber vê yekê divê em encamên vê vekolînê bi şert û çarچۆڤەی xwe bixwînin.
+
+## 4. Herfên kêm-bikaranîn
+
+Di heman materyalê de hin herf bi rêjeyeke kêmtir hatine bikaranîn:
+- **O**: 0.95%
+- **P**: 0.73%
+- **Ç**: 0.59%
+- **C**: 0.33%
+- **Q**: 0.27%
+- **F**: 0.26%
+
+Ev rêje nîşan dide ku di nivîsên ku hatine vekolîn de ev herf kêmtir xuya bûne. Lê kêmbûna herfekê nayê wateya ku ew di ziman de ne girîng e؛ dibe ku ew di peyvên taybet، navên kesan an peyvên wergirtî de pêdivî be.
+
+## 5. Çima hin herf zêde tên?
+
+Nivîskar ji bo hin rêjeyan sedemên zimanî destnîşan dike:
+- **E** ji ber paşgira lêkeran di kesê sêyem yê yekjimar de gelek tê.
+- **I** di daçekên *bi, di, ji, li* de û hin peyvên din de tê.
+- **N** ji ber paşgirên lêkerên pirjimar، nîşana neyîniyê û formên pirjimar ên navdêran zêde dibe.
+- **A** di îzafeya navdêrên mê û paşgirên pirjimar de rolek heye.
+- **Ê** di îzafe، paşgira navdêr û hin formên lêkerî de tê.
+- **D** û **B** jî ji ber pêşgir û daçekên berbelav di nivîsê de xuya dibin.
+
+Ev nimûne nîşan didin ku rêjeya herfekê tenê bi peyvên bingehîn nayê diyarkirin؛ morfolojî، paşgir، pêşgir û peyvên girêder jî bandorê dikin.
+
+## 6. Sînorên encaman
+
+Vê vekolînê divê bi çend hişyarî bên xwendin:
+
+1. Materyal tenê 52,705 herf e؛ nivîskar dibêje materyaleke mezin‌تر dê encamên rasttir bide.
+2. Hin formên nivîsînê, wek R-ya şidandî bi RR, dikarin rêjeya herfekê bilind bikin.
+3. Hin peyvên dubare an navên kesan dikarin rêjeyê biguherînin.
+4. Rêjeya nivîsî ne wek rêjeya gotarê ye؛ hin deng di axaftinê de dikarin li dawiyê peyvê kêm bên gotin، tevî ku di nivîsê de hene.
+5. Devok û awayên cuda yên nivîsînê dikarin rêjeyên cuda çêbikin.
+
+## Bîr bîne
+
+- Rêjeya herfan bi hejmartina herfên di materyaleke nivîskî de tê bidestxistin.
+- Di materyala vê vekolînê de E = 11.6%, I = 11.2% û N = 9.4%.
+- O، P، Ç، C، Q û F di vê materyalê de rêjeyeke kêmtir hene.
+- Paşgir، pêşgir، daçek û formên gramatîk dikarin rêjeya herfan biguherînin.
+- Encama vê vekolînê wêneyekî nêzîk e، ne encameke bêkêmasî ji bo hemû kurmancîaxivan.
+
+## Çalakî û xwepirsîn
+
+**1. Hesabkirin:** Heke di materyaleke 10,000 herfî de rêjeya E 11.6% be، nêzîkî çend E têne hêvîkirin؟
+
+**2. Berawirdkirin:** Di materyala pirtûkê de rêjeya E û I çiqas ji hev cuda ye؟
+
+**3. Şîrove:** Çima paşgirên lêkeran dikarin rêjeya herfan biguherînin؟
+
+**4. Hişyarî:** Çima em nikarin rêjeya herfên vê vekolînê wek rêjeya rast a hemû axaftina kurmancî bihesibînin؟
+
+## Bersivên kurt
+
+1. 1,160 E.
+2. E = 11.6% û I = 11.2%؛ cûdahî 0.4 xalê rêjeyê ye.
+3. Ji ber ku paşgirên dubarebûyî hin herfan gelek caran zêde dikin.
+4. Ji ber ku vekolîn li ser nivîsên hatine berhevkirin e، materyal sînordar e û nivîsîn ji gotinê cuda ye.
+
+## Têbînî ji bo pêşxistinê
+
+Ev ders ji rûpelên 40–43 hatî nûdabeşkirin. Rêjeyên hejmarî yên li jor rasterast ji tabloya pirtûkê hatine girtin؛ divê di kontrola dawî de her hejmar bi tabloya orîjînal re were berawirdkirin. Dersa 6 ji rûpelên 44–55 li ser dengrêzî û kîte ye.
