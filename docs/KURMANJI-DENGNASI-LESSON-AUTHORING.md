@@ -1879,106 +1879,106 @@ Di dawiya dersê de xwendekar dikare:
 - P wek dengekî dulêvî-sekinî-bêlerz rave bike;
 - P-ya bipif û bêpif ji hev cuda bike û fêm bike ku di kurmancî û zazakî de dikarin du fonem bin;
 - P-ya zirav û qelew wek du alofonên heman fonem nas bike;
-- peydabûna P di destpêk، nav û dawiya peyvan de bibîne;
-- hin guherînên dîrokî yên P bi B، V/W û F re şîrove bike;
+- peydabûna P di destpêk, nav û dawiya peyvan de bibîne;
+- hin guherînên dîrokî yên P bi B, V/W û F re şîrove bike;
 - Q wek dengekî zimanokî-sekinî-bêlerz nas bike;
 - cihê Q di peyvan de û çavkaniyên dîrokî yên belavbûna wê rave bike.
 
 ## 1. P — dulêvî-sekinî-bêlerz
 
-Dengê **P** konsonanteke **dulêvî** ye، ji ber ku herdu lêv di çêkirina wê de bi hev re tên. Ew **sekinî** ye: hewa di devê de demekê tê girtin û paşê bi vekirina lêvan tê berdan. Herwiha **bêlerz** e، ji ber ku perdeyên dengî di dema derketina wê de nalerizin. Nîşana rast a wê di alfabeya dengnasî ya navneteweyî de **[p]** e.
+Dengê **P** konsonanteke **dulêvî** ye, ji ber ku herdu lêv di çêkirina wê de bi hev re tên. Ew **sekinî** ye: hewa di devê de demekê tê girtin û paşê bi vekirina lêvan tê berdan. Herwiha **bêlerz** e, ji ber ku perdeyên dengî di dema derketina wê de nalerizin. Nîşana rast a wê di alfabeya dengnasî ya navneteweyî de **[p]** e.
 
-Di kurdî-latînî de P/p، di kurdî-erebî de پ û di kurdî-krîlî de П/п ji bo nivîsîna vê dengê tên bikaranîn. Di erebiya standard de dengê /p/ û herfa wê tune ne؛ ji ber vê yekê di hin peyvên erebînivîs de پ bi sê nuqteyan li binê ب tê nivîsîn.
+Di kurdî-latînî de P/p, di alfabeya kurdî-erebî de herfa P-ya bi sê nuqteyan û di kurdî-krîlî de П/п ji bo vê dengê tên bikaranîn. Di erebiya standard de dengê /p/ û herfa wê tune ne; ji ber vê yekê di hin peyvên erebînivîs de herfa P bi sê nuqteyan li binê herfa B tê nivîsîn.
 
 ## 2. Peydabûna P di peyvan de
 
-P dikare li destpêk، nav û dawiya peyvê were:
-- **Li destpêkê:** *perde، pê، pez، piling*.
-- **Li navê:** *kepir، bapîr، şapik*.
-- **Li dawiya peyvê:** *ap، kûp، hesp*.
+P dikare li destpêk, nav û dawiya peyvê were:
+- **Li destpêkê:** *perde, pê, pez, piling*.
+- **Li navê:** *kepir, bapîr, şapik*.
+- **Li dawiya peyvê:** *ap, kûp, hesp*.
 
-Li gorî lêkolîna ku pirtûk jê vedigere، rêjeya P di nivîsên kurmancî de 0,7% e. P li destpêka peyvê gelemperî ye، lê di nav û dawiya peyvên xwemalî de kêm e. Pirtûk vê kêmiyê bi guherînên dîrokî yên P-ya navîn û dawî re girêdide.
+Li gorî lêkolîna ku pirtûk jê vedigere, rêjeya P di nivîsên kurmancî de 0,7% e. P li destpêka peyvê gelemperî ye, lê di nav û dawiya peyvên xwemalî de kêm e. Pirtûk vê kêmiyê bi guherînên dîrokî yên P-ya navîn û dawî re girêdide.
 
 ## 3. P-ya bipif û P-ya bêpif
 
 Di kurmancî û zazakî de P dikare bi du awayên dengdanê were gotin:
 
-- **P-ya bipif (req):** piştî berdana dengê bayekî zêde ji devê derdikeve. Nimûne: *perde، parçe، pirt، pirtik، por(r)*.
-- **P-ya bêpif (nerm):** piştî dengê P pifeke bi heman hêzê nayê derxistin. Nimûne: *pêr، pênc، pîvaz، penîr*.
+- **P-ya bipif (req):** piştî berdana dengê bayekî zêde ji devê derdikeve. Nimûne: *perde, parçe, pirt, pirtik, por(r)*.
+- **P-ya bêpif (nerm):** piştî dengê P pifeke bi heman hêzê nayê derxistin. Nimûne: *pêr, pênc, pîvaz, penîr*.
 
 ### Ceribandina kaxezê
 
-Kaxezekê nêzî devê xwe bigire. Piştî wê peyva *perde* û paşê *pênc* bibêje. Di gotina *perde* de kaxez dikare bi pifa piştî P hereket bike؛ di *pênc* de ev hereket kêm e an nayê dîtin. Ev ceribandin alîkar e ku pifdarî bi awayekî hestbar were nasîn.
+Kaxezekê nêzî devê xwe bigire. Piştî wê peyva *perde* û paşê *pênc* bibêje. Di gotina *perde* de kaxez dikare bi pifa piştî P hereket bike; di *pênc* de ev hereket kêm e an nayê dîtin. Ev ceribandin alîkar e ku pifdarî bi awayekî hestbar were nasîn.
 
-Di kurmancî û zazakî de ev cudahî dikare wateya peyvê biguherîne؛ ji ber vê yekê P-ya bipif û bêpif di hin cotên peyvan de **du fonemên cuda** ne. Pirtûk cotê *par* dide: P-ya bipif wateya «parçe، beş» dide، lê P-ya bêpif wateya «sala borî/çûyî» dide.
+Di kurmancî û zazakî de ev cudahî dikare wateya peyvê biguherîne; ji ber vê yekê P-ya bipif û bêpif di hin cotên peyvan de **du fonemên cuda** ne. Pirtûk cotê *par* dide: P-ya bipif wateya «parçe, beş» dide, lê P-ya bêpif wateya «sala borî/çûyî» dide.
 
 Li gorî ravekirina pirtûkê:
 - Li destpêka peyvê P dikare bipif an bêpif be.
-- Di nav û dawiya peyvên xwemalî de P bi piranî bêpif e، lê hin îstîsna hene، wek *ap* û *spas*.
-- Di peyvên wergirtî de P-ya destpêkê gelek caran bipif e؛ wek *polîs، pas، pasaport، poste*.
+- Di nav û dawiya peyvên xwemalî de P bi piranî bêpif e, lê hin îstîsna hene, wek *ap* û *spas*.
+- Di peyvên wergirtî de P-ya destpêkê gelek caran bipif e; wek *polîs, pas, pasaport, poste*.
 
-Di soranî، farisî، tirkî û inglîzî de P-ya destpêka peyvê bi gelemperî bipif e؛ di fransî de bi gelemperî bêpif e. Di kurmancî de awayê gotinê dikare bi zimanê jêder û rêya ketina peyvê ve girêdayî be.
+Di soranî, farisî, tirkî û inglîzî de P-ya destpêka peyvê bi gelemperî bipif e; di fransî de bi gelemperî bêpif e. Di kurmancî de awayê gotinê dikare bi zimanê jêder û rêya ketina peyvê ve girêdayî be.
 
 ## 4. P-ya zirav û P-ya qelew
 
-Ji bilî pifdarî، P dikare **zirav** an **qelew** were gotin:
-- P-ya zirav: *par* (sala borî)، *pênc، pîvaz، pûng*.
-- P-ya qelew: *pazde، pez، piling، poz*.
+Ji bilî pifdarî, P dikare **zirav** an **qelew** were gotin:
+- P-ya zirav: *par* (sala borî), *pênc, pîvaz, pûng*.
+- P-ya qelew: *pazde, pez, piling, poz*.
 
-Di hin peyvan de awayê zirav an qelew bi vokala li pey P re têkildar e؛ lê ev rêzik bêistisna nîne û di hin devokan de gotina peyvekê dikare cuda be. Mînak، *penîr* di hin devokan de bi P-ya zirav û di hinên din de bi P-ya qelew tê gotin.
+Di hin peyvan de awayê zirav an qelew bi vokala li pey P re têkildar e; lê ev rêzik bêistisna nîne û di hin devokan de gotina peyvekê dikare cuda be. Mînak, *penîr* di hin devokan de bi P-ya zirav û di hinên din de bi P-ya qelew tê gotin.
 
-Cudahiya P-ya zirav û qelew **fonemîk nîne**: guherandina yekê bi ya din wateya peyvê naguherîne. Ji ber vê yekê ew du **alofon** in، anku du awayên derketina heman fonemê. Bi gelemperî P-ya bêpif dikare qelew be؛ P-ya bipif bi piranî zirav e، herçend îstîsna jî hene.
+Cudahiya P-ya zirav û qelew **fonemîk nîne**: guherandina yekê bi ya din wateya peyvê naguherîne. Ji ber vê yekê ew du **alofon** in, anku du awayên derketina heman fonemê. Bi gelemperî P-ya bêpif dikare qelew be; P-ya bipif bi piranî zirav e, herçend îstîsna jî hene.
 
 ## 5. Guherînên dîrokî yên P
 
 P di hemû lehceyên kurdî de heye û di gelek zimanên cîran û zimanên hindûewropî de jî tê dîtin. Pirtûk çend rêyên dîrokî yên peydabûna wê nîşan dide:
 
-- Hin P-yan di kurdî de ji dengên kevn ên W/V/U peyda bûne؛ wek *pêl* û *por(r)/pûrt* di berawirdkirinên dîrokî de.
-- P-ya destpêka hin peyvan ji B-ya zimanên din an ji formên bi B hatine؛ mînakên gotinî yên pirtûkê *pisqilêt، paysikil، pas* û *patrî* ne.
-- Di hin peyvên xwemalî de P-ya navîn an dawî di qonaxên dîrokî de bûye B û paşê V؛ di soranî de di hin heman peyvan de W heye. Berawirdkirina *av/aw*، *sêv/sêw* û *heft/hewt* di tabloya pirtûkê de tê pêşkêşkirin.
-- Di hin peyvên ku bi tesîra erebî hatine، P bûye F؛ ji ber ku P di erebiya standard de tune ye. Nimûne: *fincan* û *fisteq*، ku pirtûk bi formên kevn ên *pengan* û *pistek* re berawird dike.
+- Hin P-yan di kurdî de ji dengên kevn ên W/V/U peyda bûne; wek *pêl* û *por(r)/pûrt* di berawirdkirinên dîrokî de.
+- P-ya destpêka hin peyvan ji B-ya zimanên din an ji formên bi B hatine; mînakên gotinî yên pirtûkê *pisqilêt, paysikil, pas* û *patrî* ne.
+- Di hin peyvên xwemalî de P-ya navîn an dawî di qonaxên dîrokî de bûye B û paşê V; di soranî de di hin heman peyvan de W heye. Berawirdkirina *av/aw*, *sêv/sêw* û *heft/hewt* di tabloya pirtûkê de tê pêşkêşkirin.
+- Di hin peyvên ku bi tesîra erebî hatine, P bûye F; ji ber ku P di erebiya standard de tune ye. Nimûne: *fincan* û *fisteq*, ku pirtûk bi formên kevn ên *pengan* û *pistek* re berawird dike.
 
-Ev nimûne nîşan didin ku P dikare di destpêkê de ji dengên din peyda bibe، an di nav û dawiya peyvê de bi dengên din re biguhere. Her peyv divê li gorî dîroka xwe were şîrovekirin؛ ev guherîn rêzikeke yekgirtî ya bêistisna nînin.
+Ev nimûne nîşan didin ku P dikare di destpêkê de ji dengên din peyda bibe, an di nav û dawiya peyvê de bi dengên din re biguhere. Her peyv divê li gorî dîroka xwe were şîrovekirin; ev guherîn rêzikeke yekgirtî ya bêistisna nînin.
 
 ## 6. Q — zimanokî-sekinî-bêlerz
 
-Dengê **Q** konsonanteke **zimanokî** ye: pişta ziman li herêma paşiya devê، nêzî qirikê، astengiyê çêdike. Ew **sekinî** ye، ji ber ku hewa pêşî tê girtin û paşê tê berdan؛ herwiha **bêlerz** e. Di alfabeya dengnasî ya navneteweyî de bi **[q]** tê nîşandan.
+Dengê **Q** konsonanteke **zimanokî** ye: pişta ziman li herêma paşiya devê, nêzî qirikê, astengiyê çêdike. Ew **sekinî** ye, ji ber ku hewa pêşî tê girtin û paşê tê berdan; herwiha **bêlerz** e. Di alfabeya dengnasî ya navneteweyî de bi **[q]** tê nîşandan.
 
-Di kurdî-latînî de Q/q، di kurdî-erebî de ق û di kurdî-krîlî de Ԛ/ԛ ji bo vê dengê hatine bikaranîn. Di hin alfabeyên din ên krîlînivîs de Қ/қ jî tê bikaranîn. Divê xwendekar Q-ya kurdî ji Q-ya hin zimanan cuda bigire: di gelek zimên ewropî de Q dengê [q] nade، lê bi K an bi komdengê [kw] ve tê gotin.
+Di kurdî-latînî de Q/q, di alfabeya kurdî-erebî de herfa Q-ya taybet û di kurdî-krîlî de Ԛ/ԛ ji bo vê dengê hatine bikaranîn. Di hin alfabeyên din ên krîlînivîs de Қ/қ jî tê bikaranîn. Divê xwendekar Q-ya kurdî ji Q-ya hin zimanan cuda bigire: di gelek zimên ewropî de Q dengê [q] nade, lê bi K an bi komdengê [kw] ve tê gotin.
 
 ## 7. Peydabûna Q di peyvan de
 
-Q dikare li destpêk، nav û dawiya peyvê were:
-- **Li destpêkê:** *qazan، qeşmer، qîr، qumar*.
-- **Li navê:** *aqar، meqes، reqem*.
-- **Li dawiya peyvê:** *beq، heq، req*.
+Q dikare li destpêk, nav û dawiya peyvê were:
+- **Li destpêkê:** *qazan, qeşmer, qîr, qumar*.
+- **Li navê:** *aqar, meqes, reqem*.
+- **Li dawiya peyvê:** *beq, heq, req*.
 
-Li gorî lêkolîna ku pirtûk jê vedigere، rêjeya Q di nivîsên kurmancî de 0,27% e؛ tenê F ji wê kêmtir e. Ji ber vê yekê Q di nivîsên kurmancî de yek ji herfên herî kêm e.
+Li gorî lêkolîna ku pirtûk jê vedigere, rêjeya Q di nivîsên kurmancî de 0,27% e; tenê F ji wê kêmtir e. Ji ber vê yekê Q di nivîsên kurmancî de yek ji herfên herî kêm e.
 
 ## 8. Çavkaniyên dîrokî yên Q
 
-Pirtûk destnîşan dike ku Q di zimanên hindûewropî yên kevn û di gelek zimanên îranî yên kevn de wek dengê kurdî tune bû؛ lê di gelek zimanên îranî yên niha de belav e. Du bandorên sereke tên nîşandan:
+Pirtûk destnîşan dike ku Q di zimanên hindûewropî yên kevn û di gelek zimanên îranî yên kevn de wek dengê kurdî tune bû; lê di gelek zimanên îranî yên niha de belav e. Du bandorên sereke tên nîşandan:
 
-**1. Bandora zimanên samî، bi taybetî erebî:** Dengê Q di zimanên samî yên Rojhilata Navîn de berbelav e. Gelek peyvên erebî bi Q ketine kurdî، wek *qam، qemer، qiyas، qîr، qudret*. Hin peyvên ku eslê wan ji yûnaniya kevn e jî bi rêya erebî gihiştine kurdî؛ wek *qanûn، qelem، qesir*.
+**1. Bandora zimanên samî, bi taybetî erebî:** Dengê Q di zimanên samî yên Rojhilata Navîn de berbelav e. Gelek peyvên erebî bi Q ketine kurdî, wek *qam, qemer, qiyas, qîr, qudret*. Hin peyvên ku eslê wan ji yûnaniya kevn e jî bi rêya erebî gihiştine kurdî; wek *qanûn, qelem, qesir*.
 
-**2. Bandora zimanên tirkîkî:** Di hin zimanên tirkîkî de Q berî vokalên paşîn gelemperî ye. Di hin peyvên ku kurdî ji tirkî wergirtiye de K-ya tirkî، heke li pey wê vokaleke paşîn were، dikare di kurdî de bibe Q:
-- *qazan* ji tirkî *kazan*؛
-- *qere-* ji *kara*؛
-- *qonax/qûnax* ji *konak*؛
+**2. Bandora zimanên tirkîkî:** Di hin zimanên tirkîkî de Q berî vokalên paşîn gelemperî ye. Di hin peyvên ku kurdî ji tirkî wergirtiye de K-ya tirkî, heke li pey wê vokaleke paşîn were, dikare di kurdî de bibe Q:
+- *qazan* ji tirkî *kazan*;
+- *qere-* ji *kara*;
+- *qonax/qûnax* ji *konak*;
 - *qûm* ji *kum*.
 
-Lê berî vokalên pêşîn K bi gelemperî wek K dimîne؛ wek *kelemçe، kepeng، komir، kok، koç*. Ev dabeşkirin rêbereke giştî ye، lê pirtûk îstîsna jî destnîşan dike.
+Lê berî vokalên pêşîn K bi gelemperî wek K dimîne; wek *kelemçe, kepeng, komir, kok, koç*. Ev dabeşkirin rêbereke giştî ye, lê pirtûk îstîsna jî destnîşan dike.
 
 ## 9. Guherînên Q bi dengên din re
 
-Di peyvên ji erebî hatine de Q bi gelemperî tê parastin، lê di hin peyvan an devokan de dikare bibe K؛ wek *qel'e → keleh/kelhe* û di gotina hin kesan de *xelq → xelk*. Ev guherîn di hemû peyvan de bi heman awayî pêk nayê.
+Di peyvên ji erebî hatine de Q bi gelemperî tê parastin, lê di hin peyvan an devokan de dikare bibe K; wek *qel'e → keleh/kelhe* û di gotina hin kesan de *xelq → xelk*. Ev guherîn di hemû peyvan de bi heman awayî pêk nayê.
 
-Berî hin konsonantên bêlerz ên wek T، S û Ş، Q-ya erebî di kurdî de bi gelemperî dibe X:
-- *weqt → wext*؛
-- *neqş → nexş*؛
+Berî hin konsonantên bêlerz ên wek T, S û Ş, Q-ya erebî di kurdî de bi gelemperî dibe X:
+- *weqt → wext*;
+- *neqş → nexş*;
 - *reqs → rexs*.
 
-Pirtûk herwiha hin peyvên bi eslê xwe îranî destnîşan dike ku di kurdî de Q di cihê K an G de xuya dibe؛ wek *quling، quz، qûn*. Lê çavkaniya hin peyvan ne ewqas zelal e، ji ber vê yekê divê etîmolojiyên wan bi baldarî bên xwendin û wek rêzikeke giştî neyên girtin.
+Pirtûk herwiha hin peyvên bi eslê xwe îranî destnîşan dike ku di kurdî de Q di cihê K an G de xuya dibe; wek *quling, quz, qûn*. Lê çavkaniya hin peyvan ne ewqas zelal e, ji ber vê yekê divê etîmolojiyên wan bi baldarî bên xwendin û wek rêzikeke giştî neyên girtin.
 
 ## Berawirdkirina P û Q
 
@@ -1987,52 +1987,52 @@ Pirtûk herwiha hin peyvên bi eslê xwe îranî destnîşan dike ku di kurdî d
 | Cihê derketinê | Dulêvî | Zimanokî |
 | Awayê derketinê | Sekinî | Sekinî |
 | Lerz | Bêlerz | Bêlerz |
-| Taybetmendiya taybet | Bipif/bêpif؛ zirav/qelew | Dengê paşdevî، zimanokî |
-| Nimûne | *perde، pênc، kepir* | *qazan، reqem، heq* |
+| Taybetmendiya taybet | Bipif/bêpif; zirav/qelew | Dengê paşdevî, zimanokî |
+| Nimûne | *perde, pênc, kepir* | *qazan, reqem, heq* |
 
 ## Bîr bîne
 
-- P dulêvî، sekinî û bêlerz e؛ nîşana IPA ya wê [p] e.
-- P-ya bipif û bêpif di kurmancî û zazakî de dikarin wateya peyvê biguherînin؛ ji ber vê yekê di hin peyvan de du fonem in.
-- P-ya zirav û qelew wate naguherînin؛ ew du alofonên heman fonemê ne.
-- P di hin peyvên dîrokî de bi B û paşê V/W re hatiye guherîn؛ di hin peyvên din de jî bi tesîra erebî bûye F.
-- Q zimanokî، sekinî û bêlerz e؛ nîşana IPA ya wê [q] e.
-- Q di kurmancî de kêm e û di destpêk، nav û dawiya peyvan de tê dîtin.
+- P dulêvî, sekinî û bêlerz e; nîşana IPA ya wê [p] e.
+- P-ya bipif û bêpif di kurmancî û zazakî de dikarin wateya peyvê biguherînin; ji ber vê yekê di hin peyvan de du fonem in.
+- P-ya zirav û qelew wate naguherînin; ew du alofonên heman fonemê ne.
+- P di hin peyvên dîrokî de bi B û paşê V/W re hatiye guherîn; di hin peyvên din de jî bi tesîra erebî bûye F.
+- Q zimanokî, sekinî û bêlerz e; nîşana IPA ya wê [q] e.
+- Q di kurmancî de kêm e û di destpêk, nav û dawiya peyvan de tê dîtin.
 - Belavbûna Q di hin peyvan de bi bandora erebî û zimanên tirkîkî re têkildar e.
 - Guherînên Q bi K an X re divê li gorî peyv û devokê bên fêmkirin.
 
 ## Çalakî û xwepirsîn
 
-**1. Nasîna P:** P ji aliyê cihê derketinê، awayê derketinê û lerzê ve çawa tê danasîn؟
+**1. Nasîna P:** P ji aliyê cihê derketinê, awayê derketinê û lerzê ve çawa tê danasîn?
 
-**2. Ceribandina pifdarî:** Di *perde* û *pênc* de kîjan P bipif e؟ Çawa dikarî bi kaxezê vê cudahiyê bibînî؟
+**2. Ceribandina pifdarî:** Di *perde* û *pênc* de kîjan P bipif e? Çawa dikarî bi kaxezê vê cudahiyê bibînî?
 
-**3. Fonem an alofon؟** Çima P-ya bipif û bêpif di hin peyvan de fonem in، lê P-ya zirav û qelew alofon in؟
+**3. Fonem an alofon?** Çima P-ya bipif û bêpif di hin peyvan de fonem in, lê P-ya zirav û qelew alofon in?
 
-**4. Cihê P:** Di *perde، kepir، hesp* de P li kîjan cihê peyvê ye؟
+**4. Cihê P:** Di *perde, kepir, hesp* de P li kîjan cihê peyvê ye?
 
-**5. Dîroka P:** Di cotên *av/aw* û *sêv/sêw* de çi têkiliya dîrokî tê nîşandan؟
+**5. Dîroka P:** Di cotên *av/aw* û *sêv/sêw* de çi têkiliya dîrokî tê nîşandan?
 
-**6. Nasîna Q:** Q ji aliyê cih، awayê derketinê û lerzê ve çawa tê danasîn؟
+**6. Nasîna Q:** Q ji aliyê cih, awayê derketinê û lerzê ve çawa tê danasîn?
 
-**7. Cihê Q:** Di *qazan، reqem، heq* de Q li kîjan cihê peyvê ye؟
+**7. Cihê Q:** Di *qazan, reqem, heq* de Q li kîjan cihê peyvê ye?
 
-**8. Bandora tirkî:** Çima di hin peyvên wergirtî de K-ya tirkî bûye Q؟ Du nimûne bîne.
+**8. Bandora tirkî:** Çima di hin peyvên wergirtî de K-ya tirkî bûye Q? Du nimûne bîne.
 
-**9. Guherîna Q:** Di cotên *weqt/wext* û *neqş/nexş* de Q bi kîjan dengê cuda bûye؟
+**9. Guherîna Q:** Di cotên *weqt/wext* û *neqş/nexş* de Q bi kîjan dengê cuda bûye?
 
 ## Bersivên kurt
 
-1. P dulêvî، sekinî û bêlerz e؛ [p].
-2. Di *perde* de P bipif e؛ di *pênc* de bêpif e. Kaxez bi pifa piştî P-ya bipif dikare hereket bike.
-3. Bipif/bêpif dikare wateya peyvê biguherîne؛ zirav/qelew wate naguherînin.
-4. *perde*: destpêk؛ *kepir*: nav؛ *hesp*: dawî.
-5. Di hin peyvan de P-ya navîn ji forma kevn bûye B û paşê V؛ di soranî de W.
-6. Q zimanokî، sekinî û bêlerz e؛ [q].
-7. *qazan*: destpêk؛ *reqem*: nav؛ *heq*: dawî.
-8. Berî vokalên paşîn K di hin peyvên tirkî de di kurdî de bûye Q؛ wek *qazan* ji *kazan* û *qûm* ji *kum*.
+1. P dulêvî, sekinî û bêlerz e; [p].
+2. Di *perde* de P bipif e; di *pênc* de bêpif e. Kaxez bi pifa piştî P-ya bipif dikare hereket bike.
+3. Bipif/bêpif dikare wateya peyvê biguherîne; zirav/qelew wate naguherînin.
+4. *perde*: destpêk; *kepir*: nav; *hesp*: dawî.
+5. Di hin peyvan de P-ya navîn ji forma kevn bûye B û paşê V; di soranî de W.
+6. Q zimanokî, sekinî û bêlerz e; [q].
+7. *qazan*: destpêk; *reqem*: nav; *heq*: dawî.
+8. Berî vokalên paşîn K di hin peyvên tirkî de di kurdî de bûye Q; wek *qazan* ji *kazan* û *qûm* ji *kum*.
 9. Q bûye X.
 
 ## Têbînî ji bo pêşxistinê
 
-Ev ders ji rûpelên çapkirî 155–167 hatiye nûdabeşkirin. Di çavkaniyê de di yek cihê danasîna P de nîşana IPA wek [b] hatiye nivîsîn، lê taybetmendiyên ku heman beşê ji bo P rave dike «dulêvî، sekinî، bêlerz» in؛ ji aliyê dengnasiyê ve nîşana P-ya bêlerz [p] e. Ev nakokî divê berî belavkirinê bi çavkaniya çapkirî/edîtorê re were kontrolkirin؛ di vê pêşnûsê de [p] wek nîşana dengnasî ya P hatiye bikaranîn. Herwiha cotên wateyî yên P-ya bipif/bêpif، guherînên dîrokî yên P، etîmolojiyên Q û şertên K→Q divê di nirxandina dawî de rasterast bi çavkaniyê re bên kontrolkirin. Dersa 14 ji rûpelên çapkirî 168–186 li ser dengên R û S e.
+Ev ders ji rûpelên çapkirî 155–167 hatiye nûdabeşkirin. Di çavkaniyê de di yek cihê danasîna P de nîşana IPA wek [b] hatiye nivîsîn, lê taybetmendiyên ku heman beşê ji bo P rave dike «dulêvî, sekinî, bêlerz» in; ji aliyê dengnasiyê ve nîşana P-ya bêlerz [p] e. Ev nakokî divê berî belavkirinê bi çavkaniya çapkirî/edîtorê re were kontrolkirin; di vê pêşnûsê de [p] wek nîşana dengnasî ya P hatiye bikaranîn. Herwiha cotên wateyî yên P-ya bipif/bêpif, guherînên dîrokî yên P, etîmolojiyên Q û şertên K→Q divê di nirxandina dawî de rasterast bi çavkaniyê re bên kontrolkirin. Dersa 14 ji rûpelên çapkirî 168–186 li ser dengên R û S e.
