@@ -202,6 +202,10 @@ window.ZANSTI_GET_SUPABASE_CLIENT = window.ZANSTI_GET_SUPABASE_CLIENT || functio
     const box=document.querySelector(".lesson-content");
     if(!box)return true;
     const lessonKey=box.getAttribute("data-lesson-key")||target;
+    if(/^kurmanji-dengnasi-lesson-\d{2}\.html$/.test(lessonKey)){
+      box.innerHTML="<section class=\"klesson-note\"><h2>ئەم کۆرسە لە ئامادەکردندایە</h2><p>وانەکان دەبێت لەسەر بنەمای کتێبی سەرچاوەوە دابڕێژرێن؛ تەنها PDF یان دابەشکردنی پەڕەکانی کتێب وانە نییە. تا تەواوبوونی وانەدابڕێژراوەکان، دەستگەیشتن بە ناوەڕۆکی کۆرسەکە ڕاگیراوە.</p></section>";
+      return false;
+    }
     box.setAttribute("aria-busy","true");
     try{
       const {data,error}=await sb.from("lesson_content")
