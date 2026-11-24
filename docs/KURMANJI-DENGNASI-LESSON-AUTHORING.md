@@ -545,7 +545,7 @@ Ev nimûne nîşan didin ku rêjeya herfekê tenê bi peyvên bingehîn nayê di
 
 Vê vekolînê divê bi çend hişyarî bên xwendin:
 
-1. Materyal tenê 52,705 herf e؛ nivîskar dibêje materyaleke mezin‌تر dê encamên rasttir bide.
+1. Materyal tenê 52,705 herf e؛ nivîskar dibêje materyaleke mezintir dê encamên rasttir bide.
 2. Hin formên nivîsînê, wek R-ya şidandî bi RR, dikarin rêjeya herfekê bilind bikin.
 3. Hin peyvên dubare an navên kesan dikarin rêjeyê biguherînin.
 4. Rêjeya nivîsî ne wek rêjeya gotarê ye؛ hin deng di axaftinê de dikarin li dawiyê peyvê kêm bên gotin، tevî ku di nivîsê de hene.
