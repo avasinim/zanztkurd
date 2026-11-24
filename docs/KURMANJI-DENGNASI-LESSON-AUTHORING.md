@@ -3695,7 +3695,7 @@ Di dawiya dersê de xwendekar dikare:
 
 ### 1. Dîftong çi ye?
 
-Dîftong du dengên vokalî ne ku di nav heman kîteyê de bi hev re tên gotin û wek yek tevgera dengî têne bihîstin. Di gotinê de ziman ji cihê derxistina vokala yekem ber bi cihê vokala duyem ve digوازێت.
+Dîftong du dengên vokalî ne ku di nav heman kîteyê de bi hev re tên gotin û wek yek tevgera dengî têne bihîstin. Di gotinê de ziman ji cihê derxistina vokala yekem ber bi cihê vokala duyem ve diguhere.
 
 Divê dîftong ji du vokalên li pey hev ku her yek di kîteyeke cuda de ye cuda were kirin. Bo nimûne:
 - *saet* → sa-et;
@@ -3752,7 +3752,7 @@ W piştî vokalan jî tê:
 - *dêw*;
 - *dîw*.
 
-Hin zimannas van peyvan bi awayê *dau, deu, dêu, dîu* şîrove dikin؛ anku W li gel vokala berî xwe dîftong pêk tîne. Lê ev şîrove ne li cem hemû zimannasan pejirandî ye.
+Hin zimannas van peyvan bi awayê *dau, deu, dêu, dîu* şîrove dikin; anku W li gel vokala berî xwe dîftong pêk tîne. Lê ev şîrove ne li cem hemû zimannasan pejirandî ye.
 
 Dîftongiya vokal + W di hin rewşan de dikare bi ketina vokalekê ya paşê parçebibe. Nimûne:
 - *kew* → *ke-wek*;
@@ -3804,7 +3804,7 @@ Ji bo xwendekar giring e ku:
 
 Giranî (stress) girankirin an şidandina kîteyekê ye, bi awayekî ku ew ji kîteyên din zelaltir, bihêztir an dirêjtir tê gotin. Giranî dikare li ser kîteya peyvê an beşeke hevokê bikeve.
 
-Di kurdî de cihê giranî tenê taybetmendiyeke dengî nîne؛ di hin peyvan de dikare wate an erkê rêzimanî jî biguherîne.
+Di kurdî de cihê giranî tenê taybetmendiyeke dengî nîne; di hin peyvan de dikare wate an erkê rêzimanî jî biguherîne.
 
 ### 9. Giranî di navdêran de
 
@@ -4009,13 +4009,13 @@ Ev nimûne nîşan didin ku giranî dikare cudahiya navbera navdêr, rengdêr, d
 ## Bîr bîne
 
 - Dîftong du dengên vokalî ye ku di heman kîteyê de bi hev re tên gotin.
-- Du vokalên li pey hev her tim dîftong çênakin؛ dibe ku her yek li kîteyeke cuda be.
+- Du vokalên li pey hev her tim dîftong çênakin; dibe ku her yek li kîteyeke cuda be.
 - W û Y li gor peyv û devok dikarin nîvvokal, konsonant an beşeke dîftongê bin.
 - Di komdengên XW + vokal de W di gelek rewşan de dengê U dide.
 - Giranî şidandina kîteyekê ye û di kurdî de dikare wate an erkê rêzimanî biguherîne.
 - Navdêr û rengdêr bi gelemperî giranî li kîteya dawiyê digirin.
 - Hoker û daçekên giştî gelek caran li ser kîteya yekem giran in.
-- Di raderê de giranî li kîteya dawiyê ye؛ lê pêşpirtikên *na-, ne-, me-, ni-* û *bi-* giran in.
+- Di raderê de giranî li kîteya dawiyê ye; lê pêşpirtikên *na-, ne-, me-, ni-* û *bi-* giran in.
 - Di peyvên pêkhatî de giraniya sereke bi gelemperî li ser beşa dawiyê ye.
 
 ## Çalakî û xwepirsîn
@@ -4053,12 +4053,12 @@ Ev nimûne nîşan didin ku giranî dikare cudahiya navbera navdêr, rengdêr, d
 5. Ji ber ku her vokal a kîteyeke cuda ye.
 6. Giranî şidandina kîteyekê ye; dikare wate an erkê rêzimanî biguherîne.
 7. Bi gelemperî li ser kîteya dawiyê.
-8. Paşpirtikên çemandinê bi gelemperî bêgiranî ne؛ paşpirtikên peyvsaz dikarin giran bin.
-9. Di raderê de giranî li ser kîteya dawiyê ye؛ di forma borî ya pirhejmar de giranî li ser kîteya pêşiyê ye.
-10. *piştî* wek daçek li kîteya yekem giran e؛ wek navdêr li kîteya dawiyê. *başî* dikare qencî be, lê *baş î* hevoka “tu baş î” ye.
-11. *na-, ne-, me-, ni-* û *bi-* giran in؛ *di-* ya dewamiyê bêgiran e.
+8. Paşpirtikên çemandinê bi gelemperî bêgiranî ne; paşpirtikên peyvsaz dikarin giran bin.
+9. Di raderê de giranî li ser kîteya dawiyê ye; di forma borî ya pirhejmar de giranî li ser kîteya pêşiyê ye.
+10. *piştî* wek daçek li kîteya yekem giran e; wek navdêr li kîteya dawiyê. *başî* dikare qencî be, lê *baş î* hevoka “tu baş î” ye.
+11. *na-, ne-, me-, ni-* û *bi-* giran in; *di-* ya dewamiyê bêgiran e.
 12. Li ser beşa dawiyê ya peyva pêkhatî.
 
 ## Têbînî ji bo pêşxistinê
 
-Ev ders ji rûpelên çapkirî 315–347 hatiye nûdabeşkirin. Di beşa dîftongan de hin mijarên W/Y li gor devok û şîroveya dengnasî dikarin cihê nîqaşê bin. Di beşa giranî de jî nimûneyên cihê giranî di gotina rastîn de divê bi bilêvkirina devokên armanc re bên kontrolkirin. Pêşî li ser rastnivîsîn, kîtekirin û cudahiya formên rêzimanî piştrast bibin; paşê ders ji aliyê pisporê kurmancî û dengnasiyê ve were pejirandin. Ev nivîs drafta fêrکاری ye، ne veguheztina rûpelên PDF bo nav botê.
+Ev ders ji rûpelên çapkirî 315–347 hatiye nûdabeşkirin. Di beşa dîftongan de hin mijarên W/Y li gor devok û şîroveya dengnasî dikarin cihê nîqaşê bin. Di beşa giranî de jî nimûneyên cihê giranî di gotina rastîn de divê bi bilêvkirina devokên armanc re bên kontrolkirin. Pêşî li ser rastnivîsîn, kîtekirin û cudahiya formên rêzimanî piştrast bibin; paşê ders ji aliyê pisporê kurmancî û dengnasiyê ve were pejirandin. Ev nivîs drafta fêrکاری ye, ne veguheztina rûpelên PDF bo nav botê.
