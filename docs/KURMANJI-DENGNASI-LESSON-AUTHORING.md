@@ -2686,3 +2686,164 @@ Di peyvên ji erebî wergirtî de, çend dengên erebî dikarin di kurdî de bib
 ## Têbînî ji bo pêşxistinê
 
 Ev ders ji beşa V, W, Y û Z ya çavkaniyê, rûpelên çapkirî 203–232, hatiye nûdabeşkirin û wek materyala fêrbûnê hatiye rêkxistin; PDF wek ders nayê pêşkêşkirin. Berî belavkirinê divê hemû nimûneyên etîmolojîk, formên devokî, nîşanên IPA û cudahiya Z-ya zirav/qelew rasterast bi nivîsa çapkirî re bên kontrolkirin. Hin ravekirinên dîrokî bi kurtî hatine pêşkêşkirin û divê ji aliyê pisporê dengnasiyê ve bên nirxandin.
+
+
+---
+
+# Dersa 17 — Komên cotkonsonantan di kurdî de
+
+**Çavkaniya dersê:** rûpelên çapkirî 242–250.  
+**Dem:** 45–55 deqîqe.
+
+## Armancên fêrbûnê
+
+Di dawiya dersê de xwendekar dikare:
+- rave bike ku cotkonsonant çi ye û di kîteyê de çawa xuya dike;
+- cudahiya komên li destpêk û dawiya kîteyê nas bike;
+- nimûneyên cotkonsonantên peyvên xwemalî, erebî û ewropî ji hev cuda bike;
+- çend komên sêkonsonantî nas bike;
+- nimûneyên peyvî li gor cihê komê analîz bike.
+
+## 1. Cotkonsonant çi ye?
+
+Di kurdî de du konsonant dikarin bêyî vokalekê li pey hev, di heman kîteyê de bên. Ji vê yekê re **cotkonsonant** an komkonsonant tê gotin. Di peyvên wek *kurd, reng, kerb, text, evd, blok* de du konsonant li pey hev hene.
+
+Cotkonsonant dikare di peyvên xwemalî de û herwiha di peyvên ji zimanên din hatine wergirtin de peyda bibe. Lê hemû kom bi heman awayî di her çavkaniya peyvan de nayên bikaranîn. Hin kom di peyvên îranî de hene; hinên din bi taybetî di peyvên ji erebî an ji zimanên ewropî wergirtî de xuya dibin.
+
+## 2. Nîşana cihê cotkonsonantê
+
+Di lîsteya koman de xêzika kêlekê cihê peydabûna komê diyar dike:
+
+- **-BR-**: kom dikare li destpêk û dawiya kîteyê were. Nimûne: *Brîtanya* li destpêka kîteyê; *hibr/hubr* li dawiya kîteyê.
+- **-FT**: xêz li destpêkê ye, lê li pey komê tune; ev kom tenê li dawiya kîteyê tê. Nimûne: *heft, şkeft*.
+- **KR-**: xêz li pey komê ye; ev kom dikare tenê li destpêka peyvê were. Nimûne: *krîz, krîstiyan*.
+
+Ji ber vê yekê, dema ku em komên konsonantî dinivîsin, divê cihê wan jî li ber çavan bigirin; tenê nasîna herdu herfan bes nake.
+
+## 3. Komên cotkonsonantî yên di peyvên kurdî-îranî de
+
+Ev kom di peyvên xwemalî yên kurmancî de tên dîtin. Hin nimûne:
+
+- **-NC:** *pênc, kinc, qenc*.
+- **-ND:** *bilind, çend, rind*.
+- **-NG:** *deng, reng, ceng*.
+- **-RM:** *germ, nerm, çerm*.
+- **-RD:** *kurd, merd, derd*.
+- **-RG:** *gurg, merg, cerg*.
+- **-RN:** *curn, gorn*.
+- **-RX:** *berx, çerx*.
+- **-RZ:** *derz, erz*.
+- **-ŞT:** *heşt, deşt, mişt*.
+- **-ST-:** *dest, bîst*; herwiha di destpêka hin peyvên wergirtî de wek *stêr* tê dîtin.
+- **-SP-:** *hesp, çesp* li dawiya kîteyê; *spî, spor* li destpêkê.
+- **-ŞK-:** *hişk* li dawiya kîteyê; *şkeft, şkestin* li destpêkê.
+
+Di hin peyvan de formên cuda an guhertoyên devokî jî hene; wek *kuçk/kuçik*, *heft/şkeft* û *gwîz/gûz*. Ev form divê wek nimûneyên serekî yên yek komê bê şert bên yekgirtin.
+
+## 4. Komên di peyvên ji erebî wergirtî de
+
+Hin kom di peyvên esil-îranî de nayên dîtin, lê di peyvên ji erebî hatine wergirtin de hene. Mînak:
+
+- **-BD:** *ebd/evd*.
+- **-BS:** *hebs/hefs*.
+- **-CM:** *hecm, recm*.
+- **-FŞ:** *kifş, kefş*.
+- **-FZ:** *hefz, refz/revz*.
+- **-HS:** *behs*.
+- **-KS:** *eks*.
+- **-MZ:** *remz*.
+- **-NS:** *cins*.
+- **-QS:** *reqs/rexs*.
+- **-QŞ:** *neqş/nexş*.
+- **-QT:** *weqt/wext*.
+- **-RQ:** *irq, xerq*.
+- **-RŞ:** *ferş, merş, marş*.
+- **-YN:** *deyn, beyn, eyn*.
+- **-YR:** *teyr, seyr*.
+
+Di hin peyvan de komên erebî di kurmancî de guherîna dengî dibînin. Bo nimûne, koma erebî **QṢ** di *reqs* de dikare wek **XS** were nivîsîn/gotin: *rexs*. Herwiha **QŞ** di *neqş* de dikare bibe *nexş*. Ji ber vê yekê, forma kurmancî her tim wek forma erebî namîne.
+
+## 5. Komên di peyvên ji zimanên ewropî wergirtî de
+
+Hin kom bi taybetî di peyvên ji zimanên ewropî hatine wergirtin de tên dîtin. Mînak:
+
+- **BL-:** *blok, blanket, blond*.
+- **-BR-:** *Brîtanya* li destpêkê; *hibr/hubr* li dawiya kîteyê.
+- **DR-:** *drama*.
+- **GL-:** *glas, global*.
+- **GR-:** *gram, gramer*.
+- **-KL:** *klasîk, klarînet*.
+- **KR-:** *krêm, krîstal*.
+- **KS-:** *ksîlofon, ksîlîtol*.
+- **-MP:** *kamp/kemp*.
+- **PS-:** *psîkolojî*.
+- **SK-:** *skelet*.
+
+Ev kom di peyvên wergirtî de parastina komên dengî yên zimanê çavkaniyê nîşan didin. Di nivîsînê de divê em formên ku bi rastî di zimanê kurmancî de tên bikaranîn binirxînin, ne ku her komê wek taybetmendiyeke peyvên xwemalî bihesibînin.
+
+## 6. Komên sêkonsonantî
+
+Herçend piraniya komên konsonantî ji du konsonantan pêk tên, di kurdî de hin komên sêkonsonantî jî hene. Çavkanî sê nimûneyên sereke dide:
+
+- **STR-:** *stran, stratejî*.
+- **-YŞT:** *heyşt*; ev form tenê di hin devokan de tê dîtin, li gelek deverên din *heşt* tê gotin.
+- **-KST:** *tekst*.
+
+Ev nimûne nîşan didin ku komên sêkonsonantî hene, lê ji komên du-konsonantî kêmtir in.
+
+## 7. Çawa komên konsonantî analîz bikin?
+
+Dema ku em peyvekê vedikolin, sê pirsan bipirsin:
+
+1. Kîjan konsonant li pey hev hatine?
+2. Kom li destpêk, nav an dawiya kîteyê ye?
+3. Peyv xwemalî ye an ji zimanekî din hatiye wergirtin?
+
+Mînak:
+- Di *reng* de **NG** li dawiya kîteyê ye û di peyveke xwemalî de tê.
+- Di *krîz* de **KR** li destpêka peyvê ye û peyv ji zimanekî ewropî hatiye wergirtin.
+- Di *heft* de **FT** li dawiya kîteyê ye.
+- Di *stran* de **STR** komeke sêkonsonantî ye.
+
+## Bîr bîne
+
+- Cotkonsonant du konsonant in ku bê vokalekê li pey hev tên.
+- Cihê komê giring e: destpêka kîteyê, nav an dawiya wê.
+- Hemû kom di peyvên xwemalî, erebî û ewropî de bi heman awayî nayên dîtin.
+- *pênc, reng, germ, kurd* nimûneyên komên peyvên xwemalî ne.
+- *ebd, hecm, reqs, weqt* nimûneyên komên peyvên ji erebî wergirtî ne.
+- *blok, drama, gramer, krîstal* nimûneyên komên peyvên ji zimanên ewropî wergirtî ne.
+- *STR, YŞT, KST* sê komên sêkonsonantî ne ku çavkanî destnîşan dike.
+
+## Çalakî û xwepirsîn
+
+**1.** Cotkonsonant çi ye? Du nimûne binivîse.
+
+**2.** Di *reng, heft, krîz* de komên konsonantî li kîjan cihê peyvê ne?
+
+**3.** Ji bo her yekê nimûneyek binivîse: komeke xwemalî, komeke peyveke ji erebî wergirtî û komeke peyveke ji zimanekî ewropî wergirtî.
+
+**4.** Cudahî di navbera nîşanên **-BR-**, **-FT** û **KR-** de çi ye?
+
+**5.** Çima em nikarin hemû komên konsonantî wek taybetmendiya peyvên xwemalî bihesibînin?
+
+**6.** Sê komên sêkonsonantî yên ku çavkanî dide binivîse.
+
+**7.** Di *reqs/rexs* û *neqş/nexş* de çi guherîn tê dîtin?
+
+**8.** Di *heşt/heyşt* de cudahiya devokî çi ye?
+
+## Bersivên kurt
+
+1. Du konsonantên li pey hev bê vokalekê; mînak *reng* û *kurd*.
+2. *reng*: NG li dawiya kîteyê; *heft*: FT li dawiya kîteyê; *krîz*: KR li destpêka peyvê.
+3. Xwemalî: *pênc*; ji erebî: *hecm*; ji ewropî: *drama*.
+4. **-BR-** dikare li destpêk û dawiya kîteyê were; **-FT** tenê li dawiya kîteyê; **KR-** li destpêka peyvê.
+5. Ji ber ku hin kom tenê di peyvên ji erebî an zimanên ewropî wergirtî de tên dîtin.
+6. STR-, -YŞT û -KST.
+7. Di hin peyvên ji erebî wergirtî de QṢ/QŞ di kurmancî de dikarin bibin XS/XŞ.
+8. *heyşt* di hin devokan de ye; *heşt* forma berbelavtir e.
+
+## Têbînî ji bo pêşxistinê
+
+Ev ders ji beşa “Komên konsonantî di kurdî de” ya çavkaniyê, rûpelên çapkirî 242–250, hatiye nûdabeşkirin. Lîsteyên koman di pirtûkê de hin dubarekirin, formên devokî û guhertoyên rastnivîsînê hene; ji ber vê yekê nimûneyên dersê wek nimûneyên sereke hatine hilbijartin, ne wek lîsteyeke bêkêmasî. Berî belavkirinê divê cihê kîteyî, eslê peyvan û formên guhertî bi nivîsa çapkirî re bên kontrolkirin.
