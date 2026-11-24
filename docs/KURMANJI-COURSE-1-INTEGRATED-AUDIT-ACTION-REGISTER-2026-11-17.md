@@ -78,7 +78,7 @@ Principal sources already cited by the review corpus include:
 
 - Geoffrey Haig (2018), “Northern Kurdish (Kurmanjî),” in *The Languages and Linguistics of Western Asia: An Areal Perspective*, pp. 106–158, DOI: https://doi.org/10.1515/9783110421682-004.
 - Geoffrey Haig & Ergin Öpengin (2018), work on Kurmanji phonology/standardization as cited in the lesson-level registers; verify exact bibliographic entry and page locator before using a specific claim.
-- W. M. Thackston (2006), *Kurmanji Kurdish: A Reference Grammar with Selected Readings*, https://sites.fas.harvard.edu/~iranian/Kurmanji/kurmanji_complete.pdf.
+- W. M. Thackston (2006), *Kurmanji Kurdish: A Reference Grammar with Selected Readings*, §10, printed pp. 27–28. The Harvard URL previously listed returned 404 on 2026-11-24; an accessible mirror of the manuscript was checked at https://kurdshop.net/content/upload/1/root/kurmanji-complete.pdf. Treat the mirror as access to the same manuscript, not as a publisher-hosted edition.
 - Hasan Karacan & Hewa Salam Khalid (2016), “Adjectives in Kurdish language: Comparison between dialects,” *International Journal of Kurdish Studies* 2(2), 15–23, DOI: https://doi.org/10.21600/ijks.76230. For Lesson 22, see pp. 21–22; use as a cross-dialect corroboration, not a substitute for variety-matched native review.
 - Council of Europe (2020), *Common European Framework of Reference for Languages: Learning, Teaching, Assessment — Companion Volume*, https://book.coe.int/en/education-and-modern-languages/8150-common-european-framework-of-reference-for-languages-learning-teaching-assessment-companion-volume.html.
 - Council of Europe, CEFR assessment guidance, https://www.coe.int/en/web/common-european-framework-reference-languages/assessment.
