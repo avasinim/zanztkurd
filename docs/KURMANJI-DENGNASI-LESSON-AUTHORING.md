@@ -2118,7 +2118,7 @@ Di hin nivîsên dengnasiyê de R-ya nerm wek R/r û R-ya req wek Ř/ř tê nî�
 ### R-ya req li nav û dawiya peyvê
 
 R-ya req ne tenê li destpêka peyvê xuya dike. Di hin peyvan de ew li nav an dawiya peyvê jî tê gotin:
-- *bajar, pir* (bi wateya «gelek»), *birîn* (bi wateya «jêkirin») û *biryar*.
+- *bajar, pir* (bi wateya «gelek»), *birîn* (bi wateya «jêkirin») û *biryar*; di hin nivîsînan de *bajarr, pirr, birrîn, birryar*.
 
 Di nivîsîna asayî ya kurmanciya latînî de herdu awayên R bi R tên nivîsîn. Lê hin nivîser R-ya req a navîn an dawî bi **rr** nîşan didin, nemaze dema ku pêdivî be peyvên hevnivîs ji hev bên cudakirin:
 - *birîn* («birîndarî») û *birrîn* («jêkirin»);
