@@ -23,6 +23,9 @@ assert len(lessons) == 27, f"expected 27 lessons, got {len(lessons)}"
 assert [lesson["number"] for lesson in lessons] == list(range(1, 28)), "lesson numbering is not sequential"
 assert len({lesson["id"] for lesson in lessons}) == 27, "lesson IDs must be unique"
 
+for previous, current in zip(lessons, lessons[1:]):
+    assert current["printedPages"]["start"] == previous["printedPages"]["end"] + 1, "source page ranges must be contiguous"
+
 for lesson in lessons:
     printed = lesson["printedPages"]
     original = lesson["originalPdfPages"]
