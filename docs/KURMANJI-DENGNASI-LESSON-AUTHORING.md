@@ -29,11 +29,11 @@
 | 11 | Dengên K û L | 133–146 |
 | 12 | Dengên M û N | 147–154 |
 | 13 | Dengên P û Q | 155–167 |
-| 14 | Dengên R û S | 168–186 |
-| 15 | Dengên Ş û T | 187–202 |
+| 14 | Dengên R û S | 168–185 |
+| 15 | Dengên Ş û T | 186–202 |
 | 16 | Dengên V, W, Y û Z | 203–232 |
-| 17 | Eyn û cotkonsonant | 233–250 |
-| 18 | Vokalên A û E | 251–269 |
+| 17 | Eyn, K/G/Q û cotkonsonant | 233–250 |
+| 18 | Vokalên A û E | 252–269 |
 | 19 | Vokalên Ê, I û Î | 270–297 |
 | 20 | Vokalên O, U û Û | 298–314 |
 | 21 | Dîftong û giranî | 315–347 |
@@ -2690,27 +2690,88 @@ Ev ders ji beşa V, W, Y û Z ya çavkaniyê, rûpelên çapkirî 203–232, hat
 
 ---
 
-# Dersa 17 — Komên cotkonsonantan di kurdî de
+# Dersa 17 — Eyn, dengên K/G/Q û komên cotkonsonantî
 
-**Çavkaniya dersê:** rûpelên çapkirî 242–250.  
+**Çavkaniya dersê:** rûpelên çapkirî 233–250.  
 **Dem:** 45–55 deqîqe.
 
 ## Armancên fêrbûnê
 
 Di dawiya dersê de xwendekar dikare:
+- dengê Eyn û cihên peydabûna wî di peyvan de rave bike;
+- K, G û Q ji aliyê cihê derketinê û lerza dengî ve ji hev cuda bike;
+- guherînên K/G/Q di peyvên xwemalî û deynkirî de nas bike;
 - rave bike ku cotkonsonant çi ye û di kîteyê de çawa xuya dike;
 - cudahiya komên li destpêk û dawiya kîteyê nas bike;
 - nimûneyên cotkonsonantên peyvên xwemalî, erebî û ewropî ji hev cuda bike;
 - çend komên sêkonsonantî nas bike;
 - nimûneyên peyvî li gor cihê komê analîz bike.
 
-## 1. Cotkonsonant çi ye?
+## 3. Dengê Eyn di kurmancî de
+
+Dengê **Eyn** di alfabeya erebî û kurdî-erebî de bi herfa ع tê nîşandan; di alfabeya dengnasî ya navneteweyî de nîşana wê **[ʕ]** e. Di kurmancî-latînî de herfeke standard a taybet ji bo wê tune ye, lê di dema danasîna dengê peyvekê de dikare bi nîşana **’** were nîşandan.
+
+Nivîskar dengê Eyn wek **xişoka qirrikî ya bilerz** (voiced pharyngeal fricative) rave dike. Di çêkirina wê de tengbûneke li qirrikê çêdibe û perdeyên dengî dilerizin. Ji ber vê yekê ew ne vokala E ye; dengê konsonantîk e ku dikare berî E an vokalên din were bihîstin.
+
+### Eyn di peyvên esil-erebî de
+
+Eyn di gelek peyvên ji erebî wergirtî de hatiye parastin. Çavkaniyê nimûneyên li destpêk, nav û dawiya peyvê dide, wek:
+- destpêk: *’alem, ’eyd/’îd, ’emel, ’ilm, ’ereb*;
+- nav: *se’et, me’ne, mu’elim, te’lîm, qena’et*;
+- dawî: *qani’, memnû’, tabi’*.
+
+Lê Eyn di hemû peyvên esil-erebî de nayê parastin. Di hin peyvan de ew hatiye avêtin: *’elef* di kurmancî de *alif* bûye; *’eqil* jî di gelek devokan de wek *aqil* tê gotin. Di hin peyvan de varyantên ku Eyn diparêzin û yên ku wê davêjin herdu hene, wek *’eşq, ’işq, eşq, işq*.
+
+### Eyn di peyvên ne-erebî de
+
+Nivîskar destnîşan dike ku Eyn ne tenê di peyvên esil-erebî de heye. Di hin peyvên ku bi eslê xwe ne erebî ne jî tê dîtin, wek *esman, ewr* û hin formên devokî. Ji ber vê yekê divê em hebûna Eynê di kurmancî de tenê bi eslê erebî ve girê nedin.
+
+Di hin peyvên din de Eyn dikare were zêdekirin, tevî ku di forma zimanê jêder de tune bûye. Çavkaniyê *erd/erazî* û *Qur’an* wek nimûne dide. Di hin navan de jî Eyn dikare di devokê de bi H were guhertin, an H di hin devokan de bibe Eyn.
+
+### Eyn di nivîsîna standard de
+
+Li gorî nêrîna nivîskar, ne pêdivî ye ku Eyn di hemû nivîsên asayî de were nîşandan. Lê di ferheng, danasîna dengnasî an cihên ku nebûna nîşanê dikare wateyê tevlihev bike de, nîşana **’** dikare were bikaranîn. Ev nêrîn û pêşniyara nivîskar e; divê wek rêgezeke giştî ya hemû standardên nivîsînê neyê pêşkêşkirin.
+
+## 4. Têkiliya dengên K, G û Q
+
+K, G û Q her sê dengên **sekinî** ne. Di çêkirina wan de rêya hewayê bi demekê tê girtin û paşê bi berdana astengiyê hewa derdikeve.
+
+Her sê deng li devera paşîn a devê, li ser banê zimanî tên çêkirin, lê cihê wan tam yek nîne:
+- **K [k]**: sekinîya bêlerz a banzimanî;
+- **G [g]**: sekinîya bilerz a banzimanî;
+- **Q [q]**: sekinîya bêlerz a paşbanzimanî/uvular.
+
+K û G ji aliyê cihê derketinê ve nêzîk in; cudahiya sereke ya wan lerza perdeyên dengî ye. Q ji herduyan paştir, nêzî qirrikê, tê derxistin.
+
+Di alfabeya kurdî-erebî de K bi ک, G bi گ û Q bi ق tên nivîsîn. Di IPA de bi [k], [g] û [q] tên nîşandan. Ev nîşanên alfabeya erebî li vir tenê ji bo berawirdkirina tîpan in; nivîsa dersê bi kurmanciya latînî dimîne.
+
+### K, G û Q wek fonem
+
+Her sê deng dikarin di kurmancî de wateyê biguherînin. Çavkaniyê cotên K/G, K/Q û G/Q dide, wek *kul/gul*, *kul/qul* û *gul/qul*. Ji ber vê yekê K, G û Q fonemên cuda ne, ne tenê awayên cuda yên heman dengê.
+
+### Dîroka K û G
+
+Nivîskar K û G wek dengên kevn ên kurmancî dihesibîne. Ew bi nimûneyên zimanên îranî û hindûewropî nîşan dide ku herdu deng di malbatên zimanî yên kevn de jî hebûn. Di tirkî de jî hin K-yên kevn, bi taybetî berî vokalên pêşîn, di pêşketina dîrokî de bûne G; hin peyvên kurdî yên kevn wergirtî formên K yên kevn parastine.
+
+Ev danasîn şîroveya dîrokî ya çavkaniyê ye. Divê nimûneyên etîmolojîk yek bi yek bêne kontrolkirin û ji vê rêbazê qanûneke bêîstîsna ji bo hemû peyvan dernekevin.
+
+### Peydabûna Q di kurmancî de
+
+Nivîskar dibêje ku Q di gelek zimanên îranî yên niha de heye, tevî ku di hin zimanên îranî yên kevn de tune bû. Ew du çavkaniyên bandorê destnîşan dike: zimanên samî, bi taybetî erebî, û zimanên tirkîkî. Di hin peyvên ji tirkî wergirtî de, K ya tirkî berî vokalên paşîn dikare di kurmancî de bibe Q; mînakên çavkaniyê *qazan* ji *kazan*, *qazan(c)/qezenc* ji *kazanç*, û *qonax* ji *konak* in.
+
+Di peyvên ji erebî wergirtî de Q bi gelemperî tê parastin. Lê li ber konsonantên bêlerz ên wek T, S û Ş, Q ya erebî dikare di kurmancî de bibe X; nimûneyên çavkaniyê *wext* ji *weqt*, *nexş* ji *neqş* û *rexs* ji *reqs* in. Hin peyvên bi eslê îranî an hindûewropî jî Q hene, lê nivîskar dibêje ku gelek ji wan bi rêya zimanên din ketine kurmancî.
+
+Di nivîsîna peyvên nû yên ji zimanên Ewropî hatine wergirtin de, çavkaniyê dibêje ku K di nivîsa standard a nû de zêdetir tê tercîhkirin, wek *kamera, Amerîka, Afrîka*; lê formên bi Q jî di hin peyvên kevntir de hene.
+
+## 5. Cotkonsonant çi ye?
+
+
 
 Di kurdî de du konsonant dikarin bêyî vokalekê li pey hev, di heman kîteyê de bên. Ji vê yekê re **cotkonsonant** an komkonsonant tê gotin. Di peyvên wek *kurd, reng, kerb, text, evd, blok* de du konsonant li pey hev hene.
 
 Cotkonsonant dikare di peyvên xwemalî de û herwiha di peyvên ji zimanên din hatine wergirtin de peyda bibe. Lê hemû kom bi heman awayî di her çavkaniya peyvan de nayên bikaranîn. Hin kom di peyvên îranî de hene; hinên din bi taybetî di peyvên ji erebî an ji zimanên ewropî wergirtî de xuya dibin.
 
-## 2. Nîşana cihê cotkonsonantê
+## 4. Nîşana cihê cotkonsonantê
 
 Di lîsteya koman de xêzika kêlekê cihê peydabûna komê diyar dike:
 
@@ -2720,7 +2781,7 @@ Di lîsteya koman de xêzika kêlekê cihê peydabûna komê diyar dike:
 
 Ji ber vê yekê, dema ku em komên konsonantî dinivîsin, divê cihê wan jî li ber çavan bigirin; tenê nasîna herdu herfan bes nake.
 
-## 3. Komên cotkonsonantî yên di peyvên kurdî-îranî de
+## 5. Komên cotkonsonantî yên di peyvên kurdî-îranî de
 
 Ev kom di peyvên xwemalî yên kurmancî de tên dîtin. Hin nimûne:
 
@@ -2740,7 +2801,7 @@ Ev kom di peyvên xwemalî yên kurmancî de tên dîtin. Hin nimûne:
 
 Di hin peyvan de formên cuda an guhertoyên devokî jî hene; wek *kuçk/kuçik*, *heft/şkeft* û *gwîz/gûz*. Ev form divê wek nimûneyên serekî yên yek komê bê şert bên yekgirtin.
 
-## 4. Komên di peyvên ji erebî wergirtî de
+## 6. Komên di peyvên ji erebî wergirtî de
 
 Hin kom di peyvên esil-îranî de nayên dîtin, lê di peyvên ji erebî hatine wergirtin de hene. Mînak:
 
@@ -2763,7 +2824,7 @@ Hin kom di peyvên esil-îranî de nayên dîtin, lê di peyvên ji erebî hatin
 
 Di hin peyvan de komên erebî di kurmancî de guherîna dengî dibînin. Bo nimûne, koma erebî **QṢ** di *reqs* de dikare wek **XS** were nivîsîn/gotin: *rexs*. Herwiha **QŞ** di *neqş* de dikare bibe *nexş*. Ji ber vê yekê, forma kurmancî her tim wek forma erebî namîne.
 
-## 5. Komên di peyvên ji zimanên ewropî wergirtî de
+## 7. Komên di peyvên ji zimanên ewropî wergirtî de
 
 Hin kom bi taybetî di peyvên ji zimanên ewropî hatine wergirtin de tên dîtin. Mînak:
 
@@ -2781,7 +2842,7 @@ Hin kom bi taybetî di peyvên ji zimanên ewropî hatine wergirtin de tên dît
 
 Ev kom di peyvên wergirtî de parastina komên dengî yên zimanê çavkaniyê nîşan didin. Di nivîsînê de divê em formên ku bi rastî di zimanê kurmancî de tên bikaranîn binirxînin, ne ku her komê wek taybetmendiyeke peyvên xwemalî bihesibînin.
 
-## 6. Komên sêkonsonantî
+## 8. Komên sêkonsonantî
 
 Herçend piraniya komên konsonantî ji du konsonantan pêk tên, di kurdî de hin komên sêkonsonantî jî hene. Çavkanî sê nimûneyên sereke dide:
 
@@ -2791,7 +2852,7 @@ Herçend piraniya komên konsonantî ji du konsonantan pêk tên, di kurdî de h
 
 Ev nimûne nîşan didin ku komên sêkonsonantî hene, lê ji komên du-konsonantî kêmtir in.
 
-## 7. Çawa komên konsonantî analîz bikin?
+## 9. Çawa komên konsonantî analîz bikin?
 
 Dema ku em peyvekê vedikolin, sê pirsan bipirsin:
 
