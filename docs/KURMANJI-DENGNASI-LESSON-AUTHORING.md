@@ -3303,6 +3303,8 @@ Di kurmanciya rojhilatî de gelek caran Ê li cihê E-ya kurmanciya navendî hey
 - rojhilatî *zêvî* — navendî *zevî*;
 - rojhilatî *pênîr* — navendî *penîr*.
 
+Di nimûneya *pênîr* de cudahiya forma xwerû û forma çemandî jî giring e: di kurmanciya rojhilatî de *pênîr* forma xwerû ye û *pênîrî* forma çemandî ye; di kurmanciya navendî de *penîr* forma xwerû ye û *pênîr* forma çemandî ye.
+
 Lê her dem rojhilatî ne ku dengê kevn diparêze. Di hin peyvan de kurmanciya navendî Ê kiriye, lê rojhilatî E diparêze:
 - rojhilatî *mejî* — navendî *mêjî*;
 - rojhilatî *çerîn* — navendî *çêrîn*.
