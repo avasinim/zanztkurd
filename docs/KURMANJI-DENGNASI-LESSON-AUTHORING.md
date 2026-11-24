@@ -2707,7 +2707,7 @@ Di dawiya dersê de xwendekar dikare:
 - çend komên sêkonsonantî nas bike;
 - nimûneyên peyvî li gor cihê komê analîz bike.
 
-## 3. Dengê Eyn di kurmancî de
+## 1. Dengê Eyn di kurmancî de
 
 Dengê **Eyn** di alfabeya erebî û kurdî-erebî de bi herfa ع tê nîşandan; di alfabeya dengnasî ya navneteweyî de nîşana wê **[ʕ]** e. Di kurmancî-latînî de herfeke standard a taybet ji bo wê tune ye, lê di dema danasîna dengê peyvekê de dikare bi nîşana **’** were nîşandan.
 
@@ -2732,7 +2732,7 @@ Di hin peyvên din de Eyn dikare were zêdekirin, tevî ku di forma zimanê jêd
 
 Li gorî nêrîna nivîskar, ne pêdivî ye ku Eyn di hemû nivîsên asayî de were nîşandan. Lê di ferheng, danasîna dengnasî an cihên ku nebûna nîşanê dikare wateyê tevlihev bike de, nîşana **’** dikare were bikaranîn. Ev nêrîn û pêşniyara nivîskar e; divê wek rêgezeke giştî ya hemû standardên nivîsînê neyê pêşkêşkirin.
 
-## 4. Têkiliya dengên K, G û Q
+## 2. Têkiliya dengên K, G û Q
 
 K, G û Q her sê dengên **sekinî** ne. Di çêkirina wan de rêya hewayê bi demekê tê girtin û paşê bi berdana astengiyê hewa derdikeve.
 
@@ -2763,7 +2763,7 @@ Di peyvên ji erebî wergirtî de Q bi gelemperî tê parastin. Lê li ber konso
 
 Di nivîsîna peyvên nû yên ji zimanên Ewropî hatine wergirtin de, çavkaniyê dibêje ku K di nivîsa standard a nû de zêdetir tê tercîhkirin, wek *kamera, Amerîka, Afrîka*; lê formên bi Q jî di hin peyvên kevntir de hene.
 
-## 5. Cotkonsonant çi ye?
+## 3. Cotkonsonant çi ye?
 
 
 
@@ -2868,6 +2868,9 @@ Mînak:
 
 ## Bîr bîne
 
+- Eyn dengekî konsonantîk e ku di hin peyvên erebî-wergirtî û hin peyvên ne-erebî de jî tê dîtin.
+- K, G û Q fonemên cuda ne; cihê derketina Q ji K û G paştir e.
+- Guherînên K/G/Q di peyvên deynkirî de divê bi şert û çavkaniya peyvê bên fêmkirin.
 - Cotkonsonant du konsonant in ku bê vokalekê li pey hev tên.
 - Cihê komê giring e: destpêka kîteyê, nav an dawiya wê.
 - Hemû kom di peyvên xwemalî, erebî û ewropî de bi heman awayî nayên dîtin.
@@ -2877,6 +2880,30 @@ Mînak:
 - *STR, YŞT, KST* sê komên sêkonsonantî ne ku çavkanî destnîşan dike.
 
 ## Çalakî û xwepirsîn
+
+**1.** Eyn çi celeb dengek e? Çima em nikarin wê wek vokala E bihesibînin?
+
+**2.** Du nimûne bide ku Eyn di peyvên ji erebî wergirtî de hatiye parastin, û yek nimûne ku hatiye avêtin.
+
+**3.** Çima Eyn di kurmancî de tenê bi peyvên esil-erebî ve nayê girêdan?
+
+**4.** Cudahiya K, G û Q ji aliyê lerza perdeyên dengî û cihê derketinê ve rave bike.
+
+**5.** Cotkonsonant çi ye? Du nimûne binivîse.
+
+**6.** Di *reng, heft, krîz* de komên konsonantî li kîjan cihê peyvê ne?
+
+**7.** Ji bo her yekê nimûneyek binivîse: komeke xwemalî, komeke peyveke ji erebî wergirtî û komeke peyveke ji zimanekî ewropî wergirtî.
+
+**8.** Cudahî di navbera nîşanên **-BR-**, **-FT** û **KR-** de çi ye?
+
+**9.** Çima em nikarin hemû komên konsonantî wek taybetmendiya peyvên xwemalî bihesibînin?
+
+**10.** Sê komên sêkonsonantî yên ku çavkanî dide binivîse.
+
+**11.** Di *reqs/rexs* û *neqş/nexş* de çi guherîn tê dîtin?
+
+**12.** Di *heşt/heyşt* de cudahiya devokî çi ye?
 
 **1.** Cotkonsonant çi ye? Du nimûne binivîse.
 
@@ -2896,14 +2923,18 @@ Mînak:
 
 ## Bersivên kurt
 
-1. Du konsonantên li pey hev bê vokalekê; mînak *reng* û *kurd*.
-2. *reng*: NG li dawiya kîteyê; *heft*: FT li dawiya kîteyê; *krîz*: KR li destpêka peyvê.
-3. Xwemalî: *pênc*; ji erebî: *hecm*; ji ewropî: *drama*.
-4. **-BR-** dikare li destpêk û dawiya kîteyê were; **-FT** tenê li dawiya kîteyê; **KR-** li destpêka peyvê.
-5. Ji ber ku hin kom tenê di peyvên ji erebî an zimanên ewropî wergirtî de tên dîtin.
-6. STR-, -YŞT û -KST.
-7. Di hin peyvên ji erebî wergirtî de QṢ/QŞ di kurmancî de dikarin bibin XS/XŞ.
-8. *heyşt* di hin devokan de ye; *heşt* forma berbelavtir e.
+1. Eyn konsonanteke xişoka qirrikî ya bilerz e, bi nîşana [ʕ]; ne vokala E ye.
+2. Parastin: *’alem* an *se’et*; avêtin: *’eqil → aqil*.
+3. Ji ber ku di peyvên wek *esman* û *ewr* de jî hatiye dîtin, û di hin peyvan de dikare were zêdekirin.
+4. K [k] bêlerz û banzimanî ye; G [g] bilerz û banzimanî ye; Q [q] bêlerz û paşbanzimanî/uvular e.
+5. Du konsonantên li pey hev bê vokalekê; mînak *reng* û *kurd*.
+6. *reng*: NG li dawiya kîteyê; *heft*: FT li dawiya kîteyê; *krîz*: KR li destpêka peyvê.
+7. Xwemalî: *pênc*; ji erebî: *hecm*; ji ewropî: *drama*.
+8. **-BR-** dikare li destpêk û dawiya kîteyê were; **-FT** tenê li dawiya kîteyê; **KR-** li destpêka peyvê.
+9. Ji ber ku hin kom tenê di peyvên ji erebî an zimanên ewropî wergirtî de tên dîtin.
+10. STR-, -YŞT û -KST.
+11. Di hin peyvên ji erebî wergirtî de QṢ/QŞ di kurmancî de dikarin bibin XS/XŞ.
+12. *heyşt* di hin devokan de ye; *heşt* forma berbelavtir e.
 
 ## Têbînî ji bo pêşxistinê
 
