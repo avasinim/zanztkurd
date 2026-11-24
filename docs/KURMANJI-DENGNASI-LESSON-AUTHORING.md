@@ -2847,3 +2847,257 @@ Mînak:
 ## Têbînî ji bo pêşxistinê
 
 Ev ders ji beşa “Komên konsonantî di kurdî de” ya çavkaniyê, rûpelên çapkirî 242–250, hatiye nûdabeşkirin. Lîsteyên koman di pirtûkê de hin dubarekirin, formên devokî û guhertoyên rastnivîsînê hene; ji ber vê yekê nimûneyên dersê wek nimûneyên sereke hatine hilbijartin, ne wek lîsteyeke bêkêmasî. Berî belavkirinê divê cihê kîteyî, eslê peyvan û formên guhertî bi nivîsa çapkirî re bên kontrolkirin.
+
+
+---
+
+# Dersa 18 — Vokalên A û E
+
+**Çavkaniya dersê:** rûpelên çapkirî 252–269.  
+**Dem:** 50–60 deqîqe.
+
+## Armancên fêrbûnê
+
+Di dawiya dersê de xwendekar dikare:
+- A û E ji aliyê cihê ziman, bilindahî û girovbûna lêvan ve cuda bike;
+- nîşanên IPA yên [ɑ] û [æ] nas bike;
+- cihê A û E di destpêk, nav û dawiya peyvan de bibîne;
+- guherînên dîrokî, devokî û çemandinê ji hev cuda bike;
+- nimûneyên A→Ê, A→E, E→I û guherînên din rave bike;
+- bandora çemandinê li ser vokalan û cudahiya nivîsîna standard û gotina devkî fêm bike.
+
+## 1. A — vokala paşîn-vekirî
+
+Herfa **A/a** di kurmanciya giştî û standard de nîşana vokaleke **nizm, paşîn û ne-girovir** e. Di dema derxistina wê de ziman li beşa paşîn a devê ye û nêzî binê devê dimîne. Lêv ne tên girovkirin; di rewşa xwe ya asayî de dimînin.
+
+Nîşana dengê A di IPA de **[ɑ]** ye. Ev nîşan ji herfa nivîsînê cuda ye: di IPA de A-ya kurdî bi [ɑ] tê nîşandan.
+
+A li her sê cihên peyvê tê:
+- **Destpêk:** *agir, aş, alif*.
+- **Nav:** *baran, xwarin, dav*.
+- **Dawî:** *ba, dinya, vegeriya*.
+
+A li navê peyvan pir berbelav e. Li destpêka peyvên xwemalî kêmtir e. Li dawiya peyvan jî gelek caran di formên girêdayî û çemandî de tê dîtin, lê di peyvên xwerû û neçemandî de kêmtir e.
+
+Di hin peyvan de herçend A di nivîsînê de li destpêkê xuya dike, di gotinê de dengê Eyn li pêşiya wê tê bihîstin. Nimûne: *aciz, alem, am, Amûdê*. Ji aliyê dengnasiyê ve di van formên gotinê de A bi rastî piştî Eynê tê.
+
+A di peyvên ji zimanên din hatine wergirtin de jî heye: *amîn, aheng, axa, aman, demokrat*.
+
+## 2. Guherînên A
+
+Guherînên A dikarin di sê şertan de bên dîtin: dîrokî, devokî û ji ber çemandinê.
+
+### 2.1. Guherîna dîrokî
+
+Di hin peyvan de A-ya kevn di kurmancî de bûye Ê. Berawirdkirina ziman û zaravayan dikare vê guherînê nîşan bide:
+- kurmancî *hêk* — zazakî *hak*;
+- kurmanciya navendî *hêsan* — farisî *asan*; di hin formên kurmanciya rojhilatî de *sanahî*;
+- kurmancî *kêr* — soranî *kêrd*; zazakî, hewramî û farisî *kard*; belûçî *karç*; pehlewî *kart*.
+
+Di hin peyvên ji erebî wergirtî de jî A-ya zimanê çavkaniyê di kurmancî de bi Ê tê nîşandan: *fêris, kitêb, fêkî/fêqî*. Herwiha cotdengên wek **-ey-** û **-ye-** dikarin di pêvajoya tekdengkirinê de bibin Ê:
+- *keyf* → *kêf*;
+- *deyr* → *dêr*;
+- *yem* → *êm*.
+
+Di hin rewşan de **-ai-** jî dibe Ê, wek *faide* → *fêde*. Ev nimûne nîşan didin ku guherîna dengî dikare ji çavkaniya peyvê û pêvajoya dîrokî ve girêdayî be.
+
+### 2.2. Guherîna devokî
+
+Di hin devokan de A dibe E:
+- *dîsa/dîse*;
+- *xwandin/xwendin*;
+- *xwastin/xwestin*;
+- *standin/stendin*;
+- *di … da/de*, *di … ra/re*, *bi … va/ve*.
+
+Di hin devokan de A, bi taybetî berî N, girov dibe û nêzî dengê O:
+- *nan/non*;
+- *dan/don*.
+
+Di kurmanciya rojhilatî de hin peyv bi A tên gotin ku di kurmanciya navendî de bi Ê ne; wek *asin/hesin* û hin ciyawaziyên din ên devokî. Di berawirdkirina devokan de divê em formên her devokê wek pergala xwe ya dengî binirxînin, ne ku yekê xelet bihesibînin.
+
+### 2.3. Guherîna ji ber çemandinê
+
+Di çemandina lêkeran de A dikare di rehê niha de bi Ê were guhertin:
+- *çandin* → *di-çîn-im*;
+- *bijartin* → *di-bijêr-im*;
+- *parastin* → *di-parêz-im*.
+
+Di çemandina hin navdêrên nêr de, kurmanciya navendî û rojavayî A bi Ê diguherînin; kurmanciya rojhilatî gelek caran A diparêze:
+- *agir* → *bi êgir*; rojhilatî: *bi agirî*;
+- *welat* → *li welêt*; rojhilatî: *li welatî*.
+
+Di hin devokan de di destpêka peyvê de H tê zêdekirin da ku peyv rasterast bi A dest pê neke:
+- *anîn* → *hanîn*;
+- *avêtin* → *havêtin*.
+
+Ev rêzik ne bêistisna ye; heman devok dikarin *agir* û *aş* bê H biparêzin.
+
+## 3. E — vokala pêşîn-vekirî
+
+Herfa **E/e** di kurmanciya giştî û standard de nîşana vokaleke **nizm, pêşîn û ne-girovir** e. Di dema gotina wê de ziman li beşa pêşiya devê û nêzî binê devê ye. Lêv ne tên girovkirin.
+
+Nîşana wê di IPA de **[æ]** e. Ji aliyê cihê ziman ve E ji A cuda ye: A paşîn e, E pêşîn e. Herdu jî vekirî û ne-girovir in.
+
+E li her sê cihên peyvê tê:
+- **Destpêk:** *ew, evîn, erzan*.
+- **Nav:** *ber, xew, dev*.
+- **Dawî:** *te, bêje, parçe*.
+
+E di nav peyvan de pir berbelav e. Li destpêka peyvên xwemalî kêmtir tê dîtin; cînavên *ez, em, ew* ji nimûneyên sereke ne. Li dawiya peyvê jî di formên çemandî û lêkerî de pir xuya dike, wek *bike, nebêje, diçe*.
+
+Di hin peyvan de E ya nivîskî di gotinê de bi Eynê dest pê dike: *erd, esman, ewr, Elî*. Di van nimûneyan de dengê Eyn di gotinê de heye, herçend di nivîsîna latînî de bi herfeke cuda nayê nîşandan.
+
+## 4. Guherînên dîrokî û devokî yên E
+
+### 4.1. Guherîna dîrokî
+
+Di hin peyvên xwemalî de E-ya kevn bûye I:
+- kurmancî *bihar* — zazakî *weser*, farisî *behar*, pehlewî *vehar*;
+- kurmancî *kirin* — zazakî *kerdene*, farisî *kerden*, pehlewî *kerten*.
+
+Di hin peyvên ji erebî wergirtî de jî E bûye I:
+- *kelam* → *kilam*;
+- *selam* → *silav*;
+- *'elef* → *alif*.
+
+Di hin peyvan de E dikare bi A were guhertin, bi taybetî dema ku konsonantek ji peyvê bikeve. Nimûneyên berawirdkirinê *serd/sar* û *kerd/kir* ne. Ev guherîn ne rêzikeke giştî ye; divê bi peyv û çavkaniya wê ve were nirxandin.
+
+### 4.2. Tekdengkirina cotdengan
+
+Hin cotdeng dikarin bibin vokaleke yekgirtî:
+- **EW/WE → O:** *xewx → xox*; *şewr → şor*; soranî *xo, xweş* li hemberî kurmancî *xwe, xweş*.
+- **EH → A:** *tehl → tal*, *pehn → pan*, *mehr kirin → mar kirin*.
+- **EY/YE → Ê:** *keyf → kêf*, *beyder → bêder*, *ceyş → cêş*.
+
+Di hin peyvên ji erebî wergirtî de Eyn û E jî dikarin bi hev re bibin A:
+- *'elef* → *alif*;
+- *'eqil* → *aqil*;
+- *me'qûl* → *maqûl*.
+
+Di peyvên din de Eyn di gotinê de dimîne, tevî ku di nivîsînê de bi herfeke latînî nayê nîşandan.
+
+### 4.3. Guherîna devokî
+
+A li gor devokê dikare bibe E; nimûneyên wê *dîsa/dîse*, *xwandin/xwendin* û *standin/stendin* in.
+
+Di kurmanciya rojhilatî de gelek caran Ê li cihê E ya kurmanciya navendî tê:
+- rojhilatî *zêvî* — navendî *zevî*;
+- rojhilatî *pênîr* — navendî *penîr*.
+
+Di hin peyvan de E ya navendî li rojhilatî dibe I:
+- navendî *der* — rojhilatî *dir*;
+- navendî *keç* — rojhilatî *kiç*;
+- navendî *tenê* — rojhilatî *tinê*.
+
+Lê di hin peyvên din de E li rojhilatî dimîne û li navendî I an Ê tê dîtin. Ji ber vê yekê, guherînên devokî divê bi nimûneyên zêdetir bên fêmkirin, ne bi yek rêzikê.
+
+Di hin devokan de E ya dawiya peyvê dibe I; mînak *xwe → xwi → xu*. Di hin devokên rojavayî de E dikare paşîn bibe û nêzî A:
+- *ez → az*;
+- *kurd e → kurd a*.
+
+### 4.4. Guherîna ji ber çemandinê
+
+Di çemandina navdêrên mê de E ya dawiya peyva xwerû di gotina devkî de dikare bibe Ê:
+- *mase* → *li ser masê*;
+- *mêze* → *li ser mêzê*;
+- *rojname* → *wê rojnamê*.
+
+Di nivîsîna standard de E tê parastin û Y di navbera E û paşpirtika Ê de tê:
+- *mase-y-ê*;
+- *mêze-y-ê*;
+- *rojname-y-ê*.
+
+Di hin lêkeran de E di rehê niha de dibe Î:
+- *stendin* → *di-stîn-in*;
+- *xwendin* → *na-xwîn-im*.
+
+Di lêkera *xwestin* de E di hin formên niha û bê de dibe A:
+- *xwestin* → *di-xwaz-im*, *na-xwaz-in*.
+
+Lê berawirdkirina devokên rojhilatî û zimanên din nîşan dide ku di dîrokê de A di rehê vê lêkerê de hebûye. Ji ber vê yekê divê guherîna dîrokî û ya çemandinê ji hev cuda bên girtin.
+
+## 5. Ketina E û parastina wê
+
+Di dîroka hin peyvan de E ya destpêkê ketiye:
+- *ber* li hemberî formên kevn ên bi E;
+- *wêran* li hemberî pehlewî *ewêran*;
+- *yar* li hemberî pehlewî *eyar*;
+- *war* li hemberî soranî *hewar*.
+
+Di hin formên cînavî de E ya destpêkê jî ketiye:
+- *wê, wî, wan* li hemberî *ewê, ewî, ewan*;
+- *vê, vî, van* li hemberî *evê, evî, evan*.
+
+Di hin devokan de E ya paşpirtika fermanî dikeve:
+- *binivîse* → *binivîs*;
+- *nebêje* → *nebêj*;
+- *rabe* → *rab*.
+
+Di hin peyvan de ziman rê li ber destpêka rasterast bi E digire û H an Eyn li pêşiya wê tê zêdekirin. Nimûneyên *ewr, hesp, heşt, esman* nîşan didin ku ev pêvajo bi dîrok û peyvê ve girêdayî ye.
+
+## 6. E di peyvên ji zimanên ewropî wergirtî de
+
+Di gelek peyvên nû yên ji zimanên ewropî hatine wergirtin de dengê ku bi E tê nivîsîn dikare nêzî Ê be. Lê nivîsîna kurmancî ya standard bi gelemperî herfa E diparêze:
+- standard: *telefon, kompûter, Internet, metod, demokrat*;
+- formên ku pirtûk wek ne-standard nîşan dide: *têlifon, kompûtêr, Intêrnêt, mêtod, dêmokrat*.
+
+Di navên welat û parzemînan de jî cudahiya A/E di nivîsînê de heye: *Amerîka, Afrîka, Almanya, Albanya, Fransa* li hemberî formên bi E. Çavkanî parastina A pêşniyar dike, ji ber ku di zimanên eslî yên ewropî de A heye.
+
+## Berawirdkirina A û E
+
+| Taybetmendî | A [ɑ] | E [æ] |
+|---|---|---|
+| Bilindahî | Nizm / vekirî | Nizm / vekirî |
+| Cihê ziman | Paşîn | Pêşîn |
+| Lêv | Ne-girovir | Ne-girovir |
+| Nimûne | *baran, aş, ba* | *ber, dev, te* |
+
+## Bîr bîne
+
+- A [ɑ] vokaleke paşîn, vekirî û ne-girovir e.
+- E [æ] vokaleke pêşîn, vekirî û ne-girovir e.
+- A û E li destpêk, nav û dawiya peyvan dikarin bên.
+- A li gor dîrok, devok û çemandinê dikare bibe Ê an E.
+- E di hin peyvan de bûye I; di hin rewşên din de bi A, Ê, Î an O re têkildar e.
+- Çemandin dikare dengê gotinê biguherîne, lê nivîsîna standard gelek caran forma xwerû diparêze.
+- Di peyvên ewropî de nivîsîna standard bi gelemperî E an A ya eslî diparêze.
+
+## Çalakî û xwepirsîn
+
+**1.** A û E ji aliyê cihê ziman ve çawa ji hev cuda ne?
+
+**2.** Nîşanên IPA yên A û E binivîse.
+
+**3.** Ji bo her dengê A û E sê peyv binivîse ku deng li destpêk, nav an dawiyê tê.
+
+**4.** Du nimûneyên guherîna dîrokî ya A→Ê binivîse.
+
+**5.** Du nimûneyên guherîna devokî ya A→E binivîse.
+
+**6.** Di *çandin → di-çîn-im* de çi guherîn çêdibe?
+
+**7.** Di *mase → li ser masê* de cudahiya nivîsîna standard û gotina devkî çi ye?
+
+**8.** Du nimûneyên guherîna E→I binivîse.
+
+**9.** Di *wê/wî/wan* de E ya destpêkê çi bûye?
+
+**10.** Çima di peyvên wergirtî yên ewropî de nivîsîna E-ya standard tê parastin?
+
+## Bersivên kurt
+
+1. A paşîn e; E pêşîn e. Herdu jî vekirî û ne-girovir in.
+2. A [ɑ], E [æ].
+3. A: *agir, baran, ba*. E: *ew, dev, te*.
+4. *hêk/hak* û *kêr/kard*.
+5. *dîsa/dîse* û *xwandin/xwendin*.
+6. A ya rehê lêkerê di çemandina niha de dibe Ê.
+7. Nivîsîna standard *mase-y-ê* diparêze; di gotina devkî de gelek caran *masê* tê gotin.
+8. *bihar/behar* û *kirin/kerden* di berawirdkirina zimanî de.
+9. E ya destpêkê ketiye; formên dirêj *ewê, ewî, ewan* bûn.
+10. Ji ber ku çavkaniya peyvan herfa A an E diparêze û standarda nivîsînê divê bi eslê nivîskî re lihevhatî be.
+
+## Têbînî ji bo pêşxistinê
+
+Ev ders ji beşa A û E ya çavkaniyê, rûpelên çapkirî 252–269, hatiye nûdabeşkirin. Hin nimûneyên etîmolojîk, formên devokî û cudahiyên çemandinê di pirtûkê de bi şîroveya zêdetir hatine pêşkêşkirin; berî belavkirinê divê bi nivîsa çapkirî û bi pisporê kurmancî re bên kontrolkirin. Nîşanên IPA yên [ɑ] û [æ] li gor danasîna çavkaniyê hatine bikaranîn.
