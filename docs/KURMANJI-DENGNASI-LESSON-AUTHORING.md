@@ -4367,7 +4367,7 @@ Ev nimûne rêzeke teşeyî û dengî nîşan dide; divê bi awayê lêkerê û 
 
 Di herdu zaravayan de du awayên L hene: L-ya zirav û L-ya qelew. Di kurmancî de ev herdu bi gelemperî bi heman herfa L tên nivîsîn, ji ber ku di pergala dengî ya kurmancî de cudahiya wan bi gelemperî wateyê naguherîne.
 
-Di soranî de ev cudahî girîngtir e û di alfabeya wê de bi **ل** û **ڵ** tê nîşandan. Ji bo berawirdkirinê, çavkaniyê L-ya zirav bi L û L-ya qelew bi Ł nîşan dide.
+Di soranî de ev cudahî girîngtir e û di alfabeya wê de bi du herfên cuda tê nîşandan. Ji bo berawirdkirinê, çavkaniyê L-ya zirav bi L û L-ya qelew bi Ł nîşan dide.
 
 | Kurmancî | Soranî |
 |---|---|
