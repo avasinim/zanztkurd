@@ -2565,22 +2565,26 @@ V di dîroka peyvên kurdî de ji çend rêyan hatiye peyda bûn.
 
 ### B an P bûye V
 
-Di hin peyvên xwemalî de B an P ya kevn li nav an dawiya peyvê bûye V. Nimûneyên berawirdkirinê:
+Di gelek peyvên xwemalî de B-ya kevn, ku bi rêya P-yê ve girêdayî ye, li nav an dawiya peyvê bûye V. Nimûneyên çavkaniyê:
+- *av* li hemberî farisî *ab*;
+- *sêv* li hemberî farisî *sîb*;
+- *şev* li hemberî farisî *şeb*.
+
+Di hin peyvên din de jî B an P li nav û dawiya peyvê bûye V:
 - *bab* → *bav*;
 - *ebd* → *evd*;
 - *kitêb* → *kitêv*.
 
-Guherîna B bi V di gelek zimanan de tê dîtin û di zimannasiyê de bi navê **betasîzm** tê nasîn. Di kurmancî de ev guherîn bi taybetî li nav û dawiya peyvan tê dîtin.
+Ev guherîn bi taybetî li nav û dawiya peyvan tê dîtin. Li destpêka peyvan rêya guherînê berevajî ye: V dikare bibe B; ji ber vê yekê divê herdu pêvajoyên cihê peyvê ji hev cuda bên fêmkirin.
 
 ### M bûye V
 
-Di hin peyvan de M jî bûye V:
+M-ya ku piştî vokalekê tê, di gelek peyvên xwemalî de di kurmancî de bûye V. Nimûneyên berawirdkirinê:
 - kurmancî *nav* li hemberî zazakî û farisî *nam*;
 - kurmancî *gav* li hemberî zazakî û farisî *gam*;
-- *nivêj/nimêj* wek formên devokî;
-- *silav* ji peyva erebî *selam*.
+- kurmancî *nivêj/nimêj* li hemberî zazakî *nimac* û farisî *nemaz*.
 
-Di hin devokan de M û V dikarin bi hev re biguherin; wek *gom/gov* û *nimêj/nivêj*.
+Di hin peyvên ji erebî wergirtî de jî M bûye V: *silav* ji *selam*. Di hin devokan de M û V bi hev diguherin, wek *gom/gov* û *nimêj/nivêj*. Lê ev pêvajoyek bêistisna nîne; çavkaniyê peyva *hem* wek nimûneya ku M parastiye destnîşan dike.
 
 ### T bûye V
 
@@ -2589,12 +2593,11 @@ V-ya bilerz di hin şertan de ji T-ya bêlerz peyda dibe, dema ku dengê bilerz 
 
 ### V li destpêka peyvê û guherîna wê bi B
 
-Di gelek peyvên îranî de V-ya kevn li destpêka peyvê di kurmancî, soranî û farisî de bûye B. Di zazakî de hin ji wan formên bi V parastine; di hewramî û gelek devokên kurdiya başûrî de jî W tê dîtin. Nimûneyên berawirdkirinê:
-- kurmancî *baran* — zazakî *varan*;
-- kurmancî *bihar* — zazakî *vesar*;
-- kurmancî *bûk* — zazakî *veyve*.
+Di hin peyvên îranî de V-ya kevn li destpêka peyvê di kurmancî de bûye B. Di hin ziman û zaravên din de formên bi V an W hene. Ev guherîn berevajî ya B→V li nav û dawiya peyvan e:
+- li destpêkê V dikare bibe B;
+- li nav û dawiya peyvan B an P dikare bibe V.
 
-Pirtûk balê dikişîne ser cudahiya cihê dengê di peyvê de: li destpêkê V dikare bibe B, lê li nav û dawiya peyvê B dikare bibe V. Ev du rêyên guherînê divê ji hev cuda bên fêmkirin.
+Çavkaniyê diyar dike ku V ya destpêkê di hin peyvan de bi ketina E-ya pêşîn re xuya dike ku li nava peyvê bûye, wek *evan → van*, *evê → vê* û *evî → vî*. Ji ber vê yekê, hemû peyvên niha bi V destpêdikin ne xwedî heman dîrokê ne.
 
 ### Çima hin peyv hîn bi V dest pê dikin?
 
@@ -2630,9 +2633,9 @@ Hin peyvên bi W dest pê dikin di dîrokê de bi ketina E-ya destpêkê rave di
 - *wê* ji *ewê*;
 - *wî* ji *ewî*;
 - *wan* ji *ewan*;
-- *wir* ji *ewê derê*.
+- *wir* ji *ev der / evê derê*.
 
-Pirtûk hin çavkaniyên din jî destnîşan dike: W dikare di hin peyvan de ji H an D peyda bibe. Nimûneyên wê *winda/wenda* li hemberî *hinda* û formên nîşana dema bê *wê/dê/do* ne. Ev nimûne bi devok û rêya dîrokî ve girêdayî ne, ne rêzikên bêistisna.
+Pirtûk hin çavkaniyên din jî destnîşan dike: W dikare di hin peyvan de bi H an D re têkildar be. Nimûneyên wê *winda/wenda* li hemberî *hinda* û formên nîşana dema bê *wê/dê/do* ne. Ev nimûne bi devok û rêya dîrokî ve girêdayî ne, ne rêzikên bêistisna.
 
 ### W wek herfa kelijandinê
 
@@ -2694,11 +2697,13 @@ Nimûneyên Z-ya zirav:
 Nimûneyên Z-ya qelew:
 - *zanîn, zerf, zivistan, zor, zuha*.
 
-Pirtûk du cotên watedar nîşan dide:
+Pirtûk cotên watedar nîşan dide:
 - *bez* bi Z-ya zirav: rûnê heywanan;
 - *bez* bi Z-ya qelew: bezîn, bazdan, revîn;
 - *zana* bi Z-ya qelew: kesê şareza û pispor;
 - *zana* bi Z-ya zirav: zayîna çêlekê.
+
+Di gelek peyvan de Z-ya zirav li ber vokalên E, Ê, Î û Û tê; Z-ya qelew jî bi gelemperî li ber A û O tê. Lê ev şert bêistisna nîne: cotên *zana* yên jor vê cudahiyê nîşan didin. Z-ya qelew ya kurdî jî wek dengê didanî yê erebî [ẓ] nayê gotin: di ya kurdî de ziman bi pidûyan re tê, lê di ya erebî de ziman dikeve navbera didanan.
 
 Ji ber ku guherandina Z-ya zirav bi qelew dikare wateyê biguherîne, herdu deng fonemên cuda ne.
 
@@ -2715,7 +2720,7 @@ Di hin lêkeran de Z-ya bilerz di bin bandora T-ya bêlerz a nîşana rabirdûy�
 - *di-mîz-e* → *mîs-t-in*;
 - *ve-di-guhêz-im* → *ve-guhas-t-in*.
 
-Di peyvên ji erebî wergirtî de, çend dengên erebî dikarin di kurdî de bibe Z-ya zirav an qelew. Pirtûk nimûneyên wek *zeytûn, zat, zalim, zirav, remezan, zemîr* dide. Z-ya qelew ya kurdî ne heman deng e wek Z-ya didanî ya erebî; cihê derketina wan cuda ye.
+Di peyvên ji erebî wergirtî de, hin dengên erebî dikarin di kurdî de bi Z-ya zirav an qelew bên nîşandan. Divê cudahiya Z-ya qelew ya kurdî ji dengê didanî yê erebî cuda were fêmkirin; herdu ne hevdeng in.
 
 ## Berawirdkirina V, W, Y û Z
 
@@ -2774,7 +2779,7 @@ Di peyvên ji erebî wergirtî de, çend dengên erebî dikarin di kurdî de bib
 
 ## Têbînî ji bo pêşxistinê
 
-Ev ders ji beşa V, W, Y û Z ya çavkaniyê, , hatiye nûdabeşkirin û wek materyala fêrbûnê hatiye rêkxistin; PDF wek ders nayê pêşkêşkirin. Berî belavkirinê divê hemû nimûneyên etîmolojîk, formên devokî, nîşanên IPA û cudahiya Z-ya zirav/qelew rasterast bi nivîsa çapkirî re bên kontrolkirin. Hin ravekirinên dîrokî bi kurtî hatine pêşkêşkirin û divê ji aliyê pisporê dengnasiyê ve bên nirxandin.
+Ev ders ji nû ve wek materyaleke fêrkarî hatiye rêxistin; ne kopîkirina PDF e. Guherînên B/P→V, M→V, V→B, erkên W û Y, û cudahiya fonemîk a Z-ya zirav/qelew li gor çavkaniyê hatine sererastkirin. Berî belavkirinê divê nimûneyên etîmolojîk û formên devokî ji aliyê pisporê dengnasiyê ve careke din bên nirxandin.
 
 
 ## Çavkanî
