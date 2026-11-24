@@ -4191,4 +4191,4 @@ Ev berawirdkirin divê wek rêzikên dîrokî bên fêmkirin, ne wek rêbazeke k
 
 ## Têbînî ji bo pêşxistinê
 
-Ev ders ji rûpelên çapkirî 348–372 hatiye nûdabeşkirin. Berî belavkirinê divê hejmar û nîشانên herfên KE, nimûneyên hevdeng/hev​​nivîs, û hemû berawirdkirinên etîmolojîk bi çavkaniya çapkirî û pisporê kurmancî re bên kontrolkirin. Nêrîna nivîskar li ser pêşniyarên herfên nû wek nêrîneke çavkaniyê hatiye pêşkêşkirin; divê wek rêzikeke bê nîqaş neyê xwendin. Ev ders pêşnûse û hîn ne ji bo xwendekaran çalak e.
+Ev ders ji rûpelên çapkirî 348–372 hatiye nûdabeşkirin. Berî belavkirinê divê hejmar û nîşanên herfên KE, nimûneyên hevdeng/hevnivîs, û hemû berawirdkirinên etîmolojîk bi çavkaniya çapkirî û pisporê kurmancî re bên kontrolkirin. Nêrîna nivîskar li ser pêşniyarên herfên nû wek nêrîneke çavkaniyê hatiye pêşkêşkirin; divê wek rêzikeke bê nîqaş neyê xwendin. Ev ders pêşnûse û hîn ne ji bo xwendekaran çalak e.
