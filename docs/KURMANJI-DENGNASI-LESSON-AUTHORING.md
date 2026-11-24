@@ -5035,7 +5035,7 @@ Dengê H di kurmancî û tirkî de bi gelemperî nêzî hev e. Lê kurmancî den
 
 Li gorî çavkaniyê, ev awayê duyem ê H di tirkî de peyda nabe. Ji ber vê yekê herdu awayên H divê wek yek deng neyên hesibandin.
 
-## 10. L erz û bêlerzî
+## 10. Lerz û bêlerzî
 
 Di dema derketina dengên **bilerz** de perdeyên dengî yên gewriyê dilerizin; di dengên **bêlerz** de nelizerin. Herdu zimanan cotên bilerz û bêlerz hene:
 
