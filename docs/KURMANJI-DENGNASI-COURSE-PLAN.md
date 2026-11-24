@@ -47,7 +47,7 @@
 
 ## Publication dependencies
 
-1. Put the designed PDF or faithful page-range assets on a public, stable site asset path (the Library copy is not a public website URL).
+1. The corrected 462-page PDF is already committed to the public repository root on `main` as `Dengnasiya_Zimane_Kurdi_27_Wane_corrected.pdf`; the reader uses its stable `raw.githubusercontent.com` URL. Repository presence and blob identity are verified, but direct browser/HTTP delivery has not yet been independently verified. Before publishing the reader, test the raw PDF URL from a normal browser; if delivery is blocked or unreliable, copy the same verified PDF to the site's public asset path and update the reader URL.
 2. Build the course overview and 27 lesson reading routes against that hosted source, preserving original page layout.
 3. Add a distinct course identity and navigation without reusing existing 26/12-lesson identifiers.
 4. Test signed-out, enrolled, and owner access in a safe environment before any production enrollment/backend changes.
