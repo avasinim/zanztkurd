@@ -1920,7 +1920,7 @@ async function markLessonComplete(courseId, lessonKey){
       if(code!=="ckb"){
         showStatus("ڕووکاری ماڵپەڕ گۆڕدرا؛ وەرگێڕانی بەشە گشتییەکان دەستی پێکرد.");
       }else{
-        showStatus("زمانی ڕووکاری ماڵپەڕ گەڕایەوە بۆ کوردیی سۆرانی.");
+        showStatus("زوانی ڕوکاری ماڵپەڕ گەڕایەوە بۆ کوردی ناوەندی.");
       }
     }
     void translatePageContent(code);
