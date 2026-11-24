@@ -4913,7 +4913,7 @@ Ev guherînên dawî bi hejmareke kêm nimûneyan tên nîşandan û divê bi aw
 
 **11.** Ji bo H/Ş, K/H û S/Ş yek nimûne ji dersê hilbijêre.
 
-**12.** Kîjan ji guherînên dersê bi hejmareke sînordar ya peyvan ve girêdayî ne؟ Çima divê bi ehtiyat binivîسین؟
+**12.** Kîjan ji guherînên dersê bi hejmareke sînordar ya peyvan ve girêdayî ne? Çima divê bi ehtiyat binivîsin?
 
 ## Bersivên kurt
 
