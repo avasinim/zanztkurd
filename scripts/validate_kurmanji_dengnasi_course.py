@@ -30,7 +30,7 @@ for lesson in lessons:
     assert printed == original, f"source page mismatch in lesson {lesson['number']}"
     assert printed["start"] <= printed["end"], f"invalid source range in lesson {lesson['number']}"
     assert designed["start"] <= designed["end"], f"invalid designed range in lesson {lesson['number']}"
-    offset = pdf["frontMatterPages"] + (lesson["number"] - 1)
+    offset = pdf["frontMatterPages"] + lesson["number"]
     assert designed["start"] == printed["start"] + offset, f"designed start page mismatch in lesson {lesson['number']}"
     assert designed["end"] == printed["end"] + offset, f"designed end page mismatch in lesson {lesson['number']}"
     n = lesson["number"]
