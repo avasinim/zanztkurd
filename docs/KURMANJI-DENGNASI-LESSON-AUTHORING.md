@@ -3766,7 +3766,6 @@ Ev ders ji beşa O, U û Û ya çavkaniyê, rûpelên çapkirî 298–314, hatiy
 
 # Dersa 21 — Dîftong û giranî di dengnasiya kurdî de
 
-**Çavkaniya dersê:** rûpelên çapkirî 315–347.  
 **Dem:** 70–80 deqîqe.
 
 ## Armancên fêrbûnê
@@ -4150,7 +4149,7 @@ Ev nimûne nîşan didin ku giranî dikare cudahiya navbera navdêr, rengdêr, d
 
 ## Têbînî ji bo pêşxistinê
 
-Ev ders ji rûpelên çapkirî 315–347 hatiye nûdabeşkirin. Di beşa dîftongan de hin mijarên W/Y li gor devok û şîroveya dengnasî dikarin cihê nîqaşê bin. Di beşa giranî de jî nimûneyên cihê giranî di gotina rastîn de divê bi bilêvkirina devokên armanc re bên kontrolkirin. Pêşî li ser rastnivîsîn, kîtekirin û cudahiya formên rêzimanî piştrast bibin; paşê ders ji aliyê pisporê kurmancî û dengnasiyê ve were pejirandin. Ev nivîs drafta fêrkarî ye, ne veguheztina rûpelên PDF bo nav botê.
+Ev ders ji nû ve wek materyaleke fêrکاری hatiye rêkxistin. Di beşa dîftongan de hin mijarên W/Y li gor devok û şîroveya dengnasî dikarin cihê nîqaşê bin. Di beşa giranî de jî nimûneyên cihê giranî di gotina rastîn de divê bi bilêvkirina devokên armanc re bên kontrolkirin. Pêşî li ser rastnivîsîn, kîtekirin û cudahiya formên rêzimanî piştrast bibin; paşê ders ji aliyê pisporê kurmancî û dengnasiyê ve were pejirandin. Ev nivîs drafta fêrkarî ye, ne veguheztina rûpelên PDF bo nav botê.
 
 ---
 
