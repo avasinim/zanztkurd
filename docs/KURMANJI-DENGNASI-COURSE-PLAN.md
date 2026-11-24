@@ -3,7 +3,7 @@
 **Source:** Husein Muhammed, *Dengnasî di kurdî de* (432 printed pages).  
 **Course language/script:** Kurmancî, Latin script.  
 **Designed reading copy:** 462-page PDF with cover, contents, and 27 lesson divider pages.  
-**Current status:** source mapping prepared; not published and not connected to the website's enrollment/runtime.
+**Current status:** production Supabase course row, all 27 lesson-content records, and protected enrollment/progression integration are deployed. Website publication is pending merge and GitHub Pages deployment verification.
 
 ## Content rules
 
@@ -11,7 +11,7 @@
 - The 27 lesson divisions are navigation boundaries based on the book's structure; they are not rewritten lesson summaries.
 - Do not add quizzes, questions, tests, or exercises in this source-preservation phase.
 - Keep this course separate from Kurmanji Course 1 (26 lessons) and Course 2 (12 lessons).
-- Do not change the production Supabase schema, migrations, enrollment rules, or existing course mappings as part of this static preparation.
+- Production activation was performed through an additive migration. Existing courses, enrollments, and progress rows were preserved.
 
 ## Lesson map
 
