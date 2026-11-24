@@ -1014,7 +1014,9 @@ Pirtûk herwiha hin peyvên ku D di wan de zêde bûye dide, wek *qalind, mindal
 | Ç | Paşpidûyî, xişok | Bêlerz |
 | D | Pidûyî, seknî | Bilerz |
 
-**Bîr bîne:** C û Ç ji aliyê cih û awayê derketinê ve nêzîk in, lê lerza wan cuda ye. B û D herdu seknî û bilerz in, lê cihê derketina wan cuda ye.
+## Bîr bîne
+
+C û Ç ji aliyê cih û awayê derketinê ve nêzîk in, lê lerza wan cuda ye. B û D herdu seknî û bilerz in, lê cihê derketina wan cuda ye.
 
 ## Çalakî û xwepirsîn
 
