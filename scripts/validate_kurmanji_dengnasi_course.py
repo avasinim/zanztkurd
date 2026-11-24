@@ -30,6 +30,6 @@ for lesson in lessons:
 assert "const lessons=" in reader, "reader does not embed the lesson manifest"
 assert 'params.get("lesson")' in reader, "reader does not read the requested lesson"
 assert 'id="prevLesson"' in reader and 'id="nextLesson"' in reader, "reader navigation controls missing"
-assert not re.search(r\x27id=["\x27](?:quiz|quiz-container|quiz-question)["\x27]\x27, reader, re.I), "unexpected quiz UI added"
+assert not any(token in reader.lower() for token in ('id="quiz"', 'id="quiz-container"', 'id="quiz-question"')), "unexpected quiz UI added"
 
 print("PASS: 27 lessons, unique IDs, valid source/designed page ranges, 27 reader links, and previous/next navigation.")
