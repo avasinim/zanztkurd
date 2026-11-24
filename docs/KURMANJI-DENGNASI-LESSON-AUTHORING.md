@@ -130,3 +130,112 @@ Bi vê rêbazê xwendekar deng tenê wek tîpek di alfabeyê de nabîne,  lê we
 ## Têbînî ji bo pêşxistinê
 
 Ev ders ji rûpelên 4–7 hatî nûdabeşkirin û bi şêwazeke fêrbûnê hatiye rêkxistin;  ne kopîkirina PDF e. Ev pêşnûs divê ji aliyê zimanî û zanistî ve careke din were nirxandin. Dersa 2 divê ji rûpelên 8–15 were amadekirin,  bi giranî li ser vokal/konsonant,  cih û awayê derketina dengan û pifdarî.
+
+
+
+---
+
+# Dersa 2 — Vokal, konsonant û awayên derketina dengan
+
+**Çavkaniya dersê:** rûpelên çapkirî 8–15.  
+**Dem:** 30–35 deqîqe.
+
+## Armancên fêrbûnê
+
+Di dawiya dersê de xwendekar dikare:
+- vokal û konsonant ji hev cuda bike;
+- cudahiya hejmareke tîpan û hejmareke foneman fam bike;
+- cihê derketina dengê bi nimûneyên M, N û F/V rave bike;
+- awayên sereke yên derketina dengan nas bike;
+- pifdarî û bêpifî bi ceribandineke hêsan nas bike.
+
+## 1. Vokal û konsonant
+
+Hemû dengên zimanî di vê dabeşkirinê de dikevin yek ji van herdu koman: **vokal** an **konsonant**.
+
+Vokal deng e ku hewa bê astengiyeke girîng ji rêya dengê derbas dibe. Di alfabeya kurdî-latînî de heşt tîpên vokal hene: **A, E, Ê, I, Î, O, U, Û**. Di her peyvekê de herî kêm vokalek heye. Hin vokal dikarin bi tenê jî wek peyv bên bikaranîn.
+
+Konsonant deng e ku di derketina wî de rêya hewayê li cihêkê bi tevahî an bi beşekî tê tengkirin an girtin. Ji ber vê yekê konsonant bi tenê nikare kîteyekê pêk bîne; di kîteyê de divê vokalek hebe.
+
+Di alfabeya kurdî-latînî de 23 nîşanên konsonantan hene. Lê hejmareke tîpan bi xwe re ne heman tişt e wek hejmareke fonemên konsonantî. Hin tîp dikarin ji bo zêdetir ji dengekî bên bikaranîn، û hin dengên cuda jî dikarin bi heman tîpê bên nivîsîn. Ev mijar di dersên pêş de bi berfirehî tê xwendin.
+
+## 2. Cihê derketina dengê
+
+Cihê derketinê nîşan dide ku di kîjan beşa dev û gewriyê de deng çêdibe.
+
+- **M** dengekî *dulêvî* ye: herdu lêv di çêkirina wî de tên bikaranîn.
+- **N** dengekî *pidûyî* ye: ziman li pidûyên li pişt didanan nêzîk dibe.
+- **F û V** dengên *lêvî-didanî* ne: lêva jêrîn bi didanên jorîn re têkiliyê çêdike.
+
+Ji van nimûneyan fêm dibe ku cihê derketina dengê bi awayê tevgera lêv، ziman û beşên din ên devê ve girêdayî ye.
+
+## 3. Awayê derketina dengê
+
+Cihê derketinê tenê yek taybetmendiya dengê ye. Awayê derketinê jî rave dike ku hewa di dema gotina dengê de çawa derbas dibe.
+
+**Bêvilî:** Di hin dengan de hewa ji pozê jî derdikeve. M nimûneyeke vê komê ye.
+
+**Sekinî:** Hewa di devê de demekê tê girtin û paşê bi vekirina astengiyê tê berdan. P nimûneyeke sekinî ye.
+
+**Xişok:** Hewa ji nav tengiyekê derbas dibe û dengê xişînê çêdike. Di hin xişokan de deng bi lerza perdeyên dengî re ye، di hinên din de bêyî wê lerzê ye.
+
+**Bilerz û bêlerz:** Gava perdeyên dengî di çêkirina dengê de dilerizin، deng bilerz e؛ gava nelizerin، bêlerz e. Nivîskar P û B wek nimûneyên girîng pêşkêş dike: herdu ji heman cihê devê û bi awayekî nêzî hev derdikevin، lê P bêlerz e û B bilerz e.
+
+## 4. Pifdarî: bipif û bêpif
+
+Pifdarî taybetmendiyeke dengê ye ku tê de piştî derketina dengê bayekî zêdetir ji dev derdikeve.
+
+Di nimûneyên nivîskar de, Ç, K, P û T yên bêpif û dengên wan ên bipif ji hev cuda ne. Di nivîsê de dengên bipif bi nîşanên taybet Ḉ, Ḱ, Ṕ û Ť tên nîşandan.
+
+Nimûneyên bêpif ên ku di pirtûkê de hatine:
+- Ç: *çîrok, parçe, hirç*
+- K: *kirin, nikil, rik*
+- P: *pêş, gopal, çep*
+- T: *te, ’etar, qet*
+
+Nimûneyên dengên bipif di pirtûkê de bi awayên cuda hatine nîşandan، wek *çar, perde, temam, kar*.
+
+### Ceribandina kaxezê
+
+Kaxezekê li ber devê xwe bigire û peyva *kurd* bibêje؛ paşê *çek* bibêje. Li gorî ravekirina pirtûkê، di *kurd* de K bipif e û dibe ku kaxezê hereket bike؛ di *çek* de K bêpif e û kaxez bi heman hêzê nahejê. Ev ceribandin nîşan dide ku pifdarî bi bayê derketî ve girêdayî ye، ne tenê bi dengdarî an bêdengiya dengê.
+
+Di kurmancî û zazakî de cudahiya bipif û bêpif dikare wateya peyvê biguherîne. Ji ber vê yekê ew tenê awayên gotinê yên bêbandor nînin؛ di hin peyvan de cudahiya fonemîk çêdikin.
+
+## 5. Têkiliya cih، away û lerzê
+
+Ji bo danasîna dengekî، tenê gotina navê tîpa wî bes nîne. Divê em bizanin:
+- li ku derê tê çêkirin؛
+- hewa çawa derbas dibe؛
+- perdeyên dengî dilerizin an na؛
+- deng bipif e an bêpif.
+
+Bo nimûne، M dulêvî û bêvilî ye؛ P dulêvî، sekinî û bêlerz e؛ B jî dulêvî û sekinî ye، lê bilerz e. Ev danasînên cuda alîkar in ku dengên nêzî hev ji hev bên cudakirin.
+
+## Bîr bîne
+
+- Vokal: hewa bi serbestî derbas dibe؛ konsonant: rêya hewayê tê tengkirin an girtin.
+- Alfabeya kurdî-latînî heşt tîpên vokal û 23 nîşanên konsonantî heye.
+- Cihê derketinê û awayê derketinê du taybetmendiyên cuda ne.
+- Bilerz/bêlerz bi lerzîna perdeyên dengî ve girêdayî ye.
+- Pifdarî bi bayê zêde yê ku piştî dengê derdikeve ve girêdayî ye.
+
+## Çalakî û xwepirsîn
+
+**1. Komkirin:** Vokalên kurdî-latînî binivîse، paşê sê peyvên ku her yek vokalekê dihewînin mînak bîne.
+
+**2. Cihê derketinê:** M، N، F û V bi yek ji van raveyan re girêde: dulêvî؛ pidûyî؛ lêvî-didanî.
+
+**3. Cih û awayê derketinê:** Çima M û P tevî ku herdu jî dulêvî ne، wek hev nayên danasîn؟
+
+**4. Ceribandina pifdarî:** Bi kaxezê ceribandina *kurd* û *çek* dubare bike û bi gotinên xwe rave bike çi cûdahî dît.
+
+## Bersivên kurt
+
+1. A، E، Ê، I، Î، O، U، Û.
+2. M = dulêvî؛ N = pidûyî؛ F û V = lêvî-didanî.
+3. M bêvilî ye، lê P sekinî ye؛ cihê wan dikare hevbeş be، lê awayê derketina wan cuda ye.
+4. Di *kurd* de K bipif e؛ di *çek* de K bêpif e. Kaxez dikare bi pifê zêdetir li pey dengê bipif hereket bike.
+
+## Têbînî ji bo pêşxistinê
+
+Ev ders ji rûpelên 8–15 hatî nûdabeşkirin. Berî bڵاوکردنەوە، divê nîşanên fonetîk، navên anatomîk û hemû nimûneyên dengî bi orîjînala pirtûkê re careke din bên kontrolkirin. Dersa 3 ji rûpelên 16–28 li ser hevdengî û pirdengî ye.
