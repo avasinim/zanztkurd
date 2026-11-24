@@ -2295,4 +2295,147 @@ Di peyva *mîras* de S-ya ku ji dengê didanî [θ] hatiye, di kurdî de di form
 
 ## Têbînî ji bo pêşxistinê
 
-Ev ders ji rûpelên çapkirî 168–185 hatiye nûdabeşkirin. Nîşanên [r] û [ɾ] ji ravekirina pirtûkê ya R-ya req û nerm tên. Di beşa S-ya zirav/qelew de pirtûk şertan wek meyla giştî pêşkêş dike, ne wek rêzikên bêistisna; ji ber vê yekê di dersê de jî ev sînordarî hatiye parastin. Etîmolojiyên *hirç*, *rûvî* û hin nimûneyên L/R bi ihtiyat hatine pêşkêşkirin, ji ber ku çavkaniyê xwe jî çend rêyên gengaz nîşan dide. Berî belavkirinê, hemû nimûneyên devokî û rêyên etîmolojîk divê bi pisporê dengnasiyê re bên kontrolkirin. Dersa 15 dê li ser dengên Ş û Z be, li gorî beşa paşîn a çavkaniyê.
+Ev ders ji rûpelên çapkirî 168–185 hatiye nûdabeşkirin. Nîşanên [r] û [ɾ] ji ravekirina pirtûkê ya R-ya req û nerm tên. Di beşa S-ya zirav/qelew de pirtûk şertan wek meyla giştî pêşkêş dike, ne wek rêzikên bêistisna; ji ber vê yekê di dersê de jî ev sînordarî hatiye parastin. Etîmolojiyên *hirç*, *rûvî* û hin nimûneyên L/R bi ihtiyat hatine pêşkêşkirin, ji ber ku çavkaniyê xwe jî çend rêyên gengaz nîşan dide. Berî belavkirinê, hemû nimûneyên devokî û rêyên etîmolojîk divê bi pisporê dengnasiyê re bên kontrolkirin. Dersa 15 li ser dengên Ş û T e; ev düzeltin li gorî beşa çavkaniyê (rûpelên çapkirî 187–202) hatiye kirin.
+
+---
+
+# Dersa 15 — Dengên Ş û T
+
+**Çavkaniya dersê:** rûpelên çapkirî 187–202.  
+**Dem:** 45–55 deqîqe.
+
+## Armancên fêrbûnê
+
+Di dawiya dersê de xwendekar dikare:
+- Ş wek dengekî paşpidûyî-xişok-vizok yê bêlerz binasîne;
+- cihê Ş di destpêk, nav û dawiya peyvan de bibîne;
+- hin çavkaniyên dîrokî û guherînên Ş bi dengên din re rave bike;
+- T wek dengekî seknî-pidûyî-bêlerz binasîne;
+- T-ya bipif û bêpif ji hev cuda bike;
+- T-ya zirav û qelew wek du alofonên heman fonemê fêm bike;
+- cudahiya fonem û alofon bi nimûneyên T rave bike.
+
+## 1. Ş — dengekî paşpidûyî-xişok-vizok
+
+Dengê **Ş/ş** dengekî **paşpidûyî-xişok-vizok yê bêlerz** e. Di dema derxistina wî de eniya ziman li herêma paşiya pidûyan nêzîk dibe û hewa ji nav tengiyekê derbas dibe. Perdeyên dengî di gewriyê de nalerizin. Nîşana dengnasî ya wî di IPA de **[ʃ]** e.
+
+Ş di destpêk, nav û dawiya peyvê de tê:
+- **Destpêk:** *şal, şerm, şêr, şîrîn*.
+- **Nav:** *aştî, beşer, deşt, mişk*.
+- **Dawî:** *aş, baş, meş, reş*.
+
+Ev nimûne nîşan didin ku Ş dikare di cihên cuda yên peyvê de xuya bibe; cihê wê bi xwe taybetmendiya dengdanê naguherîne.
+
+## 2. Çavkaniyên dîrokî yên Ş
+
+Ş di peyvên kurdî de tenê ji yek rêya dîrokî nehatiye. Pirtûk çend komên çavkaniyan destnîşan dike:
+- hin komdengên kevn ên zimanên hindûewropî di pêvajoya dîrokî de dikarin bûn bin bingeha Ş;
+- hin peyvên wergirtî Ş an dengên nêzî wê ji zimanê jêder an rêya wergirtinê parastine;
+- di hin şertên morfolojîk de J dikare li ber paşgireke bêdeng Ş bibe;
+- di hin peyv û devokan de têkiliya Ç û Ş tê dîtin.
+
+Ev rêyên guherînê divê li gor peyv û şertên wan bên xwendin. Ji wan nayê derxistin ku her J, Ç an dengê din di her rewşê de dê bibe Ş.
+
+### Guherîna J bi Ş
+
+Pirtûk rewşên ku J li ber paşgireke bêdeng diguhere nîşan dide. Di vê rewşê de bêdengbûna dengê li ser dengê berî paşgirê bandorê dike. Ji ber vê yekê divê xwendekar forma bingehîn û forma paşgirdar bi hev re binêre, ne ku guherînê wek rêzikeke bê şert ji bo hemû peyvan bigire.
+
+### Têkiliya Ç û Ş
+
+Di hin peyv û devokan de formên bi Ç û Ş tên berawirdkirin. Ev cudahî dikare bi dîroka peyvê an guherîna zaravî ve girêdayî be. Pirtûk nimûneyên xwe di çarçoveya peyvên taybet de pêşkêş dike; ji ber vê yekê divê em wan wek delîlên peyv-bi-peyv fêm bikin, ne wek guherîna serbest a her Ç bo Ş.
+
+## 3. Ş û T: cudahiya dengdanê û hişyarî li ser nimûneyên dîrokî
+
+Ş dengekî xişok e, lê T dengekî sekinî ye. Di Ş de hewa ji tengiyekê derbas dibe û xişok çêdike; di T de rêya hewayê bi kurtî tê girtin û paşê tê vekirin. Di hin peyvên ku di forma wan de Ş û T li rex hev xuya dibin, divê em li morfolojî û dîroka wan binêrin.
+
+Pirtûk hişyar dike ku hin nimûneyên ku di wan de Ş û T wekî guherîna hev xuya dikin, bi rastî guherîna rasterast a Ş↔T nînin. Di hin lêkeran de T nîşana rabirdûyê ye û dengê din hatiye windakirin. Ji ber vê yekê divê xwendekar nîşana demê ji beşa bingehîn a peyvê cuda bike. Her du herf di peyvê de li rex hev hatin jî, ev yek bi xwe delîla guherîna dengî nîne.
+
+## 4. T — dengekî seknî-pidûyî-bêlerz
+
+Dengê **T/t** dengekî **seknî-pidûyî-bêlerz** e. Di çêkirina wî de ziman li herêma pidûyan digihîje û rêya hewayê digire; paşê astengî vedibe û hewa derdikeve. Perdeyên dengî nalerizin. Nîşana IPA ya T-ya bêlerz **[t]** e.
+
+T dikare li her sê cihên peyvê were:
+- **Destpêk:** *talan, tebeşîr, têr, tifek*.
+- **Nav:** di nimûneyên pirtûkê de T di nav peyvan de jî tê dîtin; cihê wê bi peyva nimûneyê ve girêdayî ye.
+- **Dawî:** T di hin peyv û formên lêkerî de li dawiya peyvê xuya dike.
+
+Di xwendina T de divê cihê derketinê, awayê derketinê û pifdarî ji hev cuda bên nirxandin. Hemû taybetmendiyên dengekî bi tenê ji navê tîpa wî nayên zanîn.
+
+## 5. T-ya bipif û T-ya bêpif
+
+Di kurmancî û zazakî de T dikare bi du awayên pifê were derxistin:
+- **T-ya bipif:** piştî berdana astengiya T-ê bayekî bihêztir derdikeve.
+- **T-ya bêpif:** piştî berdana T-ê pifeke wisa ya bihêz nayê.
+
+Pirtûk van herdu awayan wek cudahiyeke girîng a dengnasî pêşkêş dike. Di hin peyvan de cudahiya bipif û bêpif dikare wateyê biguherîne; ji ber vê yekê ew tenê du awayên bêbandor ên gotinê nînin, lê dikarin fonemên cuda nîşan bidin.
+
+### Çawa pifdarî bibînin?
+
+Kaxezekê li ber devê xwe bigire û her du awayên T-ê, bi rêya nimûneyên ku di çavkaniyê de hatine nîşandan, bibêje. Di T-ya bipif de kaxez dikare bi bayê zêde hereket bike; di T-ya bêpif de hereket dikare kêmtir be. Ev ceribandin tenê alîkar e; ji bo cudakirina rast divê deng bi baldarî were bihîstin û nimûneyên pirtûkê bên parastin.
+
+## 6. T-ya zirav û T-ya qelew
+
+Pirtûk ji bilî pifdarî, du awayên dengdana T-ê jî cuda dike:
+- **T-ya zirav:** di hin peyvan de bi rengê ziravtir tê gotin; nimûne: *te, tîr, tûrik*.
+- **T-ya qelew:** di hin peyvan de bi rengê qelewtir tê gotin; nimûne: *tav, teng, tov*.
+
+Di kurmancî de T-ya zirav û T-ya qelew wek du **alofonên heman fonemê** tên ravekirin. Wateya peyvê bi guherandina yekê bi ya din nayê guherandin. Ev ji cudahiya T-ya bipif û bêpif cuda ye: bipif/bêpif di hin peyvan de dikare cudahiya fonemîk çêbike, lê zirav/qelew di vê ravekirinê de cudahiya awayê derxistinê ya heman fonemê ye.
+
+## 7. T di dîroka peyvan û devokan de
+
+Pirtûk T di gelek peyvên xwemalî de wek dengekî ku ji demên kevn ve hatiye parastin nîşan dide. Di hin peyvan de T dikare kêm bibe an bikeve; di hin peyvên din de jî di berawirdkirina zarav û devokan de formên bi T û dengên din tên dîtin.
+
+Têkiliya T û Ç di hin peyv û devokan de tê dîtin. Lê ev yek ne wateya wê ye ku T û Ç di hemû peyvan de bi serbestî diguherin. Divê her nimûne bi dîroka peyvê, formên zaravî û şertên dengî yên ku pirtûk destnîşan dike were şîrovekirin.
+
+## Berawirdkirina Ş û T
+
+| Taybetmendî | Ş [ʃ] | T [t] |
+|---|---|---|
+| Cihê derketinê | Paşpidûyî | Pidûyî |
+| Awayê derketinê | Xişok | Sekinî |
+| Lerz | Bêlerz | Bêlerz |
+| Taybetmendiya sereke | Hewa di tengiyê de xişok çêdike | Hewa tê girtin û paşê tê berdan |
+| Cih di peyvê de | Destpêk, nav, dawî | Destpêk, nav, dawî |
+
+## Bîr bîne
+
+- Ş paşpidûyî-xişok-vizok û bêlerz e; nîşana wê [ʃ] e.
+- T seknî-pidûyî û bêlerz e; nîşana wê [t] e.
+- Ş dikare di destpêk, nav û dawiya peyvê de were.
+- T-ya bipif û bêpif di hin peyvan de cudahiya fonemîk çêdikin.
+- T-ya zirav û qelew di kurmancî de alofonên heman fonemê ne.
+- Hin formên ku Ş û T tê de xuya dibin, ne her tim nimûneyên guherîna rasterast a Ş↔T ne; hin caran T nîşana rabirdûyê ye.
+- Guherînên Ş û T divê bi peyv, devok û çarçoveya dîrokî ve bên şîrovekirin.
+
+## Çalakî û xwepirsîn
+
+**1.** Ş ji aliyê cihê derketinê, awayê derketinê û lerzê ve çawa tê danasîn?
+
+**2.** Di *şal, aştî, baş* de Ş li kîjan cihê peyvê ye?
+
+**3.** T ji aliyê cihê derketinê, awayê derketinê û lerzê ve çawa tê danasîn?
+
+**4.** Cudahiya T-ya bipif û bêpif çi ye? Çima ev cudahî dikare ji bo wateya peyvê girîng be?
+
+**5.** T-ya zirav û qelew fonem in an alofon? Sedemê xwe rave bike.
+
+**6.** Di *te, tîr, tûrik* û *tav, teng, tov* de kîjan taybetmendiya T-ê tê nîşandan?
+
+**7.** Çima divê em her nimûneya ku Ş û T tê de xuya dibin wek guherîna rasterast a Ş↔T nehêlin?
+
+**8.** Bi kaxezê çawa dikarî pifdarîya T-ê ceribînî?
+
+## Bersivên kurt
+
+1. Ş paşpidûyî-xişok-vizok û bêlerz e; [ʃ].
+2. *şal*: destpêk; *aştî*: nav; *baş*: dawî.
+3. T seknî-pidûyî û bêlerz e; [t].
+4. T-ya bipif piştî berdanê bayê zêdetir derdixe; T-ya bêpif bayê kêmtir derdixe. Di hin peyvan de ev cudahî wateyê diguherîne.
+5. Alofon in; di vê ravekirinê de guherandina zirav/qelew wateya peyvê naguherîne.
+6. Cudahiyên T-ya zirav û T-ya qelew.
+7. Ji ber ku di hin formên lêkerî de T nîşana rabirdûyê ye û dibe ku dengê din ketiye; pêdivî bi şirovekirina morfolojîk û dîrokî heye.
+8. Kaxez li ber devê xwe bigire û nimûneyên bipif û bêpif bi hev re bibêje; hereket zêde ya kaxezê dikare pifa bihêztir nîşan bide.
+
+## Têbînî ji bo pêşxistinê
+
+Ev ders ji beşa Ş û T ya çavkaniyê, rûpelên çapkirî 187–202, hatiye nûdabeşkirin û wek materyala fêrbûnê hatiye rêkxistin; ne kopîkirina PDF e. Berî belavkirinê divê nîşanên fonetîk, şertên pifdarî, nimûneyên T-ya zirav/qelew û hemû guherînên dîrokî rasterast bi nivîsa çapkirî re bên kontrolkirin. Hin nimûneyên dîrokî li vir bi awayekî giştî hatine kurtkirin; ji bo پێشکەشکردنی وانەی تەواو پێویستە وردەکارییەکانیان لە سەرچاوەوە پشتڕاست بکرێنەوە.
