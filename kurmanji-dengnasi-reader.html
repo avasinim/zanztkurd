@@ -20,7 +20,7 @@
 <header class="v2-header"><div class="container v2-header-inner"><a class="v2-brand" href="index.html"><span class="v2-brand-mark">A</span><span class="v2-brand-text"><strong>Akademîya Avaşîn</strong><small>ACADEMIC LANGUAGE PLATFORM</small></span></a><nav class="v2-nav-links"><a href="learning.html">Fêrbûn</a><a href="lessons/catalog.html">Ders</a></nav></div></header>
 <main class="dnr-page"><div class="dnr-shell">
 <section class="dnr-hero"><span class="kicker">KURMANCÎ · TÎPÊN LATÎNÎ</span><h1 id="lessonTitle">Dengnasîya Zimanê Kurdî</h1><p id="lessonSubtitle">Rêya xwendina dersê li gorî çavkaniya bingehîn.</p><div class="dnr-meta"><span id="lessonNumber">27 ders</span><span id="lessonPages">432 rûpelên çavkaniyê</span></div></section>
-<section class="dnr-card"><h2>Rewşa naverokê</h2><p class="dnr-note">Ev rûpel rêya dersê û cihê wê di kitêbê de nîşan dide. PDF-ya sêwirandî li ser malperê hêj nehatiye host kirin; ji ber vê yekê naveroka PDF-ê li vir nayê xwendin. Naveroka çavkaniyê dê bê guhertin were girêdan. Quiz, pirs an rahênanên nû lê zêde nakin.</p><div class="dnr-nav"><a id="prevLesson" href="#" hidden>← Dersê berê</a><a id="nextLesson" href="#" hidden>Dersa paşê →</a></div></section>
+<section class="dnr-card"><h2>Çavkaniya dersê</h2><p class="dnr-note">PDF-ya sêwirandî di depoya giştî ya GitHub de heye. Ji vê derê dikarî PDF-ê veke û rasterast biçî ser rûpelên vê dersê. Hostkirina wê di malpera akademiyê de hîn nayê pejirandin. Naveroka pirtûkê bê guhertin dimîne; quiz, pirs an rahênanên nû lê zêde nakin.</p><p style="margin-top:14px"><a class="dnr-back" id="openPdf" href="https://github.com/avasinim/zanztkurd/blob/main/Dengnasiya_Zimane_Kurdi_27_Wane.pdf?raw=1#page=8" target="_blank" rel="noopener">Vekirina PDF-ya dersê ↗</a></p><div class="dnr-nav><a id="prevLesson" href="#" hidden>← Dersê berê</a><a id="nextLesson" href="#" hidden>Dersa paşê →</a></div></section>
 <section class="dnr-card"><h2>27 dersên qursê</h2><ol class="dnr-index" id="lessonIndex"></ol><p style="margin-top:18px"><a class="dnr-back" href="kurmanji-dengnasi-course.html">Vegere plana qursê</a></p></section>
 </div></main>
 <script>
@@ -29,11 +29,15 @@ const params=new URLSearchParams(location.search);
 const requested=Number(params.get("lesson")||1);
 const current=Math.min(27,Math.max(1,Number.isFinite(requested)?requested:1));
 const lesson=lessons[current-1];
+const pdfBase="https://raw.githubusercontent.com/avasinim/zanztkurd/main/Dengnasiya_Zimane_Kurdi_27_Wane.pdf";
 document.title=lesson.title+" — Dengnasîya Zimanê Kurdî";
 document.getElementById("lessonTitle").textContent=lesson.title;
 document.getElementById("lessonSubtitle").textContent="Dersa "+String(current).padStart(2,"0")+" ji 27 · Dengnasîya Zimanê Kurdî";
 document.getElementById("lessonNumber").textContent="Dersa "+current+" / 27";
 document.getElementById("lessonPages").textContent="Rûpelên çavkaniyê "+lesson.printedPages.start+"–"+lesson.printedPages.end;
+const pdfLink=document.getElementById("openPdf");
+pdfLink.href=pdfBase+"#page="+lesson.designedPdfPages.start;
+pdfLink.textContent="Vekirina PDF · rûpela "+lesson.designedPdfPages.start+" ↗";
 const index=document.getElementById("lessonIndex");
 lessons.forEach((item,i)=>{const li=document.createElement("li");const a=document.createElement("a");a.href="?lesson="+(i+1);if(i+1===current)a.setAttribute("aria-current","page");const b=document.createElement("b");b.textContent=String(i+1).padStart(2,"0");const title=document.createElement("span");title.textContent=item.title;const small=document.createElement("small");small.textContent="Rûpel "+item.printedPages.start+"–"+item.printedPages.end;a.append(b,title,small);li.append(a);index.append(li)});
 if(current>1){const a=document.getElementById("prevLesson");a.hidden=false;a.href="?lesson="+(current-1)}
