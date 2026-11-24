@@ -1444,6 +1444,22 @@ Ev varyant di pirtûkê de wek awayên nivîsînê yên cuda tên nîşandan؛ d
 7. Ji ber ku T bêlerz e û bandorê li J-ya bilerz dike، J dibe Ş: *-kuj- + T → kuşt*.
 8. Formên bi J wek *biyolojî، jeolojî* wek formên serdest tên nîşandan؛ formên bi C/G varyant in.
 
+## 13. Ketina J ji peyvê
+
+J carinan ji dawiya peyvê dikeve. Di hin devokan de *roj* wek *ro* tê gotin، û hin peyvên ji wê çêbûyî jî bê J tên gotin:
+- *rojhilat → rohilat*؛
+- *rojava → roava*؛
+- *Rojhat → Rohat*؛
+- *Rojbîn → Robîn*.
+
+Lê hemû peyvên pêkhatî bi heman awayî nayên kurtkirin. Pirtûk *rojname* wek nimûneya ku J di wê de dimîne destnîşan dike؛ forma *roname* nayê pejirandin. Herwiha *îro/evro* û *nîvro* formên serdest in، ne *îroj/evroj* an *nîvroj*.
+
+Di hin devokan an axiftina sivik de J ji rehê dema niha yê hin lêkeran jî dikeve:
+- *-bêj- → -bê-*؛ wek *di-bêj-im → di-bê-m*؛
+- *-avêj- → -avê-*؛ wek *di-avêj-im → di-avê-m*.
+
+Ev nimûne divê wek guherînên devokî an gotina sivik bên fêmkirin؛ ne wek pêşniyarê ku formên standard bê kontrolkirin bên guhertin.
+
 ## Têbînî ji bo pêşxistinê
 
-Ev ders ji rûpelên çapkirî 116–132 hatî nûdabeşkirin. Cudahiya fonetîkî ya H [h] û Ḧ [ħ]، formên devokî، etîmolojî û nîşanên IPA divê di pێداچوونەوەی dawî de rasterast bi çavkaniyê re bên kontrolkirin. Di nivîsîna normal de H-yekê biparêzin؛ Ḧ tenê ji bo ravekirina dengnasî û nimûneyên çavkaniyê hatiye bikaranîn. Dersa 11 ji rûpelên 133–146 li ser dengên K û L e.
+Ev ders ji rûpelên çapkirî 116–132 hatî nûdabeşkirin. Cudahiya fonetîkî ya H [h] û Ḧ [ħ]، formên devokî، etîmolojî û nîşanên IPA divê di nirxandina dawî de rasterast bi çavkaniyê re bên kontrolkirin. Di nivîsîna normal de H-yekê biparêzin؛ Ḧ tenê ji bo ravekirina dengnasî û nimûneyên çavkaniyê hatiye bikaranîn. Dersa 11 ji rûpelên 133–146 li ser dengên K û L e.
