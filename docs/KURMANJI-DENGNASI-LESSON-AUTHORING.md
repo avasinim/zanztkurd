@@ -2103,7 +2103,7 @@ Di dengnasiya kurdî de herfa **R/r** du awayên sereke yên gotinê hene. Herdu
 
 ### R-ya req [r]
 
-Li destpêka peyvê R bi gelemperî bi lêdana çendcarî ya ziman li pidûyên jorîn tê derxistin. Pirtûk vê dengê **R-ya req** bi nav dike. Di IPA de bi **[r]** tê nîşandan.
+Li destpêka peyvê R herdem bi lêdana çendcarî ya ziman li pidûyên jorîn tê derxistin. Pirtûk vê dengê **R-ya req** bi nav dike. Di IPA de bi **[r]** tê nîşandan.
 
 Nimûne: *rast, rev, rê, rind, ron, ruh, rû*.
 
