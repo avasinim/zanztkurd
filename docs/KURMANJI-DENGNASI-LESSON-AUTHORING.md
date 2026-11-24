@@ -1134,9 +1134,11 @@ Dengê herî nêzîkî F **V** ye. Herdu deng lêvî-didanî û xişokên nevizo
 - F bêlerz e;
 - V bilerz e.
 
-Gava F bikeve ber dengê bilerz, an dengê bilerz li pey wê were, di hin rewşan de guherîna F/V dikare çêbibe. Pirtûk nimûneyên guherîna V → F di formên lêkerî de dide:
+Gava dengekî bêlerz li pey V were, V dikare bibe F; di van nimûneyan de T-ya bêlerz V diguherîne:
 - *di-axiv-im → axif-tin*;
 - *di-kev-im → kef-tin → ketin*.
+
+Berevajî vê, dengekî bilerz li pey F dikare F bike V. Pirtûk nimûneya *heft + deh → hevde(h)* dide: T-ya dawiyê ya *heft* dikeve û D-ya bilerz ya peyda dibe F-ya berî xwe dike V. Ji ber vê yekê divê şertê dengê li pey wê were diyarkirin; ne her guherîna F/V bi heman arasteyê ye.
 
 Herwiha di hin peyvan de F dikare bi B, W an H re têkildar bibe. Di berawirdkirina kurmancî û soranî de, F-ya kurmancî di hin cotdengên FT de bi WT tê berawirdkirin:
 - kurmancî *heft* — soranî *hewt*;
@@ -1144,7 +1146,7 @@ Herwiha di hin peyvan de F dikare bi B, W an H re têkildar bibe. Di berawirdkir
 - kurmancî *mizgeft* — soranî *mizgewt*;
 - kurmancî *ke(f)tin* — soranî *kewtin*.
 
-Pirtûk herwiha nimûneyên guherîna B/F wek *fafon/bafon* dide. Guherîna yekser a F/H di kurmancî de wek rêzikeke giştî nayê pejirandin; têkiliyên nêzîk di hin peyvan de bi rêya dengên navberê tên şîrovekirin.
+Pirtûk herwiha nimûneyên guherîna B/F wek *fafon/bafon* dide. Guherîna yekser a F/H di kurmancî de pêk nayê. Pirtûk di hin zimanên din de nimûneyên vê guherînê dide, lê di kurmancî de têkiliya F û H tenê bi awayekî neyekser, bi rêya guherîna H/V, dikare were şîrovekirin.
 
 ## 5. Ketina F ji peyvê
 
