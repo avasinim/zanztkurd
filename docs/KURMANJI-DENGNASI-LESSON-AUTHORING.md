@@ -4684,3 +4684,252 @@ Li gorî şîroveya dîrokî ya çavkaniyê, formê kevntir XWE- bûye û di sor
 ## Têbînî ji bo pêşxistinê
 
 Ev ders ji rûpelên çapkirî 387–393 hatiye nûdabeşkirin. Berî belavkirinê divê nimûneyên feylî, kelhurî û kirmaşanî, nîşanên dengnasî yên Ü/Î/Ň/Ł, û şîroveyên dîrokî bi pisporên devokên başûrî re bên kontrolkirin. Çavkaniyê gelek caran "piraniya devokan" dibêje; ji ber vê yekê ev taybetmendî wek rêzikên bêîstîsna nayên pêşkêşkirin. Ev pêşnûse û hîn ne ji bo xwendekaran çalak e.
+
+
+---
+
+# Dersa 25 — Cudahiyên dengnasî di navbera kurmancî û zazakî de
+
+**Çavkaniya dersê:** rûpelên çapkirî 394–401.  
+**Dem:** 55–65 deqîqe.
+
+## Armancên fêrbûnê
+
+Di dawiya dersê de xwendekar dikare:
+- cudahiya di navbera hebûna dengan û bikaranîna wan di peyvên hevreh de rave bike;
+- guherînên B/V, V/M/W, RD/R û E/I nas bike;
+- cudahiya XW/W, J/C, G/V û H/Ø, H/S, ST-/EST-/AST- şîrove bike;
+- guherînên Î/Ê û A, herwiha H/Ş, K/H û S/Ş bi nimûne nîşan bide;
+- nimûneyên çavkaniyê wek rêzikên bêîstîsna ji bo hemû devokên zazakî bi kar neyne.
+
+## 1. Dengên hevpar, bikaranîna cuda
+
+Kurmancî û zazakî gelek dengên hevpar hene. Di herdu zimanan de Ç, K, P û T dikarin bi awayên bipif (req) û bêpif (nerm) bên bilêvkirin; awayên zirav û qelew ên P û T jî hene. Lê hebûna dengên hevpar nayê wê wateyê ku her du zimanan wan di heman peyvan de bi heman awayî bikar bînin.
+
+Ji ber vê yekê di vê dersê de em ne tenê li dengên alfabeyê dinêrin, lê li peywendiya deng û peyvên hevreh jî dinêrin.
+
+## 2. B ya kurmancî û V ya zazakî
+
+Li destpêka gelek peyvên xwemalî, li cihê B ya kurmancî di zazakî de V heye.
+
+| Kurmancî | Zazakî |
+|---|---|
+| ba | va |
+| baran | varan |
+| berf / befr | vewre |
+| bîst | vîst |
+
+Di vê mijarê de soranî û farisî zêdetir bi kurmancî re ne; hewramî û kurdiya başûrî bi W-ya xwe li van cihan zêdetir nêzîkî zazakî ne. Li gorî şîroveya dîrokî ya çavkaniyê, di zimanên îranî yên kevn û navîn de V/W hebû, paşê di kurmancî, soranî û farisî de di gelek peyvan de bû B.
+
+## 3. V ya kurmancî û M/W ya zazakî
+
+Li nav û dawiya peyvan, piştî vokalan, li cihê V ya kurmancî di zazakî de carinan M û carinan W heye.
+
+| Kurmancî | Zazakî |
+|---|---|
+| nav | name |
+| gav | gam |
+| av | aw |
+| şev | şew |
+
+Di van nimûneyan de du pêvajoyên cuda hene. Di *nav/name* û *gav/gam* de zazakî M-ya kevntir parastiye, lê kurmancî ew kiriye V. Di *şev/şew* de guherîna dîrokî ya P → B → V/W tê nîşandan.
+
+Di soranî û kurdiya başûrî de B/P ya îranî dikare bibe W; lê M-ya navbera vokalan wek kurmancî bûye W, ne V.
+
+## 4. RD ya zazakî û R ya kurmancî
+
+Zazakî, wek soranî û piraniya zimanên din ên îranî, di gelek peyvan de koma RD diparêze. Di kurmancî de D ya piştî R ketiye.
+
+| Zazakî | Soranî | Kurmancî |
+|---|---|---|
+| berdene | birdin | birin |
+| kerdene | kirdin | kirin |
+| merdene | mirdin | mirin |
+| pird | pird | pir |
+| werdene | xwardin | xwarin |
+
+Ev nimûne nîşan didin ku zazakî û soranî di van peyvan de bi hev re ne, lê kurmancî formên kurtir ên bê D diparêze. Ev hevahengî tenê ji bo van pêvajoyên dengî ye; nayê wê wateyê ku zazakî û soranî di hemû taybetmendiyên dengnasî an rêzimanê de nêzîk bin.
+
+## 5. E ya zazakî û I ya kurmancî
+
+Di hejmareke mezin ya peyvan de zazakî E diparêze, lê kurmancî li heman cihî I heye.
+
+| Zazakî | Kurmancî |
+|---|---|
+| berdene | birin |
+| kerdene | kirin |
+| merdene | mirin |
+| wesar | bihar |
+| berz | bilind |
+
+Çavkaniyê di vê beşê de rave dike ku zazakî di van peyvan de E ya kevntir parastiye û kurmancî ew kiriye I. Di soranî û kurdiya başûrî de jî di piraniya van peyvan de I heye, lê ne di hemûyan de.
+
+## 6. XW ya kurmancî û W ya zazakî
+
+Li şûna komdenga XW ya kurmancî, di zazakî de bi gelemperî W heye.
+
+| Kurmancî | Zazakî |
+|---|---|
+| xweş | weş |
+| xwarin | werdene |
+| xwendin / xwandin | wendene |
+| xweh / xuşk | way |
+
+Lê cînavê *xwe* ji vê rêzikê cuda ye: di zazakî de formên *xo* û *xwu* jî hene. Ji ber vê yekê divê guherîna XW → W wek rêgezeke giştî bê fêmkirin, ne wek rêzikeke bê îstîsna.
+
+Li gorî şîroveya çavkaniyê, kurmancî X parastiye û zazakî di vê komdengê de X ji berî W avêtiye. Hewramî û belûçî jî di hin peyvan de X ji vê komdengê davêjin.
+
+## 7. J ya kurmancî û C ya zazakî
+
+Di gelek peyvên xwemalî an îranî de, li cihê J ya kurmancî di zazakî de C heye.
+
+| Kurmancî | Zazakî |
+|---|---|
+| jin | cenî |
+| roj | roc |
+| jîn / jiyan | ciwayene |
+
+Di hin peyvan de li cihê J ya kurmancî di zazakî de Z jî heye; mînak *jî* û *zî*. Çavkaniyê ev cudahî bi pêşketina dengên îranî yên kevn ve girê dide: Ç ya kevn di kurmancî, soranî û başûrî de bûye J; di zazakî û hewramî de C; di farisî de Z.
+
+## 8. G ya kurmancî û V ya zazakî
+
+Di hejmareke bisînor ya peyvan de, li cihê G ya kurmancî di zazakî de V heye.
+
+| Kurmancî | Zazakî |
+|---|---|
+| gul | vilî |
+| gur / gurg | verg |
+| gotin | vatene |
+
+Di vê mijarê de soranî, kurdiya başûrî, farisî û pehlewî zêdetir bi kurmancî re ne. Lê şîroveya dîrokî ya çavkaniyê ji bo dengê bingehîn formên V/W destnîşan dike. Ev nimûne bi hejmareke kêm peyvan ve girêdayî ye.
+
+## 9. H ya kurmancî û Ø an S ya zazakî
+
+Di hejmareke ne kêm ya peyvên hevreh de H ya kurmancî di zazakî de nayê gotin.
+
+| Kurmancî | Zazakî |
+|---|---|
+| hestî | este |
+| hejmar | amar |
+| hêstir / hesp | estor / istor |
+| havîn | amnan; herwiha hamnan |
+
+Di hin nimûneyan de H ya kevn ji hin devokên zazakî ketiye, lê di hin devokan de hîn jî maye. Di hin peyvên din de H paşê di kurmancî de zêde bûye; mînak kurmancî *hesp* li hember soranî *esp* û farisî *esb*.
+
+Di hejmareke bisînor ya peyvan de li cihê H ya kurmancî di zazakî de S heye.
+
+| Kurmancî | Zazakî |
+|---|---|
+| deh | des |
+| bihar | wesar |
+
+Heman S di hejmarên 11–19 de jî di formên zazakî de tê dîtin, wek *yewndes*, *diyes* û *hiryes*. Lê ev ne rêgezeke bê îstîsna ye: peyva *sê* ya kurmancî di zazakî de *hirê* ye, ku berevajî vê guherînê ye.
+
+## 10. ST- ya kurmancî û EST-/AST- ya zazakî
+
+Zazakî, wek soranî û gelek zimanên din ên îranî, komên konsonantî li destpêka peyvê bi awayekî sînordar qebûl dike. Ji ber vê yekê li şûna ST- ya destpêkî ya kurmancî, di zazakî de EST- an AST- heye.
+
+| Kurmancî | Zazakî | Soranî |
+|---|---|---|
+| stêr / stêrk | estare / astare | estêre |
+
+Kurmancî komdenga ST parastiye, lê zazakî û hin zimanên din ên îranî li pêş wê vokalek zêde kirine. Çavkaniyê formên avestayî, pehlewî û zimanên din jî ji bo berawirdkirina dîrokî pêşkêş dike.
+
+## 11. A ya zazakî û Î/Ê ya kurmancî
+
+Di rehê dema niha û bê ya gelek lêkeran de, li cihê Î û carinan Ê ya kurmancî, di zazakî de A heye.
+
+| Kurmancî | Zazakî |
+|---|---|
+| ez di-mîn-im | ez man-en-a |
+| ew di-xwîn-e | o wan-en-o |
+| ew di-bê-n / di-bêj-in | ê va-n-ê |
+
+Di hin navdêran de jî li cihê Ê ya kurmancî A ya zazakî heye. Herwiha zazakî A ya hin peyvên ji erebî wergirtî nake Ê.
+
+| Kurmancî | Zazakî |
+|---|---|
+| hêk | hak |
+| kitêb | kitab |
+
+## 12. H/Ş, K/H û S/Ş
+
+Di hejmareke bisînor ya peyvan de, li cihê H ya kurmancî di zazakî de Ş heye.
+
+| Kurmancî | Zazakî |
+|---|---|
+| guh | goş |
+| têhnî / tihnî / tînî / tî | teyşan |
+
+Di çend peyvan de K ya kurmancî li hember H ya zazakî ye.
+
+| Kurmancî | Zazakî |
+|---|---|
+| ker | her |
+| kanî | henî |
+
+Çavkaniyê di şîroveya dîrokî de X wek dengê bingehîn destnîşan dike; di kurmancî, soranî û kurdiya başûrî de bûye K, lê di zazakî û hewramî de H.
+
+Herwiha di hin peyvan de li cihê S ya kurmancî di zazakî de Ş heye.
+
+| Kurmancî | Zazakî |
+|---|---|
+| rast | raşt |
+
+Ev guherînên dawî bi hejmareke kêm nimûneyan tên nîşandan û divê bi awayekî sînordar bên fêmkirin.
+
+## Bîr bîne
+
+- Kurmancî û zazakî gelek dengên hevpar hene, lê bikaranîna wan di peyvên hevreh de dikare cuda be.
+- B ya kurmancî di gelek peyvên destpêkî de li hember V ya zazakî ye.
+- V ya kurmancî li nav û dawiya peyvan dikare li hember M an W ya zazakî be.
+- Zazakî di gelek peyvan de RD diparêze; kurmancî D-ê ji vê komê davêje.
+- E ya zazakî li hember I ya kurmancî ye.
+- XW ya kurmancî di gelek peyvan de li hember W ya zazakî ye, lê *xwe* îstîsnayek e.
+- J/C, G/V, H/Ø, H/S, ST-/EST-/AST-, Î/Ê/A, H/Ş, K/H û S/Ş jî di hin komên peyvan de têne dîtin.
+- Gelek guherîn bi hejmareke sînordar ya peyvan ve girêdayî ne; divê wek rêzikên bê îstîsna neyên fêmkirin.
+
+## Çalakî û xwepirsîn
+
+**1.** Çima hebûna dengên hevpar di kurmancî û zazakî de nayê wê wateyê ku bikaranîna wan jî wek hev be?
+
+**2.** Guherîna B/V bi çar nimûneyên dersê rave bike.
+
+**3.** Di cotên *nav/name* û *şev/şew* de çi cudahiya dîrokî heye?
+
+**4.** RD di zazakî de çawa tê parastin? Du cotên peyvan binivîse.
+
+**5.** E ya zazakî li hember kîjan dengê kurmancî ye? Sê nimûne bide.
+
+**6.** Çima *xwe* wek îstîsnayeke girîng ji rêzika XW/W tê hesibandin?
+
+**7.** J/C bi sê nimûneyan rave bike.
+
+**8.** H ya kurmancî di zazakî de dikare çi bibe? Nimûneyên H/Ø û H/S bide.
+
+**9.** ST- ya destpêkî di zazakî de çawa tê guherandin?
+
+**10.** Î/Ê ya kurmancî di rehê hin lêkeran de li hember kîjan dengê zazakî ye?
+
+**11.** Ji bo H/Ş, K/H û S/Ş yek nimûne ji dersê hilbijêre.
+
+**12.** Kîjan ji guherînên dersê bi hejmareke sînordar ya peyvan ve girêdayî ne؟ Çima divê bi ehtiyat binivîسین؟
+
+## Bersivên kurt
+
+1. Ji ber ku du zimanan dikarin heman dengên fonetîkî hebin, lê wan di peyvên hevreh de bi awayên cuda bikar bînin.
+2. *ba/va*, *baran/varan*, *berf/vewre*, *bîst/vîst*.
+3. Di *nav/name* de M ya kevn di zazakî de hatiye parastin; di *şev/şew* de pêvajoya P→B→V/W tê dîtin.
+4. Zazakî D ya piştî R diparêze; mînak *berdene/birin* û *kerdene/kirin*.
+5. I; mînak *berdene/birin*, *kerdene/kirin*, *merdene/mirin*.
+6. Ji ber ku cînavê *xwe* di zazakî de dikare *xo* an *xwu* be, ne tenê *we*.
+7. *jin/cenî*, *roj/roc*, *jîn/ciwayene*.
+8. Dikare kêm bibe (Ø) an bibe S; mînak *hestî/este* û *deh/des*.
+9. Bi zêdekirina vokalekê li pêş, wek ST-/EST- an AST-; mînak *stêr/estare*.
+10. A; mînak *di-mîn-im/man-en-a* û *di-xwîn-e/wan-en-o*.
+11. H/Ş: *guh/goş*; K/H: *ker/her*; S/Ş: *rast/raşt*.
+12. Guherînên G/V, H/S, H/Ş, K/H û S/Ş bi nimûneyên kêm hatine nîşandan; ji ber vê yekê divê wek taybetmendiyên hemû peyvan neyên sepandin.
+
+## Têbînî ji bo pêşxistinê
+
+Ev ders ji rûpelên çapkirî 394–401 hatiye nûdabeşkirin. Berî belavkirinê divê formên zazakî, devokên cuda, nîşanên dengnasî û şîroveyên etîmolojîk bi pisporên zazakî re bên kontrolkirin. Çavkaniyê di hin beşan de cudahiyên devokî û îstîsna bi eşkereyî destnîşan dike; ji ber vê yekê dersê ev form wek rêzikên giştî yên bê îstîsna pêşkêş nake. Ev pêşnûse û hîn ne ji bo xwendekaran çalak e.
