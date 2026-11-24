@@ -44,8 +44,16 @@ for lesson in lessons:
     assert designed["start"] == printed["start"] + offset, f"designed start page mismatch in lesson {lesson['number']}"
     expected_end = printed["end"] + offset
     assert designed["end"] == expected_end, f"designed end page mismatch in lesson {lesson['number']}"
+    if lesson["number"] == 14:
+        assert printed == {"start": 168, "end": 186}, "Lesson 14 must end at printed source page 186"
+        assert designed == {"start": 185, "end": 203}, "Lesson 14 must end at designed PDF page 203"
     if lesson["number"] == 15:
+        assert printed == {"start": 187, "end": 202}, "Lesson 15 must begin at printed source page 187"
+        assert designed == {"start": 205, "end": 220}, "Lesson 15 must begin at designed PDF page 205"
         assert lesson.get("dividerPage") == 204, "Lesson 15 divider must be documented at designed PDF page 204"
+        previous_lesson = lessons[13]
+        assert previous_lesson["designedPdfPages"]["end"] + 1 == lesson["dividerPage"], "Lesson 15 divider must immediately follow Lesson 14"
+        assert lesson["dividerPage"] + 1 == designed["start"], "Lesson 15 content must immediately follow its divider"
     n = lesson["number"]
     link = f'kurmanji-dengnasi-reader.html?lesson={n}'
     assert link in preview, f"missing preview link for lesson {n}"
