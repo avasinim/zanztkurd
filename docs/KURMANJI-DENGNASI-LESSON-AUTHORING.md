@@ -1239,3 +1239,211 @@ F û G ji aliyê cih û awayê derketinê ve ji hev dûr in. F bi didan û lêv�
 ## Têbînî ji bo pêşxistinê
 
 Ev ders ji rûpelên çapkirî 104–115 hatî nûdabeşkirin. Rêjeyên F û G، nîşanên IPA، formên dîrokî û cudahiyên devokî divê di nirxandina dawî de bi baldarî bêne kontrolkirin. Nimûneyên etîmolojîk ji bo berawirdkirinê ne؛ divê wek rêzikên nivîsîna îroyîn neyên bikaranîn. Dersa 10 ji rûpelên 116–132 li ser dengên H û J e.
+
+
+---
+
+# Dersa 10 — Dengên H û J
+
+**Çavkaniya dersê:** rûpelên çapkirî 116–132.  
+**Dem:** 45–55 deqîqe.
+
+## Armancên fêrbûnê
+
+Di dawiya dersê de xwendekar dikare:
+- cudahiya herdu dengên ku di nivîsîna kurdî-latînî de bi H tên nîşandan nas bike;
+- H-ya [h] ji Ḧ-ya [ħ] cuda bike û nimûneyên wan bibîne;
+- bandora devokê li ser gotina H û Ḧ rave bike;
+- biryara nivîsîna standard a ku pirtûk pêşniyar dike fêm bike;
+- H wek dengekî qirrikî-xişok-nevizok-bêlerz binasîne;
+- J wek dengekî paşpidûyî-xişok-nevizok-bilerz binasîne;
+- peydabûna J û têkiliyên wê bi C، Ç، Z û Ş re şîrove bike.
+
+## 1. Du dengên cuda bi herfa H
+
+Di kurmanciya latînî de herdu deng bi herfa **H** tên nivîsîn، lê ji aliyê dengnasiyê ve ne heman deng in. Pirtûk wan bi du koman cuda dike.
+
+**Koma yekem — H [h]:** Ev deng di peyvên *her، heval، hêvî، hestî، bihar، guh* de tê bihîstin. Di alfabeya kurdî-erebî de bi هـ tê nîşandan. Di IPA de nîşana wê **[h]** e.
+
+**Koma duyem — Ḧ [ħ]:** Ev deng di peyvên *ḧal، ḧeram، ḧekîm، Ḧesen، reḧm* de tê bihîstin. Di alfabeya kurdî-erebî de bi ح tê nîşandan. Di IPA de nîşana wê **[ħ]** e؛ di hin nivîsên zanistî û tîpguhêzî de jî bi **ḥ** tê nîşandan.
+
+Pirtûk ji bo ku xwendekar di dema fêrbûna dengnasiyê de wan ji hev cuda bike، herfa **ḧ** (H-ya du nuqte li ser) ji bo dengê duyem bi kar tîne. Ev nîşan di vê dersê de alîkar e ku du dengên cuda bi hev re ne tevlihev bibin.
+
+## 2. Ḧ tenê di peyvên erebî de ye؟
+
+Gelek peyvên ku bi Ḧ tên gotin ji erebî hatine، wek *ḧeq، ḧed، ḧidûd، ḧurr، ḧemd، beḧr*. Lê pirtûk hişyar dike ku em nikarin bibêjin Ḧ tenê di peyvên erebî de heye.
+
+Di hin peyvên xwemalî yên kurdî de jî Ḧ heye:
+- *ḧeft* û peyvên jê çêbûyî wek *ḧefte، ḧeftî*؛
+- *teḧl / taḧl*؛
+- *zeḧf / zaḧf*.
+
+Di hin devokên kurmanciya navendî de peyvên *ḧemû، ḧezar، ḧirç، ḧiş، ḧeyşt، ḧijde* bi Ḧ tên gotin؛ lê di kurmanciya rojhilatî de hevberên wan bi H-ya asayî tên gotin: *hemî، hezar، hirç، hiş، heşt، hejde*. Ev cudahî nîşan dide ku devok dikarin di gotina heman peyvê de cuda bin.
+
+## 3. Guherîna Ḧ bi H û awayê nivîsînê
+
+Di çend peyvên ji erebî hatine de Ḧ carinan bûye H، an jî herdu awayên gotinê hene. Pirtûk nimûneyên van cotan dide:
+- *heq / ḧeq*؛
+- *heta / ḧeta*؛
+- *hêrs / ḧêrs*؛
+- *hewce / ḧewce*.
+
+Lê ev guherîn sînordar e؛ di gelek peyvên din de Ḧ diparêzire. Pirtûk destnîşan dike ku di nav peyvên xwemalî de cudahiya devokî girîng e: kurmanciya rojhilatî bi gelemperî H-ya asayî diparêze، lê kurmanciya navendî di hin peyvên xwemalî de Ḧ zêdetir bi kar tîne.
+
+**Biryara nivîsînê:** Ji bo nivîsîna normal û standard، pirtûk pêşniyar dike ku tenê herfa **H** were parastin. Wisa hemû kurmancîaxêv dikarin peyvan bi awayekî yekgirtî binivîsin، tevî ku di devokên xwe de H an Ḧ cuda bibêjin. Di ferheng û nivîsên dengnasiyê de، lê، cudahiya dengî divê bi awayekî zelal were nîşandan.
+
+## 4. H [h] — qirrikî-xişok-nevizok-bêlerz
+
+H-ya ku di *heval، hêja، hûn* de heye dengekî **qirrikî، xişok، nevizok û bêlerz** e. Cihê derketina wê li herêma qirrikê/gewriyê ye؛ hewa ji tengiyekê derbas dibe û xişînek çêdike. Di dema gotina wê de perdeyên dengî nalizerin. Nîşana wê ya IPA **[h]** e.
+
+Di alfabeya kurdî-erebî de bi هـ tê nivîsîn؛ di kurdî-krîlî de bi Һ/һ hatiye nîşandan. Di vê dersê de ev deng ji Ḧ-ya [ħ] cuda tê xwendin، herçend di nivîsîna asayî ya latînî de herdu bi H tên nivîsîn.
+
+### Peydabûna H di peyvan de
+
+H dikare li sê cihên peyvê were:
+- **Li destpêkê:** *har، heval، hêlîn، hinar، hogir، hûn*.
+- **Li navê:** *bihar، cahil، Dihok، guhar*.
+- **Li dawiyê:** *deh، reh، rekeh، meh*.
+
+Li gorî lêkolîna ku pirtûk jê vedigere، rêjeya herfa H di nivîsên kurmancî de 2,3% e. Ev hejmar herdu dengên ku bi H tên nivîsîn ji hev cuda nake. Di soranî de، berevajî kurmancî، H li dawiya peyvê bi gelemperî nayê parastin؛ pirtûk nimûneyên *deh/de، ceh/co، meh/mang، şah/şa* dide.
+
+## 5. Dîroka H û çavkaniyên wê
+
+Pirtûk çend çavkaniyên dîrokî ji bo H destnîşan dike. H di zimanên kurdî، zimanên cîran û gelek zimanên din de heye. Lê H-ya îroyîn di kurdî de her tim ji heman dengê kevn nehatiye.
+
+- Di hin peyvên îranî de H ji S-ya proto-hindûewropî ya berî vokalan hatiye؛ nimûneya hejmar **heft** e. Di gelek zimanên ne-îranî de li heman cihê S hatiye parastin، wek latînî *septem* û inglîzî *seven*.
+- Di hin peyvan de H li cihê D-ya navbera vokalan hatiye، an D ketiye؛ wek berawirdkirina *badam* bi formên kurdî yên *bahîv، behîv*.
+- H-ya destpêkê di hin peyvên kurmancî de zêde bûye. Pirtûk nimûneyên *hesp* li hember *esp*، *hejmar* li hember *jimare*، *hêştir* li hember *şotor* û *hesin* li hember *asin* dide.
+- Di hin peyvan de H piştî zêdebûna vokalekê ya destpêkê derketiye؛ wek rêza *stêr → istêrk → histêrk* û *sto → isto → histo* di hin devokan de.
+- H di hin peyvan de li cihê X-ya farisî an W-ya zimanên din jî xuya dibe؛ pirtûk nimûneyên *hişk، hirç* û *ceh* dide.
+
+Ev berawirdkirinên dîrokî alîkar in ku çavkaniyên dengê H bên nasîn؛ lê divê wek rêzikên nivîsîna îroyîn neyên bikaranîn.
+
+## 6. Guherînên H bi dengên din re
+
+Di têkiliyên navbera kurmancî û soranî de، H-ya kurmancî di hin peyvan de bi W tê berawirdkirin؛ wek:
+- kurmancî *hişk، hirç، hinda/winda*؛
+- soranî *wişk، wirç، win*.
+
+Pirtûk herwiha hin guherînên komdengan nîşan dide:
+- *tehl، pehn* li hember *tal، pan*؛
+- *mêhvan، mihman → mêvan*؛
+- *bêhn، bihn → bên، bîn*؛
+- *cih → cî*؛
+- *mih → mî*؛
+- *bih → bî*؛
+- *rih → rî*.
+
+Di hin peyvan de H dikare li cihê Ş-ya zimanên din were؛ wek *têhnî* li hember formên bi Ş، an *çehv* li hember *çeşm*. Di hin rewşan de jî H dikare bibe V، wek *şirove* ku pirtûk wê bi peyva erebî *şurûḧ* re girêdide.
+
+## 7. J — paşpidûyî-xişok-nevizok-bilerz
+
+Herfa **J** di kurdî-latînî de dengê **paşpidûyî، xişok، nevizok û bilerz** nîşan dide. Di dema çêkirina wê de ziman ji pidûyan paşvetir diçe؛ hewa di rêyeke teng de derbas dibe û xişînek çêdike. Perdeyên dengî dilerizin، ji ber vê yekê J bilerz e.
+
+Di IPA de nîşana wê **[ʒ]** e. Di kurdî-erebî û farisî de bi ژ tê nivîsîn؛ di kurdî-krîlî de bi Ж/ж hatiye nîşandan. Di hin zimanên din de bi Ž، ZH an J tê nivîsîn.
+
+Baldar be: J di kurmancî de [ʒ] e؛ lê di inglîzî de herfa J bi gelemperî dengê C-ya kurdî dide، û di almanî de J dikare dengê Y nîşan bide. Ji ber vê yekê navê herfê di zimanên cuda de her tim heman deng nîşan nade.
+
+## 8. Peydabûn û rêjeya J
+
+J dikare li destpêk، nav û dawiya peyvê were:
+- **Li destpêkê:** *jin، jiyan، jar، jajî، jehr*.
+- **Li navê:** *bajar، bejn، rijandin*.
+- **Li dawiyê:** *dirêj، roj، gêj*.
+
+Li gorî lêkolîna ku pirtûk jê vedigere، rêjeya J di nivîsên kurmancî de 2% e. Pirtûk destnîşan dike ku daçekên *ji، jê* û peyvên *jin، jiyan، jîn* di zêdekirina vê rêjeyê de roleke girîng hene. Ji bilî van peyvan، J di kurmancî de dengekî kêm e؛ di hin zimanên cîran de jî kêm e an qet tune ye.
+
+## 9. Çavkaniyên dîrokî yên J
+
+Pirtûk J wek dengekî ku di dîroka kurdî de ji gelek dengên din hatiye destnîşan dike. Di berawirdkirina zimanên kurdî û îranî de، di hin peyvên hevreh de ev rewş tê dîtin:
+- kurmancî û soranî: **J**؛
+- zazakî: **C**؛
+- farisî û pehlewî: **Z**؛
+- avestayî: **Ç/C**.
+
+Nimûneyên pirtûkê:
+- kurmancî/soranî *jin*؛ zazakî *cinî*؛ farisî/pehlewî *zen*؛
+- kurmancî/soranî *roj*؛ zazakî *roc*؛ farisî/pehlewî *rûz/roz*.
+
+Di hin peyvan de J dikare ji Ş an S-ya kevn hatiye؛ wek *hejmar/jimare/jimartin* li hember farisî *şumar*. Pirtûk herwiha nimûneyên *jidandin* ji *şidandin* û *cejn* li hember farisî *ceşn* dide.
+
+Di hin peyvên kurmancî de C jî dikare bibe J؛ wek *îca/îcar → îja/îjar* û *wicdan → wijdan*. Ev guherîn bi piranî dîrokî ye؛ divê wek rêzikeke ku her peyvê digire neyê fêmkirin.
+
+## 10. Guherîna J bi Ş re
+
+J dengekî bilerz e. Lê dema ku li pey wê dengekî bêlerz، wek T، were، J dikare ji ber bandora dengê bêlerz bibe Ş. Pirtûk vê guherîna dengî di formên lêkerî de nîşan dide:
+- rehê *-kuj-* + T → *kuşt*؛
+- rehê *-birêj-* + T → *biraşt*؛
+- rehê *-rêj-* + T → *rişt*.
+
+Di hin rewşan de K-ya bêlerz jî bandorê li J dike û wê diguherîne Ş:
+- kurmanciya navendî *kîjan* — kurmanciya rojhilatî *kîşk*؛
+- kurmancî *mejî/mêjî* — soranî *mêşk*.
+
+Di hin devokan de daçek *ji* dikare kurt bibe û J-ya wê bibe Ş؛ wek *ji malê → ş’malê*. Di soranî de *jî* ya kurmancî dikare bi *-îş* were berawirdkirin؛ wek *dest jî / destîş*.
+
+## 11. J di peyvên ji zimanên ewropî de
+
+Di peyvên nû yên ji zimanên ewropî hatine de J gelek caran tê dîtin. Pirtûk formên bi J wek formên serdest ên kurmancî destnîşan dike:
+- *biyolojî، jeolojî، jîlet، jîla، kronolojî، sosyolojî*.
+
+Di hin nivîsan de varyantên bi C an G jî xuya dibin:
+- bi C: *biyolocî، ceolocî، cîlet، cîla*؛
+- bi G: *biyologî، geologî، gîlet، gîla*.
+
+Ev varyant di pirtûkê de wek awayên nivîsînê yên cuda tên nîşandan؛ divê xwendekar forma serdest û standard ji formên alternatîf cuda nas bike.
+
+## 12. Berawirdkirina H û J
+
+| Taybetmendî | H [h] | J [ʒ] |
+|---|---|---|
+| Cihê derketinê | Qirrikî | Paşpidûyî |
+| Awayê derketinê | Xişok | Xişok |
+| Lerz | Bêlerz | Bilerz |
+| Nimûne | *heval، hêvî* | *jin، jiyan* |
+| Taybetmendî | Di nivîsîna standard de ji Ḧ cuda nayê nivîsîn | Di kurdî-latînî de dengekî taybet nîşan dide |
+
+**Bîr bîne:** H û Ḧ di dengnasiyê de cuda ne، lê di nivîsîna asayî ya latînî de pirtûk parastina herfa H-ê pêşniyar dike. J jî [ʒ] e، ne [d͡ʒ]؛ ew ji C-ya kurdî cuda ye.
+
+## Bîr bîne
+
+- H-ya *heval* [h] û Ḧ-ya *ḧeq* [ħ] du dengên cuda ne.
+- Ḧ di gelek peyvên erebî de heye، lê di hin peyvên xwemalî yên kurdî de jî tê dîtin.
+- Pirtûk ji bo nivîsîna normal، bikaranîna H-yekê pêşniyar dike؛ cudahiya dengî di ferheng û dersên dengnasiyê de were ravekirin.
+- H [h] qirrikî، xişok، nevizok û bêlerz e.
+- J [ʒ] paşpidûyî، xişok، nevizok û bilerz e.
+- J di dîrokê de bi C، Ç، Z، Ş û S re têkiliyên cuda hene؛ ev têkiliyên dîrokî ne، ne rêzikên nivîsîna hemû peyvan.
+- Di hin formên lêkerî de J li ber T dibe Ş، wek *kuşt*.
+
+## Çalakî û xwepirsîn
+
+**1. H an Ḧ؟** Di peyvên *heval، ḧeq، hêvî، ḧeft* de kîjan deng tê gotin؟ Cudahiya wan bi IPA rave bike.
+
+**2. Devok:** Çima *hemî/hemû*، *hezar/ḧezar* û *hirç/ḧirç* divê wek cudahiyên devokî bên xwendin؟
+
+**3. Nivîsîn:** Li gor pêşniyara pirtûkê، di nivîsîna normal de em H û Ḧ çawa binivîsin؟ Çima؟
+
+**4. Cihê H:** Ji nimûneyên *heval، bihar، meh* re bêje H li kîjan cihê peyvê ye.
+
+**5. Nasîna J:** J di IPA de bi kîjan nîşanê tê nivîsîn؟ Cudahiya wê bi C-ya kurdî çi ye؟
+
+**6. Berawirdkirina dîrokî:** Di cotên *jin/cinî/zen* û *roj/roc/rûz* de çi têkiliya dengî tê dîtin؟
+
+**7. Guherîna J:** Çima rehê *-kuj-* bi T re dibe *kuşt*، ne *kujt*؟
+
+**8. Peyvên nû:** Ji nimûneyên *biyolojî، jeolojî* û varyantên bi C/G re، kîjan awayê nivîsînê pirtûk wek serdest nîşan dide؟
+
+## Bersivên kurt
+
+1. *heval* û *hêvî*: H [h]؛ *ḧeq* û *ḧeft*: Ḧ [ħ] li gor nîşankirina dengnasî ya pirtûkê.
+2. Ji ber ku hin devok H-ya asayî û hin jî Ḧ dibêjin؛ ev cudahî di gotinê de ye.
+3. Di nivîsîna normal de H-yek tê bikaranîn، da ku nivîsîn yekgirtî bimîne؛ cudahiya dengî di fêrbûna dengnasiyê de tê ravekirin.
+4. *heval*: destpêk؛ *bihar*: nav؛ *meh*: dawî.
+5. [ʒ]؛ J dengekî paşpidûyî-xişok-bilerz e، C [d͡ʒ] paşpidûyî ye lê sekinî-xişok-bilerz e.
+6. Di hin peyvên hevreh de J-ya kurmancî/soranî bi C-ya zazakî، Z-ya farisî/pehlewî û Ç/C-ya avestayî re berawird dibe.
+7. Ji ber ku T bêlerz e û bandorê li J-ya bilerz dike، J dibe Ş: *-kuj- + T → kuşt*.
+8. Formên bi J wek *biyolojî، jeolojî* wek formên serdest tên nîşandan؛ formên bi C/G varyant in.
+
+## Têbînî ji bo pêşxistinê
+
+Ev ders ji rûpelên çapkirî 116–132 hatî nûdabeşkirin. Cudahiya fonetîkî ya H [h] û Ḧ [ħ]، formên devokî، etîmolojî û nîşanên IPA divê di pێداچوونەوەی dawî de rasterast bi çavkaniyê re bên kontrolkirin. Di nivîsîna normal de H-yekê biparêzin؛ Ḧ tenê ji bo ravekirina dengnasî û nimûneyên çavkaniyê hatiye bikaranîn. Dersa 11 ji rûpelên 133–146 li ser dengên K û L e.
