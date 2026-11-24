@@ -35,10 +35,10 @@ for lesson in lessons:
     assert designed["start"] <= designed["end"], f"invalid designed range in lesson {lesson['number']}"
     offset = pdf["frontMatterPages"] + lesson["number"]
     assert designed["start"] == printed["start"] + offset, f"designed start page mismatch in lesson {lesson['number']}"
-    expected_end = printed["end"] + offset + (1 if lesson["number"] == 14 else 0)
+    expected_end = printed["end"] + offset
     assert designed["end"] == expected_end, f"designed end page mismatch in lesson {lesson['number']}"
     if lesson["number"] == 15:
-        assert lesson.get("dividerPage") == 204, "Lesson 15 divider placement must remain explicitly documented until PDF is corrected"
+        assert lesson.get("dividerPage") == 204, "Lesson 15 divider must be documented at designed PDF page 204"
     n = lesson["number"]
     link = f'kurmanji-dengnasi-reader.html?lesson={n}'
     assert link in preview, f"missing preview link for lesson {n}"
