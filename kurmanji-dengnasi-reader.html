@@ -30,7 +30,7 @@ const requested=Number(params.get("lesson")||1);
 // Accept only whole lesson numbers; malformed or fractional query values safely open lesson 1.
 const current=Number.isInteger(requested)?Math.min(27,Math.max(1,requested)):1;
 const lesson=lessons[current-1];
-const pdfBase="https://raw.githubusercontent.com/avasinim/zanztkurd/main/Dengnasiya_Zimane_Kurdi_27_Wane.pdf";
+const pdfBase="https://raw.githubusercontent.com/avasinim/zanztkurd/main/Dengnasiya_Zimane_Kurdi_27_Wane_corrected.pdf";
 document.title=lesson.title+" — Dengnasîya Zimanê Kurdî";
 document.getElementById("lessonTitle").textContent=lesson.title;
 document.getElementById("lessonSubtitle").textContent="Dersa "+String(current).padStart(2,"0")+" ji 27 · Dengnasîya Zimanê Kurdî";
