@@ -12,14 +12,14 @@
   "status": "content-mapped; not yet published or connected to enrollment/runtime",
   "policy": "Preserve the source wording, examples, tables, and illustrations. The 27 divisions are editorial navigation only; do not add quizzes, questions, or exercises unless separately requested.",
   "designedPdf": {
-    "libraryFilename": "Dengnasiya_Zimane_Kurdi_27_Wane.pdf",
+    "libraryFilename": "Dengnasiya_Zimane_Kurdi_27_Wane_corrected.pdf",
     "pdfPages": 462,
     "frontMatterPages": 3,
     "lessonDividerPages": 27,
-    "repositoryUrl": "https://github.com/avasinim/zanztkurd/blob/main/Dengnasiya_Zimane_Kurdi_27_Wane.pdf",
-    "rawUrl": "https://raw.githubusercontent.com/avasinim/zanztkurd/main/Dengnasiya_Zimane_Kurdi_27_Wane.pdf",
-    "repositoryCommit": "ba6c58a34ef93d18497a0bdc22bea928a206faf7",
-    "repositoryPath": "Dengnasiya_Zimane_Kurdi_27_Wane.pdf"
+    "repositoryUrl": "https://github.com/avasinim/zanztkurd/blob/main/Dengnasiya_Zimane_Kurdi_27_Wane_corrected.pdf",
+    "rawUrl": "https://raw.githubusercontent.com/avasinim/zanztkurd/main/Dengnasiya_Zimane_Kurdi_27_Wane_corrected.pdf",
+    "repositoryCommit": "2bb75d04dc3a99c4044ded70f8d79f43b112ea31",
+    "repositoryPath": "Dengnasiya_Zimane_Kurdi_27_Wane_corrected.pdf"
   },
   "lessons": [
     {
