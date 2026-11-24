@@ -4933,3 +4933,246 @@ Ev guherînên dawî bi hejmareke kêm nimûneyan tên nîşandan û divê bi aw
 ## Têbînî ji bo pêşxistinê
 
 Ev ders ji rûpelên çapkirî 394–401 hatiye nûdabeşkirin. Berî belavkirinê divê formên zazakî, devokên cuda, nîşanên dengnasî û şîroveyên etîmolojîk bi pisporên zazakî re bên kontrolkirin. Çavkaniyê di hin beşan de cudahiyên devokî û îstîsna bi eşkereyî destnîşan dike; ji ber vê yekê dersê ev form wek rêzikên giştî yên bê îstîsna pêşkêş nake. Ev pêşnûse û hîn ne ji bo xwendekaran çalak e.
+
+
+---
+
+# Dersa 26 — Cudahiyên dengnasî di navbera kurmancî û tirkî de
+
+**Çavkaniya dersê:** rûpelên çapkirî 402–417.  
+**Dem:** 55–65 deqîqe.
+
+## Armancên fêrbûnê
+
+Di dawiya dersê de xwendekar dikare:
+- cudahiya berawirdkirina kurmancî bi zimanên hevmalbat û bi tirkî rave bike;
+- herfên hevpar û cudahiyên dengên vokal û konsonantan nas bike;
+- ahenga vokalan di tirkî de bi awayekî bingehîn şîrove bike;
+- cudahiyên pifdarî, qelewîtî, dengên H, lerz û komkonsonantan berawird bike;
+- cudahiya cotdengiya Ç, K, P û T û şîroveyên dîrokî yên çavkaniyê fêm bike.
+
+## 1. Çarçoveya berawirdkirinê
+
+Kurmancî û tirkî ji heman binemala zimanî ne. Ji ber vê yekê, peyvên hevpar di van herdu zimanan de bi gelemperî ne peyvên xwemalî yên hevreh in; gelek caran peyvên deynkirî ne. Ev yek rêbaza berawirdkirinê ji berawirdkirina kurmancî bi soranî an farisî cuda dike.
+
+Di vê dersê de em du aliyên sereke berawird dikin:
+1. deng û rêzên dengî yên ku di herdu zimanan de dikarin bên dîtin;
+2. awayê ku peyvên ji zimanên din wergirtî di kurmancî û tirkî de tên guhertin.
+
+Berawirdkirin alîkar e ku cudahiyên dengnasî bên nasîn, lê divê peyvên deynkirî bi peyvên xwemalî re tevlihev nekin.
+
+## 2. Alfabeya kurmancî û tirkî
+
+Herdu alfabeyan gelek herfên hevpar hene, lê hin herf tenê di yekê de hene. Di tabloya çavkaniyê de herfên kurmancî yên **Ê, Î, Q, W, X, Û** di alfabeya bingehîn a tirkî de nînin; herfên tirkî yên **Ğ, I, Ö, Ü** jî di alfabeya bingehîn a kurmancî de nînin.
+
+| Kurmancî | Tirkî |
+|---|---|
+| Ê | — |
+| Î | — |
+| Q | — |
+| W | — |
+| X | — |
+| Û | — |
+| — | Ğ |
+| — | I |
+| — | Ö |
+| — | Ü |
+
+Ev tablo tenê herfên alfabeyan berawird dike, ne dengên wan. Herfa hevşêwe dikare di herdu zimanan de dengên cuda nîşan bide. Herwiha hin herfên wek Â, Î û Û di hin peyvên tirkî de dikarin xuya bibin, lê ne beşek ji alfabeya bingehîn in.
+
+## 3. Vokalên kurmancî û tirkî
+
+Di herdu zimanan de pênc herfên vokal ên hevpar hene: **A, E, I, O, U**. Lê pergala dengên wan yek nîne. Kurmancî vokalên **Ê, Î, Û** jî heye; tirkî jî **I, Ö, Ü** wek vokalên xwe yên cuda bi kar tîne.
+
+Hin cudahiyên girîng:
+- **I** ya kurmancî û **I** ya tirkî heman deng nînin. I ya tirkî nêzî dengê kurmancî **I** ye ku di çavkaniyê de bi nimûneya *kırın* tê berawirdkirin.
+- **İ** ya tirkî nêzî Î ya kurmancî ye, lê kurtir e.
+- **U** ya tirkî bi gelemperî nêzî Û ya kurmancî ye.
+- **Ê** ya kurmancî di tirkîya standard de ne herf e û ne jî wek dengê vokalîk tê bikaranîn.
+- **Ö** û **Ü** di tirkî de dengên vokalîk in ku di kurmanciya giştî de wek wan tune ne; çavkaniyê dibêje ku di hin devokên kurdî de dengên nêzî wan dikarin hebin.
+
+Cudahiya dirêjî jî girîng e: di kurmancî de **A, Ê, Î, O, Û** dikarin dirêj bin; **E, I, U** kurt in. Di peyvên xwemalî yên tirkî de vokal bi gelemperî kurt in.
+
+## 4. Ahenga vokalan di tirkî de
+
+Tirkî xwedî rêgezeke dengnasî ye ku bi navê **ahenga vokalan** (*vowel harmony*) tê nasîn. Di peyvên xwerû de vokalên pêşîn bi vokalên pêşîn û vokalên paşîn bi vokalên paşîn re tên. Vokalên pêşîn ên tirkî **E, İ, Ö, Ü** ne; vokalên paşîn **A, I, O, U** ne.
+
+Ji ber vê rêbazê, di peyveke xwerû ya tirkî de bi gelemperî vokalên pêşîn û paşîn bi hev re nayên. Lê ev rêbaz bê îstîsna nîne: çavkaniyê peyva *anne* wek nimûneya peyveke ku A ya paşîn û E ya pêşîn dihewîne dide.
+
+Di kurmancî de, berevajî vê, vokalên cuda dikarin di heman peyvê de bi hev re bên. Ji ber vê yekê divê ahenga vokalan wek taybetmendiyeke tirkî fêm bikin, ne wek qanûneke giştî ya hemû zimanan.
+
+## 5. Konsonantên hevpar û cudahiyên wan
+
+Herfên **B, C, D, E, F, G, J, L, M, N, Ş, V, Y** di herdu zimanan de di çarçoveya çavkaniyê de wek hev tên nîşandan. Lê ev nayê wê wateyê ku hemû dengên konsonantîk di her du zimanan de tam wek hev in.
+
+Herfên **Q, W, X** di alfabeya kurmancî de hene, lê di alfabeya tirkî ya bingehîn de nînin. Herfa **Ğ** ya tirkî jî di alfabeya kurmancî de tune ye.
+
+Herwiha **Ç, H, K, L, P, Q, R, S, T, Z** di herdu zimanan de dikarin bi taybetmendiyên dengî yên cuda bên bilêvkirin. Ji ber vê yekê divê herfa hevpar wek delîla dengê hevpar neyê hesibandin.
+
+## 6. Pifdarî û bêpifî
+
+Di tirkî de dengên **Ç, K, P, T** li destpêka peyvê bi gelemperî bipif in. Li nav û dawiya peyvê bêpif dibin an jî pifdariya wan kêm dibe. Di tirkî de ev du awayên bilêvkirinê bi gelemperî fonemên cuda nînin; guherandina wan wateya peyvê naguherîne.
+
+Di kurmancî û zazakî de, berevajî vê, Ç, K, P û T dikarin li destpêka peyvê jî bipif an bêpif bin. Di hin peyvan de ev cudahî wateyê diguherîne. Çavkaniyê nimûneya **par** dide: P-ya bêpif wateya sala borî dide, lê P-ya bipif wateya beş an pişkê dide.
+
+Li nav û dawiya peyvên xwerû de ev deng di herdu zimanan de bi gelemperî bêpif in, lê îstîsna hene. Girîng e ku pifdarî bi dengdarî û bêdengiya konsonantê tevlihev nekin: pifdarî bi bayê zêde yê piştî berdana dengê ve girêdayî ye.
+
+## 7. K û cudahiya cihê derketinê
+
+Di tirkî de K berî vokalên paşîn **A, I, O, U** ji K ya kurmancî paştir di devê de tê çêkirin û nêzî Q ya kurmancî ye. Ji ber vê yekê hin peyvên ku bi K dest pê dikin dema ku ji tirkî an bi rêya tirkî tên wergirtin, di kurmancî de dikarin bi Q bên nivîsîn û gotin. Çavkaniyê nimûneyên *qamera, Amerîqa, qomîte* dide.
+
+Ev taybetmendî divê bi awayekî sînordar were fêmkirin: mijar li ser cihê derketina K berî vokalên paşîn e, ne li ser guherandina bê şert a her K-yekê.
+
+## 8. Qelewîtî û ziravîtî
+
+Di kurmancî de P û T dikarin bi qelewîtî û ziravîtî ji hev bên cudakirin. Çavkaniyê **T** ya di *te/tu* de wek zirav û T ya di *teng* de wek qelew dide; **P** ya di *pênc* de zirav û ya di *pez* de qelew e.
+
+Ev dubendî yek ji aliyên ku P û T ya kurmancî ji yên tirkî cuda dike. Di tirkî de S û Z bi gelemperî li gorî vokala piştî xwe zirav an qelew dibin: berî vokalên pêşîn zirav û berî vokalên paşîn qelew in. Di kurmancî de qelewîtî û ziravîtî ne tenê bi vokala piştî dengê ve girêdayî ye. Çavkaniyê nimûneyên *ser* û *sed* dide: herdu peyv E ya piştî S hene, lê S di yekê de zirav û di ya din de qelew e.
+
+## 9. Dengê H
+
+Dengê H di kurmancî û tirkî de bi gelemperî nêzî hev e. Lê kurmancî dengê H-yeke din jî di hin peyvan de heye, bi taybetî di hin peyvên ji erebî wergirtî de, wek *Ehmeq, heram, helal, ruh*. Çavkaniyê herwiha peyvên xwemalî yên wek *heft, tehl, pehn* jî dide.
+
+Li gorî çavkaniyê, ev awayê duyem ê H di tirkî de peyda nabe. Ji ber vê yekê herdu awayên H divê wek yek deng neyên hesibandin.
+
+## 10. L erz û bêlerzî
+
+Di dema derketina dengên **bilerz** de perdeyên dengî yên gewriyê dilerizin; di dengên **bêlerz** de nelizerin. Herdu zimanan cotên bilerz û bêlerz hene:
+
+| Bêlerz | Bilerz |
+|---|---|
+| P | B |
+| T | D |
+| K | G |
+| S | Z |
+| Ş | J |
+| F | V |
+| Ç | C |
+| X | Q |
+
+Li gorî çavkaniyê, X û Q di vê rêzê de tenê di kurmancî de hene. Di kurmancî de dengên bilerz û bêlerz dikarin li destpêk, nav û dawiya peyvê bên dîtin û guherandina wan dikare wateyê biguherîne.
+
+Di tirkî de, bi gelemperî di dawiya peyvê de dengên bêlerz tên dîtin. Ji ber vê yekê hin peyvên deynkirî yên ku di zimanê jêder de bi dengê bilerz diqedin, di tirkî de bi dengê bêlerz tên gotin. Çavkaniyê van nimûneyan dide: *kitêb → kitap*, *hudûd → hudut*, *reng → renk*, *aktîv → aktîf*.
+
+Lê ev şert di tirkî de jî bê îstîsna nîne. Peyvên wek *saz* û *ad* dengên bilerz li dawiyê diparêzin. Ji ber vê yekê di nivîsandina peyvên deynkirî de divê formên kurdî bi bêpêdivî li gorî bilêvkirina tirkî neguherînin; çavkaniyê formên *aktîv* û *standard* wek awayên ku divê di kurdî de bên parastin nîşan dide.
+
+## 11. Guherîna dengê li gorî dengê cîran
+
+Çavkaniyê cudahiyeke girîng di rêjeya bandora dengên cîran de destnîşan dike. Di kurmancî de dengê paştir dikare dengê pêştir biguherîne; di tirkî de jî di hin pêvajoyan de dengê pêştir li ser dengê paştir bandorê dike.
+
+Nimûneyên çavkaniyê:
+- Di kurmancî de **ne-kuj-e + T → ne-kuşt**: J ya bilerz berî T ya paştir dibe Ş ya bêlerz.
+- **heft + deh → hevde(h)**: di pêvajoyê de T dikeve û F ya bêlerz li ber D ya bilerz dibe V.
+- Di tirkî de **kitap + da → kitapta**: P ya bêlerz ya *kitap* D ya bilerz ya paşê dike T ya bêlerz.
+
+Ev nimûne nîşan didin ku bandora dengên cîran di herdu zimanan de dikare bi awayên cuda bixebite.
+
+## 12. Komkonsonant di kurmancî û tirkî de
+
+Di kurmancî de komên du konsonantan dikarin li destpêka kîteyê û herwiha li dawiya kîteyê bên. Mînakên çavkaniyê: *standin, spî, şkeft* li destpêkê; *dest, çend, bext, reng* li dawiyê.
+
+Di peyvên xwemalî yên tirkî de komkonsonant li destpêka peyvê nayên dîtin. Li dawiya kîteyê jî kêm in, lê peyvên wek *alt* û *üst* hene.
+
+Tirkî di peyvên deynkirî de komkonsonantên dawiyê qebûl dike, lê di hin deynkirinên kevntir de ji bo komên destpêkê vokalek li pêş tê zêdekirin. Çavkaniyê *station → istasyon* û *statistique → istatistik* wek nimûne dide. Di peyvên nûtir de komên destpêkê dikarin bên parastin, wek *studyo* û *standart*.
+
+Kurmancî ji ber ku di peyvên xwemalî de jî komkonsonantên destpêkê hene, ne hewce ye ku her tim vokalek li pêş peyvên wek *stasyon* û *statîstîk* zêde bike. Lê wergirtina peyvên Ewropî dikare komên konsonantî yên nû jî bixe nav zimanê kurdî.
+
+## 13. Cotdengiya Ç, K, P û T: taybetmendiyek kurmancî û zazakî
+
+Çavkaniyê cotdengiya Ç, K, P û T wek taybetmendiyeke kurmancî û zazakî destnîşan dike. Di van zimanan de awayên bipif û bêpif dikarin fonemên cuda bin û wateya peyvê biguherînin. Di soranî, kurdiya başûrî, farisî û tirkî de ev cotdengî bi heman awayî li destpêka peyvan tune ye.
+
+Çavkaniyê nimûneyên kurmancî yên bipif û bêpif wiha berawird dike:
+
+| Deng | Bipif (req) | Bêpif (nerm) |
+|---|---|---|
+| Ç | çar | çav |
+| K | kar | kirin |
+| P | perde | pênc |
+| T | taze / teze | tû |
+
+Di vê beşê de armanc tenê nasîna cotdengiyê nîne; çavkaniyê li ser sedem û dîroka peydabûna wê jî dipirse.
+
+## 14. Şîroveya dîrokî: tesîra ermenî?
+
+Di çavkaniyê de tê gotin ku hin lêkolîner cotdengiya Ç, K, P û T bi tesîra ermenî û zimanên Kafkasyayê ve girê didin, ji ber ku di wan zimanan de jî dengên bipif û bêpif hene.
+
+Lê nivîskar vê şîroveyê bi pirsan dixe bin lêkolînê: heke ermenî ji xwe herdu awayên dengên bipif û bêpif hebin, çima divê axêverên ermenî di peyvên kurdî de dengên bipif biguherînin û bikin bêpif? Herwiha çima ev guherîn divê tenê di hin peyvên îranî de çêbibe, ne di hemûyan de?
+
+Nivîskar ji van pirsan encam digire ku tesîra ermenî wek sedema sereke ya cotdengiyê ne bi delîlên têr piştrast e. Ev nêrîna nivîskar e; divê wek rastiyeke dîrokî ya bêniqaş neyê pêşkêşkirin.
+
+## 15. Şîroveya din: tesîra farisî, erebî û tirkî
+
+Çavkaniyê îhtîmal dide ku zêdebûna peyvên deynkirî yên bi Ç, K, P û T yên bipif li destpêkê, bi bandora farisî, erebî û tirkî re girêdayî be. Di van zimanan de ev deng li destpêka peyvan bi gelemperî bipif in. Gava ku peyvên nû bi van dengên bipif dikevin kurmancî, awayê bipif jî dikare bi wan re were wergirtin.
+
+Çavkaniyê cotên peyvên hevreh wek van dide:
+- *çav* ya kevn û bêpif li hember *çeşme* ya nûwergirtî û bipif;
+- *kirin* li hember *kar*;
+- *pîvan* li hember *peyman*.
+
+Li gorî şîroveya nivîskar, peyvên bêpif ên xwemalî kevntir in, lê hin peyvên bipif ji farisî an bi rêya tirkî nû ketine kurmancî. Herwiha di hin deveran de peyvên xwemalî jî di bin bandora bilêvkirina zimanên cîran de bi awayê bipif tên gotin.
+
+## 16. Bêpifî û pêşketina wê
+
+Nivîskar pêşniyar dike ku bêpifî di kurmancî û zazakî de dibe ku ji nav û dawiya peyvê ber bi destpêka peyvan belav bûbe. Ew vê yekê bi **aborîtiya zimanî** rave dike: dengên bêpif dikarin bi xerckirina hêza kêmtir bên derxistin.
+
+Li gorî vê texmînê, di qonaxeke kevntir de Ç, K, P û T li destpêka peyvan bi gelemperî bipif bûn, lê bêpifî paşê ji nav û dawiya peyvê ber bi destpêkê belav bû. Belkî ermenî an zimanên Kafkasyayê wek model alîkar bûbin, lê nivîskar vê yekê wek îhtîmal pêşkêş dike, ne wek tiştekî ku bi delîlên dîrokî hatiye îsbatkirin.
+
+Nivîskar herwiha dibêje ku tesîra farisî, tirkî û zimanên cîran dikare dîsa peyvên bipif zêde bike. Herdu awayên bipif û bêpif heta niha di kurmancî û zazakî de hene.
+
+## Bîr bîne
+
+- Kurmancî û tirkî ji heman binemala zimanî ne; berawirdkirina wan bi berawirdkirina kurmancî û farisî an zaravên kurdî cuda ye.
+- Herfên hevpar ne wateya dengên herdem wek hev dide.
+- Kurmancî û tirkî di vokal, dirêjî û ahenga vokalan de cuda ne.
+- Pifdarî, qelewîtî, H û lerz di herdu zimanan de bi awayên cuda tên bikaranîn.
+- Tirkî di peyvên xwemalî de komkonsonantên destpêkê bi gelemperî qebûl nake; kurmancî dikare wan biparêze.
+- Cotdengiya Ç, K, P û T di kurmancî û zazakî de taybetmendiyeke girîng e.
+- Şîroveyên dîrokî yên çavkaniyê hinek caran texmîn in; divê wek rastiyên bêniqaş neyên pêşkêşkirin.
+
+## Çalakî û xwepirsîn
+
+**1.** Çima berawirdkirina kurmancî û tirkî ji berawirdkirina kurmancî û soranî cuda ye?
+
+**2.** Sê herfên vokal ên kurmancî ku di alfabeya bingehîn a tirkî de nînin binivîse; paşê sê vokalên tirkî yên ku di kurmancî de nînin binivîse.
+
+**3.** Ahenga vokalan di tirkî de çi ye? Vokalên pêşîn û paşîn binav bike.
+
+**4.** Çima herfa I ya kurmancî û ya tirkî divê wek heman deng neyên hesibandin?
+
+**5.** Pifdarî di Ç, K, P û T de di tirkî û kurmancî de çi cudahî heye?
+
+**6.** Qelewîtî û ziravîtî ya P û T di kurmancî de bi du nimûneyan rave bike.
+
+**7.** Çima *ser* û *sed* ji bo ravekirina qelewîtî û ziravîtiya S girîng in?
+
+**8.** Cotên bilerz û bêlerz ên P/B, T/D û S/Z binivîse. Çima şertê bêlerziya dawiya peyvê di tirkî de girîng e?
+
+**9.** Komkonsonantên destpêkê di kurmancî û tirkî de çawa tên berawirdkirin? Nimûneyên *stasyon/istasyon* rave bike.
+
+**10.** Çima cotdengiya Ç, K, P û T wek taybetmendiyeke kurmancî û zazakî tê pêşkêşkirin?
+
+**11.** Nivîskar çima şîroveya tesîra ermenî wek sedema sereke ya cotdengiyê bi pirsan dixe bin lêkolînê?
+
+**12.** Şîroveya nivîskar li ser bandora peyvên deynkirî yên farisî, erebî û tirkî çi ye?
+
+**13.** Çima divê texmîna belavbûna bêpifiyê ji nav û dawiya peyvê ber bi destpêkê wek texmîn were pêşkêşkirin?
+
+## Bersivên kurt
+
+1. Ji ber ku kurmancî û tirkî ne ji heman binemala zimanî ne; peyvên hevpar bi gelemperî deynkirî ne, ne peyvên xwemalî yên hevreh.
+2. Kurmancî: Ê, Î, Û. Tirkî: I, Ö, Ü (di nivîsîna tirkî de İ û I du herfên cuda ne).
+3. Vokalên pêşîn E, İ, Ö, Ü ne; yên paşîn A, I, O, U ne. Di peyvên xwerû de bi gelemperî her kom bi heman celebê vokalan re tê.
+4. Dengên wan cuda ne; I ya tirkî nêzî I ya kurmancî ye, lê İ ya tirkî nêzî Î ya kurmancî ye.
+5. Di tirkî de Ç, K, P, T li destpêka peyvê bi gelemperî bipif in û ev cudahî bi gelemperî fonemîk nîne; di kurmancî de dikare wateyê biguherîne.
+6. T ya *te/tu* zirav û T ya *teng* qelew e; P ya *pênc* zirav û P ya *pez* qelew e.
+7. Herdu peyv E ya piştî S hene, lê S di *ser* de zirav û di *sed* de qelew e; qelewîtî tenê bi vokala piştî xwe ve nayê ravekirin.
+8. P/B, T/D, S/Z. Di tirkî de dengên bêlerz bi gelemperî li dawiya peyvê tên; peyvên deynkirî dikarin dengên bilerz biguherînin.
+9. Kurmancî komên destpêkê di peyvên xwemalî de jî hene; tirkî di hin deynkirinên kevntir de vokalek li pêş komê zêde kiriye, wek *istasyon*.
+10. Ji ber ku di kurmancî û zazakî de awayên bipif û bêpif dikarin fonemên cuda bin û wateyê biguherînin; di zimanên berawirdkirî de ev taybetmendî bi heman awayî tune ye.
+11. Ji ber ku ermenî ji xwe herdu awayên bipif û bêpif hene; nivîskar dipirse çima axêverên ermenî divê dengên bipif ên kurdî biguherînin, û çima guherîn tenê di hin peyvan de çêbibe.
+12. Peyvên nûwergirtî yên bi dengên bipif dikarin rêjeya dengên bipif zêde bikin; bandora bilêvkirina zimanên cîran dikare hin peyvên xwemalî jî biguherîne.
+13. Ji ber ku nivîskar vê yekê wek texmîneke dengnasî pêşkêş dike û delîlên dîrokî yên ku wê bi temamî îsbat bikin tune ne.
+
+## Têbînî ji bo pêşxistinê
+
+Ev ders ji rûpelên çapkirî 402–417 hatiye nûdabeşkirin. Berî belavkirinê divê pergala herfên tirkî (bi taybetî cudahiya I/İ), nîşanên dengnasî, nimûneyên deynkirinê, şertên ahenga vokalan û şîroveyên dîrokî bi pisporên tirkî û kurmancî re bên kontrolkirin. Şîroveya cotdengiya Ç, K, P û T di çavkaniyê de bi awayê nêrîna nivîskar hatiye pêşkêşkirin; divê di dersê de wek hîpotez û nîqaş were parastin, ne wek rastiyeke dîrokî ya qetî. Ev pêşnûse ye û hîn ne ji bo xwendekaran çalak e.
