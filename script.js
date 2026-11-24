@@ -18,7 +18,7 @@
     [/نییە/g,"نیە"],
     [/ییی/g,"یی"],
     [/وو/g,"و"],
-    [/دەستپێکردن/g,"دەست‌پێ‌کردن"]
+    [/دەستپێکردن/g,"دەست‌پێ‌کردن"],
     [/پێکرد/g,"پێ‌کرد"]
   ];
   const normalizeAvasinText = value => replacements.reduce((text,[pattern,replacement])=>text.replace(pattern,replacement),value);
