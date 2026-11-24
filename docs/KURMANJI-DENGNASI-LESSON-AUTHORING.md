@@ -2438,4 +2438,4 @@ Têkiliya T û Ç di hin peyv û devokan de tê dîtin. Lê ev yek ne wateya wê
 
 ## Têbînî ji bo pêşxistinê
 
-Ev ders ji beşa Ş û T ya çavkaniyê, rûpelên çapkirî 187–202, hatiye nûdabeşkirin û wek materyala fêrbûnê hatiye rêkxistin; ne kopîkirina PDF e. Berî belavkirinê divê nîşanên fonetîk, şertên pifdarî, nimûneyên T-ya zirav/qelew û hemû guherînên dîrokî rasterast bi nivîsa çapkirî re bên kontrolkirin. Hin nimûneyên dîrokî li vir bi awayekî giştî hatine kurtkirin; ji bo پێشکەشکردنی وانەی تەواو پێویستە وردەکارییەکانیان لە سەرچاوەوە پشتڕاست بکرێنەوە.
+Ev ders ji beşa Ş û T ya çavkaniyê, rûpelên çapkirî 187–202, hatiye nûdabeşkirin û wek materyala fêrbûnê hatiye rêkxistin; ne kopîkirina PDF e. Berî belavkirinê divê nîşanên fonetîk, şertên pifdarî, nimûneyên T-ya zirav/qelew û hemû guherînên dîrokî rasterast bi nivîsa çapkirî re bên kontrolkirin. Hin nimûneyên dîrokî li vir bi awayekî giştî hatine kurtkirin; ji bo amadekirina dersê ya dawî, pêdivî ye hûrgiliyên wan rasterast ji çavkaniyê werin piştrastkirin.
