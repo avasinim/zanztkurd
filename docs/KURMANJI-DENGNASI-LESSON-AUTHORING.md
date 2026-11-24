@@ -2988,12 +2988,7 @@ Di hin peyvan de A-ya kevn di kurmancî de bûye Ê. Berawirdkirina ziman û zar
 - kurmanciya navendî *hêsan* — farisî *asan*; di hin formên kurmanciya rojhilatî de *sanahî*;
 - kurmancî *kêr* — soranî *kêrd*; zazakî, hewramî û farisî *kard*; belûçî *karç*; pehlewî *kart*.
 
-Di hin peyvên ji erebî wergirtî de jî A-ya zimanê çavkaniyê di kurmancî de bi Ê tê nîşandan: *fêris, kitêb, fêkî/fêqî*. Herwiha cotdengên wek **-ey-** û **-ye-** dikarin di pêvajoya tekdengkirinê de bibin Ê:
-- *keyf* → *kêf*;
-- *deyr* → *dêr*;
-- *yem* → *êm*.
-
-Di hin rewşan de **-ai-** jî dibe Ê, wek *faide* → *fêde*. Ev nimûne nîşan didin ku guherîna dengî dikare ji çavkaniya peyvê û pêvajoya dîrokî ve girêdayî be.
+Di hin peyvên ku cotdengên **EY/YE** tê de hene, ev cotdeng di pêvajoya tekdengkirinê de dibin Ê. Ev guherîn di beşa E de bi nimûneyên çavkaniyê tê şîrovekirin; divê ew bi guherîna A-ya kevn re neyê tevlihevkirin.
 
 ### 2.2. Guherîna devokî
 
@@ -3060,9 +3055,9 @@ Di hin peyvan de E dikare bi A were guhertin, bi taybetî dema ku konsonantek ji
 ### 4.2. Tekdengkirina cotdengan
 
 Hin cotdeng dikarin bibin vokaleke yekgirtî:
-- **EW/WE → O:** *xewx → xox*; *şewr → şor*; soranî *xo, xweş* li hemberî kurmancî *xwe, xweş*.
+- **EW/WE → O:** *xewx → xox*; *şewr → şor*; soranî *xo, xoş* li hemberî kurmancî *xwe, xweş*.
 - **EH → A:** *tehl → tal*, *pehn → pan*, *mehr kirin → mar kirin*.
-- **EY/YE → Ê:** *keyf → kêf*, *beyder → bêder*, *ceyş → cêş*.
+- **EY/YE → Ê:** *keyf → kêf*, *bêder* (ji *beyder*), *cêş* (ji *ceyş*) û *êm* (ji tirkî *yem*).
 
 Di hin peyvên ji erebî wergirtî de Eyn û E jî dikarin bi hev re bibin A:
 - *'elef* → *alif*;
