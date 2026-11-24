@@ -239,3 +239,106 @@ Bo nimûne، M dulêvî û bêvilî ye؛ P dulêvî، sekinî û bêlerz e؛ B j
 ## Têbînî ji bo pêşxistinê
 
 Ev ders ji rûpelên 8–15 hatî nûdabeşkirin. Berî bڵاوکردنەوە، divê nîşanên fonetîk، navên anatomîk û hemû nimûneyên dengî bi orîjînala pirtûkê re careke din bên kontrolkirin. Dersa 3 ji rûpelên 16–28 li ser hevdengî û pirdengî ye.
+
+
+
+---
+
+# Dersa 3 — Hevdengî û pirdengî di nivîsîna kurdî de
+
+**Çavkaniya dersê:** rûpelên çapkirî 16–28.  
+**Dem:** 30–35 deqîqe.
+
+## Armancên fêrbûnê
+
+Di dawiya dersê de xwendekar dikare:
+- hevdengî û pirdengî ji hev cuda bike;
+- rave bike ka çawa herfên cuda dikarin heman deng bidin;
+- rave bike ka çawa herfek dikare ji bo zêdetir ji dengekî were bikaranîn;
+- nimûneyên taybet ên U/W û R/RR nas bike;
+- hin herfên yekdeng û pirdeng di kurmanciya latînî de nas bike.
+
+## 1. Herf û deng her tim yek tişt nînin
+
+Di nivîsînê de herf nîşaneke nivîskî ye؛ deng tişta ku em dibêjin û dibihîzin e. Di hin zimanan de têkiliya herf û dengê wê yek-bi-yek nîne. Ji ber vê yekê divê em cudahiya navbera herf û dengê wê biparêzin.
+
+Pirtûk bi nimûneyên inglîzî dest pê dike: di *cent* de C dengê [s] dide، lê di *computer* de dengê [k] dide. Ev nimûne nîşan dide ku heman herf dikare di peyvên cuda de dengên cuda nîşan bike.
+
+## 2. Hevdengî çi ye؟
+
+**Hevdengî** (*homophony*) di vê mijarê de rewşek e ku dengekî yek bi herf an komeherfên cuda tê nivîsîn. Di nimûneya inglîzî de dengê [f] di *five* de bi F، lê di *philosophy* de bi PH tê nivîsîn.
+
+Li gorî ravekirina pirtûkê، di alfabeya kurdî-latînî û kurdî-erebî de wek prensîp hevdengî ne bingeh û rêbaza sereke ye؛ nivîsîn bi piranî li gor dengê peyvê tê hilbijartin. Lê di navên taybet ên biyanî de dikare awayê nivîsîna zimanê jêder were parastin. Bo nimûne، di navên *George* û *John* de dengê destpêkê bi G û J hatiye nivîsîn؛ ev awayên nivîsîna navên biyanî ne.
+
+Pirtûk herwiha behsa hin rewşên taybet dike:
+- **U/W:** di hin peyvên wek *xwe, xwê, xwîn* de W dengê [u] nîşan dide؛ lê di *welat* û *bawer* de W dengê konsonantî [w] ye.
+- **R/RR:** hin nivîser R-ya şidandî bi R-yekê û hin bi RR dinivîsin. Lê ev tercîha nivîsînê ye، ne delîla hebûna du herfên ku bi rêkûpêk heman dengê cuda nîşan didin.
+
+## 3. Pirdengî çi ye؟
+
+**Pirdengî** (*polyphony*) ew e ku heman herf ji bo nîşandana du an zêdetir dengan tê bikaranîn. Pirtûk dibêje ku ev taybetmendî di kurmanciya latînî de berbelav e.
+
+Li gorî dabeşkirina pirtûkê، di kurmanciya giştî de van konsonantan bi piranî yekdeng têne hesibandin:
+
+**B, C, D, F, G, J, M, N, Q, Ş, V, Y**
+
+Her yek ji wan di peyv û navên kurdî yên cihgirtî de bi piranî heman dengî nîşan dide.
+
+Van herfan jî pirtûk wek herfên pirdeng destnîşan dike:
+
+**Ç, H, K, L, P, R, S, T, (W), X, Z**
+
+Ev dabeşkirin nîşan dide ku di xwendina kurmancî de divê mirov tenê li herfê nenêre؛ divê peyv û cihê dengê wê jî li ber çavan bigire.
+
+## 4. Nimûneyên pirdengiyê
+
+Pirtûk di rûpelên 21–28 de çend nimûneyên bingehîn pêşkêş dike:
+
+- **R:** di kurmancî de R dikare dengê şidandî û dengê sist nîşan bide. Di destpêka peyvê de *rast, rev, rê* wek nimûne tên; di nav û dawiya peyvê de *agir, baran, mêr*.
+- **H:** herfa H dikare du dengên ji hev cuda nîşan bide؛ nimûne: *heval* û *heft*.
+- **S:** S dikare dengê zirav û dengê qelew nîşan bide؛ nimûne: *ser* û *sed*.
+- **X:** X dikare dengê [x] û dengê [ɣ] nîşan bide؛ nimûne: *xal* û *bax*.
+- **Z:** Z dikare dengê zirav û dengê qelew nîşan bide؛ nimûne: *zêr* û *zanîn*.
+- **L:** L dikare zirav an qelew be؛ nimûne: *lawik* û *silav*.
+- **W:** li hin peyvan dengê konsonantî [w] dide، lê di komên wek XW de dikare dengê [u] nîşan bide.
+
+Ev nimûne tenê destpêka nasîna herfan e؛ hûrgiliyên her dengê di dersên taybet ên paşê de tên xwendin.
+
+## 5. Çima ev cudahî girîng e؟
+
+Hevdengî û pirdengî bandorê li xwendin û nivîsînê dikin. Heke xwendekar nizanibe ku herfek dikare çend dengên cuda nîşan bide، dibe ku peyvek xelet bixwîne. Herwiha heke wî nizanibe ku dengek dikare bi awayên cuda were nivîsîn، dibe ku cihê herfê û dengê wê tevlihev bike.
+
+Ji ber vê yekê divê xwendekar:
+1. herfê nas bike؛
+2. dengê wê di peyva taybet de bibihîze؛
+3. nimûneyên din ên heman herfê li ber çavan bigire؛
+4. ji bo cudakirina deng û herfê tenê xwe dispêre alfabeyê neke.
+
+## Bîr bîne
+
+- Herf nîşana nivîskî ye؛ deng tişta ku tê gotin û bihîstin e.
+- Hevdengî: dengek dikare bi herfên cuda were nivîsîn.
+- Pirdengî: herfek dikare ji bo çend dengan were bikaranîn.
+- Di kurmanciya latînî de gelek herf yekdeng in، lê Ç، H، K، L، P، R، S، T، W، X û Z dikarin pirdeng bin.
+- Nimûneyên U/W û R/RR divê bi baldarî bên fêmkirin؛ her guherîna nivîsînê nayê wateya hebûna hevdengiyê.
+
+## Çalakî û xwepirsîn
+
+**1. Têgehên bingehîn:** Bi gotinên xwe cudahiya hevdengî û pirdengiyê rave bike.
+
+**2. Dabeşkirin:** Herfa H di koma yekdeng de ye an pirdeng؟ Bersiva xwe bi nimûneyên *heval* û *heft* piştrast bike.
+
+**3. Nimûne:** Di peyvên *xwe* û *welat* de W heman dengê dide؟ Çima؟
+
+**4. Rast an şaş:** “Her ku peyvek bi R an RR were nivîsîn، divê ew du dengên cuda bin.” Bersiva xwe rave bike.
+
+## Bersivên kurt
+
+1. Hevdengî: dengek bi herfên cuda tê nivîsîn؛ pirdengî: herfek çend dengan nîşan dide.
+2. H pirdeng e؛ di *heval* û *heft* de du dengên cuda nîşan dide.
+3. Na؛ di *xwe* de W dikare [u] nîşan bide، lê di *welat* de [w] ye.
+4. Şaş؛ R/RR di nimûneyên pirtûkê de bi piranî tercîha nivîsînê ye، ne du dengên cuda.
+
+## Têbînî ji bo pêşxistinê
+
+Ev ders ji rûpelên 16–28 hatî nûdabeşkirin. Pirtûk di heman beşê de dest bi ravekirina Ç، K، P û T jî dike؛ lê ji ber ku wan dengên pirdeng hûrgilî û mijarên zêde hene، wan di dersên paşîn de bi serbixwe û bi nimûneyên xwe yên rast divê were xwendin.
