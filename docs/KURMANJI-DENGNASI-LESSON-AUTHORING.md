@@ -1007,7 +1007,7 @@ Pirtûk herwiha hin peyvên ku D di wan de zêde bûye dide، wek *qalind، mind
 
 ## 5. Berawirdkirina çar dengên dersê
 
-| Deng | Cih û awayê derketinê | L erz |
+| Deng | Cih û awayê derketinê | Lerz |
 |---|---|---|
 | B | Du-lêvî، seknî | Bilerz |
 | C | Paşpidûyî، xişok | Bilerz |
