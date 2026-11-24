@@ -1760,7 +1760,7 @@ Di hin peyvên xwemalî yên kurdî de, M-ya kevn piştî vokalan li nav an dawi
 Nimûneyên pirtûkê:
 - kurmancî *nav* — soranî *naw*; bi farisî û zazakî *nam* re berawird bike.
 - kurmancî *gav* — soranî *(hen)gaw*; bi farisî û zazakî *gam* re berawird bike.
-- kurmanciya rojhilatî *nivêj* — soranî *niwêj*; bi zazakî *nimac* û farisî *nemaz* re berawird bike.
+- kurmanciya rojhilatî *nivêj* — soranî *niwêj*; bi zazakî *nimac* û farisî *nemaz* re berawird bike. Di kurmanciya navendî û rojavayî de forma *nimêj* M diparêze; pirtûk ihtîmala parastinê di bin bandora zimanên cîran de an vegerandina M-ê jî destnîşan dike.
 
 Ev guherîn rêzikeke giştî ya bêistisna nîne. Piştî konsonantan M bi gelemperî diparêze; ji ber vê yekê di *germ* de M nemaye ku bibe V an W. Di *genim* de jî M hatiye parastin, ji ber ku di qonaxa dîrokî ya peyvê de dengên D/T li pey wê hebûne.
 
@@ -1793,7 +1793,7 @@ Di kurmancî de, herçend N berî G an K were, G/K jî tê gotin. Ji ber vê yek
 - kurmancî **NG** bi gelemperî [ŋg] e;
 - di hin devokên başûrî de dengên herdu herfan dikarin dihev bibin û [ŋ] bimîne.
 
-Ev cudahî ya dengdanê ye; divê xwendekar wê ji awayê nivîsîna NG cuda bigire.
+Ev cudahî ya dengdanê ye; divê xwendekar wê ji awayê nivîsîna NG cuda bigire. Di kurmancî de N berî G an K dikare bandora cihê derketinê bistîne û wek dengekî ban-devî [ŋ] were bilêvkirin, lê G/K ya pişt wê hîn tê gotin; ji ber vê yekê komdeng [ŋg] dimîne.
 
 ## 8. Guherîna N bi M re
 
