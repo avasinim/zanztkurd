@@ -1,19 +1,25 @@
 /* ===== Avasin Standard — global visible-text spelling ===== */
 (function(){
   const replacements = [
-    [/نووسراوە/g,"نوسراوە"],
+    [/نووسراوە/g,"نوسراو"],
+    [/نووسراو/g,"نوسراو"],
+    [/نووسەر/g,"نوسەر"],
     [/نووسینی/g,"نوسینی"],
     [/نووسین/g,"نوسین"],
     [/فێربوون/g,"فێربون"],
     [/هەموو/g,"هەمو"],
     [/نموونە/g,"نمونە"],
-    [/پەیویست/g,"پێویست"],
+    [/کردووە/g,"کردوە"],
+    [/پێویست/g,"پەیویست"],
     [/بەرامبەر/g,"بەرابەر"],
     [/ڕوون/g,"ڕون"],
     [/ناوەڕۆک/g,"نێوەڕۆک"],
     [/چییە/g,"چیە"],
     [/نییە/g,"نیە"],
+    [/ییی/g,"یی"],
+    [/وو/g,"و"],
     [/دەستپێکردن/g,"دەست‌پێ‌کردن"]
+    [/پێکرد/g,"پێ‌کرد"]
   ];
   const normalizeAvasinText = value => replacements.reduce((text,[pattern,replacement])=>text.replace(pattern,replacement),value);
   const needsAvasinNormalization = value => replacements.some(([pattern])=>new RegExp(pattern.source).test(value));
@@ -1915,7 +1921,7 @@ async function markLessonComplete(courseId, lessonKey){
       if(code!=="ckb"){
         showStatus("ڕووکاری ماڵپەڕ گۆڕدرا؛ وەرگێڕانی بەشە گشتییەکان دەستی پێکرد.");
       }else{
-        showStatus("زمانی ڕووکاری ماڵپەڕ گەڕایەوە بۆ کوردیی سۆرانی.");
+        showStatus("زوانی ڕوکاری ماڵپەڕ گەڕایەوە بۆ کوردی ناوەندی.");
       }
     }
     void translatePageContent(code);

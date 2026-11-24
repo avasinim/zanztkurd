@@ -45,9 +45,9 @@ else:
             if len(row_pattern.findall(migration_text)) != 1:
                 ERRORS.append(f"Migration must contain exactly one content row for {key}")
 
-# Check that the shared script retains the canonical Avasin mappings used
-# for Kurdish site UI and server-loaded lesson content. This is a static
-# presence check; it does not rewrite files or validate every rendered string.
+# Check that the shared script retains canonical Avasin mappings for site UI
+# and server-loaded lesson content. This is a static presence check; it does
+# not rewrite files or validate every rendered string.
 shared_script = ROOT / "script.js"
 if not shared_script.exists():
     ERRORS.append("Missing shared access-control script: script.js")
@@ -56,17 +56,23 @@ else:
     # Avasin normalization is intentionally applied to source-loaded lesson text
     # as well as static UI text; keep the canonical replacements in this shared script.
     for required in (
-        '[/نووسراوە/g,"نوسراوە"]',
+        '[/نووسراوە/g,"نوسراو"]',
+        '[/نووسراو/g,"نوسراو"]',
+        '[/نووسەر/g,"نوسەر"]',
         '[/نووسینی/g,"نوسینی"]',
         '[/نووسین/g,"نوسین"]',
         '[/فێربوون/g,"فێربون"]',
         '[/هەموو/g,"هەمو"]',
         '[/نموونە/g,"نمونە"]',
-        '[/پەیویست/g,"پێویست"]',
+        '[/کردووە/g,"کردوە"]',
+        '[/پێویست/g,"پەیویست"]',
         '[/ڕوون/g,"ڕون"]',
         '[/ناوەڕۆک/g,"نێوەڕۆک"]',
         '[/چییە/g,"چیە"]',
         '[/نییە/g,"نیە"]',
+        '[/ییی/g,"یی"]',
+        '[/وو/g,"و"]',
+        '[/پێکرد/g,"پێ‌کرد"]',
     ):
         if required not in script_text:
             ERRORS.append(f"Shared Avasin normalizer is missing required spelling mapping: {required}")
