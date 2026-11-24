@@ -55,4 +55,4 @@
 
 ## Page numbering
 
-The manifest records both printed page ranges and page ranges in the designed PDF. The designed PDF page ranges account for its three front-matter pages and lesson dividers. A source-page audit found that the Lesson 15 divider is currently at designed page 203, before source page 186 (designed page 204), although page 186 completes the preceding table and Lesson 15 text begins at source page 187. The PDF layout must move that divider after source page 186 before publication.
+The manifest records both printed page ranges and page ranges in the designed PDF. The designed PDF page ranges account for its three front-matter pages and lesson dividers. A source-page audit found that the Lesson 15 divider is currently at designed page 204, before source page 186 (designed page 204), although page 186 completes the preceding table and Lesson 15 text begins at source page 187. The PDF layout must move that divider after source page 186 before publication.
