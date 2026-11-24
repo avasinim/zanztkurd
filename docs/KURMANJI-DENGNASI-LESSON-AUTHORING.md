@@ -2439,3 +2439,250 @@ Têkiliya T û Ç di hin peyv û devokan de tê dîtin. Lê ev yek ne wateya wê
 ## Têbînî ji bo pêşxistinê
 
 Ev ders ji beşa Ş û T ya çavkaniyê, rûpelên çapkirî 187–202, hatiye nûdabeşkirin û wek materyala fêrbûnê hatiye rêkxistin; ne kopîkirina PDF e. Berî belavkirinê divê nîşanên fonetîk, şertên pifdarî, nimûneyên T-ya zirav/qelew û hemû guherînên dîrokî rasterast bi nivîsa çapkirî re bên kontrolkirin. Hin nimûneyên dîrokî li vir bi awayekî giştî hatine kurtkirin; ji bo amadekirina dersê ya dawî, pêdivî ye hûrgiliyên wan rasterast ji çavkaniyê werin piştrastkirin.
+
+
+---
+
+# Dersa 16 — Dengên V, W, Y û Z
+
+**Çavkaniya dersê:** rûpelên çapkirî 203–232.  
+**Dem:** 45–55 deqîqe.
+
+## Armancên fêrbûnê
+
+Di dawiya dersê de xwendekar dikare:
+- V wek dengekî lêvî-didanî yê bilerz nas bike û cihê wê di peyvê de bibîne;
+- hin çavkaniyên dîrokî yên V û guherînên B/V, M/V û T/V rave bike;
+- W wek dengekî dulêvî-tengav û nîv-vokal nas bike;
+- cudahiya V û W bi taybetmendiyên derxistinê rave bike;
+- Y wek dengekî bandevî-tengav û nîv-vokal nas bike;
+- erkê Y wek herfa kelijandinê û hin guherînên devokî/dîrokî nas bike;
+- Z-ya zirav û Z-ya qelew ji hev cuda bike û cudahiya fonemîk a wan fêm bike.
+
+## 1. V — lêvî-didanî ya xişok û bilerz
+
+Dengê **V/v** dengekî **lêvî-didanî-xişok yê bilerz** e. Di gotina wê de didanên jorîn bi lêva jêrîn re nêzîk dibin û hewa ji nav tengiyekê derbas dibe. Ji ber vê tengiyê xişînek çêdibe. Perdeyên dengî jî dilerizin; ji ber vê yekê V bilerz e. Nîşana wê di IPA de **[v]** e.
+
+Di kurmancî de V li her sê cihên peyvê tê:
+- **Destpêk:** *van, vebûn, vê, vir, vî*.
+- **Nav:** *bivir, dever, evîn, êvar, revandin*.
+- **Dawî:** *av, çav, dev, ev, sêv, şev*.
+
+V li nav û dawiya peyvan berfireh e; li destpêka peyvan kêmtir e. Formên çemandî yên cînavê *ev* — wek *vê, vî, van, vir* — û pêşlêkera *ve-* — wek *vebûn, vekirin, vexwarin* — rêjeya V li destpêkê zêde dikin.
+
+## 2. Çavkaniyên dîrokî yên V
+
+V di dîroka peyvên kurdî de ji çend rêyan hatiye peyda bûn.
+
+### B an P bûye V
+
+Di hin peyvên xwemalî de B an P ya kevn li nav an dawiya peyvê bûye V. Nimûneyên berawirdkirinê:
+- *bab* → *bav*;
+- *ebd* → *evd*;
+- *kitêb* → *kitêv*.
+
+Guherîna B bi V di gelek zimanan de tê dîtin û di zimannasiyê de bi navê **betasîzm** tê nasîn. Di kurmancî de ev guherîn bi taybetî li nav û dawiya peyvan tê dîtin.
+
+### M bûye V
+
+Di hin peyvan de M jî bûye V:
+- kurmancî *nav* li hemberî zazakî û farisî *nam*;
+- kurmancî *gav* li hemberî zazakî û farisî *gam*;
+- *nivêj/nimêj* wek formên devokî;
+- *silav* ji peyva erebî *selam*.
+
+Di hin devokan de M û V dikarin bi hev re biguherin; wek *gom/gov* û *nimêj/nivêj*.
+
+### T bûye V
+
+V-ya bilerz di hin şertan de ji T-ya bêlerz peyda dibe, dema ku dengê bilerz li pey T were. Nimûneya ku pirtûk dide:
+- *heft + deh* → *hevde(h)/hivde(h)*.
+
+### V li destpêka peyvê û guherîna wê bi B
+
+Di gelek peyvên îranî de V-ya kevn li destpêka peyvê di kurmancî, soranî û farisî de bûye B. Di zazakî de hin ji wan formên bi V parastine; di hewramî û gelek devokên kurdiya başûrî de jî W tê dîtin. Nimûneyên berawirdkirinê:
+- kurmancî *baran* — zazakî *varan*;
+- kurmancî *bihar* — zazakî *vesar*;
+- kurmancî *bûk* — zazakî *veyve*.
+
+Pirtûk balê dikişîne ser cudahiya cihê dengê di peyvê de: li destpêkê V dikare bibe B, lê li nav û dawiya peyvê B dikare bibe V. Ev du rêyên guherînê divê ji hev cuda bên fêmkirin.
+
+### Çima hin peyv hîn bi V dest pê dikin?
+
+Hin formên niha bi V dest pê dikin, lê di dîrokê de V li destpêkê nebûye. Di formên wek *evan, evê, evî* de E-ya destpêkê ketiye û formên *van, vê, vî* mayîne. Pirtûk ketina E-ya destpêka peyvan wek diyardeyeke berfireh di zimanên îranî yên nû de şîrove dike.
+
+Pêşlêkera *ve-* jî taybetmendiyeke kurmancî ye. Pirtûk wê bi daçeka *ve* re girêdide ku wateya wê ya bingehîn “ji/jê” ye. Di soranî de hevbera wê bi awayê paşlêkera *-ewe* tê bikaranîn, wek *kirdin-ewe* û *xwardin-ewe*. Wateya vê hêmanê di peyvên wek *vebûn, vekirin, veman* de şopa xwe parastiye, lê di hin peyvên nû de wateya wê berfireh bûye.
+
+## 3. W — dulêvî-tengav
+
+Dengê **W/w** dengekî **dulêvî-tengav** e. Di dema gotina wê de herdu lêv nêzîkî hev dibin, lê rêya hewayê bi temamî nayê girtin. Ji ber vê yekê W **nîv-vokal** e: ne konsonanteke sekinî ye û ne jî vokaleke temam. Nikare bi tenê navika kîteyekê pêk bîne.
+
+Nîşana wê di IPA de **[w]** e.
+
+W di kurmancî de li destpêk, nav û dawiya peyvê tê:
+- **Destpêk:** *war, we, wê, wir, wî*.
+- **Nav:** *awir, bawî, ewr, gewr*.
+- **Dawî:** *ew, dew, kew, mêw*.
+
+Di cînavê *ew* û formên wî yên çemandî de — wek *wê, wî, wan, wir* — W pir tê bikaranîn. Ji ber vê yekê rêjeya wê di nivîsên kurmancî de dikare bilind xuya bike, tevî ku gelek peyv bi W dest pê nakin.
+
+### W di soranî û kurmancî de
+
+Di gelek peyvan de W-ya soranî li hemberî V-ya kurmancî ye:
+- kurmancî *av* — soranî *aw*;
+- kurmancî *çav* — soranî *çaw*;
+- kurmancî *nav* — soranî *naw*.
+
+Ev berawirdkirin alîkar e ku têkiliya V û W di navbera zaravên kurdî de were dîtin; lê divê em her peyvekê bi awayekî serbixwe binirxînin.
+
+### W di destpêka peyvan de
+
+Hin peyvên bi W dest pê dikin di dîrokê de bi ketina E-ya destpêkê rave dibin:
+- *wê* ji *ewê*;
+- *wî* ji *ewî*;
+- *wan* ji *ewan*;
+- *wir* ji *ewê derê*.
+
+Pirtûk hin çavkaniyên din jî destnîşan dike: W dikare di hin peyvan de ji H an D peyda bibe. Nimûneyên wê *winda/wenda* li hemberî *hinda* û formên nîşana dema bê *wê/dê/do* ne. Ev nimûne bi devok û rêya dîrokî ve girêdayî ne, ne rêzikên bêistisna.
+
+### W wek herfa kelijandinê
+
+Di hin devokan de W dikare di navbera du vokalan de were gotin da ku rê li ber têkeliya rasterast a wan bigire. Pirtûk nimûneyên wek *riwê min/rûyê min* û *malavawo/malavayo* dide. Di nivîsîna standard de Y an H jî dikarin di hin rewşan de vê erkê bigirin. Ji ber vê yekê divê forma nivîskî û gotina devkî ji hev cuda bên dîtin.
+
+## 4. Y — bandevî-tengav
+
+Dengê **Y/y** dengekî **bandevî-tengav** e. Di dema derxistina wê de ziman li banê req yê devê nêzîk dibe û rêya hewayê teng dibe, lê bi temamî nayê girtin. Y jî nîv-vokal e û nîşana wê di IPA de **[j]** e.
+
+Y bi taybetî li navê peyvan tê:
+- *ayet, beyar, ciyawaz, çiya, diyar, jiyan, payiz, siyaset, xiyar, ziyan*.
+
+Li destpêka hin peyvan jî heye:
+- *ya, yad, yan, yar, yasa, yek, yê, yên, yûnanî*.
+
+Li dawiya peyvan kêm tê dîtin; nimûneyên wê *ay, çay, ey, hey, mey, pey, way* ne. Hin ji van peyvên gazîkirinê ne û hin jî di devokên cuda de formên din hene.
+
+### Y wek herfa kelijandinê
+
+Y gelek caran di navbera du vokalan de tê da ku rê li ber kombûna wan bigire:
+- *rojname + a min* → *rojname-ya min*;
+- *çû + e* → *çû-ye*.
+
+Di gotina devkî de Y her tim nayê gotin; formên wek *rojnamea min* û *ew çûe* jî tên bihîstin.
+
+Di hin paşpirtikên peyvsaz de T dikare li şûna Y were, wek *pêşmerge + -tî → pêşmergetî*. Di hin rewşan de H jî dikare wek kelijandek were bikaranîn, wek *hêja → hêjahî*.
+
+### Guherîn û ketina Y
+
+Y li gor devokê dikare bimîne, bikeve an bi dengekî din were guherandin. Nimûneyên pirtûkê:
+- *yek/êk*;
+- *ya/a*;
+- *yê/ê*;
+- *yên/ên*;
+- *çay/ça*;
+- *hay/ha*;
+- *pey/pê*.
+
+Di kurmanciya rojhilatî de formên bi Y, wek *yek, ya, yê, yên*, berbelav in; di kurmanciya navendî de hin formên bê Y, wek *ê, a, ên*, tên bikaranîn. Ev cudahî divê wek cudahiya devokî were fêmkirin, ne wek xeletiya yek ji wan.
+
+Di dîroka peyvan de Y dikare ji destpêkê bikeve an bi vokalekê biguherin. Nimûneyên pirtûkê *Yûnis/Ûnis*, *Yûsif/Ûsiv*, *Yaqûb/Aqûb* û *Yehya/Ehya* ne. Di hin peyvên din de Y-ya kevn bi C hatiye guhertin; wek *ciwan* li hemberî forma avestayî *yuven-*. Ev guherînên dîrokî ji bo hemû peyvan wek hev nînin.
+
+## 5. Z — pidûyî-xişok-vizok yê bilerz
+
+Dengê **Z/z** dengekî **pidûyî-xişok-vizok yê bilerz** e. Di gotina wê de ziman li herêma pidûyan nêzîk dibe, hewa ji tengiyekê derbas dibe û perdeyên dengî dilerizin. Nîşana wê di IPA de **[z]** e.
+
+Z li her sê cihên peyvê tê:
+- **Destpêk:** *zanîn, zer, zêr, ziyan, zîrek, zor, zuha, zû*.
+- **Nav:** *azad, bizin, cezwe, dizîn, kezî, nizm*.
+- **Dawî:** *baz, diz, ez, hez, mîz, mûz, rez*.
+
+## 6. Z-ya zirav û Z-ya qelew
+
+Di kurmancî de herfa Z ji bo du fonemên cuda tê bikaranîn: **Z-ya zirav** û **Z-ya qelew**. Ev cudahî tenê awayeke gotinê nîne; di hin peyvan de guherandina yekê bi ya din wateyê diguherîne.
+
+Nimûneyên Z-ya zirav:
+- *zarok, zer, zêr, zincîr, zîrek, zû*.
+
+Nimûneyên Z-ya qelew:
+- *zanîn, zerf, zivistan, zor, zuha*.
+
+Pirtûk du cotên watedar nîşan dide:
+- *bez* bi Z-ya zirav: rûnê heywanan;
+- *bez* bi Z-ya qelew: bezîn, bazdan, revîn;
+- *zana* bi Z-ya qelew: kesê şareza û pispor;
+- *zana* bi Z-ya zirav: zayîna çêlekê.
+
+Ji ber ku guherandina Z-ya zirav bi qelew dikare wateyê biguherîne, herdu deng fonemên cuda ne.
+
+### Çavkaniyên dîrokî yên Z
+
+Pirtûk destnîşan dike ku Z di peyvên xwemalî de di dîroka zimanên îranî de ji dengekî kevn yê proto-hindûewropî hatiye. Di hin zimanên îranî de ew bûye Z an J; di gelek zimanên din ên hindûewropî de şopên dengên cuda hene. Nimûneya berawirdkirinê *zer* e: di kurdî û farisî de Z heye, lê di almanî de *Gelb* û di îngilîzî ya kevn de *geolu* tên dîtin.
+
+Z dikare ji S jî were:
+- kurmancî *zik* — soranî *sik*;
+- kurmancî *zengîn* — farisî *sengîn*.
+
+Di hin lêkeran de Z-ya bilerz di bin bandora T-ya bêlerz a nîşana rabirdûyê de dibe S:
+- *di-lîz-in* → *lîs-t-in*;
+- *di-mîz-e* → *mîs-t-in*;
+- *ve-di-guhêz-im* → *ve-guhas-t-in*.
+
+Di peyvên ji erebî wergirtî de, çend dengên erebî dikarin di kurdî de bibe Z-ya zirav an qelew. Pirtûk nimûneyên wek *zeytûn, zat, zalim, zirav, remezan, zemîr* dide. Z-ya qelew ya kurdî ne heman deng e wek Z-ya didanî ya erebî; cihê derketina wan cuda ye.
+
+## Berawirdkirina V, W, Y û Z
+
+| Deng | Cih û awayê derketinê | Lerz | Taybetmendî |
+|---|---|---|---|
+| V [v] | Lêvî-didanî, xişok | Bilerz | Konsonant |
+| W [w] | Dulêvî, tengav | Bilerz | Nîv-vokal |
+| Y [j] | Bandevî, tengav | Bilerz | Nîv-vokal |
+| Z [z] | Pidûyî, xişok-vizok | Bilerz | Du fonem: zirav û qelew |
+
+## Bîr bîne
+
+- V [v] lêvî-didanî, xişok û bilerz e.
+- Di hin peyvan de B/P, M an T dikarin di pêvajoyên dîrokî de bi V ve girêdayî bin.
+- W [w] dulêvî û tengav e; nîv-vokal e.
+- Y [j] bandevî û tengav e; nîv-vokal e.
+- Y dikare wek herfa kelijandinê di navbera du vokalan de were.
+- Y li gor devokan dikare bimîne an bikeve.
+- Z [z] pidûyî-xişok-vizok û bilerz e.
+- Z-ya zirav û qelew di kurmancî de du fonemên cuda ne; di hin peyvan de wateyê diguherînin.
+
+## Çalakî û xwepirsîn
+
+**1.** V ji aliyê cihê derketinê, awayê derketinê û lerzê ve çawa tê danasîn?
+
+**2.** Di *van, evîn, şev* de V li kîjan cihê peyvê ye?
+
+**3.** Du nimûneyên guherîna B bi V re binivîse.
+
+**4.** Çima di *av/aw, çav/çaw, nav/naw* de têkiliya V û W tê dîtin?
+
+**5.** W û Y ji aliyê cihê derketinê ve çawa ji hev cuda ne?
+
+**6.** Y di *rojname-ya min* de çi erkê digire?
+
+**7.** Du cotên devokî yên ku Y di yek formê de heye û di ya din de ketiye binivîse.
+
+**8.** Z-ya zirav û Z-ya qelew fonem in an alofon? Bi coteke peyvê bersivê xwe piştrast bike.
+
+**9.** Di *di-lîz-in → lîs-t-in* de çi guherîna dengî çêdibe?
+
+**10.** Di *zanîn, zêr, ziyan* de kîjan dengê Z tê bikaranîn? Di *bez* de çima divê baldar bibî?
+
+## Bersivên kurt
+
+1. V lêvî-didanî-xişok û bilerz e; [v].
+2. *van*: destpêk; *evîn*: nav; *şev*: dawî.
+3. *bab → bav* û *ebd → evd*.
+4. Ji ber ku di hin peyvên soranî de W li hemberî V-ya kurmancî ye.
+5. W dulêvî ye; Y bandevî ye. Herdu jî tengav û nîv-vokal in.
+6. Y kelijandek e; di nivîsînê de rê li ber kombûna du vokalan digire.
+7. *yek/êk* û *ya/a*; herdu jî cudahiyên devokî ne.
+8. Du fonem in; *bez* bi Z-ya zirav û qelew du wateyên cuda hene.
+9. Z-ya bilerz di bin bandora T-ya bêlerz de dibe S: *lîz → lîst*.
+10. Di *zanîn* de Z-ya qelew; di *zêr* û *ziyan* de Z-ya zirav. Di *bez* de herdu away dikarin wateya cuda bidin.
+
+## Têbînî ji bo pêşxistinê
+
+Ev ders ji beşa V, W, Y û Z ya çavkaniyê, rûpelên çapkirî 203–232, hatiye nûdabeşkirin û wek materyala fêrbûnê hatiye rêkxistin; PDF wek ders nayê pêşkêşkirin. Berî belavkirinê divê hemû nimûneyên etîmolojîk, formên devokî, nîşanên IPA û cudahiya Z-ya zirav/qelew rasterast bi nivîsa çapkirî re bên kontrolkirin. Hin ravekirinên dîrokî bi kurtî hatine pêşkêşkirin û divê ji aliyê pisporê dengnasiyê ve bên nirxandin.
