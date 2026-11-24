@@ -1704,7 +1704,7 @@ M dikare li destpêk، nav û dawiya peyvê were:
 - **Li navê:** *Amed، umet، umêd، dûman*.
 - **Li dawiyê:** *germ، heram، genim*.
 
-Li gorî lêkolîna ku pirtûk jê vedigere، rêjeya M di nivîsên kurmancî de 2,3% e. Di peyvên xwerû yên xwemalî de M li destpêka peyvê gelemperî ye، lê li nav û dawiya peyvê kêmتر xuya dike.
+Li gorî lêkolîna ku pirtûk jê vedigere، rêjeya M di nivîsên kurmancî de 2,3% e. Di peyvên xwerû yên xwemalî de M li destpêka peyvê gelemperî ye، lê li nav û dawiya peyvê kêm xuya dike.
 
 ## 3. M û dengên nêzîkî wê
 
@@ -1752,7 +1752,7 @@ Li gorî lêkolîna ku pirtûk jê vedigere، N yek ji konsonantên herî pir di
 
 Di piraniya devokên kurmancî de **NG** wek du dengên cuda tê gotin. Sinora kîteyê dikare di navbera wan de be؛ wek *ren-gê sor*. Di vê gotinê de N û G herdu tên bihîstin.
 
-Lê di hin ziman û devokên kurdî de، bi taybetî di hin devokên soranî û piraniya devokên kurdiya başûrî de، NG dikare bibe dengekî yekگرتî yê bêvilî-paşdevî. Di IPA de ev deng bi **[ŋ]** tê nîşandan؛ wek N-yek bi çengal.
+Lê di hin ziman û devokên kurdî de، bi taybetî di hin devokên soranî û piraniya devokên kurdiya başûrî de، NG dikare bibe dengekî yekgirtî yê bêvilî-paşdevî. Di IPA de ev deng bi **[ŋ]** tê nîşandan؛ wek N-yek bi çengal.
 
 Di kurmancî de، herçend N berî G an K were، G/K jî tê gotin. Ji ber vê yekê:
 - kurmancî **NG** bi gelemperî [ŋg] e؛
@@ -1863,4 +1863,4 @@ Nîşana xêza jêrîn li vir tenê cihê dengê N-ya ketî nîşan dide؛ ew t�
 
 ## Têbînî ji bo pêşxistinê
 
-Ev ders ji rûpelên çapkirî 147–154 hatiye nûdabeşkirin. Nîşanên IPA [m]، [n]، [ŋ]، cudahiya NG di devokan de، etîmolojiyên M/N û formên gotinî yên zêdebûn/ketنی N divê لە پێداچوونەوەی کۆتاییدا rasterast bi çavkaniyەکە re bên kontrolkirin. Nimûneyên devokî wek formên herێمی tên pێشکەشکردن، ne wek یاسایەکی یەکسان بۆ هەموو کورمانجی. Dersa 13 ji rûpelên çapkirî 155–167 li ser dengên P û Q e.
+Ev ders ji rûpelên çapkirî 147–154 hatiye nûdabeşkirin. Nîşanên IPA [m]، [n]، [ŋ]، cudahiya NG di devokan de، etîmolojiyên M/N û formên gotinî yên zêdebûn an ketina N divê di nirxandina dawî de rasterast bi çavkaniyê re bên kontrolkirin. Nimûneyên devokî wek formên herêmî tên pêşkêşkirin، ne wek rêzikên yekسان ji bo hemû kurmancî. Dersa 13 ji rûpelên çapkirî 155–167 li ser dengên P û Q e.
