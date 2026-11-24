@@ -1295,7 +1295,7 @@ Di kurmanciya latînî de herdu deng bi herfa **H** tên nivîsîn, lê ji aliy�
 
 **Koma yekem — H [h]:** Ev deng di peyvên *her, heval, hêvî, hestî, bihar, guh* de tê bihîstin. Di nivîsa kurdî-erebî de bi herfa H ya asayî tê nîşandan. Di IPA de nîşana wê **[h]** e.
 
-**Koma duyem — Ḧ [ħ]:** Ev deng di peyvên *ḧal, ḧeram, ḧekîm, Ḧesen, reḧm* de tê bihîstin. Di nivîsa kurdî-erebî de bi herfeke cuda ji H-ya asayî tê nîşandan. Di IPA de nîşana wê **[ħ]** e; di hin nivîsên zanistî û tîpguhêzî de jî bi **ḥ** tê nîşandan.
+**Koma duyem — H-ya [ħ] (Ḧ):** Ev deng di peyvên *heft, herf, tehl* û di hin peyvên din de tê bihîstin. Di alfabeya kurdî-erebî de hevbera wê herfa **ح** ye. Di IPA de nîşana wê **[ħ]** e; ew xişoka bêlerz a qirrikî/hefikî ye û ji H-ya [h] cuda ye. Di hin nivîsên zanistî de ji bo eşkerekirina vê cudahiyê **Ḧ** tê bikaranîn, lê ev ne awayê asayî yê nivîsîna peyvan e.
 
 Pirtûk ji bo ku xwendekar di dema fêrbûna dengnasiyê de wan ji hev cuda bike, herfa **ḧ** (H-ya du nuqte li ser) ji bo dengê duyem bi kar tîne. Ev nîşan di vê dersê de alîkar e ku du dengên cuda bi hev re ne tevlihev bibin.
 
@@ -1435,6 +1435,22 @@ Ev varyant di pirtûkê de wek awayên nivîsînê yên cuda tên nîşandan; di
 
 **Bîr bîne:** H û Ḧ di dengnasiyê de cuda ne, lê di nivîsîna asayî ya latînî de pirtûk parastina herfa H-ê pêşniyar dike. J jî [ʒ] e, ne [d͡ʒ]; ew ji C-ya kurdî cuda ye.
 
+## 13. Ketina J ji peyvê
+
+J carinan ji dawiya peyvê dikeve. Di hin devokan de *roj* wek *ro* tê gotin, û hin peyvên ji wê çêbûyî jî bê J tên gotin:
+- *rojhilat → rohilat*;
+- *rojava → roava*;
+- *Rojhat → Rohat*;
+- *Rojbîn → Robîn*.
+
+Lê hemû peyvên pêkhatî bi heman awayî nayên kurtkirin. Pirtûk *rojname* wek nimûneya ku J di wê de dimîne destnîşan dike; forma *roname* nayê pejirandin. Herwiha *îro/evro* û *nîvro* formên serdest in, ne *îroj/evroj* an *nîvroj*.
+
+Di hin devokan an axiftina sivik de J ji rehê dema niha yê hin lêkeran jî dikeve:
+- *-bêj- → -bê-*; wek *di-bêj-im → di-bê-m*;
+- *-avêj- → -avê-*; wek *di-avêj-im → di-avê-m*.
+
+Ev nimûne divê wek guherînên devokî an gotina sivik bên fêmkirin; ne wek pêşniyarê ku formên standard bê kontrolkirin bên guhertin.
+
 ## Bîr bîne
 
 - H-ya *heval* [h] û Ḧ-ya *ḧeq* [ħ] du dengên cuda ne.
@@ -1473,22 +1489,6 @@ Ev varyant di pirtûkê de wek awayên nivîsînê yên cuda tên nîşandan; di
 6. Di hin peyvên hevreh de J-ya kurmancî/soranî bi C-ya zazakî, Z-ya farisî/pehlewî û Ç/C-ya avestayî re berawird dibe.
 7. Ji ber ku T bêlerz e û bandorê li J-ya bilerz dike, J dibe Ş: *-kuj- + T → kuşt*.
 8. Formên bi J wek *biyolojî, jeolojî* wek formên serdest tên nîşandan; formên bi C/G varyant in.
-
-## 13. Ketina J ji peyvê
-
-J carinan ji dawiya peyvê dikeve. Di hin devokan de *roj* wek *ro* tê gotin, û hin peyvên ji wê çêbûyî jî bê J tên gotin:
-- *rojhilat → rohilat*;
-- *rojava → roava*;
-- *Rojhat → Rohat*;
-- *Rojbîn → Robîn*.
-
-Lê hemû peyvên pêkhatî bi heman awayî nayên kurtkirin. Pirtûk *rojname* wek nimûneya ku J di wê de dimîne destnîşan dike; forma *roname* nayê pejirandin. Herwiha *îro/evro* û *nîvro* formên serdest in, ne *îroj/evroj* an *nîvroj*.
-
-Di hin devokan an axiftina sivik de J ji rehê dema niha yê hin lêkeran jî dikeve:
-- *-bêj- → -bê-*; wek *di-bêj-im → di-bê-m*;
-- *-avêj- → -avê-*; wek *di-avêj-im → di-avê-m*.
-
-Ev nimûne divê wek guherînên devokî an gotina sivik bên fêmkirin; ne wek pêşniyarê ku formên standard bê kontrolkirin bên guhertin.
 
 ## Têbînî ji bo pêşxistinê
 
