@@ -61,6 +61,7 @@ for lesson in lessons:
 assert "const lessons=" in reader, "reader does not embed the lesson manifest"
 assert "lesson.designedPdfPages.start" in reader, "reader does not link to the current lesson PDF page"
 assert "raw.githubusercontent.com/avasinim/zanztkurd/main/Dengnasiya_Zimane_Kurdi_27_Wane_corrected.pdf" in reader, "reader corrected PDF source URL missing"
+assert 'href="https://raw.githubusercontent.com/avasinim/zanztkurd/main/Dengnasiya_Zimane_Kurdi_27_Wane_corrected.pdf#page=8"' in reader, "reader no-script PDF fallback must use the verified raw PDF URL"
 assert 'params.get("lesson")' in reader, "reader does not read the requested lesson"
 assert 'id="prevLesson"' in reader and 'id="nextLesson"' in reader, "reader navigation controls missing"
 assert not any(token in reader.lower() for token in ('id="quiz"', 'id="quiz-container"', 'id="quiz-question"')), "unexpected quiz UI added"
