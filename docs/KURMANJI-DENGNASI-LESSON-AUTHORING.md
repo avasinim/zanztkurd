@@ -2486,7 +2486,7 @@ Ev ders ji beşa Ş û T ya çavkaniyê, , hatiye nûdabeşkirin û wek materyal
 
 ## Çavkanî
 
-Husein Muhammed, *Dengnasî di kurdî de*, rûpelên çapkirî 187–202.
+Husein Muhammed, *Dengnasî di kurdî de*, rûpelên çapkirî 186–202.
 
 ---
 
