@@ -92,6 +92,11 @@
 <p id="kurmanji2Status">پشکنین...</p><div class="progress"><span id="kurmanji2Bar"></span></div><p id="kurmanji2Text">٠٪ ـی ڕێڕەو تەواو کراوە</p>
 <div class="course-actions"><a id="kurmanji2View" class="primary" href="kurmanji-course-2.html">بینینی کۆرس</a><a id="kurmanji2Learn" href="kurmanji-course-2.html">پلانی ١٢ وانە</a><button id="kurmanji2Enroll" hidden>خۆتۆمارکردن لە کۆرس</button></div>
 </article>
+<article class="card course-card">
+<h2 class="course-title">کۆرسی ٣ — Dengnasîya Zimanê Kurdî</h2>
+<p id="dengnasiStatus">پشکنین...</p><div class="progress"><span id="dengnasiBar"></span></div><p id="dengnasiText">٠٪ ـی ڕێڕەو تەواو کراوە</p>
+<div class="course-actions"><a id="dengnasiView" class="primary" href="kurmanji-dengnasi-course.html">بینینی کۆرس</a><a id="dengnasiLearn" href="kurmanji-dengnasi-course.html">پلانی ٢٧ وانە</a><button id="dengnasiEnroll" hidden>خۆتۆمارکردن لە کۆرس</button></div>
+</article>
 <article class="card notice" id="verifyNotice" hidden><h2>چالاک‌کردنی هەژمار پێویستە</h2><p>بۆ تۆماربون لە کۆرسەکان، سەرەتا هەژمارەکەت بە ڕێگەی پشت‌ڕاستکردنەوەی نێردراو چالاک بکە.</p><button id="resendVerify" style="padding:9px 13px;border:1px solid #ccd8d3;border-radius:9px;background:#fff;color:#29473d;font-weight:800;cursor:pointer">ناردنەوەی ئیمەیڵی پشت‌ڕاست‌کردنەوە</button><span id="verifyMessage" class="muted"></span></article><article class="card enroll-panel" id="enrollInfo"><div class="enroll-summary-mark">ڕەوش</div><h2>پوختەی بەشداربون</h2><p id="enrollSummary" class="muted">پشکنین...</p></article>
 </section></main>
 <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
@@ -106,7 +111,8 @@ else{
   c1:{id:'orthography-kurdik',total:26,status:'course1Status',bar:'course1Bar',text:'course1Text',enroll:'course1Enroll',learn:'course1Learn'},
   c2:{id:'phonetics-phonology-kurdik',total:32,status:'course2Status',bar:'progressBar',text:'progressText',enroll:'course2Enroll',learn:'course2Learn'},
   kurmanji1:{id:'kurmanji-course-1',total:26,status:'kurmanji1Status',bar:'kurmanji1Bar',text:'kurmanji1Text',enroll:'kurmanji1Enroll',learn:'kurmanji1Learn',learnHref:'kurmanji-course-1.html',lessonKeyPrefix:'kurmanji-course-1-lesson-'},
-  kurmanji2:{id:'kurmanji-course-2',total:12,status:'kurmanji2Status',bar:'kurmanji2Bar',text:'kurmanji2Text',enroll:'kurmanji2Enroll',learn:'kurmanji2Learn',learnHref:'kurmanji-course-2.html',lessonKeyPrefix:'kurmanji-course-2-lesson-'}
+  kurmanji2:{id:'kurmanji-course-2',total:12,status:'kurmanji2Status',bar:'kurmanji2Bar',text:'kurmanji2Text',enroll:'kurmanji2Enroll',learn:'kurmanji2Learn',learnHref:'kurmanji-course-2.html',lessonKeyPrefix:'kurmanji-course-2-lesson-'},
+  dengnasi27:{id:'kurmanji-dengnasi-27',total:27,status:'dengnasiStatus',bar:'dengnasiBar',text:'dengnasiText',enroll:'dengnasiEnroll',learn:'dengnasiLearn',learnHref:'kurmanji-dengnasi-course.html',lessonKeyPrefix:'kurmanji-dengnasi-lesson-'}
  };
  const $=id=>document.getElementById(id);
  async function load(){
@@ -211,8 +217,9 @@ else{
   await loadCourse(COURSES.c2,null,isOwner);
   await loadCourse(COURSES.kurmanji1,null,isOwner);
   await loadCourse(COURSES.kurmanji2,null,isOwner);
+  await loadCourse(COURSES.dengnasi27,null,isOwner);
   const requestedCourse=new URLSearchParams(location.search).get('course');
-  const requestedCard=requestedCourse==='kurmanji-course-1'?'kurmanji1Enroll':requestedCourse==='kurmanji-course-2'?'kurmanji2Enroll':null;
+  const requestedCard=requestedCourse==='kurmanji-course-1'?'kurmanji1Enroll':requestedCourse==='kurmanji-course-2'?'kurmanji2Enroll':requestedCourse==='kurmanji-dengnasi-27'?'dengnasiEnroll':null;
   if(requestedCard){
     const card=$(requestedCard)?.closest('.course-card');
     if(card){

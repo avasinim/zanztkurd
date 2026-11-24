@@ -103,7 +103,7 @@ window.ZANSTI_GET_SUPABASE_CLIENT = window.ZANSTI_GET_SUPABASE_CLIENT || functio
    Lesson content and the lesson catalog require authentication + enrollment. */
 (function(){
   const path=(location.pathname.split("/").pop()||"").toLowerCase();
-  const isLesson=/^0(?:1[7-9]|[2-4]\d|5[0-8])\.html$/.test(path)||/^course-2-\d+\.html$/.test(path)||/^kurmanji-course-[12]-lesson-\d{2}\.html$/.test(path);
+  const isLesson=/^0(?:1[7-9]|[2-4]\d|5[0-8])\.html$/.test(path)||/^course-2-\d+\.html$/.test(path)||/^kurmanji-course-[12]-lesson-\d{2}\.html$/.test(path)||/^kurmanji-dengnasi-lesson-\d{2}\.html$/.test(path);
   const isCatalog=path==="catalog.html" && /\/lessons\/catalog\.html$/i.test(location.pathname);
   const isProtectedCatalogTarget=(href)=>{ return /(?:^|\/)lessons\/catalog\.html(?:$|[?#])/i.test(String(href||"")); };
   if(isLesson){
@@ -127,11 +127,12 @@ window.ZANSTI_GET_SUPABASE_CLIENT = window.ZANSTI_GET_SUPABASE_CLIENT || functio
   function courseIdForTarget(target){
     if(/^kurmanji-course-1-lesson-\d{2}\.html$/.test(target)) return "kurmanji-course-1";
     if(/^kurmanji-course-2-lesson-\d{2}\.html$/.test(target)) return "kurmanji-course-2";
+    if(/^kurmanji-dengnasi-lesson-\d{2}\.html$/.test(target)) return "kurmanji-dengnasi-27";
     return /^course-2-\d+\.html$/.test(target) ? "phonetics-phonology-kurdik" : "orthography-kurdik";
   }
   function isProtectedLessonTarget(href){
     const target=targetOf(href);
-    return /^0(?:1[7-9]|[2-4]\d|5[0-8])\.html$/.test(target)||/^course-2-\d+\.html$/.test(target)||/^kurmanji-course-[12]-lesson-\d{2}\.html$/.test(target);
+    return /^0(?:1[7-9]|[2-4]\d|5[0-8])\.html$/.test(target)||/^course-2-\d+\.html$/.test(target)||/^kurmanji-course-[12]-lesson-\d{2}\.html$/.test(target)||/^kurmanji-dengnasi-lesson-\d{2}\.html$/.test(target);
   }
   let supabaseReadyPromise=null;
   function loadScriptOnce(src,id){
@@ -188,6 +189,9 @@ window.ZANSTI_GET_SUPABASE_CLIENT = window.ZANSTI_GET_SUPABASE_CLIENT || functio
     }
     if(/^kurmanji-course-2-lesson-\d{2}\.html$/.test(target)){
       return Array.from({length:12},(_,i)=>"kurmanji-course-2-lesson-"+String(i+1).padStart(2,"0")+".html");
+    }
+    if(/^kurmanji-dengnasi-lesson-\d{2}\.html$/.test(target)){
+      return Array.from({length:27},(_,i)=>"kurmanji-dengnasi-lesson-"+String(i+1).padStart(2,"0")+".html");
     }
     if(/^course-2-\d+\.html$/.test(target)){
       return Array.from({length:32},(_,i)=>"course-2-"+String(i+1).padStart(2,"0")+".html");
@@ -2001,6 +2005,11 @@ async function markLessonComplete(courseId, lessonKey){
       id:"kurmanji-course-2",
       files:Array.from({length:12},(_,i)=>"kurmanji-course-2-lesson-"+String(i+1).padStart(2,"0")+".html"),
       storage:"avasin_kurmanji_course2_completed_v1"
+    },
+    "kurmanji-dengnasi-27":{
+      id:"kurmanji-dengnasi-27",
+      files:Array.from({length:27},(_,i)=>"kurmanji-dengnasi-lesson-"+String(i+1).padStart(2,"0")+".html"),
+      storage:"avasin_kurmanji_dengnasi27_completed_v1"
     }
   };
   const path=(location.pathname.split("/").pop()||"").toLowerCase();
