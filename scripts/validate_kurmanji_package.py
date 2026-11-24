@@ -72,6 +72,7 @@ else:
         '[/نییە/g,"نیە"]',
         '[/ییی/g,"یی"]',
         '[/وو/g,"و"]',
+        '[/پێکرد/g,"پێ‌کرد"]',
     ):
         if required not in script_text:
             ERRORS.append(f"Shared Avasin normalizer is missing required spelling mapping: {required}")
