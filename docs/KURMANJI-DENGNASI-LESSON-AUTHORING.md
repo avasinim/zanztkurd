@@ -3101,3 +3101,307 @@ Di navên welat û parzemînan de jî cudahiya A/E di nivîsînê de heye: *Amer
 ## Têbînî ji bo pêşxistinê
 
 Ev ders ji beşa A û E ya çavkaniyê, rûpelên çapkirî 252–269, hatiye nûdabeşkirin. Hin nimûneyên etîmolojîk, formên devokî û cudahiyên çemandinê di pirtûkê de bi şîroveya zêdetir hatine pêşkêşkirin; berî belavkirinê divê bi nivîsa çapkirî û bi pisporê kurmancî re bên kontrolkirin. Nîşanên IPA yên [ɑ] û [æ] li gor danasîna çavkaniyê hatine bikaranîn.
+
+
+---
+
+# Dersa 19 — Vokalên Ê, I û Î
+
+**Çavkaniya dersê:** rûpelên çapkirî 270–297.  
+**Dem:** 60–70 deqîqe.
+
+## Armancên fêrbûnê
+
+Di dawiya dersê de xwendekar dikare:
+- dengên Ê [e], I [ɪ] û Î [i] nas bike û ji hev cuda bike;
+- dirêjahî û cihê her vokalekê di devê de rave bike;
+- cihê wan di destpêk, nav û dawiya peyvan de bibîne;
+- guherînên dîrokî, devokî û çemandinê nas bike;
+- cudahiya nivîsîna standard û gotina devkî di çend nimûneyan de rave bike;
+- rêzikên nivîsîna I/Î berî Y û di peyvên wergirtî de fêm bike.
+
+## 1. Ê — vokala pêşîn û nîvbilind
+
+Dengê **Ê/ê** vokaleke pêşîn, nîvbilind û ne-girovir e. Di dema derxistina wê de ziman li beşa pêşiya devê ye û bilindahiya wê di navbera E-ya vekirî û Î-ya girtî de ye. Lêv pehn dimînin, nayên girovkirin. Di kurmancî de Ê vokaleke dirêj e.
+
+Nîşana wê di IPA de **[e]** ye; ji ber ku di kurmancî de dirêj e, dikare wek **[e:]** jî were nîşandan. Di nivîsîna kurmancî de herfa taybet **Ê/ê** ji E cuda ye.
+
+Ê li her sê cihên peyvê tê:
+- **Destpêk:** *êvar, êşandin, êzidî*.
+- **Nav:** *bêrîvan, dêr, hêk*.
+- **Dawî:** *rê, kê, şevê, dengê*.
+
+Ê di nivîsên kurmancî de bi gelemperî ji ber paşpirtikên çemandin û girêdanê pir tê dîtin:
+- çemandina navdêrên mê: *wê kitêbê*;
+- girêdana navdêrên nêr: *hevalê min*;
+- girêdana pirhejmar: *kitêbên min*;
+- hin daçek: *jê, lê, pê, tê*;
+- nîşana dema bê: *tu ê bikî*;
+- hin paşpirtikên lêkerî û cînavî.
+
+Di peyvên xwerû de Ê li dawiya peyvê kêm e; gelek caran di formên çemandî û girêdayî de derdikeve.
+
+## 2. Çavkaniya dîrokî ya Ê
+
+Ê ya kurmancî gelek caran ji A-ya zimanên din ên îranî hatiye:
+- kurmancî *kêr* — soranî *kêrd*; zazakî, hewramî û farisî *kard*;
+- *fêris, kitêb, fêkî/fêqî* di peyvên ji erebî wergirtî de;
+- *kêf* ji *keyf*;
+- *dêr* ji *deyr*;
+- *êm* ji tirkî *yem*;
+- *fêde* ji *faide*.
+
+Di hin peyvan de çend deng an cotdeng bi hev re bûne Ê. Nimûneya *hêk* bi formên farisî û pehlewî yên bi X/H û A re tê berawirdkirin. Ev berawirdkirin nîşan dide ku dengên îroyîn dikarin encama gelek qonaxên dîrokî bin.
+
+Ê di hin peyvên xwerû û di paşpirtikên rêzimanî de jî xwedî bingeheke dîrokî ye. Paşpirtikên çemandin û girêdanê yên wek *-ê* û *-ên* bi formên kevn ên îranî ve girêdayî ne.
+
+## 3. Guherîna devokî ya Ê
+
+Di kurmanciya rojhilatî de gelek caran Ê li cihê E-ya kurmanciya navendî heye:
+- rojhilatî *zêvî* — navendî *zevî*;
+- rojhilatî *pênîr* — navendî *penîr*.
+
+Lê her dem rojhilatî ne ku dengê kevn diparêze. Di hin peyvan de kurmanciya navendî Ê kiriye, lê rojhilatî E diparêze:
+- rojhilatî *mejî* — navendî *mêjî*;
+- rojhilatî *çerîn* — navendî *çêrîn*.
+
+Di berawirdkirina van formên devokî de divê em her peyvê bi ziman û zaravayên xizm re binirxînin; nikare rêzika yekgirtî ji hemû nimûneyan were derxistin.
+
+## 4. Ê di çemandin û girêdanê de
+
+Di kurmancî de yek ji çavkaniyên sereke yên Ê çemandin û girêdana navdêran e:
+- *kitêb* → *di kitêbê de*;
+- *dost* → *dostê kurdan e*;
+- *mal* → *malên wan*;
+- *welat* → *li welêt* (navendî/rojavayî), *li welatî* (rojhilatî).
+
+Di çemandina hin lêkeran de jî Ê di rehê dema niha de derdikeve:
+- *bijartin* → *di-bijêr-im*;
+- *biraştin* → *bi-birêj-e*;
+- *ristin* → *di-rês-in*;
+- *riştin* → *ne-rêj-in*.
+
+Di kurmanciya standard de paşpirtika *-andin* di hin lêkeran de dibe *-în-*:
+- *çandin* → *di-çîn-im*;
+- *nirxandin* → *di-nirxîn-î*.
+
+Di soraniya standard de di hin hevrewşan de *-ên-* tê dîtin. Di çemandinê de vokal û nîvvokal dikarin bên rakirin an jî li hev bên:
+- *rê* → *li ser rê* (formên bi Y jî hene);
+- *mase* → nivîskî *li ser mase-y-ê*, devkî *li ser masê*;
+- *perde* → *perde-y-ên zer*, devkî *perdên zer*;
+- *name* → *name-y-a wê*, devkî *nama wê*.
+
+Ger peyva xwerû bi vokalê bi dawî bibe, nivîsîna standard dikare vokala wê biparêze û Y-ya girêdanê lê zêde bike. Di gotina devkî de Ê dikare cihê vokala dawiyê bigire. Ev cudahiya nivîsîn û axaftinê divê were fêmkirin, ne ku wek xeletiya xwendinê were hesibandin.
+
+## 5. I — vokala kurt a pêşîn
+
+Dengê **I/i** vokaleke kurt, bilind û pêşîn e. Ziman nêzî banê devê û li aliyê pêşiyê ye; lêv pehn in û nayên girovkirin. Nîşana wê di IPA de **[ɪ]** ye.
+
+I ji Î cuda ye: I kurtir e û di devê de hinekî nizimtir tê derxistin. Herwiha divê ew ji [ɯ] ya tirkî bê cudakirin; [ɯ] vokaleke paşîn e, lê I-ya kurdî pêşîn e.
+
+I di alfabeya kurdî-erebî de di nav peyvê de bi awayekî serbixwe nayê nivîsîn. Ji ber vê yekê peyvên wek *kirin, bir, sifir, rind* di wê alfabeyê de bê nîşandana vokala navîn tên nivîsîn. Di nivîsîna latînî de I tê nivîsîn.
+
+I bi gelemperî li nav peyvan pir tê:
+- *agir, bizin, cih, çist, didan, êzing, giran, hirî, jin, kil, livîn, mirov, nazik, pir, ristin, sist, şivan, tifek, vir, wisa, xistin, ziman*.
+
+Li dawiya peyvên xwerû I kêm e; di hin daçek û cînavan de tê dîtin: *bi, çi, di, ji, li, mi, ti*. Di nivîsîna standard de *min* li şûna *mi* serdest e; *tu* jî li şûna *ti* tê bikaranîn.
+
+Li destpêka peyvên xwemalî de I di nivîsîna standard de kêm e. Hin devok formên wek *iro, istêrk, istiran* bikar tînin, li hemberî *îro, stêr/stêrk, stran/stiran*.
+
+## 6. Zêdebûn û ketina I
+
+I di axaftinê de dikare ji bo hêsankirina koma konsonantan were zêdekirin, bê ku di nivîsînê de were nîşandan:
+- *germ e* di gotinê de dikare wek *ger-me* were dabeşkirin;
+- *kevn e* wek *kev-ne*;
+- *nizm e* wek *niz-me*.
+
+Lê dema ku peyv bi tenê tê gotin, I ya alîkar dikare di navbera konsonantan de xuya bibe:
+- *germ* → gotina bi dengê navîn *ge-rim*;
+- *kevn* → *ke-vin*;
+- *nizm* → *ni-zim*.
+
+Di hin formên çemandî de I ya ku di peyva xwerû de heye di axaftinê de dikeve:
+- *gotin* → *got-nên wê*;
+- *ketin* → *ket-na wî*.
+
+Ev zêdebûn û ketin avaniya kîteyê diguherîne. Ji ber vê yekê divê xwendekar cudahiya dengê ku di axaftinê de tê gotin û herfa ku di nivîsînê de tê nivîsîn nas bike.
+
+## 7. I di peyvên wergirtî de û rêbaza nivîsînê
+
+Di peyvên ji erebî wergirtî de I gelek caran li cihê E-ya çavkaniyê tê:
+- *kilam* ji *kelam*;
+- *silav* ji *selam*.
+
+Di hin peyvan de I li cihê U-ya erebî jî tê:
+- *bilbil* ji *bulbul*;
+- *cindî* ji *cundî*;
+- *dinya* ji *dunya*.
+
+Di peyvên ji zimanên ewropî hatine wergirtin de divê I bi bê sedem neyê guhertin bo Î an E. Çavkaniyê parastina I di nav peyvê de pêşniyar dike; di kîteya dawiyê de dikare Î were bikaranîn:
+- *informasyon, imparator, televizyon*;
+- *statistîk, diminutîv*.
+
+Di destpêka hin peyvên wergirtî de zêdekirina Î ne hewce ye, ji ber ku kurmancî dikare gelek komên konsonantan qebûl bike: *stran, stêr, stasyon, statistîk, stadyûm*. Ji ber vê yekê formên bi Î-ya zêdekirî ne her dem pêwîst in.
+
+Nivîsîna li gor etîmolojiyê divê dengên heyî yên kurmancî tune neke. Mînakeke nîqaşkirî *bira* ye: berawirdkirina bi zimanên xizm dikare formên kevn nîşan bide, lê standarda îroyîn divê li ser dengnasî û axaftina kurmancî ya niha were avakirin. Nivîsîn divê ne li ser texmîna tenê ya etîmolojîk be.
+
+## 8. Î — vokala dirêj a pêşîn û bilind
+
+Dengê **Î/î** vokaleke dirêj, bilind, pêşîn û ne-girovir e. Di dema derxistina wê de ziman nêzî banê devê û li beşa pêşiyê ye. Nîşana wê di IPA de **[i]** ye; ji ber dirêjahiya wê dikare wek **[i:]** jî were nîşandan.
+
+Î ji I cuda ye: Î dirêj e, I kurt e. Herwiha Î ya kurdî ne wek I/ı ya tirkî ye; cihê derxistina wan cuda ye. Di nivîsîna kurmancî de divê herfa **Î/î** bi **I/i** û bi **İ/ı** ya tirkî neyê tevlihevkirin.
+
+Î li her sê cihên peyvê tê:
+- **Destpêk:** *îro, îcaze, îslam*.
+- **Nav:** *mîr, birîn, cemidîn*.
+- **Dawî:** *kî, masî, kelandî*.
+
+Î di nav peyvan de berbelav e. Di destpêka peyvên xwemalî de bi gelemperî kêm e; *îro, îsal, îşev* di hin devokan de formên taybet in. Di peyvên ji erebî û zimanên ewropî wergirtî de zêdetir tê dîtin.
+
+Î di çend paşpirtik û pêşpirtikên rêzimanî de jî xuya dike:
+- paşpirtika navdêrên nêr yên çemandî: *wî destî*;
+- cînav: *kî, wî, vî*;
+- paşpirtika kesê duyem: *tu dikî, dibêjî, çûyî*;
+- paşpirtikên navdêr û rengdêr: *azadî, kurdî, havînî*;
+- formên partîsîpî: *girtî, tirsandî*;
+- pêşpirtika demî: *îsal, îşev, îro*.
+
+## 9. Çavkaniya dîrokî û guherînên devokî yên Î
+
+Î ya kurmancî gelek caran ji Ê ya zimanên îranî yên kevn an navîn hatiye:
+- kurmancî *pîr* — pehlewî *pêr*;
+- *kî* — soranî û farisî *kê*;
+- *sîng* — pehlewî û belûçî *sêneg*;
+- *xanî* — farisî *xanê/xane*.
+
+Di hin peyvan de Î encama tekdengbûna cotdengan e:
+- *mîz* li hemberî formên bi Ê;
+- *mî/mih* li hemberî *mêş*;
+- *bîn* li hemberî formên bi Ê.
+
+Di kurmancî de Î gelek caran li cihê Û-ya soranî ye:
+- kurmancî *xanî* — soranî *xanû*;
+- kurmancî *kirî* — soranî *kirdû*.
+
+Di hin devokan de cotdengê IH dibe Î, di hinên din de H tê parastin:
+- *bî/bih*;
+- *bîn/bihn*;
+- *rî/rih*;
+- *mî/mih*;
+- *mîwan/mihvan*.
+
+Di hin devokên rojhilatî de Û dikare bibe Î. Mînakên Dihokê:
+- *bûk* → *bîk*;
+- *dûr* → *dîr*;
+- *zû* → *zî*.
+
+Di hin deveran de di navbera formên bi Û, Ü û Î de qonaxên navîn hene. Ev guherîn hem di peyvên xwemalî hem jî di peyvên wergirtî de tê dîtin.
+
+## 10. Î di çemandinê de û têkiliya wê bi Y re
+
+Î di kurmancî de ji ber çemandin û girêdana navdêran gelek tê dîtin. Di kurmanciya rojhilatî de paşpirtika Î di rewşa çemandî ya navdêrên nêr de berçav e:
+- rojhilatî: *li welatî, bi agirî*;
+- navendî/rojavayî: *li welêt* an *li welat*, *bi êgir* an *bi agir*.
+
+Lê gava navdêr li pey cînav were, formên bi Î di hemû komdevokan de têne dîtin:
+- *li wî welatî*;
+- *bi vî agirî*.
+
+Di hin çemandinên lêkeran de *-andin/-endin* dibe *-în-*:
+- *çandin* → *di-çîn-im*;
+- *standin/stendin* → *ne-stîn-e*;
+- *hejandin* → *di-hejîn-in*;
+- *xwandin/xwendin* → *bi-xwîn-in*.
+
+Di piraniya nivîsîna kurmancî de Î li berî Y dibe I:
+- *çiya, diyar, jiyan*;
+- *kiriye, gotiye, xwariye*.
+
+Parastina Î li berî Y di hemû peyvan de rêgezek hêsan nîne, ji ber ku nivîser divê bizane ka di rehê peyvê de I heye an Î. Ji ber vê yekê awayê standard yê serdest, wek *jiyan, diyar, kiriye*, ji bo yekgirtîbûna nivîsînê giring e.
+
+Eger di rehê peyvê de Î hebe, di çemandinê de Î-ya din nayê zêdekirin:
+- *Elî* → *mala Elî*;
+- *tu hatî* (ne *tu hatiyî*);
+- *tu dijî* (ne *tu dijiyî*).
+
+## 11. Î di peyvên ji erebî û ewropî wergirtî de
+
+Di peyvên ji erebî wergirtî de dengê dirêj yê erebî bi gelemperî bi Î tê nivîsîn:
+- *mîr, cîran, dîk, îman*.
+
+Kesre ya kurt a erebî gelek caran bi I tê nîşandan:
+- *emir, kitêb, fikir*.
+
+Lê di hin peyvan de Î li cihê kesre jî tê dîtin:
+- *îslam, însan, îbadet, îlac*.
+
+Di peyvên ji zimanên ewropî hatine wergirtin de parastina I ya çavkaniyê bi gelemperî maqûltir e; divê Î li destpêka peyvê bê sedem neyê zêdekirin:
+- *stasyon, statistîk, stadyûm*;
+- *informasyon, imparator, televizyon*.
+
+Di kîteya dawiyê de dirêjahiya dengê I dikare bi Î were nîşandan: *statistîk, diminutîv*. Ev rêzik bi taybetî ji bo yekgirtîkirina peyvên wergirtî giring e.
+
+## Berawirdkirina sê vokalan
+
+| Taybetmendî | Ê [e] | I [ɪ] | Î [i] |
+|---|---|---|---|
+| Dirêjahî | Dirêj | Kurt | Dirêj |
+| Bilindahî | Nîvbilind | Bilind | Bilind |
+| Cihê ziman | Pêşîn | Pêşîn | Pêşîn |
+| Lêv | Ne-girovir | Ne-girovir | Ne-girovir |
+| Nimûne | *dêr, hêk* | *kirin, bizin* | *mîr, birîn* |
+
+## Bîr bîne
+
+- Ê [e] vokaleke pêşîn, nîvbilind û dirêj e.
+- I [ɪ] vokaleke pêşîn û kurt e.
+- Î [i] vokaleke pêşîn, bilind û dirêj e.
+- Ê gelek caran di encama çemandin û girêdanê de derdikeve.
+- I dikare di axaftinê de were zêdekirin an jê were rakirin bê ku nivîsîn biguhere.
+- Î di çemandinê de û di hin guherînên dîrokî û devokî de berbelav e.
+- Di nivîsîna standard de I û Î divê li gor deng û rêzikên nivîsînê bên cudakirin; Î berî Y di gelek peyvan de dibe I.
+
+## Çalakî û xwepirsîn
+
+**1.** Ê, I û Î bi nîşanên IPA binivîse.
+
+**2.** Kîjan ji van vokalan kurt e? Kîjan dirêj in?
+
+**3.** Ji bo her vokalekê du nimûne binivîse.
+
+**4.** Du nimûneyên Ê yê ku ji ber çemandinê derdikeve binivîse.
+
+**5.** Di *mase → mase-y-ê / masê* de cudahiya nivîsîn û axaftinê rave bike.
+
+**6.** Çima I ya kurdî ne wek [ɯ] ya tirkî ye?
+
+**7.** Çawa I di gotina *germ* de dikare bê nivîsîn were zêdekirin?
+
+**8.** Du nimûneyên guherîna devokî ya Î binivîse.
+
+**9.** Di *xanî/xanû* de çi cudahiya dengî heye?
+
+**10.** Çima di peyvên wergirtî de divê Î li destpêka peyvê bê sedem neyê zêdekirin?
+
+**11.** Formên standard binivîse: *dîyar/jiyan/kirîye* an *diyar/jiyan/kiriye*.
+
+**12.** Di *tu hatî* de çima Î-ya din nayê zêdekirin?
+
+## Bersivên kurt
+
+1. Ê [e], I [ɪ], Î [i].
+2. I kurt e; Ê û Î dirêj in.
+3. Ê: *dêr, hêk*. I: *kirin, bizin*. Î: *mîr, birîn*.
+4. *bijartin → di-bijêr-im* û *çandin → di-çîn-im*.
+5. Nivîsîna standard vokala E û Y-ya girêdanê diparêze; di gotina devkî de Ê dikare cihê E bigire.
+6. [ɯ] ya tirkî paşîn e, I-ya kurdî pêşîn e.
+7. Di gotina serbixwe de *germ* dikare wek *ge-rim* were gotin; I di nivîsînê de nayê zêdekirin.
+8. *xanî/xanû* û *bûk/bîk*.
+9. Di kurmancî de Î heye, di soranî de Û.
+10. Ji ber ku kurmancî dikare komên konsonantan di destpêka peyvê de bê vokala zêde gotin.
+11. *diyar, jiyan, kiriye*.
+12. Rehê lêkerê xwe Î-ya xwe heye; zêdekirina Î-ya din ne pêwîst e.
+
+## Têbînî ji bo pêşxistinê
+
+Ev ders ji beşa vokalên Ê, I û Î ya çavkaniyê, rûpelên çapkirî 270–297, hatiye nûdabeşkirin. Hin nimûneyên etîmolojîk, cudahiyên devokî û formên çemandinê divê berî belavkirinê bi nivîsa çapkirî û pisporê kurmancî re bên kontrolkirin. Nîşanên IPA li gor danasîna çavkaniyê hatine bikaranîn.
