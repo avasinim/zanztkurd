@@ -4630,7 +4630,7 @@ Di gelek devokên soranî de, gava Ê an WÊ li pey G bikeve, G dikare wek [c] w
 
 ## Têbînî ji bo pêşxistinê
 
-Ev ders ji nû ve wek materyaleke fêrkarî hatiye rêkxistin. Berî belavkirinê divê hemû nimûneyên soranî bi standarda nivîskî û devokên ku çavkaniyê behs dike re werin kontrolkirin. Nîşanên dengnasî, pifdarî, formên dîrokî, L/Ł û guherînên Î/Ê û Û/WÊ divê bi pisporê herdu zaravayan re bên piştrastkirin. Ev pêşnûseke fêrkarî ye, ne veguheztina rûpelên PDF bo nav kûrsê û hîn ne ji bo xwendekaran çalak e.
+Ev ders ji nû ve wek materyaleke fêrkarî hatiye rêkxistin. Berî belavkirinê divê hemû nimûneyên soranî bi standarda nivîskî û devokên ku çavkaniyê behs dike re werin kontrolkirin. Nîşanên dengnasî, pifdarî, formên dîrokî, L/Ł û guherînên Î/Ê û Û/WÊ divê bi pisporê herdu zaravayan re bên piştrastkirin. Ev pêşnûseke fêrkarî ye, ne kopiyeke PDF-ê û hîn ne ji bo xwendekaran çalak e.
 
 
 ## Çavkanî
@@ -5347,7 +5347,7 @@ Nivîskar herwiha dibêje ku tesîra farisî, tirkî û zimanên cîran dikare d
 
 ## Têbînî ji bo pêşxistinê
 
-Ev ders ji nû ve wek materyaleke fêrkarî hatiye rêkxistin. Berî belavkirinê divê pergala herfên tirkî (bi taybetî cudahiya I/İ), nîşanên dengnasî, nimûneyên deynkirinê, şertên ahenga vokalan û şîroveyên dîrokî bi pisporên tirkî û kurmancî re bên kontrolkirin. Şîroveya cotdengiya Ç, K, P û T di çavkaniyê de bi awayê nêrîna nivîskar hatiye pêşkêşkirin; divê di dersê de wek hîpotez û nîqaş were parastin, ne wek rastiyeke dîrokî ya qetî. Di vê pêداچوونەوەیەدا, nimûneyên H yên pêşgir + reh ku ji çavkaniyê re piştgirî ne bûn لابران; rewşa *hatin* û nimûneyên reh + paşgir bi şertەکانی çavkaniyê hatin sererastkirin. Ev pêşnûse ye û hîn ne ji bo xwendekaran çalak e.
+Ev ders ji nû ve wek materyaleke fêrkarî hatiye rêkxistin. Berî belavkirinê divê pergala herfên tirkî (bi taybetî cudahiya I/İ), nîşanên dengnasî, nimûneyên deynkirinê, şertên ahenga vokalan û şîroveyên dîrokî bi pisporên tirkî û kurmancî re bên kontrolkirin. Şîroveya cotdengiya Ç, K, P û T di çavkaniyê de bi awayê nêrîna nivîskar hatiye pêşkêşkirin; divê di dersê de wek hîpotez û nîqaş were parastin, ne wek rastiyeke dîrokî ya qetî. Di vê kontrolê de, nimûneyên H yên pêşgir + reh ku çavkaniyê piştgirî wan nedikirin hatin rakirin; rewşa *hatin* û nimûneyên reh + paşgir jî li gor şertên çavkaniyê hatin sererastkirin. Ev pêşnûse ye û hîn ne ji bo xwendekaran çalak e.
 
 
 ## Çavkanî
