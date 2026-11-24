@@ -727,4 +727,4 @@ Lê nivîskar hişyar dike ku hemû peyvên wergirtî bi yek rêzikê nayên ş�
 
 ## Têbînî ji bo pêşxistinê
 
-Ev ders ji rûpelên 44–55 hatî nûdabeşkirin. Pişکنîna dawî divê li ser dabeşkirina kîteyan، nîşanên IPA، û nimûneyên guherîna lerzê bê kirin؛ bi taybetî cudahiya kîtekirina nivîskî û ya gotinê di peyvên wek *berav* de. Dersa 7 ji rûpelên 56–67 li ser tesîra guherîna dengî li ser nivîsînê ye.
+Ev ders ji rûpelên 44–55 hatî nûdabeşkirin. Kontrola dawî divê li ser dabeşkirina kîteyan، nîşanên IPA، û nimûneyên guherîna lerzê bê kirin؛ bi taybetî cudahiya kîtekirina nivîskî û ya gotinê di peyvên wek *berav* de. Dersa 7 ji rûpelên 56–67 li ser tesîra guherîna dengî li ser nivîsînê ye.
