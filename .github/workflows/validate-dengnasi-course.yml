@@ -8,6 +8,7 @@ on:
       - "kurmanji-dengnasi-course.html"
       - "kurmanji-dengnasi-reader.html"
       - "scripts/validate_kurmanji_dengnasi_course.py"
+      - "scripts/check_public_dengnasi_pdf.py"
       - ".github/workflows/validate-dengnasi-course.yml"
   workflow_dispatch:
 
@@ -28,3 +29,5 @@ jobs:
         run: python -m pip install pypdf
       - name: Validate 27-lesson course map, PDF integrity, and reader routes
         run: python scripts/validate_kurmanji_dengnasi_course.py
+      - name: Verify public PDF delivery, checksum, and page count
+        run: python scripts/check_public_dengnasi_pdf.py
