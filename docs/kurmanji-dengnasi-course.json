@@ -9,7 +9,7 @@
     "language": "Kurmancî",
     "script": "Latin"
   },
-  "status": "content-mapped; not yet published or connected to enrollment/runtime",
+  "status": "activated in production Supabase; 27 lesson records and enrollment/progression RPCs deployed; website publication pending merge and Pages deployment",
   "policy": "Preserve the source wording, examples, tables, and illustrations. The 27 divisions are editorial navigation only; do not add quizzes, questions, or exercises unless separately requested.",
   "designedPdf": {
     "libraryFilename": "Dengnasiya_Zimane_Kurdi_27_Wane_corrected.pdf",
