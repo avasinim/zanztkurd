@@ -128,7 +128,7 @@ Bi vê rêbazê xwendekar deng tenê wek tîpek di alfabeyê de nabîne,  lê we
 
 ## Têbînî ji bo pêşxistinê
 
-Ev ders ji  hatî nûdabeşkirin û bi şêwazeke fêrbûnê hatiye rêkxistin;  ne kopîkirina PDF e. Ev pêşnûs divê ji aliyê zimanî û zanistî ve careke din were nirxandin. Dersa 2 divê ji  were amadekirin,  bi giranî li ser vokal/konsonant,  cih û awayê derketina dengan û pifdarî.
+Ev ders ji nû ve hatî rêxistin û bi şêwazeke fêrbûnê hatiye rêkxistin;  ne kopîkirina PDF e. Ev pêşnûs divê ji aliyê zimanî û zanistî ve careke din were nirxandin. Dersa 2 divê ji  were amadekirin,  bi giranî li ser vokal/konsonant,  cih û awayê derketina dengan û pifdarî.
 
 
 
@@ -240,7 +240,7 @@ Bo nimûne, M dulêvî û bêvilî ye; P dulêvî, sekinî û bêlerz e; B jî d
 
 ## Têbînî ji bo pêşxistinê
 
-Ev ders ji  hatî nûdabeşkirin. Berî belavkirinê, divê nîşanên fonetîk, navên anatomîk û hemû nimûneyên dengî bi orîjînala pirtûkê re careke din bên kontrolkirin. Dersa 3 ji  li ser hevdengî û pirdengî ye.
+Ev ders ji nû ve hatî rêxistin. Berî belavkirinê, divê nîşanên fonetîk, navên anatomîk û hemû nimûneyên dengî bi orîjînala pirtûkê re careke din bên kontrolkirin. Dersa 3 li ser hevdengî û pirdengî ye.
 
 
 
@@ -346,7 +346,7 @@ Ji ber vê yekê divê xwendekar:
 
 ## Têbînî ji bo pêşxistinê
 
-Ev ders ji  hatî nûdabeşkirin. Pirtûk di heman beşê de dest bi ravekirina Ç, K, P û T jî dike; lê ji ber ku wan dengên pirdeng hûrgilî û mijarên zêde hene, wan di dersên paşîn de bi serbixwe û bi nimûneyên xwe yên rast divê were xwendin.
+Ev ders ji nû ve hatî rêxistin. Pirtûk di heman beşê de dest bi ravekirina Ç, K, P û T jî dike; lê ji ber ku wan dengên pirdeng hûrgilî û mijarên zêde hene, wan di dersên paşîn de bi serbixwe û bi nimûneyên xwe yên rast divê were xwendin.
 
 
 
@@ -482,7 +482,7 @@ Ji ber vê yekê du ast ji hev cuda bikin:
 
 ## Têbînî ji bo pêşxistinê
 
-Ev ders ji  hatî nûdabeşkirin. Nîşanên dengnasiyê û nimûneyên peyvan divê di kontrola dawî de rasterast bi PDF re bên berawirdkirin, bi taybetî nîşana Ṗ ku nivîskar di binpê de behsa sînordariya teknîkî ya çapkirinê dike. Dersa 5 ji  li ser rêjeya herfan di nivîsên kurmancî de ye.
+Ev ders ji nû ve hatî rêxistin. Nîşanên dengnasiyê û nimûneyên peyvan divê di kontrola dawî de rasterast bi PDF re bên berawirdkirin, bi taybetî nîşana Ṗ ku nivîskar di binpê de behsa sînordariya teknîkî ya çapkirinê dike. Dersa 5 li ser rêjeya herfan di nivîsên kurmancî de ye.
 
 
 
@@ -589,7 +589,7 @@ Vê vekolînê divê bi çend hişyarî bên xwendin:
 
 ## Têbînî ji bo pêşxistinê
 
-Ev ders ji  hatî nûdabeşkirin. Rêjeyên hejmarî yên li jor rasterast ji tabloya pirtûkê hatine girtin; divê di kontrola dawî de her hejmar bi tabloya orîjînal re were berawirdkirin. Dersa 6 ji  li ser dengrêzî û kîte ye.
+Ev ders ji nû ve hatî rêxistin. Rêjeyên hejmarî yên li jor rasterast ji tabloya pirtûkê hatine girtin; divê di kontrola dawî de her hejmar bi tabloya orîjînal re were berawirdkirin. Dersa 6 li ser dengrêzî û kîte ye.
 
 
 
@@ -741,7 +741,7 @@ Lê nivîskar hişyar dike ku hemû peyvên wergirtî bi yek rêzikê nayên ş�
 
 ## Têbînî ji bo pêşxistinê
 
-Ev ders ji  hatî nûdabeşkirin. Kontrola dawî divê li ser dabeşkirina kîteyan, nîşanên IPA, û nimûneyên guherîna lerzê bê kirin; bi taybetî cudahiya kîtekirina nivîskî û ya gotinê di peyvên wek *berav* de. Dersa 7 ji  li ser tesîra guherîna dengî li ser nivîsînê ye.
+Ev ders ji nû ve hatî rêxistin. Kontrola dawî divê li ser dabeşkirina kîteyan, nîşanên IPA, û nimûneyên guherîna lerzê bê kirin; bi taybetî cudahiya kîtekirina nivîskî û ya gotinê di peyvên wek *berav* de. Dersa 7 li ser tesîra guherîna dengî li ser nivîsînê ye.
 
 
 
@@ -890,7 +890,7 @@ Ev cot peyv nîşan didin ku analojî dikare di çend cureyên peyvan de bandor�
 
 ## Têbînî ji bo pêşxistinê
 
-Ev ders ji  hatî nûdabeşkirin. Di kontrola dawî de divê nimûneyên etîmolojîk, nîşanên dengnasiyê û şiroveya analojiyê bi nivîsa PDF-ê re bêne berawirdkirin; herwiha divê cudahiya rastnivîsîna peyvên xwerû, peyvên pêkhatî û peyvên li pey hev bi zelalî bê parastin. Dersa 8 ji  li ser konsonantên B, C, Ç û D e.
+Ev ders ji nû ve hatî rêxistin. Di kontrola dawî de divê nimûneyên etîmolojîk, nîşanên dengnasiyê û şiroveya analojiyê bi nivîsa PDF-ê re bêne berawirdkirin; herwiha divê cudahiya rastnivîsîna peyvên xwerû, peyvên pêkhatî û peyvên li pey hev bi zelalî bê parastin. Dersa 8 li ser konsonantên B, C, Ç û D e.
 
 
 
@@ -1069,7 +1069,7 @@ C û Ç ji aliyê cih û awayê derketinê ve nêzîk in, lê lerza wan cuda ye.
 
 ## Têbînî ji bo pêşxistinê
 
-Ev ders ji  hatî nûdabeşkirin. Berî belavkirinê divê nîşanên fonetîk, cudahiya bipif/bêpif ya Ç, nimûneyên dîrokî û awayê nivîsandina formên zaravayî rasterast bi PDF re bên kontrolkirin. Hin nimûneyên dîrokî ji bo fêrbûnê kurt kirine; divê wek agahiyên çavkaniyê bên xwendin, ne wek daneyên ku bê kontrolkirin ji nû ve bên berfirehkirin. Dersa 9 ji  li ser dengên F û G e.
+Ev ders ji nû ve hatî rêxistin. Berî belavkirinê divê nîşanên fonetîk, cudahiya bipif/bêpif ya Ç, nimûneyên dîrokî û awayê nivîsandina formên zaravayî rasterast bi PDF re bên kontrolkirin. Hin nimûneyên dîrokî ji bo fêrbûnê kurt kirine; divê wek agahiyên çavkaniyê bên xwendin, ne wek daneyên ku bê kontrolkirin ji nû ve bên berfirehkirin. Dersa 9 li ser dengên F û G e.
 
 
 ## Çavkanî
@@ -1263,7 +1263,7 @@ F û G ji aliyê cih û awayê derketinê ve ji hev dûr in. F bi didan û lêv�
 
 ## Têbînî ji bo pêşxistinê
 
-Ev ders ji  hatî nûdabeşkirin. Rêjeyên F û G, nîşanên IPA, formên dîrokî û cudahiyên devokî divê di nirxandina dawî de bi baldarî bêne kontrolkirin. Nimûneyên etîmolojîk ji bo berawirdkirinê ne; divê wek rêzikên nivîsîna îroyîn neyên bikaranîn. Dersa 10 ji  li ser dengên H û J e.
+Ev ders ji nû ve hatî rêxistin. Rêjeyên F û G, nîşanên IPA, formên dîrokî û cudahiyên devokî divê di nirxandina dawî de bi baldarî bêne kontrolkirin. Nimûneyên etîmolojîk ji bo berawirdkirinê ne; divê wek rêzikên nivîsîna îroyîn neyên bikaranîn. Dersa 10 li ser dengên H û J e.
 
 
 ## Çavkanî
@@ -1490,7 +1490,7 @@ Ev nimûne divê wek guherînên devokî an gotina sivik bên fêmkirin; ne wek 
 
 ## Têbînî ji bo pêşxistinê
 
-Ev ders ji  hatî nûdabeşkirin. Cudahiya fonetîkî ya H [h] û Ḧ [ħ], formên devokî, etîmolojî û nîşanên IPA divê di nirxandina dawî de rasterast bi çavkaniyê re bên kontrolkirin. Di nivîsîna normal de H-yekê biparêzin; Ḧ tenê ji bo ravekirina dengnasî û nimûneyên çavkaniyê hatiye bikaranîn. Dersa 11 ji  li ser dengên K û L e.
+Ev ders ji nû ve hatî rêxistin. Cudahiya fonetîkî ya H [h] û Ḧ [ħ], formên devokî, etîmolojî û nîşanên IPA divê di nirxandina dawî de rasterast bi çavkaniyê re bên kontrolkirin. Di nivîsîna normal de H-yekê biparêzin; Ḧ tenê ji bo ravekirina dengnasî û nimûneyên çavkaniyê hatiye bikaranîn. Dersa 11 li ser dengên K û L e.
 
 
 ## Çavkanî
@@ -1701,7 +1701,7 @@ K û L ji aliyê awayê derketinê ve bi temamî cuda ne: K bi girtin û berdana
 
 ## Têbînî ji bo pêşxistinê
 
-Ev ders ji nû ve wek materyaleke fêrkarî hatiye rêkxistin. Cudahiya K-ya bipif/bêpif, nîşanên IPA, cudahiya L-ya zirav/qelew, formên soranî û etîmolojiyên L divê di nirxandina dawî de rasterast bi çavkaniyê re bên kontrolkirin. Nimûneyên devokî û etîmolojîk wek delîlên berawirdkirinê tên pêşkêşkirin, ne wek formên ku hemû xwendekaran divê di nivîsîna standard de bi kar bînin. Dersa 12 ji  li ser dengên M û N e.
+Ev ders ji nû ve wek materyaleke fêrkarî hatiye rêkxistin. Cudahiya K-ya bipif/bêpif, nîşanên IPA, cudahiya L-ya zirav/qelew, formên soranî û etîmolojiyên L divê di nirxandina dawî de rasterast bi çavkaniyê re bên kontrolkirin. Nimûneyên devokî û etîmolojîk wek delîlên berawirdkirinê tên pêşkêşkirin, ne wek formên ku hemû xwendekaran divê di nivîsîna standard de bi kar bînin. Dersa 12 li ser dengên M û N e.
 
 
 ## Çavkanî
@@ -1897,7 +1897,7 @@ Nîşana xêza jêrîn li vir tenê cihê dengê N-ya ketî nîşan dide; ew tî
 
 ## Têbînî ji bo pêşxistinê
 
-Ev ders ji nû ve wek materyaleke fêrkarî hatiye rêkxistin. Nîşanên IPA [m], [n], [ŋ], cudahiya NG di devokan de, etîmolojiyên M/N û formên gotinî yên zêdebûn an ketina N divê di nirxandina dawî de rasterast bi çavkaniyê re bên kontrolkirin. Nimûneyên devokî wek formên herêmî tên pêşkêşkirin, ne wek rêzikên wekhev ji bo hemû kurmancî. Dersa 13 ji  li ser dengên P û Q e.
+Ev ders ji nû ve wek materyaleke fêrkarî hatiye rêkxistin. Nîşanên IPA [m], [n], [ŋ], cudahiya NG di devokan de, etîmolojiyên M/N û formên gotinî yên zêdebûn an ketina N divê di nirxandina dawî de rasterast bi çavkaniyê re bên kontrolkirin. Nimûneyên devokî wek formên herêmî tên pêşkêşkirin, ne wek rêzikên wekhev ji bo hemû kurmancî. Dersa 13 li ser dengên P û Q e.
 
 
 ## Çavkanî
@@ -2072,7 +2072,7 @@ Pirtûk herwiha hin peyvên bi eslê xwe îranî destnîşan dike ku di kurdî d
 
 ## Têbînî ji bo pêşxistinê
 
-Ev ders ji nû ve wek materyaleke fêrkarî hatiye rêkxistin. Di çavkaniyê de di yek cihê danasîna P de nîşana IPA wek [b] hatiye nivîsîn, lê taybetmendiyên ku heman beşê ji bo P rave dike «dulêvî, sekinî, bêlerz» in; ji aliyê dengnasiyê ve nîşana P-ya bêlerz [p] e. Ev nakokî divê berî belavkirinê bi çavkaniya çapkirî/edîtorê re were kontrolkirin; di vê pêşnûsê de [p] wek nîşana dengnasî ya P hatiye bikaranîn. Herwiha cotên wateyî yên P-ya bipif/bêpif, guherînên dîrokî yên P, etîmolojiyên Q û şertên K→Q divê di nirxandina dawî de rasterast bi çavkaniyê re bên kontrolkirin. Dersa 14 ji  li ser dengên R û S e.
+Ev ders ji nû ve wek materyaleke fêrkarî hatiye rêkxistin. Di çavkaniyê de di yek cihê danasîna P de nîşana IPA wek [b] hatiye nivîsîn, lê taybetmendiyên ku heman beşê ji bo P rave dike «dulêvî, sekinî, bêlerz» in; ji aliyê dengnasiyê ve nîşana P-ya bêlerz [p] e. Ev nakokî divê berî belavkirinê bi çavkaniya çapkirî/edîtorê re were kontrolkirin; di vê pêşnûsê de [p] wek nîşana dengnasî ya P hatiye bikaranîn. Herwiha cotên wateyî yên P-ya bipif/bêpif, guherînên dîrokî yên P, etîmolojiyên Q û şertên K→Q divê di nirxandina dawî de rasterast bi çavkaniyê re bên kontrolkirin. Dersa 14 li ser dengên R û S e.
 
 
 ## Çavkanî
