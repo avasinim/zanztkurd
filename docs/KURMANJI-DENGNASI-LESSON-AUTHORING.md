@@ -4,17 +4,17 @@
 **Ziman:** Kurmancî, tîpên latînî.  
 **Status:** Draft for editorial review; not published or activated.
 
-## بنەمای وانەدابڕێژان
+##  
 
-- کتێب سەرچاوەی زانستیی وانەکانە;  PDF نابێت وەک ناوەڕۆکی وانە پیشان بدرێت.
-- هەر وانەیەک ئامانج,  پێشەکی,  ڕوونکردنەوە,  نموونە,  پوختە و ڕاهێنانی هەبێت.
-- زانیاری و نموونەکان لە کتێبەکەوە پشتڕاست دەکرێنەوە;  هیچ یاسایەکی ناپشتڕاست زیاد ناکرێت.
-- دەقی خوێندکار بە کورمانجی و پیتی لاتینی دەبێت. پەڕەی سەرچاوە بۆ پشکنینی ناوخۆیی تۆمار دەکرێت.
-- تاقیکردنەوە تەنها لەو زانیارییانە دروست دەکرێت کە لە خودی وانەکەدا فێر کراون.
+-    ;  PDF      .
+-   ,  ,  ,  ,     .
+-       ;      .
+-        .       .
+-            .
 
-## نەخشەی ٢٧ وانە
+##   
 
-| # | بابەت | پەڕە |
+| # |  |  |
 |---:|---|---:|
 | 1 | Dergeh: dengnasî û lêkolînên pêşîn | 4–7 |
 | 2 | Vokal, konsonant, cih û awayên derketina dengan, pifdarî | 8–15 |
@@ -225,7 +225,7 @@ Bo nimûne, M dulêvî û bêvilî ye; P dulêvî, sekinî û bêlerz e; B jî d
 
 **2. Cihê derketinê:** M, N, F û V bi yek ji van raveyan re girêde: dulêvî; pidûyî; lêvî-didanî.
 
-**3. Cih û awayê derketinê:** Çima M û P tevî ku herdu jî dulêvî ne, wek hev nayên danasîn؟
+**3. Cih û awayê derketinê:** Çima M û P tevî ku herdu jî dulêvî ne, wek hev nayên danasîn?
 
 **4. Ceribandina pifdarî:** Bi kaxezê ceribandina *kurd* û *çek* dubare bike û bi gotinên xwe rave bike çi cûdahî dît.
 
@@ -264,7 +264,7 @@ Di nivîsînê de herf nîşaneke nivîskî ye; deng tişta ku em dibêjin û di
 
 Pirtûk bi nimûneyên inglîzî dest pê dike: di *cent* de C dengê [s] dide, lê di *computer* de dengê [k] dide. Ev nimûne nîşan dide ku heman herf dikare di peyvên cuda de dengên cuda nîşan bike.
 
-## 2. Hevdengî çi ye؟
+## 2. Hevdengî çi ye?
 
 **Hevdengî** (*homophony*) di vê mijarê de rewşek e ku dengekî yek bi herf an komeherfên cuda tê nivîsîn. Di nimûneya inglîzî de dengê [f] di *five* de bi F, lê di *philosophy* de bi PH tê nivîsîn.
 
@@ -274,7 +274,7 @@ Pirtûk herwiha behsa hin rewşên taybet dike:
 - **U/W:** di hin peyvên wek *xwe, xwê, xwîn* de W dengê [u] nîşan dide; lê di *welat* û *bawer* de W dengê konsonantî [w] ye.
 - **R/RR:** hin nivîser R-ya şidandî bi R-yekê û hin bi RR dinivîsin. Lê ev tercîha nivîsînê ye, ne delîla hebûna du herfên ku bi rêkûpêk heman dengê cuda nîşan didin.
 
-## 3. Pirdengî çi ye؟
+## 3. Pirdengî çi ye?
 
 **Pirdengî** (*polyphony*) ew e ku heman herf ji bo nîşandana du an zêdetir dengan tê bikaranîn. Pirtûk dibêje ku ev taybetmendî di kurmanciya latînî de berbelav e.
 
@@ -304,7 +304,7 @@ Pirtûk di rûpelên 21–28 de çend nimûneyên bingehîn pêşkêş dike:
 
 Ev nimûne tenê destpêka nasîna herfan e; hûrgiliyên her dengê di dersên taybet ên paşê de tên xwendin.
 
-## 5. Çima ev cudahî girîng e؟
+## 5. Çima ev cudahî girîng e?
 
 Hevdengî û pirdengî bandorê li xwendin û nivîsînê dikin. Heke xwendekar nizanibe ku herfek dikare çend dengên cuda nîşan bide, dibe ku peyvek xelet bixwîne. Herwiha heke wî nizanibe ku dengek dikare bi awayên cuda were nivîsîn, dibe ku cihê herfê û dengê wê tevlihev bike.
 
@@ -326,9 +326,9 @@ Ji ber vê yekê divê xwendekar:
 
 **1. Têgehên bingehîn:** Bi gotinên xwe cudahiya hevdengî û pirdengiyê rave bike.
 
-**2. Dabeşkirin:** Herfa H di koma yekdeng de ye an pirdeng؟ Bersiva xwe bi nimûneyên *heval* û *heft* piştrast bike.
+**2. Dabeşkirin:** Herfa H di koma yekdeng de ye an pirdeng? Bersiva xwe bi nimûneyên *heval* û *heft* piştrast bike.
 
-**3. Nimûne:** Di peyvên *xwe* û *welat* de W heman dengê dide؟ Çima؟
+**3. Nimûne:** Di peyvên *xwe* û *welat* de W heman dengê dide? Çima?
 
 **4. Rast an şaş:** “Her ku peyvek bi R an RR were nivîsîn, divê ew du dengên cuda bin.” Bersiva xwe rave bike.
 
@@ -410,7 +410,7 @@ Di peyvên esil-ewropî de Ç, K, P û T di gelek nimûneyan de bi awayê bipif 
 
 Di peyvên esil-erebî de hin dengên erebî di kurdî de tên parastin, hin jî diguherin. Bo nimûne, pirtûk peyvên wek *kitêb, kilam, mekteb* û *temam, tacir* dide; herwiha hin peyvên bi Ṭ û Ṣ jî rave dike. Di peyvên ji tirkî û farisî wergirtî de jî qelewîtî her tim wek peyvên xwemalî nayê bikaranîn.
 
-Rêbaza fêrbûnê ev e: eslê peyv û awayê ku di zimanê jêder de hatiye gotin dikarin bandorê li dengê peyva kurdî bikin; ji ber vê yekê her peyvek divê bi nimûne û sەرچاوەی xwe were kontrolkirin.
+Rêbaza fêrbûnê ev e: eslê peyv û awayê ku di zimanê jêder de hatiye gotin dikarin bandorê li dengê peyva kurdî bikin; ji ber vê yekê her peyvek divê bi nimûne û çavkaniya xwe were kontrolkirin.
 
 ## 5. L-ya zirav û L-ya qelew: L û Ł
 
@@ -454,15 +454,15 @@ Ji ber vê yekê du ast ji hev cuda bikin:
 
 ## Çalakî û xwepirsîn
 
-**1. Fonem an alofon؟** Çima pirtûk Ṗ, Ṣ û Ṭ wek alofon, lê Ẓ wek fonem diyar dike؟
+**1. Fonem an alofon?** Çima pirtûk Ṗ, Ṣ û Ṭ wek alofon, lê Ẓ wek fonem diyar dike?
 
-**2. Cudakirina L:** Peyvên *dil* û *dił* bi çi cûdahiya dengî tên gotin؟
+**2. Cudakirina L:** Peyvên *dil* û *dił* bi çi cûdahiya dengî tên gotin?
 
-**3. Cudakirina R:** Çima R-ya destpêka *řast* ji R-ya navî ya *germ* cuda ye؟
+**3. Cudakirina R:** Çima R-ya destpêka *řast* ji R-ya navî ya *germ* cuda ye?
 
-**4. Rêzik û istisna:** Çima rêzikên qelewîtiyê yên peyvên xwemalî divê bi peyvên ji erebî, tirkî û farisî wergirtî re bê pشکنین؟
+**4. Rêzik û istisna:** Çima rêzikên qelewîtiyê yên peyvên xwemalî divê bi peyvên ji erebî, tirkî û farisî wergirtî re bê kontrolkirin?
 
-**5. Nivîsîna standard:** Çima nivîskar nîşankirina deqîq a dengên qelew ji nivîsên rojane cuda dike؟
+**5. Nivîsîna standard:** Çima nivîskar nîşankirina deqîq a dengên qelew ji nivîsên rojane cuda dike?
 
 ## Bersivên kurt
 
@@ -515,7 +515,7 @@ Li gorî vê materyalê:
 - **A** bi rêjeya **8.0%** hatiye.
 - **Ê** û **R** her yek bi rêjeya **5.2%** hatine hejmartin.
 
-Pirtûk destnîşan dike ku rêjeya herfan dikare li gor materyal û devokê biguhere. Bo nimûne, di hin devokan de I dikare ji E zêdetir be. Ji ber vê yekê divê em encamên vê vekolînê bi şert û çarچۆڤەی xwe bixwînin.
+Pirtûk destnîşan dike ku rêjeya herfan dikare li gor materyal û devokê biguhere. Bo nimûne, di hin devokan de I dikare ji E zêdetir be. Ji ber vê yekê divê em encamên vê vekolînê bi şert û çar xwe bixwînin.
 
 ## 4. Herfên kêm-bikaranîn
 
@@ -561,13 +561,13 @@ Vê vekolînê divê bi çend hişyarî bên xwendin:
 
 ## Çalakî û xwepirsîn
 
-**1. Hesabkirin:** Heke di materyaleke 10,000 herfî de rêjeya E 11.6% be, nêzîkî çend E têne hêvîkirin؟
+**1. Hesabkirin:** Heke di materyaleke 10,000 herfî de rêjeya E 11.6% be, nêzîkî çend E têne hêvîkirin?
 
-**2. Berawirdkirin:** Di materyala pirtûkê de rêjeya E û I çiqas ji hev cuda ye؟
+**2. Berawirdkirin:** Di materyala pirtûkê de rêjeya E û I çiqas ji hev cuda ye?
 
-**3. Şîrove:** Çima paşgirên lêkeran dikarin rêjeya herfan biguherînin؟
+**3. Şîrove:** Çima paşgirên lêkeran dikarin rêjeya herfan biguherînin?
 
-**4. Hişyarî:** Çima em nikarin rêjeya herfên vê vekolînê wek rêjeya rast a hemû axaftina kurmancî bihesibînin؟
+**4. Hişyarî:** Çima em nikarin rêjeya herfên vê vekolînê wek rêjeya rast a hemû axaftina kurmancî bihesibînin?
 
 ## Bersivên kurt
 
@@ -610,7 +610,7 @@ Peyv ji yek an çend **kîteyan** pêk tên. Kîte parçeyeke peyvê ye ku di go
 
 Bo nimûne, di kurmancî de komên *st-* û *sp-* dikarin li destpêka peyvê bên, wek *stêr* û *spî*. Lê komên *nd-* û *dn-* wek destpêka peyvê di vê rêbazê de nayên qebûlkirin; nîşana * di pirtûkê de formeke ne-mimkin nîşan dide.
 
-## 2. Kîte çawa tê dabeşkirin؟
+## 2. Kîte çawa tê dabeşkirin?
 
 Her kîte bi kêmî vokalekê heye. Pirtûk sê beşên bingehîn ji hev cuda dike:
 
@@ -715,7 +715,7 @@ Lê nivîskar hişyar dike ku hemû peyvên wergirtî bi yek rêzikê nayên ş�
 
 **4. Guherîna lerzê:** Rave bike çima *lîz + t* dibe *lîst*.
 
-**5. Berawirdkirin:** Çima *stêr* di hin zaravên kurdî de bi vokalekê li destpêkê tê gotin؟
+**5. Berawirdkirin:** Çima *stêr* di hin zaravên kurdî de bi vokalekê li destpêkê tê gotin?
 
 ## Bersivên kurt
 
@@ -756,7 +756,7 @@ Di axaftinê de hin deng ji ber dengên nêzîkî xwe diguherin. Lê carinan for
 - *pezkovî / pezkûvî* di axaftina bilez de dikarin wek *peskovî / peskûvî* bên bihîstin;
 - *ez têm* di axaftina bilez de dikare wek *es-têm* were bihîstin.
 
-Pirsa rastnivîsînê ev e: gelo em ê forma ku tê gotin binivîsin, an jî reh û pêkhateya peyvê biparêzin؟ Pirtûk nîşan dide ku bersiv li gor cureya peyvê diguhere; ji bo hemû rewşan yek rêbaz tune.
+Pirsa rastnivîsînê ev e: gelo em ê forma ku tê gotin binivîsin, an jî reh û pêkhateya peyvê biparêzin? Pirtûk nîşan dide ku bersiv li gor cureya peyvê diguhere; ji bo hemû rewşan yek rêbaz tune.
 
 ## 2. Peyvên xwerû: nivîsîn li gor forma gotinê
 
@@ -852,15 +852,15 @@ Ev cot peyv nîşan didin ku analojî dikare di çend cureyên peyvan de bandor�
 
 **1. Rastnivîsîn:** Ji van cotan forma ku li gor prensîba pirtûkê tê nivîsîn hilbijêre: *kuştin / kujtin*; *lîstin / lîztin*; *axiftin / axivtin*.
 
-**2. Peyvên serbixwe:** Çima *ez têm* di nivîsînê de wek *ez têm* dimîne, tevî ku di axaftina bilez de dikare wek *es-têm* were bihîstin؟
+**2. Peyvên serbixwe:** Çima *ez têm* di nivîsînê de wek *ez têm* dimîne, tevî ku di axaftina bilez de dikare wek *es-têm* were bihîstin?
 
-**3. Tesîra cihê dengê:** Di *beramber* de çima N berî B dibe M؟
+**3. Tesîra cihê dengê:** Di *beramber* de çima N berî B dibe M?
 
-**4. Analojî:** Li gor ravekirina pirtûkê, H di *heşt* de ji kû hatiye؟
+**4. Analojî:** Li gor ravekirina pirtûkê, H di *heşt* de ji kû hatiye?
 
-**5. Dabeşkirin:** Mînakên *bi, di, ji, li* û *de, re, ve* bi kîjan diyarde ve girêdayî ne؟
+**5. Dabeşkirin:** Mînakên *bi, di, ji, li* û *de, re, ve* bi kîjan diyarde ve girêdayî ne?
 
-**6. Şîrove:** Çima divê em peyvên kevn ên wek *dezgeh* her tim bi rehê xwe yê dîrokî nûnenivîsin؟
+**6. Şîrove:** Çima divê em peyvên kevn ên wek *dezgeh* her tim bi rehê xwe yê dîrokî nûnenivîsin?
 
 ## Bersivên kurt
 
@@ -1020,21 +1020,21 @@ C û Ç ji aliyê cih û awayê derketinê ve nêzîk in, lê lerza wan cuda ye.
 
 ## Çalakî û xwepirsîn
 
-**1. Cudahiya B/P:** Herdu deng du-lêvî û seknî ne; kîjan taybetmendiya wan cuda ye؟
+**1. Cudahiya B/P:** Herdu deng du-lêvî û seknî ne; kîjan taybetmendiya wan cuda ye?
 
-**2. Cudahiya B/M:** Çima M bêvilî ye, lê B ne؟
+**2. Cudahiya B/M:** Çima M bêvilî ye, lê B ne?
 
-**3. Cihê C û Ç:** Kîjan yek bilerz e û kîjan bêlerz؟
+**3. Cihê C û Ç:** Kîjan yek bilerz e û kîjan bêlerz?
 
-**4. Bipif an bêpif؟** Di nimûneyên *çend* û *çerm* de awayê Ç-ê çawa cuda ye؟
+**4. Bipif an bêpif?** Di nimûneyên *çend* û *çerm* de awayê Ç-ê çawa cuda ye?
 
-**5. D û T:** Çima D û T ji aliyê cih û awayê derketinê ve nêzîk in, lê ji aliyê lerzê ve cuda ne؟
+**5. D û T:** Çima D û T ji aliyê cih û awayê derketinê ve nêzîk in, lê ji aliyê lerzê ve cuda ne?
 
-**6. Dîrok:** Çima *av, sêv, ewr* di vê dersê de wek nimûneyên guherîna B/V/W tên bikaranîn؟
+**6. Dîrok:** Çima *av, sêv, ewr* di vê dersê de wek nimûneyên guherîna B/V/W tên bikaranîn?
 
-**7. Ketina dengê:** Di *birin, kirin, mirin* de D li gor berawirdkirina pirtûkê li kîjan cihê peyvê ketiye؟
+**7. Ketina dengê:** Di *birin, kirin, mirin* de D li gor berawirdkirina pirtûkê li kîjan cihê peyvê ketiye?
 
-**8. Şîrove:** Çima divê têkiliyên dîrokî yên C/J/Z/Ç wek rêzikên giştî yên nivîsîna îroyîn neyên bikaranîn؟
+**8. Şîrove:** Çima divê têkiliyên dîrokî yên C/J/Z/Ç wek rêzikên giştî yên nivîsîna îroyîn neyên bikaranîn?
 
 ## Bersivên kurt
 
@@ -1074,7 +1074,7 @@ Di dawiya dersê de xwendekar dikare:
 
 Dengê **F** bi têkiliyê xistina didanên jorîn bi lêva jêrîn tê çêkirin. Hewa ji nav tengiyeke biçûk derbas dibe û xişînekê çêdike; perdeyên dengî di dema gotina wê de nalizerin. Ji ber vê yekê F dengekî **lêvî-didanî, xişok û bêlerz** e. Di IPA de bi **[f]** tê nîşandan.
 
-Di alfabeyên cuda de ev deng bi nîşanên cuda tê nivîsîn: di kurdî-erebî de ف, di kurdî-krîlî de Ф/ф; di hin zimanan de V an jî PH ji bo dengê [f] tê bikaranîn. Ev tenê cudahiya rêbazên nivîsînê ye; dengê ku tê nîşandan heman deng e.
+Di alfabeyên cuda de ev deng bi nîşanên cuda tê nivîsîn: di kurdî-krîlî de Ф/ф, di hin zimanan de V an jî PH ji bo dengê [f] tê bikaranîn. Di nivîsa kurdî-latînî de F tê bikaranîn. Ev tenê cudahiya rêbazên nivîsînê ye; dengê ku tê nîşandan heman deng e.
 
 ## 2. Peydabûna F di peyvan de
 
@@ -1139,7 +1139,7 @@ Di hin devokan de F-ya berî T di peyvên wek *mizgeft* û *şkeft* de jî ketiy
 
 Dengê **G** bi girtina hewayê li paşiya devê û paşê berdana wê tê çêkirin. Di dema gotina G de perdeyên dengî dilerizin; ji ber vê yekê G dengekî **sekinî, paşdevî û bilerz** e. Di IPA de bi **[g]** tê nîşandan.
 
-Di kurdî-erebî de G bi گ tê nivîsîn; di kurdî-krîlî de bi Г/г. Di erebiya standard de ev deng wek fonemeke bingehîn tune, lê di hin devokan de hin herfên erebî dikarin wek G bên gotin.
+Di kurdî-krîlî de G bi Г/г tê nivîsîn. Di nivîsa kurdî-erebî de nîşana wê ji alfabeya erebî hatiye wergirtin. Di erebiya standard de ev deng wek fonemeke bingehîn tune, lê di hin devokan de hin dengên nêzîk dikarin wek G bên gotin.
 
 ## 7. Peydabûna G di peyvan de
 
@@ -1204,27 +1204,27 @@ F û G ji aliyê cih û awayê derketinê ve ji hev dûr in. F bi didan û lêv�
 - Di hin peyvan de F ji P-ya kevn hatiye; ji ber vê yekê F ne tenê dengekî peyvên erebî ye.
 - G sekinî-paşdevî-bilerz e; nîşana wê ya IPA [g] e.
 - G di destpêka peyvan de berbelavtir e; di nav û dawiyê de di peyvên xwemalî de sînordar e.
-- F û G dikarin di dîrok û devokan de biguherin an ji peyvê bikevin; lê her nimûne divê bi şert û çarچوڤەی xwe were fêmkirin.
+- F û G dikarin di dîrok û devokan de biguherin an ji peyvê bikevin; lê her nimûne divê bi şert û çar xwe were fêmkirin.
 
 ## Çalakî û xwepirsîn
 
-**1. Nasîna deng:** F çawa tê çêkirin؟ Di gotina wê de didan û lêv çi dikin؟
+**1. Nasîna deng:** F çawa tê çêkirin? Di gotina wê de didan û lêv çi dikin?
 
-**2. F û V:** Cudahiya bingehîn a F û V çi ye؟ Herdu ji aliyê cihê derketinê ve çawa ne؟
+**2. F û V:** Cudahiya bingehîn a F û V çi ye? Herdu ji aliyê cihê derketinê ve çawa ne?
 
 **3. Cihê peyvê:** Ji lîsteya *ferman, afir, berf* re bêje F li kîjan cihê peyvê ye.
 
-**4. Dîrok:** Çima em nikarin bibêjin ku hemû peyvên bi F dest pê dikin ji erebî hatine؟
+**4. Dîrok:** Çima em nikarin bibêjin ku hemû peyvên bi F dest pê dikin ji erebî hatine?
 
-**5. Ketina F:** Formên *ketin, keftin, kewtin* bi çi awayî bi hev ve girêdayî ne؟
+**5. Ketina F:** Formên *ketin, keftin, kewtin* bi çi awayî bi hev ve girêdayî ne?
 
-**6. Nasîna G:** G ji aliyê cih, awayê derketinê û lerzê ve çawa tê danasîn؟
+**6. Nasîna G:** G ji aliyê cih, awayê derketinê û lerzê ve çawa tê danasîn?
 
-**7. Cihê G:** Di *gav, agir, reng* de G li ku ye؟
+**7. Cihê G:** Di *gav, agir, reng* de G li ku ye?
 
-**8. Ketina G:** Di berawirdkirina *gurg/gur* de çi guherîn çêbûye؟
+**8. Ketina G:** Di berawirdkirina *gurg/gur* de çi guherîn çêbûye?
 
-**9. Devok:** Di hin formên kurdiya başûrî de K dikare bibe G. Ev çi cure guherînê ye؟
+**9. Devok:** Di hin formên kurdiya başûrî de K dikare bibe G. Ev çi cure guherînê ye?
 
 ## Bersivên kurt
 
@@ -1265,13 +1265,13 @@ Di dawiya dersê de xwendekar dikare:
 
 Di kurmanciya latînî de herdu deng bi herfa **H** tên nivîsîn, lê ji aliyê dengnasiyê ve ne heman deng in. Pirtûk wan bi du koman cuda dike.
 
-**Koma yekem — H [h]:** Ev deng di peyvên *her, heval, hêvî, hestî, bihar, guh* de tê bihîstin. Di alfabeya kurdî-erebî de bi هـ tê nîşandan. Di IPA de nîşana wê **[h]** e.
+**Koma yekem — H [h]:** Ev deng di peyvên *her, heval, hêvî, hestî, bihar, guh* de tê bihîstin. Di nivîsa kurdî-erebî de bi herfa H ya asayî tê nîşandan. Di IPA de nîşana wê **[h]** e.
 
-**Koma duyem — Ḧ [ħ]:** Ev deng di peyvên *ḧal, ḧeram, ḧekîm, Ḧesen, reḧm* de tê bihîstin. Di alfabeya kurdî-erebî de bi ح tê nîşandan. Di IPA de nîşana wê **[ħ]** e; di hin nivîsên zanistî û tîpguhêzî de jî bi **ḥ** tê nîşandan.
+**Koma duyem — Ḧ [ħ]:** Ev deng di peyvên *ḧal, ḧeram, ḧekîm, Ḧesen, reḧm* de tê bihîstin. Di nivîsa kurdî-erebî de bi herfeke cuda ji H-ya asayî tê nîşandan. Di IPA de nîşana wê **[ħ]** e; di hin nivîsên zanistî û tîpguhêzî de jî bi **ḥ** tê nîşandan.
 
 Pirtûk ji bo ku xwendekar di dema fêrbûna dengnasiyê de wan ji hev cuda bike, herfa **ḧ** (H-ya du nuqte li ser) ji bo dengê duyem bi kar tîne. Ev nîşan di vê dersê de alîkar e ku du dengên cuda bi hev re ne tevlihev bibin.
 
-## 2. Ḧ tenê di peyvên erebî de ye؟
+## 2. Ḧ tenê di peyvên erebî de ye?
 
 Gelek peyvên ku bi Ḧ tên gotin ji erebî hatine, wek *ḧeq, ḧed, ḧidûd, ḧurr, ḧemd, beḧr*. Lê pirtûk hişyar dike ku em nikarin bibêjin Ḧ tenê di peyvên erebî de heye.
 
@@ -1298,7 +1298,7 @@ Lê ev guherîn sînordar e; di gelek peyvên din de Ḧ diparêzire. Pirtûk de
 
 H-ya ku di *heval, hêja, hûn* de heye dengekî **qirrikî, xişok, nevizok û bêlerz** e. Cihê derketina wê li herêma qirrikê/gewriyê ye; hewa ji tengiyekê derbas dibe û xişînek çêdike. Di dema gotina wê de perdeyên dengî nalizerin. Nîşana wê ya IPA **[h]** e.
 
-Di alfabeya kurdî-erebî de bi هـ tê nivîsîn; di kurdî-krîlî de bi Һ/һ hatiye nîşandan. Di vê dersê de ev deng ji Ḧ-ya [ħ] cuda tê xwendin, herçend di nivîsîna asayî ya latînî de herdu bi H tên nivîsîn.
+Di nivîsa kurdî-erebî de H-ya asayî bi nîşana xwe tê nivîsîn; di kurdî-krîlî de bi Һ/һ hatiye nîşandan. Di vê dersê de ev deng ji Ḧ-ya [ħ] cuda tê xwendin, herçend di nivîsîna asayî ya latînî de herdu bi H tên nivîsîn.
 
 ### Peydabûna H di peyvan de
 
@@ -1342,7 +1342,7 @@ Di hin peyvan de H dikare li cihê Ş-ya zimanên din were; wek *têhnî* li hem
 
 Herfa **J** di kurdî-latînî de dengê **paşpidûyî, xişok, nevizok û bilerz** nîşan dide. Di dema çêkirina wê de ziman ji pidûyan paşvetir diçe; hewa di rêyeke teng de derbas dibe û xişînek çêdike. Perdeyên dengî dilerizin, ji ber vê yekê J bilerz e.
 
-Di IPA de nîşana wê **[ʒ]** e. Di kurdî-erebî û farisî de bi ژ tê nivîsîn; di kurdî-krîlî de bi Ж/ж hatiye nîşandan. Di hin zimanên din de bi Ž, ZH an J tê nivîsîn.
+Di IPA de nîşana wê **[ʒ]** e. Di nivîsa kurdî-erebî û farisî de herfa taybet a dengê [ʒ] tê bikaranîn; di kurdî-krîlî de bi Ж/ж hatiye nîşandan. Di hin zimanên din de bi Ž, ZH an J tê nivîsîn.
 
 Baldar be: J di kurmancî de [ʒ] e; lê di inglîzî de herfa J bi gelemperî dengê C-ya kurdî dide, û di almanî de J dikare dengê Y nîşan bide. Ji ber vê yekê navê herfê di zimanên cuda de her tim heman deng nîşan nade.
 
@@ -1419,21 +1419,21 @@ Ev varyant di pirtûkê de wek awayên nivîsînê yên cuda tên nîşandan; di
 
 ## Çalakî û xwepirsîn
 
-**1. H an Ḧ؟** Di peyvên *heval, ḧeq, hêvî, ḧeft* de kîjan deng tê gotin؟ Cudahiya wan bi IPA rave bike.
+**1. H an Ḧ?** Di peyvên *heval, ḧeq, hêvî, ḧeft* de kîjan deng tê gotin? Cudahiya wan bi IPA rave bike.
 
-**2. Devok:** Çima *hemî/hemû*, *hezar/ḧezar* û *hirç/ḧirç* divê wek cudahiyên devokî bên xwendin؟
+**2. Devok:** Çima *hemî/hemû*, *hezar/ḧezar* û *hirç/ḧirç* divê wek cudahiyên devokî bên xwendin?
 
-**3. Nivîsîn:** Li gor pêşniyara pirtûkê, di nivîsîna normal de em H û Ḧ çawa binivîsin؟ Çima؟
+**3. Nivîsîn:** Li gor pêşniyara pirtûkê, di nivîsîna normal de em H û Ḧ çawa binivîsin? Çima?
 
 **4. Cihê H:** Ji nimûneyên *heval, bihar, meh* re bêje H li kîjan cihê peyvê ye.
 
-**5. Nasîna J:** J di IPA de bi kîjan nîşanê tê nivîsîn؟ Cudahiya wê bi C-ya kurdî çi ye؟
+**5. Nasîna J:** J di IPA de bi kîjan nîşanê tê nivîsîn? Cudahiya wê bi C-ya kurdî çi ye?
 
-**6. Berawirdkirina dîrokî:** Di cotên *jin/cinî/zen* û *roj/roc/rûz* de çi têkiliya dengî tê dîtin؟
+**6. Berawirdkirina dîrokî:** Di cotên *jin/cinî/zen* û *roj/roc/rûz* de çi têkiliya dengî tê dîtin?
 
-**7. Guherîna J:** Çima rehê *-kuj-* bi T re dibe *kuşt*, ne *kujt*؟
+**7. Guherîna J:** Çima rehê *-kuj-* bi T re dibe *kuşt*, ne *kujt*?
 
-**8. Peyvên nû:** Ji nimûneyên *biyolojî, jeolojî* û varyantên bi C/G re, kîjan awayê nivîsînê pirtûk wek serdest nîşan dide؟
+**8. Peyvên nû:** Ji nimûneyên *biyolojî, jeolojî* û varyantên bi C/G re, kîjan awayê nivîsînê pirtûk wek serdest nîşan dide?
 
 ## Bersivên kurt
 
@@ -1490,7 +1490,7 @@ Di dawiya dersê de xwendekar dikare:
 
 Dengê **K** bi girtina rêya hewayê li paşiya devê û paşê vekirina wê tê çêkirin. Ji ber vê yekê K dengekî **paşdevî û sekinî** ye. Di dema gotina wê de perdeyên dengî nalizerin; ji ber vê yekê **bêlerz** e. Di IPA de bi **[k]** tê nîşandan.
 
-Di kurdî-latînî de K/k tê bikaranîn; di kurdî-erebî û farisî de bi ک, di erebî de bi ك û di kurdî-krîlî de bi К/к tê nivîsîn. Di hin zimanan de C an Q jî dikarin dengê [k] nîşan bidin; ji ber vê yekê divê herf û deng ji hev cuda bên fêmkirin.
+Di kurdî-latînî de K/k tê bikaranîn; di kurdî-krîlî de bi К/к tê nivîsîn. Di nivîsa kurdî-erebî û farisî de herfa taybet a K tê bikaranîn; di hin zimanan de C an Q jî dikarin dengê [k] nîşan bidin. Ji ber vê yekê divê herf û deng ji hev cuda bên fêmkirin.
 
 ## 2. Peydabûna K di peyvan de
 
@@ -1546,7 +1546,7 @@ Ev nimûne nîşan didin ku K dikare ji çavkaniyên cuda were an di dîroka pey
 
 Dengê **L** di dema gotinê de bi nêzîkbûna zimanê bi pidûyan tê çêkirin. Rêya hewayê teng dibe, lê bi temamî nayê girtin. Ji ber vê yekê L dengekî **pidûyî û tengav** e. Di IPA de bi **[l]** tê nîşandan.
 
-Di kurdî-latînî de L/l, di kurdî-erebî de ل û di kurdî-krîlî de Л/л tê bikaranîn.
+Di kurdî-latînî de L/l û di kurdî-krîlî de Л/л tê bikaranîn. Di nivîsa kurdî-erebî de herfa L-ya zirav tê bikaranîn.
 
 ## 7. Peydabûna L di peyvan de
 
@@ -1563,7 +1563,7 @@ Di kurmancî de herfa L dikare bi du awayên hinekî cuda were gotin.
 
 **L-ya zirav** di peyvên wek *lêv, law, livîn, gel, bila* de heye.
 
-**L-ya qelew** di peyvên wek *lep, welat, silav* de heye. Di nivîsîna kurdî-erebî de, bi taybetî di soranî de, L-ya qelew bi **ڵ** û L-ya zirav bi **ل** tê cudakirin. Di hin nivîsên latînî de L-ya qelew bi LL an Ł tê nîşandan; lê di vê dersê de divê xwendekar herdu awayên dengdanê bi guh û nimûneyan nas bike.
+**L-ya qelew** di peyvên wek *lep, welat, silav* de heye. Di nivîsîna kurdî-erebî de, bi taybetî di soranî de, ji bo L-ya qelew herfeke cuda ji L-ya zirav tê bikaranîn. Di hin nivîsên latînî de L-ya qelew bi LL an Ł tê nîşandan; lê di vê dersê de divê xwendekar herdu awayên dengdanê bi guh û nimûneyan nas bike.
 
 L-ya qelew di kurmancî de kêm e, lê di soranî de gelek berbelavtir e. Di hin peyvên ku di kurmancî de L-ya zirav heye, di soranî de L-ya qelew tê dîtin:
 - kurmancî *dil* — soranî *dił*;
@@ -1640,23 +1640,23 @@ K û L ji aliyê awayê derketinê ve bi temamî cuda ne: K bi girtin û berdana
 
 ## Çalakî û xwepirsîn
 
-**1. Nasîna K:** K ji aliyê cih, awayê derketinê û lerzê ve çawa tê danasîn؟
+**1. Nasîna K:** K ji aliyê cih, awayê derketinê û lerzê ve çawa tê danasîn?
 
-**2. Bipif/bêpif:** Di *kurd* û *kirin* de K çawa cuda tê gotin؟ Ceribandina kaxezê çi nîşan dide؟
+**2. Bipif/bêpif:** Di *kurd* û *kirin* de K çawa cuda tê gotin? Ceribandina kaxezê çi nîşan dide?
 
-**3. Cihê K:** Di *kar, dikan, çek* de K li kîjan cihê peyvê ye؟
+**3. Cihê K:** Di *kar, dikan, çek* de K li kîjan cihê peyvê ye?
 
-**4. Dîrok:** Çima *kî* û *çi* tevî têkiliya dîrokî bi du dengên destpêkê yên cuda tên gotin؟
+**4. Dîrok:** Çima *kî* û *çi* tevî têkiliya dîrokî bi du dengên destpêkê yên cuda tên gotin?
 
-**5. Nasîna L:** L ji aliyê cih û awayê derketinê ve çawa tê danasîn؟
+**5. Nasîna L:** L ji aliyê cih û awayê derketinê ve çawa tê danasîn?
 
-**6. L-ya zirav/qelew:** Di *lêv, lep, silav* de kîjan awayê L heye؟
+**6. L-ya zirav/qelew:** Di *lêv, lep, silav* de kîjan awayê L heye?
 
-**7. Berawirdkirin:** Di cotên *dil/dił* û *gul/guł* de cudahiya kurmancî û soranî çi ye؟
+**7. Berawirdkirin:** Di cotên *dil/dił* û *gul/guł* de cudahiya kurmancî û soranî çi ye?
 
-**8. Çavkaniyên L:** Pirtûk ji bo L-ya hin peyvên xwemalî kîjan du dengên sereke destnîşan dike؟
+**8. Çavkaniyên L:** Pirtûk ji bo L-ya hin peyvên xwemalî kîjan du dengên sereke destnîşan dike?
 
-**9. Devok:** Çima *limêj* û *livîn* divê wek formên devokî bên nîşandan, ne wek forma standard a hemû kurmancî؟
+**9. Devok:** Çima *limêj* û *livîn* divê wek formên devokî bên nîşandan, ne wek forma standard a hemû kurmancî?
 
 ## Bersivên kurt
 
@@ -1697,7 +1697,7 @@ Di dawiya dersê de xwendekar dikare:
 
 Dengê **M** di dema gotinê de bi herdu lêvan çêdibe: lêv li hev tên û paşê vedibin. Hewa di vê demê de ji pozê derdikeve; ji ber vê yekê M dengekî **bêvilî** ye. Perdeyên dengî jî di gotina wê de dilerizin; ji ber vê yekê M **bilerz** e. Di IPA de bi **[m]** tê nîşandan.
 
-Di kurdî-latînî de M/m, di kurdî-erebî de م û di kurdî-krîlî de М/м tê bikaranîn.
+Di kurdî-latînî de M/m û di kurdî-krîlî de М/м tê bikaranîn. Di nivîsa kurdî-erebî de herfa M-ya taybet tê bikaranîn.
 
 ## 2. Peydabûna M di peyvan de
 
@@ -1739,7 +1739,7 @@ Pirtûk herwiha têkiliya M-ya kurdî û B-ya farisî di peyva *ramûsan* (maç 
 
 ## 5. N — bêvilî-pidûyî
 
-Dengê **N** bi alîkariya zimanê ku li pidûyan nêzîk dibe tê çêkirin. Hewa di dema gotina wê de ji pozê derdikeve; ji ber vê yekê N dengekî **bêvilî** ye. Di IPA de bi **[n]** tê nîşandan. Di kurdî-latînî de N/n, di kurdî-erebî de ن û di kurdî-krîlî de Н/н tê bikaranîn.
+Dengê **N** bi alîkariya zimanê ku li pidûyan nêzîk dibe tê çêkirin. Hewa di dema gotina wê de ji pozê derdikeve; ji ber vê yekê N dengekî **bêvilî** ye. Di IPA de bi **[n]** tê nîşandan. Di kurdî-latînî de N/n û di kurdî-krîlî de Н/н tê bikaranîn. Di nivîsa kurdî-erebî de herfa N-ya taybet tê bikaranîn.
 
 ## 6. Peydabûna N di peyvan de
 
@@ -1836,21 +1836,21 @@ Nîşana xêza jêrîn li vir tenê cihê dengê N-ya ketî nîşan dide; ew tî
 
 ## Çalakî û xwepirsîn
 
-**1. Nasîna M:** M ji aliyê cihê derketinê, rêya hewayê û lerzê ve çawa tê danasîn؟
+**1. Nasîna M:** M ji aliyê cihê derketinê, rêya hewayê û lerzê ve çawa tê danasîn?
 
-**2. Nasîna N:** Cudahiya M û N di cihê derketinê de çi ye؟
+**2. Nasîna N:** Cudahiya M û N di cihê derketinê de çi ye?
 
-**3. Guherîna M:** Di cotên *nav/naw* û *gav/(hen)gaw* de çi guherîn hatiye dîtin؟
+**3. Guherîna M:** Di cotên *nav/naw* û *gav/(hen)gaw* de çi guherîn hatiye dîtin?
 
-**4. NG:** Çima NG di kurmancî de bi gelemperî [ŋg] e, lê di hin devokên başûrî de [ŋ] dibe؟
+**4. NG:** Çima NG di kurmancî de bi gelemperî [ŋg] e, lê di hin devokên başûrî de [ŋ] dibe?
 
-**5. Asîmîlasyon:** Di *jinbav → jimbav* de N çima bûye M؟
+**5. Asîmîlasyon:** Di *jinbav → jimbav* de N çima bûye M?
 
-**6. Guherîna N:** *nimêj → limêj* çi cure guherînekê nîşan dide؟
+**6. Guherîna N:** *nimêj → limêj* çi cure guherînekê nîşan dide?
 
-**7. Zêdebûna N:** Ji nimûneyên *tac/tanc* û *çok/çong* re bêje çi qewimî ye؟
+**7. Zêdebûna N:** Ji nimûneyên *tac/tanc* û *çok/çong* re bêje çi qewimî ye?
 
-**8. Ketina N:** Di *du kitêban → du kitêba_* de kîjan deng ketiye؟
+**8. Ketina N:** Di *du kitêban → du kitêba_* de kîjan deng ketiye?
 
 ## Bersivên kurt
 
@@ -1865,7 +1865,7 @@ Nîşana xêza jêrîn li vir tenê cihê dengê N-ya ketî nîşan dide; ew tî
 
 ## Têbînî ji bo pêşxistinê
 
-Ev ders ji rûpelên çapkirî 147–154 hatiye nûdabeşkirin. Nîşanên IPA [m], [n], [ŋ], cudahiya NG di devokan de, etîmolojiyên M/N û formên gotinî yên zêdebûn an ketina N divê di nirxandina dawî de rasterast bi çavkaniyê re bên kontrolkirin. Nimûneyên devokî wek formên herêmî tên pêşkêşkirin, ne wek rêzikên yekسان ji bo hemû kurmancî. Dersa 13 ji rûpelên çapkirî 155–167 li ser dengên P û Q e.
+Ev ders ji rûpelên çapkirî 147–154 hatiye nûdabeşkirin. Nîşanên IPA [m], [n], [ŋ], cudahiya NG di devokan de, etîmolojiyên M/N û formên gotinî yên zêdebûn an ketina N divê di nirxandina dawî de rasterast bi çavkaniyê re bên kontrolkirin. Nimûneyên devokî wek formên herêmî tên pêşkêşkirin, ne wek rêzikên wekhev ji bo hemû kurmancî. Dersa 13 ji rûpelên çapkirî 155–167 li ser dengên P û Q e.
 
 
 ---
@@ -2711,7 +2711,7 @@ Di dawiya dersê de xwendekar dikare:
 
 ## 1. Dengê Eyn di kurmancî de
 
-Dengê **Eyn** di alfabeya erebî û kurdî-erebî de bi herfa ع tê nîşandan; di alfabeya dengnasî ya navneteweyî de nîşana wê **[ʕ]** e. Di kurmancî-latînî de herfeke standard a taybet ji bo wê tune ye, lê di dema danasîna dengê peyvekê de dikare bi nîşana **’** were nîşandan.
+Dengê **Eyn** di nivîsa erebî û kurdî-erebî de bi herfeke taybet tê nîşandan; di alfabeya dengnasî ya navneteweyî de nîşana wê **[ʕ]** e. Di kurmancî-latînî de herfeke standard a taybet ji bo wê tune ye, lê di dema danasîna dengê peyvekê de dikare bi nîşana **’** were nîşandan.
 
 Nivîskar dengê Eyn wek **xişoka qirrikî ya bilerz** (voiced pharyngeal fricative) rave dike. Di çêkirina wê de tengbûneke li qirrikê çêdibe û perdeyên dengî dilerizin. Ji ber vê yekê ew ne vokala E ye; dengê konsonantîk e ku dikare berî E an vokalên din were bihîstin.
 
@@ -2745,7 +2745,7 @@ Her sê deng li devera paşîn a devê, li ser banê zimanî tên çêkirin, lê
 
 K û G ji aliyê cihê derketinê ve nêzîk in; cudahiya sereke ya wan lerza perdeyên dengî ye. Q ji herduyan paştir, nêzî qirrikê, tê derxistin.
 
-Di alfabeya kurdî-erebî de K bi ک, G bi گ û Q bi ق tên nivîsîn. Di IPA de bi [k], [g] û [q] tên nîşandan. Ev nîşanên alfabeya erebî li vir tenê ji bo berawirdkirina tîpan in; nivîsa dersê bi kurmanciya latînî dimîne.
+Di nivîsa kurdî-erebî de ji bo K, G û Q herfên taybet hene. Di IPA de ew bi [k], [g] û [q] tên nîşandan. Ev danasîn tenê ji bo berawirdkirina tîpan e; nivîsa dersê bi kurmanciya latînî dimîne.
 
 ### K, G û Q wek fonem
 
