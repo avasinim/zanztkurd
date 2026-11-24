@@ -874,3 +874,177 @@ Ev cot peyv nîşan didin ku analojî dikare di çend cureyên peyvan de bandor�
 ## Têbînî ji bo pêşxistinê
 
 Ev ders ji rûpelên 56–67 hatî nûdabeşkirin. Di kontrola dawî de divê nimûneyên etîmolojîk، nîşanên dengnasiyê û şiroveya analojiyê bi nivîsa PDF-ê re bêne berawirdkirin؛ herwiha divê cudahiya rastnivîsîna peyvên xwerû، peyvên pêkhatî û peyvên li pey hev bi zelalî bê parastin. Dersa 8 ji rûpelên 68–103 li ser konsonantên B، C، Ç û D e.
+
+
+
+---
+
+# Dersa 8 — Konsonantên B, C, Ç û D
+
+**Çavkaniya dersê:** rûpelên çapkirî 68–103.  
+**Dem:** 60–70 deqîqe.
+
+## Armancên fêrbûnê
+
+Di dawiya dersê de xwendekar dikare:
+- B û D wek konsonantên seknî yên bilerz rave bike;
+- C û Ç ji aliyê cihê derketinê، awayê derketinê û lerzê ve cuda bike;
+- cihê B، C، Ç û D di destpêk، nav û dawiya peyvê de bibîne;
+- fonem û varyantên dengî di mînaka Ç de cuda bike;
+- hin guherînên dîrokî û devokî yên van dengan nas bike;
+- bandora dengên nêzîk، ketin û zêdebûna dengê di peyvan de şîrove bike.
+
+## 1. B — seknî-du-lêvî-bilerz
+
+Dengê **B** bi girtina herdu lêvan û paşê vekirina wan tê derxistin. Di dema gotina wê de perdeyên dengî dilerizin؛ ji ber vê yekê B bilerz e. Di IPA de bi **[b]** tê nîşandan.
+
+B di kurmancî de fonemeke serbixwe ye. Guherandina wê bi P، M، W، V، F، D an G dikare peyvên cuda çêbike. Mînakên pirtûkê ji bo nîşandana cudahiya fonemîk:
+- *ban / pan*
+- *ban / man*
+- *ban / van*
+- *ben / fen*
+
+B û P herdu jî du-lêvî û seknî ne؛ lê B bilerz e، P bêlerz e. B û M jî du-lêvî ne، lê M bêvilî ye: di gotina M de hewa ji pozê derdikeve، di B de na.
+
+### Cihê B di peyvê de
+
+B dikare li destpêk، nav û dawiya peyvê were:
+- destpêk: *ba، bilind، birin*
+- nav: *reben، edebiyat، dibêjim*
+- dawî: *xirab، reb، edîb*
+
+Pirtûk diyar dike ku B li destpêka peyvên kurmancî gelek xuya dike؛ lê di nav û dawiya peyvên xwemalî yên kevn de kêm e. Gelek B-yên nav û dawiya peyvan ji peyvên wergirtî ne.
+
+### Guherînên dîrokî yên B
+
+Pirtûk çend têkiliyên dîrokî destnîşan dike:
+- Di hin peyvên kevn de V/W-ya destpêkê bûye B؛ wek berawirdkirina *baran* bi formên *waran/varan* di hin zimanên din ên îranî de.
+- Di nav û dawiya hin peyvên kevn de B bûye V/W؛ wek *av، sêv، ewr* li hember formên *ab، sîb، ebr*.
+- Di hin peyvên ji erebî wergirtî de rêza guherînê dikare B → V → F be؛ wek *ḥebs → hefs*.
+- Di hin peyvan de B dikare bi P، M، G an D re têkildar be؛ lê hemû van têkiliyan ne guherînên zindî yên di kurmanciya îroyîn de ne، carinan tenê di berawirdkirina ziman û zaravayan de xuya dibin.
+
+Pirtûk herwiha ketina B di peyvên wek *bapîr* û *xira bûn / xira kirin* de şîrove dike. Ev nimûne nîşan didin ku guherîna dengî carinan bi heliyîna du dengên nêzîk an bi bandora formeke din a heman malbata peyvan pêk tê.
+
+## 2. C — paşpidûyî-xişok-nevizok-bilerz
+
+Dengê **C** di IPA de bi **[d͡ʒ]** tê nîşandan. Di çêkirina wê de ziman li paşiya pidûyan digihîje؛ deng pêşî tê sekinandin û paşê bi xişînekê tê berdan. Perdeyên dengî di dema gotina wê de dilerizin؛ ji ber vê yekê C bilerz e.
+
+C di kurmancî de dikare li destpêk، nav û dawiya peyvê were:
+- destpêk: *cam، cer، cêwî، cih، cîran، cuda*
+- nav: *aciz، ecem، derece، hewce*
+- dawî: *bac، pênc، kinc، qenc*
+
+Di materyala ku pirtûk lêkolîn kiriye de C kêm e؛ bi taybetî di nav û dawiya peyvên xwemalî de. Di hin peyvan de bi N re wek **NC** tê، wek *pênc، kinc، rêncber*.
+
+### Dîroka C
+
+Pirtûk dibêje ku C di zimanên kevn ên îranî de her tim bi awayê îroyîn nebûye. Di gelek peyvên xwemalî de C ji Y-ya kevn hatiye؛ wek berawirdkirina *cam، ciwan، cejn* bi formên kevntir ên ku bi Y dest pê dikin. Di hin peyvan de G jî di şertên dîrokî an bi bandora zimanên din de bûye C.
+
+Di berawirdkirina kurmancî، zazakî، farisî û avestayî de têkiliyên C/J/Z/Ç xuya dibin؛ wek *jin / cenî / zen* û *roj / roc / rûz*. Ev berawirdkirin nîşan dide ku dengên nêzîk di dîroka zimanên xizm de dikarin bi awayên cuda werin parastin.
+
+Di hin devokên kurmancî de C û Ç bi hev diguherin؛ wek *cigare/çixare*، *çante/cante* û *cizdan/çizdank*. Pirtûk herwiha meyla hin devokan a C → J jî dide.
+
+## 3. Ç — paşpidûyî-xişok-nevizok-bêlerz
+
+Dengê **Ç** di IPA de bi **[t͡ʃ]** tê nîşandan. Ew ji aliyê cih û awayê derketinê ve nêzî C ye؛ lê cudahiya sereke lerz e: Ç bêlerz e، C bilerz e.
+
+### Du awayên Ç
+
+Pirtûk diyar dike ku herfa Ç dikare du awayên dengî nîşan bide:
+- Ç-ya bêpif، bi taybetî di nav û dawiya peyvên xwerû de، wek *parçe، biçûk، perçiqandin*.
+- Ç-ya bipif، bi piranî li destpêka peyvê، wek *çend، çar، çandin*.
+
+Lê hemû Ç-yên destpêkê ne bipif in؛ di *çerm، çav، çîrok* de awayê bêpif jî heye. Pirtûk ji bo cudahiya herdu awayan mînaka kaxezê pêşkêş dike: dema Ç-ya bipif tê gotin، kaxezê li ber devê xwe dideheje؛ di Ç-ya bêpif de hejandina wê kêm e.
+
+Li gorî pirtûkê، di hin cotên kêmîn de guherandina Ç-ya bipif û bêpif dikare wateyê biguherîne؛ wek herdu xwendinên *çil* û cudahiya *çare / çar e*. Ji ber vê yekê divê xwendekar tenê li herfê nenêre، lê awayê rast ê gotinê jî fêr bibe.
+
+### Cih û dîroka Ç
+
+Ç dikare li destpêk، nav û dawiya peyvê were:
+- destpêk: *çem، çi، çawa*
+- nav: *biçûk، nûçe، parçe*
+- dawî: *maç، qaç، lîç*
+
+Pirtûk Ç-ya destpêkê di gelek peyvên pirsiyarkî de jî nîşan dide: *çi، çend، çawa، çima، çira*. Di dîroka gelek peyvan de Ç ji K-ya kevn hatiye؛ lê di kurmancî de hin formên pirsiyarkî hîn bi K mane، wek *kî، kê، kengî، kîjan، kû*.
+
+### Têkiliyên Ç bi dengên din re
+
+Pirtûk çend têkiliyên dengî dide:
+- **Ç/C:** ji ber nêzîkbûna wan، C ya dawiya peyvê carinan wek Ç tê bihîstin؛ lê formên jêhatî dikarin C-ya rast nîşan bidin، wek *pênc → pêncî*.
+- **Ç/S:** di hin peyvan de، wek *birçî / birsî*.
+- **Ç/Ş:** wek *çelqîn / şilqîn*.
+- **Ç/T:** wek *pate / paçe*.
+- **Ç/J/Z:** di berawirdkirina dîrokî ya hin zimanên xizm de، wek rêza *reoçe / roc / roj / rûz*.
+
+Ev mînak divê wek têkiliyên dîrokî، devokî an peyvî bên xwendin؛ ne wek rêzikeke ku di her peyvekê de bixweber dixebite.
+
+## 4. D — seknî-pidûyî-bilerz
+
+D dengê seknî-pidûyî-bilerz e. Di gotina wê de ziman bi pidûyan dikeve، hewa demekê tê girtin û paşê tê berdan. Perdeyên dengî dilerizin؛ di IPA de **[d]** e.
+
+D dikare li destpêk، nav û dawiya peyvê were:
+- destpêk: *das، deng، dûr*
+- nav: *Adem، berdan، nadin*
+- dawî: *bilind، çand*
+
+Di peyvên xwemalî yên kurmancî de D li nav û dawiya peyvê bi gelemperî sînordar e؛ pir caran piştî N tê، wek *bilind، çend، hind، rind* û di paşgira lêkeran a *-andin* de.
+
+### D û T
+
+D û T herdu seknî-pidûyî ne. Cudahiya sereke ew e ku D bilerz e، T bêlerz e. Di kurmancî de D fonemeke yekane ye؛ lê T dikare bi du awayên bipif û bêpif were gotin، û di hin peyvan de guherandina wan wate diguherîne.
+
+T-ya bêpif dikare zirav an qelew be. Pirtûk T-ya qelew di peyvên wek *tirs، tarî، teng* de nîşan dide؛ lê cudahiya zirav/qelew di vê rewşê de fonemîk nîne، alofonîk e.
+
+### D di dîrok û devokan de
+
+Pirtûk D wek dengekî kevnar di gelek peyvên kurmancî de dihesibîne. Di hin peyvan de D-ya navîn an dawî ji T-ya kevn hatiye؛ paşê di kurmancî de ketiye، wek berawirdkirina *ba، bû، çû* bi formên farisî yên *bad، bûd، şod*.
+
+D li dawiya peyvê piştî vokalekê gelek caran ketiye؛ herwiha di hin peyvan de piştî R jî winda bûye، wek *birin، kirin، mirin* li hember formên hin zimanên din ên kurdî û îranî.
+
+D dikare di nav peyvê de bi H، Y، W an dengên din biguhere؛ wek berawirdkirina *daden → dayîn → dan*. Lê pêşgirên kurmancî yên *na-، bi-، di-* D-yê rehê lêkerê bi gelemperî diparêzin: *nadin، bidin، didim*.
+
+Pirtûk herwiha hin peyvên ku D di wan de zêde bûye dide، wek *qalind، mindal، tendûr*. Di peyvên esil-erebî de D-ya qelew ya wek Ḍ dikare bi Z were veguhastin؛ wek *remeḑan → remezan*، *raḑi → razî*، *ferḑ → ferz* û *qerḑ → qerz*.
+
+## 5. Berawirdkirina çar dengên dersê
+
+| Deng | Cih û awayê derketinê | L erz |
+|---|---|---|
+| B | Du-lêvî، seknî | Bilerz |
+| C | Paşpidûyî، xişok | Bilerz |
+| Ç | Paşpidûyî، xişok | Bêlerz |
+| D | Pidûyî، seknî | Bilerz |
+
+**Bîr bîne:** C û Ç ji aliyê cih û awayê derketinê ve nêzîk in، lê lerza wan cuda ye. B û D herdu seknî û bilerz in، lê cihê derketina wan cuda ye.
+
+## Çalakî û xwepirsîn
+
+**1. Cudahiya B/P:** Herdu deng du-lêvî û seknî ne؛ kîjan taybetmendiya wan cuda ye؟
+
+**2. Cudahiya B/M:** Çima M bêvilî ye، lê B ne؟
+
+**3. Cihê C û Ç:** Kîjan yek bilerz e û kîjan bêlerz؟
+
+**4. Bipif an bêpif؟** Di nimûneyên *çend* û *çerm* de awayê Ç-ê çawa cuda ye؟
+
+**5. D û T:** Çima D û T ji aliyê cih û awayê derketinê ve nêzîk in، lê ji aliyê lerzê ve cuda ne؟
+
+**6. Dîrok:** Çima *av، sêv، ewr* di vê dersê de wek nimûneyên guherîna B/V/W tên bikaranîn؟
+
+**7. Ketina dengê:** Di *birin، kirin، mirin* de D li gor berawirdkirina pirtûkê li kîjan cihê peyvê ketiye؟
+
+**8. Şîrove:** Çima divê têkiliyên dîrokî yên C/J/Z/Ç wek rêzikên giştî yên nivîsîna îroyîn neyên bikaranîn؟
+
+## Bersivên kurt
+
+1. B bilerz e؛ P bêlerz e.
+2. Di gotina M de hewa ji pozê derdikeve؛ di B de na.
+3. C bilerz e؛ Ç bêlerz e.
+4. *Çend* bi gelemperî Ç-ya bipif e؛ *çerm* nimûneya Ç-ya bêpif e.
+5. Herdu seknî-pidûyî ne؛ lê perdeyên dengî di D de dilerizin û di T de nalizerin.
+6. Ji ber ku di hin ziman û zaravayên xizm de B-ya navîn an dawî bi V/W re hatiye guhertin.
+7. D piştî R li dawiyê hatiye winda bûn.
+8. Ji ber ku ew berawirdkirinên dîrokî û zaravayî ne؛ ne rêzikên ku her peyva îroyîn bi wan were nûnivîsîn.
+
+## Têbînî ji bo pêşxistinê
+
+Ev ders ji rûpelên 68–103 hatî nûdabeşkirin. Berî belavkirinê divê nîşanên fonetîk، cudahiya bipif/bêpif ya Ç، nimûneyên dîrokî û awayê nivîsandina formên zaravayî rasterast bi PDF re bên kontrolkirin. Hin nimûneyên dîrokî ji bo fêrbûnê kurt kirine؛ divê wek agahiyên çavkaniyê bên xwendin، ne wek daneyên ku bê kontrolkirin ji nû ve bên berfirehkirin. Dersa 9 ji rûpelên 104–115 li ser dengên F û G e.
