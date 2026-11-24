@@ -55,7 +55,9 @@ for lesson in lessons:
         assert previous_lesson["designedPdfPages"]["end"] + 1 == lesson["dividerPage"], "Lesson 15 divider must immediately follow Lesson 14"
         assert lesson["dividerPage"] + 1 == designed["start"], "Lesson 15 content must immediately follow its divider"
     n = lesson["number"]
-    link = f'kurmanji-dengnasi-reader.html?lesson={n}'
+    lesson_path = ROOT / "lessons" / f"kurmanji-dengnasi-lesson-{n:02}.html"
+    assert lesson_path.is_file(), f"missing standalone lesson page for lesson {n}"
+    link = f'href="lessons/kurmanji-dengnasi-lesson-{n:02}.html"'
     assert link in preview, f"missing preview link for lesson {n}"
 
 assert "const lessons=" in reader, "reader does not embed the lesson manifest"
