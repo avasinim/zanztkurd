@@ -728,3 +728,149 @@ Lê nivîskar hişyar dike ku hemû peyvên wergirtî bi yek rêzikê nayên ş�
 ## Têbînî ji bo pêşxistinê
 
 Ev ders ji rûpelên 44–55 hatî nûdabeşkirin. Kontrola dawî divê li ser dabeşkirina kîteyan، nîşanên IPA، û nimûneyên guherîna lerzê bê kirin؛ bi taybetî cudahiya kîtekirina nivîskî û ya gotinê di peyvên wek *berav* de. Dersa 7 ji rûpelên 56–67 li ser tesîra guherîna dengî li ser nivîsînê ye.
+
+
+
+---
+
+# Dersa 7 — Tesîra guherîna dengî li ser nivîsînê
+
+**Çavkaniya dersê:** rûpelên çapkirî 56–67.  
+**Dem:** 45–50 deqîqe.
+
+## Armancên fêrbûnê
+
+Di dawiya dersê de xwendekar dikare:
+- cudahiya forma gotinê û rehê peyvê rave bike;
+- di nivîsîna peyvên xwerû de prensîba nivîsînê li gor gotinê nas bike;
+- rave bike çima guherîna dengî di navbera peyvên serbixwe de bi gelemperî di nivîsînê de nayê nîşandan;
+- peyvên paşgirdar ên kevn û peyvên nûçêkirî ji hev cuda bike;
+- tesîra cihê derketina dengê û awayê dengî nas bike;
+- analojiyê wek sedemeke guherîna şiklê peyvan bi nimûneyan rave bike.
+
+## 1. Pirsa bingehîn: em çawa binivîsin?
+
+Di axaftinê de hin deng ji ber dengên nêzîkî xwe diguherin. Lê carinan forma gotinê ji rehê peyvê cuda dibe. Mînakên pirtûkê:
+- *kuştin* ji *kuj + tin* hatiye;
+- *dezgeh* ji *dest + geh* hatiye;
+- *pezkovî / pezkûvî* di axaftina bilez de dikarin wek *peskovî / peskûvî* bên bihîstin;
+- *ez têm* di axaftina bilez de dikare wek *es-têm* were bihîstin.
+
+Pirsa rastnivîsînê ev e: gelo em ê forma ku tê gotin binivîsin، an jî reh û pêkhateya peyvê biparêzin؟ Pirtûk nîşan dide ku bersiv li gor cureya peyvê diguhere؛ ji bo hemû rewşan yek rêbaz tune.
+
+## 2. Peyvên xwerû: nivîsîn li gor forma gotinê
+
+Di peyvên xwerû de pirtûk prensîba hêsanî û pratîka zimanê zindî diparêze: peyv bi forma ku di zimanê axaftinê de cihê xwe girtiye tê nivîsîn، ne bi vegerandina zorî ya rehê wê.
+
+Nimûneyên sereke:
+- *kuştin*، ne *kujtin*؛
+- *lîstin*، ne *lîztin*؛
+- *axiftin*، ne *axivtin*.
+
+Ev form di axaftina hemû axêveran de hatine cihgirandin û di nivîsîna kurmancî de jî belav in. Pirtûk bi mînakên îngilîzî û tirkî nîşan dide ku zimanên din jî dikarin di hin rewşan de forma gotinê ji şiroveya rehî pêşî bixin.
+
+**Têbînî:** Ev prensîb tenê ji bo peyvên xwerû yên ku forma wan di zimanê de qediya û cihgir bûye tê gotin؛ ew nayê wateya ku her guherîna dengî ya di axaftinê de divê di nivîsînê de were nîşandan.
+
+## 3. Peyvên li pey hev û peyvên pêkhatî
+
+Gava du peyvên serbixwe li pey hev tên، guherîna dengî ya di axaftina bilez de bi gelemperî di nivîsînê de nayê nîşandan.
+
+Mînak:
+- *ez têm* di axaftina bilez de dikare wek *es-têm* were bihîstin؛ lê di nivîsînê de *ez têm* dimîne.
+- Di îngilîzî de *let it be* di gotina bilez de dikare T-ya *it* wek D were bihîstin، lê nivîsîn T diparêze.
+- Di tirkî de *kitap geldi* di axaftina bilez de dikare wek *kitab geldi* were bihîstin؛ lê P di nivîsînê de dimîne.
+
+Heman prensîb di peyvên pêkhatî de jî tê dîtin. Mînakên *pezkovî* û *pezkûvî* rehên xwe di nivîsînê de diparêzin، tevî ku di gotina bilez de dengên wan dikarin biguherin.
+
+## 4. Peyvên paşgirdar: her tim yek rêbaz tune
+
+Di peyvên ku ji reh û paşgirê pêk tên، rewş hinekî tevlihev e. Pirtûk mînakên *dezgir، dezgeh، desmal، destpêk* dide ku bi peyva *dest* ve girêdayî ne. Di hin peyvan de T ketiye، û di hin rewşan de dengên din jî ji ber tesîra dengên nêzîk guherîne.
+
+Pirtûk du rewş ji hev cuda dike:
+1. **Peyvên kevn û cihgir:** Peyvên ku ji mêj ve di zimanê axaftinê de bi forma guherî de hatine bikaranîn، dikarin forma xwe ya naskirî biparêzin؛ wek *dezgeh، dezgir، dezgirtî*.
+2. **Peyvên nûçêkirî an formên zelal ên zimanê nivîskî:** Di van de parastina rehê peyvê dikare baştir be، da ku pêkhateya wê zelal bimîne.
+
+Ji ber vê yekê divê mirov li dîroka peyvê، maneya wê û asta cihgirtina wê di zimanê de binêre؛ ne ku her peyvekê bi rêgezeke yekane rast bike.
+
+## 5. Tesîra cihê derketina dengê
+
+Deng dikare ji ber cihê çêbûna dengekî din biguhere. Pirtûk mînaka guherîna **N → M** berî dengê **B** dide.
+
+Mînak:
+- *beramber*، ne *beranber*؛
+- *pêxember*، ne *pêxenber*؛
+- *duşemb*، ne *duşenb*؛
+- *himbêz*، ne *hinbêz*.
+
+Sedem: N û M herdu dengên bêvilî ne، lê cihê çêbûna wan cuda ye. M bi herdu lêvan tê çêkirin؛ B jî dengekî lêvî ye. Gava N berî B were، cihê çêbûna wê dikare nêzî M bibe û wek M were gotin.
+
+## 6. Tesîra awayê dengî
+
+Ne tenê cihê dengê، lê awayê çêbûna wî jî dikare guherînê çêbike. Pirtûk mînaka **V** û **H** dide:
+- Di kurmancî de: *kulav، kovî / kûvî*؛
+- Di farisî de: *kolah، kohî*.
+
+V û H ji aliyê cihê çêbûna dengê ve dûr in، lê di vê berawirdkirinê de awayê dengî ya wan wek hev tê şîrovekirin: herdu jî xişokên nevizok in. Ji ber vê yekê dikare di hin peyvan de yek li şûna ya din were.
+
+## 7. Analojî: wekhevkirina şiklê peyvan
+
+**Analojî** an wekhevkirin ew e ku peyvên ku ji aliyê maneyê، erkê rêzimanî an şêwaza bikaranînê ve nêzîkî hev in، di şiklê xwe de jî nêzîk bibin. Ev guherîn carinan bi rêzikên giştî yên guherîna dengî nayê şirovekirin؛ ji ber ku sedema wê bandora peyveke din e.
+
+### 7.1. Analojî di hejmaran de
+
+Pirtûk du nimûneyên kurmancî dide:
+- **heşt**: li gor berawirdkirina dîrokî، H-ya destpêkê bi bandora *heft* hatiye zêdekirin.
+- **neh**: şiklê wê bi bandora *deh* re hatiye nêzîkkirin.
+
+Analojî dikare di destpêk، nav an dawiya peyvê de çêbibe. Bandor dikare ji peyva berî wê an peyva piştî wê were؛ lê ne her tim pêk tê.
+
+### 7.2. Analojî di daçekan de
+
+Pirtûk nîşan dide ku pêşdaçekên kurmancî **bi، di، ji، li** ji aliyê şiklê dengî ve pir nêzîkî hev in. Her yek ji wan du deng hildigire û bi dengê *i* diqede. Li gor nivîskar، ev nêzîkbûn bi erkê wan ê rêzimanî ve girêdayî ye: hemû pêşdaçek in û tên pêşiya navdêran، tevî ku maneyên wan cuda ne.
+
+Pirtûk herwiha paşdaçekên **de، re، ve** wek nimûneyên din ên nêzîkbûna şiklê pêşkêş dike. Dîroka wan cuda ye، lê di kurmancî de şiklên wan nêzîkî hev bûne.
+
+### 7.3. Analojî di cînav û hokeran de
+
+Nimûneyên pirtûkê:
+- Cînavên kesî: *te، me، we*؛
+- Cînavên nîşandanê: *ev / ew* û formên wan: *vê / wê، vî / wî، van / wan*؛
+- Hokerên dijwate: *pêş / paş* û *jêr / jor*.
+
+Ev cot peyv nîşan didin ku analojî dikare di çend cureyên peyvan de bandorê li şiklê wan bike.
+
+## Bîr bîne
+
+- Di peyvên xwerû de forma cihgir a gotinê dikare bibe bingeha rastnivîsînê: *kuştin، lîstin، axiftin*.
+- Guherîna dengî di navbera du peyvên serbixwe de bi gelemperî di nivîsînê de nayê nîşandan.
+- Di peyvên paşgirdar de dîroka peyvê û asta cihgirtina wê girîng in.
+- N berî B dikare ji aliyê cihê derketinê ve bibe M.
+- Cihê çêkirinê û awayê dengî herdu dikarin guherîna dengî çêbikin.
+- Analojî peyvên ji aliyê maneyê an erkê rêzimanî ve nêzîk dike û dikare şiklê wan biguherîne.
+
+## Çalakî û xwepirsîn
+
+**1. Rastnivîsîn:** Ji van cotan forma ku li gor prensîba pirtûkê tê nivîsîn hilbijêre: *kuştin / kujtin*؛ *lîstin / lîztin*؛ *axiftin / axivtin*.
+
+**2. Peyvên serbixwe:** Çima *ez têm* di nivîsînê de wek *ez têm* dimîne، tevî ku di axaftina bilez de dikare wek *es-têm* were bihîstin؟
+
+**3. Tesîra cihê dengê:** Di *beramber* de çima N berî B dibe M؟
+
+**4. Analojî:** Li gor ravekirina pirtûkê، H di *heşt* de ji kû hatiye؟
+
+**5. Dabeşkirin:** Mînakên *bi، di، ji، li* û *de، re، ve* bi kîjan diyarde ve girêdayî ne؟
+
+**6. Şîrove:** Çima divê em peyvên kevn ên wek *dezgeh* her tim bi rehê xwe yê dîrokî nûnenivîsin؟
+
+## Bersivên kurt
+
+1. *Kuştin، lîstin، axiftin*.
+2. Ji ber ku guherîn tenê di axaftina bilez a du peyvên serbixwe de çêdibe؛ di gotina hêdî û nivîsînê de forma bingehîn tê parastin.
+3. Ji ber ku N û M herdu bêvilî ne، lê M bi lêvan tê çêkirin û cihê wê nêzî B ye.
+4. Bi bandora peyva *heft*؛ analojî H li destpêka *heşt* zêde kiriye.
+5. Bi analojî، an wekhevkirina şiklê peyvan.
+6. Ji ber ku ew formên kevn û cihgir in؛ guherandina wan dikare têkiliya wan bi bikaranîna rastîn û maneya nû ve bibire.
+
+## Têbînî ji bo pêşxistinê
+
+Ev ders ji rûpelên 56–67 hatî nûdabeşkirin. Di kontrola dawî de divê nimûneyên etîmolojîk، nîşanên dengnasiyê û şiroveya analojiyê bi nivîsa PDF-ê re bêne berawirdkirin؛ herwiha divê cudahiya rastnivîsîna peyvên xwerû، peyvên pêkhatî û peyvên li pey hev bi zelalî bê parastin. Dersa 8 ji rûpelên 68–103 li ser konsonantên B، C، Ç û D e.
