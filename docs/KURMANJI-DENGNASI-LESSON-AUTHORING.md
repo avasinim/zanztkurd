@@ -128,7 +128,7 @@ Bi vê rêbazê xwendekar deng tenê wek tîpek di alfabeyê de nabîne,  lê we
 
 ## Têbînî ji bo pêşxistinê
 
-Ev ders ji nû ve hatî rêxistin û bi şêwazeke fêrbûnê hatiye rêkxistin;  ne kopîkirina PDF e. Ev pêşnûs divê ji aliyê zimanî û zanistî ve careke din were nirxandin. Dersa 2 divê ji  were amadekirin,  bi giranî li ser vokal/konsonant,  cih û awayê derketina dengan û pifdarî.
+Ev ders ji nû ve hatî rêxistin û bi şêwazeke fêrbûnê hatiye rêkxistin;  ne kopîkirina PDF e. Ev pêşnûs divê ji aliyê zimanî û zanistî ve careke din were nirxandin. Dersa 2 divê ji nû ve were amadekirin,  bi giranî li ser vokal/konsonant,  cih û awayê derketina dengan û pifdarî.
 
 
 
