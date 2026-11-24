@@ -2115,6 +2115,18 @@ Nimûne: *agir, baran, mêr, zîrek*.
 
 Di hin nivîsên dengnasiyê de R-ya nerm wek R/r û R-ya req wek Ř/ř tê nîşandan. Ev nîşankirin alîkar e ku herdu deng ji hev bên cudakirin; di rastnivîsîna asayî ya kurdî-latînî de herdu bi R/r tên nivîsîn.
 
+### R-ya req li nav û dawiya peyvê
+
+R-ya req ne tenê li destpêka peyvê xuya dike. Di hin peyvan de ew li nav an dawiya peyvê jî tê gotin:
+- *bajar, pir* (bi wateya «gelek»), *birîn* (bi wateya «jêkirin») û *biryar*.
+
+Di nivîsîna asayî ya kurmanciya latînî de herdu awayên R bi R tên nivîsîn. Lê hin nivîser R-ya req a navîn an dawî bi **rr** nîşan didin, nemaze dema ku pêdivî be peyvên hevnivîs ji hev bên cudakirin:
+- *birîn* («birîndarî») û *birrîn* («jêkirin»);
+- *pir* («rêya di ser avê re») û *pirr* («gelek»);
+- *ker* («heywan» an «parçe») û *kerr* («guhgiran»).
+
+Ev nivîsîna bi rr awayekî alîkar e, ne şertê rastnivîsîna giştî. Di alfabeya dengnasiyê de cudahiya R-ya req û nerm dikare bi [r] û [ɾ] were nîşandan.
+
 ## 2. Cihê R di peyvan de
 
 R dikare li her sê cihên peyvê were:
@@ -2336,7 +2348,7 @@ Di peyva *mîras* de S-ya ku ji dengê didanî [θ] hatiye, di kurdî de di form
 
 ## Têbînî ji bo pêşxistinê
 
-Ev ders ji nû ve wek materyaleke fêrkarî hatiye rêkxistin. Nîşanên [r] û [ɾ] ji ravekirina pirtûkê ya R-ya req û nerm tên. Di beşa S-ya zirav/qelew de pirtûk şertan wek meyla giştî pêşkêş dike, ne wek rêzikên bêistisna; ji ber vê yekê di dersê de jî ev sînordarî hatiye parastin. Etîmolojiyên *hirç*, *rûvî* û hin nimûneyên L/R bi ihtiyat hatine pêşkêşkirin, ji ber ku çavkaniyê xwe jî çend rêyên gengaz nîşan dide. Berî belavkirinê, hemû nimûneyên devokî û rêyên etîmolojîk divê bi pisporê dengnasiyê re bên kontrolkirin. Dersa 15 li ser dengên Ş û T e; ev düzeltin li gorî beşa çavkaniyê () hatiye kirin.
+Ev ders ji nû ve wek materyaleke fêrkarî hatiye rêkxistin. Nîşanên [r] û [ɾ] ji ravekirina pirtûkê ya R-ya req û nerm tên. R-ya req dikare li nav û dawiya hin peyvan jî were; nivîsandina wê bi rr di hin nivîsan de ji bo cudakirina peyvên hevnivîs tê bikaranîn. Di beşa S-ya zirav/qelew de pirtûk şertan wek meyla giştî pêşkêş dike, ne wek rêzikên bêîstîsna; ji ber vê yekê di dersê de jî ev sînordarî hatiye parastin. Etîmolojiyên *hirç*, *rûvî* û hin nimûneyên L/R bi ihtiyat hatine pêşkêşkirin, ji ber ku çavkaniyê xwe jî çend rêyên gengaz nîşan dide. Berî belavkirinê, hemû nimûneyên devokî û rêyên etîmolojîk divê bi pisporê dengnasiyê re bên kontrolkirin. Dersa 15 li ser dengên Ş û T e.
 
 ## Çavkanî
 
