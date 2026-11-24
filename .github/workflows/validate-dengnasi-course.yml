@@ -2,6 +2,7 @@ name: Validate Kurmanji Dengnasi course
 on:
   pull_request:
     paths:
+      - "Dengnasiya_Zimane_Kurdi_27_Wane.pdf"
       - "docs/kurmanji-dengnasi-course.json"
       - "kurmanji-dengnasi-course.html"
       - "kurmanji-dengnasi-reader.html"
