@@ -250,7 +250,7 @@ BEGIN
   RETURN jsonb_build_object('status', new_status, 'completed_count', completed_count,
     'total_lessons', total_count, 'course_completed', (new_status='completed'));
 END;
-$function$
+$function$;
 
 
 REVOKE ALL ON FUNCTION public.can_read_lesson_content(text,text) FROM PUBLIC, anon;
