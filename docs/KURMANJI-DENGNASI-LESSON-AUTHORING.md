@@ -5345,7 +5345,7 @@ Nivîskar herwiha dibêje ku tesîra farisî, tirkî û zimanên cîran dikare d
 
 ## Têbînî ji bo pêşxistinê
 
-Ev ders ji nû ve wek materyaleke fêrkarî hatiye rêkxistin. Berî belavkirinê divê pergala herfên tirkî (bi taybetî cudahiya I/İ), nîşanên dengnasî, nimûneyên deynkirinê, şertên ahenga vokalan û şîroveyên dîrokî bi pisporên tirkî û kurmancî re bên kontrolkirin. Şîroveya cotdengiya Ç, K, P û T di çavkaniyê de bi awayê nêrîna nivîskar hatiye pêşkêşkirin; divê di dersê de wek hîpotez û nîqaş were parastin, ne wek rastiyeke dîrokî ya qetî. Di vê pêداچوونەوەیەدا، nimûneyên H yên pêşgir + reh ku ji çavkaniyê re piştgirî ne bûn لابران؛ rewşa *hatin* û nimûneyên reh + paşgir bi şertەکانی çavkaniyê hatin sererastkirin. Ev pêşnûse ye û hîn ne ji bo xwendekaran çalak e.
+Ev ders ji nû ve wek materyaleke fêrkarî hatiye rêkxistin. Berî belavkirinê divê pergala herfên tirkî (bi taybetî cudahiya I/İ), nîşanên dengnasî, nimûneyên deynkirinê, şertên ahenga vokalan û şîroveyên dîrokî bi pisporên tirkî û kurmancî re bên kontrolkirin. Şîroveya cotdengiya Ç, K, P û T di çavkaniyê de bi awayê nêrîna nivîskar hatiye pêşkêşkirin; divê di dersê de wek hîpotez û nîqaş were parastin, ne wek rastiyeke dîrokî ya qetî. Di vê pêداچوونەوەیەدا, nimûneyên H yên pêşgir + reh ku ji çavkaniyê re piştgirî ne bûn لابران؛ rewşa *hatin* û nimûneyên reh + paşgir bi şertەکانی çavkaniyê hatin sererastkirin. Ev pêşnûse ye û hîn ne ji bo xwendekaran çalak e.
 
 
 ## Çavkanî
@@ -5468,18 +5468,18 @@ Ji ber vê yekê, gotina ku Y her tim “tîpa kelijandinê” ye rast nîne. Ew
 ## 7. Rola H
 
 H di hin peyv û pêkhateyan de dikare bi hiyatusê re têkildar be, lê çavkaniyê ew wek rêbazeke giştî ya **pêşgir + reh** pêşkêş nake. Di rastî de, di van pêkhateyan de H nayê zêdekirin:
-- *bi + aqil → biaqil/baqil*، ne *bi-haqil*;
-- *bê + av → bêav*، ne *bêhav*;
-- *di + axivin → biaxivin/baxivin*، ne *bihaxivin*.
+- *bi + aqil → biaqil/baqil*, ne *bi-haqil*;
+- *bê + av → bêav*, ne *bêhav*;
+- *di + axivin → biaxivin/baxivin*, ne *bihaxivin*.
 
 Di lêkera *hatin* de H ya destpêkê ji aliyê dîrokî ve tune bû؛ lê niha forma bê H ya *atin* di kurmancî û soranî de êdî nemaye an pir kêm e. Di rehê dema niha de, forma bê H di soranî de bi giştî û di kurmancî de bi piranî parastiye؛ forma bi H jî di kurmancî de ji aliyê kêmaniyeke axêveran ve tê bikaranîn:
 - *di + ê-n → diên/dên/tên*؛ herwiha di hin bikaranînan de *dihên*.
 
-Di kurmanciya nivîskî de H zêdetir di pêkhateya **reh + paşgir** de tê dîtin، bi taybetî di hin peyvên dariştî de:
+Di kurmanciya nivîskî de H zêdetir di pêkhateya **reh + paşgir** de tê dîtin, bi taybetî di hin peyvên dariştî de:
 - *amade + î → amadehî* (di analîza pêkhateyan de *amade-h-î*);
 - *du + em → duhem* (di analîza pêkhateyan de *du-h-em*).
 
-Lê heta di van rewşan de jî formên bi Y، W yan T dikarin serdest bin. H di çemandin û girêdana peyvan de rêbazeke giştî nîne.
+Lê heta di van rewşan de jî formên bi Y, W yan T dikarin serdest bin. H di çemandin û girêdana peyvan de rêbazeke giştî nîne.
 
 ## 8. Rola W û T
 
