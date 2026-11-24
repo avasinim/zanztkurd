@@ -941,7 +941,7 @@ Pirtûk çend têkiliyên dîrokî destnîşan dike:
 - Di hin peyvên kevn de V/W-ya destpêkê bûye B; wek berawirdkirina *baran* bi formên *waran/varan* di hin zimanên din ên îranî de.
 - Di nav û dawiya hin peyvên kevn de B bûye V/W; wek *av, sêv, ewr* li hember formên *ab, sîb, ebr*.
 - Di hin peyvên ji erebî wergirtî de rêza guherînê dikare B → V → F be; wek *ḥebs → hefs*.
-- Di hin peyvan de B dikare bi P, M, G an D re têkildar be; lê hemû van têkiliyan ne guherînên zindî yên di kurmanciya îroyîn de ne, carinan tenê di berawirdkirina ziman û zaravayan de xuya dibin.
+- Têkiliyên B bi dengên din divê bi awayên cuda bên dîtin: P di dîroka hin peyvan de gelek caran bûye B; têkiliya B/M tenê di çend nimûneyan de ye û ne sîstematîk e. Lê guherîna B/D an B/G di kurmanciya xwe de pêk nayê; ev tenê di berawirdkirina kurmancî bi zazakî (B/D) an bi farisî (B/G) de xuya dibe.
 
 Pirtûk herwiha ketina B di peyvên wek *bapîr* û *xira bûn / xira kirin* de şîrove dike. Ev nimûne nîşan didin ku guherîna dengî carinan bi heliyîna du dengên nêzîk an bi bandora formeke din a heman malbata peyvan pêk tê.
 
@@ -1019,7 +1019,7 @@ T-ya bêpif dikare zirav an qelew be. Pirtûk T-ya qelew di peyvên wek *tirs, t
 
 Pirtûk D wek dengekî kevnar di gelek peyvên kurmancî de dihesibîne. Di hin peyvan de D-ya navîn an dawî ji T-ya kevn hatiye; paşê di kurmancî de ketiye, wek berawirdkirina *ba, bû, çû* bi formên farisî yên *bad, bûd, şod*.
 
-D li dawiya peyvê piştî vokalekê gelek caran ketiye; herwiha di hin peyvan de piştî R jî winda bûye, wek *birin, kirin, mirin* li hember formên hin zimanên din ên kurdî û îranî.
+D li dawiya peyvê piştî vokalekê gelek caran ketiye. Herwiha di kurmancî de D piştî R jî ji rehê hin peyvan ketiye; pirtûk nimûneyên *bir_(in), kir_(in), mir_(in), xwar_(in)* û *zer* dide, li hember formên soranî, zazakî û farisî ku D di wan de hatiye parastin.
 
 D dikare di nav peyvê de bi H, Y, W an dengên din biguhere; wek berawirdkirina *daden → dayîn → dan*. Lê pêşgirên kurmancî yên *na-, bi-, di-* D-yê rehê lêkerê bi gelemperî diparêzin: *nadin, bidin, didim*.
 
@@ -1064,7 +1064,7 @@ C û Ç ji aliyê cih û awayê derketinê ve nêzîk in, lê lerza wan cuda ye.
 4. *Çend* bi gelemperî Ç-ya bipif e; *çerm* nimûneya Ç-ya bêpif e.
 5. Herdu seknî-pidûyî ne; lê perdeyên dengî di D de dilerizin û di T de nalizerin.
 6. Ji ber ku di hin ziman û zaravayên xizm de B-ya navîn an dawî bi V/W re hatiye guhertin.
-7. D piştî R li dawiyê hatiye winda bûn.
+7. Di nimûneyên *bir_(in), kir_(in), mir_(in), xwar_(in)* û *zer* de kîjan deng piştî R ketiye, û berawirdkirina wan bi soranî, zazakî û farisî çi nîşan dide?
 8. Ji ber ku ew berawirdkirinên dîrokî û zaravayî ne; ne rêzikên ku her peyva îroyîn bi wan were nûnivîsîn.
 
 ## Têbînî ji bo pêşxistinê
