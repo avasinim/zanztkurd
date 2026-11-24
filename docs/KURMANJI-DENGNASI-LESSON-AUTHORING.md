@@ -941,7 +941,7 @@ Pirtûk çend têkiliyên dîrokî destnîşan dike:
 - Di hin peyvên kevn de V/W-ya destpêkê bûye B; wek berawirdkirina *baran* bi formên *waran/varan* di hin zimanên din ên îranî de.
 - Di nav û dawiya hin peyvên kevn de B bûye V/W; wek *av, sêv, ewr* li hember formên *ab, sîb, ebr*.
 - Di hin peyvên ji erebî wergirtî de rêza guherînê dikare B → V → F be; wek *ḥebs → hefs*.
-- Têkiliyên B bi dengên din divê bi awayên cuda bên dîtin: P di dîroka hin peyvan de gelek caran bûye B; têkiliya B/M tenê di çend nimûneyan de ye û ne sîstematîk e. Lê guherîna B/D an B/G di kurmanciya xwe de pêk nayê; ev tenê di berawirdkirina kurmancî bi zazakî (B/D) an bi farisî (B/G) de xuya dibe.
+- Têkiliyên B bi dengên din divê bi awayên cuda bên dîtin: P di dîroka hin peyvan de gelek caran bûye B; têkiliya B/M tenê di çend nimûneyan de ye û ne sîstematîk e. Lê guherîna B/D an B/G di kurmanciya xwe de pêk nayê; ev têkiliyên berawirdî tenê di navbera kurmancî û zazakî (B/D) an kurmancî û farisî (B/D) de xuya dibin.
 
 Pirtûk herwiha ketina B di peyvên wek *bapîr* û *xira bûn / xira kirin* de şîrove dike. Ev nimûne nîşan didin ku guherîna dengî carinan bi heliyîna du dengên nêzîk an bi bandora formeke din a heman malbata peyvan pêk tê.
 
