@@ -1097,7 +1097,7 @@ Di dawiya dersê de xwendekar dikare:
 
 Dengê **F** bi têkiliyê xistina didanên jorîn bi lêva jêrîn tê çêkirin. Hewa ji nav tengiyeke biçûk derbas dibe û xişînekê çêdike; perdeyên dengî di dema gotina wê de nalizerin. Ji ber vê yekê F dengekî **lêvî-didanî, xişok û bêlerz** e. Di IPA de bi **[f]** tê nîşandan.
 
-Di alfabeyên cuda de ev deng bi nîşanên cuda tê nivîsîn: di kurdî-krîlî de Ф/ф, di hin zimanan de V an jî PH ji bo dengê [f] tê bikaranîn. Di nivîsa kurdî-latînî de F tê bikaranîn. Ev tenê cudahiya rêbazên nivîsînê ye; dengê ku tê nîşandan heman deng e.
+Di alfabeyên cuda de ev deng bi nîşanên cuda tê nivîsîn: di alfabeya krîlî de herfa F-yê, di hin zimanan de V an jî PH ji bo dengê [f] tê bikaranîn. Di nivîsa kurdî-latînî de F tê bikaranîn. Ev tenê cudahiya rêbazên nivîsînê ye; dengê ku tê nîşandan heman deng e.
 
 ## 2. Peydabûna F di peyvan de
 
@@ -1162,7 +1162,7 @@ Di hin devokan de F-ya berî T di peyvên wek *mizgeft* û *şkeft* de jî ketiy
 
 Dengê **G** bi girtina hewayê li paşiya devê û paşê berdana wê tê çêkirin. Di dema gotina G de perdeyên dengî dilerizin; ji ber vê yekê G dengekî **sekinî, paşdevî û bilerz** e. Di IPA de bi **[g]** tê nîşandan.
 
-Di kurdî-krîlî de G bi Г/г tê nivîsîn. Di nivîsa kurdî-erebî de nîşana wê ji alfabeya erebî hatiye wergirtin. Di erebiya standard de ev deng wek fonemeke bingehîn tune, lê di hin devokan de hin dengên nêzîk dikarin wek G bên gotin.
+Di alfabeya krîlî de G bi herfeke taybet tê nîşandan. Di nivîsa kurdî-erebî de nîşana wê ji alfabeya erebî hatiye wergirtin. Di erebiya standard de ev deng wek fonemeke bingehîn tune, lê di hin devokan de hin dengên nêzîk dikarin wek G bên gotin.
 
 ## 7. Peydabûna G di peyvan de
 
@@ -1324,7 +1324,7 @@ Lê ev guherîn sînordar e; di gelek peyvên din de Ḧ diparêzire. Pirtûk de
 
 H-ya ku di *heval, hêja, hûn* de heye dengekî **qirrikî, xişok, nevizok û bêlerz** e. Cihê derketina wê li herêma qirrikê/gewriyê ye; hewa ji tengiyekê derbas dibe û xişînek çêdike. Di dema gotina wê de perdeyên dengî nalizerin. Nîşana wê ya IPA **[h]** e.
 
-Di nivîsa kurdî-erebî de H-ya asayî bi nîşana xwe tê nivîsîn; di kurdî-krîlî de bi Һ/һ hatiye nîşandan. Di vê dersê de ev deng ji Ḧ-ya [ħ] cuda tê xwendin, herçend di nivîsîna asayî ya latînî de herdu bi H tên nivîsîn.
+Di nivîsa kurdî-erebî de H-ya asayî bi nîşana xwe tê nivîsîn; di alfabeya krîlî de bi herfeke taybet hatiye nîşandan. Di vê dersê de ev deng ji Ḧ-ya [ħ] cuda tê xwendin, herçend di nivîsîna asayî ya latînî de herdu bi H tên nivîsîn.
 
 ### Peydabûna H di peyvan de
 
@@ -1368,7 +1368,7 @@ Di hin peyvan de H dikare li cihê Ş-ya zimanên din were; wek *têhnî* li hem
 
 Herfa **J** di kurdî-latînî de dengê **paşpidûyî, xişok, nevizok û bilerz** nîşan dide. Di dema çêkirina wê de ziman ji pidûyan paşvetir diçe; hewa di rêyeke teng de derbas dibe û xişînek çêdike. Perdeyên dengî dilerizin, ji ber vê yekê J bilerz e.
 
-Di IPA de nîşana wê **[ʒ]** e. Di nivîsa kurdî-erebî û farisî de herfa taybet a dengê [ʒ] tê bikaranîn; di kurdî-krîlî de bi Ж/ж hatiye nîşandan. Di hin zimanên din de bi Ž, ZH an J tê nivîsîn.
+Di IPA de nîşana wê **[ʒ]** e. Di nivîsa kurdî-erebî û farisî de herfa taybet a dengê [ʒ] tê bikaranîn; di alfabeya krîlî de bi herfeke taybet hatiye nîşandan. Di hin zimanên din de bi Ž, ZH an J tê nivîsîn.
 
 Baldar be: J di kurmancî de [ʒ] e; lê di inglîzî de herfa J bi gelemperî dengê C-ya kurdî dide, û di almanî de J dikare dengê Y nîşan bide. Ji ber vê yekê navê herfê di zimanên cuda de her tim heman deng nîşan nade.
 
@@ -1519,7 +1519,7 @@ Di dawiya dersê de xwendekar dikare:
 
 Dengê **K** bi girtina rêya hewayê li paşiya devê û paşê vekirina wê tê çêkirin. Ji ber vê yekê K dengekî **paşdevî û sekinî** ye. Di dema gotina wê de perdeyên dengî nalizerin; ji ber vê yekê **bêlerz** e. Di IPA de bi **[k]** tê nîşandan.
 
-Di kurdî-latînî de K/k tê bikaranîn; di kurdî-krîlî de bi К/к tê nivîsîn. Di nivîsa kurdî-erebî û farisî de herfa taybet a K tê bikaranîn; di hin zimanan de C an Q jî dikarin dengê [k] nîşan bidin. Ji ber vê yekê divê herf û deng ji hev cuda bên fêmkirin.
+Di kurdî-latînî de K/k tê bikaranîn; di alfabeya krîlî de bi herfeke taybet tê nivîsîn. Di nivîsa kurdî-erebî û farisî de herfa taybet a K tê bikaranîn; di hin zimanan de C an Q jî dikarin dengê [k] nîşan bidin. Ji ber vê yekê divê herf û deng ji hev cuda bên fêmkirin.
 
 ## 2. Peydabûna K di peyvan de
 
@@ -1575,7 +1575,7 @@ Ev nimûne nîşan didin ku K dikare ji çavkaniyên cuda were an di dîroka pey
 
 Dengê **L** di dema gotinê de bi nêzîkbûna zimanê bi pidûyan tê çêkirin. Rêya hewayê teng dibe, lê bi temamî nayê girtin. Ji ber vê yekê L dengekî **pidûyî û tengav** e. Di IPA de bi **[l]** tê nîşandan.
 
-Di kurdî-latînî de L/l û di kurdî-krîlî de Л/л tê bikaranîn. Di nivîsa kurdî-erebî de herfa L-ya zirav tê bikaranîn.
+Di kurdî-latînî de L/l û di alfabeya krîlî de herfeke taybet ji bo L tê bikaranîn. Di nivîsa kurdî-erebî de herfa L-ya zirav tê bikaranîn.
 
 ## 7. Peydabûna L di peyvan de
 
@@ -1729,7 +1729,7 @@ Di dawiya dersê de xwendekar dikare:
 
 Dengê **M** di dema gotinê de bi herdu lêvan çêdibe: lêv li hev tên û paşê vedibin. Hewa di vê demê de ji pozê derdikeve; ji ber vê yekê M dengekî **bêvilî** ye. Perdeyên dengî jî di gotina wê de dilerizin; ji ber vê yekê M **bilerz** e. Di IPA de bi **[m]** tê nîşandan.
 
-Di kurdî-latînî de M/m û di kurdî-krîlî de М/м tê bikaranîn. Di nivîsa kurdî-erebî de herfa M-ya taybet tê bikaranîn.
+Di kurdî-latînî de M/m û di alfabeya krîlî de herfeke taybet ji bo M tê bikaranîn. Di nivîsa kurdî-erebî de herfa M-ya taybet tê bikaranîn.
 
 ## 2. Peydabûna M di peyvan de
 
@@ -1771,7 +1771,7 @@ Pirtûk herwiha têkiliya M-ya kurdî û B-ya farisî di peyva *ramûsan* (maç 
 
 ## 5. N — bêvilî-pidûyî
 
-Dengê **N** bi alîkariya zimanê ku li pidûyan nêzîk dibe tê çêkirin. Hewa di dema gotina wê de ji pozê derdikeve; ji ber vê yekê N dengekî **bêvilî** ye. Di IPA de bi **[n]** tê nîşandan. Di kurdî-latînî de N/n û di kurdî-krîlî de Н/н tê bikaranîn. Di nivîsa kurdî-erebî de herfa N-ya taybet tê bikaranîn.
+Dengê **N** bi alîkariya zimanê ku li pidûyan nêzîk dibe tê çêkirin. Hewa di dema gotina wê de ji pozê derdikeve; ji ber vê yekê N dengekî **bêvilî** ye. Di IPA de bi **[n]** tê nîşandan. Di kurdî-latînî de N/n û di alfabeya krîlî de herfeke taybet ji bo N tê bikaranîn. Di nivîsa kurdî-erebî de herfa N-ya taybet tê bikaranîn.
 
 ## 6. Peydabûna N di peyvan de
 
@@ -1925,7 +1925,7 @@ Di dawiya dersê de xwendekar dikare:
 
 Dengê **P** konsonanteke **dulêvî** ye, ji ber ku herdu lêv di çêkirina wê de bi hev re tên. Ew **sekinî** ye: hewa di devê de demekê tê girtin û paşê bi vekirina lêvan tê berdan. Herwiha **bêlerz** e, ji ber ku perdeyên dengî di dema derketina wê de nalerizin. Nîşana rast a wê di alfabeya dengnasî ya navneteweyî de **[p]** e.
 
-Di kurdî-latînî de P/p, di alfabeya kurdî-erebî de herfa P-ya bi sê nuqteyan û di kurdî-krîlî de П/п ji bo vê dengê tên bikaranîn. Di erebiya standard de dengê /p/ û herfa wê tune ne; ji ber vê yekê di hin peyvên erebînivîs de herfa P bi sê nuqteyan li binê herfa B tê nivîsîn.
+Di kurdî-latînî de P/p, di alfabeya kurdî-erebî de herfa P-ya bi sê nuqteyan û di alfabeya krîlî de herfeke taybet ji bo vê dengê tê bikaranîn. Di erebiya standard de dengê /p/ û herfa wê tune ne; ji ber vê yekê di hin peyvên erebînivîs de herfa P bi sê nuqteyan li binê herfa B tê nivîsîn.
 
 ## 2. Peydabûna P di peyvan de
 
@@ -1981,7 +1981,7 @@ Ev nimûne nîşan didin ku P dikare di destpêkê de ji dengên din peyda bibe,
 
 Dengê **Q** konsonanteke **zimanokî** ye: pişta ziman li herêma paşiya devê, nêzî qirikê, astengiyê çêdike. Ew **sekinî** ye, ji ber ku hewa pêşî tê girtin û paşê tê berdan; herwiha **bêlerz** e. Di alfabeya dengnasî ya navneteweyî de bi **[q]** tê nîşandan.
 
-Di kurdî-latînî de Q/q, di alfabeya kurdî-erebî de herfa Q-ya taybet û di kurdî-krîlî de Ԛ/ԛ ji bo vê dengê hatine bikaranîn. Di hin alfabeyên din ên krîlînivîs de Қ/қ jî tê bikaranîn. Divê xwendekar Q-ya kurdî ji Q-ya hin zimanan cuda bigire: di gelek zimên ewropî de Q dengê [q] nade, lê bi K an bi komdengê [kw] ve tê gotin.
+Di kurdî-latînî de Q/q, di alfabeya kurdî-erebî de herfa Q-ya taybet û di alfabeya krîlî de herfeke taybet ji bo vê dengê hatiye bikaranîn. Di hin alfabeyên din ên krîlînivîs de herfeke din a alfabeya krîlî jî tê bikaranîn. Divê xwendekar Q-ya kurdî ji Q-ya hin zimanan cuda bigire: di gelek zimên ewropî de Q dengê [q] nade, lê bi K an bi komdengê [kw] ve tê gotin.
 
 ## 7. Peydabûna Q di peyvan de
 
