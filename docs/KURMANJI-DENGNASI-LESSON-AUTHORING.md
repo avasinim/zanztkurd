@@ -238,7 +238,7 @@ Bo nimûne، M dulêvî û bêvilî ye؛ P dulêvî، sekinî û bêlerz e؛ B j
 
 ## Têbînî ji bo pêşxistinê
 
-Ev ders ji rûpelên 8–15 hatî nûdabeşkirin. Berî bڵاوکردنەوە، divê nîşanên fonetîk، navên anatomîk û hemû nimûneyên dengî bi orîjînala pirtûkê re careke din bên kontrolkirin. Dersa 3 ji rûpelên 16–28 li ser hevdengî û pirdengî ye.
+Ev ders ji rûpelên 8–15 hatî nûdabeşkirin. Berî belavkirinê, divê nîşanên fonetîk, navên anatomîk û hemû nimûneyên dengî bi orîjînala pirtûkê re careke din bên kontrolkirin. Dersa 3 ji rûpelên 16–28 li ser hevdengî û pirdengî ye.
 
 
 
