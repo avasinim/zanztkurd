@@ -197,6 +197,13 @@ else{
         ['052.html','053.html','054.html','055.html','056.html','057.html'],['058.html']
       ];
       count=groups.filter(g=>g.every(k=>keys.has(k))).length;
+    }else if(cfg.id==='kurmanji-course-1'||cfg.id==='kurmanji-course-2'){
+      /* Kurmanji progress uses its own canonical lesson filenames. */
+      const courseNumber=cfg.id==='kurmanji-course-1'?1:2;
+      const validKeys=Array.from({length:cfg.total},(_,i)=>
+        'kurmanji-course-'+courseNumber+'-lesson-'+String(i+1).padStart(2,'0')+'.html'
+      );
+      count=validKeys.filter(k=>keys.has(k)).length;
     }else{
       /* Kurmanji progress uses the protected lesson-content keys, not legacy phonetics filenames. */
       const keyPrefix=cfg.lessonKeyPrefix;
@@ -224,7 +231,7 @@ else{
   const {data:enrollments}=await sb.from('enrollments').select('course_id,status,enrolled_at').eq('user_id',user.id);
   const activeEnrollments=(enrollments||[]).filter(e=>e.status==='active'||e.status==='completed');
   $('courseCount').textContent=isOwner?String(Object.keys(COURSES).length):String(activeEnrollments.length);
-  $('enrollSummary').textContent=isOwner?'دەسەڵاتی خاوەنماڵپەڕ چالاکە؛ دەستگەیشتن بە هەردوو کۆرس بەردەستە.':activeEnrollments.length===0?'هێشتا هیچ کۆرسێکت تۆمار نەکردووە.':activeEnrollments.length===1?'١ کۆرس بە ناوی تۆ تۆمار کراوە.':activeEnrollments.length+' کۆرس بە ناوی تۆ تۆمار کراون.';
+  $('enrollSummary').textContent=isOwner?'دەسەڵاتی خاوەنماڵپەڕ چالاکە؛ دەستگەیشتن بە هەموو چوار کۆرس بەردەستە.':activeEnrollments.length===0?'هێشتا هیچ کۆرسێکت تۆمار نەکردووە.':activeEnrollments.length===1?'١ کۆرس بە ناوی تۆ تۆمار کراوە.':activeEnrollments.length+' کۆرس بە ناوی تۆ تۆمار کراون.';
  }
  $('logout').onclick=async()=>{await sb.auth.signOut();location.href='auth.html';};
  $('resendVerify').onclick=async()=>{
