@@ -1594,19 +1594,18 @@ Di kurmancî de herfa L dikare bi du awayên hinekî cuda were gotin.
 
 **L-ya zirav** di peyvên wek *lêv, law, livîn, gel, bila* de heye.
 
-**L-ya qelew** di peyvên wek *lep, welat, silav* de heye. Di nivîsîna kurdî-erebî de, bi taybetî di soranî de, ji bo L-ya qelew herfeke cuda ji L-ya zirav tê bikaranîn. Di hin nivîsên latînî de L-ya qelew bi LL an Ł tê nîşandan; lê di vê dersê de divê xwendekar herdu awayên dengdanê bi guh û nimûneyan nas bike.
+**L-ya qelew** di peyvên wek *łep, wełat, siłav, çił* de heye. Di alfabeya kurdî-erebî de L-ya zirav bi **ل** û L-ya qelew bi **ڵ** tê nivîsîn. Di nivîsîna kurdî-latînî ya kurmancî de herdu bi L tên nivîsîn; di hin nivîsên zanistî de ji bo nîşandana L-ya qelew **Ł** tê bikaranîn. L-ya qelew ne L-ya dubarekirî ye; cudahiya wê bi dirêjkirina dengî nayê ravekirin.
 
-L-ya qelew di kurmancî de kêm e, lê di soranî de gelek berbelavtir e. Di hin peyvên ku di kurmancî de L-ya zirav heye, di soranî de L-ya qelew tê dîtin:
+L-ya qelew di kurmancî û zazakî de roleke kêmtir/kenarî heye, lê di soranî, kurdiya başûrî û hewramî de girîngtir û berbelavtir e. Di soranî de gelek caran li cihê L-ya zirav ya kurmancî L-ya qelew tê gotin:
 - kurmancî *dil* — soranî *dił*;
 - kurmancî *gul* — soranî *guł*;
 - kurmancî *mal* — soranî *mał*;
 - kurmancî *belê* — soranî *bełê*.
 
 L-ya qelew di kurmancî de di hemû devokan de heye, lê di hin peyvan de devok dikarin cuda bin:
-- L-ya qelew: *meła, miłet, zełam*;
-- L-ya zirav: *mela/ mele, milet, zilam*.
+- Di hin devokên kurmancî de formên bi L-ya qelew hene, wek *meła, miłet, zełam*; di hin devokên din de formên bi L-ya zirav hene, wek *mela/mele, milet, zilam*. Ev guherînên devokî ne û divê wek yek formê standard neyên pêşkêşkirin.
 
-Pirtûk destnîşan dike ku di hin nimûneyan de cudahiya L-ya qelew û zirav dikare bi cudahiya wateyê re were, wek *çil* (40) û *çił* (wateya peyva cuda). Lê di vê cotê de Ç jî cuda ye; ji ber vê yekê tenê bi vê nimûneyê nayê biryardan ku herdu L fonemên serbixwe ne.
+Pirtûk nimûneya *çil* (40) û *çił* (xwazok/temah) dide da ku cudahiya L-ya zirav û qelew di dengdanê de bê dîtin. Lê di kurmancî de ev cudahî fonemîk nîne: guherandina L-ya zirav bi L-ya qelew bi xwe wateya peyvê naguhêre. Ji ber vê yekê di nivîsîna kurmancî ya asayî de herdu bi L tên nivîsîn; cudahiya dengdanê dikare li gor devokê hebe.
 
 ## 9. Dîroka L û guherînên wê
 
@@ -1665,7 +1664,7 @@ K û L ji aliyê awayê derketinê ve bi temamî cuda ne: K bi girtin û berdana
 - Di kurmancî û zazakî de K dikare bipif an bêpif be; ev cudahî di hin peyvan de wateyê diguherîne.
 - K di destpêk, nav û dawiya peyvan de peyda dibe.
 - L [l] pidûyî û tengav e.
-- L dikare zirav an qelew were gotin; di soranî de L-ya qelew berbelavtir e.
+- L dikare bi awayê zirav an qelew were gotin; di kurmancî de L-ya zirav serdest e û L-ya qelew kêmtir e, lê di soranî de L-ya qelew berbelavtir e.
 - Hin L-ên peyvên kurmancî bi R an N-ya ziman û devokên din re têkildar in.
 - Guherînên dîrokî û devokî divê ji forma standard a nivîsînê cuda bên fêmkirin.
 
@@ -1696,7 +1695,7 @@ K û L ji aliyê awayê derketinê ve bi temamî cuda ne: K bi girtin û berdana
 3. *kar*: destpêk; *dikan*: nav; *çek*: dawî.
 4. Ji ber ku di dîroka wan de K-ya kevn di hin peyvan de hatiye parastin, di hinên din de bûye Ç.
 5. L pidûyî û tengav e; rêya hewayê teng dibe lê bi temamî nayê girtin.
-6. *lêv*: L-ya zirav; *lep* û *silav*: L-ya qelew.
+6. *lêv*: L-ya zirav; *łep* û *siłav*: L-ya qelew.
 7. Di kurmancî de L-ya zirav, di soranî de di van nimûneyan de L-ya qelew tê dîtin.
 8. R û N.
 9. Ji ber ku pirtûk wan wek guherînên hin devokan nîşan dide; formên bi N di zimanê nivîskî de serdest in.
