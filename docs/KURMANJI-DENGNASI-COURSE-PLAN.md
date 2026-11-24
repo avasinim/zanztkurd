@@ -30,8 +30,8 @@
 | 11 | Dengên K û L | 133–146 |
 | 12 | Dengên M û N | 147–154 |
 | 13 | Dengên P û Q | 155–167 |
-| 14 | Dengên R û S | 168–185 |
-| 15 | Dengên Ş û T | 186–202 |
+| 14 | Dengên R û S | 168–186 |
+| 15 | Dengên Ş û T | 187–202 |
 | 16 | Dengên V, W, Y û Z | 203–232 |
 | 17 | Eyn (ع) û hemû cotkonsonantên di kurdî de | 233–250 |
 | 18 | Vokalên A û E | 251–269 |
