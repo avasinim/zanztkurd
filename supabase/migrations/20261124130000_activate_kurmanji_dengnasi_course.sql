@@ -133,7 +133,7 @@ BEGIN
 
   RETURN public.has_completed_lesson_prefix(completed_keys, lesson_order, lesson_index);
 END;
-$function$
+$function$;
 
 
 CREATE OR REPLACE FUNCTION public.complete_lesson(p_course_id text, p_lesson_key text)
