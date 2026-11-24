@@ -1999,7 +1999,7 @@ Pirtûk destnîşan dike ku Q di zimanên hindûewropî yên kevn û di gelek zi
 
 **1. Bandora zimanên samî, bi taybetî erebî:** Dengê Q di zimanên samî yên Rojhilata Navîn de berbelav e. Gelek peyvên erebî bi Q ketine kurdî, wek *qam, qemer, qiyas, qîr, qudret*. Hin peyvên ku eslê wan ji yûnaniya kevn e jî bi rêya erebî gihiştine kurdî; wek *qanûn, qelem, qesir*.
 
-**2. Bandora zimanên tirkîkî:** Di hin zimanên tirkîkî de Q berî vokalên paşîn gelemperî ye. Di hin peyvên ku kurdî ji tirkî wergirtiye de K-ya tirkî, heke li pey wê vokaleke paşîn were, dikare di kurdî de bibe Q:
+**2. Bandora zimanên tirkîkî:** Di hin zimanên tirkîkî de Q berî vokalên paşîn gelemperî ye. Di hin peyvên ku kurdî ji tirkî wergirtiye de, heke K di peyva tirkî ya bingehîn de li pêşiya vokaleke paşîn (A, I, O, U) be, ew dikare di kurdî de bibe Q. Ev şert li ser forma tirkî ya jêderê ye, ne li ser vokala ku di forma kurdî de xuya dike:
 - *qazan* ji tirkî *kazan*;
 - *qere-* ji *kara*;
 - *qonax/qûnax* ji *konak*;
