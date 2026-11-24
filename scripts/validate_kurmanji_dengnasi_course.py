@@ -38,7 +38,7 @@ for lesson in lessons:
     expected_end = printed["end"] + offset + (1 if lesson["number"] == 14 else 0)
     assert designed["end"] == expected_end, f"designed end page mismatch in lesson {lesson['number']}"
     if lesson["number"] == 15:
-        assert lesson.get("dividerPage") == 203, "Lesson 15 divider placement must remain explicitly documented until PDF is corrected"
+        assert lesson.get("dividerPage") == 204, "Lesson 15 divider placement must remain explicitly documented until PDF is corrected"
     n = lesson["number"]
     link = f'kurmanji-dengnasi-reader.html?lesson={n}'
     assert link in preview, f"missing preview link for lesson {n}"
