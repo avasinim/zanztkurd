@@ -1671,3 +1671,196 @@ K û L ji aliyê awayê derketinê ve bi temamî cuda ne: K bi girtin û berdana
 ## Têbînî ji bo pêşxistinê
 
 Ev ders ji rûpelên çapkirî 133–146 hatiye nûdabeşkirin. Cudahiya K-ya bipif/bêpif، nîşanên IPA، cudahiya L-ya zirav/qelew، formên soranî û etîmolojiyên L divê di nirxandina dawî de rasterast bi çavkaniyê re bên kontrolkirin. Nimûneyên devokî û etîmolojîk wek delîlên berawirdkirinê tên pêşkêşkirin، ne wek formên ku hemû xwendekaran divê di nivîsîna standard de bi kar bînin. Dersa 12 ji rûpelên 147–154 li ser dengên M û N e.
+
+
+---
+
+# Dersa 12 — Dengên M û N
+
+**Çavkaniya dersê:** rûpelên çapkirî 147–154.  
+**Dem:** 45–55 deqîqe.
+
+## Armancên fêrbûnê
+
+Di dawiya dersê de xwendekar dikare:
+- M wek dengekî dulêvî-bêvilî û bilerz rave bike;
+- N wek dengekî pidûyî-bêvilî nas bike;
+- cihê M û N di destpêk، nav û dawiya peyvan de bibîne;
+- têkiliya M bi B/P، W/V û N re rave bike;
+- guherîna M ya dîrokî di hin peyvên kurdî de bi nimûne şîrove bike;
+- cudahiya gotina NG di kurmancî û hin devokên din ên kurdî de nas bike;
+- guherînên N bi M û L re û zêdebûn an ketina N di peyvan de nas bike.
+
+## 1. M — dulêvî-bêvilî
+
+Dengê **M** di dema gotinê de bi herdu lêvan çêdibe: lêv li hev tên û paşê vedibin. Hewa di vê demê de ji pozê derdikeve؛ ji ber vê yekê M dengekî **bêvilî** ye. Perdeyên dengî jî di gotina wê de dilerizin؛ ji ber vê yekê M **bilerz** e. Di IPA de bi **[m]** tê nîşandan.
+
+Di kurdî-latînî de M/m، di kurdî-erebî de م û di kurdî-krîlî de М/м tê bikaranîn.
+
+## 2. Peydabûna M di peyvan de
+
+M dikare li destpêk، nav û dawiya peyvê were:
+- **Li destpêkê:** *maç، min، mezin، mekin*.
+- **Li navê:** *Amed، umet، umêd، dûman*.
+- **Li dawiyê:** *germ، heram، genim*.
+
+Li gorî lêkolîna ku pirtûk jê vedigere، rêjeya M di nivîsên kurmancî de 2,3% e. Di peyvên xwerû yên xwemalî de M li destpêka peyvê gelemperî ye، lê li nav û dawiya peyvê kêmتر xuya dike.
+
+## 3. M û dengên nêzîkî wê
+
+M ji aliyê dengnasiyê ve bi çend dengan re nêzîk e:
+- **N:** herdu jî bêvilî ne؛ lê M dulêvî ye، N pidûyî ye.
+- **B û P:** herdu jî dulêvî ne؛ lê M bêvilî ye، B û P sekinî ne.
+- **W:** wek M bi lêvan tê çêkirin، lê W tengav e، ne bêvilî.
+- **V û F:** bi alîkariya lêvê tên derxistin؛ lê M herdu lêvan dixebitîne، V/F lêva jêrîn û didanên jorîn dixebitînin.
+
+Ji bo danasîna M، divê xwendekar hem cihê derketinê hem jî rêya derketina hewayê li ber çavan bigire.
+
+## 4. Guherîna M bi V û W re
+
+Di hin peyvên xwemalî yên kurdî de، M-ya kevn piştî vokalan li nav an dawiya peyvê guheriye:
+- Di kurmancî de M bûye **V**؛
+- di soranî de M bûye **W**.
+
+Nimûneyên pirtûkê:
+- kurmancî *nav* — soranî *naw*؛ bi farisî û zazakî *nam* re berawird bike.
+- kurmancî *gav* — soranî *(hen)gaw*؛ bi farisî û zazakî *gam* re berawird bike.
+- kurmanciya rojhilatî *nivêj* — soranî *niwêj*؛ bi zazakî *nimac* û farisî *nemaz* re berawird bike.
+
+Ev guherîn rêzikeke giştî ya bêistisna nîne. Piştî konsonantan M bi gelemperî diparêze؛ ji ber vê yekê di *germ* de M nemaye ku bibe V an W. Di *genim* de jî M hatiye parastin، ji ber ku di qonaxa dîrokî ya peyvê de dengên D/T li pey wê hebûne.
+
+Di hin peyvên din de M li destpêka peyvê bûye B:
+- erebî *mismar* → kurmancî *bizmar*؛
+- *misilman* → di hin devokan de *bisilman/bisirman*.
+
+Pirtûk herwiha têkiliya M-ya kurdî û B-ya farisî di peyva *ramûsan* (maç kirin) û *bûsê/bûsîden* de destnîşan dike.
+
+## 5. N — bêvilî-pidûyî
+
+Dengê **N** bi alîkariya zimanê ku li pidûyan nêzîk dibe tê çêkirin. Hewa di dema gotina wê de ji pozê derdikeve؛ ji ber vê yekê N dengekî **bêvilî** ye. Di IPA de bi **[n]** tê nîşandan. Di kurdî-latînî de N/n، di kurdî-erebî de ن û di kurdî-krîlî de Н/н tê bikaranîn.
+
+## 6. Peydabûna N di peyvan de
+
+N dikare li sê cihên peyvê were:
+- **Li destpêkê:** *na، nerm، nû*.
+- **Li navê:** *banî، bilind، deng*.
+- **Li dawiya peyvê:** *baran، man، ken*.
+
+Li gorî lêkolîna ku pirtûk jê vedigere، N yek ji konsonantên herî pir di nivîsên kurmancî de ye؛ rêjeya wê 9,4% e. Di heman lêkolînê de tenê vokalên I û E ji N zêdetir tên dîtin.
+
+## 7. NG û NK: du deng an dengekî tevlihev?
+
+Di piraniya devokên kurmancî de **NG** wek du dengên cuda tê gotin. Sinora kîteyê dikare di navbera wan de be؛ wek *ren-gê sor*. Di vê gotinê de N û G herdu tên bihîstin.
+
+Lê di hin ziman û devokên kurdî de، bi taybetî di hin devokên soranî û piraniya devokên kurdiya başûrî de، NG dikare bibe dengekî yekگرتî yê bêvilî-paşdevî. Di IPA de ev deng bi **[ŋ]** tê nîşandan؛ wek N-yek bi çengal.
+
+Di kurmancî de، herçend N berî G an K were، G/K jî tê gotin. Ji ber vê yekê:
+- kurmancî **NG** bi gelemperî [ŋg] e؛
+- di hin devokên başûrî de dengên herdu herfan dikarin dihev bibin û [ŋ] bimîne.
+
+Ev cudahî ya dengdanê ye؛ divê xwendekar wê ji awayê nivîsîna NG cuda bigire.
+
+## 8. Guherîna N bi M re
+
+N û M herdu jî dengên bêvilî ne، ji ber vê yekê carinan bi hev diguherin. Pirtûk nimûneyên van guherînan dide:
+- *neke / meke*؛
+- kurdî *em dixwin* li hember farisî *mâ mixorîm*.
+
+Gava N li ber B an P were، dikare bi asîmîlasyonê bibe M؛ anku dengê paşê bandorê li dengê berî xwe dike:
+- *Istanbul → Stembol*؛
+- forma nivîskî *jinbab/jinbav*، lê di gotina sivik de *jimbab/jimbav*.
+
+Ev nimûne nîşan didin ku deng dikare ji ber dengê li pey xwe biguhere؛ ne ku her N divê li ber her B an P were guherandin.
+
+## 9. N û L
+
+Di hin peyv û devokên kurmancî de N bûye L:
+- *nimêj/nivêj* → di hin devokan de *limêj*؛
+- *nivîn* → di hin devokan de *livîn*؛
+- *loşî can* li hember formên *noşî can*.
+
+Pirtûk van formên bi L wek guherînên devokî destnîşan dike. Di zimanê nivîskî û di nav piraniya kurmancan de formên bi N serdest in. Lê daçekên *li* û *lê* formên bi L diparêzin؛ pirtûk eslê wan bi formên kevn ên **ni* û **ne* re girêdide.
+
+## 10. Zêdebûna N di peyvê de
+
+Carinan N di peyvekê de zêde dibe، herçend di eslê wê de tune be. Pirtûk nimûneyên jêrîn dide:
+- *tac* → di hin gotinan de *tanc*؛
+- *çok* → di hin devokan de *çong*؛
+- *firset* → di hin devokan de *firsend*؛
+- *bêder* → di hin devokan de *bênder*.
+
+Pirtûk herwiha *amanc/armanc* bi farisî *âmâc* û tirkî *amaç* re berawird dike؛ di van formên farisî û tirkî de N tune ye. Li gorî şîroveya pirtûkê، dibe ku N di kurdî de zêde bûbe.
+
+Di peyva *reng* de jî N di hin zimanên îranî de heye، lê forma sanskrîtî *raga-* û rehê pêşniyarkirî yê **reg-* N nîşan nadin. Pirtûk *bang، deng* û *veng* jî wek nimûneyên ku N di wan de zêde bûye analîz dike.
+
+Li gorî nimûneyên pirtûkê، N bi taybetî berî G، C û D dikare zêde bibe. Herwiha N carinan li dawiya peyvê jî zêde dibe:
+- *dîsa → dîsan*؛
+- *çawa → çawan*؛
+- *wisa → wisan*.
+
+Ev formên zêdekirî divê wek taybetmendiyên gotinê û devokî bên nasîn، ne wek ku her tim di nivîsîna standard de pêwîst bin.
+
+## 11. Ketina N ji dawiya peyvê
+
+N carinan ji dawiya peyvê dikeve. Ev yek bi taybetî di formên pirhejmar ên çemandî de tê dîtin. Di hemû kurmanciya devkî de N dikare ji paşpirtika pirhejmariyê ya **-an** bikeve:
+- nivîskî *du kitêban* → devkî *du kitêba_*؛
+- *wan kesan* → di gotinê de *wa_ kesa_* an *wan kesa_*.
+
+Di hin devokan de، lê ne di hemûyan de، N ji paşpirtika **-ên** jî dikeve:
+- *du hevalên wî* → *du hevalê_ wî*؛
+- *wan kurdên Stembolê* → *wa(n) kurdê_ Stembolê*.
+
+Nîşana xêza jêrîn li vir tenê cihê dengê N-ya ketî nîşan dide؛ ew tîpek nû nîne.
+
+## Berawirdkirina M û N
+
+| Taybetmendî | M [m] | N [n] |
+|---|---|---|
+| Cihê derketinê | Dulêvî | Pidûyî |
+| Awayê derketinê | Bêvilî | Bêvilî |
+| Lerz | Bilerz | Bilerz |
+| Cih di peyvê de | Destpêk، nav، dawî | Destpêk، nav، dawî |
+| Têkiliyên taybet | Bi V/W û B/P re | Bi M، L û G/K re |
+
+## Bîr bîne
+
+- M [m] dulêvî، bêvilî û bilerz e.
+- N [n] pidûyî، bêvilî û bilerz e.
+- M piştî vokalan di hin peyvên dîrokî de di kurmancî de bûye V û di soranî de W.
+- Di kurmancî de NG bi gelemperî [ŋg] e؛ di hin devokên din de dikare bibe [ŋ].
+- N li ber B/P carinan dibe M.
+- N di hin devokan de dibe L؛ di hin peyvan de jî dikare zêde bibe an ji dawiya paşpirtikê bikeve.
+- Guherînên dengî yên devkî divê ji forma nivîskî ya standard cuda bên fêmkirin.
+
+## Çalakî û xwepirsîn
+
+**1. Nasîna M:** M ji aliyê cihê derketinê، rêya hewayê û lerzê ve çawa tê danasîn؟
+
+**2. Nasîna N:** Cudahiya M û N di cihê derketinê de çi ye؟
+
+**3. Guherîna M:** Di cotên *nav/naw* û *gav/(hen)gaw* de çi guherîn hatiye dîtin؟
+
+**4. NG:** Çima NG di kurmancî de bi gelemperî [ŋg] e، lê di hin devokên başûrî de [ŋ] dibe؟
+
+**5. Asîmîlasyon:** Di *jinbav → jimbav* de N çima bûye M؟
+
+**6. Guherîna N:** *nimêj → limêj* çi cure guherînekê nîşan dide؟
+
+**7. Zêdebûna N:** Ji nimûneyên *tac/tanc* û *çok/çong* re bêje çi qewimî ye؟
+
+**8. Ketina N:** Di *du kitêban → du kitêba_* de kîjan deng ketiye؟
+
+## Bersivên kurt
+
+1. M dulêvî، bêvilî û bilerz e.
+2. M dulêvî ye؛ N pidûyî ye. Herdu jî bêvilî û bilerz in.
+3. M-ya kevn di kurmancî de bûye V، di soranî de W.
+4. Di kurmancî de G jî tê gotin؛ di hin devokên din de N û G dihev dibin û [ŋ] dimîne.
+5. Ji ber ku N li ber B ye û bi asîmîlasyonê nêzîkî B dibe.
+6. Guherîna N bo L di hin devokan de.
+7. N di nav peyvê de zêde bûye.
+8. N-ya paşpirtika -an ketiye.
+
+## Têbînî ji bo pêşxistinê
+
+Ev ders ji rûpelên çapkirî 147–154 hatiye nûdabeşkirin. Nîşanên IPA [m]، [n]، [ŋ]، cudahiya NG di devokan de، etîmolojiyên M/N û formên gotinî yên zêdebûn/ketنی N divê لە پێداچوونەوەی کۆتاییدا rasterast bi çavkaniyەکە re bên kontrolkirin. Nimûneyên devokî wek formên herێمی tên pێشکەشکردن، ne wek یاسایەکی یەکسان بۆ هەموو کورمانجی. Dersa 13 ji rûpelên çapkirî 155–167 li ser dengên P û Q e.
