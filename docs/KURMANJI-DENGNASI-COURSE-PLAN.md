@@ -3,7 +3,7 @@
 **Source:** Husein Muhammed, *Dengnasî di kurdî de* (432 printed pages).  
 **Course language/script:** Kurmancî, Latin script.  
 **Designed reading copy:** 462-page PDF with cover, contents, and 27 lesson divider pages.  
-**Current status:** production Supabase course row, all 27 lesson-content records, and protected enrollment/progression integration are deployed. Website publication is pending merge and GitHub Pages deployment verification.
+**Current status:** production Supabase course row, all 27 lesson-content records, and protected enrollment/progression integration are deployed. PR #86 is merged into main. The GitHub Pages build and deployment workflow completed successfully; a separate live-page fetch was not available for independent content verification.
 
 ## Content rules
 
