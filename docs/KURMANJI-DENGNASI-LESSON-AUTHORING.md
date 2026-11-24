@@ -48,7 +48,6 @@
 
 # Dersa 1 — Dengnasî çi ye û çima girîng e?
 
-**Çavkaniya dersê:** rûpelên çapkirî 4–7.  
 **Dem:** 20–25 deqîqe.
 
 ## Armancên fêrbûnê
@@ -129,15 +128,18 @@ Bi vê rêbazê xwendekar deng tenê wek tîpek di alfabeyê de nabîne,  lê we
 
 ## Têbînî ji bo pêşxistinê
 
-Ev ders ji rûpelên 4–7 hatî nûdabeşkirin û bi şêwazeke fêrbûnê hatiye rêkxistin;  ne kopîkirina PDF e. Ev pêşnûs divê ji aliyê zimanî û zanistî ve careke din were nirxandin. Dersa 2 divê ji rûpelên 8–15 were amadekirin,  bi giranî li ser vokal/konsonant,  cih û awayê derketina dengan û pifdarî.
+Ev ders ji  hatî nûdabeşkirin û bi şêwazeke fêrbûnê hatiye rêkxistin;  ne kopîkirina PDF e. Ev pêşnûs divê ji aliyê zimanî û zanistî ve careke din were nirxandin. Dersa 2 divê ji  were amadekirin,  bi giranî li ser vokal/konsonant,  cih û awayê derketina dengan û pifdarî.
 
 
+
+## Çavkanî
+
+Husein Muhammed, *Dengnasî di kurdî de*, rûpelên çapkirî 4–7.
 
 ---
 
 # Dersa 2 — Vokal, konsonant û awayên derketina dengan
 
-**Çavkaniya dersê:** rûpelên çapkirî 8–15.  
 **Dem:** 30–35 deqîqe.
 
 ## Armancên fêrbûnê
@@ -238,15 +240,18 @@ Bo nimûne, M dulêvî û bêvilî ye; P dulêvî, sekinî û bêlerz e; B jî d
 
 ## Têbînî ji bo pêşxistinê
 
-Ev ders ji rûpelên 8–15 hatî nûdabeşkirin. Berî belavkirinê, divê nîşanên fonetîk, navên anatomîk û hemû nimûneyên dengî bi orîjînala pirtûkê re careke din bên kontrolkirin. Dersa 3 ji rûpelên 16–28 li ser hevdengî û pirdengî ye.
+Ev ders ji  hatî nûdabeşkirin. Berî belavkirinê, divê nîşanên fonetîk, navên anatomîk û hemû nimûneyên dengî bi orîjînala pirtûkê re careke din bên kontrolkirin. Dersa 3 ji  li ser hevdengî û pirdengî ye.
 
 
+
+## Çavkanî
+
+Husein Muhammed, *Dengnasî di kurdî de*, rûpelên çapkirî 8–15.
 
 ---
 
 # Dersa 3 — Hevdengî û pirdengî di nivîsîna kurdî de
 
-**Çavkaniya dersê:** rûpelên çapkirî 16–28.  
 **Dem:** 30–35 deqîqe.
 
 ## Armancên fêrbûnê
@@ -292,7 +297,7 @@ Ev dabeşkirin nîşan dide ku di xwendina kurmancî de divê mirov tenê li her
 
 ## 4. Nimûneyên pirdengiyê
 
-Pirtûk di rûpelên 21–28 de çend nimûneyên bingehîn pêşkêş dike:
+Pirtûk di  de çend nimûneyên bingehîn pêşkêş dike:
 
 - **R:** di kurmancî de R dikare dengê şidandî û dengê sist nîşan bide. Di destpêka peyvê de *rast, rev, rê* wek nimûne tên; di nav û dawiya peyvê de *agir, baran, mêr*.
 - **H:** herfa H dikare du dengên ji hev cuda nîşan bide; nimûne: *heval* û *heft*.
@@ -341,15 +346,18 @@ Ji ber vê yekê divê xwendekar:
 
 ## Têbînî ji bo pêşxistinê
 
-Ev ders ji rûpelên 16–28 hatî nûdabeşkirin. Pirtûk di heman beşê de dest bi ravekirina Ç, K, P û T jî dike; lê ji ber ku wan dengên pirdeng hûrgilî û mijarên zêde hene, wan di dersên paşîn de bi serbixwe û bi nimûneyên xwe yên rast divê were xwendin.
+Ev ders ji  hatî nûdabeşkirin. Pirtûk di heman beşê de dest bi ravekirina Ç, K, P û T jî dike; lê ji ber ku wan dengên pirdeng hûrgilî û mijarên zêde hene, wan di dersên paşîn de bi serbixwe û bi nimûneyên xwe yên rast divê were xwendin.
 
 
+
+## Çavkanî
+
+Husein Muhammed, *Dengnasî di kurdî de*, rûpelên çapkirî 16–28.
 
 ---
 
 # Dersa 4 — Qelewîtî: dengên qelew û zirav
 
-**Çavkaniya dersê:** rûpelên çapkirî 29–39.  
 **Dem:** 35–40 deqîqe.
 
 ## Armancên fêrbûnê
@@ -474,15 +482,18 @@ Ji ber vê yekê du ast ji hev cuda bikin:
 
 ## Têbînî ji bo pêşxistinê
 
-Ev ders ji rûpelên 29–39 hatî nûdabeşkirin. Nîşanên dengnasiyê û nimûneyên peyvan divê di kontrola dawî de rasterast bi PDF re bên berawirdkirin, bi taybetî nîşana Ṗ ku nivîskar di binpê de behsa sînordariya teknîkî ya çapkirinê dike. Dersa 5 ji rûpelên 40–43 li ser rêjeya herfan di nivîsên kurmancî de ye.
+Ev ders ji  hatî nûdabeşkirin. Nîşanên dengnasiyê û nimûneyên peyvan divê di kontrola dawî de rasterast bi PDF re bên berawirdkirin, bi taybetî nîşana Ṗ ku nivîskar di binpê de behsa sînordariya teknîkî ya çapkirinê dike. Dersa 5 ji  li ser rêjeya herfan di nivîsên kurmancî de ye.
 
 
+
+## Çavkanî
+
+Husein Muhammed, *Dengnasî di kurdî de*, rûpelên çapkirî 29–39.
 
 ---
 
 # Dersa 5 — Rêjeya herfan di nivîsên kurmancî de
 
-**Çavkaniya dersê:** rûpelên çapkirî 40–43.  
 **Dem:** 25–30 deqîqe.
 
 ## Armancên fêrbûnê
@@ -578,15 +589,18 @@ Vê vekolînê divê bi çend hişyarî bên xwendin:
 
 ## Têbînî ji bo pêşxistinê
 
-Ev ders ji rûpelên 40–43 hatî nûdabeşkirin. Rêjeyên hejmarî yên li jor rasterast ji tabloya pirtûkê hatine girtin; divê di kontrola dawî de her hejmar bi tabloya orîjînal re were berawirdkirin. Dersa 6 ji rûpelên 44–55 li ser dengrêzî û kîte ye.
+Ev ders ji  hatî nûdabeşkirin. Rêjeyên hejmarî yên li jor rasterast ji tabloya pirtûkê hatine girtin; divê di kontrola dawî de her hejmar bi tabloya orîjînal re were berawirdkirin. Dersa 6 ji  li ser dengrêzî û kîte ye.
 
 
+
+## Çavkanî
+
+Husein Muhammed, *Dengnasî di kurdî de*, rûpelên çapkirî 40–43.
 
 ---
 
 # Dersa 6 — Dengrêzî û avaniya kîteyan
 
-**Çavkaniya dersê:** rûpelên çapkirî 44–55.  
 **Dem:** 40–45 deqîqe.
 
 ## Armancên fêrbûnê
@@ -727,15 +741,18 @@ Lê nivîskar hişyar dike ku hemû peyvên wergirtî bi yek rêzikê nayên ş�
 
 ## Têbînî ji bo pêşxistinê
 
-Ev ders ji rûpelên 44–55 hatî nûdabeşkirin. Kontrola dawî divê li ser dabeşkirina kîteyan, nîşanên IPA, û nimûneyên guherîna lerzê bê kirin; bi taybetî cudahiya kîtekirina nivîskî û ya gotinê di peyvên wek *berav* de. Dersa 7 ji rûpelên 56–67 li ser tesîra guherîna dengî li ser nivîsînê ye.
+Ev ders ji  hatî nûdabeşkirin. Kontrola dawî divê li ser dabeşkirina kîteyan, nîşanên IPA, û nimûneyên guherîna lerzê bê kirin; bi taybetî cudahiya kîtekirina nivîskî û ya gotinê di peyvên wek *berav* de. Dersa 7 ji  li ser tesîra guherîna dengî li ser nivîsînê ye.
 
 
+
+## Çavkanî
+
+Husein Muhammed, *Dengnasî di kurdî de*, rûpelên çapkirî 44–55.
 
 ---
 
 # Dersa 7 — Tesîra guherîna dengî li ser nivîsînê
 
-**Çavkaniya dersê:** rûpelên çapkirî 56–67.  
 **Dem:** 45–50 deqîqe.
 
 ## Armancên fêrbûnê
@@ -873,15 +890,18 @@ Ev cot peyv nîşan didin ku analojî dikare di çend cureyên peyvan de bandor�
 
 ## Têbînî ji bo pêşxistinê
 
-Ev ders ji rûpelên 56–67 hatî nûdabeşkirin. Di kontrola dawî de divê nimûneyên etîmolojîk, nîşanên dengnasiyê û şiroveya analojiyê bi nivîsa PDF-ê re bêne berawirdkirin; herwiha divê cudahiya rastnivîsîna peyvên xwerû, peyvên pêkhatî û peyvên li pey hev bi zelalî bê parastin. Dersa 8 ji rûpelên 68–103 li ser konsonantên B, C, Ç û D e.
+Ev ders ji  hatî nûdabeşkirin. Di kontrola dawî de divê nimûneyên etîmolojîk, nîşanên dengnasiyê û şiroveya analojiyê bi nivîsa PDF-ê re bêne berawirdkirin; herwiha divê cudahiya rastnivîsîna peyvên xwerû, peyvên pêkhatî û peyvên li pey hev bi zelalî bê parastin. Dersa 8 ji  li ser konsonantên B, C, Ç û D e.
 
 
+
+## Çavkanî
+
+Husein Muhammed, *Dengnasî di kurdî de*, rûpelên çapkirî 56–67.
 
 ---
 
 # Dersa 8 — Konsonantên B, C, Ç û D
 
-**Çavkaniya dersê:** rûpelên çapkirî 68–103.  
 **Dem:** 60–70 deqîqe.
 
 ## Armancên fêrbûnê
@@ -1049,14 +1069,17 @@ C û Ç ji aliyê cih û awayê derketinê ve nêzîk in, lê lerza wan cuda ye.
 
 ## Têbînî ji bo pêşxistinê
 
-Ev ders ji rûpelên 68–103 hatî nûdabeşkirin. Berî belavkirinê divê nîşanên fonetîk, cudahiya bipif/bêpif ya Ç, nimûneyên dîrokî û awayê nivîsandina formên zaravayî rasterast bi PDF re bên kontrolkirin. Hin nimûneyên dîrokî ji bo fêrbûnê kurt kirine; divê wek agahiyên çavkaniyê bên xwendin, ne wek daneyên ku bê kontrolkirin ji nû ve bên berfirehkirin. Dersa 9 ji rûpelên 104–115 li ser dengên F û G e.
+Ev ders ji  hatî nûdabeşkirin. Berî belavkirinê divê nîşanên fonetîk, cudahiya bipif/bêpif ya Ç, nimûneyên dîrokî û awayê nivîsandina formên zaravayî rasterast bi PDF re bên kontrolkirin. Hin nimûneyên dîrokî ji bo fêrbûnê kurt kirine; divê wek agahiyên çavkaniyê bên xwendin, ne wek daneyên ku bê kontrolkirin ji nû ve bên berfirehkirin. Dersa 9 ji  li ser dengên F û G e.
 
+
+## Çavkanî
+
+Husein Muhammed, *Dengnasî di kurdî de*, rûpelên çapkirî 68–103.
 
 ---
 
 # Dersa 9 — Dengên F û G
 
-**Çavkaniya dersê:** rûpelên çapkirî 104–115.  
 **Dem:** 45–55 deqîqe.
 
 ## Armancên fêrbûnê
@@ -1240,14 +1263,17 @@ F û G ji aliyê cih û awayê derketinê ve ji hev dûr in. F bi didan û lêv�
 
 ## Têbînî ji bo pêşxistinê
 
-Ev ders ji rûpelên çapkirî 104–115 hatî nûdabeşkirin. Rêjeyên F û G, nîşanên IPA, formên dîrokî û cudahiyên devokî divê di nirxandina dawî de bi baldarî bêne kontrolkirin. Nimûneyên etîmolojîk ji bo berawirdkirinê ne; divê wek rêzikên nivîsîna îroyîn neyên bikaranîn. Dersa 10 ji rûpelên 116–132 li ser dengên H û J e.
+Ev ders ji  hatî nûdabeşkirin. Rêjeyên F û G, nîşanên IPA, formên dîrokî û cudahiyên devokî divê di nirxandina dawî de bi baldarî bêne kontrolkirin. Nimûneyên etîmolojîk ji bo berawirdkirinê ne; divê wek rêzikên nivîsîna îroyîn neyên bikaranîn. Dersa 10 ji  li ser dengên H û J e.
 
+
+## Çavkanî
+
+Husein Muhammed, *Dengnasî di kurdî de*, rûpelên çapkirî 104–115.
 
 ---
 
 # Dersa 10 — Dengên H û J
 
-**Çavkaniya dersê:** rûpelên çapkirî 116–132.  
 **Dem:** 45–55 deqîqe.
 
 ## Armancên fêrbûnê
@@ -1464,14 +1490,17 @@ Ev nimûne divê wek guherînên devokî an gotina sivik bên fêmkirin; ne wek 
 
 ## Têbînî ji bo pêşxistinê
 
-Ev ders ji rûpelên çapkirî 116–132 hatî nûdabeşkirin. Cudahiya fonetîkî ya H [h] û Ḧ [ħ], formên devokî, etîmolojî û nîşanên IPA divê di nirxandina dawî de rasterast bi çavkaniyê re bên kontrolkirin. Di nivîsîna normal de H-yekê biparêzin; Ḧ tenê ji bo ravekirina dengnasî û nimûneyên çavkaniyê hatiye bikaranîn. Dersa 11 ji rûpelên 133–146 li ser dengên K û L e.
+Ev ders ji  hatî nûdabeşkirin. Cudahiya fonetîkî ya H [h] û Ḧ [ħ], formên devokî, etîmolojî û nîşanên IPA divê di nirxandina dawî de rasterast bi çavkaniyê re bên kontrolkirin. Di nivîsîna normal de H-yekê biparêzin; Ḧ tenê ji bo ravekirina dengnasî û nimûneyên çavkaniyê hatiye bikaranîn. Dersa 11 ji  li ser dengên K û L e.
 
+
+## Çavkanî
+
+Husein Muhammed, *Dengnasî di kurdî de*, rûpelên çapkirî 116–132.
 
 ---
 
 # Dersa 11 — Dengên K û L
 
-**Çavkaniya dersê:** rûpelên çapkirî 133–146.  
 **Dem:** 50–60 deqîqe.
 
 ## Armancên fêrbûnê
@@ -1672,14 +1701,17 @@ K û L ji aliyê awayê derketinê ve bi temamî cuda ne: K bi girtin û berdana
 
 ## Têbînî ji bo pêşxistinê
 
-Ev ders ji rûpelên çapkirî 133–146 hatiye nûdabeşkirin. Cudahiya K-ya bipif/bêpif, nîşanên IPA, cudahiya L-ya zirav/qelew, formên soranî û etîmolojiyên L divê di nirxandina dawî de rasterast bi çavkaniyê re bên kontrolkirin. Nimûneyên devokî û etîmolojîk wek delîlên berawirdkirinê tên pêşkêşkirin, ne wek formên ku hemû xwendekaran divê di nivîsîna standard de bi kar bînin. Dersa 12 ji rûpelên 147–154 li ser dengên M û N e.
+Ev ders ji nû ve wek materyaleke fêrkarî hatiye rêkxistin. Cudahiya K-ya bipif/bêpif, nîşanên IPA, cudahiya L-ya zirav/qelew, formên soranî û etîmolojiyên L divê di nirxandina dawî de rasterast bi çavkaniyê re bên kontrolkirin. Nimûneyên devokî û etîmolojîk wek delîlên berawirdkirinê tên pêşkêşkirin, ne wek formên ku hemû xwendekaran divê di nivîsîna standard de bi kar bînin. Dersa 12 ji  li ser dengên M û N e.
 
+
+## Çavkanî
+
+Husein Muhammed, *Dengnasî di kurdî de*, rûpelên çapkirî 133–146.
 
 ---
 
 # Dersa 12 — Dengên M û N
 
-**Çavkaniya dersê:** rûpelên çapkirî 147–154.  
 **Dem:** 45–55 deqîqe.
 
 ## Armancên fêrbûnê
@@ -1865,14 +1897,17 @@ Nîşana xêza jêrîn li vir tenê cihê dengê N-ya ketî nîşan dide; ew tî
 
 ## Têbînî ji bo pêşxistinê
 
-Ev ders ji rûpelên çapkirî 147–154 hatiye nûdabeşkirin. Nîşanên IPA [m], [n], [ŋ], cudahiya NG di devokan de, etîmolojiyên M/N û formên gotinî yên zêdebûn an ketina N divê di nirxandina dawî de rasterast bi çavkaniyê re bên kontrolkirin. Nimûneyên devokî wek formên herêmî tên pêşkêşkirin, ne wek rêzikên wekhev ji bo hemû kurmancî. Dersa 13 ji rûpelên çapkirî 155–167 li ser dengên P û Q e.
+Ev ders ji nû ve wek materyaleke fêrkarî hatiye rêkxistin. Nîşanên IPA [m], [n], [ŋ], cudahiya NG di devokan de, etîmolojiyên M/N û formên gotinî yên zêdebûn an ketina N divê di nirxandina dawî de rasterast bi çavkaniyê re bên kontrolkirin. Nimûneyên devokî wek formên herêmî tên pêşkêşkirin, ne wek rêzikên wekhev ji bo hemû kurmancî. Dersa 13 ji  li ser dengên P û Q e.
 
+
+## Çavkanî
+
+Husein Muhammed, *Dengnasî di kurdî de*, rûpelên çapkirî 147–154.
 
 ---
 
 # Dersa 13 — Dengên P û Q
 
-**Çavkaniya dersê:** rûpelên çapkirî 155–167.  
 **Dem:** 45–55 deqîqe.
 
 ## Armancên fêrbûnê
@@ -2037,14 +2072,17 @@ Pirtûk herwiha hin peyvên bi eslê xwe îranî destnîşan dike ku di kurdî d
 
 ## Têbînî ji bo pêşxistinê
 
-Ev ders ji rûpelên çapkirî 155–167 hatiye nûdabeşkirin. Di çavkaniyê de di yek cihê danasîna P de nîşana IPA wek [b] hatiye nivîsîn, lê taybetmendiyên ku heman beşê ji bo P rave dike «dulêvî, sekinî, bêlerz» in; ji aliyê dengnasiyê ve nîşana P-ya bêlerz [p] e. Ev nakokî divê berî belavkirinê bi çavkaniya çapkirî/edîtorê re were kontrolkirin; di vê pêşnûsê de [p] wek nîşana dengnasî ya P hatiye bikaranîn. Herwiha cotên wateyî yên P-ya bipif/bêpif, guherînên dîrokî yên P, etîmolojiyên Q û şertên K→Q divê di nirxandina dawî de rasterast bi çavkaniyê re bên kontrolkirin. Dersa 14 ji rûpelên çapkirî 168–186 li ser dengên R û S e.
+Ev ders ji nû ve wek materyaleke fêrkarî hatiye rêkxistin. Di çavkaniyê de di yek cihê danasîna P de nîşana IPA wek [b] hatiye nivîsîn, lê taybetmendiyên ku heman beşê ji bo P rave dike «dulêvî, sekinî, bêlerz» in; ji aliyê dengnasiyê ve nîşana P-ya bêlerz [p] e. Ev nakokî divê berî belavkirinê bi çavkaniya çapkirî/edîtorê re were kontrolkirin; di vê pêşnûsê de [p] wek nîşana dengnasî ya P hatiye bikaranîn. Herwiha cotên wateyî yên P-ya bipif/bêpif, guherînên dîrokî yên P, etîmolojiyên Q û şertên K→Q divê di nirxandina dawî de rasterast bi çavkaniyê re bên kontrolkirin. Dersa 14 ji  li ser dengên R û S e.
 
+
+## Çavkanî
+
+Husein Muhammed, *Dengnasî di kurdî de*, rûpelên çapkirî 155–167.
 
 ---
 
 # Dersa 14 — Dengên R û S
 
-**Çavkaniya dersê:** rûpelên çapkirî 168–185.  
 **Dem:** 50–60 deqîqe.
 
 ## Armancên fêrbûnê
@@ -2297,13 +2335,16 @@ Di peyva *mîras* de S-ya ku ji dengê didanî [θ] hatiye, di kurdî de di form
 
 ## Têbînî ji bo pêşxistinê
 
-Ev ders ji rûpelên çapkirî 168–185 hatiye nûdabeşkirin. Nîşanên [r] û [ɾ] ji ravekirina pirtûkê ya R-ya req û nerm tên. Di beşa S-ya zirav/qelew de pirtûk şertan wek meyla giştî pêşkêş dike, ne wek rêzikên bêistisna; ji ber vê yekê di dersê de jî ev sînordarî hatiye parastin. Etîmolojiyên *hirç*, *rûvî* û hin nimûneyên L/R bi ihtiyat hatine pêşkêşkirin, ji ber ku çavkaniyê xwe jî çend rêyên gengaz nîşan dide. Berî belavkirinê, hemû nimûneyên devokî û rêyên etîmolojîk divê bi pisporê dengnasiyê re bên kontrolkirin. Dersa 15 li ser dengên Ş û T e; ev düzeltin li gorî beşa çavkaniyê (rûpelên çapkirî 187–202) hatiye kirin.
+Ev ders ji nû ve wek materyaleke fêrkarî hatiye rêkxistin. Nîşanên [r] û [ɾ] ji ravekirina pirtûkê ya R-ya req û nerm tên. Di beşa S-ya zirav/qelew de pirtûk şertan wek meyla giştî pêşkêş dike, ne wek rêzikên bêistisna; ji ber vê yekê di dersê de jî ev sînordarî hatiye parastin. Etîmolojiyên *hirç*, *rûvî* û hin nimûneyên L/R bi ihtiyat hatine pêşkêşkirin, ji ber ku çavkaniyê xwe jî çend rêyên gengaz nîşan dide. Berî belavkirinê, hemû nimûneyên devokî û rêyên etîmolojîk divê bi pisporê dengnasiyê re bên kontrolkirin. Dersa 15 li ser dengên Ş û T e; ev düzeltin li gorî beşa çavkaniyê () hatiye kirin.
+
+## Çavkanî
+
+Husein Muhammed, *Dengnasî di kurdî de*, rûpelên çapkirî 168–185.
 
 ---
 
 # Dersa 15 — Dengên Ş û T
 
-**Çavkaniya dersê:** rûpelên çapkirî 187–202.  
 **Dem:** 45–55 deqîqe.
 
 ## Armancên fêrbûnê
@@ -2440,14 +2481,17 @@ Têkiliya T û Ç di hin peyv û devokan de tê dîtin. Lê ev yek ne wateya wê
 
 ## Têbînî ji bo pêşxistinê
 
-Ev ders ji beşa Ş û T ya çavkaniyê, rûpelên çapkirî 187–202, hatiye nûdabeşkirin û wek materyala fêrbûnê hatiye rêkxistin; ne kopîkirina PDF e. Berî belavkirinê divê nîşanên fonetîk, şertên pifdarî, nimûneyên T-ya zirav/qelew û hemû guherînên dîrokî rasterast bi nivîsa çapkirî re bên kontrolkirin. Hin nimûneyên dîrokî li vir bi awayekî giştî hatine kurtkirin; ji bo amadekirina dersê ya dawî, pêdivî ye hûrgiliyên wan rasterast ji çavkaniyê werin piştrastkirin.
+Ev ders ji beşa Ş û T ya çavkaniyê, , hatiye nûdabeşkirin û wek materyala fêrbûnê hatiye rêkxistin; ne kopîkirina PDF e. Berî belavkirinê divê nîşanên fonetîk, şertên pifdarî, nimûneyên T-ya zirav/qelew û hemû guherînên dîrokî rasterast bi nivîsa çapkirî re bên kontrolkirin. Hin nimûneyên dîrokî li vir bi awayekî giştî hatine kurtkirin; ji bo amadekirina dersê ya dawî, pêdivî ye hûrgiliyên wan rasterast ji çavkaniyê werin piştrastkirin.
 
+
+## Çavkanî
+
+Husein Muhammed, *Dengnasî di kurdî de*, rûpelên çapkirî 187–202.
 
 ---
 
 # Dersa 16 — Dengên V, W, Y û Z
 
-**Çavkaniya dersê:** rûpelên çapkirî 203–232.  
 **Dem:** 45–55 deqîqe.
 
 ## Armancên fêrbûnê
@@ -2687,14 +2731,17 @@ Di peyvên ji erebî wergirtî de, çend dengên erebî dikarin di kurdî de bib
 
 ## Têbînî ji bo pêşxistinê
 
-Ev ders ji beşa V, W, Y û Z ya çavkaniyê, rûpelên çapkirî 203–232, hatiye nûdabeşkirin û wek materyala fêrbûnê hatiye rêkxistin; PDF wek ders nayê pêşkêşkirin. Berî belavkirinê divê hemû nimûneyên etîmolojîk, formên devokî, nîşanên IPA û cudahiya Z-ya zirav/qelew rasterast bi nivîsa çapkirî re bên kontrolkirin. Hin ravekirinên dîrokî bi kurtî hatine pêşkêşkirin û divê ji aliyê pisporê dengnasiyê ve bên nirxandin.
+Ev ders ji beşa V, W, Y û Z ya çavkaniyê, , hatiye nûdabeşkirin û wek materyala fêrbûnê hatiye rêkxistin; PDF wek ders nayê pêşkêşkirin. Berî belavkirinê divê hemû nimûneyên etîmolojîk, formên devokî, nîşanên IPA û cudahiya Z-ya zirav/qelew rasterast bi nivîsa çapkirî re bên kontrolkirin. Hin ravekirinên dîrokî bi kurtî hatine pêşkêşkirin û divê ji aliyê pisporê dengnasiyê ve bên nirxandin.
 
+
+## Çavkanî
+
+Husein Muhammed, *Dengnasî di kurdî de*, rûpelên çapkirî 203–232.
 
 ---
 
 # Dersa 17 — Eyn, dengên K/G/Q û komên cotkonsonantî
 
-**Çavkaniya dersê:** rûpelên çapkirî 233–250.  
 **Dem:** 45–55 deqîqe.
 
 ## Armancên fêrbûnê
@@ -2940,14 +2987,17 @@ Mînak:
 
 ## Têbînî ji bo pêşxistinê
 
-Ev ders ji beşa “Komên konsonantî di kurdî de” ya çavkaniyê, rûpelên çapkirî 242–250, hatiye nûdabeşkirin. Lîsteyên koman di pirtûkê de hin dubarekirin, formên devokî û guhertoyên rastnivîsînê hene; ji ber vê yekê nimûneyên dersê wek nimûneyên sereke hatine hilbijartin, ne wek lîsteyeke bêkêmasî. Berî belavkirinê divê cihê kîteyî, eslê peyvan û formên guhertî bi nivîsa çapkirî re bên kontrolkirin.
+Ev ders ji beşa “Komên konsonantî di kurdî de” ya çavkaniyê, , hatiye nûdabeşkirin. Lîsteyên koman di pirtûkê de hin dubarekirin, formên devokî û guhertoyên rastnivîsînê hene; ji ber vê yekê nimûneyên dersê wek nimûneyên sereke hatine hilbijartin, ne wek lîsteyeke bêkêmasî. Berî belavkirinê divê cihê kîteyî, eslê peyvan û formên guhertî bi nivîsa çapkirî re bên kontrolkirin.
 
+
+## Çavkanî
+
+Husein Muhammed, *Dengnasî di kurdî de*, rûpelên çapkirî 233–250.
 
 ---
 
 # Dersa 18 — Vokalên A û E
 
-**Çavkaniya dersê:** rûpelên çapkirî 252–269.  
 **Dem:** 50–60 deqîqe.
 
 ## Armancên fêrbûnê
@@ -3189,14 +3239,17 @@ Di navên welat û parzemînan de jî cudahiya A/E di nivîsînê de heye: *Amer
 
 ## Têbînî ji bo pêşxistinê
 
-Ev ders ji beşa A û E ya çavkaniyê, rûpelên çapkirî 252–269, hatiye nûdabeşkirin. Hin nimûneyên etîmolojîk, formên devokî û cudahiyên çemandinê di pirtûkê de bi şîroveya zêdetir hatine pêşkêşkirin; berî belavkirinê divê bi nivîsa çapkirî û bi pisporê kurmancî re bên kontrolkirin. Nîşanên IPA yên [ɑ] û [æ] li gor danasîna çavkaniyê hatine bikaranîn.
+Ev ders ji beşa A û E ya çavkaniyê, , hatiye nûdabeşkirin. Hin nimûneyên etîmolojîk, formên devokî û cudahiyên çemandinê di pirtûkê de bi şîroveya zêdetir hatine pêşkêşkirin; berî belavkirinê divê bi nivîsa çapkirî û bi pisporê kurmancî re bên kontrolkirin. Nîşanên IPA yên [ɑ] û [æ] li gor danasîna çavkaniyê hatine bikaranîn.
 
+
+## Çavkanî
+
+Husein Muhammed, *Dengnasî di kurdî de*, rûpelên çapkirî 252–269.
 
 ---
 
 # Dersa 19 — Vokalên Ê, I û Î
 
-**Çavkaniya dersê:** rûpelên çapkirî 270–297.  
 **Dem:** 60–70 deqîqe.
 
 ## Armancên fêrbûnê
@@ -3493,14 +3546,17 @@ Di kîteya dawiyê de dirêjahiya dengê I dikare bi Î were nîşandan: *statis
 
 ## Têbînî ji bo pêşxistinê
 
-Ev ders ji beşa vokalên Ê, I û Î ya çavkaniyê, rûpelên çapkirî 270–297, hatiye nûdabeşkirin. Hin nimûneyên etîmolojîk, cudahiyên devokî û formên çemandinê divê berî belavkirinê bi nivîsa çapkirî û pisporê kurmancî re bên kontrolkirin. Nîşanên IPA li gor danasîna çavkaniyê hatine bikaranîn.
+Ev ders ji beşa vokalên Ê, I û Î ya çavkaniyê, , hatiye nûdabeşkirin. Hin nimûneyên etîmolojîk, cudahiyên devokî û formên çemandinê divê berî belavkirinê bi nivîsa çapkirî û pisporê kurmancî re bên kontrolkirin. Nîşanên IPA li gor danasîna çavkaniyê hatine bikaranîn.
 
+
+## Çavkanî
+
+Husein Muhammed, *Dengnasî di kurdî de*, rûpelên çapkirî 270–297.
 
 ---
 
 # Dersa 20 — Vokalên O, U û Û
 
-**Çavkaniya dersê:** rûpelên çapkirî 298–314.  
 **Dem:** 60–70 deqîqe.
 
 ## Armancên fêrbûnê
@@ -3759,8 +3815,12 @@ Di ferheng û pirtûkên dengnasiyê de dikare bilêvkirina her devokê bi awaye
 
 ## Têbînî ji bo pêşxistinê
 
-Ev ders ji beşa O, U û Û ya çavkaniyê, rûpelên çapkirî 298–314, hatiye nûdabeşkirin. Hin nimûneyên etîmolojîk, bilêvkirinên devokî û berawirdkirinên dîrokî divê berî belavkirinê bi nivîsa çapkirî û pisporê dengnasiyê re bên kontrolkirin. Di çavkaniyê de hin sernav û nimûne bi awayekî şaş an na yekgirtî xuya dibin; di vê dersê de mijar li gor navê vokal û naveroka beşê hatine rêkxistin. Nîşanên IPA li gor danasîna çavkaniyê hatine bikaranîn.
+Ev ders ji beşa O, U û Û ya çavkaniyê, , hatiye nûdabeşkirin. Hin nimûneyên etîmolojîk, bilêvkirinên devokî û berawirdkirinên dîrokî divê berî belavkirinê bi nivîsa çapkirî û pisporê dengnasiyê re bên kontrolkirin. Di çavkaniyê de hin sernav û nimûne bi awayekî şaş an na yekgirtî xuya dibin; di vê dersê de mijar li gor navê vokal û naveroka beşê hatine rêkxistin. Nîşanên IPA li gor danasîna çavkaniyê hatine bikaranîn.
 
+
+## Çavkanî
+
+Husein Muhammed, *Dengnasî di kurdî de*, rûpelên çapkirî 298–314.
 
 ---
 
@@ -4159,7 +4219,6 @@ Husein Muhammed, *Dengnasî di kurdî de*, beşa dîftong û giranî.
 
 # Dersa 22 — Nasandina KL û KE û cudahiyên herdu alfabeyan
 
-**Çavkaniya dersê:** rûpelên çapkirî 348–372.  
 **Dem:** 50–60 deqîqe.
 
 ## Armancên fêrbûnê
@@ -4283,13 +4342,16 @@ Ev berawirdkirin divê wek rêzikên dîrokî bên fêmkirin, ne wek rêbazeke k
 
 ## Têbînî ji bo pêşxistinê
 
-Ev ders ji rûpelên çapkirî 348–372 hatiye nûdabeşkirin. Berî belavkirinê divê hejmar û nîşanên herfên KE, nimûneyên hevdeng/hevnivîs, û hemû berawirdkirinên etîmolojîk bi çavkaniya çapkirî û pisporê kurmancî re bên kontrolkirin. Nêrîna nivîskar li ser pêşniyarên herfên nû wek nêrîneke çavkaniyê hatiye pêşkêşkirin; divê wek rêzikeke bê nîqaş neyê xwendin. Ev ders pêşnûse û hîn ne ji bo xwendekaran çalak e.
+Ev ders ji nû ve wek materyaleke fêrkarî hatiye rêkxistin. Berî belavkirinê divê hejmar û nîşanên herfên KE, nimûneyên hevdeng/hevnivîs, û hemû berawirdkirinên etîmolojîk bi çavkaniya çapkirî û pisporê kurmancî re bên kontrolkirin. Nêrîna nivîskar li ser pêşniyarên herfên nû wek nêrîneke çavkaniyê hatiye pêşkêşkirin; divê wek rêzikeke bê nîqaş neyê xwendin. Ev ders pêşnûse û hîn ne ji bo xwendekaran çalak e.
+
+## Çavkanî
+
+Husein Muhammed, *Dengnasî di kurdî de*, rûpelên çapkirî 348–372.
 
 ---
 
 # Dersa 23 — Cudahiyên dengnasî di navbera kurmancî û soranî de
 
-**Çavkaniya dersê:** rûpelên çapkirî 373–386.  
 **Dem:** 60–75 deqîqe.
 
 ## Armancên fêrbûnê
@@ -4559,14 +4621,17 @@ Di gelek devokên soranî de, gava Ê an WÊ li pey G bikeve, G dikare wek [c] w
 
 ## Têbînî ji bo pêşxistinê
 
-Ev ders ji rûpelên çapkirî 373–386 hatiye nûdabeşkirin. Berî belavkirinê divê hemû nimûneyên soranî bi standarda nivîskî û devokên ku çavkaniyê behs dike re werin kontrolkirin. Nîşanên dengnasî, pifdarî, formên dîrokî, L/Ł û guherînên Î/Ê û Û/WÊ divê bi pisporê herdu zaravayan re bên piştrastkirin. Ev pêşnûseke fêrkarî ye, ne veguheztina rûpelên PDF bo nav kûrsê û hîn ne ji bo xwendekaran çalak e.
+Ev ders ji nû ve wek materyaleke fêrkarî hatiye rêkxistin. Berî belavkirinê divê hemû nimûneyên soranî bi standarda nivîskî û devokên ku çavkaniyê behs dike re werin kontrolkirin. Nîşanên dengnasî, pifdarî, formên dîrokî, L/Ł û guherînên Î/Ê û Û/WÊ divê bi pisporê herdu zaravayan re bên piştrastkirin. Ev pêşnûseke fêrkarî ye, ne veguheztina rûpelên PDF bo nav kûrsê û hîn ne ji bo xwendekaran çalak e.
 
+
+## Çavkanî
+
+Husein Muhammed, *Dengnasî di kurdî de*, rûpelên çapkirî 373–386.
 
 ---
 
 # Dersa 24 — Cudahiyên dengnasî di navbera kurmancî û kurdiya başûrî de
 
-**Çavkaniya dersê:** rûpelên çapkirî 387–393.  
 **Dem:** 55–65 deqîqe.
 
 ## Armancên fêrbûnê
@@ -4775,14 +4840,17 @@ Li gorî şîroveya dîrokî ya çavkaniyê, formê kevntir XWE- bûye û di sor
 
 ## Têbînî ji bo pêşxistinê
 
-Ev ders ji rûpelên çapkirî 387–393 hatiye nûdabeşkirin. Berî belavkirinê divê nimûneyên feylî, kelhurî û kirmaşanî, nîşanên dengnasî yên Ü/Î/Ň/Ł, û şîroveyên dîrokî bi pisporên devokên başûrî re bên kontrolkirin. Çavkaniyê gelek caran "piraniya devokan" dibêje; ji ber vê yekê ev taybetmendî wek rêzikên bêîstîsna nayên pêşkêşkirin. Ev pêşnûse û hîn ne ji bo xwendekaran çalak e.
+Ev ders ji nû ve wek materyaleke fêrkarî hatiye rêkxistin. Berî belavkirinê divê nimûneyên feylî, kelhurî û kirmaşanî, nîşanên dengnasî yên Ü/Î/Ň/Ł, û şîroveyên dîrokî bi pisporên devokên başûrî re bên kontrolkirin. Çavkaniyê gelek caran "piraniya devokan" dibêje; ji ber vê yekê ev taybetmendî wek rêzikên bêîstîsna nayên pêşkêşkirin. Ev pêşnûse û hîn ne ji bo xwendekaran çalak e.
 
+
+## Çavkanî
+
+Husein Muhammed, *Dengnasî di kurdî de*, rûpelên çapkirî 387–393.
 
 ---
 
 # Dersa 25 — Cudahiyên dengnasî di navbera kurmancî û zazakî de
 
-**Çavkaniya dersê:** rûpelên çapkirî 394–401.  
 **Dem:** 55–65 deqîqe.
 
 ## Armancên fêrbûnê
@@ -5024,14 +5092,17 @@ Ev guherînên dawî bi hejmareke kêm nimûneyan tên nîşandan û divê bi aw
 
 ## Têbînî ji bo pêşxistinê
 
-Ev ders ji rûpelên çapkirî 394–401 hatiye nûdabeşkirin. Berî belavkirinê divê formên zazakî, devokên cuda, nîşanên dengnasî û şîroveyên etîmolojîk bi pisporên zazakî re bên kontrolkirin. Çavkaniyê di hin beşan de cudahiyên devokî û îstîsna bi eşkereyî destnîşan dike; ji ber vê yekê dersê ev form wek rêzikên giştî yên bê îstîsna pêşkêş nake. Ev pêşnûse û hîn ne ji bo xwendekaran çalak e.
+Ev ders ji nû ve wek materyaleke fêrkarî hatiye rêkxistin. Berî belavkirinê divê formên zazakî, devokên cuda, nîşanên dengnasî û şîroveyên etîmolojîk bi pisporên zazakî re bên kontrolkirin. Çavkaniyê di hin beşan de cudahiyên devokî û îstîsna bi eşkereyî destnîşan dike; ji ber vê yekê dersê ev form wek rêzikên giştî yên bê îstîsna pêşkêş nake. Ev pêşnûse û hîn ne ji bo xwendekaran çalak e.
 
+
+## Çavkanî
+
+Husein Muhammed, *Dengnasî di kurdî de*, rûpelên çapkirî 394–401.
 
 ---
 
 # Dersa 26 — Cudahiyên dengnasî di navbera kurmancî û tirkî de
 
-**Çavkaniya dersê:** rûpelên çapkirî 402–417.  
 **Dem:** 55–65 deqîqe.
 
 ## Armancên fêrbûnê
@@ -5267,14 +5338,17 @@ Nivîskar herwiha dibêje ku tesîra farisî, tirkî û zimanên cîran dikare d
 
 ## Têbînî ji bo pêşxistinê
 
-Ev ders ji rûpelên çapkirî 402–417 hatiye nûdabeşkirin. Berî belavkirinê divê pergala herfên tirkî (bi taybetî cudahiya I/İ), nîşanên dengnasî, nimûneyên deynkirinê, şertên ahenga vokalan û şîroveyên dîrokî bi pisporên tirkî û kurmancî re bên kontrolkirin. Şîroveya cotdengiya Ç, K, P û T di çavkaniyê de bi awayê nêrîna nivîskar hatiye pêşkêşkirin; divê di dersê de wek hîpotez û nîqaş were parastin, ne wek rastiyeke dîrokî ya qetî. Ev pêşnûse ye û hîn ne ji bo xwendekaran çalak e.
+Ev ders ji nû ve wek materyaleke fêrkarî hatiye rêkxistin. Berî belavkirinê divê pergala herfên tirkî (bi taybetî cudahiya I/İ), nîşanên dengnasî, nimûneyên deynkirinê, şertên ahenga vokalan û şîroveyên dîrokî bi pisporên tirkî û kurmancî re bên kontrolkirin. Şîroveya cotdengiya Ç, K, P û T di çavkaniyê de bi awayê nêrîna nivîskar hatiye pêşkêşkirin; divê di dersê de wek hîpotez û nîqaş were parastin, ne wek rastiyeke dîrokî ya qetî. Ev pêşnûse ye û hîn ne ji bo xwendekaran çalak e.
 
+
+## Çavkanî
+
+Husein Muhammed, *Dengnasî di kurdî de*, rûpelên çapkirî 402–417.
 
 ---
 
 # Dersa 27 — Hiyatus û rêbazên rêgirtina li ber wê di kurmancî de
 
-**Çavkaniya dersê:** rûpelên çapkirî 419–432.  
 **Dem:** 55–65 deqîqe.
 
 ## Armancên fêrbûnê
@@ -5528,4 +5602,8 @@ Lê formên serdest ên nivîskî bi Y tên çêkirin:
 
 ## Têbînî ji bo pêşxistinê
 
-Ev ders ji rûpelên çapkirî 419–432 hatiye nûdabeşkirin. Rûpela 418 wek dawîkirina mijara cotdengiya Ç, K, P û T ya Dersa 26 tê hesibandin; wê yekê di vê dersê de wek mijareke nû dubare nekiriye. Berî belavkirinê divê nimûneyên devokî, formên lêkerî, cudahiya nivîsîn û gotin, û bikaranîna Y/H/W/T/N bi pisporên kurmancî re bên kontrolkirin. Çavkaniyê hin form wek varyantên devokî an texmînên etîmolojîk pêşkêş dike; divê ev cudahî di dersê de were parastin. Ev pêşnûse ye û hîn ne ji bo xwendekaran çalak e.
+Ev ders ji nû ve wek materyaleke fêrkarî hatiye rêkxistin. Rûpela 418 wek dawîkirina mijara cotdengiya Ç, K, P û T ya Dersa 26 tê hesibandin; wê yekê di vê dersê de wek mijareke nû dubare nekiriye. Berî belavkirinê divê nimûneyên devokî, formên lêkerî, cudahiya nivîsîn û gotin, û bikaranîna Y/H/W/T/N bi pisporên kurmancî re bên kontrolkirin. Çavkaniyê hin form wek varyantên devokî an texmînên etîmolojîk pêşkêş dike; divê ev cudahî di dersê de were parastin. Ev pêşnûse ye û hîn ne ji bo xwendekaran çalak e.
+
+## Çavkanî
+
+Husein Muhammed, *Dengnasî di kurdî de*, rûpelên çapkirî 419–432.
