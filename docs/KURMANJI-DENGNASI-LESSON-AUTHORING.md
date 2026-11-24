@@ -4468,3 +4468,219 @@ Di gelek devokên soranî de, gava Ê an WÊ li pey G bikeve, G dikare wek [c] w
 ## Têbînî ji bo pêşxistinê
 
 Ev ders ji rûpelên çapkirî 373–386 hatiye nûdabeşkirin. Berî belavkirinê divê hemû nimûneyên soranî bi standarda nivîskî û devokên ku çavkaniyê behs dike re werin kontrolkirin. Nîşanên dengnasî, pifdarî, formên dîrokî, L/Ł û guherînên Î/Ê û Û/WÊ divê bi pisporê herdu zaravayan re bên piştrastkirin. Ev pêşnûseke fêrkarî ye, ne veguheztina rûpelên PDF bo nav kûrsê û hîn ne ji bo xwendekaran çalak e.
+
+
+---
+
+# Dersa 24 — Cudahiyên dengnasî di navbera kurmancî û kurdiya başûrî de
+
+**Çavkaniya dersê:** rûpelên çapkirî 387–393.  
+**Dem:** 55–65 deqîqe.
+
+## Armancên fêrbûnê
+
+Di dawiya dersê de xwendekar dikare:
+- mebesta têgeha "kurdiya başûrî" di vê berawirdkirinê de rave bike;
+- cudahiyên sereke yên dengî di navbera kurmancî û kurdiya başûrî de bi nimûne nîşan bide;
+- guherînên B/W, V/W/M, Û/Ü/Î û O/Û nas bike;
+- cudahiyên RD/R, L/Ł, pifdarî û komdenga ST şîrove bike;
+- guherînên A/EH→YE, NG→Ň û XWE-/XO- nas bike;
+- nimûneyên çavkaniyê ji bo hemû devokan wek rêzikên bêîstîsna negire.
+
+## 1. "Kurdiya başûrî" di vê dersê de çi ye?
+
+Di vê berawirdkirinê de "kurdiya başûrî" navê komeke devokan e ku li deverên başûrî yên Rojhilata Kurdistanê û hin deverên Başûrê Kurdistanê têne axaftin. Feylî, kelhurî û kirmaşanî ji navên ku ji bo beşên vê komê tên bikaranîn in; lê her yek tenê beşek ji wê komê ye.
+
+Ev têgeh ne wekhevê hemû kurdên Başûrê Kurdistanê ye. Li wir kurmancî, soranî, kurdiya başûrî, hewramî û devokên din jî hene. Herwiha kurdiya başûrî ne hewramî, ne lekî û ne jî lurî ye. Di vê dersê de em tenê li ser cudahiyên dengnasî yên ku çavkaniyê di navbera kurmancî û koma devokên başûrî de pêşkêş dike disekinin.
+
+## 2. B ya kurmancî û W ya başûrî
+
+Di gelek peyvan de li cihê B ya kurmancî û soranî, di devokên başûrî de W heye. Ev guherîn hem di peyvên xwemalî de û hem jî di hin peyvên ji erebî wergirtî de tê dîtin.
+
+| Kurmancî | Soranî | Başûrî |
+|---|---|---|
+| baran | baran | waran |
+| kitêb | kitêb | kitaw |
+| xirab | xerap | xiraw |
+| xerîb | xerîb | xerîw |
+
+Li gorî şîroveya dîrokî ya çavkaniyê, kurdiya başûrî di peyvên xwemalî de W parastiye; di kurmancî, soranî û farisî de ev deng di gelek peyvan de bûye B. Di peyvên ji erebî wergirtî de jî başûrî B dike W, lê kurmancî û soranî gelek caran B diparêzin.
+
+## 3. V ya kurmancî û W an M ya başûrî
+
+Di piraniya devokên başûrî de, wek di soranî de, V di peyvên xwemalî de bi gelemperî nayê dîtin. Li cihê V ya kurmancî W heye; di hin deveran de, bi bandora farisî an hewramî, M jî dikare were bihîstin.
+
+| Kurmancî | Soranî | Başûrî |
+|---|---|---|
+| çav | çaw | çaw |
+| mêvan | mîwan | mîwan |
+| nav | naw | naw |
+| zava | zawa | zawa |
+| zevî | zewî | zewî; di hin devokan de zeẅ/zeü |
+
+Di vê komê de başûrî bi soranî re nêzîk e. Li gorî ravekirina dîrokî ya çavkaniyê, V/W ya piştî vokalan di hin peyvan de ji M ya îranî ya kevn hatiye; di kurmancî de bûye V, di soranî û başûrî de W, lê di zazakî, hewramî û farisî de M maye.
+
+## 4. Û ya kurmancî û Ü an Î ya başûrî
+
+Di piraniya devokên başûrî de li hember Û ya kurmancî û soranî, dengê Ü heye. Hin devok jî li heman cih Î dibêjin.
+
+| Kurmancî | Soranî | Başûrî |
+|---|---|---|
+| zû | zû | zü / zî |
+| dûr | dûr | dür / dîr |
+| rû | rû | rü / rî |
+| mû | mû | mü / mî |
+
+Ev guherîn di hemû devokên başûrî de bi heman awayî nayê dîtin; hin dever formên bi Û diparêzin. Çavkaniyê herwiha dibêje ku di kurmanciya rojhilatî, bi taybetî li Behdînan, formên nêzîk ên Ü, Î an WÎ jî hene. Ji ber vê yekê divê nimûneyên vê beşê bi devoka herêmî re bên xwendin.
+
+## 5. O ya kurmancî û Û ya başûrî
+
+Li cihê O ya kurmancî û soranî, di gelek devokên başûrî de Û heye.
+
+| Kurmancî | Soranî | Başûrî |
+|---|---|---|
+| roj | roj | rûj |
+| zor | zor | zûr |
+| kor, kore | kwêr | kûr |
+| dew | do | dû |
+
+Çavkaniyê ev guherîn bi rêgezeke dîrokî rave dike: O di başûrî de bûye Û; piştî ku Û di hin devokan de bûye Ü, cihê wê vala bûye û O dikaribû li cihê wê were bilêvkirin. Nimûneyên kurmanciya rojhilatî wek roj/rûj û got/gût jî ji bo berawirdkirinê hatine destnîşankirin.
+
+## 6. RD ya başûrî û R ya kurmancî
+
+Berevajî kurmancî, kurdiya başûrî di gelek peyvan de koma RD diparêze. Di kurmancî de D ya piştî R ketiye.
+
+| Başûrî | Soranî | Kurmancî |
+|---|---|---|
+| birdin | birdin | birin |
+| kirdin | kirdin | kirin |
+| mirdin | mirdin | mirin |
+| pird | pird | pir |
+| sard | sard | sar |
+| xwardin | xwardin | xwarin |
+
+Di vê mijarê de başûrî û soranî wek hev in. Çavkaniyê vê parastinê bi formên kevntir ên zimanên îranî re girê dide; di kurmancî de D ketiye û R maye.
+
+## 7. L û Ł di devokên başûrî de
+
+Di piraniya devokên başûrî de, wek di soranî de, li cihê L-ya zirav ya kurmancî gelek caran L-ya qelew, anku Ł, heye.
+
+| Kurmancî | Soranî | Başûrî |
+|---|---|---|
+| keçel | keçeł | keçeł |
+| dil | dił | dił |
+| gul | guł | guł |
+| bela | beła | beła |
+
+Di hin devokên başûrî de, bi taybetî li Kirmaşan û Mendelî, Ł nayê dîtin û L li şûna wê tê gotin. Çavkaniyê ji bo dîroka Ł du çavkaniyên cuda destnîşan dike: di peyvên xwemalî de ji RD ya îraniya kevn û di peyvên ji erebî wergirtî de ji L.
+
+## 8. Pifdariya Ç, K, P û T
+
+Di kurdiya başûrî de, wek soranî û berevajî kurmancî û zazakî, Ç, K, P û T li destpêka peyvan bi gelemperî bipif, anku req, in. Li nav û dawiya peyvan, bi taybetî di kîteyên negirankirî de, gelek caran bêpif, anku nerm, dibin.
+
+Ev cudahî taybetmendiyeke bilêvkirinê ye. Divê xwendekar pifdarî bi dengdarî an bêdengiya dengê tevlihev neke: pifdarî li ser bayê ku piştî berdana astengiyê derdikeve ye.
+
+## 9. ST ya kurmancî û S, ES an HES ya başûrî
+
+Kurdiya başûrî, wek gelek zimanên îranî yên niha, komên konsonantî yên destpêka peyvê bi gelemperî qebûl nake. Ji ber vê yekê li hember ST ya kurmancî, di başûrî de dikare tenê S bimîne an E/HE li pêş S were zêdekirin.
+
+| Kurmancî | Soranî | Başûrî |
+|---|---|---|
+| standin, stendin | sendin | sendin |
+| stêr | estêre | hesare |
+
+Di nav an dawiya peyvê de jî di gelek devokên başûrî de ST dibe S; soranî dikare ST biparêze.
+
+| Kurmancî | Soranî | Başûrî |
+|---|---|---|
+| dest | dest, des | des |
+| şêst | şêst, şest | şeṣ |
+| zivistan | zistan | zimsan |
+| Kurdistan | Kurdistan | Kursan |
+
+Çavkaniyê destnîşan dike ku ST di zimanên îranî de di destpêk, nav û dawiya peyvan de hebû; kurmancî ew di van pozîsyonan de parastiye, lê hin zaravên din ew guherandine.
+
+## 10. A an EH ya kurmancî û YE ya başûrî
+
+Di navbera konsonantan de, li cihê A an EH ya kurmancî û A ya soranî, di gelek devokên başûrî de YE tê dîtin.
+
+| Kurmancî | Soranî | Başûrî |
+|---|---|---|
+| kanî, kehnî | kanî | kyenî |
+| tehl, tal | tał | tyeł |
+| nizanim | nazanim | nyezanim |
+
+Ev nimûne berawirdkirina formên peyvan nîşan dide; divê wek şabloneke bêîstîsna ji bo her peyvekê neyê bikaranîn.
+
+## 11. NG ya kurmancî û Ň ya başûrî
+
+Di piraniya devokên başûrî de li cihê koma NG ya kurmancî dengê Ň [ŋ] heye. Ev deng encama nêzîkbûna N û G bi hev re ye. Di hin devokên soranî de jî NG dikare bibe Ň, lê di soranî de NG bi gelemperî serdest e.
+
+| Kurmancî | Soranî | Başûrî |
+|---|---|---|
+| deng | deng | deŋ |
+| reng | reng | reŋ |
+| bang | bang | baŋ |
+
+## 12. XWE- ya kurmancî û başûrî, XO- ya soranî
+
+Kurdiya başûrî, wek kurmancî, komdenga XWE- an XUE- qebûl dike. Di soranî de li şûna wê XO- heye.
+
+| Kurmancî | Başûrî | Soranî |
+|---|---|---|
+| xwe | xwe | xo |
+| xweş | xweş | xoş |
+
+Li gorî şîroveya dîrokî ya çavkaniyê, formê kevntir XWE- bûye û di soranî de guheriye XO-.
+
+## Bîr bîne
+
+- "Kurdiya başûrî" di vê dersê de navê komeke devokan e, ne navê hemû kurdên Başûrê Kurdistanê.
+- Di gelek peyvan de B ya kurmancî li hember W ya başûrî ye.
+- V ya kurmancî di başûrî de bi gelemperî W, carinan M, dide.
+- Û dikare di başûrî de bibe Ü an Î; O jî di gelek nimûneyan de bûye Û.
+- Başûrî di gelek peyvan de RD diparêze, lê kurmancî D-ê winda kiriye.
+- Di gelek devokên başûrî de L-ya qelew Ł heye.
+- Ç, K, P û T li destpêka peyvê bi gelemperî bipif in.
+- ST li destpêkê dikare bibe S an ES/HES; di nav û dawiya peyvê de jî gelek caran dibe S.
+- A/EH dikare bibe YE; NG dikare bibe Ň; XWE- di başûrî de dimîne, lê di soranî de XO- heye.
+- Cudahiyên devokî hene; nimûneyên dersê divê bi awayekî giştî û bê îstîsna neyên sepandin.
+
+## Çalakî û xwepirsîn
+
+**1.** Bi gotinên xwe rave bike ku "kurdiya başûrî" di vê dersê de çi wateyê dide û çi wateyê nade.
+
+**2.** Di cotên *baran/waran*, *kitêb/kitaw* û *xirab/xiraw* de çi guherîn heye?
+
+**3.** Li gorî nimûneyên dersê, V ya kurmancî di başûrî de bi kîjan dengên din tê nîşandan?
+
+**4.** Cudahiyên Û/Ü/Î û O/Û bi nimûneyên dersê rave bike.
+
+**5.** Çima *birdin/birin* û *kirdin/kirin* ji bo nîşandana RD/R girîng in?
+
+**6.** L û Ł di gelek devokên başûrî de çawa tên berawirdkirin? Kîjan deverên ku çavkaniyê behs dike dikarin Ł nebêjin?
+
+**7.** Pifdariya Ç, K, P û T di destpêka peyvê de di başûrî de çawa ye?
+
+**8.** ST ya destpêkî di başûrî de çi dikare bibe? Nimûneyek binivîse.
+
+**9.** Guherînên A/EH→YE û NG→Ň bi cotên nimûneyan rave bike.
+
+**10.** Cudahiyên XWE- û XO- di navbera kurmancî, başûrî û soranî de çi ne?
+
+## Bersivên kurt
+
+1. Navê komeke devokên wek feylî, kelhurî û kirmaşanî ye; ne navê hemû zarav û devokên Başûrê Kurdistanê ye.
+2. B ya kurmancî di başûrî de W dibe.
+3. Bi gelemperî W; di hin deveran de M jî heye.
+4. Û dikare bibe Ü an Î; O di nimûneyên başûrî de gelek caran Û dibe.
+5. Di başûrî û soranî de D parastiye, lê di kurmancî de ji koma RD ketiye.
+6. Gelek caran L ya kurmancî li hember Ł ya başûrî ye; li Kirmaşan û Mendelî hin devok L diparêzin.
+7. Li destpêka peyvê bi gelemperî bipif in; li nav û dawiya peyvê gelek caran bêpif in.
+8. Dikare bibe S an ES/HES; mînak *stêr/hesare*.
+9. *kanî/kyenî* û *deng/deŋ*.
+10. Kurmancî û başûrî XWE- diparêzin; soranî di hin formên berawirdkirî de XO- bi kar tîne.
+
+## Têbînî ji bo pêşxistinê
+
+Ev ders ji rûpelên çapkirî 387–393 hatiye nûdabeşkirin. Berî belavkirinê divê nimûneyên feylî, kelhurî û kirmaşanî, nîşanên dengnasî yên Ü/Î/Ň/Ł, û şîroveyên dîrokî bi pisporên devokên başûrî re bên kontrolkirin. Çavkaniyê gelek caran "piraniya devokan" dibêje; ji ber vê yekê ev taybetmendî wek rêzikên bêîstîsna nayên pêşkêşkirin. Ev pêşnûse û hîn ne ji bo xwendekaran çalak e.
