@@ -5510,7 +5510,7 @@ Lê formên serdest ên nivîskî bi Y tên çêkirin:
 
 **12.** Cudahiyên rêgirtina hiyatusê di hundirê peyvekê de û di navbera du peyvên serbixwe de rave bike.
 
-**13.** Di cotên *bêav*, *biêş*, *bêav → bê-h-av* de kîjan form hiyatusê diparêze û kîjan form hewl dide wê bigire? Bersiva xwe bi rêbazên dersê re girêde.
+**13.** Çima çavkaniyê di nimûneyên *bêav* û *biêş* de H-ya navberî zêde nake? Ev nimûne çi nîşan didin derbarê sînorên bikaranîna H de?
 
 ## Bersivên kurt
 
@@ -5526,7 +5526,7 @@ Lê formên serdest ên nivîskî bi Y tên çêkirin:
 10. Na, di kurmancî de R wek rêgir nayê bikaranîn; di hin formên soranî û kurdiya başûrî de dikare were zêdekirin.
 11. Ji ber ku ew texmîneke etîmolojîk e û çavkaniyê dibêje ku V niha bi vî erkî ne çalak e.
 12. Di hundirê peyvekê de vokal dikare were avêtin an konsonant were zêdekirin; di navbera du peyvên serbixwe de hiyatus dikare bimîne, an di axaftinê de vokal were avêtin/peyv bi hev ve were girêdan.
-13. *Bêav* hiyatusê diparêze; *bêhav* di hin şêwazên zimanî de konsonanta H zêde dike. Lê çavkaniyê *bêav* wek nimûneya ku H nayê zêdekirin jî destnîşan dike; ji ber vê yekê *bêhav* divê wek formeke giştî neyê pêşkêşkirin.
+13. Çavkaniyê bi eşkereî dibêje *bêav* (ne *bêhav*) û *biaqil/baqil* (ne *bih(a)qil*) wek nimûneyên ku H-ya navberî lê nayê zêdekirin. Ev nîşan didin ku H rêbazeke giştî nîne û di hemû pêkhateyên pêşgir + reh de nayê bikaranîn.
 
 ## Têbînî ji bo pêşxistinê
 
