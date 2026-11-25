@@ -2876,7 +2876,7 @@ Cînavên kesî yên kurmanciya nivîskî yek-kîteyî ne:
 Di hin devokan de cînavên du-kîteyî an pir-kîteyî hene; giranî dikare li ser kîteya dawiyê, navîn an yekem be, li gorî devok û formê. Nimûne:
 - *ewa, ewê, ewî, ewan, hewe*;
 - *ewana, wana, vêya, viya*.
-Di soranî de jî formên wek *emin, eto, ême, êwe, ewan* hene.
+Di soranî de jî formên wek *emin, eto, ême, êwe, ewan* hene. Li gorî têbîniya çavkaniyê, *emin* û *eto* formên devokî ne; formên standard *min* û *to* ne. Formên standard ên tev-soranî yên din *ême, êwe, ewan* in.
 
 Di cînavên pirsiyarkî de giranî bi gelemperî li ser kîteya yekem e:
 - *KENGÎ*;
