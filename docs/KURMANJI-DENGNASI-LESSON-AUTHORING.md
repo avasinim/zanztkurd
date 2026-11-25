@@ -492,6 +492,7 @@ Nivîskar çend tiştan wekî sînorên vê vekolînê destnîşan dike:
 4. Rêjeya N di nivîsê de 9,4% e, lê di axaftinê de dikare bi awayekî berçav kêmtir be, ji ber ku N li dawiya peyvê di hin devokan de nayê gotin.
 5. Di hin devokan de forma îzafeya pirjimar bi paşgira **-êT** an **-êD** tê gotin, li şûna **-êN** ya nivîsî.
 6. Rêjeya herfan dikare bi devok, materyala nivîsê, awayê nivîsînê, dubarebûna peyvan û navên kesan biguhere.
+7. Di xwendina hejmarên tabloyê de nakokiyeke hesabî ya di çavkaniyê de xuya dibe: koma hejmarên 31 herfan 53 001 e, lê rêza **HEMÛ** 52 705 dibêje. Herwiha koma rêjeyên çapkirî 100,43% dide, ne 100%. Ev nakokî di çavkaniyê de heye; ji ber vê yekê hejmarên her herfê nehatine guhertin û tu hejmareke rastkirî nehatiye texmînkirin.
 
 Ji ber van sînor û cudahiyên di navbera nivîs û axaftinê de, ev tablo tenê rêjeya herfan di materyala nivîskî ya ku hatiye vekolîn de nîşan dide; ew nayê wateya ku ev heman rêjeya dengên axaftinê ye.
 
