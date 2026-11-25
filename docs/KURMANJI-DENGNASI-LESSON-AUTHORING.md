@@ -4009,7 +4009,7 @@ Ev taybetmendî divê wek rêbazeke kurmancî neyê pêşkêşkirin.
 
 ## 11. V wek rêgir?
 
-Hevrehên peyva kurmancî *pîvaz* di soranî, zazakî û farisî de bi Y dest pê dikin: *piyaz*. Hatiye texmînkirin ku V ya di *pîvaz* de dikare berê konsonanteke rêgirê hiyatusê bûbe. Çavkaniyê vê yekê wek texmîn pêşkêş dike; heta heke rast be jî, V niha bi vî erkî ne çalak e û di peyvên din de bi awayekî berbelav vê rolê ranabe.
+Hevrehên peyva kurmancî *pîvaz* di soranî, zazakî û farisî de bi Y dest pê dikin: *piyaz*. Yaron Matras texmîn kiriye ku V ya di *pîvaz* de dikare berê konsonanteke rêgirê hiyatusê bûbe. Çavkaniyê vê yekê wek texmîn pêşkêş dike; heta heke rast be jî, V niha bi vî erkî ne çalak e û di peyvên din de bi awayekî berbelav vê rolê ranabe.
 
 ## 12. Rêgirtina hiyatusê di navbera du peyvên serbixwe de
 
