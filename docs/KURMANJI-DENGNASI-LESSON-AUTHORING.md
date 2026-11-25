@@ -1792,9 +1792,9 @@ Hin formên niha bi V dest pê dikin, lê di dîrokê de V li destpêkê nebûye
 
 Pêşlêkera *ve-* jî taybetmendiyeke kurmancî ye. Pirtûk wê bi daçeka *ve* re girêdide ku wateya wê ya bingehîn “ji/jê” ye. Di soranî de hevbera wê bi awayê paşlêkera *-ewe* tê bikaranîn, wek *kirdin-ewe* û *xwardin-ewe*. Wateya vê hêmanê di peyvên wek *vebûn, vekirin, veman* de şopa xwe parastiye, lê di hin peyvên nû de wateya wê berfireh bûye.
 
-## 3. W — dulêvî-tengav
+## 3. W — dulêvî-paşzimanî-tengav
 
-Dengê **W/w** dengekî **dulêvî-tengav** e. Di dema gotina wê de herdu lêv nêzîkî hev dibin, lê rêya hewayê bi temamî nayê girtin. Ji ber vê yekê W **nîv-vokal** e: ne konsonanteke sekinî ye û ne jî vokaleke temam. Nikare bi tenê navika kîteyekê pêk bîne.
+Dengê **W/w** dengekî **dulêvî-paşzimanî-tengav** e (labio-velar approximant). Di dema gotina wê de herdu lêv nêzîkî hev dibin û beşa paşîn a ziman jî ber bi perda nerm a devê (velum) ve bilind dibe; rêya hewayê teng dibe, lê bi temamî nayê girtin. Ji ber vê yekê W **nîv-vokal** e: ne konsonanteke sekinî ye û ne jî vokaleke temam. Nikare bi tenê navika kîteyekê pêk bîne.
 
 Nîşana wê di IPA de **[w]** e.
 
