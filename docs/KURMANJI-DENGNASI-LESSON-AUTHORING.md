@@ -1057,148 +1057,134 @@ Husein Muhammed, *Dengnasî di kurdî de*, rûpelên çapkirî 116–132.
 
 ## 1. K — paşdevî-sekinî-bêlerz
 
-Dengê **K** bi girtina rêya hewayê li paşiya devê û paşê vekirina wê tê çêkirin. Ji ber vê yekê K dengekî **paşdevî û sekinî** ye. Di dema gotina wê de perdeyên dengî nalizerin; ji ber vê yekê **bêlerz** e. Di IPA de bi **[k]** tê nîşandan.
+Di dengnasiya kurdî de K/k nîşana dengekî paşdevî, sekinî û bêlerz e. Di derxistina wê de rêya hewayê bi temamî tê girtin û paşê vedibe. Cihê derxistinê li paşiya devê ye; perdeyên dengî di dema derketina wê de nalerizin. Di alfabeya dengnasî ya navneteweyî de ev deng bi **[k]** tê nîşandan.
 
-Di kurdî-latînî de K/k tê bikaranîn; di alfabeya krîlî de bi herfeke taybet tê nivîsîn. Di nivîsa kurdî-erebî û farisî de herfa taybet a K tê bikaranîn; di hin zimanan de C an Q jî dikarin dengê [k] nîşan bidin. Ji ber vê yekê divê herf û deng ji hev cuda bên fêmkirin.
+Di nivîsîna kurdî-latînî de K/k ji bo vê dengê tê bikaranîn. Di hin zimanan de C û Q jî dikarin dengê [k] nîşan bidin. Di nivîsa kurdî-erebî û farisî de herfa **ک** tê bikaranîn; di erebî de **ك** ye. Di alfabeya kurdî-krîlî de К/к ji bo wê hatine bikaranîn. Di destpêka nivîsîna kurdî ya Hawarê de K ji bo dengê Q û Q ji bo dengê K dihat nivîsîn; paşê ev awayê nivîsînê hatiye guhertin.
 
 ## 2. Peydabûna K di peyvan de
 
-K dikare li sê cihên peyvê xuya bibe:
+Herfa K dikare li destpêk, nav û dawiya peyvê were:
 - **Li destpêkê:** *kar, kes, kêm, kil, kul, kom, kurd, kûr*.
 - **Li navê:** *dikan, rekeh, şekir*.
 - **Li dawiyê:** *mak, çek, rik*.
 
-Li gorî lêkolîna ku pirtûk jê vedigere, rêjeya K di nivîsên kurmancî de 3,8% e. Ev hejmar rêjeya herfê di nivîsan de nîşan dide; ne ku K di her peyvê de bi heman awayî tê gotin.
+Li gorî lêkolîna ku pirtûk vedigire, rêjeya herfa K di nivîsên kurmancî de **3,8%** e. Di wê lêkolînê de tenê herfên E, I, N, A, Ê, R, D, B û Î ji K zêdetir tên dîtin.
 
 ## 3. Du fonem: K-ya bipif û K-ya bêpif
 
-Di kurmancî û zazakî de K dikare bi du awayên cuda were gotin: **bipif** û **bêpif**. Ev cudahî di hin peyvan de girîng e, ji ber ku dikare wateya peyvê biguherîne.
+Di kurmancî û zazakî de K dikare du awayên dengdanê hebin: **K-ya bipif** û **K-ya bêpif**. Di K-ya bipif de piştî berdana astengiyê pifek an bayekî xurt ji dev derdikeve. Pirtûk nimûneyên *kar, ker* (heywan), *kêr* û *kûr* dide.
 
-**K-ya bipif**: piştî berdana astengiyê bayekî zêde ji dev derdikeve. Pirtûk nimûneyên *kar, ker, kêr, kûr* dide.
+Di K-ya bêpif de ew pifa xurt nayê derxistin. Pirtûk nimûneyên *ka* (giyayê hişkkirî), *kevir, kirin, kî, kurr* dide. Di kurmancî û zazakî de pifdarî dikare K bike du fonemên cuda. Nimûneya pirtûkê peyva *ka* ye: K-ya bipif di wateya pirsê de tê, lê K-ya bêpif di navê giyayê hişkkirî de ye.
 
-**K-ya bêpif**: piştî berdana dengê pifeke bihêz nayê. Pirtûk nimûneyên *ka* (bi wateya giyayê hişkkirî), *kevir, kirin, kî, kurr* dide.
+Di zazakî û ermenî de jî K-ya destpêka peyvê carinan bipif û carinan bêpif e. Di soranî, farisî, erebî, tirkî û îngilîzî de K-ya destpêka peyvê, li gorî ravekirina pirtûkê, bi gelemperî bipif e. Gelek peyvên wergirtî yên kurmancî jî pifdariya xwe diparêzin: *kompûter, koçer, kar, kamil*. Lê di hin peyvên kevn ên ji tirkî hatine de K bêpif maye, wek *kon/kûn* (çadir, xîvet).
 
-### Ceribandina kaxezê
+## 4. Çavkaniyên dîrokî yên K
 
-Kaxezekê li ber devê xwe bigire û van peyvan bi baldarî bibêje:
-- *kurd*: K-ya wê bipif e; kaxez dikare bi bayê derketî hereket bike.
-- *kirin*: K-ya wê bêpif e; kaxez bi heman hêzê nahejê.
+K di hemû lehceyên kurdî û di gelek zimanên cîran de heye. Ev deng di proto-hindûewropî de jî hebû. Di hin peyvên kurdî de K-ya proto-hindûewropî hatiye parastin:
+- Kurmancî *kî* ji rehê proto-hindûewropî *kʷis*; berawird bike bi latînî *qui*.
+- Kurmancî *keftin/ketin* ji rehê *kopto-*; berawird bike bi yûnaniya *kopto-*.
+- Kurmancî *kurt* ji rehê *(s)ker-*; berawird bike bi almanî *kurz*.
 
-Di kurmancî û zazakî de pifdarî dikare du fonem ji hev cuda bike. Di soranî, farisî, erebî, tirkî û inglîzî de K-ya destpêka peyvê li gorî ravekirina pirtûkê bi gelemperî bipif e. Gelek peyvên wergirtî yên kurmancî jî pifdariya xwe diparêzin; wek *kompûter, koçer, kar, kamil*. Lê di hin peyvên kevn ên ji tirkî hatine de K bêpif maye; wek *kon/kûn*.
+Lê K-ya proto-hindûewropî di gelek peyvan de di kurdî û zimanên din ên îranî de bûye dengekî din, bi taybetî S an Ç:
+- Kurmancî *ser* ji rehê *ḱer-*.
+- Kurmancî *çi* ji rehê *kʷis*.
 
-## 4. Dîroka K û guherînên wê
+Ji ber vê yekê, tevî ku *çi* û *kî* di proto-hindûewropî de ji heman rehê hatine, di kurmancî de K di *kî* de maye, lê di *çi* de bûye Ç.
 
-K di hemû lehceyên kurdî û gelek zimanên cîran de heye. Di hin peyvên kurdî de K-ya proto-hindûewropî hatiye parastin:
-- kurmancî *kî* li hember proto-hindûewropî **kʷis* û latînî *qui*;
-- kurmancî *keftin/ketin* li hember rehê **kopto-*;
-- kurmancî *kurt* li hember rehê **(s)ker-*.
+Piraniya peyvên kurdî yên bi K ne rasterast ji proto-hindûewropî hatine. Hin ji wan piştî parvebûna zimanên îranî peyda bûne an ji zimanên din hatine wergirtin. Pirtûk nimûneyên ji erebî *kal, kerb, kil, kîs* û ji tirkî *koç, koçer, kon/kûn* dide.
 
-Lê K-ya proto-hindûewropî di hin peyvan de di kurdî û zimanên îranî de bûye dengekî din, bi taybetî S an Ç:
-- *ser* ji rehê **ḱer-*;
-- *çi* ji **kʷis*, lê *kî* di kurmancî de K diparêze.
+Di hin peyvan de K-ya kurdî li cihê X-ya îraniya kevn hatiye. Pirtûk van berawirdkirinan dide:
+- Kurmancî *kanî*; zazakî *henî*; farisî û pehlewî *xanî/xanîg*; avestayî *xan-*.
+- Kurmancî *ker*; zazakî *her*; farisî û pehlewî *xer*; avestayî *xere-*.
+- Kurmancî *ken*; farisî *xende*; pehlewî *xendek*; ermenî *xind*.
 
-Ji ber vê yekê *çi* û *kî* tevî nêzîkbûna dîrokî, di kurmancî de bi du dengên cuda dest pê dikin.
+Di soranî de ev peyv, wek kurmancî, bi K tên gotin; di zazakî de bi H tên. Di hin devokên soranî û zazakî de K li ber Ê û WÊ dikare bibe Ç an TS; nimûneya pirtûkê *le kwê* ye ku di hin devokan de *le çwê* tê gotin.
 
-## 5. Çavkaniyên din ên K
+Kurdî carinan Q-ya erebî kiriye K, wek *x-l-q* ku bûye *xelk* (li gorî hin devokan *xelq*). Carinan jî peyveke îranî bi rêya erebî vegeriyaye kurdî bi Q, wek *pistek → festeq → fisteq* û *zendîk → zendîq*. Di hin peyvên ji tirkî hatine de kurdî K-ya tirkî ya kevn/navîn parastiye, tevî ku di tirkî ya niha de G heye: *köç → koç*.
 
-Pirtûk çend rêyên din ên peydabûna K nîşan dide:
-- Hin peyv piştî parvebûna zimanên îranî hatine çêkirin an wergirtin; wek peyvên ji erebî *kal, kerb, kil, kîs* û ji tirkî *koç, koçer, kon/kûn*.
-- Di hin peyvan de K-ya kurdî li cihê X-ya îraniya kevn hatiye; pirtûk nimûneyên *kanî, ker, ken* bi formên zazakî, farisî, pehlewî û avestayî re berawird dike.
-- Di hin devokên soranî û zazakî de K li ber Ê an WÊ dikare bibe Ç an TS; nimûneya pirtûkê *le kwê → le çwê* ye.
-- Di hin peyvên ji erebî hatine de Q-ya erebî di kurdî de bûye K; wek *x-l-q → xelk*, herçend hin devok *xelq* dibêjin.
-- Di hin peyvên îranî de K bi rêya erebî vegeriyaye Q; wek *pistek → festeq → fisteq*.
-- Hin peyvên ji tirkî hatine K-ya kevn diparêzin, tevî ku di tirkî ya niha de G heye; wek kurmancî *koç* li hember tirkî *göç*.
+## 5. L — pidûyî-tengav
 
-Ev nimûne nîşan didin ku K dikare ji çavkaniyên cuda were an di dîroka peyvê de biguhere; divê her peyv bi serbixwe were lêkolînkirin.
+Dengê **L** di dengnasiya kurdî de pidûyî û tengav e. Di dema gotina wê de ziman bi pidûyan dikeve û rêya dengê teng dibe, lê bi temamî nayê girtin. Di alfabeya dengnasî ya navneteweyî de bi **[l]** tê nîşandan. Di nivîsîna kurdî-latînî de L/l, di nivîsa erebî de ل û di alfabeya kurdî-krîlî de Л/л ji bo wê tên bikaranîn.
 
-## 6. L — pidûyî-tengav
+## 6. Peydabûna L di peyvan de
 
-Dengê **L** di dema gotinê de bi nêzîkbûna zimanê bi pidûyan tê çêkirin. Rêya hewayê teng dibe, lê bi temamî nayê girtin. Ji ber vê yekê L dengekî **pidûyî û tengav** e. Di IPA de bi **[l]** tê nîşandan.
-
-Di kurdî-latînî de L/l û di alfabeya krîlî de herfeke taybet ji bo L tê bikaranîn. Di nivîsa kurdî-erebî de herfa L-ya zirav tê bikaranîn.
-
-## 7. Peydabûna L di peyvan de
-
-L dikare li destpêk, nav û dawiya peyvan were:
+Dengê L dikare li destpêk, nav û dawiya peyvan were:
 - **Li destpêkê:** *law, lez, lê, lêv, livîn, lîmon, lome, lûfik*.
 - **Li navê:** *alî, bilind, Celîl, bela, bilûr*.
 - **Li dawiyê:** *çal, dil, gul, hêl, mil, nal*.
 
-Li gorî lêkolîna ku pirtûk jê vedigere, rêjeya L di nivîsên kurmancî de 2,1% e. Daçek *li* û girêdana *lê* di zêdebûna rêjeya L di nivîsan de roleke girîng hene. L li destpêka peyvên xwemalî de kêm e; gelek peyvên bi L dest pê dikin bi eslê xwe ji zimanên din hatine.
+Li gorî lêkolîna ku pirtûk vedigire, rêjeya herfa L di nivîsên kurmancî de **2,1%** e. Daçeka *li* (wek *li ser, li bin, li malê*) û girêdera *lê* (bi wateya *feqet, ema, belam, belê*) di zêdebûna rêjeya wê de roleke girîng dilîzin. L di nav û dawiya peyvan de jî bi rêjeyeke normal tê dîtin. Lê li destpêka peyvan kêm e û gelek peyvên bi L dest pê dikin bi eslê xwe ji zimanên din hatine.
 
-## 8. Herfek, du deng: L-ya zirav û L-ya qelew
+## 7. Herfek û du deng: L-ya zirav û L-ya qelew
 
-Di kurmancî de herfa L dikare bi du awayên hinekî cuda were gotin.
+Herfa L di kurdî de bi du awayên hinekî cuda tê gotin.
 
 **L-ya zirav** di peyvên wek *lêv, law, livîn, gel, bila* de heye.
 
-**L-ya qelew** di peyvên wek *łep, wełat, siłav, çił* de heye. Di nivîsîna erebî de L-ya zirav û L-ya qelew bi du nîşanên cuda tên nivîsîn. Di nivîsîna kurdî-latînî ya kurmancî de herdu bi L tên nivîsîn; di hin nivîsên zanistî de ji bo nîşandana L-ya qelew **Ł** tê bikaranîn. L-ya qelew ne L-ya dubarekirî ye; cudahiya wê bi dirêjkirina dengî nayê ravekirin.
+**L-ya qelew** di peyvên wek *lep, welat, silav* de heye. Di nivîsîna kurdî-erebî de, bi taybetî di soranî de, L-ya qelew **ڵ** û L-ya zirav **ل** e. Di nivîsîna kurdî-latînî de carinan L-ya qelew bi du L-yan an bi **Ł/ł** tê nîşandan. Di nivîsîna asayî ya kurmancî de herdu bi L tên nivîsîn.
 
-L-ya qelew di kurmancî û zazakî de roleke kêmtir/kenarî heye, lê di soranî, kurdiya başûrî û hewramî de girîngtir û berbelavtir e. Di soranî de gelek caran li cihê L-ya zirav ya kurmancî L-ya qelew tê gotin:
-- kurmancî *dil* — soranî *dił*;
-- kurmancî *gul* — soranî *guł*;
-- kurmancî *mal* — soranî *mał*;
-- kurmancî *belê* — soranî *bełê*.
+L-ya qelew di kurmancî de kêm e, lê di soranî de gelek zêdetir tê bikaranîn. Di gelek peyvan de li cihê L-ya zirav ya kurmancî, di soranî de L-ya qelew heye:
+- Kurmancî *dil* — soranî *dił*.
+- Kurmancî *gul* — soranî *guł*.
+- Kurmancî *mal* — soranî *mał*.
+- Kurmancî *belê* — soranî *bełê*.
 
-L-ya qelew di kurmancî de di hemû devokan de heye, lê di hin peyvan de devok dikarin cuda bin:
-- Di hin devokên kurmancî de formên bi L-ya qelew hene, wek *meła, miłet, zełam*; di hin devokên din de formên bi L-ya zirav hene, wek *mela/mele, milet, zilam*. Ev guherînên devokî ne û divê wek yek formê standard neyên pêşkêşkirin.
+Di soranî de L-ya qelew li destpêka peyvê nayê dîtin. Di kurmancî de jî kêm e, lê di peyva *lep* de li destpêkê heye.
 
-Pirtûk nimûneya *çil* (40) û *çił* (xwazok/temah) dide da ku cudahiya L-ya zirav û qelew di dengdanê de bê dîtin. Lê di kurmancî de ev cudahî fonemîk nîne: guherandina L-ya zirav bi L-ya qelew bi xwe wateya peyvê naguhêre. Ji ber vê yekê di nivîsîna kurmancî ya asayî de herdu bi L tên nivîsîn; cudahiya dengdanê dikare li gor devokê hebe.
+L-ya qelew di hemû devokên kurmancî de tê dîtin, lê di hin peyvan de devok dikarin cuda bin:
+- Bi L-ya qelew: *meła, miłet, zełam*.
+- Bi L-ya zirav: *mela/mele, milet, zilam*.
 
-## 9. Dîroka L û guherînên wê
+Pirtûk destnîşan dike ku cudahiya L-ya zirav û qelew di kurmancî de bi temamî wek cudahiya du foneman nayê pejirandin. Nimûneya *çil* (40) û *çił* (çepel, tema, xwazok, nemerd) ji bo nîşandana cudahiyê tê dayîn. Lê di van herdu peyvan de ne tenê L, Ç jî cuda ye: Ç-ya *çil* bipif e, Ç-ya *çił* bêpif e. Ji ber vê yekê, fonemiya herdu L-yan ne tiştekî bêguman e. L-ya qelew ji bilî soranî, di hewramî û gelek devokên kurdiya başûrî de jî berfireh e; di tirkî de jî wek alofon tê dîtin.
 
-L di proto-hindûewropî de hebû. Di hin peyvên kevn ên îranî de L winda bû û R cihê wê girt. Pirtûk nimûneyên berawirdkirinê dide:
-- kurmancî *lêv*, farisî *leb*, latînî *labium*, inglîzî *lip*;
-- kurmancî *ling*, farisî *leng*, latînî *lacertus*, inglîzî *leg*.
+## 8. Dîroka L
 
-Di hin peyvên îranî de L-ya kevn bûye R; wek berawirdkirina *roj* bi formên farisî û pehlewî. Lê di hin peyvan de L hatiye parastin an dîsa vegeriyaye; wek *lêv* û *ling*.
+Dengê L di proto-hindûewropî de hebû. Pirtûk nimûneyên vê peywendiyê dide:
+- Proto-hindûewropî *leb-* — kurmancî *lêv*, farisî *leb*, latînî *labium*, îngilîzî *lip*.
+- Proto-hindûewropî *lek-* — kurmancî *ling*, farisî *leng*, latînî *lacertus*, îngilîzî *leg*.
 
-Piraniya peyvên kurdî yên bi L dest pê dikin bi eslê xwe biyanî ne; pirtûk çavkaniyên wek erebî, aramî, akadî, ermenî û sanskrîtî destnîşan dike. Lê L di gelek peyvên xwemalî de jî heye; wek *livîn, limêj, bilind, hildan, dil, gul*.
+Di serdema zimanên îranî yên kevn, wek avestayî û hexamenişî, L bi temamî winda bû û bi piranî R cihê wê girt. Ji ber vê yekê gelek peyvên ku di şaxên din ên hindûewropî de bi L ne, di zimanên îranî de bi R tên. Di zimanên îranî yên navîn, wek pehlewî û parsî, L dîsa peyda bû; lê L-ya ku berê bûye R bi piranî wek R ma. Di hin peyvan de L vegeriya, wek *lêv* û *ling*.
 
-## 10. L ji R û N
+Piraniya peyvên kurdî yên bi L dest pê dikin bi eslê xwe ji zimanên din hatine:
+- Ji erebî: *leblebî, lib, libin, lihêf, lê* (bi wateya feqet), *libas, lome, lûle/lûlî* û hin peyvên din.
+- Ji aramî: *lewitîn/lewitandin, lixav, lewçe*.
+- Ji akadî: *legen, legleg*.
+- Ji ermenî: *law*.
+- Ji sanskrîtî: *lîmon, laciwerd*.
 
-Pirtûk du çavkaniyên sereke ji bo L-ya hin peyvên xwemalî destnîşan dike: R û N.
+Lê gelek peyvên xwemalî yên hindûewropî an îranî jî L di destpêk, nav an dawiya xwe de diparêzin: *livîn, limêj, bilind, hildan, dil, gul*.
 
-**L ji R:** Di hin ziman û devokên îranî de li cihê L-ya kurmancî R heye, an berevajî. Nimûneyên berawirdkirinê:
-- kurmancî *dil, gul, bilind*;
-- soranî *dił, guł, berz*;
-- hewramî *ził, viłî, berz*;
-- zazakî *zerre, vil, berz*;
-- farisî *dil, gol, bolend*.
+## 9. L ji R û N
 
-Herwiha di hin devokan de R û L dikarin biguherin; wek formên *şelwar/şerwal/şerwar*.
+Yek ji çavkaniyên sereke yên L di hin peyvên xwemalî de R e. Di berawirdkirina ziman û lehceyên îranî de, hin form bi L û hin formên din bi R tên:
+- Kurmancî *dil, gul, bilind*.
+- Soranî *dił, guł, berz*.
+- Hewramî *ził, viłî, berz*.
+- Zazakî *zerre, vil, berz*.
+- Farisî *dil, gol, bolend*.
+- Pehlewî *dil, gil, bulend*.
 
-**L ji N:** Di hin devokên kurmancî de N-ya peyvên kevn bûye L, wek:
-- hin devokên kurmancî *limêj* — devokên din *nimêj* — soranî *niwêj*;
-- hin devokên kurmancî *livîn* — devokên din *nivîn/nivistin*;
-- hin devokên kurmancî *loşî can* — formên din *noşî can*.
+Di hin devokan de R û L dikarin bi hev biguherin; pirtûk formên *şelwar, şerwal, şerwar* dide.
 
-Pirtûk destnîşan dike ku formên bi L di van nimûneyan de devokî ne; di zimanê nivîskî û di nav piraniya kurmancan de formên bi N serdest in. Lê daçekên *li* û *lê* formên bi L diparêzin; formên bi N ji kurmancî winda bûne, tevî ku di hin zimanên din de formên hevreh bi N hene.
+Çavkaniyeke din a L di hin peyvên xwemalî de N e. Di hin devokên kurmancî de N-ya peyvên kevn bûye L:
+- Hin devokên kurmancî *limêj* — devokên din *nimêj* — soranî *niwêj* — zazakî *nimac*.
+- Hin devokên kurmancî *livîn* — devokên din *nivîn/nivistin* — soranî *nûstin*.
+- Hin devokên kurmancî *loş(î can)* — devokên din *noş(î can)* — soranî *noş(î can)*.
 
-## 11. Guherîna L bi dengên din re
+Ev formên bi L devokî ne. Di nav piraniya kurmancan de û di zimanê nivîskî de formên bi N serdest in. Lê daçeka kurmancî *li* û formên wê yên girêdayî, ji aliyê dîrokî ve bi N ve girêdayî ne; formên bi N ji kurmancî û soranî winda bûne û formên bi L mane. Di hewramî de N hatiye parastin.
 
-Di hin devokan de L dibe R. Pirtûk nimûneyên soraniya Hewlêrê dide:
-- *mar* li hember soraniya Silêmaniyê *mał* û forma kurmancî *mal*;
-- *mindar* li hember *mindał/minał* û forma *menal*;
-- *berê* li hember *bełê* û formên *bela/belî*.
+## 10. Guherîna L bi dengên din re
 
-Di hin zimanên din de L dikare bi dengên tengav ên W an Y re biguhere; pirtûk nimûneyên portugaliya *Brasil*, spanî *llano* û fransî *animal/animaux* dide. Ev nimûne ji bo berawirdkirina dengî ne, ne ji bo sepandina rêzikên wan zimanên din li ser nivîsîna kurmancî.
+Di kurdî de, li gorî devokan, L di hin peyvan de bi R diguhere. Guherîna L bi R bi taybetî di soraniya Hewlêrê de tê dîtin:
+- Soraniya Hewlêrê *mar* — soraniya Silêmaniyê *mał* — erebî *mal* — kurmancî *mal* (xanî).
+- Soraniya Hewlêrê *mindar* — soraniya Silêmaniyê *mindał/minał* — erebî *menal* — kurmancî *menal* (zarok).
+- Soraniya Hewlêrê *berê* — soraniya Silêmaniyê *bełê* — erebî *bela/belî* — kurmancî *belê* (erê).
 
-## 12. Berawirdkirina K û L
-
-| Taybetmendî | K [k] | L [l] |
-|---|---|---|
-| Cihê derketinê | Paşdevî | Pidûyî |
-| Awayê derketinê | Sekinî | Tengav |
-| Lerz | Bêlerz | Di vê dabeşkirinê de ne wek K sekinî ye; L dengê tengav e |
-| Taybetmendiya taybet | Bipif/bêpif | Zirav/qelew |
-| Nimûne | *kar, kevir, kirin* | *law, lêv, silav* |
-
-K û L ji aliyê awayê derketinê ve bi temamî cuda ne: K bi girtin û berdana hewayê çêdibe; L bi tengkirina rêya hewayê bêyî girtina wê.
+Di kurdî de L bi gelemperî bi dengên din naguhere. Lê pirtûk ji zimanên din nimûneyên guherîna L bi W û Y re dide: di portugaliya Brazîlyayê de *Brasil* wek *Brazîw* tê gotin; di hin devokên spanî de *llano* wek *lyano* an *yano* tê gotin; di fransî de forma pirhejmar a *animal* bi guherîna L-ya dawiyê ve girêdayî ye.
 
 ## Çavkanî
 
-Husein Muhammed, *Dengnasî di kurdî de*, rûpelên çapkirî 133–146.
+Husein Muhammed, *Dengnasî di kurdî de*, rûpelên çapkirî 133–144.
 
 ---
 
