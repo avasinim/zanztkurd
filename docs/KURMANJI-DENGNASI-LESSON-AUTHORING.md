@@ -3877,7 +3877,7 @@ Nimûneyên ku di tablo û têbîniyên wê de hatine diyarkirin:
 - **I + A / E / Ê / I / O:** nimûneyên wek *biavêjin, dielimînin, diêşînin, di-inirin, diore*.
 - **Î + A / E / O:** di peyvên wergirtî de nimûneyên wek *îade/îane, şîe, îon*.
 
-Di hin nimûneyan de hiyatus tenê di nivîsînê de xuya dike; di bilêvkirinê de dengê **Eyn** di navbera vokalan de heye. Herwiha hin formên nivîskî yên tabloyê ne formên herî berbelav in: bo nimûne *naumêd* forma farismancî ye, û formên kurdîtir *bêumêd* an *bêhêvî* ne. Di peyvên Ewropî de hiyatusa **EU** bi gelemperî di kurdî de dibe **EW**, wek *Ewropa* û *ewro*.
+Di hin nimûneyan de hiyatus tenê di nivîsînê de xuya dike; di bilêvkirinê de dengê **Eyn** di navbera vokalan de heye. Bo nimûne, di *naelimînin* de Eyn di navbera A û E de tê gotin; di *şîe* de jî Eyn di navbera Î û E de heye. Di hin peyvên ji erebî wergirtî de koma **IA** carinan bi **ÎA** tê nivîsîn, wek *iade/îade* û *îdîa*. Di peyvên ji zimanên Ewropî de IA jî peyda dibe, lê di kurdî de gelek caran wek **YA** an **IYA** tê nivîsîn: *Romanya, kîmya, hiyatus*. Herwiha hin formên nivîskî yên tabloyê ne formên herî berbelav in: bo nimûne *naumêd* forma farismancî ye, û formên kurdîtir *bêumêd* an *bêhêvî* ne. Di peyvên Ewropî de hiyatusa **EU** bi gelemperî di kurdî de dibe **EW**, wek *Ewropa* û *ewro*.
 
 Çavkaniyê rave dike ku gelek hiyatusên di pêkhateyên bi pêşgir de ji ber pêşgirên bingehîn ên kurdî yên **bi-, bê-, di-, na-, ne-** çêdibin; ev pêşgir bi A, E, Ê an I dest pê dikin.
 
@@ -3950,7 +3950,7 @@ H di hin devokan de û di hin tercîhên nivîskaran de wek rêgirê hiyatusê t
 
 Di hin devokan de H ji vê erkê derbasî formên din ên peyvan bûye; ji ber vê yekê formên *hanîn* û *havêtin* jî tên dîtin. Li gorî çavkaniyê, ev form bi dîrokî ji *anîn* û *avêtin* nûtir in, ne kevntir.
 
-H ya destpêka lêkera *hatin* jî bi dîrokî tune bû. Niha forma bê H ya *atin* di kurmancî û soranî de nemaye an pir kêm maye. Lê di rehê dema niha de forma bê H, wek *diên/dên/tên*, di soranî de bi giştî û di kurmancî de bi piranî hatiye parastin; kêmaniyeke axêveran forma bi H, *dihên*, bi kar tînin.
+H ya destpêka lêkera *hatin* jî bi dîrokî tune bû. Niha forma bê H ya *atin* di kurmancî û soranî de nemaye an pir kêm maye. Lê di rehê dema niha de forma bê H, wek *diên/dên/tên*, di soranî de bi giştî û di kurmancî de bi piranî hatiye parastin; kêmaniyeke axêveran forma bi H, *dihên*, bi kar tînin. Di kurdiya başûrî de (Feylî, Kelhurî û Kirmaşanî) forma *hatin* serdest e, lê forma *yatin* jî tê dîtin.
 
 H bi tevahî û di hemû rewşan de rê li ber hiyatusê nagire. Di van nimûneyan de H nayê zêdekirin: *biaqil/baqil* ne *bih-aqil*; *bêav* ne *bêhav*; *biaxivin/baxivin* ne *bihaxivin*.
 
@@ -3973,7 +3973,7 @@ Bikaranîna T bi paşgira Î re berbelav bûye, heta di peyvên ku hiyatus tune 
 
 ## 10. Rola N
 
-Di kurmancî de hin peyv cotform hene ku di yekê de N ya dawiyê heye û di ya din de tune ye, wek *çawa/çawan* û *wisa/wisan*. Çavkaniyê rave dike ku N ya dawiyê dikare di destpêkê de ji bo rêgirtina li ber hiyatusê hatibe bikaranîn: forma bê N dema ku peyva paşê bi konsonantê dest pê dike, û forma bi N dema ku peyva paşê bi vokalê dest pê dike.
+Di kurmancî de hin peyv cotform hene ku di yekê de N ya dawiyê heye û di ya din de tune ye, wek *çawa/çawan*, *wisa/wisan* û *dîsa/dîsan*. Çavkaniyê rave dike ku N ya dawiyê dikare di destpêkê de ji bo rêgirtina li ber hiyatusê hatibe bikaranîn: forma bê N dema ku peyva paşê bi konsonantê dest pê dike, û forma bi N dema ku peyva paşê bi vokalê dest pê dike.
 
 - *Tu çawa hatî?* — peyva paşê bi konsonantê dest pê dike.
 - *Tu çawan î?* — peyva paşê bi vokalê dest pê dike.
