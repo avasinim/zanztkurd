@@ -2636,7 +2636,11 @@ W di van komdengan de bi X re dimîne û bi awayekî asayî ji wê nayê veqetan
 
 Ev jî nîşan dide ku W li vir wek konsonanteke serbixwe tevnaçe; ew nîşana dengê U ye ku bi vokala piştî xwe dîftongê pêk tîne.
 
-Di kurmanciya standard de, piştî X, dengê U dikare bi A, E, Ê an Î re dîftong çêbike. Komdengên *wo, wu-, wû-* û dîftonga *ui* di pergala dengî ya standard de wek dîftongên asayî nayên pejirandin, tevî ku hin caran di nivîsînê de xuya dibin.
+Di kurmanciya standard de, piştî X, dengê U dikare bi A, E, Ê an Î re dîftong çêbike. Komdengên *wo, wu-, wû-* û dîftonga *ui* di pergala dengî ya standard de wek dîftongên asayî nayên pejirandin, tevî ku hin caran di nivîsînê de xuya dibin. Di peyvên xwemalî de komdengên *-ow-, -uw-, -ûw-* jî bi gelemperî peyda nabin; peyvên wergirtî dikarin wek *cowboy* awarte bin.
+
+Ev sînordarî taybetmendiya hemû devokan nîne. Di kurmanciya Behdînan de û di hin devokên din de, dîftonga **UÎ** (di nivîsînê de **WÎ**) dikare piştî gelek konsonantan were, wek *bûn/buîn/bwîn, dûr/duîr/dwîr, nû/nuî/nwî, gûz/gwîz*. Di Behdînan de Û ya kurmanciya giştî bi gelemperî dibe UÎ/WÎ; lê *çûn* û *û* wek peyva serbixwe awarte ne, û *bûn* li gelek deveran *bîn* an *bûn* e. Di hin devokên Behdînan de O jî dikare bibe UÎ, wek *kon/kuîn, kovî/kuîvî, rovî/ruîvî*. Di soranî de UÊ li cihê Û ya kurmanciya giştî tê dîtin. Di kurmanciya Dihokê de jî U ji dîftonga UÎ dikare bikeve: *dûr → duîr* li Zaxo, lê *dîr* li Dihokê; *nû → nuî → nî*.
+
+Di komdengên W + vokal li destpêka kîteyê de jî divê em cudahiya devokan biparêzin. Herçend di hin zimanan de ev komdeng wek dîftong tên hesibandin, di rêzimanên kurdî de bi gelemperî wek dîftong nayên hejmartin. Komdengê *wi-* di hin devokan de heye (*wilayet, wilo, wisa*), lê di gelek devokên din de formên *wîlayet, wesa, weqas/ewqas* tên gotin.
 
 ### 4. Dîftongên W + vokal li destpêka kîteyê
 
@@ -2649,7 +2653,11 @@ Di gelek zimanan de W li destpêka kîteyê bi vokala piştî xwe re dikare dîf
 
 Lê di hin devokan de bilêvkirin cuda ye; bo nimûne *wisa* dikare bi awayê *wesa* were gotin. Ji ber vê yekê divê xwendekar cudahiya nivîsîna standard û bilêvkirina devokî li ber çavan bigire.
 
-### 5. Komdengên vokal + W
+### 5. Komdenga -IWA- û bilêvkirina -UA-
+
+Di hin peyvên wek *ciwan* de, rastnivîsîn peyvê wek *ci-wan* dabeş dike; lê çavkaniyê dibêje ku di gotinê de peyv bi gelemperî wek yek kîte tê bilêvkirin, nêzî *cuan*. Di vê şîrovekirinê de *-iwa-* dengê dîftonga *-ua-* dide û *ciwan* ne peyveke du-kîteyî ye. Li ser dengê rastîn ê W di van peyvan de di nav zimannasan de lihevkirina temam tune ye.
+
+### 6. Komdengên vokal + W
 
 W piştî vokalan jî tê:
 - *daw*;
@@ -2672,7 +2680,7 @@ Herwiha:
 
 Ev nimûne nîşan didin ku W dikare di kîteyên cuda de wek konsonant tevbigere, herçend di hin peyvên din de bi vokala berî xwe re dîftong çêbike.
 
-### 6. Dîftongên vokal + Y
+### 7. Dîftongên vokal + Y
 
 Y jî wek W dikare li gel vokalan di çêkirina dîftongan de rolekê bilîze. Lê divê her komdenga ku Y tê de heye wek dîftong neyê hesibandin. Hin caran Y tenê di nivîsînê de heye û di gotinê de nayê bihîstin.
 
@@ -2691,13 +2699,13 @@ Li berî Ê, Y di hin formên çemandinê û cînavan de tê dîtin:
 Di gelek devokan de Y di van rewşan de nayê bihîstin:
 - *ê din, ên min, bira-ê te, nameên wê*.
 
-### 7. Têkiliya dîftongê û nivîsîna standard
+### 8. Têkiliya dîftongê û nivîsîna standard
 
 Rastnivîsîn her tim hemû tevgera dengî ya gotinê bi awayekî rasterast nîşan nade. Komdengên W û Y dikarin li gor peyv û devokê wek nîvvokal, konsonant an beşeke dîftongê tevbigere.
 
 Ji ber vê yekê, di analîza dîftongê de divê cudahiya di navbera nivîsîna peyvê, dabeşkirina wê bi kîteyan û bilêvkirina wê ya rastîn de were parastin. W û Y li gor peyv û devokê dikarin wek nîvvokal, konsonant an beşeke dîftongê tevbigere; ji ber vê yekê tenê forma nivîskî ji bo biryardana dengî bes nîne.
 
-### 8. Dîftongên bi Y û vokalên din
+### 9. Dîftongên bi Y û vokalên din
 
 Y wek W nîvvokalek e: di derxistina wê de herwayê dengî nayê rawestandin, lê Y bi tenê nikare kîteyekê pêk bîne. Di heman demê de zimannas li ser hin komdengan li hev nakin ka ew dîftong in an du dengên cuda ne.
 
@@ -2712,7 +2720,7 @@ Di kurmancî de dîftongên bi Y/Î re bi dawî tên bi awayên jêrîn tên dî
 - **UY/UÎ:** di peyvên xwerû yên kurmancî û soranî de bi gelemperî tune ye. Hin devok formên wek *duy* bi wateya demjimêra du piştî nîvro hildigirin; formên din *duyê/duyî* dibêjin.
 - **ÛY/ÛÎ:** di kurmancî de carinan di *xûy* de tê dîtin, lê forma *xû* jî heye. Di soranî de di girêdanê de wek *xanûy ewan* peyda dibe.
 
-### 9. Dîftongên bi Y dest pê dikin
+### 10. Dîftongên bi Y dest pê dikin
 
 Di derbarê Y + vokal de jî lihevkirineke temam di nav zimannasan de tune ye. Heke ev komdeng wek dîftong bên hesibandin, di kurdî de van awayan hene:
 
@@ -2724,7 +2732,7 @@ Di derbarê Y + vokal de jî lihevkirineke temam di nav zimannasan de tune ye. H
 - Y li ber I, U û Û dîftong çênake. Li ber Ê di cînav û formên çemandî de tê nivîsîn (*yê din, yên min, birayê te, nameyên wê*), lê di gelek devokan de nayê bihîstin.
 - Komdengê **-IYA-** di peyvên *çiya, giya, giyan, jiyan, niyan, şiyan* û peyvên wergirtî yên wek *diyanet, riwayet, siyaset, xiyanet* de heye. Di gotinê de *-iya-* bi gelemperî di heman kîteyê de tê bilêvkirin û dengê dîftongî **ÎA** dide; ev peyv bi gelemperî wek du kîte nayên dabeşkirin.
 
-### 10. Guherîna U û I
+### 11. Guherîna U û I
 
 Di kurmancî de U û I di hin peyvan de bi hev diguherin: *bihar/buhar, cuda/cida, dinya/dunya, Mihemed/Muhemed, niha/nuha, ruh/rih*. Lê ev guherîn bê şert û bê sînor nîne. I bi gelemperî nabe U; peyvên wek *kirin, gotin, dil, min* nikarin bi U bên gotin.
 
@@ -2744,13 +2752,13 @@ I jî di hin peyvan de dikare bibe U, bi taybetî li ber an piştî H: *bihar/bu
 
 ## Beşa duyem: Giranî
 
-### 11. Pênaseya giraniyê
+### 12. Pênaseya giraniyê
 
 Giranî (stress) girankirin an şidandina kîteyekê ye, bi awayekî ku ew ji kîteyên din zelaltir, bihêztir an dirêjtir tê gotin. Giranî dikare li ser kîteya peyvê an beşeke hevokê bikeve.
 
 Di kurdî de cihê giranî tenê taybetmendiyeke dengî nîne; di hin peyvan de dikare wate an erkê rêzimanî jî biguherîne.
 
-### 12. Giranî di navdêran de
+### 13. Giranî di navdêran de
 
 Di navdêrên du-kîteyî an pir-kîteyî yên neçemandî de, giranî bi gelemperî li ser kîteya dawiyê ye:
 - a-GIR;
@@ -2781,7 +2789,7 @@ Paşpirtikên peyvsaz (derivational suffixes) dikarin xwedî giranî bin:
 - *havîn* → *havîngeh*;
 - *birîn* → *birîndar* → *birîndarî*.
 
-### 13. Giranî di gazîkirinê de
+### 14. Giranî di gazîkirinê de
 
 Di navdêrekê de, gava peyv bê paşpirtika gazîkirinê were bikaranîn, giranî dikare ji kîteya dawiyê were veguhastin bo kîteya pêşiyê:
 - *Ehmed* → *Ehmed, raweste!*;
@@ -2796,7 +2804,7 @@ Di peyvên yek-kîteyî de jî paşpirtika gazîkirinê giranî nagire:
 - *kuro, lawo, mêro*;
 - *keçê, qîzê, jinê*.
 
-### 14. Giranî di navên taybet de
+### 15. Giranî di navên taybet de
 
 Di gelek navên kesan û deveran de giranî li ser kîteya dawiyê ye:
 - *Serbest, Mihemed, Gulistan*;
@@ -2808,7 +2816,7 @@ Di navên welatan ên bi **-ya/-ye** an **-landa/-lenda** bi dawî tên de, gira
 
 Di *Sûriye* û *Tirkiye* de giranî li ser kîteya sêyem-dawiyê ye. Di hin navên bajarên pir-kîteyî de jî giranî dikare li ser kîteya duyem-dawiyê be, wek *Diyarbekir, Hekarî, Erzirom*. Di navên gelek bajarên Tirkiyê de, berevajî vê, kîteya yekem girankirî ye: *Enqere, Edene, Izmîr*.
 
-### 15. Giranî di rengdêran de
+### 16. Giranî di rengdêran de
 
 Di rengdêrên du-kîteyî û pir-kîteyî de giranî bi gelemperî li ser kîteya dawiyê ye:
 - *me-ZIN*;
@@ -2828,7 +2836,7 @@ Pêşpirtikên *bi-* û *bê-* û pêşpirtikên neyînîkirinê yên rengdêran
 
 Di hin rêzên peyvsaziyê de formên wek *xweşî → nexweş → nexweşî*, *baş → nebaş*, *guhdar → neguhdar → neguhdarî* û *xêrxwaz → xêrnexwaz → xêrnexwazî* jî hene. Gava rengdêr navdêr dibe û paşpirtika çemandin an girêdanê werdigire, paşpirtik bêgiranî dimîne: *mezin → mezinê(n) wan* û *delal → delala min*.
 
-### 16. Giranî di cînavan de
+### 17. Giranî di cînavan de
 
 Cînavên kesî yên kurmanciya nivîskî yek-kîteyî ne:
 - *ez, tu, ew, em, hûn*;
@@ -2849,7 +2857,7 @@ Di hin peyvên bi pêşpirtika *her-* de herdu awayên girankirinê dikarin bibi
 - *HERkes, HERtişt*;
 - *herGAV, herDEM, herCAR, herROJ*.
 
-### 17. Giranî di hoker û daçekan de
+### 18. Giranî di hoker û daçekan de
 
 Di gelek hoker û daçekên giştî de giranî li ser kîteya pêşiyê ye:
 - *PAŞî, PÊŞî, BERÎ, PIŞTÎ*;
@@ -2861,7 +2869,7 @@ Di gelek hoker û daçekên giştî de giranî li ser kîteya pêşiyê ye:
 
 Hin hoker giranî li ser kîteya dawiyê digirin, wek *niha/nika/noke* û *xwezî*. Hin hokerên devokî yekkîteyî ne: di kurmanciya navendî û rojavayî de *vira, wira*; di kurmanciya rojhilatî de *vêrê, wêrê*.
 
-### 18. Giranî di lêkeran de
+### 19. Giranî di lêkeran de
 
 Di lêkerên raderî (neçemandî) de giranî li ser kîteya dawiyê ye:
 - *ha-TIN*;
@@ -2898,7 +2906,7 @@ Paşpirtikên kesî û formên çemandî yên *bûn* bi gelemperî bêgiranî ne
 - *Zana bû*;
 - *hatiye, hatibû, nehatiye, nehatibû*.
 
-### 19. Giranî di peyvên pêkhatî û dariştî de
+### 20. Giranî di peyvên pêkhatî û dariştî de
 
 Di peyvên dariştî de giranî dikare ji rehê peyvê were veguhastin bo paşpirtik:
 - *birîn* → *birîndar* → *birîndarî*.
@@ -2913,7 +2921,7 @@ Di peyvên dubarekirî û cotkirî de jî beşa dawiyê giraniya sereke digire:
 - *jin + mêr* → *jinûmêr*;
 - *hatin + çûn* → *hatinûçûn*.
 
-### 20. Giranî wek cudakerê wate û erkê rêzimanî
+### 21. Giranî wek cudakerê wate û erkê rêzimanî
 
 Di kurdî de hin peyv bi heman herfan tên nivîsîn lê cihê giranî wan ji hev cuda dike.
 
