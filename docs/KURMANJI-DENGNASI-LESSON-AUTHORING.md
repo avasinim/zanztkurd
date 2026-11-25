@@ -1121,7 +1121,7 @@ Herfa L di kurdî de bi du awayên hinekî cuda tê gotin.
 
 **L-ya zirav** di peyvên wek *lêv, law, livîn, gel, bila* de heye.
 
-**L-ya qelew** di peyvên wek *lep, welat, silav* de heye. Di nivîsîna kurdî-erebî de, bi taybetî di soranî de, L-ya qelew **ڵ** û L-ya zirav **ل** e. Di nivîsîna kurdî-latînî de carinan L-ya qelew bi du L-yan an bi **Ł/ł** tê nîşandan. Di nivîsîna asayî ya kurmancî de herdu bi L tên nivîsîn.
+**L-ya qelew** di peyvên wek *lep, welat, silav* de heye. Di nivîsîna kurdî-erebî de, bi taybetî di soranî de, L-ya qelew û L-ya zirav di wê alfabeyê de bi du herfên cuda tên nîşandan. Di nivîsîna kurdî-latînî de carinan L-ya qelew bi du L-yan an bi **Ł/ł** tê nîşandan. Di nivîsîna asayî ya kurmancî de herdu bi L tên nivîsîn.
 
 L-ya qelew di kurmancî de kêm e, lê di soranî de gelek zêdetir tê bikaranîn. Di gelek peyvan de li cihê L-ya zirav ya kurmancî, di soranî de L-ya qelew heye:
 - Kurmancî *dil* — soranî *dił*.
@@ -1171,7 +1171,7 @@ Di hin devokan de R û L dikarin bi hev biguherin; pirtûk formên *şelwar, şe
 - Hin devokên kurmancî *livîn* — devokên din *nivîn/nivistin* — soranî *nûstin*.
 - Hin devokên kurmancî *loş(î can)* — devokên din *noş(î can)* — soranî *noş(î can)*.
 
-Ev formên bi L devokî ne. Di nav piraniya kurmancan de û di zimanê nivîskî de formên bi N serdest in. Lê daçeka kurmancî *li* û formên wê yên girêdayî, ji aliyê dîrokî ve bi N ve girêdayî ne; formên bi N ji kurmancî û soranî winda bûne û formên bi L mane. Di hewramî de N hatiye parastin.
+Ev formên bi L devokî ne. Di nav piraniya kurmancan de û di zimanê nivîskî de formên bi N serdest in. Lê daçeka kurmancî *li* û formên wê yên girêdayî, ji aliyê dîrokî ve bi N ve girêdayî ne; formên bi N ji kurmancî û soranî winda bûne û formên bi L mane. Di hewramî de dengê N hatiye parastin.
 
 ## 10. Guherîna L bi dengên din re
 
