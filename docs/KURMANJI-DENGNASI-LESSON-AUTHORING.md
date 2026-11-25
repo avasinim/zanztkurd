@@ -1244,7 +1244,7 @@ N dikare li destpêk, nav û dawiya peyvê were:
 - **Li navê:** *banî, bilind, deng*.
 - **Li dawiyê:** *baran, man, ken*.
 
-Li gorî lêkolîna ku pirtûk vedigire, N yek ji konsonantên herî pir di nivîsên kurmancî de ye; rêjeya wê **9,4%** e. Di heman lêkolînê de tenê vokalên I û E ji N zêdetir tên dîtin.
+Li gorî lêkolîna ku pirtûk vedigire, N konsonanta herî pir di nivîsên kurmancî de ye; rêjeya wê **9,4%** e. Di heman lêkolînê de tenê vokalên I û E ji N zêdetir tên dîtin.
 
 ## 7. Taybetiya dengê NG û NK
 
