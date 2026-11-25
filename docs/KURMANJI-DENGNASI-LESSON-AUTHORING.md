@@ -1180,7 +1180,7 @@ Di hin devokan de R û L dikarin bi hev biguherin; pirtûk formên *şelwar, şe
 - Hin devokên kurmancî *livîn* — devokên din *nivîn/nivistin* — soranî *nûstin*.
 - Hin devokên kurmancî *loş(î can)* — devokên din *noş(î can)* — soranî *noş(î can)*.
 
-Ev formên bi L devokî ne. Di nav piraniya kurmancan de û di zimanê nivîskî de formên bi N serdest in. Lê daçeka kurmancî *li* û formên wê yên girêdayî, ji aliyê dîrokî ve bi N ve girêdayî ne; formên bi N ji kurmancî û soranî winda bûne û formên bi L mane. Di hewramî de dengê N hatiye parastin. Footnote 108 ya çavkaniyê cudahiya daçeka *lê* (kurtkirina *li wê, li wî, li wan*) ji girêdera *lê* (bi wateya “lê, belam”) cuda dike. Di hin devokan de forma daçekê wek *l* (behdînî), *le* (sûrçî) an *la* (mereşî) tê gotin.
+Ev formên bi L devokî ne. Di nav piraniya kurmancan de û di zimanê nivîskî de formên bi N serdest in. Lê daçeka kurmancî *li* û formên wê yên girêdayî, ji aliyê dîrokî ve bi N ve girêdayî ne; formên bi N ji kurmancî û soranî winda bûne û formên bi L mane. Di hewramî de dengê N hatiye parastin. Footnote 108 ya çavkaniyê cudahiya daçeka *lê* (kurtkirina *li wê, li wî, li wan*) ji girêdera *lê* (bi wateya “lê, belam”) cuda dike. Li gorî heman footnote-ê, girêdera *lê* bi *la/lêkin/lakin* a erebî ve girêdayî ye; ji ber vê yekê divê ew ji daçeka *lê* ya kurmancî re neyê tevlihevkirin. Di hin devokan de forma daçekê wek *l* (behdînî), *le* (sûrçî) an *la* (mereşî) tê gotin.
 
 ## 10. Guherîna L bi dengên din re
 
