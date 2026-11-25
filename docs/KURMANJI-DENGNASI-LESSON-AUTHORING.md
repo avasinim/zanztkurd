@@ -1951,7 +1951,7 @@ K, G û Q her sê jî dengên sekinî ne. Di derxistina wan de rêya hewayê ji 
 
 Her sê deng di kurmancî de fonemên cuda ne; guhertina yekê bi ya din dikare wateya peyvê biguherîne. Çavkaniyê cotên wek *kul/gul*, *kul/qul* û *gul/qul* dide. Di her sê dengên de cihê destpêk, nav û dawiya peyvê gengaz e; lê G li dawiya peyvê piştî vokalan û Q piştî konsonantan kêm xuya dibin.
 
-Çavkaniyê di noteke binpê de destnîşan dike ku K di kurmancî û zazakî de xwe jî du fonemên cuda nîşan dide: K-ya bihilm **[kʰ]** û K-ya bêhilm **[k]**. Nimûneyên wê *kurd, kar, sekinîn* ji bo K-ya bihilm û *kurmanc, kes, kîr* ji bo K-ya bêhilm in. Ev cudahî ji cudahiya cihê derxistina K, G û Q cuda ye. Di noteya çavkaniyê de ji bo herdu awayên K peyva «nerm» dubare hatiye bikaranîn; ji ber vê neyekrêزییە، li vir tenê cudahiya bihilm/bêhilm û nîşanên IPA hatine parastin.
+Çavkaniyê di noteke binpê de destnîşan dike ku K di kurmancî û zazakî de xwe jî du fonemên cuda nîşan dide: K-ya bihilm **[kʰ]** û K-ya bêhilm **[k]**. Nimûneyên wê *kurd, kar, sekinîn* ji bo K-ya bihilm û *kurmanc, kes, kîr* ji bo K-ya bêhilm in. Ev cudahî ji cudahiya cihê derxistina K, G û Q cuda ye. Di noteya çavkaniyê de ji bo herdu awayên K peyva «nerm» dubare hatiye bikaranîn; ji ber vê nakokiya nivîsînê, li vir tenê cudahiya bihilm/bêhilm û nîşanên IPA hatine parastin.
 
 ### K û G di dîrok û zimanên cîran de
 
