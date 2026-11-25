@@ -2478,7 +2478,7 @@ Husein Muhammed, *Dengnasî di kurdî de*, rûpelên çapkirî 270–297.
 
 ## 1. O — vokala nîvbilind a paşîn û girovir
 
-Herfa **O/o** nîşana vokaleke nîvbilind (nîv-girtî), paşîn û girovir e. Di dema derxistina wê de ziman li beşa paşiya devê ye û di bilindahiya navîn de dimîne; lêv tên girovkirin û ber bi pêş ve tên kişandin. O di kurmancî de dirêj e û di IPA de bi **[o]** tê nîşandan; ji bo diyarkirina dirêjahiya wê dikare **[oː]** were nivîsîn, lê ev cudakirin ne pêwîst e, ji ber ku O di kurmancî de herdem dirêj e.
+Herfa **O/o** nîşana vokaleke nîvbilind (nîv-girtî), paşîn û girovir e. Di dema derxistina wê de ziman li beşa paşiya devê ye û di bilindahiya navîn de dimîne; lêv tên girovkirin û ber bi pêş ve tên kişandin. O di kurmancî de dirêj e û di IPA de bi **[o]** tê nîşandan; ji bo diyarkirina dirêjahiya wê dikare **[oː]** were nivîsîn, lê ev cudakirin ne pêwîst e, ji ber ku O di kurmancî de herdem dirêj e. O-ya kurt a farisî ku di hin peyvan de tê dîtin, ne hevreha vê O-ya kurmancî ye; ew ji aliyê dîrokî ve bi U-ya kurmancî re têkildar e.
 
 O li destpêk, nav û dawiya peyvê dikare were dîtin:
 - Destpêk: *ode, oxir, ofîs*.
@@ -2529,7 +2529,7 @@ Dengê tirkî Ö û dengên nêzî wê yên zimanên ewropî bi gelemperî di ku
 
 ### 2.3. Guherînên devokî û çemandinê
 
-O di kurmancî, soranî, zazakî û hewramî de heye. Di kurdiya başûrî de li cihê wê bi gelemperî Û heye: kurmancî *roj* li hemberî soranî *rûj*; kurmancî *co/cok* li hemberî soranî *cû/co*. Di hin peyvan de O ji komdengên -UH-, -UHI-, -UHU- û -UHE- peyda bûye:
+O di kurmancî, soranî, zazakî û hewramî de heye. Di kurdiya başûrî de li cihê wê bi gelemperî Û heye: kurmancî *roj* li hemberî soranî *rûz*; kurmancî *co/cok* li hemberî soranî *cû/cûy*. Di hin peyvan de O ji komdengên -UH-, -UHI-, -UHU- û -UHE- peyda bûye:
 - *duh/duhî* → *do*;
 - *duhtin* → *dotin*;
 - *buhirîn* → *borîn*;
