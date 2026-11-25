@@ -1100,7 +1100,7 @@ Lê K-ya proto-hindûewropî di gelek peyvan de di kurdî û zimanên din ên î
 
 Ji ber vê yekê, tevî ku *çi* û *kî* di proto-hindûewropî de ji heman rehê hatine, di kurmancî de K di *kî* de maye, lê di *çi* de bûye Ç.
 
-Piraniya peyvên kurdî yên bi K ne rasterast ji proto-hindûewropî hatine. Hin ji wan piştî parvebûna zimanên îranî peyda bûne an ji zimanên din hatine wergirtin. Pirtûk nimûneyên ji erebî *kal, kerb, kil, kîs* û ji tirkî *koç, koçer, kon/kûn* dide.
+Piraniya peyvên îranî yên bi K rehê wan nagihêje proto-hindûewropî; hin ji wan piştî parvebûna zimanên îranî peyda bûne an ji zimanên din hatine wergirtin. Pirtûk nimûneyên ji erebî *kal, kerb, kil, kîs* û ji tirkî *koç, koçer, kon/kûn* dide.
 
 Di hin peyvan de K-ya kurdî li cihê X-ya îraniya kevn hatiye. Pirtûk van berawirdkirinan dide:
 - Kurmancî *kanî*; zazakî *henî*; farisî û pehlewî *xanî/xanîg*; avestayî *xan-*.
@@ -1189,7 +1189,7 @@ Di kurdî de, li gorî devokan, L di hin peyvan de bi R diguhere. Çavkaniyê ni
 - Soraniya Hewlêrê *mindar* — soraniya Silêmaniyê *mindał/minał* — erebî *menal* — kurmancî *menal* (zarok).
 - Soraniya Hewlêrê *berê* — soraniya Silêmaniyê *bełê* — erebî *bela/belî* — kurmancî *belê* (erê).
 
-Di kurdî de L bi gelemperî bi dengên din naguhere. Lê pirtûk ji zimanên din nimûneyên guherîna L bi W û Y re dide: di portugaliya Brazîlyayê de *Brasil* wek *Brazîw* tê gotin; di hin devokên spanî de *llano* wek *lyano* an *yano* tê gotin; di fransî de forma pirhejmar a *animal* bi guherîna L-ya dawiyê ve girêdayî ye.
+Di kurdî de L bi gelemperî bi dengên din naguhere. Lê pirtûk ji zimanên din nimûneyên guherîna L bi W û Y re dide: di portugaliya Brazîlyayê de *Brasil* wek *Brazîw* tê gotin; di hin devokên spanî de *llano* wek *lyano* an *yano* tê gotin; di fransî de forma pirhejmar a *animal* bi guherîna L-ya dawiyê ve girêdayî ye. Pirtûk herwiha nimûneya polonî *ɫapa* (hevreh û hevwateya rûsî *lapa* û kurmancî *lep*) dide: di poloniya standard de wek *wapa* tê gotin, lê di hin devokên rojhilatî de wek *ɫapa* bi L-ya qelew tê bilêvkirin.
 
 ## Çavkanî
 
