@@ -3725,8 +3725,8 @@ Ev tablo tenê herfên alfabeyan berawird dike, ne dengên wan. Herfa hevşêwe 
 Di herdu zimanan de pênc herfên vokal ên hevpar hene: **A, E, I, O, U**. Lê pergala dengên wan yek nîne. Kurmancî vokalên **Ê, Î, Û** jî heye; tirkî jî **I, Ö, Ü** wek vokalên xwe yên cuda bi kar tîne.
 
 Hin cudahiyên girîng:
-- **I** ya kurmancî û **I** ya tirkî heman deng nînin. I ya tirkî nêzî dengê kurmancî **I** ye ku di çavkaniyê de bi nimûneya *kırın* tê berawirdkirin.
-- **İ** ya tirkî nêzî Î ya kurmancî ye, lê kurtir e.
+- **I** ya kurmancî û **i** ya tirkî heman deng nînin. Di tirkî de **ı** (I-ya bê xalekê) ji aliyê dengî ve nêzî **I** ya kurmancî ye; çavkaniyê *kirin* û *kırın* wek nimûneyên berawirdkirinê dide.
+- **i** ya tirkî (I-ya bi xalekê) nêzî **Î** ya kurmancî ye, lê kurtir e.
 - **U** ya tirkî bi gelemperî nêzî Û ya kurmancî ye.
 - **Ê** ya kurmancî di tirkîya standard de ne herf e û ne jî wek dengê vokalîk tê bikaranîn.
 - **Ö** û **Ü** di tirkî de dengên vokalîk in ku di kurmanciya giştî de wek wan tune ne; çavkaniyê dibêje ku di hin devokên kurdî de dengên nêzî wan dikarin hebin.
