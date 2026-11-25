@@ -2611,7 +2611,7 @@ Di piraniya devokan de Û wek [uː] tê gotin. Lê di hin deveran de ev deng dib
 
 Di hin deveran de *qanûn* dibe *qanün/qanwîn* û *tabût* dibe *tabüt/tabwît*. Di hin devokên kurmanciya rojhilatî de Û hema-hema herdem dibe Î, bi îstisnaya hin formên wek *bûn, çûn* û *û*. O ya kurmanciya giştî jî di Dihokê de carinan dibe Î û li Zaxoyê Ü: *kon/kün-kwîn/kîn; rovî/rüvî-rwîvî/rîvî; kovî/küvî-kwîvî/kîvî*.
 
-Guherîna Û→Ü an -WÎ- di hin deverên kurdiya başûrî de jî heye, herwiha di devokên şahzênî/şêxbizinî, hin devokên zazakî û hin devokên kurmanciya rojavayî de. Di hin deveran de Ü paşê dibe Î. Ev guherîn di soranî de bi heman awayî nehatiye dîtin. Herçend Ü di zimanên tirkîkî de heye, nikare hemû guherînên kurdî tenê bi tesîra tirkî were ravekirin; çavkaniyê nîşan dide ku ev deng di hin deverên dûrî zimanên tirkîkî de jî tê bikaranîn.
+Guherîna Û→Ü an -WÎ- di hin deverên kurdiya başûrî de jî heye. Li vir, bi gotina çavkaniyê, mebesta ji kurdiya başûrî devokên Feylî, Kelhurî û Kirmaşanî û yên nêzî wan e, ne tenê devokên Başûrê Kurdistanê. Ev guherîn herwiha di devokên şahzênî/şêxbizinî, hin devokên zazakî û hin devokên kurmanciya rojavayî de jî heye. Di hin deveran de Ü paşê dibe Î. Ev guherîn di soranî de bi heman awayî nehatiye dîtin. Herçend Ü di zimanên tirkîkî de heye, nikare hemû guherînên kurdî tenê bi tesîra tirkî were ravekirin; çavkaniyê nîşan dide ku ev deng di hin deverên dûrî zimanên tirkîkî de jî tê bikaranîn.
 
 ## 7. Rêbaza nivîsîna standard a Û
 
