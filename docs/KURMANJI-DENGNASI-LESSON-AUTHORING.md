@@ -19,7 +19,7 @@
 | 1 | Dergeh: dengnasî û lêkolînên pêşîn | 4–7 |
 | 2 | Vokal, konsonant, cih û awayên derketina dengan, pifdarî | 8–15 |
 | 3 | Hevdengî û pirdengî di nivîsînê de | 16–28 |
-| 4 | Qelewîtî | 29–40 (beşa destpêkê ya rûpela 40) |
+| 4 | Qelewîtî | 29–39 |
 | 5 | Rêjeya herfan di nivîsên kurmancî de | 40–43 |
 | 6 | Dengrêzî û kîte | 44–55 |
 | 7 | Tesîra guherîna dengî li ser nivîsînê | 56–67 |
@@ -29,8 +29,8 @@
 | 11 | Dengên K û L | 133–146 |
 | 12 | Dengên M û N | 147–154 |
 | 13 | Dengên P û Q | 155–167 |
-| 14 | Dengên R û S | 168–185 |
-| 15 | Dengên Ş û T | 186–202 |
+| 14 | Dengên R û S | 168–186 |
+| 15 | Dengên Ş û T | 187–202 |
 | 16 | Dengên V, W, Y û Z | 203–232 |
 | 17 | Eyn, K/G/Q û cotkonsonant | 233–250 |
 | 18 | Vokalên A û E | 251–269 |
@@ -379,7 +379,7 @@ Ev nîşankirin divê di ferheng û pirtûkên dengnasiyê de bimîne, ne ku di 
 
 Nivîskar di dawiya nîqaşê de destnîşan dike ku piraniya kurmancîzanan, bêyî nuqte û apostrof, dizanin ku P-ya *pez* qelew e; ji ber vê yekê nîşana taybet ji bo xwendin û nivîsîna asayî ne hewce ye.
 
-Husein Muhammed, *Dengnasî di kurdî de*, rûpelên çapkirî 29–40 (tenê beşa destpêkê ya rûpela 40; Dersa 5 jî di heman rûpelê de dest pê dike).
+Husein Muhammed, *Dengnasî di kurdî de*, rûpelên çapkirî 29–39.
 
 # Dersa 5 — Rêjeya herfan di nivîsên kurmancî de
 
@@ -1602,7 +1602,7 @@ Di peyva *mîras* de S-ya ku ji dengê didanî [θ] hatiye, di kurdî de di form
 
 ## Çavkanî
 
-Husein Muhammed, *Dengnasî di kurdî de*, rûpelên çapkirî 168–185.
+Husein Muhammed, *Dengnasî di kurdî de*, rûpelên çapkirî 168–186.
 
 
 # Dersa 15 — Dengên Ş û T
@@ -1727,7 +1727,7 @@ T di hin peyv û devokan de bi Ç diguhere: *pate/paçe*, *têşt/çêşt* (taş
 
 ## Çavkanî
 
-Husein Muhammed, *Dengnasî di kurdî de*, rûpelên çapkirî 186–202.
+Husein Muhammed, *Dengnasî di kurdî de*, rûpelên çapkirî 187–202.
 
 ---
 
