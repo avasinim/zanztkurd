@@ -956,7 +956,7 @@ Di hin peyvên ji erebî hatine de jî Ḧ bûye H an herdu awayên gotinê hene
 
 Di ferheng û pirtûkên dengnasiyê de girîng e ku cudahiya [h] û [ħ] were nîşandan da ku bilêvkirina peyvan zelal be. Lê di nivîsîna normal de pirtûk pêşniyar dike ku tenê herfa **H** were bikaranîn. Bi vî awayî nivîsîna peyvên xwemalî yekgirtî dimîne, tevî ku devok di bilêvkirina wan de cuda ne.
 
-Di kurmanciya rojhilatî de, ji bilî çend peyvên wek *ḧeft, teḧl, zeḧf* û peyvên ji wan çêbûyî, dengê [ħ] di peyvên xwemalî de kêm e. Di kurmanciya navendî de gelek peyvên xwemalî jî bi [ħ] tên gotin. Di soranî û farisî de peyvên ku di kurmancî de bi [ħ] tên gotin, heke peyda bibin, bi H-ya asayî an dengekî din tên gotin.
+Di kurmanciya rojhilatî de, ji bilî çend peyvên wek *ḧeft, teḧl, zeḧf* û peyvên ji wan çêbûyî, dengê [ħ] di peyvên xwemalî de kêm e. Di kurmanciya navendî de gelek peyvên xwemalî jî bi [ħ] tên gotin. Di soranî û farisî de peyvên kurdî/îranî yên li jor rêzkirî, heke peyda bibin, bi H-ya asayî an dengekî din tên gotin. Lê di soranî de hejmar 17 bi [ħ] tê gotin: *ḧevde*, ne *hevde*. Di farisî de hemû [ħ]-yên peyvên esil-erebî bi H tên gotin, tevî ku di nivîsînê de bi Ḧ tên parastin.
 
 ## 4. H [h] — qirrikî-xişok-nevizok-bêlerz
 
