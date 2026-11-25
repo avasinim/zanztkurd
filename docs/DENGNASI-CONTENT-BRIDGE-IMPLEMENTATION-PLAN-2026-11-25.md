@@ -1,0 +1,64 @@
+# Dengnasî 27-lesson content bridge — implementation plan
+
+Date: 2026-11-25
+
+## Purpose
+
+Prepare a safe, reviewable path to replace the existing PDF-only lesson payloads with the 27 source-based Kurmanji Latin lesson drafts on PR #89. This document is a repository-only implementation plan. It is not a release, a migration, or authorization to change production.
+
+## Verified repository facts
+
+- PR #89 remains Draft, Open and Unmerged. Its head is `b33b7088b5674929b48de87080e5cb2d64682e64`; its base is `a32992580c520ba64bdbea24cca982f488fb0cd1`.
+- PR #89 contains the authoring draft at `docs/KURMANJI-DENGNASI-LESSON-AUTHORING.md`, with 27 lesson sections. The course authoring rules require source-based paraphrase, Kurmanji Latin script, no invented/unsourced material, and no added quizzes, questions, exercises, objectives, recaps or answer keys.
+- The main-branch activation migration `supabase/migrations/20261124130000_activate_kurmanji_dengnasi_course.sql` already inserts the course `kurmanji-dengnasi-27` and exactly 27 lesson keys, `kurmanji-dengnasi-lesson-01.html` through `-27.html`.
+- Those 27 existing `lesson_content` rows currently hold PDF iframe wrappers, not the 27 authored lesson bodies. The migration contains 27 iframe elements.
+- All inspected lesson pages use `.lesson-content[data-lesson-key]` and the shared `script.js` loader.
+- The loader already queries `public.lesson_content` for `content_html` by `lesson_key`, but it has a deliberate early-return guard for keys matching `kurmanji-dengnasi-lesson-\d{2}\.html`. That guard writes an “under preparation” message and prevents the generic query from running.
+- The existing lesson-page files are under `lessons/`, not at repository root.
+- The course manifest records the same course ID and 27 lessons. The current production activation status text does not prove that the draft content from PR #89 has been seeded.
+- Existing security/access functions and sequential lesson gating must be preserved. No live Supabase catalog query was made during this audit.
+
+## Correct implementation shape
+
+This is a content replacement in an existing course, not a new course/schema design.
+
+1. Keep course ID `kurmanji-dengnasi-27` unchanged.
+2. Keep the existing 27 lesson keys unchanged and in order.
+3. Preserve existing enrollment, lesson_progress, completion RPCs, sequence checks, RLS policies, grants and access rules. Do not reset, delete or rewrite learner progress.
+4. Prepare a separately reviewed follow-up migration that updates only the 27 matching `public.lesson_content` rows (the intended fields are `title`, `content_html`, and, only if required by established conventions, `updated_at`). Use fail-closed preconditions: assert the expected course exists, assert all 27 keys exist exactly once, and verify the current payload is the known PDF-wrapper version before replacing it. Abort if any row differs unexpectedly. Do not use a blind upsert that could silently overwrite an unexpected state.
+5. Build each `content_html` body from the corresponding source-checked authoring section in PR #89. Convert only the authored lesson material into the existing lesson-card HTML pattern. Do not embed the source PDF iframe as the lesson body; a small source citation may remain, but the learner-facing content must be the authored lesson, not a page-sliced book.
+6. Remove the early-return guard in `loadProtectedLessonContent` only in the isolated implementation branch, so the existing authenticated Supabase SELECT path can run for this course. Retain the existing loading, missing-row, error, and `aria-busy` handling.
+7. Keep authentication, enrollment, previous-lesson completion checks and server-side `can_read_lesson_content` enforcement unchanged. Do not weaken or bypass them to make the content visible.
+8. Verify the course landing page and reader link to the existing `lessons/` pages, and ensure each page's `data-lesson-key` matches exactly one of the 27 seeded keys.
+9. Resolve the lesson-title and printed-page metadata differences against the source-checked authoring file and the canonical course manifest before generating the replacement rows. In particular, do not reintroduce the stale 14/15 page-range values from the reader table.
+10. Test in a disposable Supabase project first. Do not connect to or mutate production as part of this work.
+
+## Required validation before review
+
+- Static validation: exactly 27 unique ordered keys, no missing/duplicate lesson records, and title parity between the manifest, lesson-page headings and content seed.
+- Content validation: all 27 bodies are non-empty; Lessons 18–20 remain Latin-only; no invented quizzes/exercises or external audio links; every lesson stays within its source range.
+- SQL validation: syntax check, exact precondition checks, affected-row count = 27, and rollback test in a disposable database.
+- Runtime validation: owner and enrolled learner can load allowed lessons; anonymous and non-enrolled users remain blocked; lesson 2 remains locked until lesson 1 completion; failed/missing content shows the existing safe error state.
+- Regression validation: no changes to other courses, enrollments, progress, completion records, course order or access policies.
+- Capture test output and review the generated migration diff before opening any release PR.
+
+## Supabase migration workflow constraint
+
+When implementation is authorized and performed in a local project checkout, create the migration file using `supabase migration new <descriptive-name>` as required by the installed Supabase workflow. Do not invent a timestamped migration filename by hand. This branch currently contains no generated migration and no SQL has been applied.
+
+## Explicit non-actions / safety boundary
+
+- No live Supabase connection or SQL query was made.
+- No migration was created, applied or deployed.
+- No production row, enrollment, progress record, course metadata or access policy was changed.
+- No deployment or publication was triggered.
+- PR #89 remains Draft/Open/Unmerged and is not modified by this plan.
+- `main` is not modified by this branch.
+
+## Next implementation sequence
+
+1. Reconcile all 27 final titles and source-page ranges.
+2. Convert the 27 authored lesson sections into deterministic HTML payloads and run static checks.
+3. Implement the narrow loader-guard removal on this integration branch.
+4. Generate the follow-up migration through the Supabase CLI in a local checkout, add fail-closed row/hash checks, and validate it in a disposable project.
+5. Review the complete diff and test evidence before proposing a separate Draft PR for user review.
