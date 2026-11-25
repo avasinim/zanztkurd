@@ -3333,7 +3333,7 @@ Li gorî ravekirina dîrokî ya çavkaniyê, XWE- kevntir e û XO- ji wê peyda 
 
 Di hin zimanan de G berî hin vokalan wek [g], berî hinên din jî wek [c] an [j] tê gotin. Di inglîzî de G di gelek peyvan de [g] e, lê di peyvên wek *geology* û *Germany* de wek [c] tê gotin. Di fransî de di rewşên nêzîk de G dikare wek [j] were gotin. Herwiha di hin zimanan de C jî li gorî vokala piştî xwe dikare wek [k] an [ç] were gotin.
 
-Diyardeyeke nêzîk di piraniya devokên soranî de heye. Gava Ê an WÊ li pey G bikeve, G dikare wek [c] were gotin. Gava heman deng li pey K bikeve, K dikare wek [ç] were gotin:
+Diyardeyeke nêzîk di piraniya devokên soranî de heye. Gava Ê an WÊ li pey G bikeve, G dikare wek [c] were gotin. Çavkaniyê dibêje ku Gava van dengên vokalî li pey K bikevin, K dikare wek [ç] were gotin; lê nimûneya wê ya *kî, kê → kê* bi [kê] hatiye nivîsîn, ne [çê]. Ev nakokiya navxweyî ya di navbera rêzik û nimûneyê de ye; ji ber nebûna delîlekê ya din, divê wek nakokiya çavkaniyê were nîşankirin, ne ku bi texmîn were çareserkirin.
 
 | Kurmancî | Soranî nivîskî | Soranî bilêvkirin |
 |---|---|---|
