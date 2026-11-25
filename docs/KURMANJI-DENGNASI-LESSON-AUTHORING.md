@@ -1433,7 +1433,7 @@ Di hin nivîsên dengnasiyê de R-ya nerm bi R/r û R-ya req bi Ř/ř tê nîşa
 
 ### R-ya req li nav û dawiya peyvê
 
-R-ya req dikare li nav an dawiya peyvê jî xuya bibe. Nimûne: *bajar, pir* («gelek»), *birîn* û *biryar*. Di hin nivîsînan de ev R bi **rr** tê nîşandan: *bajarr, pirr, birrîn, birryar*. Tێبینیی سەرچاوە: لە لاپەڕە ١٦٩دا *birîn* بە واتای «جێکردن/بڕین» هاتووە، بەڵام لە لاپەڕەی دواتردا جیاوازیی *birîn* («برین») و *birrîn* («جێکردن») دەخاتەڕوو؛ ئەم ناهاوسەنگییەی کتێب بە بێ بڕیاری دەرەکی لێرەدا بە ئاگاداری تۆمار کراوە.
+R-ya req dikare li nav an dawiya peyvê jî xuya bibe. Nimûne: *bajar, pir* («gelek»), *birîn* û *biryar*. Di hin nivîsînan de ev R bi **rr** tê nîşandan: *bajarr, pirr, birrîn, birryar*. Têbîniya çavkaniyê: Li rûpela 169 de *birîn* bi wateya «jêkirin» hatiye dayîn, lê li rûpela paşîn de cudahiya *birîn* («birîndarî») û *birrîn* («jêkirin») tê nîşandan. Ev nakokiya hundirîn a pirtûkê bê biryareke derveyî hatiye tomar kirin.
 
 Nivîsandina **rr** carinan ji bo cudakirina peyvên hevnivîs tê bikaranîn:
 - *birîn* («birîndarî») û *birrîn* («jêkirin»);
