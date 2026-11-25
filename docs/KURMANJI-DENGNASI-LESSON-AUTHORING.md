@@ -22,7 +22,7 @@
 | 4 | Qelewîtî | 29–39 |
 | 5 | Rêjeya herfan di nivîsên kurmancî de | 40–43 |
 | 6 | Dengrêzî û kîte | 44–55 |
-| 7 | Tesîra guherîna dengî li ser nivîsînê | 72–75 |
+| 7 | Tesîra guherîna dengî li ser nivîsînê | 56–67 |
 | 8 | Konsonantên B, C, Ç û D | 68–103 |
 | 9 | Dengên F û G | 104–115 |
 | 10 | Dengên H û J | 116–132 |
@@ -595,104 +595,104 @@ Di kurmancî de konsonantên bilerz li dawiya peyvê bi otomatîkî nabin bêler
 
 Husein Muhammed, *Dengnasî di kurdî de*, rûpelên çapkirî 44–55.
 
-# Dersa 7 — Dengê B: taybetmendî, dîrok û guherîn
+# Dersa 7 — Tesîra guherîna dengî li ser nivîsînê
 
-## 1. Cudahiya B û P
+## 1. Pirsa bingehîn: em çawa binivîsin?
 
-Tevî ku **B** û **P** ji aliyê cih û awayê derketina dengê ve dişibin hev, ew du dengên cuda û serbixwe ne. Cudahiya bingehîn ew e ku B bilerz e, lê P bêlerz e. Di dema derketina B de perdeya dengî ya di gewriyê de dilerize; di derketina P de perde nalize.
+Di axaftinê de hin deng ji ber dengên nêzîkî xwe diguherin. Lê carinan forma gotinê ji rehê peyvê cuda dibe. Mînakên pirtûkê:
+- *kuştin* ji *kuj + tin* hatiye;
+- *dezgeh* ji *dest + geh* hatiye;
+- *pezkovî / pezkûvî* di axaftina bilez de dikarin wek *peskovî / peskûvî* bên bihîstin;
+- *ez têm* di axaftina bilez de dikare wek *es-têm* were bihîstin.
 
-Di kurmanciya giştî de B tenê xwedî yek varyantê ye; tenê di çend devokên berteng de du varyantên B peyda dibin. P di kurdî de sê an heta çar varyantên cuda hildigire. Ji ber vê yekê P nîşana du foneman an dengên serbixwe ye, lê B tenê fonemek e.
+Pirsa rastnivîsînê ev e: gelo em ê forma ku tê gotin binivîsin, an jî reh û pêkhateya peyvê biparêzin? Pirtûk nîşan dide ku bersiv li gor cureya peyvê diguhere; ji bo hemû rewşan yek rêbaz tune.
 
-## 2. Cûreyên P û B
+## 2. Peyvên xwerû: nivîsîn li gor forma gotinê
 
-P-yên kurmancî û zazakî — lê ne yên soranî, kelhurî, hewramî û farisî — li gor pifdariyê (aspirasyon) dikarin bên dabeşkirin:
+Di peyvên xwerû de pirtûk prensîba hêsanî û pratîka zimanê zindî diparêze: peyv bi forma ku di zimanê axaftinê de cihê xwe girtiye tê nivîsîn, ne bi vegerandina zorî ya rehê wê.
 
-- **P-ya bipif, anku req:** wek *pale, perde, pare/pere, porr*.
-- **P-ya bêpif, anku nerm:** wek *pêr, pênc, pîr, poz, piling, pazde(h)*.
+Nimûneyên sereke:
+- *kuştin*, ne *kujtin*;
+- *lîstin*, ne *lîztin*;
+- *axiftin*, ne *axivtin*.
 
-Di kurdî û piraniya zimanên din de tenê B-ya bêpif heye. Lê di hin zimanên din de, bi taybetî di zimanên Nîvgiravê Hindistanê de, B-ya bipif jî peyda dibe.
+Ev form di axaftina hemû axêveran de hatine cihgirandin û di nivîsîna kurmancî de jî belav in. Pirtûk bi mînakên îngilîzî û tirkî nîşan dide ku zimanên din jî dikarin di hin rewşan de forma gotinê ji şiroveya rehî pêşî bixin.
 
-P-yên bêpif jî du cûre ne:
+**Têbînî:** Ev prensîb tenê ji bo peyvên xwerû yên ku forma wan di zimanê de qediya û cihgir bûye tê gotin; ew nayê wateya ku her guherîna dengî ya di axaftinê de divê di nivîsînê de were nîşandan.
 
-1. **P-ya sade an zirav:** wek *pênc, pêr, pîr*.
-2. **P-ya qelew, qalind an empfatîk:** wek *pazde(h), piling, payiz*.
+## 3. Peyvên li pey hev û peyvên pêkhatî
 
-Di kurdî de bi gelemperî tenê B-ya sade an zirav heye. Ew ji P-ya sade tenê bi lerza xwe cuda ye. Heta li gel vokalên paşîn **a, i, o, û** jî B zirav dimîne, tevî ku di gelek zimanan de vokalên paşîn konsonanta berî xwe qelew dikin.
+Gava du peyvên serbixwe li pey hev tên, guherîna dengî ya di axaftina bilez de bi gelemperî di nivîsînê de nayê nîşandan.
 
-Lê di hin devokên berteng de an di devê hin takekesan de, B di hin peyvan de qelew tê gotin; wek *berdan*. B-ya qelew wek P-ya qelew e, lê bilerz e.
+Mînak:
+- *ez têm* di axaftina bilez de dikare wek *es-têm* were bihîstin; lê di nivîsînê de *ez têm* dimîne.
+- Di îngilîzî de *let it be* di gotina bilez de dikare T-ya *it* wek D were bihîstin, lê nivîsîn T diparêze.
+- Di tirkî de *kitap geldi* di axaftina bilez de dikare wek *kitab geldi* were bihîstin; lê P di nivîsînê de dimîne.
 
-## 3. Cihê peydabûna B di peyvan de
+Heman prensîb di peyvên pêkhatî de jî tê dîtin. Mînakên *pezkovî* û *pezkûvî* rehên xwe di nivîsînê de diparêzin, tevî ku di gotina bilez de dengên wan dikarin biguherin.
 
-B di kurdiya niha de dikare li destpêk, nav û dawiya peyvê peyda bibe:
+## 4. Peyvên paşgirdar: her tim yek rêbaz tune
 
-- **Destpêk:** *ba, bilind, birin*.
-- **Nav:** *reben, edebiyat, dibêjim*.
-- **Dawî:** *xirab, reb, edîb*.
+Di peyvên ku ji reh û paşgirê pêk tên, rewş hinekî tevlihev e. Pirtûk mînakên *dezgir, dezgeh, desmal, destpêk* dide ku bi peyva *dest* ve girêdayî ne. Di hin peyvan de T ketiye, û di hin rewşan de dengên din jî ji ber tesîra dengên nêzîk guherîne.
 
-Li gor lêkolîna rêjeya herfan a ku nivîskar berê kir, B di nivîsên kurmancî de rêjeya 4,5% heye. Lê di peyvên xwerû de B bi piranî li destpêka peyvê tê; li nav û dawiya peyvê, bi taybetî di peyvên xwemalî yên îranî de, kêm peyda dibe.
+Pirtûk du rewş ji hev cuda dike:
+1. **Peyvên kevn û cihgir:** Peyvên ku ji mêj ve di zimanê axaftinê de bi forma guherî de hatine bikaranîn, dikarin forma xwe ya naskirî biparêzin; wek *dezgeh, dezgir, dezgirtî*.
+2. **Peyvên nûçêkirî an formên zelal ên zimanê nivîskî:** Di van de parastina rehê peyvê dikare baştir be, da ku pêkhateya wê zelal bimîne.
 
-## 4. Dîroka B li destpêka peyvan
+Ji ber vê yekê divê mirov li dîroka peyvê, maneya wê û asta cihgirtina wê di zimanê de binêre; ne ku her peyvekê bi rêgezeke yekane rast bike.
 
-Di kurmanciya niha de B li destpêka gelek peyvan heye, wek *ba, bar, baran, bend, ber, befr/berf, bilind, birin, biyolojî, bizin, (ji) bo, borî/borrî, boş, bum, burc, buxar, bûk, bûn, bûstan*.
+## 5. Tesîra cihê derketina dengê
 
-Hin ji van peyvan bi eslê xwe biyanî ne: *bum* û *buxar* ji erebî, *borrî* ji tirkî û *biyolojî* bi rêya fransî ji yûnanî hatiye. Lê piraniya nimûneyan peyvên xwemalî ne, wek *ba, bar, baran, ber, berf/befr, birin, bizin*.
+Deng dikare ji ber cihê çêbûna dengekî din biguhere. Pirtûk mînaka guherîna **N → M** berî dengê **B** dide.
 
-Gava em li dîrok û etîmolojiya van peyvan dinêrin, dibînin ku gelek ji wan di hin ziman û zaravayên din ên îranî de ne bi B, lê bi V an W dest pê dikin. Nimûneyên peyva *baran*:
+Mînak:
+- *beramber*, ne *beranber*;
+- *pêxember*, ne *pêxenber*;
+- *duşemb*, ne *duşenb*;
+- *himbêz*, ne *hinbêz*.
 
-| Ziman an zarava | Forma peyvê |
-|---|---|
-| Kurdiya başûrî | *waran* |
-| Hewramî | *waran* |
-| Zazakî | *varan* |
-| Pehlewî | *varan* |
-| Mazenderanî | *variş* |
-| Avestayî | *vara-* |
-| Belûçî | *gwariş* |
+Sedem: N û M herdu dengên bêvilî ne, lê cihê çêbûna wan cuda ye. M bi herdu lêvan tê çêkirin; B jî dengekî lêvî ye. Gava N berî B were, cihê çêbûna wê dikare nêzî M bibe û wek M were gotin.
 
-Peyva *berf/befr* jî di gelek zimanên îranî de bi V an W dest pê dike: kurdiya başûrî *wefr*, pehlewî *wefr*, sogdî *wefre*, mazenderanî *vefr*, avestayî *vefre*, zazakî *vewre*, hewramî *wewre/werwe* û sanskrîtî *gebhre*.
+## 6. Tesîra awayê dengî
 
-Di peyva *bîst* de jî formên bi V an W hene: zazakî û pehlewî *vîst*, hewramî *wîs*, avestayî *vîseiti-*, sanskrîtî *vinçatî-* û latînî *viginti*; di îngilîzî de jî forma *twenty* bi t-w dest pê dike.
+Ne tenê cihê dengê, lê awayê çêbûna wî jî dikare guherînê çêbike. Pirtûk mînaka **V** û **H** dide:
+- Di kurmancî de: *kulav, kovî / kûvî*;
+- Di farisî de: *kolah, kohî*.
 
-Lê hin peyv bi eslê xwe jî bi B bûn. Bo nimûne *birin, bend, bizin* bi avestayî *ber-, bend-, bûze-*, bi zazakî *berden, bend, bize* û bi îngilîzî *bear, bind, buck* tên berawirdkirin. Di van peyvan de B di gelek zimanan de hatiye parastin.
+V û H ji aliyê cihê çêbûna dengê ve dûr in, lê di vê berawirdkirinê de awayê dengî ya wan wek hev tê şîrovekirin: herdu jî xişokên nevizok in. Ji ber vê yekê dikare di hin peyvan de yek li şûna ya din were.
 
-Li gor nivîskar, B li destpêka peyvan di zimanê kurdî û hin zimanên din de, anku di proto-hindûewropî de, bisinor bû. Ji ber vê yekê piraniya B-yên niha li destpêka peyvên kurdî di eslê xwe de V an W bûn. Guherîna V/W bi B diyardeyeke kêm e û di kurdî de li destpêka peyvê çêbûye; li nav an dawiya peyvê ev guherîn pêk nehatiye.
+## 7. Analojî: wekhevkirina şiklê peyvan
 
-## 5. Guherîna B bi V/W: betasîzm
+**Analojî** an wekhevkirin ew e ku peyvên ku ji aliyê maneyê, erkê rêzimanî an şêwaza bikaranînê ve nêzîkî hev in, di şiklê xwe de jî nêzîk bibin. Ev guherîn carinan bi rêzikên giştî yên guherîna dengî nayê şirovekirin; ji ber ku sedema wê bandora peyveke din e.
 
-Diyardeya guherîna **B bi V/W** di zimannasiyê de **betasîzm** (betacism) tê gotin. Navê wê ji *beta*, navê herfa B ya alfabeya yûnanî, hatiye. Di yûnanî û gelek zimanên din de B gelek caran dibe V an W.
+### 7.1. Analojî di hejmaran de
 
-Di kurmancî de guherîna B bi V li destpêka peyvê tune ye an gelek kêm e. Lê di kurmancî û zaravayên din ên kurdî de guherîna B/P bi V/W li nav û dawiya peyvê diyardeyeke gelek berbelav e.
+Pirtûk du nimûneyên kurmancî dide:
+- **heşt**: li gor berawirdkirina dîrokî, H-ya destpêkê bi bandora *heft* hatiye zêdekirin.
+- **neh**: şiklê wê bi bandora *deh* re hatiye nêzîkkirin.
 
-Di hin peyvan de, di hemû zaravayên kurmancî de B/P bûye V/W, lê di zimanên din de B/P hatiye parastin:
+Analojî dikare di destpêk, nav an dawiya peyvê de çêbibe. Bandor dikare ji peyva berî wê an peyva piştî wê were; lê ne her tim pêk tê.
 
-| Kurmancî | Soranî | Farisî | Belûçî | Avestayî | Sanskrîtî |
-|---|---|---|---|---|---|
-| *av* | *aw* | *ab* | *ap* | *ap-* | *ap-* |
-| *sêv* | *sêw* | *sîb* | *sop* | — | *sêp-* |
-| *ewr* | *ewr* | *ebr* | *hewr-* | *ebre-* | *ebhre-* |
+### 7.2. Analojî di daçekan de
 
-Li gor nivîskar, di kurmancî de di nav û dawiya peyvên kevnar ên xwemalî yên xwerû de B tune bû; wan hemûyan V an W hebû. Peyvên wek *xirab, bab, reben, zebeş, kitêb* di kurdî de peyvên nû ne û berî çend sedsalan ji zimanên din hatine wergirtin.
+Pirtûk nîşan dide ku pêşdaçekên kurmancî **bi, di, ji, li** ji aliyê şiklê dengî ve pir nêzîkî hev in. Her yek ji wan du deng hildigire û bi dengê *i* diqede. Li gor nivîskar, ev nêzîkbûn bi erkê wan ê rêzimanî ve girêdayî ye: hemû pêşdaçek in û tên pêşiya navdêran, tevî ku maneyên wan cuda ne.
 
-Di devokên kurmancî û zaravayên din ên kurdî de niha jî di navbera B û V/W de şerekî man û nemanê heye. Piraniya kurmancîaxivanan B li nav û dawiya peyvê qebûl kiriye, lê di gelek devokan de V an W hîn jî tê parastin. Nimûne:
+Pirtûk herwiha paşdaçekên **de, re, ve** wek nimûneyên din ên nêzîkbûna şiklê pêşkêş dike. Dîroka wan cuda ye, lê di kurmancî de şiklên wan nêzîkî hev bûne.
 
-- *’evd, ’ebd* (ji erebî *’ebd*).
-- *kebab, kivav, kiwaw, kevav* (ji erebî *kebab*).
-- *kitêb, kitêv, kitêw, kitav, kitaw* (ji erebî *kitab*).
-- *ḥeb, ḥev, ḥew* (ji erebî *ḥeb*; bi wateya dermanê hişk an lib).
-- *bab, bav, bawk* (forma *bawk* di soranî de ye).
+### 7.3. Analojî di cînav û hokeran de
 
-## 6. Guherîna B bi F
+Nimûneyên pirtûkê:
+- Cînavên kesî: *te, me, we*;
+- Cînavên nîşandanê: *ev / ew* û formên wan: *vê / wê, vî / wî, van / wan*;
+- Hokerên dijwate: *pêş / paş* û *jêr / jor*.
 
-Di gelek peyvên ji erebî wergirtî de, di kurdî de F li şûna B-ya erebî hatiye:
-
-- *hefs* ji erebî *ḥebs*.
-- *zeft* ji erebî *ẓebt*.
-
-Li gor şiroveya nivîskar, ev encam pêşî bi guherîna B bi V çêbûye; paşê V-ya bilerz di bin tesîra T-ya bêlerz de bêlerz bûye û veguheriye F. Ji ber vê yekê B di kurdî de rasterast nebûye F; guherîn bi navbeyna V re pêk hatiye.
+Ev cot peyv nîşan didin ku analojî dikare di çend cureyên peyvan de bandorê li şiklê wan bike.
 
 ## Çavkanî
 
-Husein Muhammed, *Dengnasî di kurdî de*, rûpelên çapkirî 72–75.
+Husein Muhammed, *Dengnasî di kurdî de*, rûpelên çapkirî 56–67.
+
+---
 
 # Dersa 8 — Konsonantên B, C, Ç û D
 
