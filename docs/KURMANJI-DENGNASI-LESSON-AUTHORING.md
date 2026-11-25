@@ -3701,7 +3701,7 @@ Hin cudahiyên girîng:
 - **i** ya tirkî (I-ya bi xalekê) nêzî **Î** ya kurmancî ye, lê kurtir e.
 - **U** ya tirkî bi gelemperî nêzî Û ya kurmancî ye.
 - **Ê** ya kurmancî di tirkîya standard de ne herf e û ne jî wek dengê vokalîk tê bikaranîn.
-- **Ö** û **Ü** di tirkî de dengên vokalîk in ku di kurmanciya giştî de wek wan tune ne; çavkaniyê dibêje ku di hin devokên kurdî de dengên nêzî wan dikarin hebin.
+- **Ö** û **Ü** di tirkî de dengên vokalîk in ku di kurmanciya giştî de wek wan tune ne; çavkaniyê dibêje ku di hin devokên kurdî de dengên nêzî wan dikarin hebin. Di hin devokan de **Û** wek **Ü** ya tirkî, lê dirêjtir, tê gotin; **O** ya kurmanciya giştî jî di hin devokan de nêzî **Ö** ya tirkî ye, lê dirêjtir.
 
 Cudahiya dirêjî jî girîng e: di kurmancî de **A, Ê, Î, O, Û** dikarin dirêj bin; **E, I, U** kurt in. Di peyvên xwemalî yên tirkî de vokal bi gelemperî kurt in.
 
@@ -3715,7 +3715,7 @@ Di kurmancî de, berevajî vê, vokalên cuda dikarin di heman peyvê de bi hev 
 
 ## 5. Konsonantên hevpar û cudahiyên wan
 
-Herfên **B, C, D, E, F, G, J, L, M, N, Ş, V, Y** di herdu zimanan de di çarçoveya çavkaniyê de wek hev tên nîşandan. Lê ev nayê wê wateyê ku hemû dengên konsonantîk di her du zimanan de tam wek hev in.
+Herfên **B, C, D, E, F, G, J, L, M, N, Ş, V, Y** di herdu zimanan de di çarçoveya çavkaniyê de wek hev tên nîşandan. Lê ev nayê wê wateyê ku hemû dengên konsonantîk di her du zimanan de tam wek hev in. Çavkaniyê 25 herfên hevpar di navbera herdu alfabeyan de dihesibîne, lê tenê 13 deng bi temamî û herdem wek hev in; anku rêjeya dengên tam hevpar nêzîkî 50% e.
 
 Herfên **Q, W, X** di alfabeya kurmancî de hene, lê di alfabeya tirkî ya bingehîn de nînin. Herfa **Ğ** ya tirkî jî di alfabeya kurmancî de tune ye.
 
@@ -3803,7 +3803,7 @@ Kurmancî ji ber ku di peyvên xwemalî de jî komkonsonantên destpêkê hene, 
 | P | perde | pênc |
 | T | taze / teze | tû |
 
-Di vê beşê de armanc tenê nasîna cotdengiyê nîne; çavkaniyê li ser sedem û dîroka peydabûna wê jî dipirse.
+Nimûneyeke din a cudahiya watedar, peyva **ka** ye: bi K-ya bêpif wateya “giyayê hişk” dide; bi K-ya bipif wateya “li kû ye?” an “li çi cihî ye?” dide. Di vê beşê de armanc tenê nasîna cotdengiyê nîne; çavkaniyê li ser sedem û dîroka peydabûna wê jî dipirse.
 
 ## 14. Şîroveya dîrokî: tesîra ermenî?
 
