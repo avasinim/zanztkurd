@@ -46,11 +46,11 @@
 
 ---
 
-# Dersa 1 — Dergeh û ev vekolîn û yên berî wê
+# Dersa 1 — Dergeh: ev vekolîn û yên berî wê
 
 ## 1. Dengnasî di nav zimannasiyê de
 
-Dengnasî (fonolojî; bi îngilîzî *phonology*) yek ji beşên sereke yên zimannasiyê ye. Beşên din ên sereke teşenasî, hevoknasî, watenasî û kirdarînasî ne. Ji ber vê yekê, di gelek pirtûkên rêzimana kurdî de dengnasî di destpêka pirtûkê de tê xuyangkirin.
+Dengnasî (fonolojî; bi îngilîzî *phonology*) yek ji beşên sereke yên zimannasiyê ye. Beşên din ên sereke teşenasî (morfolojî), hevoknasî, watenasî û kirdarînasî ne. Ji ber vê yekê, di gelek pirtûkên rêzimana kurdî de dengnasî di destpêka pirtûkê de tê xuyangkirin.
 
 Tevî girîngiya wê, heta niha lêkolînên taybet û berfireh ên li ser dengnasiya kurdî kêm bûne. Gelek rêzimannivîs tenê beşeke biçûk ji berhemên xwe ji vê mijarê re veqetandine.
 
@@ -64,7 +64,7 @@ Piştî van xebatan, zimannasên din jî li ser beş, devok an mijarên taybet �
 
 Ev xebat ji aliyê mijar û devera lêkolînê ve sînorên xwe hene. Gelek ji wan hemû aliyên dengnasiyê nagirin û piraniya berhemên zanistî yên berê bi zimanên biyanî hatine nivîsîn.
 
-## 3. Têkiliyên dengnasî ya kurdî bi zimanên cîran re
+## 3. Têkiliyên dengnasî yên kurdî bi zimanên cîran re
 
 Dengnasîya kurdî ji dengnasîya zimanên cîran ve nayê veqetandin. Di navbera kurdî û hin zimanên din de hevtesîrî hene. Di destpêka vê vekolînê de çend mînak tên destnîşankirin:
 
