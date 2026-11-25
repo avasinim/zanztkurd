@@ -3393,7 +3393,7 @@ Di vê komê de başûrî bi soranî re nêzîk e. Li gorî ravekirina dîrokî 
 
 ## 4. Û ya kurmancî û Ü an Î ya başûrî
 
-Di piraniya devokên başûrî de li hember Û ya kurmancî û soranî, dengê Ü heye. Hin devok jî li heman cih Î dibêjin.
+Di piraniya devokên başûrî de li hember Û ya kurmancî û soranî, dengê Ü heye. Di piraniya devokên başûrî de di van nimûneyan de Ü heye; hin devok Î dibêjin, û li çend deveran jî formên bi Û hatine parastin.
 
 | Kurmancî | Soranî | Başûrî |
 |---|---|---|
@@ -3412,8 +3412,8 @@ Li cihê O ya kurmancî û soranî, di gelek devokên başûrî de Û heye.
 |---|---|---|
 | roj | roj | rûj |
 | zor | zor | zûr |
-| kor, kore | kwêr | kûr |
-| dew | do | dû |
+| kor, kore | (kwêr) | kûr |
+| (dew) | do | dû |
 
 Çavkaniyê ev guherîn bi rêgezeke dîrokî rave dike: O di başûrî de bûye Û; piştî ku Û di hin devokan de bûye Ü, cihê wê vala bûye û O dikaribû li cihê wê were bilêvkirin. Nimûneyên kurmanciya rojhilatî yên din jî hene: “roj” dibe “rûj / ruj” û “got” dibe “gût / gut”.
 
@@ -3448,8 +3448,6 @@ Di hin devokên başûrî de, bi taybetî li Kirmaşan û Mendelî, Ł nayê dî
 ## 8. Pifdariya Ç, K, P û T
 
 Di kurdiya başûrî de, wek soranî û berevajî kurmancî û zazakî, Ç, K, P û T li destpêka peyvan herdem bipif, anku req, in. Li nav û dawiya peyvan, bi taybetî di kîteyên negirankirî de, bêpif, anku nerm, dibin. Di footnote-a çavkaniyê de S-ya qelew a di peyva *sed* de wek nîşaneyeke dengî hatiye destnîşankirin; ev qelewî divê ji pifdariya Ç/K/P/T cuda were fêmkirin.
-
-Ev cudahî taybetmendiyeke bilêvkirinê ye. Divê xwendekar pifdarî bi dengdarî an bêdengiya dengê tevlihev neke: pifdarî li ser bayê ku piştî berdana astengiyê derdikeve ye.
 
 ## 9. ST ya kurmancî û S, ES an HES ya başûrî
 
