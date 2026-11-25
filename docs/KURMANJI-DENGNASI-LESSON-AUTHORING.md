@@ -2833,7 +2833,7 @@ Di *Sûriye* û *Tirkiye* de giranî li ser kîteya sêyem-dawiyê ye. Di hin na
 
 ### 16. Giranî di rengdêran de
 
-Di rengdêrên du-kîteyî û pir-kîteyî de giranî bi gelemperî li ser kîteya dawiyê ye:
+Di rengdêrên du-kîteyî û pir-kîteyî de giranî herdem li ser kîteya dawiyê ye:
 - *me-ZIN*;
 - *gi-RAN*;
 - *za-NA*;
