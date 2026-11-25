@@ -2490,208 +2490,144 @@ Husein Muhammed, *Dengnasî di kurdî de*, rûpelên çapkirî 270–297.
 
 # Dersa 20 — Vokalên O, U û Û
 
-## 1. O — vokala paşîn, nîvbilind û girovir
+## 1. O — vokala nîvbilind a paşîn û girovir
 
-Herfa **O/o** nîşana vokaleke paşîn, nîvbilind û girovir e. Di dema derxistina wê de ziman li beşa paşiya devê ye û di bilindahiyeke navîn de dimîne; lêv tên girovkirin û ber bi pêş ve tên kişandin. O di kurmancî de dirêj e.
+Herfa **O/o** nîşana vokaleke nîvbilind (nîv-girtî), paşîn û girovir e. Di dema derxistina wê de ziman li beşa paşiya devê ye û di bilindahiya navîn de dimîne; lêv tên girovkirin û ber bi pêş ve tên kişandin. O di kurmancî de dirêj e û di IPA de bi **[o]** tê nîşandan; ji bo diyarkirina dirêjahiya wê dikare **[oː]** were nivîsîn, lê ev cudakirin ne pêwîst e, ji ber ku O di kurmancî de herdem dirêj e.
 
-Nîşana wê di IPA de **[o]** ye; ji bo nîşandana dirêjahiya wê dikare **[oː]** were nivîsîn.
+O li destpêk, nav û dawiya peyvê dikare were dîtin:
+- Destpêk: *ode, oxir, ofîs*.
+- Nav: *gore, hol, morîk*.
+- Dawî: *gelo, hevalo, Heso*.
 
-O li her sê cihên peyvê dikare bê:
-- **Destpêk:** *ode, oxir, ofîs*.
-- **Nav:** *gore, hol, morîk*.
-- **Dawî:** *gelo, hevalo, Heso*.
+Rêjeya herfa O di nivîsên kurmancî de **0,95%** e; ji vokalên din kêmtir tê bikaranîn. Ji bilî çend peyvên gazîkirinê (*oh, of, ox, oy*), O li destpêka peyvên xwemalî bi gelemperî nayê dîtin. Di peyvên esil-erebî de jî li destpêkê tune ye. Li dawiya peyvên xwemalî jî kêm e; çend nimûneyên awarte wek *bo, co, ço, do, go, ho, jo, ko, lo, no, ro, xo* hene û gelek ji wan varyantên din hene. O ya dawiyê bi taybetî di forma gazîkirinê de xuya dike: *hevalo, gelo, Ehmedo, zarokino*.
 
-O di nivîsên kurmancî de vokaleke kêm-tir e. Li destpêka peyvên xwemalî bi gelemperî nayê dîtin. Di peyvên wergirtî de, bi taybetî yên ji tirkî û zimanên ewropî, zêdetir xuya dike: *ode, ordek, oxir, otomatîk, otêl*.
+Di peyvên ku bi O dest pê dikin de gelek caran peyvên ji tirkî an zimanên ewropî hatine wergirtin hene: *ode, ordek, oxir, ordî, otonomî, otomobîl, ofîs, otomatîk, otêl*. Hin devok li pêşiya O asteng çêdikin: *ode* dikare bibe *hode* an *wede*; *ordek* bibe *werdek*; *oxir* li Behdînan bibe *wexer*. Peyva *otomobîl* jî di hin qonaxan de bi awayên *tomobîl, tumubîl* û paşê *tirimpêl* hatiye gotin.
 
-Li dawiya peyvên xwemalî O kêm e; lê di forma gazîkirinê (vokatîv) de tê dîtin:
-- *hevalo!*;
-- *gelo!*;
-- *Ehmedo!*;
-- *zarokino!*.
+## 2. Çavkaniya dîrokî û devokî ya O
 
-Di hin peyvên gazîkirinê de O wek paşpirtika dengî tê zêdekirin. Ev yek ji awayên sereke yên peydabûna O di peyvên xwemalî de ye.
+Di kurmancî de O gelek caran ji komdengên kevn peyda bûye.
 
-## 2. Çavkaniya dîrokî ya O
+### 2.1. Guherîna EW û AW bo O
 
-O ya kurmancî dikare ji gelek komdengên kevn peyda bibe.
-
-### 2.1. Guherîna EW → O
-
-Di hin peyvan de komdengê EW bûye O:
+Di hin peyvan de -EW- bûye O:
 - *dewr* → *dor*;
 - *xewx* → *xox*;
 - *lewme* → *lome*;
 - *tewbe* → *tobe*.
 
-Di hin peyvên îranî yên kevn de -EW- an -AW- jî di kurmancî de bûye O:
-- *roj* bi formên kevn ên îranî yên bi REWÇ re tê berawirdkirin;
-- *go-lik* û *go-şt* bi rehên kevn ên bi GAW ve girêdayî ne.
+Di peyvên îranî yên kevn de -EW- an -AW- jî dikare bibe O:
+- *roj* bi îraniya kevn *rewç-* û avestayî *reoç* re tê berawirdkirin;
+- *go-lik* bi rehê îraniya kevn *gaw-* ve girêdayî ye;
+- *go-şt* ji rehê kevn *gaw-tenu* re tê girêdan.
 
-Di hin zimanên din de heman komdeng parastî ye an guheriye bo dengên din. Bo nimûne kurmancî *xweş* û soranî *xoş* li hemberî farisî *xûş* tên.
+Di hin zimanên din de heman komdeng parastî ye an bi awayekî din hatiye guhertin. Mînak: kurmancî *xweş*, soranî *xoş*, farisî *xûş*; kurmancî û soranî *ew*, lê farisî û zazakî *o*.
 
-### 2.2. Guherînên din
+### 2.2. Guherînên din ên dîrokî
 
 Di hin peyvan de O ji -UF-/-UV- peyda bûye:
 - farisî *guften* → kurmancî *gotin*;
 - farisî *cuft* → kurmancî *cot*.
 
-Komdengên -IW- û -IWA- jî di hin peyvan de dikarin bibin O:
-- *ciwan* → *conega* di hin formên kevn/guherî de;
+Komdengên -IW- û -IWA- jî dikarin bibin O:
+- *ciwan-e-ga* → *conega*;
 - *diwazdeh/duwazdeh* → *dozde(h)*.
 
-Dengê Ö ya tirkî û hin dengên girovir ên zimanên ewropî di kurmancî de bi gelemperî bi O tên nêzîkkirin:
-- tirkî *ördek* → kurmancî *ordek*; di hin deveran de *werdek*;
-- tirkî *köprü* → formên devkî yên *koprî*;
-- fransî *chauffeur* bi rêya tirkî dikare bibe *şofêr*.
+Di hin devokan de -IW- dikeve û formên wek *canega, dazde(h)* û *can* (bi maneya ciwan) peyda dibin.
 
-Ev nimûne nîşan didin ku peyvên wergirtî her tim dengê çavkaniyê bi temamî naparêzin; ew li gor pergala dengî ya kurmancî tên guhertin.
+Dengê tirkî Ö û dengên nêzî wê yên zimanên ewropî bi gelemperî di kurmancî de dibe O:
+- tirkî *ördek* → *ordek* (û di hin deveran de *werdek*);
+- tirkî *kötü* → *kotî*;
+- tirkî *köprü* → *koprî*;
+- fransî *coiffeur* bi rêya tirkî *kuaför* → *kuafor, kwafor, kiwafor*;
+- fransî *chauffeur* bi rêya tirkî *şoför* → *şofêr*.
 
-## 3. Guherîna devokî ya O
+### 2.3. Guherînên devokî û çemandinê
 
-Di hin peyvan de O di navbera kurmancî û zimanên din de li hemberî Û, U an komdengên din e:
-- kurmancî *roj* — soranî *rûj*;
-- kurmancî *co/cok* — soranî *cû/co*;
-- kurmancî *xweş* — soranî *xoş*.
-
-Di hin peyvan de O ji komdengên UH, UHI, UHU û UHE peyda bûye:
-- *duh/duhî* → *do* (roja berî îro);
+O di kurmancî, soranî, zazakî û hewramî de heye. Di kurdiya başûrî de li cihê wê bi gelemperî Û heye: kurmancî *roj* li hemberî soranî *rûj*; kurmancî *co/cok* li hemberî soranî *cû/co*. Di hin peyvan de O ji komdengên -UH-, -UHI-, -UHU- û -UHE- peyda bûye:
+- *duh/duhî* → *do*;
 - *duhtin* → *dotin*;
 - *buhirîn* → *borîn*;
 - *muhir* → *mor*.
 
-Di hin devokên rojhilatî de O ya kurmanciya giştî dikare bibe Î an Ü:
+Di hin devokên rojhilatî de O ya kurmanciya giştî dikare bibe Ü an Î:
 - *kon* → *kün/kwîn* li Zaxoyê, *kîn* li Dihokê;
-- *rovî* → *rüvî/rwîvî*, an *rîvî*;
-- *kovî* → *küvî/kwîvî*, an *kîvî*.
+- *rovî* → *rüvî/rwîvî* an *rîvî*;
+- *kovî* → *küvî/kwîvî* an *kîvî*.
 
-Ev formên devokî nîşan didin ku O dikare li gor deverê cihê xwe biguherîne; lê di nivîsîna standard de forma yekgirtî ya peyvê tê parastin.
+O di çemandinê de jî dikare derkeve. Di peyvên xwemalî de awayê sereke forma gazîkirinê ye. Di hin lêkeran de rehê dema niha O diparêze, herçend formên din U an dengên din nîşan bidin: *şûştin/şuştin/şüştin/şwîştin/şîştin* bi rehê niha *şo-*; *duhtin/dotin* bi rehê niha *doş-*.
 
-## 4. U — vokala kurt a paşîn û girovir
+## 3. U — vokala kurt a bilind, paşîn û girovir
 
-Herfa **U/u** nîşana vokaleke kurt, bilind, paşîn û girovir e. Di derxistina wê de ziman li paşiya devê ye û nêzî banê devê dimîne; lêv tên girovkirin.
-
-Nîşana wê di IPA de **[ʊ]** ye. Ev deng ji U-ya tirkî cuda ye; U-ya tirkî gelek caran nêzî Û-ya kurdî ye. Herwiha divê U ya kurdî ji Û ya dirêj bê cudakirin.
+Herfa **U/u** nîşana vokaleke kurt, bilind, paşîn û girovir e. Di dema derxistina wê de ziman nêzî banê devê ye, lê ne bi temamî li ser wî ye; li beşa paşîn a devê dimîne û lêv tên girovkirin. Nîşana wê di IPA de **[ʊ]** ye. U-ya kurmancî ji U-ya tirkî cuda ye; U-ya tirkî ji aliyê cihê derketinê û dirêjahiyê ve zêdetir nêzî Û-ya kurmancî ye.
 
 U li her sê cihên peyvê tê:
-- **Destpêk:** *umêd, umet, Urdin* (hin ji van peyvên wergirtî ne);
-- **Nav:** *guh, kurd, quling*;
-- **Dawî:** *du, ku, tu*.
+- Destpêk: *umêd, umet, Urdin* (ev nimûne peyvên wergirtî ne; hin ji wan di gotinê de bi Eyn dest pê dikin).
+- Nav: *guh, kurd, quling*.
+- Dawî: *du, ku, tu*.
 
-Di peyvên xwemalî de U li destpêkê bi gelemperî nayê dîtin. Li dawiya peyvan jî tenê di çend peyvên wek *du, ku, tu* de heye. Li nav peyvan zêdetir e.
+Rêjeya U di nivîsên kurmancî de **1,3%** e; di nav vokalan de tenê O kêmtir e. Di peyvên xwemalî de U li destpêkê bi gelemperî nayê dîtin. Li dawiya peyvan jî kêm e û di çend peyvên wek *du, ku, tu* de heye. Li nav peyvan zêdetir e.
 
-Di gelek peyvan de forma bi U tenê yek ji varyantên peyvê ye û forma bi I di nivîsîna standard de serdest e:
-- *awur* — *awir*;
-- *bulbul* — *bilbil*;
-- *cuhû* — *cihû*;
-- *dukan* — *dikan*;
-- *fulan* — *filan*;
-- *huner* — *hiner*;
-- *nuha* — *niha*;
-- *zuha* — *ziha/ziwa*.
+Di gelek peyvan de forma bi U tenê varyanteke forma bi I ye; di nivîsîna standard de forma bi I bi gelemperî serdest e:
+- *awur/awir*;
+- *bulbul/bilbil*;
+- *cuhû/cihû*;
+- *dukan/dikan*;
+- *fulan/filan*;
+- *huner/hiner*;
+- *nuha/niha*;
+- *tu/ti*;
+- *zuha/ziha/ziwa*.
 
-Di hin peyvan de herdu form dikarin di axaftinê de bên dîtin, lê divê xwendekar forma standard a pêşniyarkirî nas bike.
-
-## 5. U û guherîna wê bi I
-
-Di gelek peyvên wergirtî de U dikare bibe I:
-- *dukan → dikan*;
-- *bulbul → bilbil*;
-- *cuhû → cihû*.
-
-Lê ev guherîn rêzikeke bêistisna nîne. Di peyvên xwemalî de, bi taybetî piştî G, K, Q û X, U bi gelemperî tê parastin. Guhertina wê dikare maneya peyvê biguherîne an formeke nenas çêbike:
-- *kul* û *kil* ne heman peyv in;
+Ev guherîn ne di hemû peyvan de dikare were kirin. Di hin peyvan de, bi taybetî piştî G, K, Q û X, U divê were parastin, ji ber ku guherandina wê dikare maneya peyvê biguherîne an peyveke şaş çêbike:
+- *kul* û *kil* du peyvên cuda ne;
 - *guh* û *gih* cuda ne;
-- *qumar* nayê nivîsîn wek *qimar*;
-- *Kurdistan* nayê nivîsîn wek *Kirdistan*;
-- *xulam* nayê nivîsîn wek *xilam*.
+- *qumar* nabe *qimar*;
+- *Kurdistan* nabe *Kirdistan*;
+- *xulam* nabe *xilam*.
 
-Di hin peyvên xwemalî de U piştî G, K, Q û X di nav rehê peyvê de ye û parastina wê giring e:
-- *guh, gul, gund*;
-- *kun, kul, kuncî*;
-- *xurt, xurme, xurandin*;
-- *qul, quz, qunc*.
+Di peyvên xwemalî de U piştî G, K, Q û X giring e: *guh, gul, gund; kun, kul, kuncî; xurt, xurme, xurandin; qul, quz, qunc*. Di peyvên ji erebî wergirtî de jî, dema U piştî K, Q an X be, bi gelemperî tê parastin: *kufir, qumar, xulam*.
 
-Di peyvên ji erebî hatine wergirtin de jî, gava U piştî K, Q an X be, dikare were parastin: *kufir, qumar, xulam*. Ji ber vê yekê divê guherîna U→I bi peyv û etîmolojiya wê ve were nirxandin.
+## 4. Çavkaniya dîrokî û devokî ya U
 
-## 6. Çavkaniya dîrokî û devokî ya U
-
-U ya kurmancî di hin peyvan de dengê kevn diparêze:
+U di hin peyvên kurmancî de dengê kevn diparêze:
 - kurmancî *guh* — pehlewî *guş* — sogdî *nguş*;
-- *gul* bi formên zimanên îranî yên bi G/V re tê berawirdkirin.
+- *gul* bi formên îranî yên bi G/V re tê berawirdkirin.
 
-Di hin peyvan de U ji komdengên kevn ên EW an AW peyda bûye; wek *guhan* ku bi rehên *gew-/gaw-* ve girêdayî ye.
+Di gelek peyvên bi U de, bi taybetî peyvên ku U dikare bibe I, çavkaniya peyvê erebî ye an bi rêya erebî hatiye wergirtin: *dukan/dikan, bulbul/bilbil, bum/bim*. Lê U ya xwemalî, nemaze piştî G, K, Q û X, bi gelemperî tê parastin.
 
-Di navbera kurmanciya navendî û rojhilatî de hin guherînên U/I hene:
-- navendî *kurm* — rojhilatî *kirm*;
-- *kurmanc/kurmancî* — *kirmanc/kirmancî*.
+Di hin peyvan de guherîna -EW- an -AW- bi U ve girêdayî ye; mînak *guhan* bi rehên *gew-/gaw-* re tê berawirdkirin. Di navbera kurmanciya navendî û rojhilatî de jî hin guherînên U/I hene: *kurm/kirm*, *kurmanc/kurmancî – kirmanc/kirmancî*. Di hin peyvan de -UH-, -UHI-, -UHU-, -UHE- û O li gor devokê diguherin: *buhirîn/borîn*, *guherîn/guhorîn*, *cuhik-cihuk/cok-co*.
 
-Di hin peyvan de -UH-, -UHI-, -UHU-, -UHE- û O li gor devokê diguherin:
-- *buhirîn* — *borîn*;
-- *guherîn* — *guhorîn*;
-- *cuhik/cihuk* — *cok/co*.
+Çemandin bi gelemperî bandoreke kêm li ser U dike. Lê di lêkerên *şûştin* û *duhtin* de, tevî ku formên borî li gor devokê diguherin, rehê dema niha bi O ye: *şo-* û *doş-*.
 
-Çemandin bi gelemperî bandoreke biçûk li ser U dike. Lê di hin lêkeran de dengê rehê niha O ye, tevî ku forma borî an ya devokî U/Û di xwe de digire:
-- *şûştin/şuştin/şüştin* — rehê niha *şo-*;
-- *duhtin/dotin* — rehê niha *doş-*.
+## 5. Û — vokala dirêj a bilind, paşîn û girovir
 
-## 7. Û — vokala dirêj a bilind û paşîn
+Herfa **Û/û** nîşana vokaleke dirêj, bilind, paşîn û girovir e. Di piraniya devokên kurmancî û soranî de dengê wê nêzî **[uː]** ya IPA ye. Di kurmancî de dirêjahiya wê ji U ya kurt cuda dike. Û li nav û dawiya peyvê bi gelemperî tê dîtin; li destpêka peyvê kêm e.
 
-Herfa **Û/û** nîşana vokaleke dirêj, bilind, paşîn û girovir e. Di dema derxistina wê de ziman nêzî banê devê û li beşa paşîn e; lêv girovir dibin û ber bi pêş ve tên kişandin.
+Nimûneyên navpeyvê: *bûk, cûn/cûtin, çûn, dûr, gûn, hesûn/sûn, kûp, Mûş, Nûh, pûç, sûr, şûr, tûr, zûr*.
+Nimûneyên dawiya peyvê: *bû, cû, çû, mû, gû, rû, tû, zû*.
+Li destpêka peyvê hin navên wek *Yûsif* û *Yûnis* di gotina gel de wek *Ûsiv* û *Ûnis* jî tên gotin. Di peyva *ûr* de, herçend di nivîsînê de Û li destpêkê hebe, di gotinê de Eyn li pêşiya wê heye. Hin navên welat û ziman jî bi Û tên nivîsîn, lê di gotinê de carinan U ye: *Urdin, Ukrayna, Uganda, urdûyî*.
 
-Nîşana wê di IPA de **[uː]** ye. Di kurmancî û soraniya standard de ev vokal bi dirêjahiya xwe ji U ya kurt cuda ye.
+## 6. Û û guherîna wê bi Ü an Î di devokan de
 
-Û li her sê cihên peyvê dikare bê:
-- **Destpêk:** kêm e; hin navên wergirtî wek *Yûsif* û *Yûnis* di hin gotinên devkî de bi Û tên gotin. Di *ûr* de di gotinê de dengê Eyn li destpêkê heye.
-- **Nav:** *bûk, çûn, dûr, gûn, hesûn, kûp, Mûş, Nûh, sûr, şûr, tûr, zûr*.
-- **Dawî:** *bû, cû, çû, mû, gû, rû, tû, zû*.
+Di piraniya devokan de Û wek [uː] tê gotin. Lê di hin deveran de ev deng dibe **Ü [yː]**: di vê dengê de ziman li pêşiya devê ye, lê lêv dîsa girovir in. Di hin devokên rojhilatî de, bi taybetî Behdînan, Û dikare bi awayê **-WÎ-** were gotin û nivîsîn:
+- standard *bûk* — *bük/bwîk* — li Dihokê *bîk*;
+- *dûr* — *dür/dwîr* — *dîr*;
+- *zû* — *zü/zwî* — *zî*;
+- *mû* — *mü/mwî* — *mî*.
 
-Û li destpêka peyvên xwemalî kêm e. Li nav peyvan zêdetir xuya dike. Li dawiya peyvan di hin lêkerên çemandî û peyvên serbixwe de tê.
+Di hin deveran de *qanûn* dibe *qanün/qanwîn* û *tabût* dibe *tabüt/tabwît*. Di hin devokên kurmanciya rojhilatî de Û hema-hema herdem dibe Î, bi îstisnaya hin formên wek *bûn, çûn* û *û*. O ya kurmanciya giştî jî di Dihokê de carinan dibe Î û li Zaxoyê Ü: *kon/kün-kwîn/kîn; rovî/rüvî-rwîvî/rîvî; kovî/küvî-kwîvî/kîvî*.
 
-## 8. Û di devokên cuda de: Û, Ü, WÎ û Î
+Guherîna Û→Ü an -WÎ- di hin deverên kurdiya başûrî de jî heye, herwiha di devokên şahzênî/şêxbizinî, hin devokên zazakî û hin devokên kurmanciya rojavayî de. Di hin deveran de Ü paşê dibe Î. Ev guherîn di soranî de bi heman awayî nehatiye dîtin. Herçend Ü di zimanên tirkîkî de heye, nikare hemû guherînên kurdî tenê bi tesîra tirkî were ravekirin; çavkaniyê nîşan dide ku ev deng di hin deverên dûrî zimanên tirkîkî de jî tê bikaranîn.
 
-Di piraniya devokan de Û bi dengê [uː] tê gotin. Lê di hin deveran de, bi taybetî Behdînan, hin deverên Botan û Hekariyan, kurdiya başûrî, hin devokên şahzênî/şêxbizinî û hin devokên zazakî, ev deng dikare bibe **Ü [yː]**. Di vê dengê de ziman li pêşiya devê ye lê lêv dîsa girovir in.
+## 7. Rêbaza nivîsîna standard a Û
 
-Di Behdînan de gelek caran Û ya standard bi UÎ tê gotin û bi **WÎ** tê nivîsîn:
-- standard *bûk* — behdînî *bwîk*;
-- *dûr* — *dwîr*;
-- *zû* — *zwî*;
-- *mû* — *mwî*;
-- *nû* — *nwî*.
+Di nivîsîna kurmancî ya standard de, herçend hin devok Û wek Ü, -WÎ- an Î bibêjin, pêşniyar ev e ku hemû kesan di nivîsînê de **Û** biparêzin û bilêvkirinê li gor devoka xwe bikin. Bi vî awayî peyvên devokên cuda di nivîsînê de yekgirtî dimînin, lê xwîner dikare wan li gor devoka xwe bixwîne.
 
-Di hin deveran de Ü/WÎ dîsa dikare bibe Î:
-- *bûk* → *bîk*;
-- *dûr* → *dîr*;
-- *zû* → *zî*.
-
-Di hin devokên kurdiya başûrî û zazakî de jî guherîna Û→Ü/WÎ an Î heye. Di soranî de ev guherîn bi heman awayî nehatiye dîtin.
-
-Nabe ku hemû van guherînan tenê bi tesîra tirkî were ravekirin. Herçend Ü di zimanên tirkîkî de heye, lê ev deng di hin deverên kurdî de jî li kar e ku têkiliya wan bi tirkî kêm e. Ji ber vê yekê divê guherîna dengî wek taybetmendiyeke devokî were fêmkirin, ne wek xeletî.
-
-## 9. Rêbaza nivîsîna standard
-
-Di nivîsîna kurmancî ya standard de herfa **Ü** wek pitekî serbixwe nayê zêdekirin. Herçend hin devok Û wek Ü, WÎ an Î bibêjin, pirtûk pêşniyar dike ku hemû kesan di nivîsînê de **Û** biparêzin û bilêvkirinê li gor devoka xwe bikin.
-
-Ev rêbaz du sûdên sereke hene:
-1. Peyvên devokên cuda di nivîsînê de yekgirtî dimînin.
-2. Xwîner dikare peyvê bi dengnasî û devoka xwe bixwîne bê ku nivîsa standard biguherîne.
-
-Di ferheng û pirtûkên dengnasiyê de dikare bilêvkirina her devokê bi awayekî taybet were nîşandan. Lê di nivîsîna giştî de Û forma standard e.
-
-## Berawirdkirina O, U û Û
-
-| Taybetmendî | O [o] | U [ʊ] | Û [uː] |
-|---|---|---|---|
-| Dirêjahî | Dirêj | Kurt | Dirêj |
-| Bilindahî | Nîvbilind | Bilind | Bilind |
-| Cihê ziman | Paşîn | Paşîn | Paşîn |
-| Lêv | Girovir | Girovir | Girovir |
-| Nimûne | *dor, lome* | *guh, kurd* | *dûr, bûk* |
-
-**Têbînî:** Di hin devokan de Û wek Ü [yː] tê gotin; ev guherîna bilêvkirinê ye, ne pêdiviya guherandina nivîsîna standard.
+Di hin nivîsên taybet ên kurdiya başûrî, zazakî û şahzênî/şêxbizinî de herfa Ü an awayê -WÎ- hatiye bikaranîn. Di nivîsîna kurmanciya rojhilatî de jî -WÎ- (wek *bwîk, dwîr, mwî*) an di hin deveran de Î (wek *bîk, dîr, mî*) tê dîtin. Lê ji bo nivîsîna standard, parastina Û rêbazeke yekgirtû ye. Û di kurdî de herfeke pirrdeng e: dikare li gor devokê bi dengên cuda were xwendin, bê ku nivîsa standard biguherê.
 
 ## Çavkanî
 
-Husein Muhammed, *Dengnasî di kurdî de*, rûpelên çapkirî 298–314.
+Husein Muhammed, *Dengnasî di kurdî de*, rûpelên çapkirî **298–314**.
 
 ---
 
