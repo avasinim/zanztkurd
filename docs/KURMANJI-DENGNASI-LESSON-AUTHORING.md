@@ -3344,7 +3344,7 @@ Diyardeyeke nêzîk di piraniya devokên soranî de heye. Gava Ê an WÊ li pey 
 | kî, kê | kê | [kê] |
 | (ji / li) kû | (le) kwê(we) | (le) [çwê]we |
 
-Ev diyardeya niha di kurmancî de nayê dîtin. Lê çavkaniyê têkiliya wê bi guherînên dîrokî yên zimanên îranî re nîşan dide. Peyva kurdî *çi, çî* ji rehê proto-hindû-ewropî **kʷis* hatiye şîrovekirin; heman reh di formên *kî, kê* de jî maye. Di hin zimanên hindû-ewropî de herdu pirs bi dengê [k] hene; çavkaniyê fransî *qui* [kî] û *que* [ki] wek nimûne dide.
+Ev diyardeya niha di kurmancî de nayê dîtin. Lê çavkaniyê têkiliya wê bi guherînên dîrokî yên zimanên îranî re nîşan dide. Peyva kurdî *çi, çî* ji rehê proto-hindû-ewropî *kʷis* hatiye şîrovekirin; heman reh di formên *kî, kê* de jî maye. Di hin zimanên hindû-ewropî de herdu pirs bi dengê [k] hene; çavkaniyê fransî *qui* [kî] û *que* [ki] wek nimûne dide.
 
 ## Çavkanî
 
