@@ -2377,7 +2377,7 @@ Dengê **Î/î** vokaleke dirêj, bilind, pêşîn û ne-girovir e. Di dema derx
 - **Nav:** *mîr, birîn, cemidîn*.
 - **Dawî:** *kî, masî, kelandî*.
 
-Î di nav peyvan de berbelav e. Di hesabkirina çavkaniyê de rêjeya wê **4,2%** e û di rêza nehemîn a herfên kurmancî de ye. Di destpêka peyvên xwemalî de kêm e; *îro, îsal, îşev* di hin devokên navendî de formên taybet in, lê devokên rojhilatî û rojavayî formên wek *hiro, iro, iroke, hîro, evro, evroke* hene. Di peyvên ji erebî û zimanên ewropî wergirtî de zêdetir tê dîtin.
+Î di nav peyvan de berbelav e. Di hesabkirina çavkaniyê de rêjeya wê **4,2%** e û di rêza nehemîn a herfên kurmancî de ye. Di destpêka peyvên xwemalî de kêm e; *îro, îsal, îşêv* di hin devokên navendî de formên taybet in, lê devokên rojhilatî û rojavayî formên wek *hiro, iro, iroke, hîro, evro, evroke* hene. Di peyvên ji erebî û zimanên ewropî wergirtî de zêdetir tê dîtin.
 
 Î di çend paşpirtik û pêşpirtikên rêzimanî de jî xuya dike:
 - paşpirtika navdêrên nêr yên çemandî: *wî destî*;
@@ -2385,7 +2385,7 @@ Dengê **Î/î** vokaleke dirêj, bilind, pêşîn û ne-girovir e. Di dema derx
 - paşpirtika kesê duyem: *tu dikî, dibêjî, çûyî*;
 - paşpirtikên navdêr û rengdêr: *azadî, kurdî, havînî*;
 - formên partîsîpî: *girtî, tirsandî*;
-- pêşpirtika demî: *îsal, îşev, îro*.
+- pêşpirtika demî: *îsal, îşêv, îro*.
 
 Î ya kurmancî gelek caran ji Ê-ya îraniya navîn hatiye: *pîr* li hemberî pehlewî *pêr*, *kî* li hemberî soranî/farisî *kê*, *sîng* li hemberî pehlewî/belûçî *sêneg*, û *xanî* li hemberî farisî *xanê/xane*. Di hin peyvan de Î ji tekdengbûna cotdengan e: *mîz, mî/mih, bîn*. Herwiha hin peyvên Î-yê kurmancî li hemberî Û-ya soranî ne: *xanî/xanû*, *kirî/kirdû*.
 
@@ -2398,7 +2398,7 @@ Dengê **Î/î** vokaleke dirêj, bilind, pêşîn û ne-girovir e. Di dema derx
 - *xanî* — farisî *xanê/xane*.
 
 Di hin peyvan de Î encama tekdengbûna cotdengan e:
-- *mîz* li hemberî formên bi Ê;
+- *mîz* li hemberî farisî *mîz* û pehlewî *mêz*;
 - *mî/mih* li hemberî farisî *mîş* û pehlewî *mêş*;
 - *bîn* li hemberî formên bi Ê.
 
