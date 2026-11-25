@@ -1744,7 +1744,7 @@ Di kurmancî de V li her sê cihên peyvê tê:
 - **Nav:** *bivir, dever, evîn, êvar, revandin*.
 - **Dawî:** *av, çav, dev, ev, sêv, şev*.
 
-V li nav û dawiya peyvan berfireh e; li destpêka peyvan kêmtir e. Li gorî lêkolîna ku pirtûk vedigêre, rêjeya V di nivîsên kurmancî de **1,7%** e. Formên çemandî yên cînavê *ev* — wek *vê, vî, van, vir* — û pêşlêkera *ve-* — wek *vebûn, vekirin, vexwarin* — rêjeya V li destpêkê zêde dikin.
+V li nav û dawiya peyvan berfireh e; li destpêka peyvan kêmtir e. Li gorî lêkolîna ku pirtûk vedigêre, rêjeya V di nivîsên kurmancî de **1,7%** e. Li gorî heman hesabê, piçekî zêdetir ji nîvê herfan ji V zêdetir, û piçekî kêmtir ji nîvê herfan ji wê kêmtir tên bikaranîn. Formên çemandî yên cînavê *ev* — wek *vê, vî, van, vir* — û pêşlêkera *ve-* — wek *vebûn, vekirin, vexwarin* — rêjeya V li destpêkê zêde dikin.
 
 Di soraniya xwemalî de V hema-hema nayê dîtin; pirtûk *hevde* û çend peyvên dengdarî (onomatopoetîk) wek îstîsna destnîşan dike. Lê soranî V di peyvên biyanî de, an jî di peyvên ku ji kurmancî an bi rêya kurmancî hatine wergirtin de, dinivîse; wek *dever, evîn, govar, mirov*. Ji ber vê yekê hebûna V di nivîsa soranî de bi tenê nîşana peyveke xwemalî nîne.
 
@@ -1805,7 +1805,7 @@ W di kurmancî de li destpêk, nav û dawiya peyvê tê:
 - **Nav:** *awir, bawî, ewr, gewr*.
 - **Dawî:** *ew, dew, kew, mêw*.
 
-Rêjeya W di nivîsên kurmancî de **3,3%** e. Di cînavê *ew* û formên wî yên çemandî de — wek *wê, wî, wan, wir* — W pir tê bikaranîn. Ji ber vê yekê rêjeya wê di nivîsên kurmancî de dikare bilind xuya bike, tevî ku gelek peyv bi W dest pê nakin.
+Rêjeya W di nivîsên kurmancî de **3,3%** e. Di hesabê nivîskar de, 10 herf ji W zêdetir û 20 herf jî ji wê kêmtir tên bikaranîn. Di cînavê *ew* û formên wî yên çemandî de — wek *wê, wî, wan, wir* — W pir tê bikaranîn. Ji ber vê yekê rêjeya wê di nivîsên kurmancî de dikare bilind xuya bike, tevî ku gelek peyv bi W dest pê nakin.
 
 ### W di soranî û kurmancî de
 
@@ -1815,6 +1815,10 @@ Di gelek peyvan de W-ya soranî li hemberî V-ya kurmancî ye:
 - kurmancî *nav* — soranî *naw*.
 
 Ev berawirdkirin alîkar e ku têkiliya V û W di navbera zaravên kurdî de were dîtin; lê divê em her peyvekê bi awayekî serbixwe binirxînin. Çavkaniyê herwiha cûreyên din jî destnîşan dike: V-ya kurmancî di soranî de carinan M e (*ev/em*, *dev/dem*); F-ya kurmancî berî T di soranî de dikare bibe W (*heft/hew(t)*, *şkeft/eşkewt*, *mizgeft/mizgewt*); û H-ya kurmancî jî di hin peyvan de li hemberî W-ya soranî ye (*hirç/wirç*, *hişk/wişk*, *hinda/win*). Di komika *-wê-* ya soranî de W dikare li cihê O an Û-ya kurmancî were, wek *kor/kwêr* û *kû/kwê*.
+
+### Çavkaniyên dîrokî yên W
+
+W-ya navîn an dawî di gelek peyvên xwemalî de ji B-ya zimanên kevn ên îranî an ji proto-hindûewropî hatiye; di hin peyvan de jî dibe ku eslê wê W an Û be. Pirtûk nimûneyên *ewr* li hemberî farisî *ebr* û *dew/derew* li hemberî formên farisî û pehlewî dide. W di gelek peyvên ji erebî wergirtî de jî heye, wek *welat, dewam, wijdan, dewlet*; hin peyvên bi W ji tirkî jî hatine, wek *dewar, werdek, wexer*.
 
 ### W di destpêka peyvan de
 
@@ -1828,7 +1832,7 @@ Pirtûk hin çavkaniyên din jî destnîşan dike: W dikare di hin peyvan de bi 
 
 ### W wek herfa kelijandinê
 
-Di hin devokan de W dikare di navbera du vokalan de were gotin da ku rê li ber têkeliya rasterast a wan bigire. Pirtûk nimûneyên wek *riwê min/rûyê min* û *malavawo/malavayo* dide. Di nivîsîna standard de Y an H jî dikarin di hin rewşan de vê erkê bigirin. Ji ber vê yekê divê forma nivîskî û gotina devkî ji hev cuda bên dîtin.
+Di hin devokan de W dikare di navbera du vokalan de were gotin da ku rê li ber têkeliya rasterast a wan bigire. Pirtûk nimûneyên wek *riwê min/rûyê min*, *xeswa wê/xwesûya wê* û *malavawo/malavayo* dide. Di hin devokan de, bi taybetî piştî Û an berî O-ya gazîkirinê, W tê bihîstin, ne Y. Di nivîsîna standard de Y an H jî dikarin di hin rewşan de vê erkê bigirin. Ji ber vê yekê divê forma nivîskî û gotina devkî ji hev cuda bên dîtin.
 
 ## 4. Y — bandevî-tengav
 
@@ -1840,7 +1844,7 @@ Y bi taybetî li navê peyvan tê:
 Li destpêka hin peyvan jî heye:
 - *ya, yad, yan, yar, yasa, yek, yê, yên, yûnanî*.
 
-Li dawiya peyvan kêm tê dîtin; nimûneyên wê *ay, çay, ey, hey, mey, pey, way* ne. Hin ji van peyvên gazîkirinê ne û hin jî di devokên cuda de formên din hene.
+Lê Y li destpêka peyvan bi gelemperî kêm e û gelek nimûnekan eslê biyanî hene. Pirtûk destnîşan dike ku *Yezdan* di nav xelkê de kêm tê gotin, *yar* zêdetir helbestî ye, û *yarî* (bi wateya lîstikê) tenê di kurmanciya rojhilatî de tê dîtin. Y li dawiya peyvan jî kêm e; nimûneyên wê *ay, çay, ey, hey, mey, pey, way* ne. Piraniya wan dengên gazîkirinê ne; *mey* û *ney* bi ihtimal ji farisî hatine, *ray* ji erebî ye, û *pey* di hin devokan de nayê bikaranîn.
 
 ### Y wek herfa kelijandinê
 
@@ -1865,7 +1869,7 @@ Y li gor devokê dikare bimîne, bikeve an bi dengekî din were guherandin. Nim�
 
 Di kurmanciya rojhilatî de formên bi Y, wek *yek, ya, yê, yên*, berbelav in; di kurmanciya navendî de hin formên bê Y, wek *ê, a, ên*, tên bikaranîn. Ev cudahî divê wek cudahiya devokî were fêmkirin, ne wek xeletiya yek ji wan.
 
-Di dîroka peyvan de Y dikare ji destpêkê bikeve an bi vokalekê biguherin. Nimûneyên pirtûkê *Yûnis/Ûnis*, *Yûsif/Ûsiv*, *Yaqûb/Aqûb* û *Yehya/Ehya* ne. Di hin peyvên din de Y-ya kevn bi C hatiye guhertin; wek *ciwan* li hemberî forma avestayî *yuven-*. Ev guherînên dîrokî ji bo hemû peyvan wek hev nînin. Çavkaniyê diyar dike ku gelek Y-yên destpêka peyvan bi eslê xwe biyanî ne: hin ji erebî (*yanî, Yûnis, Yûsif*), hin ji farisî bi rêya soranî (*yad*) û hin ji tirkî (*yasa*). Di dîroka peyvan de Y-ya kevn di hin peyvên îranî de bûye C: *ceh* li hemberî avestayî *yewe-*, *ciwan/yuven-*, *cejn/yesne-*, *cadû/yatu-* û *cade/yatim-*. Ev berawirdkirin şopa dîrokî nîşan dide, ne rêzikeke ku her Y-ê bike C.
+Di dîroka peyvan de Y dikare ji destpêkê bikeve an bi vokalekê re biguherin. Pirtûk nimûneyên navên ku bi rêya erebî ji îbranî hatine û Y-ya destpêkê ji dest dane dide: *Yûnis/Ûnis*, *Yûsif/Ûsiv*, *Yaqûb/Aqûb* û *Yehya/Ehya*. Herwiha *aprax/îprex* ji tirkî *yaprak* hatiye, û *ol* ji tirkî *yol* bi guherîna Y-ya destpêkê hatiye. Di hin peyvan de Y bi vokala li pey xwe re diguherin, wek *yem/êm* û *yürüş/êriş*. Di peyvên din de guherîna Y li nav an dawiya peyvê jî heye, wek *keyf/kêf* û *’eyb/êb*. Di hin peyvên îranî de Y-ya kevn bûye C: *ceh* li hemberî avestayî *yewe-*, *ciwan/yuven-*, *cejn/yesne-*, *cadû/yatu-* û *cade/yatim-*. Ev berawirdkirin şopa dîrokî nîşan dide, ne rêzikeke ku her Y-ê bike C.
 
 ## 5. Z — pidûyî-xişok-vizok yê bilerz
 
@@ -1892,7 +1896,7 @@ Pirtûk cotên watedar nîşan dide:
 - *zana* bi Z-ya qelew: kesê şareza û pispor;
 - *zana* bi Z-ya zirav: zayîna çêlekê.
 
-Di gelek peyvan de Z-ya zirav li ber vokalên E, Ê, Î û Û tê; Z-ya qelew jî bi gelemperî li ber A û O tê. Lê ev şert bêistisna nîne: cotên *zana* yên jor vê cudahiyê nîşan didin. Z-ya qelew ya kurdî jî wek dengê didanî yê erebî [ẓ] nayê gotin: di ya kurdî de ziman bi pidûyan re tê, lê di ya erebî de ziman dikeve navbera didanan.
+Çavkaniyê rêzikeke giştî ya vokalî nade ku Z-ya zirav an qelew bi vokalekeyî pêşîn were diyarkirin; lê herdu wek fonemên cuda nas dike û cudahiyê bi nimûneyên wate-guhêz nîşan dide. Z-ya qelew ya kurdî jî wek dengê didanî yê erebî [ẓ] nayê gotin: di ya kurdî de ziman bi pidûyan re tê, lê di ya erebî de ziman dikeve navbera didanan.
 
 Ji ber ku guherandina Z-ya zirav bi qelew dikare wateyê biguherîne, herdu deng fonemên cuda ne. Çavkaniyê cudahiya Z-ya zirav û qelew bi farisî re jî nîşan dide: Z-ya zirav di farisî de bi gelemperî Z dimîne (*zer, zêr, zincîr, zû*), lê Z-ya qelew gelek caran li hemberî D-ya farisî ye (*zana/dana*, *zanîn/danişten*, *zava/damad*).
 
@@ -1911,7 +1915,7 @@ Di hin lêkeran de Z-ya bilerz di bin bandora T-ya bêlerz a nîşana rabirdûy�
 - *di-mîz-e* → *mîs-t-in*;
 - *ve-di-guhêz-im* → *ve-guhas-t-in*.
 
-Di peyvên ji erebî wergirtî de, çar dengên erebî bi kurdî bi awayên cuda têne wergirtin: Zeyn bi Z-ya zirav dimîne (*zeytûn*); Zal-ya didanî dibe Z-ya zirav (*zat*); Za-ya didanî ya qelew dikare bibe Z-ya qelew an zirav (*zalim*, *zirav*); Dad-ya qelew jî dikare bibe Z-ya zirav an qelew (*remezan*, *zemîr*). Divê cudahiya Z-ya qelew ya kurdî ji dengên didanî yên erebî cuda were fêmkirin; ew hevdeng nînin.
+Di peyvên ji erebî wergirtî de, çar dengên erebî bi kurdî bi awayên cuda têne wergirtin: Zeyn hevdengê Z-ya zirav e û dimîne (*zeytûn*); Zal dengekî didanî yê zirav e, wek [ð] ya di peyvên îngilîzî *they, there, then* de, û di kurdî de dibe Z-ya zirav (*zat*); Za dengekî didanî yê qelew e û dikare bibe Z-ya qelew an zirav (*zalim*, *zirav*); Dad jî dengekî D-ya qelew e û di kurdî de dikare bibe Z-ya zirav an qelew (*remezan*, *zemîr*). Divê cudahiya Z-ya qelew ya kurdî ji dengên didanî yên erebî cuda were fêmkirin; ew hevdeng nînin.
 
 ## Çavkanî
 
