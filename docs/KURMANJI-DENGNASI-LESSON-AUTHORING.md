@@ -2524,7 +2524,7 @@ O di çemandinê de jî dikare derkeve. Di peyvên xwemalî de awayê sereke for
 Herfa **U/u** nîşana vokaleke kurt, bilind, paşîn û girovir e. Di dema derxistina wê de ziman nêzî banê devê ye, lê ne bi temamî li ser wî ye; li beşa paşîn a devê dimîne û lêv tên girovkirin. Nîşana wê di IPA de **[ʊ]** ye. U-ya kurmancî ji U-ya tirkî cuda ye; U-ya tirkî ji aliyê cihê derketinê û dirêjahiyê ve zêdetir nêzî Û-ya kurmancî ye.
 
 U li her sê cihên peyvê tê:
-- Destpêk: *umêd, umet, Urdin* (ev nimûne peyvên wergirtî ne; hin ji wan di gotinê de bi Eyn dest pê dikin).
+- Destpêk: *umêd, umet, Urdin* (ev peyvên wergirtî ne: *umet* ji erebî ye, *umêd* ji farisî hatiye û *Urdin* bi rêya erebî ji îbranî hatiye. Divê ev ji *umir* û *Umer* bên cudakirin; ew formên ku di nivîsan de xuya dibin bi dengê konsonantî Eyn dest pê dikin, ne bi vokala U).
 - Nav: *guh, kurd, quling*.
 - Dawî: *du, ku, tu*.
 
