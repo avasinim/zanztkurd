@@ -820,7 +820,7 @@ Husein Muhammed, *Dengnasî di kurdî de*, rûpelên çapkirî 68–103.
 
 **F** dengekî lêvî-didanî, xişok û bêlerz e. Di gotina wê de didanên jorîn dikevin ser lêva jêrîn; hewa di tengiyeke devî re derbas dibe û xişînekê çêdike. Perdeyên dengî di gewriyê de nalerizin. Di alfabeya dengnasî ya navneteweyî de bi **[f]** tê nîşandan.
 
-Di alfabeya kurdî-erebî de F bi ف tê nivîsîn; di kurdî-krîlî de bi Ф/ф. Di hin zimanan de, wek almanî û holendî, herfa V dengê [f] nîşan dide û dengê [v] bi W tê nivîsîn. Di hin peyvên îngilîzî de, bi taybetî yên ji yûnaniya kevn hatine wergirtin, PH ji bo [f] tê bikaranîn.
+Di alfabeya kurdî-erebî de herfa F ya taybet ji bo vê dengê tê bikaranîn; di kurdî-krîlî de bi Ф/ф tê nivîsîn. Di hin zimanan de, wek almanî û holendî, herfa V dengê [f] nîşan dide û dengê [v] bi W tê nivîsîn. Di hin peyvên îngilîzî de, bi taybetî yên ji yûnaniya kevn hatine wergirtin, PH ji bo [f] tê bikaranîn.
 
 ## 2. Peydabûna F di peyvan de
 
@@ -879,7 +879,7 @@ Di hin devokên kurmancî de F-ya berî T di peyvên wek *mizgeft* û *şkeft* d
 
 **G** dengekî sekinî, paşdevî û bilerz e. Di gotina wê de hewa li paşiya devê tê girtin û piştî rawestandinê tê berdan; di heman demê de perdeyên dengî di gewriyê de dilerizin. Di IPA de bi **[g]** tê nîşandan.
 
-Di alfabeya kurdî-erebî û farisî de G bi **گ** tê nivîsîn. Di erebiya standard de ev deng tune ye, lê di hin devokan de hin dengên erebî dikarin wek G bên gotin. Di kurdî-krîlî de bi **Г/г** tê nivîsîn.
+Di alfabeya kurdî-erebî û farisî de herfa taybet a G tê bikaranîn. Di erebiya standard de ev deng tune ye, lê di hin devokan de hin dengên erebî dikarin wek G bên gotin. Di kurdî-krîlî de bi **Г/г** tê nivîsîn.
 
 ## 7. Peydabûna G di peyvan de
 
