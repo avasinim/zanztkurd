@@ -2013,11 +2013,13 @@ Hin kom di peyvên esil-îranî de nayên dîtin, lê di peyvên ji erebî wergi
 
 Di hin peyvan de komên dengî di dema wergirtinê de diguherin. Bo nimûne, **QṢ** di *reqs* de dikare bibe **XS** û **QŞ** di *neqş* de dikare bibe **XŞ**. Di hin peyvan de guherînên din jî hene: *ebd/evd*, *hebs/hefs*, *hefz/hevz*, *weqt/wext*, *risq/rizq* û *zevq/zewq*. Ji ber vê yekê, formên kurmancî her tim wek formên erebî namînin.
 
+Di tabloya çavkaniyê de komê **-XT** hem di lîsteya peyvên esil-îranî (r. 247) û hem jî di lîsteya peyvên esil-erebî (r. 249) de hatiye qeyd kirin; ji ber vê dubarebûnê, li vir ew tenê bi eslê peyvên *bext, text, wext* ve nayê girêdan. Herwiha **-XŞ** di lîsteya r. 249 de du caran hatiye nivîsîn. Ev dubarekirin wek taybetmendiyên nivîsa çavkaniyê têne parastin, ne wek du komên cuda.
+
 ### Komên di peyvên ji zimanên Ewropî wergirtî de
 
 Çavkaniyê hin komên ku di peyvên esil-îranî û esil-erebî de nayên dîtin, bi peyvên ji zimanên Ewropî wergirtî ve girê dide. Nimûneyên sereke:
 - **BL-**: *blok, blanket, blond*;
-- **-BR-**: *Brîtanya*;
+- **-BR-**: *Brîtanya* (li destpêkê), *hibr/hubr* (li dawiyê);
 - **DR-**: *drama*;
 - **GL-**: *glas, global*;
 - **GR-**: *gram, gramer*;
