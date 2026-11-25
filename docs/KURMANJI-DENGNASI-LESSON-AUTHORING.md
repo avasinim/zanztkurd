@@ -3537,7 +3537,7 @@ Li nav û dawiya peyvan, piştî vokalan, li cihê V ya kurmancî di zazakî de 
 | av | aw |
 | şev | şew |
 
-Di van nimûneyan de du pêvajoyên cuda hene. Di *nav/name* û *gav/gam* de zazakî M-ya kevntir parastiye, lê kurmancî ew kiriye V. Di *şev/şew* de guherîna dîrokî ya P → B → V/W tê nîşandan.
+Di van nimûneyan de divê du pêvajoyên cuda ji hev bên veqetandin. Di *nav/name* û *gav/gam* de zazakî M-ya kevntir parastiye, lê kurmancî ew kiriye V. Di *av/aw* de jî W heye; li gorî devokan formên zazakî yên *awe, awi, awk* tên dîtin. Lê di *şev/şew* de guherîna dîrokî ya P → B → V/W tê nîşandan.
 
 Di soranî û kurdiya başûrî de B/P ya îranî dikare bibe W; lê M-ya navbera vokalan wek kurmancî bûye W, ne V.
 
@@ -3582,7 +3582,7 @@ Li şûna komdenga XW ya kurmancî, di zazakî de bi gelemperî W heye.
 
 Lê cînavê *xwe* ji vê rêzikê cuda ye: di zazakî de formên *xo* û *xwu* jî hene. Ji ber vê yekê divê guherîna XW → W wek rêgezeke giştî bê fêmkirin, ne wek rêzikeke bê îstîsna.
 
-Li gorî şîroveya çavkaniyê, kurmancî X parastiye û zazakî di vê komdengê de X ji berî W avêtiye. Hewramî û belûçî jî di hin peyvan de X ji vê komdengê davêjin.
+Li gorî şîroveya çavkaniyê, kurmancî X parastiye û zazakî di vê komdengê de X ji berî W avêtiye. Hewramî û belûçî jî di hin peyvan de X ji vê komdengê davêjin; di gelek lehce û zimanên din ên îranî de XW hatiye parastin an jî W hatiye avêtin.
 
 ## 7. J ya kurmancî û C ya zazakî
 
@@ -3619,7 +3619,7 @@ Di hejmareke ne kêm ya peyvên hevreh de H ya kurmancî di zazakî de nayê got
 | hêstir / hesp | estor / istor |
 | havîn | amnan; herwiha hamnan |
 
-Di hin nimûneyan de H ya kevn ji hin devokên zazakî ketiye, lê di hin devokan de hîn jî maye. Di hin peyvên din de H paşê di kurmancî de zêde bûye; mînak kurmancî *hesp* li hember soranî *esp* û farisî *esb*.
+Di hin nimûneyan de H ya kevn ji hin devokên zazakî ketiye, lê di hin devokan de hîn jî maye. Mînak, ji bilî *amnan*, forma *hamnan* jî tê dîtin; di soranî de *hawîn*, di hewramî û pehlewî de *hamîn* û di avestayî de *ham-* hene. Lê di gelek peyvên din de H di dîrokê de tune bûye û paşê di kurmancî de zêde bûye; mînak kurmancî *hesp* li hember soranî *esp*, farisî *esb*, hewramî *esp* û pehlewî *esp*.
 
 Di hejmareke bisînor ya peyvan de li cihê H ya kurmancî di zazakî de S heye.
 
@@ -3628,7 +3628,7 @@ Di hejmareke bisînor ya peyvan de li cihê H ya kurmancî di zazakî de S heye.
 | deh | des |
 | bihar | wesar |
 
-Heman S di hejmarên 11–19 de jî di formên zazakî de tê dîtin, wek *yewndes*, *diyes* û *hiryes*. Lê ev ne rêgezeke bê îstîsna ye: peyva *sê* ya kurmancî di zazakî de *hirê* ye, ku berevajî vê guherînê ye.
+Heman S di hejmarên 11–19 de jî di formên zazakî de tê dîtin, wek *yewndes* (11), *diyes* (12) û *hiryes* (13). Li gorî şîroveya dîrokî ya çavkaniyê, S dengê kevntir e; di hin zimanên îranî de paşê bûye H, ji ber vê yekê formên bi H nûtir in. Lê hejmara peyvên vê komê kêm e û ev ne rêgezeke bê îstîsna ye: peyva *sê* ya kurmancî di zazakî de *hirê* ye, ku berevajî vê guherînê ye.
 
 ## 10. ST- ya kurmancî û EST-/AST- ya zazakî
 
