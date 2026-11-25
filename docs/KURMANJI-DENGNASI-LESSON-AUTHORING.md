@@ -1932,7 +1932,9 @@ Lê Eyn di hemû peyvên esil-erebî de nayê parastin. Di *alif* de ji forma *�
 
 Eyn tenê di peyvên esil-erebî de nayê dîtin. Di hin peyvên ne-erebî de jî heye, wek *esman* û *ewr*; di hin formên devokî de jî di nav peyvê de tê, wek *me’r, çe’v* û *be’îv*. Di hin peyvan de Eyn hatiye zêdekirin, herçend di forma zimanê jêder de tune bûye; çavkaniyê *erd, erazî, Qur’an* û *cur’et* wek nimûne dide.
 
-Di hin devokan de Eyn dikare bi H were guhertin, an jî H di hin formên herêmî de bibe Eyn. Ev guherîn di gotina hin navan û peyvên wergirtî de tê dîtin.
+Di hin devokan de Eyn dikare bi H were guhertin, an jî H di hin formên herêmî de bibe Eyn. Çavkaniyê navên *Ce’fer/Cehfer* û *Me’sûm/Mehsûm* wek Eyn→H, û guherîna *Ehmed/E’med* û *mehedde/me’ed* wek H→Eyn dide. Ev guherîn bi devokê ve girêdayî ne, ne rêzikên giştî.
+
+Nivîskar dibêje ku Eyn di kurmancî de dengekî rast e, lê dibe ku bi bandora erebî an zimanên din ên samî hatiye. Ew di nivîsa asayî de her tim nayê nîşandan; lê di cotên kêm ên wate-guhêz de, wek *ar/'ar* û *emel/'emel*, nîşankirina wê dikare ji bo rakirina tevliheviyê pêwîst be.
 
 ### Cihê Eyn di nivîsînê de
 
@@ -1942,7 +1944,7 @@ Li gor nêrîna nivîskar, di nivîsa asayî de ne hewce ye ku Eyn her tim were 
 
 K, G û Q her sê jî dengên sekinî ne. Di derxistina wan de rêya hewayê ji bo demeke kurt tê girtin û paşê bi berdana astengiyê hewa derdikeve. K û G li devera banzimanî tên derxistin; Q ji wan paştir, li devera paşbanzimanî, tê derxistin. Cudahiya K û G lerza perdeyên dengî ye: K bêlerz e, G bilerz e. Di IPA de ew bi **[k]**, **[g]** û **[q]** tên nîşandan.
 
-Her sê deng di kurmancî de fonemên cuda ne; guhertina yekê bi ya din dikare wateya peyvê biguherîne. Çavkaniyê cotên wek *kul/gul*, *kul/qul* û *gul/qul* dide.
+Her sê deng di kurmancî de fonemên cuda ne; guhertina yekê bi ya din dikare wateya peyvê biguherîne. Çavkaniyê cotên wek *kul/gul*, *kul/qul* û *gul/qul* dide. Di her sê dengên de cihê destpêk, nav û dawiya peyvê gengaz e; lê G li dawiya peyvê piştî vokalan û Q piştî konsonantan kêm xuya dibin.
 
 ### K û G di dîrok û zimanên cîran de
 
@@ -1956,11 +1958,11 @@ Q di gelek zimanên îranî yên niha de heye, lê di gelek zimanên îranî yê
 
 Di peyvên ji tirkî wergirtî de, K berî vokalên paşîn carinan di kurmancî de dibe Q. Nimûneyên çavkaniyê *qazan* ji *kazan*, *qezenc* ji *kazanç* û *qonax* ji *konak* in. Di peyvên ji erebî wergirtî de Q bi gelemperî tê parastin; lê li ber hin konsonantên bêlerz, wek T, S û Ş, dikare bibe X. Nimûne: *wext* ji *weqt*, *nexş* ji *neqş* û *rexs* ji *reqs*.
 
-Di hin peyvên ku bi eslê xwe îranî ne de jî Q heye, wek *quling, quz* û *qûn*; nivîskar dibêje ku di hin ji van peyvan de Q li şûna K hatiye. Di peyvên ji zimanên Ewropî yên nû wergirtî de, nivîsa standard zêdetir K tercîh dike, wek *kamera, Amerîka* û *Afrîka*.
+Di hin peyvên ku bi eslê xwe îranî ne de jî Q heye, wek *quling, quz* û *qûn*; nivîskar dibêje ku di hin ji van peyvan de Q li şûna K hatiye. Çavkaniyê îstîsnayên rêgeza K→Q jî destnîşan dike, wek *kon/kûn*; herwiha peyva *kol/qol* li gorî wate û devokê bi herdu awayan hatiye parastin. Di hin devokên kurmancî de *fakihe* bûye *fêkî* an *fêqî*. Di peyvên ji zimanên Ewropî yên nû wergirtî de, nivîsa standard zêdetir K tercîh dike, wek *kamera, Amerîka* û *Afrîka*. Çavkaniyê herwiha guhertina K/G li gorî devokan û zaravayan nîşan dide: *çok/çong*, *kal/gal*; di hin pêşpirtik û paşpirtikên kurdiya başûrî de G li hemberî K-ya kurmancî û K-ya soranî tê, wek *nêzîk/nizîk/nizîg* û paşpirtika *-ek/-êk/-êg*.
 
 ## 3. Cotkonsonant di kurmancî de
 
-Cotkonsonant ew kom e ku du konsonant bêyî vokalekê li pey hev, di heman kîteyê de tên. Di peyvên wek *kurd, reng, kerb, text, evd* û *blok* de nimûneyên wê hene. Hin kom di peyvên xwemalî de jî tên dîtin; hinên din bi taybetî di peyvên ji erebî an zimanên Ewropî wergirtî de xuya dibin.
+Cotkonsonant ew kom e ku du konsonant bêyî vokalekê li pey hev, di heman kîteyê de tên. Di peyvên wek *kurd, reng, kerb, text, evd* û *blok* de nimûneyên wê hene. Hin kom di peyvên xwemalî de jî tên dîtin; hinên din bi taybetî di peyvên ji erebî an zimanên Ewropî wergirtî de xuya dibin. Çavkaniyê tabloyekê ji bo hemû cotkonsonantên gengaz di kurmancî de pêşkêş dike; ji ber vê yekê lîsteyên jêrîn nimûneyên koman in, ne ku her yek ji wan tenê di yek eslê peyvan de hebe.
 
 Di nîşandana koman de xêzika kêlekê cihê gengaz ê komê diyar dike:
 - **-BR-**: kom dikare li destpêk û dawiya kîteyê were; wek *Brîtanya* û *hibr*.
@@ -1972,6 +1974,9 @@ Di nîşandana koman de xêzika kêlekê cihê gengaz ê komê diyar dike:
 Çavkaniyê gelek komên di peyvên kurmancî yên esil-îranî de destnîşan dike. Ji wan:
 - **-NC, -ND, -NG**: *pênc, kinc, qenc*; *bilind, çend, rind*; *deng, reng, ceng*.
 - **-RD, -RG, -RM, -RN, -RX, -RZ**: *kurd, merd, derd*; *gurg, merg, cerg*; *germ, nerm, çerm*; *curn, gorn*; *berx, çerx*; *derz, erz*.
+- **-ÇK, -FT, -GW-, -HL, -HT, -JD, -JN, -MB, -RC, -RÇ, -RF, -RS, -SK-, -WT, -XT**: *kuçk/kuçik*; *heft, şkeft*; *gwîz/gûz*; *tehl, dehl, pehn, pêhn*; *teht*; *rijd*; *bejn, cejn*; *duşemb/duşem*; *merc, gurc*; *hirç, pirç, qurç*; *berf, herf*; *birs*; *misk/bisk*; *çewt, hewt, eşkewt*; *bext, text*.
+
+Di tabloya giştî ya çavkaniyê de komên din jî hene: **-BB, -FS, -HŞ, -RB, -VD, -VZ, -WD, -WQ, -WS, -WŞ, -WZ, -YF, -YL, -YN, -YR, -YS, -ZQ**. Lê her kom bi heman awayî di her qata eslê peyvan de nayê dîtin; ji ber vê yekê çavkaniyê paşê wan li gorî peyvên îranî, erebî û ewropî ji hev cuda dike.
 - **-ŞT, -ST-, -SP-, -ŞK-**: *heşt, deşt, mişt*; *dest, bîst, stêr*; *hesp, çesp, spî, spor*; *hişk, şkeft, şkestin*.
 - Komên din ên ku di lîsteya çavkaniyê de hatine nîşandan: **-ÇK, -FT, GW-, -HL, -HT, -JD, -JN, -MB, -RC, -RÇ, -RF**.
 
@@ -1979,9 +1984,9 @@ Hin peyv xwedî guhertoyên devokî ne; wek *kuçk/kuçik*, *gwîz/gûz* û *hef
 
 ### Komên di peyvên esil-erebî de
 
-Hin kom di peyvên esil-îranî de nayên dîtin, lê di peyvên ji erebî wergirtî de hene. Çavkaniyê ji wan **-BD, -BS, -CM, -FŞ, -FZ, -HS, -KS, -MZ, -MD, -NS, -NX, -QS, -QŞ, -QT, -RQ, -RŞ** û çend komên din rêz dike. Nimûneyên wan *ebd/evd, hebs/hefs, hecm, kifş, hefz, behs, eks, remz, hemd, cins, zinx, reqs/rexs, neqş/nexş, weqt/wext, irq* û *ferş* in.
+Hin kom di peyvên esil-îranî de nayên dîtin, lê di peyvên ji erebî wergirtî de hene. Çavkaniyê ji wan **-BD, -BB-, -BS, -CM, -FŞ, -FZ, -HS, -KS, -MZ, -MD, -NS, -NX, -QS, -QŞ, -QT, -RQ, -RŞ, -SM, -VD, -VZ, -WD, -WQ, -WS, -WZ, -YD, -YF, -YL, -YN, -YR, -YS, -ZQ** û çend komên din rêz dike. Nimûneyên wan *ebd/evd, hebs/hefs, hecm, kifş, hefz, behs, eks, remz, hemd, cins, zinx, reqs/rexs, neqş/nexş, weqt/wext, irq* û *ferş* in.
 
-Di hin peyvan de komên dengî di dema wergirtinê de diguherin. Bo nimûne, **QṢ** di *reqs* de dikare bibe **XS** û **QŞ** di *neqş* de dikare bibe **XŞ**. Ji ber vê yekê, formên kurmancî her tim wek formên erebî namînin.
+Di hin peyvan de komên dengî di dema wergirtinê de diguherin. Bo nimûne, **QṢ** di *reqs* de dikare bibe **XS** û **QŞ** di *neqş* de dikare bibe **XŞ**. Di hin peyvan de guherînên din jî hene: *ebd/evd*, *hebs/hefs*, *hefz/hevz*, *weqt/wext*, *risq/rizq* û *zevq/zewq*. Ji ber vê yekê, formên kurmancî her tim wek formên erebî namînin.
 
 ### Komên di peyvên ji zimanên Ewropî wergirtî de
 
