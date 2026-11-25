@@ -970,7 +970,7 @@ Rêjeya herfa H di nivîsên kurmancî de li gorî lêkolîna ku pirtûk vedigir
 
 H di hemû lehceyên kurdî û di gelek zimanên cîran de heye. Di zimanên îranî yên kevn, wek avestayî û hexamenişî, û di zimanên îranî yên navîn, wek pehlewî û partî, jî hebûye. Lê H-ya îroyîn ya kurdî her tim ji H-ya proto-hindûewropî nehatiye.
 
-Di hin peyvên îranî de H ji S-ya proto-hindûewropî ya berî vokalan hatiye. Nimûneya hejmar **heft** e; di zimanên îranî de H heye, lê di gelek zimanên hindûewropî yên ne-îranî de S hatiye parastin: sanskrîtî *septen*, latînî *septem*, fransî *sept* û îngilîzî *seven*. Di yûnaniya kevn de *hêpta* û di ermenî de formên bi H jî hene.
+Di hin peyvên îranî de H ji S-ya proto-hindûewropî ya berî vokalan hatiye. Nimûneya hejmar **heft** e; di zimanên îranî de H heye, lê di gelek zimanên hindûewropî yên ne-îranî de S hatiye parastin: sanskrîtî *septen*, latînî *septem*, fransî *sept* û îngilîzî *seven*. Di yûnaniya kevn de *hêpta* û di ermenî de formên bi H jî hene. Ev guherîna S → H bi taybetî di berî vokalan de ye; S-ya berî konsonantan, wek di *stêr* de, nayê vê guherînê.
 
 Çavkaniyeke din a H dengê D-ya navbera vokalan e. Ev D di farisî de hatiye parastin, lê di kurdî de dikare ketiye an bûye H an Y: farisî *badam* li hember formên kurdî *bahîv, behîv, be’îv*; herwiha farisî *zaden* li hember kurmancî *zan, zayîn*.
 
@@ -983,7 +983,7 @@ H-ya destpêkê di hin peyvên kurmancî de zêde bûye, bi taybetî ji bo ku pe
 
 Di hin devokan de peyvên wek *sto, strî, stêrk* pêşî bi vokalekê dest pê kirine û paşê H li destpêka wan peyvan zêde bûye: *stêr(k) → istêrk → histêrk*; *sto → isto → histo*; *strî(k) → istrî(k) → histrîk*.
 
-H di hin peyvan de li cihê X-ya farisî jî tê: kurmancî *hişk, hirç, tehl, suhr/sor* li hember farisî *xoşk, xers, telx, sorx*. Di hin peyvan de li cihê W an Ş jî tê dîtin; nimûneyên pirtûkê *ceh*, *têhnî/tihnî*, *çehv* û *rih/reh* ne.
+H di hin peyvan de li cihê X-ya farisî jî tê: kurmancî *hişk, hirç, tehl, suhr/sor* li hember farisî *xoşk, xers, telx, sorx*. Di hin peyvan de li cihê W an Ş jî tê dîtin; nimûneyên pirtûkê *ceh*, *têhnî/tihnî*, *çehv* û *rih/reh* ne. Di hin berawirdkirinan de farisî H-ya ji V/F hatiye, lê kurmancî dengê xwe yê V/F diparêze, wek *kulav, kovî* li hember farisî *kolah, kohî*.
 
 ## 6. Guherînên H bi dengên din re
 
@@ -1020,7 +1020,7 @@ Nimûneyên pirtûkê:
 - kurmancî û soranî *jin*; zazakî *cinî*; farisî û pehlewî *zen*; avestayî *cinî-*;
 - kurmancî û soranî *roj*; zazakî *roc*; farisî û pehlewî *rûz/roz*; avestayî *reoçeh-*.
 
-Di hin peyvan de J ji Ş an S-ya kevn hatiye: *hejmar, jimare, jimartin, -jimêr-* li hember farisî *şumar*, peştûyî *şmêrêl* û sanskrîtî *smarati*. Pirtûk herwiha *jidandin* li hember *şidandin* û *cejn* li hember farisî *ceşn* û avestayî *yesne-* dide.
+Di hin peyvan de J ji Ş an S-ya kevn hatiye: *hejmar, jimare, jimartin, -jimêr-* li hember farisî *şumar*, peştûyî *şmêrêl* û sanskrîtî *smarati*. Pirtûk herwiha *jidandin* li hember *şidandin* û *cejn* li hember farisî *ceşn* û avestayî *yesne-* dide. Di şîroveya dîrokî ya pirtûkê de, li cihê van dengên îroyîn di proto-hindûewropî de G an K hebû; paşê di îraniya kevn de bû Ç û di qonaxên paşîn de di zimanan de bû C, Z an J.
 
 Di hin peyvan de C bûye J: *îca/îcar → îja/îjar* û *wicdan → wijdan*. Ev guherîn bi piranî dîrokî ye.
 
