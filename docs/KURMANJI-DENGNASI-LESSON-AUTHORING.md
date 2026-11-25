@@ -1433,7 +1433,7 @@ Di hin nivîsên dengnasiyê de R-ya nerm bi R/r û R-ya req bi Ř/ř tê nîşa
 
 ### R-ya req li nav û dawiya peyvê
 
-R-ya req dikare li nav an dawiya peyvê jî xuya bibe. Nimûne: *bajar, pir* («gelek»), *birîn* («jêkirin») û *biryar*. Di hin nivîsînan de ev R bi **rr** tê nîşandan: *bajarr, pirr, birrîn, birryar*.
+R-ya req dikare li nav an dawiya peyvê jî xuya bibe. Nimûne: *bajar, pir* («gelek»), *birîn* û *biryar*. Di hin nivîsînan de ev R bi **rr** tê nîşandan: *bajarr, pirr, birrîn, birryar*. Tێبینیی سەرچاوە: لە لاپەڕە ١٦٩دا *birîn* بە واتای «جێکردن/بڕین» هاتووە، بەڵام لە لاپەڕەی دواتردا جیاوازیی *birîn* («برین») و *birrîn* («جێکردن») دەخاتەڕوو؛ ئەم ناهاوسەنگییەی کتێب بە بێ بڕیاری دەرەکی لێرەدا بە ئاگاداری تۆمار کراوە.
 
 Nivîsandina **rr** carinan ji bo cudakirina peyvên hevnivîs tê bikaranîn:
 - *birîn* («birîndarî») û *birrîn* («jêkirin»);
@@ -1508,7 +1508,7 @@ Ev nimûne guherînên ku di hin peyvên pir bikaranîn de çêdibin nîşan did
 
 ## 7. S — pidûyî-xişok-vizok yê bêlerz
 
-Dengê **S/s** dengekî **pidûyî-xişok-vizok yê bêlerz** e. Di dema gotina wê de ziman nêzî pidûyan dibe; hewa ji tengiyekê derbas dibe û xişînekê çêdike. Perdeyên dengî di gewriyê de nalerizin. Nîşana wê di IPA de **[s]** e.
+Dengê **S/s** dengekî **pidûyî-xişok yê bêlerz** e. Di dema gotina wê de ziman nêzî pidûyan dibe û kanalegeke teng ji bo derbasbûna hewayê çêdike; hewa bê girtina temamî ya rêya devê derbas dibe û xişînekê çêdike. Perdeyên dengî di gewriyê de nalerizin. Nîşana wê di IPA de **[s]** e. Ji aliyê awayê derxistinê ve [s] xişok e, ne sekinî-xişok (affricate).
 
 ## 8. Cihê S di peyvan de û dengrêziya wê
 
