@@ -1363,9 +1363,8 @@ Cudahiya P-ya zirav û qelew **fonemîk nîne**: guherandina yekê bi ya din wat
 P di hemû lehceyên kurdî de heye û di gelek zimanên cîran û zimanên hindûewropî de jî tê dîtin. P-ya proto-hindûewropî di gelek peyvan de hatiye parastin: *pê* ji *\*pods-*, *pênc* ji *\*pénkʷe* û *pir* ji *\*pértus-*. P di hin peyvan de ji W/V/U-ya kevn jî hatiye, wek *pêl* û *por(r)/pûrt*; P-ya navîn jî di *hesp* û *dilop* de bi W/V/U-ya proto-hindûewropî ve girêdayî ye. Pirtûk çend rêyên din ên peydabûna wê jî nîşan dide:
 
 - Di hin peyvên devkî de B-ya destpêkê bûye P: *pisqilêt* (ji rêya tirkî *bisiklet*), *paysikil* (ji *bicycle*), *pas* (ji *bus*) û *patrî* (ji *battery*). Pirtûk herwiha gava daçeka *bi* bi *wê/wî/wan* re tê, forma *pê* nîşan dide; di hin devokan de *bi* û pêşpirtika lêkerî *bi-* jî dibe P, wek *bi avê → p’avê*.
-- P-ya destpêka hin peyvan ji B-ya zimanên din an ji formên bi B hatine; mînakên gotinî yên pirtûkê *pisqilêt, paysikil, pas* û *patrî* ne.
 - Di hin peyvên xwemalî de P-ya navîn an dawî di qonaxên dîrokî de bûye B û paşê V; di soranî de di hin heman peyvan de W heye. Berawirdkirina *av/aw*, *sêv/sêw* û *heft/hewt* di tabloya pirtûkê de tê pêşkêşkirin.
-- Di hin peyvên îranî de P bi rêya erebî bûye F, ji ber ku P di erebiya standard de tune ye. Nimûne: *fincan* ji *pengan* û *fisteq* ji *pistek*. Pirtûk herwiha rêya belavbûna forma *fisteq* ji zimanên îranî bo yûnaniya kevn û paşê zimanên ewropî vedibêje.
+- Di hin peyvên îranî de P bi rêya erebî bûye F, ji ber ku P di erebiya standard de tune ye. Nimûne: *fincan* ji *pengan*, *fisteq* ji *pistek*, û navê *faris/farisî* ji formên kevnar ên *pars/parsîg*. Pirtûk herwiha rêya belavbûna forma *fisteq* ji zimanên îranî bo yûnaniya kevn û paşê zimanên ewropî vedibêje.
 
 Ev nimûne nîşan didin ku P dikare di destpêkê de ji dengên din peyda bibe, an di nav û dawiya peyvê de bi dengên din re biguhere. Her peyv divê li gorî dîroka xwe were şîrovekirin; ev guherîn rêzikeke yekgirtî ya bêistisna nînin.
 
