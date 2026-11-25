@@ -154,7 +154,7 @@ Husein Muhammed, *Dengnasî di kurdî de*, rûpelên çapkirî 8–15.
 
 ## 1. Herf, deng, hevdengî û pirdengî
 
-Herf nîşaneke nivîskî ye; deng jî yekeya dengî ye ku tê gotin û bihîstin e. Di hin zimanan de têkiliya herf û dengê wê yek-bi-yek nîne. Bo nimûne, di inglîzî de herfa C di *cent* de dengê [s] û di *computer* de dengê [k] dide. Ji vê taybetmendiyê re **pirdengî** tê gotin: heman herf di peyvên cuda de dikare dengên cuda nîşan bide.
+Herf nîşaneke nivîskî ye; deng jî yekeya dengî ye ku tê gotin û tê bihîstin. Di hin zimanan de têkiliya herf û dengê wê yek-bi-yek nîne. Bo nimûne, di inglîzî de herfa C di *cent* de dengê [s] û di *computer* de dengê [k] dide. Ji vê taybetmendiyê re **pirdengî** tê gotin: heman herf di peyvên cuda de dikare dengên cuda nîşan bide.
 
 **Hevdengî** rewşeke din e: heman deng di peyvên cuda de bi herf an komeherfên cuda tê nivîsîn. Di inglîzî de dengê [f] di *five* de bi F, lê di *philosophy* de bi PH tê nivîsîn. Herwiha di *cent* de dengê [s] bi C tê nivîsîn, lê di *seven* de bi S.
 
