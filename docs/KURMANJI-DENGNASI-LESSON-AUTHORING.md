@@ -1004,7 +1004,6 @@ Ev varyant di pirtûkê de wek awayên nivîsînê yên cuda tên nîşandan; di
 | Nimûne | *heval, hêvî* | *jin, jiyan* |
 | Taybetmendî | Di nivîsîna standard de ji Ḧ cuda nayê nivîsîn | Di kurdî-latînî de dengekî taybet nîşan dide |
 
-**Bîr bîne:** H û Ḧ di dengnasiyê de cuda ne, lê di nivîsîna asayî ya latînî de pirtûk parastina herfa H-ê pêşniyar dike. J jî [ʒ] e, ne [d͡ʒ]; ew ji C-ya kurdî cuda ye.
 
 ## 13. Ketina J ji peyvê
 
@@ -2097,20 +2096,6 @@ Herçend piraniya komên konsonantî ji du konsonantan pêk tên, di kurdî de h
 - **-KST:** *tekst*.
 
 Ev nimûne nîşan didin ku komên sêkonsonantî hene, lê ji komên du-konsonantî kêmtir in.
-
-## 9. Çawa komên konsonantî analîz bikin?
-
-Dema ku em peyvekê vedikolin, sê pirsan bipirsin:
-
-1. Kîjan konsonant li pey hev hatine?
-2. Kom li destpêk, nav an dawiya kîteyê ye?
-3. Peyv xwemalî ye an ji zimanekî din hatiye wergirtin?
-
-Mînak:
-- Di *reng* de **NG** li dawiya kîteyê ye û di peyveke xwemalî de tê.
-- Di *krîz* de **KR** li destpêka peyvê ye û peyv ji zimanekî ewropî hatiye wergirtin.
-- Di *heft* de **FT** li dawiya kîteyê ye.
-- Di *stran* de **STR** komeke sêkonsonantî ye.
 
 ## Çavkanî
 
