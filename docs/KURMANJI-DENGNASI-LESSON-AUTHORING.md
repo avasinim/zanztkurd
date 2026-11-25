@@ -3869,57 +3869,58 @@ Husein Muhammed, *Dengnasî di kurdî de*, rûpelên çapkirî 402–417.
 
 ## 1. Hiyatus çi ye?
 
-**Hiyatus** (*hiatus*) rewşa ku du vokal li pey hev tên, lê her yek ji wan dikeve kîteyeke cuda. Yek vokal li dawiya kîteya yekem û ya din li destpêka kîteya duyem e.
+**Hiyatus** (*hiatus*) peydabûna du vokalan li pey hev e, bi awayekî ku vokala yekem li dawiya kîteyekê û ya duyem li destpêka kîteya din be. Ev yek di peyvên wek *bêav, biêş, neavêjin, biavêjin, xaîn, îdîa, saet, îdea* û *teorî* de tê dîtin.
 
-Nimûneyên çavkaniyê:
-- *bêav*
-- *biêş*
-- *neavêjin*
-- *biavêjin*
-- *xaîn*
-- *saet*
-- *îdea*
-- *teorî*
-
-Gelek caran tê gotin ku di kurdî de du vokal li pey hev nayên. Lê nimûneyên jor nîşan didin ku hiyatus di kurmancî de jî dikare peyda bibe. Ji aliyê din ve, di kurmancî de gelek caran hewl tê dayîn ku rê li ber peydabûna wê were girtin. Ji ber vê yekê divê em hem hebûna hiyatusê nas bikin û hem jî rêbazên kêmkirina wê fêm bikin.
+Gotina ku di kurdî de du vokal nikarin li pey hev bên, rastiya zimanê bi tevahî nade. Hiyatus di kurmancî de heye; lê ziman di gelek rewşan de rê li ber wê digire. Ji ber vê yekê, divê hebûna hiyatusê û rêbazên kêmkirina wê ji hev cuda bên naskirin.
 
 ## 2. Hiyatus di kîjan peyvan de peyda dibe?
 
-Li gorî çavkaniyê, hiyatus di peyvên xwerû yên xwemalî de bi gelemperî nayê dîtin. Lê dikare di van rewşan de peyda bibe:
+Li gorî çavkaniyê, hiyatus di peyvên xwerû yên xwemalî de bi gelemperî nayê dîtin. Ew bi taybetî di van rewşan de peyda dibe:
 
-- di hin peyvên ji erebî wergirtî de, wek *xaîn, qaîl, iade, îdîa, saet*;
-- di hin peyvên ji zimanên Ewropî wergirtî de, wek *îdea, jeopolîtîk, euro*;
-- dema ku pêşgirek li pêş rehê peyvê tê, wek *bêav, biêş, neaxivîn, naêşe*.
+- Di hin peyvên ji erebî wergirtî de: *xaîn, qaîl, iade/îade, îdîa, saet*.
+- Di hin peyvên ji zimanên Ewropî wergirtî de: *îdea, jeopolîtîk, euro*.
+- Dema ku pêşgir li pêş rehê peyvê tê: *bêav, biêş, neaxivîn, naêşe*.
 
-Çavkaniyê destnîşan dike ku di navbera rehê peyvê û paşgiran de zimanê nivîskî û gelek devok rê li ber hiyatusê digirin. Lê ev şert di hemû devokan de bi heman awayî nayê sepandin.
+Di navbera reh û paşgir de kurmanciya nivîskî û gelek devok bi gelemperî rê li ber hiyatusê digirin; lê ev yek di hemû devokan de bi heman awayî pêk nayê.
 
-## 3. Du rêbazên sereke yên rêgirtina li ber hiyatusê
+## 3. Kîjan vokal bi hev re tên?
 
-Çavkaniyê du rêbazên sereke destnîşan dike:
+Çavkaniyê tabloyekê ji bo kombînasyonên vokalan pêşkêş dike û wan li gorî peyvên bi pêşgir, peyvên ji erebî wergirtî û peyvên ji zimanên Ewropî wergirtî nîşan dide. Hin kombînasyon di peyvên xwerû de tune ne, lê di peyvên wergirtî an pêkhateyên bi pêşgir de hene.
 
-1. **Avêtina yek ji du vokalan:** yek ji vokalan ji gotinê an ji formê peyvê dikeve.
+Nimûneyên ku di tablo û têbîniyên wê de hatine diyarkirin:
+
+- **A + E / Ê / I / Î / O / U:** di pêkhateyên bi pêşgir de formên wek *na-axivin, naêşe, naînim, naorin, naumêd*.
+- **E + A / E / Ê / Î / O:** nimûneyên wek *neavêt, ne-ecibandin, neêşînin, neînin, neolî*.
+- **I + A / E / Ê / I / O:** nimûneyên wek *biavêjin, dielimînin, diêşînin, di-inirin, diore*.
+- **Î + A / E / O:** di peyvên wergirtî de nimûneyên wek *îade/îane, şîe, îon*.
+
+Di hin nimûneyan de hiyatus tenê di nivîsînê de xuya dike; di bilêvkirinê de dengê **Eyn** di navbera vokalan de heye. Herwiha hin formên nivîskî yên tabloyê ne formên herî berbelav in: bo nimûne *naumêd* forma farismancî ye, û formên kurdîtir *bêumêd* an *bêhêvî* ne. Di peyvên Ewropî de hiyatusa **EU** bi gelemperî di kurdî de dibe **EW**, wek *Ewropa* û *ewro*.
+
+Çavkaniyê rave dike ku gelek hiyatusên di pêkhateyên bi pêşgir de ji ber pêşgirên bingehîn ên kurdî yên **bi-, bê-, di-, na-, ne-** çêdibin; ev pêşgir bi A, E, Ê an I dest pê dikin.
+
+## 4. Du rêbazên sereke yên rêgirtina li ber hiyatusê
+
+Çavkaniyê du rêbazên bingehîn destnîşan dike:
+
+1. **Avêtina yek ji du vokalan:** yek ji vokalan di gotinê de tê avêtin an formê peyvê diguherîne.
 2. **Zêdekirina konsonantekê:** konsonantek di navbera herdu vokalan de tê danîn.
 
-Di hin rewşan de vokalek bi konsonantekê tê veguhastin; ev jî rêbazeke din a girêdayî bi rêgirtina hiyatusê ye.
+Ji bilî Y, ku gelek caran wek “tîpa kelijandinê” tê binavkirin, H, T, N û W jî di hin rewşên kurmancî de dikarin rê li ber hiyatusê bigirin. Di soranî û kurdiya başûrî de R jî di hin rewşan de vê erkê digire. Ev konsonant di hemû rewşan de li cihê hev nayên bikaranîn; her yek sînorên xwe hene.
 
-Divê em ji bîr nekin ku Y tenê konsonanta ku dikare rê li ber hiyatusê bigire nîne. Çavkaniyê H, T, N û W jî di kurmancî de, û R di hin rewşên soranî û kurdiya başûrî de, wek rêgirên hiyatusê destnîşan dike.
+## 5. Avêtina yek ji du vokalan
 
-## 4. Avêtina yek ji du vokalan
+Di kurmanciya devkî de, di piraniya devokan de avêtina yek ji herdu vokalan rêbaza sereke ye. Ev yek hem di navbera pêşgir û rehê peyvê de, hem jî di navbera reh û paşgirê de çêdibe.
 
-Di kurmanciya devkî de, li gorî çavkaniyê, avêtina yek ji du vokalan di piraniya devokan de rêbaza sereke ye. Ev yek dikare di navbera pêşgir û rehê peyvê de an di navbera reh û paşgir de çêbibe.
+**Pêşgir + reh:**
 
-### Pêşgir û reh
-
-| Pêkhate | Forma ku tê gotin |
+| Pêkhate | Forma gotinê |
 |---|---|
 | di + avêtin | davêtin |
 | bi + aqil | baqil |
 | na + avêtin | navêjin |
 | ne + axift | naxift |
 
-Di van nimûneyan de yek ji vokalên li hev ketî tê avêtin an di gotinê de diguherê.
-
-### Reh û paşgir
+**Reh + paşgir:**
 
 | Pêkhate | Forma ku tê bikaranîn |
 |---|---|
@@ -3929,126 +3930,135 @@ Di van nimûneyan de yek ji vokalên li hev ketî tê avêtin an di gotinê de d
 | Zaxo + ê | li Zaxo |
 | Elî + î | mala Elî |
 
-Gava ku herdu vokal wek hev bin, bi gelemperî yek ji wan dimîne. Mînak: *Elî + î → Elî*. Di zimanê nivîskî de jî dubarekirina vokalê di navbera reh û paşgir de bi gelemperî nayê parastin.
+Gava ku herdu vokal wek hev bin, di gotinê de bi gelemperî yek ji wan dimîne: *na + avêjin → navêjin* û *Elî + î → Elî*. Di zimanê nivîskî de jî dubarekirina vokalê di navbera reh û paşgir de bi gelemperî nayê parastin.
 
-## 5. Cudahiyên nivîsîn û gotinê
+Lê di navbera pêşgir û reh de zimanê nivîskî dikare herdu vokalan biparêze: *na-axivin* an *naaxivin*; forma kurtkirî *naxivin* kêmtir tê dîtin. Di hin rewşan de vokalên I û E yên pêşgiran di gotinê de tên avêtin an diguherin: *di + avêjin → davêjin* û *ne + axift → naxift*.
 
-Di hin rewşan de zimanê nivîskî du vokalên li hev diparêze, lê di gotinê de yek ji wan dikeve. Nimûneya çavkaniyê *na-axivin* e: di nivîsînê de forma bi herdu vokalan dikare were parastin, lê di axaftinê de formên kurtkirî jî hene.
+Gava ku reh bi vokalekê bi dawî were, di hin devokan de paşgira çemandinê nayê zêdekirin: *Almanya + ê → li Almanya*. Hin devok ji koma AÊ, Ê derdixin û A davêjin: *li Almanyê*. Forma berbelav a *dinya* jî *li dinyê* ye, ku dikare bibe *li dinê*.
 
-Di rewşên din de, zimanê nivîskî jî avêtina vokalê diparêze, bi taybetî di navbera reh û paşgir de. Ji ber vê yekê divê xwendekar cudahiya forma nivîskî, forma devkî û varyantên herêmî nas bike; her forma dengî ne şert e ku wek awayê nivîsînê were bikaranîn.
+Di girêdana peyvê bi peyveke din re, wek izafe, şert cuda dibe. Di hin devokan de A dikare bikeve: *bira + ê min → birê min*; di hinên din de forma bi hiyatusê an bi Y tê parastin.
 
-## 6. Rola Y di rêgirtina li ber hiyatusê de
+## 6. Rola Y
 
-Y di kurmanciya nivîskî de konsonanta herî berbelav a ku di navbera du vokalan de tê bikaranîn. Lê ew ne di hemû rewşan de tê bikaranîn.
+Di kurmanciya nivîskî de Y konsonanta herî sereke ye ku di navbera du vokalan de, bi taybetî di pêkhateya **reh + paşgir** de, tê bikaranîn:
 
-Di pêkhateya **reh + paşgir** de, Y dikare di navbera du vokalan de were zêdekirin:
+- *rojname + ê → rojnameyê*;
+- *perde + a → perdeya sor*;
+- *bira + ên → birayên hêja*.
 
-| Pêkhate | Forma bi Y |
-|---|---|
-| rojname + ê | rojnameyê |
-| perde + a | perdeya sor |
-| bira + ên | birayên hêja |
+Lê Y di çemandina lêkeran de bi gelemperî nayê zêdekirin; yek ji vokalan tê avêtin an form diguherê:
 
-Lê di çemandina lêkeran de, bi gelemperî Y nayê zêdekirin; yek ji vokalan dikeve an form diguherê. Mînakên çavkaniyê:
 - *dijî + e → ew dijî*, ne *dijiye*;
 - *dijî + in → em/hûn/ew dişên*, ne *dişêyin*.
 
-Di hin formên kesê duyem de Y dikare were dîtin, lê çavkaniyê dibêje ku ev form ne di nivîsînê de û ne jî di axaftinê de serdest in.
+Di kesê duyem ê yekhejmar de formên wek *tu dişê-y-î* û *tu di-jî-yî* tên dîtin, lê ev awayên bikaranînê ne di nivîsînê de û ne jî di axaftinê de serdest in. Formên serdest *tu dişê* û *tu dijî* ne.
 
-Di pêkhateya **pêşgir + reh** de Y bi gelemperî nayê bikaranîn:
-- *ne + anîn → neanîn*;
-- *na + avêjim → naavêjim / navêjim*;
-- *di + êşînin → diêşînin / dêşînin*;
-- *bi + ecibîne → biecibîne*.
+Di pêkhateya **pêşgir + reh** de Y hema-hema qet nayê bikaranîn: *ne + anîn → neanîn*; *na + avêjim → naavêjim/navêjim*; *di + êşînin → diêşînin/dêşînin*; *bi + ecibîne → biecibîne*. Y di hin formên neyînî yên lêkera *anîn* de dikare were dîtin, wek *na + îne → nayîne* û *ne + înin → neyînin*, lê ev form kêm in. Formên din ên serdest dikarin hiyatusê biparêzin an H zêde bikin: *naîne, neînin, nahîne, nehîne*.
 
-Ji ber vê yekê, gotina ku Y her tim “tîpa kelijandinê” ye rast nîne. Ew di hin pêkhateyan de rê li ber hiyatusê digire, lê di hinên din de avêtina vokalê an rêbazên din tên bikaranîn.
+Zêdekirina Y di nivîsînê de nayê wê wateyê ku ew her tim di axaftinê de tê gotin. Di hin devokên rojhilatî de herdu vokal dikarin bimînin bêyî ku Y were bilêvkirin; wek *biraê min* li şûna forma kurtkirî *birê min*.
 
 ## 7. Rola H
 
-H di hin peyv û pêkhateyan de dikare bi hiyatusê re têkildar be, lê çavkaniyê ew wek rêbazeke giştî ya **pêşgir + reh** pêşkêş nake. Di rastî de, di van pêkhateyan de H nayê zêdekirin:
-- *bi + aqil → biaqil/baqil*, ne *bi-haqil*;
-- *bê + av → bêav*, ne *bêhav*;
-- *di + axivin → biaxivin/baxivin*, ne *bihaxivin*.
+H di hin devokan de û di hin tercîhên nivîskaran de wek rêgirê hiyatusê tê bikaranîn, bi taybetî di pêkhateya **pêşgir + reh** de:
 
-Di lêkera *hatin* de H ya destpêkê ji aliyê dîrokî ve tune bû; lê niha forma bê H ya *atin* di kurmancî û soranî de êdî nemaye an pir kêm e. Di rehê dema niha de, forma bê H di soranî de bi giştî û di kurmancî de bi piranî parastiye; forma bi H jî di kurmancî de ji aliyê kêmaniyeke axêveran ve tê bikaranîn:
-- *di + ê-n → diên/dên/tên*; herwiha di hin bikaranînan de *dihên*.
+- *ne + anîn → nehanîn*;
+- *di + avêt → dihavêt*;
+- *na + avêjî → nahavêjî*.
 
-Di kurmanciya nivîskî de H zêdetir di pêkhateya **reh + paşgir** de tê dîtin, bi taybetî di hin peyvên dariştî de:
-- *amade + î → amadehî* (di analîza pêkhateyan de *amade-h-î*);
-- *du + em → duhem* (di analîza pêkhateyan de *du-h-em*).
+Di hin devokan de H ji vê erkê derbasî formên din ên peyvan bûye; ji ber vê yekê formên *hanîn* û *havêtin* jî tên dîtin. Li gorî çavkaniyê, ev form bi dîrokî ji *anîn* û *avêtin* nûtir in, ne kevntir.
 
-Lê heta di van rewşan de jî formên bi Y, W yan T dikarin serdest bin. H di çemandin û girêdana peyvan de rêbazeke giştî nîne.
+H ya destpêka lêkera *hatin* jî bi dîrokî tune bû. Niha forma bê H ya *atin* di kurmancî û soranî de nemaye an pir kêm maye. Lê di rehê dema niha de forma bê H, wek *diên/dên/tên*, di soranî de bi giştî û di kurmancî de bi piranî hatiye parastin; kêmaniyeke axêveran forma bi H, *dihên*, bi kar tînin.
+
+H bi tevahî û di hemû rewşan de rê li ber hiyatusê nagire. Di van nimûneyan de H nayê zêdekirin: *biaqil/baqil* ne *bih-aqil*؛ *bêav* ne *bêhav*؛ *biaxivin/baxivin* ne *bihaxivin*.
+
+Di kurmanciya nivîskî de H di hin peyvên dariştî yên reh + paşgir de tê dîtin: *amade + î → amadehî* (amade-h-î) û *du + em → duhem* (du-h-em). Lê formên bi Y, W an T jî dikarin serdest bin. H di çemandin û girêdana peyvan de rêbazeke giştî nîne.
 
 ## 8. Rola W û T
 
-W di hejmareke sînordar ya pêkhateyên reh + paşgir de dikare di navbera vokalan de were zêdekirin:
+W di hejmareke sînordar ya pêkhateyên reh + paşgir de di navbera vokalan de tê zêdekirin:
+
 - *ba + î → bawî*;
 - *du + em → duwem*.
 
-T jî di hin peyvên dariştî de dikare wek rêgir were bikaranîn:
+T di hin peyvên dariştî de wek rêgir tê bikaranîn; ew di çemandin û girêdana peyvan de rêbazeke giştî nîne:
+
 - *bira + î → biratî*;
 - *pêşmerge + î → pêşmergetî*;
 - *hevrê + î → hevrêtî*.
 
-Çavkaniyê destnîşan dike ku T bi Î re di hin peyvên dariştî de berbelav bûye, heta ku hiyatus bi xwe ne hewce be. Lê ev T di çemandin û girêdana peyvan de bi heman awayî nayê bikaranîn.
+Bikaranîna T bi paşgira Î re berbelav bûye, heta di peyvên ku hiyatus tune ye de jî: *heval + î → hevaltî*, li şûna *hevalî*.
 
 ## 9. Rola N
 
-Di kurmancî de hin peyv cotform hene ku yek bi N û ya din bê N e, wek:
-- *çawa / çawan*;
-- *wisa / wisan*;
-- *dîsa / dîsan*.
+Di kurmancî de hin peyv cotform hene ku di yekê de N ya dawiyê heye û di ya din de tune ye, wek *çawa/çawan* û *wisa/wisan*. Çavkaniyê rave dike ku N ya dawiyê dikare di destpêkê de ji bo rêgirtina li ber hiyatusê hatibe bikaranîn: forma bê N dema ku peyva paşê bi konsonantê dest pê dike, û forma bi N dema ku peyva paşê bi vokalê dest pê dike.
 
-Li gorî şîroveya dîrokî ya çavkaniyê, N ya dawiyê di destpêkê de dikare ji bo rêgirtina li ber hiyatusê hatibe bikaranîn. Heke peyva li pey wê bi vokalekê dest pê bike, forma bi N dikare were hilbijartin; heke peyva piştî wê bi konsonantê dest pê bike, forma bê N dikare were bikaranîn.
+- *Tu çawa hatî?* — peyva paşê bi konsonantê dest pê dike.
+- *Tu çawan î?* — peyva paşê bi vokalê dest pê dike.
 
-Nimûne:
-- *Tu çawa hatî?* — peyva piştî *çawa* bi konsonantê dest pê dike.
-- *Tu çawan î?* — peyva piştî wê bi vokalê dest pê dike.
+Di hin devokan de ev sîstem di formên pirhejmar de jî hatiye parastin. Piraniya devokan li şûna paşgira nivîskî **-an**, forma devkî **-a** bi kar tînin; lê hin devok dema ku peyva paşê bi vokalê dest pê dike, N zêde dikin. Hin devok jî li şûna N, Y bi kar tînin.
 
-Çavkaniyê dibêje ku di hin devokan de ev sîstem di formên pirhejmar de jî hatiye parastin, lê di gelek devok û di zimanê nivîskî de êdî ne sîstemeke giştî ye. Hin devok li şûna N Y bi kar tînin. Di zimannasiyê de N ya wiha bi navê **N-ya livbar** an **N-ya efelkîstîk** tê nasîn.
+Di zimannasiyê de ev N bi navê **N-ya livbar** an **N-ya efelkîstîk** tê nasîn. Çavkaniyê îhtîmala hebûna diyardeyeke dîrokî ya nêzîk di tirkî de jî bi nimûneya *o → ona* destnîşan dike. Sîstema N ya livbar û cotformên wek *çawa/çawan* niha di hemû devok û di zimanê nivîskî de bi awayekî yekgirtî nayên bikaranîn.
 
 ## 10. R di soranî û kurdiya başûrî de
 
-Çavkaniyê dibêje ku R di kurmancî de wek rêgirê hiyatusê nayê bikaranîn, lê di hin rewşên soranî û kurdiya başûrî de dikare were zêdekirin. Bikaranîna wê bi hin formên lêkeran ve sînordar e.
+R di kurmancî de wek rêgirê hiyatusê nayê bikaranîn. Lê di hin rewşên soranî û kurdiya başûrî de, bi taybetî di hin formên lêkeran de, dikare were zêdekirin:
 
-Nimûneya çavkaniyê:
-- *bide + ê → biderê*.
+- *bîde + ê → biderê*.
 
-Ev taybetmendî divê wek rêbazeke kurmancî neyê pêşkêşkirin; ew di çarçoveya berawirdkirina zarav û devokên din de hatiye gotin.
+Ev taybetmendî divê wek rêbazeke kurmancî neyê pêşkêşkirin.
 
-## 11. V wek rêgir? 
+## 11. V wek rêgir?
 
-Di peyva *pîvaz* de, ku hevrehên wê di soranî, zazakî û farisî de bi Y dest pê dikin, hatiye texmînkirin ku V ya kurmancî dikare berê wek konsonanteke rêgirê hiyatusê kar kiriye. Lê çavkaniyê eşkere dike ku ev tenê texmînek e û V niha êdî bi vî erkî ne çalak e; di peyvên din de wek rêgirê hiyatusê bi awayekî berbelav nayê bikaranîn.
+Hevrehên peyva kurmancî *pîvaz* di soranî, zazakî û farisî de bi Y dest pê dikin: *piyaz*. Hatiye texmînkirin ku V ya di *pîvaz* de dikare berê konsonanteke rêgirê hiyatusê bûbe. Çavkaniyê vê yekê wek texmîn pêşkêş dike; heta heke rast be jî, V niha bi vî erkî ne çalak e û di peyvên din de bi awayekî berbelav vê rolê ranabe.
 
 ## 12. Rêgirtina hiyatusê di navbera du peyvên serbixwe de
 
-Hin ziman ne tenê di hundirê peyvekê de, lê di navbera du peyvên serbixwe de jî rê li ber hiyatusê digirin. Çavkaniyê fransî wek nimûne dide: *je + ai → j’ai*.
+Hin ziman di navbera du peyvên serbixwe de jî rê li ber hiyatusê digirin. Çavkaniyê fransî wek nimûne dide: *je + ai → j’ai*, ku vokal tê avêtin û apostrof tê bikaranîn.
 
-Di kurmanciya nivîskî de, bi gelemperî hiyatus dikare di navbera du peyvên serbixwe de bimîne:
+Di kurmanciya nivîskî de hiyatus dikare di navbera peyvên serbixwe de bimîne:
+
 - *bi avê*;
 - *ji agirî*.
 
-Lê di axaftinê de, bi taybetî di hin devokên rojhilatî de, dikare vokal were avêtin an peyv bi hev ve girêbide:
-- *bi + avê → b’avê / p’avê*;
-- *ji + agirî → j’agirî / ş’agirî*.
+Di axaftinê de, bi taybetî di hin devokên rojhilatî de, vokal dikare were avêtin û peyv bi hev ve girêbide:
 
-Di hin rewşên rêzimanî de, kopula û peyvên din jî li gorî dengê dawî yê peyva berî xwe formên cuda hildibijêrin. Çavkaniyê cotên *ez kurd im* û *ez kî me* wek nimûne pêşkêş dike. Herwiha formên wek *birayê min ê mezin* û *birayê te yê mezin* wek awayên ku hiyatusê kontrol dikin destnîşan dike.
+- *bi + avê → b’avê/p’avê*;
+- *ji + agirî → j’agirî/ş’agirî*.
+
+Di hin rewşên rêzimanî de kopula jî li gorî dengê dawî yê peyva berî xwe formên cuda hildibijêre:
+
+| Peyva bi konsonantê dawî | Peyva bi vokalê dawî |
+|---|---|
+| ez kurd im | ez kî me |
+| tu kurd î | tu kî yî |
+| ew kurd e | ew kî ye |
+| em kurd in | em kî ne |
+| hûn kurd in | hûn kî ne |
+| ew kurd in | ew kî ne |
+
+Herwiha formên *birayê min ê mezin* û *birayê te yê mezin* wek awayên ku hiyatusê kontrol dikin tên pêşkêşkirin. Di nivîsên hin kesan de forma Y-ya *birayê min yê mezin* jî bûye awayekî giştî.
 
 ## 13. Veguhastina vokalekê bi konsonantekê
 
-Rêbazeke din ew e ku vokalek ji bo rêgirtina hiyatusê dibe konsonantek. Çavkaniyê bi taybetî veguhastina **Î → Y** destnîşan dike:
+Rêbazeke din ew e ku vokalek ji bo rêgirtina hiyatusê dibe konsonantek.
+
+Di soranî de, bi taybetî di zimanê nivîskî de, **Î → Y** tê dîtin:
+
 - *rojname + î → rojnamey Kurdistan*;
-- di hin devokên kurmancî de *bira + î → biray got*.
+- li hember *govar + î → govarî Kurdistan*.
 
-Di hin nivîsan de formên wek *xanyê me* an *xan-y-ê me* jî tên dîtin; lê forma serdest a nivîskî *xaniyê me* ye. Ev nimûne nîşan didin ku guherîna Î bo Y dikare rê li ber du vokalan bigire.
+Di hin devokên kurmancî de jî Î dikare bibe Y:
 
-Di kurmancî de **U/Û → W** jî di hin devokan de peyda dibe:
+- *bira + î → biray got*.
+
+Di hin nivîsên kurmancî de formên wek *xanyê me* an *xan-y-ê me* tên dîtin; forma standard a serdest *xaniyê me* ye.
+
+Di kurmancî de **U/Û → W** jî di hin devokan de, û carinan di nivîsan de, peyda dibe:
+
 - *xesû + a → xeswa wê*;
 - *rû + ê → riwê wî*.
 
-Lê formên serdest ên nivîskî bi Y tên çêkirin:
-- *xesûya wê*;
-- *rûyê wî*.
+Lê formên serdest ên nivîskî bi Y tên çêkirin: *xesûya wê* û *rûyê wî*.
 
 ## Çavkanî
 
