@@ -19,7 +19,7 @@
 | 1 | Dergeh: dengnasî û lêkolînên pêşîn | 4–7 |
 | 2 | Vokal, konsonant, cih û awayên derketina dengan, pifdarî | 8–15 |
 | 3 | Hevdengî û pirdengî di nivîsînê de | 16–28 |
-| 4 | Qelewîtî | 29–39 |
+| 4 | Qelewîtî | 29–40 (beşa destpêkê ya rûpela 40) |
 | 5 | Rêjeya herfan di nivîsên kurmancî de | 40–43 |
 | 6 | Dengrêzî û kîte | 44–55 |
 | 7 | Tesîra guherîna dengî li ser nivîsînê | 56–67 |
@@ -375,7 +375,9 @@ Ev nîşankirin divê di ferheng û pirtûkên dengnasiyê de bimîne, ne ku di 
 
 ## Çavkanî
 
-Husein Muhammed, *Dengnasî di kurdî de*, rûpelên çapkirî 29–39.
+Nivîskar di dawiya nîqaşê de destnîşan dike ku piraniya kurmancîzanan, bêyî nuqte û apostrof, dizanin ku P-ya *pez* qelew e; ji ber vê yekê nîşana taybet ji bo xwendin û nivîsîna asayî ne hewce ye.
+
+Husein Muhammed, *Dengnasî di kurdî de*, rûpelên çapkirî 29–40 (tenê beşa destpêkê ya rûpela 40; Dersa 5 jî di heman rûpelê de dest pê dike).
 
 # Dersa 5 — Rêjeya herfan di nivîsên kurmancî de
 
