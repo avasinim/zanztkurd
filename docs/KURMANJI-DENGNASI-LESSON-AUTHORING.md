@@ -1225,6 +1225,8 @@ Di gelek peyvên xwemalî yên kurdî de, M-ya îraniya kevn an proto-hindûewro
 - kurmancî *gav* — soranî *(hen)gaw*; berawird bike bi farisî û zazakî *gam*.
 - kurmanciya rojhilatî *nivêj* — soranî *niwêj*; berawird bike bi zazakî *nimac* û farisî *nemaz*.
 
+Ev guherîna M→V/W divê ji peyvên ku di eslê wan de M hebû cuda bê dîtin: di *ziman* de M ji B an V-ya kevn hatiye, ne ku M bûbe V. Pirtûk wê bi farisî *ziban*, pehlewî *uzvan* û sanskrîtî *cihve-* re berawird dike.
+
 Di kurmanciya navendî û rojavayî de M di *nimêj* de hatiye parastin; pirtûk ihtîmala parastina wê di bin bandora zimanên cîran de an vegerandina wê jî destnîşan dike.
 
 Piştî konsonantan M bi gelemperî nayê guhertin. Ji ber vê yekê di *germ* de M dimîne û nabe V an W. Di *genim* de jî M hatiye parastin, ji ber ku di qonaxa dîrokî ya peyvê de D an T li pey wê hebû.
@@ -1272,7 +1274,7 @@ Bi taybetî gava N û B an P li hev bên, N dibe M:
 
 N di hin peyvan de dibe L:
 - *nimêj, nivêj* — di hin devokan de *limêj*;
-- *nivîn* — di hin devokan de *livîn*;
+- *nivîn* — di hin devokan de *livîn* (bi maneya doşek an balgih);
 - daçeka kurmancî *li* û soranî *le*, ku eslê wan *ni* û *ne* bû.
 
 Pirtûk van formên bi L di berawirdkirinê de bi formên N-ê û zimanên din re dide. Di hin devokan de guherîna N bi L xuya dike.
