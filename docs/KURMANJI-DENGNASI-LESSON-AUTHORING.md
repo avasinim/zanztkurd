@@ -3477,7 +3477,7 @@ Zazakî, wek soranî û piraniya zimanên din ên îranî, di gelek peyvan de ko
 | pird | pird | pir |
 | werdene | xwardin | xwarin |
 
-Ev nimûne nîşan didin ku zazakî û soranî di van peyvan de bi hev re ne, lê kurmancî formên kurtir ên bê D diparêze. Ev hevahengî tenê ji bo van pêvajoyên dengî ye; nayê wê wateyê ku zazakî û soranî di hemû taybetmendiyên dengnasî an rêzimanê de nêzîk bin.
+Ev nimûne nîşan didin ku zazakî û soranî di van peyvan de bi hev re ne, lê kurmancî formên kurtir ên bê D diparêze. Di nimûneya *pird* de wateya peyva kurmancî **pir** “rêya di ser avê re” ye (bridge), ne wateya *pirr* ya “gelek, zehf”; zazakî û soranî jî ji bo wateya “pirr” peyveke cuda ya *pirr* hene. Ev hevahengî tenê ji bo van pêvajoyên dengî ye; nayê wê wateyê ku zazakî û soranî di hemû taybetmendiyên dengnasî an rêzimanê de nêzîk bin.
 
 ## 5. E ya zazakî û I ya kurmancî
 
