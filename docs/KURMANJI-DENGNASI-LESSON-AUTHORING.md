@@ -116,6 +116,8 @@ Hin cihên sereke yên çêbûna dengan ev in: **dulêvî**, **lêvî-didanî**,
 
 Di gotina piraniya dengan de ziman tê bikaranîn. Lê ji ber ku ziman di derxistina hema-hema hemû dengan de beşdar e, di navê cihê çêbûna dengê de her tim nayê zêdekirin.
 
+Tabloya dengên kurdî tenê cih û awayê çêbûna dengan nîşan nade; di heman demê de cudahiya fonemên serbixwe û alofonan jî diyar dike. Hin dengên ku bi awayê gotinê ji hev cuda ne, dikarin alofonên fonemekê bin û bi tenê guherîna wan wateya peyvê naguherîne. Nivîskar herwiha hin nîşanên kêmpeyda wek dengên ku fonem nebûn û hebûna wan wek alofon jî bi guman e, destnîşan dike.
+
 ## 4. Awayên derketina dengan
 
 Di tabloya nivîskar de awayên sereke yên derketina dengan wek **bêvilî**, **seknî**, **xişok-vizok**, **xişok-nevizok**, **jenok** û **tengav** tên dabeşkirin.
@@ -137,7 +139,7 @@ Nîşanên **Ḉ, Ḱ, Ṕ, Ť** dengên bipif nîşan didin. Nimûneyên di pir
 
 Di kurmancî û zazakî de dengên Ç, K, P û T yên bipif û bêpif dikarin fonemên cuda bin û guherîna wan dikare maneya peyvê biguherîne. Di pirtûkê de nimûneyên *çare / ḉar e*, *ka / ḱa*, *par / ṕar* û herwiha *tu / tu* hatine nîşandan.
 
-Di kurmancî û zazakî de herdu awayên bipif û bêpif dikarin li destpêka peyvê bên. Di soranî û kurdiya başûrî de li destpêka peyvê tenê awayên bipif tên dîtin. Di farisî û tirkî de jî awayekî wisa heye; di ermenî de herdu away dikarin li destpêk û deverên din ên peyvê bên.
+Di kurmancî û zazakî de herdu awayên bipif û bêpif dikarin li destpêka peyvê bên. Di soranî û kurdiya başûrî de li destpêka peyvê tenê awayên bipif tên dîtin. Di erebî de jî K û T-ya ne-qelew li destpêka peyvê bipif in, lê T-ya qelew dikare bêpif be. Di farisî û tirkî de jî awayekî wisa heye; di ermenî de herdu away dikarin li destpêk û deverên din ên peyvê bên.
 
 Di peyvên xwemalî yên kurmancî de Ç, K, P û T li nav û dawiya peyvê bi piranî bêpif in. Di peyvên esil-biyanî de ew li nav û dawiya peyvê bi piranî bipif in. Paşpirtika **-et** di hin peyvên esil-erebî de wek *siyaset, edalet, hikûmet* ji awarteyan e. Di peyvên ji zimanên ewropî wergirtî de Ç, K, P û T li destpêkê herdem bipif in, lê li nav û dawiyê pêşbîniya pifdarî her tim ne gengaz e; *doktor* û *parlemanter* wek nimûneyên bipif, *traktor* û *kompûter* jî wek nimûneyên bêpif tên.
 
