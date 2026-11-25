@@ -1630,7 +1630,7 @@ Ev guherîn bi şertê morfolojîk û dengê paşgirê ve girêdayî ye. Ji vê 
 
 Di hin peyv û devokan de Ç û Ş bi hev re tên berawirdkirin. Mînak, di kurmanciya navendî de *birçî* heye, lê di kurmanciya rojhilatî û soranî de *birsî* tê gotin. Di peyva *hirç* de jî çavkaniyê formên *wirç* (soranî), *xers* (farisî) û *xirs* (pehlewî) dide; lê eslê Ç-ya vê peyvê bi temamî yekreng nîne û çavkaniyê çend raveyên gengaz destnîşan dike.
 
-Di hin peyvên din de Ç di bin bandora erebî de bûye Ş; çavkaniyê rêya dîrokî ya *çetur-enge → çetreng → şetrenc* wek nimûne pêşkêş dike. Herwiha guherîna S/Ş li gor zarav û devokan tê dîtin: *pisîk/pişîk*, *teşt/test* û kurmancî *rast* li hemberî zazakî *raşt*. Di zazakiya Dêrsimê de jî nimûneyên *şima/sima* û *Hisên/Wişên* hene. Ev nimûne divê wek guherînên peyv-bi-peyv û zaravî bên fêmkirin, ne wek rêgeheke serbest a hemû Ç û S-yan.
+Di hin peyvên din de Ç di bin bandora erebî de bûye Ş; çavkaniyê rêya dîrokî ya *çetur-enge → çetreng → şetrenc* wek nimûne pêşkêş dike. Herwiha guherîna S/Ş li gor zarav û devokan tê dîtin: *pisîk/pişîk*, *teşt/test* û kurmancî *rast* li hemberî zazakî *raşt*. Di zazakiya Dêrsimê de jî nimûneyên *şima/sima* û *Hisên/Wişên* hene. Di hin peyvên kurmancî de Ş dikare bibe H, bi taybetî berî N an M: *têhnî/tihnî → tî*, *çehv → çav* û *heyv/hîv*. Di peyvên ji farisî wergirtî de Ş berî N dikare bibe J: *ceşn → cejn* û *beşn → bejn*. Herwiha Ş dikare di navbera devokan û zimanên nêzîk de bibe S: kurmanciya navendî *pisîk*, rojhilatî *pişîk*, soranî *pişîle*, belûçî *pişî* û farisî *pîşî*. Ev nimûne divê wek guherînên peyv-bi-peyv û zaravî bên fêmkirin, ne wek rêgeheke serbest a hemû Ç û S-yan.
 
 ### Rêjeya Ş û çavkaniyên dîrokî
 
@@ -1646,7 +1646,7 @@ Pirtûk bi lêkerên *firotin* û *dotin* vê cudahiyê nîşan dide:
 - *firotin*: di rehê rabirdûyê de *-firot-* (wek *firot, nefirot, firotiye*), lê di rehê niha û pêşerojê de *-firoş-* (wek *difiroşim, nafiroşî*);
 - *dotin*: di rehê rabirdûyê de *-dot-* (wek *dot, nedotin*), lê di rehê niha û pêşerojê de *-doş-* (wek *didoşim, nadoşe*).
 
-Di van cotan de T bi awayekî morfolojîk nîşana rehê rabirdûyê ye; Ş di rehê niha û pêşerojê de tê dîtin. Çavkaniyê eşkere dike ku ev dîrokî guherîna rasterast a Ş↔T nîne: dengê ku berî T hebûye, di hin formên peyvê de ketiye. Ji ber vê yekê divê xwendekar morfolojiya lêkerê ji guherîna dengî cuda bike.
+Di van cotan de T bi awayekî morfolojîk nîşana rehê rabirdûyê ye; Ş di rehê niha û pêşerojê de tê dîtin. Çavkaniyê eşkere dike ku ev dîrokî guherîna rasterast a Ş↔T nîne: dengê ku berî T hebûye, di hin formên peyvê de ketiye. Ji ber vê yekê divê morfolojiya lêkerê ji guherîna dengî cuda were şîrovekirin. Di berawirdkirina *firotin/firoştin/forûxten* û *dotin/doşan/doxten* de ev pêwendiya dîrokî xuya dibe. Di hin devokan de forma *duhtin* jî hatiye parastin.
 
 ## 4. T — dengekî seknî-pidûyî-bêlerz
 
@@ -1714,7 +1714,7 @@ Di hin peyvan de T-ya niha bi çavkaniyên din ve girêdayî ye: *tarî* bi *tar
 
 T-ya navîn û dawî ya peyvên xwerû di hin pêvajoyên dîrokî de pêşî bûye D, paşê ketiye an bûye Y/H. Pirtûk nimûneyên *ba, ava, bû, zava, bira, mak* bi formên avestayî, pehlewî, farisî û zazakî re dide. T ya rehên rabirdûyê yên lêkeran bi gelemperî hatiye parastin: *gotin, kuştin, dîtin, girtin*; lê dikare di formên kurt de bikeve: *go* ji *got*, *dî* ji *dît*.
 
-Li gorî pirtûk, T ya navîn an dawî di peyvên xwerû de, ji bilî lêkeran û peyvên ku piştî F, S, Ş, X tên, bi ihtimaleke mezin nîşana peyveke esil-biyanî ye: *qet, met, xalet/xaltî, rehet, xeter, çete, hotêl, kompûter*. Di soranî û kurdiya başûrî de T dikare piştî S bikeve: *des* (dest), *sendin* (standin/stendin), *hesare* (stêr/histêrk). Di kurmancî de jî di cotkonsonantên ST de dikeve: *destpêk → despêk*, *destmal → desmal*.
+Li gorî pirtûk, T ya navîn an dawî di peyvên xwerû de, ji bilî lêkeran û peyvên ku piştî F, S, Ş, X tên, bi ihtimaleke mezin nîşana peyveke esil-biyanî ye: *qet, met, xalet/xaltî, rehet, xeter, çete, hotêl, kompûter*. Di soranî û kurdiya başûrî de T dikare piştî S bikeve: *des* (dest), *sendin* (standin/stendin), *hesare* (stêr/histêrk). Di kurmancî de jî di cotkonsonantên ST de dikeve: *destpêk → despêk*, *destmal → desmal*. Ev rêzik ji hemû T-yên navîn û dawî re nayê sepandin: T di rehên rabirdûyê yên lêkerên xwerû de (wek *hat, ketin, gotiye, nesotibû*) nîşana morfolojîk e؛ T di hin lêkerên ku bi eslê xwe ji erebî ne de dikare di rehê niha û pêşerojê de jî bimîne, wek *di-şewit-e* û *bi-qetîn-in*. Herwiha paşgira berhevdanê *-tir/-tirîn* ji vê rêzikê derdikeve. Ji ber vê yekê, hebûna T li nav an dawiya peyvê bi tenê nayê bikaranîn da ku eslê wê biyanî were biryardan.
 
 ### T û Ç
 
