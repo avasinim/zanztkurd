@@ -3998,4 +3998,4 @@ Lê formên serdest ên nivîskî bi Y tên çêkirin: *xesûya wê* û *rûyê 
 
 ## Çavkanî
 
-Husein Muhammed, *Dengnasî di kurdî de*, rûpelên çapkirî 419–432.
+Husein Muhammed, *Dengnasî di kurdî de*, rûpelên çapkirî 418–432.
