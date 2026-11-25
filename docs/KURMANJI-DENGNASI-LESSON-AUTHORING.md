@@ -1104,7 +1104,7 @@ Kurdî carinan Q-ya erebî kiriye K, wek *x-l-q* ku bûye *xelk* (li gorî hin d
 
 ## 5. L — pidûyî-tengav
 
-Dengê **L** di dengnasiya kurdî de pidûyî û tengav e. Di dema gotina wê de ziman bi pidûyan dikeve û rêya dengê teng dibe, lê bi temamî nayê girtin. Di alfabeya dengnasî ya navneteweyî de bi **[l]** tê nîşandan. Di nivîsîna kurdî-latînî de L/l, di nivîsa erebî de ل û di alfabeya kurdî-krîlî de Л/л ji bo wê tên bikaranîn.
+Dengê **L** di dengnasiya kurdî de pidûyî û tengav e. Di dema gotina wê de ziman bi pidûyan dikeve û rêya dengê teng dibe, lê bi temamî nayê girtin. Di alfabeya dengnasî ya navneteweyî de bi **[l]** tê nîşandan. Di nivîsîna kurdî-latînî de L/l, di nivîsa erebî û alfabeya kurdî-krîlî de herfên taybet ji bo wê tên bikaranîn.
 
 ## 6. Peydabûna L di peyvan de
 
