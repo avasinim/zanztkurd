@@ -1974,16 +1974,28 @@ Di nîşandana koman de xêzika kêlekê cihê gengaz ê komê diyar dike:
 
 ### Komên di peyvên esil-îranî de
 
-Çavkaniyê gelek komên di peyvên kurmancî yên esil-îranî de destnîşan dike. Ji wan:
-- **-NC, -ND, -NG**: *pênc, kinc, qenc*; *bilind, çend, rind*; *deng, reng, ceng*.
-- **-RD, -RG, -RM, -RN, -RX, -RZ**: *kurd, merd, derd*; *gurg, merg, cerg*; *germ, nerm, çerm*; *curn, gorn*; *berx, çerx*; *derz, erz*.
-- **-ÇK, -FT, -GW-, -HL, -HT, -JD, -JN, -MB, -RC, -RÇ, -RF, -RS, -SK-, -WT, -XT**: *kuçk/kuçik*; *heft, şkeft*; *gwîz/gûz*; *tehl, dehl, pehn, pêhn*; *teht*; *rijd*; *bejn, cejn*; *duşemb/duşem*; *merc, gurc*; *hirç, pirç, qurç*; *berf, herf*; *birs*; *misk/bisk*; *çewt, hewt, eşkewt*; *bext, text*.
+Li gorî beşa taybet a çavkaniyê, komên jêrîn di peyvên kurmancî yên esil-îranî de tên dîtin. Nimûneyên çavkaniyê ev in:
 
-Di tabloya giştî ya çavkaniyê de komên din jî hene: **-BB, -FS, -HŞ, -RB, -VD, -VZ, -WD, -WQ, -WS, -WŞ, -WZ, -YF, -YL, -YN, -YR, -YS, -ZQ**. Lê her kom bi heman awayî di her qata eslê peyvan de nayê dîtin; ji ber vê yekê çavkaniyê paşê wan li gorî peyvên îranî, erebî û ewropî ji hev cuda dike.
-- **-ŞT, -ST-, -SP-, -ŞK-**: *heşt, deşt, mişt*; *dest, bîst, stêr*; *hesp, çesp, spî, spor*; *hişk, şkeft, şkestin*.
-- Komên din ên ku di lîsteya çavkaniyê de hatine nîşandan: **-ÇK, -FT, GW-, -HL, -HT, -JD, -JN, -MB, -RC, -RÇ, -RF**.
+- **-ÇK**: *kuçk* (*kuçik*);
+- **-FT**: *heft, şkeft*;
+- **GW-**: *gwîz, gwîzan* (*gûz, gûzan*);
+- **-HL**: *tehl, dehl, pehn, pêhn*;
+- **-HT**: *teht*;
+- **-JD**: *rijd*;
+- **-JN**: *bejn, cejn*;
+- **-MB**: *duşemb* (*duşem*);
+- **-NC, -ND, -NG**: *pênc, kinc, qenc*; *bilind, çend, rind*; *deng, reng, ceng*;
+- **-RC, -RÇ, -RD, -RF, -RG, -RM, -RN, -RS, -RX, -RZ**: *merc, gurc*; *hirç, pirç, qurç*; *kurd, merd, derd*; *berf*; *gurg, merg, cerg*; *germ, nerm, çerm*; *curn, gorn*; *birs*; *berx, çerx*; *derz, erz*;
+- **-SK-**: *bisk*;
+- **-SP-**: *hesp, çesp* (li dawiyê), *spî, spor* (li destpêkê);
+- **-ST-**: *dest, bîst* (li dawiyê), *stêr, Stembol* (li destpêkê);
+- **-ŞK-**: *hişk* (li dawiyê), *şkeft, şkestin* (li destpêkê);
+- **-ŞM**: *dirûşm*;
+- **-ŞT**: *heşt, deşt, mişt*;
+- **-WT**: *çewt, hewt, eşkewt*;
+- **-XT**: *bext, text*.
 
-Hin peyv xwedî guhertoyên devokî ne; wek *kuçk/kuçik*, *gwîz/gûz* û *heft/şkeft*. Ev guhertoyên gotinê divê wek formên cuda bên nasîn, ne ku bê şert yek form were hilbijartin.
+Çavkaniyê di vê beşê de hin formên devokî û guhertoyên peyvan jî parastine; wek *kuçk/kuçik*, *gwîz/gûz* û *heft/şkeft*. Ev form divê wek guhertoyên dengî bên xwendin, ne ku yek ji wan bê şert ji yên din rastتر bê hesibandin.
 
 ### Komên di peyvên esil-erebî de
 
