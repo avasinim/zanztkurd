@@ -237,93 +237,143 @@ Husein Muhammed, *Dengnasî di kurdî de*, rûpelên çapkirî 16–28.
 
 # Dersa 4 — Qelewîtî: dengên qelew û zirav
 
-## 1. Qelewîtî çi ye?
+## 1. Dengên qelew û nîşanên wan
 
-Di kurmancî de hin deng bi awayekî **qelew** tên gotin û hin jî **zirav**. Qelewîtî taybetmendiyeke dengê ye; tenê bi bilindbûn an hêza dengê re nayê tevlihevkirin. Pirtûk dengên qelew wek dengên stûrtir rave dike û nîşan dide ku ew bi gelek dengên bêpif re tên dîtin.
+Di kurmancî de hin deng qelew (emfatîk) tên gotin. Nivîskar ji bo nîşankirina van dengên qelew di vê vekolînê de van nîşanan bi kar tîne:
 
-Nivîskar çar nîşanên sereke ji bo dengên qelew pêşkêş dike: **Ṗ, Ṣ, Ṭ, Ẓ**. Herwiha **Ḅ** jî wek B-ya qelew di hin devokan de heye.
+- **Ṗ, Ṣ, Ṭ, Ẓ**: dengên qelew ên bêpif.
+- **Ḅ**: B-ya qelew; ev deng tenê di hin devokan de heye.
 
-Nimûneyên pirtûkê:
-- Ṗ: *ṗiling, ẓeṗẓeṗe, reṗ*
-- Ṣ: *ṣed, miṣaṣ*
-- Ṭ: *ṭeng, miṭirb, miṭ*
-- Ẓ: *ẓiviṣṭan, beẓîn, beẓ*
+Nimûneyên ku di çavkaniyê de hatine dayîn:
 
-Ev nîşanên dengnasiyê ji bo danasîna rasttir a dengê ne; ew nayên wateya ku di nivîsîna asayî ya her rojê de divê hemû peyv bi van nîşanan bên nivîsîn.
+- **Ṗ:** *ṗiling, ẓeṗẓeṗe, reṗ*.
+- **Ṣ:** *ṣed, miṣaṣ*.
+- **Ṭ:** *ṭeng, miṭirb/miṭrib, miṭ*.
+- **Ẓ:** *ẓiviṣṭan, beẓîn, beẓ*.
 
-## 2. Fonem û alofon
+Van nîşanan ji bo danasîna dengê bi awayekî deqîq tên bikaranîn. Ew nayên wateya ku divê di nivîsîna asayî ya rojane de her peyv bi nîşanên taybet were nivîsîn.
 
-Cudahiya girîng a vê dersê ev e: **her cûdahiya dengî ne cûdahiya fonemîk e**.
+## 2. Cudahîya fonem û alofon
 
-Fonem dengek e ku heke di peyvekê de bi dengekî din were guhertin, dikare wateya peyvê biguherîne. Alofon cûreyeke dengî ya fonemekê ye ku guherîna wê di wê peyvê de wateyê naguherîne.
+Fonem dengek e ku guherandina wê bi dengekî din di hin peyvan de dikare maneya peyvê biguherîne. Alofon cûreyeke dengî ya fonemekê ye ku guherandina wê wateya peyvê naguherîne.
 
-Li gorî pirtûkê:
-- Ç, K, P û T yên bipif û bêpif dikarin fonemên cuda bin; guherandina wan di hin peyvan de wate diguherîne.
-- Ṗ, Ṣ û Ṭ di kurmancî de bi gelemperî fonemên serbixwe nînin; guherandina wan bi P, S an T-ya zirav re wateya peyvê naguherîne, her çend dengê peyvê dikare ji guhê axêverê re ecêb bihîstî.
-- **Ẓ** cuda ye; di kurmancî de dikare fonem be, ji ber ku guherandina wê bi Z dikare wate biguherîne.
+Li gorî ravekirina nivîskar:
 
-Nimûneya nivîskar:
-- *beẓ* bi Ẓ: bazdan, rev;
-- *bez* bi Z: rûnê li ser laş.
+- **Ṗ, Ṣ û Ṭ** di kurmancî de fonemên serbixwe nînin. Gava mirov wan bi P, S an T-ya zirav biguherîne, maneya peyvê naguherîne; dibe ku tenê dengê peyvê ji guhê axêverê re ecêb were.
+- **Ẓ** di kurmancî de fonem e. Guherandina wê bi Z-ya zirav dikare maneya peyvê biguherîne.
+- **Ç, K, P û T** yên bipif û bêpif dikarin fonemên cuda bin, ji ber ku guherandina wan di hin peyvan de wate diguherîne.
 
-Ji ber vê yekê divê xwendekar cudahiya dengê qelew û zirav ji cudahiya fonemîk cuda bibîne.
+Nimûneyên cudahiya Ẓ û Z:
 
-## 3. Qelewîtî li gor dengên derdorê
+- *beẓ*: bazdan, rev.
+- *bez*: rûnê li ser laş.
+- *baẓdan*: gotina bi Ẓ.
+- *baz*: teyrek.
+- *zana* bi Ẓ: di hevoka *Ew kesekî zana ye* de.
+- *zana* bi Z: di hevoka *zana bizinê* de, bi wateya zayîna bizinê.
 
-Pirtûk di peyvên xwemalî de hin rêzikên pêşbînîkirina qelewîtiyê destnîşan dike. Ev rêzik her tim bêistisna nînin, lê dikarin alîkar bin ku xwendekar dengê peyvekê baştir texmîn bike.
+Nivîskar herwiha peyva *penîr* wek nimûneya peyvekê dide ku li hin deveran bi dengê qelew û li hin deverên din bi dengê zirav tê gotin.
 
-Nimûneyên sereke:
-- S berî A û O di peyvên xwemalî de bi gelemperî qelew e; berî Ê, Î û Û zirav e.
-- T-ya bêpif berî A û O qelew e; berî Ê, Î û Û zirav e.
-- P-ya bêpif berî O qelew e; berî Ê, Î û Û zirav e.
-- Z berî O qelew e; berî E, Ê, Î û Û zirav e, lê berî A dikare li gor peyvê biguhere.
+## 3. Pêşbînîkirina qelewîtiyê di peyvên xwemalî de
 
-Nivîskar herwiha dibêje ku di peyvên esil-ewropî, esil-erebî, tirkî û farisî de rêzik dikarin cuda bin. Ji ber vê yekê divê xwendekar rêzikên peyvên xwemalî bi awayekî mekanî li hemû peyvên wergirtî sepîne.
+Nivîskar çend rêzikên pêşbînîkirina qelewîtiyê di peyvên xwemalî de destnîşan dike. Ev rêzik bi gelemperî alîkar in, lê hin awarte û nepayîn jî hene.
 
-## 4. Dengên qelew di peyvên wergirtî de
+- **S:** berî A û O herdem qelew e; berî Ê, Î û Û zirav e. Berî E û I bi piranî zirav e, lê carinan qelew jî dibe.
+- **T-ya bêpif:** berî A û O herdem qelew e; berî Ê, Î û Û zirav e. Berî E û I bi piranî zirav e, lê hin caran qelew dibe.
+- **P-ya bêpif:** berî O herdem qelew e; berî Ê, Î û Û zirav e. Berî A, E û I bi piranî zirav e, lê carinan qelew e.
+- **Z:** berî O herdem qelew e. Berî A nepayî ye; berî E, Ê, Î û Û herdem zirav e.
 
-Di peyvên esil-ewropî de Ç, K, P û T di gelek nimûneyan de bi awayê bipif tên gotin; wek *çat, kompûter, partî, tank*. Lê hin peyvên bêpif jî hene.
+Nimûneyên nivîskar ji bo van rêzikan:
 
-Di peyvên esil-erebî de hin dengên erebî di kurdî de tên parastin, hin jî diguherin. Bo nimûne, pirtûk peyvên wek *kitêb, kilam, mekteb* û *temam, tacir* dide; herwiha hin peyvên bi Ṭ û Ṣ jî rave dike. Di peyvên ji tirkî û farisî wergirtî de jî qelewîtî her tim wek peyvên xwemalî nayê bikaranîn.
+- S: *sîr, sê, sûr*; herwiha *ser, sivik* û wek awarte *sed, sim*.
+- T: *tav, tov*; *tîr, tê de, tûrik*; herwiha *te, tivir* û wek awarte *tevir, tirs*.
+- P: *poz*; *pêr, pîr, pûng*; herwiha *par, pehn* û wek awarte *parzûn, pembû, pez*.
+- Z: *zor, zom*; *zanîn, zal*; *zan*; *zer, zêr, zîv, zû*.
 
-Rêbaza fêrbûnê ev e: eslê peyv û awayê ku di zimanê jêder de hatiye gotin dikarin bandorê li dengê peyva kurdî bikin; ji ber vê yekê her peyvek divê bi nimûne û çavkaniya xwe were kontrolkirin.
+Dengên qelew ên Ṗ, Ṣ, Ṭ, Ẓ di heman kîteyê de bi dengên zirav ên P, S, T, Z re bi hev re nayên. Nivîskar nimûneya *ṗeẓ* dide, ne *ṗez* an *peẓ*.
+
+## 4. Qelewîtî di peyvên wergirtî de
+
+### 4.1. Peyvên esil-ewropî
+
+Di piraniya peyvên esil-ewropî de Ç, K, P û T bipif tên gotin û bi nîşanên dengnasiyê **Ḉ, Ḱ, Ṕ, Ť** tên nîşandan:
+
+- **Ḉ:** *çat, çet* (ji inglîzî *chat*).
+- **Ḱ:** *kompûter, katarakt, kîmya*.
+- **Ṕ:** *partî, polîs, pas*.
+- **Ť:** *tank, test, trên*.
+
+Lê hin peyvên wergirtî yên bêpif jî hene; wek *tîp* (T-ya zirav) û *ton* (T-ya qelew).
+
+### 4.2. Peyvên esil-erebî
+
+Di erebî de K û T-yên bipif, herwiha Ṭ-ya bêpif û qelew hene. Di peyvên ji erebî wergirtî de hin deng bi gelemperî wek xwe dimînin:
+
+- *kitêb, kilam, mekteb*.
+- *temam, tacir, mitercim*.
+- *ṭam, ṭe’am, ṭema’*.
+
+Di paşpirtika **-et** de T dibe bêpif: *rezalet, heqîqet, riwayet*. Ṭ-ya qelew jî carinan zirav dibe; wek *’etar* ji peyva erebî *’eṭṭar*.
+
+Nivîskar diyar dike ku D-ya qelew a erebî di kurdî de tune ye; ew bi piranî li destpêka peyvê dibe Ẓ, wek *ẓabit, ẓeft*, û li cihên din dibe Z, wek *razî, remezan*. Z-ya qelew û dengê erebî yê nêzî wê jî di kurdî de bi Ẓ tên nîşandan, wek *ẓalim, meẓlûm*.
+
+Di erebî de dengên bêpif ên zirav nînin; herwiha Ç û P di alfabeya erebî ya standard de dengên wan tune ne. Ṣ-ya erebî dikare di kurdî de wek Ṣ bimîne an jî bibe S. Hin caran S-ya zirav a erebî jî di kurdî de dibe Ṣ. Nivîskar vê yekê bi bandora L-ya qelew li ser S rave dike. Lê bi gelemperî S-ya zirav a erebî ziraviya xwe diparêze; wek *Salim*. Di *Ṣabir* de Ṣ ji ber ku di erebî de jî qelew e, dimîne.
+
+### 4.3. Peyvên ji tirkî û farisî
+
+Di tirkî û farisî de Ṗ û Ṭ tune ne; di farisî de hin peyvên ji erebî wergirtî yên bi Ṭ hene. Ṣ û Ẓ, heke di van zimanan de hebin, bi gelemperî tenê alofonên S û Z ne. Peyvên ji tirkî û farisî wergirtî dikarin bê qelewî bimînin, herçend di peyvên xwemalî de heman derdor dikare dengê qelew bixwaze. Nivîskar *sax* (ji tirkî) û *saz* (ji farisî) bi S-ya zirav dide û wan bi *sar, sahî* yên xwemalî berawird dike.
 
 ## 5. L-ya zirav û L-ya qelew: L û Ł
 
-Pirtûk du cûreyên L ji hev cuda dike:
-- **L, l**: L-ya zirav; wek *lazim, lerizîn, lêv, belê, dil, gul*.
-- **Ł, ł**: L-ya qelew; wek *łep, siłav, wełat, çił*.
+Di kurdî de du dengên L hene:
 
-L-ya qelew ne L-ya dubarekirî ye. Ji ber vê yekê nivîsandina L bi du caran nayê wateya ku her tim dengê Ł heye. Nivîskar diyar dike ku di kurmancî de L-ya zirav pir serdest e, lê L-ya qelew jî di hin peyvan de heye.
+- **L, l:** L-ya zirav; wek *lazim, lerizîn, livandin, lêv, lome, lûlî, belê, bilbil, dil, gul*.
+- **Ł, ł:** L-ya qelew; wek *łep, siłav, wełat, çił*.
 
-Pirtûk herwiha berawirdkirina kurmancî û soranî dike: di soranî de Ł roleke girîngtir heye û di hin peyvan de li şûna L-ya kurmancî tê. Ev berawirdkirin nîşan dide ku dengên nêzî hev di zaravên cuda de dikarin belavbûna cuda hebin.
+L-ya qelew ne L-ya dubarekirî ye. Di nivîsîna latînî de carinan bi LL tê nivîsîn, lê nîşana **Ł** di berhemên zimannasiyê de ji bo cudakirina dengê qelew tê bikaranîn.
 
-## 6. R-ya nerm û R-ya req: R û Ř
+Di kurmancî de L-ya zirav gelek serdest e û L-ya qelew roleke kêm heye. Di soranî, kurdiya başûrî û hewramî de L-ya qelew roleke girîngtir heye; di soranî de gelek caran li şûna L-ya zirav ya kurmancî tê. Nimûneyên berawirdkirinê:
+
+- Kurmancî: *belê, dil, gul, lal*.
+- Soranî: *bełê, dił, guł, lał*.
+
+Di soranî de L-ya qelew li destpêka peyvê nayê. Di kurmancî de jî ew di hin peyvan de heye, wek *łep*. Nivîskar dibêje ku di kurmancî de A an O ya berî L-ê bi xwe L-ê qelew nake; wek *law, lorik*. Herwiha L-ya qelew ji şidandina L-ya asayî cuda ye: *gulle* û *gellek* ne nimûneyên L-ya qelew in.
+
+## 6. R-ya req û R-ya nerm: Ř û R
 
 Di kurmancî de du cûreyên R hene:
-- **Ř, ř**: R-ya req an şidandî; li destpêka peyvê her tim tê.
-- **R, r**: R-ya nerm; di nav û dawiya peyvê de bi gelemperî tê.
 
-Nimûneyên R-ya req li destpêkê: *řast, řev, řê, řoj*.  
-Nimûneyên R-ya nerm di nav an dawiya peyvê de: *germ, erd, girtin, agir, ser, bêr*.
+- **Ř, ř:** R-ya req, şidandî û qelew.
+- **R, r:** R-ya nerm, sist û zirav.
 
-Hin peyv di nav an dawiya xwe de R-ya req jî hildigirin; wek *şeř, ceř*. Di peyvên pêkhatî de R-ya destpêka beşa duyem bi gelemperî tê parastin, wek *xem-řevîn*.
+Li destpêka peyvê R herdem req e: *řast, řev, řê, řikêb, řoj, řuh, řû*. Di nav û dawiya peyvên xwerû de bi piranî nerm e: *germ, erd, girtin, agir, ser, bêr, ger, ker*. Lê hin peyv di nav an dawiya xwe de R-ya req hildigirin: *şeř, ceř, geř, keř*.
 
-Pirtûk diyar dike ku di alfabeya kurdî-latînî ya asayî de herdu bi R tên nivîsîn; nîşanên R û Ř di vê dersê de ji bo cudakirina dengî û fêrbûnê ne.
+Di peyvên pêkhatî an yên bi pêşpirtikê de R-ya destpêka beşa duyem bi piranî tê parastin: *xem-řevîn, bi-řeve, ne-řeve*. Lê di hin peyvên cihgirtî de nerm dibe: *îro/evro* û *nîvro/nîro*.
 
-## 7. Nîşankirina dengên cuda û nivîsîna rojane
+Di alfabeya kurdî-latînî ya asayî de herdu deng bi R tên nivîsîn. Di hin nivîsên zimannasiyê de R-ya req bi Ř tê nîşandan. Di kurdî-erebî de R-ya nerm û R-ya req nîşanên cuda hene. Nivîskar ji bo cudahiya dengî nîşanên dengnasiyê bi kar tîne; di nivîsîna rojane de herdu bi R tên nivîsîn.
 
-Di nivîsên rojane de zêdekirina gelek herf û nîşanên taybet dikare rastnivîsînê dijwartir bike. Nivîskar pêşniyar dike ku nivîsîna asayî hêsan bimîne; lê di ferheng û pirtûkên dengnasiyê de divê awayê gotina peyvan bi awayekî deqîq were nîşandan.
+Di kurmancî û soranî de cudahiya R û Ř bi hev re lihevhatî ye: li destpêka peyvê R herdem req e, li nav û dawiyê bi piranî nerm e, lê ne bê awarte.
 
-Ji ber vê yekê du ast ji hev cuda bikin:
-1. **Nivîsîna asayî:** alfabeya standard û awayê nivîsîna hevpar.
-2. **Nîşankirina dengnasiyê:** nîşanên taybet wek Ṗ, Ṣ, Ṭ, Ẓ, Ł û Ř, dema ku pêdivî bi danasîna deqîq a dengê hebe.
+## 7. Nîşankirina dengên cuda û alfabeya standard
+
+Hin kes rexne li alfabeya kurdî-latînî ya standard digirin, ji ber ku hemû cudahiyên dengî bi herfên cuda nayên nîşandan. Nivîskar nîqaşa zêdekirina herfan û bikaranîna apostrofê ji bo cudakirina dengên bipif û bêpif vedikole. Ew nimûneyên nivîsên ku apostrof di wan de ne bi yek awayê hatiye bikaranîn pêşkêş dike û nîşan dide ku ev rêbaz dikare tevlihevî û xeletiyên nivîsînê çêbike.
+
+Li gorî nêrîna nivîskar, zêdekirina herfên nû dikare nivîsîna kurdî dijwartir bike û xeletiyên nivîsînê zêde bike, bêyî ku sûdeke mezin ji xwendina rojane re peyda bike. Di nivîsên asayî de kontekst bi gelemperî alîkar e ku peyv rast were xwendin û famkirin. Lê di ferheng û pirtûkên dengnasiyê de divê awayê rast ê gotina peyvan bi deqîqî were nîşandan.
+
+Nivîskar mînaka ferhengên kurmancî-îngilîzî, ferhenga etîmolojî ya kurdî û ferhenga kurdî-tirkî dide. Ew nîşan dide ku di nîşankirina dengên bipif û bêpif de di van berheman de jî xeletî û nakokî hene. Armanca nîqaşê rexnekirina kesan nîne; armanc nîşandana dijwariya cudakirina van dengan û girîngiya nîşankirina rast a dengê peyvan e.
+
+Ji bo danasîna dengê peyvan di ferhengan de, nivîskar nimûneyên wek van dide:
+
+- *pênc* [pênc].
+- *perde* [ṕerde].
+- *pez* [ṗez].
+- *zivistan* [ẓivișṭan].
+
+Ev nîşankirin divê di ferheng û pirtûkên dengnasiyê de bimîne, ne ku di nivîsên sade yên rojane de were sepandin. Di nivîsîna asayî de alfabeya standard tê parastin; di danasîna dengî ya ferhengê de nîşanên taybet dikarin awayê gotinê eşkere bikin.
 
 ## Çavkanî
 
 Husein Muhammed, *Dengnasî di kurdî de*, rûpelên çapkirî 29–39.
-
----
 
 # Dersa 5 — Rêjeya herfan di nivîsên kurmancî de
 
