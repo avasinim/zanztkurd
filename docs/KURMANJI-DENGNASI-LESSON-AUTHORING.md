@@ -33,7 +33,7 @@
 | 15 | Dengên Ş û T | 186–202 |
 | 16 | Dengên V, W, Y û Z | 203–232 |
 | 17 | Eyn, K/G/Q û cotkonsonant | 233–250 |
-| 18 | Vokalên A û E | 252–269 |
+| 18 | Vokalên A û E | 251–269 |
 | 19 | Vokalên Ê, I û Î | 270–297 |
 | 20 | Vokalên O, U û Û | 298–314 |
 | 21 | Dîftong û giranî | 315–347 |
@@ -2179,6 +2179,53 @@ Di gelek peyvên nû yên ji zimanên ewropî hatine wergirtin de dengê ku bi E
 
 Di navên welat û parzemînan de jî cudahiya A/E di nivîsînê de heye: *Amerîka, Afrîka, Almanya, Albanya, Fransa* li hemberî formên bi E. Çavkanî parastina A pêşniyar dike, ji ber ku di zimanên eslî yên ewropî de A heye.
 
+## 5.1. Belavbûna E û rêjeya wê
+
+E dikare li destpêk, nav û dawiya peyvê were dîtin. Di nivîsên kurmancî de rêjeya herfa E **11,6%** e; li gorî hesabkirina çavkaniyê ew herfa herî berbelav a nivîsên kurmancî ye. Çavkaniyê çend sedemên vê berbelaviyê destnîşan dike: paşpirtikên lêkeran di kesê sêyem yê yekhejmar de (*dike, nabêje, naçe*), paşpirtika fermanî (*bike, nebêje, bide*) û cînavên pir têne bikaranîn, wek *ew, ez, em, me, we, te*.
+
+Li nav peyvan E pir e. Li destpêka peyvên xwemalî, ji bilî cînavên *ez, em, ew* û hejmareke sînordar ya peyvan, kêmtir e. Li dawiya peyvan jî piraniya nimûneyan formên çemandî û lêkerî ne; di peyvên xwerû û neçemandî de E ya dawiyê kêmtir e.
+
+## 5.2. Dîroka E û berawirdkirina zimanî
+
+E di kurdî, farisî, erebî û tirkî de heye; di zimanên îranî yên kevn de jî hebûye. Li gorî ravekirina çavkaniyê, E di gelek peyvan de ji dengê *Ê* ya proto-hindû-ewropî hatiye. Ji ber vê yekê di hin peyvên hevreh de kurmancî E diparêze, lê zimanên ewropî dengê nêzî Ê nîşan didin. Nimûneyên çavkaniyê: kurmancî *deh*, farisî *deh*, soranî *de*, zazakî *des*, rûsî *dêsyati*, yûnanî *dêka*, latînî *decem*, îngilîzî *ten* û almanî *zehn*.
+
+Di komeke din a peyvan de E-ya îranî bi O-ya proto-hindû-ewropî re hevreh e: kurdî û farisî *heşt*, avestayî *eşte-*, latînî û yûnanî *octo*, toxarî B *okt*, ermenî *uit* û rûsî *vosem*. Ev berawirdkirin nîşan dide ku heman deng di pêşketina dîrokî ya zimanan de dikare bi awayên cuda were parastin.
+
+## 5.3. Guherînên din ên E
+
+Di hin peyvan de E dikare bi A were guhertin. Çavkaniyê vê yekê bi ketina konsonantan ve girêdide; wek berawirdkirina *serd/sar* û *kerd/kir*. Ev guherîn kêm e; guherîna E bi I di peyvên wek *kerd/kir* berbelavtir e.
+
+Guherîna E bi A, Ê, Î an O carinan ji tekdengkirina cotdengan çêdibe. Ji nimûneyên çavkaniyê:
+- **EW/WE → O:** *xewx → xox*, *şewr → şor*; soranî *xo, xoş* li hember kurmancî *xwe, xweş*.
+- **EH → A:** *tehl → tal*, *pehn → pan*, *mehr kirin → mar kirin*.
+- **EY/YE → Ê:** *keyf → kêf*, *beyder → bêder*, *ceyş → cêş*, *yem → êm*.
+
+Di peyvên ji erebî wergirtî de Eyn û E dikarin bi hev re bibin A, wek *'elef → alif*, *'eqil → aqil* û *me'qûl → maqûl*. Di gelek peyvên din de Eyn di gotinê de tê bihîstin, herçend di nivîsîna latînî de bi herfeke cuda nayê nîşandan.
+
+Analojî jî dikare E-yekê li ser A-yeke din bandordar bike: *parçe → perçe*, *saet → seet*, *rahet → rehet*. Di hin devokan de paşê dîsîmîlasyon çêdibe û E-ya yekem dibe I: *sa'et → se'et → si'et*, *rahet → rehet → rihet*. Çavkaniyê vê yekê bi parastina kîteya dawiyê û giraniya wê ve girêdide.
+
+## 5.4. Cudahiyên devokî yên E
+
+Di kurmanciya rojhilatî de di hejmareke berçav ya peyvan de Ê li cihê E-ya kurmanciya navendî heye, wek *zêvî/zevî* û *pênîr/penîr*. Lê di hin peyvan de rojhilatî E-ya kevn diparêze û navendî Ê dide, wek *mejî/mêjî* û *çerîn/çêrîn*. Di hin peyvên din de E-ya navendî li rojhilatî dibe I: *der/dir*, *keç/kiç*, *tenê/tinê*. Herwiha hin peyvên wek *gehandin/gehiştin* li rojhilatî E diparêzin, lê navendî I nîşan dide: *gihandin/gihiştin*.
+
+Di hin devokan de E-ya dawiyê dibe I û di hin formên *xwe* de rêya *xwi* ber bi *xu* ve vedike. Di hin devokên rojavayî de E dikare paşîn bibe û nêzî A: *ez/az*, *kurd e/kurd a*. Ev guherîn divê wek taybetmendiyên devokî bên xwendin, ne wek xeletiyên rastnivîsînê.
+
+## 5.5. E di çemandin û formên fermanî de
+
+Di çemandina navdêrên mê de E-ya dawiyê di gotina devkî de dikare bibe Ê; di nivîsîna standard de E tê parastin û Y di navbera wê û paşpirtikê de tê: *mase-y-ê*, *rojname-y-ê*. Di hin lêkerên bi paşpirtika kevn a *-andin* de E di rehê niha de dibe Î: *stendin → di-stîn-in*, *xwendin → na-xwîn-im*. Di lêkera *xwestin* de jî formên niha dikarin bi A bên: *di-xwaz-im*, *na-xwaz-in*; lê berawirdkirina formên rojhilatî û zimanên din nîşan dide ku A di dîrokê de di rehê wê de hebûye.
+
+Di hin formên fermanî de E ya dawiyê dikeve: *binivîse → binivîs*, *nebêje → nebêj*, *rabe → rab*. Çavkaniyê vê pêvajoyê wek kurtbûna pêşîn a E û paşê ketina wê rave dike.
+
+## 5.6. Rêgirtina li destpêka peyvan bi E
+
+Kurmancî û soranî, ji bilî çend cînav û peyvên wek *ez, em, ew, ev, erzan, evîn*, bi gelemperî hewl didin ku peyv rasterast bi E dest pê neke. Di hin peyvan de H an Eyn li pêşiya E tê zêdekirin. Nimûneyên çavkaniyê *ewr, hesp, heşt, esman* in. Ev zêdekirin di hemû peyvan de bi heman awayî pêk nayê; hin formên soranî û kurmancî ji hev cuda ne. Çavkaniyê herwiha zêdekirina H li *heşt* bi bandora analogiyê ve girêdide, ji ber ku *heft* bi H dest pê dike.
+
+Di hin cînavên çemandî de E-ya destpêkê dikeve: *ewê, ewî, ewan* dibin *wê, wî, wan*; *evê, evî, evan* dibin *vê, vî, van*. Di soranî de hejmareke cînavên bi E destpêdikin kêmtir e.
+
+## 5.7. E di peyvên ewropî de
+
+Di gelek peyvên ji zimanên ewropî wergirtî de herfa E ya zimanê jêder bi dengekî nêzî Ê tê gotin, lê di kurmanciya nivîskî ya standard de herfa E tê parastin. Çavkaniyê nimûneyên *telefon, kompûter, Internet, metod, demokrat* pêşkêş dike û formên *têlifon, kompûtêr, Intêrnêt, mêtod, dêmokrat* wek formên ne-standard nîşan dide. Di navên welat û parzemînan de jî A ya zimanê jêder tê parastin: *Amerîka, Afrîka, Almanya, Albanya, Fransa*; çavkaniyê pêşniyar dike ku di nivîsîna standard de A were tercîhkirin.
+
 ## Berawirdkirina A û E
 
 | Taybetmendî | A [ɑ] | E [æ] |
@@ -2190,7 +2237,7 @@ Di navên welat û parzemînan de jî cudahiya A/E di nivîsînê de heye: *Amer
 
 ## Çavkanî
 
-Husein Muhammed, *Dengnasî di kurdî de*, rûpelên çapkirî 252–269.
+Husein Muhammed, *Dengnasî di kurdî de*, rûpelên çapkirî 251–269.
 
 ---
 
