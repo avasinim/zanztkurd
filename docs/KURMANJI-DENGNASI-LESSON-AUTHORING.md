@@ -3679,7 +3679,7 @@ Di tirkî de dengên **Ç, K, P, T** li destpêka peyvê bi gelemperî bipif in.
 
 Di kurmancî û zazakî de, berevajî vê, Ç, K, P û T dikarin li destpêka peyvê jî bipif an bêpif bin. Di hin peyvan de ev cudahî wateyê diguherîne. Çavkaniyê nimûneya **par** dide: P-ya bêpif wateya sala borî dide, lê P-ya bipif wateya beş an pişkê dide.
 
-Li nav û dawiya peyvên xwerû de ev deng di herdu zimanan de bi gelemperî bêpif in, lê îstîsna hene. Girîng e ku pifdarî bi dengdarî û bêdengiya konsonantê tevlihev nekin: pifdarî bi bayê zêde yê piştî berdana dengê ve girêdayî ye.
+Li nav û dawiya peyvên xwerû de ev deng di herdu zimanan de bi gelemperî bêpif in, lê îstîsna hene. Di kurdî de carinan di nav an dawiya peyvê de jî deng dikare bipif be, wek *met, xalet/xaltî* û *rapor*. Girîng e ku pifdarî bi dengdarî û bêdengiya konsonantê tevlihev nekin: pifdarî bi bayê zêde yê piştî berdana dengê ve girêdayî ye.
 
 ## 7. K û cudahiya cihê derketinê
 
@@ -3726,8 +3726,9 @@ Lê ev şert di tirkî de jî bê îstîsna nîne. Peyvên wek *saz* û *ad* den
 
 Nimûneyên çavkaniyê:
 - Di kurmancî de **ne-kuj-e + T → ne-kuşt**: J ya bilerz berî T ya paştir dibe Ş ya bêlerz.
-- **heft + deh → hevde(h)**: di pêvajoyê de T dikeve û F ya bêlerz li ber D ya bilerz dibe V.
-- Di tirkî de **kitap + da → kitapta**: P ya bêlerz ya *kitap* D ya bilerz ya paşê dike T ya bêlerz.
+- **heft + deh → hevdeh/hevde**: T dikeve û F ya bêlerz ya *heft* li ber D ya bilerz ya *deh* dibe V.
+- Di tirkî de **oda + da → odada**: deng nayê guherandin.
+- Lê **kitap + da → kitapta**: P ya bêlerz ya *kitap* D ya bilerz ya paşê dike T ya bêlerz.
 
 Ev nimûne nîşan didin ku bandora dengên cîran di herdu zimanan de dikare bi awayên cuda bixebite.
 
@@ -3743,7 +3744,7 @@ Kurmancî ji ber ku di peyvên xwemalî de jî komkonsonantên destpêkê hene, 
 
 ## 13. Cotdengiya Ç, K, P û T: taybetmendiyek kurmancî û zazakî
 
-Çavkaniyê cotdengiya Ç, K, P û T wek taybetmendiyeke kurmancî û zazakî destnîşan dike. Di van zimanan de awayên bipif û bêpif dikarin fonemên cuda bin û wateya peyvê biguherînin. Di soranî, kurdiya başûrî, farisî û tirkî de ev cotdengî bi heman awayî li destpêka peyvan tune ye.
+Çavkaniyê cotdengiya Ç, K, P û T wek taybetmendiyeke kurmancî û zazakî destnîşan dike. Di van zimanan de awayên bipif û bêpif dikarin fonemên cuda bin û wateya peyvê biguherînin. Di soranî, kurdiya başûrî, hewramî, farisî û tirkî de ev cotdengî bi heman awayî li destpêka peyvan tune ye.
 
 Çavkaniyê nimûneyên kurmancî yên bipif û bêpif wiha berawird dike:
 
@@ -3764,6 +3765,8 @@ Lê nivîskar vê şîroveyê bi pirsan dixe bin lêkolînê: heke ermenî ji xw
 
 Nivîskar ji van pirsan encam digire ku tesîra ermenî wek sedema sereke ya cotdengiyê ne bi delîlên têr piştrast e. Ev nêrîna nivîskar e; divê wek rastiyeke dîrokî ya bêniqaş neyê pêşkêşkirin.
 
+Ji bo nirxandina vê îhtîmalê, çavkaniyê du awayên bandora zimanî ji hev cuda dike: **jorxan** (superstratum), dema ku zimanê xurt û biqedir peyv an taybetmendiyan dide zimanê din; û **jêrxan** (substratum), dema ku axêverên zimanekî derbasî zimanekî din dibin û hin taybetmendiyên zimanê xwe bi xwe re dibin. Nivîskar dibêje ku peyvên ermenî di kurdî de hene, lê delîlên dîrokî nîşan nadin ku ermenî berî sedsala 20em li Bakurê Kurdistanê zimanekî serdest û biqedir bûbe. Ew texmîn dike ku bandora ermenî, heke hebe, bi piranî jêrxanî bûye: gelek axêverên ermenî bûne kurdîaxiv û dibe ku hin peyv û dengên xwe anîbin kurdî. Ev şîrove jî wek nirxandina nivîskar tê pêşkêşkirin.
+
 ## 15. Şîroveya din: tesîra farisî, erebî û tirkî
 
 Çavkaniyê îhtîmal dide ku zêdebûna peyvên deynkirî yên bi Ç, K, P û T yên bipif li destpêkê, bi bandora farisî, erebî û tirkî re girêdayî be. Di van zimanan de ev deng li destpêka peyvan bi gelemperî bipif in. Gava ku peyvên nû bi van dengên bipif dikevin kurmancî, awayê bipif jî dikare bi wan re were wergirtin.
@@ -3773,7 +3776,7 @@ Nivîskar ji van pirsan encam digire ku tesîra ermenî wek sedema sereke ya cot
 - *kirin* li hember *kar*;
 - *pîvan* li hember *peyman*.
 
-Li gorî şîroveya nivîskar, peyvên bêpif ên xwemalî kevntir in, lê hin peyvên bipif ji farisî an bi rêya tirkî nû ketine kurmancî. Herwiha di hin deveran de peyvên xwemalî jî di bin bandora bilêvkirina zimanên cîran de bi awayê bipif tên gotin.
+Li gorî şîroveya nivîskar, peyvên bêpif ên xwemalî kevntir in, lê hin peyvên bipif ji farisî an bi rêya tirkî nû ketine kurmancî. Herwiha di hin deveran de peyvên xwemalî jî di bin bandora bilêvkirina zimanên cîran de bi awayê bipif tên gotin. Nivîskar dibêje ku li Bakurê Kurdistanê hin axêver peyvên kevn ên wek *çav, kî, pênc, te* jî bi awayê bipif dibêjin, tevî ku li gorî etîmolojiya wan divê bêpif bin. Ew îhtîmala **hîperkorektiyê** jî dide: hin pêşkêşkerên radyo û televizyonê ji bo ku deng zelal bibêjin, bi xeletî dengên bêpif bipif dikin.
 
 ## 16. Bêpifî û pêşketina wê
 
