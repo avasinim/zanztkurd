@@ -2691,8 +2691,6 @@ Li berî Ê, Y di hin formên çemandinê û cînavan de tê dîtin:
 Di gelek devokan de Y di van rewşan de nayê bihîstin:
 - *ê din, ên min, bira-ê te, nameên wê*.
 
-Komdengên **-iya-** jî giring in. Di peyvên wek *çiya, giya, giyan, jiyan, şiyan* de, herçend nivîsînê dikare peyvê wek du kîte nîşan bide, di gotinê de gelek caran *iya* wek yek komdeng tê bilêvkirin. Di şîroveya dengnasiyê de ev dikare wek dîftonga Î + A were analîzkirin.
-
 ### 7. Têkiliya dîftongê û nivîsîna standard
 
 Rastnivîsîn her tim hemû tevgera dengî ya gotinê bi awayekî rasterast nîşan nade. Komdengên W û Y dikarin li gor peyv û devokê wek nîvvokal, konsonant an beşeke dîftongê tevbigere.
@@ -2742,7 +2740,7 @@ U ya piştî G, K, Q, X û Ẍ di gelek peyvan de ji komdenga kevn a **-WI-** ha
 
 Di hin devokan de *XW* dibe *X* (*xwarin → xarin*); di hin deverên din de koma *KW* sivik dibe û W ji navbera wan dikeve (*kurmanc → kirmanc*). Ev sivikkirina komkonsonantan ji guherîna asayî ya U/I cuda ye.
 
-I jî di hin peyvan de dikare bibe U, bi taybetî li ber an piştî H: *bihar/buhar, hindir/hundir û wisa/wusa*. Lê divê ev guherîna devokî ji etîmolojiya peyvê cuda were dîtin: di hin peyvan de dengê bingehîn E bûye I, ne ku U ya kevn paşê bûbe I. Nimûneyên *bihar* û *hindir* bi rehên ku E di wan de heye têne ravekirin.
+I jî di hin peyvan de dikare bibe U, bi taybetî li ber an piştî H: *bihar/buhar* û *hindir/hundir*. Lê divê ev guherîna devokî ji etîmolojiya peyvê cuda were dîtin: di hin peyvan de dengê bingehîn E bûye I, ne ku U ya kevn paşê bûbe I. Nimûneyên *bihar* û *hindir* bi rehên ku E di wan de heye têne ravekirin. Formên *wusa, wulo, wunda* li cihê *wisa, wilo, winda* jî wek guherîna dengî nayên hesibandin; çavkaniyê wan wek kêmasiyên nivîsînê diyar dike.
 
 ## Beşa duyem: Giranî
 
@@ -2808,7 +2806,7 @@ Di navên welatan ên bi **-ya/-ye** an **-landa/-lenda** bi dawî tên de, gira
 - *Almanya, Brîtanya, Romanya, Rûsya*;
 - *Holanda, Îrlanda, Taylanda*.
 
-Di *Sûriye* û *Tirkiye* de giranî li ser kîteya sêyem-dawiyê ye. Di hin navên bajarên pir-kîteyî de jî giranî dikare li ser kîteya duyem-dawiyê be, wek *Diyarbekir, Hekarî, Erzirom*.
+Di *Sûriye* û *Tirkiye* de giranî li ser kîteya sêyem-dawiyê ye. Di hin navên bajarên pir-kîteyî de jî giranî dikare li ser kîteya duyem-dawiyê be, wek *Diyarbekir, Hekarî, Erzirom*. Di navên gelek bajarên Tirkiyê de, berevajî vê, kîteya yekem girankirî ye: *Enqere, Edene, Izmîr*.
 
 ### 15. Giranî di rengdêran de
 
@@ -2828,15 +2826,18 @@ Pêşpirtikên *bi-* û *bê-* û pêşpirtikên neyînîkirinê yên rengdêran
 - *bêdeng, binamûs*;
 - *nebaş, neguhdar, xêrnexwaz*.
 
+Di hin rêzên peyvsaziyê de formên wek *xweşî → nexweş → nexweşî*, *baş → nebaş*, *guhdar → neguhdar → neguhdarî* û *xêrxwaz → xêrnexwaz → xêrnexwazî* jî hene. Gava rengdêr navdêr dibe û paşpirtika çemandin an girêdanê werdigire, paşpirtik bêgiranî dimîne: *mezin → mezinê(n) wan* û *delal → delala min*.
+
 ### 16. Giranî di cînavan de
 
 Cînavên kesî yên kurmanciya nivîskî yek-kîteyî ne:
 - *ez, tu, ew, em, hûn*;
 - *min, te, wê, wî, me, wan*.
 
-Di hin devokan de cînavên du-kîteyî an pir-kîteyî hene, wek:
-- *ewa, ewê, ewî, ewan*;
+Di hin devokan de cînavên du-kîteyî an pir-kîteyî hene; giranî dikare li ser kîteya dawiyê, navîn an yekem be, li gorî devok û formê. Nimûne:
+- *ewa, ewê, ewî, ewan, hewe*;
 - *ewana, wana, vêya, viya*.
+Di soranî de jî formên wek *emin, eto, ême, êwe, ewan* hene.
 
 Di cînavên pirsiyarkî de giranî bi gelemperî li ser kîteya yekem e:
 - *KENGÎ*;
@@ -2858,7 +2859,7 @@ Di gelek hoker û daçekên giştî de giranî li ser kîteya pêşiyê ye:
 - *BELÊ, ERÊ, BELKÎ*;
 - *DÎSA, WISA, WIHA, HINGÊ*.
 
-Hin hoker giranî li ser kîteya dawiyê digirin, wek *niha/nika/noke* û *xwezî*.
+Hin hoker giranî li ser kîteya dawiyê digirin, wek *niha/nika/noke* û *xwezî*. Hin hokerên devokî yekkîteyî ne: di kurmanciya navendî û rojavayî de *vira, wira*; di kurmanciya rojhilatî de *vêrê, wêrê*.
 
 ### 18. Giranî di lêkeran de
 
@@ -2936,6 +2937,10 @@ Herwiha:
 Nimûneyên din:
 - *başÎ* — qencî;
 - *baş î* — “tu baş î”.
+
+Cudahiya giranî di *mirovî* de jî wate û erkê rêzimanî cuda dike:
+- *alîkariya mirovî* — “mirovî” wek rengdêr, bi wateya insansî/xêrxwazî;
+- *wî mirovî* — “wî kesî/mêrî”, forma çemandî ya navdêra *mirov*.
 
 Ev nimûne nîşan didin ku giranî dikare cudahiya navbera navdêr, rengdêr, daçek û formên lêkerî diyar bike.
 
