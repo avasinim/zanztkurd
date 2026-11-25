@@ -2198,9 +2198,9 @@ Di hin devokan de E ya paşpirtika fermanî dikeve:
 
 Çavkaniyê diyar dike ku kurmancî û soranî bi gelemperî dixwazin rê li ber destpêka peyvê bi E bigirin; ev yek dikare bi zêdekirina H an Eyn pêk were. Lê awayê zêdekirinê di her peyvê de yek nagire:
 - Di *ewr* de, li gorî çavkaniyê, di axaftina kurmancî de Eyn li pêş tê bihîstin; di soraniyê de H tê zêdekirin. Ev deng di formên kevn ên îranî de tune bû.
-- Di *hesp* û *heşt* de kurmancî H li destpêkê diparêze/an zêde dike, herçend H di formên kevn ên îranî û gelek zimanên hindûewropî de tune ye. Soranî û farisî jî H di *heşt* de hene, lê ji bo *hesp* soranî û farisî *esp* dibêjin.
+- Di *hesp* û *heşt* de kurmancî H li destpêkê diparêze/an zêde dike, herçend H di formên kevn ên îranî û gelek zimanên hindûewropî de tune ye. Soranî û farisî jî H di *heşt* de hene, lê ji bo *hesp* soranî û farisî *esp* dibêjin. Çavkaniyê herwiha îhtîmala bandora analojiyê destnîşan dike: ji ber ku *heft* bi H dest pê dike, H dikare bi wekhevkirinê li *heşt* jî hatiye zêdekirin.
 - Di *esman* de Eyn li pêşiya E hatiye zêdekirin, tevî ku peyv xwemalî ye. Çavkaniyê herwiha dibêje ku Eyn di hin peyvên erebî de jî hatiye zêdekirin: erebî *erḍ* li kurmancî dibe *'erd* û li soranî *'erz*.
-Cînavên *ez, em, ew, ev* ji van nimûneyan cuda ne; lê di hin formên çemandî de E-ya destpêkê dikeve: *wê, wî, wan, vê, vî, van* li hemberî *ewê, ewî, ewan, evê, evî, evan*.
+Cînavên *ez, em, ew, ev* ji van nimûneyan cuda ne; lê di hin formên çemandî de E-ya destpêkê dikeve: *wê, wî, wan, vê, vî, van* li hemberî *ewê, ewî, ewan, evê, evî, evan*. Di soranî de tenê du cînav bi E dest pê dikin: *ew* û *em* (bi wateya *ev*); *ez* tune ye û forma *em* bi *ême* tê gotin.
 
 ## 11. E di peyvên ewropî de
 
