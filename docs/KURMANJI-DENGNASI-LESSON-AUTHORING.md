@@ -3670,7 +3670,7 @@ Di çend peyvan de K ya kurmancî li hember H ya zazakî ye.
 | ker | her |
 | kanî | henî |
 
-Çavkaniyê di şîroveya dîrokî de X wek dengê bingehîn destnîşan dike; di kurmancî, soranî û kurdiya başûrî de bûye K, lê di zazakî û hewramî de H.
+Di vê beşê de çavkaniyê di sernivîsê de K ya kurmancî û H ya zazakî destnîşan dike, û nimûneyên *ker/her* û *kanî/henî* jî vê berawirdkirinê piştrast dikin. Lê di hevoka şîroveya dîrokî de bi xeletî dibêje ku li cihê H ya kurmancî di zazakî de Ş heye; ev hevok ji beşa berî ya H/Ş hatiye dubarekirin. Li gorî nimûne û şîroveya dîrokî ya X, armanca vê beşê K/H ye: X di kurmancî, soranî û kurdiya başûrî de bûye K, lê di zazakî û hewramî de H.
 
 Herwiha di hin peyvan de li cihê S ya kurmancî di zazakî de Ş heye.
 
