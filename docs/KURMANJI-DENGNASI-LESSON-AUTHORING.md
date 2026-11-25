@@ -3068,7 +3068,7 @@ Kurdî û farisî herdu jî zimanên îranî ne. Di navbera wan de gelek peyv û
 - **H:** Di hin peyvan de H ya farisî li hember S an V ya kurmancî ye; wek *mahî/masî*, *ahen/hesin*, *kolah/kulav* û *dehan/dev*.
 - **M û V:** M ya piştî vokalan di gelek peyvan de di kurmancî de bûye V: *nam/nav*, *zemîn/zevî*, *merdom/mirov*. Ev guherîn bi şert û cihê dengê ve girêdayî ye; ne her M-yek dibe V.
 - **O:** O ya kurt a farisî di hin peyvan de li hember U an I ya kurmancî ye, wek *kord/kurd* û *bolbol/bilbil*.
-- **Ş û H:** Di hin peyvan de Ş ya kurmancî li hember H ya farisî ye, bi taybetî li dawiya peyvê; wek *goş/guh* û *çeşm/çav*.
+- **Ş û H:** Di hin peyvan de Ş ya farisî li hember H ya kurmancî ye, bi taybetî li dawiya peyvê; wek *goş/guh* û *çeşm/çav*.
 - **Û:** Di hin peyvan de Û ya farisî li hember O ya kurmancî ye, wek *rûz/roj*.
 - **V û W:** W ya kurmancî di farisî de bi gelemperî V an carinan B ye; wek *wergerandin/bergerdan* û *ewr/ebr*.
 - **X:** X ya farisî di hin peyvan de li hember H an K ya kurmancî ye; wek *xer/ker*, *xoşk/hişk* û *telx/tehl*.
