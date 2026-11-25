@@ -1,4 +1,4 @@
-# Dengnasîya Zimanê Kurdî — rêbera nivîsandina dersan û Dersa 1
+# Dengsazîya Zimanê Kurdî — rêbera nivîsandina dersan û Dersa 1
 
 **Çavkanî:** Husein Muhammed, *Dengnasî di kurdî de*, rûpelên çapkirî 4–7.  
 **Ziman:** Kurmancî, tîpên latînî.  
@@ -48,16 +48,6 @@
 
 # Dersa 1 — Dengnasî çi ye û çima girîng e?
 
-**Dem:** 20–25 deqîqe.
-
-## Armancên fêrbûnê
-
-Di dawiya dersê de xwendekar dikare:
-- dengnasî wekî beşek ji zimannasiyê rave bike; 
-- çend beşên din ên zimannasiyê nas bike; 
-- girîngiya lêkolîna dengên kurdî û berawirdkirina zarav û devokan fêm bike; 
-- armanc û rêbaza giştî ya pirtûkê bi kurtî şîrove bike.
-
 ## 1. Dengnasî di nav zimannasiyê de
 
 Zimannasî zanista lêkolîna ziman e. Ziman tenê ji peyv û hevokan pêk nayê;  deng, avabûna peyvan, rêkxistina hevokan û wate jî di lêkolîna wî de girîng in.
@@ -101,37 +91,6 @@ Li gorî ravekirina nivîskar,  her deng bi çend aliyên sereke tê lêkolînki
 
 Bi vê rêbazê xwendekar deng tenê wek tîpek di alfabeyê de nabîne,  lê wek beşek ji pergaleke zimanî fam dike.
 
-## Bîr bîne
-
-- Dengnasî beşek sereke ya zimannasiyê ye.
-- Dengnasî û denganî bi hev re girêdayî ne,  lê yek nînin.
-- Lêkolîna dengên kurdî pêdivî bi berawirdkirina zarav û devokan heye.
-- Deng bi cih,  awayê derketin,  cihê wan di peyvê de û têkiliyên wan bi dengên din re tên lêkolînkirin.
-
-## Çalakî û xwepirsîn
-
-**1. Bi gotinên xwe rave bike:** Bi 2–3 hevokan bêje dengnasî çi ye û çima di zimannasiyê de girîng e.
-
-**2. Beşan ji hev cuda bike:** Her mijarekê bi beşa rast re girêde:
-- avabûna peyvan; 
-- rêkxistina hevokan; 
-- wate; 
-- pergala dengên ziman.
-
-**3. Berawirdkirin:** Çima lêkolînker divê dengên kurmancî bi zarav û zimanên din re jî berawird bike?
-
-## Bersivên kurt
-
-1. Dengnasî pergala dengên ziman û rola wan lêkolîn dike.
-2. Avabûna peyvan = teşenasî;  rêkxistina hevokan = hevoknasî;  wate = watenasî;  pergala dengên ziman = dengnasî.
-3. Berawirdkirin alîkar e ku taybetmendiyên dengên kurdî,  cudahiyên navbera zarav û têkiliyên wan bi zimanên cîran re bên nasîn.
-
-## Têbînî ji bo pêşxistinê
-
-Ev ders ji nû ve hatî rêxistin û bi şêwazeke fêrbûnê hatiye rêkxistin;  ne kopîkirina PDF e. Ev pêşnûs divê ji aliyê zimanî û zanistî ve careke din were nirxandin. Dersa 2 divê ji nû ve were amadekirin,  bi giranî li ser vokal/konsonant,  cih û awayê derketina dengan û pifdarî.
-
-
-
 ## Çavkanî
 
 Husein Muhammed, *Dengnasî di kurdî de*, rûpelên çapkirî 4–7.
@@ -139,17 +98,6 @@ Husein Muhammed, *Dengnasî di kurdî de*, rûpelên çapkirî 4–7.
 ---
 
 # Dersa 2 — Vokal, konsonant û awayên derketina dengan
-
-**Dem:** 30–35 deqîqe.
-
-## Armancên fêrbûnê
-
-Di dawiya dersê de xwendekar dikare:
-- vokal û konsonant ji hev cuda bike;
-- cudahiya hejmareke tîpan û hejmareke foneman fam bike;
-- cihê derketina dengê bi nimûneyên M, N û F/V rave bike;
-- awayên sereke yên derketina dengan nas bike;
-- pifdarî û bêpifî bi ceribandineke hêsan nas bike.
 
 ## 1. Vokal û konsonant
 
@@ -197,10 +145,6 @@ Nimûneyên bêpif ên ku di pirtûkê de hatine:
 
 Nimûneyên dengên bipif di pirtûkê de bi awayên cuda hatine nîşandan, wek *çar, perde, temam, kar*.
 
-### Ceribandina kaxezê
-
-Kaxezekê li ber devê xwe bigire û peyva *kurd* bibêje; paşê *çek* bibêje. Li gorî ravekirina pirtûkê, di *kurd* de K bipif e û dibe ku kaxezê hereket bike; di *çek* de K bêpif e û kaxez bi heman hêzê nahejê. Ev ceribandin nîşan dide ku pifdarî bi bayê derketî ve girêdayî ye, ne tenê bi dengdarî an bêdengiya dengê.
-
 Di kurmancî û zazakî de cudahiya bipif û bêpif dikare wateya peyvê biguherîne. Ji ber vê yekê ew tenê awayên gotinê yên bêbandor nînin; di hin peyvan de cudahiya fonemîk çêdikin.
 
 ## 5. Têkiliya cih, away û lerzê
@@ -213,37 +157,6 @@ Ji bo danasîna dengekî, tenê gotina navê tîpa wî bes nîne. Divê em bizan
 
 Bo nimûne, M dulêvî û bêvilî ye; P dulêvî, sekinî û bêlerz e; B jî dulêvî û sekinî ye, lê bilerz e. Ev danasînên cuda alîkar in ku dengên nêzî hev ji hev bên cudakirin.
 
-## Bîr bîne
-
-- Vokal: hewa bi serbestî derbas dibe; konsonant: rêya hewayê tê tengkirin an girtin.
-- Alfabeya kurdî-latînî heşt tîpên vokal û 23 nîşanên konsonantî heye.
-- Cihê derketinê û awayê derketinê du taybetmendiyên cuda ne.
-- Bilerz/bêlerz bi lerzîna perdeyên dengî ve girêdayî ye.
-- Pifdarî bi bayê zêde yê ku piştî dengê derdikeve ve girêdayî ye.
-
-## Çalakî û xwepirsîn
-
-**1. Komkirin:** Vokalên kurdî-latînî binivîse, paşê sê peyvên ku her yek vokalekê dihewînin mînak bîne.
-
-**2. Cihê derketinê:** M, N, F û V bi yek ji van raveyan re girêde: dulêvî; pidûyî; lêvî-didanî.
-
-**3. Cih û awayê derketinê:** Çima M û P tevî ku herdu jî dulêvî ne, wek hev nayên danasîn?
-
-**4. Ceribandina pifdarî:** Bi kaxezê ceribandina *kurd* û *çek* dubare bike û bi gotinên xwe rave bike çi cûdahî dît.
-
-## Bersivên kurt
-
-1. A, E, Ê, I, Î, O, U, Û.
-2. M = dulêvî; N = pidûyî; F û V = lêvî-didanî.
-3. M bêvilî ye, lê P sekinî ye; cihê wan dikare hevbeş be, lê awayê derketina wan cuda ye.
-4. Di *kurd* de K bipif e; di *çek* de K bêpif e. Kaxez dikare bi pifê zêdetir li pey dengê bipif hereket bike.
-
-## Têbînî ji bo pêşxistinê
-
-Ev ders ji nû ve hatî rêxistin. Berî belavkirinê, divê nîşanên fonetîk, navên anatomîk û hemû nimûneyên dengî bi orîjînala pirtûkê re careke din bên kontrolkirin. Dersa 3 li ser hevdengî û pirdengî ye.
-
-
-
 ## Çavkanî
 
 Husein Muhammed, *Dengnasî di kurdî de*, rûpelên çapkirî 8–15.
@@ -251,17 +164,6 @@ Husein Muhammed, *Dengnasî di kurdî de*, rûpelên çapkirî 8–15.
 ---
 
 # Dersa 3 — Hevdengî û pirdengî di nivîsîna kurdî de
-
-**Dem:** 30–35 deqîqe.
-
-## Armancên fêrbûnê
-
-Di dawiya dersê de xwendekar dikare:
-- hevdengî û pirdengî ji hev cuda bike;
-- rave bike ka çawa herfên cuda dikarin heman deng bidin;
-- rave bike ka çawa herfek dikare ji bo zêdetir ji dengekî were bikaranîn;
-- nimûneyên taybet ên U/W û R/RR nas bike;
-- hin herfên yekdeng û pirdeng di kurmanciya latînî de nas bike.
 
 ## 1. Herf û deng her tim yek tişt nînin
 
@@ -319,37 +221,6 @@ Ji ber vê yekê divê xwendekar:
 3. nimûneyên din ên heman herfê li ber çavan bigire;
 4. ji bo cudakirina deng û herfê tenê xwe dispêre alfabeyê neke.
 
-## Bîr bîne
-
-- Herf nîşana nivîskî ye; deng tişta ku tê gotin û bihîstin e.
-- Hevdengî: dengek dikare bi herfên cuda were nivîsîn.
-- Pirdengî: herfek dikare ji bo çend dengan were bikaranîn.
-- Di kurmanciya latînî de gelek herf yekdeng in, lê Ç, H, K, L, P, R, S, T, W, X û Z dikarin pirdeng bin.
-- Nimûneyên U/W û R/RR divê bi baldarî bên fêmkirin; her guherîna nivîsînê nayê wateya hebûna hevdengiyê.
-
-## Çalakî û xwepirsîn
-
-**1. Têgehên bingehîn:** Bi gotinên xwe cudahiya hevdengî û pirdengiyê rave bike.
-
-**2. Dabeşkirin:** Herfa H di koma yekdeng de ye an pirdeng? Bersiva xwe bi nimûneyên *heval* û *heft* piştrast bike.
-
-**3. Nimûne:** Di peyvên *xwe* û *welat* de W heman dengê dide? Çima?
-
-**4. Rast an şaş:** “Her ku peyvek bi R an RR were nivîsîn, divê ew du dengên cuda bin.” Bersiva xwe rave bike.
-
-## Bersivên kurt
-
-1. Hevdengî: dengek bi herfên cuda tê nivîsîn; pirdengî: herfek çend dengan nîşan dide.
-2. H pirdeng e; di *heval* û *heft* de du dengên cuda nîşan dide.
-3. Na; di *xwe* de W dikare [u] nîşan bide, lê di *welat* de [w] ye.
-4. Şaş; R/RR di nimûneyên pirtûkê de bi piranî tercîha nivîsînê ye, ne du dengên cuda.
-
-## Têbînî ji bo pêşxistinê
-
-Ev ders ji nû ve hatî rêxistin. Pirtûk di heman beşê de dest bi ravekirina Ç, K, P û T jî dike; lê ji ber ku wan dengên pirdeng hûrgilî û mijarên zêde hene, wan di dersên paşîn de bi serbixwe û bi nimûneyên xwe yên rast divê were xwendin.
-
-
-
 ## Çavkanî
 
 Husein Muhammed, *Dengnasî di kurdî de*, rûpelên çapkirî 16–28.
@@ -357,17 +228,6 @@ Husein Muhammed, *Dengnasî di kurdî de*, rûpelên çapkirî 16–28.
 ---
 
 # Dersa 4 — Qelewîtî: dengên qelew û zirav
-
-**Dem:** 35–40 deqîqe.
-
-## Armancên fêrbûnê
-
-Di dawiya dersê de xwendekar dikare:
-- qelewîtî û ziravîtî wek taybetmendiyên dengnasiyê rave bike;
-- dengên qelew ên Ṗ, Ṣ, Ṭ û Ẓ nas bike;
-- cudahiya fonem û alofon bi nimûneyên pirtûkê şîrove bike;
-- cudahiya L û Ł, herwiha R û Ř nas bike;
-- fêm bike ku her cûdahiya dengî ne hewce ye ku bi herfeke nû di nivîsîna rojane de were nîşandan.
 
 ## 1. Qelewîtî çi ye?
 
@@ -451,41 +311,6 @@ Ji ber vê yekê du ast ji hev cuda bikin:
 1. **Nivîsîna asayî:** alfabeya standard û awayê nivîsîna hevpar.
 2. **Nîşankirina dengnasiyê:** nîşanên taybet wek Ṗ, Ṣ, Ṭ, Ẓ, Ł û Ř, dema ku pêdivî bi danasîna deqîq a dengê hebe.
 
-## Bîr bîne
-
-- Qelewîtî taybetmendiyeke dengê ye, ne tenê bilindbûn an hêz.
-- Ṗ, Ṣ, Ṭ û Ẓ nîşanên dengên qelew in.
-- Fonem guherîna wê dikare wate biguherîne; alofon cûreyeke dengî ye ku wate naguherîne.
-- Ẓ dikare di kurmancî de fonem be; Ṗ, Ṣ û Ṭ bi gelemperî alofon in.
-- L û Ł, herwiha R û Ř, du cûreyên dengî yên cuda nîşan didin.
-- Nîşanên taybet ji bo ferheng û dengnasiyê girîng in, lê divê nivîsîna rojane bê pêdivî tevlihev nebe.
-
-## Çalakî û xwepirsîn
-
-**1. Fonem an alofon?** Çima pirtûk Ṗ, Ṣ û Ṭ wek alofon, lê Ẓ wek fonem diyar dike?
-
-**2. Cudakirina L:** Peyvên *dil* û *dił* bi çi cûdahiya dengî tên gotin?
-
-**3. Cudakirina R:** Çima R-ya destpêka *řast* ji R-ya navî ya *germ* cuda ye?
-
-**4. Rêzik û istisna:** Çima rêzikên qelewîtiyê yên peyvên xwemalî divê bi peyvên ji erebî, tirkî û farisî wergirtî re bê kontrolkirin?
-
-**5. Nivîsîna standard:** Çima nivîskar nîşankirina deqîq a dengên qelew ji nivîsên rojane cuda dike?
-
-## Bersivên kurt
-
-1. Ji ber ku guherandina Ṗ, Ṣ û Ṭ bi P, S û T-ya zirav re wateya peyvê naguherîne; lê guherandina Ẓ bi Z dikare wate biguherîne.
-2. Di *dil* de L-ya zirav e; di *dił* de Ł-ya qelew e.
-3. Li gorî pirtûkê R li destpêka peyvê req e; di nav peyvê de bi gelemperî nerm e.
-4. Ji ber ku eslê peyv û zimanê jêder dikare bandorê li dengê wê bike.
-5. Ji bo ku xwendin û nivîsîna rojane hêsan bimîne, lê ferheng dikare dengê rast bi nîşanên taybet diyar bike.
-
-## Têbînî ji bo pêşxistinê
-
-Ev ders ji nû ve hatî rêxistin. Nîşanên dengnasiyê û nimûneyên peyvan divê di kontrola dawî de rasterast bi PDF re bên berawirdkirin, bi taybetî nîşana Ṗ ku nivîskar di binpê de behsa sînordariya teknîkî ya çapkirinê dike. Dersa 5 li ser rêjeya herfan di nivîsên kurmancî de ye.
-
-
-
 ## Çavkanî
 
 Husein Muhammed, *Dengnasî di kurdî de*, rûpelên çapkirî 29–39.
@@ -493,17 +318,6 @@ Husein Muhammed, *Dengnasî di kurdî de*, rûpelên çapkirî 29–39.
 ---
 
 # Dersa 5 — Rêjeya herfan di nivîsên kurmancî de
-
-**Dem:** 25–30 deqîqe.
-
-## Armancên fêrbûnê
-
-Di dawiya dersê de xwendekar dikare:
-- rave bike ka lêkolîna rêjeya herfan çawa hatiye kirin;
-- cudahiya hejmar û rêjeya herfan fam bike;
-- çend herfên pirbikaranîn û kêm-bikaranîn nas bike;
-- bandora paşgir, pêşgir û peyvên dubare li ser encamên hejmartinê rave bike;
-- sînorên vê vekolînê di bîr de bigire.
 
 ## 1. Rêjeya herfan çi ye?
 
@@ -562,37 +376,6 @@ Vê vekolînê divê bi çend hişyarî bên xwendin:
 4. Rêjeya nivîsî ne wek rêjeya gotarê ye; hin deng di axaftinê de dikarin li dawiyê peyvê kêm bên gotin, tevî ku di nivîsê de hene.
 5. Devok û awayên cuda yên nivîsînê dikarin rêjeyên cuda çêbikin.
 
-## Bîr bîne
-
-- Rêjeya herfan bi hejmartina herfên di materyaleke nivîskî de tê bidestxistin.
-- Di materyala vê vekolînê de E = 11.6%, I = 11.2% û N = 9.4%.
-- O, P, Ç, C, Q û F di vê materyalê de rêjeyeke kêmtir hene.
-- Paşgir, pêşgir, daçek û formên gramatîk dikarin rêjeya herfan biguherînin.
-- Encama vê vekolînê wêneyekî nêzîk e, ne encameke bêkêmasî ji bo hemû kurmancîaxivan.
-
-## Çalakî û xwepirsîn
-
-**1. Hesabkirin:** Heke di materyaleke 10,000 herfî de rêjeya E 11.6% be, nêzîkî çend E têne hêvîkirin?
-
-**2. Berawirdkirin:** Di materyala pirtûkê de rêjeya E û I çiqas ji hev cuda ye?
-
-**3. Şîrove:** Çima paşgirên lêkeran dikarin rêjeya herfan biguherînin?
-
-**4. Hişyarî:** Çima em nikarin rêjeya herfên vê vekolînê wek rêjeya rast a hemû axaftina kurmancî bihesibînin?
-
-## Bersivên kurt
-
-1. 1,160 E.
-2. E = 11.6% û I = 11.2%; cûdahî 0.4 xalê rêjeyê ye.
-3. Ji ber ku paşgirên dubarebûyî hin herfan gelek caran zêde dikin.
-4. Ji ber ku vekolîn li ser nivîsên hatine berhevkirin e, materyal sînordar e û nivîsîn ji gotinê cuda ye.
-
-## Têbînî ji bo pêşxistinê
-
-Ev ders ji nû ve hatî rêxistin. Rêjeyên hejmarî yên li jor rasterast ji tabloya pirtûkê hatine girtin; divê di kontrola dawî de her hejmar bi tabloya orîjînal re were berawirdkirin. Dersa 6 li ser dengrêzî û kîte ye.
-
-
-
 ## Çavkanî
 
 Husein Muhammed, *Dengnasî di kurdî de*, rûpelên çapkirî 40–43.
@@ -600,18 +383,6 @@ Husein Muhammed, *Dengnasî di kurdî de*, rûpelên çapkirî 40–43.
 ---
 
 # Dersa 6 — Dengrêzî û avaniya kîteyan
-
-**Dem:** 40–45 deqîqe.
-
-## Armancên fêrbûnê
-
-Di dawiya dersê de xwendekar dikare:
-- kîte û fonotaksî bi gotinên xwe rave bike;
-- kîteyan wek yek-, du- û pirrkîteyî dabeş bike;
-- navik, serik û dûvik di kîteyê de nas bike;
-- komên konsonantan yên destpêk û dawiya kîteyê cuda bike;
-- çend cûreyên avaniya kîteyê bi nimûneyan nîşan bide;
-- guherîna dengî ya ji ber lerza perdeyên dengî rave bike.
 
 ## 1. Kîte û dengrêzî
 
@@ -710,41 +481,6 @@ Pirtûk nîşan dide ku peyvên ji erebî wergirtî jî dikarin li gor rêzikên
 
 Lê nivîskar hişyar dike ku hemû peyvên wergirtî bi yek rêzikê nayên şîrovekirin; hin awayên gotinê istisna ne û divê bi daneyên rastîn bên kontrolkirin.
 
-## Bîr bîne
-
-- Kîte yekeya dengî ya ku peyv pêk tê.
-- Her kîte divê navikek vokalî hebe.
-- Serik berî navikê ye; dûvik piştî navikê ye.
-- Rêzikên komên konsonantan li destpêk û dawiya kîteyê ji hev cuda ne.
-- CVC, CVCC, CCV û CCVC çend cûreyên avaniya kîteyê ne.
-- Lerza perdeyên dengî dikare konsonantên li tenişta hev biguherîne.
-
-## Çalakî û xwepirsîn
-
-**1. Dabeşkirina kîteyan:** Peyvên *av, bi-rin, ba-ran* li gor hejmareke kîteyan dabeş bike.
-
-**2. Nasîna beşan:** Di kîteya *çav* de serik, navik û dûvik diyar bike.
-
-**3. Cûreya kîteyê:** Avaniya peyvên *spî, baş, dest, stêr* bi C û V binivîse.
-
-**4. Guherîna lerzê:** Rave bike çima *lîz + t* dibe *lîst*.
-
-**5. Berawirdkirin:** Çima *stêr* di hin zaravên kurdî de bi vokalekê li destpêkê tê gotin?
-
-## Bersivên kurt
-
-1. *av* yek-kîte; *bi-rin* du-kîte; *ba-ran* du-kîte.
-2. Ç serik e; A navik e; V dûvik e.
-3. *spî* = CCV; *baş* = CVC; *dest* = CVCC; *stêr* = CCVC.
-4. Ji ber ku T bêlerz e û taybetmendiya bêlerzî li ser Z-ya berî xwe dide; Z dibe S.
-5. Ji ber ku hin zarav rêzikên koma konsonantan yên destpêka kîteyê sivik dikin, bi zêdekirina vokalekê an guherandina komê.
-
-## Têbînî ji bo pêşxistinê
-
-Ev ders ji nû ve hatî rêxistin. Kontrola dawî divê li ser dabeşkirina kîteyan, nîşanên IPA, û nimûneyên guherîna lerzê bê kirin; bi taybetî cudahiya kîtekirina nivîskî û ya gotinê di peyvên wek *berav* de. Dersa 7 li ser tesîra guherîna dengî li ser nivîsînê ye.
-
-
-
 ## Çavkanî
 
 Husein Muhammed, *Dengnasî di kurdî de*, rûpelên çapkirî 44–55.
@@ -752,18 +488,6 @@ Husein Muhammed, *Dengnasî di kurdî de*, rûpelên çapkirî 44–55.
 ---
 
 # Dersa 7 — Tesîra guherîna dengî li ser nivîsînê
-
-**Dem:** 45–50 deqîqe.
-
-## Armancên fêrbûnê
-
-Di dawiya dersê de xwendekar dikare:
-- cudahiya forma gotinê û rehê peyvê rave bike;
-- di nivîsîna peyvên xwerû de prensîba nivîsînê li gor gotinê nas bike;
-- rave bike çima guherîna dengî di navbera peyvên serbixwe de bi gelemperî di nivîsînê de nayê nîşandan;
-- peyvên paşgirdar ên kevn û peyvên nûçêkirî ji hev cuda bike;
-- tesîra cihê derketina dengê û awayê dengî nas bike;
-- analojiyê wek sedemeke guherîna şiklê peyvan bi nimûneyan rave bike.
 
 ## 1. Pirsa bingehîn: em çawa binivîsin?
 
@@ -856,44 +580,6 @@ Nimûneyên pirtûkê:
 
 Ev cot peyv nîşan didin ku analojî dikare di çend cureyên peyvan de bandorê li şiklê wan bike.
 
-## Bîr bîne
-
-- Di peyvên xwerû de forma cihgir a gotinê dikare bibe bingeha rastnivîsînê: *kuştin, lîstin, axiftin*.
-- Guherîna dengî di navbera du peyvên serbixwe de bi gelemperî di nivîsînê de nayê nîşandan.
-- Di peyvên paşgirdar de dîroka peyvê û asta cihgirtina wê girîng in.
-- N berî B dikare ji aliyê cihê derketinê ve bibe M.
-- Cihê çêkirinê û awayê dengî herdu dikarin guherîna dengî çêbikin.
-- Analojî peyvên ji aliyê maneyê an erkê rêzimanî ve nêzîk dike û dikare şiklê wan biguherîne.
-
-## Çalakî û xwepirsîn
-
-**1. Rastnivîsîn:** Ji van cotan forma ku li gor prensîba pirtûkê tê nivîsîn hilbijêre: *kuştin / kujtin*; *lîstin / lîztin*; *axiftin / axivtin*.
-
-**2. Peyvên serbixwe:** Çima *ez têm* di nivîsînê de wek *ez têm* dimîne, tevî ku di axaftina bilez de dikare wek *es-têm* were bihîstin?
-
-**3. Tesîra cihê dengê:** Di *beramber* de çima N berî B dibe M?
-
-**4. Analojî:** Li gor ravekirina pirtûkê, H di *heşt* de ji kû hatiye?
-
-**5. Dabeşkirin:** Mînakên *bi, di, ji, li* û *de, re, ve* bi kîjan diyarde ve girêdayî ne?
-
-**6. Şîrove:** Çima divê em peyvên kevn ên wek *dezgeh* her tim bi rehê xwe yê dîrokî nûnenivîsin?
-
-## Bersivên kurt
-
-1. *Kuştin, lîstin, axiftin*.
-2. Ji ber ku guherîn tenê di axaftina bilez a du peyvên serbixwe de çêdibe; di gotina hêdî û nivîsînê de forma bingehîn tê parastin.
-3. Ji ber ku N û M herdu bêvilî ne, lê M bi lêvan tê çêkirin û cihê wê nêzî B ye.
-4. Bi bandora peyva *heft*; analojî H li destpêka *heşt* zêde kiriye.
-5. Bi analojî, an wekhevkirina şiklê peyvan.
-6. Ji ber ku ew formên kevn û cihgir in; guherandina wan dikare têkiliya wan bi bikaranîna rastîn û maneya nû ve bibire.
-
-## Têbînî ji bo pêşxistinê
-
-Ev ders ji nû ve hatî rêxistin. Di kontrola dawî de divê nimûneyên etîmolojîk, nîşanên dengnasiyê û şiroveya analojiyê bi nivîsa PDF-ê re bêne berawirdkirin; herwiha divê cudahiya rastnivîsîna peyvên xwerû, peyvên pêkhatî û peyvên li pey hev bi zelalî bê parastin. Dersa 8 li ser konsonantên B, C, Ç û D e.
-
-
-
 ## Çavkanî
 
 Husein Muhammed, *Dengnasî di kurdî de*, rûpelên çapkirî 56–67.
@@ -901,18 +587,6 @@ Husein Muhammed, *Dengnasî di kurdî de*, rûpelên çapkirî 56–67.
 ---
 
 # Dersa 8 — Konsonantên B, C, Ç û D
-
-**Dem:** 60–70 deqîqe.
-
-## Armancên fêrbûnê
-
-Di dawiya dersê de xwendekar dikare:
-- B û D wek konsonantên seknî yên bilerz rave bike;
-- C û Ç ji aliyê cihê derketinê, awayê derketinê û lerzê ve cuda bike;
-- cihê B, C, Ç û D di destpêk, nav û dawiya peyvê de bibîne;
-- fonem û varyantên dengî di mînaka Ç de cuda bike;
-- hin guherînên dîrokî û devokî yên van dengan nas bike;
-- bandora dengên nêzîk, ketin û zêdebûna dengê di peyvan de şîrove bike.
 
 ## 1. B — seknî-du-lêvî-bilerz
 
@@ -1034,44 +708,6 @@ Pirtûk herwiha hin peyvên ku D di wan de zêde bûye dide, wek *qalind, mindal
 | Ç | Paşpidûyî, xişok | Bêlerz |
 | D | Pidûyî, seknî | Bilerz |
 
-## Bîr bîne
-
-C û Ç ji aliyê cih û awayê derketinê ve nêzîk in, lê lerza wan cuda ye. B û D herdu seknî û bilerz in, lê cihê derketina wan cuda ye.
-
-## Çalakî û xwepirsîn
-
-**1. Cudahiya B/P:** Herdu deng du-lêvî û seknî ne; kîjan taybetmendiya wan cuda ye?
-
-**2. Cudahiya B/M:** Çima M bêvilî ye, lê B ne?
-
-**3. Cihê C û Ç:** Kîjan yek bilerz e û kîjan bêlerz?
-
-**4. Bipif an bêpif?** Di nimûneyên *çend* û *çerm* de awayê Ç-ê çawa cuda ye?
-
-**5. D û T:** Çima D û T ji aliyê cih û awayê derketinê ve nêzîk in, lê ji aliyê lerzê ve cuda ne?
-
-**6. Dîrok:** Çima *av, sêv, ewr* di vê dersê de wek nimûneyên guherîna B/V/W tên bikaranîn?
-
-**7. Ketina dengê:** Di *birin, kirin, mirin* de D li gor berawirdkirina pirtûkê li kîjan cihê peyvê ketiye?
-
-**8. Şîrove:** Çima divê têkiliyên dîrokî yên C/J/Z/Ç wek rêzikên giştî yên nivîsîna îroyîn neyên bikaranîn?
-
-## Bersivên kurt
-
-1. B bilerz e; P bêlerz e.
-2. Di gotina M de hewa ji pozê derdikeve; di B de na.
-3. C bilerz e; Ç bêlerz e.
-4. *Çend* bi gelemperî Ç-ya bipif e; *çerm* nimûneya Ç-ya bêpif e.
-5. Herdu seknî-pidûyî ne; lê perdeyên dengî di D de dilerizin û di T de nalizerin.
-6. Ji ber ku di hin ziman û zaravayên xizm de B-ya navîn an dawî bi V/W re hatiye guhertin.
-7. Di nimûneyên *bir_(in), kir_(in), mir_(in), xwar_(in)* û *zer* de kîjan deng piştî R ketiye, û berawirdkirina wan bi soranî, zazakî û farisî çi nîşan dide?
-8. Ji ber ku ew berawirdkirinên dîrokî û zaravayî ne; ne rêzikên ku her peyva îroyîn bi wan were nûnivîsîn.
-
-## Têbînî ji bo pêşxistinê
-
-Ev ders ji nû ve hatî rêxistin. Berî belavkirinê divê nîşanên fonetîk, cudahiya bipif/bêpif ya Ç, nimûneyên dîrokî û awayê nivîsandina formên zaravayî rasterast bi PDF re bên kontrolkirin. Hin nimûneyên dîrokî ji bo fêrbûnê kurt kirine; divê wek agahiyên çavkaniyê bên xwendin, ne wek daneyên ku bê kontrolkirin ji nû ve bên berfirehkirin. Dersa 9 li ser dengên F û G e.
-
-
 ## Çavkanî
 
 Husein Muhammed, *Dengnasî di kurdî de*, rûpelên çapkirî 68–103.
@@ -1079,19 +715,6 @@ Husein Muhammed, *Dengnasî di kurdî de*, rûpelên çapkirî 68–103.
 ---
 
 # Dersa 9 — Dengên F û G
-
-**Dem:** 45–55 deqîqe.
-
-## Armancên fêrbûnê
-
-Di dawiya dersê de xwendekar dikare:
-- F wek dengekî lêvî-didanî, xişok û bêlerz rave bike;
-- F ji V cuda bike û têkiliya wan bi lerza perdeyên dengî rave bike;
-- peydabûna F di destpêk, nav û dawiya peyvan de nas bike;
-- hin guherînên dîrokî yên P → F û guherînên F bi dengên din re nas bike;
-- G wek dengekî sekinî-paşdevî-bilerz rave bike;
-- peydabûna G û sînordariyên wê di peyvên xwemalî de bibîne;
-- hin guherînên dîrokî û devokî yên G, tevî ketina wê ji peyvê, şîrove bike.
 
 ## 1. F — lêvî-didanî-xişok-bêlerz
 
@@ -1221,53 +844,6 @@ Ev nimûne pêdivî bi cudakirina forma nivîskî û guherîna di gotinê de hey
 
 F û G ji aliyê cih û awayê derketinê ve ji hev dûr in. F bi didan û lêvê tê çêkirin û xişok e; G li paşiya devê tê çêkirin û sekinî ye.
 
-## Bîr bîne
-
-- F lêvî-didanî, xişok û bêlerz e; nîşana wê ya IPA [f] e.
-- V ji F nêzîk e; lê V bilerz e.
-- F di destpêk, nav û dawiya peyvan de peyda dibe, lê rêjeya wê di nivîsên kurmancî de pir kêm e.
-- Di hin peyvan de F ji P-ya kevn hatiye; ji ber vê yekê F ne tenê dengekî peyvên erebî ye.
-- G sekinî-paşdevî-bilerz e; nîşana wê ya IPA [g] e.
-- G di destpêka peyvan de berbelavtir e; di nav û dawiyê de di peyvên xwemalî de sînordar e.
-- F û G dikarin di dîrok û devokan de biguherin an ji peyvê bikevin; lê her nimûne divê bi şert û çar xwe were fêmkirin.
-
-## Çalakî û xwepirsîn
-
-**1. Nasîna deng:** F çawa tê çêkirin? Di gotina wê de didan û lêv çi dikin?
-
-**2. F û V:** Cudahiya bingehîn a F û V çi ye? Herdu ji aliyê cihê derketinê ve çawa ne?
-
-**3. Cihê peyvê:** Ji lîsteya *ferman, afir, berf* re bêje F li kîjan cihê peyvê ye.
-
-**4. Dîrok:** Çima em nikarin bibêjin ku hemû peyvên bi F dest pê dikin ji erebî hatine?
-
-**5. Ketina F:** Formên *ketin, keftin, kewtin* bi çi awayî bi hev ve girêdayî ne?
-
-**6. Nasîna G:** G ji aliyê cih, awayê derketinê û lerzê ve çawa tê danasîn?
-
-**7. Cihê G:** Di *gav, agir, reng* de G li ku ye?
-
-**8. Ketina G:** Di berawirdkirina *gurg/gur* de çi guherîn çêbûye?
-
-**9. Devok:** Di hin formên kurdiya başûrî de K dikare bibe G. Ev çi cure guherînê ye?
-
-## Bersivên kurt
-
-1. Didanên jorîn li ser lêva jêrîn tên; hewa ji tengiyekê derbas dibe û xişînekê çêdike.
-2. Herdu lêvî-didanî û xişok in; F bêlerz e, V bilerz e.
-3. *Ferman* li destpêkê; *afir* li navê; *berf* li dawiyê.
-4. Ji ber ku F di peyvên xwemalî yên îranî/hindûewropî de jî heye û hin F ji P-ya kevn hatiye.
-5. Di hin devokan de F di formên *keftin/kewtin* de hatiye parastin, lê di formên *ketin* de ketiye.
-6. Sekinî, paşdevî û bilerz; di IPA de [g].
-7. *Gav*: destpêk; *agir*: nav; *reng*: dawî.
-8. G ya dawiyê di kurmanciya navendî de ketiye: *gurg → gur*.
-9. Guherîneke devokî/dîrokî ye; divê wek rêzikeke giştî ya hemû kurmancî neyê sepandin.
-
-## Têbînî ji bo pêşxistinê
-
-Ev ders ji nû ve hatî rêxistin. Rêjeyên F û G, nîşanên IPA, formên dîrokî û cudahiyên devokî divê di nirxandina dawî de bi baldarî bêne kontrolkirin. Nimûneyên etîmolojîk ji bo berawirdkirinê ne; divê wek rêzikên nivîsîna îroyîn neyên bikaranîn. Dersa 10 li ser dengên H û J e.
-
-
 ## Çavkanî
 
 Husein Muhammed, *Dengnasî di kurdî de*, rûpelên çapkirî 104–115.
@@ -1276,26 +852,13 @@ Husein Muhammed, *Dengnasî di kurdî de*, rûpelên çapkirî 104–115.
 
 # Dersa 10 — Dengên H û J
 
-**Dem:** 45–55 deqîqe.
-
-## Armancên fêrbûnê
-
-Di dawiya dersê de xwendekar dikare:
-- cudahiya herdu dengên ku di nivîsîna kurdî-latînî de bi H tên nîşandan nas bike;
-- H-ya [h] ji Ḧ-ya [ħ] cuda bike û nimûneyên wan bibîne;
-- bandora devokê li ser gotina H û Ḧ rave bike;
-- biryara nivîsîna standard a ku pirtûk pêşniyar dike fêm bike;
-- H wek dengekî qirrikî-xişok-nevizok-bêlerz binasîne;
-- J wek dengekî paşpidûyî-xişok-nevizok-bilerz binasîne;
-- peydabûna J û têkiliyên wê bi C, Ç, Z û Ş re şîrove bike.
-
 ## 1. Du dengên cuda bi herfa H
 
 Di kurmanciya latînî de herdu deng bi herfa **H** tên nivîsîn, lê ji aliyê dengnasiyê ve ne heman deng in. Pirtûk wan bi du koman cuda dike.
 
 **Koma yekem — H [h]:** Ev deng di peyvên *her, heval, hêvî, hestî, bihar, guh* de tê bihîstin. Di nivîsa kurdî-erebî de bi herfa H ya asayî tê nîşandan. Di IPA de nîşana wê **[h]** e.
 
-**Koma duyem — H-ya [ħ] (Ḧ):** Ev deng di peyvên *heft, herf, tehl* û di hin peyvên din de tê bihîstin. Di alfabeya kurdî-erebî de hevbera wê herfa **ح** ye. Di IPA de nîşana wê **[ħ]** e; ew xişoka bêlerz a qirrikî/hefikî ye û ji H-ya [h] cuda ye. Di hin nivîsên zanistî de ji bo eşkerekirina vê cudahiyê **Ḧ** tê bikaranîn, lê ev ne awayê asayî yê nivîsîna peyvan e.
+**Koma duyem — H-ya [ħ] (Ḧ):** Ev deng di peyvên *heft, herf, tehl* û di hin peyvên din de tê bihîstin. Di nivîsîna erebî de ji bo vê dengê herfeke cuda tê bikaranîn. Di IPA de nîşana wê **[ħ]** e; ew xişoka bêlerz a qirrikî/hefikî ye û ji H-ya [h] cuda ye. Di hin nivîsên zanistî de ji bo eşkerekirina vê cudahiyê **Ḧ** tê bikaranîn, lê ev ne awayê asayî yê nivîsîna peyvan e.
 
 Pirtûk ji bo ku xwendekar di dema fêrbûna dengnasiyê de wan ji hev cuda bike, herfa **ḧ** (H-ya du nuqte li ser) ji bo dengê duyem bi kar tîne. Ev nîşan di vê dersê de alîkar e ku du dengên cuda bi hev re ne tevlihev bibin.
 
@@ -1451,50 +1014,6 @@ Di hin devokan an axiftina sivik de J ji rehê dema niha yê hin lêkeran jî di
 
 Ev nimûne divê wek guherînên devokî an gotina sivik bên fêmkirin; ne wek pêşniyarê ku formên standard bê kontrolkirin bên guhertin.
 
-## Bîr bîne
-
-- H-ya *heval* [h] û Ḧ-ya *ḧeq* [ħ] du dengên cuda ne.
-- Ḧ di gelek peyvên erebî de heye, lê di hin peyvên xwemalî yên kurdî de jî tê dîtin.
-- Pirtûk ji bo nivîsîna normal, bikaranîna H-yekê pêşniyar dike; cudahiya dengî di ferheng û dersên dengnasiyê de were ravekirin.
-- H [h] qirrikî, xişok, nevizok û bêlerz e.
-- J [ʒ] paşpidûyî, xişok, nevizok û bilerz e.
-- J di dîrokê de bi C, Ç, Z, Ş û S re têkiliyên cuda hene; ev têkiliyên dîrokî ne, ne rêzikên nivîsîna hemû peyvan.
-- Di hin formên lêkerî de J li ber T dibe Ş, wek *kuşt*.
-
-## Çalakî û xwepirsîn
-
-**1. H an Ḧ?** Di peyvên *heval, ḧeq, hêvî, ḧeft* de kîjan deng tê gotin? Cudahiya wan bi IPA rave bike.
-
-**2. Devok:** Çima *hemî/hemû*, *hezar/ḧezar* û *hirç/ḧirç* divê wek cudahiyên devokî bên xwendin?
-
-**3. Nivîsîn:** Li gor pêşniyara pirtûkê, di nivîsîna normal de em H û Ḧ çawa binivîsin? Çima?
-
-**4. Cihê H:** Ji nimûneyên *heval, bihar, meh* re bêje H li kîjan cihê peyvê ye.
-
-**5. Nasîna J:** J di IPA de bi kîjan nîşanê tê nivîsîn? Cudahiya wê bi C-ya kurdî çi ye?
-
-**6. Berawirdkirina dîrokî:** Di cotên *jin/cinî/zen* û *roj/roc/rûz* de çi têkiliya dengî tê dîtin?
-
-**7. Guherîna J:** Çima rehê *-kuj-* bi T re dibe *kuşt*, ne *kujt*?
-
-**8. Peyvên nû:** Ji nimûneyên *biyolojî, jeolojî* û varyantên bi C/G re, kîjan awayê nivîsînê pirtûk wek serdest nîşan dide?
-
-## Bersivên kurt
-
-1. *heval* û *hêvî*: H [h]; *ḧeq* û *ḧeft*: Ḧ [ħ] li gor nîşankirina dengnasî ya pirtûkê.
-2. Ji ber ku hin devok H-ya asayî û hin jî Ḧ dibêjin; ev cudahî di gotinê de ye.
-3. Di nivîsîna normal de H-yek tê bikaranîn, da ku nivîsîn yekgirtî bimîne; cudahiya dengî di fêrbûna dengnasiyê de tê ravekirin.
-4. *heval*: destpêk; *bihar*: nav; *meh*: dawî.
-5. [ʒ]; J dengekî paşpidûyî-xişok-bilerz e, C [d͡ʒ] paşpidûyî ye lê sekinî-xişok-bilerz e.
-6. Di hin peyvên hevreh de J-ya kurmancî/soranî bi C-ya zazakî, Z-ya farisî/pehlewî û Ç/C-ya avestayî re berawird dibe.
-7. Ji ber ku T bêlerz e û bandorê li J-ya bilerz dike, J dibe Ş: *-kuj- + T → kuşt*.
-8. Formên bi J wek *biyolojî, jeolojî* wek formên serdest tên nîşandan; formên bi C/G varyant in.
-
-## Têbînî ji bo pêşxistinê
-
-Ev ders ji nû ve hatî rêxistin. Cudahiya fonetîkî ya H [h] û Ḧ [ħ], formên devokî, etîmolojî û nîşanên IPA divê di nirxandina dawî de rasterast bi çavkaniyê re bên kontrolkirin. Di nivîsîna normal de H-yekê biparêzin; Ḧ tenê ji bo ravekirina dengnasî û nimûneyên çavkaniyê hatiye bikaranîn. Dersa 11 li ser dengên K û L e.
-
-
 ## Çavkanî
 
 Husein Muhammed, *Dengnasî di kurdî de*, rûpelên çapkirî 116–132.
@@ -1502,20 +1021,6 @@ Husein Muhammed, *Dengnasî di kurdî de*, rûpelên çapkirî 116–132.
 ---
 
 # Dersa 11 — Dengên K û L
-
-**Dem:** 50–60 deqîqe.
-
-## Armancên fêrbûnê
-
-Di dawiya dersê de xwendekar dikare:
-- K wek dengekî paşdevî-sekinî-bêlerz nas bike;
-- K-ya bipif ji K-ya bêpif cuda bike û bi ceribandina kaxezê wan bibîne;
-- peydabûna K di destpêk, nav û dawiya peyvan de nas bike;
-- hin guherînên dîrokî yên K bi dengên din re rave bike;
-- L wek dengekî pidûyî-tengav binasîne;
-- L-ya zirav ji L-ya qelew cuda bike;
-- cudahiyên L di kurmancî, soranî û devokên din de berawird bike;
-- hin çavkaniyên dîrokî û guherînên L bi R û N re nas bike.
 
 ## 1. K — paşdevî-sekinî-bêlerz
 
@@ -1594,7 +1099,7 @@ Di kurmancî de herfa L dikare bi du awayên hinekî cuda were gotin.
 
 **L-ya zirav** di peyvên wek *lêv, law, livîn, gel, bila* de heye.
 
-**L-ya qelew** di peyvên wek *łep, wełat, siłav, çił* de heye. Di alfabeya kurdî-erebî de L-ya zirav bi **ل** û L-ya qelew bi **ڵ** tê nivîsîn. Di nivîsîna kurdî-latînî ya kurmancî de herdu bi L tên nivîsîn; di hin nivîsên zanistî de ji bo nîşandana L-ya qelew **Ł** tê bikaranîn. L-ya qelew ne L-ya dubarekirî ye; cudahiya wê bi dirêjkirina dengî nayê ravekirin.
+**L-ya qelew** di peyvên wek *łep, wełat, siłav, çił* de heye. Di nivîsîna erebî de L-ya zirav û L-ya qelew bi du nîşanên cuda tên nivîsîn. Di nivîsîna kurdî-latînî ya kurmancî de herdu bi L tên nivîsîn; di hin nivîsên zanistî de ji bo nîşandana L-ya qelew **Ł** tê bikaranîn. L-ya qelew ne L-ya dubarekirî ye; cudahiya wê bi dirêjkirina dengî nayê ravekirin.
 
 L-ya qelew di kurmancî û zazakî de roleke kêmtir/kenarî heye, lê di soranî, kurdiya başûrî û hewramî de girîngtir û berbelavtir e. Di soranî de gelek caran li cihê L-ya zirav ya kurmancî L-ya qelew tê gotin:
 - kurmancî *dil* — soranî *dił*;
@@ -1658,53 +1163,6 @@ Di hin zimanên din de L dikare bi dengên tengav ên W an Y re biguhere; pirtû
 
 K û L ji aliyê awayê derketinê ve bi temamî cuda ne: K bi girtin û berdana hewayê çêdibe; L bi tengkirina rêya hewayê bêyî girtina wê.
 
-## Bîr bîne
-
-- K [k] paşdevî, sekinî û bêlerz e.
-- Di kurmancî û zazakî de K dikare bipif an bêpif be; ev cudahî di hin peyvan de wateyê diguherîne.
-- K di destpêk, nav û dawiya peyvan de peyda dibe.
-- L [l] pidûyî û tengav e.
-- L dikare bi awayê zirav an qelew were gotin; di kurmancî de L-ya zirav serdest e û L-ya qelew kêmtir e, lê di soranî de L-ya qelew berbelavtir e.
-- Hin L-ên peyvên kurmancî bi R an N-ya ziman û devokên din re têkildar in.
-- Guherînên dîrokî û devokî divê ji forma standard a nivîsînê cuda bên fêmkirin.
-
-## Çalakî û xwepirsîn
-
-**1. Nasîna K:** K ji aliyê cih, awayê derketinê û lerzê ve çawa tê danasîn?
-
-**2. Bipif/bêpif:** Di *kurd* û *kirin* de K çawa cuda tê gotin? Ceribandina kaxezê çi nîşan dide?
-
-**3. Cihê K:** Di *kar, dikan, çek* de K li kîjan cihê peyvê ye?
-
-**4. Dîrok:** Çima *kî* û *çi* tevî têkiliya dîrokî bi du dengên destpêkê yên cuda tên gotin?
-
-**5. Nasîna L:** L ji aliyê cih û awayê derketinê ve çawa tê danasîn?
-
-**6. L-ya zirav/qelew:** Di *lêv, lep, silav* de kîjan awayê L heye?
-
-**7. Berawirdkirin:** Di cotên *dil/dił* û *gul/guł* de cudahiya kurmancî û soranî çi ye?
-
-**8. Çavkaniyên L:** Pirtûk ji bo L-ya hin peyvên xwemalî kîjan du dengên sereke destnîşan dike?
-
-**9. Devok:** Çima *limêj* û *livîn* divê wek formên devokî bên nîşandan, ne wek forma standard a hemû kurmancî?
-
-## Bersivên kurt
-
-1. K paşdevî, sekinî û bêlerz e; di IPA de [k].
-2. Di *kurd* de K bipif e; di *kirin* de bêpif e. Kaxez dikare bi bayê zêde yê piştî K-ya bipif hereket bike.
-3. *kar*: destpêk; *dikan*: nav; *çek*: dawî.
-4. Ji ber ku di dîroka wan de K-ya kevn di hin peyvan de hatiye parastin, di hinên din de bûye Ç.
-5. L pidûyî û tengav e; rêya hewayê teng dibe lê bi temamî nayê girtin.
-6. *lêv*: L-ya zirav; *łep* û *siłav*: L-ya qelew.
-7. Di kurmancî de L-ya zirav, di soranî de di van nimûneyan de L-ya qelew tê dîtin.
-8. R û N.
-9. Ji ber ku pirtûk wan wek guherînên hin devokan nîşan dide; formên bi N di zimanê nivîskî de serdest in.
-
-## Têbînî ji bo pêşxistinê
-
-Ev ders ji nû ve wek materyaleke fêrkarî hatiye rêkxistin. Cudahiya K-ya bipif/bêpif, nîşanên IPA, cudahiya L-ya zirav/qelew, formên soranî û etîmolojiyên L divê di nirxandina dawî de rasterast bi çavkaniyê re bên kontrolkirin. Nimûneyên devokî û etîmolojîk wek delîlên berawirdkirinê tên pêşkêşkirin, ne wek formên ku hemû xwendekaran divê di nivîsîna standard de bi kar bînin. Dersa 12 li ser dengên M û N e.
-
-
 ## Çavkanî
 
 Husein Muhammed, *Dengnasî di kurdî de*, rûpelên çapkirî 133–146.
@@ -1712,19 +1170,6 @@ Husein Muhammed, *Dengnasî di kurdî de*, rûpelên çapkirî 133–146.
 ---
 
 # Dersa 12 — Dengên M û N
-
-**Dem:** 45–55 deqîqe.
-
-## Armancên fêrbûnê
-
-Di dawiya dersê de xwendekar dikare:
-- M wek dengekî dulêvî-bêvilî û bilerz rave bike;
-- N wek dengekî pidûyî-bêvilî nas bike;
-- cihê M û N di destpêk, nav û dawiya peyvan de bibîne;
-- têkiliya M bi B/P, W/V û N re rave bike;
-- guherîna M ya dîrokî di hin peyvên kurdî de bi nimûne şîrove bike;
-- cudahiya gotina NG di kurmancî û hin devokên din ên kurdî de nas bike;
-- guherînên N bi M û L re û zêdebûn an ketina N di peyvan de nas bike.
 
 ## 1. M — dulêvî-bêvilî
 
@@ -1857,50 +1302,6 @@ Nîşana xêza jêrîn li vir tenê cihê dengê N-ya ketî nîşan dide; ew tî
 | Cih di peyvê de | Destpêk, nav, dawî | Destpêk, nav, dawî |
 | Têkiliyên taybet | Bi V/W û B/P re | Bi M, L û G/K re |
 
-## Bîr bîne
-
-- M [m] dulêvî, bêvilî û bilerz e.
-- N [n] pidûyî, bêvilî û bilerz e.
-- M piştî vokalan di hin peyvên dîrokî de di kurmancî de bûye V û di soranî de W.
-- Di kurmancî de NG bi gelemperî [ŋg] e; di hin devokên din de dikare bibe [ŋ].
-- N li ber B/P carinan dibe M.
-- N di hin devokan de dibe L; di hin peyvan de jî dikare zêde bibe an ji dawiya paşpirtikê bikeve.
-- Guherînên dengî yên devkî divê ji forma nivîskî ya standard cuda bên fêmkirin.
-
-## Çalakî û xwepirsîn
-
-**1. Nasîna M:** M ji aliyê cihê derketinê, rêya hewayê û lerzê ve çawa tê danasîn?
-
-**2. Nasîna N:** Cudahiya M û N di cihê derketinê de çi ye?
-
-**3. Guherîna M:** Di cotên *nav/naw* û *gav/(hen)gaw* de çi guherîn hatiye dîtin?
-
-**4. NG:** Çima NG di kurmancî de bi gelemperî [ŋg] e, lê di hin devokên başûrî de [ŋ] dibe?
-
-**5. Asîmîlasyon:** Di *jinbav → jimbav* de N çima bûye M?
-
-**6. Guherîna N:** *nimêj → limêj* çi cure guherînekê nîşan dide?
-
-**7. Zêdebûna N:** Ji nimûneyên *tac/tanc* û *çok/çong* re bêje çi qewimî ye?
-
-**8. Ketina N:** Di *du kitêban → du kitêba_* de kîjan deng ketiye?
-
-## Bersivên kurt
-
-1. M dulêvî, bêvilî û bilerz e.
-2. M dulêvî ye; N pidûyî ye. Herdu jî bêvilî û bilerz in.
-3. M-ya kevn di kurmancî de bûye V, di soranî de W.
-4. Di kurmancî de G jî tê gotin; di hin devokên din de N û G dihev dibin û [ŋ] dimîne.
-5. Ji ber ku N li ber B ye û bi asîmîlasyonê nêzîkî B dibe.
-6. Guherîna N bo L di hin devokan de.
-7. N di nav peyvê de zêde bûye.
-8. N-ya paşpirtika -an ketiye.
-
-## Têbînî ji bo pêşxistinê
-
-Ev ders ji nû ve wek materyaleke fêrkarî hatiye rêkxistin. Nîşanên IPA [m], [n], [ŋ], cudahiya NG di devokan de, etîmolojiyên M/N û formên gotinî yên zêdebûn an ketina N divê di nirxandina dawî de rasterast bi çavkaniyê re bên kontrolkirin. Nimûneyên devokî wek formên herêmî tên pêşkêşkirin, ne wek rêzikên wekhev ji bo hemû kurmancî. Dersa 13 li ser dengên P û Q e.
-
-
 ## Çavkanî
 
 Husein Muhammed, *Dengnasî di kurdî de*, rûpelên çapkirî 147–154.
@@ -1908,19 +1309,6 @@ Husein Muhammed, *Dengnasî di kurdî de*, rûpelên çapkirî 147–154.
 ---
 
 # Dersa 13 — Dengên P û Q
-
-**Dem:** 45–55 deqîqe.
-
-## Armancên fêrbûnê
-
-Di dawiya dersê de xwendekar dikare:
-- P wek dengekî dulêvî-sekinî-bêlerz rave bike;
-- P-ya bipif û bêpif ji hev cuda bike û fêm bike ku di kurmancî û zazakî de dikarin du fonem bin;
-- P-ya zirav û qelew wek du alofonên heman fonem nas bike;
-- peydabûna P di destpêk, nav û dawiya peyvan de bibîne;
-- hin guherînên dîrokî yên P bi B, V/W û F re şîrove bike;
-- Q wek dengekî zimanokî-sekinî-bêlerz nas bike;
-- cihê Q di peyvan de û çavkaniyên dîrokî yên belavbûna wê rave bike.
 
 ## 1. P — dulêvî-sekinî-bêlerz
 
@@ -2028,54 +1416,6 @@ Pirtûk herwiha hin peyvên bi eslê xwe îranî destnîşan dike ku di kurdî d
 | Taybetmendiya taybet | Bipif/bêpif; zirav/qelew | Dengê paşdevî, zimanokî |
 | Nimûne | *perde, pênc, kepir* | *qazan, reqem, heq* |
 
-## Bîr bîne
-
-- P dulêvî, sekinî û bêlerz e; nîşana IPA ya wê [p] e.
-- P-ya bipif û bêpif di kurmancî û zazakî de dikarin wateya peyvê biguherînin; ji ber vê yekê di hin peyvan de du fonem in.
-- P-ya zirav û qelew wate naguherînin; ew du alofonên heman fonemê ne.
-- P di hin peyvên dîrokî de bi B û paşê V/W re hatiye guherîn; di hin peyvên din de jî bi tesîra erebî bûye F.
-- Q zimanokî, sekinî û bêlerz e; nîşana IPA ya wê [q] e.
-- Q di kurmancî de kêm e û di destpêk, nav û dawiya peyvan de tê dîtin.
-- Belavbûna Q di hin peyvan de bi bandora erebî û zimanên tirkîkî re têkildar e.
-- Guherînên Q bi K an X re divê li gorî peyv û devokê bên fêmkirin.
-
-## Çalakî û xwepirsîn
-
-**1. Nasîna P:** P ji aliyê cihê derketinê, awayê derketinê û lerzê ve çawa tê danasîn?
-
-**2. Ceribandina pifdarî:** Di *perde* û *pênc* de kîjan P bipif e? Çawa dikarî bi kaxezê vê cudahiyê bibînî?
-
-**3. Fonem an alofon?** Çima P-ya bipif û bêpif di hin peyvan de fonem in, lê P-ya zirav û qelew alofon in?
-
-**4. Cihê P:** Di *perde, kepir, hesp* de P li kîjan cihê peyvê ye?
-
-**5. Dîroka P:** Di cotên *av/aw* û *sêv/sêw* de çi têkiliya dîrokî tê nîşandan?
-
-**6. Nasîna Q:** Q ji aliyê cih, awayê derketinê û lerzê ve çawa tê danasîn?
-
-**7. Cihê Q:** Di *qazan, reqem, heq* de Q li kîjan cihê peyvê ye?
-
-**8. Bandora tirkî:** Çima di hin peyvên wergirtî de K-ya tirkî bûye Q? Du nimûne bîne.
-
-**9. Guherîna Q:** Di cotên *weqt/wext* û *neqş/nexş* de Q bi kîjan dengê cuda bûye?
-
-## Bersivên kurt
-
-1. P dulêvî, sekinî û bêlerz e; [p].
-2. Di *perde* de P bipif e; di *pênc* de bêpif e. Kaxez bi pifa piştî P-ya bipif dikare hereket bike.
-3. Bipif/bêpif dikare wateya peyvê biguherîne; zirav/qelew wate naguherînin.
-4. *perde*: destpêk; *kepir*: nav; *hesp*: dawî.
-5. Di hin peyvan de P-ya navîn ji forma kevn bûye B û paşê V; di soranî de W.
-6. Q zimanokî, sekinî û bêlerz e; [q].
-7. *qazan*: destpêk; *reqem*: nav; *heq*: dawî.
-8. Berî vokalên paşîn K di hin peyvên tirkî de di kurdî de bûye Q; wek *qazan* ji *kazan* û *qûm* ji *kum*.
-9. Q bûye X.
-
-## Têbînî ji bo pêşxistinê
-
-Ev ders ji nû ve wek materyaleke fêrkarî hatiye rêkxistin. Di çavkaniyê de di yek cihê danasîna P de nîşana IPA wek [b] hatiye nivîsîn, lê taybetmendiyên ku heman beşê ji bo P rave dike «dulêvî, sekinî, bêlerz» in; ji aliyê dengnasiyê ve nîşana P-ya bêlerz [p] e. Ev nakokî divê berî belavkirinê bi çavkaniya çapkirî/edîtorê re were kontrolkirin; di vê pêşnûsê de [p] wek nîşana dengnasî ya P hatiye bikaranîn. Herwiha cotên wateyî yên P-ya bipif/bêpif, guherînên dîrokî yên P, etîmolojiyên Q û şertên K→Q divê di nirxandina dawî de rasterast bi çavkaniyê re bên kontrolkirin. Dersa 14 li ser dengên R û S e.
-
-
 ## Çavkanî
 
 Husein Muhammed, *Dengnasî di kurdî de*, rûpelên çapkirî 155–167.
@@ -2083,19 +1423,6 @@ Husein Muhammed, *Dengnasî di kurdî de*, rûpelên çapkirî 155–167.
 ---
 
 # Dersa 14 — Dengên R û S
-
-**Dem:** 50–60 deqîqe.
-
-## Armancên fêrbûnê
-
-Di dawiya dersê de xwendekar dikare:
-- du awayên dengdana R-ê, R-ya req [r] û R-ya nerm [ɾ], ji hev cuda bike;
-- têkiliya R-ê bi L-ê û guherînên wan di hin peyv û devokan de rave bike;
-- nermbûna R-ê di nav peyvê de û ketina wê di hin peyvên pir bikaranîn de nas bike;
-- S wek dengekî pidûyî-xişok-vizok yê bêlerz [s] binasîne;
-- cihê S di peyvê de û komên konsonantan nas bike;
-- S-ya zirav û qelew wek du alofonên kurmancî nas bike;
-- hin guherînên dîrokî yên S-ê ji K û dengên din, û guherîna S bi H, X, Ç û T re rave bike.
 
 ## 1. R — herfek û du deng
 
@@ -2299,57 +1626,6 @@ Di peyva *mîras* de S-ya ku ji dengê didanî [θ] hatiye, di kurdî de di form
 | Varyantên sereke | R-ya req [r] û R-ya nerm [ɾ] | S-ya zirav û S-ya qelew |
 | Taybetmendiya girîng | Li destpêkê bi gelemperî req | Dikare bi komên konsonantan re were |
 
-## Bîr bîne
-
-- R yek herf e, lê di kurmancî de du dengên wê hene: R-ya req [r] û R-ya nerm [ɾ].
-- R li destpêka peyvê bi gelemperî req e; li nav û dawiya peyvên xwerû bi piranî nerm e.
-- Di hin peyvên pêkhatî de R-ya req tê parastin; di hin peyvên pir bikaranîn de R dikare bikeve.
-- Di hin peyvên xwemalî de R-ya îro ji L-ya kevn hatiye; di devokan de jî L û R dikarin biguherin.
-- S dengekî pidûyî-xişok-vizok yê bêlerz e; [s].
-- S dikare li destpêk, nav û dawiya peyvê were; li destpêkê dikare bi komên konsonantan re be.
-- S-ya zirav û qelew di kurmancî de alofon in, ne du fonemên cuda.
-- S di dîroka peyvan de dikare ji K, T an dengên din were; di hin şertan de bibe H, X, Ç an T.
-- Guherînên dengî dikarin bi devok, zimanê jêder û dîroka peyvê ve girêdayî bin.
-
-## Çalakî û xwepirsîn
-
-**1.** R-ya req û R-ya nerm çi cudahiyên dengdanê hene? Nîşanên IPA-yên wan binivîse.
-
-**2.** Di peyvên *rast, agir, bihar* de R li kîjan cihê ye û bi gelemperî çawa tê gotin?
-
-**3.** Çima di hin peyvên pêkhatî de R-ya req tê parastin? Du nimûne bide.
-
-**4.** Du nimûneyên guherîna L/R di devokên kurdî de binivîse.
-
-**5.** S ji aliyê cihê derketinê, awayê derketinê û lerzê ve çawa tê danasîn?
-
-**6.** Di *stêr, dest, behs* de S li kîjan cihê peyvê ye?
-
-**7.** S-ya zirav û qelew di kurmancî de fonem in an alofon? Sedemê xwe rave bike.
-
-**8.** Koma kentûmî û satemî ji aliyê guherîna K-ya proto-hindûewropî ve çawa ji hev cuda dibin?
-
-**9.** Di peyva *heft* de çi guherîna dîrokî ya S→H tê dîtin?
-
-**10.** Du nimûneyên guherîna S bi X, Ç an T re bide.
-
-## Bersivên kurt
-
-1. R-ya req bi çend lêdanên ziman [r] e; R-ya nerm bi lêdaneke tenê [ɾ] e.
-2. *rast*: destpêk û req; *agir*: nav û nerm; *bihar*: dawî û bi gelemperî nerm.
-3. Hêmanê duyem dikare awayê destpêka xwe biparêze; wek *biřojî, neřastî*.
-4. *mal → mar* di soraniya Hewlêrê de; *şelwar → şelwal* di hin devokan de.
-5. S pidûyî-xişok-vizok û bêlerz e; [s].
-6. *stêr*: destpêk; *dest*: nav; *behs*: dawî.
-7. Alofon in; di kurmancî de guherandina wan bi hev wateya peyvê naguherîne.
-8. Kentûmî K diparêze an dike H; satemî di gelek peyvan de K dike S.
-9. S-ya kevn di zimanên îranî de li destpêka peyvê bûye H; *seven/septem* li hemberî *heft*.
-10. *weqt → wext* ji Q bo X; *birsî → birçî* ji S bo Ç; *mîraθ → mîras → mîrat* ji S bo T.
-
-## Têbînî ji bo pêşxistinê
-
-Ev ders ji nû ve wek materyaleke fêrkarî hatiye rêkxistin. Nîşanên [r] û [ɾ] ji ravekirina pirtûkê ya R-ya req û nerm tên. R-ya req dikare li nav û dawiya hin peyvan jî were; nivîsandina wê bi rr di hin nivîsan de ji bo cudakirina peyvên hevnivîs tê bikaranîn. Di beşa S-ya zirav/qelew de pirtûk şertan wek meyla giştî pêşkêş dike, ne wek rêzikên bêîstîsna; ji ber vê yekê di dersê de jî ev sînordarî hatiye parastin. Etîmolojiyên *hirç*, *rûvî* û hin nimûneyên L/R bi ihtiyat hatine pêşkêşkirin, ji ber ku çavkaniyê xwe jî çend rêyên gengaz nîşan dide. Berî belavkirinê, hemû nimûneyên devokî û rêyên etîmolojîk divê bi pisporê dengnasiyê re bên kontrolkirin. Dersa 15 li ser dengên Ş û T e.
-
 ## Çavkanî
 
 Husein Muhammed, *Dengnasî di kurdî de*, rûpelên çapkirî 168–185.
@@ -2357,19 +1633,6 @@ Husein Muhammed, *Dengnasî di kurdî de*, rûpelên çapkirî 168–185.
 ---
 
 # Dersa 15 — Dengên Ş û T
-
-**Dem:** 45–55 deqîqe.
-
-## Armancên fêrbûnê
-
-Di dawiya dersê de xwendekar dikare:
-- Ş wek dengekî paşpidûyî-xişok-vizok yê bêlerz binasîne;
-- cihê Ş di destpêk, nav û dawiya peyvan de bibîne;
-- hin çavkaniyên dîrokî û guherînên Ş bi dengên din re rave bike;
-- T wek dengekî seknî-pidûyî-bêlerz binasîne;
-- T-ya bipif û bêpif ji hev cuda bike;
-- T-ya zirav û qelew wek du alofonên heman fonemê fêm bike;
-- cudahiya fonem û alofon bi nimûneyên T rave bike.
 
 ## 1. Ş — dengekî paşpidûyî-xişok-vizok
 
@@ -2483,50 +1746,6 @@ Di hin peyvan de T ya ku niha tê dîtin bi eslê xwe ji dengên din hatiye an j
 | Taybetmendiya sereke | Hewa di tengiyê de xişok çêdike | Hewa tê girtin û paşê tê berdan |
 | Cih di peyvê de | Destpêk, nav, dawî | Destpêk, nav, dawî |
 
-## Bîr bîne
-
-- Ş paşpidûyî-xişok-vizok û bêlerz e; nîşana wê [ʃ] e.
-- T seknî-pidûyî û bêlerz e; nîşana wê [t] e.
-- Ş dikare di destpêk, nav û dawiya peyvê de were.
-- T-ya bipif û bêpif di hin peyvan de cudahiya fonemîk çêdikin.
-- T-ya zirav û qelew di kurmancî de alofonên heman fonemê ne.
-- Hin formên ku Ş û T tê de xuya dibin, ne her tim nimûneyên guherîna rasterast a Ş↔T ne; hin caran T nîşana rabirdûyê ye.
-- Guherînên Ş û T divê bi peyv, devok û çarçoveya dîrokî ve bên şîrovekirin.
-
-## Çalakî û xwepirsîn
-
-**1.** Ş ji aliyê cihê derketinê, awayê derketinê û lerzê ve çawa tê danasîn?
-
-**2.** Di *şal, aştî, baş* de Ş li kîjan cihê peyvê ye?
-
-**3.** T ji aliyê cihê derketinê, awayê derketinê û lerzê ve çawa tê danasîn?
-
-**4.** Cudahiya T-ya bipif û bêpif çi ye? Çima ev cudahî dikare ji bo wateya peyvê girîng be?
-
-**5.** T-ya zirav û qelew fonem in an alofon? Sedemê xwe rave bike.
-
-**6.** Di *te, tîr, tûrik* û *tav, teng, tov* de kîjan taybetmendiya T-ê tê nîşandan?
-
-**7.** Çima divê em her nimûneya ku Ş û T tê de xuya dibin wek guherîna rasterast a Ş↔T nehêlin?
-
-**8.** Bi kaxezê çawa dikarî pifdarîya T-ê ceribînî?
-
-## Bersivên kurt
-
-1. Ş paşpidûyî-xişok-vizok û bêlerz e; [ʃ].
-2. *şal*: destpêk; *aştî*: nav; *baş*: dawî.
-3. T seknî-pidûyî û bêlerz e; [t].
-4. T-ya bipif piştî berdanê bayê zêdetir derdixe; T-ya bêpif bayê kêmtir derdixe. Di hin peyvan de ev cudahî wateyê diguherîne.
-5. Alofon in; di vê ravekirinê de guherandina zirav/qelew wateya peyvê naguherîne.
-6. Cudahiyên T-ya zirav û T-ya qelew.
-7. Ji ber ku di hin formên lêkerî de T nîşana rabirdûyê ye û dibe ku dengê din ketiye; pêdivî bi şirovekirina morfolojîk û dîrokî heye.
-8. Kaxez li ber devê xwe bigire û nimûneyên bipif û bêpif bi hev re bibêje; hereket zêde ya kaxezê dikare pifa bihêztir nîşan bide.
-
-## Têbînî ji bo pêşxistinê
-
-Ev ders ji nû ve wek materyaleke fêrkarî hatiye rêxistin; ne kopîkirina PDF e. Nimûneyên Ş↔Ç û Ş↔S, guherîna J→Ş, cudahiya T-ya bipif/bêpif, û T-ya zirav/qelew li gor çavkaniyê hatine berfirehkirin. Berî belavkirinê divê nîşanên fonetîk, nimûneyên zaravî û şîroveya morfolojîk a rehên lêkeran ji aliyê pisporê kurmancî ve careke din bên nirxandin.
-
-
 ## Çavkanî
 
 Husein Muhammed, *Dengnasî di kurdî de*, rûpelên çapkirî 186–202.
@@ -2534,19 +1753,6 @@ Husein Muhammed, *Dengnasî di kurdî de*, rûpelên çapkirî 186–202.
 ---
 
 # Dersa 16 — Dengên V, W, Y û Z
-
-**Dem:** 45–55 deqîqe.
-
-## Armancên fêrbûnê
-
-Di dawiya dersê de xwendekar dikare:
-- V wek dengekî lêvî-didanî yê bilerz nas bike û cihê wê di peyvê de bibîne;
-- hin çavkaniyên dîrokî yên V û guherînên B/V, M/V û T/V rave bike;
-- W wek dengekî dulêvî-tengav û nîv-vokal nas bike;
-- cudahiya V û W bi taybetmendiyên derxistinê rave bike;
-- Y wek dengekî bandevî-tengav û nîv-vokal nas bike;
-- erkê Y wek herfa kelijandinê û hin guherînên devokî/dîrokî nas bike;
-- Z-ya zirav û Z-ya qelew ji hev cuda bike û cudahiya fonemîk a wan fêm bike.
 
 ## 1. V — lêvî-didanî ya xişok û bilerz
 
@@ -2731,57 +1937,6 @@ Di peyvên ji erebî wergirtî de, hin dengên erebî dikarin di kurdî de bi Z-
 | Y [j] | Bandevî, tengav | Bilerz | Nîv-vokal |
 | Z [z] | Pidûyî, xişok-vizok | Bilerz | Du fonem: zirav û qelew |
 
-## Bîr bîne
-
-- V [v] lêvî-didanî, xişok û bilerz e.
-- Di hin peyvan de B/P, M an T dikarin di pêvajoyên dîrokî de bi V ve girêdayî bin.
-- W [w] dulêvî û tengav e; nîv-vokal e.
-- Y [j] bandevî û tengav e; nîv-vokal e.
-- Y dikare wek herfa kelijandinê di navbera du vokalan de were.
-- Y li gor devokan dikare bimîne an bikeve.
-- Z [z] pidûyî-xişok-vizok û bilerz e.
-- Z-ya zirav û qelew di kurmancî de du fonemên cuda ne; di hin peyvan de wateyê diguherînin.
-
-## Çalakî û xwepirsîn
-
-**1.** V ji aliyê cihê derketinê, awayê derketinê û lerzê ve çawa tê danasîn?
-
-**2.** Di *van, evîn, şev* de V li kîjan cihê peyvê ye?
-
-**3.** Du nimûneyên guherîna B bi V re binivîse.
-
-**4.** Çima di *av/aw, çav/çaw, nav/naw* de têkiliya V û W tê dîtin?
-
-**5.** W û Y ji aliyê cihê derketinê ve çawa ji hev cuda ne?
-
-**6.** Y di *rojname-ya min* de çi erkê digire?
-
-**7.** Du cotên devokî yên ku Y di yek formê de heye û di ya din de ketiye binivîse.
-
-**8.** Z-ya zirav û Z-ya qelew fonem in an alofon? Bi coteke peyvê bersivê xwe piştrast bike.
-
-**9.** Di *di-lîz-in → lîs-t-in* de çi guherîna dengî çêdibe?
-
-**10.** Di *zanîn, zêr, ziyan* de kîjan dengê Z tê bikaranîn? Di *bez* de çima divê baldar bibî?
-
-## Bersivên kurt
-
-1. V lêvî-didanî-xişok û bilerz e; [v].
-2. *van*: destpêk; *evîn*: nav; *şev*: dawî.
-3. *bab → bav* û *ebd → evd*.
-4. Ji ber ku di hin peyvên soranî de W li hemberî V-ya kurmancî ye.
-5. W dulêvî ye; Y bandevî ye. Herdu jî tengav û nîv-vokal in.
-6. Y kelijandek e; di nivîsînê de rê li ber kombûna du vokalan digire.
-7. *yek/êk* û *ya/a*; herdu jî cudahiyên devokî ne.
-8. Du fonem in; *bez* bi Z-ya zirav û qelew du wateyên cuda hene.
-9. Z-ya bilerz di bin bandora T-ya bêlerz de dibe S: *lîz → lîst*.
-10. Di *zanîn* de Z-ya qelew; di *zêr* û *ziyan* de Z-ya zirav. Di *bez* de herdu away dikarin wateya cuda bidin.
-
-## Têbînî ji bo pêşxistinê
-
-Ev ders ji nû ve wek materyaleke fêrkarî hatiye rêxistin; ne kopîkirina PDF e. Guherînên B/P→V, M→V, V→B, erkên W û Y, û cudahiya fonemîk a Z-ya zirav/qelew li gor çavkaniyê hatine sererastkirin. Berî belavkirinê divê nimûneyên etîmolojîk û formên devokî ji aliyê pisporê dengnasiyê ve careke din bên nirxandin.
-
-
 ## Çavkanî
 
 Husein Muhammed, *Dengnasî di kurdî de*, rûpelên çapkirî 203–232.
@@ -2789,20 +1944,6 @@ Husein Muhammed, *Dengnasî di kurdî de*, rûpelên çapkirî 203–232.
 ---
 
 # Dersa 17 — Eyn, dengên K/G/Q û komên cotkonsonantî
-
-**Dem:** 45–55 deqîqe.
-
-## Armancên fêrbûnê
-
-Di dawiya dersê de xwendekar dikare:
-- dengê Eyn û cihên peydabûna wî di peyvan de rave bike;
-- K, G û Q ji aliyê cihê derketinê û lerza dengî ve ji hev cuda bike;
-- guherînên K/G/Q di peyvên xwemalî û deynkirî de nas bike;
-- rave bike ku cotkonsonant çi ye û di kîteyê de çawa xuya dike;
-- cudahiya komên li destpêk û dawiya kîteyê nas bike;
-- nimûneyên cotkonsonantên peyvên xwemalî, erebî û ewropî ji hev cuda bike;
-- çend komên sêkonsonantî nas bike;
-- nimûneyên peyvî li gor cihê komê analîz bike.
 
 ## 1. Dengê Eyn di kurmancî de
 
@@ -2963,81 +2104,6 @@ Mînak:
 - Di *heft* de **FT** li dawiya kîteyê ye.
 - Di *stran* de **STR** komeke sêkonsonantî ye.
 
-## Bîr bîne
-
-- Eyn dengekî konsonantîk e ku di hin peyvên erebî-wergirtî û hin peyvên ne-erebî de jî tê dîtin.
-- K, G û Q fonemên cuda ne; cihê derketina Q ji K û G paştir e.
-- Guherînên K/G/Q di peyvên deynkirî de divê bi şert û çavkaniya peyvê bên fêmkirin.
-- Cotkonsonant du konsonant in ku bê vokalekê li pey hev tên.
-- Cihê komê giring e: destpêka kîteyê, nav an dawiya wê.
-- Hemû kom di peyvên xwemalî, erebî û ewropî de bi heman awayî nayên dîtin.
-- *pênc, reng, germ, kurd* nimûneyên komên peyvên xwemalî ne.
-- *ebd, hecm, reqs, weqt* nimûneyên komên peyvên ji erebî wergirtî ne.
-- *blok, drama, gramer, krîstal* nimûneyên komên peyvên ji zimanên ewropî wergirtî ne.
-- *STR, YŞT, KST* sê komên sêkonsonantî ne ku çavkanî destnîşan dike.
-
-## Çalakî û xwepirsîn
-
-**1.** Eyn çi celeb dengek e? Çima em nikarin wê wek vokala E bihesibînin?
-
-**2.** Du nimûne bide ku Eyn di peyvên ji erebî wergirtî de hatiye parastin, û yek nimûne ku hatiye avêtin.
-
-**3.** Çima Eyn di kurmancî de tenê bi peyvên esil-erebî ve nayê girêdan?
-
-**4.** Cudahiya K, G û Q ji aliyê lerza perdeyên dengî û cihê derketinê ve rave bike.
-
-**5.** Cotkonsonant çi ye? Du nimûne binivîse.
-
-**6.** Di *reng, heft, krîz* de komên konsonantî li kîjan cihê peyvê ne?
-
-**7.** Ji bo her yekê nimûneyek binivîse: komeke xwemalî, komeke peyveke ji erebî wergirtî û komeke peyveke ji zimanekî ewropî wergirtî.
-
-**8.** Cudahî di navbera nîşanên **-BR-**, **-FT** û **KR-** de çi ye?
-
-**9.** Çima em nikarin hemû komên konsonantî wek taybetmendiya peyvên xwemalî bihesibînin?
-
-**10.** Sê komên sêkonsonantî yên ku çavkanî dide binivîse.
-
-**11.** Di *reqs/rexs* û *neqş/nexş* de çi guherîn tê dîtin?
-
-**12.** Di *heşt/heyşt* de cudahiya devokî çi ye?
-
-**1.** Cotkonsonant çi ye? Du nimûne binivîse.
-
-**2.** Di *reng, heft, krîz* de komên konsonantî li kîjan cihê peyvê ne?
-
-**3.** Ji bo her yekê nimûneyek binivîse: komeke xwemalî, komeke peyveke ji erebî wergirtî û komeke peyveke ji zimanekî ewropî wergirtî.
-
-**4.** Cudahî di navbera nîşanên **-BR-**, **-FT** û **KR-** de çi ye?
-
-**5.** Çima em nikarin hemû komên konsonantî wek taybetmendiya peyvên xwemalî bihesibînin?
-
-**6.** Sê komên sêkonsonantî yên ku çavkanî dide binivîse.
-
-**7.** Di *reqs/rexs* û *neqş/nexş* de çi guherîn tê dîtin?
-
-**8.** Di *heşt/heyşt* de cudahiya devokî çi ye?
-
-## Bersivên kurt
-
-1. Eyn konsonanteke xişoka qirrikî ya bilerz e, bi nîşana [ʕ]; ne vokala E ye.
-2. Parastin: *’alem* an *se’et*; avêtin: *’eqil → aqil*.
-3. Ji ber ku di peyvên wek *esman* û *ewr* de jî hatiye dîtin, û di hin peyvan de dikare were zêdekirin.
-4. K [k] bêlerz û banzimanî ye; G [g] bilerz û banzimanî ye; Q [q] bêlerz û paşbanzimanî/uvular e.
-5. Du konsonantên li pey hev bê vokalekê; mînak *reng* û *kurd*.
-6. *reng*: NG li dawiya kîteyê; *heft*: FT li dawiya kîteyê; *krîz*: KR li destpêka peyvê.
-7. Xwemalî: *pênc*; ji erebî: *hecm*; ji ewropî: *drama*.
-8. **-BR-** dikare li destpêk û dawiya kîteyê were; **-FT** tenê li dawiya kîteyê; **KR-** li destpêka peyvê.
-9. Ji ber ku hin kom tenê di peyvên ji erebî an zimanên ewropî wergirtî de tên dîtin.
-10. STR-, -YŞT û -KST.
-11. Di hin peyvên ji erebî wergirtî de QṢ/QŞ di kurmancî de dikarin bibin XS/XŞ.
-12. *heyşt* di hin devokan de ye; *heşt* forma berbelavtir e.
-
-## Têbînî ji bo pêşxistinê
-
-Ev ders ji beşa “Komên konsonantî di kurdî de” ya çavkaniyê, , hatiye nûdabeşkirin. Lîsteyên koman di pirtûkê de hin dubarekirin, formên devokî û guhertoyên rastnivîsînê hene; ji ber vê yekê nimûneyên dersê wek nimûneyên sereke hatine hilbijartin, ne wek lîsteyeke bêkêmasî. Berî belavkirinê divê cihê kîteyî, eslê peyvan û formên guhertî bi nivîsa çapkirî re bên kontrolkirin.
-
-
 ## Çavkanî
 
 Husein Muhammed, *Dengnasî di kurdî de*, rûpelên çapkirî 233–250.
@@ -3045,18 +2111,6 @@ Husein Muhammed, *Dengnasî di kurdî de*, rûpelên çapkirî 233–250.
 ---
 
 # Dersa 18 — Vokalên A û E
-
-**Dem:** 50–60 deqîqe.
-
-## Armancên fêrbûnê
-
-Di dawiya dersê de xwendekar dikare:
-- A û E ji aliyê cihê ziman, bilindahî û girovbûna lêvan ve cuda bike;
-- nîşanên IPA yên [ɑ] û [æ] nas bike;
-- cihê A û E di destpêk, nav û dawiya peyvan de bibîne;
-- guherînên dîrokî, devokî û çemandinê ji hev cuda bike;
-- nimûneyên A→Ê, A→E, E→I û guherînên din rave bike;
-- bandora çemandinê li ser vokalan û cudahiya nivîsîna standard û gotina devkî fêm bike.
 
 ## 1. A — vokala paşîn-vekirî
 
@@ -3240,56 +2294,6 @@ Di navên welat û parzemînan de jî cudahiya A/E di nivîsînê de heye: *Amer
 | Lêv | Ne-girovir | Ne-girovir |
 | Nimûne | *baran, aş, ba* | *ber, dev, te* |
 
-## Bîr bîne
-
-- A [ɑ] vokaleke paşîn, vekirî û ne-girovir e.
-- E [æ] vokaleke pêşîn, vekirî û ne-girovir e.
-- A û E li destpêk, nav û dawiya peyvan dikarin bên.
-- A li gor dîrok, devok û çemandinê dikare bibe Ê an E.
-- E di hin peyvan de bûye I; di hin rewşên din de bi A, Ê, Î an O re têkildar e.
-- Çemandin dikare dengê gotinê biguherîne, lê nivîsîna standard gelek caran forma xwerû diparêze.
-- Di peyvên ewropî de nivîsîna standard bi gelemperî E an A ya eslî diparêze.
-
-## Çalakî û xwepirsîn
-
-**1.** A û E ji aliyê cihê ziman ve çawa ji hev cuda ne?
-
-**2.** Nîşanên IPA yên A û E binivîse.
-
-**3.** Ji bo her dengê A û E sê peyv binivîse ku deng li destpêk, nav an dawiyê tê.
-
-**4.** Du nimûneyên guherîna dîrokî ya A→Ê binivîse.
-
-**5.** Du nimûneyên guherîna devokî ya A→E binivîse.
-
-**6.** Di *çandin → di-çîn-im* de çi guherîn çêdibe?
-
-**7.** Di *mase → li ser masê* de cudahiya nivîsîna standard û gotina devkî çi ye?
-
-**8.** Du nimûneyên guherîna E→I binivîse.
-
-**9.** Di *wê/wî/wan* de E ya destpêkê çi bûye?
-
-**10.** Çima di peyvên wergirtî yên ewropî de nivîsîna E-ya standard tê parastin?
-
-## Bersivên kurt
-
-1. A paşîn e; E pêşîn e. Herdu jî vekirî û ne-girovir in.
-2. A [ɑ], E [æ].
-3. A: *agir, baran, ba*. E: *ew, dev, te*.
-4. *hêk/hak* û *kêr/kard*.
-5. *dîsa/dîse* û *xwandin/xwendin*.
-6. A ya rehê lêkerê di çemandina niha de dibe Ê.
-7. Nivîsîna standard *mase-y-ê* diparêze; di gotina devkî de gelek caran *masê* tê gotin.
-8. *bihar/behar* û *kirin/kerden* di berawirdkirina zimanî de.
-9. E ya destpêkê ketiye; formên dirêj *ewê, ewî, ewan* bûn.
-10. Ji ber ku çavkaniya peyvan herfa A an E diparêze û standarda nivîsînê divê bi eslê nivîskî re lihevhatî be.
-
-## Têbînî ji bo pêşxistinê
-
-Ev ders ji beşa A û E ya çavkaniyê, , hatiye nûdabeşkirin. Hin nimûneyên etîmolojîk, formên devokî û cudahiyên çemandinê di pirtûkê de bi şîroveya zêdetir hatine pêşkêşkirin; berî belavkirinê divê bi nivîsa çapkirî û bi pisporê kurmancî re bên kontrolkirin. Nîşanên IPA yên [ɑ] û [æ] li gor danasîna çavkaniyê hatine bikaranîn.
-
-
 ## Çavkanî
 
 Husein Muhammed, *Dengnasî di kurdî de*, rûpelên çapkirî 252–269.
@@ -3297,18 +2301,6 @@ Husein Muhammed, *Dengnasî di kurdî de*, rûpelên çapkirî 252–269.
 ---
 
 # Dersa 19 — Vokalên Ê, I û Î
-
-**Dem:** 60–70 deqîqe.
-
-## Armancên fêrbûnê
-
-Di dawiya dersê de xwendekar dikare:
-- dengên Ê [e], I [ɪ] û Î [i] nas bike û ji hev cuda bike;
-- dirêjahî û cihê her vokalekê di devê de rave bike;
-- cihê wan di destpêk, nav û dawiya peyvan de bibîne;
-- guherînên dîrokî, devokî û çemandinê nas bike;
-- cudahiya nivîsîna standard û gotina devkî di çend nimûneyan de rave bike;
-- rêzikên nivîsîna I/Î berî Y û di peyvên wergirtî de fêm bike.
 
 ## 1. Ê — vokala pêşîn û nîvbilind
 
@@ -3543,62 +2535,6 @@ Di kîteya dawiyê de dirêjahiya dengê I dikare bi Î were nîşandan: *statis
 | Lêv | Ne-girovir | Ne-girovir | Ne-girovir |
 | Nimûne | *dêr, hêk* | *kirin, bizin* | *mîr, birîn* |
 
-## Bîr bîne
-
-- Ê [e] vokaleke pêşîn, nîvbilind û dirêj e.
-- I [ɪ] vokaleke pêşîn û kurt e.
-- Î [i] vokaleke pêşîn, bilind û dirêj e.
-- Ê gelek caran di encama çemandin û girêdanê de derdikeve.
-- I dikare di axaftinê de were zêdekirin an jê were rakirin bê ku nivîsîn biguhere.
-- Î di çemandinê de û di hin guherînên dîrokî û devokî de berbelav e.
-- Di nivîsîna standard de I û Î divê li gor deng û rêzikên nivîsînê bên cudakirin; Î berî Y di gelek peyvan de dibe I.
-
-## Çalakî û xwepirsîn
-
-**1.** Ê, I û Î bi nîşanên IPA binivîse.
-
-**2.** Kîjan ji van vokalan kurt e? Kîjan dirêj in?
-
-**3.** Ji bo her vokalekê du nimûne binivîse.
-
-**4.** Du nimûneyên Ê yê ku ji ber çemandinê derdikeve binivîse.
-
-**5.** Di *mase → mase-y-ê / masê* de cudahiya nivîsîn û axaftinê rave bike.
-
-**6.** Çima I ya kurdî ne wek [ɯ] ya tirkî ye?
-
-**7.** Çawa I di gotina *germ* de dikare bê nivîsîn were zêdekirin?
-
-**8.** Du nimûneyên guherîna devokî ya Î binivîse.
-
-**9.** Di *xanî/xanû* de çi cudahiya dengî heye?
-
-**10.** Çima di peyvên wergirtî de divê Î li destpêka peyvê bê sedem neyê zêdekirin?
-
-**11.** Formên standard binivîse: *dîyar/jiyan/kirîye* an *diyar/jiyan/kiriye*.
-
-**12.** Di *tu hatî* de çima Î-ya din nayê zêdekirin?
-
-## Bersivên kurt
-
-1. Ê [e], I [ɪ], Î [i].
-2. I kurt e; Ê û Î dirêj in.
-3. Ê: *dêr, hêk*. I: *kirin, bizin*. Î: *mîr, birîn*.
-4. *bijartin → di-bijêr-im* û *çandin → di-çîn-im*.
-5. Nivîsîna standard vokala E û Y-ya girêdanê diparêze; di gotina devkî de Ê dikare cihê E bigire.
-6. [ɯ] ya tirkî paşîn e, I-ya kurdî pêşîn e.
-7. Di gotina serbixwe de *germ* dikare wek *ge-rim* were gotin; I di nivîsînê de nayê zêdekirin.
-8. *xanî/xanû* û *bûk/bîk*.
-9. Di kurmancî de Î heye, di soranî de Û.
-10. Ji ber ku kurmancî dikare komên konsonantan di destpêka peyvê de bê vokala zêde gotin.
-11. *diyar, jiyan, kiriye*.
-12. Rehê lêkerê xwe Î-ya xwe heye; zêdekirina Î-ya din ne pêwîst e.
-
-## Têbînî ji bo pêşxistinê
-
-Ev ders ji beşa vokalên Ê, I û Î ya çavkaniyê, , hatiye nûdabeşkirin. Hin nimûneyên etîmolojîk, cudahiyên devokî û formên çemandinê divê berî belavkirinê bi nivîsa çapkirî û pisporê kurmancî re bên kontrolkirin. Nîşanên IPA li gor danasîna çavkaniyê hatine bikaranîn.
-
-
 ## Çavkanî
 
 Husein Muhammed, *Dengnasî di kurdî de*, rûpelên çapkirî 270–297.
@@ -3606,18 +2542,6 @@ Husein Muhammed, *Dengnasî di kurdî de*, rûpelên çapkirî 270–297.
 ---
 
 # Dersa 20 — Vokalên O, U û Û
-
-**Dem:** 60–70 deqîqe.
-
-## Armancên fêrbûnê
-
-Di dawiya dersê de xwendekar dikare:
-- O [o], U [ʊ] û Û [uː] ji hev cuda bike;
-- girovkirina lêvan û cihê ziman di derxistina van vokalan de rave bike;
-- cihê wan di destpêk, nav û dawiya peyvan de bibîne;
-- guherînên dîrokî û devokî yên O û U nas bike;
-- bandora çemandinê li ser O û U rave bike;
-- guherîna devokî ya Û bi Ü [yː] û nivîsîna yekgirtî ya standard fêm bike.
 
 ## 1. O — vokala paşîn, nîvbilind û girovir
 
@@ -3818,56 +2742,6 @@ Di ferheng û pirtûkên dengnasiyê de dikare bilêvkirina her devokê bi awaye
 
 **Têbînî:** Di hin devokan de Û wek Ü [yː] tê gotin; ev guherîna bilêvkirinê ye, ne pêdiviya guherandina nivîsîna standard.
 
-## Bîr bîne
-
-- O [o] vokaleke paşîn, nîvbilind, girovir û dirêj e.
-- U [ʊ] vokaleke paşîn, bilind, girovir û kurt e.
-- Û [uː] vokaleke paşîn, bilind, girovir û dirêj e.
-- O di peyvên xwemalî de li destpêkê kêm e û di gazîkirinê de li dawiya peyvê tê.
-- U di gelek peyvan de bi I re varyant dike, lê piştî G, K, Q û X divê bi hişyarî were guhertin.
-- Û di hin devokan de dibe Ü/WÎ an Î.
-- Di nivîsîna standard de Û tê parastin, tevî ku bilêvkirin li gor devokê diguhere.
-
-## Çalakî û xwepirsîn
-
-**1.** Nîşanên IPA yên O, U û Û binivîse.
-
-**2.** Kîjan ji van vokalan kurt e? Kîjan dirêj in?
-
-**3.** Ji bo her vokalekê sê nimûne binivîse.
-
-**4.** Di *dor, xox, lome* de O ji kîjan komdengan hatiye?
-
-**5.** Çima O li dawiya peyvên xwemalî kêm e, lê di *hevalo!* de heye?
-
-**6.** Du cotên peyvên ku U û I di wan de varyant in binivîse.
-
-**7.** Çima *kul/kil* û *qumar/qimar* nayên wek hev formên standard hesibandin?
-
-**8.** Û di hin devokên Behdînan de çawa tê gotin û nivîsîn?
-
-**9.** Di *bûk/bwîk/bîk* de sê qonaxên bilêvkirinê rave bike.
-
-**10.** Çima nivîsîna standard Û diparêze, tevî ku hin devok Ü dibêjin?
-
-## Bersivên kurt
-
-1. O [o], U [ʊ], Û [uː].
-2. U kurt e; O û Û dirêj in.
-3. O: *dor, lome, gelo*. U: *guh, kurd, quling*. Û: *bûk, dûr, çûn*.
-4. Ji komdengên EW/WE û di hin peyvan de ji AW.
-5. Ji ber ku O di peyvên xwemalî de li dawiyê kêm e; forma gazîkirinê dikare paşpirtika O bistîne.
-6. *dukan/dikan* û *bulbul/bilbil*.
-7. Ji ber ku guherîna U→I dikare maneya peyvê biguherîne; U piştî G/K/Q/X gelek caran tê parastin.
-8. Di hin deveran de dibe Ü [yː] an UÎ/WÎ; di nivîsînê de Û tê parastin.
-9. Forma standard *bûk* e; di hin devokan de *bwîk* tê gotin û li hin deveran dibe *bîk*.
-10. Ji bo yekgirtîbûna nivîsînê û nêzîkkirina xwendina devokên cuda.
-
-## Têbînî ji bo pêşxistinê
-
-Ev ders ji beşa O, U û Û ya çavkaniyê, , hatiye nûdabeşkirin. Hin nimûneyên etîmolojîk, bilêvkirinên devokî û berawirdkirinên dîrokî divê berî belavkirinê bi nivîsa çapkirî û pisporê dengnasiyê re bên kontrolkirin. Di çavkaniyê de hin sernav û nimûne bi awayekî şaş an na yekgirtî xuya dibin; di vê dersê de mijar li gor navê vokal û naveroka beşê hatine rêkxistin. Nîşanên IPA li gor danasîna çavkaniyê hatine bikaranîn.
-
-
 ## Çavkanî
 
 Husein Muhammed, *Dengnasî di kurdî de*, rûpelên çapkirî 298–314.
@@ -3875,19 +2749,6 @@ Husein Muhammed, *Dengnasî di kurdî de*, rûpelên çapkirî 298–314.
 ---
 
 # Dersa 21 — Dîftong û giranî di dengnasiya kurdî de
-
-**Dem:** 70–80 deqîqe.
-
-## Armancên fêrbûnê
-
-Di dawiya dersê de xwendekar dikare:
-- dîftongê ji du vokalên ku di du kîteyên cuda de ne cuda bike;
-- dîftongên hilkev û dakev rave bike;
-- rola W û Y di dîftongan de nas bike;
-- cudahiya rastnivîsîn û rastgotinê di komdengên XW de rave bike;
-- giranî (stress) û cihê wê di peyvê de diyar bike;
-- giraniya navdêr, rengdêr, cînav, hoker û lêkeran bi nimûne rave bike;
-- bizane ku guherîna giranî dikare wate an erkê rêzimanî biguherîne.
 
 ## Beşa yekem: Dîftong
 
@@ -4204,63 +3065,6 @@ Ev nimûne nîşan didin ku giranî dikare cudahiya navbera navdêr, rengdêr, d
 | Giranî ya rader | Li kîteya dawiyê | *ha-TIN* |
 | Giranî ya pêşpirtika neyînî | Pêşpirtik giran e | *NAçim, NEhat* |
 
-## Bîr bîne
-
-- Dîftong du dengên vokalî ye ku di heman kîteyê de bi hev re tên gotin.
-- Du vokalên li pey hev her tim dîftong çênakin; dibe ku her yek li kîteyeke cuda be.
-- W û Y li gor peyv û devok dikarin nîvvokal, konsonant an beşeke dîftongê bin.
-- Di komdengên XW + vokal de W di gelek rewşan de dengê U dide.
-- Giranî şidandina kîteyekê ye û di kurdî de dikare wate an erkê rêzimanî biguherîne.
-- Navdêr û rengdêr bi gelemperî giranî li kîteya dawiyê digirin.
-- Hoker û daçekên giştî gelek caran li ser kîteya yekem giran in.
-- Di raderê de giranî li kîteya dawiyê ye; lê pêşpirtikên *na-, ne-, me-, ni-* û *bi-* giran in.
-- Di peyvên pêkhatî de giraniya sereke bi gelemperî li ser beşa dawiyê ye.
-
-## Çalakî û xwepirsîn
-
-**1.** Dîftong bi gotinên xwe rave bike. Du vokalên li pey hev kengî dîftong çênakin?
-
-**2.** Dîftongên hilkev û dakev ji hev cuda bike.
-
-**3.** Rastgotina *xwar, xweş, xwê, xwîn* binivîse û dîftonga her yekê nîşan bide.
-
-**4.** Çima W di *xwar* de bi X re dimîne?
-
-**5.** Di *saet, dua, biavêje* de çima vokalên li pey hev dîftong nînin?
-
-**6.** Giranî çi ye û çima di kurdî de giring e?
-
-**7.** Cihê giranî di navdêrên neçemandî de bi gelemperî li ku ye?
-
-**8.** Cudahiyê di navbera paşpirtikên çemandinê û paşpirtikên peyvsaz de ji aliyê giranî ve rave bike.
-
-**9.** Di navbera *hatin* wek rader û *hatin* wek forma borî ya pirhejmar de çi cudahî heye?
-
-**10.** Wate û erkê van cotan bi giranî cuda bike: *piştî/ piştî* û *başî/baş î*.
-
-**11.** Kîjan pêşpirtikên lêkeran giran in? Kîjan pêşpirtik bêgiran e?
-
-**12.** Di peyva pêkhatî de giraniya sereke bi gelemperî li ser kîjan beşê ye?
-
-## Bersivên kurt
-
-1. Dîftong du dengên vokalî ye di heman kîteyê de. Eger her vokal li kîteyeke cuda be, dîftong nîne.
-2. Hilkev bi W/Y dest pê dike; dakev bi vokalê dest pê dike.
-3. *xuar (ua), xueş (ue), xuê (uê), xuîn (uî)*.
-4. Ji ber ku W di vê komdengê de nîşana dengê U ye û bi vokala piştî xwe re dîftong çêdike.
-5. Ji ber ku her vokal a kîteyeke cuda ye.
-6. Giranî şidandina kîteyekê ye; dikare wate an erkê rêzimanî biguherîne.
-7. Bi gelemperî li ser kîteya dawiyê.
-8. Paşpirtikên çemandinê bi gelemperî bêgiranî ne; paşpirtikên peyvsaz dikarin giran bin.
-9. Di raderê de giranî li ser kîteya dawiyê ye; di forma borî ya pirhejmar de giranî li ser kîteya pêşiyê ye.
-10. *piştî* wek daçek li kîteya yekem giran e; wek navdêr li kîteya dawiyê. *başî* dikare qencî be, lê *baş î* hevoka “tu baş î” ye.
-11. *na-, ne-, me-, ni-* û *bi-* giran in; *di-* ya dewamiyê bêgiran e.
-12. Li ser beşa dawiyê ya peyva pêkhatî.
-
-## Têbînî ji bo pêşxistinê
-
-Ev ders ji nû ve wek materyaleke fêrkarî hatiye rêkxistin. Di beşa dîftongan de hin mijarên W/Y li gor devok û şîroveya dengnasî dikarin cihê nîqaşê bin. Di beşa giranî de jî nimûneyên cihê giranî di gotina rastîn de divê bi bilêvkirina devokên armanc re bên kontrolkirin. Pêşî li ser rastnivîsîn, kîtekirin û cudahiya formên rêzimanî piştrast bibin; paşê ders ji aliyê pisporê kurmancî û dengnasiyê ve were pejirandin. Ev nivîs drafta fêrkarî ye, ne veguheztina PDF bo nav botê.
-
 ## Çavkanî
 
 Husein Muhammed, *Dengnasî di kurdî de*, beşa dîftong û giranî.
@@ -4268,17 +3072,6 @@ Husein Muhammed, *Dengnasî di kurdî de*, beşa dîftong û giranî.
 ---
 
 # Dersa 22 — Nasandina KL û KE û cudahiyên herdu alfabeyan
-
-**Dem:** 50–60 deqîqe.
-
-## Armancên fêrbûnê
-
-Di dawiya dersê de xwendekar dikare:
-- KL û KE wek du awayên nivîsandina kurdî nas bike;
-- cudahiyên wan di rêça nivîsînê, hejmar û şêweya herfan de rave bike;
-- cudahiya tîp, deng û bilêvkirinê fêm bike;
-- têgehên hevdeng, hevnivîs, hevwate û hevreh ji hev cuda bike;
-- nîqaşa zêdekirina herfên nû bi awayekî bêpêşhukimî şîrove bike.
 
 ## 1. Du alfabeyên ku ji bo kurdî tên bikaranîn
 
@@ -4362,45 +3155,6 @@ Di beşa dawiyê de çavkaniyê hin guherînên dengî di navbera kurmancî û f
 
 Ev berawirdkirin divê wek rêzikên dîrokî bên fêmkirin, ne wek rêbazeke ku her peyvekê bê îstîsna pêşbînî bike. Çavkaniyê herwiha cudahiyên dengî yên wek B/V, D/Z, E/I, M/V, X/H/K û Z/J bi nimûne rave dike.
 
-## Bîr bîne
-
-- KL û KE du alfabeyên standard ên kurdî ne; yek bi rêça latînî û ya din bi rêça erebî tê nivîsîn.
-- KL 31 herf heye; KE 33 an 34 nîşan, li gorî awayê hesibandinê.
-- Hevdeng peyvên bi dengê wek hev û wateya cuda ne; hevnivîs peyvên bi nivîsîna wek hev in.
-- Hevwate peyvên bi wateyên nêzîk in; hevreh peyvên ji heman rehê dîrokî ne.
-- Her cudahiya bilêvkirinê ne pêdivî ye ku bi herfeke nû were nivîsîn.
-- Kontekst, hevok û ferheng di fêmkirina bilêvkirin û wateyê de girîng in.
-
-## Çalakî û xwepirsîn
-
-**1.** KL û KE bi du taybetmendiyan ji hev cuda bike.
-
-**2.** Çima nayê gotin ku KL tenê alfabeya kurmancî ye û KE tenê ya soranî ye?
-
-**3.** Hevdeng û hevnivîs bi nimûneyên *bar* û *pir* rave bike.
-
-**4.** Cudahiyên navbera hevwate û hevreh çi ne?
-
-**5.** Çima zêdekirina herfên nû ji bo hemû varyantên dengî dikare nivîsînê dijwartir bike?
-
-**6.** Peyvên *zava/damad* çi nîşan didin?
-
-**7.** Rola kontekstê di xwendina peyvên hevnivîs de rave bike.
-
-## Bersivên kurt
-
-1. KL ji çepê bo rastê ye û 31 herf heye; KE ji rastê bo çepê ye û 33 an 34 nîşan heye.
-2. Ji ber ku herdu alfabe dikarin ji bo zaravên cuda bên bikaranîn; kurmancî bi KE û soranî bi KL jî tê nivîsîn.
-3. *Bar* dikare tiştê hilgirtinê an meyxane be; *pir* dikare rêya ser avê an wateya gelek be û bilêvkirina R-yê jî cuda dibe.
-4. Hevwate li ser nêzîkbûna wateyê ye; hevreh li ser heman rehê dîrokî ye.
-5. Ji ber ku zêdekirina herfan hejmar û giraniya rêzikên rastnivîsînê zêde dike û cudahiyên devokî dikarin ne di hemû zaravayan de hebin.
-6. Ew nîşan didin ku peyvên ji heman rehê dikarin di zimanên nêzîk de bi guherînên dengî yên rêkûpêk cuda bibin.
-7. Kontekst û hevoka tevahî alîkar in ku xwîner wateya rast û bilêvkirina peyvê nas bike.
-
-## Têbînî ji bo pêşxistinê
-
-Ev ders ji nû ve wek materyaleke fêrkarî hatiye rêkxistin. Berî belavkirinê divê hejmar û nîşanên herfên KE, nimûneyên hevdeng/hevnivîs, û hemû berawirdkirinên etîmolojîk bi çavkaniya çapkirî û pisporê kurmancî re bên kontrolkirin. Nêrîna nivîskar li ser pêşniyarên herfên nû wek nêrîneke çavkaniyê hatiye pêşkêşkirin; divê wek rêzikeke bê nîqaş neyê xwendin. Ev ders pêşnûse û hîn ne ji bo xwendekaran çalak e.
-
 ## Çavkanî
 
 Husein Muhammed, *Dengnasî di kurdî de*, rûpelên çapkirî 348–372.
@@ -4408,17 +3162,6 @@ Husein Muhammed, *Dengnasî di kurdî de*, rûpelên çapkirî 348–372.
 ---
 
 # Dersa 23 — Cudahiyên dengnasî di navbera kurmancî û soranî de
-
-**Dem:** 60–75 deqîqe.
-
-## Armancên fêrbûnê
-
-Di dawiya dersê de xwendekar dikare:
-- cudahiyên peyvî, teşenasî û dengnasî ji hev cuda bike;
-- cudahiyên dengnasî di navbera kurmancî û soranî de bi nimûne rave bike;
-- guherînên V/W/M û R/RD nas bike;
-- bandora komdengên destpêkî, pifdarî û dengên H, L, Î/Ê û Û/WÊ şîrove bike;
-- cudahiyên standard û devokî ji hev cuda bike û ji gelemperîkirina zêde dûr bike.
 
 ## 1. Cudahiyên navbera zaravayan
 
@@ -4630,57 +3373,6 @@ Di gelek devokên soranî de, gava Ê an WÊ li pey G bikeve, G dikare wek [c] w
 
 Çavkaniyê dibêje ku ev diyardeya niha di kurmancî de nayê dîtin, lê di dîroka zimanên îranî de guherînên nêzîk qewimîne. Mînakeke dîrokî ya wê peyva *çi/çî* ye ku bi peyva *kî/kê* re têkiliya rehî heye.
 
-## Bîr bîne
-
-- Cudahiyên navbera zaravayan dikarin peyvî, teşenasî an dengnasî bin.
-- Nimûneyên berawirdkirinê formên serdest in; ne her devok bi wan re yek e.
-- Di gelek peyvên xwemalî de V ya kurmancî li hember W an M ya soranî ye.
-- Di hin peyvan de RD ya soranî li hember R ya kurmancî ye.
-- Soranî bi gelemperî li destpêka peyvê komdengên wek ST bi E-ya pêşîn vediguherîne.
-- Pifdarî ya Ç, K, P û T di destpêka peyvê de di herdu zaravayan de wek hev nîne.
-- H, I/E, Î/Ê, L/Ł, Û/WÊ û XWE-/XO- jî cudahiyên girîng in.
-- Ev cudahî ne pîvaneke başî an rastiya zaravayan e; her zarav xwedî pergala xwe ye.
-
-## Çalakî û xwepirsîn
-
-**1.** Cudahiyên peyvî, teşenasî û dengnasî bi nimûneyên dersê rave bike.
-
-**2.** Di cotên *çav/çaw*, *nav/naw* û *dev/dem* de çi guherîn tê dîtin?
-
-**3.** Çima di *birin/birdin* de nayê gotin ku D di soranî de her dem zêde dibe?
-
-**4.** Soranî li destpêka peyva bi ST çi dike? Du nimûne binivîse.
-
-**5.** Cudahiyên pifdarî ya Ç di *çar* û *çav* de rave bike.
-
-**6.** H ya dawî di kurmancî û soranî de çawa cuda ye?
-
-**7.** Di cotên *bi/be*, *Îran/Êran* û *diçîne/deçênê* de cudahiya dengî çi ye?
-
-**8.** L û Ł di soranî de çi cudahî nîşan didin?
-
-**9.** Di cotên *guh/gwê* û *xweş/xoş* de guherîna dengî rave bike.
-
-**10.** Çima divê nimûneyên dersê wek rêzikên bêîstîsna neyên girtin?
-
-## Bersivên kurt
-
-1. Peyvî: *niha/êsta*; teşenasî: *kitêbên min/kitêbekanim*; dengnasî: *çav/çaw*.
-2. V ya kurmancî di soranî de gelek caran W û carinan M dibe.
-3. Ji ber ku di hin peyvan de D di dîrokê de ji RT maye, lê di gelek peyvên din de di herdu zaravayan de D tune ye.
-4. Gelek caran E li pêş ST tê zêdekirin: *stêr/estêre*, *stûr/estûr*.
-5. Di kurmancî de Ç ya *çar* bipif û ya *çav* bêpif e; di soranî de Ç ya *çaw* jî bipif e.
-6. H ya wek di *heval* de dikare li dawiya peyva kurmancî were, lê di soranî de bi gelemperî nayê.
-7. Kurmancî I li hember E ya soranî ye; Î gelek caran li hember Ê ye; di paşgira lêkerê de E ya kurmancî li hember Ê ya soranî ye.
-8. L zirav û Ł qelew in; di soranî de dikarin wate û cudahiya peyvan nîşan bidin.
-9. Û ya kurmancî di hin cihên soranî de bûye WÊ; XWE- ya kurmancî jî di hin peyvan de li hember XO- ya soranî ye.
-10. Ji ber ku devok û dever dikarin cuda bin; nivîskar nimûneyên serdest dide, ne hemû awayên gengaz.
-
-## Têbînî ji bo pêşxistinê
-
-Ev ders ji nû ve wek materyaleke fêrkarî hatiye rêkxistin. Berî belavkirinê divê hemû nimûneyên soranî bi standarda nivîskî û devokên ku çavkaniyê behs dike re werin kontrolkirin. Nîşanên dengnasî, pifdarî, formên dîrokî, L/Ł û guherînên Î/Ê û Û/WÊ divê bi pisporê herdu zaravayan re bên piştrastkirin. Ev pêşnûseke fêrkarî ye, ne kopiyeke PDF-ê û hîn ne ji bo xwendekaran çalak e.
-
-
 ## Çavkanî
 
 Husein Muhammed, *Dengnasî di kurdî de*, rûpelên çapkirî 373–386.
@@ -4688,18 +3380,6 @@ Husein Muhammed, *Dengnasî di kurdî de*, rûpelên çapkirî 373–386.
 ---
 
 # Dersa 24 — Cudahiyên dengnasî di navbera kurmancî û kurdiya başûrî de
-
-**Dem:** 55–65 deqîqe.
-
-## Armancên fêrbûnê
-
-Di dawiya dersê de xwendekar dikare:
-- mebesta têgeha "kurdiya başûrî" di vê berawirdkirinê de rave bike;
-- cudahiyên sereke yên dengî di navbera kurmancî û kurdiya başûrî de bi nimûne nîşan bide;
-- guherînên B/W, V/W/M, Û/Ü/Î û O/Û nas bike;
-- cudahiyên RD/R, L/Ł, pifdarî û komdenga ST şîrove bike;
-- guherînên A/EH→YE, NG→Ň û XWE-/XO- nas bike;
-- nimûneyên çavkaniyê ji bo hemû devokan wek rêzikên bêîstîsna negire.
 
 ## 1. "Kurdiya başûrî" di vê dersê de çi ye?
 
@@ -4847,59 +3527,6 @@ Kurdiya başûrî, wek kurmancî, komdenga XWE- an XUE- qebûl dike. Di soranî 
 
 Li gorî şîroveya dîrokî ya çavkaniyê, formê kevntir XWE- bûye û di soranî de guheriye XO-.
 
-## Bîr bîne
-
-- "Kurdiya başûrî" di vê dersê de navê komeke devokan e, ne navê hemû kurdên Başûrê Kurdistanê.
-- Di gelek peyvan de B ya kurmancî li hember W ya başûrî ye.
-- V ya kurmancî di başûrî de bi gelemperî W, carinan M, dide.
-- Û dikare di başûrî de bibe Ü an Î; O jî di gelek nimûneyan de bûye Û.
-- Başûrî di gelek peyvan de RD diparêze, lê kurmancî D-ê winda kiriye.
-- Di gelek devokên başûrî de L-ya qelew Ł heye.
-- Ç, K, P û T li destpêka peyvê bi gelemperî bipif in.
-- ST li destpêkê dikare bibe S an ES/HES; di nav û dawiya peyvê de jî gelek caran dibe S.
-- A/EH dikare bibe YE; NG dikare bibe Ň; XWE- di başûrî de dimîne, lê di soranî de XO- heye.
-- Cudahiyên devokî hene; nimûneyên dersê divê bi awayekî giştî û bê îstîsna neyên sepandin.
-
-## Çalakî û xwepirsîn
-
-**1.** Bi gotinên xwe rave bike ku "kurdiya başûrî" di vê dersê de çi wateyê dide û çi wateyê nade.
-
-**2.** Di cotên *baran/waran*, *kitêb/kitaw* û *xirab/xiraw* de çi guherîn heye?
-
-**3.** Li gorî nimûneyên dersê, V ya kurmancî di başûrî de bi kîjan dengên din tê nîşandan?
-
-**4.** Cudahiyên Û/Ü/Î û O/Û bi nimûneyên dersê rave bike.
-
-**5.** Çima *birdin/birin* û *kirdin/kirin* ji bo nîşandana RD/R girîng in?
-
-**6.** L û Ł di gelek devokên başûrî de çawa tên berawirdkirin? Kîjan deverên ku çavkaniyê behs dike dikarin Ł nebêjin?
-
-**7.** Pifdariya Ç, K, P û T di destpêka peyvê de di başûrî de çawa ye?
-
-**8.** ST ya destpêkî di başûrî de çi dikare bibe? Nimûneyek binivîse.
-
-**9.** Guherînên A/EH→YE û NG→Ň bi cotên nimûneyan rave bike.
-
-**10.** Cudahiyên XWE- û XO- di navbera kurmancî, başûrî û soranî de çi ne?
-
-## Bersivên kurt
-
-1. Navê komeke devokên wek feylî, kelhurî û kirmaşanî ye; ne navê hemû zarav û devokên Başûrê Kurdistanê ye.
-2. B ya kurmancî di başûrî de W dibe.
-3. Bi gelemperî W; di hin deveran de M jî heye.
-4. Û dikare bibe Ü an Î; O di nimûneyên başûrî de gelek caran Û dibe.
-5. Di başûrî û soranî de D parastiye, lê di kurmancî de ji koma RD ketiye.
-6. Gelek caran L ya kurmancî li hember Ł ya başûrî ye; li Kirmaşan û Mendelî hin devok L diparêzin.
-7. Li destpêka peyvê bi gelemperî bipif in; li nav û dawiya peyvê gelek caran bêpif in.
-8. Dikare bibe S an ES/HES; mînak *stêr/hesare*.
-9. *kanî/kyenî* û *deng/deŋ*.
-10. Kurmancî û başûrî XWE- diparêzin; soranî di hin formên berawirdkirî de XO- bi kar tîne.
-
-## Têbînî ji bo pêşxistinê
-
-Ev ders ji nû ve wek materyaleke fêrkarî hatiye rêkxistin. Berî belavkirinê divê nimûneyên feylî, kelhurî û kirmaşanî, nîşanên dengnasî yên Ü/Î/Ň/Ł, û şîroveyên dîrokî bi pisporên devokên başûrî re bên kontrolkirin. Çavkaniyê gelek caran "piraniya devokan" dibêje; ji ber vê yekê ev taybetmendî wek rêzikên bêîstîsna nayên pêşkêşkirin. Ev pêşnûse û hîn ne ji bo xwendekaran çalak e.
-
-
 ## Çavkanî
 
 Husein Muhammed, *Dengnasî di kurdî de*, rûpelên çapkirî 387–393.
@@ -4907,17 +3534,6 @@ Husein Muhammed, *Dengnasî di kurdî de*, rûpelên çapkirî 387–393.
 ---
 
 # Dersa 25 — Cudahiyên dengnasî di navbera kurmancî û zazakî de
-
-**Dem:** 55–65 deqîqe.
-
-## Armancên fêrbûnê
-
-Di dawiya dersê de xwendekar dikare:
-- cudahiya di navbera hebûna dengan û bikaranîna wan di peyvên hevreh de rave bike;
-- guherînên B/V, V/M/W, RD/R û E/I nas bike;
-- cudahiya XW/W, J/C, G/V û H/Ø, H/S, ST-/EST-/AST- şîrove bike;
-- guherînên Î/Ê û A, herwiha H/Ş, K/H û S/Ş bi nimûne nîşan bide;
-- nimûneyên çavkaniyê wek rêzikên bêîstîsna ji bo hemû devokên zazakî bi kar neyne.
 
 ## 1. Dengên hevpar, bikaranîna cuda
 
@@ -5095,63 +3711,6 @@ Herwiha di hin peyvan de li cihê S ya kurmancî di zazakî de Ş heye.
 
 Ev guherînên dawî bi hejmareke kêm nimûneyan tên nîşandan û divê bi awayekî sînordar bên fêmkirin.
 
-## Bîr bîne
-
-- Kurmancî û zazakî gelek dengên hevpar hene, lê bikaranîna wan di peyvên hevreh de dikare cuda be.
-- B ya kurmancî di gelek peyvên destpêkî de li hember V ya zazakî ye.
-- V ya kurmancî li nav û dawiya peyvan dikare li hember M an W ya zazakî be.
-- Zazakî di gelek peyvan de RD diparêze; kurmancî D-ê ji vê komê davêje.
-- E ya zazakî li hember I ya kurmancî ye.
-- XW ya kurmancî di gelek peyvan de li hember W ya zazakî ye, lê *xwe* îstîsnayek e.
-- J/C, G/V, H/Ø, H/S, ST-/EST-/AST-, Î/Ê/A, H/Ş, K/H û S/Ş jî di hin komên peyvan de têne dîtin.
-- Gelek guherîn bi hejmareke sînordar ya peyvan ve girêdayî ne; divê wek rêzikên bê îstîsna neyên fêmkirin.
-
-## Çalakî û xwepirsîn
-
-**1.** Çima hebûna dengên hevpar di kurmancî û zazakî de nayê wê wateyê ku bikaranîna wan jî wek hev be?
-
-**2.** Guherîna B/V bi çar nimûneyên dersê rave bike.
-
-**3.** Di cotên *nav/name* û *şev/şew* de çi cudahiya dîrokî heye?
-
-**4.** RD di zazakî de çawa tê parastin? Du cotên peyvan binivîse.
-
-**5.** E ya zazakî li hember kîjan dengê kurmancî ye? Sê nimûne bide.
-
-**6.** Çima *xwe* wek îstîsnayeke girîng ji rêzika XW/W tê hesibandin?
-
-**7.** J/C bi sê nimûneyan rave bike.
-
-**8.** H ya kurmancî di zazakî de dikare çi bibe? Nimûneyên H/Ø û H/S bide.
-
-**9.** ST- ya destpêkî di zazakî de çawa tê guherandin?
-
-**10.** Î/Ê ya kurmancî di rehê hin lêkeran de li hember kîjan dengê zazakî ye?
-
-**11.** Ji bo H/Ş, K/H û S/Ş yek nimûne ji dersê hilbijêre.
-
-**12.** Kîjan ji guherînên dersê bi hejmareke sînordar ya peyvan ve girêdayî ne? Çima divê bi ehtiyat binivîsin?
-
-## Bersivên kurt
-
-1. Ji ber ku du zimanan dikarin heman dengên fonetîkî hebin, lê wan di peyvên hevreh de bi awayên cuda bikar bînin.
-2. *ba/va*, *baran/varan*, *berf/vewre*, *bîst/vîst*.
-3. Di *nav/name* de M ya kevn di zazakî de hatiye parastin; di *şev/şew* de pêvajoya P→B→V/W tê dîtin.
-4. Zazakî D ya piştî R diparêze; mînak *berdene/birin* û *kerdene/kirin*.
-5. I; mînak *berdene/birin*, *kerdene/kirin*, *merdene/mirin*.
-6. Ji ber ku cînavê *xwe* di zazakî de dikare *xo* an *xwu* be, ne tenê *we*.
-7. *jin/cenî*, *roj/roc*, *jîn/ciwayene*.
-8. Dikare kêm bibe (Ø) an bibe S; mînak *hestî/este* û *deh/des*.
-9. Bi zêdekirina vokalekê li pêş, wek ST-/EST- an AST-; mînak *stêr/estare*.
-10. A; mînak *di-mîn-im/man-en-a* û *di-xwîn-e/wan-en-o*.
-11. H/Ş: *guh/goş*; K/H: *ker/her*; S/Ş: *rast/raşt*.
-12. Guherînên G/V, H/S, H/Ş, K/H û S/Ş bi nimûneyên kêm hatine nîşandan; ji ber vê yekê divê wek taybetmendiyên hemû peyvan neyên sepandin.
-
-## Têbînî ji bo pêşxistinê
-
-Ev ders ji nû ve wek materyaleke fêrkarî hatiye rêkxistin. Berî belavkirinê divê formên zazakî, devokên cuda, nîşanên dengnasî û şîroveyên etîmolojîk bi pisporên zazakî re bên kontrolkirin. Çavkaniyê di hin beşan de cudahiyên devokî û îstîsna bi eşkereyî destnîşan dike; ji ber vê yekê dersê ev form wek rêzikên giştî yên bê îstîsna pêşkêş nake. Ev pêşnûse û hîn ne ji bo xwendekaran çalak e.
-
-
 ## Çavkanî
 
 Husein Muhammed, *Dengnasî di kurdî de*, rûpelên çapkirî 394–401.
@@ -5159,17 +3718,6 @@ Husein Muhammed, *Dengnasî di kurdî de*, rûpelên çapkirî 394–401.
 ---
 
 # Dersa 26 — Cudahiyên dengnasî di navbera kurmancî û tirkî de
-
-**Dem:** 55–65 deqîqe.
-
-## Armancên fêrbûnê
-
-Di dawiya dersê de xwendekar dikare:
-- cudahiya berawirdkirina kurmancî bi zimanên hevmalbat û bi tirkî rave bike;
-- herfên hevpar û cudahiyên dengên vokal û konsonantan nas bike;
-- ahenga vokalan di tirkî de bi awayekî bingehîn şîrove bike;
-- cudahiyên pifdarî, qelewîtî, dengên H, lerz û komkonsonantan berawird bike;
-- cudahiya cotdengiya Ç, K, P û T û şîroveyên dîrokî yên çavkaniyê fêm bike.
 
 ## 1. Çarçoveya berawirdkirinê
 
@@ -5339,65 +3887,6 @@ Li gorî vê texmînê, di qonaxeke kevntir de Ç, K, P û T li destpêka peyvan
 
 Nivîskar herwiha dibêje ku tesîra farisî, tirkî û zimanên cîran dikare dîsa peyvên bipif zêde bike. Herdu awayên bipif û bêpif heta niha di kurmancî û zazakî de hene.
 
-## Bîr bîne
-
-- Kurmancî û tirkî ji heman binemala zimanî ne; berawirdkirina wan bi berawirdkirina kurmancî û farisî an zaravên kurdî cuda ye.
-- Herfên hevpar ne wateya dengên herdem wek hev dide.
-- Kurmancî û tirkî di vokal, dirêjî û ahenga vokalan de cuda ne.
-- Pifdarî, qelewîtî, H û lerz di herdu zimanan de bi awayên cuda tên bikaranîn.
-- Tirkî di peyvên xwemalî de komkonsonantên destpêkê bi gelemperî qebûl nake; kurmancî dikare wan biparêze.
-- Cotdengiya Ç, K, P û T di kurmancî û zazakî de taybetmendiyeke girîng e.
-- Şîroveyên dîrokî yên çavkaniyê hinek caran texmîn in; divê wek rastiyên bêniqaş neyên pêşkêşkirin.
-
-## Çalakî û xwepirsîn
-
-**1.** Çima berawirdkirina kurmancî û tirkî ji berawirdkirina kurmancî û soranî cuda ye?
-
-**2.** Sê herfên vokal ên kurmancî ku di alfabeya bingehîn a tirkî de nînin binivîse; paşê sê vokalên tirkî yên ku di kurmancî de nînin binivîse.
-
-**3.** Ahenga vokalan di tirkî de çi ye? Vokalên pêşîn û paşîn binav bike.
-
-**4.** Çima herfa I ya kurmancî û ya tirkî divê wek heman deng neyên hesibandin?
-
-**5.** Pifdarî di Ç, K, P û T de di tirkî û kurmancî de çi cudahî heye?
-
-**6.** Qelewîtî û ziravîtî ya P û T di kurmancî de bi du nimûneyan rave bike.
-
-**7.** Çima *ser* û *sed* ji bo ravekirina qelewîtî û ziravîtiya S girîng in?
-
-**8.** Cotên bilerz û bêlerz ên P/B, T/D û S/Z binivîse. Çima şertê bêlerziya dawiya peyvê di tirkî de girîng e?
-
-**9.** Komkonsonantên destpêkê di kurmancî û tirkî de çawa tên berawirdkirin? Nimûneyên *stasyon/istasyon* rave bike.
-
-**10.** Çima cotdengiya Ç, K, P û T wek taybetmendiyeke kurmancî û zazakî tê pêşkêşkirin?
-
-**11.** Nivîskar çima şîroveya tesîra ermenî wek sedema sereke ya cotdengiyê bi pirsan dixe bin lêkolînê?
-
-**12.** Şîroveya nivîskar li ser bandora peyvên deynkirî yên farisî, erebî û tirkî çi ye?
-
-**13.** Çima divê texmîna belavbûna bêpifiyê ji nav û dawiya peyvê ber bi destpêkê wek texmîn were pêşkêşkirin?
-
-## Bersivên kurt
-
-1. Ji ber ku kurmancî û tirkî ne ji heman binemala zimanî ne; peyvên hevpar bi gelemperî deynkirî ne, ne peyvên xwemalî yên hevreh.
-2. Kurmancî: Ê, Î, Û. Tirkî: I, Ö, Ü (di nivîsîna tirkî de İ û I du herfên cuda ne).
-3. Vokalên pêşîn E, İ, Ö, Ü ne; yên paşîn A, I, O, U ne. Di peyvên xwerû de bi gelemperî her kom bi heman celebê vokalan re tê.
-4. Dengên wan cuda ne; I ya tirkî nêzî I ya kurmancî ye, lê İ ya tirkî nêzî Î ya kurmancî ye.
-5. Di tirkî de Ç, K, P, T li destpêka peyvê bi gelemperî bipif in û ev cudahî bi gelemperî fonemîk nîne; di kurmancî de dikare wateyê biguherîne.
-6. T ya *te/tu* zirav û T ya *teng* qelew e; P ya *pênc* zirav û P ya *pez* qelew e.
-7. Herdu peyv E ya piştî S hene, lê S di *ser* de zirav û di *sed* de qelew e; qelewîtî tenê bi vokala piştî xwe ve nayê ravekirin.
-8. P/B, T/D, S/Z. Di tirkî de dengên bêlerz bi gelemperî li dawiya peyvê tên; peyvên deynkirî dikarin dengên bilerz biguherînin.
-9. Kurmancî komên destpêkê di peyvên xwemalî de jî hene; tirkî di hin deynkirinên kevntir de vokalek li pêş komê zêde kiriye, wek *istasyon*.
-10. Ji ber ku di kurmancî û zazakî de awayên bipif û bêpif dikarin fonemên cuda bin û wateyê biguherînin; di zimanên berawirdkirî de ev taybetmendî bi heman awayî tune ye.
-11. Ji ber ku ermenî ji xwe herdu awayên bipif û bêpif hene; nivîskar dipirse çima axêverên ermenî divê dengên bipif ên kurdî biguherînin, û çima guherîn tenê di hin peyvan de çêbibe.
-12. Peyvên nûwergirtî yên bi dengên bipif dikarin rêjeya dengên bipif zêde bikin; bandora bilêvkirina zimanên cîran dikare hin peyvên xwemalî jî biguherîne.
-13. Ji ber ku nivîskar vê yekê wek texmîneke dengnasî pêşkêş dike û delîlên dîrokî yên ku wê bi temamî îsbat bikin tune ne.
-
-## Têbînî ji bo pêşxistinê
-
-Ev ders ji nû ve wek materyaleke fêrkarî hatiye rêkxistin. Berî belavkirinê divê pergala herfên tirkî (bi taybetî cudahiya I/İ), nîşanên dengnasî, nimûneyên deynkirinê, şertên ahenga vokalan û şîroveyên dîrokî bi pisporên tirkî û kurmancî re bên kontrolkirin. Şîroveya cotdengiya Ç, K, P û T di çavkaniyê de bi awayê nêrîna nivîskar hatiye pêşkêşkirin; divê di dersê de wek hîpotez û nîqaş were parastin, ne wek rastiyeke dîrokî ya qetî. Di vê kontrolê de, nimûneyên H yên pêşgir + reh ku çavkaniyê piştgirî wan nedikirin hatin rakirin; rewşa *hatin* û nimûneyên reh + paşgir jî li gor şertên çavkaniyê hatin sererastkirin. Ev pêşnûse ye û hîn ne ji bo xwendekaran çalak e.
-
-
 ## Çavkanî
 
 Husein Muhammed, *Dengnasî di kurdî de*, rûpelên çapkirî 402–417.
@@ -5405,19 +3894,6 @@ Husein Muhammed, *Dengnasî di kurdî de*, rûpelên çapkirî 402–417.
 ---
 
 # Dersa 27 — Hiyatus û rêbazên rêgirtina li ber wê di kurmancî de
-
-**Dem:** 55–65 deqîqe.
-
-## Armancên fêrbûnê
-
-Di dawiya dersê de xwendekar dikare:
-- hiyatusê wek peydabûna du vokalan li sinorê du kîteyan rave bike;
-- cudahiya hiyatusa nivîskî û ya dengî nas bike;
-- nas bike ka hiyatus di kîjan cure peyvan de dikare peyda bibe;
-- du rêbazên sereke yên rêgirtina li ber hiyatusê rave bike;
-- rola avêtina vokalê û zêdekirina Y, H, W, T û N nas bike;
-- cudahiya rêgirtina hiyatusê di nav peyvekê de û di navbera du peyvên serbixwe de fêm bike;
-- nimûneyên devokî û nivîskî wek rêzikên bêîstîsna neyê sepandin.
 
 ## 1. Hiyatus çi ye?
 
@@ -5601,66 +4077,6 @@ Di kurmancî de **U/Û → W** jî di hin devokan de peyda dibe:
 Lê formên serdest ên nivîskî bi Y tên çêkirin:
 - *xesûya wê*;
 - *rûyê wî*.
-
-## Bîr bîne
-
-- Hiyatus peydabûna du vokalan li sinorê du kîteyan e.
-- Hiyatus di kurmancî de heye, bi taybetî di hin peyvên deynkirî û di pêkhateyên bi pêşgir de.
-- Du rêbazên sereke yên rêgirtinê avêtina vokalekê û zêdekirina konsonantekê ne.
-- Y di hin pêkhateyên reh + paşgir de girîng e, lê di hemû rewşan de nayê bikaranîn.
-- H, W û T jî di hin rewşên sînordar de dikarin rêgir bin.
-- N dikare di hin cotformên peyvan de bi şertên dengê peyva piştî xwe ve girêdayî be.
-- R di hin formên soranî û kurdiya başûrî de tê bikaranîn, ne wek rêbazeke giştî ya kurmancî.
-- V wek rêgirê hiyatusê di *pîvaz* de tenê texmînek e û niha ne çalak e.
-- Di navbera du peyvên serbixwe de hiyatus dikare bimîne an di axaftinê de were kêmkirin.
-
-## Çalakî û xwepirsîn
-
-**1.** Hiyatus bi gotinên xwe rave bike û du nimûne ji dersê bide.
-
-**2.** Çima gotina ku du vokal di kurmancî de qet li pey hev nayên rast nîne?
-
-**3.** Du rêbazên sereke yên rêgirtina li ber hiyatusê binav bike.
-
-**4.** Di nimûneyên *di + avêtin → davêtin* û *rojname + ê → rojnamê* de çi guherîn çêdibe?
-
-**5.** Çima Y di hemû rewşên pêşgir + reh de nayê bikaranîn? Du nimûne bide.
-
-**6.** Di kîjan pêkhateyên reh + paşgir de Y dikare were zêdekirin? Sê nimûne binivîse.
-
-**7.** Rola H di rêgirtina li ber hiyatusê de çi ye? Çima divê formên bi H wek formên herdemî neyên hesibandin?
-
-**8.** W û T di kîjan rewşên sînordar de wek rêgir tên bikaranîn?
-
-**9.** Çima cotformên *çawa/çawan* û *wisa/wisan* ji bo nasîna N ya livbar girîng in?
-
-**10.** R di kurmancî de wek rêgirê hiyatusê tê bikaranîn? Cudahiyê bi soranî û kurdiya başûrî rave bike.
-
-**11.** Çima V di peyva *pîvaz* de tenê wek texmîneke dîrokî tê behskirin?
-
-**12.** Cudahiyên rêgirtina hiyatusê di hundirê peyvekê de û di navbera du peyvên serbixwe de rave bike.
-
-**13.** Çima çavkaniyê di nimûneyên *bêav* û *biaqil/baqil* de H-ya navberî zêde nake? Ev nimûne çi nîşan didin derbarê sînorên bikaranîna H de?
-
-## Bersivên kurt
-
-1. Hiyatus rewşa du vokalên li pey hev e ku di du kîteyên cuda de ne; mînak *bêav* û *xaîn*.
-2. Ji ber ku di peyvên deynkirî û pêkhateyên bi pêşgir de du vokal dikarin li pey hev bên, wek *bêav* û *biêş*.
-3. Avêtina yek ji du vokalan û zêdekirina konsonantekê di navbera wan de.
-4. Di *davêtin* de vokalek tê avêtin; di *rojnamê* de vokala dawî ya rehê û paşgir bi awayekî kurtkirî tên girêdan.
-5. Ji ber ku Y bi gelemperî di reh + paşgir de tê bikaranîn, ne di pêşgir + reh de; mînak *neanîn* û *naavêjim*.
-6. Di reh + paşgir de, wek *rojnameyê*, *perdeya* û *birayên*.
-7. H di hin devok û hin pêkhateyan de rê li ber hiyatusê digire, lê ne di hemû rewşan de; formên bê H jî hene û gelek caran serdest in.
-8. W di *bawî* û *duwem* de; T di hin peyvên dariştî de wek *biratî* û *hevrêtî*.
-9. Ji ber ku N dikare li gorî dengê destpêka peyva piştî xwe were zêdekirin û rê li ber hiyatusê bigire.
-10. Na, di kurmancî de R wek rêgir nayê bikaranîn; di hin formên soranî û kurdiya başûrî de dikare were zêdekirin.
-11. Ji ber ku ew texmîneke etîmolojîk e û çavkaniyê dibêje ku V niha bi vî erkî ne çalak e.
-12. Di hundirê peyvekê de vokal dikare were avêtin an konsonant were zêdekirin; di navbera du peyvên serbixwe de hiyatus dikare bimîne, an di axaftinê de vokal were avêtin/peyv bi hev ve were girêdan.
-13. Çavkaniyê bi eşkereî dibêje *bêav* (ne *bêhav*) û *biaqil/baqil* (ne *bi-h-aqil*) wek nimûneyên ku H-ya navberî lê nayê zêdekirin. Ev nîşan didin ku H rêbazeke giştî nîne û di hemû pêkhateyên pêşgir + reh de nayê bikaranîn.
-
-## Têbînî ji bo pêşxistinê
-
-Ev ders ji nû ve wek materyaleke fêrkarî hatiye rêkxistin. Rûpela 418 wek dawîkirina mijara cotdengiya Ç, K, P û T ya Dersa 26 tê hesibandin; wê yekê di vê dersê de wek mijareke nû dubare nekiriye. Berî belavkirinê divê nimûneyên devokî, formên lêkerî, cudahiya nivîsîn û gotin, û bikaranîna Y/H/W/T/N bi pisporên kurmancî re bên kontrolkirin. Çavkaniyê hin form wek varyantên devokî an texmînên etîmolojîk pêşkêş dike; divê ev cudahî di dersê de were parastin. Ev pêşnûse ye û hîn ne ji bo xwendekaran çalak e.
 
 ## Çavkanî
 
