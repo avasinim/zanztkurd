@@ -1254,7 +1254,7 @@ Li gorî lêkolîna ku pirtûk vedigire, N konsonanta herî pir di nivîsên kur
 
 ## 7. Taybetiya dengê NG û NK
 
-Di piraniya devokên kurmancî de herfên NG wek du dengên cuda tên gotin. Sinora kîteyê dikare di navbera wan de bikeve; wek *ren-gê sor*.
+Di piraniya devokên kurmancî de herfên NG wek du dengên cuda tên gotin. Sînorê kîteyê dikare di navbera wan de bikeve; wek *ren-gê sor*.
 
 Lê di hin ziman û devokên kurdî de, bi taybetî di hin devokên soranî û piraniya devokên kurdiya başûrî de, ev herdu deng bi hev ve dihelin û dengekî yekgirtî yê bêvilî-ban-devî pêk tînin. Di vê çavkaniyê de, navê «kurdiya başûrî» li vir tenê devokên Feylî, Kelhurî û Kirmaşanî digire; ev kategorî ne wek kurmancî (bakur) an soranî (navendî) hatiye bikaranîn. Di IPA de ev deng bi **[ŋ]** tê nîşandan.
 
