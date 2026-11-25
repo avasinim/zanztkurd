@@ -1443,7 +1443,7 @@ R dikare li her sê cihên peyvê were:
 
 Li gorî lêkolîna ku pirtûk vedigêre, rêjeya herfa R di nivîsên kurmancî de **5,2%** e. R şeşemîn herfa herî gelemperî ye; di nav konsonantan de tenê N ji wê pirtir e.
 
-R-ya li destpêka peyvê bi gelemperî req e. Li nav û dawiya peyvên xwerû de, ji bilî hin awarteyan, bi piranî nerm e.
+R-ya li destpêka peyvê herdem req e. Li nav û dawiya peyvên xwerû de, ji bilî hin awarteyan, bi piranî nerm e.
 
 ## 3. Têkiliya dîrokî ya R û L
 
@@ -1525,7 +1525,7 @@ Di peyvên xwemalî de S-ya qelew bi gelemperî berî vokalên paşîn ên *a, o
 
 Berî *i* herdu away dikarin bên dîtin: *sivore/sivorî/simore/sihorî* bi S-ya zirav, lê *sivande, sivde* bi S-ya qelew. S-ya qelew carinan berî vokala pêşîn *e* jî tê, wek *sed, se/seg*.
 
-Di peyvên esil-biyanî de jî vokal dikare bandorê bike; pirtûk *salon* û *soz* wek nimûne dide. Lê di peyvên esil-erebî de awayê S bi gelemperî bi awayê wê di zimanê jêder de girêdayî ye, ne tenê bi vokala piştî wê.
+Di peyvên esil-biyanî de jî vokal dikare bandorê bike; pirtûk *salon* û *soz* wek nimûne dide. Lê di peyvên esil-erebî de awayê S bi gelemperî bi awayê wê di zimanê jêder de girêdayî ye, ne tenê bi vokala piştî wê. Di peyva tirkî *sağ* de S-ya qelew heye, lê kurmancî *sax* li gor devokê dikare bi S-ya zirav an qelew were gotin.
 
 ### Fonem an alofon?
 
@@ -1570,7 +1570,7 @@ S-ya proto-hindûewropî ya destpêka peyvê, heke vokalek li pey wê were, di g
 - kurmancî, farisî: *heft*; avestayî: *hepte-*;
 - sanskrîtî: *septan*; latînî: *septem*; inglîzî: *seven*.
 
-Di hin zimanên din de S bûye H an jî ketiye. Pirtûk herwiha nimûneyên *havîn, hev, heman, hemû* û *meh* bi hevrehên wan ên zimanên din re dide.
+Di hin zimanên din de S bûye H an jî ketiye. Pirtûk herwiha nimûneyên *havîn, hev, heman, hemû* û *meh* bi hevrehên wan ên zimanên din re dide. Di hejmarê *heft* de H-ya kurmancî û soranî ya taybet (bi dengê [ħ]) ji H-ya asayî ya peyvên wek *heval* û *hesp* cuda ye; ev cudahî di hin zimanên din ên îranî de jî nayê dîtin.
 
 Lê H-ya kurmancî herdem ji S-ya kevn nayê. Di gelek peyvan de H ji bo rêgirtina li destpêka vokalê hatiye zêdekirin. Nimûne: kurmancî *hesp* li hemberî soranî *esp*; kurmanciya navendî *hesin* li hemberî kurmanciya rojhilatî û soranî *asin*.
 
@@ -1588,7 +1588,7 @@ Pirtûk ji bo *hirç* çavkaniyên din ên gengaz jî nîşan dide, ji Ş-ya zim
 
 ### S bi T
 
-Di peyva *mîras* de S-ya ku ji dengê didanî [θ] hatiye, di kurdî de di forma *mîrat* de bûye T. Pirtûk rêya guherînê bi vî awayî nîşan dide: *mîraθ → mîras → mîrat*. Di hin peyvên xwemalî de jî S û T bi hev diguherin, wek *rût/rûs*.
+Di peyva *mîras* de S-ya ku ji dengê didanî [θ] hatiye, di kurdî de di forma *mîrat* de bûye T. Pirtûk rêya guherînê bi vî awayî nîşan dide: *mîraθ → mîras → mîrat*. Di hin peyvên xwemalî de jî S û T bi hev diguherin, wek *rût/rûs*. Di hin devokan de *rûs/rwîs/rîs* ji bo mirovê bêcil tê gotin, lê *rût* ji bo tiştê bêpêçan an bê niximandin dimîne. Pirtûk herwiha guherîna dengê didanî [θ] di peyvên erebî de bi rêya S-ya navîn nîşan dide: *meθel → mesel → metel(ok)*, li kêleka *mîraθ → mîras → mîrat*.
 
 ## Çavkanî
 
