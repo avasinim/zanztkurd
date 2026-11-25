@@ -2565,7 +2565,7 @@ U li her sê cihên peyvê tê:
 - Nav: *guh, kurd, quling*.
 - Dawî: *du, ku, tu*.
 
-Rêjeya U di nivîsên kurmancî de **1,3%** e; di nav vokalan de tenê O kêmtir e. Di peyvên xwemalî de U li destpêkê bi gelemperî nayê dîtin. Li dawiya peyvan jî kêm e û di çend peyvên wek *du, ku, tu* de heye. Li nav peyvan zêdetir e.
+Di peyvên xwemalî de U li destpêkê bi gelemperî nayê dîtin. Li dawiya peyvan jî kêm e û di çend peyvên wek *du, ku, tu* de heye. Li nav peyvan zêdetir e.
 
 Di gelek peyvan de forma bi U tenê varyanteke forma bi I ye; di nivîsîna standard de forma bi I bi gelemperî serdest e:
 - *awur/awir*;
