@@ -150,67 +150,90 @@ Husein Muhammed, *Dengnasî di kurdî de*, rûpelên çapkirî 8–15.
 
 # Dersa 3 — Hevdengî û pirdengî di nivîsîna kurdî de
 
-## 1. Herf û deng her tim yek tişt nînin
+## 1. Herf, deng, hevdengî û pirdengî
 
-Di nivîsînê de herf nîşaneke nivîskî ye; deng tişta ku em dibêjin û dibihîzin e. Di hin zimanan de têkiliya herf û dengê wê yek-bi-yek nîne. Ji ber vê yekê divê em cudahiya navbera herf û dengê wê biparêzin.
+Herf nîşaneke nivîskî ye; deng jî tişta ku tê gotin û bihîstin e. Di hin zimanan de têkiliya herf û dengê wê yek-bi-yek nîne. Bo nimûne, di inglîzî de herfa C di *cent* de dengê [s] û di *computer* de dengê [k] dide. Ev taybetmendî **pirdengî** tê gotin: heman herf di peyvên cuda de dikare dengên cuda nîşan bide.
 
-Pirtûk bi nimûneyên inglîzî dest pê dike: di *cent* de C dengê [s] dide, lê di *computer* de dengê [k] dide. Ev nimûne nîşan dide ku heman herf dikare di peyvên cuda de dengên cuda nîşan bike.
+**Hevdengî** rewşeke din e: dengekî yek di peyvên cuda de bi herf an komeherfên cuda tê nivîsîn. Di inglîzî de dengê [f] di *five* de bi F, lê di *philosophy* de bi PH tê nivîsîn. Herwiha di *cent* de dengê [s] bi C tê nivîsîn, lê di *seven* de bi S.
 
-## 2. Hevdengî çi ye?
+## 2. Hevdengî di nivîsîna kurdî de
 
-**Hevdengî** (*homophony*) di vê mijarê de rewşek e ku dengekî yek bi herf an komeherfên cuda tê nivîsîn. Di nimûneya inglîzî de dengê [f] di *five* de bi F, lê di *philosophy* de bi PH tê nivîsîn.
+Di alfabeya kurdî-latînî û kurdî-erebî de, wek prensîp, hevdengî rêbaza sereke nîne: peyv bi piranî li gor dengê xwe tên nivîsîn, ne li gor herfên zimanê jêder. Di nivîsîna kurdî-erebî de jî çend nîşanên ku di zimanên din de dengên cuda didin, di nivîsîna kurdî de dikarin bi yek nîşanê bên nivîsîn.
 
-Li gorî ravekirina pirtûkê, di alfabeya kurdî-latînî û kurdî-erebî de wek prensîp hevdengî ne bingeh û rêbaza sereke ye; nivîsîn bi piranî li gor dengê peyvê tê hilbijartin. Lê di navên taybet ên biyanî de dikare awayê nivîsîna zimanê jêder were parastin. Bo nimûne, di navên *George* û *John* de dengê destpêkê bi G û J hatiye nivîsîn; ev awayên nivîsîna navên biyanî ne.
+Ev prensîp bê awarte nîne. Navên taybet ên biyanî gelek caran li gor nivîsîna zimanê jêder tên parastin. Bo nimûne, dengê destpêkê yê *George* û *John* bi herfên G û J tê nivîsîn. Di navê *Mercedes* de jî C ji bo dengê [s] hatiye bikaranîn. Hin peyvên biyanî, wek *out*, carinan bi rastnivîsîna inglîzî di nivîsên kurdî de tên dîtin; di gotinê de *out* wek [awt] tê derxistin.
 
-Pirtûk herwiha behsa hin rewşên taybet dike:
-- **U/W:** di hin peyvên wek *xwe, xwê, xwîn* de W dengê [u] nîşan dide; lê di *welat* û *bawer* de W dengê konsonantî [w] ye.
-- **R/RR:** hin nivîser R-ya şidandî bi R-yekê û hin bi RR dinivîsin. Lê ev tercîha nivîsînê ye, ne delîla hebûna du herfên ku bi rêkûpêk heman dengê cuda nîşan didin.
+Hin rewşên din jî divê ji hevdengiya rastîn bên cudakirin:
 
-## 3. Pirdengî çi ye?
+- **R / RR:** Dengê R-ya şidandî carinan bi R-yekê û carinan bi RR tê nivîsîn. Ev tenê tercîha nivîseran e; herdu awayên nivîsînê heman deng nîşan didin û cudahiyekê di kîtekirinê de çênakin.
+- **U / W:** Di hin peyvan de nivîsîna *xu-* û *xwi-* wek *xurandin / xwirandin*, *xuşk / xwişk* û *xuya / xwiya* tercîhên nivîseran in. Lê di peyvên *xwarin, xwe, xwê, xwîn* de W dengê [u] nîşan dide. Ji ber vê yekê U û W di hin peyvan de dikarin hevdeng bin.
+- W di peyvên *war, welat, wê, wir, wî* de dengê konsonantî [w] dide; di van peyvan de ew dengê vokalî [u] nîne.
 
-**Pirdengî** (*polyphony*) ew e ku heman herf ji bo nîşandana du an zêdetir dengan tê bikaranîn. Pirtûk dibêje ku ev taybetmendî di kurmanciya latînî de berbelav e.
+Herfên hevdeng dikarin di zimanekî de herdem an tenê di hin rewşan de hevdeng bin. Di kurdî de U û W tenê di hin peyvan de ev têkiliya dengî hene.
 
-Li gorî dabeşkirina pirtûkê, di kurmanciya giştî de van konsonantan bi piranî yekdeng têne hesibandin:
+## 3. Pirdengî di nivîsîna kurdî de
+
+Wek prensîp, alfabeyeke fonemîk ji bo her dengekî serbixwe herfeke cuda û ji bo her herfê jî dengekî taybet dihesibîne. Lê alfabeyên zimanên xwezayî her tim bi temamî fonemîk nînin. Di kurdî de, bi taybetî di kurmancî de, pirdengî diyarde û berbelav e.
+
+Di kurmanciya giştî ya bi alfabeya latînî de konsonantên yekdeng ev in:
 
 **B, C, D, F, G, J, M, N, Q, Ş, V, Y**
 
-Her yek ji wan di peyv û navên kurdî yên cihgirtî de bi piranî heman dengî nîşan dide.
-
-Van herfan jî pirtûk wek herfên pirdeng destnîşan dike:
+Konsonantên pirdeng ev in:
 
 **Ç, H, K, L, P, R, S, T, (W), X, Z**
 
-Ev dabeşkirin nîşan dide ku di xwendina kurmancî de divê mirov tenê li herfê nenêre; divê peyv û cihê dengê wê jî li ber çavan bigire.
+Piraniya van herfan du deng nîşan didin. Lê P û T dikarin her yek bi kêmî sê deng û belkî çar dengên cuda jî nîşan bidin.
 
-## 4. Nimûneyên pirdengiyê
+## 4. Nimûneyên herfên pirdeng
 
-Pirtûk di  de çend nimûneyên bingehîn pêşkêş dike:
+### R
 
-- **R:** di kurmancî de R dikare dengê şidandî û dengê sist nîşan bide. Di destpêka peyvê de *rast, rev, rê* wek nimûne tên; di nav û dawiya peyvê de *agir, baran, mêr*.
-- **H:** herfa H dikare du dengên ji hev cuda nîşan bide; nimûne: *heval* û *heft*.
-- **S:** S dikare dengê zirav û dengê qelew nîşan bide; nimûne: *ser* û *sed*.
-- **X:** X dikare dengê [x] û dengê [ɣ] nîşan bide; nimûne: *xal* û *bax*.
-- **Z:** Z dikare dengê zirav û dengê qelew nîşan bide; nimûne: *zêr* û *zanîn*.
-- **L:** L dikare zirav an qelew be; nimûne: *lawik* û *silav*.
-- **W:** li hin peyvan dengê konsonantî [w] dide, lê di komên wek XW de dikare dengê [u] nîşan bide.
+R di kurmancî de du dengên cuda nîşan dide: R-ya şidandî û R-ya sist. Di destpêka peyvê de, wek *rast, rev, rê, rind, ron, ruh, rû*, ziman bi çend caran li pidûyan dikeve. Di nav û dawiya peyvan de, wek *agir, baran, mêr, zîrek*, bi piranî tenê carekê li pidûyan dikeve. R-ya şidandî dikare di nav û dawiya peyvê de jî xuya bibe, wek *bajar, şer, kirîn*. Hin nivîser vê dengê bi RR an carinan bi Ř dinivîsin, lê R-yekê awayê herî berbelav e.
 
-Ev nimûne tenê destpêka nasîna herfan e; hûrgiliyên her dengê di dersên taybet ên paşê de tên xwendin.
+### H
 
-## 5. Çima ev cudahî girîng e?
+H di kurmancî de du dengên cuda nîşan dide. Yek ji wan di peyvên *heval, hildan, hirmî* de heye. Dengê din di peyvên *heft, herf, tehl* de tê bihîstin. Ev deng tenê di peyvên ji erebî wergirtî de nîne; di hin peyvên xwemalî yên kurdî-îranî de jî heye. Di hin devokan de awayê gotina H di peyvên wek *hezar, heşt, hemû, hirç* cuda dibe.
 
-Hevdengî û pirdengî bandorê li xwendin û nivîsînê dikin. Heke xwendekar nizanibe ku herfek dikare çend dengên cuda nîşan bide, dibe ku peyvek xelet bixwîne. Herwiha heke wî nizanibe ku dengek dikare bi awayên cuda were nivîsîn, dibe ku cihê herfê û dengê wê tevlihev bike.
+### S
 
-Ji ber vê yekê divê xwendekar:
-1. herfê nas bike;
-2. dengê wê di peyva taybet de bibihîze;
-3. nimûneyên din ên heman herfê li ber çavan bigire;
-4. ji bo cudakirina deng û herfê tenê xwe dispêre alfabeyê neke.
+S dikare dengê zirav û dengê qelew nîşan bide. S-ya zirav di peyvên *ser, sêv, sîr* de, S-ya qelew jî di *sed, seg, sal, sor* de xuya dibe. Cudahî her tim tenê bi vokala li pey S nayê diyarkirin: di *ser* û *sed* de herdu caran E li pey S tê, lê dengê S cuda ye. Ev cudahî di van peyvan de ji wergirtina peyvên erebî çênebûye.
+
+### X
+
+X du dengên cuda nîşan dide. Dengê yekem di peyvên *xal, xet, xêr, xirab, xweş* de heye. Dengê duyem di peyvên *axa, bax, oxir / wexer* de xuya dibe. Di nivîsîna rojane de herdu deng bi piranî bi X tên nivîsîn; nîşanên din ên wek Ẍ an Ğ kêm tên bikaranîn.
+
+### Z
+
+Z-ya zirav û Z-ya qelew du dengên cuda ne. Nimûneyên Z-ya zirav: *zan, zayîn, zer, zêr, ziman, zîv, zû*. Nimûneyên Z-ya qelew: *zanîn, zerf, zozan*. Bi gelemperî Z-ya zirav berî E, Ê, Î û Û; Z-ya qelew jî berî A û O tê. Lê ev rêzik her tim nayê domandin.
+
+### L
+
+L di kurmancî de dikare zirav an qelew be. L-ya zirav di peyvên *lawik, lez, lêzim, lîstin, lome, lûfik* de, L-ya qelew jî di *silav, welat* û hin peyvên din de heye. Hin caran L-ya qelew bi LL an Ł tê nivîsîn, lê di nivîsên asayî de bi piranî L tê bikaranîn. Di kurmancî de qelewî an ziravî her tim bi vokala li pey L nayê diyarkirin. L-ya qelew di soranî de ji kurmancî berbelavtir e.
+
+### W
+
+W bi piranî dengê konsonantî [w] nîşan dide, wek di *war, welat, wê, wir, wî* de. Lê bi taybetî li pey X, W dikare dengê [u] jî nîşan bide, wek di *xwarin, xweş, xwê, xwîn* de. Di hin nivîsînên soranî û kurdiya başûrî de W piştî konsonantên din jî dikare dengê [u] nîşan bide.
+
+### Ç
+
+Di kurmancî û zazakî de Ç dikare du dengên cuda nîşan bide: Ç-ya bipif û Ç-ya bêpif. Ç-ya bipif di *çar, çi, çend* de; Ç-ya bêpif di *çav, çiya, çem, çîrok* de heye. Hin peyv jî bi heman awayê tên nivîsîn, lê tenê bi pifdarîya Ç ji hev cuda dibin; nimûneya pirtûkê *çeng* e ku dikare amûreke muzîkê an beşek ji destê mirovan be.
+
+### K
+
+K di kurmancî û zazakî de dikare bipif an bêpif be. K-ya bipif di *kar, ked, kurdî, kûr* de; K-ya bêpif di *kirin, kes, kî, kurmancî* de heye. Peyva *ka* bi K-ya bipif û bêpif dikare du wateyên cuda bide.
+
+### P
+
+P di kurmancî û zazakî de ji bo sê an heta çar dengên cuda tê bikaranîn. Cudahiyên sereke di navbera P-ya bipif û bêpif, herwiha P-ya zirav û qelew de ne. P-ya bêpif ya zirav di *pênc, pêr, pîvaz* de; P-ya bêpif ya qelew di *pez, pazde, piling, parzûn* de heye. P-ya bipif bi piranî zirav e, wek di *parastin, pare / pere, perde, parçe* de. Nimûneya P-ya bipif û qelew, *pind*, kêm e. Cudahî di navbera P-ya bipif û bêpif de dikare wateya peyvê biguherîne; *par* dikare sala borî an jî beş û pişkê nîşan bide.
+
+### T
+
+T jî di kurmancî û zazakî de dikare sê an heta çar dengên cuda nîşan bide. Cudahiyên sereke di navbera T-ya bipif û bêpif, herwiha T-ya zirav û qelew de ne. T-ya bipif ya zirav di *tarîx, tenê, teşî* de heye. T-ya zirav dikare bêpif jî be, wek di *tişt, tîr, tû, te, tu* de. T-ya bêpif bi piranî qelew e, wek di *tarî, teng, tenî, tirs, tov* de. Nimûneya T-ya bipif û qelew, *tep*, kêm e.
 
 ## Çavkanî
 
 Husein Muhammed, *Dengnasî di kurdî de*, rûpelên çapkirî 16–28.
 
----
 
 # Dersa 4 — Qelewîtî: dengên qelew û zirav
 
