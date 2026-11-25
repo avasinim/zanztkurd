@@ -1738,7 +1738,7 @@ Di kurmancî de V li her sê cihên peyvê tê:
 - **Nav:** *bivir, dever, evîn, êvar, revandin*.
 - **Dawî:** *av, çav, dev, ev, sêv, şev*.
 
-V li nav û dawiya peyvan berfireh e; li destpêka peyvan kêmtir e. Formên çemandî yên cînavê *ev* — wek *vê, vî, van, vir* — û pêşlêkera *ve-* — wek *vebûn, vekirin, vexwarin* — rêjeya V li destpêkê zêde dikin.
+V li nav û dawiya peyvan berfireh e; li destpêka peyvan kêmtir e. Li gorî lêkolîna ku pirtûk vedigêre, rêjeya V di nivîsên kurmancî de **1,7%** e. Formên çemandî yên cînavê *ev* — wek *vê, vî, van, vir* — û pêşlêkera *ve-* — wek *vebûn, vekirin, vexwarin* — rêjeya V li destpêkê zêde dikin.
 
 ## 2. Çavkaniyên dîrokî yên V
 
@@ -1797,7 +1797,7 @@ W di kurmancî de li destpêk, nav û dawiya peyvê tê:
 - **Nav:** *awir, bawî, ewr, gewr*.
 - **Dawî:** *ew, dew, kew, mêw*.
 
-Di cînavê *ew* û formên wî yên çemandî de — wek *wê, wî, wan, wir* — W pir tê bikaranîn. Ji ber vê yekê rêjeya wê di nivîsên kurmancî de dikare bilind xuya bike, tevî ku gelek peyv bi W dest pê nakin.
+Rêjeya W di nivîsên kurmancî de **3,3%** e. Di cînavê *ew* û formên wî yên çemandî de — wek *wê, wî, wan, wir* — W pir tê bikaranîn. Ji ber vê yekê rêjeya wê di nivîsên kurmancî de dikare bilind xuya bike, tevî ku gelek peyv bi W dest pê nakin.
 
 ### W di soranî û kurmancî de
 
@@ -1863,7 +1863,7 @@ Di dîroka peyvan de Y dikare ji destpêkê bikeve an bi vokalekê biguherin. Ni
 
 Dengê **Z/z** dengekî **pidûyî-xişok-vizok yê bilerz** e. Di gotina wê de ziman li herêma pidûyan nêzîk dibe, hewa ji tengiyekê derbas dibe û perdeyên dengî dilerizin. Nîşana wê di IPA de **[z]** e.
 
-Z li her sê cihên peyvê tê:
+Z li her sê cihên peyvê tê. Li gorî lêkolîna ku pirtûk vedigêre, rêjeya Z di peyvên kurmancî de **1,2%** e:
 - **Destpêk:** *zanîn, zer, zêr, ziyan, zîrek, zor, zuha, zû*.
 - **Nav:** *azad, bizin, cezwe, dizîn, kezî, nizm*.
 - **Dawî:** *baz, diz, ez, hez, mîz, mûz, rez*.
@@ -1903,20 +1903,13 @@ Di hin lêkeran de Z-ya bilerz di bin bandora T-ya bêlerz a nîşana rabirdûy�
 
 Di peyvên ji erebî wergirtî de, hin dengên erebî dikarin di kurdî de bi Z-ya zirav an qelew bên nîşandan. Divê cudahiya Z-ya qelew ya kurdî ji dengê didanî yê erebî cuda were fêmkirin; herdu ne hevdeng in.
 
-## Berawirdkirina V, W, Y û Z
-
-| Deng | Cih û awayê derketinê | Lerz | Taybetmendî |
-|---|---|---|---|
-| V [v] | Lêvî-didanî, xişok | Bilerz | Konsonant |
-| W [w] | Dulêvî, tengav | Bilerz | Nîv-vokal |
-| Y [j] | Bandevî, tengav | Bilerz | Nîv-vokal |
-| Z [z] | Pidûyî, xişok-vizok | Bilerz | Du fonem: zirav û qelew |
-
 ## Çavkanî
 
 Husein Muhammed, *Dengnasî di kurdî de*, rûpelên çapkirî 203–232.
 
 ---
+
+
 
 # Dersa 17 — Eyn, dengên K/G/Q û komên cotkonsonantî
 
