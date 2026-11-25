@@ -194,7 +194,7 @@ R di kurmancî de du dengên cuda nîşan dide: R-ya şidandî û R-ya sist. Di 
 
 ### H
 
-H di kurmancî de du dengên cuda nîşan dide. Yek ji wan di peyvên *heval, hildan, hirmî* de heye. Dengê din di peyvên *heft, herf, tehl* de tê bihîstin. Ev deng tenê di peyvên ji erebî wergirtî de nîne; di hin peyvên xwemalî yên kurdî-îranî de jî heye. Di hin devokan de awayê gotina H di peyvên wek *hezar, heşt, hemû, hirç* cuda dibe.
+H di kurmancî de du dengên cuda nîşan dide. Yek ji wan di peyvên *heval, hildan, hirmî* de heye. Dengê din di peyvên *heft, herf, tehl* de tê bihîstin. Ev deng tenê di peyvên ji erebî wergirtî de nîne; di hin peyvên xwemalî yên kurdî-îranî de jî heye. Di hin devokan de awayê gotina H di peyvên wek *hezar, heşt, hemû, hirç* cuda dibe. Di kurmanciya rojhilatî de ev peyv bi H-ya wek *heval* tên gotin, lê di kurmanciya navendî de bi H-ya wek *Hesen*.
 
 ### S
 
@@ -230,7 +230,7 @@ P di kurmancî û zazakî de ji bo sê an heta çar dengên cuda tê bikaranîn.
 
 ### T
 
-T jî di kurmancî û zazakî de dikare sê an heta çar dengên cuda nîşan bide. Cudahiyên sereke di navbera T-ya bipif û bêpif, herwiha T-ya zirav û qelew de ne. T-ya bipif ya zirav di *tarîx, tenê, teşî* de heye. T-ya zirav dikare bêpif jî be, wek di *tişt, tîr, tû, te, tu* de. T-ya bêpif bi piranî qelew e, wek di *tarî, teng, tenî, tirs, tov* de. Nimûneya T-ya bipif û qelew, *tep*, kêm e.
+T jî di kurmancî û zazakî de dikare sê an heta çar dengên cuda nîşan bide. Cudahiyên sereke di navbera T-ya bipif û bêpif, herwiha T-ya zirav û qelew de ne. T-ya bipif ya zirav di *tarîx, tenê, teşî* de heye. T-ya zirav dikare bêpif jî be, wek di *tişt, tîr, tû, te, tu* de. T-ya bêpif bi piranî qelew e, wek di *tarî, teng, tenî, tirs, tov* de. Nimûneya T-ya bipif û qelew, *tep*, kêm e. T-ya bipif û T-ya bêpif fonemên cuda ne û dikarin wateyê biguherînin. Di nimûneyên çavkaniyê de *ta* bi T-ya bêpif wateya benê dide, lê bi T-ya bipif wateya germayî; *tam* bi T-ya bêpif wateya çêjê dide, lê bi T-ya bipif wateya temamî; *tu* jî li gor pifdariya T-ê dikare cînav an wateya "hîç" bide.
 
 ## Çavkanî
 
