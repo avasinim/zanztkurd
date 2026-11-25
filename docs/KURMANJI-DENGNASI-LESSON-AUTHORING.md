@@ -42,7 +42,7 @@
 | 24 | Cudahiyên dengnasî: kurmancî û kurdiya başûrî | 387–393 |
 | 25 | Cudahiyên dengnasî: kurmancî û zazakî | 394–401 |
 | 26 | Cudahiyên dengnasî: kurdî û tirkî | 402–417 |
-| 27 | Hiyatus û rêbazên rêgirtina li ber wê di kurmancî de | 419–432 |
+| 27 | Cotdengiya Ç, K, P, T û rêgirtina li ber hiyatusê | 418–432 |
 
 ---
 
@@ -3865,15 +3865,23 @@ Husein Muhammed, *Dengnasî di kurdî de*, rûpelên çapkirî 402–417.
 
 ---
 
-# Dersa 27 — Hiyatus û rêbazên rêgirtina li ber wê di kurmancî de
+# Dersa 27 — Cotdengiya Ç, K, P, T û rêgirtina li ber hiyatusê
 
-## 1. Hiyatus çi ye?
+## 1. Cotdengiya Ç, K, P û T li destpêka peyvan de
+
+Di destpêka vê dersê de nivîskar kurtenivîsareke dîrokî li ser dengên bipif û bêpif ên **Ç, K, P û T** pêşkêş dike. Mijara wê taybetî awayê peydabûna van cotdengan li destpêka peyvan e. Li gorî nêrîna nivîskar, peydabûna cotdengiyê bi ihtîmaleke mezin ne tenê encama tesîra ermenî ye; ew şîroveya berê bi pirs û delîlan re dixe bin lêkolînê.
+
+Nivîskar texmîn dike ku di kurmancî û zazakî de awayên bêpif ên van dengan dibe ku kevntir bin. Di gelek peyvên wergirtî de, berevajî, awayên bipif li destpêka peyvê tên dîtin. Ew vê cudahiyê bi bandora zimanên cîran ve girê dide: di qonaxên kevntir de farisî û di rewşa niha de bi taybetî tirkî dikarin li ser bilêvkirina hin peyvan bandor bikin.
+
+Li gorî şîroveya dîrokî ya nivîskar, bêpifî ji nav û dawiya peyvan ber bi destpêkê belav bûye û paşê peyvên wergirtî yên bipif cotdengiyê ava kirine. Niha jî, di bin bandora tirkî, soranî, farisî û îngilîzî de, hin dengên bêpif li destpêka peyvan ber bi bipifbûnê ve diguherin. Nivîskar pêşdibîne ku ev pêvajo dikare di demeke dirêj de cudahiya fonemî ya bipif/bêpif lawaz bike. Ev ravekirin û pêşbînî nêrîna nivîskar e û divê wek îhtîmala dîrokî were xwendin, ne wek rastiyeke bêniqaş.
+
+## 2. Hiyatus çi ye?
 
 **Hiyatus** (*hiatus*) peydabûna du vokalan li pey hev e, bi awayekî ku vokala yekem li dawiya kîteyekê û ya duyem li destpêka kîteya din be. Ev yek di peyvên wek *bêav, biêş, neavêjin, biavêjin, xaîn, îdîa, saet, îdea* û *teorî* de tê dîtin.
 
 Gotina ku di kurdî de du vokal nikarin li pey hev bên, rastiya zimanê bi tevahî nade. Hiyatus di kurmancî de heye; lê ziman di gelek rewşan de rê li ber wê digire. Ji ber vê yekê, divê hebûna hiyatusê û rêbazên kêmkirina wê ji hev cuda bên naskirin.
 
-## 2. Hiyatus di kîjan peyvan de peyda dibe?
+## 3. Hiyatus di kîjan peyvan de peyda dibe?
 
 Li gorî çavkaniyê, hiyatus di peyvên xwerû yên xwemalî de bi gelemperî nayê dîtin. Ew bi taybetî di van rewşan de peyda dibe:
 
@@ -3883,7 +3891,7 @@ Li gorî çavkaniyê, hiyatus di peyvên xwerû yên xwemalî de bi gelemperî n
 
 Di navbera reh û paşgir de kurmanciya nivîskî û gelek devok bi gelemperî rê li ber hiyatusê digirin; lê ev yek di hemû devokan de bi heman awayî pêk nayê.
 
-## 3. Kîjan vokal bi hev re tên?
+## 4. Kîjan vokal bi hev re tên?
 
 Çavkaniyê tabloyekê ji bo kombînasyonên vokalan pêşkêş dike û wan li gorî peyvên bi pêşgir, peyvên ji erebî wergirtî û peyvên ji zimanên Ewropî wergirtî nîşan dide. Hin kombînasyon di peyvên xwerû de tune ne, lê di peyvên wergirtî an pêkhateyên bi pêşgir de hene.
 
@@ -3898,7 +3906,7 @@ Di hin nimûneyan de hiyatus tenê di nivîsînê de xuya dike; di bilêvkirinê
 
 Çavkaniyê rave dike ku gelek hiyatusên di pêkhateyên bi pêşgir de ji ber pêşgirên bingehîn ên kurdî yên **bi-, bê-, di-, na-, ne-** çêdibin; ev pêşgir bi A, E, Ê an I dest pê dikin.
 
-## 4. Du rêbazên sereke yên rêgirtina li ber hiyatusê
+## 5. Du rêbazên sereke yên rêgirtina li ber hiyatusê
 
 Çavkaniyê du rêbazên bingehîn destnîşan dike:
 
@@ -3907,7 +3915,7 @@ Di hin nimûneyan de hiyatus tenê di nivîsînê de xuya dike; di bilêvkirinê
 
 Ji bilî Y, ku gelek caran wek “tîpa kelijandinê” tê binavkirin, H, T, N û W jî di hin rewşên kurmancî de dikarin rê li ber hiyatusê bigirin. Di soranî û kurdiya başûrî de R jî di hin rewşan de vê erkê digire. Ev konsonant di hemû rewşan de li cihê hev nayên bikaranîn; her yek sînorên xwe hene.
 
-## 5. Avêtina yek ji du vokalan
+## 6. Avêtina yek ji du vokalan
 
 Di kurmanciya devkî de, di piraniya devokan de avêtina yek ji herdu vokalan rêbaza sereke ye. Ev yek hem di navbera pêşgir û rehê peyvê de, hem jî di navbera reh û paşgirê de çêdibe.
 
@@ -3938,7 +3946,7 @@ Gava ku reh bi vokalekê bi dawî were, di hin devokan de paşgira çemandinê n
 
 Di girêdana peyvê bi peyveke din re, wek izafe, şert cuda dibe. Di hin devokan de A dikare bikeve: *bira + ê min → birê min*; di hinên din de forma bi hiyatusê an bi Y tê parastin.
 
-## 6. Rola Y
+## 7. Rola Y
 
 Di kurmanciya nivîskî de Y konsonanta herî sereke ye ku di navbera du vokalan de, bi taybetî di pêkhateya **reh + paşgir** de, tê bikaranîn:
 
@@ -3957,7 +3965,7 @@ Di pêkhateya **pêşgir + reh** de Y hema-hema qet nayê bikaranîn: *ne + anî
 
 Zêdekirina Y di nivîsînê de nayê wê wateyê ku ew her tim di axaftinê de tê gotin. Di hin devokên rojhilatî de herdu vokal dikarin bimînin bêyî ku Y were bilêvkirin; wek *biraê min* li şûna forma kurtkirî *birê min*.
 
-## 7. Rola H
+## 8. Rola H
 
 H di hin devokan de û di hin tercîhên nivîskaran de wek rêgirê hiyatusê tê bikaranîn, bi taybetî di pêkhateya **pêşgir + reh** de:
 
@@ -3973,7 +3981,7 @@ H bi tevahî û di hemû rewşan de rê li ber hiyatusê nagire. Di van nimûney
 
 Di kurmanciya nivîskî de H di hin peyvên dariştî yên reh + paşgir de tê dîtin: *amade + î → amadehî* (amade-h-î) û *du + em → duhem* (du-h-em). Lê formên bi Y, W an T jî dikarin serdest bin. H di çemandin û girêdana peyvan de rêbazeke giştî nîne.
 
-## 8. Rola W û T
+## 9. Rola W û T
 
 W di hejmareke sînordar ya pêkhateyên reh + paşgir de di navbera vokalan de tê zêdekirin:
 
@@ -3988,7 +3996,7 @@ T di hin peyvên dariştî de wek rêgir tê bikaranîn; ew di çemandin û gir�
 
 Bikaranîna T bi paşgira Î re berbelav bûye, heta di peyvên ku hiyatus tune ye de jî: *heval + î → hevaltî*, li şûna *hevalî*.
 
-## 9. Rola N
+## 10. Rola N
 
 Di kurmancî de hin peyv cotform hene ku di yekê de N ya dawiyê heye û di ya din de tune ye, wek *çawa/çawan* û *wisa/wisan*. Çavkaniyê rave dike ku N ya dawiyê dikare di destpêkê de ji bo rêgirtina li ber hiyatusê hatibe bikaranîn: forma bê N dema ku peyva paşê bi konsonantê dest pê dike, û forma bi N dema ku peyva paşê bi vokalê dest pê dike.
 
@@ -3999,7 +4007,7 @@ Di hin devokan de ev sîstem di formên pirhejmar de jî hatiye parastin. Pirani
 
 Di zimannasiyê de ev N bi navê **N-ya livbar** an **N-ya efelkîstîk** tê nasîn. Çavkaniyê îhtîmala hebûna diyardeyeke dîrokî ya nêzîk di tirkî de jî bi nimûneya *o → ona* destnîşan dike. Sîstema N ya livbar û cotformên wek *çawa/çawan* niha di hemû devok û di zimanê nivîskî de bi awayekî yekgirtî nayên bikaranîn.
 
-## 10. R di soranî û kurdiya başûrî de
+## 11. R di soranî û kurdiya başûrî de
 
 R di kurmancî de wek rêgirê hiyatusê nayê bikaranîn. Lê di hin rewşên soranî û kurdiya başûrî de, bi taybetî di hin formên lêkeran de, dikare were zêdekirin:
 
@@ -4007,11 +4015,11 @@ R di kurmancî de wek rêgirê hiyatusê nayê bikaranîn. Lê di hin rewşên s
 
 Ev taybetmendî divê wek rêbazeke kurmancî neyê pêşkêşkirin.
 
-## 11. V wek rêgir?
+## 12. V wek rêgir?
 
 Hevrehên peyva kurmancî *pîvaz* di soranî, zazakî û farisî de bi Y dest pê dikin: *piyaz*. Yaron Matras texmîn kiriye ku V ya di *pîvaz* de dikare berê konsonanteke rêgirê hiyatusê bûbe. Çavkaniyê vê yekê wek texmîn pêşkêş dike; heta heke rast be jî, V niha bi vî erkî ne çalak e û di peyvên din de bi awayekî berbelav vê rolê ranabe.
 
-## 12. Rêgirtina hiyatusê di navbera du peyvên serbixwe de
+## 13. Rêgirtina hiyatusê di navbera du peyvên serbixwe de
 
 Hin ziman di navbera du peyvên serbixwe de jî rê li ber hiyatusê digirin. Çavkaniyê fransî wek nimûne dide: *je + ai → j’ai*, ku vokal tê avêtin û apostrof tê bikaranîn.
 
@@ -4038,7 +4046,7 @@ Di hin rewşên rêzimanî de kopula jî li gorî dengê dawî yê peyva berî x
 
 Herwiha formên *birayê min ê mezin* û *birayê te yê mezin* wek awayên ku hiyatusê kontrol dikin tên pêşkêşkirin. Di nivîsên hin kesan de forma Y-ya *birayê min yê mezin* jî bûye awayekî giştî.
 
-## 13. Veguhastina vokalekê bi konsonantekê
+## 14. Veguhastina vokalekê bi konsonantekê
 
 Rêbazeke din ew e ku vokalek ji bo rêgirtina hiyatusê dibe konsonantek.
 
