@@ -1995,7 +1995,7 @@ Li gorî beşa taybet a çavkaniyê, komên jêrîn di peyvên kurmancî yên es
 - **-WT**: *çewt, hewt, eşkewt*;
 - **-XT**: *bext, text*.
 
-Çavkaniyê di vê beşê de hin formên devokî û guhertoyên peyvan jî parastine; wek *kuçk/kuçik*, *gwîz/gûz* û *heft/şkeft*. Ev form divê wek guhertoyên dengî bên xwendin, ne ku yek ji wan bê şert ji yên din rastتر bê hesibandin.
+Çavkaniyê di vê beşê de hin formên devokî û guhertoyên peyvan jî parastine; wek *kuçk/kuçik*, *gwîz/gûz* û *heft/şkeft*. Ev form divê wek guhertoyên dengî bên xwendin, ne ku yek ji wan bê şert ji yên din rast bê hesibandin.
 
 ### Komên di peyvên esil-erebî de
 
