@@ -2635,7 +2635,7 @@ Husein Muhammed, *Dengnasî di kurdî de*, rûpelên çapkirî **298–314**.
 
 ## Beşa yekem: Dîftong
 
-### 1. Dîftong çi ye?
+### 1. Pênaseya dîftongê
 
 Dîftong du dengên vokalî ne ku di nav heman kîteyê de bi hev re tên gotin û wek yek tevgera dengî têne bihîstin. Di gotinê de ziman ji cihê derxistina vokala yekem ber bi cihê vokala duyem ve diguhere.
 
@@ -2730,7 +2730,7 @@ Di gelek devokan de Y di van rewşan de nayê bihîstin:
 
 Komdengên **-iya-** jî giring in. Di peyvên wek *çiya, giya, giyan, jiyan, şiyan* de, herçend nivîsînê dikare peyvê wek du kîte nîşan bide, di gotinê de gelek caran *iya* wek yek komdeng tê bilêvkirin. Di şîroveya dengnasiyê de ev dikare wek dîftonga Î + A were analîzkirin.
 
-### 7. Dîftong û nivîsîna standard
+### 7. Têkiliya dîftongê û nivîsîna standard
 
 Rastnivîsîn her tim hemû tevgera dengî ya gotinê bi awayekî rasterast nîşan nade. Komdengên W û Y dikarin li gor peyv û devokê wek nîvvokal, konsonant an beşeke dîftongê tevbigere.
 
@@ -2742,7 +2742,7 @@ Ji bo xwendekar giring e ku:
 
 ## Beşa duyem: Giranî
 
-### 8. Giranî çi ye?
+### 8. Pênaseya giraniyê
 
 Giranî (stress) girankirin an şidandina kîteyekê ye, bi awayekî ku ew ji kîteyên din zelaltir, bihêztir an dirêjtir tê gotin. Giranî dikare li ser kîteya peyvê an beşeke hevokê bikeve.
 
@@ -2935,22 +2935,55 @@ Nimûneyên din:
 
 Ev nimûne nîşan didin ku giranî dikare cudahiya navbera navdêr, rengdêr, daçek û formên lêkerî diyar bike.
 
-## Berawirdkirina kurt
 
-| Mijar | Rêzik an taybetmendiya sereke | Nimûne |
-|---|---|---|
-| Dîftong | Du deng di heman kîteyê de | *xwar* → *xuar* |
-| Vokalên li kîteyên cuda | Dîftong nînin | *sa-et, du-a* |
-| Dîftonga hilkev | Bi W/Y dest pê dike | *wa, we, wê* |
-| Dîftonga dakev | Bi vokalê dest pê dike | *ua, ue, uê, uî* |
-| Giranî ya navdêr | Bi gelemperî li dawiya peyva neçemandî | *a-GIR, ga-ZÎ* |
-| Giranî ya hoker/daçek | Bi gelemperî li kîteya yekem | *PAŞÎ, PÊŞÎ* |
-| Giranî ya rader | Li kîteya dawiyê | *ha-TIN* |
-| Giranî ya pêşpirtika neyînî | Pêşpirtik giran e | *NAçim, NEhat* |
+### 18. Dîftongên bi Y û vokalên din
+
+Y wek W nîvvokalek e: di derxistina wê de herwayê dengî nayê rawestandin, lê Y bi tenê nikare kîteyekê pêk bîne. Di heman demê de zimannas li ser hin komdengan li hev nakin ka ew dîftong in an du dengên cuda ne.
+
+Di kurmancî de dîftongên bi Y/Î re bi dawî tên bi awayên jêrîn tên dîtin:
+
+- **AY/AÎ:** di *çay, hay, ay* de. Di hin devokan de Y dikeve (*çay → ça, hay → ha*). Di formên çemandî yên nêr de, nivîsîna standard -YÎ heye; lê di gotina hin devokan de A û Y di heman kîteyê de dibin dîftonga ay.
+- **EY/EÎ:** di *heyv, keyf, hey, ey, mey, ney* de. Gelek ji van peyvan bi eslê xwe biyanî ne. Di kîteyên girtî de EY gelek caran dibe Ê (*keyf → kêf*). Peyva *heyv* di gelek devokan de wek *hîv* tê gotin; *dey kirin* û formên wê jî di hin devokan de tên dîtin.
+- **ÊY/ÊÎ:** di kurmancî de bi awayekî kêm, bi taybetî di gazîkirina *hêy* de tê dîtin; li gelek deveran wek *hê* tê gotin.
+- **IY/IÎ:** komdengê -iy- di peyvên wek *çiya, giya, siyaset, qiyamet* de heye, lê ev peyv dîftonga iy çênakin. Di *qîmet* de Î monoftong e; awayê *qiymet* bi bandora tirkî hatiye.
+- **ÎY/ÎÎ:** di kurmancî de dîftong nîne. Di peyvên wek *çiya, giya, siyaset* de Î û Y, heke bi î were nivîsîn, ji kîteyên cuda ne.
+- **OY/OÎ:** di kurmancî de bi gelemperî tenê di gazîkirina *oy* de heye. Di *Zaxoyî* û *boyax* de O û Y di kîteyên cuda ne. Di soranî de *xoy* dîftonga oy heye.
+- **UY/UÎ:** di peyvên xwerû yên kurmancî û soranî de bi gelemperî tune ye. Hin devok formên wek *duy* bi wateya demjimêra du piştî nîvro hildigirin; formên din *duyê/duyî* dibêjin.
+- **ÛY/ÛÎ:** di kurmancî de carinan di *xûy* de tê dîtin, lê forma *xû* jî heye. Di soranî de di girêdanê de wek *xanûy ewan* peyda dibe.
+
+### 19. Dîftongên bi Y dest pê dikin
+
+Di derbarê Y + vokal de jî lihevkirineke temam di nav zimannasan de tune ye. Heke ev komdeng wek dîftong bên hesibandin, di kurdî de van awayan hene:
+
+- **YA/ÎA:** *yar, beyar, yad, ya* (wek *ya min*). Ev komdeng di rastiyê de ne zêde berbelav e; *ya* û *yan* di hin devokan de wek *a* û *an* tên gotin.
+- **YE/ÎE:** *yek, ye, yezdan*. Di gotina rojane de Y carinan nayê bihîstin; *nameyek* dikare wek *namek* were gotin.
+- **YÊ/ÎÊ:** di *yê, yên, bayê felekê* de tê dîtin. Di hin devokan de Y bêdeng e.
+- **YÎ/ÎÎ:** di nivîsînê de di *tu yî, qamişloyî, ronayî* de xuya dike, lê di gotinê de Y gelek caran nayê bihîstin û komdeng dîftong çênake.
+- **YO/ÎO:** di nivîsînê de *birayo* ye, lê di gotinê de Y bêdeng e: *birao* an *biraw*.
+- Y li ber I, U û Û dîftong çênake. Li ber Ê di cînav û formên çemandî de tê nivîsîn (*yê din, yên min, birayê te, nameyên wê*), lê di gelek devokan de nayê bihîstin.
+- Komdengê **-IYA-** di peyvên *çiya, giya, giyan, jiyan, niyan, şiyan* û peyvên wergirtî yên wek *diyanet, riwayet, siyasət, xiyanet* de heye. Di gotinê de *-iya-* bi gelemperî di heman kîteyê de tê bilêvkirin û dengê dîftongî **ÎA** dide; ev peyv bi gelemperî wek du kîte nayên dabeşkirin.
+
+### 20. Guherîna U û I
+
+Di kurmancî de U û I di hin peyvan de bi hev diguherin: *bihar/buhar, cuda/cida, dinya/dunya, Mihemed/Muhemed, niha/nuha, ruh/rih*. Lê ev guherîn bê şert û bê sînor nîne. I bi gelemperî nabe U; peyvên wek *kirin, gotin, dil, min* nikarin bi U bên gotin.
+
+U jî herdem nabe I. Di hin peyvan de herdu form hene: *dukan/dikan, furset/firset, hundir/hindir, mumkin/mimkin, sultan/siltan, şukir/şikir, wucûd/wicûd, zuha/ziha/ziwa*. Di hin peyvên din de forma bi U serdest e: *tu* (ne *ti*), *du* (ne *di*), *duh/duhî* (ne *dih/dihî*).
+
+Piştî dengên **G, K, Q, X û Ẍ**, U bi gelemperî nayê guhertin bo I: *gul, guhan, gund, kul, kum, qut, qumaş, qul, xurt, xulam, xurandin, xuya*. Ji ber vê yekê *gund* nabe *gind* û *kul* nabe *kil*; *kil* peyveke din e.
+
+Guherîna *ku-* bo *ki-* an *gu-* bo *gi-* ku di hin devokan de tê dîtin, guherîneke navbera-zaravayî ye, ne alternatîveke hundirî di heman devokê de. Mînakên wê *kurm/ kirm, kurmanc/kirmanc* û di zazakî de *kuştin/kişten* in. Ev guherîn bi sivikkirina komdengên konsonantî ve girêdayî ye, ne bi heman mekanîzma guherîna U û I.
+
+Guherîna U bo I bi kurtkirin û hêsankirina gotinê ve girêdayî ye. I kurtir e û di hin şertên dengî de zûtir tê derxistin. Di kurmancî de guherîna vokalên din bo I jî heye; mînak *nimêj/nivêj* û *mirin* ku di wan de dengên kevn ên E/Ê an U/O di kurmancî de bûne I.
+
+U ya piştî G, K, Q, X û Ẍ di gelek peyvan de ji komdenga kevn a **-WI-** hatiye. W nîvvokal e û dikare bi rola vokalê rabibe. Ji ber ku du vokal li pey hev di heman kîteyê de nayên nivîsîn, U bi W tê nîşandan: *xwarin, xwe, xwê, xwişk, xwîn*. Ji aliyê dengnasiyê ve ev dikarin wek *xuarin, xue, xuê, xuişk, xuîn* bên şîrovekirin.
+
+Di hin devokan de *XW* dibe *X* (*xwarin → xarin*); di hin deverên din de koma *KW* sivik dibe û W ji navbera wan dikeve (*kurmanc → kirmanc*). Ev sivikkirina komkonsonantan ji guherîna asayî ya U/I cuda ye.
+
+I jî di hin peyvan de dikare bibe U, bi taybetî li ber an piştî H: *bihar/buhar, hundir/hundir û wisa/wusa*. Lê divê ev guherîna devokî ji etîmolojiya peyvê cuda were dîtin: di hin peyvan de dengê bingehîn E bûye I, ne ku U ya kevn paşê bûbe I. Nimûneyên *bihar* û *hindir* bi rehên ku E di wan de heye têne ravekirin.
 
 ## Çavkanî
 
-Husein Muhammed, *Dengnasî di kurdî de*, beşa dîftong û giranî.
+Husein Muhammed, *Dengnasî di kurdî de*, rûpelên çapkirî **315–347**.
 
 ---
 
