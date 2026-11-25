@@ -1124,7 +1124,7 @@ Dengê L dikare li destpêk, nav û dawiya peyvan were:
 - **Li navê:** *alî, bilind, Celîl, bela, bilûr*.
 - **Li dawiyê:** *çal, dil, gul, hêl, mil, nal*.
 
-Li gorî lêkolîna ku pirtûk vedigire, rêjeya herfa L di nivîsên kurmancî de **2,1%** e. Daçeka *li* (wek *li ser, li bin, li malê*) û girêdera *lê* (bi wateya *feqet, ema, belam, belê*) di zêdebûna rêjeya wê de roleke girîng dilîzin. L di nav û dawiya peyvan de jî bi rêjeyeke normal tê dîtin. Lê li destpêka peyvan kêm e û gelek peyvên bi L dest pê dikin bi eslê xwe ji zimanên din hatine.
+Li gorî lêkolîna ku pirtûk vedigire, rêjeya herfa L di nivîsên kurmancî de **2,1%** e. Di heman lêkolînê de 16 herf ji L zêdetir û 14 herf jê kêmtir tên dîtin. Daçeka *li* (wek *li ser, li bin, li malê*) û girêdera *lê* (bi wateya *feqet, ema, belam, belê*) di zêdebûna rêjeya wê de roleke girîng dilîzin. L di nav û dawiya peyvan de jî bi rêjeyeke normal tê dîtin. Lê li destpêka peyvan kêm e û gelek peyvên bi L dest pê dikin bi eslê xwe ji zimanên din hatine.
 
 ## 7. Herfek û du deng: L-ya zirav û L-ya qelew
 
