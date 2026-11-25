@@ -2310,7 +2310,7 @@ Dengnasîya I di çavkaniyê de bi [ɪ] tê nîşandan; ew ji [ɯ] ya tirkî cud
 
 ## 5. I — vokala kurt a pêşîn
 
-Dengê **I/i** vokaleke kurt, bilind û pêşîn e. Ziman nêzî banê devê û li aliyê pêşiyê ye; lêv pehn in û nayên girovkirin. Nîşana wê di IPA de **[ɪ]** ye.
+Dengê **I/i** vokaleke kurt, bilind û navendî-pêşîn e. Ziman nêzî banê devê û li herêma navendî ya pêşîn e; ew ne bi temamî vokaleke pêşîn e, lê ji navendê zêdetir nêzî aliyê pêşiya devê ye; lêv pehn in û nayên girovkirin. Nîşana wê di IPA de **[ɪ]** ye.
 
 I ji Î cuda ye: I kurt e û di devê de ji Î nizimtir tê derxistin. Herwiha divê ew ji [ɯ] ya tirkî bê cudakirin; [ɯ] vokaleke paşîn e, lê I-ya kurdî li pêşiya devê ye. I-ya kurdî nêzî kesreya erebî ye, lê ne bi temamî wek wê ye: kesre di navbera I û Î de ye û dema peyvên erebî dikevin kurmancî, bi gelemperî wek I tê gotin.
 
