@@ -946,11 +946,13 @@ Di peyvên xwemalî yên kurdî de jî heye:
 - *teḧl, taḧl*;
 - *zeḧf, zaḧf*.
 
+Pirtûk herwiha peyva *ḧinêr* ya kurmanciya rojhilatî bi wateya hêz û şiyanê qeyd dike û wê bi *huner* re girêdide; nivîskar dibêje ku ev form di kurmanciya navendî de nebihîstiye. Peyva *ḧal* jî di kurdî de tê bikaranîn, lê ne peyveke erebî ye: bi rêya tirkî ji frensî *halle* û almanî *Halle* hatiye. Pirtûk îhtîmala bandora peyva erebî *ḧal* (rewş) li ser bilêvkirina wê jî vedibêje.
+
 Di kurmanciya navendî de hin peyvên xwemalî bi Ḧ tên gotin, lê di kurmanciya rojhilatî de hevberên wan bi H-ya asayî tên gotin:
 - navendî *ḧemû, ḧezar, ḧirç, ḧiş, ḧeyşt, ḧijde*;
 - rojhilatî *hemî, hezar, hirç, hiş, heşt, hejde*.
 
-Di hin peyvên ji erebî hatine de jî Ḧ bûye H an herdu awayên gotinê hene: *heq/ḧeq, heta/ḧeta, hêrs/ḧêrs, hewce/ḧewce*. Ev guherîn sînordar e; bi gelemperî Ḧ di gelek peyvan de dimîne. Di hin navên mirovan de jî *Ḧemze* bûye *Hemze* an herdu form hene.
+Di hin peyvên ji erebî hatine de jî Ḧ bûye H an herdu awayên gotinê hene: *heq/ḧeq, heta/ḧeta, hêrs/ḧêrs, hewce/ḧewce*. Di hin navên mirovan de *Ḧemze* û *Ḧazim* bûne *Hemze* û *Hazim*, an jî herdu form hene. Pirtûk herwiha du nimûneyên wergirtinê bi rêya soranî qeyd dike: *hewał* ji *eḧwal* ya erebî, û *hest* ku ji *ḧiss* ya erebî hatiye. Berevajî vê, nivîskar dibêje ku *hêcet* (ji *ḧacet*) bi [ħ] nebihîstiye, herçend peyvên hevreha wê *muḧtac* û *iḧtiyac* tenê bi [ħ] tên gotin. Bi giştî, guherîna [ħ] bi [h] sînordar e û dengê [ħ] di piraniya peyvên deynkirî de dimîne.
 
 ## 3. Em çawa binivîsin?
 
