@@ -646,7 +646,7 @@ Pirtûk du rewş ji hev cuda dike:
 1. **Peyvên kevn û cihgir:** Peyvên ku ji mêj ve di zimanê axaftinê de bi forma guherî de hatine bikaranîn, dikarin forma xwe ya naskirî biparêzin; wek *dezgeh, dezgir, dezgirtî*.
 2. **Peyvên nûçêkirî an formên zelal ên zimanê nivîskî:** Di van de parastina rehê peyvê dikare baştir be, da ku pêkhateya wê zelal bimîne.
 
-Ji ber vê yekê divê mirov li dîroka peyvê, maneya wê û asta cihgirtina wê di zimanê de binêre; ne ku her peyvekê bi rêgezeke yekane rast bike.
+Ji ber vê yekê divê mirov li dîroka peyvê, maneya wê û asta cihgirtina wê di zimanê de binêre; ne ku her peyvekê bi rêgezeke yekane rast bike. Pirtûk herwiha dibêje ku di hin devokan de *dezgir* û *dezgirtî* wek *dergistî* tên gotin; ev form bi veguhastina cihê dengan (metatez) hatiye ravekirin. Ev nimûne nîşan dide ku hemû formên nêzîk ne tenê bi heman rêbazê çêdibin.
 
 ## 5. Tesîra cihê derketina dengê
 
@@ -676,7 +676,7 @@ V û H ji aliyê cihê çêbûna dengê ve dûr in, lê di vê berawirdkirinê d
 
 Pirtûk du nimûneyên kurmancî dide:
 - **heşt**: li gor berawirdkirina dîrokî, H-ya destpêkê bi bandora *heft* hatiye zêdekirin.
-- **neh**: şiklê wê bi bandora *deh* re hatiye nêzîkkirin.
+- **neh**: şiklê wê bi bandora *deh* re hatiye nêzîkkirin. Pirtûk formên dîrokî yên pêşniyarkirî wek *new* an *noh* nîşan dide. Di kurmanciya navendî de forma *heyşt* jî tê bikaranîn; dengê destpêkê yê wê li gor devokê dikare cuda be.
 
 Analojî dikare di destpêk, nav an dawiya peyvê de çêbibe. Bandor dikare ji peyva berî wê an peyva piştî wê were; lê ne her tim pêk tê.
 
@@ -684,7 +684,7 @@ Analojî dikare di destpêk, nav an dawiya peyvê de çêbibe. Bandor dikare ji 
 
 Pirtûk nîşan dide ku pêşdaçekên kurmancî **bi, di, ji, li** ji aliyê şiklê dengî ve pir nêzîkî hev in. Her yek ji wan du deng hildigire û bi dengê *i* diqede. Li gor nivîskar, ev nêzîkbûn bi erkê wan ê rêzimanî ve girêdayî ye: hemû pêşdaçek in û tên pêşiya navdêran, tevî ku maneyên wan cuda ne.
 
-Pirtûk herwiha paşdaçekên **de, re, ve** wek nimûneyên din ên nêzîkbûna şiklê pêşkêş dike. Dîroka wan cuda ye, lê di kurmancî de şiklên wan nêzîkî hev bûne.
+Pirtûk herwiha paşdaçekên **de, re, ve** wek nimûneyên din ên nêzîkbûna şiklê pêşkêş dike. Dîroka wan cuda ye, lê di kurmancî de şiklên wan nêzîkî hev bûne. Di hin devokan de formên *da, ra, va* jî hene. Nivîskar herwiha balê dikişîne ser **bo**: ew bi analojiyê wek *bi, di, ji, li* neguheriye; ji ber ku di hin devokan de bi *ji* re tê bikaranîn û erkê wê bi wan pêşdaçekên bingehîn re yekسان nîne.
 
 ### 7.3. Analojî di cînav û hokeran de
 
