@@ -503,7 +503,7 @@ Husein Muhammed, *Dengnasî di kurdî de*, rûpelên çapkirî 40–43.
 
 Peyv ji yek an çend kîteyan pêk tên. Kîte parçeyeka peyvê ye ku mirov dikare di dema gotina peyvê de bêhna xwe li ser wê bigire. Peyva *av* yekkîteyî ye, *bi-rin* dukîteyî ye û *gi-han-di-bû-yê* pirrkîteyî ye.
 
-Dengrêzî, anku fonotaksî, lêkolîna rêzikên birêzkirina dengan di kîte û peyvan de ye. Li gorî van rêzikan, hin komên dengan dikarin li pey hev bên û hin komên din ne mimkin in. Bo nimûne, di kurmancî de **st-** dikare li destpêka peyvê bê, wek *stêr, stem, standin*; lê **nd-** nikare dest bi peyvê bike. Nivîskar herwiha destnîşan dike ku **R** li destpêka peyvê herdem şidandî ye û R-ya nerm li wê pozîsyonê nayê. Stêrka * di nivîsa pirtûkê de formeke ne-mimkin nîşan dide. Herdu komên **st** û **nd** dikarin di nava an dawiya peyvê de jî peyda bibin, wek *mast, rast, ristin; çend, çandin, bilind*.
+Dengrêzî, anku fonotaksî, lêkolîna rêzikên birêzkirina dengan di kîte û peyvan de ye. Li gorî van rêzikan, hin komên dengan dikarin li pey hev bên û hin komên din ne mimkin in. Bo nimûne, di kurmancî de **st-** dikare li destpêka peyvê bê, wek *stêr, stem, standin*; lê **nd-** nikare dest bi peyvê bike. Stêrka * di nivîsa pirtûkê de formeke ne-mimkin nîşan dide. Nivîskar herwiha destnîşan dike ku **R** li destpêka peyvê herdem şidandî ye û R-ya nerm li wê pozîsyonê nayê. Herdu komên **st** û **nd** dikarin di nava an dawiya peyvê de jî peyda bibin, wek *mast, rast, ristin; çend, çandin, bilind*.
 
 Pirtûk destnîşan dike ku her herfa kurdî dikare li destpêka peyvê cih bigire, lê hemû dengên ku bi heman herfê tên nivîsîn ne. Li dawiya peyvê jî gelek herf dikarin bên, lê dengên bihilm ên **Ç, K, P, T** li wê pozîsyonê nayên. Dengên bêhilm û qelew ên P û T dikarin li dawiya peyvê bên; dengên qelew û bihilm nikarin.
 
@@ -569,7 +569,7 @@ Di nîşandana avaniya kîteyê de **C** konsonant û **V** vokal e. Cûreyên k
 
 Cûreyên ku di kevanokan de hatine nivîsîn di pirtûkê de wek cûreyên kêm peyda têne nîşandan. Pirtûk diyar dike ku cûreyên kîteyan dikarin di destpêka peyvê de bên; di nav an dawiya peyvê de komên konsonantan bi piranî li ser du kîteyan tên parvekirin.
 
-Kîtekirin her tim tenê bi nivîsînê nayê diyarkirin. Di hin peyvan de kîtekirina li gor gotinê, peyvsaziyê û etîmolojiyê ji ya ku tenê li gor nivîsînê tê dabeşkirin cuda ye. Bo nimûne, pirtûk ji bo *saet* cudahiya di navbera kîtekirina nivîskî **sa-et** û ya gotinê **sa-et** (ku di nivîsînê de **-et** wek VC xuya dike, lê di gotinê de CVC ye) destnîşan dike. Ji bo *berav* herdu awayên *be-rav* û *ber-av* nîşan dide û ya duyem li gor gotinê, peyvsaziyê û etîmolojiyê saxlemtir dibîne. Di peyva *binavkirin* de jî kîtekirin dikare li gorî wateyê biguhere: *bi-nav-ki-rin* an *bin-av-ki-rin*.
+Kîtekirin her tim tenê bi nivîsînê nayê diyarkirin. Di hin peyvan de kîtekirina li gor gotinê, peyvsaziyê û etîmolojiyê ji ya ku tenê li gor nivîsînê tê dabeşkirin cuda ye. Bo nimûne, pirtûk diyar dike ku di *saet* de **-et** di nivîsînê de wek VC tê nîşandan, lê di gotinê de CVC ye. Ji bo *berav* herdu awayên *be-rav* û *ber-av* nîşan dide û ya duyem li gor gotinê, peyvsaziyê û etîmolojiyê saxlemtir dibîne. Di peyva *binavkirin* de jî kîtekirin dikare li gorî wateyê biguhere: *bi-nav-ki-rin* an *bin-av-ki-rin*.
 
 ## 7. Tesîra lerzê li ser guherîna dengan
 
