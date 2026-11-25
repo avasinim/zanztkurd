@@ -684,7 +684,7 @@ Analojî dikare di destpêk, nav an dawiya peyvê de çêbibe. Bandor dikare ji 
 
 Pirtûk nîşan dide ku pêşdaçekên kurmancî **bi, di, ji, li** ji aliyê şiklê dengî ve pir nêzîkî hev in. Her yek ji wan du deng hildigire û bi dengê *i* diqede. Li gor nivîskar, ev nêzîkbûn bi erkê wan ê rêzimanî ve girêdayî ye: hemû pêşdaçek in û tên pêşiya navdêran, tevî ku maneyên wan cuda ne.
 
-Pirtûk herwiha paşdaçekên **de, re, ve** wek nimûneyên din ên nêzîkbûna şiklê pêşkêş dike. Dîroka wan cuda ye, lê di kurmancî de şiklên wan nêzîkî hev bûne. Di hin devokan de formên *da, ra, va* jî hene. Nivîskar herwiha balê dikişîne ser **bo**: ew bi analojiyê wek *bi, di, ji, li* neguheriye; ji ber ku di hin devokan de bi *ji* re tê bikaranîn û erkê wê bi wan pêşdaçekên bingehîn re yekسان nîne.
+Pirtûk herwiha paşdaçekên **de, re, ve** wek nimûneyên din ên nêzîkbûna şiklê pêşkêş dike. Dîroka wan cuda ye, lê di kurmancî de şiklên wan nêzîkî hev bûne. Di hin devokan de formên *da, ra, va* jî hene. Nivîskar herwiha balê dikişîne ser **bo**: ew bi analojiyê wek *bi, di, ji, li* neguheriye; ji ber ku di hin devokan de bi *ji* re tê bikaranîn û erkê wê bi wan pêşdaçekên bingehîn re wekhev nîne.
 
 ### 7.3. Analojî di cînav û hokeran de
 
