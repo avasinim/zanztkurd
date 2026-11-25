@@ -4,15 +4,15 @@
 **Ziman:** Kurmancî, tîpên latînî.  
 **Status:** Draft for editorial review; not published or activated.
 
-##  
+## Rêberên bingehîn  
 
--    ;  PDF      .
--   ,  ,  ,  ,     .
--       ;      .
--        .       .
--            .
+- Naveroka dersan li gorî çavkaniya bingehîn tê amadekirin; pirtûk wek xwe nayê kopîkirin.
+- Mijar û nimûneyên girîng bi kurtkirin û şirovekirina xwe tên pêşkêşkirin; agahiyên bêçavkanî nayên zêdekirin.
+- Zimanê kursê Kurmancî ye û nivîsîn bi tîpên latînî ye.
+- Pirs, test, quiz, rahênan, armancên fêrbûnê, kurtasî û bersivname nayên zêdekirin.
+- Ji bo her dersê, rûpelên çapkirî yên çavkaniyê bi awayekî rast tên nîşandan.
 
-##   
+## Rêza dersan
 
 | # |  |  |
 |---:|---|---:|
