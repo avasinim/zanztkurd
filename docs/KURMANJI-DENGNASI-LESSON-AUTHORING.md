@@ -1320,7 +1320,7 @@ P dikare li destpêk, nav û dawiya peyvê were:
 - **Li navê:** *kepir, bapîr, şapik*.
 - **Li dawiya peyvê:** *ap, kûp, hesp*.
 
-Li gorî lêkolîna ku pirtûk jê vedigere, rêjeya P di nivîsên kurmancî de 0,7% e. P li destpêka peyvê gelemperî ye, lê di nav û dawiya peyvên xwemalî de kêm e. Pirtûk vê kêmiyê bi guherînên dîrokî yên P-ya navîn û dawî re girêdide.
+Li gorî lêkolîna ku pirtûk jê vedigere, rêjeya P di nivîsên kurmancî de 0,7% e. Di wê vekolînê de tenê Ç, C, Q û F ji P kêmtir tên dîtin. P li destpêka peyvê gelemperî ye, lê di nav û dawiya peyvên xwemalî de kêm e. Pirtûk vê kêmiyê bi guherînên dîrokî yên P-ya navîn û dawî re girêdide.
 
 ## 3. P-ya bipif û P-ya bêpif
 
@@ -1345,18 +1345,18 @@ Ji bilî pifdarî, P dikare **zirav** an **qelew** were gotin:
 - P-ya zirav: *par* (sala borî), *pênc, pîvaz, pûng*.
 - P-ya qelew: *pazde, pez, piling, poz*.
 
-Di hin peyvan de awayê zirav an qelew bi vokala li pey P re têkildar e; lê ev rêzik bêistisna nîne û di hin devokan de gotina peyvekê dikare cuda be. Mînak, *penîr* di hin devokan de bi P-ya zirav û di hinên din de bi P-ya qelew tê gotin.
+Di P-ya bêpif de, berî O herdem qelew e (*poz*); berî Ê, Î û Û zirav e (*pêr, pîr, pûng*); berî A, E û I bi piranî zirav e, lê îstîsna wek *parzûn, pembû, pez* hene. *Penîr* li gorî devokê dikare zirav an qelew were gotin. P-ya bipif bi piranî zirav e (*perde, parçe, pirt*), lê *pind* dikare bipif û qelew be. Di peyvên biyanî de P berî O dikare req-qelew be (*poste*), lê di peyvên xwemalî de *por(r)* zirav e.
 
 Cudahiya P-ya zirav û qelew **fonemîk nîne**: guherandina yekê bi ya din wateya peyvê naguherîne. Ji ber vê yekê ew du **alofon** in, anku du awayên derketina heman fonemê. Bi gelemperî P-ya bêpif dikare qelew be; P-ya bipif bi piranî zirav e, herçend îstîsna jî hene.
 
 ## 5. Guherînên dîrokî yên P
 
-P di hemû lehceyên kurdî de heye û di gelek zimanên cîran û zimanên hindûewropî de jî tê dîtin. Pirtûk çend rêyên dîrokî yên peydabûna wê nîşan dide:
+P di hemû lehceyên kurdî de heye û di gelek zimanên cîran û zimanên hindûewropî de jî tê dîtin. P-ya proto-hindûewropî di gelek peyvan de hatiye parastin: *pê* ji *\*pods-*, *pênc* ji *\*pénkʷe* û *pir* ji *\*pértus-*. P di hin peyvan de ji W/V/U-ya kevn jî hatiye, wek *pêl* û *por(r)/pûrt*; P-ya navîn jî di *hesp* û *dilop* de bi W/V/U-ya proto-hindûewropî ve girêdayî ye. Pirtûk çend rêyên din ên peydabûna wê jî nîşan dide:
 
-- Hin P-yan di kurdî de ji dengên kevn ên W/V/U peyda bûne; wek *pêl* û *por(r)/pûrt* di berawirdkirinên dîrokî de.
+- Di hin peyvên devkî de B-ya destpêkê bûye P: *pisqilêt* (ji rêya tirkî *bisiklet*), *paysikil* (ji *bicycle*), *pas* (ji *bus*) û *patrî* (ji *battery*). Pirtûk herwiha gava daçeka *bi* bi *wê/wî/wan* re tê, forma *pê* nîşan dide; di hin devokan de *bi* û pêşpirtika lêkerî *bi-* jî dibe P, wek *bi avê → p’avê*.
 - P-ya destpêka hin peyvan ji B-ya zimanên din an ji formên bi B hatine; mînakên gotinî yên pirtûkê *pisqilêt, paysikil, pas* û *patrî* ne.
 - Di hin peyvên xwemalî de P-ya navîn an dawî di qonaxên dîrokî de bûye B û paşê V; di soranî de di hin heman peyvan de W heye. Berawirdkirina *av/aw*, *sêv/sêw* û *heft/hewt* di tabloya pirtûkê de tê pêşkêşkirin.
-- Di hin peyvên ku bi tesîra erebî hatine, P bûye F; ji ber ku P di erebiya standard de tune ye. Nimûne: *fincan* û *fisteq*, ku pirtûk bi formên kevn ên *pengan* û *pistek* re berawird dike.
+- Di hin peyvên îranî de P bi rêya erebî bûye F, ji ber ku P di erebiya standard de tune ye. Nimûne: *fincan* ji *pengan* û *fisteq* ji *pistek*. Pirtûk herwiha rêya belavbûna forma *fisteq* ji zimanên îranî bo yûnaniya kevn û paşê zimanên ewropî vedibêje.
 
 Ev nimûne nîşan didin ku P dikare di destpêkê de ji dengên din peyda bibe, an di nav û dawiya peyvê de bi dengên din re biguhere. Her peyv divê li gorî dîroka xwe were şîrovekirin; ev guherîn rêzikeke yekgirtî ya bêistisna nînin.
 
@@ -1382,16 +1382,13 @@ Pirtûk destnîşan dike ku Q di zimanên hindûewropî yên kevn û di gelek zi
 **1. Bandora zimanên samî, bi taybetî erebî:** Dengê Q di zimanên samî yên Rojhilata Navîn de berbelav e. Gelek peyvên erebî bi Q ketine kurdî, wek *qam, qemer, qiyas, qîr, qudret*. Hin peyvên ku eslê wan ji yûnaniya kevn e jî bi rêya erebî gihiştine kurdî; wek *qanûn, qelem, qesir*.
 
 **2. Bandora zimanên tirkîkî:** Di hin zimanên tirkîkî de Q berî vokalên paşîn gelemperî ye. Di hin peyvên ku kurdî ji tirkî wergirtiye de, heke K di peyva tirkî ya bingehîn de li pêşiya vokaleke paşîn (A, I, O, U) be, ew dikare di kurdî de bibe Q. Ev şert li ser forma tirkî ya jêderê ye, ne li ser vokala ku di forma kurdî de xuya dike:
-- *qazan* ji tirkî *kazan*;
-- *qere-* ji *kara*;
-- *qonax/qûnax* ji *konak*;
-- *qûm* ji *kum*.
+- *qazan* ji tirkî *kazan*; *qazanc/qezenc* ji *kazanç*; *qere-* ji *kara*; *qonax/qûnax* ji *konak*; *qurm* ji *kurum*; *qeytan* ji *kaytan*; *qalind* ji *kalın*; *quzilqurt* ji *kızıl kurt*; *qûm* ji *kum*. Ev guherîn li gorî K-ya forma tirkî ya jêderê ye, heta heke di forma kurdî de vokala pêşîn hebe, wek *qîz*.
 
-Lê berî vokalên pêşîn K bi gelemperî wek K dimîne; wek *kelemçe, kepeng, komir, kok, koç*. Ev dabeşkirin rêbereke giştî ye, lê pirtûk îstîsna jî destnîşan dike.
+Lê berî vokalên pêşîn K bi gelemperî wek K dimîne; wek *kelemçe, kepeng, komir, kok, koç*. Pirtûk îstîsnayên wek *kon/kûn* û cudahiya *kol/qol* jî destnîşan dike. Ji ber vê yekê ev dabeşkirin rêbereke giştî ye, ne qanûneke bêîstîsna.
 
 ## 9. Guherînên Q bi dengên din re
 
-Di peyvên ji erebî hatine de Q bi gelemperî tê parastin, lê di hin peyvan an devokan de dikare bibe K; wek *qel'e → keleh/kelhe* û di gotina hin kesan de *xelq → xelk*. Ev guherîn di hemû peyvan de bi heman awayî pêk nayê.
+Di peyvên ji erebî hatine de Q bi gelemperî tê parastin, lê di hin peyvan an devokan de dikare bibe K; wek *qel'e → keleh/kelhe* û di gotina hin kesan de *xelq → xelk*. Di hin devokan de K jî dikare bibe Q; pirtûk nimûneya *fakihe → fêkî/fêqî* dide. Ev guherîn di hemû peyvan de bi heman awayî pêk nayê.
 
 Berî hin konsonantên bêlerz ên wek T, S û Ş, Q-ya erebî di kurdî de bi gelemperî dibe X:
 - *weqt → wext*;
