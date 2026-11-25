@@ -862,7 +862,7 @@ Gava dengekî bêlerz, wek T, li pey V were, V dikare bibe F:
 
 Pirtûk heman guherîna V → F di îngilîzî de jî bi *leave → left* nîşan dide. Berevajî vê, dengekî bilerz li pey F dikare F bike V. Di nimûneya *heft + deh* de, piştî ketina T-ya navîn, D-ya bilerz F-ya berî xwe dike V û forma *hevde(h)* çêdibe.
 
-Di hin peyvan de F dikare bi B, W an carinan H re têkildar bibe. Di soranî de li hember koma dengên FT ya kurmancî gelek caran WT heye:
+Di hin peyvan de F dikare bi B, W an carinan H re têkildar bibe. Pirtûk peyva *vala/vale* jî wek nimûneyeke nîqaşbar pêşkêş dike: dibe ku ji erebî *faric* be, an jî ji formên ermenî yên *barab/parap* hatibe. Ev etîmolojî wek îhtîmal hatiye gotin, ne wek rastiyeke piştrast. Di soranî de li hember koma dengên FT ya kurmancî gelek caran WT heye:
 - kurmancî *heft* — soranî *hewt*;
 - kurmancî *şkeft* — soranî *eşkewt*;
 - kurmancî *mizgeft* — soranî *mizgewt*;
