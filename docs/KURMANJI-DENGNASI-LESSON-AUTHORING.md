@@ -2673,16 +2673,16 @@ Ev sînordarî taybetmendiya hemû devokan nîne. Di kurmanciya Behdînan de û 
 
 Di komdengên W + vokal li destpêka kîteyê de jî divê em cudahiya devokan biparêzin. Herçend di hin zimanan de ev komdeng wek dîftong tên hesibandin, di rêzimanên kurdî de bi gelemperî wek dîftong nayên hejmartin. Komdengê *wi-* di hin devokan de heye (*wilayet, wilo, wisa*), lê di gelek devokên din de formên *wîlayet, wesa, weqas/ewqas* tên gotin.
 
-### 4. Dîftongên W + vokal li destpêka kîteyê
+### 4. Komdengên W + vokal li destpêka kîteyê
 
-Di gelek zimanan de W li destpêka kîteyê bi vokala piştî xwe re dikare dîftong çêbike. Di kurdî de jî nimûneyên wek van hene:
+Di gelek zimanan de W li destpêka kîteyê an peyvê, bi vokala piştî xwe re, wek dîftong tê hesibandin. Heke ev şîrove li ser nimûneyên kurdî were sepandin, komdengên jêrîn dikarin wek dîftong bên nîşandan:
 - *wa*: *wan, war, walî*;
 - *we*: *welat, were, wekîl*;
 - *wê*: *wêran, wê, wêrîn*;
 - *wi*: *wilayet, wijdan, wisa, wilo*;
 - *wî*: *wî, wîşî*.
 
-Lê di hin devokan de bilêvkirin cuda ye; bo nimûne *wisa* dikare bi awayê *wesa* were gotin. Ji ber vê yekê divê xwendekar cudahiya nivîsîna standard û bilêvkirina devokî li ber çavan bigire.
+Lê çavkaniyê destnîşan dike ku di rêzimanên kurdî de ev komdeng bi gelemperî wek dîftong nayên hejmartin. Herwiha bilêvkirin li gor devokê diguhere; bo nimûne *wisa* di hin devokan de wek *wesa* tê gotin. Ji ber vê yekê divê cudahiya şîroveya dengnasî, nivîsîna standard û bilêvkirina devokî were parastin.
 
 ### 5. Komdenga -IWA- û bilêvkirina -UA-
 
