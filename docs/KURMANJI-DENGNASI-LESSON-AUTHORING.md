@@ -22,7 +22,7 @@
 | 4 | Qelewîtî | 29–39 |
 | 5 | Rêjeya herfan di nivîsên kurmancî de | 40–43 |
 | 6 | Dengrêzî û kîte | 44–55 |
-| 7 | Tesîra guherîna dengî li ser nivîsînê | 56–67 |
+| 7 | Tesîra guherîna dengî li ser nivîsînê | 72–75 |
 | 8 | Konsonantên B, C, Ç û D | 68–103 |
 | 9 | Dengên F û G | 104–115 |
 | 10 | Dengên H û J | 116–132 |
