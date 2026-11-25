@@ -46,56 +46,47 @@
 
 ---
 
-# Dersa 1 — Dengnasî çi ye û çima girîng e?
+# Dersa 1 — Dergeh û ev vekolîn û yên berî wê
 
 ## 1. Dengnasî di nav zimannasiyê de
 
-Zimannasî zanista lêkolîna ziman e. Ziman tenê ji peyv û hevokan pêk nayê;  deng, avabûna peyvan, rêkxistina hevokan û wate jî di lêkolîna wî de girîng in.
+Dengnasî (fonolojî; bi îngilîzî *phonology*) yek ji beşên sereke yên zimannasiyê ye. Beşên din ên sereke teşenasî, hevoknasî, watenasî û kirdarînasî ne. Ji ber vê yekê, di gelek pirtûkên rêzimana kurdî de dengnasî di destpêka pirtûkê de tê xuyangkirin.
 
-**Dengnasî** (*phonology*) beşek sereke ya zimannasiyê ye ku li ser pergala dengên ziman û taybetmendiyên wan disekine. Di vê pirtûkê de mijara sereke dengên kurdî ne: awayê derketina wan, cihê wan di devê de, peydabûna wan di peyvan de û têkiliyên wan bi dengên din re.
+Tevî girîngiya wê, heta niha lêkolînên taybet û berfireh ên li ser dengnasiya kurdî kêm bûne. Gelek rêzimannivîs tenê beşeke biçûk ji berhemên xwe ji vê mijarê re veqetandine.
 
-Beşên din ên zimannasiyê ev in:
-- **Teşenasî** (*morphology*): avabûn û pêkhateya peyvan.
-- **Hevoknasî** (*syntax*): rêkxistin û avakirina hevokan.
-- **Watenasî** (*semantics*): wateya peyv û hevokan.
-- **Kirdarînasî** (*pragmatics*): bikaranîna zimanê li gor rewş û çarçoveya danûstandinê.
+## 2. Lêkolînên pêşîn ên li ser dengnasiya kurdî
 
-Ev beş ji hev cuda ne,  lê di rastiya zimanê de bi hev re girêdayî ne.
+Ferdinand Justi yek ji wan zimannasan e ku di *Kurdische Grammatik* a sala 1880 de bi dirêjahî li ser dengnasiya kurdî nivîsiye. Ev berhem ji du beşên mezin pêk tê: dengnasî û peyvsazînasî. Beşa dengnasiyê ya wê, ku nêzîkî sed rûpelan e, heta niha jî ji vekolînên berfireh ên vê qadê tê hesibandin.
 
-## 2. Dengnasî û denganî
+Celadet Bedirxan jî di *Elfabêya kurdî* de bi kurdî li ser dengnasiya kurdî nivîsiye. Lê armanca sereke ya wê berhemê nasandin û avakirina alfabeya kurdî-latînî ye, ne vekolîna hemû aliyên dengnasiyê.
 
-Di lêkolîna dengên zimanî de du têgehên girîng hene: **dengnasî** (*phonology*) û **denganî** (*phonetics*). Ew bi hev ve girêdayî ne,  lê ne heman qad in. Nivîskar di destpêka pirtûkê de van qadên lêkolînê cuda dike û balê dikişîne ser lêkolîna dengên kurdî di hundirê pergala zimanê kurdî û di têkiliya wan bi zimanên din re.
+Piştî van xebatan, zimannasên din jî li ser beş, devok an mijarên taybet ên dengnasiya kurdî xebitîne. Ismaîl Fettah dengên devokên kurdiya başûrî vekolandiye; Ebdulmecîd Reşîd Ehmed li ser pergala fonemî ya soraniya standard, bi taybetî devoka Silêmaniyê, rawestiyaye; Ruslan L. Çabolov li ser dengnasiya dîrokî ya kurdî xebitiye; Margaret Kahn peyvên wergirtî di kurmanciya devera Urmiyê de lêkolîniye; Fêrgîn Melik Aykoç jî cudahiyên dengnasî yên zaravên kurdî, bi taybetî kurmancî û zazakî, nîqaş kiriye.
 
-Di vê dersê de cudahiya bingehîn nas bikin: dengnasî li ser pergala dengên ziman û rola wan disekine;  denganî li ser taybetmendiyên deng wekî dengên ku tên çêkirin û bihîstin dixebite. Cih û awayê derketina dengên devî di Dersa 2 de bi hûrgilî tê xwendin.
+Ev xebat ji aliyê mijar û devera lêkolînê ve sînorên xwe hene. Gelek ji wan hemû aliyên dengnasiyê nagirin û piraniya berhemên zanistî yên berê bi zimanên biyanî hatine nivîsîn.
 
-## 3. Çima dengnasiya kurdî girîng e?
+## 3. Têkiliyên dengnasî ya kurdî bi zimanên cîran re
 
-Nivîskar destnîşan dike ku tevî girîngiya dengnasiyê,  lêkolînên berfireh ên taybet li ser dengnasiya kurdî kêm bûn. Ew hin berhemên berê bi bîr tîne;  wek xebata Ferdinand Justi ya *Kurdische Grammatik* (1880) û *Elfabêya kurdî* ya Celadet Bedirxan. Lêkolînerên din jî li ser zarav,  devok an mijarên taybet xebitîne,  lê gelek ji wan hemû aliyên dengnasiyê bi berfirehî negirtine.
+Dengnasîya kurdî ji dengnasîya zimanên cîran ve nayê veqetandin. Di navbera kurdî û hin zimanên din de hevtesîrî hene. Di destpêka vê vekolînê de çend mînak tên destnîşankirin:
 
-Armanca vê lêkolînê ew e ku agahiyên berê li hev bîne û dengnasiya kurdî bi awayekî berfireh û rêkûpêk pêşkêş bike.
+- Pifdarî û bêpifiya dengên Ç, K, P û T di kurmancî, zazakî û ermenî de.
+- Konsonantên qelew di kurdî û zimanên samî, wek erebî û aramî, de.
+- Belavbûna dengê eyn û H-ya wek di navê Hesen de di kurdî û erebî de.
+- Belavbûna dengê Q di kurdî de di bin bandora erebî û tirkî de.
 
-## 4. Dengên kurdî di çarçoveyeke berawirdî de
+Ji ber van têkiliyan, ji bo ravekirina hin aliyên dengnasiya kurdî, lêkolînên dengnasî yên zimanên cîran jî tên bikaranîn.
 
-Dengên kurdî tenê di hundirê kurdî de nayên lêkolînkirin. Hin taybetmendiyên wan bi dengên zarav û devokên din ên kurdî,  û bi zimanên cîran re jî têkildar in. Ji ber vê yekê berawirdkirin alîkar e ku taybetmendî û cudahiyên dengî baştir bên nasîn.
+## 4. Armanc û rêbaza vê vekolînê
 
-Di destpêka pirtûkê de nimûneyên mijarên wek pifdariya hin konsonantan,  dengên qelew û belavbûna dengê eyn tên destnîşankirin. Ev nimûne nîşan didin ku lêkolîna dengnasiyê pêdivî bi berawirdkirin û şîrovekirina delîlan heye.
+Armanca vê vekolînê ew e ku agahiyên lêkolînên berê li hev bîne û dengnasiya kurdî bi awayekî berfireh pêşkêş bike. Dengên kurdî di navbera zarav û devokên kurdî de, herwiha bi zimanên cîran û carinan bi zimanên din ên hindû-ewropî re tên berawirdkirin.
 
-## 5. Rêbaza pirtûkê
+Di vekolînê de her herf an deng bi çend aliyan tê naskirin: cih û awayê derketina wî di devê de; nîşandana wî di alfabeyên cuda yên kurdî de; peydabûna wî di destpêk, nav û dawiya peyvan de; rêje û nisbeta herfê di nivîsên kurmancî de; peydabûna dîrokî ya dengê; û têkiliya wî bi dengên din re.
 
-Li gorî ravekirina nivîskar,  her deng bi çend aliyên sereke tê lêkolînkirin:
-1. cihê ku deng lê tê çêkirin; 
-2. awayê ku deng pê tê derxistin; 
-3. peydabûna dengê di destpêk,  nav an dawiya peyvê de; 
-4. hebûn û cudahiyên dengê di zarav û devokên cuda de; 
-5. têkiliya dengê bi dengên din re û guherînên dîrokî yên wî.
-
-Bi vê rêbazê xwendekar deng tenê wek tîpek di alfabeyê de nabîne,  lê wek beşek ji pergaleke zimanî fam dike.
+Vekolîn bi zimanekî hatiye nivîsîn ku xwendevanên ne-zimannas jî bikarin jê sûd werbigirin. Gava têrmeke zimannasiyê cara yekem tê bikaranîn, tê nasandin û şirovekirin. Bi vî awayî, berhem tenê ji bo nasîna dengnasiya kurdî nîne; di heman demê de dixwaze hin têgehên dengnasiya giştî jî bide nasîn.
 
 ## Çavkanî
 
 Husein Muhammed, *Dengnasî di kurdî de*, rûpelên çapkirî 4–7.
 
----
 
 # Dersa 2 — Vokal, konsonant û awayên derketina dengan
 
