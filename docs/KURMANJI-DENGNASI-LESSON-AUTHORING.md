@@ -1742,6 +1742,8 @@ Di kurmancî de V li her sê cihên peyvê tê:
 
 V li nav û dawiya peyvan berfireh e; li destpêka peyvan kêmtir e. Li gorî lêkolîna ku pirtûk vedigêre, rêjeya V di nivîsên kurmancî de **1,7%** e. Formên çemandî yên cînavê *ev* — wek *vê, vî, van, vir* — û pêşlêkera *ve-* — wek *vebûn, vekirin, vexwarin* — rêjeya V li destpêkê zêde dikin.
 
+Di soraniya xwemalî de V hema-hema nayê dîtin; pirtûk *hevde* û çend peyvên dengdarî (onomatopoetîk) wek îstîsna destnîşan dike. Lê soranî V di peyvên biyanî de, an jî di peyvên ku ji kurmancî an bi rêya kurmancî hatine wergirtin de, dinivîse; wek *dever, evîn, govar, mirov*. Ji ber vê yekê hebûna V di nivîsa soranî de bi tenê nîşana peyveke xwemalî nîne.
+
 ## 2. Çavkaniyên dîrokî yên V
 
 V di dîroka peyvên kurdî de ji çend rêyan hatiye peyda bûn.
