@@ -68,7 +68,7 @@ Ev xebat ji aliyê mijar û devera lêkolînê ve sînorên xwe hene. Gelek ji w
 
 Dengnasîya kurdî ji dengnasîya zimanên cîran ve nayê veqetandin. Di navbera kurdî û hin zimanên din de hevtesîrî hene. Di destpêka vê vekolînê de çend mînak tên destnîşankirin:
 
-- Pifdarî û bêpifiya dengên Ç, K, P û T di kurmancî, zazakî û ermenî de.
+- Pifdarî û bêpifîya dengên Ç, K, P û T di kurmancî, zazakî û ermenî de.
 - Konsonantên qelew di kurdî û zimanên samî, wek erebî û aramî, de.
 - Belavbûna dengê eyn û H-ya wek di navê Hesen de di kurdî û erebî de.
 - Belavbûna dengê Q di kurdî de di bin bandora erebî û tirkî de.
