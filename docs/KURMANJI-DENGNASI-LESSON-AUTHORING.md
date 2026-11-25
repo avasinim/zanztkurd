@@ -2747,8 +2747,8 @@ Di kurmancî de dîftongên bi Y/Î re bi dawî tên bi awayên jêrîn tên dî
 
 Di derbarê Y + vokal de jî lihevkirineke temam di nav zimannasan de tune ye. Heke ev komdeng wek dîftong bên hesibandin, di kurdî de van awayan hene:
 
-- **YA/ÎA:** *yar, beyar, yad, ya* (wek *ya min*). Ev komdeng di rastiyê de ne zêde berbelav e; *ya* û *yan* di hin devokan de wek *a* û *an* tên gotin.
-- **YE/ÎE:** *yek, ye, yezdan*. Di gotina rojane de Y carinan nayê bihîstin; *nameyek* dikare wek *namek* were gotin.
+- **YA/ÎA:** *yar, beyar, yad, ya* (wek *ya min*). Ev komdeng di rastiyê de ne zêde berbelav e; *ya* û *yan* di hin devokan de wek *a* û *an* tên gotin. *Beyar* û *eyar* ji erebî ne; *yar* di zimanê helbestî de tê bikaranîn û dibe ku ji farisî hatiibe wergirtin. *Yarî* bi taybetî di kurmanciya rojhilatî de heye û li navend û rojava kêm e.
+- **YE/ÎE:** *yek, ye, yezdan*. Di gotina rojane de Y carinan nayê bihîstin; *nameyek* dikare wek *namek* were gotin. Lê *yezdan* di nav gel de peyveke berbelav nîne û diyar e ku vê dawiyê ji farisî hatiye wergirtin.
 - **YÊ/ÎÊ:** di *yê, yên, bayê felekê* de tê dîtin. Di hin devokan de Y bêdeng e.
 - **YÎ/ÎÎ:** di nivîsînê de di *tu yî, qamişloyî, ronayî* de xuya dike, lê di gotinê de Y gelek caran nayê bihîstin û komdeng dîftong çênake.
 - **YO/ÎO:** di nivîsînê de *birayo* ye, lê di gotinê de Y bêdeng e: *birao* an *biraw*.
