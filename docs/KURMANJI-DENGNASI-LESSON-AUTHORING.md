@@ -3690,7 +3690,7 @@ Husein Muhammed, *Dengnasî di kurdî de*, rûpelên çapkirî 394–401.
 
 ## 1. Çarçoveya berawirdkirinê
 
-Kurmancî û tirkî ji heman binemala zimanî ne. Ji ber vê yekê, peyvên hevpar di van herdu zimanan de bi gelemperî ne peyvên xwemalî yên hevreh in; gelek caran peyvên deynkirî ne. Ev yek rêbaza berawirdkirinê ji berawirdkirina kurmancî bi soranî an farisî cuda dike.
+Kurmancî û tirkî ne ji heman binemala zimanî ne. Ji ber vê yekê, peyvên hevpar di van herdu zimanan de bi gelemperî ne peyvên xwemalî yên hevreh in; gelek caran peyvên deynkirî ne. Ev yek rêbaza berawirdkirinê ji berawirdkirina kurmancî bi soranî an farisî cuda dike.
 
 Di vê dersê de em du aliyên sereke berawird dikin:
 1. deng û rêzên dengî yên ku di herdu zimanan de dikarin bên dîtin;
@@ -3764,7 +3764,7 @@ Ev taybetmendî divê bi awayekî sînordar were fêmkirin: mijar li ser cihê d
 
 Di kurmancî de P û T dikarin bi qelewîtî û ziravîtî ji hev bên cudakirin. Çavkaniyê **T** ya di *te/tu* de wek zirav û T ya di *teng* de wek qelew dide; **P** ya di *pênc* de zirav û ya di *pez* de qelew e.
 
-Ev dubendî yek ji aliyên ku P û T ya kurmancî ji yên tirkî cuda dike. Di tirkî de S û Z bi gelemperî li gorî vokala piştî xwe zirav an qelew dibin: berî vokalên pêşîn zirav û berî vokalên paşîn qelew in. Di kurmancî de qelewîtî û ziravîtî ne tenê bi vokala piştî dengê ve girêdayî ye. Çavkaniyê nimûneyên *ser* û *sed* dide: herdu peyv E ya piştî S hene, lê S di yekê de zirav û di ya din de qelew e.
+Ev dubendî yek ji aliyên ku P û T ya kurmancî ji yên tirkî cuda dike. Têbînî: çavkaniyê di destpêka vê beşê de dibêje P û T (lê ne K û T), lê di hevoka piştî nimûneyan de K û P dinivîse. Ji ber ku nimûneyên pêşkêşkirî tenê T û P nîşan didin, ev ders berawirdkirina P/T diparêze û nakokiya nivîsînê ya çavkaniyê qeyd dike. Di tirkî de S û Z bi gelemperî li gorî vokala piştî xwe zirav an qelew dibin: berî vokalên pêşîn zirav û berî vokalên paşîn qelew in. Di kurmancî de qelewîtî û ziravîtî ne tenê bi vokala piştî dengê ve girêdayî ye. Çavkaniyê nimûneyên *ser* û *sed* dide: herdu peyv E ya piştî S hene, lê S di yekê de zirav û di ya din de qelew e.
 
 ## 9. Dengê H
 
