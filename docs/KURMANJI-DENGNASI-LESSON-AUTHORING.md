@@ -644,7 +644,7 @@ Di peyvên ku ji reh û paşgirê pêk tên, rewş hinekî tevlihev e. Pirtûk m
 
 Pirtûk du rewş ji hev cuda dike:
 1. **Peyvên kevn û cihgir:** Peyvên ku ji mêj ve di zimanê axaftinê de bi forma guherî de hatine bikaranîn, dikarin forma xwe ya naskirî biparêzin; wek *dezgeh, dezgir, dezgirtî*.
-2. **Peyvên nûçêkirî an formên zelal ên zimanê nivîskî:** Di van de parastina rehê peyvê dikare baştir be, da ku pêkhateya wê zelal bimîne.
+2. **Peyvên ku di zimanê nivîskî de tên çêkirin an formên nû:** Di van de parastina rehê peyvê dikare baştir be, da ku pêkhateya wê zelal bimîne.
 
 Ji ber vê yekê divê mirov li dîroka peyvê, maneya wê û asta cihgirtina wê di zimanê de binêre; ne ku her peyvekê bi rêgezeke yekane rast bike. Pirtûk herwiha dibêje ku di hin devokan de *dezgir* û *dezgirtî* wek *dergistî* tên gotin; ev form bi veguhastina cihê dengan (metatez) hatiye ravekirin. Ev nimûne nîşan dide ku hemû formên nêzîk ne tenê bi heman rêbazê çêdibin.
 
