@@ -3481,9 +3481,9 @@ Di piraniya devokên başûrî de li cihê koma NG ya kurmancî dengê Ň [ŋ] h
 
 | Kurmancî | Soranî | Başûrî |
 |---|---|---|
-| deng | deng | deŋ |
-| reng | reng | reŋ |
-| bang | bang | baŋ |
+| deng | deng | deň |
+| reng | reng | reň |
+| bang | bang | baň |
 
 ## 12. XWE- ya kurmancî û başûrî, XO- ya soranî
 
