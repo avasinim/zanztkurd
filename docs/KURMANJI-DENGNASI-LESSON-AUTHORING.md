@@ -1510,7 +1510,7 @@ Ev nimûne guherînên ku di hin peyvên pir bikaranîn de çêdibin nîşan did
 
 ## 7. S — pidûyî-xişok-vizok yê bêlerz
 
-Dengê **S/s** dengekî **pidûyî-xişok yê bêlerz** e. Di dema gotina wê de ziman nêzî pidûyan dibe û kanalegeke teng ji bo derbasbûna hewayê çêdike; hewa bê girtina temamî ya rêya devê derbas dibe û xişînekê çêdike. Perdeyên dengî di gewriyê de nalerizin. Nîşana wê di IPA de **[s]** e. Ji aliyê awayê derxistinê ve [s] xişok e, ne sekinî-xişok (affricate).
+Dengê **S/s** dengekî **pidûyî-xişok yê bêlerz** e. Di dema gotina wê de ziman nêzî pidûyan dibe û kanaleke teng ji bo derbasbûna hewayê çêdike; hewa bê girtina temamî ya rêya devê derbas dibe û xişînekê çêdike. Perdeyên dengî di gewriyê de nalerizin. Nîşana wê di IPA de **[s]** e. Ji aliyê awayê derxistinê ve [s] xişok e, ne sekinî-xişok (affricate).
 
 ## 8. Cihê S di peyvan de û dengrêziya wê
 
