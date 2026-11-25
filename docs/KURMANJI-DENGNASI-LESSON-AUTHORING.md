@@ -2254,7 +2254,7 @@ Di hin peyvan de çend deng an cotdeng bi hev re bûne Ê. Nimûneya *hêk* bi f
 
 Ê di hin peyvên xwerû û di paşpirtikên rêzimanî de jî xwedî bingeheke dîrokî ye. Paşpirtikên çemandin û girêdanê yên wek *-ê* û *-ên* bi formên kevn ên îranî ve girêdayî ne.
 
-Di çavkaniyê de Ê ya îraniya navîn gelek caran wek xwe hatiye parastin, lê di farisî de bûye Î; mînak: kurmancî *wêran*, pehlewî *evêran*, farisî *vîran*. Di hin peyvên kurdî de Ê ji A-ya zimanên din ên îranî hatiye, wek *kêr* li hemberî soranî *kêrd* û zazakî/hewramî/farisî *kard*. Di peyvên ji erebî wergirtî de jî *fêris, kitêb, fêkî/fêqî* ji *faris, kitab, fakihe* tên; *kêf* ji *keyf*, *dêr* ji *deyr*, *êm* ji tirkî *yem* û *fêde* ji *faide* derketine. Nivîskar *hêk* jî bi formên farisî/pehlewî *xaye/xayek* û avestayî *eyem* re berawird dike.
+
 
 ## 3. Guherîna devokî ya Ê
 
@@ -2399,7 +2399,7 @@ Dengê **Î/î** vokaleke dirêj, bilind, pêşîn û ne-girovir e. Di dema derx
 
 Di hin peyvan de Î encama tekdengbûna cotdengan e:
 - *mîz* li hemberî formên bi Ê;
-- *mî/mih* li hemberî *mêş*;
+- *mî/mih* li hemberî farisî *mîş* û pehlewî *mêş*;
 - *bîn* li hemberî formên bi Ê.
 
 Di kurmancî de Î gelek caran li cihê Û-ya soranî ye:
