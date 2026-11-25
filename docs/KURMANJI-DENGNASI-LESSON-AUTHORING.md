@@ -3969,7 +3969,7 @@ Di hin devokan de H ji vê erkê derbasî formên din ên peyvan bûye; ji ber v
 
 H ya destpêka lêkera *hatin* jî bi dîrokî tune bû. Niha forma bê H ya *atin* di kurmancî û soranî de nemaye an pir kêm maye. Lê di rehê dema niha de forma bê H, wek *diên/dên/tên*, di soranî de bi giştî û di kurmancî de bi piranî hatiye parastin; kêmaniyeke axêveran forma bi H, *dihên*, bi kar tînin.
 
-H bi tevahî û di hemû rewşan de rê li ber hiyatusê nagire. Di van nimûneyan de H nayê zêdekirin: *biaqil/baqil* ne *bih-aqil*؛ *bêav* ne *bêhav*؛ *biaxivin/baxivin* ne *bihaxivin*.
+H bi tevahî û di hemû rewşan de rê li ber hiyatusê nagire. Di van nimûneyan de H nayê zêdekirin: *biaqil/baqil* ne *bih-aqil*; *bêav* ne *bêhav*; *biaxivin/baxivin* ne *bihaxivin*.
 
 Di kurmanciya nivîskî de H di hin peyvên dariştî yên reh + paşgir de tê dîtin: *amade + î → amadehî* (amade-h-î) û *du + em → duhem* (du-h-em). Lê formên bi Y, W an T jî dikarin serdest bin. H di çemandin û girêdana peyvan de rêbazeke giştî nîne.
 
