@@ -2188,7 +2188,11 @@ Di hin devokan de E ya paşpirtika fermanî dikeve:
 
 ## 10. Rêgirtina li peydabûna E li destpêka peyvan
 
-Di hin peyvan de ziman rê li ber destpêka rasterast bi E digire û H an Eyn li pêşiya wê tê zêdekirin. Nimûneyên *ewr, hesp, heşt, esman* nîşan didin ku ev pêvajo bi dîrok û peyvê ve girêdayî ye.
+Çavkaniyê diyar dike ku kurmancî û soranî bi gelemperî dixwazin rê li ber destpêka peyvê bi E bigirin; ev yek dikare bi zêdekirina H an Eyn pêk were. Lê awayê zêdekirinê di her peyvê de yek nagire:
+- Di *ewr* de, li gorî çavkaniyê, di axaftina kurmancî de Eyn li pêş tê bihîstin; di soraniyê de H tê zêdekirin. Ev deng di formên kevn ên îranî de tune bû.
+- Di *hesp* û *heşt* de kurmancî H li destpêkê diparêze/an zêde dike, herçend H di formên kevn ên îranî û gelek zimanên hindûewropî de tune ye. Soranî û farisî jî H di *heşt* de hene, lê ji bo *hesp* soranî û farisî *esp* dibêjin.
+- Di *esman* de Eyn li pêşiya E hatiye zêdekirin, tevî ku peyv xwemalî ye. Çavkaniyê herwiha dibêje ku Eyn di hin peyvên erebî de jî hatiye zêdekirin: erebî *erḍ* li kurmancî dibe *'erd* û li soranî *'erz*.
+Cînavên *ez, em, ew, ev* ji van nimûneyan cuda ne; lê di hin formên çemandî de E-ya destpêkê dikeve: *wê, wî, wan, vê, vî, van* li hemberî *ewê, ewî, ewan, evê, evî, evan*.
 
 ## 11. E di peyvên ewropî de
 
