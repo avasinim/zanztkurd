@@ -1633,7 +1633,7 @@ Ev guherîn bi şertê morfolojîk û dengê paşgirê ve girêdayî ye. Ji vê 
 
 ### Têkiliya Ç û Ş
 
-Di hin peyv û devokan de Ç û Ş bi hev re tên berawirdkirin. Mînak, di kurmanciya navendî de *birçî* heye, lê di kurmanciya rojhilatî û soranî de *birsî* tê gotin. Di peyva *hirç* de jî çavkaniyê formên *wirç* (soranî), *xers* (farisî) û *xirs* (pehlewî) dide; lê eslê Ç-ya vê peyvê bi temamî yekreng nîne û çavkaniyê çend raveyên gengaz destnîşan dike.
+Di hin peyv û devokan de Ç û Ş bi hev re tên berawirdkirin. Mînak, di kurmanciya navendî de *birçî* heye, lê di kurmanciya rojhilatî û soranî de *birsî* tê gotin. Di peyva *hirç* de jî çavkaniyê formên *wirç* (soranî), *xers* (farisî) û *xirs* (pehlewî) dide; lê eslê Ç-ya vê peyvê bi temamî yekreng nîne û çavkaniyê çend raveyên gengaz destnîşan dike. Têkiliya Ç û Ş di peyva *çûn* û hevrehên wê de jî xuya dibe: kurmancî *çûn/şandin*, zazakî *şiyayen* û hewramî *şiyay*; herwiha *çelqandin/çelqîn* li hemberî *şilqandin/şilqîn* tê dîtin.
 
 Di hin peyvên din de Ç di bin bandora erebî de bûye Ş; çavkaniyê rêya dîrokî ya *çetur-enge → çetreng → şetrenc* wek nimûne pêşkêş dike. Herwiha guherîna S/Ş li gor zarav û devokan tê dîtin: *pisîk/pişîk*, *teşt/test* û kurmancî *rast* li hemberî zazakî *raşt*. Di zazakiya Dêrsimê de jî nimûneyên *şima/sima* û *Hisên/Wişên* hene. Di hin peyvên kurmancî de Ş dikare bibe H, bi taybetî berî N an M: *têhnî/tihnî → tî*, *çehv → çav* û *heyv/hîv*. Di peyvên ji farisî wergirtî de Ş berî N dikare bibe J: *ceşn → cejn* û *beşn → bejn*. Herwiha Ş dikare di navbera devokan û zimanên nêzîk de bibe S: kurmanciya navendî *pisîk*, rojhilatî *pişîk*, soranî *pişîle*, belûçî *pişî* û farisî *pîşî*. Ev nimûne divê wek guherînên peyv-bi-peyv û zaravî bên fêmkirin, ne wek rêgeheke serbest a hemû Ç û S-yan.
 
@@ -1705,11 +1705,7 @@ T-ya zirav û qelew di kurmancî de **alofonên heman fonemê** ne: guherandina 
 
 ## 7. T di dîroka peyvan û devokan de
 
-T di hemû zaravên kurdî û di gelek zimanên cîran de heye; di proto-hindûewropî de jî hebû. Çavkaniyê nimûneyên berawirdî yên *tav*, *teng*, *tirs* û *heft* dide ku parastina T ya kevn nîşan didin.
-
-T-ya kevn li destpêka peyvên kurdî bi başî hatiye parastin. Di nav û dawiya peyvê de jî dikare were parastin, bi taybetî gava berî wê konsonantek hebe; wek *heft, dest, heşt, text*. Di peyvên xwemalî de T ya navîn û dawî di gelek lêkeran de bi rehê rabirdûyê ve girêdayî ye, wek *got, nekuşt, neşûştibû*; di rehên niha û pêşerojê de T dikare tune be, wek *dibêjim, nekujin, naşon*.
-
-Di hin peyvan de T ya ku niha tê dîtin bi eslê xwe ji dengên din hatiye an jî di pêvajoyeke dîrokî de hatiye guherandin. Ji ber vê yekê divê her nimûne bi peyv û berawirdkirina zimanî ve were şîrovekirin; T û dengên din bi serbestî nayên guhertin.
+Di dîroka T de divê parastina dengê kevn, guherînên dengî û karê morfolojîk ji hev bên cudakirin. Nimûneyên li jêr rêyên sereke yên ku pirtûk vedigêre nîşan didin.
 
 ### T û çavkaniyên dîrokî
 
