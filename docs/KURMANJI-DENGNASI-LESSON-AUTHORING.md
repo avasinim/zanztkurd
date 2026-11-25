@@ -2989,93 +2989,148 @@ Husein Muhammed, *Dengnasî di kurdî de*, rûpelên çapkirî **315–347**.
 
 # Dersa 22 — Nasandina KL û KE û cudahiyên herdu alfabeyan
 
-## 1. Du alfabeyên ku ji bo kurdî tên bikaranîn
+## 1. Du alfabeyên sereke yên nivîsîna kurdî
 
-Kurdî bi gelemperî bi du alfabeyên standard tê nivîsîn:
-- **Alfabeya kurdî-latînî (KL):** li gorî rêça latînî hatiye eyarkirin û ji çepê ber bi rastê tê nivîsîn.
-- **Alfabeya kurdî-erebî (KE):** li gorî rêça erebî hatiye eyarkirin û ji rastê ber bi çepê tê nivîsîn.
+Zimanê kurdî, di nav de kurmancî jî, bi du alfabeyên standard ên sereke tê nivîsîn:
 
-Di dîrokê de alfabeya kurdî-kirîlî jî hatiye bikaranîn; niha bikaranîna wê pir kêm e. Hin nivîsên kevn bi alfabeyên ermenî û yên din jî hene, lê di nivîsîna kurdî ya îroyîn de KL û KE herdu rêbazên sereke ne.
+- **Alfabeya kurdî-latînî (KL):** li ser bingeha alfabeya latînî hatiye eyarkirin û ji çepê ber bi rastê tê nivîsîn.
+- **Alfabeya kurdî-erebî (KE):** li ser bingeha alfabeya erebî hatiye eyarkirin û ji rastê ber bi çepê tê nivîsîn.
 
-Ev navên kurt tenê ji bo hêsankirina berawirdkirinê ne. KL ne tenê ya kurmancî ye û KE jî ne tenê ya soranî ye: kurmancî dikare bi KE û soranî dikare bi KL were nivîsîn.
+Di dîrokê de alfabeya kurdî-kirîlî jî hatiye bikaranîn, lê îro bikaranîna wê hema-hema nemaye. Hin berhem bi alfabeya ermenî û hin nivîs jî bi alfabeyên din hatine nivîsîn; lê di nivîsîna kurdî ya îroyîn de KL û KE du rêbazên sereke ne.
 
-## 2. Avahiya herdu alfabeyan
+Di vê dersê de ev navên kurt tên bikaranîn: **KL** ji bo alfabeya kurdî-latînî û **KE** ji bo alfabeya kurdî-erebî. Armanca berawirdkirinê ne ku yek ji van alfabeyan baştir an guncawtir bê ragihandin; armanc tenê nîşandana cudahî û hevbeşiyên wan e.
 
-KL-ya standard 31 herf heye. Di wê de herfên biçûk û mezin hene û herf di nivîsînê de bi hev ve nayên girêdan.
+Herdu alfabe bi zaravekî tenê ve ne girêdayî ne. Rast e ku piraniya kurmancî û hemû zazakî bi KL, piraniya soranî jî bi KE tê nivîsîn; lê kurmancî dikare bi KE û soranî jî dikare bi KL were nivîsîn. Ji ber vê yekê navên “alfabeya kurmancî” û “alfabeya soranî” ji bo KL û KE ne rast û ne jî zelal in.
 
-KE-ya standard 33 an 34 nîşanên herfî heye; hejmar bi awayê hesibandina nîşana *û* ve girêdayî ye. Di KE de herf dikare li gorî cihê wê di peyvê de şêweyên cuda bistîne: serbixwe, destpêkî, navîn an dawîn. Gelek herf bi hev ve têne girêdan.
+## 2. Avahiya KL û KE
 
-Di KL de vokalên **a, e, ê, i, î, o, u, û** bi herfên xwe têne nivîsîn. Di KE de hin vokal bi herfên serbixwe têne nîşandan, lê **i** bi awayekî rasterast nayê nivîsîn; **y/î** û **w/u** jî di hin rewşan de bi heman nîşanê tên nivîsîn. Ji ber vê yekê peyvên wek *kirin, bîr, kurd, mû* di KE de bi awayên kurtir têne nivîsîn.
+KL-ya standard 31 herf hene:
 
-## 3. Cudahiyên sereke
+**a, b, c, ç, d, e, ê, f, g, h, i, î, j, k, l, m, n, o, p, q, r, s, ş, t, u, û, v, w, x, y, z.**
+
+Di dîrokê de awayên nivîsîna KL guherîne. Di hin berhemên kevn de li şûna **i, î** nîşanên **ı, i** hatine bikaranîn. Di hin nivîsan de **ç, ş** bi **ch, sh** an **č, š** hatine nivîsîn; **j** carinan li şûna **c**, û **zh** jî li şûna **j** hatiye bikaranîn. Ji ber sedemên teknîkî, **ê** carinan wek **é**, û **û** wek **ú** an **ü** hatiye nivîsîn. Hin nîşanên taybet ên H û X jî di hin berheman de hatine bikaranîn, lê di standarda îroyîn de H û X tên nivîsîn.
+
+KE-ya standard 33 nîşanên herfî hene; heke koma **وو** wek nîşaneke serbixwe bê hesibandin, hejmar dibe 34. Di nivîsên kevn de awayê nîşandana hin vokalan cuda bû: vokalên kurt **e, u** bi gelemperî wek îro nehatine nîşandan, û **û** û **o** jî dikaribûn bi **w/u** bên nivîsîn. Hin dengên ku îro bi **ê, v, ç, g, j, p** tên nîşandan, di hin nivîsên kevn de bi herfên din hatine nivîsîn.
+
+Di KL de herfên biçûk û mezin hene; herf ji hev cuda dimînin û bi hev ve nayên girêdan. Di KE de herf dikarin li gorî cihê xwe di peyvê de şêweyên cuda bistînin: serbixwe, destpêkî, navîn û dawîn. Gelek herf di nivîsînê de bi hev ve tên girêdan.
+
+## 3. Cudahiyên sereke di navbera herdu alfabeyan de
 
 | Taybetmendî | KL | KE |
 |---|---|---|
-| Rêça nivîsînê | Ji çepê bo rastê | Ji rastê bo çepê |
+| Rêça nivîsînê | Ji çepê ber bi rastê | Ji rastê ber bi çepê |
 | Hejmar | 31 herf | 33 an 34 nîşan |
-| Girêdana herfan | Herf ji hev cuda dimînin | Gelek herf bi hev ve girêdayî ne |
-| Şêweyên herfan | Bi gelemperî yek şêwe, biçûk/mezin | Li gorî cihê herfê diguhere |
-| Nîşandana vokalan | Heşt vokal bi herfên xwe | Hin vokal bi herfên cuda; hin jî bi nîşanên hevbeş an neyekser |
+| Girêdana herfan | Herf ji hev cuda ne | Gelek herf bi hev ve tên girêdan |
+| Şêweyên herfan | Gir û hûr | Serbixwe, destpêkî, navîn, dawîn |
+| Vokal | Heşt vokal bi herfên xwe | Hin vokal bi herfên cuda, hin bi nîşanên hevbeş an neyekser |
 
-Herdu alfabeyên standard di dîrokê de guhertin dîtine. Di KL-ya kevn de hin nivîser **ı/i**, **ch/sh**, **č/š** an **zh** bikar anîne; di hin nivîsan de **é, ú, ü** jî li şûna **ê, û** hatine nivîsîn. Di KE de jî di nivîsên kevn de hin vokalên kurt nehatine nîşandan û hin deng bi herfên din hatine nivîsîn.
+Di KL de heşt vokal bi awayên **a, e, ê, i, î, o, u, û** tên nivîsîn. Di KE de hin vokal bi nîşanên xwe tên diyarkirin; lê **i** bi awayekî rasterast nayê nivîsîn. Herwiha **î** û **y** bi heman herfê, û **u** û **w** jî bi heman herfê tên nîşandan. **Û** bi du nîşanên **u/w** tê nivîsîn. Ji ber vê yekê peyvên wek *kirin, bîr, kurd, mû* di KE de dikarin bi awayên kurtir bên nivîsîn.
+
+Di KE de herfên **H, X, L, R** ji bo hin dengên cuda nîşanên cuda hene; di KL de ev cudahiyên dengî bi gelemperî bi heman herfê tên nivîsîn. Di KE de dengê eyn jî herfa xwe ya serbixwe heye; di KL de ew carinan nayê nivîsîn an bi apostrofê tê nîşandan, wek *Elî* an *'Elî*. Herwiha vokalên KE li destpêka peyvê nîşana **ئ** digirin; ev herf dikare di hin cihan de rola dengê **i** jî bigire, herçend bikaranîna wê bi vî erkî kêm e.
 
 ## 4. Wekheviyên herdu alfabeyan
 
-Herdu alfabeyên kurdî ji kevneşopiyên nivîsînê yên ku di dawiyê de bi alfabeya Fenîkî ve girêdayî ne, peyda bûne. Herdu jî hewl didin ku dengên zimanê kurdî bi nîşanên nivîskî nîşan bidin, lê ti alfabeyek nikare her taybetmendiya bilêvkirinê bi temamî û bê kêmasî nîşan bide.
+Herdu alfabe ji kevneşopiyên nivîsînê yên ku bi alfabeya Fenîkî ve girêdayî ne, peyda bûne. Şêweya herfan bi demê re dikare biguhere, lê hin mînakên dîrokî têkiliya wan nîşan didin.
 
-Herdu alfabeyan ji bo nivîsandina zarav û devokên kurdî dikarin bên bikaranîn. Hin deng di yekê de herfa taybet heye lê di ya din de nîne; herwiha hin herf di herduyan de hene lê dikarin ji bo dengên cuda bên xwendin.
+Armanca herdu alfabeyan ew e ku dengên kurdî bi nîşanên nivîskî nîşan bidin. Lê tu ji wan nikare her taybetmendiya dengî bi temamî nîşan bide. Herdu dikarin ji bo zarav û devokên cuda yên kurdî bên bikaranîn; hin deng di yek alfabeyê de herfa taybet hene, lê di ya din de bi herfeke hevbeş an bi awayekî din tên nîşandan.
 
-## 5. Hevdeng û hevnivîs
+Di herduyan de gelek konsonant wek **B, C, Ç, D, G, H, J, K, L, M, N, P, Q, R, S, Ş, T, V, X, Z** bi nîşanên serbixwe hene. Lê di KE de **Y/Î** û **W/U** bi nîşanên hevbeş tên nivîsîn. Herdu alfabe jî dikarin bi pêdivî herfên nû bistînin; ev taybetmendî wek “vekirîbûna” alfabeyê tê naskirin.
 
-**Hevdeng** (*homophone*) peyvên ku bi dengê xwe wek hev in lê wateya wan cuda ye. Mînak: *bar* dikare tiştê ku mirov hildigire an jî meyxane be. Kontekst diyar dike ka kîjan wate tê mebestkirin.
+## 5. Hevdeng, hevnivîs, hevwate û hevreh
 
-**Hevnivîs** (*homograph*) peyvên ku bi heman awayî tên nivîsîn lê wate an bilêvkirina wan dikare cuda be. Mînak:
-- *pir* bi R-ya nerm: rêya ku ji ser avê re derbas dibe;
-- *pir* bi R-ya şidandî: gelek.
-- *par* bi P-ya bêpif: sala borî;
-- *par* bi P-ya bipif: beş an pişk.
+### Hevdeng
 
-Hin peyv hem hevdeng hem jî hevnivîs in; hinên din tenê hevnivîs in û bilêvkirina wan cuda ye. Giranî jî dikare cudahiyê çêbike, wek *piştî* wek daçek û *piştî* wek navdêr. Ji ber vê yekê xwendina peyvê divê bi hevok û kontekstê re were kirin.
+**Hevdeng** (*homophone*) peyvên ku bi dengê xwe wek hev in, lê wateyên wan cuda ne. Mînak, *bar* dikare wateya tiştê ku mirov hildigire an jî wateya meyxaneyê bide. Kontekst diyar dike ka kîjan wate tê mebestkirin. Di hin rewşan de zêdetir ji du peyvan dikarin hevdeng bin.
 
-## 6. Hevwate û hevreh
+### Hevnivîs
 
-**Hevwate** peyvên ku wateyên wan nêzîk an wek hev in. Mînakên çavkaniyê ji bo lêkera mirinê gelek formên cuda nîşan didin; lê hemû ne her dem di her rewşê de dikarin li cihê hev bên bikaranîn. Hin ji wan tenê *nîv-hevwate* ne, ji ber ku astê rêz, hest an konteksta wan cuda ye.
+**Hevnivîs** (*homograph*) peyvên ku bi heman awayî tên nivîsîn, lê wate an bilêvkirina wan dikare cuda be. Di kurmancî de gelek peyvên hevdeng herwiha hevnivîs in, lê hemû hevnivîs ne hevdeng in.
 
-**Hevreh** peyvên ku ji heman rehê dîrokî peyda bûne. Mînak: *kirin* di kurmancî, *kirdin* di soranî, *kerden* di farisî û *kerdene* di zazakî de ji heman rehê ne. Peyvên hevreh dikarin wateya wan nêzîk be, lê deng û nivîsandina wan ne hewce ye wek hev bimîne.
+Mînakên hevnivîsên dengcuda:
 
-Pirtûk herwiha têgeha **cêwî/cêmik** (*doublet*) dide: du peyvên ji heman rehê ku di dîrokê de bi rêyên dengî yên cuda pêş ketine, wek *bajar/bazar* û *hev/hem*.
+- *pir*: bi R-ya nerm, rêya ku ji ser avê re derbas dibe; bi R-ya şidandî, wateya “gelek”.
+- *par*: bi P-ya bêpif, sala borî; bi P-ya bipif, beş an pişk.
+- *birîn*: bi R-ya nerm, birîndarî; bi R-ya şidandî, kiryara jêkirinê.
+- *ker*: bi K-ya bipif û R-ya nerm, heywan; bi K-ya nerm û R-ya şidandî, kesê ku baş nabihîze.
+- *term*: bi T-ya bêpif û qelew, cesed; bi T-ya bipif, peyv an têgeh.
 
-## 7. Nîqaşa zêdekirina herfên nû
+Cudahî dikare ji dengên cuda yên herfên yekgirtî, wek Ç/K/P/T/R/H/X, an jî ji giranî û cihê kirpê peyda bibe. Mînakên *mirovî* û *Azadî* nîşan didin ku heman nivîs dikare bi giranîya cuda wateyên cuda bide: di *wî mirovî nas dikim* de wateya “wî kesî” heye, lê di *alîkariya mirovî* de wateya “mirovî/insanî” heye. Herwiha *Azadî xweş e* ji navê kesê *Azad* ku di hevoka *Wî Azadî got* de tê, bi cihê giranîyê cuda dibe.
 
-Di nivîsînê de pêşniyarên cuda hene ku ji bo cudahiya dengên Ç, K, P û T herfên cuda bên zêdekirin; an jî ji bo L, R û H-ya ku di hin devokan de awayên cuda hene nîşanên nû bên danîn.
+### Hevdengên nivîscuda û hevwate
 
-Nivîskar cudahiyên rast ên bilêvkirinê nas dike, lê dipirse gelo her cudahiya dengî divê bi herfeke nû were nivîsîn. Di çavkaniyê de gelek nîqaşên taybet hene:
+Hin peyv bi awayên cuda tên nivîsîn lê bi heman dengî tên gotin; wek *xuya/xwiya*, *pirr/pir*, *zarok/zarrok* û *kevn/kevin*. Ev peyv hevdengên nivîscuda ne. Navên taybet jî dikarin bi peyvên giştî hevdeng bin, lê bi herfa destpêkê ya mezin tên nivîsîn: *jiyan* û *Jiyan*, *azad* û *Azad*.
 
-- **Ç, K, P û T:** di kurmancî û zazakî de awayên bipif û bêpif hene. Ji bilî vê, P dikare bi sê awayên dengî û T bi çar awayên dengî were bilêvkirin. Ji ber vê yekê, tenê du herf ji bo her yekê danîn dê hemû varyantên rast nîşan nede.
-- **R:** R ya destpêka peyvê bi gelemperî şidandîtir e; R ya nava û dawiya peyvên xwerû bi gelemperî nermtir e. Li gorî şîroveya nivîskar, ev gelek caran alofonên heman dengî ne, ne du fonemên cuda.
-- **L:** L ya qelew di hin zarava û devokan de heye, lê di kurmancî de belavbûna wê sînordar e. Nivîskar yek L ji bo nivîsîna hevpar baştir dibîne.
-- **H:** di hin peyvan û devokan de du awayên bilêvkirin hene, lê nivîskar dibêje yek H dikare nivîsîna standard bihêle û cudahiya devokî di gotinê de biparêze.
+**Hevwate** (*synonym*) peyvên ku wateyên wan nêzîk an wek hev in. Ev têgeh tenê navdêran nagire; lêker, rengdêr, hoker û daçek jî dikarin hevwate bin. Lê hevwatebûn her tim tam nîne: hin peyv ji aliyê hest, rêz, devok an kontekstê ve cuda ne û tenê nîv-hevwate ne. Peyvên hevwate yên di nivîsên standard de tên dîtin jî dibe ku di devokekê de hemû nebin.
 
-Li gorî nêrîna nivîskar, zêdekirina herfan dikare:
-- rêzikên rastnivîsînê zêde û fêrbûnê dijwartir bike;
-- cudahiya nivîsîna peyvan di navbera zaravayan de zêde bike;
-- xeletiyên nivîsînê zêde bike, bêyî ku hemû cudahiyên bilêvkirinê nîşan bide.
+### Hevreh û cêwî
 
-Çavkaniyê herwiha jêxt dike ku xwîner peyvan di nav hevok û kontekstê de dixwîne, ne tenê pîtan bi tenê. Bo bilêvkirina deqîq, ferheng û pirtûkên hînkirinê dikarin nîşanên dengnasî bikar bînin, bêyî ku hemû wan nîşanan bibin beşek ji alfabeya giştî.
+**Hevreh** peyvên ku ji heman rehê dîrokî peyda bûne. Mînak, *kirin* di kurmancî, *kirdin* di soranî, *kerden* di farisî û *kerdene* di zazakî de hevreh in. Peyvên hevreh dikarin wateyên nêzîk hebin, lê deng û nivîsandina wan ne hewce ye wek hev bimîne.
 
-Armanca vê beşê ne biryardana ku yek alfabe ji ya din baştir e. Mijar ew e ku cudahî û wekhevî bi delîl bên şîrovekirin û bandora her pêşniyarê li ser nivîsîna hevpar were nirxandin.
+Hin peyvên ji heman rehê peyda bûne, lê di dîrokê de bi rêyên dengî yên cuda pêş ketine; wek *bajar/bazar*, *pîvan/peyman*, *hev/hem*, *peyv/peyam* û *nivîsîn/nivişte*. Ji van re **cêwî** an **cêmik** (*doublet*) tê gotin.
 
-## 8. Têkiliya dengnasî ya kurdî û farisî
+## 6. Têkiliya dengnasî ya kurdî û farisî
 
-Di beşa dawiyê de çavkaniyê hin guherînên dengî di navbera kurmancî û farisî de bi nimûneyên dîrokî berawird dike. Mînakên wek *zava/damad*, *zanîn/dan-*, *nav/nam* û *dev/dehan* nîşan didin ku peyvên ji heman rehê dikarin di her zimanî de bi rêbazên dengî yên cuda pêş biçin.
+Kurdî û farisî herdu jî zimanên îranî ne. Di navbera wan de gelek peyv û taybetmendiyên rêzimanî yên hevbeş hene, lê rêçên guherîna dengî yên wan her tim wek hev nînin. Çavkaniyê di vê beşê de nimûneyên dîrokî dide ku nîşan bidin peyvên ji heman rehê dikarin di her zimanî de bi awayên cuda pêş biçin.
 
-Ev berawirdkirin divê wek rêzikên dîrokî bên fêmkirin, ne wek rêbazeke ku her peyvekê bê îstîsna pêşbînî bike. Çavkaniyê herwiha cudahiyên dengî yên wek B/V, D/Z, E/I, M/V, X/H/K û Z/J bi nimûne rave dike.
+- **A:** A di herdu zimanan de heye; lê di kurdî de li destpêka hin peyvan H dikare li pêş were, wek *asan/hêsan* û *ahen/hesin*.
+- **B û V/W:** Li hin cihan B ya kevn di kurmancî de bûye V an W. Mînak: farisî *ab, ebr, şeb, leb* li hember kurmancî *av, ewr, şev, lêv*.
+- **D:** D ya farisî di hin peyvan de li hember Z ya kurmancî ye, wek *dana/zanîn* û *damad/zava*. D di dawiya hin peyvên farisî de dikare di kurmancî de bikeve, wek *bad/ba* û *bûd/bû*. Di nav peyvê de jî D dikare di kurmancî de bibe Y an jî bikeve.
+- **E û I:** Di gelek peyvan de E ya îranî di kurmancî de bûye I; wek farisî *kerden, xwarden* li hember kurmancî *kirin, xwarin*.
+- **Ê:** Dengê I-ya kurmancî di farisî de bi dengê kurt ê nêzî Ê re tê berawirdkirin; mînak farisî *dël* li hember kurmancî *dil*.
+- **G û B/V:** Di hin peyvan de V/W ya îranî ya kevn di farisî de bûye G, lê di kurdî de B an V/W; mînak *goraz* li hember *beraz*. Lê hin peyv di herdu zimanan de G diparêzin.
+- **H:** Di hin peyvan de H ya farisî li hember S an V ya kurmancî ye; wek *mahî/masî*, *ahen/hesin*, *kolah/kulav* û *dehan/dev*.
+- **M û V:** M ya piştî vokalan di gelek peyvan de di kurmancî de bûye V: *nam/nav*, *zemîn/zevî*, *merdom/mirov*. Ev guherîn bi şert û cihê dengê ve girêdayî ye; ne her M-yek dibe V.
+- **O:** O ya kurt a farisî di hin peyvan de li hember U an I ya kurmancî ye, wek *kord/kurd* û *bolbol/bilbil*.
+- **Ş û H:** Di hin peyvan de Ş ya kurmancî li hember H ya farisî ye, bi taybetî li dawiya peyvê; wek *goş/guh* û *çeşm/çav*.
+- **Û:** Di hin peyvan de Û ya farisî li hember O ya kurmancî ye, wek *rûz/roj*.
+- **V û W:** W ya kurmancî di farisî de bi gelemperî V an carinan B ye; wek *wergerandin/bergerdan* û *ewr/ebr*.
+- **X:** X ya farisî di hin peyvan de li hember H an K ya kurmancî ye; wek *xer/ker*, *xoşk/hişk* û *telx/tehl*.
+- **Z û J:** Z ya farisî di gelek peyvan de li hember J ya kurmancî ye, wek *zen/jin* û *zindegî/jiyan*; lê ev guherîn ne di hemû peyvan de derbasdar e.
+
+### Mînaka dîrokî: zava û damad
+
+Peyvên kurmancî *zava* û farisî *damad* ji heman rehê dîrokî ne. Di wan de çend guherînên dengî hene: Z ya kurmancî li hember D ya farisî ye, V li hember M e, û D ya dawiyê ya farisî di kurmancî de tune ye. Formên soranî *zawa*, zazakî *zama*, hewramî *zema*, belûçî *zamat*, avestayî *zamater* û farisiya kevn *damater* rêça dîrokî ya peyvê nîşan didin. Ev nimûne nîşan dide ku cudahiyên niha di navbera peyvên hevreh de dikarin encama guherînên rêkûpêk ên dîrokî bin, ne guherînên bê rêbaz.
+
+## 7. Gelo alfabeya kurdî hewceyî herfên zêdetir e?
+
+Hin kes dibêjin ku alfabeya niha ya kurdî-latînî divê ji bo hin cudahiyên dengî herfên zêdetir hebin. Nîqaşên sereke li ser Ç/K/P/T, L, R û H ne; hin pêşniyarên din jî dixwazin nîşanên vokalan biguherînin. Çavkaniyê li vir li ser pêşniyarên zêdekirina herfan disekine, ne li ser guherandina tevahiya alfabeyê.
+
+### Ç/K/P/T
+
+Di kurmancî û zazakî de Ç, K, P û T dikarin bi awayên req/bipif û nerm/bêpif bên gotin. Lê di soranî, hewramî û kelhurî de awayên nerm bi heman awayî tune ne. Nivîskar vê cudahiyê bi tesîra dîrokî ya ermenî ve girê dide; ev şîroveya dîrokî ya nivîskar e. Ew herwiha destnîşan dike ku di hin axaftinan de bandora tirkî dikare bibe sedem ku hin axêver awayên nerm jî wek req bibêjin.
+
+Nivîskar dibêje ku nivîsandina van dengên cuda bi heman herfê xizmeta nêzîkkirina nivîsîna zaravayên kurdî dike. Peyvên wek *çem, kes, pênc, teng* dikarin di kurmancî û soranî de wek hev bên nivîsîn, herçend bilêvkirina wan cuda be. Ji aliyê din ve, nivîskar balê dikişîne ser ku xwîner ne herfan tenê, lê peyv û hevokên tevahî dixwînin; kontekst bi gelemperî wateya peyvê zelal dike.
+
+Herwiha zêdekirina herfan dê hemû xeletfehmkirinan çareser neke, ji ber ku peyvên hevdeng û hevnivîs yên din jî hene. Nivîskar diyar dike ku P dikare bi sê awayên dengî û T bi çar awayên dengî were gotin; ji ber vê yekê danîna tenê du herfên cuda ji bo her yekê hemû cudahiyan nîşan nade.
+
+### R-ya şidandî û R-ya nerm
+
+R ya destpêka peyvê bi gelemperî şidandîtir tê gotin; R ya navîn û dawî di peyvên xwerû de bi piranî nerm e. Li gorî nivîskar, ev du awayên R di piraniya rewşan de alofonên heman dengî ne, ne du fonemên serbixwe. Hin peyvên kêm hene ku R ya navîn an dawî şidandî ye; hin peyvên pêkhatî jî dikarin taybetmendiyên R-ya beşa xwe biparêzin. Lê ev rewşên sînordar ji bo zêdekirina herfeke din têr nayên hesibandin.
+
+### L-ya qelew û L-ya zirav
+
+Di soranî, kelhurî, feylî û hewramî de du awayên L hene û di KE de ji bo wan nîşanên cuda tên bikaranîn. Di kurmancî û zazakî de L-ya qelew sînordar e: di hin peyv û hin devokan de tê dîtin, lê di piraniya devokên kurmancî de L-ya zirav serdest e. Nivîskar ji bo nivîsîna hevpar yek L tercîh dike, ji ber ku ev yek nivîsîna peyvên hevbeş di navbera zaravayan de nêzîk dihêle.
+
+### H-yên cuda
+
+Di kurmancî de H ya peyva *heft* ji H ya peyva *heval* cuda tê gotin. Lê li gorî nivîskar, ev awayê cuda bi taybetî di *heft* û peyvên jêderketî de tê parastin; di gelek peyvên din de H ya devokî ye. Axêver dikarin cudahiya devokî di axaftina xwe de biparêzin, bêyî ku alfabeya standard ji bo wê herfeke din bistîne.
+
+### Dengên din û prensîba nivîsînê
+
+Dengên din jî dikarin varyantên devokî hebin; mînak Z di *zayîn* de zirav û di *zanîn* de qelew tê gotin, û di hin devokan de B jî awayên cuda hene. Lê nivîskar destnîşan dike ku ji bo van varyantan daxwaza herfên nû bi heman awayî nayê kirin.
+
+Alfabeya tu zimanî bi temamî li gorî hemû awayên bilêvkirinê nayê çêkirin. Xwînerên zimanê xwe peyvan bi alîkariya kontekstê dixwînin. Ji bo bilêvkirina deqîq, ferheng û pirtûkên hînkirinê dikarin nîşanên dengnasî bidin; lê nivîsandina rojane ne hewce ye ku hemû varyantên dengî bi herfên cuda nîşan bide.
+
+## 8. Encamên nivîskar li ser standarda alfabeyê
+
+Li gorî nivîskar, alfabeya kurdî-latînî ya niha ji bo nivîsîna hevpar ya hemû zaravayên kurdî xizmetê dike. Cudahiyên Ç/K/P/T di kurmancî û zazakî de girîng in, lê di soranî, kelhurî û hewramî de bi heman awayî tune ne. Du awayên L di hin zaravayan de hene, lê di kurmancî û zazakî de sînordar in. R-ya şidandî û nerm bi piranî alofon in, û H-ya *heft* jî di piraniya peyvên din de wek varyanteke devokî tê şîrovekirin.
+
+Ji ber vê yekê nivîskar dibêje ku zêdekirina herfan ne şert e ku xwendina kurdî hêsantir bike; belkî dikare rêzikên rastnivîsînê dijwartir û xeletiyên nivîsînê zêdetir bike. Ev encama nêrîna nivîskar e; mijara dersê nasandina delîl û nîqaşê ye, ne ferzkirina alfabeyekê li ser hemû axêveran.
 
 ## Çavkanî
 
 Husein Muhammed, *Dengnasî di kurdî de*, rûpelên çapkirî 348–372.
 
----
 
 # Dersa 23 — Cudahiyên dengnasî di navbera kurmancî û soranî de
 
