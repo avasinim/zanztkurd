@@ -1325,9 +1325,6 @@ Di kurmancî û zazakî de P dikare bi du awayên dengdanê were gotin:
 - **P-ya bipif (req):** piştî berdana dengê bayekî zêde ji devê derdikeve. Nimûne: *perde, parçe, pirt, pirtik, por(r)*.
 - **P-ya bêpif (nerm):** piştî dengê P pifeke bi heman hêzê nayê derxistin. Nimûne: *pêr, pênc, pîvaz, penîr*.
 
-### Ceribandina kaxezê
-
-Kaxezekê nêzî devê xwe bigire. Piştî wê peyva *perde* û paşê *pênc* bibêje. Di gotina *perde* de kaxez dikare bi pifa piştî P hereket bike; di *pênc* de ev hereket kêm e an nayê dîtin. Ev ceribandin alîkar e ku pifdarî bi awayekî hestbar were nasîn.
 
 Di kurmancî û zazakî de ev cudahî dikare wateya peyvê biguherîne; ji ber vê yekê P-ya bipif û bêpif di hin cotên peyvan de **du fonemên cuda** ne. Pirtûk cotê *par* dide: P-ya bipif wateya «parçe, beş» dide, lê P-ya bêpif wateya «sala borî/çûyî» dide.
 
