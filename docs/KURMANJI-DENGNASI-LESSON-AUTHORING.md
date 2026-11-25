@@ -3342,7 +3342,7 @@ Di gelek peyvan de li cihê B ya kurmancî û soranî, di devokên başûrî de 
 | xirab | xerap | xiraw |
 | xerîb | xerîb | xerîw |
 
-Li gorî şîroveya dîrokî ya çavkaniyê, kurdiya başûrî di peyvên xwemalî de W parastiye; di kurmancî, soranî û farisî de ev deng di gelek peyvan de bûye B. Di peyvên ji erebî wergirtî de jî başûrî B dike W, lê kurmancî û soranî gelek caran B diparêzin.
+Li gorî şîroveya dîrokî ya çavkaniyê, kurdiya başûrî di peyvên xwemalî de W parastiye; di kurmancî, soranî û farisî de ev deng di gelek peyvan de bûye B. Di peyvên ji erebî wergirtî de jî başûrî B dike W, lê kurmancî û soranî gelek caran B diparêzin. Çavkaniyê têbînî dike ku di hin devokên kurmancî yên Serhed û Navenda Anatolyayê de jî B ya piştî vokalan di hin peyvên ji erebî wergirtî de dikare bibe W an V; wek *kitêw* û *kitêv*. Ev têbînî ji berawirdkirina giştî ya kurmancî re cuda ye û wek varyanteke deverî divê were fêmkirin.
 
 ## 3. V ya kurmancî û W an M ya başûrî
 
@@ -3414,7 +3414,7 @@ Di hin devokên başûrî de, bi taybetî li Kirmaşan û Mendelî, Ł nayê dî
 
 ## 8. Pifdariya Ç, K, P û T
 
-Di kurdiya başûrî de, wek soranî û berevajî kurmancî û zazakî, Ç, K, P û T li destpêka peyvan herdem bipif, anku req, in. Li nav û dawiya peyvan, bi taybetî di kîteyên negirankirî de, bêpif, anku nerm, dibin.
+Di kurdiya başûrî de, wek soranî û berevajî kurmancî û zazakî, Ç, K, P û T li destpêka peyvan herdem bipif, anku req, in. Li nav û dawiya peyvan, bi taybetî di kîteyên negirankirî de, bêpif, anku nerm, dibin. Di footnote-a çavkaniyê de S-ya qelew a di peyva *sed* de wek nîşaneyeke dengî hatiye destnîşankirin; ev qelewî divê ji pifdariya Ç/K/P/T cuda were fêmkirin.
 
 Ev cudahî taybetmendiyeke bilêvkirinê ye. Divê xwendekar pifdarî bi dengdarî an bêdengiya dengê tevlihev neke: pifdarî li ser bayê ku piştî berdana astengiyê derdikeve ye.
 
@@ -3448,7 +3448,7 @@ Di navbera konsonantan de, li cihê A an EH ya kurmancî û A ya soranî, di gel
 | tehl, tal | tał | tyeł |
 | nizanim | nazanim | nyezanim |
 
-Ev nimûne berawirdkirina formên peyvan nîşan dide; divê wek şabloneke bêîstîsna ji bo her peyvekê neyê bikaranîn.
+Ev nimûne berawirdkirina formên peyvan nîşan dide; divê wek şabloneke bêîstîsna ji bo her peyvekê neyê bikaranîn. Çavkaniyê di footnote-ê de destnîşan dike ku *nazanim* di rêça dîrokî de wek *nakim, naxwim, nabêjim* hatiye şîrovekirin; ev têbînî girêdana nimûneyê bi guherîna dengî û avaniya pêşpirtikê re zelal dike.
 
 ## 11. NG ya kurmancî û Ň ya başûrî
 
