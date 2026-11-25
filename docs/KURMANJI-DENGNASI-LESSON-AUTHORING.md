@@ -3155,6 +3155,8 @@ Di hin peyvan de li cihê V, M tê dîtin:
 | dev | dem |
 | ev, eve | em, eme |
 
+Di vê nimûneyê de *dem* di soranî de jî heye, lê bi wateya “wext, çax, zeman” peyva *kat* zêdetir tê bikaranîn.
+
 Di peyvên ku ji kurmancî an zimanên din hatine wergirtin de V dikare di soranî de jî bimîne; wek *evîn, mirov, televizyon, vîdyo*. Peyva *hevde* jî wek awarteke kêm tê destnîşankirin.
 
 Ji aliyê dîrokî ve, V/W ya piştî vokalan di gelek peyvan de ji M an B ya kevntir peyda bûye. Di kurmancî de bi piranî bûye V û di soranî de W. Ev ravekirin rêça gelemperî nîşan dide, ne ku her peyveke bi V di kurmancî de divê di soranî de W an M be.
