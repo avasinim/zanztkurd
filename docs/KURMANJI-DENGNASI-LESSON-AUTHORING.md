@@ -377,68 +377,121 @@ Husein Muhammed, *Dengnasî di kurdî de*, rûpelên çapkirî 29–39.
 
 # Dersa 5 — Rêjeya herfan di nivîsên kurmancî de
 
-## 1. Rêjeya herfan çi ye?
+## 1. Armanca vê vekolînê
 
-Rêjeya herfan nîşan dide ku her herf di materyaleke nivîskî de çend caran tê bikaranîn, li gorî tevahiya herfan. Ev rêje bi hejmartina herfên di nivîsan de tê bidestxistin. Armanca wê ew e ku em bizanin di nivîsên kurmancî de kîjan herf zêdetir û kîjan kêmtir tên bikaranîn.
+Nivîskar çend nivîsên kurmancî berhev kiriye û herfên di wan de hejmartine da ku nîşan bide kîjan herf di materyala nivîskî de zêdetir û kîjan kêmtir tên bikaranîn. Ev hejmartin rêjeya herfan di nivîsê de nîşan dide; ew bi xwe rêjeya dengên di axaftinê de nîne.
 
-Rêjeya herfan bi xwe re rêjeya dengên di axaftinê de nîne. Nivîs û gotin dikarin ji hev cuda bin; ji ber vê yekê encamên nivîsî divê wek daneyên nivîsê bên fêmkirin.
+## 2. Materyal û rêbaza hejmartinê
 
-## 2. Çawa lêkolîn hatiye kirin?
+Hemû nivîsên berhevkirî bi hev re ji **52 705 herfan** pêk hatine. Berî hejmartinê hemû nîşanên xalbendiyê, wek nuqte, bêhnok, nîşana pirsê û gazîkirinê, ji nivîsan hatine rakirin.
 
-Nivîskar çend nivîsên kurmancî berhev kiriye. Materyala lêkolînê bi giştî **52,705 herf** hebû. Berî hejmartinê hemû nîşanên xalbendiyê, wek nuqte, bêhnok, nîşana pirsê û gazîkirinê, jê hatine rakirin. Paşê rêjeya her herfê li gorî hejmara wê di tevahiya materyalê de hatiye hesabkirin.
+Nivîskar her herf hejmartiye û rêjeya wê li gorî tevahiya herfan hesab kiriye. Di tabloya wî de, li kêleka rêjeya her herfê, hejmara wê ya di materyalê de û hin sedemên ku dikarin rêjeya wê zêde bikin jî hatine nîşandan.
 
-Nivîskar jî hişyar dike ku materyaleke ji bi milyonan herfan dikare encameke rasttir bide. Ji ber vê yekê 52,705 herf wêneyekî nêzîkî rastiyê dide, lê ne statîstîkeke bêkêmasî û dawî ye.
+Ji bo diyarkirina rêjeyeke tam û bêkêmasî, materyaleke ji bi milyonan herfan pêdivî ye. Nivîskar dibêje ku materyala 52 705 herfan dikare dîmeneke nêzîkî rastiyê bide, lê divê encamên wê wekî texmîn û vekolîneke sînordar bên xwendin.
 
-## 3. Herfên herî pir tên bikaranîn
+## 3. Hin encamên sereke
 
-Li gorî vê materyalê:
-- **E** bi rêjeya **11.6%** herfa herî pir hatiye bikaranîn.
-- **I** bi rêjeya **11.2%** di rêza duyem de ye.
-- **N** bi rêjeya **9.4%** herfa konsonantî ya herî pir hatiye bikaranîn.
-- **A** bi rêjeya **8.0%** hatiye.
-- **Ê** û **R** her yek bi rêjeya **5.2%** hatine hejmartin.
+Li gorî materyala ku hatiye hejmartin:
 
-Pirtûk destnîşan dike ku rêjeya herfan dikare li gor materyal û devokê biguhere. Bo nimûne, di hin devokan de I dikare ji E zêdetir be. Ji ber vê yekê divê em encamên vê vekolînê bi şert û çar xwe bixwînin.
+- **E** bi rêjeya **11,6%** û **6 121** caran herfa herî pir e.
+- **I** bi rêjeya **11,2%** û **5 916** caran di rêza duyem de ye.
+- **N** bi rêjeya **9,4%** û **4 971** caran herfa konsonantî ya herî pir e.
+- **A** bi rêjeya **8,0%** û **4 207** caran tê.
+- **Ê** bi rêjeya **5,2%** û **2 744** caran hatiye hejmartin.
+- **R** jî bi rêjeya **5,2%** û **2 740** caran hatiye hejmartin.
 
-## 4. Herfên kêm-bikaranîn
+Nivîskar hişyar dike ku li gorî materyalên din û devokên cuda, dibe ku rêjeya **I** ji **E** zêdetir be. Ji ber vê yekê, rêza herfan dikare bi guhertina materyalê an devokê biguhere.
 
-Di heman materyalê de hin herf bi rêjeyeke kêmtir hatine bikaranîn:
-- **O**: 0.95%
-- **P**: 0.73%
-- **Ç**: 0.59%
-- **C**: 0.33%
-- **Q**: 0.27%
-- **F**: 0.26%
+Herfên vokal di nav herfên herî pir de ne: **E, I, A, Ê, Î, Û**. Rêjeya **U** û **O** di vê materyalê de kêm e. Nivîskar herwiha dibêje ku awayê nivîsandina peyva girêder **ku** dikare li ser rêjeya **U** bandorê bike.
 
-Ev rêje nîşan dide ku di nivîsên ku hatine vekolîn de ev herf kêmtir xuya bûne. Lê kêmbûna herfekê nayê wateya ku ew di ziman de ne girîng e; dibe ku ew di peyvên taybet, navên kesan an peyvên wergirtî de pêdivî be.
+## 4. Tabloya tevahiya herfan
 
-## 5. Çima hin herf zêde tên?
+Di tabloya jêrîn de rêje û hejmara her herfê wekî ku di materyala nivîskar de hatine çapkirin hatine parastin:
 
-Nivîskar ji bo hin rêjeyan sedemên zimanî destnîşan dike:
-- **E** ji ber paşgira lêkeran di kesê sêyem yê yekjimar de gelek tê.
-- **I** di daçekên *bi, di, ji, li* de û hin peyvên din de tê.
-- **N** ji ber paşgirên lêkerên pirjimar, nîşana neyîniyê û formên pirjimar ên navdêran zêde dibe.
-- **A** di îzafeya navdêrên mê û paşgirên pirjimar de rolek heye.
-- **Ê** di îzafe, paşgira navdêr û hin formên lêkerî de tê.
-- **D** û **B** jî ji ber pêşgir û daçekên berbelav di nivîsê de xuya dibin.
+| Herf | Rêje | Hejmara di materyalê de |
+|---|---:|---:|
+| E | 11,6% | 6 121 |
+| I | 11,2% | 5 916 |
+| N | 9,4% | 4 971 |
+| A | 8,0% | 4 207 |
+| Ê | 5,2% | 2 744 |
+| R | 5,2% | 2 740 |
+| D | 4,6% | 2 407 |
+| B | 4,5% | 2 395 |
+| Î | 4,2% | 2 224 |
+| K | 3,8% | 1 998 |
+| W | 3,3% | 1 753 |
+| Û | 2,8% | 1 464 |
+| Y | 2,6% | 1 381 |
+| T | 2,6% | 1 373 |
+| M | 2,3% | 1 238 |
+| H | 2,3% | 1 207 |
+| L | 2,1% | 1 084 |
+| J | 2,0% | 1 079 |
+| V | 1,7% | 893 |
+| S | 1,6% | 846 |
+| X | 1,5% | 787 |
+| G | 1,3% | 693 |
+| U | 1,3% | 692 |
+| Z | 1,2% | 612 |
+| Ş | 1,0% | 522 |
+| O | 0,95% | 503 |
+| P | 0,73% | 386 |
+| Ç | 0,59% | 308 |
+| C | 0,33% | 176 |
+| Q | 0,27% | 143 |
+| F | 0,26% | 138 |
+| **Hemû** | **100%** | **52 705** |
 
-Ev nimûne nîşan didin ku rêjeya herfekê tenê bi peyvên bingehîn nayê diyarkirin; morfolojî, paşgir, pêşgir û peyvên girêder jî bandorê dikin.
+## 5. Sedemên ku dikarin rêjeya hin herfan zêde bikin
 
-## 6. Sînorên encaman
+Nivîskar ji bo hin herfan sedemên zimanî an mînakên taybet destnîşan dike:
 
-Vê vekolînê divê bi çend hişyarî bên xwendin:
+- **E:** paşgira lêkerê di kesê sêyem yê yekjimar de, wek *ew dikE, dibêjE, diçE*. Di hin devokan de paşgirên din tên bikaranîn; ji ber vê yekê rêjeya E dikare kêmtir be.
+- **I:** daçekên *bi, di, ji, li* û bikaranîna *bi* bi wateya “heye”, wek *bideng*.
+- **N:** paşgira lêkerê di kesên pirjimar de, nîşana neyîniyê û formên pirjimar ên navdêran, wek *em dikiN, hûn dikiN, ew dikiN; Nakim, Neke; kitêbaN, kitêbêN nû*.
+- **A:** îzafeya navdêrên mê û paşgira navdêrên pirjimar, wek *kitêbA min* û *kitêbAn*.
+- **Ê:** paşgira navdêrên mê yên tewandî, îzafeya navdêrên nêr û pirjimar, daçekên serbixwe *jê, pê, tê* û nîşana dema bê.
+- **R:** pêşgira lêkerê *ra-* û paşdaçeka *re* dikarin di rêjeya wê de rolekê bilîzin.
+- **D:** nîşana demên berdewam *D-* û daçeka *di*.
+- **B:** pêşgira lêkeran û daçek û hokera *bi*.
+- **Î:** paşgira navdêrên nêr û paşgira lêkerê di kesê duyem yê yekjimar de.
+- **K:** peyva girêder *ku* û peyvên pirsînê *kî, kê, kû, kengî*.
+- **W:** cînavên kesê sêyem, wek *ew, wê, wî, wan*.
+- **Û:** peyva serbixwe *û* û formên lêkera *bûn*.
+- **Y:** herfa kelijandinê û peyvên girêder, wek *ya, yê, yên, yan*.
+- **T:** di rehê dema borî ya gelek lêkerên bingehîn de heye, wek *goT, haT, girT*.
+- **M:** paşgira lêkerê di kesê yekem yê yekjimar de.
+- **H:** di peyvên bersivdanê û hokeran de, wek *hingê, wiha, hê, hêj, hîna*.
+- **L:** di daçekên *li, lê* û girêdera *lê* de.
+- **J:** di daçekên *ji, jê* de.
+- **V:** di cînavên nîşander ên nêzîk de, wek *ev, vê, vî, van*.
+- **X:** di cînavê *xwe* de.
+- **G:** di peyvên *gelek, germ* û paşpirtika *-geh* de.
+- **Z:** di *zanîn* û formên wê yên cuda de.
+- **O:** dibe ku forma bangkirinê, wek *gelO, hevalO, hevalinO*, rêjeya wê zêde bike.
+- **P:** di vê materyalê de peyva *pirr* wek sedem hatiye nîşandan.
+- **Ç:** di peyvên pirsînê *çi, çend, çima, çawa* de.
+- **C:** di *car* û formên wê yên cuda de, wek *îcar, vêca*.
 
-1. Materyal tenê 52,705 herf e; nivîskar dibêje materyaleke mezintir dê encamên rasttir bide.
-2. Hin formên nivîsînê, wek R-ya şidandî bi RR, dikarin rêjeya herfekê bilind bikin.
-3. Hin peyvên dubare an navên kesan dikarin rêjeyê biguherînin.
-4. Rêjeya nivîsî ne wek rêjeya gotarê ye; hin deng di axaftinê de dikarin li dawiyê peyvê kêm bên gotin, tevî ku di nivîsê de hene.
-5. Devok û awayên cuda yên nivîsînê dikarin rêjeyên cuda çêbikin.
+Ji bo **S, U, Ş, Q û F** di tabloya nivîskar de sedemeke taybet nehatiye diyarkirin.
+
+## 6. Hişyarî û sînorên encaman
+
+Nivîskar çend tiştan wekî sînorên vê vekolînê destnîşan dike:
+
+1. Materyal tenê 52 705 herf e; ji bo encameke bêkêmasî materyaleke pir mezintir pêdivî ye.
+2. Di materyalê de R-ya şidandî li nav an dawiya peyvê bi **RR** hatiye nivîsîn, wek *pirr, şerr*. Heke bi R-yekê bihata nivîsîn, rêjeya R dê kêmtir bûya.
+3. Navê kesekî û peyveke gelek dubarekirî di materyalê de bi R bûn. Ji ber vê yekê dibe ku R bi rêjeya 5,2% bikeve jêr D (4,6%) û B (4,5%), lê ne jêr wan herduyan.
+4. Rêjeya N di nivîsê de 9,4% e, lê di axaftinê de dikare bi awayekî berçav kêmtir be, ji ber ku N li dawiya peyvê di hin devokan de nayê gotin.
+5. Di hin devokan de forma îzafeya pirjimar bi paşgira **-êT** an **-êD** tê gotin, li şûna **-êN** ya nivîsî.
+6. Rêjeya herfan dikare bi devok, materyala nivîsê, awayê nivîsînê, dubarebûna peyvan û navên kesan biguhere.
+
+Ji ber van sînor û cudahiyên di navbera nivîs û axaftinê de, ev tablo tenê rêjeya herfan di materyala nivîskî ya ku hatiye vekolîn de nîşan dide; ew nayê wateya ku ev heman rêjeya dengên axaftinê ye.
 
 ## Çavkanî
 
 Husein Muhammed, *Dengnasî di kurdî de*, rûpelên çapkirî 40–43.
-
----
 
 # Dersa 6 — Dengrêzî û avaniya kîteyan
 
