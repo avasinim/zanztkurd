@@ -3823,7 +3823,7 @@ Kurmancî ji ber ku di peyvên xwemalî de jî komkonsonantên destpêkê hene, 
 
 ## 13. Cotdengiya Ç, K, P û T: taybetmendiyek kurmancî û zazakî
 
-Çavkaniyê cotdengiya Ç, K, P û T wek taybetmendiyeke kurmancî û zazakî destnîşan dike. Di van zimanan de awayên bipif û bêpif dikarin fonemên cuda bin û wateya peyvê biguherînin. Di soranî, kurdiya başûrî, hewramî, farisî û tirkî de ev cotdengî bi heman awayî li destpêka peyvan tune ye.
+Çavkaniyê cotdengiya Ç, K, P û T wek taybetmendiyeke kurmancî û zazakî destnîşan dike. Di van zimanan de awayên bipif û bêpif dikarin fonemên cuda bin û wateya peyvê biguherînin. Di soranî, kurdiya başûrî, hewramî, farisî û tirkî de ev cotdengî bi heman awayî li destpêka peyvan tune ye. Têbînî: di vê çavkaniyê de “kurdiya başûrî” bi taybetî devokên Feylî, Kelhurî, Kirmaşanî û hin devokên din ên nêzîkî wan e ku li Başûr û Rojhilata Kurdistanê, li hin deverên başûrtir ji herêmên soranîaxiv, tên axaftin.
 
 Çavkaniyê nimûneyên kurmancî yên bipif û bêpif wiha berawird dike:
 
