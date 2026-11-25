@@ -1023,6 +1023,8 @@ Nimûneyên pirtûkê:
 - kurmancî û soranî *jin*; zazakî *cinî*; farisî û pehlewî *zen*; avestayî *cinî-*;
 - kurmancî û soranî *roj*; zazakî *roc*; farisî û pehlewî *rûz/roz*; avestayî *reoçeh-*.
 
+Di vê berawirdkirinê de divê cudahiya devokî û standardî were parastin: *roc* di piraniya devokên zazakî de tê gotin, lê forma nivîskî ya standard ya Koma Xebatê ya Vateyê *roj* e. Pirtûk diyar dike ku ev forma standard bi mebesta nêzîkkirina zazakî bi zaravayên din ên kurdî hatiye hilbijartin.
+
 Di hin peyvan de J ji Ş an S-ya kevn hatiye: *hejmar, jimare, jimartin, -jimêr-* li hember farisî *şumar*, peştûyî *şmêrêl* û sanskrîtî *smarati*. Pirtûk herwiha *jidandin* li hember *şidandin* û *cejn* li hember farisî *ceşn* û avestayî *yesne-* dide. Di şîroveya dîrokî ya pirtûkê de, li cihê van dengên îroyîn di proto-hindûewropî de G an K hebû; paşê di îraniya kevn de bû Ç û di qonaxên paşîn de di zimanan de bû C, Z an J.
 
 Di hin peyvan de C bûye J: *îca/îcar → îja/îjar* û *wicdan → wijdan*. Ev guherîn bi piranî dîrokî ye.
