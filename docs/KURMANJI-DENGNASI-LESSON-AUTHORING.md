@@ -2044,6 +2044,8 @@ Di hin peyvan de A-ya kevn di kurmancî de bûye Ê. Berawirdkirina ziman û zar
 
 Di hin peyvên ku cotdengên **EY/YE** tê de hene, ev cotdeng di pêvajoya tekdengkirinê de dibin Ê. Ev guherîn di beşa E de bi nimûneyên çavkaniyê tê şîrovekirin; divê ew bi guherîna A-ya kevn re neyê tevlihevkirin.
 
+Çavkaniyê diyar dike ku A di hin şertan de bi E diguhere, nemaze dema H an du konsonant li pey wê bên: *agah/ageh*, *şah + siwar/şahsiwar*. Di hin peyvan de A dikare bi rêya EH an HE were pêşxistin: *kanî/kehnî*, *karik/kehrik* û *asin/hesin*. Di hin devokên kurdiya başûrî de heman pêvajo bi awayê YE tê dîtin, wek *kar(ik)/kyer* û *nazanim/nyezanim*.
+
 ### 2.2. Guherîna devokî
 
 Di hin devokan de A dibe E:
@@ -2056,6 +2058,10 @@ Di hin devokan de A dibe E:
 Di hin devokan de A, bi taybetî berî N, girov dibe û nêzî dengê O:
 - *nan/non*;
 - *dan/don*.
+
+Di kurdiya başûrî de A carinan bi pêvajoyeke cuda dibe YE: *kar(ik)/kyer* û *nazanim/nyezanim*. Ev formên feylî, kelhurî û kirmaşanî ne; mebesta çavkaniyê ne hemû kurdiya başûr e.
+
+Di hin peyvên ji erebî wergirtî de A û E li gor devokê diguherin. Nivîskar dudiliya navên welat û parzemînan (*Amerîka/Emerîka, Afrîka/Efrîqa, Almanya/Elmanya, Fransa/Frensa*) nîşan dide; ji ber ku di zimanên ewropî yên jêder de A tê nivîsîn, pêşniyara wî parastina A ye.
 
 Di kurmanciya rojhilatî de hin peyv bi A tên gotin ku di kurmanciya navendî de bi Ê ne; wek *asin/hesin* û hin ciyawaziyên din ên devokî. Di berawirdkirina devokan de divê em formên her devokê wek pergala xwe ya dengî binirxînin, ne ku yekê xelet bihesibînin.
 
@@ -2114,14 +2120,21 @@ Di hin peyvên ji erebî wergirtî de jî E bûye I:
 - *selam* → *silav*;
 - *'elef* → *alif*.
 
+Lê di çend peyvên erebî de rêya berevajî jî tê dîtin: E ji I çêdibe, wek *sihet/sehet* û *qise/qese*. Ev nimûne kêm in.
+
+Di hin peyvên esil-erebî de E bi A tê guhertin ji ber bandora tirkî; çavkaniyê formên ku bi rêya tirkî hatine û formên rasterast ji erebî hatine ji hev cuda dike: *'Elî/Alî*, *behr/bahr*, *qelem/qalem* û *teleb/taleb*. Li gorî nivîskar, formên rasterast ji erebî (*Elî, behr, qelem, teleb*) di nivîsa kurdî de standardtir in.
+
 Di hin peyvan de E dikare bi A were guhertin. Çavkaniyê vê yekê bi ketina konsonantan ve girêdide; wek berawirdkirina *serd/sar* û *kerd/kir*. Ev guherîn kêm e; guherîna E bi I di peyvên wek *kerd/kir* berbelavtir e.
+
+Çavkaniyê herwiha du pêvajoyên din ên E-yê destnîşan dike. Yekem, O-ya destpêka hin peyvên ji tirkî wergirtî bi W/E tê nîşandan: *oxir/wexer*, *ördek/werdek* û *ode/wede*. Duyem, di hin peyvên ji erebî hatî de Ê dikare bi EY were nîşandan, wek *mêdan/meydan* û *Têmur/Teymûr*. Ev guherînên taybet in, ne rêzikên giştî.
 
 Guherîna E bi A, Ê, Î an O carinan ji tekdengkirina cotdengan çêdibe. Ji nimûneyên çavkaniyê:
 - **EW/WE → O:** *xewx → xox*, *şewr → şor*; soranî *xo, xoş* li hember kurmancî *xwe, xweş*.
+- **O → WE:** di hin peyvên ji tirkî wergirtî de *oxir/wexer*, *ördek/werdek* û *ode/wede*.
 - **EH → A:** *tehl → tal*, *pehn → pan*, *mehr kirin → mar kirin*.
 - **EY/YE → Ê:** *keyf → kêf*, *beyder → bêder*, *ceyş → cêş*, *yem → êm*.
 
-Di peyvên ji erebî wergirtî de Eyn û E dikarin bi hev re bibin A, wek *'elef → alif*, *'eqil → aqil* û *me'qûl → maqûl*. Di gelek peyvên din de Eyn di gotinê de tê bihîstin, herçend di nivîsîna latînî de bi herfeke cuda nayê nîşandan.
+Di peyvên ji erebî wergirtî de Eyn û E dikarin bi hev re bibin A, wek *'elef → alif*, *'eqil → aqil* û *me'qûl → maqûl*. Di gelek peyvên din de Eyn di gotinê de tê bihîstin, herçend di nivîsîna latînî de bi herfeke cuda nayê nîşandan. Çavkaniyê diyar dike ku di peyvên ji erebî rasterast wergirtî de formên wek *Elî, behr, qelem* standardtir in ji formên ku bi rêya tirkî hatine (*Alî, bahr, qalem*).
 
 Analojî jî dikare E-yekê li ser A-yeke din bandordar bike: *parçe → perçe*, *saet → seet*, *rahet → rehet*. Di hin devokan de paşê dîsîmîlasyon çêdibe û E-ya yekem dibe I: *sa'et → se'et → si'et*, *rahet → rehet → rihet*. Çavkaniyê vê yekê bi parastina kîteya dawiyê û giraniya wê ve girêdide.
 
