@@ -2426,7 +2426,7 @@ Eger di rehê peyvê de Î hebe, di çemandinê de Î-ya din nayê zêdekirin:
 - *tu hatî* (ne *tu hatiyî*);
 - *tu dijî* (ne *tu dijiyî*).
 
-Di hin devokan de Û dibe Î, bi qonaxên navîn ên Ü/W: *bûk → bük/bwîk → bîk*, *dûr → dür/dwîr → dîr*, *zû → zü/zwî → zî*. Di Dihokê de O jî dibe Î: *kon → kîn*, *rovî → rîvî*, *kovî → kîvî*; lê *bûn, çûn* û *û* ya serbixwe îstîsna ne. Guherîn di peyvên wergirtî de jî heye: *qanûn → qanîn*, *tabût → tabît*. Hin devokên din IH diparێزن, wek *bihn, rih, mih, mihvan, sih* li hemبەر *bîn, rî, mî, mîwan, sî*. Di hin peyvên ereبî de guherîna berevajî jî heye: *mudîr → midûr* û *mewlid → mewlîd → mewlûd*.
+Di hin devokan de Û dibe Î, bi qonaxên navîn ên Ü/W: *bûk → bük/bwîk → bîk*, *dûr → dür/dwîr → dîr*, *zû → zü/zwî → zî*. Di Dihokê de O jî dibe Î: *kon → kîn*, *rovî → rîvî*, *kovî → kîvî*; lê *bûn, çûn* û *û* ya serbixwe îstîsna ne. Guherîn di peyvên wergirtî de jî heye: *qanûn → qanîn*, *tabût → tabît*. Hin devokên din IH diparêzin, wek *bihn, rih, mih, mihvan, sih* li hember *bîn, rî, mî, mîwan, sî*. Di hin peyvên erebî de guherîna berevajî jî heye: *mudîr → midûr* û *mewlid → mewlîd → mewlûd*.
 
 ## 11. Î di peyvên ji erebî û ewropî wergirtî de
 
