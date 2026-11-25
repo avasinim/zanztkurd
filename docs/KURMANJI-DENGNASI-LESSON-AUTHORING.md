@@ -1175,11 +1175,11 @@ Di hin devokan de R û L dikarin bi hev biguherin; pirtûk formên *şelwar, şe
 - Hin devokên kurmancî *livîn* — devokên din *nivîn/nivistin* — soranî *nûstin*.
 - Hin devokên kurmancî *loş(î can)* — devokên din *noş(î can)* — soranî *noş(î can)*.
 
-Ev formên bi L devokî ne. Di nav piraniya kurmancan de û di zimanê nivîskî de formên bi N serdest in. Lê daçeka kurmancî *li* û formên wê yên girêdayî, ji aliyê dîrokî ve bi N ve girêdayî ne; formên bi N ji kurmancî û soranî winda bûne û formên bi L mane. Di hewramî de dengê N hatiye parastin.
+Ev formên bi L devokî ne. Di nav piraniya kurmancan de û di zimanê nivîskî de formên bi N serdest in. Lê daçeka kurmancî *li* û formên wê yên girêdayî, ji aliyê dîrokî ve bi N ve girêdayî ne; formên bi N ji kurmancî û soranî winda bûne û formên bi L mane. Di hewramî de dengê N hatiye parastin. Footnote 108 ya çavkaniyê cudahiya daçeka *lê* (kurtkirina *li wê, li wî, li wan*) ji girêdera *lê* (bi wateya “lê, belam”) cuda dike. Di hin devokan de forma daçekê wek *l* (behdînî), *le* (sûrçî) an *la* (mereşî) tê gotin.
 
 ## 10. Guherîna L bi dengên din re
 
-Di kurdî de, li gorî devokan, L di hin peyvan de bi R diguhere. Guherîna L bi R bi taybetî di soraniya Hewlêrê de tê dîtin:
+Di kurdî de, li gorî devokan, L di hin peyvan de bi R diguhere. Çavkaniyê nimûneya *bera/bira ew bike* jî dide: forma wê ya kevn bi L ve girêdayî ye û di hin devokan de wek *bila/bela* tê dîtin. Guherîna L bi R bi taybetî di soraniya Hewlêrê de tê dîtin:
 - Soraniya Hewlêrê *mar* — soraniya Silêmaniyê *mał* — erebî *mal* — kurmancî *mal* (xanî).
 - Soraniya Hewlêrê *mindar* — soraniya Silêmaniyê *mindał/minał* — erebî *menal* — kurmancî *menal* (zarok).
 - Soraniya Hewlêrê *berê* — soraniya Silêmaniyê *bełê* — erebî *bela/belî* — kurmancî *belê* (erê).
