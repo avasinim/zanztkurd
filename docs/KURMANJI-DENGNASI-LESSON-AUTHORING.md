@@ -895,13 +895,13 @@ G dikare li destpêk, nav û dawiya peyvê were:
 - **Li navê:** *agir, ceger, egîd*.
 - **Li dawiyê:** *beg, reng, bêjing*.
 
-Rêjeya G di nivîsên kurmancî de li gorî lêkolîna pirtûkê **1,3%** e. Di peyvên xwemalî yên xwerû de G li nav û dawiya peyvê sînordar e. Li dawiyê bi taybetî piştî N tê, wek *ceng, deng, dereng*. Li pişt R jî dikare were, lê di gelek devokan de dikeve: *gurg → gur*. Carinan jî G di peyvê de zêde dibe, wek *qaling/qalind* ji *qalin*.
+Rêjeya G di nivîsên kurmancî de li gorî lêkolîna pirtûkê **1,3%** e. Li gorî rêzbendiya heman lêkolînê, neh herf ji G kêmtir û 21 herf jê zêdetir di nivîsan de tên dîtin. Di peyvên xwemalî yên xwerû de G li nav û dawiya peyvê sînordar e. Li dawiyê bi taybetî piştî N tê, wek *ceng, deng, dereng*. Li pişt R jî dikare were, lê di gelek devokan de dikeve: *gurg → gur*. Carinan jî G di peyvê de zêde dibe, wek *qaling/qalind* ji *qalin*.
 
 ## 8. Dîroka G û guherînên wê
 
 G di hin peyvên kurdî de ji dema proto-hindûewropî ve hatiye parastin. Pirtûk peyvên *gav, giran, girtin* bi formên soranî, farisî, pehlewî, avestayî, sanskrîtî û zimanên din re berawird dike.
 
-Lê di gelek peyvên ku niha G tê de ye, di hin zimanên kevn ên îranî an zimanên din ên hindûewropî de li cihê wê V an W hebûye. Nimûneyên pirtûkê *gul* (bi formên farisî *gol*, pehlewî *gil* û avestayî *veridhe*), *gotin* (bi formên soranî, hewramî û zazakî yên bi W/V) û *germ* (bi îngilîzî *warm*) in.
+Lê di gelek peyvên ku niha G tê de ye, di hin zimanên kevn ên îranî an zimanên din ên hindûewropî de li cihê wê V an W hebûye. Nimûneyên pirtûkê *gul* (bi formên farisî *gol*, pehlewî *gil* û avestayî *veridhe*), *gu-neh/bi-nas* (bi farisî *go-nah* û avestayî *vi-nas*), *gotin* (bi formên soranî, hewramî û zazakî yên bi W/V) û *germ* (bi îngilîzî *warm*) in.
 
 Di hin devokan de G di koma dengên NG de cihê K digire: *birak → birang* û *çok → çong*. Di hin berawirdkirinên kurmancî û soranî de G-ya soranî li cihê H-ya kurmancî tê, wek *reh/rih → reg*. Di kurdiya başûrî de jî K di hin rewşan de bûye G; wek *nêzîk/nizîk* li hember *nizîg*, û paşgira *-ek/-êk* li hember *-êg/-egan*.
 
