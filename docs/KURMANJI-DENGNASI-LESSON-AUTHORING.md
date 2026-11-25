@@ -2018,7 +2018,7 @@ Husein Muhammed, *Dengnasî di kurdî de*, rûpelên çapkirî **233–250**.
 
 Herfa **A/a** di kurmanciya giştî û standard de nîşana vokaleke **nizm, paşîn û ne-girovir** e. Di dema derxistina wê de ziman li beşa paşîn a devê ye û nêzî binê devê dimîne. Lêv ne tên girovkirin; di rewşa xwe ya asayî de dimînin.
 
-Nîşana dengê A di IPA de **[ɑ]** ye. Ev nîşan ji herfa nivîsînê cuda ye: di IPA de A-ya kurdî bi [ɑ] tê nîşandan.
+Nîşana dengê A di IPA de **[ɑ]** ye. Ev nîşan ji herfa nivîsînê cuda ye: di IPA de A-ya kurdî bi [ɑ] tê nîşandan. A-ya kurdî û A-ya tirkî ji heman cihê derdikevin, lê A di peyvên xwemalî yên tirkî de ji A-ya kurdî dirêjtir e.
 
 A li her sê cihên peyvê tê:
 - **Destpêk:** *agir, aş, alif*.
@@ -2029,7 +2029,7 @@ A li navê peyvan pir berbelav e. Li destpêka peyvên xwemalî kêmtir e. Li da
 
 Di hin peyvan de herçend A di nivîsînê de li destpêkê xuya dike, di gotinê de dengê Eyn li pêşiya wê tê bihîstin. Nimûne: *aciz, alem, am, Amûdê*. Ji aliyê dengnasiyê ve di van formên gotinê de A bi rastî piştî Eynê tê.
 
-A di peyvên ji zimanên din hatine wergirtin de jî heye: *amîn, aheng, axa, aman, demokrat*.
+A di peyvên ji zimanên din hatine wergirtin de jî heye. Çavkaniyên hin nimûneyan ev in: *amîn* bi rêya erebî ji îbranî, *aheng* ji farisî, *axa* ji tirkî, *aman* ji ermenî û *demokrat* bi rêya fransî an îngilîzî ji yûnanî hatiye.
 
 ## 2. Guherînên A
 
