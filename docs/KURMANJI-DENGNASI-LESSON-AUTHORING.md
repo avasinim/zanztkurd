@@ -92,15 +92,15 @@ Husein Muhammed, *Dengnasî di kurdî de*, rûpelên çapkirî 4–7.
 
 ## 1. Vokal û konsonant
 
-Hemû dengên zimanî yan vokal in yan jî konsonant. Vokal dengên ku di derketina wan de hewa bi serbestî di nav rêya dengê re derbas dibe ne; ew nayên sekinandin. Di kurdî de heşt nîşanên vokalan hene: **A, E, Ê, I, Î, O, U, Û**. Di her peyva kurdî de bi kêmî vokalek heye. Piraniya vokalan dikarin bi tenê jî wek peyvên serbixwe bên bikaranîn.
+Hemû dengên zimanî yan vokal in yan jî konsonant. Vokal ew deng in ku dema derketina wan de hewa bi serbestî di rêya dengê re derbas dibe û nayê sekinandin. Di kurdî de heşt nîşanên vokalan hene: **A, E, Ê, I, Î, O, U, Û**. Di her peyva kurdî de bi kêmî vokalek heye. Piraniya vokalan dikarin bi tenê jî wek peyvên serbixwe bên bikaranîn.
 
-Konsonant deng e ku di dema derketina wî de rêya hewayê di cihêkê de bi tevahî an bi beşekî tê girtin. Konsonant bê vokal nikarin peyv an kîteyan pêk bînin; ji ber vê yekê di her peyv an kîteyê de divê bi kêmî vokalek hebe.
+Konsonant dengek e ku dema derketina wî de rêya hewayê li cihekî bi tevahî an bi beşekî tê girtin. Konsonant bê vokal nikarin peyv an kîteyan pêk bînin; ji ber vê yekê di her peyv an kîteyê de divê bi kêmî vokalek hebe.
 
 Di alfabeya kurdî-latînî de 23 nîşanên konsonantan hene. Ev hejmar hejmareke nîşanên nivîsînê ye, ne hejmareke hemû fonemên konsonantî. Bo nimûne, P di peyvên *pênc* û *perde* de heman dengek nîşan nake, herçend bi heman herfê tê nivîsîn. Di kurmancî de ew du deng fonemên cuda ne, lê di soranî de wek heman deng tên hesibandin. Hejmara fonemên konsonantî li gor zaravayên kurdî û heta devokên kurmancî jî diguhere.
 
 ## 2. Binavkirina vokal û konsonantan
 
-Di nivîs û pirtûkên rêzimanî yên kurdî de ji bo vokal û konsonant gelek navên cuda hatine bikaranîn. Navên **bideng** û **bêdeng** rast nînin, ji ber ku hem vokal hem jî konsonant deng in. Herwiha navên **dengdêr** û **dengdar** jî ji aliyê wateyê ve ji hev cuda nînin; herdu jî wateya dengheyî didin. Ji ber vê yekê, di vê vekolînê de navên **vokal** û **konsonant** tên bikaranîn.
+Di nivîs û pirtûkên rêzimanî yên kurdî de ji bo vokal û konsonant gelek navên cuda hatine bikaranîn. Navên **bideng** û **bêdeng** rast nînin, ji ber ku hem vokal hem jî konsonant deng in. Herwiha navên **dengdêr** û **dengdar** jî ji aliyê wateyê ve ji hev cuda nînin; herdu jî deng nîşan didin. Ji ber vê yekê, di vê vekolînê de navên **vokal** û **konsonant** tên bikaranîn.
 
 ## 3. Cih û awayê çêbûna dengan
 
