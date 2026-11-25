@@ -3861,7 +3861,7 @@ Husein Muhammed, *Dengnasî di kurdî de*, rûpelên çapkirî 402–417.
 
 ## 1. Cotdengiya Ç, K, P û T li destpêka peyvan de
 
-Di destpêka vê dersê de nivîskar kurtenivîsareke dîrokî li ser dengên bipif û bêpif ên **Ç, K, P û T** pêşkêş dike. Mijara wê taybetî awayê peydabûna van cotdengan li destpêka peyvan e. Li gorî nêrîna nivîskar, peydabûna cotdengiyê bi ihtîmaleke mezin ne tenê encama tesîra ermenî ye; ew şîroveya berê bi pirs û delîlan re dixe bin lêkolînê.
+Di destpêka vê dersê de nivîskar kurtenivîsareke dîrokî li ser dengên bipif û bêpif ên **Ç, K, P û T** pêşkêş dike. Mijara wê taybetî awayê peydabûna van cotdengan li destpêka peyvan e. Li gorî nêrîna nivîskar, peydabûna cotdengiyê bi ihtîmaleke mezin ji tesîra ermenî nayê; ew şîroveya berê bi pirs û delîlan re dixe bin lêkolînê.
 
 Nivîskar texmîn dike ku di kurmancî û zazakî de awayên bêpif ên van dengan dibe ku kevntir bin. Di gelek peyvên wergirtî de, berevajî, awayên bipif li destpêka peyvê tên dîtin. Ew vê cudahiyê bi bandora zimanên cîran ve girê dide: di qonaxên kevntir de farisî û di rewşa niha de bi taybetî tirkî dikarin li ser bilêvkirina hin peyvan bandor bikin.
 
