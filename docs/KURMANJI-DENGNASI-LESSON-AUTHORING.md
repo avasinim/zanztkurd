@@ -1059,7 +1059,7 @@ Husein Muhammed, *Dengnasî di kurdî de*, rûpelên çapkirî 116–132.
 
 Di dengnasiya kurdî de K/k nîşana dengekî paşdevî, sekinî û bêlerz e. Di derxistina wê de rêya hewayê bi temamî tê girtin û paşê vedibe. Cihê derxistinê li paşiya devê ye; perdeyên dengî di dema derketina wê de nalerizin. Di alfabeya dengnasî ya navneteweyî de ev deng bi **[k]** tê nîşandan.
 
-Di nivîsîna kurdî-latînî de K/k ji bo vê dengê tê bikaranîn. Di hin zimanan de C û Q jî dikarin dengê [k] nîşan bidin. Di nivîsa kurdî-erebî û farisî de herfa **ک** tê bikaranîn; di erebî de **ك** ye. Di alfabeya kurdî-krîlî de К/к ji bo wê hatine bikaranîn. Di destpêka nivîsîna kurdî ya Hawarê de K ji bo dengê Q û Q ji bo dengê K dihat nivîsîn; paşê ev awayê nivîsînê hatiye guhertin.
+Di nivîsîna kurdî-latînî de K/k ji bo vê dengê tê bikaranîn. Di hin zimanan de C û Q jî dikarin dengê [k] nîşan bidin. Di nivîsa kurdî-erebî û farisî de herfên taybet ên wan alfabeyan ji bo vê dengê tên bikaranîn. Di alfabeya kurdî-krîlî de К/к ji bo wê hatine bikaranîn. Di destpêka nivîsîna kurdî ya Hawarê de K ji bo dengê Q û Q ji bo dengê K dihat nivîsîn; paşê ev awayê nivîsînê hatiye guhertin.
 
 ## 2. Peydabûna K di peyvan de
 
