@@ -2009,7 +2009,7 @@ Li gorî beşa taybet a çavkaniyê, komên jêrîn di peyvên kurmancî yên es
 
 ### Komên di peyvên esil-erebî de
 
-Hin kom di peyvên esil-îranî de nayên dîtin, lê di peyvên ji erebî wergirtî de hene. Çavkaniyê ji wan **-BD, -BB-, -BS, -CM, -FŞ, -FZ, -HS, -KS, -MZ, -MD, -NS, -NX, -QS, -QŞ, -QT, -RQ, -RŞ, -SM, -VD, -VZ, -WD, -WQ, -WS, -WZ, -YD, -YF, -YL, -YN, -YR, -YS, -ZQ** û çend komên din rêz dike. Nimûneyên wan *ebd/evd, hebs/hefs, hecm, kifş, hefz, behs, eks, remz, hemd, cins, zinx, reqs/rexs, neqş/nexş, weqt/wext, irq* û *ferş* in.
+Hin kom di peyvên esil-îranî de nayên dîtin, lê di peyvên ji erebî wergirtî de hene. Li gorî lîsteya çavkaniyê ya rûpela 249, komên cuda ev in: **-BD, BB-, -BS, -CM, -FZ, -FŞ, -HS, -KS, -MZ, -MD, -NS, -NX, -QS, -QŞ, -QT, -RB, -RQ, -RŞ, -SM, -SQ, -VD, -VZ, -WD, -WQ, -WS, -WZ, -XS, -XŞ, -XT, -YD, -YF, -YL, -YN, -YR, -YS, -ZQ**. Nimûneyên wan *ebd/evd, rebb/reb, hebs/hefs, hecm/recm, hefz, kifş, behs, eks, remz, hemd, cins, zinx, reqs/rexs, neqş/nexş, weqt/wext, kerb/herb, irq/xerq, ferş, resm, risq/rizq, evd, hevz, hewd, zewq, dews, hewz, rexs, nexş, bext/text/wext, eyd, heyf/keyf, meyl, deyn/beyn/eyn, teyr/seyr, heys* û *rizq* in.
 
 Di hin peyvan de komên dengî di dema wergirtinê de diguherin. Bo nimûne, **QṢ** di *reqs* de dikare bibe **XS** û **QŞ** di *neqş* de dikare bibe **XŞ**. Di hin peyvan de guherînên din jî hene: *ebd/evd*, *hebs/hefs*, *hefz/hevz*, *weqt/wext*, *risq/rizq* û *zevq/zewq*. Ji ber vê yekê, formên kurmancî her tim wek formên erebî namînin.
 
