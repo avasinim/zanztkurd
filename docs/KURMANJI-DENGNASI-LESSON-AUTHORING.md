@@ -14,7 +14,7 @@
 
 ## Rêza dersan
 
-| # |  |  |
+| # | Sernavê dersê | Rûpelên çavkaniyê |
 |---:|---|---:|
 | 1 | Dergeh: dengnasî û lêkolînên pêşîn | 4–7 |
 | 2 | Vokal, konsonant, cih û awayên derketina dengan, pifdarî | 8–15 |
