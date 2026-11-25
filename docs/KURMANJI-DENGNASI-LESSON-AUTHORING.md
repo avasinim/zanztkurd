@@ -480,7 +480,7 @@ Nivîskar ji bo hin herfan sedemên zimanî an mînakên taybet destnîşan dike
 - **Ç:** di peyvên pirsînê *çi, çend, çima, çawa* de.
 - **C:** di *car* û formên wê yên cuda de, wek *îcar, vêca*.
 
-Ji bo **S, U, Ş, Q û F** di tabloya nivîskar de sedemeke taybet nehatiye diyarkirin.
+Nîşana **(?)** di tabloyê de tê wê wateyê ku an sedemeke taybet tune ye, an jî sedem nayê zanîn. Ji bo **S, U, Ş, Q û F** nivîskar di tabloyê de sedemeke taybet destnîşan nake.
 
 ## 6. Hişyarî û sînorên encaman
 
