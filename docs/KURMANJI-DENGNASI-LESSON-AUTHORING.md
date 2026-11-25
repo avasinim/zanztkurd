@@ -1644,7 +1644,7 @@ Di hin peyvên din de Ç di bin bandora erebî de bûye Ş; çavkaniyê rêya d�
 
 ### Rêjeya Ş û çavkaniyên dîrokî
 
-Li gorî lêkolîna ku pirtûk vedigêre, rêjeya herfa Ş di nivîsên kurmancî de **1,0%** e. Ş di bingeha proto-hindûewropî de tune bû; di peyvên xwemalî de dikare ji komdengên kevn ên **KS-, KW-, KY-, SW-, SY- û Gʰ-** pêk hatibe. Pirtûk nimûneyên *şev* (*ksep-*), *şeş* (*sweks-*), *şûjin* (*syuh-, swi-*), *şandin* (*kyeu-*), *heşt* (*oktow-*) û rehê *-doş-* (*dʰewgʰ-*) dide.
+Li gorî lêkolîna ku pirtûk vedigêre, rêjeya herfa Ş di nivîsên kurmancî de **1,0%** e. Di heman lêkolînê de tenê şeş herf ji Ş kêmtir tên dîtin: **O, P, Ç, C, F û Q**; herfên din ji Ş zêdetir in. Ş di bingeha proto-hindûewropî de tune bû; di peyvên xwemalî de dikare ji komdengên kevn ên **KS-, KW-, KY-, SW-, SY- û Gʰ-** pêk hatibe. Pirtûk nimûneyên *şev* (*ksep-*), *şeş* (*sweks-*), *şûjin* (*syuh-, swi-*), *şandin* (*kyeu-*), *heşt* (*oktow-*) û rehê *-doş-* (*dʰewgʰ-*) dide.
 
 Gelek peyvên bi Ş esil-biyanî ne: ji erebî *şer, şaşik, şehîd, eşq*; ji tirkî *şaş, doşek, qişle*; ji sanskrîtî *şekir, tebeşîr*; ji fransî *şampanya, paraşût*.
 
@@ -1673,7 +1673,7 @@ Di peyvên xwemalî de T ya navîn û dawî bi gelemperî di lêkeran de wek nî
 
 Ji ber vê yekê, T ya navîn an dawî di hin lêkeran de nîşana morfolojîk e; divê em wê bi awayekî xweber wek guherîna dengî şîrove nekin.
 
-Li gorî lêkolîna ku pirtûk vedigêre, rêjeya T di nivîsên kurmancî de **2,6%** e.
+Li gorî lêkolîna ku pirtûk vedigêre, rêjeya T di nivîsên kurmancî de **2,6%** e. Di nav konsonantan de T li rêzbendiya tîrêjê de di pileya heştem de ye; N, R, D, K, W û Y ji wê zêdetir tên dîtin.
 
 ## 5. T-ya bipif û T-ya bêpif
 
