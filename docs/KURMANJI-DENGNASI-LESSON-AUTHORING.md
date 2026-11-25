@@ -777,7 +777,7 @@ Rêjeya Ç di nivîsên kurmancî de kêm e. Lê peyvên pirsiyarkî yên wek *�
 
 ### Dîroka Ç û têkiliyên wê
 
-Ç di zimanên îranî yên kevn û nû de, herwiha di hin zimanên cîran de heye. Lê di makezimanê proto-hindûewropî de tune bû. Li gorî şîroveya pirtûkê, piraniya Ç-yên destpêkî yên kurdî ji K-ya proto-hindûewropî peyda bûne. Nimûneya bingehîn peyva pirsiyarkî *çi* ye ku bi formên *quis/qui* yên latînî, *kim* ya sanskrîtî û *kak* ya rûsî tê berawirdkirin. Ji *çi* re peyvên *çawa, çend, çima, çira, çilo* û *çito* jî girêdayî ne. Di kurmancî de hin peyvên pirsiyarkî bi K mane, wek *kî, kê, kengî, kîjan* û *kû*.
+Ç di hemû zimanên îranî yên kevn û nû de heye; di tirkî, ermenî, azerî û gurcî de jî tê dîtin. Di zimanên samî de, wek erebî û aramî, bi piranî tenê di hin devokan de heye. Lê di makezimanê proto-hindûewropî de tune bû. Li gorî şîroveya pirtûkê, piraniya Ç-yên destpêkî yên kurdî ji K-ya proto-hindûewropî peyda bûne. Nimûneya bingehîn peyva pirsiyarkî *çi* ye ku bi formên *quis/qui* yên latînî, *kim* ya sanskrîtî û *kak* ya rûsî tê berawirdkirin. Ji *çi* re peyvên *çawa, çend, çima, çira, çilo* û *çito* jî girêdayî ne. Di kurmancî de hin peyvên pirsiyarkî bi K mane, wek *kî, kê, kengî, kîjan* û *kû*.
 
 Di hin devokên soranî û zazakî de K dikare bibe Ç; ev guherîn di kurmancî de wek rêzikeke giştî nayê dîtin. Nimûneyên soranî yên pirtûkê *kê → çê*, *kwê → çwê* û *kêr → çêr* in.
 
@@ -806,11 +806,11 @@ D di gelek peyvên kurmancî de dengekî kevnar e û di hin peyvan de heta proto
 
 D-ya navîn an dawî di hin peyvan de ji T-ya kevn hatiye. Di gelek zimanên îraniya bakur-rojavayî de D-ya piştî vokalekê li dawiya peyvê ketiye; nimûneyên kurmancî *ba, bû, çû, xwe, za* ne, li hember formên farisî yên *bad, bûd, şod, xûd, zad*. Di kurmancî de D piştî R jî di hin rehên lêkeran de ketiye, wek *birin, kirin, mirin, xwarin* û *zer*. D di hin peyvan de piştî dengên din jî dikeve; lê kurmancî û soranî gelek caran D-ya piştî N diparêzin, berevajî kurdiya başûrî.
 
-Di hin devokên kurmanciya rojhilatî de D di paşpirtika pirhejmarî de wek *-êd/-yêd* tê dîtin; di gelek devokên din de formên *-êt/-yêt* an *-ên/-yên* hene. Pirtûk herwiha guherîna pirtika pêşerojê *dê* nîşan dide: di kurmanciya navendî de *wê* û di gotina sivik de *ê* jî tê dîtin.
+Di hin devokên kurmanciya rojhilatî de D di paşpirtika pirhejmarî de wek *-êd/-yêd* tê dîtin; di gelek devokên din de formên *-êt/-yêt* an *-ên/-yên* hene. Pirtûk herwiha guherîna pirtika pêşerojê *dê* nîşan dide: *dê* di kurmanciya rojhilatî de hatiye parastin, di kurmanciya navendî de bûye *wê*, û di gotina sivik de dikare bibe *ê*. Di rojhilatî de li pey cînavên kesê sêyem û navên kesan forma *dê* dimîne, wek *ew dê xwin*, ne *ew ê xwin*.
 
 D dikare di nav peyvê de bi H, Y, W an dengên din biguhere. Nimûneyên pirtûkê *kedî/kehî*, *cuda/cihê/ciya* û *daden/dayîn/dan* in. Di hin rewşan de D pêşî dibe Y û paşê dikeve. Lê pêşgirên kurmancî yên *na-, bi-, di-* bi gelemperî D-yê rehê lêkerê diparêzin: *nadin, bidin, didim*.
 
-D di hin peyvan de zêde bûye tevî ku di eslê wan de tune bû; nimûneyên pirtûkê *qalind, mindal, elind/elend* û *tendûr* in. Di hin peyvên ji erebî wergirtî de D-ya qelew ya wek dengê erebî Ḍ bi D-ya sade nayê veguhastin, lê bi Z tê nîşandan: *remeḑan → remezan*, *raḑi → razî*, *ferḑ → ferz* û *qerḑ → qerz*. Di hin devokan de formên kurtkirî yên *fer* û *qer* jî hene.
+D di hin peyvan de zêde bûye tevî ku di eslê wan de tune bû; nimûneyên pirtûkê *qalind, mindal, elind/elend* û *tendûr* in. Di kurmanciya giştî de D-ya qelew a erebî tune ye; tenê di hin devokan de bi awayekî kêm û parawêzî, wek di *dawet* de, tê bihîstin. Di peyvên ji erebî wergirtî de D-ya qelew ya wek dengê erebî Ḍ bi D-ya sade nayê veguhastin, lê bi Z tê nîşandan: *remeḑan → remezan*, *raḑi → razî*, *ferḑ → ferz* û *qerḑ → qerz*. Di hin devokan de formên kurtkirî yên *fer* û *qer* jî hene.
 
 ## Çavkanî
 
