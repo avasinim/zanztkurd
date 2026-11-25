@@ -3566,7 +3566,7 @@ Di gelek peyvên xwemalî an îranî de, li cihê J ya kurmancî di zazakî de C
 | roj | roc |
 | jîn / jiyan | ciwayene |
 
-Di hin peyvan de li cihê J ya kurmancî di zazakî de Z jî heye; mînak *jî* û *zî*. Çavkaniyê ev cudahî bi pêşketina dengên îranî yên kevn ve girê dide: Ç ya kevn di kurmancî, soranî û başûrî de bûye J; di zazakî û hewramî de C; di farisî de Z.
+Di hin peyvan de li cihê J ya kurmancî di zazakî de Z jî heye; mînak *jî* û *zî*. Çavkaniyê ev cudahî bi pêşketina dengên îranî yên kevn ve girê dide: Ç ya kevn di kurmancî, soranî û başûrî de bûye J; di zazakî û hewramî de C; di farisî de Z. Koma Xebatê ya Vate, ku li ser zazakî dixebite, di pêşniyara xwe ya standardkirinê de forma *roj* tercîh kiriye; li gorî footnote-a çavkaniyê, ev tercîh ji ber nêzîkbûna wê bi kurmancî re ye, ne ji ber ku piraniya axêverên zazakî vê formê bikar tînin.
 
 ## 8. G ya kurmancî û V ya zazakî
 
