@@ -2662,11 +2662,7 @@ Komdengên **-iya-** jî giring in. Di peyvên wek *çiya, giya, giyan, jiyan, �
 
 Rastnivîsîn her tim hemû tevgera dengî ya gotinê bi awayekî rasterast nîşan nade. Komdengên W û Y dikarin li gor peyv û devokê wek nîvvokal, konsonant an beşeke dîftongê tevbigere.
 
-Ji bo xwendekar giring e ku:
-1. peyvê bi kîteyan veqetîne;
-2. di gotinê de bibîne ka dengên vokalî di heman kîteyê de ne;
-3. W/Y-ya nivîskî bi awayekî otomatîk wek konsonant hesab neke;
-4. bilêvkirina devokî ji forma standard cuda bike.
+Ji ber vê yekê, di analîza dîftongê de divê cudahiya di navbera nivîsîna peyvê, dabeşkirina wê bi kîteyan û bilêvkirina wê ya rastîn de were parastin. W û Y li gor peyv û devokê dikarin wek nîvvokal, konsonant an beşeke dîftongê tevbigere; ji ber vê yekê tenê forma nivîskî ji bo biryardana dengî bes nîne.
 
 ### 8. Dîftongên bi Y û vokalên din
 
