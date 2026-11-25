@@ -1144,6 +1144,8 @@ L-ya qelew di hemû devokên kurmancî de tê dîtin, lê di hin peyvan de devok
 - Bi L-ya qelew: *meła, miłet, zełam*.
 - Bi L-ya zirav: *mela/mele, milet, zilam*.
 
+Pirtûk destnîşan dike ku L-ya qelew di van peyvan de ne ji tesîra soranî ye: di soranî de *mela* û *milet* bi L-ya zirav tên gotin; devokên ku *milet* bi L-ya qelew dibêjin ji soranî dûrtir in.
+
 Pirtûk destnîşan dike ku cudahiya L-ya zirav û qelew di kurmancî de bi temamî wek cudahiya du foneman nayê pejirandin. Nimûneya *çil* (40) û *çił* (çepel, tema, xwazok, nemerd) ji bo nîşandana cudahiyê tê dayîn. Lê di van herdu peyvan de ne tenê L, Ç jî cuda ye: Ç-ya *çil* bipif e, Ç-ya *çił* bêpif e. Ji ber vê yekê, fonemiya herdu L-yan ne tiştekî bêguman e. L-ya qelew ji bilî soranî, di hewramî û gelek devokên kurdiya başûrî de jî berfireh e; di tirkî de jî wek alofon tê dîtin.
 
 ## 8. Dîroka L
@@ -1177,10 +1179,10 @@ Di hin devokan de R û L dikarin bi hev biguherin; pirtûk formên *şelwar, şe
 
 Çavkaniyeke din a L di hin peyvên xwemalî de N e. Di hin devokên kurmancî de N-ya peyvên kevn bûye L:
 - Hin devokên kurmancî *limêj* — devokên din *nimêj* — soranî *niwêj* — zazakî *nimac*.
-- Hin devokên kurmancî *livîn* — devokên din *nivîn/nivistin* — soranî *nûstin*.
+- Hin devokên kurmancî *livîn* (bi maneya doşek, lihêf an balgih) — devokên din *nivîn/nivistin* — soranî *nûstin*.
 - Hin devokên kurmancî *loş(î can)* — devokên din *noş(î can)* — soranî *noş(î can)*.
 
-Ev formên bi L devokî ne. Di nav piraniya kurmancan de û di zimanê nivîskî de formên bi N serdest in. Lê daçeka kurmancî *li* û formên wê yên girêdayî, ji aliyê dîrokî ve bi N ve girêdayî ne; formên bi N ji kurmancî û soranî winda bûne û formên bi L mane. Di hewramî de dengê N hatiye parastin. Footnote 108 ya çavkaniyê cudahiya daçeka *lê* (kurtkirina *li wê, li wî, li wan*) ji girêdera *lê* (bi wateya “lê, belam”) cuda dike. Li gorî heman footnote-ê, girêdera *lê* bi *la/lêkin/lakin* a erebî ve girêdayî ye; ji ber vê yekê divê ew ji daçeka *lê* ya kurmancî re neyê tevlihevkirin. Di hin devokan de forma daçekê wek *l* (behdînî), *le* (sûrçî) an *la* (mereşî) tê gotin.
+Ev formên bi L devokî ne. Di nav piraniya kurmancan de û di zimanê nivîskî de formên bi N serdest in. Lê daçeka kurmancî *li* û formên wê yên girêdayî, ji aliyê dîrokî ve bi N ve girêdayî ne; formên bi N ji kurmancî û soranî winda bûne û formên bi L mane. Di hewramî de dengê N hatiye parastin; di zazakî û farisî de ev daçek bi tevahî winda bûye. Footnote 108 ya çavkaniyê cudahiya daçeka *lê* (kurtkirina *li wê, li wî, li wan*) ji girêdera *lê* (bi wateya “lê, belam”) cuda dike. Li gorî heman footnote-ê, girêdera *lê* bi *la/lêkin/lakin* a erebî ve girêdayî ye; ji ber vê yekê divê ew ji daçeka *lê* ya kurmancî re neyê tevlihevkirin. Di hin devokan de forma daçekê wek *l* (behdînî), *le* (sûrçî) an *la* (mereşî) tê gotin.
 
 ## 10. Guherîna L bi dengên din re
 
