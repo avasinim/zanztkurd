@@ -3194,7 +3194,7 @@ Ev koma dengî di zazakî û farisî de jî tê dîtin; wek zazakî *berden, ker
 
 Li gorî ravekirina dîrokî ya çavkaniyê, di zimanên îranî yên kevn û navîn de li cihê R ya kurmancî û RD ya soranî, RT hebû. Paşê di soranî de RT bûye RD, lê di kurmancî de T ya piştî R ketiye û R maye. Ji ber vê yekê, di vê komê de D ya soranî ne dengê nû yê zêdekirî ye; ew di rêça dîrokî de maye.
 
-Hin peyvên soranî RD hene ku li hember wan di kurmancî de RT heye; wek *bijardin / bijartin*. Li vir T di kurmancî de nîşana demê ye. Lê ev rêbaz li hemû peyvan nayê sepandin: *bar, car, ser, sîr, sor* di herdu zaravayan de bê D tên dîtin. Wateya peyva *pir* jî di nimûneya çavkaniyê de “rêya di ser avê re” ye.
+Hin peyvên soranî RD hene ku li hember wan di kurmancî de RT heye; wek *bijardin / bijartin*. Li vir T di kurmancî de nîşana demê ye. Lê ev rêbaz li hemû peyvan nayê sepandin: *bar, car, ser, sîr* di herdu zaravayan de bê D tên dîtin; di soranî de peyva *sor* bi formê *sûr* tê gotin, bê D. Wateya peyva *pir* jî di nimûneya çavkaniyê de “rêya di ser avê re” ye.
 
 ## 5. Komdengên destpêkî: ST di kurmancî û soranî de
 
@@ -3209,7 +3209,7 @@ Soranî bi gelemperî komdengên konsonantî yên destpêka peyvê qebûl nake. 
 
 Li gorî ravekirina dîrokî, ST ya destpêkî maye û E di soranî de li pêşê hatiye zêdekirin. Di hin peyvan de, li şûna zêdekirina E, T dikeve: kurmancî *standin, stendin* û soranî *sendin*. T dikare di dawiya peyvê de jî bikeve; wek *dest / des*.
 
-Ev rêbaz bê îstîsna nîne. Di peyvên ji kurmancî an zimanên ewropî wergirtî de ST dikare di soranî de jî li destpêkê bimîne; wek *stran* û *studyo*. Komdengên din jî dikarin bi awayên cuda biguherin; wek kurmancî *şkeft* û soranî *eşkewt*. Lê hin peyv wek *spî, şkandin, şkestin* di herdu zaravayan de nêzî hev dimînin.
+Ev rêbaz bê îstîsna nîne. Di peyvên ji kurmancî an zimanên ewropî wergirtî de ST dikare di soranî de jî li destpêkê bimîne; wek *stran* û *studyo*. Komdengên din jî dikarin bi awayên cuda biguherin; wek kurmancî *şkeft* û soranî *eşkewt*. Lê hin peyv wek kurmancî *spî, şkandin, şkestin* û soranî *spî, şkandin, şkan* di herdu zaravayan de nêzî hev dimînin.
 
 ## 6. Pifdarî û bêpifî di Ç, K, P û T de
 
