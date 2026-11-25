@@ -1184,7 +1184,7 @@ Di kurdî de L bi gelemperî bi dengên din naguhere. Lê pirtûk ji zimanên di
 
 ## Çavkanî
 
-Husein Muhammed, *Dengnasî di kurdî de*, rûpelên çapkirî 133–144.
+Husein Muhammed, *Dengnasî di kurdî de*, rûpelên çapkirî 133–146.
 
 ---
 
