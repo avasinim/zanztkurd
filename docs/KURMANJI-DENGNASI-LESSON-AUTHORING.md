@@ -503,7 +503,7 @@ Husein Muhammed, *Dengnasî di kurdî de*, rûpelên çapkirî 40–43.
 
 Peyv ji yek an çend kîteyan pêk tên. Kîte parçeyeka peyvê ye ku mirov dikare di dema gotina peyvê de bêhna xwe li ser wê bigire. Peyva *av* yekkîteyî ye, *bi-rin* dukîteyî ye û *gi-han-di-bû-yê* pirrkîteyî ye.
 
-Dengrêzî, anku fonotaksî, lêkolîna rêzikên birêzkirina dengan di kîte û peyvan de ye. Li gorî van rêzikan, hin komên dengan dikarin li pey hev bên û hin komên din ne mimkin in. Bo nimûne, di kurmancî de **st-** dikare li destpêka peyvê bê, wek *stêr, stem, standin*; lê **nd-** nikare dest bi peyvê bike. Stêrka * di nivîsa pirtûkê de formeke ne-mimkin nîşan dide. Herdu komên **st** û **nd** dikarin di nava an dawiya peyvê de jî peyda bibin, wek *mast, rast, ristin; çend, çandin, bilind*.
+Dengrêzî, anku fonotaksî, lêkolîna rêzikên birêzkirina dengan di kîte û peyvan de ye. Li gorî van rêzikan, hin komên dengan dikarin li pey hev bên û hin komên din ne mimkin in. Bo nimûne, di kurmancî de **st-** dikare li destpêka peyvê bê, wek *stêr, stem, standin*; lê **nd-** nikare dest bi peyvê bike. Nivîskar herwiha destnîşan dike ku **R** li destpêka peyvê herdem şidandî ye û R-ya nerm li wê pozîsyonê nayê. Stêrka * di nivîsa pirtûkê de formeke ne-mimkin nîşan dide. Herdu komên **st** û **nd** dikarin di nava an dawiya peyvê de jî peyda bibin, wek *mast, rast, ristin; çend, çandin, bilind*.
 
 Pirtûk destnîşan dike ku her herfa kurdî dikare li destpêka peyvê cih bigire, lê hemû dengên ku bi heman herfê tên nivîsîn ne. Li dawiya peyvê jî gelek herf dikarin bên, lê dengên bihilm ên **Ç, K, P, T** li wê pozîsyonê nayên. Dengên bêhilm û qelew ên P û T dikarin li dawiya peyvê bên; dengên qelew û bihilm nikarin.
 
@@ -533,9 +533,9 @@ Serik dikare ji yek, du an heta sê konsonantan pêk bê. Her konsonanteke kurd�
 
 Di hin devokan de komên din jî hene, wek **bw-, cw-, gw-, jw-, kw-, mwî-, nw-, sw-, tw-**; di van koman de li dû wan tenê vokala **î** tê. Di peyvên ji zimanên Ewropî deynkirî de komên wek **bl-, br-, fl-, fr-, gl-, gr-, kl-, kr-, pl-, pr-, sk-, sl-, st-, sw-, tr-** tên, wek *blanket, Brîtanya, flora, Frensa, glas, gramer, klasîk, krîz, plan, skelet, slalom, statîstîk, Swêd, traktor*. Komên sê-konsonantî **STR-** di peyvên *stran, strî, stratejî* de û **SPR-** di hin peyvên deynkirî de, wek *sprey, spring, sprî*, hene.
 
-Di komên konsonantan de rêza dengî sînordar e. Di kurmanciya nivîskî de konsonanta yekem dikare **b, f, g, k, p, s** an **t** be; ya dawiyê dikare **l, r** an **w** be. Di navbera wan de tenê **p** û **t** dikarin bên. Kurmanciya nivîskî di peyvên xwemalî de bi piranî **sp-, st-, şk-** û belkî **şt-** qebûl dike.
+Di komên konsonantan de rêza dengî sînordar e. Di kurmanciya nivîskî de konsonanta yekem dikare **b, f, g, k, p, s** an **t** be; ya dawiyê dikare **l, r** an **w** be. Di navbera wan de tenê **p** û **t** dikarin bên. Di hin devokan û di soranî de **c, j, m, n** jî dikarin wek konsonanta yekem xuya bibin. Kurmanciya nivîskî di peyvên xwemalî de bi piranî **sp-, st-, şk-** û belkî **şt-** qebûl dike.
 
-Pirtûk cudahiya kurmancî û zimanên din jî nîşan dide. Hin zimanên kurdî û zimanên cîran komên destpêkê yên konsonantan qebûl nakin û bi vokalekê wan sivik dikin; bo nimûne *stêr* di hin zaravayan de bi awayên wek *estêre, hesare, asare, astare* hatiye. Di dîroka zimanê de komên destpêkê dikarin winda bibin an bi vokalekê bên sivikkirin. Di heman demê de, hatina peyvên Ewropî yên bi komên konsonantan dikare bandorê li ser parastina wan koman bike.
+Pirtûk cudahiya kurmancî û zimanên din jî nîşan dide. Hin zimanên kurdî û zimanên cîran komên destpêkê yên konsonantan qebûl nakin û bi vokalekê wan sivik dikin; bo nimûne *stêr* di hin zaravayan de bi awayên wek *estêre, hesare, asare, astare* hatiye. Di dîroka zimanê de komên destpêkê dikarin winda bibin an bi vokalekê bên sivikkirin. Nivîskar mînaka *bira* dide ku di zimanên din de formên wek *brater* hene û vokala navbera konsonantan paşê hatiye zêdekirin. Herwiha koma kevn a **xş-** di farisiya kevn de mimkin bû, lê di farisiya niha de winda bûye. Di heman demê de, hatina peyvên Ewropî yên bi komên konsonantan dikare bandorê li ser parastina wan koman bike.
 
 ## 5. Dûvik û komên dawiya kîteyê
 
@@ -569,7 +569,7 @@ Di nîşandana avaniya kîteyê de **C** konsonant û **V** vokal e. Cûreyên k
 
 Cûreyên ku di kevanokan de hatine nivîsîn di pirtûkê de wek cûreyên kêm peyda têne nîşandan. Pirtûk diyar dike ku cûreyên kîteyan dikarin di destpêka peyvê de bên; di nav an dawiya peyvê de komên konsonantan bi piranî li ser du kîteyan tên parvekirin.
 
-Kîtekirin her tim tenê bi nivîsînê nayê diyarkirin. Di hin peyvan de kîtekirina li gor gotinê, peyvsaziyê û etîmolojiyê ji ya ku tenê li gor nivîsînê tê dabeşkirin cuda ye. Bo nimûne, pirtûk ji bo *berav* herdu awayên *be-rav* û *ber-av* nîşan dide û ya duyem li gor gotinê saxlemtir dibîne. Di peyva *binavkirin* de jî kîtekirin dikare li gorî wateya peyvê biguhere.
+Kîtekirin her tim tenê bi nivîsînê nayê diyarkirin. Di hin peyvan de kîtekirina li gor gotinê, peyvsaziyê û etîmolojiyê ji ya ku tenê li gor nivîsînê tê dabeşkirin cuda ye. Bo nimûne, pirtûk ji bo *saet* cudahiya di navbera kîtekirina nivîskî **sa-et** û ya gotinê **sa-et** (ku di nivîsînê de **-et** wek VC xuya dike, lê di gotinê de CVC ye) destnîşan dike. Ji bo *berav* herdu awayên *be-rav* û *ber-av* nîşan dide û ya duyem li gor gotinê, peyvsaziyê û etîmolojiyê saxlemtir dibîne. Di peyva *binavkirin* de jî kîtekirin dikare li gorî wateyê biguhere: *bi-nav-ki-rin* an *bin-av-ki-rin*.
 
 ## 7. Tesîra lerzê li ser guherîna dengan
 
