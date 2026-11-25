@@ -933,7 +933,7 @@ Husein Muhammed, *Dengnasî di kurdî de*, rûpelên çapkirî 104–115.
 
 ## 1. Cotdengên H
 
-Di kurmancî de herfa H dikare du dengên cuda nîşan bide. Di peyvên *her, heval, hêvî, hestî, bihar, guh* de dengek heye ku di IPA de **[h]** tê nîşandan. Di peyvên *hal, herf, heram, hekîm, hefs, hez, hîle, Hesen, Hisên, Ehmed, Mihemed, rehm, behs, ruh* de dengê duyem heye ku di IPA de **[ħ]** tê nîşandan. Di hin nivîsên zanistî de dengê duyem bi **ḧ** tê nîşandan, da ku ji H-ya asayî cuda were dîtin.
+Di kurmancî de herfa H dikare du dengên cuda nîşan bide. Di peyvên *her, heval, hêvî, hestî, bihar, guh* de dengek heye ku di IPA de **[h]** tê nîşandan. Di peyvên *hal, herf, heram, hekîm, hefs, hez, hîle, Hesen, Hisên, Ehmed, Mihemed, rehm, behs, ruh* de dengê duyem heye ku di IPA de **[ħ]** tê nîşandan. Di hin nivîsên zanistî de dengê duyem bi **ḧ** tê nîşandan, da ku ji H-ya asayî cuda were dîtin. Di tabloya dengên kurdî de [ħ] wek xişokeke nevizok û bêlerz a ser-gewrî tê rêzkirin; [h] jî xişokeke nevizok û bêlerz a qirrikî ye.
 
 Di nivîsîna standard ya kurdî-latînî de ev herdu deng bi H tên nivîsîn. Lê ji dema kovara Hawarê ve, ji bo rêgirtina li ber tevliheviyê, hin nivîskar dengê duyem bi **ḧ** nîşan dikin. Di vê dersê de ḧ tenê alîkariya danasîna dengnasiyê ye; ne pêşniyara guherandina nivîsîna standard.
 
