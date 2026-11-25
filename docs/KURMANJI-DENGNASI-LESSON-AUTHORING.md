@@ -1524,7 +1524,7 @@ Di kurmancî de herfa S dikare bi du awayên hinekî cuda were gotin:
 - **S-ya zirav:** wek S-ya asayî; nimûne: *ser, sê, sîr, sûr*.
 - **S-ya qelew:** bi dengdaneke paşvekişiyayî; nimûne: *sed, sibê, silav, sebir*.
 
-Di peyvên xwemalî de S-ya qelew bi gelemperî berî vokalên paşîn ên *a, o* tê bihîstin; S-ya zirav jî bi gelemperî berî vokalên pêşîn ên *î, e, ê* û herwiha berî *u, û* tê. Nimûne:
+Di peyvên xwemalî de S-ya qelew bi gelemperî berî vokalên paşîn ên *a, o* û herwiha berî *u, û* tê bihîstin; S-ya zirav jî bi gelemperî berî vokalên pêşîn ên *î, e, ê* û herwiha berî *u, û* tê. Nimûne:
 - S-ya zirav: *ser, sêv, sîr, surehî, sûr*.
 - S-ya qelew: *sar, sor*.
 
