@@ -4059,7 +4059,7 @@ Di hin devokên kurmancî de jî Î dikare bibe Y:
 
 - *bira + î → biray got*.
 
-Di hin nivîsên kurmancî de formên wek *xanyê me* an *xan-y-ê me* tên dîtin; forma standard a serdest *xaniyê me* ye.
+Di hin nivîsên kurmancî de forma *xan-y-ê me* tê dîtin; forma standard a serdest *xaniyê me* ye, her çend hin nivîskar *xanîyê me* jî dinivîsin.
 
 Di kurmancî de **U/Û → W** jî di hin devokan de, û carinan di nivîsan de, peyda dibe:
 
