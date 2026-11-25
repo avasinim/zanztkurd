@@ -623,7 +623,7 @@ Nimûneyên sereke:
 - *lîstin*, ne *lîztin*;
 - *axiftin*, ne *axivtin*.
 
-Ev form di axaftina hemû axêveran de hatine cihgirandin û di nivîsîna kurmancî de jî belav in. Pirtûk bi mînakên îngilîzî û tirkî nîşan dide ku zimanên din jî dikarin di hin rewşan de forma gotinê ji şiroveya rehî pêşî bixin.
+Ev form di axaftina axêveran de cihgir bûne û di nivîsîna kurmancî de jî belav in. Nivîskar formên *kuştin, lîstin, axiftin* li hember *kujtin, lîztin, axivtin* rast dibîne; di hin devokan de *leyîstin, lehîstin, axaftin* jî tên gotin, lê ne formên *leyîztin, lehîztin, axavtin*. Pirtûk bi mînakên îngilîzî û tirkî nîşan dide ku zimanên din jî dikarin di peyvên xwerû de forma cihgir a gotinê ji rehê dîrokî pêşî bixin.
 
 **Têbînî:** Ev prensîb tenê ji bo peyvên xwerû yên ku forma wan di zimanê de qediya û cihgir bûye tê gotin; ew nayê wateya ku her guherîna dengî ya di axaftinê de divê di nivîsînê de were nîşandan.
 
@@ -632,7 +632,7 @@ Ev form di axaftina hemû axêveran de hatine cihgirandin û di nivîsîna kurma
 Gava du peyvên serbixwe li pey hev tên, guherîna dengî ya di axaftina bilez de bi gelemperî di nivîsînê de nayê nîşandan.
 
 Mînak:
-- *ez têm* di axaftina bilez de dikare wek *es-têm* were bihîstin; lê di nivîsînê de *ez têm* dimîne.
+- *ez têm* tenê di axaftina bilez de dikare wek *es-têm* were bihîstin. Di axaftina hêdî de Z-ya *ez* eşkere dimîne; ji ber vê yekê ev ne wek *lîstin* e, ku S-ya wê di gotina hêdî de jî dimîne. Di nivîsînê de her tim *ez têm* tê parastin.
 - Di îngilîzî de *let it be* di gotina bilez de dikare T-ya *it* wek D were bihîstin, lê nivîsîn T diparêze.
 - Di tirkî de *kitap geldi* di axaftina bilez de dikare wek *kitab geldi* were bihîstin; lê P di nivîsînê de dimîne.
 
@@ -643,7 +643,7 @@ Heman prensîb di peyvên pêkhatî de jî tê dîtin. Mînakên *pezkovî* û *
 Di peyvên ku ji reh û paşgirê pêk tên, rewş hinekî tevlihev e. Pirtûk mînakên *dezgir, dezgeh, desmal, destpêk* dide ku bi peyva *dest* ve girêdayî ne. Di hin peyvan de T ketiye, û di hin rewşan de dengên din jî ji ber tesîra dengên nêzîk guherîne.
 
 Pirtûk du rewş ji hev cuda dike:
-1. **Peyvên kevn û cihgir:** Peyvên ku ji mêj ve di zimanê axaftinê de bi forma guherî de hatine bikaranîn, dikarin forma xwe ya naskirî biparêzin; wek *dezgeh, dezgir, dezgirtî*.
+1. **Peyvên kevn û cihgir:** Peyvên ku ji mêj ve di zimanê axaftinê de bi forma guherî de hatine bikaranîn, dikarin forma xwe ya naskirî biparêzin; wek *dezgeh, dezgir, dezgirtî*. Di hin wateyên *dezgeh* de têkiliya wê bi *dest* re êdî gelek sist e an qet nayê hîskirin; ji ber vê yekê nivîskar forma cihgir diparêze. *Dezgir/dezgirtî* bi wateya taybet a yar an keça nîşanîkirî jî ji *destgir/destgirtî* yên bi wateya girtina destan cuda dibin.
 2. **Peyvên ku di zimanê nivîskî de tên çêkirin an formên nû:** Di van de parastina rehê peyvê dikare baştir be, da ku pêkhateya wê zelal bimîne.
 
 Ji ber vê yekê divê mirov li dîroka peyvê, maneya wê û asta cihgirtina wê di zimanê de binêre; ne ku her peyvekê bi rêgezeke yekane rast bike. Pirtûk herwiha dibêje ku di hin devokan de *dezgir* û *dezgirtî* wek *dergistî* tên gotin; ev form bi veguhastina cihê dengan (metatez) hatiye ravekirin. Ev nimûne nîşan dide ku hemû formên nêzîk ne tenê bi heman rêbazê çêdibin.
@@ -693,7 +693,7 @@ Nimûneyên pirtûkê:
 - Cînavên nîşandanê: *ev / ew* û formên wan: *vê / wê, vî / wî, van / wan*;
 - Hokerên dijwate: *pêş / paş* û *jêr / jor*.
 
-Ev cot peyv nîşan didin ku analojî dikare di çend cureyên peyvan de bandorê li şiklê wan bike.
+Ev cot peyv nîşan didin ku analojî dikare di çend cureyên peyvan de bandorê li şiklê wan bike. Nivîskar di dawiyê de cotê *bin / ban* jî tenê wek pêşniyareke ceribandinî ji bo lêfikirînê dide; ew wê wek mînakeke piştrastkirî ya analojiyê nayê pêşkêşkirin.
 
 ## Çavkanî
 
