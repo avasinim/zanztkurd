@@ -666,7 +666,7 @@ Ne tenê cihê dengê, lê awayê çêbûna wî jî dikare guherînê çêbike. 
 - Di kurmancî de: *kulav, kovî / kûvî*;
 - Di farisî de: *kolah, kohî*.
 
-V û H ji aliyê cihê çêbûna dengê ve dûr in, lê di vê berawirdkirinê de awayê dengî ya wan wek hev tê şîrovekirin: herdu jî xişokên nevizok in. Ji ber vê yekê dikare di hin peyvan de yek li şûna ya din were.
+V û H ji aliyê cihê çêbûna dengê ve dûr in, lê di vê berawirdkirinê de awayê dengî yê wan wek hev tê şîrovekirin: herdu jî xişokên nevizok in. Ji ber vê yekê dikare di hin peyvan de yek li şûna ya din were.
 
 ## 7. Analojî: wekhevkirina şiklê peyvan
 
