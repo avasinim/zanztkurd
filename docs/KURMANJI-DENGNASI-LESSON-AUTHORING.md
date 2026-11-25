@@ -3758,7 +3758,7 @@ Di tirkî de dengên **Ç, K, P, T** li destpêka peyvê bi gelemperî bipif in.
 
 Di kurmancî û zazakî de, berevajî vê, Ç, K, P û T dikarin li destpêka peyvê jî bipif an bêpif bin. Di hin peyvan de ev cudahî wateyê diguherîne. Çavkaniyê nimûneya **par** dide: P-ya bêpif wateya sala borî dide, lê P-ya bipif wateya beş an pişkê dide.
 
-Li nav û dawiya peyvên xwerû de ev deng di herdu zimanan de bi gelemperî bêpif in, lê îstîsna hene. Di kurdî de carinan di nav an dawiya peyvê de jî deng dikare bipif be, wek *met, xalet/xaltî* û *rapor*. Girîng e ku pifdarî bi dengdarî û bêdengiya konsonantê tevlihev nekin: pifdarî bi bayê zêde yê piştî berdana dengê ve girêdayî ye.
+Li nav û dawiya peyvên xwerû de ev deng di herdu zimanan de bi gelemperî bêpif in, lê îstîsna hene. Di kurdî de carinan di nav an dawiya peyvê de jî deng dikare bipif be, wek *met, xalet/xaltî* û *rapor*. Girîng e ku pifdarî bi bilerzî û bêlerzîtiya konsonantê tevlihev nekin: pifdarî bi bayê zêde yê piştî berdana dengê ve girêdayî ye.
 
 ## 7. K û cudahiya cihê derketinê
 
