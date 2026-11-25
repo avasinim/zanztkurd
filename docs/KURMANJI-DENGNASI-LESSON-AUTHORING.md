@@ -2124,7 +2124,7 @@ Lê di çend peyvên erebî de rêya berevajî jî tê dîtin: E ji I çêdibe, 
 
 Di hin peyvên esil-erebî de E bi A tê guhertin ji ber bandora tirkî; çavkaniyê formên ku bi rêya tirkî hatine û formên rasterast ji erebî hatine ji hev cuda dike: *'Elî/Alî*, *behr/bahr*, *qelem/qalem* û *teleb/taleb*. Li gorî nivîskar, formên rasterast ji erebî (*Elî, behr, qelem, teleb*) di nivîsa kurdî de standardtir in.
 
-Di hin peyvan de E dikare bi A were guhertin. Çavkaniyê vê yekê bi ketina konsonantan ve girêdide; wek berawirdkirina *serd/sar* û *kerd/kir*. Ev guherîn kêm e; guherîna E bi I di peyvên wek *kerd/kir* berbelavtir e.
+Di hin peyvan de E dikare bi A were guhertin, carinan piştî ketina konsonantekê. Çavkaniyê *serd* ya di farisî, pehlewî, hewramî û zazakî de bi kurmancî *sar* berawird dike; ev guherîna E → A ye û di çavkaniyê de wek diyardeyeke kêm tê nîşandan. Divê ev nimûne ji guherîna E → I cuda were dîtin: *kerd* di farisî û zazakî de li kurmancî dibe *kir*. Di berawirdkirina çavkaniyê de soranî *sard* û *kird* jî bi parastina D têne nîşandan.
 
 Çavkaniyê herwiha du pêvajoyên din ên E-yê destnîşan dike. Yekem, O-ya destpêka hin peyvên ji tirkî wergirtî bi W/E tê nîşandan: *oxir/wexer*, *ördek/werdek* û *ode/wede*. Duyem, di hin peyvên ji erebî hatî de Ê dikare bi EY were nîşandan, wek *mêdan/meydan* û *Têmur/Teymûr*. Ev guherînên taybet in, ne rêzikên giştî.
 
