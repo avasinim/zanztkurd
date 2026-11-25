@@ -698,123 +698,115 @@ Husein Muhammed, *Dengnasî di kurdî de*, rûpelên çapkirî 72–75.
 
 ## 1. B — seknî-du-lêvî-bilerz
 
-Dengê **B** bi girtina herdu lêvan û paşê vekirina wan tê derxistin. Di dema gotina wê de perdeyên dengî dilerizin; ji ber vê yekê B bilerz e. Di IPA de bi **[b]** tê nîşandan.
+**B** dengekî seknî-du-lêvî-bilerz e. Di derxistina wê de herdu lêv bi temamî digihîjin hev û paşê vedibin; di heman demê de perdeyên dengî dilerizin. Di alfabeya dengnasî ya navneteweyî de bi **[b]** tê nîşandan.
 
-B di kurmancî de fonemeke serbixwe ye. Guherandina wê bi P, M, W, V, F, D an G dikare peyvên cuda çêbike. Mînakên pirtûkê ji bo nîşandana cudahiya fonemîk:
-- *ban / pan*
-- *ban / man*
-- *ban / van*
-- *ben / fen*
+B fonemeke serbixwe ye. Guherandina wê bi dengên din dikare maneya peyvê biguherîne. Pirtûk ji bo nîşandana vê cudahiyê van nimûneyan dide: *ban / pan, ban / man, ban / van, ban / wan, ban / dan, ban / gan* û *ben / fen*.
 
-B û P herdu jî du-lêvî û seknî ne; lê B bilerz e, P bêlerz e. B û M jî du-lêvî ne, lê M bêvilî ye: di gotina M de hewa ji pozê derdikeve, di B de na.
+B bi P, M, W, F, V, D û G re hin taybetmendiyên hevpar hene. B û P herdu jî du-lêvî û seknî ne; lê B bilerz e û P bêlerz e. B û M jî ji aliyê cihê derketinê ve wek hev in, lê M bêvilî ye û hewa di gotina wê de ji pozê derdikeve. F û V lêvî-didanî ne; D pidûyî ye û G paşdevî ye. Nêzîkbûna dengî dikare veguherîna di navbera hin dengên nêzîk de rave bike, lê ev nayê wê maneyê ku hemû dengên nêzîk di her peyvê de bi hev biguherin.
 
-### Cihê B di peyvê de
+### B û P
+
+B û P ji aliyê cih û awayê derketinê ve wek hev in; cudahiya sereke lerza wan e. B bilerz e, P bêlerz e. Di kurmancî de B bi gelemperî yek fonem û yek awayê sereke heye; tenê di hin devokên berteng de B-ya qelew jî tê bihîstin. P, berevajî B, dikare çend awayên dengî hebe: P-ya bipif û P-ya bêpif du fonemên cuda ne. P-ya bêpif jî dikare zirav an qelew be. Nimûneyên pirtûkê ji bo P-ya bipif *pale, perde, pare/pere, porr*; ji bo P-ya bêpif ya zirav *pêr, pênc, pîr, poz*; û ji bo P-ya qelew *pazde, piling, payiz* in. B-ya kurmancî bi gelemperî sade û zirav dimîne.
+
+### Cihê B di peyvan de
 
 B dikare li destpêk, nav û dawiya peyvê were:
-- destpêk: *ba, bilind, birin*
-- nav: *reben, edebiyat, dibêjim*
-- dawî: *xirab, reb, edîb*
+- destpêk: *ba, bilind, birin*;
+- nav: *reben, edebiyat, dibêjim*;
+- dawî: *xirab, reb, edîb*.
 
-Pirtûk diyar dike ku B li destpêka peyvên kurmancî gelek xuya dike; lê di nav û dawiya peyvên xwemalî yên kevn de kêm e. Gelek B-yên nav û dawiya peyvan ji peyvên wergirtî ne.
+B li destpêka peyvên kurmancî gelek tê dîtin. Lê di nav û dawiya peyvên xwerû yên xwemalî de, bi taybetî di peyvên kevn ên îranî de, kêm e. Gelek B-yên nav û dawiya peyvan di peyvên nûwergirtî de tên dîtin.
 
-### Guherînên dîrokî yên B
+### Dîroka B û guherînên wê
 
-Pirtûk çend têkiliyên dîrokî destnîşan dike:
-- Di hin peyvên kevn de V/W-ya destpêkê bûye B; wek berawirdkirina *baran* bi formên *waran/varan* di hin zimanên din ên îranî de.
-- Di nav û dawiya hin peyvên kevn de B bûye V/W; wek *av, sêv, ewr* li hember formên *ab, sîb, ebr*.
-- Di hin peyvên ji erebî wergirtî de rêza guherînê dikare B → V → F be; wek *ḥebs → hefs*.
-- Têkiliyên B bi dengên din divê bi awayên cuda bên dîtin: P di dîroka hin peyvan de gelek caran bûye B; têkiliya B/M tenê di çend nimûneyan de ye û ne sîstematîk e. Lê guherîna B/D an B/G di kurmanciya xwe de pêk nayê; ev têkiliyên berawirdî tenê di navbera kurmancî û zazakî (B/D) an kurmancî û farisî (B/D) de xuya dibin.
+Di gelek peyvên ku niha bi B dest pê dikin de, B ya destpêkê di qonaxên kevntir de V an W bûye. Pirtûk *baran* bi formên *waran/varan* yên kurdiya başûrî, hewramî, zazakî û hin zimanên îranî yên kevn berawird dike. Heman têkiliya dîrokî di peyvên *berf/befr* û *bîst* de jî tê dîtin. Lê hin peyv, wek *birin, bend* û *bizin*, ji destpêkê ve bi B bûne.
 
-Pirtûk herwiha ketina B di peyvên wek *bapîr* û *xira bûn / xira kirin* de şîrove dike. Ev nimûne nîşan didin ku guherîna dengî carinan bi heliyîna du dengên nêzîk an bi bandora formeke din a heman malbata peyvan pêk tê.
+Guherîna berevajî, anku B → V/W, bi taybetî li nav û dawiya peyvên kevn ên xwemalî berbelav e. Di kurmancî de gelek peyvên kevn ên xwerû yên li van cihan B-yê wan bûye V an W. Nimûneyên pirtûkê *av, sêv, ewr* in; li hember wan di soranî, farisî û zimanên din de formên *aw/ab, sêw/sîb, hewr/ebr* tên dîtin. Di hin peyvên wergirtî de B di nav û dawiyê de maye, wek *xirab, bab, reben, zebeş, kitêb*.
+
+Guherîna B bi V/W di zimannasiyê de **betasîzm** tê gotin. Di kurmancî de B → V/W li destpêka peyvê kêm e, lê li nav û dawiya peyvê di peyvên kevn de berbelav e. Di hin peyvan de varyantên devokî yên bi B, V an W hene; wek *’evd/’ebd*, *kebab/kivav/kiwaw/kevav* û *kitêb/kitêv/kitêw/kitav/kitaw*.
+
+Di hin peyvên ji erebî wergirtî de guherîna B bi F bi rêya V pêk hatiye: pêşî B bûye V û paşê V-ya bilerz di bin bandora T-ya bêlerz de bûye F. Nimûneyên pirtûkê *ḥebs → hefs* û *ẓebt → zeft* in. Di hin zimanên din de guherîna rasterast a B bi F jî tê dîtin, lê ev rêza guherînê ji ya nimûneyên kurdî cuda ye.
+
+Pirtûk herwiha têkiliya B û P di dîrokê de nîşan dide: di hin zimanên kevn ên hindû-îranî de B-ya zimanên îroyîn P bûye; di hin peyvên kurdî de jî P di qonaxên dîrokî de bûye B. Di kurmanciya îroyîn de meyleke berevajî jî heye ku B di hin peyvên deynkirî de dibe P; nimûneyên devokî *pisqilêt, paysikil, pas* û *patrî* ne. Di hin rewşan de daçeka *bi* li gel *wê/wî/wan* dibe *pê*; di hin devokan de jî *bi avê* wek *p’avê* tê gotin.
+
+Guherîna M bi B di çend peyvan de tê dîtin, wek *bizmar* ku ji *mismar* hatiye, an jî formên devokî yên *misilman/musilman* ku bûne *bisilman/bisulman* û formên din. Lê ev guherîn ne sîstematîk e. Guherîna B/G di kurmancî bi xwe de pêk nayê; di berawirdkirina kurmancî û farisî de, wek *beraz/goraz*, xuya dibe. Têkiliya B/D jî di kurmancî bi xwe de rêzikeke giştî nîne; di berawirdkirina kurmancî û zazakî de, wek *derî/dergeh* li hember *ber*, tê dîtin.
+
+Di hin peyvan de B dikeve. *Bapîr* ji *bab-pîr* hatiye û piştî heliyîna B û P-yê bûye *bapîr*. Di malbata *xirab bûn/xirab kirin* de jî ketina B-ya yekem di *xira bûn* de paşê li ser forma din bandor kiriye û *xira kirin* çêbûye. Bi giştî, dîroka B hem guherîna V/W → B li destpêkê û hem jî guherîna B → V/W li nav û dawiya peyvan nîşan dide.
 
 ## 2. C — paşpidûyî-xişok-nevizok-bilerz
 
-Dengê **C** di IPA de bi **[d͡ʒ]** tê nîşandan. Di çêkirina wê de ziman li paşiya pidûyan digihîje; deng pêşî tê sekinandin û paşê bi xişînekê tê berdan. Perdeyên dengî di dema gotina wê de dilerizin; ji ber vê yekê C bilerz e.
+**C** dengekî paşpidûyî-xişok-nevizok-bilerz e. Di gotina wê de ziman li paşiya pidûyan dikeve; deng pêşî tê girtin û paşê bi xişînekê tê berdan. Perdeyên dengî dilerizin. Di alfabeya dengnasî ya navneteweyî de bi **[d͡ʒ]** tê nîşandan.
 
-C di kurmancî de dikare li destpêk, nav û dawiya peyvê were:
-- destpêk: *cam, cer, cêwî, cih, cîran, cuda*
-- nav: *aciz, ecem, derece, hewce*
-- dawî: *bac, pênc, kinc, qenc*
+Di kurmancî de C dikare li destpêk, nav û dawiya peyvê were:
+- destpêk: *cam, cer, cêwî, cih, cîran, conî, cuda, cûn*;
+- nav: *aciz, ecem, derece, hewce, mecbûr*;
+- dawî: *bac, pênc, kinc, qenc*.
 
-Di materyala ku pirtûk lêkolîn kiriye de C kêm e; bi taybetî di nav û dawiya peyvên xwemalî de. Di hin peyvan de bi N re wek **NC** tê, wek *pênc, kinc, rêncber*.
+Rêjeya C di nivîsên kurmancî de kêm e. Di nav û dawiya peyvên xwemalî de gelek kêm tê dîtin; dema ku li van cihan peyda dibe, bi piranî li gel N e û wek NC xuya dike: *pênc, kinc, rêncber, gazinc, zincîr*.
 
 ### Dîroka C
 
-Pirtûk dibêje ku C di zimanên kevn ên îranî de her tim bi awayê îroyîn nebûye. Di gelek peyvên xwemalî de C ji Y-ya kevn hatiye; wek berawirdkirina *cam, ciwan, cejn* bi formên kevntir ên ku bi Y dest pê dikin. Di hin peyvan de G jî di şertên dîrokî an bi bandora zimanên din de bûye C.
+C di makezimanê proto-hindûewropî û di zimanên kevn ên îranî de tune bû. Piraniya peyvên kurdî yên ku bi C dest pê dikin ji erebî hatine wergirtin; lê gelek peyvên xwemalî jî bi C dest pê dikin. Li gorî şîroveya pirtûkê, C-ya van peyvên xwemalî ji Y-ya kevn hatiye: di serdema zimanên navîn ên îranî de Y bûye C. Nimûneyên berawirdkirinê *ceh/cow/cew/yeve*, *cam*, *ciwan*, *cejn* û *cuda/cihê/ciya* ne.
 
-Di berawirdkirina kurmancî, zazakî, farisî û avestayî de têkiliyên C/J/Z/Ç xuya dibin; wek *jin / cenî / zen* û *roj / roc / rûz*. Ev berawirdkirin nîşan dide ku dengên nêzîk di dîroka zimanên xizm de dikarin bi awayên cuda werin parastin.
+Di hin peyvên biyanî yên kevn de jî Y bûye C. Pirtûk herwiha guherîna Y-ya latînî bi J di zimanên romî û paşê bi C di hin peyvên îngilîzî yên ji fransî wergirtî de nîşan dide. Çavkaniyeke din a C dengê G ye: di bin bandora erebî de, G di hin peyvên îranî û hindûewropî de bûye C. Nimûneyên pirtûkê *tac/tag*, *cûn/gûn/gon*, *şetrenc/çetreng* û *cindî/gund* in. Lê hin peyvên din G-ya xwe parastine.
 
-Di hin devokên kurmancî de C û Ç bi hev diguherin; wek *cigare/çixare*, *çante/cante* û *cizdan/çizdank*. Pirtûk herwiha meyla hin devokan a C → J jî dide.
+C di zazakî de ji kurmancî berbelavtir e û gelek caran li cihê J-ya kurmancî tê. Di berawirdkirina kurmancî, zazakî, farisî û avestayî de têkiliya C/J/Z/Ç xuya dibe; wek *jin/cenî/zen/cêni-* û *roj/roc/rûz/reoçe-*.
+
+Di hin devokên kurmancî de C û Ç bi hev diguherin: *cigare/cixare/çixare*, *çante/cante* û *cizdan/çizdank*. Di hin deverên Mêrdînê de komdenga *diy-* dikare bibe C, wek *Diyarbekir → Carbekir*. Di hin devokên Behdînan de *bajar* wek *bacar* an *bacêr* tê gotin. Pirtûk meyleke nû ya C → J jî destnîşan dike, wek *îcar/îca → îjar/îja*.
 
 ## 3. Ç — paşpidûyî-xişok-nevizok-bêlerz
 
-Dengê **Ç** di IPA de bi **[t͡ʃ]** tê nîşandan. Ew ji aliyê cih û awayê derketinê ve nêzî C ye; lê cudahiya sereke lerz e: Ç bêlerz e, C bilerz e.
+**Ç** dengekî paşpidûyî-xişok-nevizok-bêlerz e. Di gotina wê de ziman li paşiya pidûyan dikeve, deng pêşî tê girtin û paşê bi xişînekê tê berdan. Perdeyên dengî nalerizin. Di alfabeya dengnasî ya navneteweyî de bi **[t͡ʃ]** an nîşanên nêzîk tê nîşandan.
 
-### Du awayên Ç
+### Du fonemên Ç
 
-Pirtûk diyar dike ku herfa Ç dikare du awayên dengî nîşan bide:
-- Ç-ya bêpif, bi taybetî di nav û dawiya peyvên xwerû de, wek *parçe, biçûk, perçiqandin*.
-- Ç-ya bipif, bi piranî li destpêka peyvê, wek *çend, çar, çandin*.
+Herfa Ç dikare du fonemên cuda nîşan bide. Di nav û dawiya peyvên xwerû yên xwemalî de Ç bi gelemperî bêpif e. Li destpêka peyvê jî pir caran bipif e, wek *çend, çar, çandin*; lê hemû Ç-yên destpêkê bipif nînin: di *çerm, çav, çîrok* de awayê bêpif heye. Pirtûk bi nimûneya kaxezê cudahiya pifdarî rave dike: Ç-ya bipif kaxezê li ber devê hejandî dike, Ç-ya bêpif wê nahejîne.
 
-Lê hemû Ç-yên destpêkê ne bipif in; di *çerm, çav, çîrok* de awayê bêpif jî heye. Pirtûk ji bo cudahiya herdu awayan mînaka kaxezê pêşkêş dike: dema Ç-ya bipif tê gotin, kaxezê li ber devê xwe dideheje; di Ç-ya bêpif de hejandina wê kêm e.
-
-Li gorî pirtûkê, di hin cotên kêmîn de guherandina Ç-ya bipif û bêpif dikare wateyê biguherîne; wek herdu xwendinên *çil* û cudahiya *çare / çar e*. Ji ber vê yekê divê xwendekar tenê li herfê nenêre, lê awayê rast ê gotinê jî fêr bibe.
-
-### Cih û dîroka Ç
+Cudahîya Ç-ya bipif û bêpif di hin peyvan de wate diguherîne. Pirtûk nimûneyên *çil* bi herdu bilêvkirinan û cudahiya *çare/çar e* dide. Ji ber vê yekê, herdu awayên Ç di kurmancî de fonemên serbixwe ne.
 
 Ç dikare li destpêk, nav û dawiya peyvê were:
-- destpêk: *çem, çi, çawa*
-- nav: *biçûk, nûçe, parçe*
-- dawî: *maç, qaç, lîç*
+- destpêk: *çem, çi, çawa*;
+- nav: *biçûk, nûçe, parçe*;
+- dawî: *maç, qaç, lîç*.
 
-Pirtûk Ç-ya destpêkê di gelek peyvên pirsiyarkî de jî nîşan dide: *çi, çend, çawa, çima, çira*. Di dîroka gelek peyvan de Ç ji K-ya kevn hatiye; lê di kurmancî de hin formên pirsiyarkî hîn bi K mane, wek *kî, kê, kengî, kîjan, kû*.
+Rêjeya Ç di nivîsên kurmancî de kêm e. Lê peyvên pirsiyarkî yên wek *çi, çend, çawa, çima, çira, çiqas, çilo, çito* û paşgirên *-çe* û *-çî* rêjeya wê zêde dikin.
 
-### Têkiliyên Ç bi dengên din re
+### Dîroka Ç û têkiliyên wê
 
-Pirtûk çend têkiliyên dengî dide:
-- **Ç/C:** ji ber nêzîkbûna wan, C ya dawiya peyvê carinan wek Ç tê bihîstin; lê formên jêhatî dikarin C-ya rast nîşan bidin, wek *pênc → pêncî*.
-- **Ç/S:** di hin peyvan de, wek *birçî / birsî*.
-- **Ç/Ş:** wek *çelqîn / şilqîn*.
-- **Ç/T:** wek *pate / paçe*.
-- **Ç/J/Z:** di berawirdkirina dîrokî ya hin zimanên xizm de, wek rêza *reoçe / roc / roj / rûz*.
+Ç di zimanên îranî yên kevn û nû de, herwiha di hin zimanên cîran de heye. Lê di makezimanê proto-hindûewropî de tune bû. Li gorî şîroveya pirtûkê, piraniya Ç-yên destpêkî yên kurdî ji K-ya proto-hindûewropî peyda bûne. Nimûneya bingehîn peyva pirsiyarkî *çi* ye ku bi formên *quis/qui* yên latînî, *kim* ya sanskrîtî û *kak* ya rûsî tê berawirdkirin. Ji *çi* re peyvên *çawa, çend, çima, çira, çilo* û *çito* jî girêdayî ne. Di kurmancî de hin peyvên pirsiyarkî bi K mane, wek *kî, kê, kengî, kîjan* û *kû*.
 
-Ev mînak divê wek têkiliyên dîrokî, devokî an peyvî bên xwendin; ne wek rêzikeke ku di her peyvekê de bixweber dixebite.
+Di hin devokên soranî û zazakî de K dikare bibe Ç; ev guherîn di kurmancî de wek rêzikeke giştî nayê dîtin. Nimûneyên soranî yên pirtûkê *kê → çê*, *kwê → çwê* û *kêr → çêr* in.
+
+Ç bi C re nêzîk e; cudahiya wan lerz e: Ç bêlerz e, C bilerz e. Di dawiya hin peyvan de C dikare wek Ç were bihîstin, lê formên jêhatî cudahiya rast nîşan didin, wek *pênc/pêncî*. Pirtûk herwiha têkiliyên Ç/S di *birçî/birsî* de, Ç/Ş di *çelqîn/şilqîn* de, Ç/T di *pate/paçe* de, û Ç/J/Z di berawirdkirina *reoçe/roc/roj/rûz* de destnîşan dike. Ev mînak têkiliyên peyvî, devokî an dîrokî ne, ne rêzikên bê-awarte.
 
 ## 4. D — seknî-pidûyî-bilerz
 
-D dengê seknî-pidûyî-bilerz e. Di gotina wê de ziman bi pidûyan dikeve, hewa demekê tê girtin û paşê tê berdan. Perdeyên dengî dilerizin; di IPA de **[d]** e.
+**D** dengekî seknî-pidûyî-bilerz e. Di gotina wê de ziman bi pidûyan dikeve, hewa demekê tê girtin û paşê tê berdan. Perdeyên dengî dilerizin; di alfabeya dengnasî ya navneteweyî de bi **[d]** tê nîşandan.
 
 D dikare li destpêk, nav û dawiya peyvê were:
-- destpêk: *das, deng, dûr*
-- nav: *Adem, berdan, nadin*
-- dawî: *bilind, çand*
+- destpêk: *das, deng, dûr*;
+- nav: *Adem, berdan, nadin*;
+- dawî: *bilind, çand*.
 
-Di peyvên xwemalî yên kurmancî de D li nav û dawiya peyvê bi gelemperî sînordar e; pir caran piştî N tê, wek *bilind, çend, hind, rind* û di paşgira lêkeran a *-andin* de.
+Rêjeya D di nivîsên kurmancî de zêde ye. Lê di peyvên xwemalî yên xwerû de D li nav û dawiya peyvê sînordar e; li van cihan bi piranî piştî N tê, wek *bilind, çend, hind, rind* û di paşpirtika lêkerên *-andin* de. D di peyvên wergirtî de dikare li nav û dawiyê bi gelek dengên din re xuya bibe.
 
-### D û T
+### D û dengên nêzîk
 
-D û T herdu seknî-pidûyî ne. Cudahiya sereke ew e ku D bilerz e, T bêlerz e. Di kurmancî de D fonemeke yekane ye; lê T dikare bi du awayên bipif û bêpif were gotin, û di hin peyvan de guherandina wan wate diguherîne.
+D ji aliyê cih û awayê derketinê ve nêzî T ye. Herdu jî seknî-pidûyî ne; D bilerz e, T bêlerz e. Di kurmancî de D yek fonem e, lê T dikare bi awayên bipif û bêpif were gotin û ev du away dikarin di hin peyvan de wateyê biguherînin. T-ya bêpif dikare zirav an qelew be; pirtûk nimûneyên T-ya qelew wek *tirs, tarî, teng* dide. Cudahîya ziravî û qelewî ya T di vê rewşê de alofonîk e, ne fonemîk.
 
-T-ya bêpif dikare zirav an qelew be. Pirtûk T-ya qelew di peyvên wek *tirs, tarî, teng* de nîşan dide; lê cudahiya zirav/qelew di vê rewşê de fonemîk nîne, alofonîk e.
+D bi B, G û Z re jî hin taybetmendiyên hevpar heye. B û G jî wek D seknî-bilerz in, lê cihê derketina wan cuda ye. Z pidûyî-bilerz e, lê ji D cuda ye ji ber ku Z xişok-vizok e, D seknî ye. H, W, Y, V û eyn di hin şertan de dikarin li cihê D-ya di navbera vokalan de an piştî vokalekê werin.
 
 ### D di dîrok û devokan de
 
-Pirtûk D wek dengekî kevnar di gelek peyvên kurmancî de dihesibîne. Di hin peyvan de D-ya navîn an dawî ji T-ya kevn hatiye; paşê di kurmancî de ketiye, wek berawirdkirina *ba, bû, çû* bi formên farisî yên *bad, bûd, şod*.
+D di gelek peyvên kurmancî de dengekî kevnar e û di hin peyvan de heta proto-hindûewropî vedigere. Lê D-ya hin peyvên wek *dest* û *dil* di zimanên îranî de bi Z re têkildar e; berawirdkirina formên kurmancî, soranî, farisî, hewramî, zazakî û avestayî vê têkiliyê nîşan dide.
 
-D li dawiya peyvê piştî vokalekê gelek caran ketiye. Herwiha di kurmancî de D piştî R jî ji rehê hin peyvan ketiye; pirtûk nimûneyên *bir_(in), kir_(in), mir_(in), xwar_(in)* û *zer* dide, li hember formên soranî, zazakî û farisî ku D di wan de hatiye parastin.
+D-ya navîn an dawî di hin peyvan de ji T-ya kevn hatiye. Di gelek zimanên îraniya bakur-rojavayî de D-ya piştî vokalekê li dawiya peyvê ketiye; nimûneyên kurmancî *ba, bû, çû, xwe, za* ne, li hember formên farisî yên *bad, bûd, şod, xûd, zad*. Di kurmancî de D piştî R jî di hin rehên lêkeran de ketiye, wek *birin, kirin, mirin, xwarin* û *zer*. D di hin peyvan de piştî dengên din jî dikeve; lê kurmancî û soranî gelek caran D-ya piştî N diparêzin, berevajî kurdiya başûrî.
 
-D dikare di nav peyvê de bi H, Y, W an dengên din biguhere; wek berawirdkirina *daden → dayîn → dan*. Lê pêşgirên kurmancî yên *na-, bi-, di-* D-yê rehê lêkerê bi gelemperî diparêzin: *nadin, bidin, didim*.
+Di hin devokên kurmanciya rojhilatî de D di paşpirtika pirhejmarî de wek *-êd/-yêd* tê dîtin; di gelek devokên din de formên *-êt/-yêt* an *-ên/-yên* hene. Pirtûk herwiha guherîna pirtika pêşerojê *dê* nîşan dide: di kurmanciya navendî de *wê* û di gotina sivik de *ê* jî tê dîtin.
 
-Pirtûk herwiha hin peyvên ku D di wan de zêde bûye dide, wek *qalind, mindal, tendûr*. Di peyvên esil-erebî de D-ya qelew ya wek Ḍ dikare bi Z were veguhastin; wek *remeḑan → remezan*, *raḑi → razî*, *ferḑ → ferz* û *qerḑ → qerz*.
+D dikare di nav peyvê de bi H, Y, W an dengên din biguhere. Nimûneyên pirtûkê *kedî/kehî*, *cuda/cihê/ciya* û *daden/dayîn/dan* in. Di hin rewşan de D pêşî dibe Y û paşê dikeve. Lê pêşgirên kurmancî yên *na-, bi-, di-* bi gelemperî D-yê rehê lêkerê diparêzin: *nadin, bidin, didim*.
 
-## 5. Berawirdkirina çar dengên dersê
-
-| Deng | Cih û awayê derketinê | Lerz |
-|---|---|---|
-| B | Du-lêvî, seknî | Bilerz |
-| C | Paşpidûyî, xişok | Bilerz |
-| Ç | Paşpidûyî, xişok | Bêlerz |
-| D | Pidûyî, seknî | Bilerz |
+D di hin peyvan de zêde bûye tevî ku di eslê wan de tune bû; nimûneyên pirtûkê *qalind, mindal, elind/elend* û *tendûr* in. Di hin peyvên ji erebî wergirtî de D-ya qelew ya wek dengê erebî Ḍ bi D-ya sade nayê veguhastin, lê bi Z tê nîşandan: *remeḑan → remezan*, *raḑi → razî*, *ferḑ → ferz* û *qerḑ → qerz*. Di hin devokan de formên kurtkirî yên *fer* û *qer* jî hene.
 
 ## Çavkanî
 
