@@ -722,7 +722,7 @@ B dikare li destpêk, nav û dawiya peyvê were:
 - nav: *reben, edebiyat, dibêjim*;
 - dawî: *xirab, reb, edîb*.
 
-B li destpêka peyvên kurmancî gelek tê dîtin. Lê di nav û dawiya peyvên xwerû yên xwemalî de, bi taybetî di peyvên kevn ên îranî de, kêm e. Gelek B-yên nav û dawiya peyvan di peyvên nûwergirtî de tên dîtin.
+B li destpêka peyvên kurmancî gelek tê dîtin. Lê di nav û dawiya peyvên xwerû yên xwemalî de, bi taybetî di peyvên kevn ên îranî de, kêm e. Gelek B-yên nav û dawiya peyvan di peyvên nûwergirtî de tên dîtin. Li gor lêkolîna berê ya nivîskar, rêjeya B di nivîsên kurmancî de 4,5% e; ev hejmar ji lêkolîna ku nivîskar jê re referans dide hatiye.
 
 ### Dîroka B û guherînên wê
 
@@ -749,7 +749,7 @@ Di kurmancî de C dikare li destpêk, nav û dawiya peyvê were:
 - nav: *aciz, ecem, derece, hewce, mecbûr*;
 - dawî: *bac, pênc, kinc, qenc*.
 
-Rêjeya C di nivîsên kurmancî de kêm e. Di nav û dawiya peyvên xwemalî de gelek kêm tê dîtin; dema ku li van cihan peyda dibe, bi piranî li gel N e û wek NC xuya dike: *pênc, kinc, rêncber, gazinc, zincîr*.
+Rêjeya C di nivîsên kurmancî de tenê 0,33% e; li gorî hejmarên ku nivîskar ji lêkolîna xwe ya berê vedigire, tenê Q û F ji wê kêmtir in. Di nav û dawiya peyvên xwemalî de gelek kêm tê dîtin; dema ku li van cihan peyda dibe, bi piranî li gel N e û wek NC xuya dike: *pênc, kinc, rêncber, gazinc, zincîr*.
 
 ### Dîroka C
 
@@ -776,7 +776,7 @@ Cudahîya Ç-ya bipif û bêpif di hin peyvan de wate diguherîne. Pirtûk nimû
 - nav: *biçûk, nûçe, parçe*;
 - dawî: *maç, qaç, lîç*.
 
-Rêjeya Ç di nivîsên kurmancî de kêm e. Lê peyvên pirsiyarkî yên wek *çi, çend, çawa, çima, çira, çiqas, çilo, çito* û paşgirên *-çe* û *-çî* rêjeya wê zêde dikin.
+Rêjeya Ç di nivîsên kurmancî de 0,59% e; li gorî lêkolîna ku nivîskar vedigire, F, Q û C tenê ji wê kêmtir in. Lê peyvên pirsiyarkî yên wek *çi, çend, çawa, çima, çira, çiqas, çilo, çito* û paşgirên *-çe* û *-çî* rêjeya wê zêde dikin.
 
 ### Dîroka Ç û têkiliyên wê
 
@@ -795,7 +795,7 @@ D dikare li destpêk, nav û dawiya peyvê were:
 - nav: *Adem, berdan, nadin*;
 - dawî: *bilind, çand*.
 
-Rêjeya D di nivîsên kurmancî de zêde ye. Lê di peyvên xwemalî yên xwerû de D li nav û dawiya peyvê sînordar e; li van cihan bi piranî piştî N tê, wek *bilind, çend, hind, rind* û di paşpirtika lêkerên *-andin* de. D di peyvên wergirtî de dikare li nav û dawiyê bi gelek dengên din re xuya bibe.
+Li gorî lêkolîna berê ya nivîskar, rêjeya D di nivîsên kurmancî de 4,6% e û di nav konsonantan de piştî N û R, di rêza sêyem de ye. Lê di peyvên xwemalî yên xwerû de D li nav û dawiya peyvê sînordar e; li van cihan bi piranî piştî N tê, wek *bilind, çend, hind, rind* û di paşpirtika lêkerên *-andin* de. D di peyvên wergirtî de dikare li nav û dawiyê bi gelek dengên din re xuya bibe.
 
 ### D û dengên nêzîk
 
