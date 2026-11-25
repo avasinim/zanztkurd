@@ -1399,16 +1399,6 @@ Berî hin konsonantên bêlerz ên wek T, S û Ş, Q-ya erebî di kurdî de bi g
 
 Pirtûk herwiha hin peyvên bi eslê xwe îranî destnîşan dike ku di kurdî de Q di cihê K an G de xuya dibe; wek *quling, quz, qûn*. Lê çavkaniya hin peyvan ne ewqas zelal e, ji ber vê yekê divê etîmolojiyên wan bi baldarî bên xwendin û wek rêzikeke giştî neyên girtin.
 
-## Berawirdkirina P û Q
-
-| Taybetmendî | P [p] | Q [q] |
-|---|---|---|
-| Cihê derketinê | Dulêvî | Zimanokî |
-| Awayê derketinê | Sekinî | Sekinî |
-| Lerz | Bêlerz | Bêlerz |
-| Taybetmendiya taybet | Bipif/bêpif; zirav/qelew | Dengê paşdevî, zimanokî |
-| Nimûne | *perde, pênc, kepir* | *qazan, reqem, heq* |
-
 ## Çavkanî
 
 Husein Muhammed, *Dengnasî di kurdî de*, rûpelên çapkirî 155–167.
