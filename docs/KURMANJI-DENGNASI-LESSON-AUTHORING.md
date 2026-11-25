@@ -3397,7 +3397,7 @@ Di piraniya devokên başûrî de li hember Û ya kurmancî û soranî, dengê �
 | rû | rû | rü / rî |
 | mû | mû | mü / mî |
 
-Ev guherîn di hemû devokên başûrî de bi heman awayî nayê dîtin; hin dever formên bi Û diparêzin. Çavkaniyê herwiha dibêje ku di kurmanciya rojhilatî, bi taybetî li Behdînan, formên nêzîk ên Ü, Î an WÎ jî hene. Ji ber vê yekê divê nimûneyên vê beşê bi devoka herêmî re bên xwendin.
+Ev guherîn di hemû devokên başûrî de bi heman awayî nayê dîtin; hin dever formên bi Û diparêzin. Çavkaniyê herwiha dibêje ku di kurmanciya rojhilatî, bi taybetî li Behdînan, formên nêzîk ên Ü, Î an WÎ jî hene. Li cihê “bûk, dûr, zû, mû” formên “bük / bwîk, dür / dwîr, zü / zwî, mü / mwî” tên gotin; li hin deveran, bi taybetî li Dihokê, formên “bîk, dîr, zî, mî” jî hene. Ji ber vê yekê, di vê taybetmendiyê de kurmanciya Behdînan û kurdiya başûrî nêzî hev in.
 
 ## 5. O ya kurmancî û Û ya başûrî
 
@@ -3410,7 +3410,7 @@ Li cihê O ya kurmancî û soranî, di gelek devokên başûrî de Û heye.
 | kor, kore | kwêr | kûr |
 | dew | do | dû |
 
-Çavkaniyê ev guherîn bi rêgezeke dîrokî rave dike: O di başûrî de bûye Û; piştî ku Û di hin devokan de bûye Ü, cihê wê vala bûye û O dikaribû li cihê wê were bilêvkirin. Nimûneyên kurmanciya rojhilatî wek roj/rûj û got/gût jî ji bo berawirdkirinê hatine destnîşankirin.
+Çavkaniyê ev guherîn bi rêgezeke dîrokî rave dike: O di başûrî de bûye Û; piştî ku Û di hin devokan de bûye Ü, cihê wê vala bûye û O dikaribû li cihê wê were bilêvkirin. Nimûneyên kurmanciya rojhilatî yên din jî hene: “roj” dibe “rûj / ruj” û “got” dibe “gût / gut”.
 
 ## 6. RD ya başûrî û R ya kurmancî
 
@@ -3442,7 +3442,7 @@ Di hin devokên başûrî de, bi taybetî li Kirmaşan û Mendelî, Ł nayê dî
 
 ## 8. Pifdariya Ç, K, P û T
 
-Di kurdiya başûrî de, wek soranî û berevajî kurmancî û zazakî, Ç, K, P û T li destpêka peyvan bi gelemperî bipif, anku req, in. Li nav û dawiya peyvan, bi taybetî di kîteyên negirankirî de, gelek caran bêpif, anku nerm, dibin.
+Di kurdiya başûrî de, wek soranî û berevajî kurmancî û zazakî, Ç, K, P û T li destpêka peyvan herdem bipif, anku req, in. Li nav û dawiya peyvan, bi taybetî di kîteyên negirankirî de, bêpif, anku nerm, dibin.
 
 Ev cudahî taybetmendiyeke bilêvkirinê ye. Divê xwendekar pifdarî bi dengdarî an bêdengiya dengê tevlihev neke: pifdarî li ser bayê ku piştî berdana astengiyê derdikeve ye.
 
@@ -3455,7 +3455,7 @@ Kurdiya başûrî, wek gelek zimanên îranî yên niha, komên konsonantî yên
 | standin, stendin | sendin | sendin |
 | stêr | estêre | hesare |
 
-Di nav an dawiya peyvê de jî di gelek devokên başûrî de ST dibe S; soranî dikare ST biparêze.
+Cudahiyeke din di navbera soranî û başûrî de ev e: soranî ST di nav û dawiya peyvan de bi piranî diparêze, lê kurdiya başûrî di piraniya devokên xwe de T davêje û ST dike S. Ji ber vê yekê di nimûneyên “dest / des”, “şêst / şeṣ”, “zivistan / zimsan” û “Kurdistan / Kursan” de formên başûrî ji soranî cuda ne.
 
 | Kurmancî | Soranî | Başûrî |
 |---|---|---|
@@ -3480,7 +3480,7 @@ Ev nimûne berawirdkirina formên peyvan nîşan dide; divê wek şabloneke bê�
 
 ## 11. NG ya kurmancî û Ň ya başûrî
 
-Di piraniya devokên başûrî de li cihê koma NG ya kurmancî dengê Ň [ŋ] heye. Ev deng encama nêzîkbûna N û G bi hev re ye. Di hin devokên soranî de jî NG dikare bibe Ň, lê di soranî de NG bi gelemperî serdest e.
+Di piraniya devokên başûrî de li cihê koma NG ya kurmancî dengê Ň [ŋ] heye. Ev deng ji helîna N û G bi hev re çêdibe. Di hin devokên soranî de jî NG dikare bibe Ň, lê di soranî de NG bi gelemperî serdest e.
 
 | Kurmancî | Soranî | Başûrî |
 |---|---|---|
