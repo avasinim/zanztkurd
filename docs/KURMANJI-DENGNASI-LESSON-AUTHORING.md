@@ -246,6 +246,8 @@ Di kurmancî de hin deng qelew (emfatîk) tên gotin. Nivîskar ji bo nîşankir
 - **Ṗ, Ṣ, Ṭ, Ẓ**: dengên qelew ên bêpif.
 - **Ḅ**: B-ya qelew; ev deng tenê di hin devokan de heye.
 
+Qelewîtiya van dengan bi pifdarî re nayê tevlihevkirin: ew qelew in, lê bêpif in. Ji aliyê bilêvkirinê ve nêzîkî P û T-yên bêpif in, ne P û T-yên bipif.
+
 Nimûneyên ku di çavkaniyê de hatine dayîn:
 
 - **Ṗ:** *ṗiling, ẓeṗẓeṗe, reṗ*.
@@ -268,7 +270,7 @@ Li gorî ravekirina nivîskar:
 Nimûneyên cudahiya Ẓ û Z:
 
 - *beẓ*: bazdan, rev.
-- *bez*: rûnê li ser laş.
+- *bez*: rûnê heywanan.
 - *baẓdan*: gotina bi Ẓ.
 - *baz*: teyrek.
 - *zana* bi Ẓ: di hevoka *Ew kesekî zana ye* de.
