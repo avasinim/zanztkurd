@@ -1519,7 +1519,7 @@ S dikare li destpêk, nav û dawiya peyvê were:
 - **Nav:** *hesp, asin/hesin, dest, bîst, hasil*.
 - **Dawî:** *kes, werîs, sîs, behs*.
 
-Li gorî lêkolîna ku pirtûk vedigêre, rêjeya S di nivîsên kurmancî de **1,6%** e. S dikare li destpêka peyvê bi du an sê konsonantan re were, wek *stêr, standin, spî, stran*.
+Li gorî lêkolîna ku pirtûk vedigêre, rêjeya S di nivîsên kurmancî de **1,6%** e. Di heman lêkolînê de 11 herf ji S kêmtir û 19 herf jê zêdetir tên dîtin. S dikare li destpêka peyvê bi du an sê konsonantan re were, wek *stêr, standin, spî, stran*.
 
 Gava S li navê peyvê be, bi piranî T li pey wê tê: *dest, bîst, hestî, mist, zivistan, lîstin*.
 
