@@ -3075,16 +3075,16 @@ Hin peyvên ji heman rehê peyda bûne, lê di dîrokê de bi rêyên dengî yê
 
 Kurdî û farisî herdu jî zimanên îranî ne. Di navbera wan de gelek peyv û taybetmendiyên rêzimanî yên hevbeş hene, lê rêçên guherîna dengî yên wan her tim wek hev nînin. Çavkaniyê di vê beşê de nimûneyên dîrokî dide ku nîşan bidin peyvên ji heman rehê dikarin di her zimanî de bi awayên cuda pêş biçin.
 
-- **A:** A di herdu zimanan de heye; lê di kurdî de li destpêka hin peyvan H dikare li pêş were, wek *asan/hêsan* û *ahen/hesin*.
+- **A:** A di herdu zimanan de heye; lê di kurdî de li destpêka hin peyvan H dikare li pêş were, wek *asan/hêsan* û *ahen/hesin*. Li gorî pêraweza çavkaniyê, di soranî û bi taybetî di zazakî de jî A bi piranî tê parastin.
 - **B û V/W:** Li hin cihan B ya kevn di kurmancî de bûye V an W. Mînak: farisî *ab, ebr, şeb, leb* li hember kurmancî *av, ewr, şev, lêv*.
 - **D:** D ya farisî di hin peyvan de li hember Z ya kurmancî ye, wek *dana/zanîn* û *damad/zava*. D di dawiya hin peyvên farisî de dikare di kurmancî de bikeve, wek *bad/ba* û *bûd/bû*. Di nav peyvê de jî D dikare di kurmancî de bibe Y an jî bikeve.
-- **E û I:** Di gelek peyvan de E ya îranî di kurmancî de bûye I; wek farisî *kerden, xwarden* li hember kurmancî *kirin, xwarin*.
+- **E û I:** Di gelek peyvan de E ya îranî di kurmancî de bûye I; wek farisî *kerden, xwarden* li hember kurmancî *kirin, xwarin*. Çavkaniyê destnîşan dike ku di zazakî de jî E bi piranî tê parastin: *kerden, werden, wesar*.
 - **Ë (Ê-ya kurt):** Di farisî de dengê kurt ê nêzî Ê heye; ev deng di berawirdkirinê de li hember I-ya kurmancî ye. Mînak: farisî *dël* li hember kurmancî *dil*. Ev **Ë** divê bi **Ê**-ya dirêj a kurmancî neyê tevlihevkirin.
 - **G û B/V:** Di hin peyvan de V/W ya îranî ya kevn di farisî de bûye G, lê di kurdî de B an V/W; mînak *goraz* li hember *beraz*. Lê hin peyv di herdu zimanan de G diparêzin.
 - **H:** Di hin peyvan de H ya farisî li hember S an V ya kurmancî ye; wek *mahî/masî*, *ahen/hesin*, *kolah/kulav* û *dehan/dev*.
-- **M û V:** M ya piştî vokalan di gelek peyvan de di kurmancî de bûye V: *nam/nav*, *zemîn/zevî*, *merdom/mirov*. Ev guherîn bi şert û cihê dengê ve girêdayî ye; ne her M-yek dibe V.
+- **M û V:** M ya piştî vokalan di gelek peyvan de di kurmancî de bûye V: *nam/nav*, *zemîn/zevî*, *merdom/mirov*. Li gorî pêraweza çavkaniyê, di soranî û kelhurî de li vê cihê W heye; di zazakî û hewramî de M wek farisî dimîne. Çavkaniyê dibêje M-ya kevn di kurmancî de guheriye. Ev guherîn bi şert û cihê dengê ve girêdayî ye; ne her M-yek dibe V.
 - **O:** O ya kurt a farisî di hin peyvan de li hember U an I ya kurmancî ye, wek *kord/kurd* û *bolbol/bilbil*.
-- **Ş û H:** Di hin peyvan de Ş ya farisî li hember H ya kurmancî ye, bi taybetî li dawiya peyvê; wek *goş/guh* û *çeşm/çav*.
+- **Ş û H:** Di hin peyvan de Ş ya farisî li hember H ya kurmancî ye, bi taybetî li dawiya peyvê; wek *goş/guh* û *çeşm/çav*. Di zazakî û hewramî de ev taybetmendî wek farisî ye; di soranî de Ş yan hatiye avêtin yan W heye.
 - **Û:** Di hin peyvan de Û ya farisî li hember O ya kurmancî ye, wek *rûz/roj*.
 - **V û W:** W ya kurmancî di farisî de bi gelemperî V an carinan B ye; wek *wergerandin/bergerdan* û *ewr/ebr*.
 - **X:** X ya farisî di hin peyvan de li hember H an K ya kurmancî ye; wek *xer/ker*, *xoşk/hişk* û *telx/tehl*.
