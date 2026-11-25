@@ -493,110 +493,107 @@ Ji ber van sînor û cudahiyên di navbera nivîs û axaftinê de, ev tablo ten�
 
 Husein Muhammed, *Dengnasî di kurdî de*, rûpelên çapkirî 40–43.
 
-# Dersa 6 — Dengrêzî û avaniya kîteyan
+# Dersa 6 — Dengrêziya kurmancî û avaniya kîteyan
 
-## 1. Kîte û dengrêzî
+## 1. Dengrêzî û peydabûna dengan di peyvan de
 
-Peyv ji yek an çend **kîteyan** pêk tên. Kîte parçeyeke peyvê ye ku di gotinê de wek yek yekeya dengî tê hîskirin. Nimûne:
-- *av* yek-kîte ye;
-- *bi-rin* du-kîte ye;
-- *gi-han-di-bû-yê* pir-kîte ye.
+Peyv ji yek an çend kîteyan pêk tên. Kîte parçeyeka peyvê ye ku mirov dikare di dema gotina peyvê de bêhna xwe li ser wê bigire. Peyva *av* yekkîteyî ye, *bi-rin* dukîteyî ye û *gi-han-di-bû-yê* pirrkîteyî ye.
 
-**Dengrêzî** (*phonotactics*) lêkolîna rêzik û sînorên birêzkirina dengan di kîte û peyvan de ye. Her ziman rêzikên xwe hene: hin komên dengan dikarin li destpêka peyvê bên, hin komên din tenê di nav an dawiya peyvê de tên.
+Dengrêzî, anku fonotaksî, lêkolîna rêzikên birêzkirina dengan di kîte û peyvan de ye. Li gorî van rêzikan, hin komên dengan dikarin li pey hev bên û hin komên din ne mimkin in. Bo nimûne, di kurmancî de **st-** dikare li destpêka peyvê bê, wek *stêr, stem, standin*; lê **nd-** nikare dest bi peyvê bike. Stêrka * di nivîsa pirtûkê de formeke ne-mimkin nîşan dide. Herdu komên **st** û **nd** dikarin di nava an dawiya peyvê de jî peyda bibin, wek *mast, rast, ristin; çend, çandin, bilind*.
 
-Bo nimûne, di kurmancî de komên *st-* û *sp-* dikarin li destpêka peyvê bên, wek *stêr* û *spî*. Lê komên *nd-* û *dn-* wek destpêka peyvê di vê rêbazê de nayên qebûlkirin; nîşana * di pirtûkê de formeke ne-mimkin nîşan dide.
+Pirtûk destnîşan dike ku her herfa kurdî dikare li destpêka peyvê cih bigire, lê hemû dengên ku bi heman herfê tên nivîsîn ne. Li dawiya peyvê jî gelek herf dikarin bên, lê dengên bihilm ên **Ç, K, P, T** li wê pozîsyonê nayên. Dengên bêhilm û qelew ên P û T dikarin li dawiya peyvê bên; dengên qelew û bihilm nikarin.
 
-## 2. Kîte çawa tê dabeşkirin?
+Li destpêka peyvan konsonant bi giştî ji vokalan pirrtir in. Di nav konsonantan de **B** û **D** pir tên; **K, M, N, P, Q, R, S, T, X, Z** jî têra xwe tên. **C, Ç, G, H, Ş** kêmtir in; **F, J, L, V, W, Y** pir kêm in. Di nav vokalan de **A** li destpêkê ji yên din zêdetir e; **E** bi taybetî di cînavên *ez, em, ew* de xuya dibe. **Î** û **O** kêm in; **Û** wek peyva serbixwe *û* tê bikaranîn û di hin peyvên biyanî û navên deveran de jî heye. Nivîskar behsa neyekrêziya nivîsandina **U/Û** û **I/Î** jî dike.
 
-Her kîte bi kêmî vokalekê heye. Pirtûk sê beşên bingehîn ji hev cuda dike:
+Li dawiya peyvan rewş cuda ye: vokal, bi taybetî di peyvên tewandî û pêkhatî de, gelek tên. Lê **I** û **U** li dawiyê kêm in û di çend peyvên diyarkirî de tên; **O** jî bi forma bangkirinê û çend peyvên sînordar ve girêdayî ye.
 
-- **Navik** (*nucleus*): vokala navendî ya kîteyê; her kîte divê navikekê hebe.
-- **Serik** (*onset*): konsonant an koma konsonantan a berî navikê.
-- **Dûvik** (*coda*): konsonant an koma konsonantan a piştî navikê.
+## 2. Peyv û kîte
 
-Di kîteya *çav* de:
-- Ç = serik;
-- A = navik;
-- V = dûvik.
+Her peyv ji yek yan zêdetir kîteyan pêk tê. Peyvên *av, ba, çav, dest, e, stran* yekkîte ne. Peyvên *ava, baran, çavê, destî, stranan* dukîte ne: *a-va, ba-ran, ça-vê, des-tî, stra-nan*. Nîşana **-** tixûba di navbera du kîteyan de nîşan dide.
 
-Kîte dikare tenê ji navikê pêk bê, wek kîteya destpêkê di *a-vê* de. Lê serik û dûvik ne di her kîteyê de ne.
+Peyvên xwerû yên kurmancî bi piranî yek-kîteyî an du-kîteyî ne. Peyvên pirrkîteyî bi gelemperî ji çend peyvên xwerû an ji peyveke xwerû û paşpirtikê pêk tên, wek *serokkomar*, *şivanî* û *revandin*. Ji ber vê yekê rêjeya peyvên yekkîteyî di kurmancî de mezin e.
 
-## 3. Serik û komên konsonantan
+## 3. Avaniya kîteyê: navik, serik û dûvik
 
-Serik dikare ji yek, du, an di hin peyvan de sê konsonantan pêk bê.
+Her kîte dikare ji yek, du an sê beşan pêk bê:
 
-Di peyvên xwemalî yên kurmanciya nivîskî de komên destpêkê yên berbelav ên ku pirtûk destnîşan dike ev in:
-- **sp-**: *spî*
-- **st-**: *stêr*
-- **şk-**: *şkestin*
-- **xw-**: *xwê*
+- **Navik** (*nucleus*): beşa bingehîn a kîteyê ye û ji vokalekê pêk tê. Di her kîteyê de bi kêmî vokalek heye.
+- **Serik** (*onset*): konsonant an koma konsonantan a berî navikê ye.
+- **Dûvik** (*coda*): konsonant an koma konsonantan a piştî navikê ye.
 
-Di hin devokan de komên din jî tên bihîstin, lê ew her tim wek formên standard nayên nivîsîn. Di peyvên ji zimanên Ewropî wergirtî de komên wek *br-, fl-, gr-, kl-, pl-, tr-* jî tên, wek *Brîtanya, flora, gramer, klasîk, plan, traktor*.
+Di kîteya *çav* de **ç** serik, **a** navik û **v** dûvik e. Kîte dikare tenê ji navikê pêk bê; serik û dûvik ne şert in. Mînakên navika tenê di destpêka peyvan de hene: *a-vê, e-rê, ê-var, i-zin, î-ro, o-de, u-mêd, û-tî*. Lê di nav an dawiya peyvê de, ji bilî çend îstîsnayan, vokal bi tena serê xwe kîte çênake.
 
-Pirtûk herwiha STR- di peyvên wek *stran* û *stratejî* de nîşan dide. Rêzikên destpêka peyvê di kurmancî, soranî û zimanên din de yek nagirin; bo nimûne *stêr* di hin zaravên din de bi vokalekê di destpêkê de tê sivikkirin.
+## 4. Serik û komên konsonantan
 
-## 4. Dûvik û komên dawiya kîteyê
+Serik dikare ji yek, du an heta sê konsonantan pêk bê. Her konsonanteke kurdî dikare bi tenê serikê pêk bîne. Di peyvên xwemalî yên kurmanciya nivîskî de komên destpêkê yên konsonantan **sp-, st-, şk-, xw-** in, wek *spî, stêr, şkestin, xwê*.
 
-Dûvik dikare tune be, ji yek konsonantê, an ji du konsonantan pêk bê. Di peyvên wek *ba* û *di* de kîte bê dûvik e; di *giR* û *deST* de dûvik heye.
+Di hin devokan de komên din jî hene, wek **bw-, cw-, gw-, jw-, kw-, mwî-, nw-, sw-, tw-**; di van koman de li dû wan tenê vokala **î** tê. Di peyvên ji zimanên Ewropî deynkirî de komên wek **bl-, br-, fl-, fr-, gl-, gr-, kl-, kr-, pl-, pr-, sk-, sl-, st-, sw-, tr-** tên, wek *blanket, Brîtanya, flora, Frensa, glas, gramer, klasîk, krîz, plan, skelet, slalom, statîstîk, Swêd, traktor*. Komên sê-konsonantî **STR-** di peyvên *stran, strî, stratejî* de û **SPR-** di hin peyvên deynkirî de, wek *sprey, spring, sprî*, hene.
 
-Di hin peyvên deynkirî de komên sê-konsonantî jî hene, wek *-kst* di *tekst* de. Pirtûk gelek komên dawiya kîteyê dide, wek:
-- **-nd**: *çend*
-- **-st**: *rast*
-- **-ng**: *deng*
-- **-rt**: *girt*
-- **-ft**: *şkeft*
-- **-şk**: *mişk*
-- **-sp**: *hesp*
-- **-rç**: *hirç*
+Di komên konsonantan de rêza dengî sînordar e. Di kurmanciya nivîskî de konsonanta yekem dikare **b, f, g, k, p, s** an **t** be; ya dawiyê dikare **l, r** an **w** be. Di navbera wan de tenê **p** û **t** dikarin bên. Kurmanciya nivîskî di peyvên xwemalî de bi piranî **sp-, st-, şk-** û belkî **şt-** qebûl dike.
 
-Hin kom berbelav in, hin kêm, hin jî bi peyvên wergirtî ve girêdayî ne. Pirtûk diyar dike ku kurmancî dikare komên konsonantan li dawiya kîteyê biparêze, lê hin zarav û zimanên din wan sivik dikin.
+Pirtûk cudahiya kurmancî û zimanên din jî nîşan dide. Hin zimanên kurdî û zimanên cîran komên destpêkê yên konsonantan qebûl nakin û bi vokalekê wan sivik dikin; bo nimûne *stêr* di hin zaravayan de bi awayên wek *estêre, hesare, asare, astare* hatiye. Di dîroka zimanê de komên destpêkê dikarin winda bibin an bi vokalekê bên sivikkirin. Di heman demê de, hatina peyvên Ewropî yên bi komên konsonantan dikare bandorê li ser parastina wan koman bike.
 
-## 5. Cûreyên avaniya kîteyê
+## 5. Dûvik û komên dawiya kîteyê
 
-Ji bo nîşandana avaniya kîteyê:
-- **C** = konsonant;
-- **V** = vokal.
+Dûvik ne şert e. Di peyvên *ba, di, mû, xwê* û di kîteyên pêşîn ên *a-gir, we-lat, bi-har, dû-man* de dûvik tune ye. Dûvik dikare ji yek an du konsonantan pêk bê; di hin peyvên deynkirî de **-kst** heye, wek *tekst*. Di peyva devokî *heyşt* de jî sê konsonant hene, heke **y** wek konsonant bê hejmartin.
 
-Hin cûreyên bingehîn:
-- **V**: kîteya ku tenê vokalek e;
-- **CV**: konsonant + vokal, wek *ma*;
-- **CVC**: konsonant + vokal + konsonant, wek *baş*;
-- **CVCC**: wek *dest*;
-- **CCV**: wek *spî*;
-- **CCVC**: wek *stêr*;
-- **CCVCC**: wek *şkest*;
-- **CCCV**: di nimûneya *stratejî* de;
-- **CCCVC**: wek *stran*.
+Hemû konsonantên kurdî dikarin di dûvikê de bên, lê dengên bihilm ên **ç, k, p, t** nikarin li dawiya kîteyê bên. Hin komên konsonantan ên ku di serikê de mimkin in, di dûvikê de jî tên, wek **-sp, -st, -şk** di *hesp, rast, meşk* de. Lê komên bi **konsonant + w** di dûvikê de nayên.
 
-Ev sembolan alîkar in ku xwendekar bibîne kîte çawa hatiye avakirin û çend konsonant dikarin li ber an piştî vokalê bên.
+Di dûvikê de komên din ên konsonantan jî mimkin in, wek **-nd** (*çend*), **-st** (*rast*), **-rt** (*girt*), **-ng** (*deng*), **-rd** (*kurd*), **-ft** (*şkeft*), **-xt** (*rext*), **-sk** (*misk*), **-şk** (*mişk*), **-şt** (*mişt*), **-sp** (*hesp*), **-rf** (*herf*), **-rb** (*kerb*), **-wt** (*mewt*), **-yd** (*eyd*), **-lb** (*qelb*), **-lp** (*qelp*), **-rs** (*birs*), **-rç** (*hirç*), **-ld** (*cild*), **-rz** (*ferz*), **-mb** (*duşemb*), **-mp** (*kemp*), **-nc** (*kinc*) û **-rc** (*xerc*).
 
-## 6. Tesîra lerzê li ser guherîna dengan
+Hin ji van koman berbelav in, hin kêm, hin jî di peyvên deynkirî de tên. Pirtûk herwiha meyla sivikkirina komên konsonantan li dawiya kîteyê nîşan dide. Bo nimûne, di hin ziman û zaravayan de **-rd** dibe **-r** (*bir, mir*) û hin caran **-st** dibe **-s**, an **-nd** dibe **-n**.
 
-Di axaftinê de hin konsonant dikarin ji ber dengekî li tenişta xwe biguherin. Pirtûk vê yekê bi **lerza perdeyên dengî** rave dike. Perdeyên dengî di dema çêkirina dengên bilerz de dilerizin; di dengên bêlerz de nalizerin.
+## 6. Cûreyên avaniya kîteyan
 
-Cotên nimûneyî:
-- bêlerz / bilerz: **P / B**, **T / D**, **K / G**, **S / Z**, **Ş / J**, **F / V**, **Ç / C**, **X / Ẍ**.
+Di nîşandana avaniya kîteyê de **C** konsonant û **V** vokal e. Cûreyên ku pirtûk dide ev in:
 
-Gava du konsonant li pey hev tên, gelek caran ew di aliyê lerzê de li hev tên; an herdu bilerz in, an herdu bêlerz. Konsonanta paştir dikare taybetmendiya lerzê li ser ya pêştir bike.
+| Cûre | Nimûne |
+|---|---|
+| CV | *ma* |
+| CVC | *baş* |
+| CVCC | *dest* |
+| CCV | *spî* |
+| CCVC | *stêr* |
+| V | *e-vîn* |
+| VC | *av* |
+| VCC | *ast* |
+| CCVCC | *şkest* |
+| CCCV | *(stra-tejî)* |
+| CCCVC | *(stran)* |
+| CCCVCC | *(strand)* |
+| CVCCC | *(tekst, heyşt)* |
 
-Nimûneyên pirtûkê:
-- *lîz + t → lîst*: T bêlerz e, ji ber vê yekê Z ya berî wê jî dibe S.
-- *kuj + t → kuşt*: J ya bilerz berî T ya bêlerz dibe Ş ya bêlerz.
-- *heft + deh → hevde*: F ya bêlerz berî D ya bilerz dibe V ya bilerz.
+Cûreyên ku di kevanokan de hatine nivîsîn di pirtûkê de wek cûreyên kêm peyda têne nîşandan. Pirtûk diyar dike ku cûreyên kîteyan dikarin di destpêka peyvê de bên; di nav an dawiya peyvê de komên konsonantan bi piranî li ser du kîteyan tên parvekirin.
 
-Ev guherîn dikare di nav peyvekê de, di peyvên pêkhatî de, an di axaftina bilez de çêbibe.
+Kîtekirin her tim tenê bi nivîsînê nayê diyarkirin. Di hin peyvan de kîtekirina li gor gotinê, peyvsaziyê û etîmolojiyê ji ya ku tenê li gor nivîsînê tê dabeşkirin cuda ye. Bo nimûne, pirtûk ji bo *berav* herdu awayên *be-rav* û *ber-av* nîşan dide û ya duyem li gor gotinê saxlemtir dibîne. Di peyva *binavkirin* de jî kîtekirin dikare li gorî wateya peyvê biguhere.
 
-## 7. Guherîna lerzê di peyvên wergirtî de
+## 7. Tesîra lerzê li ser guherîna dengan
 
-Pirtûk nîşan dide ku peyvên ji erebî wergirtî jî dikarin li gor rêzikên lerzê di kurdî de biguherin. Nimûneyên wek *ḥebs* dikarin di kurdî de wek *ḥefs* an *ḥeps* bên gotin; *isbat* jî dikare bibe *izbat*. Ev guherîn bi awayê ku dengên bilerz û bêlerz li tenişta hev tên ve girêdayî ye.
+Lerz di dengnasiyê de tê wateya lerizîn an nelêrizîna perdeyên dengî. Perdeyên dengî di dema çêkirina dengên bilerz de dilerizin; di dengên bêlerz de nalizerin. Bo nimûne, cih û awayê çêkirina **b** û **p** nêzî hev e, lê di **b** de perdeyên dengî dilerizin û di **p** de nalizerin.
 
-Lê nivîskar hişyar dike ku hemû peyvên wergirtî bi yek rêzikê nayên şîrovekirin; hin awayên gotinê istisna ne û divê bi daneyên rastîn bên kontrolkirin.
+Konsonantên bilerz ên ku pirtûk diyar dike ev in: **b, d, g, z, j, ẍ, v, c** û varyantên wan. Hevberên bêlerz ên wan ev in: **p, t, k, s, ş, x, f, ç** û varyantên wan.
+
+Di peyvên xwerû de du konsonantên li pey hev bi piranî herdu bilerz an herdu bêlerz in. Komên ku yek dengê wan bilerz û yê din bêlerz be kêm in. Konsonanta paştir dikare taybetmendiya lerzê li ser ya pêştir bike: heke ya paştir bêlerz be, ya pêştir jî dikare bêlerz bibe; heke ya paştir bilerz be, ya pêştir dikare bilerz bibe.
+
+Mînakên pirtûkê:
+- **lîz + t → lîst**: T bêlerz e û Z-ya pêştir dike S.
+- **kuj + t → kuşt**: J ya bilerz berî T-ya bêlerz dibe Ş.
+- **heft + deh → hevde**: F ya bêlerz berî D-ya bilerz dibe V.
+- **heşt + deh → hejde**: Ş ya bêlerz berî D-ya bilerz dibe J.
+
+Ev guherîn di nav peyvê de, di peyvên pêkhatî de û di axaftina bilez de jî çêdibin. Bo nimûne *dest* di *desmal, despêk* de S diparêze, lê di *dezgeh, dezgir* de S dibe Z, ji ber ku G ya piştî wê bilerz e.
+
+## 8. Tesîra lerzê di peyvên deynkirî de
+
+Pirtûk diyar dike ku tesîra lerzê di erebî de wek kurdî tune ye. Ji ber vê yekê hin peyvên erebî deynkirî di kurdî de diguherin. Bo nimûne, **ḥebs** dikare bibe **ḥefs** an **ḥeps**; **zebt** dikare bibe **zeft** an **zept**; **isbat** jî dikare bibe **izbat**. Di van guherînan de bi gelemperî dengê pêştir li gor taybetmendiya dengê paştir diguhere.
+
+Nivîskar îstîsnayekê jî destnîşan dike: peyva erebî **qesd** di kurdî de bi awayên *qesd, qezd* û *qest* tê dîtin. *Qezd* li gor rêza giştî ya lerzê ye; *qest* îstîsnayeke kêm e, ji ber ku dengê pêştir li şûna ku biguhere, dengê paştir diguhere.
+
+Di kurmancî de konsonantên bilerz li dawiya peyvê bi otomatîkî nabin bêlerz. Bo nimûne, kurmancî **kitêb, xîtab, hebîb, reng** diparêze; ev ji hin zimanên din cuda ye ku di wan de dengê dawiyê dikare bêlerz bibe. Guherîna lerzê dikare di nav peyvên pêkve û di gotina bilez de di navbera du peyvên cuda de jî çêbibe, wek *pezkûvî* ku di axaftina bilez de dibe *peskûvî*, an *ez têm* ku dibe *es-têm*.
 
 ## Çavkanî
 
 Husein Muhammed, *Dengnasî di kurdî de*, rûpelên çapkirî 44–55.
-
----
 
 # Dersa 7 — Tesîra guherîna dengî li ser nivîsînê
 
