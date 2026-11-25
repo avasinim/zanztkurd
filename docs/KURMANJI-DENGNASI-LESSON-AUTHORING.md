@@ -88,71 +88,65 @@ Vekolîn bi zimanekî hatiye nivîsîn ku xwendevanên ne-zimannas jî bikarin j
 Husein Muhammed, *Dengnasî di kurdî de*, rûpelên çapkirî 4–7.
 
 
-# Dersa 2 — Vokal, konsonant û awayên derketina dengan
+# Dersa 2 — Vokal, konsonant; cih û awayên dengan; pifdarî
 
 ## 1. Vokal û konsonant
 
-Hemû dengên zimanî di vê dabeşkirinê de dikevin yek ji van herdu koman: **vokal** an **konsonant**.
+Hemû dengên zimanî yan vokal in yan jî konsonant. Vokal dengên ku di derketina wan de hewa bi serbestî di nav rêya dengê re derbas dibe ne; ew nayên sekinandin. Di kurdî de heşt nîşanên vokalan hene: **A, E, Ê, I, Î, O, U, Û**. Di her peyva kurdî de bi kêmî vokalek heye. Piraniya vokalan dikarin bi tenê jî wek peyvên serbixwe bên bikaranîn.
 
-Vokal deng e ku hewa bê astengiyeke girîng ji rêya dengê derbas dibe. Di alfabeya kurdî-latînî de heşt tîpên vokal hene: **A, E, Ê, I, Î, O, U, Û**. Di her peyvekê de herî kêm vokalek heye. Hin vokal dikarin bi tenê jî wek peyv bên bikaranîn.
+Konsonant deng e ku di dema derketina wî de rêya hewayê di cihêkê de bi tevahî an bi beşekî tê girtin. Konsonant bê vokal nikarin peyv an kîteyan pêk bînin; ji ber vê yekê di her peyv an kîteyê de divê bi kêmî vokalek hebe.
 
-Konsonant deng e ku di derketina wî de rêya hewayê li cihêkê bi tevahî an bi beşekî tê tengkirin an girtin. Ji ber vê yekê konsonant bi tenê nikare kîteyekê pêk bîne; di kîteyê de divê vokalek hebe.
+Di alfabeya kurdî-latînî de 23 nîşanên konsonantan hene. Ev hejmar hejmareke nîşanên nivîsînê ye, ne hejmareke hemû fonemên konsonantî. Bo nimûne, P di peyvên *pênc* û *perde* de heman dengek nîşan nake, herçend bi heman herfê tê nivîsîn. Di kurmancî de ew du deng fonemên cuda ne, lê di soranî de wek heman deng tên hesibandin. Hejmara fonemên konsonantî li gor zaravayên kurdî û heta devokên kurmancî jî diguhere.
 
-Di alfabeya kurdî-latînî de 23 nîşanên konsonantan hene. Lê hejmareke tîpan bi xwe re ne heman tişt e wek hejmareke fonemên konsonantî. Hin tîp dikarin ji bo zêdetir ji dengekî bên bikaranîn, û hin dengên cuda jî dikarin bi heman tîpê bên nivîsîn. Ev mijar di dersên pêş de bi berfirehî tê xwendin.
+## 2. Binavkirina vokal û konsonantan
 
-## 2. Cihê derketina dengê
+Di nivîs û pirtûkên rêzimanî yên kurdî de ji bo vokal û konsonant gelek navên cuda hatine bikaranîn. Navên **bideng** û **bêdeng** rast nînin, ji ber ku hem vokal hem jî konsonant deng in. Herwiha navên **dengdêr** û **dengdar** jî ji aliyê wateyê ve ji hev cuda nînin; herdu jî wateya dengheyî didin. Ji ber vê yekê, di vê vekolînê de navên **vokal** û **konsonant** tên bikaranîn.
 
-Cihê derketinê nîşan dide ku di kîjan beşa dev û gewriyê de deng çêdibe.
+## 3. Cih û awayê çêbûna dengan
 
-- **M** dengekî *dulêvî* ye: herdu lêv di çêkirina wî de tên bikaranîn.
-- **N** dengekî *pidûyî* ye: ziman li pidûyên li pişt didanan nêzîk dibe.
-- **F û V** dengên *lêvî-didanî* ne: lêva jêrîn bi didanên jorîn re têkiliyê çêdike.
+Deng li gorî cihê çêbûna xwe û awayê derketina xwe tên binavkirin. Cihê çêbûnê diyar dike ku deng di kîjan beşa devê de çêdibe; awayê derketinê jî diyar dike ku hewa di dema gotina dengê de çawa derbas dibe.
 
-Ji van nimûneyan fêm dibe ku cihê derketina dengê bi awayê tevgera lêv, ziman û beşên din ên devê ve girêdayî ye.
+Hin cihên sereke yên çêbûna dengan ev in: **dulêvî**, **lêvî-didanî**, **pidûyî**, **paş-pidûyî**, **ban-devî**, **paşdevî**, **ser-gewrî**, **zimannokî** û **qirrikî**. Di tabloya dengên kurdî de deng li gorî van cihan û awayên derketinê tên rêzkirin.
 
-## 3. Awayê derketina dengê
+- **M** dengekî dulêvî-bêvilî ye: herdu lêv di çêkirina wî de tên bikaranîn û hewa ji pozê jî derdikeve.
+- **N** dengekî pidûyî-bêvilî ye: ziman li pidûyên hindirîn, li pişt didanan, tê danîn û hewa ji pozê derdikeve.
+- **F û V** dengên lêvî-didanî ne: lêva jêrîn bi didanên jorîn re têkiliyê çêdike.
+- **P** dengekî dulêvî-seknî-bêlerz e: herdu lêv tên girtin, hewa tê sekinandin û paşê bi vekirina lêvan tê berdan; perdeyên dengî di vê çêbûnê de nalerizin.
+- **B** jî ji heman cihî û bi heman awayê P tê çêkirin, lê perdeyên dengî dilerizin; ji ber vê yekê B bilerz e.
 
-Cihê derketinê tenê yek taybetmendiya dengê ye. Awayê derketinê jî rave dike ku hewa di dema gotina dengê de çawa derbas dibe.
+Di gotina piraniya dengan de ziman tê bikaranîn. Lê ji ber ku ziman di derxistina hema-hema hemû dengan de beşdar e, di navê cihê çêbûna dengê de her tim nayê zêdekirin.
 
-**Bêvilî:** Di hin dengan de hewa ji pozê jî derdikeve. M nimûneyeke vê komê ye.
+## 4. Awayên derketina dengan
 
-**Sekinî:** Hewa di devê de demekê tê girtin û paşê bi vekirina astengiyê tê berdan. P nimûneyeke sekinî ye.
+Di tabloya nivîskar de awayên sereke yên derketina dengan wek **bêvilî**, **seknî**, **xişok-vizok**, **xişok-nevizok**, **jenok** û **tengav** tên dabeşkirin.
 
-**Xişok:** Hewa ji nav tengiyekê derbas dibe û dengê xişînê çêdike. Di hin xişokan de deng bi lerza perdeyên dengî re ye, di hinên din de bêyî wê lerzê ye.
+Di dengên bêvilî de hewa ji pozê derdikeve. Di dengên seknî de hewa di devê de tê girtin û paşê bi vekirina astengiyê tê berdan. Di dengên xişok de hewa ji tengiyekê derbas dibe û xişînek çêdike; hin ji wan vizok in û hin jî nevizok in. Di gotina hin dengan de perdeyên dengî dilerizin û ew deng **bilerz** in; di hinên din de perdeyên dengî nalerizin û ew deng **bêlerz** in.
 
-**Bilerz û bêlerz:** Gava perdeyên dengî di çêkirina dengê de dilerizin, deng bilerz e; gava nelizerin, bêlerz e. Nivîskar P û B wek nimûneyên girîng pêşkêş dike: herdu ji heman cihê devê û bi awayekî nêzî hev derdikevin, lê P bêlerz e û B bilerz e.
+M û N wek dengên bêvilî tên nîşandan. P dengekî seknî û bêlerz e, B jî dengekî seknî û bilerz e. Di tabloya dengên kurdî de dengên xişok, jenok û tengav jî li gorî cihê çêbûnê û lerza perdeyên dengî hatine rêzkirin.
 
-## 4. Pifdarî: bipif û bêpif
+## 5. Pifdarî: bipif û bêpif
 
-Pifdarî taybetmendiyeke dengê ye ku tê de piştî derketina dengê bayekî zêdetir ji dev derdikeve.
+Di tabloya nivîskar de Ç, K, P û T yên bêpif bi nîşanên wan ên bêdiakritî tên nîşandan. Nimûneyên wan ev in:
 
-Di nimûneyên nivîskar de, Ç, K, P û T yên bêpif û dengên wan ên bipif ji hev cuda ne. Di nivîsê de dengên bipif bi nîşanên taybet Ḉ, Ḱ, Ṕ û Ť tên nîşandan.
-
-Nimûneyên bêpif ên ku di pirtûkê de hatine:
 - Ç: *çîrok, parçe, hirç*
 - K: *kirin, nikil, rik*
 - P: *pêş, gopal, çep*
 - T: *te, ’etar, qet*
 
-Nimûneyên dengên bipif di pirtûkê de bi awayên cuda hatine nîşandan, wek *çar, perde, temam, kar*.
+Nîşanên **Ḉ, Ḱ, Ṕ, Ť** dengên bipif nîşan didin. Nimûneyên di pirtûkê de *çar, perde, temam* û *kar* in. Pifdarî ew taybetmendî ye ku piştî derketina dengê pifek an bayekî zêde ji dev derdikeve. Nivîskar bi nimûneya peyva *kurd* û *çek* û hereketkirina kaxezê nîşan dide ku K di *kurd* de bipif e, lê K di *çek* de bêpif e.
 
-Di kurmancî û zazakî de cudahiya bipif û bêpif dikare wateya peyvê biguherîne. Ji ber vê yekê ew tenê awayên gotinê yên bêbandor nînin; di hin peyvan de cudahiya fonemîk çêdikin.
+Di kurmancî û zazakî de dengên Ç, K, P û T yên bipif û bêpif dikarin fonemên cuda bin û guherîna wan dikare maneya peyvê biguherîne. Di pirtûkê de nimûneyên *çare / ḉar e*, *ka / ḱa*, *par / ṕar* û herwiha *tu / tu* hatine nîşandan.
 
-## 5. Têkiliya cih, away û lerzê
+Di kurmancî û zazakî de herdu awayên bipif û bêpif dikarin li destpêka peyvê bên. Di soranî û kurdiya başûrî de li destpêka peyvê tenê awayên bipif tên dîtin. Di farisî û tirkî de jî awayekî wisa heye; di ermenî de herdu away dikarin li destpêk û deverên din ên peyvê bên.
 
-Ji bo danasîna dengekî, tenê gotina navê tîpa wî bes nîne. Divê em bizanin:
-- li ku derê tê çêkirin;
-- hewa çawa derbas dibe;
-- perdeyên dengî dilerizin an na;
-- deng bipif e an bêpif.
+Di peyvên xwemalî yên kurmancî de Ç, K, P û T li nav û dawiya peyvê bi piranî bêpif in. Di peyvên esil-biyanî de ew li nav û dawiya peyvê bi piranî bipif in. Paşpirtika **-et** di hin peyvên esil-erebî de wek *siyaset, edalet, hikûmet* ji awarteyan e. Di peyvên ji zimanên ewropî wergirtî de Ç, K, P û T li destpêkê herdem bipif in, lê li nav û dawiyê pêşbîniya pifdarî her tim ne gengaz e; *doktor* û *parlemanter* wek nimûneyên bipif, *traktor* û *kompûter* jî wek nimûneyên bêpif tên.
 
-Bo nimûne, M dulêvî û bêvilî ye; P dulêvî, sekinî û bêlerz e; B jî dulêvî û sekinî ye, lê bilerz e. Ev danasînên cuda alîkar in ku dengên nêzî hev ji hev bên cudakirin.
+Di peyvên xwemalî yên kurmancî de jî nepayîn hene. Peyvên *kurd, kurmanc*, *kar, kirin* û *kengî, kê* ji aliyê eslê peyvê ve têkildar in, lê dengê yekem yê wan her tim wek hev nîne: *kurd, kar, kengî* bi K-ya bipif tên gotin, lê *kurmanc, kirin, kê* bi K-ya bêpif.
 
 ## Çavkanî
 
 Husein Muhammed, *Dengnasî di kurdî de*, rûpelên çapkirî 8–15.
 
----
 
 # Dersa 3 — Hevdengî û pirdengî di nivîsîna kurdî de
 
