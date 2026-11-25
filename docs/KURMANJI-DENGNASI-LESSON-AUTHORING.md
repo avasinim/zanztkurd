@@ -1607,7 +1607,7 @@ Husein Muhammed, *Dengnasî di kurdî de*, rûpelên çapkirî 168–185.
 
 ## 1. Ş — dengekî paşpidûyî-xişok-vizok
 
-Dengê **Ş/ş** dengekî **paşpidûyî-xişok-vizok yê bêlerz** e. Di dema derxistina wî de eniya ziman li herêma paşiya pidûyan nêzîk dibe û hewa ji nav tengiyekê derbas dibe. Perdeyên dengî di gewriyê de nalerizin. Nîşana dengnasî ya wî di IPA de **[ʃ]** e.
+Dengê **Ş/ş** dengekî **paşpidûyî-xişok yê bêlerz** e. Di dema gotina wî de eniya ziman li herêma paşpidûyî nêzîk dibe, lê rêya hewayê bi temamî nayê girtin; hewa ji nav tengiyekê derbas dibe û xişînekê çêdike. Perdeyên dengî di gewriyê de nalerizin. Nîşana dengnasî ya wî di IPA de **[ʃ]** e. [ʃ] xişok e, ne sekinî-xişok (affricate).
 
 Ş di destpêk, nav û dawiya peyvê de tê:
 - **Destpêk:** *şal, şerm, şêr, şîrîn*.
@@ -1685,7 +1685,6 @@ Pirtûk van herdu awayan wek du fonemên serbixwe yên kurmancî û zazakî pê�
 
 Di ceribandina çavkaniyê de, dema *talan* tê gotin kaxezê li ber devê xwe dikare bi bayê derketî bilivîne; di *têm* de bayê wisa dernakeve. Ev nimûne cudahiya bipif û bêpif nîşan dide, lê divê xwendekar her du dengên fonemîk ji hev cuda biparêze.
 
-Di peyvên wergirtî de pifdarî her tim ji zimanê jêder nayê pêşbînîkirin: *kompûter, xeter, siyaset* bi T-ya bêpif tên gotin; *met, xalet/xaltî, hotêl/otêl* dikarin T-ya bipif hebin. Di peyvên ji zimanên Ewropî hatine de T ya destpêkê bi piranî bipif e, lê *tîp* dikare bêpif be an li gor bandora zimanê jêder biguhere.
 
 
 Pirtûk cudahiya T-ya bipif û bêpif bi cotên ku wateyên cuda hene nîşan dide: *ta* (T-ya bipif: *taser, tagerm*; T-ya bêpif: *ben, dezî*) û *tu* (T-ya bipif: *hîç*; T-ya bêpif: cînavê kesê duyem ê yekhejmar). Di peyvên wergirtî de pifdarî her tim nayê pêşbînîkirin: *kompûter, xeter, siyaset* bi T-ya bêpif in; *met, xalet/xaltî, hotêl/otêl* dikarin bi T-ya bipif bên gotin. Di peyvên ji zimanên Ewropî hatine de T-ya destpêkê bi piranî bipif e (*tank, televizyon, tayre*), lê *tîp* dikare bêpif be. Pirtûk herwiha bandora T-yên erebî yên cuda li ser peyvên wergirtî rave dike.
