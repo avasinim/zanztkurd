@@ -1342,7 +1342,7 @@ Li gorî ravekirina pirtûkê:
 - Di nav û dawiya peyvên xwemalî de P bi piranî bêpif e, lê hin îstîsna hene, wek *ap* û *spas*.
 - Di peyvên wergirtî de P-ya destpêkê gelek caran bipif e; wek *polîs, pas, pasaport, poste*.
 
-Di soranî, farisî, tirkî û inglîzî de P-ya destpêka peyvê bi gelemperî bipif e; di fransî de bi gelemperî bêpif e. Di kurmancî de awayê gotinê dikare bi zimanê jêder û rêya ketina peyvê ve girêdayî be.
+Di zazakî û ermenî de jî P li destpêka peyvê carinan bipif û carinan bêpif e. Di soranî, farisî, tirkî û inglîzî de P li destpêka peyvê herdem bipif e; di fransî de jî herdem bêpif e. Di kurmancî de awayê gotinê dikare bi zimanê jêder û rêya ketina peyvê ve girêdayî be.
 
 ## 4. P-ya zirav û P-ya qelew
 
