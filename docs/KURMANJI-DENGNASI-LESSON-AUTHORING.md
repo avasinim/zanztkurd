@@ -900,9 +900,9 @@ G di hin peyvên kurdî de ji dema proto-hindûewropî ve hatiye parastin. Pirt�
 
 Lê di gelek peyvên ku niha G tê de ye, di hin zimanên kevn ên îranî an zimanên din ên hindûewropî de li cihê wê V an W hebûye. Nimûneyên pirtûkê *gul* (bi formên farisî *gol*, pehlewî *gil* û avestayî *veridhe*), *gotin* (bi formên soranî, hewramî û zazakî yên bi W/V) û *germ* (bi îngilîzî *warm*) in.
 
-Di hin devokan de G di koma dengên NG de cihê K digire: *birak → birang* û *çok → çong*. Di kurdiya başûrî de jî K di hin rewşan de bûye G; wek *nêzîk/nizîk* li hember *nizîg*, û paşgira *-ek/-êk* li hember *-êg/-egan*.
+Di hin devokan de G di koma dengên NG de cihê K digire: *birak → birang* û *çok → çong*. Di hin berawirdkirinên kurmancî û soranî de G-ya soranî li cihê H-ya kurmancî tê, wek *reh/rih → reg*. Di kurdiya başûrî de jî K di hin rewşan de bûye G; wek *nêzîk/nizîk* li hember *nizîg*, û paşgira *-ek/-êk* li hember *-êg/-egan*.
 
-Pirtûk herwiha guherînên G û K di peyvên tirkî de berawird dike. Di tirkî ya niha de G-ya hin peyvên xwemalî ji K-ya tirkî ya kevn hatiye, wek *gelmek* ji *kelmek* û *gitmek* ji *kitmek*. Lê kurmancî di hin peyvên wergirtî de K-ya kevn parastiye an kiriye Q: *koç, koçer* ji formên kevn ên bi K, û *qenc* ji *kenç*.
+Pirtûk herwiha têkiliya G û K di tirkî de berawird dike. Di tirkî ya niha de G-ya hin peyvên xwemalî ji K-ya tirkî ya kevn hatiye, wek *gelmek* ji *kelmek*, *gitmek* ji *kitmek*, *gün* ji *kün* û *göz* ji *köz*. Lê kurmancî di hin peyvên wergirtî de K-ya kevn parastiye an kiriye Q: *koç, koçer* ji formên kevn ên bi K, û *qenc* ji *kenç*; formên tirkî yên niha *göç, göçer* û *genç* in. Pirtûk herwiha berawirdkirina kurmancî *beraz, birsî/birçî* û farisî *goraz, gorosnê* dide ku têkiliya B/G di navbera zimanan de nîşan dide.
 
 Di hin peyvên esil-îranî de G-ya tirkî dibe Y: *beg → bey*, *eger → eğer* û *dîger → diğer*. Ev nimûne di pirtûkê de wek guherîna dengî ya tirkî tê pêşkêşkirin.
 
