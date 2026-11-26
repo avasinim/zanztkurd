@@ -83,6 +83,30 @@ Di vekolînê de her herf an deng bi çend aliyan tê naskirin: cih û awayê de
 
 Vekolîn bi zimanekî hatiye nivîsîn ku xwendevanên ne-zimannas jî bikarin jê sûd werbigirin. Gava têrmeke zimannasiyê cara yekem tê bikaranîn, tê nasandin û şirovekirin. Bi vî awayî, berhem tenê ji bo nasîna dengnasiya kurdî nîne; di heman demê de dixwaze hin têgehên dengnasiya giştî jî bide nasîn.
 
+## 5. Lêkolînên din û sînorên wan
+
+Çavkaniyê ji bilî Justi û Bedirxan çend lêkolînên din jî bi nav û taybetmendiyên wan destnîşan dike:
+
+- **Ismaîl Fettah**, di *Les Dialectes Kurdes Méridionaux* (2000) de, nêzîkî 170 rûpelan li ser dengnasiya devokên kurdiya başûrî, anku feylî, kelhurî û kirmaşanî, radiweste. Lê ew van devokan bi lehceyên din ên kurdî re nade ber hev û dîroka guherînên dengnasî jî nagire.
+- **Ebdulmecîd Reşîd Ehmed**, di doktornameya *The Phonemic System of the Modern Standard Kurdish* (1986) de, ku 169 rûpel e, pergala fonemî ya soraniya standard vedikole; lê sînorê wê devoka Silêmaniyê ye.
+- **Ruslan L. Çabolov**, di *Очерк исторической фонетики курдского языка* (1976) de, ku nêzîkî 100 rûpel e, dengnasiya dîrokî ya kurdî û bi taybetî dîroka dengên xwemalî vedikole; lê têkiliyên dengnasî yên kurdî bi zimanên cîran û çavkaniyên gelek peyvan bi berfirehî nagire.
+- **Margaret Kahn**, di doktornameya *Borrowing and variation in a phonological description of Kurdish* (1976) de, li ser peyvên wergirtî û cihêrengiya wan di kurmanciya devera Urmiyê de radiweste; mijara wê hemû dengnasiya kurdî an hemû kurmancî nîne.
+- **Fêrgîn Melik Aykoç**, di *Kurdîzan – Rûberîna Zaravên Kurdî* (1996) de, cudahiyên dengnasî yên zaravên kurdî, bi taybetî kurmancî û zazakî, nîqaş dike; lê armanca sereke ya wê nasandina hemû dengnasiya kurdî nîne.
+
+Çavkaniyê dibêje ku ev û lêkolînên din, tevî girîngiya xwe, bi hev re vekolîneke temam a hemû aliyên dengnasiya kurdî pêk naînin. Herwiha gelek ji wan haya wan ji xebatên hev nîne û piraniya berhemên zanistî bi zimanên biyanî hatine nivîsîn. Ev nirxandina nivîskar a wê demê ye, ne nirxandineke nû ya hemû lêkolînên piştî wê.
+
+## 6. Çavkaniyên dengnasî yên zimanên cîran
+
+Ji bo ravekirina hin aliyên dengnasiya kurdî, nivîskar xwe dispêre çavkaniyên dengnasî yên zimanên cîran û çavkaniyên giştî jî. Li ser rûpelên destpêkê ev berhem bi nav tên:
+
+- Iggy Roca û Wyn Johnson, *A Course in Phonology* (1999), bi îngilîzî.
+- Bert Vaux, *The Phonology of Armenian* (1998), bi îngilîzî.
+- Zahra Hamidi, *Zur Phonologie des Persischen: System und Geschichte* (2003), bi almanî.
+- Hartmut Kästner, *Phonetik und Phonologie des modernen Hocharabisch* (1981), bi almanî.
+- Robert B. Lees, *The Phonology of Modern Standard Turkish* (1961), bi îngilîzî.
+
+Nivîskar di dergehê de dibêje ku li vir şîroveya berfireh a her bandora van zimanan nade; ew ê di beşên taybet de, li gor mijarê, wan têkiliyan yek bi yek bigire.
+
 ## Çavkanî
 
 Husein Muhammed, *Dengnasî di kurdî de*, rûpelên çapkirî 4–7.
@@ -117,6 +141,38 @@ Hin cihên sereke yên çêbûna dengan ev in: **dulêvî**, **lêvî-didanî**,
 Di gotina piraniya dengan de ziman tê bikaranîn. Lê ji ber ku ziman di derxistina hema-hema hemû dengan de beşdar e, di navê cihê çêbûna dengê de her tim nayê zêdekirin.
 
 Tabloya dengên kurdî tenê cih û awayê çêbûna dengan nîşan nade; di heman demê de cudahiya fonemên serbixwe û alofonan jî diyar dike. Hin dengên ku bi awayê gotinê ji hev cuda ne, dikarin alofonên fonemekê bin û bi tenê guherîna wan wateya peyvê naguherîne. Nivîskar herwiha hin nîşanên kêmpeyda wek dengên ku fonem nebûn û hebûna wan wek alofon jî bi guman e, destnîşan dike.
+
+## 3.1. Nimûneyên vokalên serbixwe
+
+Çavkaniyê destnîşan dike ku piraniya vokalên kurdî dikarin bê konsonant jî wek peyvên serbixwe bên bikaranîn. Nimûneyên wê ev in: *ew a min bû*, *ew kurd e*, *tu hevalê min î*, *O hevalo!* û *ez û tu*. Ev nimûne ji bo nîşandana serbixwebûna vokalan in; ne hemû vokal di hemû şertên hevokê de bi heman awayî tên bikaranîn.
+
+## 3.2. Tabloya dengên kurdî û nîşanên wê
+
+Tabloya nivîskar cihê derketinê bi rêza ji pêşiya devê ber bi paşiya devê û gewriyê ve rêz dike. Di wê de deng li gorî cih û awayê derketinê, bêvilîbûn, sekinîn, xişok, lerza perdeyên dengî û tengavbûnê tên dabeşkirin. Nivîskar herwiha di tabloyê de fonem, alofon û dengên ku statûya wan nezelal e ji hev cuda dike.
+
+Di şîroveya tabloyê de çar cûre nîşanên nivîsînê hene:
+
+- Herfên qelewkirî lê bê nîşana taybet, wek *m, n, p, b, ç*, fonemên ku di kurdî de hene û di nivîsîna latînî de bi herfên asayî tên nîşandan in.
+- Herfên qelewkirî û xwehrkirî, wek *ṕ, ť, ḱ, ř, ḉ, ẓ* û nîşana Eyn, fonemên ku di kurmancî de hene lê di nivîsîna asayî de ji hin fonemên din bi herfeke cuda nayên nîşandan in.
+- Herfên neqelewkirî û nexwehrkirî, wek *ṗ, ṭ, ș, ẍ, ḧ, ł*, awayên dengî ne ku ji dengê bingehîn cuda tên gotin, lê bi tenê nikarin wateya peyvê biguherînin; ji ber vê yekê wek alofon tên şîrovekirin.
+- Dengên neqelewkirî lê xwehrkirî, wek *ḅ* û *ẗ*, ne fonem in; hebûna wan wek alofon jî di çavkaniyê de bi guman hatiye nîşandan an tenê bi çend peyv û devokên kêm ve girêdayî ye.
+
+Ev nîşanên taybet alîkar in ku xwendevan cudahiya fonem, alofon û awayên bilêvkirinê ji hev cuda bibîne; ew pêşniyara ku hemû van nîşanan di rastnivîsîna rojane de bên bikaranîn nîne.
+
+## 3.3. Perdeyên dengî
+
+Perdeyên dengî (vocal folds) li serê gewriyê ne û lerizîna wan di çêkirina hin dengan de beşdar e. Gava perdeyên dengî dilerizin, deng bilerz e; gava nalerizin, deng bêlerz e. Nivîskar vê cudahiyê bi berawirdkirina B û P rave dike: herdu deng ji heman cihê dulêvî û bi awayê sekinî tên çêkirin, lê B bilerz e û P bêlerz e.
+
+## 3.4. Cihê derketina dengên nimûne
+
+Nivîskar bi M, N, F/V û P rave dike ku cihê derketina dengê çawa tê diyarkirin:
+
+- **M** dulêvî ye, ji ber ku herdu lêv di çêkirina wê de tên girtin; ew di heman demê de bêvilî ye, ji ber ku hewa ji pozê derdikeve.
+- **N** pidûyî-bêvilî ye: ziman li pidûyên hindirîn, li pişt didanan, tê danîn û hewa ji pozê derdikeve.
+- **F û V** lêvî-didanî ne: didanên jorîn bi lêva jêrîn re nêzîk dibin.
+- **P** dulêvî-seknî-bêlerz e: herdu lêv rêya hewayê digirin, paşê vedibin û perdeyên dengî nalerizin.
+
+Di navên cihê derketinê de gelek caran peyva «zimanî» nayê zêdekirin, herçend ziman di çêkirina gelek dengan de beşdar e; ji ber ku ew ne taybetmendiyeke cudaker e. Nivîskar di ravekirina cihên dengî de herwiha peyvên wek *pidû*, *didan* û *perdeyên dengî* bi wateya anatomîkî bi kar tîne.
 
 ## 4. Awayên derketina dengan
 
