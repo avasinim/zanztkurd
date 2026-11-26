@@ -3110,6 +3110,42 @@ Di peyvên ji zimanên ewropî hatine wergirtin de parastina I ya çavkaniyê bi
 
 Di kîteya dawiyê de dirêjahiya dengê I dikare bi Î were nîşandan: *statistîk, diminutîv, paparazî, spagetî, çilî*. Ev rêzik bi taybetî ji bo yekgirtîkirina peyvên wergirtî giring e.
 
+## Têbîniyên pêrawejan 176–208
+
+- **176.** Di farisiya Tehranê de E-ya dîrokî ya dawiya peyvan bûye Ê, lê bi herfa farisî ya ە tê nivîsîn. Ji ber vê yekê forma nivîskî dikare wek hev be lê xwendina kurdî û farisî cuda be: *xane/xanê*. Herwiha I-ya dîrokî di farisî de dikare bibe Ê-yeke kurttir; nimûne *dil/dêl*.
+- **177.** Ji bo rêjeya Ê ya nivîsên kurmancî, nivîskar çavkaniya lêkolîna xwe ya Nefelê vedigire.
+- **178.** Di kurmanciya standard de formên *ew dike, nabêje, naçe* tên bikaranîn; formên bi Ê di soraniya standard û hin devokên kurmancî de hene.
+- **179.** Di kurmanciya rojhilatî de formên *malêt wan* an *malêd wan* jî hene; di herduyan de dengê Ê parastî ye.
+- **180.** Di kurmanciya rojhilatî de *li welatî, bi agirî* tê gotin; di nivîsîna kurmancî de formên *li welat, bi agir* jî têne bikaranîn.
+- **181.** Ji bo berawirdkirina *hêk* bi farisî *xaye/xayê* û pehlewî *xayek*, X-ya zimanên din bi H-ya kurmancî re were berawirdkirin; çavkaniyê formên *hişk, hûr, hûrde* jî dide.
+- **182.** H-ya kurmancî di *hêk* de û X-ya farisî/pehlewî di *xaye/xayek* de di qonaxên paşîn de li destpêka peyvê peyda bûne; çavkaniyê *egg, Ei, ovum, oion* wek hevrehên dîrokî dide.
+- **183.** Peyva serbixwe *ê* di gotinên *ê ku, ê min, ê li wir* de tê; formên bi *yê* jî alternatîf in.
+- **184.** Ji bo ravekirina metafoniyê, nivîskar çavkaniyeke din li ser guherînên wek *welat → welêt* û *standin → bistîne* nîşan dide.
+- **185.** Di kurmanciya rojhilatî de *pênîr* forma xwerû û *pênîrî* forma çemandî ye; di kurmanciya navendî de *penîr* forma xwerû û *pênîr* forma çemandî ye.
+- **186.** Paşpirtika kêm *-endin* di hin lêkeran de ji *-andin* hatiye; *xwendin* û *stendin* ji formên *xwandin* û *standin* derketine. Di soraniyê de *-êndin* bi taybetî di *xwêndin* de tê dîtin.
+- **187.** Nivîskar ji bo pêvajoya hîperkorektiyê (zêde-rastiyê) çavkaniyeke zimanî vedigire.
+- **188.** Herçend E di nivîsên standard de herfa herî berbelav be, nivîskar dibêje ku I di gelek devokan de dibe ku hê jî zêdetir be; ji bo rêjeya herfan lêkolîneke cuda vedigire.
+- **189.** Nivîskar ji bo nîqaşa parastina Î li berî Y nivîsareke Bahoz Baran vedigire.
+- **190.** Ji bo nimûneya nivîsîna Rozan Hazim, çavkaniyeke din tê referanskirin.
+- **191.** Ji bo nimûneya nivîsîna Baran Rizgar, çavkaniyeke din tê referanskirin.
+- **192.** I-ya kurdî li herêmeke navendî-pêşîn a devê ye; I/ı-ya tirkî li paşîn e û nêzîkî U-ya kurdî ye, lê hinekî bilindtir e.
+- **193.** Ji bo rêjeya Î ya nivîsên kurmancî, çavkaniya lêkolîna Nefelê hatiye referanskirin.
+- **194.** Ji bo etîmolojiya *îsot*, nivîskar referansa ferhenga Wiktionary dide.
+- **195.** *Îşkence* bi rêya tirkî ji farisî hatiye.
+- **196.** Di kurmancî de *kê* forma çemandî ya *kî* nîne: *kî* dikare bersiva kesên wek *ez, tu, ew, em, hûn* hebe; *kê* bersiva formên wek *min, te, wê, wî, me, we, wan* dide. Di soraniyê de herdu wate bi *kê* tên.
+- **197.** Di rewşa çemandî ya bi paşpirtika nediyarîtiyê *-ek* de, kurmanciya navendî paşpirtika Ê tercîh dike: *li welatekê, bi agirekê*.
+- **198.** *Bîr* di vê berawirdkirinê de bi wateya hiş, hizir an mejî ye; ne bi wateya çala avê ku ji erebî hatiye.
+- **199.** Cudahiyên IH/ÎH-ê bi taybetî di kurmanciya navendî û rojavayî de tên dîtin.
+- **200.** Formên din ên bi H di van berawirdkirinan de nemaze di kurmanciya rojhilatî de tên dîtin.
+- **201.** *Rih* di vê nimûneyê de bi wateya mûyên li rûyê mêran e.
+- **202.** *Sî/sih* hem bi wateya hejmareya 30 û hem jî bi wateya sîber, cihê ku tav lê nade, tê bikaranîn.
+- **203.** Di Dihokê de *bûn, çûn* û *û* ya serbixwe (bi wateya “and”) nabin Î. Di heman devokê de *kîr* bi K-ya nerm wateya kerb dide, lê bi K-ya bipif wateya kûr/ava bilind dide.
+- **204.** Di formên *qanwîn* de W nîşana vokala dirêj Ü ye, ne cotdengê /w/; peyv wek *qa-nwîn* tê dabeşkirin.
+- **205.** Heمان تêbînî ji bo *tabwît* jî derbas dibe: W nîşana Ü-ya dirêj e, ne dengê serbixwe /w/.
+- **206.** *Kîn* ya bi wateya kerb ji *kîn* ya bi K-ya nerm û wateya din tê cudakirin; di pêvajoya Dihokê de K-ya bêpif giring e.
+- **207.** Di soraniyê de li cihê Î-ya kurmancî di hin guherînên lêkerî de Ê heye; di zazakî û farisî de A/E bi gelemperî wek xwe dimînin.
+- **208.** Ev têbînî dibêje ku ji bo sedemên guherîna Î+Y → IY divê xwîner vegere ser beşa berê ya dengê I.
+
 ## Çavkanî
 
 Husein Muhammed, *Dengnasî di kurdî de*, rûpelên çapkirî 270–297.
