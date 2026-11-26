@@ -1578,6 +1578,30 @@ J carinan ji dawiya peyvê dikeve. Di gelek devokan de *roj* dibe *ro* û peyvê
 
 Lê *rojname* nayê kurtkirin û forma *roname* nayê pejirandin. Di *îro/evro* û *nîvro* de formên bê J serdest û standard in. J di hin devokan an di axiftina sivik de ji rehê dema niha yê hin lêkeran jî dikeve: *-bêj- → -bê-* û *-avêj- → -avê-*.
 
+
+## 13. Hûrguliyên temamker ên H û J
+
+### 13.1. Cudahiya H di navbera kurmancî û soranî de
+
+H di kurmancî de ji soranî berbelavtir e, lê pirtûk îstîsnayên berevajî jî dide ku soranî H diparêze dema ku kurmancî dengê din hildigire: soranî *hewr, herzan, hewar* li hember kurmancî *ewr, erzan, war*. Ji ber vê yekê, cudahiya H di navbera herdu zimanan de bi rêzikeke yekalî nayê kurtkirin.
+
+### 13.2. Çavkaniyên din ên H û guherînên wê
+
+Pirtûk H-ya kurmancî bi W-ya zimanên îranî yên din re jî berawird dike. Ji bo *ceh*, formên avestayî *yewe-*, hewramî *yewe*, zazakî *cew*, pehlewî *cew*, farisî *cow* û soranî *co* tên nîşandan. Di hin peyvan de H li cihê Ş-ya zimanên din tê, nemaze berî N an M: kurmancî *têhnî/tihnî* li hember farisî *têşnê* û zazakî *teyşan*; kurmancî *çehv* li hember avestayî *çeşmen*, pehlewî *çeşme* û farisî *çeşm*; herwiha *rih/rî* û *reh/rih* bi formên farisî *rîş/rîşê* re tên berawirdkirin.
+
+Pirtûk diyar dike ku komdenga **eh** di soranî de bi gelemperî dibe **a** (*tehl/pehn → tal/pan*); **êh** dikare H-yê xwe bavêje (*mêhvan/mihman → mêvan; bêhn/bihn → bên/bîn*); **ih** jî gelek caran dibe **î** (*cih → cî, mih → mî, bih → bî, rih → rî*). Di hin peyvan de kurmancî H dike V, wek *şirove* ku nivîskar wê bi erebî *şurûḧ* re girêdide. Ev guherîn bi gelemperî bi şert û peyvên taybet ve girêdayî ne, ne rêzikên bê-awarte.
+
+### 13.3. Dengê J di ziman û nivîsên din de
+
+J-ya kurmancî di frensî, portugalî û tirkî de jî dikare heman deng nîşan bide; di gelek zimanên Rojhilata Ewropayê de dengê heman bi **ž** tê nivîsîn, û di transkripsiyonê de **ZH** an carinan **JH** tê bikaranîn. Di îngilîzî de herfa **J** bi gelemperî dengê **C** ya kurmancî dide, wek *John*; di gelek zimanên Bakur, Navend û Rojhilata Ewropayê de **J** dengê **Y** ya kurmancî nîşan dide, wek almanî *ja*. Ev cudahiya deng û herfê divê di berawirdkirina peyvên deynkirî de were hesibandin.
+
+### 13.4. Varyantên peyvên ewropî û ketina J
+
+Di peyvên ji yûnaniya kevn an latînî hatine de, formên bi **J** bi gelemperî bi rêya frensî (carinan bi rêya tirkî an farisî) hatine; formên bi **C** bi rêya îngilîzî (carinan bi rêya erebî) hatine; formên bi **G** dikarin bi rêya rûsî, almanî an swêdî hatibin. Pirtûk diyar dike ku di nivîsa kurmancî de formên bi J serdest û standard in. Hin guherînên din ên di heman peyvan de jî hene: *jîlet → jîlêt* an *gîlet/gîlêt*.
+
+J carinan ji dawiya peyvê dikeve. Pirtûk mînakên *roj → ro*, *rojhilat → rohilat*, *rojava → roava*, *Rojhat → Rohat* û *Rojbîn → Robîn* dide. Lê *rojname* nayê kurtkirin û forma *roname* nayê pejirandin. Di *îro/evro* û *nîvro* de formên bê J serdest û standard in, tevî ku peyva serbixwe *roj* bi J ye. J di hin devokan an axaftina sivik de ji rehê dema niha yê lêkeran jî dikeve: *-bêj- → -bê-* û *-avêj- → -avê-*.
+
+
 ## Çavkanî
 
 Husein Muhammed, *Dengnasî di kurdî de*, rûpelên çapkirî 116–132.
