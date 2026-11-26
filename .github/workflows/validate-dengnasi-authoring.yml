@@ -7,6 +7,7 @@ on:
       - "docs/DENGNASI-SOURCE-ALIGNMENT-AUDIT-2026-11-26.md"
       - "scripts/validate_dengnasi_authoring.py"
       - "scripts/test_dengnasi_reader.py"
+      - "lessons/kurmanji-dengnasi-lesson-*.html"
       - ".github/workflows/validate-dengnasi-authoring.yml"
   workflow_dispatch:
 
