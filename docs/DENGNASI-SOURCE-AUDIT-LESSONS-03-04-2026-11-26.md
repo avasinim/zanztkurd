@@ -42,3 +42,16 @@ The new text summarizes these examples in Kurmancî Latin, while preserving the 
 - The added material is source-derived; no quizzes, tests, exercises or new examples were introduced.
 - No native-speaker certification is claimed.
 - No main-branch update, database write, migration, student-data change, deployment, publication or course activation was performed.
+
+
+## CI confirmation — 2026-11-26
+
+The complete workflow run [45780142032](https://github.com/avasinim/zanztkurd/actions/runs/45780142032) passed after the latest source-authoring updates through Lesson 7:
+
+- Generator `--write` and `--check` passed.
+- 27-lesson course map, source-page mapping, PDF integrity and protected reader-route validation passed.
+- Public PDF HTTP delivery, checksum and 462-page count passed.
+- All 8 mocked Playwright browser tests passed.
+- Only after all checks passed, regenerated lesson HTML previews and the JSON payload were synchronized to the isolated implementation branch.
+
+The Playwright tests use mocked Supabase state; they do not establish real student authentication, RLS, enrollment, or live progress synchronization. The workflow did not deploy or activate the course.
