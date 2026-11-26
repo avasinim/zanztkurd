@@ -129,3 +129,5 @@ def main():
           (("updated " + str(len(changed)) + " generated artifacts.") if args.write else "all generated artifacts are current."))
 if __name__ == "__main__":
     main()
+
+# CI-only trigger: validate the generator against the implementation branch contents.
