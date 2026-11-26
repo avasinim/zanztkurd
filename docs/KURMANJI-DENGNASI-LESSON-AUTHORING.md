@@ -2507,6 +2507,18 @@ Di hin lêkeran de Z-ya bilerz di bin bandora T-ya bêlerz a nîşana rabirdûy�
 
 Di peyvên ji erebî wergirtî de, çar dengên erebî bi kurdî bi awayên cuda têne wergirtin: Zeyn hevdengê Z-ya zirav e û dimîne (*zeytûn*); Zal dengekî didanî yê zirav e, wek [ð] ya di peyvên îngilîzî *they, there, then* de, û di kurdî de dibe Z-ya zirav (*zat*); Za dengekî didanî yê qelew e û dikare bibe Z-ya qelew an zirav (*zalim*, *zirav*); Dad jî dengekî D-ya qelew e û di kurdî de dikare bibe Z-ya zirav an qelew (*remezan*, *zemîr*). Divê cudahiya Z-ya qelew ya kurdî ji dengên didanî yên erebî cuda were fêmkirin; ew hevdeng nînin.
 
+## Têbîniyên pêrawejan 149–158
+
+- **149 û 153:** Çavkaniya rêjeya herfan, lêkolîna Husein Muhammed e: *Rêjeya herfan di nivîsên kurmancî de*. Ev rêjeyên V û W ji hesabkirina nivîsên kurmancî tên, ne ji hemû axêveran re pîvaneke giştî.
+- **150:** Di berawirdkirina latînî *urinor* de wateya ku pêrawejê dide «bin-av kirin» e.
+- **151:** Di nimûneya latînî *vadis/vas* de wate «ehd, soz, qewl, peyman» e; bi rehê *wed* û peyva îngilîzî *wed* («zewicîn») ve tê girêdan.
+- **152:** Di kurmanciya rojhilatî de paşlêkera *-ve/-eve* jî tê bikaranîn; nimûne *hatineve* («dîsa hatin, vegerîn») e, ku bi soranî *hatinewe* re tê berawirdkirin.
+- **154:** *Cade* ji zimanên îranî ketiye erebî, ne ku ji erebî ketiye îranî.
+- **155:** Nivîskar dibêje ku gelek navên din jî bi heman awayî ji navên ewropî hatine kurdîkirin; nimûneyên wî *Robîn* û *Zozan* in, ku bi *Susanne/Susanna* ve têne girêdan.
+- **156:** [ʔ] di IPA de nîşana dengê glottal stop e ku di vê çavkaniyê de bi navê Eyn tê nasandin. Di nivîsîna latînî de gelek caran bi apostrof tê nîşandan, wek *’Elî, ’Emer, ’Arif, ’erd, ’esman, sa’et*.
+- **157:** Nivîskar *sengîn* ji *seng* («kevir, ber») û paşgira *-în* şîrove dike; wateya pêşîn «kevirîn» bi rêya wateya «bihagiran» ve hatiye veguhastin.
+- **158:** Nivîskar dibêje ku B-ya kurdî di hin peyvan de li hemberî G-ya farisî ye, wek *beraz/goraz* û *birsî/birçî — gorosnê*. Sedema R-ya di *bijartin* de nayê zanîn; formên zimanên din ên îranî yên ku ew dide R naparêzin.
+
 ## Çavkanî
 
 Husein Muhammed, *Dengnasî di kurdî de*, rûpelên çapkirî 203–232.
