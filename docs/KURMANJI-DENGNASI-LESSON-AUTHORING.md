@@ -2287,13 +2287,13 @@ Di rûpela çapkirî 187 de çavkaniyê Ş wek «paşpidûyî-xişok-vizok» pê
 
 Çavkaniyê cihê herfên erebî yên cuda û bandora wan li ser T-ya kurdî vedibêje: herfa yekem bi gelemperî pifdar e; ya duyem bêpif û qelew e. Parastina pif û qelewî di peyvên wergirtî de herdem yekreng nîne. Herfên erebî di nivîsa xwendekar de nehatiye bikaranîn.
 
-## 11. T و مێژووی دەرکەوتن/کەوتن
+## 11. T û mîna dîrokî ya parastin û ketina wê
 
-خشتەی مێژوویی سەرچاوە پەیوەندیی *tav* بە farisî *tab* و لاتینی *tepeo* و PIE *tep-*، *teng* بە sanskrîtî *tenekti* و ئینگلیزی *tight* و PIE *tenk-*، *tirs* بە farisî *ters* و لاتینی *terror* و PIE *tres*، و *heft* بە avestayî *hepte-*، yûnanî *hêpta* و PIE *septm-* پیشان دەدات. لە کەوتنی T-ی ناوەڕاست/کۆتایی، پەیوەندییەکانی *vate-/vat/bad/va/ba*، *apat/abad/ava*، *bût/bûd/bî/bû*، *zamat-er/damad/zama/zava*، *brat-er/brat/berad/bira* و *mat-er/mad/may/ma-k* تۆمار کراون.
+Xişta dîrokî ya çavkaniyê van pêwendiyan dide: kurmancî *tav* bi avestayî *vate-*, pehlewî *vat*, farisî *bad*, zazakî *va* û kurmancî *ba* re; *ava* bi pehlewî *apat* û farisî *abad* re; *bû* bi pehlewî *bût*, farisî *bûd* û zazakî *bî* re; *zava* bi avestayî *zamat-er*, pehlewî/farisî *damad* û zazakî *zama* re; *bira* bi avestayî *brat-er*, pehlewî *brat-/brad-er*, farisî *berad-er* û zazakî *berad-er* re; *ma-k* bi avestayî *mat-er*, pehlewî *mad-er/mat-e*, farisî *mad-er* û zazakî *may* re. Ev berawirdkirin pêvajoya T→D û paşê ketina dengê di hin peyvan de nîşan dide.
 
-## 12. سنووری چاپ و لاپەڕە
+## 12. Sînorê çap û rûpelan
 
-پەڕەی فیزیکی 204/462ی PDF دابەشکەری وانەی 15 ـە و ژمارەی سەرچاوەی 186–202 دەنووسێت؛ ناوەڕۆکی چاپکراوی لاپەڕە 187 لە پەڕەی فیزیکی 205/462 دەست پێدەکات و لاپەڕەی 202 لە پەڕەی فیزیکی 219/462 کۆتایی دێت. ئەم جیاوازییەی ژمارەی پەڕەی دابەشکەر و ژمارەی چاپکراو بە ئاگادارییەوە تۆمار کراوە.
+Dabeşkerê PDF-ya waneya 15 li rûpela fîzîkî 204/462 dest pê dike û rûpelên çapkirî 186–202 nîşan dide. Naveroka çapkirî ya dersê ji rûpela 187 li rûpela fîzîkî 205/462 dest pê dike û rûpela çapkirî 202 li rûpela fîzîkî 220/462 diqede. Ji ber vê yekê rûpela 186 dabeşker e, ne beşeke naveroka waneyê.
 
 # Dersa 16 — Dengên V, W, X, Y û Z
 
