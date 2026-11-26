@@ -4006,9 +4006,9 @@ Bikaranîna T bi paşgira Î re berbelav bûye, heta di peyvên ku hiyatus tune 
 
 ## 10. Rola N
 
-Di kurmancî de hin peyv cotform hene ku di yekê de N ya dawiyê heye û di ya din de tune ye, wek *çawa/çawan*, *wisa/wisan* û *dîsa/dîsan*. Çavkaniyê rave dike ku N ya dawiyê dikare di destpêkê de ji bo rêgirtina li ber hiyatusê hatibe bikaranîn: forma bê N
+Di kurmancî de hin peyv cotform hene ku di yekê de N ya dawiyê heye û di ya din de tune ye, wek *çawa/çawan*, *wisa/wisan* û *dîsa/dîsan*. Çavkaniyê rave dike ku N ya dawiyê dikare di destpêkê de ji bo rêgirtina li ber hiyatusê hatibe bikaranîn: forma bê N dema ku peyva paşê bi konsonantê dest pê dike, û forma bi N dema ku peyva paşê bi vokalê dest pê dike.
 
-Têbînîya çavkaniyê: li rûpela çapkirî ya 428ê di lîsteya cotforman de *dîsa, dîsa* dubare hatiye nivîsîn; lê li rûpela 429ê nivîskar cotforma *dîsa/dîsan* bi awayekî zelal dide. Ev nakokiya çapkirinê hatiye tomarkirin. dema ku peyva paşê bi konsonantê dest pê dike, û forma bi N dema ku peyva paşê bi vokalê dest pê dike.
+Têbînîya çavkaniyê: li rûpela çapkirî ya 428ê di lîsteya cotforman de *dîsa, dîsa* dubare hatiye nivîsîn; lê li rûpela 429ê nivîskar cotforma *dîsa/dîsan* bi awayekî zelal dide. Ev nakokiya çapkirinê hatiye tomarkirin.
 
 - *Tu çawa hatî?* — peyva paşê bi konsonantê dest pê dike.
 - *Tu çawan î?* — peyva paşê bi vokalê dest pê dike.
