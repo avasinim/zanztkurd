@@ -2761,7 +2761,7 @@ Di derbarê Y + vokal de jî lihevkirineke temam di nav zimannasan de tune ye. H
 - **YÎ/ÎÎ:** di nivîsînê de di *tu yî, qamişloyî, ronayî* de xuya dike, lê di gotinê de Y gelek caran nayê bihîstin û komdeng dîftong çênake.
 - **YO/ÎO:** di nivîsînê de *birayo* ye, lê di gotinê de Y bêdeng e: *birao* an *biraw*.
 - Y li ber I, U û Û dîftong çênake. Li ber Ê di cînav û formên çemandî de tê nivîsîn (*yê din, yên min, birayê te, nameyên wê*), lê di gelek devokan de nayê bihîstin.
-- Y di hin girêdanên rêzimanî de jî wek dengê pەیوەندیکەر tê nivîsîn: *Ew mamoste ye* (li hemberî *ew profesor e*) û *name-yek* (li hemberî *kitêb-ek*). Di axaftinê de Y gelek caran nayê bihîstin û *nameyek* dikare wek *namek* were gotin. Ev bikaranîna Y bi xwe nîşana dîftongê nîne.
+- Y di hin girêdanên rêzimanî de jî wek dengê girêdanê tê nivîsîn: *Ew mamoste ye* (li hemberî *ew profesor e*) û *name-yek* (li hemberî *kitêb-ek*). Di axaftinê de Y gelek caran nayê bihîstin û *nameyek* dikare wek *namek* were gotin. Ev bikaranîna Y bi xwe nîşana dîftongê nîne.
 - Komdengê **-IYA-** di peyvên *çiya, giya, giyan, jiyan, niyan, şiyan* û peyvên wergirtî yên wek *diyanet, riwayet, siyaset, xiyanet* de heye. Di gotinê de *-iya-* bi gelemperî di heman kîteyê de tê bilêvkirin û dengê dîftongî **ÎA** dide; ev peyv bi gelemperî wek du kîte nayên dabeşkirin.
 
 ### 11. Guherîna U û I
