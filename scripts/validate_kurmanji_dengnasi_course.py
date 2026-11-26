@@ -138,6 +138,31 @@ for required in (
 assert "berî vokalên **A û O**" in lesson26, "Lesson 26 Turkish K scope must remain A/O"
 assert "berî vokalên paşîn **A, I, O, U**" not in lesson26, "Lesson 26 overgeneralizes the Turkish K scope"
 
+lesson7_match = re.search(r"(?ms)^# Dersa 7 —.*?(?=^# Dersa 8 —)", source)
+assert lesson7_match, "Lesson 7 authoring section is missing"
+lesson7 = lesson7_match.group(0)
+for required in (
+    "*ad*",
+    "*leyîstin, lehîstin, axaftin*",
+    "*futbol*",
+    "*jinbab/jinbav*",
+    "*dergistî*",
+    "*himban*",
+    "*eşte-*",
+    "*neve-*",
+    "*new*",
+    "*noh*",
+    "*heşt/heyşt*",
+    "*lo*",
+    "*jo*",
+    "*hindir/hundir*",
+    "*tê ve*",
+    "*bin/ban*",
+):
+    assert required in lesson7, f"Lesson 7 is missing source note/example: {required}"
+assert "| Ziman | bi | di | ji | li |" in lesson7, "Lesson 7 preposition comparison table is missing"
+assert "| Ziman | de / da | re / ra | ve / va |" in lesson7, "Lesson 7 postposition comparison table is missing"
+
 lesson8_match = re.search(r"(?ms)^# Dersa 8 —.*?(?=^# Dersa 9 —)", source)
 assert lesson8_match, "Lesson 8 authoring section is missing"
 lesson8 = lesson8_match.group(0)
