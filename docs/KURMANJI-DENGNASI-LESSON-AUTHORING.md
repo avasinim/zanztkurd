@@ -1678,7 +1678,7 @@ Di peyva *mîras* de S-ya ku ji dengê didanî [θ] hatiye, di kurdî de di form
 
 ## Çavkanî
 
-Husein Muhammed, *Dengnasî di kurdî de*, rûpelên çapkirî 168–185.
+Husein Muhammed, *Dengnasî di kurdî de*, rûpelên çapkirî 168–186.
 
 
 # Dersa 15 — Dengên Ş û T
@@ -1803,7 +1803,7 @@ T di hin peyv û devokan de bi Ç diguhere: *pate/paçe*, *têşt/çêşt* (taş
 
 ## Çavkanî
 
-Husein Muhammed, *Dengnasî di kurdî de*, rûpelên çapkirî 186–202.
+Husein Muhammed, *Dengnasî di kurdî de*, rûpelên çapkirî 187–202.
 
 ---
 
