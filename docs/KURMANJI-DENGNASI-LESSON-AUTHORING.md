@@ -2827,6 +2827,19 @@ Di gelek peyvên ji zimanên ewropî wergirtî de herfa E ya zimanê jêder bi d
 | Lêv | Ne-girovir | Ne-girovir |
 | Nimûne | *baran, aş, ba* | *ber, dev, te* |
 
+## Têbîniyên pêrawejan 166–175
+
+- **166.** Nivîskar dibêje ku taybetmendiya A ya ku li vir tê şirovekirin, di piraniya zaravayên din ên kurdî de jî bi heman awayî heye.
+- **167.** Nivîskar heman têbînî ji bo E jî dubare dike: ev taybetmendiya dengî di piraniya zaravayên din ên kurdî de jî heye.
+- **168.** Di farisî de dengê E dikare di nav peyvê de bê nivîsîn; nimûneya çavkaniyê *kerden* e ku di nivîsînê de wek *krdn* tê xuyangkirin.
+- **169.** Di hin devokên ku paşpirtikên kesê sêyem yê yekhejmar bi awayên din, wek *dibêjê* an *dibêjit*, bikar tînin, rêjeya E ji kurmanciya nivîskî ya standard kêmtir e; nivîskar îhtîmala kêmtirbûna wê ji I jî dide.
+- **170.** Bi gotina “kurdiya başûrî” nivîskar feylî, kelhurî û kirmaşanî û devokên nêzî wan qesd dike; ew ev nav ji bo hemû ziman û zaravayên başûrê Kurdistanê bi kar nayîne.
+- **171.** *Şor kirin* di vê çavkaniyê de bi wateya *qise kirin, axiftin, peyivîn* hatiye bikaranîn.
+- **172.** Nivîskar awarteyeke kêm destnîşan dike: *mela* (ji erebî *mewla*) dibe *mele*. Di vê nimûneyê de E-ya kîteya duyem A-ya kîteya yekem diguherîne; ne ku A-ya pêşîn bi bandora E-ya paşîn biguhere.
+- **173.** Di kurmanciya rojhilatî de *pênîr* forma xwerû û *pênîrî* forma çemandî ye. Di kurmanciya navendî de *penîr* forma xwerû û *pênîr* forma çemandî ye.
+- **174.** Paşpirtika dîrokî ya hin lêkeran *-andin* bûye. Formên *standin* û *xwandin* di gelek devokan, bi taybetî rojhilatî, tên dîtin. Nivîskar herwiha berawird dike ku soranî *sendin* û *xwêndin* dike, herçend paşpirtika *-andin* di lêkerên din ên soranî de dimîne.
+- **175.** Nivîskar îhtîmala bandora analojiyê di H-ya destpêka *heşt* de destnîşan dike: H dikare ji hejmareke nêzîk, *heft*, bi wekhevkirinê hatiye zêdekirin.
+
 ## Çavkanî
 
 Husein Muhammed, *Dengnasî di kurdî de*, rûpelên çapkirî 251–269.
