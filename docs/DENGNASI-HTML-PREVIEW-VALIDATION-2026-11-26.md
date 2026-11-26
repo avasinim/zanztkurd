@@ -89,3 +89,13 @@ The 27-row payload preview is stored at `docs/previews/dengnasi-content-html-pay
 - A mixed-script term introduced during editing was caught by the Arabic-script validator and replaced with Kurmancî Latin wording before the passing run.
 - Detailed findings: `docs/DENGNASI-SOURCE-AUDIT-LESSONS-18-21-2026-11-26.md`.
 - CI run `45776754621` passed all stages, including generator `--write/--check`, course-map validator, PDF delivery/checksum/page count, source extraction, and all 8 mocked browser tests. Generated preview HTML and JSON were synced to the isolated implementation branch.
+
+
+## Source-book audit of Lessons 19 and 20 — 2026-11-26
+
+- Extracted and reviewed the exact designed-PDF pages for Lesson 19 (292–319; printed 270–297) and Lesson 20 (321–337; printed 298–314).
+- Lesson 19 was strengthened with the source's Ê grammatical distribution examples, Ê/H alternations, Ê plus linking Y contrasts, I/Î-before-Y spelling rationale, etymological comparison of `bira`, `germ` and `kevn`, and additional historical/loanword examples.
+- Lesson 20 was strengthened with the full O-final exception/variant list, the source's note on the word `ol`, and the dialectal distinctions in `dû`.
+- CI run `45777982614` passed generator `--write/--check`, course-map validation, public PDF delivery/checksum/page-count, source-page extraction, and all 8 mocked Playwright browser tests. Generated preview HTML and JSON were synchronized to the isolated implementation branch.
+- Detailed findings: `docs/DENGNASI-SOURCE-AUDIT-LESSONS-19-20-2026-11-26.md`.
+- Temporary source-audit PR #93 was closed unmerged after the artifact was reviewed. No course activation, database write, migration, student-data change, deployment, publication, `main` update, or PR merge occurred.
