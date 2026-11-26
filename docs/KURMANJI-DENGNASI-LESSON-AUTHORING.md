@@ -791,7 +791,7 @@ Ev beş pêrawejên 43–65 û nimûneyên rûpelên 56–67 yên çavkaniyê di
 
 ### 8.3. Tesîra cihê dengî: nimûneyên bêvilî
 
-- Ji bilî *beramber, pêxember, duşemb, himbêz*, çavkaniyê *himb an*? (rûpela 60: *himban*) û varyanta *hinban* jî dide. *Duşem/duşembî* jî wek varyantên *duşemb* hatine qeyd kirin.
+- Ji bilî *beramber, pêxember, duşemb, himbêz*, çavkaniyê *himban*? (rûpela 60: *himban*) û varyanta *hinban* jî dide. *Duşem/duşembî* jî wek varyantên *duşemb* hatine qeyd kirin.
 - Di peyvên pêkhatî de *jinbab/jinbav* wek nimûneya N→M berî B tê. Ev ji ber hevbeşiya cihê bilêvkirina M û B-ê ye; çavkaniyê dibêje ku N berî B dikare bibe M. Ev şîroveya dengnasî ya nivîskar e.
 
 ### 8.4. Analojî di hejmaran de: xebata tabloyan
