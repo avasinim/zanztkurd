@@ -98,6 +98,21 @@ assert lessons[14]["printedPages"] == {"start": 187, "end": 202}, "Lesson 15 pri
 assert lessons[15]["title"] == "Dengên V, W, X, Y û Z", "Lesson 16 title must include source section X"
 assert "- **-RC, -RÇ, -RD, -RF, -RG, -RM, -RN, -RŞ, -RS, -RX, -RZ**" in source, "Lesson 17 is missing source cluster -RŞ"
 assert "*ferş, merş, marş*" in source, "Lesson 17 is missing source examples for cluster -RŞ"
+
+lesson26_match = re.search(r"(?ms)^# Dersa 26 —.*?(?=^# Dersa 27 —)", source)
+assert lesson26_match, "Lesson 26 authoring section is missing"
+lesson26 = lesson26_match.group(0)
+for required in (
+    "beran, erzan",
+    "BL, BR, FL, FR, KL, KR, PS, KST",
+    "blond, Brîtanya, flora, Fransa, klasîk, krîz, psîkolojî, tekst",
+    "karîn/kanîn, law, savar, aman, xaç",
+    "*çi, ker* û *ti/tu*",
+    "îspatkirina hebûn an nebûna wê diyardeyê",
+):
+    assert required in lesson26, f"Lesson 26 is missing source-backed detail: {required}"
+assert "berî vokalên **A û O**" in lesson26, "Lesson 26 Turkish K scope must remain A/O"
+assert "berî vokalên paşîn **A, I, O, U**" not in lesson26, "Lesson 26 overgeneralizes the Turkish K scope"
 assert lessons[14]["originalPdfPages"] == {"start": 187, "end": 202}, "Lesson 15 original-PDF range mismatch"
 assert lessons[14].get("dividerPage") == 204, "Lesson 15 designed-PDF divider must be documented"
 assert lessons[13]["designedPdfPages"]["end"] + 1 == lessons[14]["dividerPage"], "Lesson 15 divider must immediately follow Lesson 14"
