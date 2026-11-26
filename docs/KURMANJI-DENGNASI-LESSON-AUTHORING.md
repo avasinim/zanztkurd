@@ -2498,9 +2498,11 @@ O li destpêk, nav û dawiya peyvê dikare were dîtin:
 - Nav: *gore, hol, morîk*.
 - Dawî: *gelo, hevalo, Heso*.
 
-Rêjeya herfa O di nivîsên kurmancî de **0,95%** e; ji vokalên din kêmtir tê bikaranîn. Ji bilî çend peyvên gazîkirinê (*oh, of, ox, oy*), O li destpêka peyvên xwemalî bi gelemperî nayê dîtin. Di peyvên esil-erebî de jî li destpêkê tune ye. Li dawiya peyvên xwemalî jî kêm e; çend nimûneyên awarte wek *bo, co, ço, do, go, ho, jo, ko, lo, no, ro, xo* hene û gelek ji wan varyantên din hene. O ya dawiyê bi taybetî di forma gazîkirinê de xuya dike: *hevalo, gelo, Ehmedo, zarokino*.
+Rêjeya herfa O di nivîsên kurmancî de **0,95%** e; ji vokalên din kêmtir tê bikaranîn. Ji bilî çend peyvên gazîkirinê (*oh, of, ox, oy*), O li destpêka peyvên xwemalî bi gelemperî nayê dîtin. Di peyvên esil-erebî de jî li destpêkê tune ye. Li dawiya peyvên xwemalî jî kêm e; çend nimûneyên awarte û varyantên wan ev in: *bo* (*bona, boyî*), *co* (*cok, cuhik*), *ço* (*çîv*), *do* (*duh, duhî*), *go* (*got*), *ho* (*wiha, hosa*), *jo* (*ji bo*), *ko* (*ku, kuh, kut*), *lo, no* (*na, ne*), *ro* (*robar, rûbar, roj*), *xo* (*xwe*). O ya dawiyê bi taybetî di forma gazîkirinê de xuya dike: *hevalo, gelo, Ehmedo, zarokino*.
 
 Di peyvên ku bi O dest pê dikin de gelek caran peyvên ji tirkî an zimanên ewropî hatine wergirtin hene: *ode, ordek, oxir, ordî, otonomî, otomobîl, ofîs, otomatîk, otêl*. Hin devok li pêşiya O asteng çêdikin: *ode* dikare bibe *hode* an *wede*; *ordek* bibe *werdek*; *oxir* li Behdînan bibe *wexer*. Peyva *otomobîl* jî di hin qonaxan de bi awayên *tomobîl, tumubîl* û paşê *tirimpêl* hatiye gotin.
+
+Çavkaniyê peyva medyayê *ol* bi wateya “dîn/diyanet” jî wek wergirtineke ji tirkî *yol* (“rê”) nîşan dide: peyv pêşî bi wateya *terîqet/rê* hatiye bikaranîn û paşê wateya wê berfireh bûye.
 
 ## 2. Çavkaniya dîrokî û devokî ya O
 
@@ -2604,6 +2606,7 @@ Herfa **Û/û** nîşana vokaleke dirêj, bilind, paşîn û girovir e. Di piran
 
 Nimûneyên navpeyvê: *bûk, cûn/cûtin, çûn, dûr, gûn, hesûn/sûn, kûp, Mûş, Nûh, pûç, sûr, şûr, tûr, zûr*.
 Nimûneyên dawiya peyvê: *bû, cû, çû, mû, gû, rû, tû, zû*.
+Peyva *dû* bi wateya “li pey/li pişt” tenê di hin devokan de heye; di hin deverên din de *dûv* tê gotin. Di soranî de *dû* wateya hejmara 2 ya kurmancî dide; di kurmancî de jî ev awayê nivîsînê carinan tê dîtin.
 Li destpêka peyvê hin navên wek *Yûsif* û *Yûnis* di gotina gel de wek *Ûsiv* û *Ûnis* jî tên gotin. Di peyva *ûr* de, herçend di nivîsînê de Û li destpêkê hebe, di gotinê de Eyn li pêşiya wê heye. Hin navên welat û ziman jî bi Û tên nivîsîn, lê di gotinê de carinan U ye: *Urdin, Ukrayna, Uganda, urdûyî*.
 
 ## 6. Û û guherîna wê bi Ü an Î di devokan de
