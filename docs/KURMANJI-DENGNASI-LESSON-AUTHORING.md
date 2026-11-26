@@ -4150,7 +4150,7 @@ Pirtûk ji bo berawirdkirina kurmanciya nivîskî, Behdînan û soranî van nim�
 | *gûz* | *guîz* | *gwîz* | *gwêz* |
 | *kû (kîjan cih)* | *kuî(ve)* | *kwî(ve)* | *kwê* |
 
-Di Behdînanê de UÎ/WÎ li pey gelek konsonantan tê, ji ber ku Û-ya kurmanciya giştî bi awayekî sîstematîk dibe UÎ. Lê çavkaniyê du îstîsna sereke destnîşan dike: *çûn* û *û* ya serbixwe; *bûn* jî li piraniya deveran *bîn* an *bûn* e û tenê li hin deveran *buîn/bwîn* tê gotin. Di hin devokên Behdînan de O jî dibe UÎ/WÎ: *kon → kuîn/kwîn*, *kovî → kuîvî/kwîvî*, *rovî → ruîvî/rwîvî*. Di soranî de UÊ li cihê Û-ya kurmanciya giştî heye, lê belavbûna wê ji UÎ ya Behdînan kêmtir e.
+Di Behdînanê de UÎ/WÎ di pratîkê de dikare li pey her konsonantê were, ji ber ku Û-ya kurmanciya giştî bi awayekî sîstematîk dibe UÎ. Lê çavkaniyê du îstîsna sereke destnîşan dike: *çûn* û *û* ya serbixwe; *bûn* jî li piraniya deveran *bîn* an *bûn* e û tenê li hin deveran *buîn/bwîn* tê gotin. Di hin devokên Behdînan de O jî dibe UÎ/WÎ: *kon → kuîn/kwîn*, *kovî → kuîvî/kwîvî*, *rovî → ruîvî/rwîvî*. Di soranî de UÊ li cihê Û-ya kurmanciya giştî heye, lê belavbûna wê ji UÎ ya Behdînan kêmtir e.
 
 UÎ dikare li destpêka hin peyvan jî were: *uîte/uîtî* ji tirkî *ütü*. Di hin devokên Dihokê de U ji UÎ dikeve: *dûr → duîr → dîr*, *nû → nuî → nî*, *bixwîne → bixuîne → bixîne*; li Zaxo formên navîn ên UÎ tên bihîstin.
 
