@@ -662,11 +662,15 @@ Ji ber vê yekê divê mirov li dîroka peyvê, maneya wê û asta cihgirtina w�
 
 Deng dikare ji ber cihê çêbûna dengekî din biguhere. Pirtûk mînaka guherîna **N → M** berî dengê **B** dide.
 
-Mînak:
+Mînakên pirtûkê:
+- *Stembol* (li gel varyanta *Stenbol*) li hember *Istanbul*;
 - *beramber*, ne *beranber*;
 - *pêxember*, ne *pêxenber*;
-- *duşemb*, ne *duşenb*;
-- *himbêz*, ne *hinbêz*.
+- *duşemb*, li gel varyantên *duşem* û *duşembî*, ne *duşenb*;
+- *himbêz*, ne *hinbêz*;
+- *himban*, li gel varyanta *hinban*.
+
+Di peyvên pêkhatî de jî ev guherîn dikare di axaftina bilez de çêbibe. Pirtûk nimûneya *jinbab / jinbav* dide ku ji *jin* û *bab / bav* pêk hatiye; di gotina bilez de N-ya berî B dikare wek M were bihîstin: *jimbab / jimbav*.
 
 Sedem: N û M herdu dengên bêvilî ne, lê cihê çêbûna wan cuda ye. M bi herdu lêvan tê çêkirin; B jî dengekî lêvî ye. Gava N berî B were, cihê çêbûna wê dikare nêzî M bibe û wek M were gotin.
 
@@ -685,16 +689,77 @@ V û H ji aliyê cihê çêbûna dengê ve dûr in, lê di vê berawirdkirinê d
 ### 7.1. Analojî di hejmaran de
 
 Pirtûk du nimûneyên kurmancî dide:
-- **heşt**: li gor berawirdkirina dîrokî, H-ya destpêkê bi bandora *heft* hatiye zêdekirin.
-- **neh**: şiklê wê bi bandora *deh* re hatiye nêzîkkirin. Pirtûk formên dîrokî yên pêşniyarkirî wek *new* an *noh* nîşan dide. Di kurmanciya navendî de forma *heyşt* jî tê bikaranîn; dengê destpêkê yê wê li gor devokê dikare cuda be.
 
-Analojî dikare di destpêk, nav an dawiya peyvê de çêbibe. Bandor dikare ji peyva berî wê an peyva piştî wê were; lê ne her tim pêk tê.
+- **heşt**: li gor berawirdkirina dîrokî, H-ya destpêkê bi bandora *heft* hatiye zêdekirin. Di kurmanciya navendî de forma *heyşt* jî tê bikaranîn. Pirtûk peyvên bi wateya “heşt” di çend zimanan de wiha berawird dike:
+
+| Ziman | Peyva “heşt” |
+|---|---|
+| Avestayî | *eşte-* |
+| Osetî | *es-t* |
+| Yexnobî | *est* |
+| Sanskrîtî | *eşte-* |
+| Peştûyî | *eti* |
+| Latînî | *octo* |
+| Almanî | *acht* |
+| Îngilîzî | *eight* |
+| Swêdî | *åtta* |
+| Yûnanî | *okto* |
+| Ermenî | *ut* |
+
+Di van formên berawirdkirî de H tune ye. Li gor nivîskar, H di kurmancî û farisî de bi bandora *heft* li destpêka *heşt* zêde bûye. Ev analojî ne mecbûrî ye: di yûnanî de tevî hebûna H di *hêpta* (heft) de, ew li *okto* (heşt) zêde nebûye.
+
+- **neh**: şiklê wê bi bandora *deh* re hatiye nêzîkkirin. Pirtûk formên dîrokî yên pêşniyarkirî wek *new* an *noh* nîşan dide. Peyvên bi wateya “neh” di zimanên din de wiha hatine qeyd kirin:
+
+| Ziman | Peyva “neh” |
+|---|---|
+| Zazakî | *new* |
+| Soranî | *no* |
+| Farisî | *noh* |
+| Avestayî | *neve-* |
+| Sanskrîtî | *neven* |
+| Latînî | *novem* |
+| Almanî | *neun* |
+| Îngilîzî | *nine* |
+| Swêdî | *nio* |
+| Yûnanî | *ennea* |
+| Ermenî | *inn* |
+
+H-ya dawiyê ya *neh* di piraniya van zimanên din de tune ye. Nivîskar nêzîkbûna *neh* û *deh* wek sedema analojiyê destnîşan dike.
+
+Analojî dikare di destpêk, nav an dawiya peyvê de çêbibe. Bandor dikare ji peyva piştî wê (pêşvero/progresîv) an ji peyva berî wê (paşvero/regresîv) were. Lê analojî ne mecbûrî ye û her tim pêk nayê.
 
 ### 7.2. Analojî di daçekan de
 
-Pirtûk nîşan dide ku pêşdaçekên kurmancî **bi, di, ji, li** ji aliyê şiklê dengî ve pir nêzîkî hev in. Her yek ji wan du deng hildigire û bi dengê *i* diqede. Li gor nivîskar, ev nêzîkbûn bi erkê wan ê rêzimanî ve girêdayî ye: hemû pêşdaçek in û tên pêşiya navdêran, tevî ku maneyên wan cuda ne.
+Pirtûk nîşan dide ku pêşdaçekên kurmancî **bi, di, ji, li** ji aliyê şiklê dengî ve pir nêzîkî hev in. Her yek ji wan du deng hildigire û bi dengê *i* diqede. Di soranî de li cihê *i* ya kurmancî bi gelemperî *e* heye: *be, de, le*. Di soraniya Mukriyanî de *de* jî heye, lê di soraniya Silêmaniyê de tune ye; *je* (hevmaneya *ji*) jî di soranî de nayê dîtin. Di hin rewşan de *le … -ewe* wateya “ji … ve” dide, wek *le mał-ewe*.
 
-Pirtûk herwiha paşdaçekên **de, re, ve** wek nimûneyên din ên nêzîkbûna şiklê pêşkêş dike. Dîroka wan cuda ye, lê di kurmancî de şiklên wan nêzîkî hev bûne. Di hin devokan de formên *da, ra, va* jî hene. Nivîskar herwiha balê dikişîne ser **bo**: ew bi analojiyê wek *bi, di, ji, li* neguheriye; ji ber ku di hin devokan de bi *ji* re tê bikaranîn û erkê wê bi wan pêşdaçekên bingehîn re wekhev nîne.
+Nivîskar nêzîkbûna van pêşdaçekan bi erkê wan ê rêzimanî ve girê dide: hemû pêşdaçek in û tên pêşiya navdêran, tevî ku maneyên wan cuda ne. Lê di etîmolojiya wan de cihê cuda hene. Pirtûk formên wan di çend zimanan de wiha berawird dike:
+
+| Ziman | bi | di | ji | li |
+|---|---|---|---|---|
+| Kurmancî | *bi* | *di* | *ji* | *li* |
+| Soranî | *be* | *de* | — | *le* |
+| Hewramî | *we* | — | *ce* | *ne* |
+| Farisî | *ba, be/bê* | *der, ender* | *ez* | — |
+| Pehlewî | *ped* | *ender* | *ez* | — |
+| Hexamenişî | *peti* | *ender* | *heç* | *ena* |
+| Avestayî | *peiti-* | — | *heç* | — |
+
+Nivîskar dibêje ku formên niha yên kurmancî ji aliyê dengî ve ji hev nêzîk bûne, herçend rehên wan di zimanên kevn de cuda bûn. Di hin malikên vala yên tabloyê de dibe ku hevrehên wan di wê zimanê de nehatiye qeyd kirin an nivîskar haya jê tune be.
+
+**Bo** wek *bi, di, ji, li* bi analojiyê neguheriye. Di kurmanciya navendî û rojavayî de ew bi gelemperî bi *ji* re tê bikaranîn (*ji bo, ji bona, ji boyî*); di hin devokên rojhilatî û soranî de dikare bi tenê jî were bikaranîn. Nivîskar çend sedemên gengaz dide: erkê *bo* bi wan pêşdaçekên bingehîn re tam wekhev nîne û nêzîkkirina wê bi *bi* dikare herdu daçekan yek bike. Di hin deveran de *ji bo* wek *jo* tê kurtkirin.
+
+Pirtûk herwiha paşdaçekên **de, re, ve** wek nimûneyên din ên nêzîkbûna şiklê pêşkêş dike. Di kurmanciya nivîskî de ev sê form serdest in; di gelek devokan de *da, ra, va* tên bikaranîn. Di hin devokan de ji bo *ve* forma *va* jî heye. Her sê form du deng hildigirin û di dawiyê de dengê *e* an *a* hene. Nivîskar dîroka wan jî bi formên soranî, farisî, pehlewî, hexamenişî û avestayî re berawird dike:
+
+| Ziman | de / da | re / ra | ve / va |
+|---|---|---|---|
+| Kurmancî | *de / da* | *re / ra* | *ve / va* |
+| Soranî | *da / -a* | *ra* | *-ewe* |
+| Farisî | *der, ender* | *ra* | — |
+| Pehlewî | *ender* | *ray* | — |
+| Hexamenişî | *ender* | *radi* | *epe* |
+| Avestayî | — | — | *epe* |
+
+Di vê tabloyê de formên vala wateya wê dide ku formeke wisa di çavkaniya nivîskar de nehatiye qeyd kirin. Nivîskar dibêje ku ev paşdaçek jî ji şiklên cuda hatine û bi analojiyê nêzîkî hev bûne.
 
 ### 7.3. Analojî di cînav û hokeran de
 
