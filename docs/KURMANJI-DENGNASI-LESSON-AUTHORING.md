@@ -2238,9 +2238,11 @@ Nîşana wê di IPA de **[e]** ye; ji ber ku di kurmancî de dirêj e, dikare we
 - çemandina navdêrên mê: *wê kitêbê*;
 - girêdana navdêrên nêr: *hevalê min*;
 - girêdana pirhejmar: *kitêbên min*;
-- hin daçek: *jê, lê, pê, tê*;
-- nîşana dema bê: *tu ê bikî*;
-- hin paşpirtikên lêkerî û cînavî.
+- daçekên serbixwe: *jê, lê, pê, tê*;
+- nîşana dema bê: *tu ê bikî* (herwiha *tu dê/wê/yê bikî*);
+- daçeka paşlêker a bi wateya “wê/wî/wan” an “wê derê/wir”: *min gotê, em çûnê*;
+- paşpirtika kesê sêyem yê yekhejmar di soraniya standard û hin devokên kurmancî de: *ew dikê, nabêjê, naçê* (di kurmanciya standard de *ew dike, nabêje, naçe*);
+- cînavên *wê* û *vê* ku Ê tê de heye.
 
 Di peyvên xwerû de Ê li dawiya peyvê kêm e; gelek caran di formên çemandî û girêdayî de derdikeve. Çavkaniyê destnîşan dike ku di peyvên ji zimanên ewropî wergirtî de E bi gelemperî wek E tê parastin, herçend dengê wê di zimanê jêder de nêzî Ê be.
 
@@ -2414,12 +2416,10 @@ Di kurmancî de Î gelek caran li cihê Û-ya soranî ye:
 - kurmancî *xanî* — soranî *xanû*;
 - kurmancî *kirî* — soranî *kirdû*.
 
-Di hin devokan de cotdengê IH dibe Î, di hinên din de H tê parastin:
-- *bî/bih*;
-- *bîn/bihn*;
-- *rî/rih*;
-- *mî/mih*;
-- *mîwan/mihvan*.
+Di hin devokan de dengên Ê, I û Î li ber H dikarin bi hev re biguherin. H bi taybetî piştî Î dikare bikeve, piştî Ê jî carinan dikeve, lê piştî I bi gelemperî tê parastin:
+- *bê(h)n / bihn / bî(h)n*;
+- *tê(h)n / tihn / tî(h)n*;
+- *mê(h)van / mihvan / mî(h)van*.
 
 Di hin devokên rojhilatî de Û dikare bibe Î; di hin deveran de qonaxên navîn ên bi Ü an bi nîşana W jî têne dîtin. Mînakên Dihokê:
 - *bûk* → *bîk*;
