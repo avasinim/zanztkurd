@@ -99,6 +99,31 @@ assert lessons[15]["title"] == "Dengên V, W, X, Y û Z", "Lesson 16 title must 
 assert "- **-RC, -RÇ, -RD, -RF, -RG, -RM, -RN, -RŞ, -RS, -RX, -RZ**" in source, "Lesson 17 is missing source cluster -RŞ"
 assert "*ferş, merş, marş*" in source, "Lesson 17 is missing source examples for cluster -RŞ"
 
+lesson4_match = re.search(r"(?ms)^# Dersa 4 —.*?(?=^# Dersa 5 —)", source)
+assert lesson4_match, "Lesson 4 authoring section is missing"
+lesson4 = lesson4_match.group(0)
+for required in (
+    "*șed, mișaș*",
+    "*ẓivișṭan, beẓîn, beẓ*",
+    "*berdan* di hin devokan de",
+    "zan, zer, hezar",
+    "zayîden, zerd, hezar",
+    "ẓana, ẓava",
+    "dana, damad",
+    "ba/bad",
+    "bû/bûd",
+    "nav/nam",
+    "gav/gam",
+    "p’ê, p’êç’an/pêç’an, p’êk",
+    "pênc [pênc]",
+    "perde [ṕerde]",
+    "pez [ṗez]",
+    "zivistan [ẓivișṭan]",
+):
+    assert required in lesson4, f"Lesson 4 is missing source-backed detail: {required}"
+assert "*ṣed, miṣaṣ*" not in lesson4, "Lesson 4 legacy S transcription must be corrected"
+assert "*ẓiviṣṭan, beẓîn, beẓ*" not in lesson4, "Lesson 4 legacy Ẓ example transcription must be corrected"
+
 lesson22_match = re.search(r"(?ms)^# Dersa 22 —.*?(?=^# Dersa 23 —)", source)
 assert lesson22_match, "Lesson 22 authoring section is missing"
 lesson22 = lesson22_match.group(0)
