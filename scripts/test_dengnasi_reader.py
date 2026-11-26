@@ -42,7 +42,7 @@ class DengnasiReaderBrowserTests(unittest.TestCase):
     def open_lesson(self, project_url: str, lesson_url: str = LESSON_URL, completed_lessons=None):
         context = self.browser.new_context(viewport={"width": 1280, "height": 900})
         context.add_init_script("""
-            window.__dengnasiTest = { fromCalls: [], lessonKeys: [], rpcCalls: [], authCalls: [] };
+            window.__dengnasiTest = { fromCalls: [], lessonKeys: [], rpcCalls: [], authCalls: [], completedLessons: [] };
             window.supabase = {
               createClient: (url) => {
                 window.__dengnasiTest.projectUrl = url;
@@ -79,8 +79,14 @@ class DengnasiReaderBrowserTests(unittest.TestCase):
                         },
                         error: null
                       }),
-                      then: (resolve, reject) =>
-                        Promise.resolve({ data: [], error: null }).then(resolve, reject)
+                      then: (resolve, reject) => {
+                        const rows = table === "lesson_progress"
+                          ? (window.__dengnasiTest.completedLessons || []).map(index => ({
+                              lesson_key: "kurmanji-dengnasi-lesson-" + String(index + 1).padStart(2, "0") + ".html"
+                            }))
+                          : [];
+                        return Promise.resolve({ data: rows, error: null }).then(resolve, reject);
+                      }
                     };
                     return builder;
                   }
@@ -99,8 +105,7 @@ class DengnasiReaderBrowserTests(unittest.TestCase):
         if completed_lessons is not None:
             completed_literal = "[" + ",".join(str(number) for number in completed_lessons) + "]"
             context.add_init_script(
-                "localStorage.setItem('avasin_kurmanji_dengnasi27_completed_v1', "
-                f"JSON.stringify({completed_literal}));"
+                f"window.__dengnasiTest.completedLessons = {completed_literal};"
             )
         config = (
             "window.ZANSTI_SUPABASE={ready:true,"
