@@ -32,7 +32,7 @@ for index, match in enumerate(matches):
     end = matches[index + 1].start() if index + 1 < len(matches) else len(text)
     block = text[match.start():end]
     citation = re.search(
-        r"rûpelên çapkirî\\s+\\*{0,2}(\\d+)\\s*[–-]\\s*(\\d+)\\*{0,2}",
+        r"rûpelên çapkirî\s+\*{0,2}(\d+)\s*[–-]\s*(\d+)\*{0,2}",
         block,
     )
     assert citation, f"lesson {index + 1} has no parseable printed-page range"
