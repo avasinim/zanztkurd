@@ -2,7 +2,7 @@
 Date: 2026-11-26
 Work branch: `author/dengnasi-lesson-01-draft-2026-11-24`
 Source: Husein Muhammed, *Dengnasî di kurdî de* (PDF `Dengnasiya_Zimane_Kurdi_27_Wane.pdf`).
-Scope checked: draft Lessons 1–20 against the source's printed page labels and physical PDF pages.
+Scope checked: draft Lessons 1–25 against the source's printed page labels and physical PDF pages.
 
 ## Confirmed findings
 
@@ -140,6 +140,44 @@ Scope checked: draft Lessons 1–20 against the source's printed page labels and
 - Checked historical and dialectal correspondences, including EW/AW→O, UF/UV→O, IW/IWA→O, U↔I, Û→Ü/WÎ/Î, and the cited examples from Behdînan and other varieties.
 - The draft preserves the author's standard-writing recommendation to retain Û while allowing dialectal pronunciation variation.
 
+### 19. Lesson 21: Dîftong and stress
+
+- Lesson 21 follows printed pages 315–347 (physical PDF pages approximately 339–371).
+- Checked the source definition of diphthongs, rising/falling distinctions, the XW+vowel sequences, W/Y as semivowels, vowel+W/Y combinations, dialectal UÎ/WÎ forms, and the source's distinction between written sequences and spoken syllabification.
+- Checked the source's U/I alternations and their stated phonological and dialectal limits.
+- Checked stress placement in nouns, adjectives, pronouns, adverbs, prepositions, verbs, derived/compound words, vocatives, and stress-based meaning/grammatical contrasts.
+- The draft retains the author's caveat that analyses of W/Y as diphthong components versus consonants are not agreed upon by all linguists.
+
+### 20. Lesson 22: KL and KE
+
+- Lesson 22 covers printed pages 348–372 (physical PDF pages approximately 374–397).
+- Checked the standard KL and KE inventories, writing direction, letter shapes and joining, vowel representation, historical spelling variants, and the source's count of 33/34 KE signs depending on treatment of the W sequence.
+- Checked the source sections on homophones, homographs, heterographic homophones, synonyms, cognates and doublets.
+- Checked the source's Kurmanji–Persian sound correspondence table, including A, B/V/W, D, E/I, Ë, G, H, M/V, O, Ş/H, Û/O, V/W, X and Z/J, and the worked *zava/damad* example.
+- Checked the author's discussion of whether the Kurdish Latin alphabet needs additional letters, including Ç/K/P/T, R, L and H. These are presented as the author's argument, not as a binding orthographic consensus.
+
+### 21. Lesson 23: Kurmanji and Soranî
+
+- Lesson 23 covers printed pages 373–386 (physical PDF pages approximately 399–412).
+- Checked the opening distinction between lexical, morphological and phonological differences; the synchronic/diachronic scope; the caveat that examples are dominant forms rather than universal forms in every dialect; and the author's non-hierarchical position on dialects.
+- The initial draft omitted the source's literature review and research provenance on printed pages 375–376. This was identified and corrected on 2026-11-26: the lesson now records the prior work of D. N. MacKenzie, Roşan Lezgîn, Seîd Veroj and Ismaîl Kemendar Fettah; the author's source-selection method for examples; and the earlier Nûbihar article and Zimannas reference.
+- Checked the V/W/M correspondences, RD/RT/R, initial ST and epenthetic E or T loss, Ç/K/P/T aspiration, emphatic consonants, H correspondences, I/E, Î/Ê, E/Ê verbal endings, L/Ł, Û/UH/WÊ, XWE/XO and the G/K palatalization section.
+- Source-internal inconsistency retained: the prose says K may be pronounced [ç] before Ê/WÊ, while the example for *kî/kê* is transcribed [kê], not [çê]. The draft flags this rather than silently changing the source's transcription.
+
+### 22. Lesson 24: Kurmanji and Southern Kurdish
+
+- Lesson 24 covers printed pages 387–393 (physical PDF pages approximately 414–420).
+- Checked the source's scope for “Southern Kurdish” and its geographical/varietal caution, and the B/W, V/W/M, Û/Ü/Î, O/Û, RD/R, L/Ł, Ç/K/P/T aspiration, ST/S/ES/HES, A/EH/YE, NG/Ň and XWE/XO comparisons.
+- The draft retains the source's dialect qualifications, including the variation in Ü/Î/Û and the Kirmaşan/Mendelî L distinction; it does not generalize these patterns to every Southern Kurdish variety.
+
+### 23. Lesson 25: Kurmanji and Zazakî
+
+- Lesson 25 covers printed pages 394–401 (physical PDF pages approximately 422–429).
+- Checked B/V, V/M/W, RD/R, E/I, XW/W, J/C (and J/Z), G/V, H/Ø/S, ST/EST/AST, A versus Î/Ê, H/Ş, K/H and S/Ş comparisons.
+- The draft preserves the source's word-level exceptions and dialect notes, including *xwe/xo/xwu*, *amnan/hamnan*, and the standardization note about *roj/roc*.
+- The source repeats an apparent erroneous sentence under the K/H heading, saying H in Kurmanji corresponds to Ş in Zazakî. The heading and examples (*ker/her*, *kanî/henî*) indicate K/H, and the following historical explanation concerns X/K/H. The draft records this source inconsistency instead of copying it as a correct K/H explanation.
+- The source's distinction between Zazakî dialect usage and the Vate group's proposed written standard is retained.
+
 ## Checks completed
 
 - Lesson 2: printed pages 8–15 (physical PDF pages 13–20) were checked. The vowel/consonant definitions, eight vowel letters, distinction between grapheme count and phonemic consonant inventory, terminology discussion, place/manner of articulation, and aspiration material follow the source.
@@ -154,6 +192,7 @@ Scope checked: draft Lessons 1–20 against the source's printed page labels and
 - Lesson 10: the H/J sections on printed pages 116–130 were checked, and missing historical comparison tables and examples were restored.
 - Lessons 11–15: K/L, M/N, P/Q, R/S and Ş/T source sections on printed pages 133–202 were checked; the Lesson 14 regional L/R comparison table was added and source typographical issues were recorded.
 - Lessons 16–20: V/W/Y/Z, Eyn and consonant clusters, and vowel groups A/E, Ê/I/Î and O/U/Û on printed pages 203–314 were checked; the complete consonant-cluster inventory omitted from the initial Lesson 17 draft was restored.
+- Lessons 21–25: diphthongs and stress, KL/KE, and the Kurmanji comparisons with Soranî, Southern Kurdish and Zazakî on printed pages 315–401 were checked. The Lesson 23 literature review omitted from the initial draft was restored, and source-internal transcription/wording inconsistencies in Lessons 23 and 25 were recorded.
 
 ## Release constraints retained
 
