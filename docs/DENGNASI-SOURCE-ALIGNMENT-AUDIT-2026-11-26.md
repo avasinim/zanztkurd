@@ -316,3 +316,36 @@ Scope checked: draft Lessons 1–27 against the source's printed page labels and
 - Added validator assertions for title parity across the authoring document, manifest, reader, static page and runtime, plus a Chromium browser assertion for the rendered Lesson 17 title. The browser fixture supplies mock completion rows for lessons 1–16 so the existing sequential-access gate is exercised without reading or changing real student progress.
 - All five PR workflows completed successfully at head `4aefb324218f146c520873fdb781adf7602f9792`: Dengnasi authoring, Kurmanji package integrity (including both browser regression suites), Dengnasi course/PDF validation, academic lesson catalog and lesson navigation.
 - The browser tests still use a controlled Supabase mock; they are not a real login to the test Supabase service. No student data, Supabase records, production configuration, migration, merge or deployment was accessed or changed.
+
+
+## Editorial source recheck — 2026-11-26 (supersedes earlier title notes)
+
+### Contents-page title reconciliation
+
+- Re-read the source contents pages (printed pp. 2–3) and reconciled the 27 lesson titles against the book's own wording.
+- Corrected the title map for Lessons 1, 2, 4, 17, 21, 22 and 27 in the authoring contents table, lesson headings, course manifest, reader index and relevant runtime/test expectations. The other lesson titles already matched the contents list.
+- Lesson 17's source title in Latin script is **Eyn û hemû cotkonsonantên di kurdî de**. The earlier title **Eyn, K/G/Q û komên konsonantî di kurdî de** was an editorial expansion, not the book's contents title. K/G/Q and consonant clusters remain covered in the lesson body; they are not inserted into the title.
+- The source's Eyn glyph is not carried into the course title because the course is Kurmancî Latin only.
+- The authoring map, manifest and reader index now each contain 27 titles, with exact title parity across those three sources.
+
+### Lesson 3 — printed pages 16–28
+
+- Rechecked the physical source pages corresponding to printed pp. 16–28.
+- Confirmed that the chapter includes the hevdengî discussion, Persian [z] examples, the always-versus-occasional homophony distinction, the Kurmanji pirdengî inventory, and the sections on R, H, S, X, Z, L, W, Ç, K, P and T.
+- The authoring draft now includes the source's Persian homophony examples in Latin transliteration and the distinction between always and occasionally homophonous letters. An introductory definition not present in this source section was removed.
+- The T minimal contrasts *ta*, *tam* and *tu* remain in Lesson 4 because they occur on printed page 29, after the Lesson 4 divider; the general T classification remains in Lesson 3.
+
+### Lesson 4 — printed pages 29–39
+
+- Rechecked the physical source pages corresponding to printed pp. 29–39.
+- Confirmed coverage of emphatic consonants and notation, aspiration contrasts, phoneme/allophone distinctions, prediction of emphatic realizations, native and borrowed-word strata, L/Ł, R/Ř, and the author's argument about orthographic notation.
+- Clarified in the authoring draft that Kurdish Ẓ is related to, but not identical with, the Arabic emphatic sound; the source distinguishes Kurdish emphatic Zayn from the Arabic emphatic Zal. Also clarified the source's Turkish/Persian allophone environments.
+- Kept the explanation in Latin script only; no Arabic-script glyph remains in the authoring document.
+
+### Current editorial and technical state
+
+- The stale static source note has been corrected on all 27 lesson HTML pages, with pre-change backups retained.
+- The last verified test-project content sync remains the earlier 27-row / 407,980-character snapshot. The Lesson 3 and Lesson 4 editorial refinements and exact title reconciliation described in this addendum have **not yet been re-synced** to the test Supabase rows. Do not treat the earlier character count as the current authoring length or as proof that the test rows contain these latest edits.
+- At PR head `9dec2d89e817067a14e1594722a592aa6f8b8ac1`, all five GitHub Actions workflows passed, including the authoring validator, Chromium reader checks, package integrity, course-map validation, academic catalog and lesson navigation.
+- The Chromium checks use controlled Supabase mocks, not a live authorized test-account login. That real test-project browser check remains outstanding.
+- PR #89 remains open and Draft, 462 commits ahead of `main` and 0 behind. No merge, production database change, migration, deployment or public activation occurred.
