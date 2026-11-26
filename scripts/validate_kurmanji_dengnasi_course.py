@@ -99,10 +99,10 @@ assert lessons[14]["designedPdfPages"] == {"start": 205, "end": 220}, "Lesson 15
 lesson15_match = re.search(r"(?ms)^# Dersa 15 —.*?(?=^# Dersa 16 —)", source)
 assert lesson15_match, "Lesson 15 authoring section is missing"
 lesson15 = lesson15_match.group(0)
-for required in ("*\\*tep-*", "*\\*tenk-*", "*\\*tres*", "*\\*septm-*", "Pêraweja 145", "Pêraweja 146", "Pêraweja 147", "Pêraweja 148", "Feylî, Kelhurî û Kirmaşanî"):
+for required in ("tep-", "tenk-", "terror", "septm-", "145:", "146:", "147:", "148:", "Feylî, Kelhurî û Kirmaşanî"):
     assert required in lesson15, f"Lesson 15 is missing source-backed detail: {required}"
 lesson15_payload = payload["lessons"][14]["content_html"]
-for required in ("*tep-", "*tenk-", "*tres*", "*septm-", "Pêraweja 145", "Pêraweja 146", "Pêraweja 147", "Pêraweja 148"):
+for required in ("tep-", "tenk-", "terror", "septm-", "<strong>145:</strong>", "<strong>146:</strong>", "<strong>147:</strong>", "<strong>148:</strong>"):
     assert required in lesson15_payload, f"Lesson 15 HTML payload is missing source-backed detail: {required}"
 assert lessons[15]["title"] == "Dengên V, W, X, Y û Z", "Lesson 16 title must include source section X"
 assert "- **-RC, -RÇ, -RD, -RF, -RG, -RM, -RN, -RŞ, -RS, -RX, -RZ**" in source, "Lesson 17 is missing source cluster -RŞ"
