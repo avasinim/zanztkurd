@@ -199,11 +199,18 @@ class DengnasiLessonBrowserTests(unittest.TestCase):
             {"owner": False, "session": True, "enrolled": True, "canRead": False}
         )
         try:
+            page.on("console", lambda message: print(f"BROWSER CONSOLE [{message.type}]: {message.text}"))
+            page.on("pageerror", lambda error: print(f"BROWSER PAGE ERROR: {error}"))
             page.goto(f"{BASE_URL}/lessons/kurmanji-dengnasi-lesson-02.html")
-            page.wait_for_function(
-                "() => location.pathname.endsWith('/dashboard.html') && new URL(location.href).searchParams.get('lesson') === 'locked'",
-                timeout=8000,
-            )
+            try:
+                page.wait_for_function(
+                    "() => location.pathname.endsWith('/dashboard.html') && new URL(location.href).searchParams.get('lesson') === 'locked'",
+                    timeout=8000,
+                )
+            except Exception:
+                current_title = page.locator(".klesson-hero h1").inner_text() if page.locator(".klesson-hero h1").count() else "missing"
+                print(f"LOCKED ROUTE DIAGNOSTIC url={page.url} title={current_title}")
+                raise
             self.assertIn("lesson=locked", page.url)
         finally:
             context.close()
@@ -213,8 +220,11 @@ class DengnasiLessonBrowserTests(unittest.TestCase):
             {"owner": False, "session": True, "enrolled": True, "canRead": True}
         )
         try:
+            page.on("console", lambda message: print(f"BROWSER CONSOLE [{message.type}]: {message.text}"))
+            page.on("pageerror", lambda error: print(f"BROWSER PAGE ERROR: {error}"))
             page.goto(f"{BASE_URL}/lessons/kurmanji-dengnasi-lesson-02.html")
             page.locator(".lesson-content .klesson-preview").wait_for(timeout=8000)
+            print(f"ENROLLED ROUTE DIAGNOSTIC url={page.url} title={page.locator('.klesson-hero h1').inner_text()}")
             self.assertEqual(
                 page.locator(".klesson-hero h1").inner_text(),
                 self.payload_map["kurmanji-dengnasi-lesson-02.html"]["title"],
