@@ -92,9 +92,9 @@ for label, ranges in (("printed source", printed_ranges), ("original PDF", origi
     for previous, current in zip(ranges, ranges[1:]):
         assert current["start"] == previous["end"] + 1, f"{label} page ranges are not contiguous"
 
-assert lessons[13]["printedPages"] == {"start": 168, "end": 185}, "Lesson 14 printed-page citation mismatch"
+assert lessons[13]["printedPages"] == {"start": 168, "end": 186}, "Lesson 14 printed-page citation mismatch"
 assert lessons[13]["originalPdfPages"] == {"start": 168, "end": 186}, "Lesson 14 original-PDF range mismatch"
-assert lessons[14]["printedPages"] == {"start": 186, "end": 202}, "Lesson 15 printed-page citation mismatch"
+assert lessons[14]["printedPages"] == {"start": 187, "end": 202}, "Lesson 15 printed-page citation mismatch"
 assert lessons[14]["originalPdfPages"] == {"start": 187, "end": 202}, "Lesson 15 original-PDF range mismatch"
 assert lessons[14].get("dividerPage") == 204, "Lesson 15 designed-PDF divider must be documented"
 assert lessons[13]["designedPdfPages"]["end"] + 1 == lessons[14]["dividerPage"], "Lesson 15 divider must immediately follow Lesson 14"
