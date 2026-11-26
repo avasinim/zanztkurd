@@ -106,7 +106,7 @@ assert "هیچ داواکارییەک بۆ بنکەدراوەی بەرهەمهێ
     "non-test project guard must explain that no production query is sent"
 )
 configured_url = re.search(
-    r'url\\s*:\\s*["\\']https://([a-z0-9]+)\\.supabase\\.co',
+    r'url\s*:\s*["\']https://([a-z0-9]+)\.supabase\.co',
     supabase_config,
 )
 assert configured_url, "Supabase browser URL could not be identified"
