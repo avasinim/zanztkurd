@@ -275,3 +275,14 @@ Scope checked: draft Lessons 1–27 against the source's printed page labels and
 - The existing authentication, enrollment, lesson-sequence and RLS checks remain in place. No alternate access path or bypass was added.
 - Static read-back verified that the project-ref guard occurs before the `lesson_content` query and that the 27 lesson routes carry their expected lesson keys.
 - This is a safety boundary, not proof of browser-level test delivery. To exercise the loader, a separately isolated test preview must load the test Supabase configuration and use an authorized test account. No such browser run has yet been completed.
+
+### Full request-boundary browser verification — 2026-11-26 (supersedes the earlier loader-only note above)
+
+- The first Chromium test exposed that the initial content-only guard did not stop the shared progress synchronizer from attempting a `lesson_progress` request before the lesson body loaded. That initial guard was therefore insufficient and was not accepted as complete.
+- Expanded the guard in `script.js` into a shared `ZANSTI_IS_DENGNASI_TEST_PROJECT` / `ZANSTI_WAIT_FOR_SUPABASE` boundary. On a Dengnasi lesson route, the configured project is checked before auth-session reads, owner checks, enrollment RPCs, progress synchronization, lesson-content reads, or lesson-completion RPCs. The owner-copy permission check now also stops when the shared boundary rejects the route.
+- Added `scripts/test_dengnasi_reader.py` with two real Chromium page-flow tests using a controlled mock Supabase client:
+  1. With the production project URL configured, the page displays the test-only notice and sends **zero auth, RPC, or table requests**.
+  2. With the test project URL configured, an authenticated/enrolled fixture loads the lesson body and exercises the expected test-project progress/content query sequence.
+- The browser tests use a mocked Supabase client and fixture content; they do not authenticate against or query the live test Supabase service. Separately, the read-only test-project verification still confirms 27 authored lesson rows exist. A browser run with a real authorized test account against the live test project remains outstanding.
+- Added the browser suite to both the Dengnasi authoring workflow and the Kurmanji package workflow. On PR head `dd8df13e08615ec073ab6648621a37603f31f1d5`, all four GitHub Actions workflows completed successfully: Dengnasi authoring (including both new Chromium tests), Kurmanji package integrity (including both new Chromium tests), Dengnasi course-map/PDF validation, and lesson navigation validation.
+- The committed `supabase-config.js` remains pointed at production; the fail-closed boundary prevents Dengnasi page flows from issuing production auth or data requests. Production was not queried or changed. No student data, migrations, merge or deployment were involved.
