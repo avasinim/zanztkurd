@@ -2698,7 +2698,7 @@ Her sê deng di kurmancî de fonemên cuda ne; guhertina yekê bi ya din dikare 
 
 ### K û G di dîrok û zimanên cîran de
 
-K di zimanên cîran, zimanên îranî yên kevn û di gelek zimanên hindûewropî de tê dîtin. Nivîskar wê wek dengekî kevn ê kurmancî dihesibîne. G jî di gelek zimanên cîran û hindûewropî de heye û nivîskar wê jî wek dengekî kevn ê kurmancî şîrove dike.
+K di zimanên cîran, zimanên îranî yên kevn û di gelek zimanên hindûewropî de tê dîtin. Nivîskar wê wek dengekî kevn ê kurmancî dihesibîne. G jî di gelek zimanên cîran û hindûewropî de heye û nivîskar wê jî wek dengekî kevn ê kurmancî şîrove dike. Di nav zimanên cîran de K, G û Q di farisî û aramî de hene; Q di ermenî û tirkîya standard de tune ye. Di erebiya standard de G tune ye, lê di erebiya Mezopotamyayê de Q-ya standardê bi gelemperî wek G tê gotin. K û G di zimanên hindûewropî yên kevn û niha de hene; Q di gelek zimanên hindûewropî û di zimanên îranî yên kevn/navîn de tune bû, lê di gelek zimanên îranî yên niha de belav bûye.
 
 Di tirkî de gelek peyvên ku niha bi G dest pê dikin, di forma kevn de bi K bûn. Di pêşketina dîrokî de K berî vokalên pêşîn bûye G; hin peyvên ji tirkî yên kevn hatine wergirtin di kurmancî de K ya kevn parastine an jî bi Q hatine veguhastin. Ev nimûne şîroveya dîrokî ya çavkaniyê ye; ji wê nayê derxistin ku ev guherîn bêîstîsna di hemû peyvan de çêdibe.
 
@@ -2859,9 +2859,9 @@ Herçend piraniya komên konsonantî ji du konsonantan pêk tên, di kurmancî d
 | **-YS** | *heys (heysûbeys)* |
 | **-ZQ** | *rizq (risq)* |
 
-Di tabloya matrixê ya rûpela 243 de herfên rêzê herfa yekem û herfên stûnê herfa duyem a komê ne. Ji bo ku tablo li ser ekranê jî were xwendin, heman agahî bi awayê komkirî hatiye veguhastin; rêzên vala yên çavkaniyê bi “—” hatine nîşandan. Ev tablo hemû cotên ku di matrixa çavkaniyê de hatine destnîşankirin diparêze, ne ku dibêje hemû di peyvên xwemalî de tên bikaranîn.
+Di matrixa rûpela 243 de stûn herfa yekem û rêz herfa duyem a komê nîşan dide. Ji bo ku tablo li ser ekranê jî were xwendin, heman agahî bi awayê komkirî hatiye veguhastin; rêzên vala yên çavkaniyê bi “—” hatine nîşandan. Ji ber vê yekê, sernavê tabloya komkirî **Herfa duyem** e. Ev tablo hemû cotên ku di matrixa çavkaniyê de hatine destnîşankirin diparêze, ne ku dibêje hemû di peyvên xwemalî de tên bikaranîn.
 
-| Herfa yekem | Komên di matrixa çavkaniyê de |
+| Herfa duyem | Komên di matrixa çavkaniyê de |
 |---|---|
 | **B** | **BB, MB, RB** |
 | **C** | **NC, RC** |
