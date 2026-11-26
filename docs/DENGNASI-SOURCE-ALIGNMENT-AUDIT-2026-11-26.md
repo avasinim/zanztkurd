@@ -249,3 +249,11 @@ Scope checked: draft Lessons 1–27 against the source's printed page labels and
 - The check validates exactly 27 sequential lesson headings, a printed-page citation in every lesson, Latin-script lesson text, absence of question/test/exercise headings, and absence of external audio embeds/links.
 - This is a repository-content check only; it does not access or modify Supabase, student records, production settings or deployment.
 
+
+### Test-project content synchronization — 2026-11-26
+
+- Before updating test content, exported all 27 existing `public.lesson_content` rows for `course_id='kurmanji-dengnasi-27'` into the immutable branch backup `docs/backups/kurmanji-dengnasi-test-lesson-content-before-sync-2026-11-26.json`. This backup contains lesson content only, not student records.
+- Synced the 27 newly source-audited lesson texts into the **test project only** (`juwsjljbdwyncicybwoq`), updating only the matching `lesson_content` rows for `kurmanji-dengnasi-27`. No course enrolments, profiles, lesson progress, auth users, migrations, or production records were read or modified.
+- The test-project write returned **27 updated rows**. A separate read-back verified all 27 lesson titles match the authoring headings, all 27 HTML fragments contain their printed-page source citation, all begin with the expected lesson wrapper, and none embeds a PDF, iframe or audio.
+- Total synchronized HTML content: **407,980 characters**. The test database's existing RLS policies were left unchanged.
+- This does not activate the site: `script.js` still intentionally displays the preparation notice for these lesson keys, and the production Supabase project has not been touched. The source-audited content is staged and verified in test storage pending a separately reviewed test-reader integration.
