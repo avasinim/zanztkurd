@@ -2097,6 +2097,29 @@ Di peyva *mîras* de S-ya ku ji dengê didanî [θ] hatiye, di kurdî de di form
 Husein Muhammed, *Dengnasî di kurdî de*, rûpelên çapkirî 168–186.
 
 
+
+
+## 12. Têbîniyên pêrawejan
+
+- Pêraweja 125 mînakek ji nivîsîna soranî ya Rudaw dide ku R-ya bêxet li cihê R-ya bixet hatiye nivîsîn.
+- Pêraweja 126 lêkolîna Husein Muhammed ya rêjeya herfan e; rêjeya 5,2% ya R ji wê hatiye.
+- Pêrawejên 127–128 ji bo etîmolojiya *vulpes* û koma peyvên bi bingeha *lewk-* çavkaniyên zêde nîşan didin.
+- Pêraweja 129 dibêje ku nimûneya *rîxolle* ji Mirtiza Nasirzade hatiye wergirtin.
+- Pêraweja 130 lêkolîna rêjeya herfa S e; ji wê rêjeya 1,6% hatiye.
+- Pêraweja 131 têbîniyek li ser *salon* û *soz* e: di tirkî de vokala Ö ya pêşîn dikare S-ya zirav biparêze.
+- Pêraweja 132 ji bo T û D wek nîşanên demên borî çavkaniyeke zêde dide.
+- Pêraweja 133 cudahiya H-ya [ħ] ya di *heft/hewt* de ji H-ya asayî di *heval/hesp* de destnîşan dike.
+- Pêraweja 134 nêzîkbûna *neh* û *deh* di hin devokan de bi analogiyê ve girêdide.
+- Pêraweja 135 H-ya taybet ya *Hesen/heft* destnîşan dike; nîşana erebî di vê dersê de nehatiye bikaranîn.
+
+## 13. Têbîniya edîtorî: pênaseya S
+
+Di rûpela çapkirî 175 de çavkaniyê S bi «pidûyî-xişok-vizok» pênase dike û dibêje ku hewa pêşî bi temamî tê sekinandin û paşî tê vekirin. Ev ravekirin bi [s] ya asayî re nakok e. Ji aliyê fonetîkê ve [s] dengekî **alveolar fricative** e, ne affricate; di affricate de pêşî girtineke temam heye û paşê rê li ber hewayê vedibe. Ji ber vê yekê ders taybetmendiya rast a [s] dide û nakokiya çavkaniyê bi awayekî zelal tomar dike.
+
+## 14. Sînorê rûpelan
+
+Waneya 14 di çavkaniyê de rûpelên çapkirî 168–186 digire. Lê dabeşkerê PDF-ya dîzayinkirî «168–185» dinivîse; rûpela fîzîkî 203/462 a PDF rûpela çapkirî 186 e û hê jî beşa tabloya konsonantan e. Dabeşkerê waneya 15 li rûpela fîzîkî 204/462 dest pê dike û «186–202» dinivîse. Ev nakokiya sînorê rûpelan hatiye tomar kirin; PDF bixwe nehatiye guherandin.
+
 # Dersa 15 — Dengên Ş û T
 
 ## 1. Ş — dengekî paşpidûyî-xişok-vizok
