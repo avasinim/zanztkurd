@@ -68,7 +68,8 @@ When implementation is authorized and performed in a local project checkout, cre
 1. Completed: remove only the Dengnasî loader pause guard while preserving the generic protected Supabase query path.
 2. Completed: replace the obsolete course hold page with a 27-lesson index and correct all 27 lesson-page descriptions so they no longer claim the book is copied verbatim or that PDF is the lesson.
 3. Completed: verify all 27 course-index links, lesson keys, content mounts, and shared loader references; see `docs/DENGNASI-COURSE-INDEX-VALIDATION-2026-11-26.md`.
-4. Next: run a real browser test with a dedicated test student, an un-enrolled account, and the site owner. Do not use production credentials or weaken RLS to make a test pass.
+4. Added: `scripts/test_dengnasi_course_ui.py` runs local Playwright smoke tests for all 27 rendered lesson bodies, course-index navigation, signed-out redirect, non-enrollment redirect, and locked-lesson redirect using a local Supabase stub. The validation workflow now installs Chromium and runs this suite when the relevant paths change. The suite has not yet run on this branch; it is a UI simulation, not a real Auth/RLS test.
+5. Still pending: a browser session against the disposable Supabase test project with dedicated test identities, to verify actual Auth, enrollment, and progression end-to-end. Do not use production credentials or weaken RLS to make a test pass.
 5. Only after browser evidence and explicit authorization: compare the production content state, determine whether any migration is actually needed, and prepare a fail-closed release proposal. Do not assume a new migration is required merely because the repository contains a draft payload.
 
 
