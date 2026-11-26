@@ -52,3 +52,16 @@ Full workflow run [45780729755](https://github.com/avasinim/zanztkurd/actions/ru
 - synchronized the regenerated previews to the isolated implementation branch after every validation step passed.
 
 The first run (45780571219) passed the generator, course/PDF, script and browser checks but its final preview-sync push was rejected as non-fast-forward because the implementation branch advanced during the run. No source or production change was lost; a rerun against the latest branch passed and completed the sync. PR #96 was closed unmerged.
+
+
+## Implementation-branch CI confirmation — 2026-11-26
+
+The implementation branch itself now contains the script enforcement in `scripts/validate_kurmanji_dengnasi_course.py`. Full run [45781002810](https://github.com/avasinim/zanztkurd/actions/runs/45781002810) passed all steps:
+- generated-preview `--write` and `--check`;
+- 27-lesson source/page/title and reader-route validation;
+- explicit no-Arabic/no-Cyrillic checks on the authoring source and every generated preview;
+- public PDF HTTP delivery, SHA-256 and 462-page checks;
+- all 8 mocked Playwright tests;
+- generated-preview synchronization to the implementation branch after all checks passed.
+
+Temporary PR #97 was closed unmerged after this successful run. No main-branch merge, database write, migration, student-data change, deployment, publication or activation occurred.
