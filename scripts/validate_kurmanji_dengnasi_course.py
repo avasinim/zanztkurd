@@ -293,6 +293,25 @@ for required in (
 assert "K ya kurmancî li hember H ya zazakî ye" in lesson25, "Lesson 25 K/H comparison is missing"
 assert "xeletî" in lesson25 and "K/H" in lesson25, "Lesson 25 source inconsistency note is missing"
 
+lesson3_match = re.search(r"(?ms)^# Dersa 3 —.*?(?=^# Dersa 4 —)", source)
+assert lesson3_match, "Lesson 3 authoring section is missing"
+lesson3 = lesson3_match.group(0)
+for required in (
+    "*out* wek [awt]",
+    "O dengê [a] û U dengê [w]",
+    "rastnivîsîna kurdî bi gelemperî du vokal li pey hev qebûl nake",
+    "R-ya şidandî bi [r] û R-ya sist bi [ɾ]",
+    "*ser* û *sed*",
+    "*axa* (serokeşîr), *bax* û *oxir / wexer*",
+    "*silav* û *lazim*",
+    "*belem* û *lepik*",
+    "Ç-ya bipif di soranî, farisî, tirkî û îngilîzî",
+    "K-ya destpêka peyvê di soranî, farisî, erebî, tirkî û îngilîzî",
+    "*pind* wek nimûneyeke kêm",
+    "*ta* (ben / germayî), *tam* (çêj / temamî) û *tu*",
+):
+    assert required in lesson3, f"Lesson 3 is missing source-backed detail: {required}"
+
 lesson23_match = re.search(r"(?ms)^# Dersa 23 —.*?(?=^# Dersa 24 —)", source)
 assert lesson23_match, "Lesson 23 authoring section is missing"
 lesson23 = lesson23_match.group(0)
