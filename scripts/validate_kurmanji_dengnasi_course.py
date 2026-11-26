@@ -293,6 +293,19 @@ for required in (
 assert "K ya kurmancî li hember H ya zazakî ye" in lesson25, "Lesson 25 K/H comparison is missing"
 assert "xeletî" in lesson25 and "K/H" in lesson25, "Lesson 25 source inconsistency note is missing"
 
+lesson2_match = re.search(r"(?ms)^# Dersa 2 —.*?(?=^# Dersa 3 —)", source)
+assert lesson2_match, "Lesson 2 authoring section is missing"
+lesson2 = lesson2_match.group(0)
+for required in (
+    "[ʔ]** di IPA",
+    "*’Elî, ’Emer, ’Arif, ’erd, ’esman*",
+    "*plica vocalis*",
+    "neynik an cama ku mirov xwe tê re dibîne",
+    "*pidî, pûk, pok*",
+    "*diran, dan, digan*",
+):
+    assert required in lesson2, f"Lesson 2 is missing source footnote detail: {required}"
+
 lesson3_match = re.search(r"(?ms)^# Dersa 3 —.*?(?=^# Dersa 4 —)", source)
 assert lesson3_match, "Lesson 3 authoring section is missing"
 lesson3 = lesson3_match.group(0)
