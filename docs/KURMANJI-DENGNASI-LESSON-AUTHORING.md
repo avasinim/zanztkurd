@@ -1893,9 +1893,9 @@ Hin peyvên îranî yên bi P ji ber tunebûna P di erebiya standard de di rêya
 
 Di rûpela 155 a çavkaniyê de ji bo P carekê nîşana **[b]** hatiye çapkirin, lê ev bi ravekirina heman beşê re nakok e: deng wek bêlerz tê binavkirin û di tabloya dengên rûpela 162 de P di rêza bêlerz de ye. Ji ber vê yekê di vê dersê de nîşana rast a P, **[p]**, hatiye bikaranîn. Ev rastkirina xuyayî ya şaşiya çapê ye, ne zêdekirina agahiyeke derveyî çavkaniyê.
 
-## 8.1. Nimûneyên zêدەی Q û cudahiyên alfabeyî
+## 8.1. Nimûneyên zêdeyî Q û cudahiyên alfabeyî
 
-Çavkaniyê ji bo Q nimûneyên zêدەی *qereqol* ji tirkî *karakol*, *qûł* (kûr) di soranî, û *qêrîn/qîrîn* û *req* bi pêwendiya aramî re jî dide. Herwiha formên *qap, qehreman, qantir* û *xendek/xendeq* di nîqaşa guherîna K/G bo Q û vegerîna Q bo K de tên. Ev etîmolojî divê wek nimûneyên taybet bên xwendin, ne wek qanûneke bêîstîsna.
+Çavkaniyê ji bo Q nimûneyên zêdeyî *qereqol* ji tirkî *karakol*, *qûł* (kûr) di soranî, û *qêrîn/qîrîn* û *req* bi pêwendiya aramî re jî dide. Herwiha formên *qap, qehreman, qantir* û *xendek/xendeq* di nîqaşa guherîna K/G bo Q û vegerîna Q bo K de tên. Ev etîmolojî divê wek nimûneyên taybet bên xwendin, ne wek qanûneke bêîstîsna.
 
 Di alfabeya kurdî-krîlî de çavkaniyê ji bo Q forma Ԛ/ԛ û di hin alfabeyên krîlînivîs ên din de Қ/қ nîşan dide. Di destpêka nivîsîna latînî ya Hawarê de K ji bo dengê ku niha Q tê nivîsîn û Q ji bo dengê ku niha K tê nivîsîn hatibû bikaranîn; nimûneyên wê *Qurdistan* û *kenc* bûn. Ev têbînî dîrokî ye û rastnivîsîna niha naguherîne.
 
