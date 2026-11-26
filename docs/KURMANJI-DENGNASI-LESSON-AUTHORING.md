@@ -4479,9 +4479,9 @@ Husein Muhammed, *Dengnasî di kurdî de*, rûpelên çapkirî 373–386.
 
 ## 1. Pênaseya kurdiya başûrî di vê dersê de
 
-Di vê berawirdkirinê de "kurdiya başûrî" navê komeke devokan e ku li deverên başûrî yên Rojhilata Kurdistanê û hin deverên Başûrê Kurdistanê têne axaftin. Feylî, kelhurî û kirmaşanî ji navên ku ji bo beşên vê komê tên bikaranîn in; lê her yek tenê beşek ji wê komê ye.
+Di vê berawirdkirinê de "kurdiya başûrî" (di hin navlêkirinan de *kurdîy xwarig*) navê komeke devokan e ku li deverên başûrî yên Rojhilata Kurdistanê û hin deverên Başûrê Kurdistanê têne axaftin. Feylî, kelhurî û kirmaşanî ji navên ku ji bo beşên vê komê tên bikaranîn in; lê her yek tenê beşek ji wê komê ye. Di Rojhilata Kurdistanê de Kirmaşan û Îlam ji bajarên sereke ne; li Başûrê Kurdistanê jî Xaneqîn û Mendelî ji navendên sereke ne.
 
-Ev têgeh ne wekhevê hemû kurdên Başûrê Kurdistanê ye. Li wir kurmancî, soranî, kurdiya başûrî, hewramî û devokên din jî hene. Herwiha kurdiya başûrî ne hewramî, ne lekî û ne jî lurî ye. Di vê dersê de em tenê li ser cudahiyên dengnasî yên ku çavkaniyê di navbera kurmancî û koma devokên başûrî de pêşkêş dike disekinin.
+Ev têgeh ne wekhevê hemû kurdên Başûrê Kurdistanê ye. Li wir kurmancî, soranî, kurdiya başûrî, hewramî û devokên din jî hene. Herwiha kurdiya başûrî ne hewramî, ne lekî û ne jî lurî ye. Di vê dersê de em tenê li ser cudahiyên dengnasî yên ku çavkaniyê di navbera kurmancî û koma devokên başûrî de pêşkêş dike disekinin. Ji aliyê rêzimanî ve jî, çavkaniyê yek ji taybetmendiyên herî mezin a kurdiya başûrî wek tunebûna ergatîviyê destnîşan dike. Ev têbînî rêzimanî ye, ne guherînek dengî; di vê dersê de tenê ji bo pênasekirina komê tê parastin.
 
 ## 2. B ya kurmancî û W ya başûrî
 
