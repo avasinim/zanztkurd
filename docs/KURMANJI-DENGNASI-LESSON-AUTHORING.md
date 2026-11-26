@@ -16,12 +16,12 @@
 
 | # | Sernavê dersê | Rûpelên çavkaniyê |
 |---:|---|---:|
-| 1 | Dergeh: dengnasî û lêkolînên pêşîn | 4–7 |
-| 2 | Vokal, konsonant, cih û awayên derketina dengan, pifdarî | 8–15 |
-| 3 | Hevdengî û pirdengî di nivîsînê de | 16–28 |
+| 1 | Dergeh û ev vekolîn û yên berî wê | 4–7 |
+| 2 | Vokal û konsonant; cih û awayên dengan; pifdarî | 8–15 |
+| 3 | Hevdengî û pirdengî di nivîsîna kurdî de | 16–28 |
 | 4 | Qelewîtî | 29–39 |
 | 5 | Rêjeya herfan di nivîsên kurmancî de | 40–43 |
-| 6 | Dengrêzî û kîte | 44–55 |
+| 6 | Dengrêziya kurdî; peyv ji kîteyan pêk tên | 44–55 |
 | 7 | Tesîra guherîna dengî li ser nivîsînê | 56–67 |
 | 8 | Konsonantên B, C, Ç û D | 68–103 |
 | 9 | Dengên F û G | 104–115 |
@@ -32,18 +32,17 @@
 | 14 | Dengên R û S | 168–185 |
 | 15 | Dengên Ş û T | 186–202 |
 | 16 | Dengên V, W, Y û Z | 203–232 |
-| 17 | Eyn, K/G/Q û komên konsonantî di kurdî de | 233–250 |
+| 17 | Eyn û hemû cotkonsonantên di kurdî de | 233–250 |
 | 18 | Vokalên A û E | 251–269 |
 | 19 | Vokalên Ê, I û Î | 270–297 |
 | 20 | Vokalên O, U û Û | 298–314 |
-| 21 | Dîftong û giranî | 315–347 |
-| 22 | KL, KE û herdu alfabeyên kurdî | 348–372 |
-| 23 | Cudahiyên dengnasî: kurmancî û soranî | 373–386 |
-| 24 | Cudahiyên dengnasî: kurmancî û kurdiya başûrî | 387–393 |
-| 25 | Cudahiyên dengnasî: kurmancî û zazakî | 394–401 |
-| 26 | Cudahiyên dengnasî: kurdî û tirkî | 402–417 |
-| 27 | Cotdengiya Ç, K, P, T û rêgirtina li ber hiyatusê | 418–432 |
-
+| 21 | Hin mijarên taybet: dîftong û giranî | 315–347 |
+| 22 | Nasandina KL û KE; cudahiyên herdu alfabeyan | 348–372 |
+| 23 | Cudahiyên dengnasî di navbera kurmancî û soranî de | 373–386 |
+| 24 | Cudahiyên dengnasî di navbera kurmancî û kurdiya başûrî de | 387–393 |
+| 25 | Cudahiyên dengnasî di navbera kurmancî û zazakî de | 394–401 |
+| 26 | Cudahiyên dengnasî di navbera kurdî û tirkî de | 402–417 |
+| 27 | Cotdengiya Ç, K, P, T û rêgirtin di ser peyvan re | 418–432 |
 ---
 
 # Dersa 1 — Dergeh û ev vekolîn û yên berî wê
