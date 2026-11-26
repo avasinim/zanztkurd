@@ -65,9 +65,11 @@ When implementation is authorized and performed in a local project checkout, cre
 
 ## Next implementation sequence
 
-1. Implement the narrow loader-guard removal on this integration branch.
-4. Generate the follow-up migration through the Supabase CLI in a local checkout, add fail-closed row/hash checks, and validate it in a disposable project.
-5. Review the complete diff and test evidence before proposing a separate Draft PR for user review.
+1. Completed: remove only the Dengnasî loader pause guard while preserving the generic protected Supabase query path.
+2. Completed: replace the obsolete course hold page with a 27-lesson index and correct all 27 lesson-page descriptions so they no longer claim the book is copied verbatim or that PDF is the lesson.
+3. Completed: verify all 27 course-index links, lesson keys, content mounts, and shared loader references; see `docs/DENGNASI-COURSE-INDEX-VALIDATION-2026-11-26.md`.
+4. Next: run a real browser test with a dedicated test student, an un-enrolled account, and the site owner. Do not use production credentials or weaken RLS to make a test pass.
+5. Only after browser evidence and explicit authorization: compare the production content state, determine whether any migration is actually needed, and prepare a fail-closed release proposal. Do not assume a new migration is required merely because the repository contains a draft payload.
 
 
 ## Test-project verification update — 2026-11-26
@@ -77,3 +79,11 @@ When implementation is authorized and performed in a local project checkout, cre
 - RLS probes passed for no-enrollment denial, first-lesson access, sequential lesson unlocking, owner access, and anonymous-role privilege denial. Probe transactions were rolled back; no test enrollment or progress rows remain.
 - This supersedes earlier statements in this plan that no Supabase query was made or that the payload had not been applied to any database. The verified scope is the disposable test project only.
 - End-to-end browser authentication and live GitHub Pages delivery remain unverified.
+
+
+## Course navigation and page-copy update — 2026-11-26
+
+- The course landing page is now a Kurmancî Latin 27-lesson index on the integration branch, with ordered lesson links and printed source-page ranges.
+- All 27 standalone lesson hero descriptions now accurately describe the lessons as source-based, pedagogically organized Kurmancî Latin writing in new wording. They no longer say the source text is reproduced verbatim or that the PDF opens as the lesson.
+- Static checks confirm 27 unique ordered course links and matching lesson keys, each page has a content mount and loads the shared script. This is repository validation only; browser runtime and Pages deployment remain unverified.
+- The separate PDF reader remains a source-reference page and is not linked from the course index or lessons catalog.
