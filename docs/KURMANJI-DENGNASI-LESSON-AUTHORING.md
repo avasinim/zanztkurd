@@ -3829,6 +3829,50 @@ Herwiha di hin peyvan de li cihê S ya kurmancî di zazakî de Ş heye.
 
 Ev guherînên dawî bi hejmareke kêm nimûneyan tên nîşandan û divê bi awayekî sînordar bên fêmkirin.
 
+## 13. Têbînî û nimûneyên temamker ên çavkaniyê
+
+Ev nimûne û têbînî ji rûpelên 394–401 ên çavkaniyê hatine parastin. Ew hûrgiliyên rêzikên jorîn temam dikin, lê rêzikên bêîstîsna çê nakin.
+
+### ST û komên konsonantî
+
+- Di soranî de li hember ST- ya destpêkî ya kurmancî, forma EST- bi nimûneyên *stêr / estêre*, *stûr / estûr*, *sto, stu / esto* û *Stembol / Estemboł* tê dîtin.
+- Di hin peyvan de li şûna zêdekirina E, T dikeve: *standin, stendin / sendin*.
+- T dikare ji dawiya peyvê jî bikeve: *dest / des*.
+- ST dikare di peyvên wergirtî de li destpêka soranî de were dîtin, wek *stran* (ji kurmancî) û *studyo* (ji îngilîzî).
+- Guherîna komdengê tenê ST nîne: *şkeft / eşkewt*; lê di hin peyvan de guherîn pêk nayê: *spî*, *şkandin*, *şkestin / şkan*.
+
+### Ç, K, P, T û qelewî
+
+Di kurmancî de Ç, K, P û T dikarin li destpêka peyvê bipif an bêpif bin. Nimûneyên çavkaniyê ev in: *çar* (Ç bipif) li hember *çav* (Ç bêpif); di soranî de herdu *çaw* û *çwar* Ç-ya bipif hene. Di gelek devokên kurmancî de P, S, T û Z awayên emfatîk/qelew jî hene, wek di *pez, sed, tav, zanîn* de; di soranî de ev taybetmendî tune ye an pir kêm e.
+
+### H û cudahiya wê ji H-ya dîrokî
+
+- H ya wek di *heval* de di soranî de li dawiya peyvê nayê; nimûne: *deh / de*, *neh / no*, *guh / gwê*, *reh, rih / reg, rîş*.
+- Ev H ji dengê H ya di navê *Hesen* de cuda ye. H ya wê koma peyvan di peyvên ji erebî wergirtî de dikare li dawiya peyvê jî were dîtin, wek *ruh*.
+- Di nav peyvan de koma EH ya kurmancî dikare li hember A ya soranî be: *pehn / pan*, *tehl / tał*, *mehr / mare*; *bêhn / bon* jî wek çareseriyeke din hatiye qeyd kirin.
+- Li destpêka peyvê H ya kurmancî carinan di soranî de tune ye: *hesp, hêsan, hejmartin, hesin / esp, asan, jimardin, asin*.
+- Carinan di soranî de H an HE heye ku di kurmancî de tune ye an dengê din heye: *war / hewar*, *jar / hejar*, *ewr / hewr*, *erd / herd, ’erz*.
+- Çavkaniyê dîroka H mijareke aloz û piralî dibîne û xwendekar dişîne nivîsara xwe ya taybet: https://zimannas.wordpress.com/2015/08/10/denge-h-peydabun-u-guherina-wi/
+
+### E, Î û Ê
+
+Footnote-yên çavkaniyê yên vê beşê ev agahiyane temam dikin:
+- Ji bo *gihandin, gihiştin*, formên *gehandin, gehiştin* jî hene.
+- Her çend pêşpirtika berdewamiyê di kurmancî de bi gelemperî *di-* be, li gel hin lêkeran *t-* serdest e: *ez têm / tînim*.
+- Di soraniya nivîskî de *de-* di devokên mukrî û hewlêrî de, *e-* di devokên silêmanî û kerkûkî de tê bikaranîn; herdu di nivîsê de hene, lê *de-* serdest e.
+- Forma çemandî ya *kî* di nimûneya çavkaniyê de *kê* ye.
+- Di koma EÛÊ de paşgira kesê sêyem yê yekhejmar di kurmancî de bi piranî *-e*, di soranî de *-ê* ye. Nimûne: *diçîne / deçênê*, *distîne / desênê*, *dixwîne / dexwênê*, *dinivîse / denûsê*.
+
+### L-ya zirav û qelew
+
+Herdu ziman, kurmancî û soranî, du awayên L hene: zirav û qelew. Nimûneyên çavkaniyê ji bo L-ya zirav: *law, lez, lêv, lîmon, lome, lûfik*; ji bo L-ya qelew: *silav, welat, sala 2016*. Di soranî de ev du deng di nivîsê de bi L û Ł têne cudakirin; di kurmancî de bi gelemperî nayên cudakirin, ji ber ku di wê şîroveya çavkaniyê de fonemên cuda nînin. Nimûneyên berawirdkirinê: *belê / bełê*, *dil / dił*, *gul / guł*, *hilbijartin / hełbijardin*, *mal / mał*. Di hin devokên soranî, wek hewlêrî, Ł dikare bibe R: *mał → mar*, *bełê → berê*; di hin devokên kurmancî de jî *bila / bela → bera / bira* hatiye qeyd kirin.
+
+### XWE- û G/K
+
+- Di soranî de li hember XWE- ya kurmancî, XO- herdem nîne. Çavkaniyê *xwedî, xwedan / xudan, xweyî / xawen* û *xwendin, xwandin / xwêndin* jî dide.
+- Di şiroveya G û K de çavkaniyê nimûneyên zimanên ewropî dide: G di îngilîzî de di *geology* û *Germany* de wek [c] tê gotin; di fransî de G wek [j] tê gotin. Di îtalî de C berî E an I wek [ç] tê gotin: *cento* [çênto] û *cinque* [çînkwê].
+- Çavkaniyê herwiha peyva *çi, çî* bi rehê proto-hindû-ewropî *kʷis* ve girê dide û dibêje ku heman reh di *kî, kê* de jî maye. Di fransî de *qui* [kî] û *que* [ki] wek nimûne hatine dayîn.
+
 ## Çavkanî
 
 Husein Muhammed, *Dengnasî di kurdî de*, rûpelên çapkirî 394–401.
