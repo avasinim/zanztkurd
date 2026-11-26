@@ -31,7 +31,7 @@
 | 13 | Dengên P û Q | 155–167 |
 | 14 | Dengên R û S | 168–185 |
 | 15 | Dengên Ş û T | 186–202 |
-| 16 | Dengên V, W, Y û Z | 203–232 |
+| 16 | Dengên V, W, X, Y û Z | 203–232 |
 | 17 | Eyn, K/G/Q û cotkonsonant | 233–250 |
 | 18 | Vokalên A û E | 251–269 |
 | 19 | Vokalên Ê, I û Î | 270–297 |
@@ -1809,7 +1809,7 @@ Husein Muhammed, *Dengnasî di kurdî de*, rûpelên çapkirî 187–202.
 
 
 
-# Dersa 16 — Dengên V, W, Y û Z
+# Dersa 16 — Dengên V, W, X, Y û Z
 
 ## 1. V — lêvî-didanî ya xişok û bilerz
 
