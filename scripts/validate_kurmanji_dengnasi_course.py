@@ -145,6 +145,9 @@ for required in ("Urdin/Ûrdin", "gwêz=gûz", "xwa.ri.na", "alîstin, ristin", 
     assert required in lesson6, f"Lesson 6 is missing restored source detail: {required}"
 assert "rûpelên çapkirî 44–55" in lesson6, "Lesson 6 source citation mismatch"
 
+assert "krdn" in lesson6 and "kirdin" in lesson6, "Lesson 6 Persian-script short-vowel example is missing"
+assert "*dezt, *hevt, *teẍt*" in lesson6, "Lesson 6 mixed-voicing counterexamples are missing"
+assert "*Tag/Täge*" in lesson6, "Lesson 6 German final-devoicing comparison is missing"
 lesson7_match = re.search(r"(?ms)^# Dersa 7 —.*?(?=^# Dersa 8 —)", source)
 assert lesson7_match, "Lesson 7 authoring section is missing"
 lesson7 = lesson7_match.group(0)
