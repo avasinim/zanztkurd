@@ -176,6 +176,18 @@ Nivîskar bi M, N, F/V û P rave dike ku cihê derketina dengê çawa tê diyark
 
 Di navên cihê derketinê de gelek caran peyva «zimanî» nayê zêdekirin, herçend ziman di çêkirina gelek dengan de beşdar e; ji ber ku ew ne taybetmendiyeke cudaker e. Nivîskar di ravekirina cihên dengî de herwiha peyvên wek *pidû*, *didan* û *perdeyên dengî* bi wateya anatomîkî bi kar tîne.
 
+## 3.5. Ravekirina nîşan û peyvên anatomîkî yên binê rûpelê
+
+Çavkaniyê di binê tablo û şîroveyên vê beşê de çend ravekirinên alîkar dide:
+
+- Nîşana **[ʔ]** di IPA de dengê ku bi navê *eyn* tê nasîn nîşan dide. Di nivîsîna latînî de ew carinan bi apostrofê tê nîşandan, wek *’Elî, ’Emer, ’Arif, ’erd, ’esman* û *sa’et*.
+- **Perdeyên dengî** bi inglîzî *vocal folds* an *vocal cords* tên gotin; navê anatomîkî ya latînî *plica vocalis* e.
+- **Awêne** di ravekirina rûpelê de bi wateya neynik an cama ku mirov xwe tê re dibîne hatiye bikaranîn.
+- **Pidû** goştê li dora didanan e; di çavkaniyê de *pidî, pûk, pok* wek peyvên nêzîk têne rêzkirin.
+- **Didan** hestiyên lib-libî yên di devê de ne ku ji bo cûn û hêrandina xwarinê tên bikaranîn; *diran, dan, digan* wek formên din ên peyvê tên nîşandan.
+
+Ev ravekirinên binê rûpelê alîkariya fêmkirina nîşanên dengnasî û peyvên anatomîkî dikin; ew mijarên nû yên derveyî çarçoveya beşa çavkaniyê nînin.
+
 ## 4. Awayên derketina dengan
 
 Di tabloya nivîskar de awayên sereke yên derketina dengan wek **bêvilî**, **seknî**, **xişok-vizok**, **xişok-nevizok**, **jenok** û **tengav** tên dabeşkirin.
