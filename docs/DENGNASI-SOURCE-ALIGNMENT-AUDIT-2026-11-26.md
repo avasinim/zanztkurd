@@ -299,3 +299,10 @@ Scope checked: draft Lessons 1–27 against the source's printed page labels and
 - At PR head `6e61c0ac6e3ac26e65b40421262f920efb839c89`, all five associated GitHub Actions workflows completed successfully: Dengnasi authoring, Kurmanji package integrity (including the reader isolation Chromium tests), academic lesson catalog, Dengnasi course/PDF validation, and lesson navigation.
 - The Chromium tests use a controlled Supabase mock: they prove zero production auth/RPC/table requests and exercise the test-project fixture path, but they are not a live browser login to the test Supabase service. A real authorized test-account browser check remains outstanding.
 - This remains a draft. The course is not activated, the live site is not claimed to serve the new lessons, and no production project, migration, student data, merge or deployment was touched.
+
+### CI follow-up — final result at 2026-11-26 head
+
+- The previous statement above records the workflow state at an earlier checkpoint. The latest verified head is `d8fef00a69e43a901295ff0ef747a3b665a66c62`; all five associated workflows have now completed successfully: Dengnasi authoring, Kurmanji package integrity, academic lesson catalog, Dengnasi course/PDF validation, and lesson navigation.
+- The Dengnasi authoring browser test completed, including the new source-note, PDF-reference, loading-placeholder and Lesson 1 heading assertions. The package workflow also completed its north-circle and Dengnasi reader isolation browser suites.
+- These Chromium tests use mocked Supabase responses. They verify the production fail-closed boundary and test-project fixture flow; they do not prove a real login or browser session against the live test Supabase service. That authorized-account check remains outstanding.
+- PR #89 remains open and Draft, with 349 commits ahead of `main` and 0 behind. No merge, production change, migration, student-data access or deployment occurred.
