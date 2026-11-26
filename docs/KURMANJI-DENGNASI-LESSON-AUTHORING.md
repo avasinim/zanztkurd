@@ -3686,6 +3686,41 @@ Cudahiya giranî di *mirovî* de jî wate û erkê rêzimanî cuda dike:
 Ev nimûne nîşan didin ku giranî dikare cudahiya navbera navdêr, rengdêr, daçek û formên lêkerî diyar bike.
 
 
+## Têbîniyên pêrawejan 229–268
+
+- **229 — Eyn:** Têbîniya çavkaniyê Eyn (ʿ) û lînka ravekirina wê diyar dike; di peyvên *saet* û *du’a* de dengê navbera vokalan girîng e.
+- **230 — Alfabeya kurdî-latînî:** Tabloya berawirdkirinê ya Behdînî û Soranî li ser bingeha kurmanciya nivîskî ya bi alfabeya latînî ye; nivîsîna bi alfabeya kurdî-erebî dikare -wî- an Û bi kar bîne.
+- **231 — Awarteyên Û > UÎ:** Di Behdînî de guherîna Û bo UÎ/WÎ hema-hema sîstematîk e; *çûn* û *û* wek peyvên serbixwe nayên guhertin, û *bûn* li gelek deveran *bîn* an *bûn* dimîne.
+- **232 — Nivîsîna Erebî ya Behdînî:** Di nav peyvê de UÎ bi -wî- tê nivîsîn, ne bi -uî-; çavkaniyê *bûk → bwîk* wek nimûne dide.
+- **233 — Bilêvkirina bûn:** Tenê li hin deverên kêm *bûn* wek *buîn/bwîn* tê gotin; li piraniya Behdînan *bîn* an *bûn* e.
+- **234 — Çuî-/çwî-:** Çavkaniyê dibêje peyvên destpêk bi çuî-/çwî- di Behdînî de nehatine dîtin; *çûn* jî wek kurmanciya giştî dimîne.
+- **235–238 — Sînorên komdengên destpêkê:** Çavkaniyê dibêje VU-, WU- û YU- di kurmanciya giştî de nayên dîtin û di Behdînî de jî hevberên VWÎ-, WWÎ- û YWÎ- tune ne.
+- **239 — Wîşî:** Nimûneya *wîşî* di hin devokên din de wek *uşî* tê gotin; çavkaniyê wateya “koma libên tirî” dide.
+- **240 — Dîw:** *dîw* nimûneyeke soranî ye bi wateya alî, rex, hêl an teref; bi *dêm* (“rû”) re hevreh e.
+- **241 — Cowboy:** *cowboy* wek peyveke wergirtî ya nû ji rêza -ow- re nimûne ye; ev komdeng di peyvên xwemalî de nayê.
+- **242 — Ronayî:** Forma serdest *ronahî* ye, hem di nivîsînê hem di gotinê de.
+- **243 — Yê/Yên:** Di hin devokan de formên *yêt/yêd* jî hene.
+- **244 — Ḥ:** Di transkripsiyona çavkaniyê de ḥ nîşana dengê H ye, wek di *heft, Hesen, Hisên* de; ne dengê cuda ye.
+- **245–247 — Ti, di, dih:** *ti* di hin devokan de cînavê “tu” ye; *di* dikare jimara 2 nîşan bide; *dih/dihî* jî formên devokî yên “duh/duhî” ne.
+- **248 — Ẍ:** Nîşana Ẍ ji bo dengê Xeyn e; di alfabeya erebî de غ, di IPA de ɣ û di hin transkripsiyonên ewropî de gh tê bikaranîn.
+- **249 — ẌU:** Dengê ẌU kêm e; çavkaniyê dibêje nimûneyên heyî jî nîşan didin ku ẌU bi ẌI nayê guhertin.
+- **250 — Murder:** Çavkaniyê *murder* wek berawirdiyeke etîmolojîk dide; wateya wê “kuştin/qetilkirin” e, ne “mirin”.
+- **251 — Wusa/Wulo/Wunda:** Çavkaniyê van formên nivîsînê wek kêmasiya nivîsînê dibîne, ne wek guherîna dengî ya rast; formên standard *wisa, wilo, winda* ne.
+- **252 — Giranî:** Termên hevwate yên giranî di zimanên din de stress, vurgu, نبر û تکیه ne.
+- **253 — Giranîya fonemîk:** Çavkaniyê bo baweriyên kevn ên li ser giranî di zimanên îranî de lêkolîna Tegey û Robson (2009) destnîşan dike.
+- **254 — Difin:** Çavkaniyê rexneyê li şîroveya giranî ya *difin* dike; peyv dikare *difin* (du kîte) an *difn* (yek kîte) were gotin. Dema vokala navîn dikeve, cihê giranî jî diguhere; *kevin → kevn e* jî wek nimûne hatiye dan.
+- **255 — Behdînî:** Formên rojhilatî *kitêbeka min* û *hevalekê min* wek hevberên formên standard tên nîşandan.
+- **256 — Gerim/Germ:** Çavkaniyê *gerim* wek nimûneya giranîya kîteya yekem red dike; şîroveya wê *germ* + *e* ye û peyv yek-kîteyî ye.
+- **257 — Cînavên rojhilatî:** Koma *ewa, ewê, ewî, ewan, hewe* bi taybetî di kurmanciya rojhilatî de tê bikaranîn.
+- **258 — Cînavên navendî/rojavayî:** *ewana, wana, vêya, viya* bi taybetî di hin devokên navendî û rojavayî de tên bikaranîn.
+- **259 — Cînavên soranî:** *emin* û *eto* formên devokî ne; standard *min* û *to* ne. *ême, êwe, ewan* formên standard ên soranî ne.
+- **260 — Êsta/Îse:** *êsta* hevwateya soranî ya *niha* ye; *îse* di kurdiya başûrî de tê bikaranîn.
+- **261 — Pêşpirtika de-/e-:** Di soranî de *de-* û *e-* yên hevwateyên *di-* bêgiranî ne; di farisî de *mî-* giranî digire.
+- **262–264 — Çavkaniyên peyvsaziyê:** Têbîniyan bo nivîsarên peyvsaziya pêkhatinê, dariştinê û dubarekirinê yên Husein Muhammed referans dikin.
+- **265 — Peştû û giranî:** Çavkaniyê bo rexneyê li baweriya ku tenê Peştû giranîya fonemîk heye, lêkolîna Tegey û Robson (2009) dide.
+- **266–267 — Piştî:** *piştî* wek navdêr “bar” e; wek daçek “li pey/paşî” ye. Cihê giranî wate û beşa peyvê cuda dike.
+- **268 — Hatin:** Forma *hatin* dikare rader (“to come”) be an forma borî ya kesên pirhejmar (“ew/em/hûn hatin”); giranî erkê rêzimanî cuda dike.
+
 ## Çavkanî
 
 Husein Muhammed, *Dengnasî di kurdî de*, rûpelên çapkirî **315–347**.
