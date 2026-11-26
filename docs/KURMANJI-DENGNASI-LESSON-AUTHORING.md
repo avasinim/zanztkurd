@@ -695,7 +695,7 @@ Nimûneyên sereke:
 - *lîstin*, ne *lîztin*;
 - *axiftin*, ne *axivtin*.
 
-Ev form di axaftina axêveran de cihgir bûne û di nivîsîna kurmancî de jî belav in. Nivîskar formên *kuştin, lîstin, axiftin* li hember *kujtin, lîztin, axivtin* rast dibîne; di hin devokan de *leyîstin, lehîstin, axaftin* jî tên gotin, lê ne formên *leyîztin, lehîztin, axavtin*. Pirtûk bi mînakên îngilîzî û tirkî nîşan dide ku zimanên din jî dikarin di peyvên xwerû de forma cihgir a gotinê ji rehê dîrokî pêşî bixin.
+Ev form di axaftina axêveran de cihgir bûne û di nivîsîna kurmancî de jî belav in. Nivîskar formên *kuştin, lîstin, axiftin* li hember *kujtin, lîztin, axivtin* rast dibîne; di hin devokan de *leyîstin, lehîstin, axaftin* jî tên gotin, lê ne formên *leyîztin, lehîztin, axavtin*. Pirtûk bi mînakên îngilîzî û tirkî nîşan dide ku zimanên din jî dikarin di peyvên xwerû de forma cihgir a gotinê ji rehê dîrokî pêşî bixin. Di nimûneyên îngilîzî de, *leave* di dema borî de dibe *left* (V berî T-ya bêlerz dibe F), û *thieve* bi T-ya dawî dibe *theft*. Di tirkî de jî peyva ji erebî hatî *kitab* di forma xwerû de wek *kitap* tê nivîsîn, tevî ku di formên çemandî de B xuya dibe: *kitabı, kitabın, kitaba*. Di soranî de jî formên *na-kuj-im, de-kuj-in, bi-ku-je* hene, lê forma mesderê *kuştin* e, ne *kujtin*. Di farisî de rehê lêkerê bi awayê *koşten* tê parastin; formên *ne-mî-koşem, mî-koşend, bikoş* jî ji heman rehê ne.
 
 **Têbînî:** Ev prensîb tenê ji bo peyvên xwerû yên ku forma wan di zimanê de qediya û cihgir bûye tê gotin; ew nayê wateya ku her guherîna dengî ya di axaftinê de divê di nivîsînê de were nîşandan.
 
@@ -706,7 +706,7 @@ Gava du peyvên serbixwe li pey hev tên, guherîna dengî ya di axaftina bilez 
 Mînak:
 - *ez têm* tenê di axaftina bilez de dikare wek *es-têm* were bihîstin. Di axaftina hêdî de Z-ya *ez* eşkere dimîne; ji ber vê yekê ev ne wek *lîstin* e, ku S-ya wê di gotina hêdî de jî dimîne. Di nivîsînê de her tim *ez têm* tê parastin.
 - Di îngilîzî de *let it be* di gotina bilez de dikare T-ya *it* wek D were bihîstin, lê nivîsîn T diparêze.
-- Di tirkî de *kitap geldi* di axaftina bilez de dikare wek *kitab geldi* were bihîstin; lê P di nivîsînê de dimîne.
+- Di tirkî de *kitap geldi* di axaftina bilez de dikare wek *kitab geldi* were bihîstin; lê P di nivîsînê de dimîne. Pirtûk herwiha mînaka îngilîzî *Let it be* dide: T-ya bêlerz a *it* di gotina bilez de ji ber B-ya piştî wê dikare wek D were bihîstin, lê di gotina hêdî û nivîsînê de T tê parastin.
 
 Heman prensîb di peyvên pêkhatî de jî tê dîtin. Mînakên *pezkovî* û *pezkûvî* rehên xwe di nivîsînê de diparêzin, tevî ku di gotina bilez de dengên wan dikarin biguherin.
 
@@ -756,7 +756,11 @@ Analojî dikare di destpêk, nav an dawiya peyvê de çêbibe. Bandor dikare ji 
 
 Pirtûk nîşan dide ku pêşdaçekên kurmancî **bi, di, ji, li** ji aliyê şiklê dengî ve pir nêzîkî hev in. Her yek ji wan du deng hildigire û bi dengê *i* diqede. Li gor nivîskar, ev nêzîkbûn bi erkê wan ê rêzimanî ve girêdayî ye: hemû pêşdaçek in û tên pêşiya navdêran, tevî ku maneyên wan cuda ne.
 
-Pirtûk herwiha paşdaçekên **de, re, ve** wek nimûneyên din ên nêzîkbûna şiklê pêşkêş dike. Dîroka wan cuda ye, lê di kurmancî de şiklên wan nêzîkî hev bûne. Di hin devokan de formên *da, ra, va* jî hene. Nivîskar herwiha balê dikişîne ser **bo**: ew bi analojiyê wek *bi, di, ji, li* neguheriye; ji ber ku di hin devokan de bi *ji* re tê bikaranîn û erkê wê bi wan pêşdaçekên bingehîn re wekhev nîne.
+Pirtûk herwiha paşdaçekên **de, re, ve** wek nimûneyên din ên nêzîkbûna şiklê pêşkêş dike. Dîroka wan cuda ye, lê di kurmancî de şiklên wan nêzîkî hev bûne. Di hin devokan de formên *da, ra, va* jî hene. Formên serbixwe yên pêşdaçekan jî di kurmancî de *jê, lê, pê, tê* ne. Çavkaniyê ji bo berawirdkirina dîrokî tabloyeke zimanî dide: kurmancî *bi, di, ji, li*; soranî *be, de, —, le*; hewramî *we, —, ce, ne*; farisî *ba, be/bê; der/ender; ez*; pehlewî *ped, ender, ez*; hexamenişî *peti, ender, hech, ena*; û avestayî *peiti-* û formên din ên ku di tabloyê de hatine tomar kirin. Nivîskar diyar dike ku hin şaneyên vala wateya wê nînin ku form tune ye; dibe ku hevreha wê di wê zimanê de nehatiye qeydkirin an haya nivîskar jê tune be. Nivîskar herwiha balê dikişîne ser **bo**: ew bi analojiyê wek *bi, di, ji, li* neguheriye; ji ber ku di hin devokan de bi *ji* re tê bikaranîn û erkê wê bi wan pêşdaçekên bingehîn re wekhev nîne. Di kurmanciya navendî û rojavayî de *bo* bi serê xwe bi gelemperî nayê bikaranîn û formên *ji bo, ji bona, ji boy, ji boyî* tên. Di kurmanciya rojhilatî û soranî de *bo* dikare bi serê xwe were bikaranîn; di hin devokên soraniya Hewlêrê de *lo* wek kurtkirina *le bo* tê dîtin, û di hin devokên kurmancî de *ji bo* dibe *jo*. Nivîskar herwiha qeyd dike ku di zazakî de pêşdaçekên kurmancî bi awayekî giştî wek paşdaçek tên bikaranîn û ew bi ihtimal tesîra ermenî dibîne; ev nêrîna nivîskar e, ne rêgezeke piştrastkirî.
+
+### 7.2.1. Berawirdkirina formên paşdaçekan
+
+Pirtûk formên dîrokî yên paşdaçekan jî li gel zimanên îranî berawird dike. Di kurmancî de *de/da, re/ra, ve/va* hene; di soranî de *da/-a, ra, -ewe*; di farisî de *der/ender* û *ra*; di pehlewî de *ender* û *ray*; di hexamenişî de *ender* û *radi*; di avestayî de *epe* tê dîtin. Ev form ji çavkaniyên cuda hatine, lê di kurmancî de bi analojiyê nêzîkî hev bûne. Di gelek devokan de *da, ra, ve* ji formên nivîskî yên *de, re, ve* serdesttir in; hin devok jî *va* bi kar tînin. Di kurmanciya rojhilatî de *tê ve* û *di … ve* dikarin peyda bibin, lê di devokên din de kêm in an tune ne.
 
 ### 7.3. Analojî di cînav û hokeran de
 
