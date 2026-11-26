@@ -35,3 +35,19 @@ A separate rollback-only replacement test was prepared with fail-closed checks f
 ## Safety
 
 No production project was accessed. No test-project data, enrollments, progress, course rows, policies or migrations were modified in this reconciliation. No deployment, publication, main-branch update, PR merge or live-site claim is made.
+
+
+## Additional read-only progression checks
+
+The current test database's `has_completed_lesson_prefix` function was exercised with pure SELECT cases (no row writes):
+
+- Lesson 1 with no completed lessons: allowed (`true`).
+- Lesson 2 with no completed lessons: blocked (`false`).
+- Lesson 2 after Lesson 1 is complete: allowed (`true`).
+- Lesson 3 after Lessons 1 and 2 are complete: allowed (`true`).
+- Lesson 3 with Lesson 1 missing (only Lesson 2 marked complete): blocked (`false`).
+- An out-of-range lesson index: blocked (`false`).
+
+All six expected outcomes matched. This validates the pure prefix-order helper only; it does not substitute for browser tests with actual user sessions, RLS, enrollment state, or the live `can_read_lesson_content` request path.
+
+The `courses` table in this test project has no separate `status` or `published` column. The Dengnasî course row exists with the expected title and `total_lessons=27`; its `created_at` timestamp is `2026-11-24 09:36:04.455883+00`, matching the version timestamp of the first Dengnasî migration ledger entry. Publication/visibility is therefore controlled elsewhere (catalog UI, enrollment and access logic), not by a course status column.
