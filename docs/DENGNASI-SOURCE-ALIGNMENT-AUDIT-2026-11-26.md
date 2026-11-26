@@ -257,3 +257,13 @@ Scope checked: draft Lessons 1–27 against the source's printed page labels and
 - The test-project write returned **27 updated rows**. A separate read-back verified all 27 lesson titles match the authoring headings, all 27 HTML fragments contain their printed-page source citation, all begin with the expected lesson wrapper, and none embeds a PDF, iframe or audio.
 - Total synchronized HTML content: **407,980 characters**. The test database's existing RLS policies were left unchanged.
 - This does not activate the site: `script.js` still intentionally displays the preparation notice for these lesson keys, and the production Supabase project has not been touched. The source-audited content is staged and verified in test storage pending a separately reviewed test-reader integration.
+
+### Reader navigation and environment reconciliation — 2026-11-26
+
+- The course hold page now links to the 27-lesson outline while keeping the course explicitly marked as not activated. Its scope statement excludes questions, quizzes, tests, exercises and additional audio.
+- The reader page is now a navigation index. The primary action, lesson list, and previous/next links route to the existing protected lesson pages under `lessons/kurmanji-dengnasi-lesson-NN.html`. The PDF remains an optional source reference, not the lesson body.
+- The individual lesson pages use the existing `script.js` access gate and retrieve `lesson_content` only after the authentication, enrollment and lesson-sequence checks.
+- **Environment mismatch:** the repository's current `supabase-config.js` points to production project `hjpmorabqdhuchpnowiw`, while the newly authored 27 rows are stored only in test project `juwsjljbdwyncicybwoq`. A read-only query against the test project confirmed 27 rows; all 27 contain HTML and none contains an iframe, embedded PDF reference, audio or video. No student data was queried.
+- Production was not queried or changed. There is no evidence that production contains the newly authored lesson rows; therefore, do not assume that the deployed website can yet serve them. A separately approved production content promotion and a browser-level end-to-end test remain outstanding.
+- The authoring workflow is triggered by changes to the authoring source, this audit, the authoring validator, or the workflow file. The reader navigation changes alone do not exercise the authoring checks, so this audit update is the CI-triggering documentation change. The workflow does not prove Supabase reader integration.
+- No migration, production database change, merge or deployment was performed.
