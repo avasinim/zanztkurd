@@ -203,8 +203,14 @@ window.ZANSTI_GET_SUPABASE_CLIENT = window.ZANSTI_GET_SUPABASE_CLIENT || functio
     if(!box)return true;
     const lessonKey=box.getAttribute("data-lesson-key")||target;
     if(/^kurmanji-dengnasi-lesson-\d{2}\.html$/.test(lessonKey)){
-      box.innerHTML="<section class=\"klesson-note\"><h2>ئەم کۆرسە لە ئامادەکردندایە</h2><p>وانەکان دەبێت لەسەر بنەمای کتێبی سەرچاوەوە دابڕێژرێن؛ تەنها PDF یان دابەشکردنی پەڕەکانی کتێب وانە نییە. تا تەواوبوونی وانەدابڕێژراوەکان، دەستگەیشتن بە ناوەڕۆکی کۆرسەکە ڕاگیراوە.</p></section>";
-      return false;
+      /* Fail closed outside the dedicated test project. The test lesson rows
+         must never be queried through the production browser configuration. */
+      let configuredProject="";
+      try{ configuredProject=new URL(window.ZANSTI_SUPABASE?.url||"").hostname.split(".")[0]; }catch(_){}
+      if(configuredProject!=="juwsjljbdwyncicybwoq"){
+        box.innerHTML="<section class=\"klesson-note\"><h2>وانەکان لە ژینگەی تاقیکردنەوەدان</h2><p>٢٧ وانە دابڕێژراون و تەنها لە بنکەدراوەی تاقیکردنەوە هەڵگیراون. ئەم پەڕەیە ئێستا بە پڕۆژەی تاقیکردنەوە پەیوەست نیە؛ بۆیە ناوەڕۆک بار ناکرێت. هیچ داواکارییەک بۆ بنکەدراوەی بەرهەمهێنان نانێردرێت.</p></section>";
+        return false;
+      }
     }
     box.setAttribute("aria-busy","true");
     try{
