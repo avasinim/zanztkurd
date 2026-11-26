@@ -112,7 +112,7 @@ def main():
         header = '<header class="lesson-preview-head"><p><strong>Dersa ' + str(number) + ' / 27</strong></p><h1>' + inline(title) + '</h1></header>\n'
         preview = '<!-- DRAFT PREVIEW ONLY: generated from source Markdown; not connected to Supabase or site routes. -->\n<section class="klesson-preview" lang="ku" dir="ltr">\n' + STYLE + "\n" + header + body + "\n</section>\n"
         outputs[PREVIEWS / ("kurmanji-dengnasi-lesson-%02d-content-preview.html" % number)] = preview
-        item = dict(old); item["title"] = title; item["content_html"] = content
+        item = dict(old); item["title"] = title; item["printed_pages"] = dict(meta["printedPages"]); item["content_html"] = content
         updated_lessons.append(item)
     new_payload = dict(payload); new_payload["lessons"] = updated_lessons; new_payload["lesson_count"] = 27
     outputs[PAYLOAD] = json.dumps(new_payload, ensure_ascii=False, indent=2) + "\n"
