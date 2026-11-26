@@ -220,12 +220,12 @@ Herf nîşaneke nivîskî ye; deng jî yekeya dengî ye ku tê gotin û tê bih�
 
 Di alfabeya kurdî-latînî û kurdî-erebî de, wek prensîp, hevdengî rêbaza sereke nîne: peyv bi piranî li gor dengê xwe tên nivîsîn, ne li gor herfên zimanê jêder. Di nivîsîna kurdî-erebî de jî çend nîşanên ku di zimanên din de dengên cuda didin, di nivîsîna kurdî de dikarin bi yek nîşanê bên nivîsîn. Di farisî de, bo nimûne, çar herfên cuda di peyvên *zer, zikir, remezan, zalim* de dengê [z] nîşan didin; ev nimûne nîşan dide ku nivîsîna zimanê jêder dikare heman deng bi nîşanên cuda tomar bike, herçend di kurdî de ev cudahiyên dengî neparêzînin.
 
-Ev prensîp bê awarte nîne. Navên taybet ên biyanî gelek caran li gor nivîsîna zimanê jêder tên parastin. Bo nimûne, dengê destpêkê yê *George* û *John* bi herfên G û J tê nivîsîn. Di navê *Mercedes* de jî C ji bo dengê [s] hatiye bikaranîn. Hin peyvên biyanî, wek *out*, carinan bi rastnivîsîna inglîzî di nivîsên kurdî de tên dîtin; di gotinê de *out* wek [awt] tê derxistin.
+Ev prensîp bê awarte nîne. Navên taybet ên biyanî gelek caran li gor nivîsîna zimanê jêder tên parastin. Bo nimûne, dengê destpêkê yê *George* û *John* bi herfên G û J tê nivîsîn. Di navê *Mercedes* de jî C ji bo dengê [s] hatiye bikaranîn. Hin peyvên biyanî, wek *out*, carinan bi rastnivîsîna inglîzî di nivîsên kurdî de tên dîtin; di gotinê de *out* wek [awt] tê derxistin. Çavkaniyê diyar dike ku di vê nimûneyê de O dengê [a] û U dengê [w] nîşan dide; ev nimûne awarteya parastina rastnivîsîna zimanê jêder e, ne rêbaza giştî ya nivîsîna kurdî.
 
 Hin rewşên din jî divê ji hevdengiya rastîn bên cudakirin:
 
 - **R / RR:** Dengê R-ya şidandî carinan bi R-yekê û carinan bi RR tê nivîsîn. Ev tenê tercîha nivîseran e; herdu awayên nivîsînê heman deng nîşan didin û cudahiyekê di kîtekirinê de çênakin.
-- **U / W:** Di hin peyvan de nivîsîna *xu-* û *xwi-* wek *xurandin / xwirandin*, *xuşk / xwişk* û *xuya / xwiya* tercîhên nivîseran in. Lê di peyvên *xwarin, xwe, xwê, xwîn* de W dengê [u] nîşan dide. Ji ber vê yekê U û W di hin peyvan de dikarin hevdeng bin.
+- **U / W:** Di hin peyvan de nivîsîna *xu-* û *xwi-* wek *xurandin / xwirandin*, *xuşk / xwişk* û *xuya / xwiya* tercîhên nivîseran in. Lê di peyvên *xwarin, xwe, xwê, xwîn* de W dengê [u] nîşan dide. Çavkaniyê vê yekê bi rêzikê ve girê dide ku rastnivîsîna kurdî bi gelemperî du vokal li pey hev qebûl nake; ji ber vê yekê W di koma -XW- de dikare cihê U bigire. Ji ber vê yekê U û W tenê di hin peyvan de dikarin hevdeng bin, ne di her peyvê de ku W tê de heye.
 - W di peyvên *war, welat, wê, wir, wî* de dengê konsonantî [w] dide; di van peyvan de ew dengê vokalî [u] nîne.
 
 Herfên hevdeng dikarin di zimanekî de herdem an tenê di hin rewşan de hevdeng bin. Di kurdî de U û W tenê di hin peyvan de ev têkiliya dengî hene.
@@ -248,7 +248,7 @@ Piraniya van herfan du deng nîşan didin. Lê P û T dikarin her yek bi kêmî 
 
 ### R
 
-R di kurmancî de du dengên cuda nîşan dide: R-ya şidandî û R-ya sist. Di destpêka peyvê de, wek *rast, rev, rê, rind, ron, ruh, rû*, ziman bi çend caran li pidûyan dikeve. Di nav û dawiya peyvan de, wek *agir, baran, mêr, zîrek*, bi piranî tenê carekê li pidûyan dikeve. R-ya şidandî dikare di nav û dawiya peyvê de jî xuya bibe, wek *bajar, şer, kirîn*. Hin nivîser vê dengê bi RR an carinan bi Ř dinivîsin, lê R-yekê awayê herî berbelav e. Çavkaniyê nimûneyên kîtekirinê jî dide: *ki-rîn / ki-rrîn*, *ba-ja-rek / ba-ja-rrek* û *şe-ran / şe-rran*. Du R-yên nivîskî R-yekê nake du deng û kîtekirina peyvê naguherînin.
+R di kurmancî de du dengên cuda nîşan dide: R-ya şidandî û R-ya sist. Di destpêka peyvê de, wek *rast, rev, rê, rind, ron, ruh, rû*, ziman bi çend caran li pidûyan dikeve. Di nav û dawiya peyvan de, wek *agir, baran, mêr, zîrek*, bi piranî tenê carekê li pidûyan dikeve. R-ya şidandî dikare di nav û dawiya peyvê de jî xuya bibe, wek *bajar, şer, kirîn*. Hin nivîser vê dengê bi RR an carinan bi Ř dinivîsin, lê R-yekê awayê herî berbelav e. Çavkaniyê nimûneyên kîtekirinê jî dide: *ki-rîn / ki-rrîn*, *ba-ja-rek / ba-ja-rrek* û *şe-ran / şe-rran*. Du R-yên nivîskî R-yekê nake du deng û kîtekirina peyvê naguherînin. Di têbîniya dengnasiyê de R-ya şidandî bi [r] û R-ya sist bi [ɾ] tê nîşandan; ev cudahî ya bilêvkirinê ye, ne cudahiyeke kîtekirinê.
 
 ### H
 
@@ -256,11 +256,11 @@ H di kurmancî de du dengên cuda nîşan dide. Yek ji wan di peyvên *heval, hi
 
 ### S
 
-S dikare dengê zirav û dengê qelew nîşan bide. S-ya zirav di peyvên *ser, sêv, sîr* de, S-ya qelew jî di *sed, seg, sal, sor* de xuya dibe. Cudahî her tim tenê bi vokala li pey S nayê diyarkirin: di *ser* û *sed* de herdu caran E li pey S tê, lê dengê S cuda ye. Ev cudahî di van peyvan de ji wergirtina peyvên erebî çênebûye.
+S dikare dengê zirav û dengê qelew nîşan bide. S-ya zirav di peyvên *ser, sêv, sîr* de, S-ya qelew jî di *sed, seg, sal, sor* de xuya dibe. Cudahî her tim tenê bi vokala li pey S nayê diyarkirin: di *ser* û *sed* de herdu caran E li pey S tê, lê dengê S cuda ye. Ev cudahî di van peyvan de ji wergirtina peyvên erebî çênebûye. Çavkaniyê bi taybetî destnîşan dike ku *ser* û *sed* herdu bi E dest pê dikin û cudahiya S-ê tenê bi vokala piştî wê nayê pêşbînîkirin.
 
 ### X
 
-X du dengên cuda nîşan dide. Dengê yekem di peyvên *xal, xet, xêr, xirab, xweş* de heye. Dengê duyem di peyvên *axa, bax, oxir / wexer* de xuya dibe. Di nivîsîna rojane de herdu deng bi piranî bi X tên nivîsîn; nîşanên din ên wek Ẍ an Ğ kêm tên bikaranîn.
+X du dengên cuda nîşan dide. Dengê yekem di peyvên *xal, xet, xêr, xirab, xweş* de heye. Dengê duyem di peyvên *axa, bax, oxir / wexer* de xuya dibe. Di nivîsîna rojane de herdu deng bi piranî bi X tên nivîsîn; nîşanên din ên wek Ẍ an Ğ kêm tên bikaranîn. Di çavkaniyê de dengê duyem wek dengê ku di *axa* (serokeşîr), *bax* û *oxir / wexer* de heye tê nîşandan.
 
 ### Z
 
@@ -268,7 +268,7 @@ Z-ya zirav û Z-ya qelew du dengên cuda ne. Nimûneyên Z-ya zirav: *zan, zayî
 
 ### L
 
-L di kurmancî de dikare zirav an qelew be. L-ya zirav di peyvên *lawik, lez, lêzim, lîstin, lome, lûfik* de, L-ya qelew jî di *silav, welat* û hin peyvên din de heye. Hin caran L-ya qelew bi LL an Ł tê nivîsîn, lê di nivîsên asayî de bi piranî L tê bikaranîn. Di kurmancî de qelewî an ziravî her tim bi vokala li pey L nayê diyarkirin. L-ya qelew di soranî de ji kurmancî berbelavtir e.
+L di kurmancî de dikare zirav an qelew be. L-ya zirav di peyvên *lawik, lez, lêzim, lîstin, lome, lûfik* de, L-ya qelew jî di *silav, welat* û hin peyvên din de heye. Hin caran L-ya qelew bi LL an Ł tê nivîsîn, lê di nivîsên asayî de bi piranî L tê bikaranîn. Di kurmancî de qelewî an ziravî her tim bi vokala li pey L nayê diyarkirin. L-ya qelew di soranî de ji kurmancî berbelavtir e. Çavkaniyê cudahiya L-ê bi nimûneyên *silav* û *lazim* (herdu bi A-ya li pey L, lê yek L-ya qelew û yek L-ya zirav) û *belem* û *lepik* (herdu bi E-ya li pey L, lê bi qelewî/ziravî ya cuda) ron dike.
 
 ### W
 
@@ -276,19 +276,19 @@ W bi piranî dengê konsonantî [w] nîşan dide, wek di *war, welat, wê, wir, 
 
 ### Ç
 
-Di kurmancî û zazakî de Ç dikare du dengên cuda nîşan bide: Ç-ya bipif û Ç-ya bêpif. Ç-ya bipif di *çar, çi, çend* de; Ç-ya bêpif di *çav, çiya, çem, çîrok* de heye. Hin peyv jî bi heman awayê tên nivîsîn, lê tenê bi pifdarîya Ç ji hev cuda dibin; nimûneya pirtûkê *çeng* e ku dikare amûreke muzîkê an beşek ji destê mirovan be.
+Di kurmancî û zazakî de Ç dikare du dengên cuda nîşan bide: Ç-ya bipif û Ç-ya bêpif. Ç-ya bipif di *çar, çi, çend* de; Ç-ya bêpif di *çav, çiya, çem, çîrok* de heye. Hin peyv jî bi heman awayê tên nivîsîn, lê tenê bi pifdarîya Ç ji hev cuda dibin; nimûneya pirtûkê *çeng* e ku dikare amûreke muzîkê an beşek ji destê mirovan be. Çavkaniyê diyar dike ku Ç-ya bipif di soranî, farisî, tirkî û îngilîzî de awayê asayî ye; Ç-ya bêpif jî di kurmancî, zazakî û ermenî de heye.
 
 ### K
 
-K di kurmancî û zazakî de dikare bipif an bêpif be. K-ya bipif di *kar, ked, kurdî, kûr* de; K-ya bêpif di *kirin, kes, kî, kurmancî* de heye. Peyva *ka* bi K-ya bipif û bêpif dikare du wateyên cuda bide.
+K di kurmancî û zazakî de dikare bipif an bêpif be. K-ya bipif di *kar, ked, kurdî, kûr* de; K-ya bêpif di *kirin, kes, kî, kurmancî* de heye. Peyva *ka* bi K-ya bipif û bêpif dikare du wateyên cuda bide. Çavkaniyê dibêje ku K-ya destpêka peyvê di soranî, farisî, erebî, tirkî û îngilîzî de bi gelemperî bipif e; cudahiya K-ya bêpif di kurmancî, zazakî û hin zimanên din de jî tê dîtin.
 
 ### P
 
-P di kurmancî û zazakî de ji bo sê an heta çar dengên cuda tê bikaranîn. Cudahiyên sereke di navbera P-ya bipif û bêpif, herwiha P-ya zirav û qelew de ne. P-ya bêpif ya zirav di *pênc, pêr, pîvaz* de; P-ya bêpif ya qelew di *pez, pazde, piling, parzûn* de heye. P-ya bipif bi piranî zirav e, wek di *parastin, pare / pere, perde, parçe* de. Nimûneya P-ya bipif û qelew, *pind*, kêm e. Cudahî di navbera P-ya bipif û bêpif de dikare wateya peyvê biguherîne; *par* dikare sala borî an jî beş û pişkê nîşan bide.
+P di kurmancî û zazakî de ji bo sê an heta çar dengên cuda tê bikaranîn. Cudahiyên sereke di navbera P-ya bipif û bêpif, herwiha P-ya zirav û qelew de ne. P-ya bêpif ya zirav di *pênc, pêr, pîvaz* de; P-ya bêpif ya qelew di *pez, pazde, piling, parzûn* de heye. P-ya bipif bi piranî zirav e, wek di *parastin, pare / pere, perde, parçe* de. Nimûneya P-ya bipif û qelew, *pind*, kêm e. Cudahî di navbera P-ya bipif û bêpif de dikare wateya peyvê biguherîne; *par* dikare sala borî an jî beş û pişkê nîşan bide. Çavkaniyê diyar dike ku P-ya bipif ya qelew pir kêm e; *pind* wek nimûneyeke kêm tê dayîn, ji ber vê yekê nivîskar di hebûna wê de jî ihtiyatê diparêze.
 
 ### T
 
-T jî di kurmancî û zazakî de dikare sê an heta çar dengên cuda nîşan bide. Cudahiyên sereke di navbera T-ya bipif û bêpif, herwiha T-ya zirav û qelew de ne. T-ya bipif ya zirav di *tarîx, tenê, teşî* de heye. T-ya zirav dikare bêpif jî be, wek di *tişt, tîr, tû, te, tu* de. T-ya bêpif bi piranî qelew e, wek di *tarî, teng, tenî, tirs, tov* de. Nimûneya T-ya bipif û qelew, *tep*, kêm e. T-ya bipif û T-ya bêpif fonemên cuda ne û dikarin wateyê biguherînin. Di nimûneyên çavkaniyê de *ta* bi T-ya bêpif wateya benê dide, lê bi T-ya bipif wateya germayî; *tam* bi T-ya bêpif wateya çêjê dide, lê bi T-ya bipif wateya temamî; *tu* jî li gor pifdariya T-ê dikare cînav an wateya "hîç" bide.
+T jî di kurmancî û zazakî de dikare sê an heta çar dengên cuda nîşan bide. Cudahiyên sereke di navbera T-ya bipif û bêpif, herwiha T-ya zirav û qelew de ne. T-ya bipif ya zirav di *tarîx, tenê, teşî* de heye. T-ya zirav dikare bêpif jî be, wek di *tişt, tîr, tû, te, tu* de. T-ya bêpif bi piranî qelew e, wek di *tarî, teng, tenî, tirs, tov* de. Nimûneya T-ya bipif û qelew, *tep*, kêm e. Çavkaniyê herwiha dibêje ku T-ya bipif û bêpif dikarin wateyê biguherînin: *ta* (ben / germayî), *tam* (çêj / temamî) û *tu* (cînav / wateya "hîç"). T-ya bipif û T-ya bêpif fonemên cuda ne û dikarin wateyê biguherînin. Di nimûneyên çavkaniyê de *ta* bi T-ya bêpif wateya benê dide, lê bi T-ya bipif wateya germayî; *tam* bi T-ya bêpif wateya çêjê dide, lê bi T-ya bipif wateya temamî; *tu* jî li gor pifdariya T-ê dikare cînav an wateya "hîç" bide.
 
 ## Çavkanî
 
