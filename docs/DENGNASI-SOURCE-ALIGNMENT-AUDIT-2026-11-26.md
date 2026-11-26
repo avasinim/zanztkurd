@@ -2,7 +2,7 @@
 Date: 2026-11-26
 Work branch: `author/dengnasi-lesson-01-draft-2026-11-24`
 Source: Husein Muhammed, *Dengnasî di kurdî de* (PDF `Dengnasiya_Zimane_Kurdi_27_Wane.pdf`).
-Scope checked: draft Lessons 1–25 against the source's printed page labels and physical PDF pages.
+Scope checked: draft Lessons 1–27 against the source's printed page labels and physical PDF pages.
 
 ## Confirmed findings
 
@@ -178,6 +178,25 @@ Scope checked: draft Lessons 1–25 against the source's printed page labels and
 - The source repeats an apparent erroneous sentence under the K/H heading, saying H in Kurmanji corresponds to Ş in Zazakî. The heading and examples (*ker/her*, *kanî/henî*) indicate K/H, and the following historical explanation concerns X/K/H. The draft records this source inconsistency instead of copying it as a correct K/H explanation.
 - The source's distinction between Zazakî dialect usage and the Vate group's proposed written standard is retained.
 
+### 24. Lesson 26: Kurmanji and Turkish
+
+- Lesson 26 covers printed pages 402–417 (physical PDF pages 434–446).
+- Checked the alphabet comparison, the 25 shared letters and 13 fully matching sounds (approximately 50%), the vowel-letter comparison, vowel length and Turkish vowel harmony.
+- Checked the non-identical consonant inventory, aspiration/phonemic contrasts, K before back vowels, emphatic/thin consonants, H variants, voicing pairs, Turkish word-final devoicing and its exceptions, and the different direction of voicing assimilation in Kurmanji and Turkish.
+- The draft's initial consonant-cluster examples covered the source's native Kurmanji onset/coda examples and Turkish loanword adaptation, but omitted the source's expanded list of European-loan clusters. Restored **BL, BR, FL, FR, KL, KR, PS, KST** and examples *blond, Brîtanya, flora, Fransa, klasîk, krîz, psîkolojî, tekst*.
+- Restored the explicit source vowel-letter comparison and the count of 25 shared letters versus 13 sounds that are fully identical.
+- Checked the source's four-way Ç/K/P/T aspiration comparison and its historical discussion on printed pages 411–417. The author's challenge to the Armenian-origin explanation and his alternative Persian/Arabic/Turkish contact hypothesis remain explicitly attributed to the author, not presented as settled consensus.
+- The source's inconsistent wording in the P/T versus K/T palatal/thick-thin passage remains flagged in the lesson rather than silently harmonized.
+
+### 25. Lesson 27: aspiration history and hiatus avoidance
+
+- Lesson 27 covers printed pages 418–432 (physical PDF pages 448–462).
+- Checked the opening historical summary on aspiration, the definition and occurrence of hiatus, the prefix/loanword contexts, the full vowel-combination matrix, and the source's notes on written versus spoken hiatus.
+- The initial draft summarized selected combinations but did not preserve the complete source table of vowel sequences. Restored the full matrix, including combinations with no examples in the source, represented by dashes, and restored its distinctions between prefix forms, Arabic loans and European loans.
+- Checked the source's hiatus-resolution strategies: vowel deletion, Y/H/W/T/N insertion, R in Soranî and Southern Kurdish, cross-word elision, copula alternations, and vowel-to-consonant shifts Î→Y and U/Û→W.
+- Source-internal inconsistencies are retained: the source repeats *dîsa* in one list where the later page gives *dîsa/dîsan*; the lesson records the discrepancy. The source's printed *neyînîn* spelling is also preserved as a note alongside the other forms, rather than silently corrected.
+- The final pages' examples *xeswa wê, riwê wî* and the standard written forms *xesûya wê, rûyê wî* are included.
+
 ## Checks completed
 
 - Lesson 2: printed pages 8–15 (physical PDF pages 13–20) were checked. The vowel/consonant definitions, eight vowel letters, distinction between grapheme count and phonemic consonant inventory, terminology discussion, place/manner of articulation, and aspiration material follow the source.
@@ -193,6 +212,7 @@ Scope checked: draft Lessons 1–25 against the source's printed page labels and
 - Lessons 11–15: K/L, M/N, P/Q, R/S and Ş/T source sections on printed pages 133–202 were checked; the Lesson 14 regional L/R comparison table was added and source typographical issues were recorded.
 - Lessons 16–20: V/W/Y/Z, Eyn and consonant clusters, and vowel groups A/E, Ê/I/Î and O/U/Û on printed pages 203–314 were checked; the complete consonant-cluster inventory omitted from the initial Lesson 17 draft was restored.
 - Lessons 21–25: diphthongs and stress, KL/KE, and the Kurmanji comparisons with Soranî, Southern Kurdish and Zazakî on printed pages 315–401 were checked. The Lesson 23 literature review omitted from the initial draft was restored, and source-internal transcription/wording inconsistencies in Lessons 23 and 25 were recorded.
+- Lessons 26–27: Kurmanji–Turkish phonological contrasts, aspiration history and hiatus avoidance on printed pages 402–432 were checked. The missing borrowed-cluster examples and the complete vowel-combination matrix were restored.
 
 ## Release constraints retained
 
