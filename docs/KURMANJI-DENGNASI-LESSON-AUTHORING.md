@@ -3857,7 +3857,7 @@ Di herdu zimanan de pênc herfên vokal ên hevpar hene: **A, E, I, O, U**. Lê 
 Hin cudahiyên girîng:
 - **I** ya kurmancî û **i** ya tirkî heman deng nînin. Di tirkî de **ı** (I-ya bê xalekê) ji aliyê dengî ve nêzî **I** ya kurmancî ye; çavkaniyê *kirin* û *kırın* wek nimûneyên berawirdkirinê dide.
 - **i** ya tirkî (I-ya bi xalekê) nêzî **Î** ya kurmancî ye, lê kurtir e.
-- **U** ya tirkî bi gelemperî nêzî Û ya kurmancî ye.
+- **U** ya tirkî bi gelemperî nêzî Û ya kurmancî ye, bi taybetî di peyvên ji erebî wergirtî de.
 - **Ê** ya kurmancî di tirkîya standard de ne herf e û ne jî wek dengê vokalîk tê bikaranîn.
 - **Ö** û **Ü** di tirkî de dengên vokalîk in ku di kurmanciya giştî de wek wan tune ne; çavkaniyê dibêje ku di hin devokên kurdî de dengên nêzî wan dikarin hebin. Di hin devokan de **Û** wek **Ü** ya tirkî, lê dirêjtir, tê gotin; **O** ya kurmanciya giştî jî di hin devokan de nêzî **Ö** ya tirkî ye, lê dirêjtir.
 
@@ -3867,7 +3867,7 @@ Cudahiya dirêjî jî girîng e: di kurmancî de **A, Ê, Î, O, Û** dikarin di
 
 Tirkî xwedî rêgezeke dengnasî ye ku bi navê **ahenga vokalan** (*vowel harmony*) tê nasîn. Di peyvên xwerû de vokalên pêşîn bi vokalên pêşîn û vokalên paşîn bi vokalên paşîn re tên. Vokalên pêşîn ên tirkî **E, İ, Ö, Ü** ne; vokalên paşîn **A, I, O, U** ne.
 
-Ji ber vê rêbazê, di peyveke xwerû ya tirkî de bi gelemperî vokalên pêşîn û paşîn bi hev re nayên. Lê ev rêbaz bê îstîsna nîne: çavkaniyê peyva *anne* wek nimûneya peyveke ku A ya paşîn û E ya pêşîn dihewîne dide.
+Ji ber vê rêbazê, di peyveke xwerû ya tirkî de bi gelemperî vokalên pêşîn û paşîn bi hev re nayên. Lê ev rêbaz bê îstîsna nîne: çavkaniyê peyva *anne* wek nimûneya peyveke ku A ya paşîn û E ya pêşîn dihewîne dide. Di heman beşê de *beran, erzan* û *guherandin* wek formên ku ji ber tevlihevkirina vokalên pêşîn û paşîn di peyveke xwerû ya tirkî de li gorî vê prensîpê ne mimkin in, têne nîşandan.
 
 Di kurmancî de, berevajî vê, vokalên cuda dikarin di heman peyvê de bi hev re bên. Ji ber vê yekê divê ahenga vokalan wek taybetmendiyeke tirkî fêm bikin, ne wek qanûneke giştî ya hemû zimanan.
 
@@ -3889,9 +3889,9 @@ Li nav û dawiya peyvên xwerû de ev deng di herdu zimanan de bi gelemperî bê
 
 ## 7. K û cudahiya cihê derketinê
 
-Di tirkî de K berî vokalên paşîn **A, I, O, U** ji K ya kurmancî paştir di devê de tê çêkirin û nêzî Q ya kurmancî ye. Ji ber vê yekê hin peyvên ku bi K dest pê dikin dema ku ji tirkî an bi rêya tirkî tên wergirtin, di kurmancî de dikarin bi Q bên nivîsîn û gotin. Çavkaniyê nimûneyên *qamera, Amerîqa, qomîte* dide.
+Di tirkî de K berî vokalên **A û O** ji K ya kurmancî paştir di devê de tê çêkirin û nêzî Q ya kurmancî ye. Ji ber vê yekê hin peyvên ku bi K dest pê dikin dema ku ji tirkî an bi rêya tirkî tên wergirtin, di kurmancî de dikarin bi Q bên nivîsîn û gotin. Çavkaniyê nimûneyên *qamera, Amerîqa, qomîte* dide.
 
-Ev taybetmendî divê bi awayekî sînordar were fêmkirin: mijar li ser cihê derketina K berî vokalên paşîn e, ne li ser guherandina bê şert a her K-yekê.
+Ev taybetmendî divê bi awayekî sînordar were fêmkirin: mijar li ser cihê derketina K berî A û O ye, ne li ser guherandina bê şert a her K-yekê.
 
 ## 8. Qelewîtî û ziravîtî
 
@@ -3946,7 +3946,7 @@ Di peyvên xwemalî yên tirkî de komkonsonant li destpêka peyvê nayên dîti
 
 Tirkî di peyvên deynkirî de komkonsonantên dawiyê qebûl dike, lê di hin deynkirinên kevntir de ji bo komên destpêkê vokalek li pêş tê zêdekirin. Çavkaniyê *station → istasyon* û *statistique → istatistik* wek nimûne dide. Di peyvên nûtir de komên destpêkê dikarin bên parastin, wek *studyo* û *standart*.
 
-Kurmancî ji ber ku di peyvên xwemalî de jî komkonsonantên destpêkê hene, ne hewce ye ku her tim vokalek li pêş peyvên wek *stasyon* û *statîstîk* zêde bike. Lê wergirtina peyvên Ewropî dikare komên konsonantî yên nû jî bixe nav zimanê kurdî.
+Kurmancî ji ber ku di peyvên xwemalî de jî komkonsonantên destpêkê hene, ne hewce ye ku her tim vokalek li pêş peyvên wek *stasyon* û *statîstîk* zêde bike. Lê wergirtina peyvên Ewropî dikare komên konsonantî yên nû jî bixe nav zimanê kurdî. Çavkaniyê komên **BL, BR, FL, FR, KL, KR, PS, KST** û nimûneyên *blond, Brîtanya, flora, Fransa, klasîk, krîz, psîkolojî, tekst* jî dide, ku di peyvên xwemalî yên tirkî de li destpêka kîteyê nayên dîtin, lê bi wergirtinên Ewropî ketine nav kurdî.
 
 ## 13. Cotdengiya Ç, K, P û T: taybetmendiyek kurmancî û zazakî
 
@@ -3971,7 +3971,7 @@ Lê nivîskar vê şîroveyê bi pirsan dixe bin lêkolînê: heke ermenî ji xw
 
 Nivîskar ji van pirsan encam digire ku tesîra ermenî wek sedema sereke ya cotdengiyê ne bi delîlên têr piştrast e. Ev nêrîna nivîskar e; divê wek rastiyeke dîrokî ya bêniqaş neyê pêşkêşkirin.
 
-Ji bo nirxandina vê îhtîmalê, çavkaniyê du awayên bandora zimanî ji hev cuda dike: **jorxan** (superstratum), dema ku zimanê xurt û biqedir peyv an taybetmendiyan dide zimanê din; û **jêrxan** (substratum), dema ku axêverên zimanekî derbasî zimanekî din dibin û hin taybetmendiyên zimanê xwe bi xwe re dibin. Nivîskar dibêje ku peyvên ermenî di kurdî de hene, lê delîlên dîrokî nîşan nadin ku ermenî berî sedsala 20em li Bakurê Kurdistanê zimanekî serdest û biqedir bûbe. Ew texmîn dike ku bandora ermenî, heke hebe, bi piranî jêrxanî bûye: gelek axêverên ermenî bûne kurdîaxiv û dibe ku hin peyv û dengên xwe anîbin kurdî. Ev şîrove jî wek nirxandina nivîskar tê pêşkêşkirin.
+Ji bo nirxandina vê îhtîmalê, çavkaniyê du awayên bandora zimanî ji hev cuda dike: **jorxan** (superstratum), dema ku zimanê xurt û biqedir peyv an taybetmendiyan dide zimanê din; û **jêrxan** (substratum), dema ku axêverên zimanekî derbasî zimanekî din dibin û hin taybetmendiyên zimanê xwe bi xwe re dibin. Nivîskar dibêje ku peyvên ermenî di kurdî de hene, wek *karîn/kanîn, law, savar, aman, xaç* û *çilmisîn*, lê delîlên dîrokî nîşan nadin ku ermenî berî sedsala 20em li Bakurê Kurdistanê zimanekî serdest û biqedir bûbe. Ew texmîn dike ku bandora ermenî, heke hebe, bi piranî jêrxanî bûye: gelek axêverên ermenî bûne kurdîaxiv û dibe ku hin peyv û dengên xwe anîbin kurdî. Ev şîrove jî wek nirxandina nivîskar tê pêşkêşkirin. Têbînîya jêrnotê ya çavkaniyê dibêje ku tenê piştî damezrandina dewleta Ermenistanê û bicihbûna hin kurdan li wê derê, hejmareke berçav ji kurdan hînî ermenî bûne; berî wê demê, di nav xelkê Bakurê Kurdistanê de ermenî bi gelemperî gelê kêmîne bûn.
 
 ## 15. Şîroveya din: tesîra farisî, erebî û tirkî
 
@@ -3982,7 +3982,7 @@ Ji bo nirxandina vê îhtîmalê, çavkaniyê du awayên bandora zimanî ji hev 
 - *kirin* li hember *kar*;
 - *pîvan* li hember *peyman*.
 
-Li gorî şîroveya nivîskar, peyvên bêpif ên xwemalî kevntir in, lê hin peyvên bipif ji farisî an bi rêya tirkî nû ketine kurmancî. Herwiha di hin deveran de peyvên xwemalî jî di bin bandora bilêvkirina zimanên cîran de bi awayê bipif tên gotin. Nivîskar dibêje ku li Bakurê Kurdistanê hin axêver peyvên kevn ên wek *çav, kî, pênc, te* jî bi awayê bipif dibêjin, tevî ku li gorî etîmolojiya wan divê bêpif bin. Ew îhtîmala **hîperkorektiyê** jî dide: hin pêşkêşkerên radyo û televizyonê ji bo ku deng zelal bibêjin, bi xeletî dengên bêpif bipif dikin.
+Li gorî şîroveya nivîskar, peyvên bêpif ên xwemalî kevntir in, lê hin peyvên bipif ji farisî an bi rêya tirkî nû ketine kurmancî. Herwiha di hin deveran de peyvên xwemalî jî di bin bandora bilêvkirina zimanên cîran de bi awayê bipif tên gotin. Nivîskar dibêje ku li Bakurê Kurdistanê hin axêver peyvên kevn ên wek *çav, kî, pênc, te* jî bi awayê bipif dibêjin, tevî ku li gorî etîmolojiya wan divê bêpif bin. Di beşa pêşketina peyvan de, nimûneyên din ên xwemalî wek *çi, ker* û *ti/tu* jî wek peyvên ku niha dikarin bi dengê bipif bên gotin tên nîşandan. Ew îhtîmala **hîperkorektiyê** jî dide: hin pêşkêşkerên radyo û televizyonê ji bo ku deng zelal bibêjin, bi xeletî dengên bêpif bipif dikin.
 
 ## 16. Bêpifî û pêşketina wê
 
@@ -3990,7 +3990,7 @@ Nivîskar pêşniyar dike ku bêpifî di kurmancî û zazakî de dibe ku ji nav 
 
 Li gorî vê texmînê, di qonaxeke kevntir de Ç, K, P û T li destpêka peyvan bi gelemperî bipif bûn, lê bêpifî paşê ji nav û dawiya peyvê ber bi destpêkê belav bû. Belkî ermenî an zimanên Kafkasyayê wek model alîkar bûbin, lê nivîskar vê yekê wek îhtîmal pêşkêş dike, ne wek tiştekî ku bi delîlên dîrokî hatiye îsbatkirin.
 
-Nivîskar herwiha dibêje ku tesîra farisî, tirkî û zimanên cîran dikare dîsa peyvên bipif zêde bike. Herdu awayên bipif û bêpif heta niha di kurmancî û zazakî de hene.
+Nivîskar herwiha dibêje ku tesîra farisî, tirkî û zimanên cîran dikare dîsa peyvên bipif zêde bike. Herdu awayên bipif û bêpif heta niha di kurmancî û zazakî de hene. Çavkaniyê îhtîmala wê jî dihêle ku di demên berê de di soranî, kurdiya başûrî û hewramî de jî dengên bêpif li destpêka peyvan hebûbin, lê di bin bandora farisî (û belkî erebî) de winda bûbin an jî ji ber dûrbûna van lehceyan ji ermenî û Kafkasyayê nehatibin domandin. Nivîskar di dawiyê de eşkere dibêje ku ji ber nebûna delîlên dîrokî, îspatkirina hebûn an nebûna wê diyardeyê êdî ne mimkin e.
 
 ## Çavkanî
 
