@@ -419,7 +419,7 @@ Li gorî materyala ku hatiye hejmartin:
 
 Nivîskar hişyar dike ku li gorî materyalên din û devokên cuda, dibe ku rêjeya **I** ji **E** zêdetir be. Ji ber vê yekê, rêza herfan dikare bi guhertina materyalê an devokê biguhere.
 
-Herfên vokal di nav herfên herî pir de ne: **E, I, A, Ê, Î, Û**. Rêjeya **U** û **O** di vê materyalê de kêm e. Nivîskar herwiha dibêje ku awayê nivîsandina peyva girêder **ku** dikare li ser rêjeya **U** bandorê bike.
+Herfên vokal di nav herfên herî pir de ne: **E, I, A, Ê, Î, Û**. Rêjeya **U** û **O** di vê materyalê de kêm e. Nivîskar herwiha dibêje ku di materyalê de peyva girêder **ku** bi U hatiye nivîsîn; heke wek **kû** bihata nivîsîn, dibe ku rêjeya **U** ji **O** kêmtir bûya.
 
 ## 4. Tabloya tevahiya herfan
 
@@ -464,21 +464,21 @@ Di tabloya jêrîn de rêje û hejmara her herfê wekî ku di materyala nivîska
 
 Nivîskar ji bo hin herfan sedemên zimanî an mînakên taybet destnîşan dike:
 
-- **E:** paşgira lêkerê di kesê sêyem yê yekjimar de, wek *ew dikE, dibêjE, diçE*. Di hin devokan de paşgirên din tên bikaranîn; ji ber vê yekê rêjeya E dikare kêmtir be.
+- **E:** paşgira lêkerê di kesê sêyem yê yekjimar de, wek *ew dikE, dibêjE, diçE*. Di hin devokan de paşgirên din tên bikaranîn, wek *ew dibêjÊ, ew dibêjIT, ew dibêjÎT*; ji ber vê yekê rêjeya E dikare kêmtir be.
 - **I:** daçekên *bi, di, ji, li* û bikaranîna *bi* bi wateya “heye”, wek *bideng*.
-- **N:** paşgira lêkerê di kesên pirjimar de, nîşana neyîniyê û formên pirjimar ên navdêran, wek *em dikiN, hûn dikiN, ew dikiN; Nakim, Neke; kitêbaN, kitêbêN nû*.
+- **N:** paşgira lêkerê di kesên pirjimar de, nîşana neyîniyê û formên pirjimar ên navdêran, wek *em dikiN, hûn dikiN, ew dikiN; Nakim, Neke; kitêbaN, kitêbêN nû*. Di axaftina hin devokan de N-ya dawiyê dikeve: nivîsî *wan kesan* lê gotin *wa kesa*; nivîsî *kitêbên min* lê gotin *kitêbê mi*. Di hin devokan de paşgira îzafeya pirjimar *-êT* an *-êD* e: *kitêbêT mi[N]* an *kitêbêD mi[N]*.
 - **A:** îzafeya navdêrên mê û paşgira navdêrên pirjimar, wek *kitêbA min* û *kitêbAn*.
-- **Ê:** paşgira navdêrên mê yên tewandî, îzafeya navdêrên nêr û pirjimar, daçekên serbixwe *jê, pê, tê* û nîşana dema bê.
+- **Ê:** paşgira navdêrên mê yên tewandî, îzafeya navdêrên nêr û pirjimar, daçekên serbixwe *jê, pê, tê* û nîşana dema bê, wek *tu Ê bikî* an *tu dÊ/wÊ/yÊ bikî*.
 - **R:** pêşgira lêkerê *ra-* û paşdaçeka *re* dikarin di rêjeya wê de rolekê bilîzin.
-- **D:** nîşana demên berdewam *D-* û daçeka *di*.
-- **B:** pêşgira lêkeran û daçek û hokera *bi*.
-- **Î:** paşgira navdêrên nêr û paşgira lêkerê di kesê duyem yê yekjimar de.
+- **D:** nîşana demên berdewam, wek *D-ikim / ne-D-ikir*, û daçeka *di*.
+- **B:** pêşgira lêkeran, wek *Bi-kim, Bi-ke*, û daçek û hokera *bi*.
+- **Î:** paşgira navdêrên nêr, wek *wÎ kesÎ*, û paşgira lêkerê di kesê duyem yê yekjimar de, wek *tu dibêjÎ*.
 - **K:** peyva girêder *ku* û peyvên pirsînê *kî, kê, kû, kengî*.
 - **W:** cînavên kesê sêyem, wek *ew, wê, wî, wan*.
-- **Û:** peyva serbixwe *û* û formên lêkera *bûn*.
-- **Y:** herfa kelijandinê û peyvên girêder, wek *ya, yê, yên, yan*.
+- **Û:** peyva serbixwe *û* û formên lêkera *bûn*, wek *bÛm, nebÛ, kiribÛ, nedabÛn*.
+- **Y:** herfa kelijandinê, wek *rojname-Y-ê, rojname-Y-a me, rojname-Y-ên kurdî*, û peyvên girêder *ya, yê, yên, yan*.
 - **T:** di rehê dema borî ya gelek lêkerên bingehîn de heye, wek *goT, haT, girT*.
-- **M:** paşgira lêkerê di kesê yekem yê yekjimar de.
+- **M:** paşgira lêkerê di kesê yekem yê yekjimar de, wek *dikiM, nabêjiM, neçûMe*.
 - **H:** di peyvên bersivdanê û hokeran de, wek *hingê, wiha, hê, hêj, hîna*.
 - **L:** di daçekên *li, lê* û girêdera *lê* de.
 - **J:** di daçekên *ji, jê* de.
