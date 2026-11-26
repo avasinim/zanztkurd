@@ -13,6 +13,8 @@ from playwright.sync_api import sync_playwright
 ROOT = Path(__file__).resolve().parents[1]
 BASE_URL = "http://127.0.0.1:8766"
 LESSON_URL = f"{BASE_URL}/lessons/kurmanji-dengnasi-lesson-01.html"
+LESSON17_URL = f"{BASE_URL}/lessons/kurmanji-dengnasi-lesson-17.html"
+LESSON17_TITLE = "Eyn, K/G/Q û komên konsonantî di kurdî de"
 TEST_PROJECT_URL = "https://juwsjljbdwyncicybwoq.supabase.co"
 PRODUCTION_PROJECT_URL = "https://hjpmorabqdhuchpnowiw.supabase.co"
 
@@ -37,7 +39,7 @@ class DengnasiReaderBrowserTests(unittest.TestCase):
         cls.server.terminate()
         cls.server.wait(timeout=5)
 
-    def open_lesson(self, project_url: str):
+    def open_lesson(self, project_url: str, lesson_url: str = LESSON_URL):
         context = self.browser.new_context(viewport={"width": 1280, "height": 900})
         context.add_init_script("""
             window.__dengnasiTest = { fromCalls: [], lessonKeys: [], rpcCalls: [], authCalls: [] };
@@ -108,7 +110,7 @@ class DengnasiReaderBrowserTests(unittest.TestCase):
             ),
         )
         page = context.new_page()
-        page.goto(LESSON_URL, wait_until="domcontentloaded")
+        page.goto(lesson_url, wait_until="domcontentloaded")
         return context, page
 
     def assert_source_note_is_normalized(self, page):
@@ -147,6 +149,18 @@ class DengnasiReaderBrowserTests(unittest.TestCase):
             self.assertEqual(state["lessonKeys"], ["kurmanji-dengnasi-lesson-01.html"])
             self.assertIn("student_has_enrollment", state["rpcCalls"])
             self.assertIn("Test-project lesson body", page.locator(".lesson-content").inner_text())
+        finally:
+            context.close()
+
+
+    def test_lesson_17_title_covers_all_source_topics_in_latin_script(self):
+        context, page = self.open_lesson(TEST_PROJECT_URL, LESSON17_URL)
+        try:
+            page.locator("#dengnasi-test-content").wait_for()
+            self.assertEqual(page.locator(".klesson-hero h1").inner_text(), LESSON17_TITLE)
+            self.assertEqual(page.title(), f"Ders 17 — {LESSON17_TITLE} | Dengnasîya Zimanê Kurdî")
+            self.assertNotRegex(page.locator(".klesson-hero h1").inner_text(), r"[\\u0621-\\u064A]")
+            self.assertNotRegex(page.title(), r"[\\u0621-\\u064A]")
         finally:
             context.close()
 
