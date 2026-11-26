@@ -131,8 +131,16 @@ for required in (
     "yûnaniya kevn",
     "helbestan",
     "rûpela 422ê",
+    "automat, autonom",
+    "îade, idia",
+    "diore",
+    "Ewropa, ewro",
+    "dijî + e",
+    "du kurda dibînim",
 ):
     assert required in lesson27, f"Lesson 27 is missing source-backed detail: {required}"
+assert "| Koma vokalan |" in lesson27 and "| (AE) |" in lesson27, "Lesson 27 vowel-combination table is incomplete"
+assert "li ber kelijandinê" in lesson27, "Lesson 27 must distinguish hiatus prevention from linking terminology"
 assert lessons[14]["originalPdfPages"] == {"start": 187, "end": 202}, "Lesson 15 original-PDF range mismatch"
 assert lessons[14].get("dividerPage") == 204, "Lesson 15 designed-PDF divider must be documented"
 assert lessons[13]["designedPdfPages"]["end"] + 1 == lessons[14]["dividerPage"], "Lesson 15 divider must immediately follow Lesson 14"
