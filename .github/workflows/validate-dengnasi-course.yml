@@ -12,6 +12,7 @@ on:
       - "docs/KURMANJI-DENGNASI-LESSON-AUTHORING.md"
       - "docs/previews/kurmanji-dengnasi-lesson-*-content-preview.html"
       - "scripts/check_public_dengnasi_pdf.py"
+      - "scripts/extract_dengnasi_source_audit.py"
       - "scripts/test_dengnasi_lesson_browser.py"
       - "docs/previews/dengnasi-content-html-payload-preview.json"
       - "lessons/kurmanji-dengnasi-lesson-*.html"
@@ -40,6 +41,14 @@ jobs:
         run: python scripts/validate_kurmanji_dengnasi_course.py
       - name: Verify public PDF delivery, checksum, and page count
         run: python scripts/check_public_dengnasi_pdf.py
+      - name: Extract source pages for Lessons 18 and 21
+        run: python scripts/extract_dengnasi_source_audit.py
+      - name: Upload extracted source pages for independent review
+        uses: actions/upload-artifact@v4
+        with:
+          name: dengnasi-source-pages-lessons-18-and-21
+          path: dengnasi-source-page-audit.txt
+          if-no-files-found: error
       - name: Install Playwright browser tests
         run: |
           python -m pip install --upgrade pip playwright
