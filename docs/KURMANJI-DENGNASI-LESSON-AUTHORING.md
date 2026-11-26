@@ -1740,6 +1740,34 @@ Di hin devokan de, lê ne di hemûyan de, N ji paşpirtika **-ên** jî dikeve:
 
 Xêza jêrîn tenê cihê dengê N-ya ketî nîşan dide.
 
+
+## 12. Berawirdkirinên M û N bi zimanên din
+
+Pirtûk ji bo guherîna M→V/W van hevreh û hevwateyan jî dide:
+- *nav* bi farisî û zazakî *nam*, bi îngilîzî *name* û bi latînî *nomen* re tê berawirdkirin.
+- *gav* bi farisî û zazakî *gam*, bi avestayî *gamen-* û bi îngilîzî *come* re tê berawirdkirin.
+- *nivêj/niwêj* bi zazakî *nimac*, farisî *nemaz* û sanskrîtî *names* re tê berawirdkirin.
+
+Pirtûk cudahiya *ziman* jî bi awayekî dîrokî rave dike: M-ya wê ji B an V-ya kevn hatiye; ji ber vê yekê ev peyv nimûneya M→V/W nîne. Berawirdkirinên wê *ziban* (farisî), *uzvan* (pehlewî) û *cihve-* (sanskrîtî) ne.
+
+Di peyva *genim* de M ji ber hebûna D an T li dû wê di qonaxa dîrokî de hatiye parastin; pirtûk formên farisî *gendom*, pehlewî û pazendî *gentum*, û forma erebîkirî *cendum* dide. Di *nimêj* de M di kurmanciya navendî û rojavayî de hatiye parastin; pirtûk ihtîmala bandora farisî, zazakî an tirkî, yan vegerandina M, wek ihtîmalê dihêle.
+
+## 13. Têkiliya N bi M û L û tabloya cihê derxistina dengan
+
+Pirtûk tabloya konsonantan wek bingeha berawirdkirina N, M û L bi kar tîne. N û M herdu jî dengên bêvilî ne; N pidûyî ye, M dulêvî ye. L dengê tengav e û di tabloyê de cihê wê cuda ye. Ev tablo rêz û cihê derxistina dengên bêvilî, sekinî, xişok û tengav nîşan dide.
+
+Piştî ku N di hin peyvan de dibe L, pirtûk van berawirdkirinên zimanî jî dide:
+- *nimêj/nivêj* — soranî *nwêj*, zazakî *nimac*, farisî *nemaz*; di hin devokên kurmancî de *limêj*.
+- *nivîn* — bi soranî *nûstin* û formên *nivistin* re; di hin devokan de *livîn* bi wateya doşek, lihêf an balgih.
+- Daçeka kurmancî *li* û soranî *le* ji formên kevn ên pêşniyarkirî *ni* û *ne* tên. Pirtûk hewramî *ne*, farisiya kevn *ena*, îngilîzî û latînî *in*, yûnaniya kevn *ên* û albanî *ën* wek berawird dide.
+
+## 14. Pêrawej û çavkaniyên lêkolînê
+
+- Pêraweja 109 rêjeya M-ê bi lêkolîna Husein Muhammed, “Rêjeya herfan di nivîsên kurmancî de”, girêdide.
+- Pêraweja 110 rave dike ku M di *nimêj* ya kurmanciya navendî û rojavayî de hatiye parastin; bandora farisî, zazakî an tirkî, û vegerandina M wek ihtîmal tên nîşandan. Herwiha *ziman* bi *ziban, uzvan, cihve-* re tê berawirdkirin.
+- Pêraweja 111 çavkaniya lêkolîna rêjeya herfa N e: Husein Muhammed, “Rêjeya herfan di nivîsên kurmancî de”.
+- Pêraweja 112 diyar dike ku “kurdiya başûrî” di vê beşê de tenê devokên Feylî, Kelhurî û Kirmaşanî digire, ne kurmancî û ne soranî.
+
 ## Çavkanî
 
 Husein Muhammed, *Dengnasî di kurdî de*, rûpelên çapkirî 147–154.
