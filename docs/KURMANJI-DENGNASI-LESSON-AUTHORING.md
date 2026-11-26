@@ -3746,7 +3746,7 @@ Ev nimûne nîşan didin ku giranî dikare cudahiya navbera navdêr, rengdêr, d
 - **249 — Kêmbûna ẌU-:** Peyvên bi ẍu- di kurdî de pir kêm in; nivîskar dibêje nimûneyên heyî jî nîşan didin ku ẍu- nabe ẍi-.
 - **250 — Murder:** Nivîskar di berawirdkirina *mirin* de hişyar dike ku *murder* ya îngilîzî wateya “kuştin/qetilkirin” dide, ne “mirin”, herçend bi eslê xwe peywendîdar bin.
 - **251 — Wusa/wulo/wunda:** Nivîskar van forman wek guherîna dengnasî nayê hesibandin; ew wek kêmasiyên nivîsînê şîrove dike, ji ber ku dengê rastîn ê *wu-* dê peyvê dirêjtir bikira.
-- **252 — Giranî:** Ji bo giranî, nivîskar peyvên *kirp* û *şidandin* jî bikar tîne; di zimanên din de wek stress, vurgu, نبر û تکیه tê naskirin.
+- **252 — Giranî:** Ji bo giranî, nivîskar peyvên *kirp* û *şidandin* jî bikar tîne; di zimanên din de wek stress, vurgu û peyvên hevwate yên zimanên din tê naskirin.
 - **253 — Giranî û zimanên îranî:** Ji bo texmîna kevn ku giranî di zimanên îranî de bi gelemperî fonemîk nîne, nivîskar lêkolîna Habibullah Tegey û Barbara Robson di *The Iranian Languages* (2009) de destnîşan dike.
 - **254 — Difin:** Nivîskar rexneyê li şîroveya Newzad Şukrî/Hirorî dike ku *difin* giranî li ser kîteya yekem heye; dibêje peyv dikare *difin* (du kîte) an *difn* (yek kîte) were gotin û gava vokala navîn dikeve, giranî jî diguhere. *kevin → kevn e* wek nimûne tê dayîn.
 - **255 — Şêweya rojhilatî:** Di kurmanciya rojhilatî de *kitêbeke min* dikare bibe *kitêbeka min* û *hevalekî min* bibe *hevalekê min*.
