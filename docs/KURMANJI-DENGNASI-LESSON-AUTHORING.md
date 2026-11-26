@@ -2217,7 +2217,7 @@ Pirtûk çar berawirdkirina bingehîn dide: kurmancî *tav* li hemberî farisî 
 - **Pêraweja 145:** T-ya di rehê rabirdûyê de wek nîşana demê tê şîrovekirin; ev ji formên niha û pêşerojê cuda ye.
 - **Pêraweja 146:** T ya navîn an dawî di peyvên xwerû de bi gelemperî nîşana esil-biyanîbûnê ye, lê ev şert îstîsna hene: rehên rabirdûyê yên lêkerên xwemalî, peyvên ku piştî F/S/Ş/X tên, lêkerên wergirtî yên ku T di rehê niha de diparêzin, û paşgira berhevdanê *-tir/-tirîn*. Ji ber vê yekê T bi tenê nabe pîvaneke biryardana etîmolojiyê.
 - **Pêraweja 147:** «Kurdiya başûrî» di vê beşê de tenê Feylî, Kelhurî û Kirmaşanî digire; ev term li vir bi hemû zaravayên kurdî yên başûrî nayê bikaranîn.
-- **Pêraweja 148:** Ji bo têkiliya T û D wek nîşanên demên borî, çavkaniya ku nivîskar nîşan dide tۆمار کرا.
+- **Pêraweja 148:** Ji bo têkiliya T û D wek nîşanên demên borî, çavkaniya ku nivîskar nîşan dide tomar کرا.
 
 
 ## 6. T-ya zirav û T-ya qelew
