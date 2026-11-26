@@ -2928,6 +2928,8 @@ Pêşpirtika **di-** ya dewamiyê bêgiranî ye:
 - *di-REvin*;
 - *ve-di-ge-RÎ*.
 
+Di soranî de pêşpirtikên **de-** û **e-** yên hevwateyên *di-* jî bêgiranî ne. Lê di farisî de pêşpirtika **mî-** giranî digire.
+
 Gava lêker ne raderî be û pêşpirtikên giran ên neyînîkirinê yan *bi-* negirtibe, giranî li ser kîteya dawiyê ya rehê lêkerê ye:
 - *tu di-ZA-nî*;
 - *ez di-he-LÎ-nim*;
@@ -2946,7 +2948,7 @@ Paşpirtikên kesî û formên çemandî yên *bûn* bi gelemperî bêgiranî ne
 Di peyvên dariştî de giranî dikare ji rehê peyvê were veguhastin bo paşpirtik:
 - *birîn* → *birîndar* → *birîndarî*.
 
-Di peyvên pêkhatî de giraniya sereke li ser beşa dawiyê ye:
+Di peyvên pêkhatî de giraniya sereke li ser kîteya dawiyê ya beşa dawiyê ye:
 - *ziman + dirêj* → *zimandirêj*;
 - *serok + komar* → *serokkomar*.
 
@@ -2958,7 +2960,7 @@ Di peyvên dubarekirî û cotkirî de jî beşa dawiyê giraniya sereke digire:
 
 ### 21. Giranî wek cudakerê wate û erkê rêzimanî
 
-Di kurdî de hin peyv bi heman herfan tên nivîsîn lê cihê giranî wan ji hev cuda dike.
+Di kurdî de hin peyv bi heman herfan tên nivîsîn lê cihê giranî wan ji hev cuda dike. Heta wê demê, di nav zimanên îranî de Peştû tenê zimanek dihate hesibandin ku giranî di wê de fonemîk e; lê nimûneyên kurdî jî nîşan didin ku veguhastina giranî dikare wate an erkê rêzimanî biguherîne. Ev diyardeyek marjînal e, lê di kurdî de berçav û giring e.
 
 Nimûneya *piştî*:
 - wek daçek, bi wateya “li pey/paşî”: *Ez PIŞTÎ wî hatim* — giranî li ser kîteya yekem e;
