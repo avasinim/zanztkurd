@@ -682,7 +682,7 @@ Pirtûk neyekrêziya nivîsandina **U/Û** bi nimûneyên *Urdin/Ûrdin, Ukrayna
 ### Pêrawejên serikê û dûvikê
 Di devokên kurmancî de nimûneyên *bwîk=bûk, cwîn=cûn/cûtin, gwîz=gûz, jwîjî=jûjî, kwîr=kûr, mwî=mû, nwî=nû, swîr, twî=tû* hene; di van koman de piştî konsonantan tenê **î** tê. Di soranî de *gwêz=gûz, nwê=nû* û komê **dw-** di *dwênê* de jî tê. Lîsteya komên deynkirî ya pirtûkê **bl-, br-, fl-, fr-, gl-, gr-, kl-, kr-, pl-, pr-, sk-, sl-, st-, sw-, tr-** e.
 
-Bara mînakê *stêr* di ziman û zaravayan de ev formên pêrawejî hene: Sorani *estêre*, Kelhuri *hesare*, Leki *asare*, Zazaki *astare*, Hewrami *esarî*, Persian *sêtarê*; Avestan *stêr*, Pahlavi *starek*, Sanskrit û English *star*, Latin *stella*. Ji bo *bira*, pirtûk formên Pahlavi *brader*, Avestan *brater*, Sanskrit *bhratar*, Russian *brat*, Ancient Greek *phrater*, Latin *frater* û English *brother* dide. Di Persianê kevn de koma **xş-** di *xşep-/xşayethe-* de hebû؛ pirtûk herwiha formên devokî *sitran/sitêrk* û *istiran/histran, istêrk/histêrk* dide.
+Bara mînakê *stêr* di ziman û zaravayan de ev formên pêrawejî hene: Sorani *estêre*, Kelhuri *hesare*, Leki *asare*, Zazaki *astare*, Hewrami *esarî*, Persian *sêtarê*; Avestan *stêr*, Pahlavi *starek*, Sanskrit û English *star*, Latin *stella*. Ji bo *bira*, pirtûk formên Pahlavi *brader*, Avestan *brater*, Sanskrit *bhratar*, Russian *brat*, Ancient Greek *phrater*, Latin *frater* û English *brother* dide. Di Persianê kevn de koma **xş-** di *xşep-/xşayethe-* de hebû; pirtûk herwiha formên devokî *sitran/sitêrk* û *istiran/histran, istêrk/histêrk* dide.
 
 Pirtûk nimûneyên sivikkirina komên deynkirî jî dide: *plan > pîlan, glas > gelas, statîstîk > îstatîstîk, Swêd > Îsweç, traktor > terektir*. Di dûvikê de pêراweja *bord, mord* (Persian), *berd, merd* (Zazaki), *bird, mird* (Sorani) û formên sivikkirî yên Kurmanji *bir, mir* hatiye dayîn. Herwiha *dest > des* û *nalbend > nalben* di Sorani/Kelhuri de, û *çend > çen, bend > ben/benik* di Kurmanji de wek nimûne tên.
 
@@ -705,23 +705,23 @@ Di xişteya jêrîn de **C** konsonant û **V** vokal e. Nimûneyên di kevanoka
 | CCCVCC | *(strand)* | — | — |
 | CVCCC | *(tekst, heyşt)* | — | — |
 
-Pirtûk dibêje hemû van cûreyên kîteyan dikarin li destpêka peyvê bên؛ lê li nav an dawiya peyvê komên konsonantan bi piranî li ser du kîteyan tên parvekirin. Pêraweja 37 diyar dike ku *saet* di nivîsînê de VC ye lê di gotinê de CVC؛ *berav* dikare *be-rav* yan *ber-av* bê kîtekirin, û ya duyem li gor gotin, peyvsazî û etîmolojiyê saxlemtir e. *binavkirin* jî li gor wateyê *bi-nav-ki-rin* (nav lê kirin) yan *bin-av-ki-rin* (kirin bin avê) e.
+Pirtûk dibêje hemû van cûreyên kîteyan dikarin li destpêka peyvê bên; lê li nav an dawiya peyvê komên konsonantan bi piranî li ser du kîteyan tên parvekirin. Pêraweja 37 diyar dike ku *saet* di nivîsînê de VC ye lê di gotinê de CVC; *berav* dikare *be-rav* yan *ber-av* bê kîtekirin, û ya duyem li gor gotin, peyvsazî û etîmolojiyê saxlemtir e. *binavkirin* jî li gor wateyê *bi-nav-ki-rin* (nav lê kirin) yan *bin-av-ki-rin* (kirin bin avê) e.
 
 ### Xişteya bêlerz û bilerz û pêrawejên 38–42
 | Bêlerz | p | t | k | s | ş | f | ç | x |
 |---|---|---|---|---|---|---|---|---|
 | Bilerz | b | d | g | z | j | v | c | ẍ |
 
-Pêraweja 38 navên anatomî yên perdeyên dengî dide: *vocal folds / vocal cords*, tirkî *ses telleri*, û termê anatomî *plica vocalis*. Pêraweja 39 dibêje ji varyantên heman herfê tenê yek nimûne di xişteyê de hatiye nîşandan. Pêraweja 40 **ğ / غ** wek **ẍ** di *axa* de nas dike.
+Pêraweja 38 navên anatomî yên perdeyên dengî dide: *vocal folds / vocal cords*, tirkî *ses telleri*, û termê anatomî *plica vocalis*. Pêraweja 39 dibêje ji varyantên heman herfê tenê yek nimûne di xişteyê de hatiye nîşandan. Pêraweja 40 **ğ / gh** wek **ẍ** di *axa* de nas dike.
 
-Pêraweja 41 hişyar dike ku di *alîstin, ristin* û Sorani *firoştin* de, piştî ketina T-ya bêlerz, S/Ş dîsa bêlerz dimînin؛ ketina T-ê bi xwe wan bilerz nake. Pêraweja 42 diyar dike ku **Q** bêlerz e û di kurdî de hevbera wê ya bilerz tune ye.
+Pêraweja 41 hişyar dike ku di *alîstin, ristin* û Sorani *firoştin* de, piştî ketina T-ya bêlerz, S/Ş dîsa bêlerz dimînin; ketina T-ê bi xwe wan bilerz nake. Pêraweja 42 diyar dike ku **Q** bêlerz e û di kurdî de hevbera wê ya bilerz tune ye.
 
 ### Formên zêdetir ên tesîra lerzê
-Pirtûk ji bo peyva deynkirî ya *ḥebs* formên *ḥefs, ḥeps, hevs* û ji bo *zebt* formên *zeft, zept, zevt* jî dide. Di van formanan de herfa dawiyê wek xwe dimîne û herfa berî wê diguhere. Di *qesd, qezd, qest* de, *qezd* li gor rêza giştî ye؛ *qest* îstîsnayeke kêm e ku tê de dengê paştir diguhere. Pirtûk herwiha cudahiya Kurmanji *kitêb, xîtab, hebîb, reng* û bêlerzbûna dawiyê di tirkî, almanî û rûsî de nîşan dide.
+Pirtûk ji bo peyva deynkirî ya *ḥebs* formên *ḥefs, ḥeps, hevs* û ji bo *zebt* formên *zeft, zept, zevt* jî dide. Di van formanan de herfa dawiyê wek xwe dimîne û herfa berî wê diguhere. Di *qesd, qezd, qest* de, *qezd* li gor rêza giştî ye; *qest* îstîsnayeke kêm e ku tê de dengê paştir diguhere. Pirtûk herwiha cudahiya Kurmanji *kitêb, xîtab, hebîb, reng* û bêlerzbûna dawiyê di tirkî, almanî û rûsî de nîşan dide.
 
 
 
-Pirtûk herwiha nimûneya nivîsandina bê vokalên kurt di alfabeya erebî de dide: Sorani `krdn` tê nivîsîn lê `kirdin` tê xwendin. Ji bo cihê rêjeya lerzê, peyvên `dest, heft, text` wek komên bêlerz tên; formên tevlihev ên `*dezt, *hevt, *teẍt` û `desd, hefd, texd` di çavkaniyê de wek formên tune yan pir kêm hatine nîşandan. Pirtûk di heman beşê de pêraweja tirkî `kitap/hitap` li hember kurdî `kitêb/xîtab`, û almanî `Tag/Täge` (yekem bi dengê dawiyî bêlerz tê gotin، lê herdu bi G tên nivîsîn) dide; bêlerzbûna dawiyê di rûsî de jî bi nivîsînê nayê nîşandan.
+Pirtûk herwiha nimûneya nivîsandina bê vokalên kurt di alfabeya erebî de dide: Sorani `krdn` tê nivîsîn lê `kirdin` tê xwendin. Ji bo cihê rêjeya lerzê, peyvên `dest, heft, text` wek komên bêlerz tên; formên tevlihev ên `*dezt, *hevt, *teẍt` û `desd, hefd, texd` di çavkaniyê de wek formên tune yan pir kêm hatine nîşandan. Pirtûk di heman beşê de pêraweja tirkî `kitap/hitap` li hember kurdî `kitêb/xîtab`, û almanî `Tag/Täge` (yekem bi dengê dawiyî bêlerz tê gotin, lê herdu bi G tên nivîsîn) dide; bêlerzbûna dawiyê di rûsî de jî bi nivîsînê nayê nîşandan.
 ## Çavkanî
 
 Husein Muhammed, *Dengnasî di kurdî de*, rûpelên çapkirî 44–55.
