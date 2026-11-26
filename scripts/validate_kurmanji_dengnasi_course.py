@@ -104,6 +104,8 @@ assert lesson26_match, "Lesson 26 authoring section is missing"
 lesson26 = lesson26_match.group(0)
 for required in (
     "beran, erzan",
+    "bi taybetî di peyvên ji erebî wergirtî de",
+    "di beramberî ermeniyan de bûne gelê kêmîne",
     "BL, BR, FL, FR, KL, KR, PS, KST",
     "blond, Brîtanya, flora, Fransa, klasîk, krîz, psîkolojî, tekst",
     "karîn/kanîn, law, savar, aman, xaç",
