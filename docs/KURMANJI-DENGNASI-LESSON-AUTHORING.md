@@ -2567,6 +2567,8 @@ Z dikare ji S jî were:
 
 Di dîroka dûr de Z-ya peyvên xwemalî bi têkiliya dengê proto-hindûewropî *ǵʰ* ve tê ravekirin: di zimanên îranî de bûye Z an J, lê di almanî *Gelb*, latînî *galbus* û îngilîziya kevn *geolu* de şopên G-yê maye. Çavkaniyê herwiha guherîna L-ya proto-hindûewropî bo R di hin zimanên îranî de û parastina L di zimanên balto-slavî de destnîşan dike.
 
+Di berawirdkirina kurmancî û farisî de, hevbera hin peyvên farisî yên bi Z di kurmancî de bi J e: kurmancî *jiyan, roj, bijartin* li hember farisî *zindegî, rûz, gozîden*. Pirtûk dibêje ku R-ya di *bijartin* de di gelek zimanên din ên îranî de tune ye: belûçî *gicineg*, pehlewî *viçîten*, parsî *wicid*, avestayî *vi-çay-/vi-kay-* û sanskrîtî *vi-çay-*.
+
 Di hin lêkeran de Z-ya bilerz di bin bandora T-ya bêlerz a nîşana rabirdûyê de dibe S:
 - *di-lîz-in* → *lîs-t-in*;
 - *di-mîz-e* → *mîs-t-in*;
@@ -2645,7 +2647,7 @@ Z-ya peyvên xwemalî bi rehê proto-hindûewropî *ǵʰ* ve tê girêdan; di zi
 Di peyvên ji erebî hatine de, çar dengên erebî dikarin bi awayên cuda werin wergirtin:
 - **Zeyn**: bi gelemperî wek Z-ya zirav dimîne, wek *zeytûn*.
 - **Zal**: dengekî didanî yê zirav e û dikare bibe Z-ya zirav, wek *zat*.
-- **Za**: dengekî didanî yê qelew e û dikare bibe Z-ya qelew an zirav, wek *zalim*.
+- **Za**: dengekî didanî yê qelew e û dikare bibe Z-ya qelew an zirav, wek *zalim* û *zirav*.
 - **Dad**: dengekî qelew e û di hin peyvan de bûye Z-ya qelew an zirav, wek *remezan* û *zemîr*.
 
 Z-ya qelew ya kurdî bi [ẓ] ya erebî ne hevdeng e: ya kurdî pidûyî ye, lê ya erebî didanî ye. Z-ya qelew ya kurdî forma qelew a Zeyn e, ne forma qelew a Zal. Di farisî de Z-ya zirav bi gelemperî Z dimîne (*zer, zêr, zincîr, zû*), lê Z-ya qelew gelek caran li hemberî D ye (*zana/dana, zanîn/danişten, zava/damad*).
