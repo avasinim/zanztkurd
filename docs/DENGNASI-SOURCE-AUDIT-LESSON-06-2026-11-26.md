@@ -65,5 +65,9 @@ The lesson outline follows the book's own section structure and already preserve
 ## Artifact consistency
 The authoring Markdown, JSON payload and generated HTML preview currently carry the same lesson body in substance. The preview is draft-only and not routed to the live site. No Supabase payload, production data, main branch, deployment or course activation was changed.
 
-## Next correction pass
-Restore the omitted source examples, the full positional syllable table, and footnotes 37–42 into the authoring source, then regenerate/synchronize JSON and HTML preview and add lesson-6-specific validator assertions. Keep all additions within printed pages 44–55, Kurmanji Latin only, and do not add exercises, quizzes or invented examples.
+
+## Restoration status (2026-11-26)
+The source-backed restoration pass has now been applied to Lesson 6 in the authoring Markdown, JSON payload preview and HTML preview. Restored material includes final-vowel inventories and spelling variants, dialect and historical comparisons, the full three-position syllable-type table, footnote 37's syllabification distinctions, the paired voicing table and footnotes 38–42, loanword alternants, short-vowel spelling example, mixed-voicing counterexamples and final-devoicing comparisons. Lesson-specific validator assertions were added. Static parity and required-term checks passed after synchronization. The full Python validator and CI Actions have **not** been run; no deployment, activation, main-branch or production change was made.
+
+## Remaining validation
+Run the full repository validator and CI on the isolated branch, then inspect any failures. Static checks alone do not establish complete scholarly fidelity; retain the source audit as a review record. Keep the lesson draft-only until explicit activation approval.
