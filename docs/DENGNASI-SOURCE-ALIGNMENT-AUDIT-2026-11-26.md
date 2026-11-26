@@ -428,3 +428,13 @@ Scope checked: draft Lessons 1–27 against the source's printed page labels and
 - No additional lesson-body edit was needed after this comparison. The draft remains Kurmancî Latin only; a direct Unicode-range check found zero Arabic-script characters, and no audio links, questions, quizzes, tests or exercises are included.
 - The audit document's pre-edit copy is preserved at `docs/backups/DENGNASI-SOURCE-ALIGNMENT-AUDIT-before-lesson-12-recheck-2026-11-26.md`.
 - No test Supabase synchronization was performed. The earlier 27-row / 407,980-character snapshot predates all current editorial updates and is not the current authoring state. No student data, production Supabase, migrations, `main`, merge or deployment were accessed or changed.
+### Lesson 13 — printed pages 155–167 (source completeness recheck)
+
+- Re-read the source PDF pages corresponding to printed pages 155–167 and compared them with the Lesson 13 authoring draft.
+- Expanded P's loanword aspiration details, including the source's distinction between initial P in Persian/English/Turkish/Sorani and French, and the contrast between initial and medial/final P in foreign words. Added the source's P ← W/V/U historical examples (*pêl, por/pûrt, hesp, dilop*) and the fuller P → B → V/W pathway.
+- Expanded the P → F Arabic transmission examples, including *fincan/pengan*, *fisteq/pistek*, the history of *fisteq* through Greek and European languages, and the *pars/parsîg → faris/farisî* forms.
+- Expanded Q's modern Iranian distribution and its Semitic and Turkic influences, including the source's Turkic comparisons (*qulaq, qar, qara*), the K-before-back-vowel condition, the source's place-name examples, and the lexical exceptions.
+- Added the source's Aramaic/Akkadian and Iranian Q examples, and the transmission chains *pistek → festeq → fisteq*, *zendîk → zendîq* and *xendek → xendeq → xendek/xendeq*. Kept uncertain etymologies explicitly qualified.
+- The lesson remains Kurmancî Latin only; no source audio links or non-Latin glyphs are embedded. No questions, quizzes, tests or exercises were added.
+- A pre-edit copy of the full authoring document is preserved at `docs/backups/KURMANJI-DENGNASI-LESSON-AUTHORING-before-lesson-13-source-completeness-2026-11-26.md`. The pre-edit audit is preserved at `docs/backups/DENGNASI-SOURCE-ALIGNMENT-AUDIT-before-lesson-13-recheck-2026-11-26.md`.
+- The Lesson 13 authoring update is branch-only and has not been synchronized to test Supabase. The earlier 27-row / 407,980-character snapshot predates this and all later editorial updates; it is not the current authoring state. No student data, production Supabase, migrations, `main`, merge or deployment were accessed or changed.
