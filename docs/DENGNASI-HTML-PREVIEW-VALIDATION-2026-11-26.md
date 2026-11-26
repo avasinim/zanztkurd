@@ -48,12 +48,20 @@ The nine title differences identified in the earlier reconciliation have been re
 - The test DB migration ledger contains two Dengnasî activation versions (`20261124093604`, `20261124112742`) without same-version migration files on this branch. The repository's `20261124130000` migration contains 27 legacy PDF iframe payloads. This drift is documented; no migration or ledger repair is authorized or needed for the already-matching test rows.
 - No real browser session test has been run. The existing Dengnasî GitHub Actions workflow only runs the static course/PDF validator; the existing Playwright workflow is for a different course pathway and stubs auth locally. It does not prove real Dengnasî Supabase authentication, enrollment, or sequence access.
 
+## Browser regression suite prepared — 2026-11-26
+
+- Added `scripts/test_dengnasi_lesson_browser.py`, a local Playwright suite using a mocked Supabase client and the DRAFT ONLY 27-row payload. It never contacts a Supabase project or modifies student data.
+- Eight test cases cover: loading all 27 authored payloads into the correct lesson pages; legacy PDF iframe fail-closed behavior; anonymous redirect; non-enrolled redirect; sequence-locked lesson redirect; enrolled learner allowed by the server-side gate; site-owner bypass; and safe query-error/missing-row states.
+- Updated `.github/workflows/validate-dengnasi-course.yml` on this implementation branch so a future PR affecting the 27 lesson pages, loader, payload, or browser test installs Playwright/Chromium and runs the suite after the existing static PDF/course checks.
+- Static inspection confirms the script contains eight test cases, checks each page H1 against the payload title, checks for authored section headings, rejects iframe content, and checks `lang="ku" dir="ltr"`.
+- **Execution status: NOT RUN.** This branch has no PR carrying the workflow change, and no workflow-dispatch action is available in this session. Do not describe the Playwright suite as passing until GitHub Actions actually runs it.
+
 ## Remaining integration work
 
-1. Add a dedicated Playwright suite for the 27 Dengnasî pages using the existing local server and mocked Supabase response to verify loader injection, fallback, navigation, and page shell behavior.
-2. Add or adapt a separately approved test-project browser workflow for actual authenticated access tests, using only the existing test secrets. Do not expose credentials in logs or artifacts.
-3. Recover the exact provenance/source SQL for the two earlier test-project migration versions before making any migration-ledger decision.
-4. Reconcile the course catalog card with the current under-preparation landing page. The catalog/landing status must be consistent before release.
+1. Run the new Playwright suite through GitHub Actions after a reviewed draft PR is opened or another approved CI route is available.
+2. Separately run real authenticated test-project browser checks with the existing test-student secrets; the mocked suite does not prove real Supabase auth/RLS/enrollment behavior.
+3. Recover exact source SQL/provenance for test-project migration ledger versions `20261124093604` and `20261124112742` before any migration-history decision.
+4. Reconcile the course catalog card with the under-preparation landing page; do not expose a contradictory active status.
 5. Only after all tests and review, prepare a release proposal. Production, `main`, deployment, and PR merge remain outside scope without explicit approval.
 
 ## Safety boundary
