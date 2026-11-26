@@ -2375,7 +2375,9 @@ Di peyvên ji zimanên ewropî hatine wergirtin de divê I bi bê sedem neyê gu
 
 Di destpêka hin peyvên wergirtî de zêdekirina Î ne hewce ye, ji ber ku kurmancî dikare gelek komên konsonantan qebûl bike: *stran, stêr, stasyon, statistîk, stadyûm*. Ji ber vê yekê formên bi Î-ya zêdekirî ne her dem pêwîst in.
 
-Nivîsîna li gor etîmolojiyê divê dengên heyî yên kurmancî tune neke. Mînakeke nîqaşkirî *bira* ye: berawirdkirina bi zimanên xizm dikare formên kevn nîşan bide, lê standarda îroyîn divê li ser dengnasî û axaftina kurmancî ya niha were avakirin. Nivîsîn divê ne li ser texmîna tenê ya etîmolojîk be.
+Nivîsîna li gor etîmolojiyê divê dengên heyî yên kurmancî tune neke. Mînakeke nîqaşkirî *bira* ye: di zimanên dûr de formên bê vokal wek sanskrîtî *bhrat*, latînî *frater*, îngilîzî *brother* û swêdî *bror* hene; lê zimanên îranî yên nêzîk wek farisî *berader*, belûçî *berat* û tacikî *barador* vokalekê diparêzin. Ji ber vê yekê divê nivîsîna kurmancî *bira* li gor dengnasî û axaftina niha were parastin, ne ku bi texmîna etîmolojîkî bibe *bra*.
+
+Çavkaniyê herwiha cudahiya *germ* û *kevn* bi nimûneya zêdebûna I-ya alîkar rave dike: herdu peyv dikarin di gotina serbixwe de wek *ge-rim* û *ke-vin* bên bilêvkirin, lê I di rastnivîsînê de nayê nivîsîn. Di etîmolojiya *germ* de di navbera R û M de vokal tune ye (berawird bike bi farisî *germ*, sanskrîtî *gherma-*, ermenî *cerm*, îngilîzî *warm*, swêdî *varm* û latînî *formus*). Lê di *kevn* de di formên kevn ên zimanên xizm de vokalek di navbera V û H de hebû (farisî *kohen*, zazakî *kihan*). Ji ber vê yekê dengê I-ya ku di gotinê de tê zêdekirin bi xwe delîla hebûna wê di rehê peyvê de nîne.
 
 Di hesabkirina çavkaniyê de rêjeya Î **4,2%** e û di rêza nehemîn a herfên kurmancî de ye. Î di paşpirtikên navdêrsaz (*azadî*), rengdêrsaz (*havînî, kurdî*), partîsîpî (*girtî, tirsandî*) û di cînavên *kî, wî, vî* de jî tê dîtin. Di hin devokên ne-navendî de formên *hiro, iro, iroke, hîro, evro, evroke* li cihê *îro* hene.
 
@@ -2433,7 +2435,7 @@ Di hin devokên rojhilatî de Û dikare bibe Î; di hin deveran de qonaxên nav�
 
 Di hin deveran de di navbera formên bi Û, Ü û Î de qonaxên navîn hene. Ev guherîn hem di peyvên xwemalî hem jî di peyvên wergirtî de tê dîtin.
 
-Çavkaniyê herwiha guherîna Î+Y → IY di nivîsîna standard de bi nîqaşa *çiya/çîya*, *diyar/dîyar*, *jiyan/jîyan* û formên lêkerî *kir-i-ye, got-i-ye, hat-i-ye* şîrove dike. Pêşniyara nivîskar parastina awayê I berî Y ye, ji ber ku nivîser nikare di her peyvê de bi ewlehî diyar bike rehê wê I ye an Î. Eger Î di rehê peyvê de hebe, di çemandinê de Î-yeke din nayê zêdekirin: *Elî → mala Elî*, *tu hatî* (ne *tu hatiyî*), *tu dijî* (ne *tu dijiyî*). Di vê nîqaşê de çavkaniyê diyar dike ku *diyar* ji rehê *dî-* û *jiyan* ji rehê *jî-* hatiye, lê di *çiya* de nayê zanîn ka di rehê wê de I ye an Î. Formên lêkerî *kir-i-ye, got-i-ye, hat-i-ye* bi *kir-i-bû, got-i-bû, hat-i-bû* tên berawirdkirin; ji ber vê yekê nivîsîna *kirîye/gotîye* li hember *kiriye/gotiye* ne herdem bi bingeheke etîmolojîkî tê piştrastkirin.
+Çavkaniyê herwiha guherîna Î+Y → IY di nivîsîna standard de bi nîqaşa *çiya/çîya*, *diyar/dîyar*, *jiyan/jîyan*, *siyaset/sîyaset*, *xiyanet/xîyanet* û formên lêkerî *kir-i-ye, got-i-ye, hat-i-ye* şîrove dike. Pêşniyara nivîskar parastina awayê I berî Y ye, ji ber ku nivîser nikare di her peyvê de bi ewlehî diyar bike rehê wê I ye an Î. Eger Î di rehê peyvê de hebe, di çemandinê de Î-yeke din nayê zêdekirin: *Elî → mala Elî*, *tu hatî* (ne *tu hatiyî*), *tu dijî* (ne *tu dijiyî*). Di vê nîqaşê de çavkaniyê diyar dike ku *diyar* ji rehê *dî-* û *jiyan* ji rehê *jî-* hatiye, lê di *çiya* de nayê zanîn ka di rehê wê de I ye an Î. Formên lêkerî *kir-i-ye, got-i-ye, hat-i-ye* bi *kir-i-bû, got-i-bû, hat-i-bû* tên berawirdkirin; ji ber vê yekê nivîsîna *kirîye/gotîye* li hember *kiriye/gotiye* ne herdem bi bingeheke etîmolojîkî tê piştrastkirin.
 
 ## 10. Î di çemandinê de û têkiliya wê bi Y re
 
@@ -2474,6 +2476,8 @@ Kesre ya kurt a erebî gelek caran bi I tê nîşandan:
 
 Lê di hin peyvan de Î li cihê kesre jî tê dîtin:
 - *îslam, însan, îbadet, îlac*.
+
+Di navên mirovan de I dikare bikeve an cihê xwe biguherîne: *Isma'îl → Simaîl → Simayl → Simo → Simko* û *Ibrahîm → Birahîm → Birehîm → Birayîm → Birho → Biro*. Di peyvên din de jî ketina I tê dîtin, wek *ittifaq → tifaq*.
 
 Di peyvên ji zimanên ewropî hatine wergirtin de parastina I ya çavkaniyê bi gelemperî maqûltir e; divê Î li destpêka peyvê bê sedem neyê zêdekirin:
 - *stasyon, statistîk, stadyûm* (ne *îstasyon, îstatîstîk, îstadyûm*);
