@@ -2635,6 +2635,16 @@ Di tabloya çavkaniyê de komê **-XT** hem di lîsteya peyvên esil-îranî (r.
 
 Herçend piraniya komên konsonantî ji du konsonantan pêk tên, di kurmancî de hin komên sêkonsonantî jî hene. Çavkaniyê sê nimûneyên sereke dide: **STR-** di *stran* û *stratejî* de; **-YŞT** di *heyşt* de, ku tenê di hin devokan de tê gotin û li gelek deveran *heşt* tê bikaranîn; û **-KST** di *tekst* de.
 
+## Têbîniyên pêrawejan 159–165
+
+- **159:** K di kurmancî û zazakî de dikare du fonemên cuda nîşan bide: [kʰ] (bihilm/aspirated) û [k] (bêhilm/unaspirated). Çavkaniyê nimûneyên *kurd, kar, sekinîn* û *kurmanc, kes, kîr* dide; ev cudahî ji cudahiya K, G û Q cuda ye.
+- **160:** Çavkaniyê pêşketina dîrokî ya T→D di tirkî de bi *dün* ji *tün* û *odun* ji *otun* ronî dike.
+- **161:** Wateyên *qenc* û *qelen* ji formên tirkî yên kevn *kenç* û *kelin* hatine guhertin; *qenc* wateya «baş» û *qelen* wateya pereyê zewacê dide.
+- **162:** Rêgeza K→Q di wergirtina peyvên tirkî de bi vokala paşîn girêdayî ye; çavkaniyê îstîsnayên wek *qîz* ji *kız*, *qere-* ji *kara* û *qezenc* ji *kazanç* jî destnîşan dike.
+- **163:** *kon/kûn* ji rêgeza giştî ya K→Q îstîsna ye. *kol* û *qol* jî di kurdî de li gor wate û devokê herdu forman hene.
+- **164:** Guherîna Q di hin peyvên ji erebî wergirtî de bi bandora tirkî û bi taybetî zimanê nivîskî yê tirkî ve tê girêdan.
+- **165:** Di nimûneyên Q→X de *wext* forma berbelav e û *weqt* kêm e; *nexş* û carinan *neqş* tên dîtin; *rexs* û *reqs* herdu hene, lê *reqs* berbelavtir e.
+
 ## Çavkanî
 
 Husein Muhammed, *Dengnasî di kurdî de*, rûpelên çapkirî **233–250**.
