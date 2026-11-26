@@ -138,6 +138,12 @@ for required in (
 assert "berî vokalên **A û O**" in lesson26, "Lesson 26 Turkish K scope must remain A/O"
 assert "berî vokalên paşîn **A, I, O, U**" not in lesson26, "Lesson 26 overgeneralizes the Turkish K scope"
 
+lesson5_match = re.search(r"(?ms)^# Dersa 5 —.*?(?=^# Dersa 6 —)", source)
+assert lesson5_match, "Lesson 5 authoring section is missing"
+lesson5 = lesson5_match.group(0)
+for required in ("*waN kesaN*", "*wa kesa*", "*kitêbêN miN*", "*kitêbê mi*", "*kitêbêT mi[N]*", "*kitêbêD mi[N]*", "53 001", "100,43%"):
+    assert required in lesson5, f"Lesson 5 is missing source detail or discrepancy note: {required}"
+assert "| E | 11,6% | 6 121 |" in lesson5 and "| F | 0,26% | 138 |" in lesson5, "Lesson 5 letter-frequency table endpoints are missing"
 lesson6_match = re.search(r"(?ms)^# Dersa 6 —.*?(?=^# Dersa 7 —)", source)
 assert lesson6_match, "Lesson 6 authoring section is missing"
 lesson6 = lesson6_match.group(0)
