@@ -438,3 +438,5 @@ for required in (
     assert required in lesson11, f"Lesson 11 is missing source-backed detail: {required}"
 assert "https://en.wikipedia.org/wiki/File/" not in lesson11, "Lesson 11 must not add audio dependencies"
 assert "pêraweja 103" in lesson11.lower() and "pêraweja 108" in lesson11.lower(), "Lesson 11 source footnote coverage is incomplete"
+
+assert "| *ka* | Li kû ye? | *ka* | Giyayê hişkkirî |" in lesson11, "Lesson 11 K aspiration minimal-pair table is missing"
