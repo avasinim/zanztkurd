@@ -153,3 +153,14 @@ When implementation is authorized and performed in a local project checkout, cre
 - **Do not commit the generated artifact yet:** although generation succeeded and structural spot-checks passed, course-page link integration and page-range semantics remain failing/ambiguous. Keep the generated artifact as a review output until the validator and navigation model are corrected and the full CI sequence passes.
 - Temporary workflow modifications and diagnostic steps exist only on PR #90's test branch. They are not part of the implementation branch and must be removed before that test branch is used for any integration.
 - No live site, main branch, production database, student data, migration, publication or course activation was changed.
+
+
+## Generated preview integration and full CI validation — 2026-11-26
+
+- Regenerated all 27 HTML lesson previews and the JSON payload from the canonical authoring Markdown using `scripts/generate_dengnasi_previews.py --write`. The 28 generated artifacts were committed to the implementation branch in commit `c10b2a775842a864808d87f8b7b4db879f2de67e`.
+- A subsequent CI run verified `--check` against the committed files and reported all generated artifacts current. It also passed the revised course-map validator and public PDF delivery/checksum/page-count check.
+- Browser regression suite passed all 8 tests: all 27 routes load their matching authored payload; anonymous auth redirect; enrolled lesson access; locked sequence behavior; legacy PDF fail-closed; non-enrolled enrollment redirect; query-error/missing-row safe states; site-owner bypass.
+- The test fixture now explicitly mocks the shared local progression sync and server owner state, preventing the local fallback gate from redirecting tests to lesson 1 before the server-authoritative gate can be tested. This is test-only; production progression logic was not changed.
+- The corrected page metadata remains intentionally distinct: Lesson 14 printed pages 168–185, original PDF pages 168–186, designed PDF pages 185–203; Lesson 15 printed pages 186–202, original PDF pages 187–202, designed PDF pages 205–220 with divider page 204.
+- CI runs `45775488081` and `45775625220` completed successfully. The latter used `--check` and confirmed the committed generated artifacts already match the source. The sync step made no additional changes.
+- The reader and course hold page remain non-indexable / under preparation. No course activation, production database write, migration, student-data change, deployment, main-branch update, or PR merge was performed.
