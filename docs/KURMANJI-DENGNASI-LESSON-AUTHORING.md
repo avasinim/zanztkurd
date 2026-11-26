@@ -29,8 +29,8 @@
 | 11 | Dengên K û L | 133–146 |
 | 12 | Dengên M û N | 147–154 |
 | 13 | Dengên P û Q | 155–167 |
-| 14 | Dengên R û S | 168–186 |
-| 15 | Dengên Ş û T | 187–202 |
+| 14 | Dengên R û S | 168–185 |
+| 15 | Dengên Ş û T | 186–202 |
 | 16 | Dengên V, W, Y û Z | 203–232 |
 | 17 | Eyn, K/G/Q û cotkonsonant | 233–250 |
 | 18 | Vokalên A û E | 251–269 |
@@ -1602,7 +1602,7 @@ Di peyva *mîras* de S-ya ku ji dengê didanî [θ] hatiye, di kurdî de di form
 
 ## Çavkanî
 
-Husein Muhammed, *Dengnasî di kurdî de*, rûpelên çapkirî 168–186.
+Husein Muhammed, *Dengnasî di kurdî de*, rûpelên çapkirî 168–185.
 
 
 # Dersa 15 — Dengên Ş û T
@@ -1727,7 +1727,7 @@ T di hin peyv û devokan de bi Ç diguhere: *pate/paçe*, *têşt/çêşt* (taş
 
 ## Çavkanî
 
-Husein Muhammed, *Dengnasî di kurdî de*, rûpelên çapkirî 187–202.
+Husein Muhammed, *Dengnasî di kurdî de*, rûpelên çapkirî 186–202.
 
 ---
 
@@ -3011,7 +3011,7 @@ KL-ya standard 31 herf hene:
 
 **a, b, c, ç, d, e, ê, f, g, h, i, î, j, k, l, m, n, o, p, q, r, s, ş, t, u, û, v, w, x, y, z.**
 
-Di dîrokê de awayên nivîsîna KL guherîne. Di hin berhemên kevn de li şûna **i, î** nîşanên **ı, i** hatine bikaranîn. Di hin nivîsan de **ç, ş** bi **ch, sh** an **č, š** hatine nivîsîn; **j** carinan li şûna **c**, û **zh** jî li şûna **j** hatiye bikaranîn. Ji ber sedemên teknîkî, **ê** carinan wek **é**, û **û** wek **ú** an **ü** hatiye nivîsîn. Hin nîşanên taybet ên H û X jî di hin berheman de hatine bikaranîn, lê di standarda îroyîn de H û X tên nivîsîn.
+Di dîrokê de awayên nivîsîna KL guherîne. Di hin berhemên kevn de li şûna **i, î** nîşanên **ı, i** hatine bikaranîn. Di destpêka bikaranîna KL di rojnameya Hawarê de, dengên **k** û **q** carinan bi hev hatine guherandin: *kurd* wek *qurd* û *qenc* wek *kenc* hatiye nivîsîn. Di hin nivîsan de **ç, ş** bi **ch, sh** an **č, š** hatine nivîsîn; **j** carinan li şûna **c**, û **zh** jî li şûna **j** hatiye bikaranîn. Ji ber sedemên teknîkî, **ê** carinan wek **é**, û **û** wek **ú** an **ü** hatiye nivîsîn. Hin nîşanên taybet ên H û X jî di hin berheman de hatine bikaranîn, lê di standarda îroyîn de H û X tên nivîsîn.
 
 KE-ya standard 33 nîşanên herfî hene; heke koma herfî ya ku ji du nîşanên W-yê pêk tê wek nîşaneke serbixwe bê hesibandin, hejmar dibe 34. Di nivîsên kevn de awayê nîşandana hin vokalan cuda bû: vokalên kurt **e, u** bi gelemperî wek îro nehatine nîşandan, û **û** û **o** jî dikaribûn bi **w/u** bên nivîsîn. Hin dengên ku îro bi **ê, v, ç, g, j, p** tên nîşandan, di hin nivîsên kevn de bi herfên din hatine nivîsîn.
 
@@ -3027,7 +3027,7 @@ Di KL de herfên biçûk û mezin hene; herf ji hev cuda dimînin û bi hev ve n
 | Şêweyên herfan | Gir û hûr | Serbixwe, destpêkî, navîn, dawîn |
 | Vokal | Heşt vokal bi herfên xwe | Hin vokal bi herfên cuda, hin bi nîşanên hevbeş an neyekser |
 
-Di KL de heşt vokal bi awayên **a, e, ê, i, î, o, u, û** tên nivîsîn. Di KE de hin vokal bi nîşanên xwe tên diyarkirin; lê **i** bi awayekî rasterast nayê nivîsîn. Herwiha **î** û **y** bi heman herfê, û **u** û **w** jî bi heman herfê tên nîşandan. **Û** bi du nîşanên **u/w** tê nivîsîn. Ji ber vê yekê peyvên wek *kirin, bîr, kurd, mû* di KE de dikarin bi awayên kurtir bên nivîsîn.
+Di KL de heşt vokal bi awayên **a, e, ê, i, î, o, u, û** tên nivîsîn. Di KE de hin vokal bi nîşanên xwe tên diyarkirin; lê **i** bi awayekî rasterast nayê nivîsîn. KE, ji bilî **i**, vokalên kurt jî nîşan dide; ev ji alfabeyên erebî û farisî yên giştî cuda ye, ku bi gelemperî **e, i, u** nîşan nadin, tenê di hin rewşên dawiya peyvê de. Herwiha **î** û **y** bi heman herfê, û **u** û **w** jî bi heman herfê tên nîşandan. **Û** bi du nîşanên **u/w** tê nivîsîn. Ji ber vê yekê peyvên wek *kirin, bîr, kurd, mû* di KE de dikarin bi awayên kurtir bên nivîsîn.
 
 Di KE de herfên **H, X, L, R** ji bo hin dengên cuda nîşanên cuda hene; di KL de ev cudahiyên dengî bi gelemperî bi heman herfê tên nivîsîn. Di KE de dengê eyn jî herfa xwe ya serbixwe heye; di KL de ew carinan nayê nivîsîn an bi apostrofê tê nîşandan, wek *Elî* an *'Elî*. Herwiha vokalên KE li destpêka peyvê nîşana destpêkî ya taybet digirin; ev herf dikare di hin cihan de rola dengê **i** jî bigire, herçend bikaranîna wê bi vî erkî kêm e.
 
@@ -3375,7 +3375,7 @@ Di gelek peyvan de li cihê B ya kurmancî û soranî, di devokên başûrî de 
 | xirab | xerap | xiraw |
 | xerîb | xerîb | xerîw |
 
-Li gorî şîroveya dîrokî ya çavkaniyê, kurdiya başûrî di peyvên xwemalî de W parastiye; di kurmancî, soranî û farisî de ev deng di gelek peyvan de bûye B. Di peyvên ji erebî wergirtî de jî başûrî B dike W, lê kurmancî û soranî gelek caran B diparêzin. Çavkaniyê têbînî dike ku di hin devokên kurmancî yên Serhed û Navenda Anatolyayê de jî B ya piştî vokalan di hin peyvên ji erebî wergirtî de dikare bibe W an V; wek *kitêw* û *kitêv*. Ev têbînî ji berawirdkirina giştî ya kurmancî re cuda ye û wek varyanteke deverî divê were fêmkirin.
+Li gorî şîroveya dîrokî ya çavkaniyê, kurdiya başûrî di peyvên xwemalî de W parastiye; di kurmancî, soranî û farisî de ev deng di gelek peyvan de bûye B. Di peyvên ji erebî wergirtî de jî başûrî B dike W, lê kurmancî û soranî gelek caran B diparêzin. Çavkaniyê herwiha dibêje ku B/P ya piştî vokalan di kurmancî de bûye V/W û di soranî de W. Bo nimûne, pehlewî *sêp* di farisî de bûye *sêb*, lê di kurmancî de *sêv* û di soranî de *sêw*; herwiha *şeb/şev/şew* û *x(v)ab/xew* nimûne ne. Di peyvên ji erebî wergirtî de kurmancî û soranî gelek caran B ya piştî vokalan diparêzin, lê başûrî wê dike W. Çavkaniyê têbînî dike ku di hin devokên kurmancî yên Serhed û Navenda Anatolyayê de jî B ya piştî vokalan di hin peyvên ji erebî wergirtî de dikare bibe W an V; wek *kitêw* û *kitêv*. Ev têbînî ji berawirdkirina giştî ya kurmancî re cuda ye û wek varyanteke deverî divê were fêmkirin.
 
 ## 3. V ya kurmancî û W an M ya başûrî
 
@@ -3969,6 +3969,8 @@ Di kesê duyem ê yekhejmar de formên wek *tu dişê-y-î* û *tu di-jî-yî* t
 
 Di pêkhateya **pêşgir + reh** de Y hema-hema qet nayê bikaranîn: *ne + anîn → neanîn*; *na + avêjim → naavêjim/navêjim*; *di + êşînin → diêşînin/dêşînin*; *bi + ecibîne → biecibîne*. Y di hin formên neyînî yên lêkera *anîn* de dikare were dîtin, wek *na + îne → nayîne* û *ne + înin → neyînin*, lê ev form kêm in. Formên din ên serdest dikarin hiyatusê biparêzin an H zêde bikin: *naîne, neînin, nahîne, nehîne*.
 
+Têbînîya çavkaniyê: li rûpela çapkirî ya 426ê şêweya *neyînîn* hatiye çapkirin; di şîroveya piştî wê de *neînin* û *neyne* jî wek formên serdest hatine gotin. Cudahiya nivîsînê tê tomarkirin; forma çapkirî bê delîl nayê guhertin.
+
 Zêdekirina Y di nivîsînê de nayê wê wateyê ku ew her tim di axaftinê de tê gotin. Di hin devokên rojhilatî de herdu vokal dikarin bimînin bêyî ku Y were bilêvkirin; wek *biraê min* li şûna forma kurtkirî *birê min*.
 
 ## 8. Rola H
@@ -4005,6 +4007,8 @@ Bikaranîna T bi paşgira Î re berbelav bûye, heta di peyvên ku hiyatus tune 
 ## 10. Rola N
 
 Di kurmancî de hin peyv cotform hene ku di yekê de N ya dawiyê heye û di ya din de tune ye, wek *çawa/çawan*, *wisa/wisan* û *dîsa/dîsan*. Çavkaniyê rave dike ku N ya dawiyê dikare di destpêkê de ji bo rêgirtina li ber hiyatusê hatibe bikaranîn: forma bê N dema ku peyva paşê bi konsonantê dest pê dike, û forma bi N dema ku peyva paşê bi vokalê dest pê dike.
+
+Têbînîya çavkaniyê: li rûpela çapkirî ya 428ê di lîsteya cotforman de *dîsa, dîsa* dubare hatiye nivîsîn; lê li rûpela 429ê nivîskar cotforma *dîsa/dîsan* bi awayekî zelal dide. Ev nakokiya çapkirinê hatiye tomarkirin.
 
 - *Tu çawa hatî?* — peyva paşê bi konsonantê dest pê dike.
 - *Tu çawan î?* — peyva paşê bi vokalê dest pê dike.
