@@ -2710,6 +2710,11 @@ Di peyvên ji tirkî wergirtî de, K berî vokalên paşîn carinan di kurmancî
 
 Di hin peyvên ku bi eslê xwe îranî ne de jî Q heye, wek *quling, quz* û *qûn*; nivîskar dibêje ku di hin ji van peyvan de Q li şûna K hatiye. Çavkaniyê îstîsnayên rêgeza K→Q jî destnîşan dike, wek *kon/kûn*; herwiha peyva *kol/qol* li gorî wate û devokê bi herdu awayan hatiye parastin. Di hin devokên kurmancî de *fakihe* bûye *fêkî* an *fêqî*. Di peyvên ji zimanên Ewropî yên nû wergirtî de, nivîsa standard zêdetir K tercîh dike, wek *kamera, Amerîka* û *Afrîka*. Çavkaniyê herwiha guhertina K/G li gorî devokan û zaravayan nîşan dide: *çok/çong*, *kal/gal*; di hin pêşpirtik û paşpirtikên kurdiya başûrî de G li hemberî K-ya kurmancî û K-ya soranî tê, wek *nêzîk/nizîk/nizîg* û paşpirtika *-ek/-êk/-êg*.
 
+
+### Q di peyvên bi eslê xwe Ewropî de
+
+Pirtûk du qonaxên deynkirina Q di peyvên bi eslê xwe Ewropî de ji hev cuda dike. Hin peyv ji mêj ve di kurdî de cih girtine û bi rêya erebî hatine; di erebî de K-ya wan bûye G an Q, berî ku peyv bigihîje kurdî. Nimûneyên çavkaniyê *qanûn, qelem, qilf, qumaş* in. Di peyvên nû yên Ewropî de jî Q dikare bi rêya erebî an tirkî derkeve, wek formên kevn *qamyon, parq, banq, demoqrat, qamera, Amerîqa, Afrîqa*. Lê nivîsa standard a niha zêdetir K tercîh dike: *kamyon, park, bank, demokrat, kamera, Amerîka, Afrîka*. Ev mînak nîşan dide ku formên dîrokî û pêşniyara standarda niha divê ji hev cuda bên nîşandan.
+
 ## 3. Cotkonsonant di kurmancî de
 
 Cotkonsonant ew kom e ku du konsonant bêyî vokalekê li pey hev, di heman kîteyê de tên. Di peyvên wek *kurd, reng, kerb, text, evd* û *blok* de nimûneyên wê hene. Hin kom di peyvên xwemalî de jî tên dîtin; hinên din bi taybetî di peyvên ji erebî an zimanên Ewropî wergirtî de xuya dibin. Çavkaniyê tabloyekê ji bo hemû cotkonsonantên gengaz di kurmancî de pêşkêş dike; ji ber vê yekê lîsteyên jêrîn nimûneyên koman in, ne ku her yek ji wan tenê di yek eslê peyvan de hebe.
@@ -2854,7 +2859,35 @@ Herçend piraniya komên konsonantî ji du konsonantan pêk tên, di kurmancî d
 | **-YS** | *heys (heysûbeys)* |
 | **-ZQ** | *rizq (risq)* |
 
-Di tabloya rêzimanî ya rûpela 243 de hin komên din tenê bi şêweya matrixê hatine nîşandan, bê ku ji bo wan di lîsteya nimûneyan de peyv were dayîn. Ev komên matrixê jî ev in: **-NC, -RC, -RÇ, -JD, -MD, -ND, -RD, -VD, -WD, -ZD, -RF, -NG, -RG, -ÇK, -SK, -ŞK, -BL, -GL, -HL, -KL, -SL, -CM, -RM, -SM, -CN, -HN, -JN, -RN, -MP, -SP, -RQ, -SQ, -WQ, -ZQ, -BR, -DR, -GR, -KR, -BS, -FS, -HS, -KS, -NS, -PS, -QS, -RS, -XS, -YS, -HŞ, -QŞ, -RŞ, -ŞT, -WŞ, -XŞ, -FT, -HT, -QT, -ST, -WT, -XT, -GW, -RX, -FZ, -MZ, -RZ, -VZ**. Dubarebûna hin koman di matrix û lîsteya nimûneyan de wek xuyangiya çavkaniyê hatiye parastin.
+Di tabloya matrixê ya rûpela 243 de herfên rêzê herfa yekem û herfên stûnê herfa duyem a komê ne. Ji bo ku tablo li ser ekranê jî were xwendin, heman agahî bi awayê komkirî hatiye veguhastin; rêzên vala yên çavkaniyê bi “—” hatine nîşandan. Ev tablo hemû cotên ku di matrixa çavkaniyê de hatine destnîşankirin diparêze, ne ku dibêje hemû di peyvên xwemalî de tên bikaranîn.
+
+| Herfa yekem | Komên di matrixa çavkaniyê de |
+|---|---|
+| **B** | **BB, MB, RB** |
+| **C** | **NC, RC** |
+| **Ç** | **RÇ** |
+| **D** | **BD, JD, MD, ND, RD, VD, WD, ZD** |
+| **F** | **RF** |
+| **G** | **NG, RG** |
+| **H** | — |
+| **J** | — |
+| **K** | **ÇK, SK, ŞK** |
+| **L** | **BL, GL, HL, KL, SL** |
+| **M** | **CM, RM, SM, ŞM** |
+| **N** | **CN, HN, JN, RN** |
+| **P** | **MP, SP** |
+| **Q** | **RQ, SQ, WQ, ZQ** |
+| **R** | **BR, DR, GR, KR** |
+| **S** | **BS, FS, HS, KS, NS, PS, QS, RS, XS, YS** |
+| **Ş** | **HŞ, QŞ, RŞ, ŞT, WŞ, XŞ** |
+| **T** | **FT, HT, QT, ST, WT, XT** |
+| **V** | — |
+| **W** | **GW** |
+| **X** | **RX** |
+| **Y** | — |
+| **Z** | **FZ, MZ, RZ, VZ** |
+
+
 
 ### Komên cotkonsonantî yên esil-îranî
 
