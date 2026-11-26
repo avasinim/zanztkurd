@@ -999,6 +999,64 @@ G carinan bi dengê berî xwe re dikeve hev û paşê bi temamî ji peyvê dikev
 
 Ev berawirdkirin nîşan dide ku G di kurmanciya navendî de ji dawiya peyvê ketiye. G bi taybetî dema ku li ber K tê dikare bikeve. Pirtûk nimûneyên *bang → bang kirin → ban kirin* û *deng → deng kirin → den kirin/dey(ne)kirin* dide; formên dawî yên gotinê formên kurtkirî ne.
 
+## 10. Têbînî û nimûneyên temamker ên çavkaniyê
+
+Ev beş hûrgiliyên pêrawej û tabloyên rûpelên 104–115 ên çavkaniyê diparêze. Ew nimûneyên jorîn temam dike, lê ji wan rêzikên bêîstîsna dernaxe.
+
+### F û P: formên din ên dîrokî
+
+Di tabloya çavkaniyê de, ji bilî nimûneyên jorîn, ev berawirdkirin jî hene:
+
+| Kurmancî | Farisî | Pehlewî | Avestayî |
+|---|---|---|---|
+| ferman | ferman | freman | fremeyne- |
+| berf / befr | berf | vefr | vefre- |
+| fireh | ferax | ferax | freθeh- |
+| kef (kefa ser avê) | kef | kef | kefe- |
+
+Çavkaniyê herwiha diyar dike ku *kefa destan* ji heman rehê *kefa ser avê* nîne; ew ji erebî hatiye. Di berawirdkirina *heft* de, formên *hêpta, septan, septem* û *septyni* bi P-ya kevn têne nîşandan. Di hin zimanên germenî de P-ya destpêkî bûye F, lê peyvên paşê ji latînî wergirtî dikarin P biparêzin.
+
+### P-ya erebî û proto-samî
+
+Çavkaniyê ji bo peyvên bi eslê îranî yên ku di erebiya kevn de bi F hatine nivîsîn, ev nimûneyên din dide: *funduq* (ji yûnaniya *pandokeîon*), *felsefe* (ji yûnaniya *philosophîa*), li gel *fîrdews, fenn, fincan, fûlað*. Di erebiya niha de P-ya peyvên nû yên biyanî dikare bi B were nûnerandin: *parlement → berleman*. Di proto-samî de jî F tune bû û li cihê wê P hebû; çavkaniyê *fellah* bi rehê *p-l-h* û forma aramî *pale* re girê dide.
+
+### F û H/W/B: têbîniyên sînorî
+
+- Ji bilî nimûneyên FT/WT yên jorîn, çavkaniyê formên *kulav, kevn* ên kurmancî li hember farisî *kolah, kohen/kohnê* dide; ev têkiliya F/H rasterast nîne, lê bi rêya H/V tê şîrovekirin.
+- Di pêraweja 81 de nivîskar dibêje ku guherîna L/R di kurdî de berbelav e û ketina C/G/D ji dawiya peyvê jî diyardeyeke nas e; nimûneya *rewa* ji *rewag/rewac* hatiye dayîn. Ev têbînî ji beşa F re girêdayî ye, lê wek şîroveya giştî ya guherînên dengî tê parastin.
+- Nimûneya *vala/vale* bi îhtîmalên *faric* (erebî), *barab* (ermenîya rojavayî) û *parap* (ermenîya rojhilatî) tê şîrovekirin; çavkaniyê yek ji wan wek etîmolojiya piştrast hilnabijêre.
+
+### G û tabloya berawirdkirina dîrokî
+
+Çavkaniyê ji bo hin peyvên bi G-ya kevnar, ev tablo û pêrawejên wê dide:
+
+| Ziman | *gav* | *giran* | *girtin* |
+|---|---|---|---|
+| Kurmancî | gav | giran | girtin |
+| Soranî | (hen)gaw | giran | girtin |
+| Farisî | gam | giran | giriften |
+| Pehlewî | gam | geran | gir- |
+| Avestayî | gamen | gowro | greb-, gerib- |
+| Sanskrîtî | gaççati | gurû | grebh- |
+| Yûnaniya kevn | — | baru | — |
+| Latînî | venio | gravis | — |
+| Lîtwanî | gimti | — | — |
+| Îngilîzî | come | — | grab |
+
+Pêrawejên çavkaniyê:
+- Reha *gav* di proto-hindûewropî de *gwem-* bûye û wateya “hatin, gav avêtin” dide. Di hin zimanan de ev reh bi G, di hinan de bi V/W hatiye parastin.
+- *gimti* wateya “zanîn, zayîn” an “hatin dinyayê” dide.
+- *come* ya îngilîzî wek *kam* tê xwendin; G di vê peyvê de bûye K.
+- Di berawirdkirina *gul* de çavkaniyê farisî *gol*, pehlewî *gil* û avestayî *veridhe* dide; ji bo koma *gu-neh / bi-nas* jî farisî *go-nah* û avestayî *vi-nas* qeyd dike.
+- Ji bo *gotin*, formên soranî *wutin/gutin*, hewramî *watey* û zazakî *vatene* hatine dayîn. Ji bo *germ*, îngilîzî *warm* hatiye berawirdkirin.
+
+### G/K û têkiliyên peyvî
+
+Di pêrawejên 87–89 de:
+- *reh/rih* û soranî *reg* bi reha peyvê ve girêdayî ne.
+- “kurdiya başûrî” di vê çavkaniyê de devokên Feylî, Kelhurî û Kirmaşanî vedigire.
+- Li ser têkiliya *qenc/genc*, çavkaniyê peyvên *ciwan* û *law* jî dide; di hin devokan de ew dikarin wateya “xort” û di hinên din de wateya “xweşik, delal, spehî, rind” bidin.
+
 ## Çavkanî
 
 Husein Muhammed, *Dengnasî di kurdî de*, rûpelên çapkirî 104–115.
