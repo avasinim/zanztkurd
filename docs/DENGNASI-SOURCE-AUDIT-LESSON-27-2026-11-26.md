@@ -20,7 +20,7 @@ The source citation and page range agree. The section contains two major source 
 - Movable N, dialectal plural forms and R in Sorani/Southern Kurdish (pp. 428–429).
 - Hiatus avoidance across word boundaries, the French example, copula forms, and Î → Y / U-Û → W developments (pp. 430–432).
 
-## Source-backed details to restore or clarify
+## Source-backed details restored in authoring and generated previews
 
 1. **The forecast about loss of the contrast (p. 418):** the source predicts that if current contact pressure continues, the aspiration contrast could disappear within a century, leaving aspirated forms at word beginnings and unaspirated or semi-aspirated forms medially/finally. The authored lesson says the contrast may weaken but omits this specific forecast and resulting distribution.
 2. **Etymology of “hiatus” (p. 419):** the source gives the Latin origin and glosses it as a gap, cleft or opening. The lesson defines the phonological phenomenon but omits this etymological note.
@@ -41,4 +41,4 @@ The source citation and page range agree. The section contains two major source 
 
 ## Limits
 
-This is a targeted audit of source sequence, examples, footnotes and qualifications, not native-speaker certification. The details above require restoration or clarification in the authoring source and synchronized preview/payload. The full generator and validator have not yet been executed. No activation, deployment, main-branch change, PR merge, production database change, Supabase migration, or student-data operation was performed.
+This is a targeted audit of source sequence, examples, footnotes and qualifications, not native-speaker certification. The details above have been restored or clarified in the authoring source and synchronized Lesson 27 HTML preview and JSON payload. The source table is retained with its examples and explicit warning about the unclear repeated row labels; no uncertain labels were reconstructed by guesswork. The full generator and validator have not yet been executed locally or by CI for this final commit. The Lesson 27 authoring section, generated HTML preview, and JSON payload were fetched back from the branch and checked for matching restored content; the preview contains the rendered vowel-combination table. No activation, deployment, main-branch change, PR merge, production database change, Supabase migration, or student-data operation was performed.
