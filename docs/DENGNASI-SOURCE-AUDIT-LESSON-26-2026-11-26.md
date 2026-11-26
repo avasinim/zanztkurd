@@ -43,6 +43,21 @@ The following points are not sufficiently represented in the current authored le
 - On p. 407, the source first describes the emphatic contrast as P and T (excluding K and T), then says K and P in the next sentence. The authored lesson flags the inconsistency and limits the comparison to the P/T examples actually supplied.
 - The author’s historical explanations are presented as hypotheses, not established facts. The lesson should retain that epistemic distinction.
 
+## Reconciliation against the current authoring source and preview
+
+A subsequent read-back of the current branch's Lesson 26 authoring section and generated standalone HTML preview confirms that all eight items listed above are now represented in both artifacts:
+
+1. The Turkish **U** qualification is present, including the note about Arabic loanwords.
+2. The *beran, erzan* and *guherandin* vowel-harmony examples are present.
+3. The Turkish K articulation statement is limited to **A û O**, rather than all back vowels.
+4. The full **BL, BR, FL, FR, KL, KR, PS, KST** inventory and its examples are present.
+5. The listed Armenian-origin examples are present.
+6. The source footnote qualification about Armenian settlement and Kurdish language acquisition is present.
+7. The *çi, ker* and *ti/tu* examples are present.
+8. The historical uncertainty concerning Sorani, Southern Kurdish and Hawrami is present, including the source's conclusion that the historical evidence is insufficient to prove or disprove it.
+
+The authoring source and Lesson 26 HTML preview were checked for these terms and qualifications after retrieval from the branch. The earlier eight-point list above is therefore a record of omissions identified during the initial audit, not a description of the current content state. The JSON payload and preview regeneration check still need to be run after the final authoring edits; the full course validator has not yet been observed passing on the latest branch state.
+
 ## Release and validation limits
 
-This is a targeted source audit, not sentence-by-sentence peer review or native-speaker certification. The eight items above require restoration/correction in the authoring source and synchronized generated artifacts. The full generator and validator have not yet been executed in this pass. No course activation, deployment, main-branch change, PR merge, production database change, Supabase migration, or student-data operation was performed.
+This is a targeted source audit, not sentence-by-sentence peer review or native-speaker certification. The eight initially identified omissions have been restored in the current authoring section and standalone HTML preview. Automated regeneration/payload parity and the full validator still require a fresh run against the latest branch state. No course activation, deployment, main-branch change, PR merge, production database change, Supabase migration, or student-data operation was performed.
