@@ -99,6 +99,28 @@ assert lessons[15]["title"] == "Dengên V, W, X, Y û Z", "Lesson 16 title must 
 assert "- **-RC, -RÇ, -RD, -RF, -RG, -RM, -RN, -RŞ, -RS, -RX, -RZ**" in source, "Lesson 17 is missing source cluster -RŞ"
 assert "*ferş, merş, marş*" in source, "Lesson 17 is missing source examples for cluster -RŞ"
 
+lesson22_match = re.search(r"(?ms)^# Dersa 22 —.*?(?=^# Dersa 23 —)", source)
+assert lesson22_match, "Lesson 22 authoring section is missing"
+lesson22 = lesson22_match.group(0)
+for required in (
+    "L-ya qelew",
+    "*welat*",
+    "*sal*",
+    "*wê salê*",
+    "*sala 2013*",
+    "*milet*",
+    "*mela*",
+    "herfa **ł**",
+    "du L bên nivîsîn",
+    "yek L tercîh dike",
+    "heywan",
+    "kesê ku baş nabihîze",
+    "*Ew kerr e*",
+):
+    assert required in lesson22, f"Lesson 22 is missing source-backed detail: {required}"
+assert "K-ya bipif û R-ya nerm" in lesson22, "Lesson 22 animal ker pronunciation contrast is missing"
+assert "K-ya nerm û R-ya şidandî" in lesson22, "Lesson 22 deaf ker pronunciation contrast is missing"
+
 lesson26_match = re.search(r"(?ms)^# Dersa 26 —.*?(?=^# Dersa 27 —)", source)
 assert lesson26_match, "Lesson 26 authoring section is missing"
 lesson26 = lesson26_match.group(0)
