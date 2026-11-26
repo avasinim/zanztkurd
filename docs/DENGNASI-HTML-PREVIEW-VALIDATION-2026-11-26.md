@@ -99,3 +99,14 @@ The 27-row payload preview is stored at `docs/previews/dengnasi-content-html-pay
 - CI run `45777982614` passed generator `--write/--check`, course-map validation, public PDF delivery/checksum/page-count, source-page extraction, and all 8 mocked Playwright browser tests. Generated preview HTML and JSON were synchronized to the isolated implementation branch.
 - Detailed findings: `docs/DENGNASI-SOURCE-AUDIT-LESSONS-19-20-2026-11-26.md`.
 - Temporary source-audit PR #93 was closed unmerged after the artifact was reviewed. No course activation, database write, migration, student-data change, deployment, publication, `main` update, or PR merge occurred.
+
+
+## Canonical lesson-title parity — 2026-11-26
+
+- Reconciled the nine reader-title mismatches against the numbered authoring H1s and manifest titles.
+- Updated the reader's embedded title values; no lesson IDs, keys, source-page ranges, or lesson body content changed.
+- Extended `scripts/validate_kurmanji_dengnasi_course.py` to assert exact title equality across authoring H1, manifest, reader array, standalone document title, and standalone H1 for all 27 lessons.
+- The first validation attempt correctly caught two stale generated artifacts (Lesson 19 preview HTML and the payload JSON). The workflow then regenerated them from the canonical authoring Markdown.
+- Full Actions run `45778867403` passed: generator `--write/--check`, course-map/PDF/page/title validator, public PDF HTTP/checksum/page-count check, and all 8 mocked Playwright tests.
+- After all checks passed, the workflow synchronized generated HTML previews and JSON to the isolated implementation branch.
+- Temporary PR #94 was closed unmerged. No main update, production/test database write, migration, course activation, deployment, publication, or student-data change occurred.
