@@ -3599,6 +3599,26 @@ Berawirdkirina dengnasî dikare hem hevdemî be, anku rewşa niha nîşan bide, 
 
 Nimûneyên ku tên dayîn formên serdest ên hilbijartî ne. Ew ne wateya wê ye ku her peyv di hemû devokên kurmancî an soranî de bi heman awayî tê gotin. Di nav her zaravayê de jî cudahiyên deverî hene. Herwiha armanca berawirdkirinê ne diyarkirina ku zaravek rasttir, kevnartir an pêşketîtir e; her zarav xwedî pergala xwe ya dengnasî ye.
 
+## 3. Pêşîna vekolînê û xebatên berî wê
+
+Çavkaniyê dibêje ku herçend cudahiyên navbera zaravayên kurdî eşkere bin, lê vekolînên zanistî û zimannasî yên ku wan cudahiyan bi awayekî rêkûpêk rave bikin kêm in. Nivîskar armanca xebatê bi berawirdkirina kurmancî bi sê zaravayên din ên sereke yên kurdî ve diyar dike: **soranî، kurdiya başûrî** (Feylî, Kelhurî, Kirmaşanî) **û zazakî**. Xebat hem hevdemî ye, ku rewşa niha ya dengan vedikole, hem jî dîrokî ye, ku rêça guherîna wan bi kurtî nîşan dide. Nivîskar eşkere dibêje ku ew naçe nav hemû qonaxên dîrokî; tenê hin guherînên bingehîn destnîşan dike.
+
+Nivîskar du sînorên girîng ên nimûneyan diyar dike:
+- Formên ku wek nimûne tên dayîn formên serdest ên hilbijartî ne. Ew nayê wê wateyê ku her peyv di hemû devokên wê zaravayê de bi heman awayî tê gotin.
+- Armanc ne ew e ku yek zarav ji yên din dûrtir, nêzîktir, kevnartir, nûtir an pêşketîtir were nîşandan. Her zarav xwedî pergala xwe ya dengnasî ye û tu zarav ne “rasttir” e.
+
+### Vekolînên berê û çavkaniyên nimûneyan
+
+Nivîskar dibêje ku berê jî di gelek berhemên rêzimanî de beşên dengnasî yên kurdî hatine nivîsîn, lê berawirdkirina rasterast a zaravayan kêm bû. Wek xebateke berê, ew behsa berawirdkirina hin devokên kurmancî û soranî ji aliyê zimannasê Brîtanî **D. N. MacKenzie** dike: *Kurdish Dialect Studies* I–II, ku ji destpêka salên 1960 ve berdest bû. Lê ew xebat tenê hin devokên kurmancî û soranî yên Başûrê Kurdistanê digire û kurdiya başûrî û zazakî nagire.
+
+Di berawirdkirina kurmancî û zazakî de, nivîskar behsa rêzimana zazakî ya **Roşan Lezgîn** û nivîsarên **Seîd Veroj** li ser berawirdkirina herdu zaravayan di kovara *War* de dike. Li gorî nivîskar, ev berhem bi berfirehî teşenasî û hevoknasî, û heta radeyekê peyvnasî vedikolin, lê berawirdkirina dengnasî di wan de hema-hema hatiye jibîrkirin.
+
+Ji bo kurdiya başûrî, nivîskar dibêje ku berhemên nivîskî kêmtir in. Wek çavkaniyeke girîng, ew kitêba **Ismaîl Kemendar Fettah** (*Ismaïl Kamandâr Fattah*), *Les Dialectes Kurdes Mérdionaux* (Devokên Kurdiya Başûrî), bi zimanê fransî destnîşan dike. Li gorî nivîskar, nêzî 160 rûpelên wê dengnasî û devokên kurdiya başûrî vedikolin, lê berawirdkirina wê bi kurmancî, soranî, zazakî û hewramî nake; zimanê fransî jî gihîştina wê ji bo gelek kurdan sînordar dike.
+
+Nivîskar encam dide ku berhemên hêja hene, lê belav û ji hev cuda ne. Vekolîna wî dixwaze çar zaravayên sereke yên kurdî li gorî hejmar û girîngiya axêveran li hev bîne û bi kurdî pêşkêş bike. Nimûneyên kurmancî û soranî ji ferheng û kitêban hatine kontrolkirin; nimûneyên kurdiya başûrî bi temamî ji kitêba Fettah hatine wergirtin; nimûneyên zazakî jî bi ferhenga Malmîsanij ya zazakî–tirkî hatine piştrastkirin.
+
+Çavkaniyê herwiha dibêje ku nivîskar berê nivîsareke li ser sê cureyên cudahiyên peyvî, teşenasî û dengnasî di navbera kurmancî û soranî de di kovara *Nûbihar*, hejmara **132**, havîna **2015** de belav kiriye. Ji bo xwendina delîlên zêdetir ên li ser dengên kurdî û guherîna wan, nivîskar xwîneran rê dide bloga **Zimannas**: https://zimannas.wordpress.com/.
+
 ## 3. V ya kurmancî û W an M ya soranî
 
 Di peyvên xwemalî yên soranî de V pir kêm e. Li hember V ya kurmancî, di soranî de bi piranî W heye:
