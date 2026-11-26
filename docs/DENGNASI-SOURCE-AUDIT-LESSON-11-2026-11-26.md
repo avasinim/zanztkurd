@@ -7,7 +7,7 @@
 
 ## Reconciliations
 
-1. Expanded the historical K section with the source's PIE comparisons, French *que* / Spanish *cuanto* comparisons, and the Old/Middle Turkish *köç* → Kurmanji *koç* contrast with modern Turkish *göç*.
+1. Restored the source's K aspiration minimal-pair table (*ka* “where?” versus *ka* “dried grass”) and expanded the historical K section with the source's PIE comparisons, French *que* / Spanish *cuanto* comparisons, and the Old/Middle Turkish *köç* → Kurmanji *koç* contrast with modern Turkish *göç*.
 2. Restored the L historical comparison tables, including *leb-/lek-* cognates, the L→R historical correspondence set, and the comparative forms across Kurdish varieties and Iranian languages.
 3. Restored the N→L dialect table and the preposition comparison (*li/lê, le, ne, ena, në, en, in*).
 4. Added the source's Hawar spelling note and notes corresponding to footnotes 103–108, including the distinctions in *lê* and the scope of the *livîn* gloss.
