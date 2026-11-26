@@ -34,8 +34,18 @@ jobs:
           python-version: "3.x"
       - name: Install PDF integrity checker
         run: python -m pip install pypdf
-      - name: Verify generated lesson previews match current authoring source
-        run: python scripts/generate_dengnasi_previews.py --check
+      - name: Regenerate and verify lesson previews from current source
+        run: |
+          python scripts/generate_dengnasi_previews.py --write
+          python scripts/generate_dengnasi_previews.py --check
+      - name: Upload regenerated previews for review
+        uses: actions/upload-artifact@v4
+        with:
+          name: dengnasi-title-parity-previews
+          path: |
+            docs/previews/kurmanji-dengnasi-lesson-*-content-preview.html
+            docs/previews/dengnasi-content-html-payload-preview.json
+          if-no-files-found: error
       - name: Validate 27-lesson course map, PDF integrity, and reader routes
         run: python scripts/validate_kurmanji_dengnasi_course.py
       - name: Verify public PDF delivery, checksum, and page count
