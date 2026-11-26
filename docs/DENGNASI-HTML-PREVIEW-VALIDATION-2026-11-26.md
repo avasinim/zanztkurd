@@ -46,7 +46,7 @@ The nine title differences identified in the earlier reconciliation have been re
 - A rollback-only replacement attempt stopped at its first fail-closed legacy-wrapper precondition. The UPDATE statement was not reached.
 - A simple `BEGIN / SELECT / ROLLBACK` probe succeeded. Read-only progression helper checks matched all six expected cases.
 - The test DB migration ledger contains two Dengnasî activation versions (`20261124093604`, `20261124112742`) without same-version migration files on this branch. The repository's `20261124130000` migration contains 27 legacy PDF iframe payloads. This drift is documented; no migration or ledger repair is authorized or needed for the already-matching test rows.
-- No real browser session test has been run. The existing Dengnasî GitHub Actions workflow only runs the static course/PDF validator; the existing Playwright workflow is for a different course pathway and stubs auth locally. It does not prove real Dengnasî Supabase authentication, enrollment, or sequence access.
+- The dedicated Dengnasi mocked Playwright suite was executed in GitHub Actions run `45776754621` and all 8 tests passed. It covers all 27 payload-to-route mappings and mocked access-gate states. It still does not prove real test-student Supabase authentication, RLS, enrollment, or live progression; those require a separate authorized test-project session.
 
 ## Browser regression suite prepared — 2026-11-26
 
@@ -54,7 +54,7 @@ The nine title differences identified in the earlier reconciliation have been re
 - Eight test cases cover: loading all 27 authored payloads into the correct lesson pages; legacy PDF iframe fail-closed behavior; anonymous redirect; non-enrolled redirect; sequence-locked lesson redirect; enrolled learner allowed by the server-side gate; site-owner bypass; and safe query-error/missing-row states.
 - Updated `.github/workflows/validate-dengnasi-course.yml` on this implementation branch so a future PR affecting the 27 lesson pages, loader, payload, or browser test installs Playwright/Chromium and runs the suite after the existing static PDF/course checks.
 - Static inspection confirms the script contains eight test cases, checks each page H1 against the payload title, checks for authored section headings, rejects iframe content, and checks `lang="ku" dir="ltr"`.
-- **Execution status: NOT RUN.** This branch has no PR carrying the workflow change, and no workflow-dispatch action is available in this session. Do not describe the Playwright suite as passing until GitHub Actions actually runs it.
+- **Execution status: PASS.** GitHub Actions run `45776754621` completed successfully; all 8 browser regression tests passed. The run also passed preview regeneration/check, course-map validation, PDF delivery/checksum/page-count, and source-page extraction.
 
 ## Catalog status reconciliation — 2026-11-26
 
@@ -66,7 +66,7 @@ The nine title differences identified in the earlier reconciliation have been re
 
 ## Remaining integration work
 
-1. Run the new Playwright suite through GitHub Actions after a reviewed draft PR is opened or another approved CI route is available.
+1. The mocked Playwright suite is complete and passing (run `45776754621`); separately run real authenticated test-project browser checks with the existing test-student secrets before making any claim about real Supabase auth/RLS/enrollment.
 2. Separately run real authenticated test-project browser checks with the existing test-student secrets; the mocked suite does not prove real Supabase auth/RLS/enrollment behavior.
 3. Recover exact source SQL/provenance for test-project migration ledger versions `20261124093604` and `20261124112742` before any migration-history decision.
 4. Reconcile the course catalog card with the under-preparation landing page; do not expose a contradictory active status.
@@ -79,3 +79,13 @@ Test-project queries were read-only except for a transaction probe rolled back i
 ## Draft payload artifact
 
 The 27-row payload preview is stored at `docs/previews/dengnasi-content-html-payload-preview.json`. Static checks confirm 27 unique sequential lesson keys, title/ID/page metadata parity with the manifest, balanced HTML, and no preview-only header, form, quiz, or input UI in the injected content bodies. Totals: 843 list items, 51 tables, and 288 table rows. Status remains DRAFT ONLY; no database write was performed.
+
+
+## Source-book audit of Lessons 18 and 21 — 2026-11-26
+
+- Extracted and reviewed the exact designed-PDF physical pages for Lesson 18 (272–290; printed 251–269) and Lesson 21 (339–371; printed 315–347).
+- Lesson 18's authored content was verified against the source's vowel articulation, distribution, historical/dialectal/inflectional alternations, and spelling recommendations; no correction was required in this pass.
+- Lesson 21's authored text was expanded only with source-backed details previously underrepresented: Sorani `key` and `xoy`; Y as a grammatical linker in `Ew mamoste ye` and `name-yek`; `hemû/hemî` stress; omitted adverb/adposition examples; Sorani `de-/e-` versus Persian `mî-`; primary stress in the final constituent; and explicit meanings for `piştî` and `gelî`. The source's Pashto comparison was also restored.
+- A mixed-script term introduced during editing was caught by the Arabic-script validator and replaced with Kurmancî Latin wording before the passing run.
+- Detailed findings: `docs/DENGNASI-SOURCE-AUDIT-LESSONS-18-21-2026-11-26.md`.
+- CI run `45776754621` passed all stages, including generator `--write/--check`, course-map validator, PDF delivery/checksum/page count, source extraction, and all 8 mocked browser tests. Generated preview HTML and JSON were synced to the isolated implementation branch.
