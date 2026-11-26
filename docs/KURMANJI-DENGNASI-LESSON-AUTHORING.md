@@ -162,7 +162,7 @@ Di hin zimanan de têkiliya herf û dengê wê yek-bi-yek nîne. Bo nimûne, di 
 
 Di alfabeya kurdî-latînî û kurdî-erebî de, wek prensîp, hevdengî rêbaza sereke nîne: peyv bi piranî li gor dengê xwe tên nivîsîn, ne li gor herfên zimanê jêder. Di nivîsîna kurdî-erebî de jî çend nîşanên ku di zimanên din de dengên cuda didin, di nivîsîna kurdî de dikarin bi yek nîşanê bên nivîsîn.
 
-Di farisî de, dengê [z] dikare bi çar herfên cuda were nivîsîn. Peyvên *zer, zikir, remezan* û *zalim* nimûneyên vê yekê ne. Ev herf di erebî de dengên cuda nîşan didin، lê ew cudahiyên dengî di farisî û kurdî de nayên parastin؛ farisî dîsa rastnivîsîna peyvên ji erebî wergirtî diparêze. Di nivîsîna kurdî-erebî de, ev herfên cuda di peyvên esil-erebî de bi Z tên nivîsîn. Di kurdî-latînî de jî peyv li gor deng tên nivîsîn؛ bo nimûne, dengê [f] di *football* û *telephone* de bi F tê nivîsîn.
+Di farisî de, dengê [z] dikare bi çar herfên cuda were nivîsîn. Peyvên *zer, zikir, remezan* û *zalim* nimûneyên vê yekê ne. Ev herf di erebî de dengên cuda nîşan didin, lê ew cudahiyên dengî di farisî û kurdî de nayên parastin; farisî dîsa rastnivîsîna peyvên ji erebî wergirtî diparêze. Di nivîsîna kurdî-erebî de, ev herfên cuda di peyvên esil-erebî de bi Z tên nivîsîn. Di kurdî-latînî de jî peyv li gor deng tên nivîsîn; bo nimûne, dengê [f] di *football* û *telephone* de bi F tê nivîsîn.
 
 Ev prensîp bê awarte nîne. Navên taybet ên biyanî gelek caran li gor nivîsîna zimanê jêder tên parastin. Bo nimûne, dengê destpêkê yê *George* û *John* bi herfên G û J tê nivîsîn. Di navê *Mercedes* de jî C ji bo dengê [s] hatiye bikaranîn. Hin peyvên biyanî, wek *out*, carinan bi rastnivîsîna inglîzî di nivîsên kurdî de tên dîtin; di gotinê de *out* wek [awt] tê derxistin.
 
@@ -172,7 +172,7 @@ Hin rewşên din jî divê ji hevdengiya rastîn bên cudakirin:
 - **U / W:** Di hin peyvan de nivîsîna *xu-* û *xwi-* wek *xurandin / xwirandin*, *xuşk / xwişk* û *xuya / xwiya* tercîhên nivîseran in. Lê di peyvên *xwarin, xwe, xwê, xwîn* de W dengê [u] nîşan dide. Ji ber vê yekê U û W di hin peyvan de dikarin hevdeng bin.
 - W di peyvên *war, welat, wê, wir, wî* de dengê konsonantî [w] dide; di van peyvan de ew dengê vokalî [u] nîne.
 
-Herfên hevdeng dikarin di zimanekî de herdem an tenê di hin rewşan de hevdeng bin. Di kurdî de U û W tenê di hin peyvan de ev têkiliya dengî hene. Di farisî de çar herfên navborî herdem dengê [z] didin؛ lê di inglîzî de C û K tenê di hin peyvan de hevdeng in، ji ber ku C dikare dengên [k]، [s] û dengên din jî nîşan bide.
+Herfên hevdeng dikarin di zimanekî de herdem an tenê di hin rewşan de hevdeng bin. Di kurdî de U û W tenê di hin peyvan de ev têkiliya dengî hene. Di farisî de çar herfên navborî herdem dengê [z] didin; lê di inglîzî de C û K tenê di hin peyvan de hevdeng in, ji ber ku C dikare dengên [k], [s] û dengên din jî nîşan bide.
 
 ## 3. Pirdengî di nivîsîna kurdî de
 
@@ -3603,7 +3603,7 @@ Nimûneyên ku tên dayîn formên serdest ên hilbijartî ne. Ew ne wateya wê 
 
 ## 3. Pêşîna vekolînê û xebatên berî wê
 
-Çavkaniyê dibêje ku herçend cudahiyên navbera zaravayên kurdî eşkere bin, lê vekolînên zanistî û zimannasî yên ku wan cudahiyan bi awayekî rêkûpêk rave bikin kêm in. Nivîskar armanca xebatê bi berawirdkirina kurmancî bi sê zaravayên din ên sereke yên kurdî ve diyar dike: **soranî، kurdiya başûrî** (Feylî, Kelhurî, Kirmaşanî) **û zazakî**. Xebat hem hevdemî ye, ku rewşa niha ya dengan vedikole, hem jî dîrokî ye, ku rêça guherîna wan bi kurtî nîşan dide. Nivîskar eşkere dibêje ku ew naçe nav hemû qonaxên dîrokî; tenê hin guherînên bingehîn destnîşan dike.
+Çavkaniyê dibêje ku herçend cudahiyên navbera zaravayên kurdî eşkere bin, lê vekolînên zanistî û zimannasî yên ku wan cudahiyan bi awayekî rêkûpêk rave bikin kêm in. Nivîskar armanca xebatê bi berawirdkirina kurmancî bi sê zaravayên din ên sereke yên kurdî ve diyar dike: **soranî, kurdiya başûrî** (Feylî, Kelhurî, Kirmaşanî) **û zazakî**. Xebat hem hevdemî ye, ku rewşa niha ya dengan vedikole, hem jî dîrokî ye, ku rêça guherîna wan bi kurtî nîşan dide. Nivîskar eşkere dibêje ku ew naçe nav hemû qonaxên dîrokî; tenê hin guherînên bingehîn destnîşan dike.
 
 Nivîskar du sînorên girîng ên nimûneyan diyar dike:
 - Formên ku wek nimûne tên dayîn formên serdest ên hilbijartî ne. Ew nayê wê wateyê ku her peyv di hemû devokên wê zaravayê de bi heman awayî tê gotin.
