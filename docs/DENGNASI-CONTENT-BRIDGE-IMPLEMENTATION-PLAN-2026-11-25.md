@@ -118,3 +118,13 @@ When implementation is authorized and performed in a local project checkout, cre
 - Therefore the historical validation report's 27/27 parity results do not describe the current source-to-preview state. Both the three affected HTML previews and the JSON payload require regeneration/revalidation.
 - The authoring document has 27 lesson headings, but no reproducible generator command or source script was found in the implementation branch's complete `scripts/` and workflow file list. A deterministic generator must be added or recovered and run in a local checkout before updating the artifacts.
 - **Gate remains closed.** No HTML preview or payload was modified in this step; no migration, database write, deployment, publication, activation, or student-data change occurred.
+
+
+## Deterministic preview generator added — 2026-11-26
+
+- Added `scripts/generate_dengnasi_previews.py` in commit `ac5dff303448003d8d4ea56f3227190b0ab86167`. It reads the 27 source sections, verifies sequential numbering and each lesson's printed-page citation against the course manifest, and defines deterministic outputs for the 27 HTML preview files plus `docs/previews/dengnasi-content-html-payload-preview.json`.
+- Updated `.github/workflows/validate-dengnasi-course.yml` in commit `84d23305079c057d5a6150945ebcdde01715c808` so authoring-source, generator and individual HTML-preview changes trigger validation, and CI runs the generator in `--check` mode before the existing course and browser checks.
+- This is generator/CI scaffolding only. The generator has **not yet been executed** against a complete local checkout; no HTML preview or JSON payload was regenerated. The workflow is configured for pull requests and manual dispatch, and no run is currently reported for this implementation-branch commit.
+- The generator uses a deliberately limited standard-library Markdown renderer (headings, paragraphs, lists, tables, bold/italic/code). Before trusting generated artifacts, it must be run and its output reviewed against source structure, including nested lists, table edge cases, inline syntax and the known Lesson 22/24/27 corrections. If those checks expose unsupported Markdown constructs, extend the renderer before regeneration.
+- Current authoring-to-preview drift remains confirmed for Lessons 22, 24 and 27; the gate is still closed. Do not update the payload or HTML files until a local run and structural/source-parity review succeed.
+- No SQL, migration, Supabase write, production/student data, deployment, publication, activation, main-branch update or PR merge was performed.
