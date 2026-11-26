@@ -510,7 +510,7 @@ Ji ber van sînor û cudahiyên di navbera nivîs û axaftinê de, ev tablo ten�
 
 Husein Muhammed, *Dengnasî di kurdî de*, rûpelên çapkirî 40–43.
 
-# Dersa 6 — Dengrêziya kurmancî û avaniya kîteyan
+# Dersa 6 — Dengrêziya kurdî; peyv ji kîteyan pêk tên
 
 ## 1. Dengrêzî û peydabûna dengan di peyvan de
 
