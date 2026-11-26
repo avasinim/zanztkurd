@@ -2103,7 +2103,8 @@ Husein Muhammed, *Dengnasî di kurdî de*, rûpelên çapkirî 168–186.
 
 - Pêraweja 125 mînakek ji nivîsîna soranî ya Rudaw dide ku R-ya bêxet li cihê R-ya bixet hatiye nivîsîn.
 - Pêraweja 126 lêkolîna Husein Muhammed ya rêjeya herfan e; rêjeya 5,2% ya R ji wê hatiye.
-- Pêrawejên 127–128 ji bo etîmolojiya *vulpes* û koma peyvên bi bingeha *lewk-* çavkaniyên zêde nîşan didin.
+- Pêraweja 127 ji bo etîmolojiya *vulpes* çavkaniyeke zêde nîşan dide.
+- Pêraweja 128 ji bo koma peyvên bi bingeha *lewk-* çavkaniyeke zêde nîşan dide.
 - Pêraweja 129 dibêje ku nimûneya *rîxolle* ji Mirtiza Nasirzade hatiye wergirtin.
 - Pêraweja 130 lêkolîna rêjeya herfa S e; ji wê rêjeya 1,6% hatiye.
 - Pêraweja 131 têbîniyek li ser *salon* û *soz* e: di tirkî de vokala Ö ya pêşîn dikare S-ya zirav biparêze.
