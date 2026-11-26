@@ -3677,6 +3677,10 @@ Li gorî ravekirina dîrokî, ST ya destpêkî maye û E di soranî de li pêş�
 
 Ev rêbaz bê îstîsna nîne. Di peyvên ji kurmancî an zimanên ewropî wergirtî de ST dikare di soranî de jî li destpêkê bimîne; wek *stran* û *studyo*. Komdengên din jî dikarin bi awayên cuda biguherin; wek kurmancî *şkeft* û soranî *eşkewt*. Lê hin peyv wek kurmancî *spî, şkandin, şkestin* û soranî *spî, şkandin, şkan* di herdu zaravayan de nêzî hev dimînin.
 
+### Hejmara herfên hevpar û dengên bi tevahî wek hev
+
+Li gorî çavkaniyê, 25 herf di alfabeya kurmancî û tirkî de hevpar in. Lê tenê 13 deng di herdu zimanan de bi temamî û herdem wek hev tên gotin: **B, C, D, E, F, G, J, L, M, N, Ş, V, Y**. Ji ber vê yekê rêjeya dengên tam hevpar nêzîkî 50% e. Herfên hevşêwe yên din divê wek delîla dengên wekhev neyên hesibandin.
+
 ## 6. Pifdarî û bêpifî di Ç, K, P û T de
 
 Di kurmancî de Ç, K, P û T li destpêka peyvan dikarin bi awayê bipif (req) an bêpif (nerm) bên gotin. Çavkaniyê van cotên nimûneyan dide:
@@ -4202,6 +4206,16 @@ Hin cudahiyên girîng:
 
 Cudahiya dirêjî jî girîng e: di kurmancî de **A, Ê, Î, O, Û** dikarin dirêj bin; **E, I, U** kurt in. Di peyvên xwemalî yên tirkî de vokal bi gelemperî kurt in.
 
+### Berawirdkirina herfên vokalî
+
+Tabloya çavkaniyê herfên vokal ên herdu alfabeyan wiha li hev dide:
+
+| Kurdî | A | E | Ê | — | I | Î | O | — | U | Û | — |
+|---|---|---|---|---|---|---|---|---|---|---|---|
+| Tirkî | A | E | — | I (bê xalekê) | İ (bi xalekê) | — | O | Ö | U | — | Ü |
+
+Di herdu zimanan de pênc herfên vokal ên hevpar A, E, I, O û U hene; lê ji wan herfan dengên wan herdem wek hev nînin. Çavkaniyê herwiha diyar dike ku di kurmancî de pênc vokal dirêj (A, Ê, Î, O, Û) û sê vokal kurt (E, I, U) hene; di peyvên xwemalî yên tirkî de vokal bi gelemperî kurt in. Di hin devokên kurdî de Û nêzî Ü ya tirkî û O nêzî Ö ya tirkî tê gotin, lê dirêjtir.
+
 ## 4. Ahenga vokalan di tirkî de
 
 Tirkî xwedî rêgezeke dengnasî ye ku bi navê **ahenga vokalan** (*vowel harmony*) tê nasîn. Di peyvên xwerû de vokalên pêşîn bi vokalên pêşîn û vokalên paşîn bi vokalên paşîn re tên. Vokalên pêşîn ên tirkî **E, İ, Ö, Ü** ne; vokalên paşîn **A, I, O, U** ne.
@@ -4286,6 +4300,10 @@ Di peyvên xwemalî yên tirkî de komkonsonant li destpêka peyvê nayên dîti
 Tirkî di peyvên deynkirî de komkonsonantên dawiyê qebûl dike, lê di hin deynkirinên kevntir de ji bo komên destpêkê vokalek li pêş tê zêdekirin. Çavkaniyê *station → istasyon* û *statistique → istatistik* wek nimûne dide. Di peyvên nûtir de komên destpêkê dikarin bên parastin, wek *studyo* û *standart*.
 
 Kurmancî ji ber ku di peyvên xwemalî de jî komkonsonantên destpêkê hene, ne hewce ye ku her tim vokalek li pêş peyvên wek *stasyon* û *statîstîk* zêde bike. Lê wergirtina peyvên Ewropî dikare komên konsonantî yên nû jî bixe nav zimanê kurdî.
+
+### Komên konsonantî yên peyvên wergirtî
+
+Çavkaniyê dibêje ku peyvên Ewropî ne tenê komên konsonantî yên dawiyê diparêzin, lê komên destpêkê jî berfireh dikin. Di nav wan de **BL, BR, FL, FR, KL, KR, PS û KST** hene. Nimûneyên nivîsî yên çavkaniyê ev in: *blond, Brîtanya, flora, Fransa, klasîk, krîz, psîkolojî, tekst*. Ev nimûne nîşan didin ku kurmancî dikare komên ku di peyvên xwemalî de kêm an tune ne jî bi peyvên deynkirî ve wergire.
 
 ## 13. Cotdengiya Ç, K, P û T: taybetmendiyek kurmancî û zazakî
 
