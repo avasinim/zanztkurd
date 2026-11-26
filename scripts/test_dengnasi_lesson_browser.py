@@ -136,7 +136,17 @@ class DengnasiLessonBrowserTests(unittest.TestCase):
                 preview = page.locator(".lesson-content .klesson-preview")
                 preview.wait_for(state="attached", timeout=8000)
                 rendered = page.locator(".lesson-content").inner_text()
-                self.assertIn(lesson["title"], rendered, f"Lesson {number}: title missing")
+                self.assertEqual(
+                    page.locator(".klesson-hero h1").inner_text(),
+                    lesson["title"],
+                    f"Lesson {number}: page title mismatch",
+                )
+                self.assertGreater(
+                    page.locator(".lesson-content .klesson-preview h2").count(),
+                    0,
+                    f"Lesson {number}: authored lesson sections missing",
+                )
+                self.assertTrue(rendered.strip(), f"Lesson {number}: empty rendered content")
                 self.assertNotIn("Naveroka dersê tê barkirin...", rendered)
                 self.assertEqual(page.locator(".lesson-content iframe").count(), 0)
                 self.assertEqual(page.locator(".lesson-content .klesson-preview").count(), 1)
@@ -165,7 +175,7 @@ class DengnasiLessonBrowserTests(unittest.TestCase):
         context, page = self.make_page({"session": False})
         try:
             page.goto(f"{BASE_URL}/lessons/kurmanji-dengnasi-lesson-01.html")
-            page.wait_for_url("**/auth.html*", timeout=8000)
+            page.wait_for_function("() => location.pathname.endsWith('/auth.html')", timeout=8000)
             self.assertIn("auth.html", page.url)
         finally:
             context.close()
@@ -176,7 +186,10 @@ class DengnasiLessonBrowserTests(unittest.TestCase):
         )
         try:
             page.goto(f"{BASE_URL}/lessons/kurmanji-dengnasi-lesson-01.html")
-            page.wait_for_url("**/dashboard.html?enroll=required*", timeout=8000)
+            page.wait_for_function(
+                "() => location.pathname.endsWith('/dashboard.html') && new URL(location.href).searchParams.get('enroll') === 'required'",
+                timeout=8000,
+            )
             self.assertIn("course=kurmanji-dengnasi-27", page.url)
         finally:
             context.close()
@@ -187,7 +200,10 @@ class DengnasiLessonBrowserTests(unittest.TestCase):
         )
         try:
             page.goto(f"{BASE_URL}/lessons/kurmanji-dengnasi-lesson-02.html")
-            page.wait_for_url("**/dashboard.html?lesson=locked", timeout=8000)
+            page.wait_for_function(
+                "() => location.pathname.endsWith('/dashboard.html') && new URL(location.href).searchParams.get('lesson') === 'locked'",
+                timeout=8000,
+            )
             self.assertIn("lesson=locked", page.url)
         finally:
             context.close()
@@ -199,9 +215,9 @@ class DengnasiLessonBrowserTests(unittest.TestCase):
         try:
             page.goto(f"{BASE_URL}/lessons/kurmanji-dengnasi-lesson-02.html")
             page.locator(".lesson-content .klesson-preview").wait_for(timeout=8000)
-            self.assertIn(
+            self.assertEqual(
+                page.locator(".klesson-hero h1").inner_text(),
                 self.payload_map["kurmanji-dengnasi-lesson-02.html"]["title"],
-                page.locator(".lesson-content").inner_text(),
             )
         finally:
             context.close()
