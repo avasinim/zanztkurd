@@ -720,6 +720,8 @@ Pêraweja 41 hişyar dike ku di *alîstin, ristin* û Sorani *firoştin* de, pi�
 Pirtûk ji bo peyva deynkirî ya *ḥebs* formên *ḥefs, ḥeps, hevs* û ji bo *zebt* formên *zeft, zept, zevt* jî dide. Di van formanan de herfa dawiyê wek xwe dimîne û herfa berî wê diguhere. Di *qesd, qezd, qest* de, *qezd* li gor rêza giştî ye؛ *qest* îstîsnayeke kêm e ku tê de dengê paştir diguhere. Pirtûk herwiha cudahiya Kurmanji *kitêb, xîtab, hebîb, reng* û bêlerzbûna dawiyê di tirkî, almanî û rûsî de nîşan dide.
 
 
+
+Pirtûk herwiha nimûneya nivîsandina bê vokalên kurt di alfabeya erebî de dide: Sorani `krdn` tê nivîsîn lê `kirdin` tê xwendin. Ji bo cihê rêjeya lerzê, peyvên `dest, heft, text` wek komên bêlerz tên; formên tevlihev ên `*dezt, *hevt, *teẍt` û `desd, hefd, texd` di çavkaniyê de wek formên tune yan pir kêm hatine nîşandan. Pirtûk di heman beşê de pêraweja tirkî `kitap/hitap` li hember kurdî `kitêb/xîtab`, û almanî `Tag/Täge` (yekem bi dengê dawiyî bêlerz tê gotin، lê herdu bi G tên nivîsîn) dide; bêlerzbûna dawiyê di rûsî de jî bi nivîsînê nayê nîşandan.
 ## Çavkanî
 
 Husein Muhammed, *Dengnasî di kurdî de*, rûpelên çapkirî 44–55.
