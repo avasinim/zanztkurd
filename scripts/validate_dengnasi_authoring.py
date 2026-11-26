@@ -242,7 +242,7 @@ assert "<h1>" + LESSON17_TITLE + "</h1>" in lesson17_html, (
 assert 'document.title="Ders 17 — ' + LESSON17_TITLE + ' | Dengnasîya Zimanê Kurdî"' in loader, (
     "runtime lesson 17 title normalization is missing"
 )
-assert re.search(r"[\\u0621-\\u064A]", lesson17_html) is None, (
+assert re.search(r"[ء-ي]", lesson17_html) is None, (
     "Arabic-script character remains in lesson 17 page shell"
 )
 print("PASS: lesson 17 title consistently covers Eyn, K/G/Q and consonant clusters in Latin script.")
