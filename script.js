@@ -202,10 +202,7 @@ window.ZANSTI_GET_SUPABASE_CLIENT = window.ZANSTI_GET_SUPABASE_CLIENT || functio
     const box=document.querySelector(".lesson-content");
     if(!box)return true;
     const lessonKey=box.getAttribute("data-lesson-key")||target;
-    if(/^kurmanji-dengnasi-lesson-\d{2}\.html$/.test(lessonKey)){
-      box.innerHTML="<section class=\"klesson-note\"><h2>ئەم کۆرسە لە ئامادەکردندایە</h2><p>وانەکان دەبێت لەسەر بنەمای کتێبی سەرچاوەوە دابڕێژرێن؛ تەنها PDF یان دابەشکردنی پەڕەکانی کتێب وانە نییە. تا تەواوبوونی وانەدابڕێژراوەکان، دەستگەیشتن بە ناوەڕۆکی کۆرسەکە ڕاگیراوە.</p></section>";
-      return false;
-    }
+    const isDengnasiLesson=/^kurmanji-dengnasi-lesson-\d{2}\.html$/.test(lessonKey);
     box.setAttribute("aria-busy","true");
     try{
       const {data,error}=await sb.from("lesson_content")
@@ -221,6 +218,13 @@ window.ZANSTI_GET_SUPABASE_CLIENT = window.ZANSTI_GET_SUPABASE_CLIENT || functio
       if(!data?.content_html){
         console.error("[Avasin] lesson_content row missing",lessonKey);
         box.innerHTML="<p class=\"lesson-content-error\">نێوەڕۆکی ئەم وانەیە لە بنکەدراوەدا نەدۆزرایەوە.</p>";
+        return false;
+      }
+      // Fail closed while legacy PDF-only payloads remain in the course rows.
+      // This lets the authenticated query run without exposing the old iframe wrapper.
+      if(isDengnasiLesson && (/<iframe\\b/i.test(data.content_html) || /Dengnasiya_Zimane_Kurdi_27_Wane_corrected\\.pdf/i.test(data.content_html))){
+        console.warn("[Avasin] Dengnasi lesson still has the legacy PDF-only payload",lessonKey);
+        box.innerHTML="<section class=\"klesson-note\"><h2>ئەم کۆرسە لە ئامادەکردندایە</h2><p>ناوەڕۆکی وانەکان هێشتا لە داتابەیسدا بە شێوەی پێشووی PDF ـە. تا گۆڕینیان بۆ وانەدابڕێژراوەکان، دەستگەیشتن بە ناوەڕۆکی وانەکە ڕاگیراوە.</p></section>";
         return false;
       }
       box.innerHTML=data.content_html;
