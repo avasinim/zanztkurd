@@ -555,3 +555,11 @@ Scope checked: draft Lessons 1–27 against the source's printed page labels and
 - The lesson remains Kurmancî Latin only; no source audio links or non-Latin glyphs are embedded. No questions, quizzes, tests or exercises were added.
 - A pre-edit authoring copy is preserved at `docs/backups/KURMANJI-DENGNASI-LESSON-AUTHORING-before-lesson-23-source-correction-2026-11-26.md`; the pre-edit audit is preserved at `docs/backups/DENGNASI-SOURCE-ALIGNMENT-AUDIT-before-lesson-23-recheck-2026-11-26.md`.
 - The Lesson 23 authoring update is branch-only and has not been synchronized to test Supabase. The earlier 27-row / 407,980-character snapshot predates this and all later editorial updates; it is not the current authoring state. No student data, production Supabase, migrations, `main`, merge or deployment were accessed or changed.
+### Lesson 24 — printed pages 387–393 (source completeness recheck)
+
+- Re-read the source PDF pages corresponding to printed pages 387–393, including the final two pages, and compared them with the Lesson 24 authoring draft.
+- Confirmed the source's definition and geographic scope of Southern Kurdish, its distinction from Hawrami, Leki and Luri, and the source's note that the variety lacks ergativity. Added the source's alternate term *kurdîy xwarig* and its principal city examples (Kirmaşan, Îlam, Xaneqîn and Mendelî).
+- Rechecked all source comparisons: Kurmanji B → Southern Kurdish W; V → W/M; Û → Ü/Î; O → Û; RD retained vs Kurmanji R; thin L → dark Ł; aspiration of initial Ç/K/P/T; ST → S/ES/HES; A/EH → YE; NG → Ň [ŋ]; and XWE retained vs Sorani XO.
+- The lesson remains Kurmancî Latin only; no source audio links or non-Latin glyphs are embedded. No questions, quizzes, tests or exercises were added.
+- A pre-edit authoring copy is preserved at `docs/backups/KURMANJI-DENGNASI-LESSON-AUTHORING-before-lesson-24-source-completeness-2026-11-26.md`; the pre-edit audit is preserved at `docs/backups/DENGNASI-SOURCE-ALIGNMENT-AUDIT-before-lesson-24-recheck-2026-11-26.md`.
+- The Lesson 24 authoring update is branch-only and has not been synchronized to test Supabase. The earlier 27-row / 407,980-character snapshot predates this and all later editorial updates; it is not the current authoring state. No student data, production Supabase, migrations, `main`, merge or deployment were accessed or changed.
