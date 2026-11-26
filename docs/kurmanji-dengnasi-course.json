@@ -9,7 +9,7 @@
     "language": "Kurmancî",
     "script": "Latin"
   },
-  "status": "authoring draft complete; not published or activated. The 27 source-derived lesson texts remain in docs/KURMANJI-DENGNASI-LESSON-AUTHORING.md and have not yet been integrated into the lesson_content reader. The course landing page remains on hold.",
+  "status": "authoring draft complete; not published or activated. The 27 source-derived lesson texts have been synced and verified in the test Supabase project only. The site lesson loader remains on hold; production Supabase and live lesson delivery are unchanged.",
   "policy": "Use the book's own sections, topics, examples and page boundaries as the course structure. Write source-faithful Kurmanji Latin lessons in original explanatory prose; preserve the source's information and qualifications without reproducing the book verbatim or embedding the PDF as lesson content. Do not add unsourced material, questions, quizzes, tests, exercises, answer keys, or external audio.",
   "designedPdf": {
     "libraryFilename": "Dengnasiya_Zimane_Kurdi_27_Wane_corrected.pdf",
