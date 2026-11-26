@@ -120,3 +120,50 @@ print(
     "queries outside the dedicated test project; committed site config is not "
     "pointed at the test project."
 )
+
+assert "window.ZANSTI_IS_DENGNASI_TEST_PROJECT = function()" in loader, (
+    "shared Dengnasi test-project predicate is missing"
+)
+assert "window.ZANSTI_WAIT_FOR_SUPABASE = async function()" in loader, (
+    "shared Supabase readiness gate must enforce the Dengnasi project boundary"
+)
+assert "return window.ZANSTI_IS_DENGNASI_TEST_PROJECT?.() !== false;" in loader, (
+    "shared Supabase readiness gate does not reject the production project on Dengnasi routes"
+)
+
+page_gate_start = loader.index("(async function pageGate(){")
+page_gate_end = loader.index("})();", page_gate_start)
+page_gate = loader[page_gate_start:page_gate_end]
+project_check = "!window.ZANSTI_IS_DENGNASI_TEST_PROJECT()"
+session_read = "const got=await getSession();"
+assert project_check in page_gate and session_read in page_gate, (
+    "Dengnasi page gate must check its project before reading auth session"
+)
+assert page_gate.index(project_check) < page_gate.index(session_read), (
+    "Dengnasi project check must precede auth/session requests"
+)
+
+progress_start = loader.index("window.ZANSTI_SYNC_PROGRESS=async function(courseId,files,storage,includeOwner=false){")
+progress_end = loader.index("\n  };", progress_start)
+progress_sync = loader[progress_start:progress_end]
+assert "window.ZANSTI_WAIT_FOR_SUPABASE()" in progress_sync, (
+    "lesson progress sync must use the shared project guard"
+)
+assert progress_sync.index("window.ZANSTI_WAIT_FOR_SUPABASE()") < progress_sync.index(
+    '.from("lesson_progress")'
+), "Dengnasi progress sync must reject production before querying lesson_progress"
+
+completion_start = loader.index("async function markLessonComplete(courseId, lessonKey){")
+completion_end = loader.index("\n}", completion_start)
+completion = loader[completion_start:completion_end]
+assert "window.ZANSTI_WAIT_FOR_SUPABASE()" in completion, (
+    "lesson completion writes must use the shared project guard"
+)
+assert completion.index("window.ZANSTI_WAIT_FOR_SUPABASE()") < completion.index(
+    'sb.rpc("complete_lesson"'
+), "Dengnasi completion RPC must be blocked outside the test project"
+
+print(
+    "PASS: every Dengnasi auth, progress, lesson-content and completion path "
+    "is guarded by the isolated test-project boundary before data access."
+)
