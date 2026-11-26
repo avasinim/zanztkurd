@@ -309,13 +309,13 @@ window.ZANSTI_IS_DENGNASI_TEST_PROJECT = function(){
         const supabaseReady=await ensureSupabase();
         if(!supabaseReady){
           const box=document.querySelector(".lesson-content");
-          if(box)box.innerHTML="<p class=\"lesson-content-error\\">پەیوەندیی سیستەمی دەستگەیشتن ئامادە نیە. تکایە دواتر هەوڵ بدەوە.</p>";
+          if(box)box.innerHTML="<p class=\"lesson-content-error\">پەیوەندیی سیستەمی دەستگەیشتن ئامادە نیە. تکایە دواتر هەوڵ بدەوە.</p>";
           document.documentElement.style.visibility="";
           return;
         }
         if(/^kurmanji-dengnasi-lesson-\d{2}\.html$/.test(path) && !window.ZANSTI_IS_DENGNASI_TEST_PROJECT()){
           const box=document.querySelector(".lesson-content");
-          if(box)box.innerHTML="<section class=\"klesson-note\\"><h2>وانەکان لە ژینگەی تاقیکردنەوەدان</h2><p>٢٧ وانە دابڕێژراون و تەنها لە بنکەدراوەی تاقیکردنەوە هەڵگیراون. ئەم پەڕەیە ئێستا بە پڕۆژەی تاقیکردنەوە پەیوەست نیە؛ هیچ داواکارییەکی چوونەژوورەوە، پێشکەوتن یان ناوەڕۆک بۆ بنکەدراوەی بەرهەمهێنان نانێردرێت.</p></section>";
+          if(box)box.innerHTML="<section class=\"klesson-note\"><h2>وانەکان لە ژینگەی تاقیکردنەوەدان</h2><p>٢٧ وانە دابڕێژراون و تەنها لە بنکەدراوەی تاقیکردنەوە هەڵگیراون. ئەم پەڕەیە ئێستا بە پڕۆژەی تاقیکردنەوە پەیوەست نیە؛ هیچ داواکارییەکی چوونەژوورەوە، پێشکەوتن یان ناوەڕۆک بۆ بنکەدراوەی بەرهەمهێنان نانێردرێت.</p></section>";
           document.documentElement.style.visibility="";
           return;
         }
