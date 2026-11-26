@@ -891,6 +891,67 @@ D dikare di nav peyvê de bi H, Y, W an dengên din biguhere. Nimûneyên pirtû
 
 D di hin peyvan de zêde bûye tevî ku di eslê wan de tune bû; nimûneyên pirtûkê *qalind, mindal, elind/elend* û *tendûr* in. Di kurmanciya giştî de D-ya qelew a erebî tune ye; tenê di hin devokan de bi awayekî kêm û parawêzî, wek di *dawet* de, tê bihîstin. Di peyvên ji erebî wergirtî de D-ya qelew ya wek dengê erebî Ḍ bi D-ya sade nayê veguhastin, lê bi Z tê nîşandan: *remeḑan → remezan*, *raḑi → razî*, *ferḑ → ferz* û *qerḑ → qerz*. Di hin devokan de formên kurtkirî yên *fer* û *qer* jî hene.
 
+## 5. Têbînî û nimûneyên temamker ên çavkaniyê
+
+Ev beş hûrgiliyên rûpelên 68–103 ên çavkaniyê diparêze ku di beşên sereke de bi kurtî hatibûn an jî nehatibûn vegotin. Nimûne û şîrove wek naveroka nivîskar tên parastin; ji wan qanûnên bê-awarte nayên derxistin.
+
+### B: nimûne, pêrawej û sînorên guherînê
+
+- Di pêraweja 65 de nivîskar ji bo rêjeya B çavkaniya xwe ya berê nîşan dide: *Rêjeya herfan di nivîsên kurmancî de*.
+- Di pêraweja 66 de “kurdiya başûrî” bi taybetî devokên Feylî, Kelhurî û Kirmaşanî vedigire.
+- Ji bo *berf/befr*, çavkaniyê formên *wefr* (kurdiya başûrî û pehlewî), *wefre* (sogdî), *vefr* (mazenderanî), *vefre* (avestayî), *vewre* (zazakî), *wewre/werwe* (hewramî) û *gebhre* (sanskrîtî) dide.
+- Ji bo *bîst*, formên *vîst* (zazakî û pehlewî), *wîs* (hewramî), *vîseiti-* (avestayî), *vinçatî-* (sanskrîtî), *viginti* (latînî) û *twenty* (îngilîzî) hatine berawirdkirin.
+- Di tabloya *av/sêv/ewr* de formên belûçî *ap/sop/hewr-*, avestayî *ap-/ebre-* û sanskrîtî *ap-/sêp-/ebhre-* jî hene.
+- Çavkaniyê dibêje ku B→V/W li destpêka peyvan di serdema kevn de pêk hatiye û êdî ew guherîn berdewam nake; li nav peyvan kêm bûye lê bi temamî rawestiyaye nîne. Di aliyê din de B→V/W li nav û dawiya peyvên kevn berbelav bûye.
+- Varyantên *ḥeb, ḥev, ḥew* bi wateya “dermanê hişk/lib” tên, ne bi wateyên peyvên din ên wek *hevdu* an *êdî* (pêrawejên 67–68).
+- Di pêraweja 69 de nivîskar bandora dengî ya daçekên *di* û *ji* di hin devokan de nîşan dide: *di kitêbê de → t’kitêbê da* û *ji malê → ş’malê*.
+- Ji bo B/D, berawirdkirina *derî/dergeh* bi zazakî *ber* û *din/dî* bi zazakî *bîn* hatiye dayîn. Herwiha rehê niha yê *dîtin* bi *-bîn-* û formên soranî *dîtin/bînan* tên berawirdkirin.
+- *latînî ferre* û *yûnaniya fêro* ji proto-hindûewropî *bher-* wek mînakeke B→F ya rasterast hatine dayîn; ev ji rêza B→V→F ya peyvên *hefs/zeft* cuda ye.
+- Di nimûneyên B→P de *bi wê/wî/wan → pê* û di hin devokan de *bi avê → p’avê* û *sêvekê bixwe → sêvekêp-xwe* hene.
+- *ra-mûsan/bûsîden* wek nimûneyeke din a têkiliya M/B hatiye qeyd kirin; çavkaniyê vê guherînê sîstematîk navê nade.
+
+### C: tablo û têkiliyên dîrokî yên zêde
+
+Çavkaniyê ji bo peyvên ku Y-ya kevn di zimanên îranî yên navîn de bûye C, ev tablo dide:
+
+| Kurmancî | Farisî | Pehlewî | Avestayî | Sanskrîtî |
+|---|---|---|---|---|
+| ceh | cow | cew/yew | yeve- | yeve- |
+| cam | cam | cam | yame- | yame- |
+| ciwan | civan | yuven | yuven | yuven |
+| cadû | cadû | catû | yatu- | yatû- |
+| cejn | ceşn | ceşn | yesne- | yeşne- |
+| co, cok, cihok | cû, cûy | coy, yoy | yevya- | yevya- |
+| cuda, cihê, ciya | coda | cudî | yuta- | — |
+
+- Ji bo rêza Y→C ya peyvên biyanî, çavkaniyê rêza *yihûdî → yihûd/cehûd → cohûd → cihû* û rêza *Yêşûa → Iesus → Jésus → Jesus* dide.
+- Di berawirdkirina tûranî de: tirkî *yedi/yıl/yılan/yirmi*, qazaxî *ceti/cıl/cılan/ciırma* û kurdî *heft/sal/mar/bîst*.
+- Ji bo G→C, tabloya çavkaniyê *tac/tag*, *cûn-gûn-gon*, *şetrenc/çetreng*, *cindî/gund*, û *gûz/cûz/cewz/gewz* vedigire. Pêrawejên wê jî cudahiya *gund* (G-ya parastî) ji *cindî* (C) û *gûz* (G) ji *cûz* (C) rave dikin.
+- Hin peyvên bi G di erebî de bi C hatine nivîsîn lê di farisî de G parastine: *gamêş/gavmîş/camûs/gawmêş*, *gêzer/gezer/cezer* û *mêrg/merẍ/merc/merw*.
+- Di tabloya kurmancî–zazakî–farisî–avestayî de: *jîn/cenî/zen/cêni-*, *roj/roc/rûz/reoçe-*, *jiyan-ciwayen-zindegî-cey-*, *ji/ci/ez/heçe*, *jêr/cêr-zîr/heçe-eðeiri* û *jor/cor-zeber/heçe-upeiri*.
+- Di hin deverên Mêrdînê de *diya min → ca min* jî wek nimûneya guherîna komdenga *diy-* hatiye dayîn.
+- Çavkaniyê *wijdan/ûjdan* ji erebî *wicdan* û *îcar/îca → îjar/îja* wek nimûneyên meyla C→J dide.
+
+### Ç: pêrawej û cudahiyên bilêvkirinê
+
+- Çavkaniyê di nivîsîna zimanên cihê de awayên C, č/ĉ, ch û tsch dide; herwiha hişyar dike ku herfa Ç di fransî, portugalî û spanî de dikare wek S were xwendin.
+- Di erebiya standard de Ç tune ye; lê li hin deverên Iraqê K û li hin deverên Mexrebê C-ya standard wek Ç tê gotin.
+- Di pêraweja 73 de çavkaniya hejmarên rêjeya Ç dîsa *Rêjeya herfan di nivîsên kurmancî de* ye.
+- Pêraweja C/Ç di dawiya peyvê de bi *pênc* û formên jêhatî yên *pêncî, pêncem, pêncê, pêncan, pênca* tê ravekirin: bilêvkirina dawiyê dikare wek Ç were bihîstin, lê formên jêhatî C-ya bingehîn eşkere dikin.
+- Ji bo Ç/Ş, nimûneya *çelqîn/çelqandin* li hember *şilqîn/şilqandin* e. Ji bo Ç/T, *pate/paçe* hatiye dayîn. Ji bo Ç/J/Z, formên avestayî *reoçe*, zazakî *roc*, kurmancî *roj* û farisî *rûz* hatine berawirdkirin.
+- Di nimûneya fransî *cent*, îtalî *cento* [çênto] û latînî *centum* [kêntum], guherîna dengî ya C/Ç li gor bilêvkirinê tê nîşandan.
+
+### D: tabloyên dîrokî û pêrawejên peyvî
+
+- Di tabloya *dil/dest* de formên kurmancî, soranî, farisî, hewramî, zazakî û avestayî tên berawirdkirin; çavkaniyê ji bo van peyvan reha proto-hindûewropî **ker* û **ghesto* jî qeyd dike. Ev wek şîroveya çavkaniyê tê parastin.
+- Ji bo D-ya ku ji T-ya kevn hatiye, tabloya *bad/ba*, *abad/ava* û *bê(d)/bi* bi formên avestayî, pehlewî û hexamenişî hatiye dayîn.
+- Ji bo ketina D piştî N, formên kurmancî *xwandin, standin, gihandin*, soranî *xwêndin, sendin, geyandin* û kurdiya başûrî *xwanin, senin, geyanin* hatine berawirdkirin.
+- Di hin devokên rojhilatî de forma *înadin* (rehê borî *înad*) wek hevwateya *înan/anîn* hatiye qeyd kirin.
+- Çavkaniyê eslê pirtika pêşerojê *dê* bi *divê* û *xwastin* ve girê dide; zazakî *do* û îngilîzî *will* jî wek berawird têne dayîn. Cudahiya rojhilatî/navendî di *ew dê xwin* û *ew wê bixwin/ew ê bixwin* de tê parastin.
+- Di pêrawejên D→H/Y/W de, tabloya *badem/bahîv/behîv/be’îv/ba’îv*, *daden/dayîn/dan*, *bûden/bûyîn/bûn* û *zaden/zayîn/zan* hatiye zêdekirin. Rêza *D→Y→ketin* wek şîroveya nivîskar tê nîşandan.
+- Ji bo D-ya zêdebûyî, çavkaniyê eslê *qalind* ji tirkî *kalın*, *mindal/minal* û *elind/elend* ji erebî, û malbata *tendûr/tenûr* bi eslê akadî *tinûru* re dide.
+- Di pêraweja 76 de *ferz* wek “pêwîst” û *fer* wek “giring/muhim” tê cudakirin; *qer* jî heman wateya *qerz/deyn* diparêze.
+
 ## Çavkanî
 
 Husein Muhammed, *Dengnasî di kurdî de*, rûpelên çapkirî 68–103.
