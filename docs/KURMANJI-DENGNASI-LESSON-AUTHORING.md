@@ -2099,7 +2099,7 @@ Li gorî beşa taybet a çavkaniyê, komên jêrîn di peyvên kurmancî yên es
 - **-JN**: *bejn, cejn*;
 - **-MB**: *duşemb* (*duşem*);
 - **-NC, -ND, -NG**: *pênc, kinc, qenc*; *bilind, çend, rind*; *deng, reng, ceng*;
-- **-RC, -RÇ, -RD, -RF, -RG, -RM, -RN, -RS, -RX, -RZ**: *merc, gurc*; *hirç, pirç, qurç*; *kurd, merd, derd*; *berf*; *gurg, merg, cerg*; *germ, nerm, çerm*; *curn, gorn*; *birs*; *berx, çerx*; *derz, erz*;
+- **-RC, -RÇ, -RD, -RF, -RG, -RM, -RN, -RŞ, -RS, -RX, -RZ**: *merc, gurc*; *hirç, pirç, qurç*; *kurd, merd, derd*; *berf*; *gurg, merg, cerg*; *germ, nerm, çerm*; *curn, gorn*; *ferş, merş, marş*; *birs*; *berx, çerx*; *derz, erz*;
 - **-SK-**: *bisk*;
 - **-SP-**: *hesp, çesp* (li dawiyê), *spî, spor* (li destpêkê);
 - **-ST-**: *dest, bîst* (li dawiyê), *stêr, Stembol* (li destpêkê);
