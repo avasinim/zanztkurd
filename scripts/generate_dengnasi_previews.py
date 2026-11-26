@@ -104,7 +104,7 @@ def main():
         if meta["number"] != number or old["number"] != number:
             raise ValueError("Manifest/payload lesson order mismatch")
         pages = meta["printedPages"]
-        citation = re.search(r"Husein Muhammed, \*Dengnasî di kurdî de\*, rûpelên çapkirî \*\*(\d+)–(\d+)\*\*\.?", markdown)
+        citation = re.search(r"Husein Muhammed, \*Dengnasî di kurdî de\*, rûpelên çapkirî (?:\*\*)?(\d+)–(\d+)(?:\*\*)?\.?", markdown)
         if not citation or (int(citation.group(1)), int(citation.group(2))) != (pages["start"], pages["end"]):
             raise ValueError("Lesson " + str(number) + ": source citation does not match manifest")
         body = render(markdown)
