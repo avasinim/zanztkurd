@@ -1871,6 +1871,40 @@ Husein Muhammed, *Dengnasî di kurdî de*, rûpelên çapkirî 155–167.
 
 ---
 
+
+
+## 2.1. Nimûneyên din ên P li gorî cihê peyvê
+
+Çavkaniyê ji bo P-ya navîn û dawî nimûneyên din jî dide, wek *kepir, spî, spêde* û *ap, kûp, hesp*. Di peyvên xwemalî de P-ya navîn û dawî bi piranî bêpif e, lê *ap* û *spas* îstîsna ne. Di peyvên wergirtî de awayê P dikare bi zimanê jêder û rêya wergirtinê ve girêdayî be; çavkaniyê peyvên ji farisî wek *pena(ber), peyam, pesend, pêwîst* û ji fransî bi rêya inglîzî an tirkî *parleman / parlemento* dide. Di nav an dawiya peyvên biyanî de nimûneyên *top* (tirkî), *kompûter* (îngilîzî) û *tîp* (fransî) jî hene.
+
+## 5.1. Rêbazên din ên dîrokî û nimûneyên P
+
+Di tabloya çavkaniyê de pêwendiya P-ya proto-hindûewropî bi formên *pê* (**pods-*; latînî *ped*), *pênc* (**pénkʷe*; yûnaniya *pênta*) û *pir* (**pértus-*; yûnaniya *poros*) tê nîşandan. Di hin peyvan de P ji W/V/U-ya kevn hatiye, wek *pêl* (**welʰ-*; almanî *Welle*, rûsî *volna*) û *por(r), pûrt* (**uel-*; îngilîzî *wool*). Di nav peyvê de jî *hesp* (**hêkwos-*; sanskrîtî *eṥve-*) û *dilop* (**drewʰ-*; îngilîzî *drop*) bi W/V/U-ya proto-hindûewropî ve girêdayî ne. Çavkaniyê dibêje ku guherîna W/V/U bo P di serdema îraniya kevn de jî çêbûye; forma *esp-* ya avestayî di dîroka *hesp* de girîng e.
+
+Di hin devokên kurdî de B-ya destpêkê di peyvên devkî de dibe P: *pisqilêt* ji rêya tirkî *bisiklet*, *paysikil* ji *bicycle*, *pas* ji *bus* û *patrî* ji *battery*. Daçeka *bi* bi cînavên *wê/wî/wan* re dibe *pê*. Di hin devokan de *bi* û pêşpirtika lêkerî *bi-* jî dikarin bibe P: *bi avê → p’avê* û *sêvekê bixwe → sêvekê-p’xwe → sêvekêp-xwe*.
+
+Di tabloya dîrokî de rêza *ep-* ya sanskrîtî, *ap* ya pehlewî, *sêp* ya kevn û formên *sêv/sêw* tê berawirdkirin; herwiha *av/aw*, *ava/awa* û *heft/hewt* tên nîşandan. Çavkaniyê rave dike ku *ava-* dikare di zincîreya dîrokî de bibe *apa-* û paşê vegere *ava*. Di *heft* de T-ya bêlerz bandorê li V-ya bilerz kiriye û ew kiriye F; ji ber vê yekê forma kurdî *heft* e, ne *hevt*.
+
+## 5.2. P-ya destpêkê û guherîna wê bo F
+
+Hin peyvên îranî yên bi P ji ber tunebûna P di erebiya standard de di rêya erebî de F wergirtine. Çavkaniyê nimûneyên erebî *fîrdews* ji *perdîs*, *fenn* ji *pend*, *fincan* ji *pengan*, *fûlað* ji *polat*, *funduq* ji yûnaniya *pandokeîon* û *felsefe* ji *philosophîa* rêz dike. Di kurdî de *fincan* û *fisteq* formên bi F ne; *fisteq* di farisîya ne-erebîkirî de *piste/pistê* ye. Çavkaniyê belavbûna wê ji îranî bo yûnaniya kevn (*pistakion*), latînî (*pistacium*) û zimanên ewropî jî dişopîne. Navên *faris/farisî* jî bi formên kevnar ên *pars/parsîg* ve tên girêdan.
+
+## 6.1. Têbîniya edîtorî li ser nîşana IPA ya P
+
+Di rûpela 155 a çavkaniyê de ji bo P carekê nîşana **[b]** hatiye çapkirin, lê ev bi ravekirina heman beşê re nakok e: deng wek bêlerz tê binavkirin û di tabloya dengên rûpela 162 de P di rêza bêlerz de ye. Ji ber vê yekê di vê dersê de nîşana rast a P, **[p]**, hatiye bikaranîn. Ev rastkirina xuyayî ya şaşiya çapê ye, ne zêdekirina agahiyeke derveyî çavkaniyê.
+
+## 8.1. Nimûneyên zêدەی Q û cudahiyên alfabeyî
+
+Çavkaniyê ji bo Q nimûneyên zêدەی *qereqol* ji tirkî *karakol*, *qûł* (kûr) di soranî, û *qêrîn/qîrîn* û *req* bi pêwendiya aramî re jî dide. Herwiha formên *qap, qehreman, qantir* û *xendek/xendeq* di nîqaşa guherîna K/G bo Q û vegerîna Q bo K de tên. Ev etîmolojî divê wek nimûneyên taybet bên xwendin, ne wek qanûneke bêîstîsna.
+
+Di alfabeya kurdî-krîlî de çavkaniyê ji bo Q forma Ԛ/ԛ û di hin alfabeyên krîlînivîs ên din de Қ/қ nîşan dide. Di destpêka nivîsîna latînî ya Hawarê de K ji bo dengê ku niha Q tê nivîsîn û Q ji bo dengê ku niha K tê nivîsîn hatibû bikaranîn; nimûneyên wê *Qurdistan* û *kenc* bûn. Ev têbînî dîrokî ye û rastnivîsîna niha naguherîne.
+
+## 9.1. Q di peyvên îranî û zimanên samî de
+
+Çavkaniyê dibêje ku hin peyvên bi eslê xwe îranî di kurdî de Q di cihê K an G de nîşan didin, wek *quling, quz, qûn* û di soranî de *qûł*. Lê hin ji wan dibe ku bi rêya zimanên ne-îranî, bi taybetî tirkî, gihiştibin kurdî; ji ber vê yekê eslê wan hemû yekreng nîne. Hin peyvên bi Q ku ne ji erebî û ne ji tirkî ne, dikarin ji zimanekî din yê samî hatibin, wek *qêrîn/qîrîn* û *req* ji aramî, û *qîr* ji akadî bi rêya zimanekî din.
+
+Hin peyvên îranî jî bi rêya erebî vegeriyane: pehlewî *pistek* → erebî *festeq* → kurdî *fisteq* (li gel farisî *piste/pistê*); pehlewî *zendîk* → erebî *zendîq* → kurdî *zendîq*. Di nimûneya din de pehlewî *xendek* bi rêya erebî *xendeq* vegeriyaye kurdî, li gel forma *xendek*.
+
 # Dersa 14 — Dengên R û S
 
 ## 1. R — herfek û du deng
