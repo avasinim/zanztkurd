@@ -3111,8 +3111,8 @@ Pirtûk di navbera kurmanciya rojhilatî, navendî, soranî û farisî de cudahi
 
 | Rojhilatî | Navendî | Soranî | Farisî |
 |---|---|---|---|
-| *zêvî* | *zevî* | *zewî* | *zemîn* |
-| *pênîr* | *penîr* | *penêr* | *penîr* |
+| *zêvî* | *zevî* | *zevî* | *zamin* |
+| *pênîr* | *penîr* | *penêr* | *panîr* |
 
 Di hin peyvan de, berevajî vê, kurmanciya rojhilatî E-ya kevn diparêze û kurmanciya navendî Ê dide:
 
