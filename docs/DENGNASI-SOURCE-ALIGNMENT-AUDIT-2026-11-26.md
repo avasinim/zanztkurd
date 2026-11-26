@@ -2,7 +2,7 @@
 Date: 2026-11-26
 Work branch: `author/dengnasi-lesson-01-draft-2026-11-24`
 Source: Husein Muhammed, *Dengnasî di kurdî de* (PDF `Dengnasiya_Zimane_Kurdi_27_Wane.pdf`).
-Scope checked: draft Lessons 1–6 against the source's printed page labels and physical PDF pages.
+Scope checked: draft Lessons 1–7 against the source's printed page labels and physical PDF pages.
 
 ## Confirmed findings
 
@@ -34,6 +34,14 @@ Scope checked: draft Lessons 1–6 against the source's printed page labels and 
 - The lesson heading now follows the source divider: “Dengrêziya kurdî; peyv ji kîteyan pêk tên”.
 - The source itself is inconsistent about native Kurmanji onset clusters: printed page 47 includes `xw-`, while printed page 48's summary list omits it and mentions possible `şt-`. The draft preserves and flags this discrepancy instead of choosing one silently.
 
+### 5. Lesson 7: comparison material restored
+
+- Lesson 7 covers printed pages 56–67.
+- The first draft summarized the N-to-M assimilation examples and the analogy sections too narrowly, omitting several source examples and the cross-language comparison tables.
+- The authoring draft now includes the additional examples `Stembol/Stenbol`, `duşem/duşembî`, `himban/hinban`, and the fast-speech forms `jimbab/jimbav`.
+- The comparison tables for the numerals “eight” and “nine”, the prepositions `bi/di/ji/li`, and the postpositions `de/re/ve` have been restored from the source.
+- Source caveats and dialect notes are retained; uncertain etymological explanations are not presented as certain facts.
+
 ## Checks completed
 
 - Lesson 2: printed pages 8–15 (physical PDF pages 13–20) were checked. The vowel/consonant definitions, eight vowel letters, distinction between grapheme count and phonemic consonant inventory, terminology discussion, place/manner of articulation, and aspiration material follow the source.
@@ -42,6 +50,7 @@ Scope checked: draft Lessons 1–6 against the source's printed page labels and 
 - Lesson 4: the reviewed material on emphatic sounds, phoneme/allophone distinctions, predictability, loanword strata, L/Ł, R/Ř and orthographic notation is aligned with printed pages 29–39 in the inspected source text.
 - Lesson 5: the letter-frequency table, explanations and source arithmetic discrepancy on printed pages 40–43 were checked.
 - Lesson 6: the phonotactics, syllable structure, onset/coda clusters, syllable-pattern table and voicing discussion on printed pages 44–55 were checked; the three-position table and source heading have been restored.
+- Lesson 7: the spelling effects of sound change, place/manner assimilation and analogy on printed pages 56–67 were checked; omitted source examples and cross-language tables have been restored.
 
 ## Release constraints retained
 
