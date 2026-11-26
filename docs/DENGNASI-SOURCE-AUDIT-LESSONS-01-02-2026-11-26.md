@@ -47,3 +47,16 @@ These details were added to the lesson. The chart note is explicitly described a
 - No student data, Supabase data, migrations, production records, deployment, publication, activation, or `main` changes were made.
 - This audit covers Lessons 1–2 only. Lessons 3–17 still require their own detailed source comparison; the fact that they have headings and citations is not proof that every source detail has been preserved.
 - No native-speaker certification is claimed.
+
+
+## CI confirmation — 2026-11-26
+
+The complete workflow run [45780142032](https://github.com/avasinim/zanztkurd/actions/runs/45780142032) passed after the latest source-authoring updates through Lesson 7:
+
+- Generator `--write` and `--check` passed.
+- 27-lesson course map, source-page mapping, PDF integrity and protected reader-route validation passed.
+- Public PDF HTTP delivery, checksum and 462-page count passed.
+- All 8 mocked Playwright browser tests passed.
+- Only after all checks passed, regenerated lesson HTML previews and the JSON payload were synchronized to the isolated implementation branch.
+
+The Playwright tests use mocked Supabase state; they do not establish real student authentication, RLS, enrollment, or live progress synchronization. The workflow did not deploy or activate the course.
