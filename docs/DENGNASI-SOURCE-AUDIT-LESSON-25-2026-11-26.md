@@ -1,38 +1,31 @@
-# Dengnasi source audit — lesson 25 (2026-11-26)
+# Dengnasî source audit — Lesson 25 (2026-11-26)
 
 ## Scope and source evidence
 
-Source: Husein Muhammed, *Dengnasî di kurdî de*, printed pages 394–401 (original PDF pages 394–401). The eight source pages were read and compared with the complete authored Lesson 25 section, including examples, comparison tables, footnotes and historical qualifications.
+Source: Husein Muhammed, *Dengnasî di kurdî de*, printed pages 394–401. In the supplied PDF, these correspond to physical PDF pages 405–412. The eight source pages were compared with the Lesson 25 authoring section and its generated HTML and JSON previews.
 
-| Lesson | Subject | Printed source pages | Original PDF pages |
-|---:|---|---:|---:|
-| 25 | Cudahiyên dengnasî di navbera kurmancî û zazakî de | 394–401 | 394–401 |
+## Findings
 
-The authoring citation and lesson range match the source. The section follows the source's topic sequence without a page gap.
+The existing 12-section lesson already covered the main topic sequence and most comparison tables. The source comparison identified several examples, qualifications and footnotes that were not present in the lesson body. They have now been restored in a dedicated supplementary section, rather than replacing or rewriting the lesson's main structure.
 
-## Coverage verified
+### Source details restored
 
-1. **Shared phonetic inventory, different lexical distribution (p. 394):** the opening distinction between shared phonetic contrasts (including aspirated/unaspirated Ç/K/P/T and emphatic P/T) and their different use in cognate words is represented.
-2. **Kurmanji B / Zazaki V (p. 394):** *ba/va*, *baran/varan*, *berf, befr/vewre*, *bîst/vîst*, with the source's comparison to Sorani, Persian, Hawrami and Southern Kurdish and the historical V/W → B explanation.
-3. **Kurmanji V / Zazaki M or W (p. 395):** *nav/name*, *gav/gam*, *av/aw*, *şev/şew*. The lesson distinguishes retained historical M from the P → B → V/W development, includes the note that dialectal *awe, awi, awk* forms contain W, and retains the Sorani/Southern Kurdish contrast.
-4. **Zazaki RD / Kurmanji R (pp. 395–396):** *berdene/birdin/birin*, *kerdene/kirdin/kirin*, *merdene/mirdin/mirin*, *pird/pird/pir*, *werdene/xwardin/xwarin*. The lesson preserves the footnote that Kurmanji *pir* means “bridge”, not “many/full”, and distinguishes the Zazaki/Sorani *pirr* form.
-5. **Zazaki E / Kurmanji I (p. 396):** *berdene/birin*, *kerdene/kirin*, *merdene/mirin*, *weser/bihar*, *berz/bilind*, including the historical direction E → I and the qualification that Sorani/Southern Kurdish have I in most, not all, cases.
-6. **Kurmanji XW / Zazaki W (pp. 396–397):** *xweş/weş*, *xwarin/werdene*, *xwendin, xwandin/wendene*, *xweh, xuşk/way*. The exception of the pronoun *xwe* and Zazaki *xo, xwu* is retained, as is the source's historical explanation.
-7. **Kurmanji J / Zazaki C (p. 397):** *jin/cenî*, *roj/roc*, *jîn, jiyan/ciwayene*, plus Zazaki *zî* and the Old Iranian Ç → J/C/Z comparison. The Vate footnote about choosing *roj* for proximity to Kurmanji rather than majority Zazaki usage is represented.
-8. **Kurmanji G / Zazaki V (pp. 397–398):** *gul/vilî*, *gur(g)/verg*, *gotin/vatene*, with the limited lexical scope and the wider historical V/W comparison.
-9. **Kurmanji H / Zazaki Ø and S (pp. 398–399):** *hestî/este*, *hejmar/amar*, *hêstir, hesp/estor, istor*, *havîn/amnan, hamnan*; the distinction between inherited H loss and later Kurmanji H addition; *deh/des*, *bihar/wesar*, and the number forms *yewndes, diyes, hiryes*. The historical S → H direction, its limited lexical scope, and the reverse example *sê/hirê* are retained.
-10. **Kurmanji ST- / Zazaki EST-, AST- (p. 399):** *stêr(k)/estare, astare*, Sorani *estêre*, and the historical cluster-preservation comparison are represented.
-11. **Zazaki A / Kurmanji Î, Ê (p. 400):** the verb forms *di-mîn-im/man-en-a*, *di-xwîn-e/wan-en-o*, *di-bê-n, di-bêj-in/va-n-ê*, plus *hêk/hak* and *kitêb/kitab*.
-12. **Kurmanji H / Zazaki Ş (p. 400):** *guh/goş* and *têhnî, tihnî, tînî, tî/teyşan* are included.
-13. **Kurmanji K / Zazaki H (pp. 400–401):** *ker/her*, *kanî/henî* and the historical X → K/H explanation are included.
-14. **Kurmanji S / Zazaki Ş (p. 401):** *rast/raşt* is included.
+1. Sorani ST- examples and exceptions: *stêr/estêre*, *stûr/estûr*, *sto, stu/esto*, *Stembol/Estemboł*; *standin/stendin/sendin*; word-final T loss in *dest/des*; loanword examples *stran* and *studyo*; *şkeft/eşkewt*; and examples where the change does not occur: *spî*, *şkandin*, *şkestin/şkan*.
+2. Kurmanji aspirated/unaspirated contrasts in *çar/çav*, Sorani aspirated Ç in *çaw/çwar*, and the source note on emphatic P/S/T/Z.
+3. The distinction between the H in *heval* and the separate H in words such as *Hesen*, including word-final examples and Sorani correspondences *deh/de*, *neh/no*, *guh/gwê*, *reh/rih–reg/rîş*.
+4. EH/A examples *pehn/pan*, *tehl/tał*, *mehr/mare*, *bêhn/bon*; initial-H examples; and converse cases where Sorani has H/HE, including *war/hewar*, *jar/hejar*, *ewr/hewr*, *erd/herd/’erz*.
+5. Source footnotes on *gehandin/gehiştin*, the *t-* present-continuous forms *ez têm/tînim*, dialect distribution of Sorani *de-/e-*, and inflected *kî/kê*.
+6. The EÛÊ third-person singular suffix contrast and examples: *diçîne/deçênê*, *distîne/desênê*, *dixwîne/dexwênê*, *dinivîse/denûsê*.
+7. The source's light/dark L examples, Sorani L/Ł spellings, comparison pairs, and dialectal Ł→R examples.
+8. The non-universal Sorani XO- correspondence, including *xwedî, xwedan/xudan, xweyî/xawen* and *xwendin, xwandin/xwêndin*.
+9. The source's cross-language G/K examples and the proto-Indo-European root note for *çi/çî* and *kî/kê*.
 
-## Source issue preserved
+The supplementary section is present in the authoring source, JSON payload and standalone HTML preview. The course validator has been extended to check these source details and the source-internal K/H inconsistency note.
 
-On printed page 400, the heading says **Kurmançî K / Zazakî H**, and the examples *ker/her* and *kanî/henî* agree with that heading. However, the explanatory sentence immediately below mistakenly repeats “li cihê H ya kurmancî di zazakî de Ş”. The authored lesson flags this as a source-internal copy error and follows the heading, examples and historical X → K/H explanation. It does not silently reproduce the contradictory sentence as a linguistic rule.
+## Source inconsistency preserved
 
-## Findings and limits
+The source's section 12 heading and examples indicate Kurmanji K versus Zazaki H (*ker/her*, *kanî/henî*), while a historical explanatory sentence mistakenly repeats the preceding H/Ş wording. The lesson flags this inconsistency rather than silently rewriting the source claim.
 
-No material omission was identified in this targeted comparison. The authored lesson represents the source sequence, examples, footnotes and stated qualifications. No lesson-body change was needed in this pass.
+## Limits
 
-This is a targeted page/topic/example audit, not sentence-by-sentence peer review or native-speaker certification. The full generator and course validator were not executed in this pass. No course activation, deployment, main-branch change, PR merge, production database change, Supabase migration, or student-data operation was performed.
+This is a targeted audit of the printed pages 394–401, not a claim that every historical interpretation in the book has been independently peer-reviewed. The validator was edited but has not yet been executed locally or by a newly observed GitHub Actions run. No merge to main, deployment, production database change, migration, or course activation was performed.
