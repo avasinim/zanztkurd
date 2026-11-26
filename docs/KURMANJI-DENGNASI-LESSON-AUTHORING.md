@@ -1799,6 +1799,19 @@ Nimûneyên peyva *rûvî/rovî*:
 
 Pirtûk herwiha peyvên *roj, ron, ronahî* bi formên zimanên din re berawird dike: kurmancî *roj/ron/ronahî*, soranî *roj/ronak*, farisî *rûz/rowşen*, û formên bi L di rûsî, ermenî, swêdî, latînî, yûnaniya kevn û inglîziya kevn de.
 
+### Xişteya berawirdkirina L û R di zimanên îranî de
+
+Pirtûk ji bo peyva *mal* û *zarok* formên van ziman û zaravayan berawird dike:
+
+| Ziman / zarav | Forma “mal” | Forma “zarok” |
+|---|---|---|
+| Kurmancî | *mal* | *menal* |
+| Soranî ya Silêmaniyê | *mał* | *mindał / minał* |
+| Soranî ya Hewlêrê | *mar* | *mindar* |
+| Erebî | *mal* | *menal* |
+
+Pirtûk herwiha guherîna L/R di van formên devokî de qeyd dike: *şelwar/şerwal/şelwal*; *per(r)/pel*; û *rîxolle/lêxerû/rêllexwa* di soranî, kurdiya başûrî û hewramî de.
+
 Sebebê nêzîkbûna dengên L û R ew e ku herdu deng pidûyî ne: di derxistina wan de ziman bi herêma pidûyan re têkiliyê çêdike. Piştre L di hin zimanên îranî yên navîn de vegeriya; ji ber vê yekê îro di kurdî, farisî û hin zimanên din ên îranî de herdu deng hene.
 
 ## 4. Guherîna L û R di peyv û devokan de
