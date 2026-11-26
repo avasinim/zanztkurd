@@ -519,3 +519,17 @@ for required in ("Têbîniyên pêrawejan 159–165", "bihilm/aspirated", "dün"
 for required in ("Têbîniyên pêrawejan 159–165", "bihilm/aspirated", "dün", "qelen", "qîz", "kon/kûn", "tirkî", "weqt"):
     assert required in lesson17_payload, f"Lesson 17 HTML payload is missing source footnote detail: {required}"
 assert not re.search(r"[\\u0600-\\u06FF]", lesson17), "Lesson 17 must remain Latin-script only"
+
+
+# Lesson 18 source-footnote assertions (printed pp. 251–269; designed PDF pp. 272–290)
+lesson18_match = re.search(r"(?ms)^# Dersa 18 —.*?(?=^# Dersa 19 —)", source)
+assert lesson18_match, "Lesson 18 authoring section is missing"
+lesson18 = lesson18_match.group(0)
+lesson18_payload = payload["lessons"][17]["content_html"]
+for required in ("Têbîniyên pêrawejan 166–175", "kerden", "krdn", "dibêjê", "dibêjit", "feylî, kelhurî û kirmaşanî", "şor kirin", "mela", "pênîrî", "xwêndin", "heft"):
+    assert required in lesson18, f"Lesson 18 is missing source footnote detail: {required}"
+for required in ("Têbîniyên pêrawejan 166–175", "kerden", "krdn", "dibêjê", "dibêjit", "feylî, kelhurî û kirmaşanî", "şor kirin", "mela", "pênîrî", "xwêndin", "heft"):
+    assert required in lesson18_payload, f"Lesson 18 HTML payload is missing source footnote detail: {required}"
+assert "251–269" in lesson18 and "251–269" in lesson18_payload
+assert not re.search(r"[\\u0600-\\u06FF]", lesson18), "Lesson 18 must remain Latin-script only"
+assert not re.search(r"[\\u0600-\\u06FF]", lesson18_payload), "Lesson 18 payload must remain Latin-script only"
