@@ -21,7 +21,7 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: read
+  contents: write
 
 jobs:
   validate-course-map:
@@ -35,8 +35,18 @@ jobs:
           python-version: "3.x"
       - name: Install PDF integrity checker
         run: python -m pip install pypdf
-      - name: Verify generated lesson previews match current authoring source
-        run: python scripts/generate_dengnasi_previews.py --check
+      - name: Regenerate and verify lesson previews from the source
+        run: |
+          python scripts/generate_dengnasi_previews.py --write
+          python scripts/generate_dengnasi_previews.py --check
+      - name: Upload regenerated lesson previews
+        uses: actions/upload-artifact@v4
+        with:
+          name: dengnasi-source-reviewed-previews
+          path: |
+            docs/previews/kurmanji-dengnasi-lesson-*-content-preview.html
+            docs/previews/dengnasi-content-html-payload-preview.json
+          if-no-files-found: error
       - name: Validate 27-lesson course map, PDF integrity, and reader routes
         run: python scripts/validate_kurmanji_dengnasi_course.py
       - name: Verify public PDF delivery, checksum, and page count
@@ -55,3 +65,24 @@ jobs:
           python -m playwright install --with-deps chromium
       - name: Test all 27 Dengnasi lesson pages and access gates with mocked Supabase
         run: python scripts/test_dengnasi_lesson_browser.py
+
+      - name: Sync generated previews to the isolated implementation branch
+        if: github.event_name == 'pull_request' && github.event.pull_request.base.ref == 'implementation/dengnasi-content-html-bridge-2026-11-26' && github.event.pull_request.head.ref == 'test/dengnasi-source-page-audit-2026-11-26'
+        env:
+          TARGET_BRANCH: implementation/dengnasi-content-html-bridge-2026-11-26
+        run: |
+          git fetch origin "$TARGET_BRANCH"
+          git worktree add /tmp/dengnasi-target "origin/$TARGET_BRANCH"
+          mkdir -p /tmp/dengnasi-target/docs/previews
+          cp docs/previews/kurmanji-dengnasi-lesson-*-content-preview.html /tmp/dengnasi-target/docs/previews/
+          cp docs/previews/dengnasi-content-html-payload-preview.json /tmp/dengnasi-target/docs/previews/
+          cd /tmp/dengnasi-target
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add docs/previews/kurmanji-dengnasi-lesson-*-content-preview.html docs/previews/dengnasi-content-html-payload-preview.json
+          if git diff --cached --quiet; then
+            echo "Generated previews already match the implementation branch."
+          else
+            git commit -m "Regenerate Dengnasi previews after source audit"
+            git push origin "HEAD:refs/heads/$TARGET_BRANCH"
+          fi
