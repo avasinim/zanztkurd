@@ -9,7 +9,7 @@
     "language": "Kurmancî",
     "script": "Latin"
   },
-  "status": "under preparation — 27 source-based Kurmanji Latin lessons drafted; all 27 HTML previews and the JSON payload regenerated and CI-validated; protected lesson routes remain gated; course not activated; no deployment verified",
+  "status": "under preparation — 27 source-based Kurmanji Latin lessons drafted; 27 HTML previews and JSON payload validated; Lessons 14–15 source-page boundary corrected in authoring metadata; designed-PDF divider captions still require binary PDF regeneration; protected lesson routes remain gated; course not activated; no deployment verified",
   "policy": "Preserve the source wording, examples, tables, and illustrations. The 27 divisions are editorial navigation only; do not add quizzes, questions, or exercises unless separately requested.",
   "designedPdf": {
     "libraryFilename": "Dengnasiya_Zimane_Kurdi_27_Wane_corrected.pdf",
@@ -250,7 +250,7 @@
       "title": "Dengên R û S",
       "printedPages": {
         "start": 168,
-        "end": 185
+        "end": 186
       },
       "originalPdfPages": {
         "start": 168,
@@ -266,7 +266,7 @@
       "id": "kurmanji-dengnasi-15",
       "title": "Dengên Ş û T",
       "printedPages": {
-        "start": 186,
+        "start": 187,
         "end": 202
       },
       "originalPdfPages": {
