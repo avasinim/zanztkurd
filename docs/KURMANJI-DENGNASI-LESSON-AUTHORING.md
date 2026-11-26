@@ -3112,7 +3112,7 @@ Di kîteya dawiyê de dirêjahiya dengê I dikare bi Î were nîşandan: *statis
 
 ## Têbîniyên pêrawejan 176–208
 
-- **176.** Di farisiya Tehranê de E-ya dîrokî ya dawiya peyvan bûye Ê, lê bi herfa farisî ya ە tê nivîsîn. Ji ber vê yekê forma nivîskî dikare wek hev be lê xwendina kurdî û farisî cuda be: *xane/xanê*. Herwiha I-ya dîrokî di farisî de dikare bibe Ê-yeke kurttir; nimûne *dil/dêl*.
+- **176.** Di farisiya Tehranê de E-ya dîrokî ya dawiya peyvan bûye Ê, lê bi herfa farisî ya E-ya dawiyê tê nivîsîn. Ji ber vê yekê forma nivîskî dikare wek hev be lê xwendina kurdî û farisî cuda be: *xane/xanê*. Herwiha I-ya dîrokî di farisî de dikare bibe Ê-yeke kurttir; nimûne *dil/dêl*.
 - **177.** Ji bo rêjeya Ê ya nivîsên kurmancî, nivîskar çavkaniya lêkolîna xwe ya Nefelê vedigire.
 - **178.** Di kurmanciya standard de formên *ew dike, nabêje, naçe* tên bikaranîn; formên bi Ê di soraniya standard û hin devokên kurmancî de hene.
 - **179.** Di kurmanciya rojhilatî de formên *malêt wan* an *malêd wan* jî hene; di herduyan de dengê Ê parastî ye.
