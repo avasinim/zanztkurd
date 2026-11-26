@@ -68,15 +68,6 @@ for index, lesson in enumerate(lessons):
         f"printed source-page citation mismatch in lesson {number}"
     )
 
-lesson16_start = source_headings[15].start()
-lesson16_end = source_headings[16].start()
-lesson16_source = source[lesson16_start:lesson16_end]
-lesson16_payload = payload["lessons"][15]["content_html"]
-for required in ("Têbîniyên pêrawejan 149–158", "149 û 153", "hatineve", "Cade", "Robîn", "Susanne/Susanna", "[ʔ]", "sengîn", "bijartin"):
-    assert required in lesson16_source, f"Lesson 16 is missing source footnote detail: {required}"
-for required in ("Têbîniyên pêrawejan 149–158", "149 û 153", "hatineve", "Cade", "Robîn", "Susanne/Susanna", "[ʔ]", "sengîn", "bijartin"):
-    assert required in lesson16_payload, f"Lesson 16 HTML payload is missing source footnote detail: {required}"
-
     payload_lesson = payload["lessons"][index]
     assert payload_lesson["number"] == number, f"payload lesson ordering mismatch at {number}"
     assert payload_lesson["id"] == lesson["id"], f"payload lesson ID mismatch at {number}"
@@ -96,6 +87,15 @@ for required in ("Têbîniyên pêrawejan 149–158", "149 û 153", "hatineve", 
     assert not re.search(r"[\u0600-\u06FF]", preview_html), f"Arabic-script text found in lesson {number}"
     assert not re.search(r"[\u0400-\u04FF]", preview_html), f"Cyrillic-script text found in lesson {number}"
     assert "iframe" not in preview_html.lower(), f"PDF iframe unexpectedly embedded in lesson {number}"
+
+lesson16_start = source_headings[15].start()
+lesson16_end = source_headings[16].start()
+lesson16_source = source[lesson16_start:lesson16_end]
+lesson16_payload = payload["lessons"][15]["content_html"]
+for required in ("Têbîniyên pêrawejan 149–158", "149 û 153", "hatineve", "Cade", "Robîn", "Susanne/Susanna", "[ʔ]", "sengîn", "bijartin"):
+    assert required in lesson16_source, f"Lesson 16 is missing source footnote detail: {required}"
+for required in ("Têbîniyên pêrawejan 149–158", "149 û 153", "hatineve", "Cade", "Robîn", "Susanne/Susanna", "[ʔ]", "sengîn", "bijartin"):
+    assert required in lesson16_payload, f"Lesson 16 HTML payload is missing source footnote detail: {required}"
 
 for label, ranges in (("printed source", printed_ranges), ("original PDF", original_ranges)):
     for previous, current in zip(ranges, ranges[1:]):
