@@ -49,9 +49,9 @@
 ## Publication dependencies
 
 1. The corrected 462-page PDF is already committed to the public repository root on `main` as `Dengnasiya_Zimane_Kurdi_27_Wane_corrected.pdf`; the reader uses its stable `raw.githubusercontent.com` URL. Repository presence and blob identity are verified. GitHub Actions also downloaded the canonical raw PDF URL successfully (HTTP 200) and verified its SHA-256 and 462-page count. This confirms public delivery from GitHub's raw host; it does not confirm that the course preview or reader has been deployed through GitHub Pages. Before publishing the reader, test the Pages preview in a normal browser; if the reader needs a same-site PDF asset, copy the exact verified PDF to the site's public asset path and update the reader URL.
-2. Build the course overview and 27 lesson reading routes against that hosted source, preserving original page layout.
-3. Add a distinct course identity and navigation without reusing existing 26/12-lesson identifiers.
-4. Test signed-out, enrolled, and owner access in a safe environment before any production enrollment/backend changes.
+2. Completed on the integration branch: build the course overview and 27 lesson reading routes as source-based Kurmancî Latin lesson writing, with the book's structure and printed page references preserved; the book itself is not embedded as the lesson content.
+3. Completed: retain the distinct `kurmanji-dengnasi-27` course identity and 27 lesson keys without reusing the 26-lesson or 12-lesson course identifiers.
+4. Database-side test-project RLS and progression probes are complete; real browser tests for signed-out, enrolled, and owner sessions remain pending.
 5. Keep production database and migrations untouched until separately authorized and tested.
 
 ## Page numbering
