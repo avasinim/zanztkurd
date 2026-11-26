@@ -13,6 +13,8 @@ ROOT = Path(__file__).resolve().parents[1]
 manifest = json.loads((ROOT / "docs/kurmanji-dengnasi-course.json").read_text(encoding="utf-8"))
 payload = json.loads((ROOT / "docs/previews/dengnasi-content-html-payload-preview.json").read_text(encoding="utf-8"))
 source = (ROOT / "docs/KURMANJI-DENGNASI-LESSON-AUTHORING.md").read_text(encoding="utf-8")
+assert not re.search(r"[\\u0600-\\u06FF]", source), "Arabic-script text found in authoring source"
+assert not re.search(r"[\\u0400-\\u04FF]", source), "Cyrillic-script text found in authoring source"
 hold_page = (ROOT / "kurmanji-dengnasi-course.html").read_text(encoding="utf-8")
 reader = (ROOT / "kurmanji-dengnasi-reader.html").read_text(encoding="utf-8")
 
@@ -83,6 +85,7 @@ for index, lesson in enumerate(lessons):
     preview_body = preview_html.split("</header>", 1)[1].rsplit("</section>", 1)[0].strip()
     assert payload_body == preview_body, f"preview/payload body mismatch in lesson {number}"
     assert not re.search(r"[\u0600-\u06FF]", preview_html), f"Arabic-script text found in lesson {number}"
+    assert not re.search(r"[\\u0400-\\u04FF]", preview_html), f"Cyrillic-script text found in lesson {number}"
     assert "iframe" not in preview_html.lower(), f"PDF iframe unexpectedly embedded in lesson {number}"
 
 for label, ranges in (("printed source", printed_ranges), ("original PDF", original_ranges)):
