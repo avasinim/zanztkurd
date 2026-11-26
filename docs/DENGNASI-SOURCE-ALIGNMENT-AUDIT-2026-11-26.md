@@ -2,7 +2,7 @@
 Date: 2026-11-26
 Work branch: `author/dengnasi-lesson-01-draft-2026-11-24`
 Source: Husein Muhammed, *Dengnasî di kurdî de* (PDF `Dengnasiya_Zimane_Kurdi_27_Wane.pdf`).
-Scope checked: draft Lessons 1–7 against the source's printed page labels and physical PDF pages.
+Scope checked: draft Lessons 1–10 against the source's printed page labels and physical PDF pages.
 
 ## Confirmed findings
 
@@ -42,6 +42,30 @@ Scope checked: draft Lessons 1–7 against the source's printed page labels and 
 - The comparison tables for the numerals “eight” and “nine”, the prepositions `bi/di/ji/li`, and the postpositions `de/re/ve` have been restored from the source.
 - Source caveats and dialect notes are retained; uncertain etymological explanations are not presented as certain facts.
 
+### 6. Lesson 8: B, C, Ç and D — source comparison material restored
+
+- Lesson 8 follows printed pages 68–103 (physical PDF pages 80–115).
+- The draft's prose covered the principal sound descriptions and many historical developments, but it did not preserve several of the source's cross-language comparison tables.
+- Restored the source comparison tables for C and Y/C developments across Kurmanji, Persian, Pahlavi, Avestan and Sanskrit; the Turkic-language comparisons; the G/C comparisons; and the Kurmanji–Zazaki–Persian–Avestan J/C/Z/Ç set.
+- Restored the source's Ç/C, Ç/S, Ç/Ş, Ç/T and Ç/J/Z examples and the K-to-Ç dialect examples.
+- Restored the D comparison tables involving Proto-Indo-European, Avestan, Soranî, Hewramî, Zazakî and Persian.
+- The source's own alternate forms and dialect distinctions are retained; the tables are transcribed into Kurmanji Latin lesson format rather than copied as page images.
+
+### 7. Lesson 9: F and G — source comparison tables restored
+
+- Lesson 9 follows printed pages 104–115 (physical PDF pages 116–127).
+- Added the source's F comparison tables across Kurmanji, Persian, Pahlavi and Avestan; the P-to-F examples; the Arabic loanword table; the FT/WT comparison; and the cross-language forms of the verb “ketin”.
+- Added the source's G comparison table for *gav/giran/girtin*, the V/W correspondences, and the Southern Kurdish K/G examples.
+- The source's caution that F is not exclusively an Arabic-origin sound is retained.
+
+### 8. Lesson 10: H and J — source comparison material restored
+
+- Lesson 10 follows printed pages 116–130 (physical PDF pages 128–143).
+- Added the source's Proto-Indo-European H comparison table, S-to-H comparison for “seven”, and the cross-language examples of initial H insertion.
+- Added the source's examples for H correspondences with S, D, X, W, Ş, V and F, while retaining the dialect distinctions and the source's uncertainty where it is expressed as a possibility.
+- Added the J comparison table for Kurmanji/Soranî, Zazakî, Persian/Pahlavi and Avestan, including the source note about the Zazakî written standard `roj` versus the widespread dialect form `roc`.
+- These additions restore source examples and tables; they do not authorize treating the book's historical etymologies as independently verified modern consensus.
+
 ## Checks completed
 
 - Lesson 2: printed pages 8–15 (physical PDF pages 13–20) were checked. The vowel/consonant definitions, eight vowel letters, distinction between grapheme count and phonemic consonant inventory, terminology discussion, place/manner of articulation, and aspiration material follow the source.
@@ -51,6 +75,9 @@ Scope checked: draft Lessons 1–7 against the source's printed page labels and 
 - Lesson 5: the letter-frequency table, explanations and source arithmetic discrepancy on printed pages 40–43 were checked.
 - Lesson 6: the phonotactics, syllable structure, onset/coda clusters, syllable-pattern table and voicing discussion on printed pages 44–55 were checked; the three-position table and source heading have been restored.
 - Lesson 7: the spelling effects of sound change, place/manner assimilation and analogy on printed pages 56–67 were checked; omitted source examples and cross-language tables have been restored.
+- Lesson 8: the B/C/Ç/D consonant sections on printed pages 68–103 were checked, and missing source comparison tables and dialect examples were restored.
+- Lesson 9: the F/G sections on printed pages 104–115 were checked, and missing cross-language comparison tables were restored.
+- Lesson 10: the H/J sections on printed pages 116–130 were checked, and missing historical comparison tables and examples were restored.
 
 ## Release constraints retained
 
