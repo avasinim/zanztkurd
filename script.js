@@ -222,7 +222,7 @@ window.ZANSTI_GET_SUPABASE_CLIENT = window.ZANSTI_GET_SUPABASE_CLIENT || functio
       }
       // Fail closed while legacy PDF-only payloads remain in the course rows.
       // This lets the authenticated query run without exposing the old iframe wrapper.
-      if(isDengnasiLesson && (/<iframe\\b/i.test(data.content_html) || /Dengnasiya_Zimane_Kurdi_27_Wane_corrected\\.pdf/i.test(data.content_html))){
+      if(isDengnasiLesson && (/<iframe\b/i.test(data.content_html) || /Dengnasiya_Zimane_Kurdi_27_Wane_corrected\.pdf/i.test(data.content_html))){
         console.warn("[Avasin] Dengnasi lesson still has the legacy PDF-only payload",lessonKey);
         box.innerHTML="<section class=\"klesson-note\"><h2>ئەم کۆرسە لە ئامادەکردندایە</h2><p>ناوەڕۆکی وانەکان هێشتا لە داتابەیسدا بە شێوەی پێشووی PDF ـە. تا گۆڕینیان بۆ وانەدابڕێژراوەکان، دەستگەیشتن بە ناوەڕۆکی وانەکە ڕاگیراوە.</p></section>";
         return false;
