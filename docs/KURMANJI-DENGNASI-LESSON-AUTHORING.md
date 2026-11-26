@@ -4188,7 +4188,7 @@ Kurdî û farisî herdu jî zimanên îranî ne. Di navbera wan de gelek peyv û
 
 Peyvên kurmancî *zava* û farisî *damad* ji heman rehê dîrokî ne. Di wan de çend guherînên dengî hene: Z ya kurmancî li hember D ya farisî ye, V li hember M e, û D ya dawiyê ya farisî di kurmancî de tune ye. Formên soranî *zawa*, zazakî *zama*, hewramî *zema*, belûçî *zamat*, avestayî *zamater* û farisiya kevn *damater* rêça dîrokî ya peyvê nîşan didin. Ev nimûne nîşan dide ku cudahiyên niha di navbera peyvên hevreh de dikarin encama guherînên rêkûpêk ên dîrokî bin, ne guherînên bê rêbaz.
 
-## 7. Gelo alfabeya kurdî hewceyî herfên zêdetir e?
+## 7. Nîqaşa zêdekirina herfên alfabeya kurdî
 
 Hin kes dibêjin ku alfabeya niha ya kurdî-latînî divê ji bo hin cudahiyên dengî herfên zêdetir hebin. Nîqaşên sereke li ser Ç/K/P/T, L, R û H ne; hin pêşniyarên din jî dixwazin nîşanên vokalan biguherînin. Çavkaniyê li vir li ser pêşniyarên zêdekirina herfan disekine, ne li ser guherandina tevahiya alfabeyê.
 
