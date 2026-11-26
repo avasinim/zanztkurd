@@ -30,7 +30,7 @@ This is a content replacement in an existing course, not a new course/schema des
 6. Remove the early-return guard in `loadProtectedLessonContent` only in the isolated implementation branch, so the existing authenticated Supabase SELECT path can run for this course. Retain the existing loading, missing-row, error, and `aria-busy` handling.
 7. Keep authentication, enrollment, previous-lesson completion checks and server-side `can_read_lesson_content` enforcement unchanged. Do not weaken or bypass them to make the content visible.
 8. Verify the course landing page and reader link to the existing `lessons/` pages, and ensure each page's `data-lesson-key` matches exactly one of the 27 seeded keys.
-9. Resolve the lesson-title and printed-page metadata differences against the source-checked authoring file and the canonical course manifest before generating the replacement rows. In particular, do not reintroduce the stale 14/15 page-range values from the reader table.
+9. Resolved on the integration branch: the 27 authored lesson H1 headings are canonical and are aligned with the manifest and standalone page title/H1 metadata. Stable IDs, lesson keys and all printed/original/designed PDF page ranges remain unchanged. See `docs/DENGNASI-TITLE-CANONICALIZATION-RECOMMENDATION-2026-11-26.md` and the validation report.
 10. Test in a disposable Supabase project first. Do not connect to or mutate production as part of this work.
 
 ## Required validation before review
@@ -55,10 +55,15 @@ When implementation is authorized and performed in a local project checkout, cre
 - PR #89 remains Draft/Open/Unmerged and is not modified by this plan.
 - `main` is not modified by this branch.
 
+## Completed integration preparation
+
+- Canonical title parity is complete across all 27 authoring H1s, Manifest titles, and standalone page `<title>`/`<h1>` values.
+- All 27 HTML previews have been regenerated and checked for normalized source-text parity, list-item parity, table-row parity, balanced HTML, Latin-only script, source citations, and absence of quizzes/forms. See `docs/DENGNASI-HTML-PREVIEW-VALIDATION-2026-11-26.md`.
+- The preview audit found and corrected list, table-separator, literal-asterisk and inline-emphasis conversion defects.
+
 ## Next implementation sequence
 
-1. Reconcile all 27 final titles and source-page ranges.
-2. Convert the 27 authored lesson sections into deterministic HTML payloads and run static checks.
-3. Implement the narrow loader-guard removal on this integration branch.
+1. Build a reviewable 27-row `content_html` payload from the validated previews and check exact key/title/page metadata parity.
+2. Implement the narrow loader-guard removal on this integration branch.
 4. Generate the follow-up migration through the Supabase CLI in a local checkout, add fail-closed row/hash checks, and validate it in a disposable project.
 5. Review the complete diff and test evidence before proposing a separate Draft PR for user review.
