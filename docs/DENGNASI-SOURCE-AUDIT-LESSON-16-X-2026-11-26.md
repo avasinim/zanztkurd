@@ -39,3 +39,16 @@ The new section uses Latin-script Kurmancî and IPA only. It contains no Arabic-
 - The course title remains unchanged because X is a subsection within the book's Lesson 16, not part of its printed lesson title.
 - Generated previews and CI validation are pending a rerun after this source update.
 - No main, database, student-data, deployment, publication or activation change was made.
+
+
+## CI confirmation — 2026-11-26
+
+Full workflow run [45780729755](https://github.com/avasinim/zanztkurd/actions/runs/45780729755) passed:
+- regenerated preview HTML and payload from the current authoring source;
+- checked all 27 lesson source/page maps and title parity;
+- confirmed the authoring Markdown and generated lesson previews contain neither Arabic nor Cyrillic script;
+- validated the 462-page PDF, its checksum and public HTTP delivery;
+- passed all 8 mocked Playwright tests;
+- synchronized the regenerated previews to the isolated implementation branch after every validation step passed.
+
+The first run (45780571219) passed the generator, course/PDF, script and browser checks but its final preview-sync push was rejected as non-fast-forward because the implementation branch advanced during the run. No source or production change was lost; a rerun against the latest branch passed and completed the sync. PR #96 was closed unmerged.
