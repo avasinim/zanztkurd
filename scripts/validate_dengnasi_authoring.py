@@ -9,13 +9,13 @@ ROOT = Path(__file__).resolve().parents[1]
 SOURCE = ROOT / "docs/KURMANJI-DENGNASI-LESSON-AUTHORING.md"
 text = SOURCE.read_text(encoding="utf-8")
 
-matches = list(re.finditer(r"^# Dersa (\\d+) — (.+)$", text, re.MULTILINE))
+matches = list(re.finditer(r"^# Dersa (\d+) — (.+)$", text, re.MULTILINE))
 numbers = [int(match.group(1)) for match in matches]
 expected = list(range(1, 28))
 assert numbers == expected, f"expected exactly 27 sequential lesson headings, got {numbers}"
 
 citation_pattern = re.compile(
-    r"^Husein Muhammed, \\*Dengnasî di kurdî de\\*, rûpelên çapkirî .+\\.$",
+    r"^Husein Muhammed, \*Dengnasî di kurdî de\*, rûpelên çapkirî .+\.$",
     re.MULTILINE,
 )
 for index, match in enumerate(matches):
@@ -26,13 +26,13 @@ for index, match in enumerate(matches):
     )
 
 # Kurmanji lesson prose must use Latin script. Arabic comma punctuation is allowed.
-arabic_letters = re.search(r"[\\u0621-\\u063A\\u0641-\\u064A]", text)
+arabic_letters = re.search(r"[\u0621-\u063A\u0641-\u064A]", text)
 assert arabic_letters is None, (
     f"Arabic-script character found in authoring document: U+{ord(arabic_letters.group()):04X}"
 )
 
 forbidden_heading = re.compile(
-    r"^\\s{0,3}#{1,6}\\s+.*"
+    r"^\s{0,3}#{1,6}\s+.*"
     r"(?:quiz|quizzes|exercise|exercises|test|tests|"
     r"pirs|pirsên|temrîn|rahênan|îmtîhan)",
     re.IGNORECASE | re.MULTILINE,
@@ -40,7 +40,7 @@ forbidden_heading = re.compile(
 assert forbidden_heading.search(text) is None, "question/test/exercise heading found"
 
 audio_reference = re.search(
-    r"(?:<audio\\b|https?://[^\\s)]+\\.(?:mp3|ogg|wav|m4a|flac)(?:[?#)\\s]|$))",
+    r"(?:<audio\b|https?://[^\s)]+\.(?:mp3|ogg|wav|m4a|flac)(?:[?#)\s]|$))",
     text,
     re.IGNORECASE,
 )
