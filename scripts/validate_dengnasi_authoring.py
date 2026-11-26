@@ -2,17 +2,49 @@
 """Validate the authored 27-lesson Dengnasi draft without changing production data."""
 from __future__ import annotations
 
+import json
 import re
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 SOURCE = ROOT / "docs/KURMANJI-DENGNASI-LESSON-AUTHORING.md"
+MANIFEST = ROOT / "docs/kurmanji-dengnasi-course.json"
 text = SOURCE.read_text(encoding="utf-8")
+manifest = json.loads(MANIFEST.read_text(encoding="utf-8"))
+manifest_lessons = manifest["lessons"]
 
 matches = list(re.finditer(r"^# Dersa (\d+) — (.+)$", text, re.MULTILINE))
 numbers = [int(match.group(1)) for match in matches]
 expected = list(range(1, 28))
 assert numbers == expected, f"expected exactly 27 sequential lesson headings, got {numbers}"
+
+assert len(manifest_lessons) == len(matches), (
+    "course manifest and authoring document must contain the same number of lessons"
+)
+for index, match in enumerate(matches):
+    lesson = manifest_lessons[index]
+    assert lesson["number"] == int(match.group(1)), (
+        f"manifest lesson order differs at lesson {index + 1}"
+    )
+    assert lesson["title"] == match.group(2), (
+        f"manifest title differs from authoring heading for lesson {index + 1}"
+    )
+    end = matches[index + 1].start() if index + 1 < len(matches) else len(text)
+    block = text[match.start():end]
+    citation = re.search(
+        r"rûpelên çapkirî\\s+\\*{0,2}(\\d+)\\s*[–-]\\s*(\\d+)\\*{0,2}",
+        block,
+    )
+    assert citation, f"lesson {index + 1} has no parseable printed-page range"
+    source_range = (int(citation.group(1)), int(citation.group(2)))
+    manifest_range = (
+        lesson["printedPages"]["start"],
+        lesson["printedPages"]["end"],
+    )
+    assert source_range == manifest_range, (
+        f"printed-page range differs for lesson {index + 1}: "
+        f"authoring={source_range}, manifest={manifest_range}"
+    )
 
 citation_pattern = re.compile(
     r"^Husein Muhammed, \*Dengnasî di kurdî de\*, rûpelên çapkirî .+\.$",
@@ -52,7 +84,7 @@ audio_reference = re.search(
 assert audio_reference is None, "external audio or audio element found"
 
 print(
-    "PASS: 27 sequential lesson headings; 27 printed-page citations; "
+     "PASS: 27 sequential lesson headings; manifest titles and printed-page ranges aligned; 27 citations; 
     "Latin-script lesson text; no quiz/test/exercise headings; no external audio."
 )
 
