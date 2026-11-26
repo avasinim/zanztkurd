@@ -123,8 +123,8 @@ window.ZANSTI_IS_DENGNASI_TEST_PROJECT = function(){
       lessonBox.innerHTML="<p>Naveroka dersê tê barkirin...</p>";
     }
     const lessonHeading=document.querySelector(".klesson-hero h1");
-    if(lessonHeading && path==="kurmanji-dengnasi-lesson-01.html") lessonHeading.textContent="Dergeh: dengnasî û lêkolînên pêşîn";
-    if(lessonHeading && path==="kurmanji-dengnasi-lesson-17.html"){ lessonHeading.textContent="Eyn, K/G/Q û komên konsonantî di kurdî de"; document.title="Ders 17 — Eyn, K/G/Q û komên konsonantî di kurdî de | Dengnasîya Zimanê Kurdî"; }
+    if(lessonHeading && path==="kurmanji-dengnasi-lesson-01.html") lessonHeading.textContent="Dergeh û ev vekolîn û yên berî wê";
+    if(lessonHeading && path==="kurmanji-dengnasi-lesson-17.html"){ lessonHeading.textContent="Eyn û hemû cotkonsonantên di kurdî de"; document.title="Ders 17 — Eyn û hemû cotkonsonantên di kurdî de | Dengnasîya Zimanê Kurdî"; }
   }
   const isCatalog=path==="catalog.html" && /\/lessons\/catalog\.html$/i.test(location.pathname);
   const isProtectedCatalogTarget=(href)=>{ return /(?:^|\/)lessons\/catalog\.html(?:$|[?#])/i.test(String(href||"")); };
