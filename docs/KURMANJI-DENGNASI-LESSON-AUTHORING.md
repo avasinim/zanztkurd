@@ -2743,11 +2743,11 @@ Y wek W nîvvokalek e: di derxistina wê de herwayê dengî nayê rawestandin, l
 Di kurmancî de dîftongên bi Y/Î re bi dawî tên bi awayên jêrîn tên dîtin:
 
 - **AY/AÎ:** di *çay, hay, ay* de. Di hin devokan de Y dikeve (*çay → ça, hay → ha*). Di formên çemandî yên nêr de, nivîsîna standard -YÎ heye; lê di gotina hin devokan de A û Y di heman kîteyê de dibin dîftonga ay.
-- **EY/EÎ:** di *heyv, keyf, hey, ey, mey, ney* de. Gelek ji van peyvan bi eslê xwe biyanî ne. Di kîteyên girtî de EY gelek caran dibe Ê (*keyf → kêf*). Peyva *heyv* di gelek devokan de wek *hîv* tê gotin; *dey kirin* û formên wê jî di hin devokan de tên dîtin.
+- **EY/EÎ:** di *heyv, keyf, hey, ey, mey, ney* de. Gelek ji van peyvan bi eslê xwe biyanî ne. Di kîteyên girtî de EY gelek caran dibe Ê (*keyf → kêf*). Peyva *heyv* di gelek devokan de wek *hîv* tê gotin; *dey kirin* û formên wê jî di hin devokan de tên dîtin. Di soranî de *key* bi wateya *kengî/kingê* heye; herwiha di girêdanê de formên wek *rojnamey Rûdaw* (rojname-ya Rûdaw) peyda dibin.
 - **ÊY/ÊÎ:** di kurmancî de bi awayekî kêm, bi taybetî di gazîkirina *hêy* de tê dîtin; li gelek deveran wek *hê* tê gotin.
 - **IY/IÎ:** komdengê -iy- di peyvên wek *çiya, giya, siyaset, qiyamet* de heye, lê ev peyv dîftonga iy çênakin. Di *qîmet* de Î monoftong e; awayê *qiymet* bi bandora tirkî hatiye.
 - **ÎY/ÎÎ:** di kurmancî de dîftong nîne. Di peyvên wek *çiya, giya, siyaset* de Î û Y, heke bi î were nivîsîn, ji kîteyên cuda ne.
-- **OY/OÎ:** di kurmancî de bi gelemperî tenê di gazîkirina *oy* de heye. Di *Zaxoyî* û *boyax* de O û Y di kîteyên cuda ne. Di soranî de *xoy* dîftonga oy heye.
+- **OY/OÎ:** di kurmancî de bi gelemperî tenê di gazîkirina *oy* de heye. Di *Zaxoyî* û *boyax* de O û Y di kîteyên cuda ne. Di soranî de *xoy* dîftonga oy heye; ew ji *xo* (xwe) û *y/î* (wî/wê) pêk tê û wateya “wî/wê bi xwe” dide.
 - **UY/UÎ:** di peyvên xwerû yên kurmancî û soranî de bi gelemperî tune ye. Hin devok formên wek *duy* bi wateya demjimêra du piştî nîvro hildigirin; formên din *duyê/duyî* dibêjin.
 - **ÛY/ÛÎ:** di kurmancî de carinan di *xûy* de tê dîtin, lê forma *xû* jî heye. Di soranî de di girêdanê de wek *xanûy ewan* peyda dibe.
 
@@ -2761,6 +2761,7 @@ Di derbarê Y + vokal de jî lihevkirineke temam di nav zimannasan de tune ye. H
 - **YÎ/ÎÎ:** di nivîsînê de di *tu yî, qamişloyî, ronayî* de xuya dike, lê di gotinê de Y gelek caran nayê bihîstin û komdeng dîftong çênake.
 - **YO/ÎO:** di nivîsînê de *birayo* ye, lê di gotinê de Y bêdeng e: *birao* an *biraw*.
 - Y li ber I, U û Û dîftong çênake. Li ber Ê di cînav û formên çemandî de tê nivîsîn (*yê din, yên min, birayê te, nameyên wê*), lê di gelek devokan de nayê bihîstin.
+- Y di hin girêdanên rêzimanî de jî wek dengê girêdanê tê nivîsîn: *Ew mamoste ye* (li hemberî *ew profesor e*) û *name-yek* (li hemberî *kitêb-ek*). Di axaftinê de Y gelek caran nayê bihîstin û *nameyek* dikare wek *namek* were gotin. Ev bikaranîna Y bi xwe nîşana dîftongê nîne.
 - Komdengê **-IYA-** di peyvên *çiya, giya, giyan, jiyan, niyan, şiyan* û peyvên wergirtî yên wek *diyanet, riwayet, siyaset, xiyanet* de heye. Di gotinê de *-iya-* bi gelemperî di heman kîteyê de tê bilêvkirin û dengê dîftongî **ÎA** dide; ev peyv bi gelemperî wek du kîte nayên dabeşkirin.
 
 ### 11. Guherîna U û I
@@ -2878,6 +2879,8 @@ Di hin devokan de cînavên du-kîteyî an pir-kîteyî hene; giranî dikare li 
 - *ewana, wana, vêya, viya*.
 Di soranî de jî formên wek *emin, eto, ême, êwe, ewan* hene. Li gorî têbîniya çavkaniyê, *emin* û *eto* formên devokî ne; formên standard *min* û *to* ne. Formên standard ên tev-soranî yên din *ême, êwe, ewan* in.
 
+Di cînavê *hemû/hemî* de giranî li ser kîteya duyem, anku kîteya dawiyê, ye. Carinan ji bo giringîdanê kîteya dawiyê dubare tê şidandin: *hemmû/hemmî*.
+
 Di cînavên pirsiyarkî de giranî bi gelemperî li ser kîteya yekem e:
 - *KENGÎ*;
 - *ÇIma, ÇIra*;
@@ -2894,9 +2897,10 @@ Di gelek hoker û daçekên giştî de giranî li ser kîteya pêşiyê ye:
 - *PAŞî, PÊŞî, BERÎ, PIŞTÎ*;
 - *HÊDÎ, ZÛka*;
 - *ÎRO, ÎŞEV, ÎSAL*;
-- *GELEK, PIÇEK*;
-- *BELÊ, ERÊ, BELKÎ*;
-- *DÎSA, WISA, WIHA, HINGÊ*.
+- *GELEK, PIÇEK, HIN(D)EK*;
+- *BELÊ, ERÊ, BILA, BELKÎ, NEXÊR/NEXÊ, JIXWE, NEXWE, XWENE*;
+- *DÎSA, WISA, WIHA, HINGÊ, KINGÊ/KENGÎ*;
+- *GELO, GELÎ!*.
 
 Hin hoker giranî li ser kîteya dawiyê digirin, wek *niha/nika/noke* û *xwezî*. Hin hokerên devokî yekkîteyî ne: di kurmanciya navendî û rojavayî de *vira, wira*; di kurmanciya rojhilatî de *vêrê, wêrê*.
 
@@ -2924,6 +2928,8 @@ Pêşpirtika **di-** ya dewamiyê bêgiranî ye:
 - *di-REvin*;
 - *ve-di-ge-RÎ*.
 
+Di soranî de pêşpirtikên **de-** û **e-** yên hevwateyên *di-* jî bêgiranî ne. Lê di farisî de pêşpirtika **mî-** giranî digire.
+
 Gava lêker ne raderî be û pêşpirtikên giran ên neyînîkirinê yan *bi-* negirtibe, giranî li ser kîteya dawiyê ya rehê lêkerê ye:
 - *tu di-ZA-nî*;
 - *ez di-he-LÎ-nim*;
@@ -2942,7 +2948,7 @@ Paşpirtikên kesî û formên çemandî yên *bûn* bi gelemperî bêgiranî ne
 Di peyvên dariştî de giranî dikare ji rehê peyvê were veguhastin bo paşpirtik:
 - *birîn* → *birîndar* → *birîndarî*.
 
-Di peyvên pêkhatî de giraniya sereke li ser beşa dawiyê ye:
+Di peyvên pêkhatî de giraniya sereke li ser kîteya dawiyê ya beşa dawiyê ye:
 - *ziman + dirêj* → *zimandirêj*;
 - *serok + komar* → *serokkomar*.
 
@@ -2954,16 +2960,16 @@ Di peyvên dubarekirî û cotkirî de jî beşa dawiyê giraniya sereke digire:
 
 ### 21. Giranî wek cudakerê wate û erkê rêzimanî
 
-Di kurdî de hin peyv bi heman herfan tên nivîsîn lê cihê giranî wan ji hev cuda dike.
+Di kurdî de hin peyv bi heman herfan tên nivîsîn lê cihê giranî wan ji hev cuda dike. Heta wê demê, di nav zimanên îranî de Peştû tenê zimanek dihate hesibandin ku giranî di wê de fonemîk e; lê nimûneyên kurdî jî nîşan didin ku veguhastina giranî dikare wate an erkê rêzimanî biguherîne. Ev diyardeyek marjînal e, lê di kurdî de berçav û giring e.
 
 Nimûneya *piştî*:
-- wek daçek: *Ez PIŞTÎ wî hatim* — giranî li ser kîteya yekem e;
-- wek navdêr: *Darbirran piştÎ kirin pişta xwe* — giranî li ser kîteya dawiyê ye.
+- wek daçek, bi wateya “li pey/paşî”: *Ez PIŞTÎ wî hatim* — giranî li ser kîteya yekem e;
+- wek navdêr, bi wateya bar an tişta ku kesek bi pişta xwe hildigire: *Darbirran piştÎ kirin pişta xwe* — giranî li ser kîteya dawiyê ye.
 
 Nimûneyên din:
 - *paşî* (paşê, dû re) û *paşÎ* (aliyê piştê);
 - *pêşî* (berî, ewilî) û *pêşÎ* (aliyê pêş);
-- *gelî* wek navê deverê û *gelî!* wek gazîkirin.
+- *gelî* bi wateya newala di navbera çiyayan de û *gelî!* wek gazîkirin.
 
 Di lêkeran de giranî dikare erkê rêzimanî biguherîne:
 - *HATIN* wek rader: “hatin” (to come);
