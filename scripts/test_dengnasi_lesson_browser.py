@@ -70,6 +70,12 @@ window.supabase = {
     };
   }
 };
+window.ZANSTI_OWNER_CHECK = Promise.resolve(window.__DENGNASI_TEST_STATE.owner === true);
+window.ZANSTI_SYNC_PROGRESS = async (courseId, files, storage) => {
+  const completed = window.__DENGNASI_TEST_STATE.completed || [];
+  localStorage.setItem(storage, JSON.stringify(completed));
+  return true;
+};
 """
 
 class DengnasiLessonBrowserTests(unittest.TestCase):
@@ -196,7 +202,7 @@ class DengnasiLessonBrowserTests(unittest.TestCase):
 
     def test_enrolled_student_is_blocked_when_sequence_is_locked(self):
         context, page = self.make_page(
-            {"owner": False, "session": True, "enrolled": True, "canRead": False}
+            {"owner": False, "session": True, "enrolled": True, "canRead": False, "completed": [0]}
         )
         try:
             page.goto(f"{BASE_URL}/lessons/kurmanji-dengnasi-lesson-02.html")
@@ -210,7 +216,7 @@ class DengnasiLessonBrowserTests(unittest.TestCase):
 
     def test_enrolled_student_can_load_lesson_when_server_gate_allows_it(self):
         context, page = self.make_page(
-            {"owner": False, "session": True, "enrolled": True, "canRead": True}
+            {"owner": False, "session": True, "enrolled": True, "canRead": True, "completed": [0]}
         )
         try:
             page.goto(f"{BASE_URL}/lessons/kurmanji-dengnasi-lesson-02.html")
