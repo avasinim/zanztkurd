@@ -771,6 +771,88 @@ Nimûneyên pirtûkê:
 
 Ev cot peyv nîşan didin ku analojî dikare di çend cureyên peyvan de bandorê li şiklê wan bike. Nivîskar di dawiyê de cotê *bin / ban* jî tenê wek pêşniyareke ceribandinî ji bo lêfikirînê dide; ew wê wek mînakeke piştrastkirî ya analojiyê nayê pêşkêşkirin.
 
+## 8. Pêrawej û têbînîyên temamker ên çavkaniyê
+
+Ev beş pêrawejên 43–65 û nimûneyên rûpelên 56–67 yên çavkaniyê diparêze. Şîrove û etîmolojî wek nêrîna nivîskar têne nîşandan; nimûne ne wek qanûnên bê-awarte tên pêşkêşkirin.
+
+### 8.1. Nivîsîna peyvên xwerû û peyvên li pey hev
+
+- Pirtûk di pêraweja 43 de îstîsnayên tirkî yên redkirina konsonantên bilerz li dawiya peyvê bi *ad* (“nav”) li hember *at* (“hesp”) nîşan dide.
+- Pêraweja 44 dibêje ku hin axêver *leyîstin, lehîstin, axaftin* dibêjin; lê formên *leyîztin, lehîztin, axavtin* nabin. Ev pêrawej cudahiya forma cihgir a gotinê ji vegerandina zorî ya rehê diparêze.
+- Di rûpelê 58 de nimûneya *futbol* jî heye: di gotina bilez de dikare wek *fudbol* were bihîstin, lê T di nivîsînê de tê parastin. Ev ji nimûneyên *pezkovî/pezkûvî* re pêvek e.
+- Di rûpelên 58–59 de pirtûk diyar dike ku di peyvên li pey hev de guherîna lerzê bi gelemperî tenê di axaftina bilez de ye; di axaftina hêdî û nivîsînê de dengê bingehîn tê parastin. Nimûneyên îngilîzî *Let it be* û tirkî *kitap geldi* ji bo vê cudahiyê hatine dayîn.
+- Di heman beşê de peyva pêkhatî *jinbab/jinbav* ji *jin + bab/bav* tê; di gotina bilez de N dikare ji ber B wek M were bihîstin: *jimbab/jimbav*. Ev nimûneya dengkirina bilez e, ne forma nivîsî.
+
+### 8.2. Peyvên bi paşgir û pêraweja metatezê
+
+- Pirtûk *dezgir, dezgeh, desmal, destpêk* ji *dest* ve girê dide û dibêje ku di hin ji wan de T ji bo sivikkirina koma konsonantan ketiye; di hin peyvan de S jî ji ber G-ya paşgirê bûye Z.
+- Di pêraweja 45 de nivîskar dibêje ku li hin deveran *dezgir/dezgirtî* bi veguhastina cihê dengan (metatez) wek *dergistî* tê gotin. Ev form wek varyanteke devokî tê qeyd kirin, ne wek formeke ku divê li hemû devokan were sepandin.
+- Pirtûk cudahiya *dezgir/dezgirtî* (bi wateya yar/keça nîşanîkirî) ji *destgir/destgirtî* (bi wateya girtina destan) diparêze.
+
+### 8.3. Tesîra cihê dengî: nimûneyên bêvilî
+
+- Ji bilî *beramber, pêxember, duşemb, himbêz*, çavkaniyê *himb an*? (rûpela 60: *himban*) û varyanta *hinban* jî dide. *Duşem/duşembî* jî wek varyantên *duşemb* hatine qeyd kirin.
+- Di peyvên pêkhatî de *jinbab/jinbav* wek nimûneya N→M berî B tê. Ev ji ber hevbeşiya cihê bilêvkirina M û B-ê ye; çavkaniyê dibêje ku N berî B dikare bibe M. Ev şîroveya dengnasî ya nivîskar e.
+
+### 8.4. Analojî di hejmaran de: xebata tabloyan
+
+Pirtûk ji bo “heşt” van forman dide: avestayî *eşte-*, osetî *es-t*, yexnobî *est*, sanskrîtî *eşte-*, peştûyî *eti*, latînî *octo*, almanî *acht*, îngilîzî *eight*, swêdî *åtta*, yûnanî *okto*, ermenî *ut*. Li gor nivîskar, H-ya kurmancî bi bandora *heft* zêde bûye; ew di pêraweja 46 de forma navendî *heyşt* jî qeyd dike.
+- Pêraweja 47 cudahiya H-ya *heft* û *heşt/heyşt* di devokên navendî û rojhilatî de diyar dike: di navendî de herdu dikarin bi H-ya wek hev bibin; di rojhilatî de *heft* H-ya *Hesen* heye, lê *heşt* H-ya *heval*.
+- Ji bo “neh”, tabloya çavkaniyê zazakî *new*, soranî *no*, farisî *noh*, avestayî *neve-*, sanskrîtî *neven*, latînî *novem*, almanî *neun*, îngilîzî *nine*, swêdî *nio*, yûnanî *ennea* û ermenî *inn* dide. Pirtûk **new* û **noh* wek formên pêşniyarkirî yên dîrokî nîşan dide û bandora *deh* li ser *neh* wek analojiyeke paşvero şîrove dike.
+- Çavkaniyê herwiha dibêje ku analojî dikare li destpêk, nav an dawiya peyvê çêbibe; bandor dikare pêşvero (ji peyva berî wê) an paşvero (ji peyva piştî wê) be û ne mecbûr e ku her carê çêbibe. Mînaka neyînî: H-ya yûnanî *hêpta* li *okto* zêde nebûye.
+
+### 8.5. Pêşdaçekên bingehîn: form û pêrawej
+
+Çavkaniyê tabloya jêrîn dide û hişyar dike ku şaneyên vala her tim nayên wateya tunebûna hevreha peyvê:
+
+| Ziman | bi | di | ji | li |
+|---|---|---|---|---|
+| Kurmancî | bi | di | ji | li |
+| Soranî | be | de | — | le |
+| Hewramî | we | — | ce | ne |
+| Farisî | ba, be/bê | der, ender | ez | — |
+| Pehlewî | ped | ender | ez | — |
+| Hexamenişî | peti | ender | heç | ena |
+| Avestayî | peiti- | — | heç | — |
+
+- Pêraweja 48: *je* (hevwateya *ji*) di soranî de tune ye; *de* (“di”) tenê di Mukriyanî de heye, ne di soraniya Silêmaniyê de. Ji ber vê yekê di nivîsên soranî de bi gelemperî *be, le* tên dîtin; *le … -ewe* dikare wateya “ji malê/ji malê ve” bide.
+- Pêraweja 49: şaneya vala dibe ku ji ber qeydkirina nebûna hevreha wê be an jî nivîskar haya jê tune be.
+- Pêraweja 50: *bi* ya kurmancî û îngilîzî *by* ji aliyê etîmolojiyê ve ne ji heman rehî ne; nivîskar dibêje etîmolojiya *bi* tenê heta îraniya kevn dikare were şopandin.
+- Pêraweja 51: *de* ya soranî tenê di Mukriyanî de heye, ne di Silêmaniyê de.
+- Pêraweja 52: *ender* ya hexamenişî bi *hindir/hundir* re tê berawirdkirin; nivîskar dibêje ev form di kurmanciya rojhilatî de tune ye.
+- Pêraweja 53: *heç* ya avestayî bi wateya “li pey, li dûv” hatiye dayîn.
+- Pêraweja 54: tevî ku *li* di avestayî de nehatiye dîtin, nivîskar wê gelek kevn dibîne û bi formên *in/en* ên zimanên din ên hindûewropî re dide ber hev.
+- Pêraweja 55: zazakî di tabloyê de nehatiye rêzkirin, ji ber ku li şûna pêşdaçekên kurmancî bi gelemperî paşdaçekan bi kar tîne. Girêdana vê taybetmendiyê bi tesîra ermenî nêrîna nivîskar e û bi awayê pêşniyarê hatiye nivîsîn.
+- *bo* wek pêşdaçekeke bingehîn bi *bi, di, ji, li* re analojî nebûye. Pirtûk cudahiya bikaranîna wê di kurmanciya navendî/rojavayî, kurmanciya rojhilatî û soranî de rave dike; *lo* di hin devokên Hewlêrê de ji *le bo* kurt bûye û *jo* di hin devokên kurmancî de ji *ji bo* hatiye.
+- Pêraweja 56: *jo* li hin deverên Zaxoyê û di devê nifşên mezin de hatiye bihîstin; nivîskar dibêje di devê xortan de *bo* serdest e.
+
+### 8.6. Paşdaçek û analojî: tabloya dîrokî
+
+| Ziman | de / da | re / ra | ve / va |
+|---|---|---|---|
+| Kurmancî | de / da | re / ra | ve / va |
+| Soranî | da / -a | ra | -ewe |
+| Farisî | der, ender | ra | — |
+| Pehlewî | ender | ray | — |
+| Hexamenişî | ender | radi | epe |
+| Avestayî | — | — | epe |
+
+- Pêraweja 57: di piraniya devokan de *da, ra, ve* serdest in; di hin devokan de *va* li şûna *ve* heye. Di van formên devokî de her yek du deng hildigire û di her sê an her du forman de *a* ya dawiyê heye.
+- Pêraweja 58: *tê ve* û *di … ve* ji bilî kurmanciya rojhilatî di devokên din de kêm in an qet nayên dîtin.
+- Pêraweja 59: şaneyên vala dibe ku tenê nîşana qeydkirina nebûna hevreha wê bin.
+- Pêraweja 60: *ra* di soraniya Mukriyanî de heye, lê di ya Silêmaniyê de tune ye an kêm e.
+- Pêraweja 61: *der* di farisî de pêşdaçek e, ne paşdaçek.
+- Pêraweja 62: *ra* ya farisî ji aliyê erk û wateyê ve ji ya kurdî cuda ye, lê nivîskar eslê wan yek dibîne.
+- Pêraweja 63: *ray* ya pehlewî bi wateya “jê re/ji bo/bo” hatiye dayîn û bi *era* ya kurdiya başûrî hatiye berawirdkirin.
+- Pêraweja 64: *radi* ya hexamenişî bi wateyên “ji ber, ji bo, seba, sera” hatiye şîrovekirin.
+
+### 8.7. Analojî di cînav û hokeran de
+
+- Pirtûk *te, me, we* wek cînavên kesî yên bi qalibê nêzîk dide.
+- Di cînavên nîşandanê de cotên *ev/ew*, *vê/wê*, *vî/wî* û *van/wan* tên berawirdkirin.
+- Di hokerên dijwate de *pêş/paş* û *jêr/jor* wek nimûneyên nêzîkbûna şiklê peyvan tên.
+- Cotê *bin/ban* tenê wek pêşniyareke ceribandinî ji bo lêfikirînê hatiye dayîn; nivîskar wê wek mînakeke piştrastkirî pêşkêş nake.
+
 ## Çavkanî
 
 Husein Muhammed, *Dengnasî di kurdî de*, rûpelên çapkirî 56–67.
