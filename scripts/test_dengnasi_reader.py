@@ -111,10 +111,19 @@ class DengnasiReaderBrowserTests(unittest.TestCase):
         page.goto(LESSON_URL, wait_until="domcontentloaded")
         return context, page
 
+    def assert_source_note_is_normalized(self, page):
+        note = page.locator(".klesson-hero p").inner_text()
+        self.assertIn("Naveroka dersê ji nû ve hatiye avakirin", note)
+        self.assertNotIn("bê guhertin", note)
+        self.assertNotIn("PDF li ser rûpela destpêkê", note)
+        self.assertNotIn("بارکردنی نێوەڕۆکی وانەکە", page.content())
+
     def test_production_project_fails_closed_before_lesson_query(self):
         context, page = self.open_lesson(PRODUCTION_PROJECT_URL)
         try:
             page.get_by_text("وانەکان لە ژینگەی تاقیکردنەوەدان").wait_for()
+            self.assert_source_note_is_normalized(page)
+            self.assertEqual(page.locator(".klesson-hero h1").inner_text(), "Dergeh: dengnasî û lêkolînên pêşîn")
             state = page.evaluate("window.__dengnasiTest")
             self.assertEqual(page.evaluate("window.ZANSTI_SUPABASE.url"), PRODUCTION_PROJECT_URL)
             self.assertEqual(state["fromCalls"], [])
@@ -129,6 +138,8 @@ class DengnasiReaderBrowserTests(unittest.TestCase):
         context, page = self.open_lesson(TEST_PROJECT_URL)
         try:
             page.locator("#dengnasi-test-content").wait_for()
+            self.assert_source_note_is_normalized(page)
+            self.assertEqual(page.locator(".klesson-hero h1").inner_text(), "Dergeh: dengnasî û lêkolînên pêşîn")
             state = page.evaluate("window.__dengnasiTest")
             self.assertEqual(state["projectUrl"], TEST_PROJECT_URL)
             self.assertEqual(state["fromCalls"].count("lesson_content"), 1)
