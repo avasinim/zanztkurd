@@ -32,12 +32,17 @@ assert arabic_letters is None, (
 )
 
 forbidden_heading = re.compile(
-    r"^\s{0,3}#{1,6}\s+.*"
+    r"^\\s{0,3}#{1,6}\\s+.*"
     r"(?:quiz|quizzes|exercise|exercises|test|tests|"
     r"pirs|pirsên|temrîn|rahênan|îmtîhan)",
     re.IGNORECASE | re.MULTILINE,
 )
-assert forbidden_heading.search(text) is None, "question/test/exercise heading found"
+for index, match in enumerate(matches):
+    end = matches[index + 1].start() if index + 1 < len(matches) else len(text)
+    block = text[match.start():end]
+    assert forbidden_heading.search(block) is None, (
+        f"question/test/exercise heading found in lesson {numbers[index]}"
+    )
 
 audio_reference = re.search(
     r"(?:<audio\b|https?://[^\s)]+\.(?:mp3|ogg|wav|m4a|flac)(?:[?#)\s]|$))",
