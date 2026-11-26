@@ -5025,6 +5025,16 @@ Di çend peyvan de K ya kurmancî li hember H ya zazakî ye.
 
 Di vê beşê de çavkaniyê di sernivîsê de K ya kurmancî û H ya zazakî destnîşan dike, û nimûneyên *ker/her* û *kanî/henî* jî vê berawirdkirinê piştrast dikin. Lê di hevoka şîroveya dîrokî de bi xeletî dibêje ku li cihê H ya kurmancî di zazakî de Ş heye; ev hevok ji beşa berî ya H/Ş hatiye dubarekirin. Li gorî nimûne û şîroveya dîrokî ya X, armanca vê beşê K/H ye: X di kurmancî, soranî û kurdiya başûrî de bûye K, lê di zazakî û hewramî de H.
 
+Pirtûk mînakên berawirdkirinê yên din jî dide ku rêça dîrokî ya X nîşan didin:
+
+| Kurmancî | Soranî | Başûrî | Zazakî | Hewramî | Zimanên din ên îranî |
+|---|---|---|---|---|---|
+| *kanî* | *kanî* | *kyenî* | *henî* | *hane* | Farisî: *xane* |
+| *ker* | — | — | *her* | *her* | Belûçî: *her*; farisî/pehlewî: *xer*; avestayî/sanskrîtî: *xere-* |
+| *xan* | — | — | — | — | Pehlewî: *xanig*; avestayî: *xan-*; sanskrîtî: *xan-* |
+
+Ev tablo rêça dengê X ya kevn nîşan dide: di kurmancî, soranî û kurdiya başûrî de bûye K, di zazakî û hewramî de H. Divê ev guherîn bi nimûneyên taybet ve were fêmkirin, ne wek rêzikeke ku di her peyvê de bêîstîsna derbas dibe.
+
 Herwiha di hin peyvan de li cihê S ya kurmancî di zazakî de Ş heye.
 
 | Kurmancî | Zazakî |
