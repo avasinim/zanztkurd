@@ -3969,6 +3969,8 @@ Di hin devokan de cînavên du-kîteyî an pir-kîteyî hene; giranî dikare li 
 - *ewana, wana, vêya, viya*.
 Di soranî de jî formên wek *emin, eto, ême, êwe, ewan* hene. Li gorî têbîniya çavkaniyê, *emin* û *eto* formên devokî ne; formên standard *min* û *to* ne. Formên standard ên tev-soranî yên din *ême, êwe, ewan* in.
 
+Di van cînavan de paşpirtikên ku di navdêran de bêgiranî ne, dikarin giranî bigirin, ji ber ku cînavên çemandî bi demê re wek peyvên xweser (leksîkalîze) bûne. Pirtûk rêya kurtbûna hin formên kevn jî nîşan dide: *ew + ê → ewê → wê* û *ew + an → ewan → wan*. Cînavê *hemû/hemî* jî bi gelemperî li ser kîteya duyem, anku dawiyê, giran e; carinan ji bo giringîdanê kîteya dawiyê dubare tê şidandin: *hemmû/hemmî*.
+
 Di cînavên pirsiyarkî de giranî bi gelemperî li ser kîteya yekem e:
 - *KENGÎ*;
 - *ÇIma, ÇIra*;
@@ -4136,6 +4138,30 @@ Dîftongên vokal + W di hin peyvan de bi vokala paşîn parçebûnê nîşan di
 - *dî-war* (ne *dîw-ar*).
 
 Ev guherîn nîşan dide ku W di hemû peyvan de bi awayekî yekane nayê şîrovekirin; dibe ku di peyvekê de beşeke dîftongê be û di rewşeke din de konsonant be.
+
+
+### 22.4. Mînakên berawirdî yên UÎ/WÎ û UÊ
+
+Pirtûk ji bo berawirdkirina kurmanciya nivîskî, Behdînan û soranî van nimûneyan dide:
+
+| Kurmanciya nivîskî | Behdînî (gotin) | Behdînî (nivîsîn) | Soranî |
+|---|---|---|---|
+| *nû* | *nuî* | *nwî* | *nwê* |
+| *gûz* | *guîz* | *gwîz* | *gwêz* |
+| *kû (kîjan cih)* | *kuî(ve)* | *kwî(ve)* | *kwê* |
+
+Di Behdînanê de UÎ/WÎ li pey gelek konsonantan tê, ji ber ku Û-ya kurmanciya giştî bi awayekî sîstematîk dibe UÎ. Lê çavkaniyê du îstîsna sereke destnîşan dike: *çûn* û *û* ya serbixwe; *bûn* jî li piraniya deveran *bîn* an *bûn* e û tenê li hin deveran *buîn/bwîn* tê gotin. Di hin devokên Behdînan de O jî dibe UÎ/WÎ: *kon → kuîn/kwîn*, *kovî → kuîvî/kwîvî*, *rovî → ruîvî/rwîvî*. Di soranî de UÊ li cihê Û-ya kurmanciya giştî heye, lê belavbûna wê ji UÎ ya Behdînan kêmtir e.
+
+UÎ dikare li destpêka hin peyvan jî were: *uîte/uîtî* ji tirkî *ütü*. Di hin devokên Dihokê de U ji UÎ dikeve: *dûr → duîr → dîr*, *nû → nuî → nî*, *bixwîne → bixuîne → bixîne*; li Zaxo formên navîn ên UÎ tên bihîstin.
+
+### 22.5. Têbîniyên taybet ên dîftongên Y
+
+Di dîftonga **ÊY/ÊÎ** de pirtûk nimûneya soranî *to kê'yt* (“tu kî yî”) dide; ev form wek kîteyeke yekane tê gotin. Di kurmancî de *hêy* bi gelemperî di gazîkirinê de tê dîtin û li gelek deveran wek *hê* tê gotin, ne wek dîftongeke zelal.
+
+Di dîftonga **OY/OÎ** de, soranî *xoy* ji *xo* (“xwe”) û *y/î* (“wî/wê”) pêk hatiye û wateya “bi xwe” dide. Di kurmancî de *oy* bi gelemperî tenê dengê gazîkirinê ye; *Zaxoyî* û *boyax* dîftonga oy nîşan nadin, ji ber ku O û Y di kîteyên cuda ne.
+
+Di dîftonga **UY/UÎ** de formên *duy* di hin devokan de bi wateya saet du piştî nîvro tên bihîstin; di gelek devokên din de *duyê/duyî* tê gotin. Di **ÛY/ÛÎ** de *xûy* li gel forma *xû* heye û di soranî de *xanûy ewan* wek encama girêdanê tê dîtin.
+
 
 ## 23. Hûrguliyên temamker ên guherîna U/I
 
