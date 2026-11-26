@@ -151,6 +151,7 @@ const catalogHero=document.querySelector(".catalog-hero");
 const studentAccessStrip=document.querySelector(".student-access-strip");
 const catalogIntro=document.querySelector(".catalog-intro");
 function applyLanguageView(language){
+ if(language==="laki"){window.location.href="../laki-research.html";return;}
  const northOnly=language==="north";
  if(catalogHero)catalogHero.hidden=northOnly;
  if(studentAccessStrip)studentAccessStrip.hidden=northOnly;
