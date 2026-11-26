@@ -111,6 +111,9 @@ assert len(reader_lessons) == 27, "reader must expose exactly 27 lesson routes"
 for index, lesson in enumerate(lessons):
     embedded = reader_lessons[index]
     assert embedded["number"] == lesson["number"] and embedded["id"] == lesson["id"], "reader lesson identity mismatch"
+    assert embedded["title"] == source_headings[index].group(2).strip() == lesson["title"], (
+        f"reader/authoring/manifest title mismatch in lesson {lesson['number']}"
+    )
     assert embedded["printedPages"] == lesson["printedPages"], f"reader printed-page range mismatch in lesson {lesson['number']}"
     assert embedded["originalPdfPages"] == lesson["originalPdfPages"], f"reader original-PDF range mismatch in lesson {lesson['number']}"
     assert embedded["designedPdfPages"] == lesson["designedPdfPages"], f"reader designed-PDF range mismatch in lesson {lesson['number']}"
@@ -123,5 +126,14 @@ assert not any(token in reader.lower() for token in ('id="quiz"', 'id="quiz-cont
 for number in range(1, 28):
     lesson_path = ROOT / "lessons" / f"kurmanji-dengnasi-lesson-{number:02}.html"
     assert lesson_path.is_file(), f"missing protected lesson route for lesson {number}"
+    lesson_html = lesson_path.read_text(encoding="utf-8")
+    canonical_title = source_headings[number - 1].group(2).strip()
+    assert f"<title>Ders {number} — {canonical_title} | Dengnasîya Zimanê Kurdî</title>" in lesson_html, (
+        f"standalone page title mismatch in lesson {number}"
+    )
+    h1_match = re.search(r"<h1[^>]*>(.*?)</h1>", lesson_html, re.S)
+    assert h1_match, f"standalone lesson H1 missing in lesson {number}"
+    h1_text = re.sub(r"<[^>]+>", "", h1_match.group(1)).strip()
+    assert h1_text == canonical_title, f"standalone page H1 mismatch in lesson {number}"
 
-print("PASS: PDF integrity; 27 source citations; distinct printed/original/designed page maps; generated HTML/payload parity; protected 27-lesson reader routing; course remains held and non-indexable.")
+print("PASS: PDF integrity; 27 source citations; distinct printed/original/designed page maps; generated HTML/payload parity; authoring/manifest/reader/standalone-title parity; protected 27-lesson reader routing; course remains held and non-indexable.")
