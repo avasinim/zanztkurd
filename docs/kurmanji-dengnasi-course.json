@@ -26,7 +26,7 @@
     {
       "number": 1,
       "id": "kurmanji-dengnasi-01",
-      "title": "Dergeh: dengnasî û lêkolînên pêşîn",
+      "title": "Dergeh û ev vekolîn û yên berî wê",
       "printedPages": {
         "start": 4,
         "end": 7
@@ -43,7 +43,7 @@
     {
       "number": 2,
       "id": "kurmanji-dengnasi-02",
-      "title": "Vokal, konsonant; cih û awayên dengan; pifdarî",
+      "title": "Vokal û konsonant; cih û awayên dengan; pifdarî",
       "printedPages": {
         "start": 8,
         "end": 15
@@ -77,7 +77,7 @@
     {
       "number": 4,
       "id": "kurmanji-dengnasi-04",
-      "title": "Qelewîtî: dengên qelew û zirav",
+      "title": "Qelewîtî",
       "printedPages": {
         "start": 29,
         "end": 39
@@ -299,7 +299,7 @@
     {
       "number": 17,
       "id": "kurmanji-dengnasi-17",
-      "title": "Eyn, K/G/Q û komên konsonantî di kurdî de",
+      "title": "Eyn û hemû cotkonsonantên di kurdî de",
       "printedPages": {
         "start": 233,
         "end": 250
@@ -367,7 +367,7 @@
     {
       "number": 21,
       "id": "kurmanji-dengnasi-21",
-      "title": "Dîftong û giranî di dengnasiya kurdî de",
+      "title": "Hin mijarên taybet: dîftong û giranî",
       "printedPages": {
         "start": 315,
         "end": 347
@@ -384,7 +384,7 @@
     {
       "number": 22,
       "id": "kurmanji-dengnasi-22",
-      "title": "Nasandina KL û KE û cudahiyên herdu alfabeyan",
+      "title": "Nasandina KL û KE; cudahiyên herdu alfabeyan",
       "printedPages": {
         "start": 348,
         "end": 372
@@ -469,7 +469,7 @@
     {
       "number": 27,
       "id": "kurmanji-dengnasi-27",
-      "title": "Cotdengiya Ç, K, P, T û rêgirtina li ber hiyatusê",
+      "title": "Cotdengiya Ç, K, P, T û rêgirtin di ser peyvan re",
       "printedPages": {
         "start": 418,
         "end": 432
