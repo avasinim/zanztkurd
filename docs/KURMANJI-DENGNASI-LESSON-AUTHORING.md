@@ -1734,10 +1734,41 @@ Ev formên bi L devokî ne. Di nav piraniya kurmancan de û di zimanê nivîskî
 
 Di kurdî de, li gorî devokan, L di hin peyvan de bi R diguhere. Çavkaniyê nimûneya *bera/bira ew bike* jî dide: forma wê ya kevn bi L ve girêdayî ye û di hin devokan de wek *bila/bela* tê dîtin. Guherîna L bi R bi taybetî di soraniya Hewlêrê de tê dîtin:
 - Soraniya Hewlêrê *mar* — soraniya Silêmaniyê *mał* — erebî *mal* — kurmancî *mal* (xanî).
-- Soraniya Hewlêrê *mindar* — soraniya Silêmaniyê *mindał/minał* — erebî *menal* — kurmancî *menal* (zarok).
+- Soraniya Hewlêrê *mindar* — soraniya Silêmaniyê *mindał/minał* — erebî *menal* — kurmancî *zarok*.
 - Soraniya Hewlêrê *berê* — soraniya Silêmaniyê *bełê* — erebî *bela/belî* — kurmancî *belê* (erê).
 
 Di kurdî de L bi gelemperî bi dengên din naguhere. Lê pirtûk ji zimanên din nimûneyên guherîna L bi W û Y re dide: di portugaliya Brazîlyayê de *Brasil* wek *Brazîw* tê gotin; di hin devokên spanî de *llano* wek *lyano* an *yano* tê gotin; di fransî de forma pirhejmar a *animal* bi guherîna L-ya dawiyê ve girêdayî ye. Pirtûk herwiha nimûneya polonî *ɫapa* (hevreh û hevwateya rûsî *lapa* û kurmancî *lep*) dide: di poloniya standard de wek *wapa* tê gotin, lê di hin devokên rojhilatî de wek *ɫapa* bi L-ya qelew tê bilêvkirin.
+
+
+## 11. Hûrguliyên temamker ên K û L
+
+### 11.1. Rastnivîsîn û cudahiya dengî ya K
+
+Pirtûk qeyd dike ku di destpêka nivîsîna kurdî ya bi alfabeya latînî de, di kovara Hawarê de, herfa **K** carinan ji bo dengê ku îro bi **Q** tê nivîsîn û **Q** ji bo dengê ku îro bi **K** tê nivîsîn dihat bikaranîn. Ji ber vê yekê navê welatê me wek *Qurdistan* û peyva îro *qenc* wek *kenc* dihat nivîsîn. Ev mînak dîroka standardkirina alfabeyê nîşan dide.
+
+Di kurmancî û zazakî de K-ya destpêka peyvê dikare bipif an bêpif be û ev cudahî fonemîk e. Di soranî, farisî, erebî, tirkî û îngilîzî de K-ya destpêka peyvê, li gorî ravekirina pirtûkê, herdem bipif e; ji ber vê yekê gelek peyvên deynkirî yên ji van zimanan hatine, K-ya xwe ya bipif diparêzin. Hin peyvên kevn ên ji tirkî hatine, wek *kon/kûn* (çadir, xîvet), K-ya bêpif hildigirin. Di hin devokên soranî û zazakî de K li ber **Ê** û **WÊ** dikare bibe **Ç** an **TS**; mînaka pirtûkê *le kwê → le çwê* ye.
+
+### 11.2. Hûrguliyên etîmolojîk yên K
+
+Pirtûk diyar dike ku K-ya proto-hindûewropî di gelek peyvên îranî de bûye S an Ç, lê di hin peyvan de wek xwe hatiye parastin. *Kî* ji rehê *kʷis* hatiye û bi latînî *qui* re tê berawirdkirin; *çi* jî ji heman rehê hatiye, lê K di wê de bûye Ç. Di peyva *ser* de jî K-ya kevn bi S hatiye nîşandan. Hin peyvên kurdî yên bi K rehê wan paşî di zimanên îranî de peyda bûne, an ji erebî û tirkî hatine wergirtin.
+
+Pirtûk hin peyvên bi K yên kurmancî bi X-ya îraniya kevn re girêdide: *kanî* bi zazakî *henî* û farisî/pehlewî *xanî/xanîg*; *ker* bi zazakî *her* û farisî/pehlewî *xer*; *ken* bi farisî *xende* û pehlewî *xendek*. Di soranî de ev peyv bi K tên, lê di zazakî de H heye. Herwiha di hin peyvên wergirtî de Q-ya erebî bûye K (*x-l-q → xelk/xelq*), û di rêzeke din de K-ya îranî bi rêya erebî bûye Q (*pistek → festeq → fisteq; zendîk → zendîq*). Di hin peyvên ji tirkî hatine de kurdî K-ya tirkî ya kevn parastiye, tevî ku tirkî ya niha G hildigire (*köç → koç*).
+
+### 11.3. L-ya qelew û fonemiya wê
+
+L-ya qelew di soranî, hewramî û gelek devokên kurdiya başûrî de berfireh e. Di kurmancî de jî di hemû devokan de heye, herçend di hin peyvan de devok dikarin cuda bin: *meła/mela*, *miłet/milet* û *zełam/zilam*. Pirtûk destnîşan dike ku L-ya qelew di *mela* û *milet* ya soranî de tune ye; ji ber vê yekê L-ya qelew a hin devokên kurmancî di van peyvan de bi bandora soranî nayê ravekirin. Di tirkî de L-ya qelew wek alofon, bi taybetî li rex dengê *ı*, tê dîtin; mînaka pirtûkê *kılmak* e.
+
+Cudahiya L-ya zirav û qelew di hin peyvan de dikare wateyê biguherîne, lê pirtûk hişyar dike ku fonemiya herduyan ne tiştekî bêguman e. Di cotê *çil/çił* de Ç jî cuda ye: di *çil* de Ç bipif e, di *çił* de Ç bêpif e. Ji ber vê yekê tenê L nayê cudakirin û ev cot bi tenê delîlê qetî yê du fonemên L nîne.
+
+### 11.4. L ji R û N û daçeka li
+
+Pirtûk ji bo L-ya ku ji R hatiye, berawirdkirina *dil, gul, bilind* bi formên soranî *dił, guł, berz*, hewramî *ził, viłî, berz*, zazakî *zerre, vil, berz*, farisî *dil, gol, bolend* û pehlewî *dil, gil, bulend* dide. Guherîna L/R li gorî devokê dikare bi herdu aliyan ve çêbibe.
+
+Ji bo L-ya ku ji N hatiye, pirtûk mînakên devokî yên *limêj* li hember *nimêj*, *livîn* li hember *nivîn/nivistin* û *loş(î can)* li hember *noş(î can)* dide. Di van peyvan de formên bi L devokî ne; di zimanê nivîskî de formên bi N serdest in. Lê daçeka kurmancî *li* û soranî *le* formên bi L in ku formên bi N yên kevn ji wan zimanan winda bûne. Pirtûk diyar dike ku hewramî N diparêze, di zazakî û farisî de jî ev daçek winda bûye.
+
+Xişteya etîmolojîk a pirtûkê daçeka *li/lê* bi formên zimanên din re berawird dike: kurmancî *li/lê*, soranî *le*, hewramî *ne*, hexamenişî *ena*, albanî *në*, frensî *en* û îngilîzî/latînî *in*. Footnote 108 cudahiya daçeka *lê* (kurtkirina *li wê, li wî, li wan*) ji girêdera *lê* (bi wateya “belam, lê”) cuda dike; ev herdu peyv ji aliyê etîmolojiyê ve ne yek in. Di hin devokan de daçek dikare wek *l* (behdînî), *le* (sûrçî) an *la* (mereşî) were gotin.
+
+Di berawirdkirina L/R ya soraniya Hewlêrê û Silêmaniyê de, mînaka duyemîn wateya kurmancî *zarok* dide; forma kurmancî ya wê *menal* nîne. Ji ber vê yekê xişteya dersê bi awayê rast tê xwendin: Hewlêrî *mindar*, Silêmanî *mindał/minał*, erebî *menal*, kurmancî *zarok*.
 
 ## Çavkanî
 
