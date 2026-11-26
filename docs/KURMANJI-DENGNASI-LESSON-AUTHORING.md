@@ -4434,12 +4434,12 @@ Li gorî tabloya çavkaniyê, xêza **—** nîşana wê ye ku ji bo wê kombîn
 | OO | — | — | — |
 | OU | — | — | — |
 | UA | — | — | — |
-| UE | — | — | — |
+| UE |  |  |  |
 | UÊ | — | — | — |
-| UI | — | — | — |
-| UÎ | — | — | — |
-| UO | — | — | — |
-| UU | — | — | — |
+| OI (dubare di çavkaniyê) | — | — | — |
+| OÎ (dubare di çavkaniyê) | — | — | — |
+| OO (dubare di çavkaniyê) | — | — | — |
+| OU (dubare di çavkaniyê) | — | — | — |
 
 **Têbînî û cudahiyên nivîsînê yên çavkaniyê:**
 
@@ -4449,6 +4449,7 @@ Li gorî tabloya çavkaniyê, xêza **—** nîşana wê ye ku ji bo wê kombîn
 - Di *automat, autonom* de awayên serdest ên kurdî *otomat, otonom* in.
 - Di peyvên erebî de koma IA carinan bi ÎA tê nivîsîn: *iade/îade, idia/îdîa*. Di peyvên Ewropî de IA gelek caran bi YA an IYA tê nivîsîn: *Romanya, kîmya, hiyatus*.
 - Di *şîe* de Eyn di navbera Î û E de tê gotin; ji ber vê yekê hiyatus tenê di nivîsînê de ye.
+- Di tabloya rûpela çapkirî ya 422 de rêzên OI, OÎ, OO û OU careke din dubare hatine çapkirin û malên UE vala ne. Ev dubarebûn û vala-mayîn di tabloya dersê de wek xwe hatine parastin; bi texmîn nayên guhertin an dagirtin.
 - Di peyvên Ewropî de EU bi gelemperî di kurdî de dibe EW: *Ewropa, ewro*.
 
 ## 5. Du rêbazên sereke yên rêgirtina li ber hiyatusê
