@@ -67,3 +67,7 @@ When implementation is authorized and performed in a local project checkout, cre
 1. Implement the narrow loader-guard removal on this integration branch.
 4. Generate the follow-up migration through the Supabase CLI in a local checkout, add fail-closed row/hash checks, and validate it in a disposable project.
 5. Review the complete diff and test evidence before proposing a separate Draft PR for user review.
+
+
+- Corrected all 27 standalone page-shell introductions and loading placeholders; verified page title/H1/manifest parity and stable lesson keys. See `docs/DENGNASI-HTML-PREVIEW-VALIDATION-2026-11-26.md`.
+- Next: add a dedicated Playwright suite for the 27 Dengnasî pages and design a separate test-project authenticated browser workflow. Recover exact provenance for migration ledger versions `20261124093604` and `20261124112742` before any migration-history decision. No production access, `main` update, deployment, or PR merge is authorized here.
