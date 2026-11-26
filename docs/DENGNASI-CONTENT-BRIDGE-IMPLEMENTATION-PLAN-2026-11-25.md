@@ -60,10 +60,10 @@ When implementation is authorized and performed in a local project checkout, cre
 - Canonical title parity is complete across all 27 authoring H1s, Manifest titles, and standalone page `<title>`/`<h1>` values.
 - All 27 HTML previews have been regenerated and checked for normalized source-text parity, list-item parity, table-row parity, balanced HTML, Latin-only script, source citations, and absence of quizzes/forms. See `docs/DENGNASI-HTML-PREVIEW-VALIDATION-2026-11-26.md`.
 - The preview audit found and corrected list, table-separator, literal-asterisk and inline-emphasis conversion defects.
+- A 27-row DRAFT ONLY `content_html` payload artifact has been generated at `docs/previews/dengnasi-content-html-payload-preview.json` and statically validated for stable keys, titles, page metadata, and HTML structure; it has not been applied to any database.
 
 ## Next implementation sequence
 
-1. Build a reviewable 27-row `content_html` payload from the validated previews and check exact key/title/page metadata parity.
-2. Implement the narrow loader-guard removal on this integration branch.
+1. Implement the narrow loader-guard removal on this integration branch.
 4. Generate the follow-up migration through the Supabase CLI in a local checkout, add fail-closed row/hash checks, and validate it in a disposable project.
 5. Review the complete diff and test evidence before proposing a separate Draft PR for user review.
