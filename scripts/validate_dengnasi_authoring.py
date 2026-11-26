@@ -84,7 +84,7 @@ audio_reference = re.search(
 assert audio_reference is None, "external audio or audio element found"
 
 print(
-     "PASS: 27 sequential lesson headings; manifest titles and printed-page ranges aligned; 27 citations; 
+    "PASS: 27 sequential lesson headings; manifest titles and printed-page ranges aligned; 27 citations; "
     "Latin-script lesson text; no quiz/test/exercise headings; no external audio."
 )
 
