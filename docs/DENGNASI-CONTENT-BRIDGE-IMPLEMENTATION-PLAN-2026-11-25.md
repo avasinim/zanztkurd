@@ -93,3 +93,16 @@ When implementation is authorized and performed in a local project checkout, cre
 - Ledger version `20261124112742` is byte-for-byte identical to repository file `20261124130000_activate_kurmanji_dengnasi_course.sql` (timestamp/name mismatch only).
 - Ledger version `20261124093604` is a distinct earlier 36,301-character statement, recoverable from the DB ledger but not represented by a same-version repository file. Both statements contain 27 legacy PDF iframe rows and the same two access/progress RPCs. The current authored HTML rows do not match either historical activation payload; no later replacement migration was identified.
 - Do not replay either statement, add the older one under `supabase/migrations/`, or rewrite migration history. See `docs/DENGNASI-MIGRATION-LEDGER-RECONCILIATION-2026-11-26.md`.
+
+
+## Current reconciliation gate — 2026-11-26 (after authoring-source sync)
+
+- The reviewed authoring document was synchronized to the implementation branch in commit `a70b2131ac807108a010f9d8032f0f7ee1682b01`. Its content now matches the current authoring branch.
+- A fresh direct content check of `docs/previews/dengnasi-content-html-payload-preview.json` against the synchronized authoring source found that the payload is **not yet source-current**:
+  - Lesson 22 does not contain the restored Hawar KL/K-Q alternation examples (`kurd/qurd`, `qenc/kenc`) or the KE short-vowel note.
+  - Lesson 24 does not contain the restored historical B/P correspondence chain and examples (`sêp/sêb/sêv/sêw`, `şeb/şev/şew`, `x(v)ab/xew`).
+  - Lesson 27 does contain both source-print anomaly notes for printed pages 426 and 428. These must be retained in any regeneration; they are not missing from the current payload.
+- The existing validation report records an earlier 27/27 parity result, but that historical result is not evidence that the payload still matches the authoring source after later source edits and synchronization. Re-run parity against the exact current authoring commit after regeneration.
+- The manifest status on the implementation branch is correctly `under preparation`; do not change it to active or release-ready.
+- The implementation plan and validation report do not identify a reproducible generator command or script path. Before changing the payload, locate and inspect the actual generation method or establish a deterministic, reviewable generator. Do not hand-edit the JSON payload or infer a generator filename.
+- **Gate remains closed:** no payload regeneration is claimed, no SQL/migration or database write is authorized or performed, and no deployment/publication/activation is performed. Required next evidence: generator provenance, regenerated 27-row payload, current-source parity, HTML/list/table/metadata checks, and browser suite execution through CI.
