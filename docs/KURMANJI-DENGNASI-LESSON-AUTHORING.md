@@ -330,13 +330,13 @@ Di erebî de K û T-yên bipif, herwiha Ṭ-ya bêpif û qelew hene. Di peyvên 
 
 Di paşpirtika **-et** de T dibe bêpif: *rezalet, heqîqet, riwayet*. Ṭ-ya qelew jî carinan zirav dibe; wek *’etar* ji peyva erebî *’eṭṭar*.
 
-Nivîskar diyar dike ku D-ya qelew a erebî di kurdî de tune ye; ew bi piranî li destpêka peyvê dibe Ẓ, wek *ẓabit, ẓeft*, û li cihên din dibe Z, wek *razî, remezan*. Z-ya qelew û dengê erebî yê nêzî wê jî di kurdî de bi Ẓ tên nîşandan, wek *ẓalim, meẓlûm*.
+Nivîskar diyar dike ku Ẓ-ya kurdî nêzî dengê ظ yê erebî ye, lê ne heman deng e: di kurdî de ew qelewkirina Zeyn (Z) ye, lê ظ ya erebî qelewkirina Zal e. D-ya qelew a erebî (Ḍ) di kurdî de tune ye; di peyvên wergirtî de ew bi gelemperî li destpêkê dibe Ẓ, wek *ẓabit, ẓeft*, û li cihên din dibe Z, wek *razî, remezan*. Z-ya qelew a kurdî û dengê ظ yê erebî jî bi Ẓ tên nîşandan, wek *ẓalim, meẓlûm*.
 
 Di erebî de dengên bêpif ên zirav nînin; herwiha Ç û P di alfabeya erebî ya standard de dengên wan tune ne. Ṣ-ya erebî dikare di kurdî de wek Ṣ bimîne an jî bibe S. Hin caran S-ya zirav a erebî jî di kurdî de dibe Ṣ. Nivîskar vê yekê bi bandora L-ya qelew li ser S rave dike. Lê bi gelemperî S-ya zirav a erebî ziraviya xwe diparêze; wek *Salim*. Di *Ṣabir* de Ṣ ji ber ku di erebî de jî qelew e, dimîne.
 
 ### 5.3. Peyvên ji tirkî û farisî
 
-Di tirkî û farisî de Ṗ û Ṭ tune ne; di farisî de hin peyvên ji erebî wergirtî yên bi Ṭ hene. Ṣ û Ẓ, heke di van zimanan de hebin, bi gelemperî tenê alofonên S û Z ne. Peyvên ji tirkî û farisî wergirtî dikarin bê qelewî bimînin, herçend di peyvên xwemalî de heman derdor dikare dengê qelew bixwaze. Nivîskar *sax* (ji tirkî) û *saz* (ji farisî) bi S-ya zirav dide û wan bi *sar, sahî* yên xwemalî berawird dike.
+Di tirkî û farisî de Ṗ û Ṭ tune ne; di farisî de hin peyvên ji erebî wergirtî yên bi Ṭ hene. Ṣ û Ẓ, heke di van zimanan de hebin, bi gelemperî tenê alofonên S û Z ne: di farisî de berî A û O, û di tirkî de herwiha berî I-ya bênuqte. Peyvên ji tirkî û farisî wergirtî dikarin bê qelewî bimînin, herçend di peyvên xwemalî de heman derdor dikare dengê qelew bixwaze. Nivîskar *sax* (ji tirkî) û *saz* (ji farisî) bi S-ya zirav dide û wan bi *sar, sahî* yên xwemalî berawird dike.
 
 ## 6. L-ya zirav û L-ya qelew: L û Ł
 
