@@ -110,3 +110,16 @@ The 27-row payload preview is stored at `docs/previews/dengnasi-content-html-pay
 - Full Actions run `45778867403` passed: generator `--write/--check`, course-map/PDF/page/title validator, public PDF HTTP/checksum/page-count check, and all 8 mocked Playwright tests.
 - After all checks passed, the workflow synchronized generated HTML previews and JSON to the isolated implementation branch.
 - Temporary PR #94 was closed unmerged. No main update, production/test database write, migration, course activation, deployment, publication, or student-data change occurred.
+
+
+## CI confirmation — 2026-11-26
+
+The complete workflow run [45780142032](https://github.com/avasinim/zanztkurd/actions/runs/45780142032) passed after the latest source-authoring updates through Lesson 7:
+
+- Generator `--write` and `--check` passed.
+- 27-lesson course map, source-page mapping, PDF integrity and protected reader-route validation passed.
+- Public PDF HTTP delivery, checksum and 462-page count passed.
+- All 8 mocked Playwright browser tests passed.
+- Only after all checks passed, regenerated lesson HTML previews and the JSON payload were synchronized to the isolated implementation branch.
+
+The Playwright tests use mocked Supabase state; they do not establish real student authentication, RLS, enrollment, or live progress synchronization. The workflow did not deploy or activate the course.
