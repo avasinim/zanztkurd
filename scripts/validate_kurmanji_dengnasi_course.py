@@ -61,7 +61,9 @@ for lesson in lessons:
 
 assert "دۆخی ئێستا: لە ئامادەکردندایە" in preview, "course landing page must remain on hold until lesson integration is approved"
 assert "const lessons=" in reader, "reader does not embed the lesson manifest"
-assert "lessons.forEach" in reader and 'a.href="?lesson="+(i+1)' in reader, "reader does not generate the 27-lesson index"
+assert "lessons.forEach" in reader and 'a.href="lessons/kurmanji-dengnasi-lesson-"+String(i+1).padStart(2,"0")+".html"' in reader, "reader index must link to the protected lesson routes"
+assert 'id="openLesson"' in reader and 'openLesson").href="lessons/kurmanji-dengnasi-lesson-"+String(current).padStart(2,"0")+".html"' in reader, "reader primary action must open the selected protected lesson"
+assert 'String(current-1).padStart(2,"0")+".html"' in reader and 'String(current+1).padStart(2,"0")+".html"' in reader, "previous/next links must open protected lesson routes"
 assert "lesson.designedPdfPages.start" in reader, "reader does not link to the current lesson PDF page"
 assert "raw.githubusercontent.com/avasinim/zanztkurd/main/Dengnasiya_Zimane_Kurdi_27_Wane_corrected.pdf" in reader, "reader corrected PDF source URL missing"
 assert 'href="https://raw.githubusercontent.com/avasinim/zanztkurd/main/Dengnasiya_Zimane_Kurdi_27_Wane_corrected.pdf#page=8"' in reader, "reader no-script PDF fallback must use the verified raw PDF URL"
