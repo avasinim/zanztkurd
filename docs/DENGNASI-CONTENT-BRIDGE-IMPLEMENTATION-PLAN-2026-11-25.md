@@ -79,3 +79,9 @@ When implementation is authorized and performed in a local project checkout, cre
 - Updated `.github/workflows/validate-dengnasi-course.yml` on this branch to run the suite in Chromium on relevant pull requests.
 - The suite is prepared but **not executed**. A PR/approved CI run is still required; mocked browser tests are separate from real test-project authenticated browser checks.
 - No test-project data or production data was changed.
+
+
+## Catalog status reconciliation — 2026-11-26
+
+- Updated the Dengnasi card and COURSE 03 selector in `lessons/catalog.html` to show “under preparation”, remove active/enrollment/PDF claims, and link to the hold/status page.
+- Read-only check confirms the card and landing page status are consistent. The course remains unavailable to students; no deployment or database activation was performed.
