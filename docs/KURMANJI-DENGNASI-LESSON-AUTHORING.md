@@ -3020,8 +3020,9 @@ Di hin peyvên xwemalî de E-ya kevn bûye I. Nimûneyên berawirdkirina zimanî
 
 Di hin peyvên ji erebî wergirtî de jî E bûye I:
 - *kelam* → *kilam*;
-- *selam* → *silav*;
-- *'elef* → *alif*.
+- *selam* → *silav*.
+
+Çavkaniyê *'elef → alif* jî di lîsteya peyvên erebî de qeyd dike, lê ji ber ku forma kurmancî bi A ye, ew mînak ji guherîna E→I cuda ye; têkiliya wê bi Eyn+E→A di dersa 17 û beşa 13.1 de hatiye şîrovekirin.
 
 Lê di çend peyvên erebî de rêya berevajî jî tê dîtin: E ji I çêdibe, wek *sihet/sehet* û *qise/qese*. Ev nimûne kêm in.
 
@@ -3040,6 +3041,30 @@ Guherîna E bi A, Ê, Î an O carinan ji tekdengkirina cotdengan çêdibe. Ji ni
 Di peyvên ji erebî wergirtî de Eyn û E dikarin bi hev re bibin A, wek *'elef → alif*, *'eqil → aqil* û *me'qûl → maqûl*. Di gelek peyvên din de Eyn di gotinê de tê bihîstin, herçend di nivîsîna latînî de bi herfeke cuda nayê nîşandan. Çavkaniyê diyar dike ku di peyvên ji erebî rasterast wergirtî de formên wek *Elî, behr, qelem* standardtir in ji formên ku bi rêya tirkî hatine (*Alî, bahr, qalem*).
 
 Analojî jî dikare E-yekê li ser A-yeke din bandordar bike: *parçe → perçe*, *saet → seet*, *rahet → rehet*. Di hin devokan de paşê dîsîmîlasyon çêdibe û E-ya yekem dibe I: *sa'et → se'et → si'et*, *rahet → rehet → rihet*. Çavkaniyê vê yekê bi parastina kîteya dawiyê û giraniya wê ve girêdide.
+
+
+### 6.1. Berawirdkirina E-ya kevn di zimanên îranî de
+
+Pirtûk ji bo guherîna dîrokî ya E bi I, tabloya jêrîn dide. Formên zimanên cuda nîşan didin ku E di hin şaxan de hatiye parastin, lê di kurmancî de bûye I:
+
+| Kurmancî | Zazakî | Farisî | Pehlewî | Avestayî |
+|---|---|---|---|---|
+| *bihar* | *weser* | *behar* | *vehar* | *vehere* |
+| *kirin* | *kerdene* | *kerden* | *kerten* | *ker-* |
+
+Di lîsteya çavkaniyê de *alif* jî li gel *kilam* û *silav* wek nimûneyeke peyva erebî tê xistin; lê *alif* ji aliyê dengê dawî ve A ye, ne I. Ji ber vê yekê, ew li vir wek nimûneyeke rasterast a E→I nayê pêşkêşkirin û têkiliya wê bi Eyn+E→A ve girêdayî ye.
+
+### 6.2. Guherîna cotdeng bi tekdeng û rêyên E
+
+Pirtûk çend rêyên guherîna cotdengan bi tekdengan re destnîşan dike:
+
+| Rêya guherînê | Nimûneyên çavkaniyê |
+|---|---|
+| **EW/WE → O** | *xewx → xox*; *şewr → şor*; soranî *xo, xoş* li hember kurmancî *xwe, xweş* |
+| **EH → A** | *tehl → tal*; *pehn → pan*; *mehr kirin → mar kirin* |
+| **EY/YE → Ê** | *keyf → kêf*; *beyder → bêder*; *ceyş → cêş*; *yem → êm* |
+
+Di footnota çavkaniyê de *şor kirin* bi wateya “qise kirin, axiftin, peyivîn” hatiye ravekirin. Ev mînakên dîrokî divê wek nimûneyên taybet bên xwendin, ne wek rêzikên bêîstîsna.
 
 ## 7. Cudahiyên devokî yên E
 
@@ -3080,7 +3105,7 @@ Cînavên *ez, em, ew, ev* ji van nimûneyan cuda ne; lê di hin formên çemand
 
 ## 11. E di peyvên ewropî de
 
-Di gelek peyvên ji zimanên ewropî wergirtî de herfa E ya zimanê jêder bi dengekî nêzî Ê tê gotin, lê di kurmanciya nivîskî ya standard de herfa E tê parastin. Çavkaniyê nimûneyên *telefon, kompûter, Internet, metod, demokrat* pêşkêş dike û formên *têlifon, kompûtêr, Intêrnêt, mêtod, dêmokrat* wek formên ne-standard nîşan dide. Di navên welat û parzemînan de jî A ya zimanê jêder tê parastin: *Amerîka, Afrîka, Almanya, Albanya, Fransa*; çavkaniyê pêşniyar dike ku di nivîsîna standard de A were tercîhkirin.
+Di gelek peyvên ji zimanên ewropî wergirtî de herfa E ya zimanê jêder bi dengekî nêzî Ê tê gotin, lê di kurmanciya nivîskî ya standard de herfa E tê parastin. Pirtûk di navbera nivîsîn û gotina peyvên wek *archeology, Internet, ice* û *free* de cudahî nîşan dide. Di nimûneyên standard û ne-standard de *telefon/têlifon* û *kompûter/kompûtêr* tên berawirdkirin. Di navên welat û parzemînan de jî A ya zimanê jêder tê parastin: *Amerîka, Afrîka, Almanya, Albanya, Fransa*; çavkaniyê pêşniyar dike ku di nivîsîna standard de A were tercîhkirin.
 
 
 ## 12. Cihê A û E di pergala vokalên kurmancî de
@@ -3111,7 +3136,7 @@ Pirtûk di navbera kurmanciya rojhilatî, navendî, soranî û farisî de cudahi
 
 | Rojhilatî | Navendî | Soranî | Farisî |
 |---|---|---|---|
-| *zêvî* | *zevî* | *zevî* | *zamin* |
+| *zêvî* | *zevî* | *zewî* | *zemîn* |
 | *pênîr* | *penîr* | *penêr* | *panîr* |
 
 Di hin peyvan de, berevajî vê, kurmanciya rojhilatî E-ya kevn diparêze û kurmanciya navendî Ê dide:
