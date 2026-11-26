@@ -6,6 +6,7 @@ on:
       - "docs/KURMANJI-DENGNASI-LESSON-AUTHORING.md"
       - "docs/DENGNASI-SOURCE-ALIGNMENT-AUDIT-2026-11-26.md"
       - "scripts/validate_dengnasi_authoring.py"
+      - "scripts/test_dengnasi_reader.py"
       - ".github/workflows/validate-dengnasi-authoring.yml"
   workflow_dispatch:
 
@@ -24,3 +25,9 @@ jobs:
           python-version: "3.x"
       - name: Validate 27-lesson authoring draft
         run: python scripts/validate_dengnasi_authoring.py
+      - name: Install Playwright browser tests
+        run: |
+          python -m pip install --upgrade pip playwright
+          python -m playwright install --with-deps chromium
+      - name: Verify Dengnasi reader test-project isolation in Chromium
+        run: python scripts/test_dengnasi_reader.py
