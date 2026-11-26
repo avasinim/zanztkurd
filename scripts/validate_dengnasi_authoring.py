@@ -217,3 +217,32 @@ assert (
     '!await window.ZANSTI_WAIT_FOR_SUPABASE())return false;'
     in owner_status
 ), "shared owner status check must stop before auth if the project guard rejects the route"
+
+
+# Keep the lesson 17 title aligned with its three source topics: Eyn, K/G/Q,
+# and consonant clusters. The title must remain Kurmanji Latin in every reader.
+LESSON17_TITLE = "Eyn, K/G/Q û komên konsonantî di kurdî de"
+LESSON17_HTML = ROOT / "lessons/kurmanji-dengnasi-lesson-17.html"
+lesson17_html = LESSON17_HTML.read_text(encoding="utf-8")
+assert "# Dersa 17 — " + LESSON17_TITLE in text, (
+    "authoring heading for lesson 17 must cover Eyn, K/G/Q and consonant clusters"
+)
+assert '"title": "' + LESSON17_TITLE + '"' in MANIFEST.read_text(encoding="utf-8"), (
+    "course manifest lesson 17 title is out of sync"
+)
+assert '"title":"' + LESSON17_TITLE + '"' in reader, (
+    "reader lesson 17 title is out of sync"
+)
+assert "<title>Ders 17 — " + LESSON17_TITLE + " | Dengnasîya Zimanê Kurdî</title>" in lesson17_html, (
+    "lesson 17 document title must be Kurmanji Latin and source-complete"
+)
+assert "<h1>" + LESSON17_TITLE + "</h1>" in lesson17_html, (
+    "lesson 17 static heading must be Kurmanji Latin and source-complete"
+)
+assert 'document.title="Ders 17 — ' + LESSON17_TITLE + ' | Dengnasîya Zimanê Kurdî"' in loader, (
+    "runtime lesson 17 title normalization is missing"
+)
+assert re.search(r"[\\u0621-\\u064A]", lesson17_html) is None, (
+    "Arabic-script character remains in lesson 17 page shell"
+)
+print("PASS: lesson 17 title consistently covers Eyn, K/G/Q and consonant clusters in Latin script.")
