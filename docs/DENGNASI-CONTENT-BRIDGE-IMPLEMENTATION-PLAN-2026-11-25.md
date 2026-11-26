@@ -13,10 +13,10 @@ Prepare a safe, reviewable path to replace the existing PDF-only lesson payloads
 - The main-branch activation migration `supabase/migrations/20261124130000_activate_kurmanji_dengnasi_course.sql` already inserts the course `kurmanji-dengnasi-27` and exactly 27 lesson keys, `kurmanji-dengnasi-lesson-01.html` through `-27.html`.
 - Those 27 existing `lesson_content` rows currently hold PDF iframe wrappers, not the 27 authored lesson bodies. The migration contains 27 iframe elements.
 - All inspected lesson pages use `.lesson-content[data-lesson-key]` and the shared `script.js` loader.
-- The loader already queries `public.lesson_content` for `content_html` by `lesson_key`, but it has a deliberate early-return guard for keys matching `kurmanji-dengnasi-lesson-\d{2}\.html`. That guard writes an “under preparation” message and prevents the generic query from running.
+- The loader queries `public.lesson_content` for `content_html` by `lesson_key`. The Dengnasî-specific early-return guard has been removed on the integration branch; the generic protected query path remains.
 - The existing lesson-page files are under `lessons/`, not at repository root.
 - The course manifest records the same course ID and 27 lessons. The current production activation status text does not prove that the draft content from PR #89 has been seeded.
-- Existing security/access functions and sequential lesson gating must be preserved. No live Supabase catalog query was made during this audit.
+- Existing security/access functions and sequential lesson gating must be preserved. The disposable test project was queried and its 27 lesson rows were verified; no production catalog query was made.
 
 ## Correct implementation shape
 
@@ -27,7 +27,7 @@ This is a content replacement in an existing course, not a new course/schema des
 3. Preserve existing enrollment, lesson_progress, completion RPCs, sequence checks, RLS policies, grants and access rules. Do not reset, delete or rewrite learner progress.
 4. Prepare a separately reviewed follow-up migration that updates only the 27 matching `public.lesson_content` rows (the intended fields are `title`, `content_html`, and, only if required by established conventions, `updated_at`). Use fail-closed preconditions: assert the expected course exists, assert all 27 keys exist exactly once, and verify the current payload is the known PDF-wrapper version before replacing it. Abort if any row differs unexpectedly. Do not use a blind upsert that could silently overwrite an unexpected state.
 5. Build each `content_html` body from the corresponding source-checked authoring section in PR #89. Convert only the authored lesson material into the existing lesson-card HTML pattern. Do not embed the source PDF iframe as the lesson body; a small source citation may remain, but the learner-facing content must be the authored lesson, not a page-sliced book.
-6. Remove the early-return guard in `loadProtectedLessonContent` only in the isolated implementation branch, so the existing authenticated Supabase SELECT path can run for this course. Retain the existing loading, missing-row, error, and `aria-busy` handling.
+6. Completed on the integration branch: remove only the early-return guard in `loadProtectedLessonContent`, allowing the existing authenticated Supabase SELECT path to run for this course. The loading, missing-row, error, and `aria-busy` handling remain intact.
 7. Keep authentication, enrollment, previous-lesson completion checks and server-side `can_read_lesson_content` enforcement unchanged. Do not weaken or bypass them to make the content visible.
 8. Verify the course landing page and reader link to the existing `lessons/` pages, and ensure each page's `data-lesson-key` matches exactly one of the 27 seeded keys.
 9. Resolved on the integration branch: the 27 authored lesson H1 headings are canonical and are aligned with the manifest and standalone page title/H1 metadata. Stable IDs, lesson keys and all printed/original/designed PDF page ranges remain unchanged. See `docs/DENGNASI-TITLE-CANONICALIZATION-RECOMMENDATION-2026-11-26.md` and the validation report.
