@@ -2249,6 +2249,39 @@ Husein Muhammed, *Dengnasî di kurdî de*, rûpelên çapkirî 187–202.
 
 
 
+
+
+## 8. Têbîniyên pêrawejan û delîlên zêde
+
+- **Pêraweja 136:** lêkolîna Husein Muhammed ya rêjeya herfan e; rêjeya Ş ya 1,0% ji vê çavkaniyê hatiye.
+- **Pêraweja 137:** balê dikişîne ser du rêyên dîrokî yên Ş: SW-ya destpêkê û KS-ya dawiyê.
+- **Pêraweja 138:** *şandin* bi *çûn/çûyîn*, zazakî *şiyayen*, hewramî *şiyay* û farisî *şoden* re tê girêdan; wateya farisî bi demê re ji “çûn”ê ber bi “bûn tiştek”ê ve guheriye.
+- **Pêraweja 139:** *-doş-* rehê niha yê *dotin/duhtin* e; nimûne *di-doş-im, na-doş-in, bi-doş-e*.
+- **Pêraweja 140:** T û D wek nîşanên demên borî bi çavkaniya zêde tê şîrovekirin.
+- **Pêraweja 141:** di hin peyvên ku Ş di navê wan de ye, Ş dikare bibe H an jî bikeve; li destpêka peyvên vokal-destpêk jî H dikare pêşî lê zêde bibe. Mînakên berawirdî: kurmancî *hesp*, soranî *esp*, farisî *esb*, pehlewî *esp*, zazakî *espe-* û sanskrîtî *eşve-*.
+- **Pêraweja 142:** Y-ya îraniya kevn, bi taybetî li destpêka peyvê, di îraniya nû de dikare bibe C.
+- **Pêraweja 143:** H-ya taybet a *Hesen/heft* ji H-ya asayî cuda ye; nîşana IPA ya wê [ħ] e.
+- **Pêraweja 144:** rêjeya T ya 2,6% ji lêkolîna rêjeya herfan hatiye.
+- **Pêraweja 145:** T û D wek nîşana rehên rabirdûyê bi çavkaniya zêde tê ravekirin.
+- **Pêraweja 146:** hişyariya girîng e: T ya lêkeran di rehê rabirdûyê/infinitîvê de ye, ne di rehê niha û bên de; lê hin lêkerên esil-erebî T di rehê niha/bên de diparêzin (*di-şewit-e, bi-qetîn-in*). Paşgira berhevdanê *-tir/-tirîn* jî T heye û peyva xwerû nîne.
+- **Pêraweja 147:** “Kurdiya başûrî” di vê beşê de tenê Feylî, Kelhurî û Kirmaşanî digire; nاتەوێت بۆ هەموو دیالێکتەکانی باشوور گشتی بکرێت.
+
+## 9. Têbîniya fonetîkî li ser pênaseya Ş
+
+Di rûpela çapkirî 187 de çavkaniyê Ş wek «paşpidûyî-xişok-vizok» pênase dike û ravekirina rawestandina temam û vekirina hêdî dide. Lê IPA [ʃ] dengekî **voiceless postalveolar fricative** e, ne affricate. Affricate destpêkeke sekinî/plosive û paşê berdana fricative heye; [ʃ] tenê bi tengiya rêya hewayê û xişokê tê çêkirin. Ji ber vê yekê, ders pênaseya fonetîkî ya [ʃ] rast dike û nakokiya ravekirina sەرچاوە بە تێبینییەکی ڕوون دەپارێزێت.
+
+## 10. T-ya erebî û پاراستنی پف
+
+چاپی سەرچاوە جیاوازیی نیشانەکانی erebî **ت** و **ط** و کاریگەرییان لەسەر T-ی کوردی دەخاتەڕوو: **ت** بە شێوەیەکی گشتی پفدارە و **ط** بێ‌پفە و قەڵەوە؛ بەڵام لە وشە و وەرگرتنە جیاوازەکاندا پاراستنی پف و قەڵەویی یەکسان نیە. نیشانە عەرەبییەکان لە دەقی خوێندکاردا نەنووسراون؛ جیاوازییە فۆنێتیکییەکە بە وشەی لاتینی ڕوون کراوەتەوە.
+
+## 11. T و مێژووی دەرکەوتن/کەوتن
+
+خشتەی مێژوویی سەرچاوە پەیوەندیی *tav* بە farisî *tab* و لاتینی *tepeo* و PIE *tep-*، *teng* بە sanskrîtî *tenekti* و ئینگلیزی *tight* و PIE *tenk-*، *tirs* بە farisî *ters* و لاتینی *terror* و PIE *tres*، و *heft* بە avestayî *hepte-*، yûnanî *hêpta* و PIE *septm-* پیشان دەدات. لە کەوتنی T-ی ناوەڕاست/کۆتایی، پەیوەندییەکانی *vate-/vat/bad/va/ba*، *apat/abad/ava*، *bût/bûd/bî/bû*، *zamat-er/damad/zama/zava*، *brat-er/brat/berad/bira* و *mat-er/mad/may/ma-k* تۆمار کراون.
+
+## 12. سنووری چاپ و لاپەڕە
+
+پەڕەی فیزیکی 204/462ی PDF دابەشکەری وانەی 15 ـە و ژمارەی سەرچاوەی 186–202 دەنووسێت؛ ناوەڕۆکی چاپکراوی لاپەڕە 187 لە پەڕەی فیزیکی 205/462 دەست پێدەکات و لاپەڕەی 202 لە پەڕەی فیزیکی 219/462 کۆتایی دێت. ئەم جیاوازییەی ژمارەی پەڕەی دابەشکەر و ژمارەی چاپکراو بە ئاگادارییەوە تۆمار کراوە.
+
 # Dersa 16 — Dengên V, W, X, Y û Z
 
 ## 1. V — lêvî-didanî ya xişok û bilerz
