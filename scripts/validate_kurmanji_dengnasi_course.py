@@ -82,7 +82,7 @@ for index, lesson in enumerate(lessons):
     payload_body = payload_lesson["content_html"].split("</style>", 1)[1].rsplit("</section>", 1)[0].strip()
     preview_body = preview_html.split("</header>", 1)[1].rsplit("</section>", 1)[0].strip()
     assert payload_body == preview_body, f"preview/payload body mismatch in lesson {number}"
-    assert not re.search(r"[\\u0600-\\u06FF]", preview_html), f"Arabic-script text found in lesson {number}"
+    assert not re.search(r"[\u0600-\u06FF]", preview_html), f"Arabic-script text found in lesson {number}"
     assert "iframe" not in preview_html.lower(), f"PDF iframe unexpectedly embedded in lesson {number}"
 
 for label, ranges in (("printed source", printed_ranges), ("original PDF", original_ranges)):
