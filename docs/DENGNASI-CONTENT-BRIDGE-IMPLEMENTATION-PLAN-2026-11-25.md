@@ -85,3 +85,11 @@ When implementation is authorized and performed in a local project checkout, cre
 
 - Updated the Dengnasi card and COURSE 03 selector in `lessons/catalog.html` to show “under preparation”, remove active/enrollment/PDF claims, and link to the hold/status page.
 - Read-only check confirms the card and landing page status are consistent. The course remains unavailable to students; no deployment or database activation was performed.
+
+
+## Migration provenance recovery — 2026-11-26
+
+- Recovered both activation SQL statements read-only from `supabase_migrations.schema_migrations.statements` in the test project.
+- Ledger version `20261124112742` is byte-for-byte identical to repository file `20261124130000_activate_kurmanji_dengnasi_course.sql` (timestamp/name mismatch only).
+- Ledger version `20261124093604` is a distinct earlier 36,301-character statement, recoverable from the DB ledger but not represented by a same-version repository file. Both statements contain 27 legacy PDF iframe rows and the same two access/progress RPCs. The current authored HTML rows do not match either historical activation payload; no later replacement migration was identified.
+- Do not replay either statement, add the older one under `supabase/migrations/`, or rewrite migration history. See `docs/DENGNASI-MIGRATION-LEDGER-RECONCILIATION-2026-11-26.md`.
