@@ -32,7 +32,7 @@
 | 14 | Dengên R û S | 168–185 |
 | 15 | Dengên Ş û T | 186–202 |
 | 16 | Dengên V, W, Y û Z | 203–232 |
-| 17 | Eyn, K/G/Q û cotkonsonant | 233–250 |
+| 17 | Eyn, K/G/Q û komên konsonantî di kurdî de | 233–250 |
 | 18 | Vokalên A û E | 251–269 |
 | 19 | Vokalên Ê, I û Î | 270–297 |
 | 20 | Vokalên O, U û Û | 298–314 |
@@ -2265,7 +2265,7 @@ Husein Muhammed, *Dengnasî di kurdî de*, rûpelên çapkirî 203–232.
 
 
 
-# Dersa 17 — Eyn û komên konsonantî di kurdî de
+# Dersa 17 — Eyn, K/G/Q û komên konsonantî di kurdî de
 
 ## 1. Dengê Eyn di kurmancî de
 
