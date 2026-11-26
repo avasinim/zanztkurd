@@ -32,11 +32,16 @@ The nine title differences identified in the earlier reconciliation have been re
 
 ## Remaining integration work
 
-- Build a reviewable 27-row `content_html` payload from the validated previews.
-- Remove the deliberate course-specific loader guard only on an isolated implementation branch, retaining authentication, enrollment, sequential gating, error handling and server-side authorization.
+- Completed: built `docs/previews/dengnasi-content-html-payload-preview.json` with 27 ordered records, exact stable keys/IDs/titles/page metadata, and validated HTML bodies. The payload remains marked DRAFT ONLY and has not been applied.
+- Next: remove the deliberate course-specific loader guard only on an isolated implementation branch, retaining authentication, enrollment, sequential gating, error handling and server-side authorization.
 - Generate and validate a fail-closed migration in a disposable Supabase project only; no production access or mutation is authorized here.
 - Reconcile the catalog card status with the course landing page before any release: the catalog currently describes the course as active while `kurmanji-dengnasi-course.html` is an under-preparation hold page.
 
 ## Safety boundary
 
 No Supabase connection, query, migration, row update, learner-progress change, access-policy change, deployment, publication, main-branch update or PR merge was performed in this validation.
+
+
+## Draft payload artifact
+
+The 27-row payload preview is stored at `docs/previews/dengnasi-content-html-payload-preview.json`. Static checks confirm 27 unique sequential lesson keys, title/ID/page metadata parity with the manifest, balanced HTML, and no preview-only header, form, quiz, or input UI in the injected content bodies. Totals: 843 list items, 51 tables, and 288 table rows. Status remains DRAFT ONLY; no database write was performed.
