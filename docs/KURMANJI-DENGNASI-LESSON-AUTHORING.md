@@ -4369,6 +4369,82 @@ Li gorî nivîskar, alfabeya kurdî-latînî ya niha ji bo nivîsîna hevpar ya 
 
 Ji ber vê yekê nivîskar dibêje ku zêdekirina herfan ne şert e ku xwendina kurdî hêsantir bike; belkî dikare rêzikên rastnivîsînê dijwartir û xeletiyên nivîsînê zêdetir bike. Ev encama nêrîna nivîskar e; mijara dersê nasandina delîl û nîqaşê ye, ne ferzkirina alfabeyekê li ser hemû axêveran.
 
+
+## 9. Hûrguliyên temamker ên berawirdkirina dengî û nîqaşa alfabeyê
+
+### 9.1. Guherîna D piştî R û cêwiyên kurmancî/farisî
+
+Pirtûk diyar dike ku D di kurmancî de piştî R dikare bikeve:
+- kurmancî *kirin* li hember soranî *kirdin*, farisî û zazakî *kerden*;
+- *birin* li hember soranî *birdin*, zazakî *berden*, farisî *borden*;
+- *mirin* li hember soranî *mirdin*, zazakî *merden*, farisî *morden*;
+- *pir* (“rêya di ser avê re”) li hember soranî *pird*.
+
+Lê ev guherîn di hemû peyvan de pêk nayê. Di *hem* de M diparêze, lê di peyva hevreh *hev* de M bûye V. D di *kurmanc/kirmanc* de ketiye, lê di *kurd, kurdî, Kurdistan* de dimîne. Nivîskar van îstîsnayan bi rêya wergirtina peyvên ji ziman an lehceyên din rave dike.
+
+Pirtûk pênc cêwiyên ku ji rehên hevreh lê ji rêyên pêşketina dengî yên cuda peyda bûne, bi tabloyê nîşan dide:
+
+| Bi eslê xwe kurmancî | Bi eslê xwe farisî |
+|---|---|
+| *bajar* | *bazar* |
+| *pîvan* | *peyman* |
+| *hev* | *hem* |
+| *peyv* | *peyam* |
+| *nivîs(în)* | *nivişte/niviştî* |
+
+Peyvên stûna yekem li gor dengnasiya dîrokî ya kurmancî guherîne; yên stûna duyem li gor dengnasiya farisî guherîne û paşê ketine kurmancî an soranî. Ji ber vê yekê, herçend ji heman rehê bin, encamên wan cuda ne.
+
+### 9.2. Ç/K/P/T: pifdarî û yekgirtina nivîsînê
+
+Pirtûk mînakên peyvên ku bi heman herfê tên nivîsîn lê bi pifdarî ji hev cuda tên gotin, dide:
+- *ka* (“li kû ye?”) û *ka* (“giya hişk”);
+- *pir* (“rêya di ser avê re”) û *pir* (“gelek”);
+- *ta* (“heraret”) û *ta* (“dav, ben, dezî”).
+
+Li gorî nivîskar, awayên nerm/bêpif yên Ç/K/P/T di kurmancî û zazakî de hene, lê di soranî, hewramî, kelhurî û farisî de tune ne; di wan zimanan de dengên destpêkê bi gelemperî req/bipif in. Nivîskar vê cudahiyê bi bandora dîrokî ya ermenî li ser kurmancî û zazakî ve girê dide; ev şîroveya dîrokî ya wî ye. Ew herwiha dibêje ku bandora tirkî di hin deveran de berevajî kar kiriye û hin axêver awayên nerm jî wek req dibêjin.
+
+Nivîsandina Ç/K/P/T bi heman herfê di herdu alfabeyên kurdî de, li gorî nivîskar, xizmeta yekgirtina nivîsîna zaravayan dike. Mirov peyv û hevokê dixwîne, ne herfê bi tenê; kontekst gelek caran wateyê zelal dike. Zêdekirina herfên cuda dê hînkirina rastnivîsînê girantir bike û hemû xeletfehmkirinan jî çareser neke.
+
+Nivîskar herwiha dibêje ku P û T ji du awayan zêdetir varyantên dengî hene:
+- **P:** P-ya nerm û zirav (*pênc*); P-ya nerm û qelew (*piling, pazdeh*); P-ya req û zirav (*perde*).
+- **T:** T-ya nerm û zirav (*te*); T-ya nerm û qelew (*teng*); T-ya req û zirav (*tank*); T-ya req û qelew (*tep*).
+
+Ji ber vê yekê, heke armanc nîşandana her varyanteke dengî be, du herfên nû jî dê têr nekin. Ev yek ji delîlên nivîskar e ku rastnivîsîna rojane divê hemû alofonên dengî bi herfên cuda nîşan nede.
+
+### 9.3. R-ya şidandî û nerm
+
+R-ya destpêka peyvê bi gelemperî şidandî ye; R-ya navîn û dawî di peyvên xwerû de bi piranî nerm e. Nivîskar van wek alofonên heman fonemê dihesibîne, ne du fonemên serbixwe. R-ya şidandî ya navîn/dawî di peyvên xwerû de kêm e (*ger, mer, pir, cer, şer*) û gelek ji wan biyanî ne.
+
+Di peyvên pêkhatî de R dikare taybetmendiya peyva bingehîn biparêze: *nîvro* ji *nîv+roj*, *garan* ji *ga+ran*, *hêkrûn* ji *hêk+rûn*. Lê ev parastin ne herdem pêk tê; *nîvro* bi R-ya nerm tê gotin tevî ku *roj* bi R-ya şidandî dest pê dike. Nivîskar dibêje ku R-ya şidandî ya navîn/dawî marjînal e û zêdekirina herfeke din pêwîst nake. Di KE de du R hene, lê li gorî nivîskar ev yek xeletiyên nivîsînê zêde dike.
+
+### 9.4. L-ya qelew û zirav
+
+Di soranî, kelhurî/feylî/kirmaşanî û hewramî de du L hene; L-ya qelew bi gelemperî tenê li navîn an dawiyê tê, ne li destpêka peyvê. Di kurmancî û zazakî de L-ya qelew marjînal e: di *welat* de, di *sal* de bi taybetî di formên *wê salê, sala 2013* de, û di hin devokan de di *milet* û *mela* de. Di piraniya devokên kurmancî de ev peyv bi L-ya zirav tên gotin.
+
+Nivîskar dibêje ku teknîkî dikare herfa **Ł/ł** li KL were zêdekirin an du L bên nivîsîn; lê ji bo armanca yekgirtina nivîsîna kurdî, parastina yek L çêtir e. Ev yek dike ku peyvên wek *dil, lal, qelew* di zaravayên cuda de bi heman awayî bên nivîsîn, herçend bilêvkirina wan hinekî cuda be.
+
+### 9.5. H-ya peyva *heft*
+
+Di tevahiya kurdî de tenê di peyva xwemalî *heft* û peyvên jêderketî (*heftê, hefte, heftî, heftsed*) de H bi awayekî cuda ji H-ya *heval* tê gotin. Di farisî de jî *heft* bi H-ya wek *heval* tê nivîsîn, tevî ku di wê zimanê de du herfên H hene.
+
+H-ya wek *heft* di hin devokan de di peyvên *hezar, heşt, hemû, hirç, hişyar* de jî tê gotin; di piraniya devokên din de ew bi H-ya *heval* e. Nivîskar vê wek varyanteke devokî dihesibîne û dibêje ku yek H di KL de xizmeta standardkirinê dike; axêver dikarin bilêvkirina devoka xwe biparêzin.
+
+### 9.6. Varyantên din ên Z û B
+
+Pirtûk nimûneya Z dide: di *zayîn* de Z zirav e, lê di *zanîn* de qelew e. Di hin devokan de B jî dikare bi awayekî cuda were gotin; mînak *berdan* li hin deveran bi B-ya qelew tê bilêvkirin. Nivîskar destnîşan dike ku ji bo van varyantan daxwaza herfên cuda nehatiye kirin. Ev mînak nîşan dide ku hebûna varyantên dengî bi xwe nayê wateya ku her varyant divê herfa xwe hebe.
+
+### 9.7. Cihê nîşandana dengên deqîq
+
+Tu alfabe bi temamî li gor bilêvkirina her peyvê nayê nivîsîn. Xwînerên zimanê xwe bi alîkariya kontekstê dizanin ka peyv çawa were xwendin; mînak, xwînerê îngilîzî *night* wek [nayt] dixwîne, herçend nivîsîn û gotin ji hev cuda ne. Di farisî de jî nîşanên vokalên kurt dikarin li ser peyva *krdn* bên zêdekirin da ku gotina wê were diyarkirin.
+
+Nivîskar pêşniyar dike ku nîşandana dengên deqîq karê ferheng û pirtûkên hînkirinê be, ne karê nivîsa rojane. Wek mînak, Michael Chyet di ferhenga kurmancî–îngilîzî ya xwe de awayên cuda yên Ç/K/P/T û R-ya şidandî/nerm bi nîşanên taybet ji hev cuda dike. Ev rêbaz ji bo fêrkirina bilêvkirinê bikêr e, lê pêdivî nake ku alfabeya rojane bi herfên zêde giran bibe.
+
+### 9.8. Encamên nivîskar
+
+Nivîskar dibêje ku tu alfabe ne temam e û divê armanca wê nîşandana her varyanteke dengî nebe; divê dengên **berbelav û fonemîk** nîşan bide. KL-ya niha dengên ku di hemû zaravayên kurdî de hene dihewîne. Cudahiyên Ç/K/P/T di kurmancî û zazakî de hene, lê di soranî, kelhurî û hewramî de bi heman awayî tune ne. Du L di hin zaravayan de hene, lê di kurmancî û zazakî de marjînal in. R-ya şidandî û nerm bi piranî alofon in; H-ya *heft* jî di piraniya peyvên din de varyanteke devokî ye.
+
+Li gorî nivîskar, zêdekirina herfên nû xwendina kurdî bi awayekî berçav hêsantir nake, lê dikare rastnivîsînê dijwartir bike. Ev encama nêrîna nivîskar e û divê wek nêrîna wî were xwendin, ne wek biryareke giştî ya li ser hemû standardên kurdî.
+
 ## Çavkanî
 
 Husein Muhammed, *Dengnasî di kurdî de*, rûpelên çapkirî 348–372.
