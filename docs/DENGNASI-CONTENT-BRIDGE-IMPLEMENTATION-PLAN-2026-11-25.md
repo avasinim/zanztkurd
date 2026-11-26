@@ -71,3 +71,11 @@ When implementation is authorized and performed in a local project checkout, cre
 
 - Corrected all 27 standalone page-shell introductions and loading placeholders; verified page title/H1/manifest parity and stable lesson keys. See `docs/DENGNASI-HTML-PREVIEW-VALIDATION-2026-11-26.md`.
 - Next: add a dedicated Playwright suite for the 27 Dengnasî pages and design a separate test-project authenticated browser workflow. Recover exact provenance for migration ledger versions `20261124093604` and `20261124112742` before any migration-history decision. No production access, `main` update, deployment, or PR merge is authorized here.
+
+
+## Browser test harness — 2026-11-26
+
+- Added `scripts/test_dengnasi_lesson_browser.py` with eight mocked-Supabase Playwright cases, including all 27 lesson routes, legacy PDF fail-closed behavior, auth/enrollment/sequence gates, owner bypass, and query failure/missing-row states.
+- Updated `.github/workflows/validate-dengnasi-course.yml` on this branch to run the suite in Chromium on relevant pull requests.
+- The suite is prepared but **not executed**. A PR/approved CI run is still required; mocked browser tests are separate from real test-project authenticated browser checks.
+- No test-project data or production data was changed.
