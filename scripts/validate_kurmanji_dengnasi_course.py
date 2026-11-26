@@ -453,3 +453,19 @@ for required in (
 ):
     assert required in lesson12, f"Lesson 12 is missing source detail: {required}"
 assert "https://en.wikipedia.org/wiki/File/" not in lesson12, "Lesson 12 must not add audio dependencies"
+
+
+# Lesson 13 source-audit assertions (printed pp. 155–167)
+lesson13_match = re.search(r"(?ms)^# Dersa 13 —.*?(?=^# Dersa 14 —)", source)
+assert lesson13_match, "Lesson 13 authoring section is missing"
+lesson13 = lesson13_match.group(0)
+for required in (
+    "rûpelên çapkirî 155–167", "[p]", "[q]", "0,7%", "0,27%",
+    "*pisqilêt*", "*paysikil*", "*patrî*", "*pêl*", "*dilop*", "*fîrdews*",
+    "*funduq*", "*felsefe*", "*fisteq*", "*qereqol*", "*qûł*", "*Qurdistan*",
+    "*qêrîn/qîrîn*", "*xendek/xendeq*", "P-ya bipif", "P-ya bêpif",
+):
+    assert required in lesson13, f"Lesson 13 is missing source detail: {required}"
+assert "P, **[p]**" in lesson13, "Lesson 13 must document the corrected IPA symbol and source inconsistency"
+assert "https://en.wikipedia.org/wiki/File/" not in lesson13, "Lesson 13 must not add audio dependencies"
+assert not re.search(r"[\\u0600-\\u06FF]", lesson13), "Lesson 13 must remain Latin-script only"
