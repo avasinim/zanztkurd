@@ -182,6 +182,7 @@ body.content-page{--ink:#17231f;--muted:#65716b;--green:#315344;--green2:#476b59
  document.querySelectorAll("[data-learning-choice]").forEach(function(button){
   button.addEventListener("click",function(){
    const choice=button.dataset.learningChoice;
+   if(choice==="laki"){window.location.href="laki-research.html";return;}
    if(choice==="kurmanji"){
     const courses=document.getElementById("learningKurmanjiCourses");
     const shouldOpen=courses.hidden;
