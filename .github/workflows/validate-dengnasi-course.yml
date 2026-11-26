@@ -46,7 +46,7 @@ jobs:
                   continue
               reader = PdfReader(str(path))
               print(f"PDF {filename}: {len(reader.pages)} pages")
-              for page_number in range(165, 190):
+              for page_number in range(198, 210):
                   if page_number < len(reader.pages):
                       text = (reader.pages[page_number].extract_text() or "").replace("\\n", " | ")
                       print(f"PAGE_INDEX={page_number} TEXT={text[:500]}")
