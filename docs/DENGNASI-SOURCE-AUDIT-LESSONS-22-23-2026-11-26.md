@@ -22,12 +22,12 @@ The authored lesson follows the source's main sequence and preserves its central
 - The Kurdish–Persian sound correspondences and the source's qualifications for A, B/V/W, D/Z, E/I, Ë/I, G, H, M/V, O, Ş/H, Û/O, V/W and X (pp. 359–363).
 - The discussion of proposed extra letters for Ç/K/P/T, R, L and H, and the author's conclusion that phonetic detail belongs in dictionaries and pronunciation guides rather than forcing every variant into ordinary orthography (pp. 363–372).
 
-A closer comparison found two concrete details that are not explicit in the current authored lesson and should be restored in a subsequent content-sync pass:
+A closer comparison found two concrete details that were not explicit in the authored lesson. Both have now been restored from the source and synchronized to the Lesson 22 HTML preview and JSON payload:
 
 1. **The L section is too compressed.** The source gives the marginal Kurmanji cases *welat*, *sal* (especially *wê salê*, *sala 2013*), and some dialectal *milet* and *mela*. It also explicitly discusses adding **ł** to KL or doubling L as alternatives, before arguing that one L better serves shared spelling (printed page 369). The authored lesson states the general conclusion but omits these examples and the alternatives.
 2. **The spelling-versus-pronunciation illustration is shortened.** The source's discussion on printed page 371 explains that a reader can use context to distinguish *ker* “donkey” from *ker* “deaf”, and suggests *kerr* as an optional disambiguating spelling. This concrete example is not present in the current lesson. It is useful to the source's argument that ordinary orthography need not encode every phonetic detail.
 
-These are source-supported omissions, not evidence that the entire lesson is inaccurate. They have been recorded for restoration; no new linguistic examples have been invented.
+These source-supported details are now present in the authoring source, HTML preview, and generated JSON payload. No new linguistic examples have been invented.
 
 ## Lesson 23 — coverage verified in this targeted pass
 
@@ -44,4 +44,4 @@ The source's own internal inconsistency in the K palatalization discussion is re
 
 ## Release and validation limits
 
-This is a targeted source audit, not a claim of exhaustive sentence-by-sentence reconciliation or native-speaker certification. The two Lesson 22 omissions above remain to be restored to the authoring source and synchronized generated HTML/payload artifacts in a subsequent pass. No course activation, deployment, main-branch change, PR merge, production database change, Supabase migration, or student-data operation was performed.
+This is a targeted source audit, not a claim of exhaustive sentence-by-sentence reconciliation or native-speaker certification. The two Lesson 22 omissions above were restored and synchronized across the authoring source, Lesson 22 HTML preview, and generated JSON payload. A full generator/validator execution remains pending because no local repository checkout was available in this pass. No course activation, deployment, main-branch change, PR merge, production database change, Supabase migration, or student-data operation was performed.
