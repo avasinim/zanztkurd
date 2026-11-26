@@ -29,7 +29,7 @@ The authored headings were checked against the book's section structure:
 - **Lesson 13:** P aspiration and emphatic variants, P's historical sources and changes, Q articulation/distribution and Arabic/Turkic source influences.
 - **Lesson 14:** R strong/weak realization, L/R relations, R weakening/deletion, S thin/thick realizations, S phoneme/allophone status, and historical S relations.
 - **Lesson 15:** Ş articulation and history, J/Ş, Ç/Ş, S/Ş, and T aspiration/voicing and historical changes.
-- **Lesson 16:** V, W, Y and Z articulation/distribution, historical origins and changes, Y as a glide, and Z thin/thick realizations.
+- **Lesson 16:** V, W, X/Ẍ, Y and Z articulation/distribution, historical origins and changes, the source's X/Ẍ spelling recommendation, Y as a glide, and Z thin/thick realizations.
 - **Lesson 17:** Eyn in Arabic-origin and non-Arabic words, its omission/insertion and spelling, K/G/Q relations, and consonant clusters by source-language origin.
 
 ## Important limitation
