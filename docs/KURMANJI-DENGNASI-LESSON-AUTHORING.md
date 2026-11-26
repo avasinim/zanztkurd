@@ -1430,6 +1430,12 @@ Di kurmancî û zazakî de K dikare du awayên dengdanê hebin: **K-ya bipif** �
 
 Di K-ya bêpif de ew pifa xurt nayê derxistin. Pirtûk nimûneyên *ka* (giyayê hişkkirî), *kevir, kirin, kî, kurr* dide. Di kurmancî û zazakî de pifdarî dikare K bike du fonemên cuda. Nimûneya pirtûkê peyva *ka* ye: K-ya bipif di wateya pirsê de tê, lê K-ya bêpif di navê giyayê hişkkirî de ye.
 
+Pirtûk vê cudahiyê bi nimûneya herdu wateyên *ka* di tabloyê de nîşan dide:
+
+| K-ya bipif | Wate | K-ya bêpif | Wate |
+|---|---|---|---|
+| *ka* | Li kû ye? | *ka* | Giyayê hişkkirî |
+
 Di zazakî û ermenî de jî K-ya destpêka peyvê carinan bipif û carinan bêpif e. Di soranî, farisî, erebî, tirkî û îngilîzî de K-ya destpêka peyvê, li gorî ravekirina pirtûkê, herdem bipif e. Gelek peyvên wergirtî yên kurmancî jî pifdariya xwe diparêzin: *kompûter, koçer, kar, kamil*. Lê di hin peyvên kevn ên ji tirkî hatine de K bêpif maye, wek *kon/kûn* (çadir, xîvet).
 
 ## 4. Çavkaniyên dîrokî yên K
