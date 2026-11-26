@@ -116,7 +116,7 @@ class DengnasiReaderBrowserTests(unittest.TestCase):
         try:
             page.get_by_text("وانەکان لە ژینگەی تاقیکردنەوەدان").wait_for()
             state = page.evaluate("window.__dengnasiTest")
-            self.assertEqual(state["projectUrl"], PRODUCTION_PROJECT_URL)
+            self.assertEqual(page.evaluate("window.ZANSTI_SUPABASE.url"), PRODUCTION_PROJECT_URL)
             self.assertEqual(state["fromCalls"], [])
             self.assertEqual(state["lessonKeys"], [])
             self.assertEqual(state["authCalls"], [])
