@@ -3445,6 +3445,77 @@ Di peyvên ji zimanên ewropî hatine wergirtin de parastina I ya çavkaniyê bi
 
 Di kîteya dawiyê de dirêjahiya dengê I dikare bi Î were nîşandan: *statistîk, diminutîv*. Ev rêzik bi taybetî ji bo yekgirtîkirina peyvên wergirtî giring e.
 
+
+## 12. Hûrguliyên temamker ên Ê, I û Î
+
+### 12.1. Ê: belavbûn, çavkanî û paşpirtikên dîrokî
+
+Pirtûk rêjeya Ê di nivîsên kurmancî de **5,2%** dide û ew di rêza pêncem a herfên herî berbelav de ye. Ji sedemên sereke yên vê rêjeyê paşpirtikên çemandina navdêrên mê (*wê kitêbê*), girêdana navdêrên nêr (*hevalê min*) û girêdana pirhejmar (*kitêbên min*) in. Daçekên serbixwe *jê, lê, pê, tê*, nîşana dema bê (*tu ê bikî*), paşpirtika paşlêkerî ya bi wateya “wê/wî/wan” (*min gotê, em çûnê*) û paşpirtika kesê sêyem yê yekhejmar di hin devok û soraniya standard de (*ew dikê, nabêjê, naçê*) jî beşdar in. Cînavên *wê* û *vê* ji ber erkên hevoksaziyê gelek tên bikaranîn.
+
+Di dîroka Ê de, pirtûk formên îraniya navîn yên wek pehlewî û partî bi kurmancî re berawird dike. Ê di kurmancî de di gelek peyvan de ji A-ya zimanên îranî yên din hatiye, wek *kêr* li hember *kard* û *kart*. Di peyvên ji erebî wergirtî de jî A dikare bibe Ê: *fêris, kitêb, fêkî/fêqî* li hember *faris, kitab, fakihe*. Cotdengên *-ey-* û *-ye-* dikarin bi tekdengkirinê bibin Ê: *keyf → kêf*, *deyr → dêr*, *yem → êm*. Ê dikare ji *ai* ya erebî jî were, wek *faide → fêde*. Di *hêk* de gelek dengên li pey hev di qonaxên dîrokî de bi Ê re encam bûne; pirtûk wê bi farisî *xaye/xayê*, pehlewî *xayek* û avestayî *eyem* re berawird dike.
+
+Peyva serbixwe **ê** di gotinên *ê ku, ê min, ê li wir* de ji îraniya kevn hatiye. Paşpirtika navdêrên mê yên çemandî û paşpirtika girêdana navdêrên nêr bi formên kevn ên *-ehye, -ehya, -eiy* ve girêdayî ne. Paşpirtika girêdana pirhejmar **-ên** jî ji *-anê* hatiye; pêşî bi metafoniyê bûye *-ênê* û paşê kurt bûye.
+
+### 12.2. Ê di çemandin û girêdanê de: formên nivîskî û devkî
+
+Di çemandin û girêdanê de paşpirtika Ê dikare vokal û nîvvokalên berî xwe rake. Pirtûk van formên nivîskî û devkî ji hev cuda dike:
+
+| Peyva xwerû | Nivîsa standard | Gotina devkî |
+|---|---|---|
+| *perde* | *perde-y-ên zer* | *perdên zer* |
+| *mase / mêze* | *li ser mase-y-ê / mêze-y-ê* | *li ser masê / mêzê* |
+| *name* | *name-y-a wê* | *nama wê* |
+| *Qamişlo* | *li Qamişlo-y-ê* | *li Qamişlo* |
+| *Holenda* | *li Holenda-y-ê* | *li Holenda* |
+
+Gava peyva xwerû bi Ê bi dawî be, di nivîsa standard de vokala dawiyê dikare rake: *rê → li ser rê-yê → li ser rê*. Di hin devokan de forma bi *rêyê* jî tê gotin. Di girêdanê de, di piraniya devokan de vokala peyva xwerû û Ê (+ Y) bi hev re tên parastin, wek *Reşoyê kurê Hesen(î)*, *birayê min* û *xaniyê bilind*. Di hin devokan de A dikare cihê xwe bide Ê (*birê min*), lê vokalên din têne parastin (*Reşoyê jîr, xaniyê axî*).
+
+Ê gava Y-ya kelijandinê li dû wê were, dikare bibe I: *rê → riya me* û *dê → diya min*; formên bi Ê (*rêya me, dêya min*) jî hene. Lê ev guhertin bi peyvên serbixwe re nayê kirin: *ew dê ye* û *li ser rê ye*, ne *ew di ye* an *li ser ri ye*.
+
+### 12.3. Ê berî H û cudahiyên dengî
+
+Berî H, dengên Î, Ê û I dikarin li cihê hev bên dîtin. Pirtûk mînakên jêrîn dide ku di wan de H carinan tê avêtin û carinan tê parastin:
+
+| Formên bi guhertoyên dengî | Formên berawird |
+|---|---|
+| *bê(h)n* | *bihn / bî(h)n* |
+| *tê(h)n* | *tihn / tî(h)n* |
+| *mê(h)van* | *mihvan / mî(h)van* |
+
+Di *mêvan/mihvan/mîwan* de guherînên devokî hene; soranî *mîwan* jî tê dîtin. Ev nimûne nîşan didin ku dengên dirêj û kurt û hebûna H divê bi devok û peyva taybet ve bên nirxandin.
+
+### 12.4. I: zêdebûn, ketin û kîtekirin
+
+I dengêkî nesabit e. Di gotinê de dikare di navbera konsonantan de were zêdekirin da ku koma konsonantan hêsantir were gotin, lê di nivîsînê de nayê nîşandan. Gava peyv bi tenê tê gotin, *germ, kevn, nizm* dikarin bi dengê alîkar werin gotin: *ge-rim, ke-vin, ni-zim*. Lê di hevoka *germ e, kevn e, nizm e* de ev I nayê gotin û kîteyên peyvan cuda tên dabeşkirin. Di formên çemandî de jî I-ya peyva xwerû dikare di axaftinê de bikeve: *gotin → got-nên wê*, *ketin → ket-na wî*. Ev guhertin avaniya kîteyan diguherîne.
+
+Pirtûk diyar dike ku I-ya di *bira, jiyan, ziman* de bi tena xwe kîteyekê çênake; ev peyv bi yek derbê tên gotin, ne wek *bi-ra, ji-yan, zi-man*. Ev cudahî ji bo kîtekirinê giring e.
+
+### 12.5. I û etîmolojî: dengê niha li pêş texmîna kevn
+
+Di peyvên xwemalî de I-ya kurmancî gelek caran li cihê E-ya zimanên îranî yên din hatiye: kurmancî *bihar, kirin, xwandin, min*; soranî *behar, kirdin, xwêndin, min*; farisî *behar, kerden, x[v]anden, men*; zazakî *weser, kerden, wenden, mi*. Di peyvên erebî de jî I dikare li cihê E be (*kilam/kelam, silav/selam*) an li cihê U (*bilbil/bulbul, cindî/cundî, dinya/dunya*). Di hin peyvan de E li cihê I jî tê, wek *sehet/sihet*.
+
+Pirtûk nîqaşa etîmolojîk a *bira* vedike. Di hin zimanên hindûewropî de koma *br-* bê vokal e (*brat, bhrat, frater, brother*), lê di zimanên îranî yên nêzîk de vokalek di navbera konsonantan de heye (*berat, berader, barador*). Ji ber vê yekê, nivîskar red dike ku rastnivîsîn tenê li ser texmîna zimanên dûr were avakirin. Mînakên *germ* û *kevn* jî nîşan didin ku I-ya di gotina alîkar de ne her dem di rehê etîmolojîk de heye: *germ* di farisî, sanskrîtî, ermenî, îngilîzî, swêdî, latînî û yûnanî de bê I ye; lê *kevn* di farisî *kohen* û zazakî *kihan* de vokalek di navbera V û H de diparêze. Encama nivîskar ew e ku standardkirina kurmancî divê li ser deng û gotina niha ya kurmancî be, ne li ser texmînên etîmolojîk ên ku dikarin bi rastiya niha re nakok bin.
+
+### 12.6. Komên konsonantan û parastina I di peyvên ewropî de
+
+Pirtûk diyar dike ku di peyvên xwemalî de kurmancî komên wek *xw-, sp-, st-, şk-* bê I diparêze: *xwarin, spas, standin, şkeftin*. Di peyvên ji erebî û tirkî wergirtî de gelek caran vokala yekem dikeve, wek *kelam → kilam → klam* û *selam → silav → slav*; forma standard a pêşniyarkirî *kilam* û *silav* e. Di peyvên ewropî de komên destpêkê yên du an sê konsonantan dikarin bê I werin parastin: *blond, Brîtanya, flora, Frensa, glas, gramer, klasîk, krîz, plan, skelet, slavî, statîstîk, sprey, Swêd, traktor, stratejî, stratûm*. Di dawiya peyvê de jî komên sêkonsonantî hene, wek *tekst*. Ji ber vê yekê zêdekirina Î-ya destpêkê di *stasyon, statistîk, stadyûm* de ne hewce ye.
+
+### 12.7. I û Î berî Y: sedema pêşniyara nivîskar
+
+Di nivîsîna kurmancî ya serdest de Î berî Y bi I tê nivîsîn: *çiya, diyar, jiyan, siyaset, kiriye, gotiye, xwariye*. Nivîskar nîqaşa parastina Î li berî Y vedikole û dibêje ku di hin peyvan de rehê peyvê dikare nîşan bide ka I ye an Î (*diyar/dîyar, jiyan/jîyan*), lê di peyvên wek *çiya/çîya* de ev yek her dem nayê zanîn. Di peyvên ji erebî wergirtî de jî kesre bi I tê gotin, herçend di hin nivîsan de bi Î tê nivîsîn (*siyaset, xiyanet, ehliyet*).
+
+Nivîskar pêşniyar dike ku I li berî Y were parastin da ku nivîsîn yekgirtî be û xwendekar neçar nebe ji bo her peyvê rehê wê texmîn bike. Di formên lêkerî de *kir-i-ye, got-i-ye, hat-i-ye* bi I têne şîrovekirin; lê *kir-î-bû, got-î-bû, hat-î-bû* dikarin Î ya rehê peyvê nîşan bidin. Ev nîqaş nêrîna nivîskar e û di dersê de wek şîroveya wî tê pêşkêşkirin, ne wek rêgezeke bêdudilî ya hemû standardên nivîsînê.
+
+### 12.8. Î: dawî, erebî û navên kesan
+
+Î li dawiya peyvên xwerû kêm e. Pirtûk *kî, kengî, dî, çî* dide û dibêje ku ji bilî *kî*, ji bo hin peyvan guhertoyên bi vokalên din jî hene: *kingê, din, çi*. Piraniya peydabûna Î ya dawiyê bi çemandin û peyvsaziyê ve girêdayî ye.
+
+Di erebî de du dengên nêzî Î hene: yek dirêj e û hevdengê Î ya kurdî ye; yê din kurtir e û nêzî I ye. Di wergirtina peyvan de dengê dirêj bi Î tê nivîsîn (*mîr, cîran, dîk/dîkil, îman*), kesreya kurt bi I (*emir, kitêb, fikir*). Lê hin peyv bi Î li cihê kesre tên nivîsîn (*îslam, însan, îbadet, îlac*); hin navên kesan jî guhertoyên bi I hene: *însan/insan, Îhsan/Ihsan, Îsmaîl/Ismaîl*. Pirtûk rêyên kurtbûna navan jî dide: *Isma'îl → Simaîl → Simayl → Simo → Simko* û *Ibrahîm → Birahîm → Birehîm → Birayîm → Birho → Biro*. Di peyveke din de jî *ittifaq → tifaq* tê nîşandan.
+
+### 12.9. Î di peyvên ewropî de: parastina I
+
+Di peyvên ewropî de herfa I bi gelemperî nêzî dengê Î ye, lê bi rêya tirkî an frensî dikare di kurmancî de bi Î an E were nivîsîn. Nivîskar parastina I pêşniyar dike: *internasyonal, informasyon, imparator, televizyon*; ne *înternasyonal, enformasyon, emparator, televîzyon*. Di destpêka peyvan de zêdekirina Î ji bo komên konsonantan ne hewce ye: *stasyon, statistîk, stadyûm*, ne *îstasyon, îstatîstîk, îstadyûm*. Di kîteya dawiyê de, ji ber giraniya kîteyê, I dikare bibe Î: *statistîk, diminutîv*; ne *statistik, diminutiv*. Ev pêşniyara nivîskar e ji bo standarda kurmancî ya nivîskî.
+
 ## Çavkanî
 
 Husein Muhammed, *Dengnasî di kurdî de*, rûpelên çapkirî 270–297.
