@@ -3181,7 +3181,7 @@ Mînakên hevnivîsên dengcuda:
 
 Cudahî dikare ji dengên cuda yên herfên yekgirtî, wek Ç/K/P/T/R/H/X, an jî ji giranî û cihê kirpê peyda bibe.
 
-Mînakeke din nîشان dide ku her tim ne hewce ye cudahiya bilêvkirinê bi herfeke nû were nîşandan. Di hevoka *ew ker e* de, bêyî kontekstê, dikare neyê zanîn ka mebest heywanê ker e yan kesê guh-giran. Ji bo ku wateya “guh-giran” zelal bibe, nivîskar pêşniyar dike ku mirov wê bi du R-yan binivîse: *Ew kerr e*. Bi vî awayî xeletfehmkirin tê astengkirin bêyî ku herfeke nû li alfabeyê zêde bibe. Mînakên *mirovî* û *Azadî* nîşan didin ku heman nivîs dikare bi giranîya cuda wateyên cuda bide: di *wî mirovî nas dikim* de wateya “wî kesî” heye, lê di *alîkariya mirovî* de wateya “mirovî/insanî” heye. Herwiha *Azadî xweş e* ji navê kesê *Azad* ku di hevoka *Wî Azadî got* de tê, bi cihê giranîyê cuda dibe.
+Mînakeke din nîşan dide ku her tim ne hewce ye cudahiya bilêvkirinê bi herfeke nû were nîşandan. Di hevoka *ew ker e* de, bêyî kontekstê, dikare neyê zanîn ka mebest heywanê ker e yan kesê guhgiran. Ji bo ku wateya “guh-giran” zelal bibe, nivîskar pêşniyar dike ku mirov wê bi du R-yan binivîse: *Ew kerr e*. Bi vî awayî xeletfehmkirin tê astengkirin bêyî ku herfeke nû li alfabeyê zêde bibe. Mînakên *mirovî* û *Azadî* nîşan didin ku heman nivîs dikare bi giranîya cuda wateyên cuda bide: di *wî mirovî nas dikim* de wateya “wî kesî” heye, lê di *alîkariya mirovî* de wateya “mirovî/insanî” heye. Herwiha *Azadî xweş e* ji navê kesê *Azad* ku di hevoka *Wî Azadî got* de tê, bi cihê giranîyê cuda dibe.
 
 ### Hevdengên nivîscuda û hevwate
 
