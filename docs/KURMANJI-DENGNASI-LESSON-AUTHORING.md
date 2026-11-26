@@ -3578,6 +3578,19 @@ Pirtûk diyar dike ku *otêl* li gel varyanta *hotêl* tê bikaranîn; di hin de
 
 U li dawiya peyvê di nivîsa standard de tenê di *du, ku, tu* de tê dîtin. Di hin devokan de *çu* jî wek varyanta *çi* tê gotin, bi wateya “hîç, tiştek”. Ev form di lîsteya daçek û cînavên bi U de wek îstîsnayeke devokî tê parastin; divê bi awayê standard yê *çi* neyê tevlihevkirin.
 
+
+## 9. Ü û pirsê tesîra zimanên tirkîkî
+
+Pirtûk diyar dike ku Ü di Rojhilata Navîn de dengekî kêm e: di piraniya devokên kurdî, farisî û zimanên din ên îranî, ermenî, gurcî û zimanên samî yên cîran de tune ye; lê di tirkî, azerî û tirkmenî de heye. Ev yek dikare mirov bixe wê baweriyê ku guherîna Û→Ü di kurdî de ji tesîra tirkî ye. Lê nivîskar vê şîroveyê wek bersiveke yekane qebûl nake.
+
+Di devokên Şahzênî/Şêxbizinî, hin devokên zazakî û hin devokên kurmanciya rojavayî de têkiliya bi tirkî dikare bandor kiriye be. Lê di Behdînanê de, ku Û bi awayekî sîstematîk dibe Ü/-WÎ-, û di kurdiya başûrî de, ku ev guherîn gelek berbelav e, ravekirina tenê bi tesîra tirkî zehmet e: ev dever ji gelek deverên kurmancî û soranî zêdetir dûrî zimanên tirkîkî ne. Nivîskar herwiha dibêje ku Ü ne encama asîmîlebûna kurdan di nav tirkan de ye; gelek axêverên wê deveran tirkî nizanin. Ji ber vê yekê Ü divê wek taybetmendiyeke rastîn a hin devokên kurdî were nasîn, ne wek xeletî an nîşana tirkbûnê.
+
+### 9.1. Rêbaza nivîsînê
+
+Pirtûk dibêje ku ji aliyê teknîkî ve asteng tune ye ku herfa **Ü** li alfabeya kurdî were zêdekirin. Hin nivîsên kurdiya başûrî, zazakî û Şahzênî/Şêxbizinî wê bi kar tînin. Di hin nivîsên kurmanciya rojhilatî de, bi taybetî Behdînan, awayê **-wî-** (wek *bwîk, dwîr, mwî*) tê tercîhkirin; di hin nivîsên Dihokê de jî Î li cihê wê tê nivîsîn (*bîk, dîr, mî*).
+
+Lê ji bo yekgirtîbûna nivîsa standard, pêşniyara nivîskar ew e ku hemû kesan **Û** binivîsin, lê dikarin wê li gor devoka xwe wek **uu, üü, -wî-** an **-î-** bixwînin. Di ferheng û nivîsên dengnasiyê de dikare bilêvkirina her devokê bi awayekî taybet were nîşandan. Bi vî awayî nivîsa hevpar diparêze û cudahiya dengî jî nayê veşartin.
+
 ## Çavkanî
 
 Husein Muhammed, *Dengnasî di kurdî de*, rûpelên çapkirî **298–314**.
