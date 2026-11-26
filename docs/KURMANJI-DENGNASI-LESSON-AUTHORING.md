@@ -698,7 +698,7 @@ Di devokên kurmancî de nimûneyên *bwîk=bûk, cwîn=cûn/cûtin, gwîz=gûz,
 
 Bara mînakê *stêr* di ziman û zaravayan de ev formên pêrawejî hene: Sorani *estêre*, Kelhuri *hesare*, Leki *asare*, Zazaki *astare*, Hewrami *esarî*, Persian *sêtarê*; Avestan *stêr*, Pahlavi *starek*, Sanskrit û English *star*, Latin *stella*. Ji bo *bira*, pirtûk formên Pahlavi *brader*, Avestan *brater*, Sanskrit *bhratar*, Russian *brat*, Ancient Greek *phrater*, Latin *frater* û English *brother* dide. Di Persianê kevn de koma **xş-** di *xşep-/xşayethe-* de hebû; pirtûk herwiha formên devokî *sitran/sitêrk* û *istiran/histran, istêrk/histêrk* dide.
 
-Pirtûk nimûneyên sivikkirina komên deynkirî jî dide: *plan > pîlan, glas > gelas, statîstîk > îstatîstîk, Swêd > Îsweç, traktor > terektir*. Di dûvikê de pêراweja *bord, mord* (Persian), *berd, merd* (Zazaki), *bird, mird* (Sorani) û formên sivikkirî yên Kurmanji *bir, mir* hatiye dayîn. Herwiha *dest > des* û *nalbend > nalben* di Sorani/Kelhuri de, û *çend > çen, bend > ben/benik* di Kurmanji de wek nimûne tên.
+Pirtûk nimûneyên sivikkirina komên deynkirî jî dide: *plan > pîlan, glas > gelas, statîstîk > îstatîstîk, Swêd > Îsweç, traktor > terektir*. Di dûvikê de pêraweja *bord, mord* (Persian), *berd, merd* (Zazaki), *bird, mird* (Sorani) û formên sivikkirî yên Kurmanji *bir, mir* hatiye dayîn. Herwiha *dest > des* û *nalbend > nalben* di Sorani/Kelhuri de, û *çend > çen, bend > ben/benik* di Kurmanji de wek nimûne tên.
 
 ### Xişteya cûreyên kîteyan û cihê wan di peyvê de
 Di xişteya jêrîn de **C** konsonant û **V** vokal e. Nimûneyên di kevanokan de kêm in; xêz nîşana nebûna wê cûreyê li wê pozîsyonê dide.
@@ -2217,7 +2217,7 @@ Pirtûk çar berawirdkirina bingehîn dide: kurmancî *tav* li hemberî farisî 
 - **Pêraweja 145:** T-ya di rehê rabirdûyê de wek nîşana demê tê şîrovekirin; ev ji formên niha û pêşerojê cuda ye.
 - **Pêraweja 146:** T ya navîn an dawî di peyvên xwerû de bi gelemperî nîşana esil-biyanîbûnê ye, lê ev şert îstîsna hene: rehên rabirdûyê yên lêkerên xwemalî, peyvên ku piştî F/S/Ş/X tên, lêkerên wergirtî yên ku T di rehê niha de diparêzin, û paşgira berhevdanê *-tir/-tirîn*. Ji ber vê yekê T bi tenê nabe pîvaneke biryardana etîmolojiyê.
 - **Pêraweja 147:** «Kurdiya başûrî» di vê beşê de tenê Feylî, Kelhurî û Kirmaşanî digire; ev term li vir bi hemû zaravayên kurdî yên başûrî nayê bikaranîn.
-- **Pêraweja 148:** Ji bo têkiliya T û D wek nîşanên demên borî, çavkaniya ku nivîskar nîşan dide tomar کرا.
+- **Pêraweja 148:** Ji bo têkiliya T û D wek nîşanên demên borî, çavkaniya ku nivîskar nîşan dide tomar kir.
 
 
 ## 6. T-ya zirav û T-ya qelew
@@ -2277,7 +2277,7 @@ Husein Muhammed, *Dengnasî di kurdî de*, rûpelên çapkirî 187–202.
 - **Pêraweja 144:** rêjeya T ya 2,6% ji lêkolîna rêjeya herfan hatiye.
 - **Pêraweja 145:** T û D wek nîşana rehên rabirdûyê bi çavkaniya zêde tê ravekirin.
 - **Pêraweja 146:** hişyariya girîng e: T ya lêkeran di rehê rabirdûyê/infinitîvê de ye, ne di rehê niha û bên de; lê hin lêkerên esil-erebî T di rehê niha/bên de diparêzin (*di-şewit-e, bi-qetîn-in*). Paşgira berhevdanê *-tir/-tirîn* jî T heye û peyva xwerû nîne.
-- **Pêraweja 147:** “Kurdiya başûrî” di vê beşê de tenê Feylî, Kelhurî û Kirmaşanî digire; nاتەوێت بۆ هەموو دیالێکتەکانی باشوور گشتی بکرێت.
+- **Pêraweja 147:** “Kurdiya başûrî” di vê beşê de tenê Feylî, Kelhurî û Kirmaşanî digire; ev pênase ji bo hemû devokên başûrî bi giştî nayê bikaranîn.
 
 ## 9. Têbîniya fonetîkî li ser pênaseya Ş
 
