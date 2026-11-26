@@ -32,7 +32,7 @@ assert arabic_letters is None, (
 )
 
 forbidden_heading = re.compile(
-    r"^\\s{0,3}#{1,6}\\s+.*"
+    r"^\s{0,3}#{1,6}\s+.*"
     r"(?:quiz|quizzes|exercise|exercises|test|tests|"
     r"pirs|pirsên|temrîn|rahênan|îmtîhan)",
     re.IGNORECASE | re.MULTILINE,
