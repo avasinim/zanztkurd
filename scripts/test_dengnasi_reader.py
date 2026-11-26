@@ -157,7 +157,20 @@ class DengnasiReaderBrowserTests(unittest.TestCase):
         context, page = self.open_lesson(TEST_PROJECT_URL, LESSON17_URL)
         try:
             page.locator("#dengnasi-test-content").wait_for()
-            self.assertEqual(page.locator(".klesson-hero h1").inner_text(), LESSON17_TITLE)
+            self.assertEqual(
+                page.evaluate("location.pathname"),
+                "/lessons/kurmanji-dengnasi-lesson-17.html",
+                f"browser navigated to an unexpected lesson URL: {page.url}",
+            )
+            self.assertEqual(
+                page.locator(".klesson-hero .eyebrow").inner_text(),
+                "KURMANCÎ · DENGNASÎ · DERSA 17 / 27",
+            )
+            self.assertEqual(
+                page.locator(".klesson-hero h1").inner_text(),
+                LESSON17_TITLE,
+                f"lesson 17 heading mismatch at {page.url}; title={page.title()}",
+            )
             self.assertEqual(page.title(), f"Ders 17 — {LESSON17_TITLE} | Dengnasîya Zimanê Kurdî")
             self.assertNotRegex(page.locator(".klesson-hero h1").inner_text(), r"[ء-ي]")
             self.assertNotRegex(page.title(), r"[ء-ي]")
