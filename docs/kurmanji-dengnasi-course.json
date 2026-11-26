@@ -26,7 +26,7 @@
     {
       "number": 1,
       "id": "kurmanji-dengnasi-01",
-      "title": "Dergeh û ev vekolîn û yên berî wê",
+      "title": "Dergeh: ev vekolîn û yên berî wê",
       "printedPages": {
         "start": 4,
         "end": 7
@@ -43,7 +43,7 @@
     {
       "number": 2,
       "id": "kurmanji-dengnasi-02",
-      "title": "Vokal û konsonant; cih û awayên dengan; pifdarî",
+      "title": "Vokal, konsonant; cih û awayên dengan; pifdarî",
       "printedPages": {
         "start": 8,
         "end": 15
@@ -77,7 +77,7 @@
     {
       "number": 4,
       "id": "kurmanji-dengnasi-04",
-      "title": "Qelewîtî",
+      "title": "Qelewîtî: dengên qelew û zirav",
       "printedPages": {
         "start": 29,
         "end": 39
@@ -111,7 +111,7 @@
     {
       "number": 6,
       "id": "kurmanji-dengnasi-06",
-      "title": "Dengrêziya kurdî; peyv ji kîteyan pêk tên",
+      "title": "Dengrêziya kurmancî û avaniya kîteyan",
       "printedPages": {
         "start": 44,
         "end": 55
@@ -299,7 +299,7 @@
     {
       "number": 17,
       "id": "kurmanji-dengnasi-17",
-      "title": "Eyn (ع) û hemû cotkonsonantên di kurdî de",
+      "title": "Eyn û komên konsonantî di kurdî de",
       "printedPages": {
         "start": 233,
         "end": 250
@@ -367,7 +367,7 @@
     {
       "number": 21,
       "id": "kurmanji-dengnasi-21",
-      "title": "Hin mijarên taybet: dîftong û giranî",
+      "title": "Dîftong û giranî di dengnasiya kurdî de",
       "printedPages": {
         "start": 315,
         "end": 347
@@ -384,7 +384,7 @@
     {
       "number": 22,
       "id": "kurmanji-dengnasi-22",
-      "title": "Nasandina KL û KE; cudahiyên herdu alfabeyan",
+      "title": "Nasandina KL û KE û cudahiyên herdu alfabeyan",
       "printedPages": {
         "start": 348,
         "end": 372
@@ -452,7 +452,7 @@
     {
       "number": 26,
       "id": "kurmanji-dengnasi-26",
-      "title": "Cudahiyên dengnasî di navbera kurdî û tirkî de",
+      "title": "Cudahiyên dengnasî di navbera kurmancî û tirkî de",
       "printedPages": {
         "start": 402,
         "end": 417
@@ -469,7 +469,7 @@
     {
       "number": 27,
       "id": "kurmanji-dengnasi-27",
-      "title": "Cotdengiya Ç, K, P, T û rêgirtin di ser peyvan re",
+      "title": "Cotdengiya Ç, K, P, T û rêgirtina li ber hiyatusê",
       "printedPages": {
         "start": 418,
         "end": 432
