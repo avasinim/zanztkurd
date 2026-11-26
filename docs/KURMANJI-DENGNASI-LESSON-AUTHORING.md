@@ -609,6 +609,67 @@ Nivîskar îstîsnayekê jî destnîşan dike: peyva erebî **qesd** di kurdî d
 
 Di kurmancî de konsonantên bilerz li dawiya peyvê bi otomatîkî nabin bêlerz. Bo nimûne, kurmancî **kitêb, xîtab, hebîb, reng** diparêze; ev ji hin zimanên din cuda ye ku di wan de dengê dawiyê dikare bêlerz bibe. Guherîna lerzê dikare di nav peyvên pêkve û di gotina bilez de di navbera du peyvên cuda de jî çêbibe, wek *pezkûvî* ku di axaftina bilez de dibe *peskûvî*, an *ez têm* ku dibe *es-têm*.
 
+
+## 9. Hûrguliyên temamker ên li ser cihê dengan û kîteyan
+
+### 9.1. Mînakên destpêka peyvan û cudahiya herf û dengê
+
+Pirtûk ji bo destpêka peyvan mînakên bi hemû herfên kurdî dide: *av, baran, car, çav/çar, deng, ez, êvar, fanos, gemar, her/Hesen, izn, îro, jajî, kes, lêv/lep, mirov, nan, ode, pênc/perde/pez, qirêj, rev, ser/sed, şev, te/têr/teng/tep, Urdin, ûtî, van, wêran, xet/xem, yar, zirav/zanîn*. Di van mînakan de nîşana **/** cudahiya dengên ku bi heman herfê tên nivîsîn nîşan dide. Nivîskar dibêje ku **R** li destpêka peyvê herdem şidandî ye; R-ya nerm li vê pozîsyonê nayê.
+
+Herçend her herf dikare li destpêka peyvê were, têkiliya vê yekê bi belavbûna dengên wê yek-herfî re yek nîne. Pirtûk diyar dike ku peyvên bi **B** û **D** pir in; **K, M, N, P, Q, R, S, T, X, Z** jî têra xwe tên. **C, Ç, G, H, Ş** kêmtir in; **F, J, L, V, W, Y** pir kêm in. Di vokalan de **A** li destpêka peyvan ji yên din zêdetir e. **E** bi taybetî di cînavên *ez, em, ew* de xuya dibe. **Î** kêm e, heke peyvên pêkhatî û peyvên deynkirî neyên hejmartin. **O** bi piranî di peyvên bangkirinê û peyvên biyanî de tê; **Û** wek peyveka serbixwe bi wateya “û” heye û di çend peyvên biyanî an navên deveran de jî tê.
+
+Pirtûk neyekrêziya rastnivîsînê di **U/Û** û **I/Î** de destnîşan dike. Mînakên **Urdin/Ûrdin**, **Ukrayna/Ûkrayna** û **urdûyî/ûrdûyî** nîşan didin ku awayê nivîsînê yekser sabît nebûye. Di gelek peyvên ji erebî hatî de, dengê destpêkê yê **I** di nivîsa kurmancî de bi **Î** tê nivîsîn (*îzin, îmtîhan, îhtîmal*), herçend nivîskar dibêje ku dengê rastî zêdetir nêzî **I** ye.
+
+### 9.2. Vokalên dawiya peyvan
+
+Li dawiya peyvan vokal bi gelemperî pir tên, nemaze di peyvên tewandî û pêkhatî de, wek *avÊ, wî barÎ, hevalA min, avÎ, hevalTÎ*. Lê **I** û **U** li dawiyê kêm in. Di nivîsa standard de **I** di *bi, çi, di, ji, li, ti* de heye; *mi* forma devkî ya *min* e. **U** di *du, ku, tu* de tê, û *çu* forma devokî ye. **O** di forma bangkirina nêr a yekjimar de (*hevalo, kurro*) û di paşgirên pirjimar ên *-ino, -no, -îno* de (*hevalino, hevalno, hevalîno*) tê. Ji bilî van, çend peyvên xwerû yên bi piranî devokî hene: *bo, co, ço, do, go, no, ro, xo*; pirtûk awayên nivîsî yên din jî destnîşan dike, wek *do > duh/duhî, go > got, ro > roj, xo > xwe*.
+
+### 9.3. Mînakên dengên li dawiya peyvê
+
+Pirtûk ji bo cihê dengên li dawiya peyvê mînakên jêrîn dide: *baB, baC, maÇ, keD, dE, bÊ, maF, beG, reH/ruH, bI, kÎ, kaJ, maK, maL, maM, naN, bO, geP, reQ, meR/beR, beS, goT/moT, dU, bÛ, aV, eW, reX/giX, eY, beZ*. Di hin mînakan de **/** cudahiya dengên bi heman herfê nîşan dide; *beZ* jî bi wateyên cuda yên *rûn* û *rev* hatiye nîşandan. Pirtûk diyar dike ku hemû herf dikarin li dawiya peyvê bên, lê ne hemû dengên wan dikarin. Dengên bihilm ên **Ç, K, P, T** li dawiya peyvê nayên. Dengên bêhilm ên wan dikarin bên; dengên qelew û bêhilm ên **P** û **T** jî dikarin li dawiyê bên, lê dengên qelew û bihilm nayên.
+
+### 9.4. Hûrguliyên dîrokî û zaravayî yên komên serikê
+
+Di peyvên xwemalî yên kurmanciya nivîskî de pirtûk komên **sp-, st-, şk-, xw-** dide; di hin devokan de **bw-, cw-, gw-, jw-, kw-, mwî-, nw-, sw-, tw-** jî tên. Di peyvên deynkirî yên Ewropî de komên wek **bl-, br-, fl-, fr-, gl-, gr-, kl-, kr-, pl-, pr-, sk-, sl-, st-, sw-, tr-** û komên sê-konsonantî **STR-** û **SPR-** hene. Pirtûk li ser sînordarbûna cihê konsonantan di van koman de rawestiyaye û cudahiya kurmanciya nivîskî, devok, soranî û zimanên din nîşan dide.
+
+Nivîskar di derbarê lîsteya komên xwemalî de cudahiyeke hundirîn di navbera rûpelên 47 û 48 de heye: li rûpela 47 **xw-** di nav komên xwemalî de tê hesibandin, lê di kurtkirina rûpela 48 de tenê **sp-, st-, şk-** û belkî **şt-** têne gotin. Ev cudahî di vê dersê de bi awayekî eşkere tê parastin; yek ji wan gotinan bi awayekî bêdeng nayê jêbirin.
+
+Pirtûk mînaka *stêr* bi formên zimanên din re dide: soranî *estêre*, kelhurî *hesare*, lekî *asare*, zazakî *astare*, hewramî *esarî* û farisî *sêtarê*. Nivîskar dibêje ku komên konsonantan di zimanên îranî yên kevn de jî hebûn; mînakên wî avestayî *stêr*, pehlewî *starek*, sanskrîtî *star*, îngilîzî *star* û latînî *stella* ne. Ji bo peyva *bira*, formên dîrokî û zimanên din wek pehlewî *brader*, avestayî *brater*, sanskrîtî *bhratar*, rûsî *brat*, yûnaniya kevn *phrater*, latînî *frater* û îngilîzî *brother* têne berhevkirin.
+
+Nivîskar herwiha mînaka koma kevn a **xş-** di farisiya hexamenişî de dide û dibêje ku ew di farisiya niha de nemaye. Di hin devokên kurmancî de jî komên wek **st-** bi zêdekirina vokalekê tên sivikkirin: *sitran/sitêrk* an *istiran/istêrk*. Di peyvên nû yên ji Ewropayê hatî de, komên konsonantan dikarin bê sivikkirin bimînin; lê berê hin peyv bi rêya farisî, tirkî an erebî hatine sivikkirin, wek *plan > pîlan, glas > gelas, statîstîk > îstatîstîk, Swêd > Îsweç, traktor > terektir*.
+
+### 9.5. Belavbûna komên dûvikê
+
+Pirtûk diyar dike ku hin komên konsonantan ên di dûvikê de pir berbelav in: **-nd, -st, -ng**; hin kêm tên, wek **-ft, -rs**. Hin kom jî di kurmancî de sivik bûne. Ji bo **-rd**, nivîskar formên kurmancî *bir, mir* bi formên soranî *bird, mird* û zazakî *berdene* re berhev dike. Hin komên din tenê di peyvên esil-biyanî de tên, wek **-lb** û **-mp**; **-yd** û **-wt** jî hem esil-biyanî ne û hem di çend peyvan de tên. Pirtûk dibêje ku *berz* peyveke deynkirî ye û hevreha kurmancî ya wê *bilind* e.
+
+Meyla sivikkirina dûvikê di zimanên kurdî de bi awayên cuda xuya dibe. Di soranî, zazakî û farisî de hin komên destpêka kîteyê hatine sivikkirin, lê kurmancî hin komên dawiya kîteyê sivik kiriye. Pirtûk mînakên farisî *bord, mord*, zazakî *berd, merd* û soranî *bird, mird* li hemberî kurmancî *bir, mir* dide. Di soranî û kelhurî de hin caran **-st** dibe **-s** û **-nd** dibe **-n**; mînak *dest > des* û *nalbend > nalben*. Ev diyarde di kurmancî de jî di hin formên kevn an devokî de xuya dibe: *çend > çen, bend > ben/benik*.
+
+### 9.6. Cotên bilerz û bêlerz
+
+Di beşa lerzê de pirtûk cotên konsonantên bêlerz û bilerz bi vî awayî rêz dike:
+
+| Bêlerz | Bilerz |
+|---|---|
+| p | b |
+| t | d |
+| k | g |
+| s | z |
+| ş | j |
+| f | v |
+| ç | c |
+| x | ẍ |
+
+Varyantên dengî yên her herfê jî di vê rêzê de tên hesibandin. **Q** bêlerz e û di kurdî de hevbereke bilerza wê tune ye. Nivîskar diyar dike ku cotên bêlerz û bilerz di peyvên xwerû de bi gelemperî bi hev re li pey hev nayên; mînakên *dest, heft, text* du dengên bêlerz li pey hev hene, lê komên wek *dezt, hevt, teẍt* an *desd, hefd, texd* di kurmancî de nînin an pir kêm in.
+
+Di guherîna lerzê de konsonanta paştir dikare taybetmendiya xwe li ser konsonanta pêştir bike. Mînakên pirtûkê **lîz+t → lîst** û **kuj+t → kuşt** ne. Di *heft+deh → hevde* de F ya bêlerz berî D-ya bilerz dibe V; di *heşt+deh → hejde* de Ş ya bêlerz dibe J. Di peyva *dest* de S di *desmal, despêk* de dimîne, ji ber ku P bêlerz e; lê di *dezgeh, dezgir/dezgirtî* de S dibe Z, ji ber ku G bilerz e.
+
+### 9.7. Peyvên deynkirî û îstîsnayên guherîna lerzê
+
+Nivîskar dibêje ku di erebî de cotên bêlerz/bilerz bi qasî kurdî nînin û tesîra lerzê li ser guherîna dengan wek kurdî tune ye. Ji ber vê yekê peyvên wek *zebt, qesd, isbat, rizq* di kurdî de dikarin wek *zeft/zept, qezd, izbat, risq* bên gotin. Ji bo peyva *ḥebs* jî formên *ḥefs, ḥeps* û *hevs* têne nîşandan. Nivîskar dibêje ku di van guherînan de bi gelemperî dengê pêştir li ber dengê paştir diguhere, lê di peyva *qest* de îstîsnayek heye: li şûna guherîna dengê pêştir, dengê paştir diguhere.
+
+Di kurmancî de dengên bilerz ên li dawiya peyvê bi otomatîkî nabin bêlerz. Pirtûk *kitêb, xîtab, hebîb* û *reng* bi formên tirkî yên *kitap, hitap* û *renk* re berhev dike. Di tirkî de bêlerzbûna dawiyê di hin formên nivîskî de jî xuya dibe; pirtûk mînakên almanî û rûsî jî dide ku guherîna dengî di gotinê de heye, lê di nivîsînê de nayê nîşandan.
+
+
 ## Çavkanî
 
 Husein Muhammed, *Dengnasî di kurdî de*, rûpelên çapkirî 44–55.
