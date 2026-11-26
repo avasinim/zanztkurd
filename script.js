@@ -385,9 +385,7 @@ window.ZANSTI_IS_DENGNASI_TEST_PROJECT = function(){
 
   (async function verifyOwnerCopyPermission(){
     try{
-      if(typeof window.ZANSTI_WAIT_FOR_SUPABASE==="function"){
-        await window.ZANSTI_WAIT_FOR_SUPABASE();
-      }
+      if(typeof window.ZANSTI_WAIT_FOR_SUPABASE!=="function" || !await window.ZANSTI_WAIT_FOR_SUPABASE())return;
       const client=window.ZANSTI_GET_SUPABASE_CLIENT?.();
       if(!client)return;
       const {data:{session},error:sessionError}=await client.auth.getSession();
@@ -844,7 +842,7 @@ document.querySelectorAll("[data-book]").forEach((btn,i)=>{
 if(!window.ZANSTI_OWNER_CHECK){
   window.ZANSTI_OWNER_CHECK=(async function(){
     try{
-      if(typeof window.ZANSTI_WAIT_FOR_SUPABASE==="function" && !await window.ZANSTI_WAIT_FOR_SUPABASE())return false;
+      if(typeof window.ZANSTI_WAIT_FOR_SUPABASE!=="function" || !await window.ZANSTI_WAIT_FOR_SUPABASE())return false;
       if(!window.supabase?.createClient || !window.ZANSTI_SUPABASE?.ready)return false;
       const sb=window.ZANSTI_GET_SUPABASE_CLIENT();
       const {data:{session}}=await sb.auth.getSession();
@@ -887,7 +885,7 @@ if(!window.ZANSTI_SYNC_PROGRESS){
 /* ===== Server-authoritative lesson completion ===== */
 async function markLessonComplete(courseId, lessonKey){
   try{
-    if(typeof window.ZANSTI_WAIT_FOR_SUPABASE==="function" && !await window.ZANSTI_WAIT_FOR_SUPABASE()){
+    if(typeof window.ZANSTI_WAIT_FOR_SUPABASE!=="function" || !await window.ZANSTI_WAIT_FOR_SUPABASE()){
       return {ok:false,reason:"supabase_unavailable"};
     }
     if(!window.supabase?.createClient||!window.ZANSTI_SUPABASE?.ready){
