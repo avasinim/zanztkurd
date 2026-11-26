@@ -418,6 +418,22 @@ Di kurmancî û soranî de cudahiya R û Ř bi hev re lihevhatî ye: li destpêk
 
 Hin kes rexne li alfabeya kurdî-latînî ya standard digirin, ji ber ku hemû cudahiyên dengî bi herfên cuda nayên nîşandan. Nivîskar nîqaşa zêdekirina herfan û bikaranîna apostrofê ji bo cudakirina dengên bipif û bêpif vedikole. Ew nimûneyên nivîsên ku apostrof di wan de ne bi yek awayê hatiye bikaranîn pêşkêş dike û nîşan dide ku ev rêbaz dikare tevlihevî û xeletiyên nivîsînê çêbike.
 
+### Nimûneyên çavkaniyê ji ceribandinên apostrofê
+
+Nivîskar **Ezîzê Cewo** wek kesekî ku ji bo cudakirina dengên Ç, K, P û T-ya bipif û bêpif apostrof pêşniyar dike, bi nav dike. Lê di nimûneyên wî de apostrof bi yek awayî nayê bikaranîn: carinan wek nîşana bipifiyê û carinan jî wek nîşana bêpifiyê hatiye nivîsîn. Sernavên *LÊ K'A, ÊDÎ R'ASTÎ LI K'U MA?* û *AWIR'EK JI DERVA: PÊVAJOYÊN R'OJHILATA NAVÎN Û PIRSGIRÊKA K'URDÎ BI Ç'AVÊ ZANYARÊ R'ÛS* wek nimûneyên vê nakokiyê tên dayîn. Nivîskar bi berawirdkirina *ka* ya bi K-ya bipif û *ku/kû* ya bi K-ya bêpif, herwiha *kurdî* û *çav*, nîşan dide ku apostrof dikare di heman nivîsê de wateyeke cuda bide û tevliheviyê zêde bike.
+
+Nimûneya hevoka *Tu ker î* jî ji bo nîşandana sînorê kontekstê tê bikaranîn: *ker* dikare “heywan” an “guhgiran” were fêmkirin. Lê nivîskar dibêje ku ev cûre tevlihevî kêm in û bi kontekstê dikarin bên çareserkirin; ji bo rêgirtina li ber çend nimûneyên wiha, zêdekirina gelek herf û nîşanên nû barê rastnivîsînê giran dike.
+
+### Ferheng û nîşankirina bipifî
+
+Nivîskar sê xebat wek nimûne dide:
+
+- **Michael L. Chyet**, di ferhenga kurmancî-îngilîzî de, hin caran *p’* û *t’* ji bo dengên bipif bi kar tîne; lê di peyvên wek *peyam, peyale, peyman, peywendî, peywir* û *taloq, tabûr, tazî/taziye, tepeser* de nîşankirinê bi awayekî yekgirtî nade. Herwiha di hin peyvên wek *t’eraştin, t’erazî, t’ebax, t’eref* de nîşana bipifiyê li peyvên bêpif hatiye danîn. Cudahîya *çel* bi wateya “çil” û *çel* bi wateya “kevir” jî di nivîsîna wî de bi nîşana dengî nayê parastin.
+- **Ruslan Çabolov**, di ferhenga etîmolojî de, Ç-ya bêpif bi **Ĉ** û Ç-ya bipif bi **Č** nîşan dide; K, P û T-ya bipif jî bi apostrofê nîşan dide. Lê nivîskar gelek nimûneyên ku li gor pergala xwe divê bi nîşana bipif bin, bê nîşan hiştine; hin peyvên soranî jî bi awayê ku ji bo kurmancî hatiye danîn nivîsîne. Nimûneyên ku çavkaniyê dide *kelek, kenîşte, kereste, kerewiz*, *melek / meleḱemot*, *hukim / ḥuḱim*, *hikûmet / ḥiḱumet* û *mehkûm / meḥkum* in. Herwiha *kû* ya kurmancî bi K-ya bêpif û *kwê* ya soranî bi K-ya bipif di ferhengê de bi awayekî yekgirtî nayên cudakirin.
+- **Mûsa Anter**, di ferhenga kurdî-tirkî de, tenê ji bo K-ya bêpif û bipif cudahî dide: K-ya bêpif wek K û ya bipif wek KH dinivîse; lê cudahiya Ç, P û T-ya bipif û bêpif bi heman awayî nîşan nade.
+
+Nivîskar eşkere dike ku armanca van nimûneyan rexnekirina kesan nîne. Ew Chyet û Çabolov wek zimannasên baş û xwedî xebatên girîng nas dike, lê dibêje ku cudakirina bipifî û bêpifî heta ji bo wan jî dijwar e û di ferhengên wan de xeletî çêbûne.
+
 Li gorî nêrîna nivîskar, zêdekirina herfên nû dikare nivîsîna kurdî dijwartir bike û xeletiyên nivîsînê zêde bike, bêyî ku sûdeke mezin ji xwendina rojane re peyda bike. Di nivîsên asayî de kontekst bi gelemperî alîkar e ku peyv rast were xwendin û famkirin. Lê di ferheng û pirtûkên dengnasiyê de divê awayê rast ê gotina peyvan bi deqîqî were nîşandan.
 
 Nivîskar mînaka ferhengên kurmancî-îngilîzî, ferhenga etîmolojî ya kurdî û ferhenga kurdî-tirkî dide. Ew nîşan dide ku di nîşankirina dengên bipif û bêpif de di van berheman de jî xeletî û nakokî hene. Armanca nîqaşê rexnekirina kesan nîne; armanc nîşandana dijwariya cudakirina van dengan û girîngiya nîşankirina rast a dengê peyvan e.
