@@ -557,5 +557,5 @@ for required in ("Têbîniyên pêrawejan 209–228", "umêd", "Omer", "hotêl",
 for required in ("Têbîniyên pêrawejan 209–228", "umêd", "Omer", "hotêl", "tirimpêl", "go-lik", "konmak", "kîn", "robah", "kohî", "1,3%", "cihê", "kirdin", "hemî", "Feylî", "Şahzênî", "yew &gt; jew &gt; jû &gt; jü", "Kerkûk û Hewlêr"):
     assert required in lesson20_payload, f"Lesson 20 HTML payload is missing source footnote detail: {required}"
 assert "298–314" in lesson20 and "298–314" in lesson20_payload
-assert not re.search(r"[\\u0600-\\u06FF\\u0400-\\u052F\\u0590-\\u05FF]", lesson20), "Lesson 20 must remain Latin-script only"
-assert not re.search(r"[\\u0600-\\u06FF\\u0400-\\u052F\\u0590-\\u05FF]", lesson20_payload), "Lesson 20 payload must remain Latin-script only"
+assert not any("\\u0600" <= ch <= "\\u06FF" or "\\u0400" <= ch <= "\\u052F" or "\\u0590" <= ch <= "\\u05FF" for ch in lesson20), "Lesson 20 must remain Latin-script only"
+assert not any("\\u0600" <= ch <= "\\u06FF" or "\\u0400" <= ch <= "\\u052F" or "\\u0590" <= ch <= "\\u05FF" for ch in lesson20_payload), "Lesson 20 payload must remain Latin-script only"
