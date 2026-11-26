@@ -3956,6 +3956,128 @@ Cudahiya giranî di *mirovî* de jî wate û erkê rêzimanî cuda dike:
 Ev nimûne nîşan didin ku giranî dikare cudahiya navbera navdêr, rengdêr, daçek û formên lêkerî diyar bike.
 
 
+
+## 22. Xişteyên temamker ên dîftongên Y û UÎ
+
+### 22.1. Xişteya hemû komdengên Y + vokal
+
+Çavkaniyê hemû komdengên Y + vokal bi awayê jêrîn rêz dike. Nîşana *?* di xişteya jêrîn de wateya wê ye ku li ser dîftongbûna wê lihevkirina tam tune ye; nîşana *** jî komdengên ku di kurmanciya standard de peyda nabin nîşan dide.
+
+| Komdeng | Nimûne | Têbînî |
+|---|---|---|
+| **YA / ÎA** | *yar, beyar, yad, ya min* | Di gotinê de dikare dîftong be |
+| **YE / ÎE** | *yek, ye, yezdan* | Y di hin devokan de bêdeng e |
+| **YÊ / ÎÊ** | *yê, yên, bayê felekê* | Li ser dîftongbûnê lihevkirin tune ye |
+| **YI / ÎI** | — | Di kurmanciya standard de tune |
+| **YÎ / ÎÎ** | *tu yî, qamişloyî, ronayî* | Y bi gelemperî di gotinê de nayê bihîstin |
+| **YO / ÎO** | *birayo* | Y di gotinê de dikare bêdeng be |
+| **YU / ÎU** | — | Di kurmanciya standard de tune |
+| **YÛ / ÎÛ** | — | Di kurmanciya standard de tune |
+
+Y li ber I, U û Û dîftong çênake. Li ber Î, di formên paşpirtikî de dikare di nivîsînê de were, lê di gotinê de bi gelemperî bêdeng e. Li ber Ê jî di cînav û çemandinê de tê nivîsîn, lê di gelek devokan de nayê bihîstin.
+
+### 22.2. Xişteya UÎ/WÎ ya Behdînan
+
+Di Behdînanê de Û ya kurmanciya giştî bi gelemperî dibe UÎ di gotinê de û WÎ di nivîsînê de. Xişteya çavkaniyê van mînakên zêdetir dide:
+
+| Kurmanciya giştî | Behdînî bi gotinê | Behdînî bi nivîsînê |
+|---|---|---|
+| *bûn* | *buîn* | *bwîn* |
+| *cûn, cûtin* | *cuîn* | *cwîn* |
+| *biçûk* | *biçuîk* | *biçwîk* |
+| *dûr* | *duîr* | *dwîr* |
+| *fûrîn* | *fuîrîn* | *fwîrîn* |
+| *gû* | *guî* | *gwî* |
+| *hûr* | *huîr* | *hwîr* |
+| *jûjî* | *juîjî* | *jwîjî* |
+| *kûr* | *kuîr* | *kuîr* |
+| *lûrîn* | *luîrîn* | *lwîrîn* |
+| *mû* | *muî* | *mwî* |
+| *nû* | *nuî* | *nwî* |
+| *pûng* | *puîng* | *pwîng* |
+| *rû* | *ruî* | *rwî* |
+| *şûşe* | *şuîşe* | *şwîşe* |
+| *tûrik* | *tuîrik* | *twîrik* |
+| *xwîn* | *xuîn* | *xwîn* |
+| *zû* | *zuî* | *zwî* |
+
+Di hin devokên Behdînan de UÎ li destpêka peyvê jî tê dîtin: *uîte/uîtî* ji tirkî *ütü*. Herwiha O ya kurmanciya giştî dikare bibe UÎ/WÎ: *kon → kuîn/kwîn*, *kovî → kuîvî/kwîvî*, *rovî → ruîvî/rwîvî*. Lê di van devokan de, ji bilî X, li pey konsonantên din tenê UÎ tê dîtin; dîftongên *ua, ue, uê* li wan cihan nayên dîtin. Di soranî de UÊ li cihê Û-ya kurmanciya giştî belav e, lê ne bi qasî UÎ ya Behdînan.
+
+Di hin devokên Dihokê de U ji UÎ dikeve: *dûr → duîr → dîr*, *nû → nuî → nî*, *bixwîne → bixuîne → bixîne*. Li Zaxo, berevajî vê, formên bi UÎ tên bihîstin.
+
+### 22.3. Vokal + W û parçebûna dîftongê
+
+Dîftongên vokal + W di hin peyvan de bi vokala paşîn parçebûnê nîşan didin. Gava vokalek li pey W were, W dikare ji vokala berî xwe veqete û wek konsonantê destpêka kîteya paşîn be:
+- *kew → ke-wek*;
+- *daw → da-wa wê*;
+- *xew → xe-wê*;
+- *ba-we-rî* (ne *baw-e-rî*);
+- *de-war* (ne *dew-ar*);
+- *cê-wî* (ne *cêw-î*);
+- *dî-war* (ne *dîw-ar*).
+
+Ev guherîn nîşan dide ku W di hemû peyvan de bi awayekî yekane nayê şîrovekirin; dibe ku di peyvekê de beşeke dîftongê be û di rewşeke din de konsonant be.
+
+## 23. Hûrguliyên temamker ên guherîna U/I
+
+### 23.1. Lîsteya nimûneyên U/I
+
+Pirtûk ji bo guherîna U û I nimûneyên din jî dide:
+- *bihar/buhar*;
+- *cuda/cida/ciya/cihê*;
+- *çu/çi* (hîç);
+- *dukan/dikan*;
+- *furset/firset*;
+- *hundir/hindir*;
+- *mumkin/mimkin*;
+- *nuha/niha*;
+- *ruḥ/riḥ*;
+- *sultan/siltan*;
+- *şukir/şikir*;
+- *tucar/ticar*;
+- *wucûd/wicûd*;
+- *zuha/ziha/ziwa*.
+
+Lê ev formên alternatîv di her peyvê de wekhev nînin: hin caran forma bi U serdest e (*tu, du, duh/duhî*), hin caran herdu form tên bikaranîn, û hin peyv bi gelemperî tenê yek form hildigirin. *Guh, kurr, qumar, xunav, ẍurbet* nayên guhertin bo *gih, kirr, qimar, xinav, ẍirbet*.
+
+### 23.2. Guherîna navbera devokan û sivikkirina komdengê
+
+Guherîna *ku-/gu-* bo *ki-/gi-* di hin peyvan de bi gelemperî di navbera devokan de ye, ne alternatîveke serbest di heman devokê de. Nimûne:
+- *kurm/kirm*;
+- *kurmanc/kirmanc*;
+- kurmancî *kuştin* li hember zazakî *kişten*;
+- hin devok *gundor/gurovir* li hember devokên din *gindor/gilovir* dibêjin.
+
+Di zazakî de ev guherîn bi sivikkirina komkonsonantan ve girêdayî ye; zazakî di destpêka peyvê de du an zêdetir konsonantan kêm qebûl dike. Nimûne *xweş → weş* û *xwarin → werden*. Di hin devokên kurmancî de jî XW dibe X (*xwarin → xarin*) û KW dikare W-yê xwe winda bike (*kurmanc → kirmanc*).
+
+### 23.3. I → U û sînorên wê
+
+I bi gelemperî nabe U, lê pirtûk hin formên devokî dide ku di wan de U li hember I xuya dibe: *bihar/buhar, hindir/hundir, hin/hun, hir/hur*. Divê ev mînak ji peyvên ku di wan de U ya bingehîn ji rehê dîrokî hatiye, cuda bên dîtin. Formên wek *wusa, wulo, wunda* li hember *wisa, wilo, winda* jî di çavkaniyê de wek kêmasiyên nivîsînê tên şîrovekirin, ne wek guherîna dengî ya rastîn.
+
+## 24. Hûrguliyên temamker ên giranî
+
+### 24.1. Navdêrên ku dikarin yek- an du-kîteyî bên gotin
+
+Pirtûk mînaka *difin* dide: ew dikare bi du kîteyan (*di-fin*) an wek yek kîte (*difn*) were gotin. Gava vokala navîn dikeve, giranî jî dikare biguhere:
+- *difin → difn-a min*;
+- *kevin → kevn e*.
+
+Ji ber vê yekê, di hin peyvan de dîtina giranî tenê bi nivîsînê nayê biryardan; divê bilêvkirina peyvê û ketina vokalan jî were hesibandin.
+
+### 24.2. Paşpirtikên navdêran û giranî
+
+Di navdêran de paşpirtikên çemandinê û girêdanê bi gelemperî bêgiranî ne: **-Ê/-Î, -AN, -A/-Ê, -EK, -EKÊ/-EKÎ, -EKE/-EKÎ, -ÊN**. Lê gava vokala dawiyê ya peyva bingehîn bi vokala paşpirtikê re bikeve nav yekbûnê, giranî dikare li ser paşpirtikê were:
+- *perde → perdeya spî → perda spî*;
+- *erebe → bi erebeyê → bi erebê*;
+- *bira → birayê min → birê min*.
+
+Di navdêrên yek-kîteyî de dirêjahiya vokala bingehîn giring e: piştî vokala dirêj paşpirtik bêgiranî dimîne (*roja me, nanê nerm, bi gazê*); piştî vokala kurt paşpirtik dikare giranî bigire (*dilê min, destên wî, gula wê*).
+
+### 24.3. Giranî di pêşpirtikên lêkeran de
+
+Pirtûk cudahiya pêşpirtikên kurmancî **di-** û **bi-/na-/ne-/me-/ni-** bi soranî û farisî re jî dide: **di-** ya dewamiyê di kurmancî de bêgiranî ye; di soranî de **de-/e-** ya hevwateya wê jî bêgiranî ye. Lê pêşpirtika farisî **mî-** giranî digire. Ev cudahî di nîşandana giraniyê de giring e.
+
+
 ## Çavkanî
 
 Husein Muhammed, *Dengnasî di kurdî de*, rûpelên çapkirî **315–347**.
