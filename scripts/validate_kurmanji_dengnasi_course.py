@@ -151,6 +151,7 @@ for required in (
     "*cento* [çênto]",
     "*cinque* [çînkwê]",
     "*dijûn*",
+    "sixêr, xeber",
     "denge-h-peydabun-u-guherina-wi",
 ):
     assert required in lesson23, f"Lesson 23 is missing source note/example: {required}"
