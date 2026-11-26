@@ -14,7 +14,7 @@ ROOT = Path(__file__).resolve().parents[1]
 BASE_URL = "http://127.0.0.1:8766"
 LESSON_URL = f"{BASE_URL}/lessons/kurmanji-dengnasi-lesson-01.html"
 LESSON17_URL = f"{BASE_URL}/lessons/kurmanji-dengnasi-lesson-17.html"
-LESSON17_TITLE = "Eyn, K/G/Q û komên konsonantî di kurdî de"
+LESSON17_TITLE = "Eyn û hemû cotkonsonantên di kurdî de"
 TEST_PROJECT_URL = "https://juwsjljbdwyncicybwoq.supabase.co"
 PRODUCTION_PROJECT_URL = "https://hjpmorabqdhuchpnowiw.supabase.co"
 
@@ -136,7 +136,7 @@ class DengnasiReaderBrowserTests(unittest.TestCase):
         try:
             page.get_by_text("وانەکان لە ژینگەی تاقیکردنەوەدان").wait_for()
             self.assert_source_note_is_normalized(page)
-            self.assertEqual(page.locator(".klesson-hero h1").inner_text(), "Dergeh: dengnasî û lêkolînên pêşîn")
+            self.assertEqual(page.locator(".klesson-hero h1").inner_text(), "Dergeh û ev vekolîn û yên berî wê")
             state = page.evaluate("window.__dengnasiTest")
             self.assertEqual(page.evaluate("window.ZANSTI_SUPABASE.url"), PRODUCTION_PROJECT_URL)
             self.assertEqual(state["fromCalls"], [])
@@ -152,7 +152,7 @@ class DengnasiReaderBrowserTests(unittest.TestCase):
         try:
             page.locator("#dengnasi-test-content").wait_for()
             self.assert_source_note_is_normalized(page)
-            self.assertEqual(page.locator(".klesson-hero h1").inner_text(), "Dergeh: dengnasî û lêkolînên pêşîn")
+            self.assertEqual(page.locator(".klesson-hero h1").inner_text(), "Dergeh û ev vekolîn û yên berî wê")
             state = page.evaluate("window.__dengnasiTest")
             self.assertEqual(state["projectUrl"], TEST_PROJECT_URL)
             self.assertEqual(state["fromCalls"].count("lesson_content"), 1)
@@ -164,7 +164,7 @@ class DengnasiReaderBrowserTests(unittest.TestCase):
             context.close()
 
 
-    def test_lesson_17_title_covers_all_source_topics_in_latin_script(self):
+    def test_lesson_17_title_matches_source_toc_in_latin_script(self):
         context, page = self.open_lesson(TEST_PROJECT_URL, LESSON17_URL, completed_lessons=list(range(16)))
         try:
             page.locator("#dengnasi-test-content").wait_for()
