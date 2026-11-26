@@ -3969,6 +3969,8 @@ Di kesê duyem ê yekhejmar de formên wek *tu dişê-y-î* û *tu di-jî-yî* t
 
 Di pêkhateya **pêşgir + reh** de Y hema-hema qet nayê bikaranîn: *ne + anîn → neanîn*; *na + avêjim → naavêjim/navêjim*; *di + êşînin → diêşînin/dêşînin*; *bi + ecibîne → biecibîne*. Y di hin formên neyînî yên lêkera *anîn* de dikare were dîtin, wek *na + îne → nayîne* û *ne + înin → neyînin*, lê ev form kêm in. Formên din ên serdest dikarin hiyatusê biparêzin an H zêde bikin: *naîne, neînin, nahîne, nehîne*.
 
+Têbînîya çavkaniyê: li rûpela çapkirî ya 426ê şêweya *neyînîn* hatiye çapkirin; di şîroveya piştî wê de *neînin* û *neyne* jî wek formên serdest hatine gotin. Cudahiya nivîsînê tê tomarkirin; forma çapkirî bê delîl nayê guhertin.
+
 Zêdekirina Y di nivîsînê de nayê wê wateyê ku ew her tim di axaftinê de tê gotin. Di hin devokên rojhilatî de herdu vokal dikarin bimînin bêyî ku Y were bilêvkirin; wek *biraê min* li şûna forma kurtkirî *birê min*.
 
 ## 8. Rola H
@@ -4004,7 +4006,9 @@ Bikaranîna T bi paşgira Î re berbelav bûye, heta di peyvên ku hiyatus tune 
 
 ## 10. Rola N
 
-Di kurmancî de hin peyv cotform hene ku di yekê de N ya dawiyê heye û di ya din de tune ye, wek *çawa/çawan*, *wisa/wisan* û *dîsa/dîsan*. Çavkaniyê rave dike ku N ya dawiyê dikare di destpêkê de ji bo rêgirtina li ber hiyatusê hatibe bikaranîn: forma bê N dema ku peyva paşê bi konsonantê dest pê dike, û forma bi N dema ku peyva paşê bi vokalê dest pê dike.
+Di kurmancî de hin peyv cotform hene ku di yekê de N ya dawiyê heye û di ya din de tune ye, wek *çawa/çawan*, *wisa/wisan* û *dîsa/dîsan*. Çavkaniyê rave dike ku N ya dawiyê dikare di destpêkê de ji bo rêgirtina li ber hiyatusê hatibe bikaranîn: forma bê N
+
+Têbînîya çavkaniyê: li rûpela çapkirî ya 428ê di lîsteya cotforman de *dîsa, dîsa* dubare hatiye nivîsîn; lê li rûpela 429ê nivîskar cotforma *dîsa/dîsan* bi awayekî zelal dide. Ev nakokiya çapkirinê hatiye tomarkirin. dema ku peyva paşê bi konsonantê dest pê dike, û forma bi N dema ku peyva paşê bi vokalê dest pê dike.
 
 - *Tu çawa hatî?* — peyva paşê bi konsonantê dest pê dike.
 - *Tu çawan î?* — peyva paşê bi vokalê dest pê dike.
