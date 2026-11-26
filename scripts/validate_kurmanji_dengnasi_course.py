@@ -171,7 +171,7 @@ for required in (
     "*qui* [kî]",
 ):
     assert required in lesson25, f"Lesson 25 is missing source detail: {required}"
-assert "K-ya kurmancî û H-ya zazakî" in lesson25, "Lesson 25 K/H section title is missing"
+assert "K ya kurmancî li hember H ya zazakî ye" in lesson25, "Lesson 25 K/H comparison is missing"
 assert "xeletî" in lesson25 and "K/H" in lesson25, "Lesson 25 source inconsistency note is missing"
 
 lesson23_match = re.search(r"(?ms)^# Dersa 23 —.*?(?=^# Dersa 24 —)", source)
