@@ -3082,6 +3082,74 @@ Cînavên *ez, em, ew, ev* ji van nimûneyan cuda ne; lê di hin formên çemand
 
 Di gelek peyvên ji zimanên ewropî wergirtî de herfa E ya zimanê jêder bi dengekî nêzî Ê tê gotin, lê di kurmanciya nivîskî ya standard de herfa E tê parastin. Çavkaniyê nimûneyên *telefon, kompûter, Internet, metod, demokrat* pêşkêş dike û formên *têlifon, kompûtêr, Intêrnêt, mêtod, dêmokrat* wek formên ne-standard nîşan dide. Di navên welat û parzemînan de jî A ya zimanê jêder tê parastin: *Amerîka, Afrîka, Almanya, Albanya, Fransa*; çavkaniyê pêşniyar dike ku di nivîsîna standard de A were tercîhkirin.
 
+
+## 12. Cihê A û E di pergala vokalên kurmancî de
+
+Çavkaniyê pergala vokalên kurmanciya giştî bi sê astên bilindahî û sê cihên ziman nîşan dide. A û E di rêza vekirî de ne; cudahiya wan cihê ziman e: A paşîn e, E pêşîn e. Ev tablo hemû vokalên ku di wê xişteyê de hatine dayîn diparêze:
+
+| Bilindahî | Pêşîn | Navendî | Paşîn |
+|---|---|---|---|
+| **Girtî** | Î | I, U | Û |
+| **Nîvî** | Ê | — | O |
+| **Vekirî** | E | — | A |
+
+Di vê xişteyê de A [ɑ] vokala vekirî ya paşîn û ne-girovir e; E [æ] vokala vekirî ya pêşîn û ne-girovir e. Nîşanên IPA ji herfên rastnivîsînê cuda ne.
+
+## 13. Hûrguliyên temamker ên A û E
+
+### 13.1. Guherîna dîrokî ya A di peyvên wergirtî de
+
+Pirtûk ji bo A-ya dîrokî ya ku di hin peyvên ji erebî hatine de guheriye, mînakên *hêdî* (ji *hadi*), *kitêb* (ji *kitab*) û *êciz* (ji *'aciz*) dide. Ev mînak ji guherîna A-ya di peyvên xwemalî de cuda ne; ew bi rêya wergirtina peyvên erebî û nêzîkbûna dengên wan di kurmancî de ve girêdayî ne.
+
+### 13.2. A, E û guherîna ji ber cihê konsonantan
+
+Di beşa guherîna A→E de, pirtûk mînakên *agah → ageh* û *şah + siwar → şahsiwar* dide; H an koma konsonantan dikare şertê guherînê biafirîne. Di hin peyvan de A bi rêya EH/HE tê pêşxistin: *kanî → kehnî*, *karik → kehrik* û *asin → hesin*. Di kurdiya başûrî de guherîna *kar(ik) → kyer* û *nazanim → nyezanim* wek pêvajoyeke cuda ya A→YE tê nîşandan.
+
+### 13.3. Berawirdkirina devokî ya E û Ê
+
+Pirtûk di navbera kurmanciya rojhilatî, navendî, soranî û farisî de cudahiyên E/Ê bi tabloyan nîşan dide:
+
+| Rojhilatî | Navendî | Soranî | Farisî |
+|---|---|---|---|
+| *zêvî* | *zevî* | *zewî* | *zemîn* |
+| *pênîr* | *penîr* | *penêr* | *penîr* |
+
+Di hin peyvan de, berevajî vê, kurmanciya rojhilatî E-ya kevn diparêze û kurmanciya navendî Ê dide:
+
+| Rojhilatî | Navendî | Soranî | Farisî |
+|---|---|---|---|
+| *mejî* | *mêjî* | *mêşk* | *meẍz* |
+| *çerîn* | *çêrîn* | *çerîn* | *çerîden* |
+
+Di malbata *mejî* de formên kurdiya başûrî *mejg/meg/mijq*, hewramî *mejg*, lekî û zazakî *mezg* jî tên dîtin. Nivîskar dibêje ku ev formên zimanên din piştgiriyê didin vê ku E ya rojhilatî di hin peyvan de forma kevntir e. Di peyva *pênîr* de jî formên xwerû û çemandî li gor devokê cuda ne: rojhilatî *pênîr* xwerû û *pênîrî* çemandî ye; navendî *penîr* xwerû û *pênîr* çemandî ye.
+
+### 13.4. E→I û E→A di devokan de
+
+Di kurmanciya rojhilatî de hin peyvên bi E yên kurmanciya navendî bi I tên:
+- navendî *der* — rojhilatî *dir*;
+- navendî *keç* — rojhilatî *kiç*;
+- navendî *tenê* — rojhilatî *tinê*.
+
+Di soranî de hin form bi rojhilatî re ne, hin jî bi navendî re ne: *geyandin, geyiştin, kiç* nêzî rojhilatî ne; *tenya, der* nêzî navendî ne. Di hin devokan de E-ya dawiyê dibe I û *xwe* dikare bibe *xwi*, paşê *xu*. Di hin devokên rojavayî û di devoka Goyiyan de E dikare nêzî A bibe: *ez → az* û *kurd e → kurd a*.
+
+### 13.5. Çemandin û paşpirtikên E
+
+Di çemandina navdêrên mê de, E-ya dawiyê di gotina devkî de dibe Ê: *mase/mêze → li ser masê/mêzê* û *rojname → wê rojnamê*. Di nivîsînê de E tê parastin û Y di navbera wê û Ê-ya paşpirtikê de tê: *mase-y-ê, rojname-y-ê*.
+
+Di lêkerên bi paşpirtika kevn a *-andin* de E di rehê niha de dibe Î (di hin devokan û di soranî de Ê): *stendin → di-stîn-in*, *xwendin → na-xwîn-im*. Di *xwestin* de E-ya kurmanciya navendî di rehê niha û pêşerojê de dibe A (*di-xwaz-im, na-xwaz-in*), lê berawirdkirina rojhilatî *xwastin*, soranî *xwastin*, farisî *xwasten*, pehlewî *xwasten* û partî *wxasten* nîşan dide ku A di dîrokê de forma kevn e.
+
+Di çemandina navdêrên nêr ên kurmanciya navendî û rojavayî de jî E dikare bibe Ê: *derî → li dêrî xist*, *ser → bi sêrî*. Ev guherîn di kurmanciya rojhilatî de bi heman awayî nayê kirin.
+
+### 13.6. Ketina E û formên fermanî
+
+Pirtûk ji bo ketina E-ya destpêkê formên *ber* (li hember pehlewî *eper* û avestayî *upeyri*), *wêran* (li hember pehlewî *ewêran*) û *yar* (li hember pehlewî *eyar*) dide. Di formên cînavî de jî *wê/wî/wan* ji *ewê/ewî/ewan* û *vê/vî/van* ji *evê/evî/evan* hatine kurtkirin.
+
+Di hin devokan de E-ya paşpirtika fermanî ya yekhejmar dikeve, lê pirtûk diyar dike ku ew pêşî kurt bûye û bûye I, paşê ketiye:
+- *binivîse → binivîsi → binivîs*;
+- *nebêje → nebêji → nebêj*;
+- *rabe → rab*.
+
+
 ## Berawirdkirina A û E
 
 | Taybetmendî | A [ɑ] | E [æ] |
