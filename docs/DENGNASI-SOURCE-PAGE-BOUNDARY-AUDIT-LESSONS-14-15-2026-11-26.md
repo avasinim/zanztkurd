@@ -37,3 +37,14 @@ The `originalPdfPages` ranges are supported by the source PDF. The `printedPages
 5. Re-run the course validator and confirm the public PDF checksum/page count for the newly generated artifact.
 
 No source wording, examples, tables, or lesson text were changed during this audit. No manifest, PDF, student data, Supabase, `main`, deployment, or activation changes were made. Course remains under preparation and not activated.
+
+
+## Metadata correction applied (2026-11-26)
+
+The repository authoring source, course manifest, generated lesson 14/15 HTML previews, generated JSON payload, reader page map, and validator assertions now use the verified printed-page ranges:
+- Lesson 14: 168–186.
+- Lesson 15: 187–202.
+
+The `originalPdfPages` and `designedPdfPages` ranges remain unchanged because they were already correct. The current 462-page designed PDF still has stale divider captions on designed PDF pages 184 and 204 (the visible captions remain 168–185 and 186–202). The PDF is a binary repository asset and has not yet been replaced; therefore this metadata correction is not a claim that the designed PDF is fully corrected. Regenerate/replace the binary PDF and update its SHA-256 before treating the deliverable as complete.
+
+No lesson wording, examples, tables, source content, student data, Supabase state, main branch, deployment, or activation was changed.
