@@ -943,7 +943,7 @@ Ev beş hûrgiliyên rûpelên 68–103 ên çavkaniyê diparêze ku di beşên 
 
 ### D: tabloyên dîrokî û pêrawejên peyvî
 
-- Di tabloya *dil/dest* de formên kurmancî, soranî, farisî, hewramî, zazakî û avestayî tên berawirdkirin; çavkaniyê ji bo van peyvan reha proto-hindûewropî **ker* û **ghesto* jî qeyd dike. Ev wek şîroveya çavkaniyê tê parastin.
+- Di tabloya *dil/dest* de formên kurmancî, soranî, farisî, hewramî, zazakî û avestayî tên berawirdkirin; çavkaniyê ji bo van peyvan reha proto-hindûewropî *ker* û *ghesto* jî qeyd dike. Ev wek şîroveya çavkaniyê tê parastin.
 - Ji bo D-ya ku ji T-ya kevn hatiye, tabloya *bad/ba*, *abad/ava* û *bê(d)/bi* bi formên avestayî, pehlewî û hexamenişî hatiye dayîn.
 - Ji bo ketina D piştî N, formên kurmancî *xwandin, standin, gihandin*, soranî *xwêndin, sendin, geyandin* û kurdiya başûrî *xwanin, senin, geyanin* hatine berawirdkirin.
 - Di hin devokên rojhilatî de forma *înadin* (rehê borî *înad*) wek hevwateya *înan/anîn* hatiye qeyd kirin.
