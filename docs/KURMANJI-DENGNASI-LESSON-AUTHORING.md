@@ -1378,7 +1378,7 @@ Di kurmancî de herfa H dikare du dengên cuda nîşan bide. Di peyvên *her, he
 
 Di nivîsîna standard ya kurdî-latînî de ev herdu deng bi H tên nivîsîn. Lê ji dema kovara Hawarê ve, ji bo rêgirtina li ber tevliheviyê, hin nivîskar dengê duyem bi **ḧ** nîşan dikin. Di vê dersê de ḧ tenê alîkariya danasîna dengnasiyê ye; ne pêşniyara guherandina nivîsîna standard.
 
-## 2. Dengê Ḧ tenê ji erebî hatiye?
+## 2. Çavkaniya dengê Ḧ
 
 Gelek peyvên ku dengê [ħ] di wan de heye ji erebî hatine, wek *ḧazir, ḧakim, ḧeq, ḧed, ḧidûd, ḧurr, ḧemd, beḧr, meḧel*. Lê ev deng tenê di peyvên erebî de nîne.
 
@@ -1395,7 +1395,7 @@ Di kurmanciya navendî de hin peyvên xwemalî bi Ḧ tên gotin, lê di kurmanc
 
 Di hin peyvên ji erebî hatine de jî Ḧ bûye H an herdu awayên gotinê hene: *heq/ḧeq, heta/ḧeta, hêrs/ḧêrs, hewce/ḧewce*. Di hin navên mirovan de *Ḧemze* û *Ḧazim* bûne *Hemze* û *Hazim*, an jî herdu form hene. Pirtûk herwiha du nimûneyên wergirtinê bi rêya soranî qeyd dike: *hewał* ji *eḧwal* ya erebî, û *hest* ku ji *ḧiss* ya erebî hatiye. Berevajî vê, nivîskar dibêje ku *hêcet* (ji *ḧacet*) bi [ħ] nebihîstiye, herçend peyvên hevreha wê *muḧtac* û *iḧtiyac* tenê bi [ħ] tên gotin. Bi giştî, guherîna [ħ] bi [h] sînordar e û dengê [ħ] di piraniya peyvên deynkirî de dimîne.
 
-## 3. Em çawa binivîsin?
+## 3. Rêbaza nivîsîna H û Ḧ
 
 Di ferheng û pirtûkên dengnasiyê de girîng e ku cudahiya [h] û [ħ] were nîşandan da ku bilêvkirina peyvan zelal be. Lê di nivîsîna normal de pirtûk pêşniyar dike ku tenê herfa **H** were bikaranîn. Bi vî awayî nivîsîna peyvên xwemalî yekgirtî dimîne, tevî ku devok di bilêvkirina wan de cuda ne.
 
@@ -2162,7 +2162,7 @@ Berî *i* herdu away dikarin bên dîtin: *sivore/sivorî/simore/sihorî* bi S-y
 
 Di peyvên esil-biyanî de jî vokal dikare bandorê bike; pirtûk *salon* û *soz* wek nimûne dide. Lê di peyvên esil-erebî de awayê S bi gelemperî bi awayê wê di zimanê jêder de girêdayî ye, ne tenê bi vokala piştî wê. Di peyva tirkî *sağ* de S-ya qelew heye, lê kurmancî *sax* li gor devokê dikare bi S-ya zirav an qelew were gotin.
 
-### Fonem an alofon?
+### Cudahîya fonem û alofon
 
 Di erebî de S-ya zirav û S-ya qelew du fonemên cuda ne; guherandina wan dikare wateyê biguherîne. Lê di kurmancî de pirtûk wan wek du **alofonên heman fonemê** rave dike, ji ber ku nimûneyeke zelal nayê dîtin ku guherandina yekê bi ya din wateya peyvê biguherîne.
 
@@ -2445,7 +2445,7 @@ Di hin peyvên îranî de V-ya kevn li destpêka peyvê di kurmancî de bûye B.
 
 Çavkaniyê diyar dike ku V ya destpêkê di hin peyvan de bi ketina E-ya pêşîn re xuya dike ku li nava peyvê bûye, wek *evan → van*, *evê → vê* û *evî → vî*. Ji ber vê yekê, hemû peyvên niha bi V destpêdikin ne xwedî heman dîrokê ne.
 
-### Çima hin peyv hîn bi V dest pê dikin?
+### Sedemên parastina V li destpêka peyvan
 
 Hin formên niha bi V dest pê dikin, lê di dîrokê de V li destpêkê nebûye. Di formên wek *evan, evê, evî* de E-ya destpêkê ketiye û formên *van, vê, vî* mayîne. Pirtûk ketina E-ya destpêka peyvan wek diyardeyeke berfireh di zimanên îranî yên nû de şîrove dike.
 
@@ -4476,7 +4476,7 @@ Husein Muhammed, *Dengnasî di kurdî de*, rûpelên çapkirî 373–386.
 
 # Dersa 24 — Cudahiyên dengnasî di navbera kurmancî û kurdiya başûrî de
 
-## 1. "Kurdiya başûrî" di vê dersê de çi ye?
+## 1. Pênaseya kurdiya başûrî di vê dersê de
 
 Di vê berawirdkirinê de "kurdiya başûrî" navê komeke devokan e ku li deverên başûrî yên Rojhilata Kurdistanê û hin deverên Başûrê Kurdistanê têne axaftin. Feylî, kelhurî û kirmaşanî ji navên ku ji bo beşên vê komê tên bikaranîn in; lê her yek tenê beşek ji wê komê ye.
 
@@ -4968,7 +4968,7 @@ Kurmancî ji ber ku di peyvên xwemalî de jî komkonsonantên destpêkê hene, 
 
 Nimûneyeke din a cudahiya watedar, peyva **ka** ye: bi K-ya bêpif wateya “giyayê hişk” dide; bi K-ya bipif wateya “li kû ye?” an “li çi cihî ye?” dide. Di vê beşê de armanc tenê nasîna cotdengiyê nîne; çavkaniyê li ser sedem û dîroka peydabûna wê jî dipirse.
 
-## 14. Şîroveya dîrokî: tesîra ermenî?
+## 14. Şîroveya dîrokî ya tesîra ermenî
 
 Di çavkaniyê de tê gotin ku hin lêkolîner cotdengiya Ç, K, P û T bi tesîra ermenî û zimanên Kafkasyayê ve girê didin, ji ber ku di wan zimanan de jî dengên bipif û bêpif hene.
 
@@ -5013,13 +5013,13 @@ Nivîskar texmîn dike ku di kurmancî û zazakî de awayên bêpif ên van deng
 
 Li gorî şîroveya dîrokî ya nivîskar, bêpifî ji nav û dawiya peyvan ber bi destpêkê belav bûye û paşê peyvên wergirtî yên bipif cotdengiyê ava kirine. Niha jî, di bin bandora tirkî, soranî, farisî û îngilîzî de, hin dengên bêpif li destpêka peyvan ber bi bipifbûnê ve diguherin. Nivîskar pêşdibîne ku ev pêvajo dikare di demeke dirêj de cudahiya fonemî ya bipif/bêpif lawaz bike. Ev ravekirin û pêşbînî nêrîna nivîskar e û divê wek îhtîmala dîrokî were xwendin, ne wek rastiyeke bêniqaş.
 
-## 2. Hiyatus çi ye?
+## 2. Pênaseya hiyatusê
 
 **Hiyatus** (*hiatus*) peydabûna du vokalan li pey hev e, bi awayekî ku vokala yekem li dawiya kîteyekê û ya duyem li destpêka kîteya din be. Ev yek di peyvên wek *bêav, biêş, neavêjin, biavêjin, xaîn, îdîa, saet, îdea* û *teorî* de tê dîtin.
 
 Gotina ku di kurdî de du vokal nikarin li pey hev bên, rastiya zimanê bi tevahî nade. Hiyatus di kurmancî de heye; lê ziman di gelek rewşan de rê li ber wê digire. Ji ber vê yekê, divê hebûna hiyatusê û rêbazên kêmkirina wê ji hev cuda bên naskirin.
 
-## 3. Hiyatus di kîjan peyvan de peyda dibe?
+## 3. Cihên peydabûna hiyatusê
 
 Li gorî çavkaniyê, hiyatus di peyvên xwerû yên xwemalî de bi gelemperî nayê dîtin. Ew bi taybetî di van rewşan de peyda dibe:
 
@@ -5029,7 +5029,7 @@ Li gorî çavkaniyê, hiyatus di peyvên xwerû yên xwemalî de bi gelemperî n
 
 Di navbera reh û paşgir de kurmanciya nivîskî û gelek devok bi gelemperî rê li ber hiyatusê digirin; lê ev yek di hemû devokan de bi heman awayî pêk nayê.
 
-## 4. Kîjan vokal bi hev re tên?
+## 4. Kombînasyonên vokalan
 
 Çavkaniyê tabloyekê ji bo kombînasyonên vokalan pêşkêş dike û wan li gorî peyvên bi pêşgir, peyvên ji erebî wergirtî û peyvên ji zimanên Ewropî wergirtî nîşan dide. Hin kombînasyon di peyvên xwerû de tune ne, lê di peyvên wergirtî an pêkhateyên bi pêşgir de hene.
 
@@ -5213,7 +5213,7 @@ R di kurmancî de wek rêgirê hiyatusê nayê bikaranîn. Lê di hin rewşên s
 
 Ev taybetmendî divê wek rêbazeke kurmancî neyê pêşkêşkirin.
 
-## 12. V wek rêgir?
+## 12. Rola V wek rêgir
 
 Hevrehên peyva kurmancî *pîvaz* di soranî, zazakî û farisî de bi Y dest pê dikin: *piyaz*. Yaron Matras texmîn kiriye ku V ya di *pîvaz* de dikare berê konsonanteke rêgirê hiyatusê bûbe. Çavkaniyê vê yekê wek texmîn pêşkêş dike; heta heke rast be jî, V niha bi vî erkî ne çalak e û di peyvên din de bi awayekî berbelav vê rolê ranabe.
 
