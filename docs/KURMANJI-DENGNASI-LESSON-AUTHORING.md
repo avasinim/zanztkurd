@@ -1910,7 +1910,35 @@ Pirtûk hin çavkaniyên din jî destnîşan dike: W dikare di hin peyvan de bi 
 
 Di hin devokan de W dikare di navbera du vokalan de were gotin da ku rê li ber têkeliya rasterast a wan bigire. Pirtûk nimûneyên wek *riwê min/rûyê min*, *xeswa wê/xwesûya wê* û *malavawo/malavayo* dide. Di hin devokan de, bi taybetî piştî Û an berî O-ya gazîkirinê, W tê bihîstin, ne Y. Di nivîsîna standard de Y an H jî dikarin di hin rewşan de vê erkê bigirin. Ji ber vê yekê divê forma nivîskî û gotina devkî ji hev cuda bên dîtin.
 
-## 4. Y — bandevî-tengav
+## 4. X û Ẍ — du dengên nêzîk ku bi X tên nivîsîn
+
+Di kurmancî-latînî ya standard de du dengên nêzîk bi heman herfa **X** tên nivîsîn:
+- **X [x]**: bêlerz e; perdeyên dengî nalerizin.
+- **Ẍ [ɣ]**: bilerz e; perdeyên dengî dilerizin.
+
+Di transkrîpsiyona navên kesên Rojhilata Navîn û Bakurê Afrîkayê de dengê yekem gelek caran bi *kh* û yê duyem bi *gh* tê nîşandan. Di tirkî de hevbera wan bi awayekî yekgirtî tune: dengê [x] gelek caran bi H tê nivîsîn; dengê [ɣ] di nav peyvê de bi Ğ û li destpêkê bi G tê nîşandan. Ev berawirdkirin ji bo nasîna dengê ye, ne pêşniyara guherandina rastnivîsîna kurdî.
+
+Piraniya X-yên kurdî wek [x] tên gotin: *xav, xirab, xet, xatir, text, rex, çerx*. Lê di hin peyvan de [ɣ] tê bihîstin: *xezal, xerîb, xurbet, axa, oxir/wexer, ji xêr/xeyrî, ji xeynî/xênî*. Di vê dersê de **Ẍ** tenê ji bo danasîna dengî ya koma duyem tê bikaranîn; di nivîsîna asayî de ew ji X cuda nayê nivîsîn.
+
+### Çavkaniyên Ẍ di peyvan de
+
+Piraniya peyvên kurdî yên ku [ɣ] di wan de tê bihîstin, bi eslê xwe ji erebî hatine: *ẍezal, ẍerîb, ẍerb, ẍurbet, ẍeyr/ẍêr, ẍulam, reẍbet, meẍreb*. Hin peyvên bi eslê xwe ewropî jî bi rêya erebî hatine û di kurdî de [ɣ] hildigirin: *ẍaz, ẍeram/ẍiram* û belkî *ẍerac*; formên ewropî yên wan bi G dest pê dikin: *gaz, gram, garaj*. Ev guherîn bi vê yekê ve girêdayî ye ku G di erebiya standard de tune ye.
+
+Navê paytextê Iraqê di kurdî de wek *Beẍda/Beẍdad* tê gotin; çavkaniyê wê ji forma îranî *Beg-dad/Beg-dat* şîrove dike, bi wateya «Xwedê-dayî» an «diyariya Xwedê». Di rêya wergirtina erebî de G bûye [ɣ] û forma *Beẍda/Beẍdad* vegeriyaye kurdî û farisî.
+
+Hin peyvên bi [ɣ] ne ji erebî ne. *aẍa, oẍir/weẍer, çaẍ* (bi wateya dem/wext) û *baẍ* bi zimanên tirkî-mongolî an îranî ve girêdayî ne. Di tirkî ya niha de dengê [ɣ] gelek caran wek Ğ tê nivîsîn û di gotinê de dikare tenê dirêjkirina vokala berî xwe nîşan bide. *Baẍ* di farisî û pehlewî de jî bi [ɣ] hatiye nivîsîn, herçend di hin devokên din ên îranî de bi G an K ye.
+
+Pirtûk *ẍar* û *meẍare* («şkeft») jî dide: ew bi rêya erebî gihiştine kurdî, lê erebî bi xwe wan ji zimanên îranî wergirtiye; formeke parsî ya navîn *meẍadeg* e. Di malbata peyva «mirîşk» de jî farisî *morẍ* û formên îranî yên din bi [ɣ] hene: parsî *murẍ*, peştûyî *mërẍë*, osetî *merẍ*, avestayî *miriẍe*; lê pehlewî *murw* û belûçî *murg* in. *Giẍgiẍ* jî wek peyveke deng-sazî hatiye qeyd kirin. Di farisî de hin peyvên bi [ɣ] hene ku hevbera kurdî ya wan X nîne, wek *dorûẍ* («derew»), *dûẍ* («dew»), *laẍer* («lawaz») û *rowẍen* («rûn»).
+
+### Guherîna [ɣ] bi [x] û mijara nivîsînê
+
+Di gotina piraniya kurdan de, [ɣ] ya hin peyvên erebî dibe [x]: *xelet, xem, xulam, xîret, xezal*. Di peyvên *xerîb, xurbet, ji xeyrî/xeynî* de jî gelek axêver [x] dibêjin, herçend hin kes [ɣ] diparêzin. Di peyvên tirkî yên *axa* û *oxir/wexer* de jî herdu bilêvkirin tên bihîstin. *Çax* bi gelemperî bi [x] tê gotin, bi taybetî di formên çemandî de wek *çaxê, çaxên, çaxan*.
+
+Coteke kêm a wate-guhêz **xêr** («qencî, başî») û **ẍêr** («ne, ji bilî») ye. Lê piraniya kurdan herduyan jî bi X-ya normal dibêjin; ji ber vê yekê cudahiya [x]/[ɣ] di zimanê rojane de bi gelemperî wateyê naxet xeterê. Di hin devokan de *xayin/xaîn* dikare bi [ɣ] were gotin û wek *ẍayin/ẍaîn* were nîşandan.
+
+Nivîskar encam digire ku di nivîsîna asayî ya kurmancî-latînî de zêdekirina herfa nû ya **Ẍ** pêdivî nîne: divê herdu deng bi **X** bên nivîsîn. Zêdekirina Ẍ dê hînbûna rastnivîsînê zehmettir bike, bêyî ku feydeke mezin ji bo xwendinê bide, ji ber ku cotên wate-guhêz kêm in û bilêvkirina wan li gor devokê diguhere. Lê di ferheng, kitêbên dengnasî û materyalên hînkirinê de dikare Ẍ wek nîşaneke danasîna dengî were bikaranîn.
+
+## 5. Y — bandevî-tengav
 
 Dengê **Y/y** dengekî **bandevî-tengav** e. Di dema derxistina wê de ziman li banê req yê devê nêzîk dibe û rêya hewayê teng dibe, lê bi temamî nayê girtin. Y jî nîv-vokal e û nîşana wê di IPA de **[j]** e.
 
@@ -1947,7 +1975,7 @@ Di kurmanciya rojhilatî de formên bi Y, wek *yek, ya, yê, yên*, berbelav in;
 
 Di dîroka peyvan de Y dikare ji destpêkê bikeve an bi vokalekê re biguherin. Pirtûk nimûneyên navên ku bi rêya erebî ji îbranî hatine û Y-ya destpêkê ji dest dane dide: *Yûnis/Ûnis*, *Yûsif/Ûsiv*, *Yaqûb/Aqûb* û *Yehya/Ehya*. Herwiha *aprax/îprex* ji tirkî *yaprak* hatiye, û *ol* ji tirkî *yol* bi guherîna Y-ya destpêkê hatiye. Di hin peyvan de Y bi vokala li pey xwe re diguherin, wek *yem/êm* û *yürüş/êriş*. Di peyvên din de guherîna Y li nav an dawiya peyvê jî heye, wek *keyf/kêf* û *’eyb/êb*. Di hin peyvên îranî de Y-ya kevn bûye C: *ceh* li hemberî avestayî *yewe-*, *ciwan/yuven-*, *cejn/yesne-*, *cadû/yatu-* û *cade/yatim-*. Ev berawirdkirin şopa dîrokî nîşan dide, ne rêzikeke ku her Y-ê bike C.
 
-## 5. Z — pidûyî-xişok-vizok yê bilerz
+## 6. Z — pidûyî-xişok-vizok yê bilerz
 
 Dengê **Z/z** dengekî **pidûyî-xişok-vizok yê bilerz** e. Di gotina wê de ziman li herêma pidûyan nêzîk dibe, hewa ji tengiyekê derbas dibe û perdeyên dengî dilerizin. Nîşana wê di IPA de **[z]** e.
 
@@ -1956,7 +1984,7 @@ Z li her sê cihên peyvê tê. Li gorî lêkolîna ku pirtûk vedigêre, rêjey
 - **Nav:** *azad, bizin, cezwe, dizîn, kezî, nizm*.
 - **Dawî:** *baz, diz, ez, hez, mîz, mûz, rez*.
 
-## 6. Z-ya zirav û Z-ya qelew
+## 7. Z-ya zirav û Z-ya qelew
 
 Di kurmancî de herfa Z ji bo du fonemên cuda tê bikaranîn: **Z-ya zirav** û **Z-ya qelew**. Ev cudahî tenê awayeke gotinê nîne; di hin peyvan de guherandina yekê bi ya din wateyê diguherîne.
 
