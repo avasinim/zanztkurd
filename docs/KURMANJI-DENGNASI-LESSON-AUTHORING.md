@@ -903,7 +903,7 @@ Husein Muhammed, *Dengnasî di kurdî de*, rûpelên çapkirî 68–103.
 
 **F** dengekî lêvî-didanî, xişok û bêlerz e. Di gotina wê de didanên jorîn dikevin ser lêva jêrîn; hewa di tengiyeke devî re derbas dibe û xişînekê çêdike. Perdeyên dengî di gewriyê de nalerizin. Di alfabeya dengnasî ya navneteweyî de bi **[f]** tê nîşandan.
 
-Di alfabeya kurdî-erebî de herfa F ya taybet ji bo vê dengê tê bikaranîn; di kurdî-krîlî de bi Ф/ф tê nivîsîn. Di hin zimanan de, wek almanî û holendî, herfa V dengê [f] nîşan dide û dengê [v] bi W tê nivîsîn. Di hin peyvên îngilîzî de, bi taybetî yên ji yûnaniya kevn hatine wergirtin, PH ji bo [f] tê bikaranîn.
+Di alfabeya kurdî-erebî de herfa F ya taybet ji bo vê dengê tê bikaranîn; di kurdî-krîlî de bi herfa krîlî ya F-ê tê nivîsîn. Di hin zimanan de, wek almanî û holendî, herfa V dengê [f] nîşan dide û dengê [v] bi W tê nivîsîn. Di hin peyvên îngilîzî de, bi taybetî yên ji yûnaniya kevn hatine wergirtin, PH ji bo [f] tê bikaranîn.
 
 ## 2. Peydabûna F di peyvan de
 
@@ -962,7 +962,7 @@ Di hin devokên kurmancî de F-ya berî T di peyvên wek *mizgeft* û *şkeft* d
 
 **G** dengekî sekinî, paşdevî û bilerz e. Di gotina wê de hewa li paşiya devê tê girtin û piştî rawestandinê tê berdan; di heman demê de perdeyên dengî di gewriyê de dilerizin. Di IPA de bi **[g]** tê nîşandan.
 
-Di alfabeya kurdî-erebî û farisî de herfa taybet a G tê bikaranîn. Di erebiya standard de ev deng tune ye, lê di hin devokan de hin dengên erebî dikarin wek G bên gotin. Di kurdî-krîlî de bi **Г/г** tê nivîsîn.
+Di alfabeya kurdî-erebî û farisî de herfa taybet a G tê bikaranîn. Di erebiya standard de ev deng tune ye, lê di hin devokan de hin dengên erebî dikarin wek G bên gotin. Di kurdî-krîlî de bi **herfa krîlî ya G-ê** tê nivîsîn.
 
 ## 7. Peydabûna G di peyvan de
 
@@ -1078,7 +1078,7 @@ Komdenga *eh* ya kurmancî di soranî de gelek caran dibe *a*: *tehl, pehn* li h
 
 Herfa **J** di nivîsîna kurdî-latînî de dengê paşpidûyî, xişok, nevizok û bilerz nîşan dide. Di derxistina wê de ziman ji pidûyan paşvetir dikeve; hewa di rêyeke teng re derbas dibe û xişînek çêdike. Perdeyên dengî dilerizin. Di IPA de bi **[ʒ]** tê nîşandan.
 
-Di hin zimanên din de ev deng bi **Ž** an **ZH** tê nivîsîn. Di kurdî-erebî û farisî de herfa taybet a vî dengî heye; di krîlî de bi **Ж/ж** tê nîşandan. Di îngilîzî de J bi gelemperî dengê C-ya kurdî dide, lê di gelek zimanên Bakur, Navend û Rojhilata Ewropayê de J dengê Y-ya kurdî nîşan dide.
+Di hin zimanên din de ev deng bi **Ž** an **ZH** tê nivîsîn. Di kurdî-erebî û farisî de herfa taybet a vî dengî heye; di krîlî de bi **herfa krîlî ya J-ê** tê nîşandan. Di îngilîzî de J bi gelemperî dengê C-ya kurdî dide, lê di gelek zimanên Bakur, Navend û Rojhilata Ewropayê de J dengê Y-ya kurdî nîşan dide.
 
 ## 8. Peydabûn û rêjeya J
 
@@ -1146,7 +1146,7 @@ Husein Muhammed, *Dengnasî di kurdî de*, rûpelên çapkirî 116–132.
 
 Di dengnasiya kurdî de K/k nîşana dengekî paşdevî, sekinî û bêlerz e. Di derxistina wê de rêya hewayê bi temamî tê girtin û paşê vedibe. Cihê derxistinê li paşiya devê ye; perdeyên dengî di dema derketina wê de nalerizin. Di alfabeya dengnasî ya navneteweyî de ev deng bi **[k]** tê nîşandan.
 
-Di nivîsîna kurdî-latînî de K/k ji bo vê dengê tê bikaranîn. Di hin zimanan de C û Q jî dikarin dengê [k] nîşan bidin. Di nivîsa kurdî-erebî û farisî de herfên taybet ên wan alfabeyan ji bo vê dengê tên bikaranîn. Di alfabeya kurdî-krîlî de К/к ji bo wê hatine bikaranîn. Di destpêka nivîsîna kurdî ya Hawarê de K ji bo dengê Q û Q ji bo dengê K dihat nivîsîn; paşê ev awayê nivîsînê hatiye guhertin.
+Di nivîsîna kurdî-latînî de K/k ji bo vê dengê tê bikaranîn. Di hin zimanan de C û Q jî dikarin dengê [k] nîşan bidin. Di nivîsa kurdî-erebî û farisî de herfên taybet ên wan alfabeyan ji bo vê dengê tên bikaranîn. Di alfabeya kurdî-krîlî de herfa krîlî ya K-ê ji bo wê hatine bikaranîn. Di destpêka nivîsîna kurdî ya Hawarê de K ji bo dengê Q û Q ji bo dengê K dihat nivîsîn; paşê ev awayê nivîsînê hatiye guhertin.
 
 ## 2. Peydabûna K di peyvan de
 
