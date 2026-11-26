@@ -55,3 +55,18 @@ The complete workflow run [45780142032](https://github.com/avasinim/zanztkurd/ac
 - Only after all checks passed, regenerated lesson HTML previews and the JSON payload were synchronized to the isolated implementation branch.
 
 The Playwright tests use mocked Supabase state; they do not establish real student authentication, RLS, enrollment, or live progress synchronization. The workflow did not deploy or activate the course.
+
+
+## Additional source reconciliation — 2026-11-26
+
+A second page-by-page pass across printed pp. 29–39 (designed PDF pp. 36–46) found several details that were either absent or imprecisely transcribed in the existing Lesson 4 draft. The following source-backed items were restored or corrected in the authoring text and regenerated HTML/JSON previews:
+
+1. Corrected the source's underlined/cedilla-style S notation in the examples `șed`, `mișaș` and `ẓivișṭan`; the earlier draft had used the dot-below S in these forms.
+2. Added the dialectal example `berdan` for emphatic B, and clarified the source's technical note about the intended underdot notation for Ṗ and the absence of Ḍ in Kurdish.
+3. Restored the Persian/Kurdish comparison `zan/zer/hezar` vs `zayîden/zerd/hezar`, and `ẓana/ẓava` vs `dana/damad`, together with the source's historical D-loss and M-to-V correspondences (`ba/bad`, `bû/bûd`, `nav/nam`, `gav/gam`).
+4. Restored the source qualification that European-origin Kurdish words with Ç are rare.
+5. Added the Persian `sed`/`șed` spelling-pronunciation note.
+6. Added Chyet's omitted examples `p’ê`, `p’êç’an/pêç’an`, `p’êk`, and the source's English `bear` dictionary analogy.
+7. Made explicit the source's conclusion that most Kurmanji readers recognize the emphatic P in `pez` without extra dots or apostrophes.
+
+The existing Lesson 4 structure already represented the source's main emphatic consonants, phoneme/allophone distinction, prediction rules, loanword patterns, L/Ł and R/Ř sections, and the longer critique of aspiration marking in dictionaries. No exercises, quizzes, external audio, or non-Latin script were added. This is a source reconciliation, not native-speaker certification.
