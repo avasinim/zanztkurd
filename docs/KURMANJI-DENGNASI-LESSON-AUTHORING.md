@@ -150,7 +150,7 @@ Di peyvên xwemalî yên kurmancî de jî nepayîn hene. Peyvên *kurd, kurmanc*
 Husein Muhammed, *Dengnasî di kurdî de*, rûpelên çapkirî 8–15.
 
 
-# Dersa 3 — Hevdengî û pirdengî di nivîsînê de
+# Dersa 3 — Hevdengî û pirdengî di nivîsîna kurdî de
 
 ## 1. Herf, deng, hevdengî û pirdengî
 
