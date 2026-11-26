@@ -2207,6 +2207,19 @@ Di ceribandina çavkaniyê de, dema *talan* tê gotin kaxezê li ber devê xwe d
 
 Pirtûk cudahiya T-ya bipif û bêpif bi cotên ku wateyên cuda hene nîşan dide: *ta* (T-ya bipif: *taser, tagerm*; T-ya bêpif: *ben, dezî*) û *tu* (T-ya bipif: *hîç*; T-ya bêpif: cînavê kesê duyem ê yekhejmar). Di peyvên wergirtî de pifdarî her tim nayê pêşbînîkirin: *kompûter, xeter, siyaset* bi T-ya bêpif in; *met, xalet/xaltî, hotêl/otêl* dikarin bi T-ya bipif bên gotin. Di peyvên ji zimanên Ewropî hatine de T-ya destpêkê bi piranî bipif e (*tank, televizyon, tayre*), lê *tîp* dikare bêpif be. Pirtûk herwiha bandora T-yên erebî yên cuda li ser peyvên wergirtî rave dike.
 
+
+### Berawirdkirina T ya kevn û şopa wê di zimanên din de
+
+Pirtûk çar berawirdkirina bingehîn dide: kurmancî *tav* li hemberî farisî *tab* û latînî *tepeo* ye, ku bi rehê proto-hindûewropî *\*tep-* («germ kirin») tê girêdan; *teng* bi sanskrîtî *tenekti* û îngilîzî *tight* re, ji *\*tenk-*; *tirs* bi farisî *ters* û latînî *terror* re, ji *\*tres*; *heft* bi avestayî *hepte-* û yûnanî *hepta* re, ji *\*septm-*. Ev tablo nîşan dide ku T di hin malbatên peyvan de bi awayên cuda hatiye parastin.
+
+### Têbîniyên pêrawejan 145–148
+
+- **Pêraweja 145:** T-ya di rehê rabirdûyê de wek nîşana demê tê şîrovekirin; ev ji formên niha û pêşerojê cuda ye.
+- **Pêraweja 146:** T ya navîn an dawî di peyvên xwerû de bi gelemperî nîşana esil-biyanîbûnê ye, lê ev şert îstîsna hene: rehên rabirdûyê yên lêkerên xwemalî, peyvên ku piştî F/S/Ş/X tên, lêkerên wergirtî yên ku T di rehê niha de diparêzin, û paşgira berhevdanê *-tir/-tirîn*. Ji ber vê yekê T bi tenê nabe pîvaneke biryardana etîmolojiyê.
+- **Pêraweja 147:** «Kurdiya başûrî» di vê beşê de tenê Feylî, Kelhurî û Kirmaşanî digire; ev term li vir bi hemû zaravayên kurdî yên başûrî nayê bikaranîn.
+- **Pêraweja 148:** Ji bo têkiliya T û D wek nîşanên demên borî, çavkaniya ku nivîskar nîşan dide tۆمار کرا.
+
+
 ## 6. T-ya zirav û T-ya qelew
 
 Pirtûk ji bilî pifdarî, T-ya bêpifê li gor ziravîtî û qelewîtiyê jî cuda dike:
