@@ -2,7 +2,7 @@
 Date: 2026-11-26
 Work branch: `author/dengnasi-lesson-01-draft-2026-11-24`
 Source: Husein Muhammed, *Dengnasî di kurdî de* (PDF `Dengnasiya_Zimane_Kurdi_27_Wane.pdf`).
-Scope checked: draft Lessons 1–15 against the source's printed page labels and physical PDF pages.
+Scope checked: draft Lessons 1–20 against the source's printed page labels and physical PDF pages.
 
 ## Confirmed findings
 
@@ -103,6 +103,43 @@ Scope checked: draft Lessons 1–15 against the source's printed page labels and
 - The draft explicitly distinguishes the source's morphological alternations (such as *firot-/firoş-* and *dot-/doş-*) from a simplistic claim of unrestricted sound substitution.
 - The source's T minimal contrasts at the beginning of Lesson 4 (printed page 29) remain assigned to Lesson 4, not Lesson 3.
 
+### 14. Lesson 16: V, W, Y and Z
+
+- Lesson 16 covers printed pages 203–232 (physical PDF pages 222–251).
+- Checked the articulatory descriptions and word-position distribution for V, W, Y and Z, including the source frequency figures for V, W and Z.
+- Checked the source's cross-dialect correspondences: Kurmanji V/Soranî W or M; F/W and H/W correspondences; Y retention and deletion; and thin/thick Z contrasts.
+- Checked the historical pathways B/P→V, M→V, T→V, initial V→B, and the source's discussion of W/Y as linking sounds.
+- The draft preserves the source's thin/thick Z minimal contrasts and distinguishes Kurdish thick Z from Arabic interdental emphatic sounds.
+
+### 15. Lesson 17: Eyn and consonant clusters
+
+- Lesson 17 covers printed pages 233–250 (physical PDF pages 252–269).
+- Checked the Eyn section, including [ʕ], Arabic-origin and non-Arabic examples, dialectal Eyn/H variation, and the author's stated Latin-script notation position.
+- Checked the K/G/Q articulatory and historical discussion, the source's K aspiration footnote, and dialectal K/G correspondences.
+- The first draft summarized the consonant-cluster inventory and omitted part of the source's complete matrices and example lists. This was identified and corrected on 2026-11-26 by restoring the full source inventory, the three-consonant examples, and the separate Iranian-origin, Arabic-origin and European-loan groupings.
+- Source-internal duplication and category overlap (including -XT, -XS and -XŞ) are retained and explicitly flagged rather than silently reconciled.
+
+### 16. Lesson 18: Vowels A and E
+
+- Lesson 18 covers printed pages 251–269 (physical PDF pages 272–290).
+- Checked A and E articulatory descriptions, IPA values, word-position examples and source frequency/distribution statements.
+- Checked the source's vowel-system chart and the examples for A/E historical change, dialect variation, inflectional change and vowel interaction with Y, W and H.
+- The draft keeps the source's dialect distinctions, including the author's specific definition of “Southern Kurdish” as Feylî, Kelhurî and Kirmaşanî varieties rather than a blanket label for all southern Kurdish varieties.
+
+### 17. Lesson 19: Vowels Ê, I and Î
+
+- Lesson 19 covers printed pages 270–297 (physical PDF pages 291–319).
+- Checked Ê, I and Î descriptions, length distinctions, IPA symbols, positional examples and grammatical functions.
+- Checked the source's cross-language comparisons, dialectal alternations, inflectional examples, loanword treatment and the discussion of I/Î before Y.
+- The draft preserves the source author's argument for standard I before Y in forms such as *çiya, diyar, jiyan, kiriye, gotiye* and *xwariye*, and records the source's criticism of inconsistent ÎY spelling without presenting it as an independently established universal rule.
+
+### 18. Lesson 20: Vowels O, U and Û
+
+- Lesson 20 covers printed pages 298–314 (physical PDF pages 320–329).
+- Checked the articulatory and length distinctions among O, U and Û, word-position examples, source frequency statement for O, and the source's treatment of U/I variants.
+- Checked historical and dialectal correspondences, including EW/AW→O, UF/UV→O, IW/IWA→O, U↔I, Û→Ü/WÎ/Î, and the cited examples from Behdînan and other varieties.
+- The draft preserves the author's standard-writing recommendation to retain Û while allowing dialectal pronunciation variation.
+
 ## Checks completed
 
 - Lesson 2: printed pages 8–15 (physical PDF pages 13–20) were checked. The vowel/consonant definitions, eight vowel letters, distinction between grapheme count and phonemic consonant inventory, terminology discussion, place/manner of articulation, and aspiration material follow the source.
@@ -116,6 +153,7 @@ Scope checked: draft Lessons 1–15 against the source's printed page labels and
 - Lesson 9: the F/G sections on printed pages 104–115 were checked, and missing cross-language comparison tables were restored.
 - Lesson 10: the H/J sections on printed pages 116–130 were checked, and missing historical comparison tables and examples were restored.
 - Lessons 11–15: K/L, M/N, P/Q, R/S and Ş/T source sections on printed pages 133–202 were checked; the Lesson 14 regional L/R comparison table was added and source typographical issues were recorded.
+- Lessons 16–20: V/W/Y/Z, Eyn and consonant clusters, and vowel groups A/E, Ê/I/Î and O/U/Û on printed pages 203–314 were checked; the complete consonant-cluster inventory omitted from the initial Lesson 17 draft was restored.
 
 ## Release constraints retained
 
