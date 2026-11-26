@@ -3721,6 +3721,49 @@ Ev nimûne nîşan didin ku giranî dikare cudahiya navbera navdêr, rengdêr, d
 - **266–267 — Piştî:** *piştî* wek navdêr “bar” e; wek daçek “li pey/paşî” ye. Cihê giranî wate û beşa peyvê cuda dike.
 - **268 — Hatin:** Forma *hatin* dikare rader (“to come”) be an forma borî ya kesên pirhejmar (“ew/em/hûn hatin”); giranî erkê rêzimanî cuda dike.
 
+## Têbîniyên pêrawejan 229–268
+
+- **229 — Eyn:** Ji bo dengê Eyn di peyvên *saet* û *du’a* de, nivîskar çavkaniyekê li ser Eyn destnîşan dike.
+- **230 — Alfabeya kurdî ya nivîskî:** Di vê têbîniyê de “Kurmanciya nivîskî” bi alfabeya latînî tê bikaranîn; nivîsîna kurdî-erebî jî di gelek cihên Behdînan de Û li cihê -wî- dinivîse, herçend carinan WÎ jî tê bikaranîn.
+- **231 — Awarteyên guherîna Û:** Di Behdînan de guherîna giştî ya Û bo UÎ/WÎ hema-hema sîstematîk e; *çûn* û *û* (wek peyva serbixwe “and”) awarte ne. *Bûn* jî li hin deverên kêm *buîn/bwîn* e, lê li piraniya deveran *bîn* an *bûn* e.
+- **232 — Nivîsîna behdînî:** Di alfabeya kurdî-erebî de UÎ ya navpeyvan bi -wî- tê nivîsîn, ne bi -uî-. Nivîskar *bûk* → *bwîk* wek nimûne dide.
+- **233 — Bilêvkirina bûn:** *Bûn* ya kurmanciya giştî li piraniya Behdînan *bîn* an *bûn* e; tenê kêmaniyek *buîn/bwîn* dibêje.
+- **234 — Destpêka çuî-/çwî-:** Nivîskar dibêje di Behdînan de peyvên ku bi çuî-/çwî- dest pê bikin nedîtine; *çûn* jî wek kurmanciya giştî dimîne û li gorî rêbaza guherîna Û nayê guhertin.
+- **235 — VÛ-:** Komdengên destpêkî yên *vû-* di kurmanciya giştî de peyda nabin û di Behdînan de jî şêweya *vwî-* nînin.
+- **236 — WÛ-:** Komdengên destpêkî yên *wû-* di kurmanciya giştî de peyda nabin û di Behdînan de jî şêweya *wwî-* nînin.
+- **237 — XUÎ:** Dîftonga *xu-* di kurmanciya giştî de jî tê pejirandin.
+- **238 — YÛ-:** Komdengên destpêkî yên *yû-* di kurmanciya giştî de peyda nabin û di Behdînan de jî şêweya *ywî-* nînin.
+- **239 — Uşî:** Di hin devokan de forma *uşî* (koma libên tirî) tê bikaranîn.
+- **240 — Dêw:** *Dêw* di soranî de ye û wateya aliyê, rex, hêl an tere fê dide; nivîskar wê bi *dêm* (“rû”) re hevreh dibîne.
+- **241 — -ow-, -uw-, -ûw-:** Ev komdeng di peyvên xwemalî de peyda nabin; di peyvên nû yên wergirtî de dikarin xuya bibin, wek *cowboy* ji îngilîzî.
+- **242 — Ronahî:** Forma serdesttir hem di nivîsînê û hem di gotinê de *ronahî* ye.
+- **243 — Yêt/yêd:** Ji bilî *yê/yên*, di hin devokan de formên *yêt/yêd* jî hene.
+- **244 — Nîşana ḥ:** Di nimûneyên *ruḥ/riḥ* de ḥ wek nîşana dengê H tê bikaranîn, wek H di *heft, Hesen, Hisên* de.
+- **245 — Ti:** *Ti* di hin devokan de cînavê “tu” ye; bi *sen* ya tirkî, *ente/entî* ya erebî û *to* ya farisî re tê berawirdkirin.
+- **246 — Di:** *Di* di hin formên devokî de hejmara 2 ye.
+- **247 — Dih/dihî:** Ev form di hin deveran de wateya “roja berî îro” dide.
+- **248 — Dengê Ẍ:** Nîşana ẍ ji bo dengê xeynê ye; di alfabeya erebî de غ, di IPA de ɣ û di hin veguhastinên Ewropî de gh tê nivîsîn.
+- **249 — Kêmbûna ẌU-:** Peyvên bi ẍu- di kurdî de pir kêm in; nivîskar dibêje nimûneyên heyî jî nîşan didin ku ẍu- nabe ẍi-.
+- **250 — Murder:** Nivîskar di berawirdkirina *mirin* de hişyar dike ku *murder* ya îngilîzî wateya “kuştin/qetilkirin” dide, ne “mirin”, herçend bi eslê xwe peywendîdar bin.
+- **251 — Wusa/wulo/wunda:** Nivîskar van forman wek guherîna dengnasî nayê hesibandin; ew wek kêmasiyên nivîsînê şîrove dike, ji ber ku dengê rastîn ê *wu-* dê peyvê dirêjtir bikira.
+- **252 — Giranî:** Ji bo giranî, nivîskar peyvên *kirp* û *şidandin* jî bikar tîne; di zimanên din de wek stress, vurgu, نبر û تکیه tê naskirin.
+- **253 — Giranî û zimanên îranî:** Ji bo texmîna kevn ku giranî di zimanên îranî de bi gelemperî fonemîk nîne, nivîskar lêkolîna Habibullah Tegey û Barbara Robson di *The Iranian Languages* (2009) de destnîşan dike.
+- **254 — Difin:** Nivîskar rexneyê li şîroveya Newzad Şukrî/Hirorî dike ku *difin* giranî li ser kîteya yekem heye; dibêje peyv dikare *difin* (du kîte) an *difn* (yek kîte) were gotin û gava vokala navîn dikeve, giranî jî diguhere. *kevin → kevn e* wek nimûne tê dayîn.
+- **255 — Şêweya rojhilatî:** Di kurmanciya rojhilatî de *kitêbeke min* dikare bibe *kitêbeka min* û *hevalekî min* bibe *hevalekê min*.
+- **256 — Gerim/germ:** Nivîskar îdiaya awartebûna *gerim* red dike; şîroveya wî ev e ku forma bingehîn *germ* yek-kîteyî ye û formên wek *ger-m e, ger-mahî, ger-mî* ji wê tên.
+- **257 — Cînavên rojhilatî:** Formên *ewa, ewê, ewî, ewan, hewe* bi taybetî di kurmanciya rojhilatî de tên bikaranîn.
+- **258 — Cînavên navendî/rojavayî:** Formên *ewana, wana, vêya, viya* bi taybetî di hin devokên navendî û rojavayî de tên bikaranîn.
+- **259 — Cînavên soranî:** *emin* û *eto* formên devokî ne; formên standard *min* û *to* ne. *ême, êwe, ewan* formên standard ên soranî ne.
+- **260 — Niha:** Ji bo *niha/nika/noke*, soranî *êsta* û kurdiya başûrî *îse* wek formên hevwate têne nîşandan.
+- **261 — Pêşpirtika dewamiyê:** Di soranî de *de-* û *e-* yên hevwateya *di-* bêgiranî ne; berevajî wan, *mî-* ya farisî giranî digire.
+- **262 — Peyvsaziya pêkhatî:** Têbîniyê ji bo peyvsaziya bi pêkhatinê serî li nivîsara *Kanîzar 1* dide.
+- **263 — Peyvsaziya dariştî:** Ji bo peyvsaziya bi dariştinê, têbîniyê nivîsara Husein Muhammed di *Kanîzar* de destnîşan dike.
+- **264 — Dubarekirin:** Ji bo peyvsaziya bi dubarekirinê, nivîskar nivîsara xwe di hejmara 3 ya kovara *Kanîzar* de destnîşan dike.
+- **265 — Peştû û giranî:** Nivîskar dîsa lêkolîna Tegey û Robson destnîşan dike; îdiaya ku Peştû tenê zimanê îranî yê xwedî giraniya fonemîk e, wek nêrîna wê lêkolînê tê vegotin.
+- **266 — Piştî wek navdêr:** *Piştî* wek navdêr wateya barê ku kesek bi pişta xwe hildigire dide.
+- **267 — Piştî wek daçek:** *Piştî* wek daçek wateya “li pey, li dû, li dûv” dide.
+- **268 — Hatin:** Di nimûneya lêkerî de *hatin* dikare wateya “ew hatin” bide; nivîskar diyar dike ku dikare “em hatin” an “hûn hatin” jî be.
+
 ## Çavkanî
 
 Husein Muhammed, *Dengnasî di kurdî de*, rûpelên çapkirî **315–347**.
