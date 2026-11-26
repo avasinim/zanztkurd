@@ -3294,26 +3294,26 @@ Di hin nivîsên taybet ên kurdiya başûrî, zazakî û şahzênî/şêxbizin�
 
 ## Têbîniyên pêrawejan 209–228
 
-- **209 — Rêjeya O:** çavkaniya nivîskar ji bo hesabkirina rêjeya 0,95% ya herfa O di nivîsên kurmancî de ye. Ev rêje O dike vokala kêm-bikarhatî ya kurmancî.
-- **210 — Umêd û Omer:** *umêd* wergirtineke farisî ye; forma *omêd* di nivîsên farismancî de jî xuya dike. *Umet* ji erebî ye. *Emer* forma kevn a kurmancî ya navê erebî *Umer* e; *Umer/Imer* jî hene. *Omer* dikare bandora farisî an tirkî nîşan bide.
-- **211 — Hotêl:** li gel *otêl*, forma *hotêl* û di hin devokan de *ûtêl/ütêl* jî hatiye tomarkirin.
-- **212 — Tirimpêl:** zêdekirina R di rêza *otomobîl → tomobîl → tumubîl → tirimpêl* de dibe ku bi zarîvekirina dengê otomobîlê ve girêdayî be; nivîskar vê yekê wek ihtîmal pêşkêş dike, ne wek etîmolojiya piştrastkirî.
-- **213 — Paşgira -lik:** di *go-lik* de *-lik* paşgireke biçûkkirinê ye.
-- **214 — Guften/cuften:** U ya farisî di van peyvan de di qonaxeke nû de bûye O; ji ber vê yekê *guften/cuften* bi *gotin/cot* re tên berawirdkirin.
+- **209 — Rêjeya O:** Ev çavkaniya hesabkirina rêjeya 0,95% ya herfa O di nivîsên kurmancî de ye.
+- **210 — Umêd û Omer:** *umêd* wergirtineke farisî ye; forma *omêd* jî di nivîsên farismancî de xuya dike. *Umet* ji erebî ye. *Emer* forma kevn a kurmancî ya navê *Umer* e; *Umer/Imer* jî hene. *Omer* dikare bandora farisî an tirkî nîşan bide.
+- **211 — Hotêl:** Li gel *otêl*, forma *hotêl* û di hin devokan de *ûtêl/ütêl* jî hatiye tomarkirin.
+- **212 — Tirimpêl:** Zêdekirina R di rêza *otomobîl → tomobîl → tumubîl → tirimpêl* de dibe ku bi zarîvekirina dengê otomobîlê ve girêdayî be; ev ihtîmala nivîskar e, ne etîmolojiya piştrastkirî.
+- **213 — Paşgira -lik:** Di *go-lik* de *-lik* paşgireke biçûkkirinê ye.
+- **214 — Guften/cuften:** U ya farisî di van peyvan de di qonaxeke nû de bûye O; *guften/cuften* bi *gotin/cot* re tên berawirdkirin.
 - **215 — Kon:** *kon* bi tirkî *konmak* (“bi cih bûn, war danîn”) re tê girêdan.
 - **216 — Kîna Dihokê:** K-ya nerm û bêpif ya *kîn* ya Dihokê wê ji *kîn* bi wateya “kerb” cuda dike.
 - **217 — Rovî:** *rovî* bi farisî *robah* û pehlewî *robas* re tê berawirdkirin.
 - **218 — Kovî:** *kovî* bi farisî *kohî* (“çiyayî, kovî”) û zazakî *ko* (“çiya”) re tê berawirdkirin.
-- **219 — Rێژەی U:** لاپەڕەی سەرچاوە لە ژمارەی تێبینییەکەدا بە هەڵە *Ê* دەنووسێت، لە کاتێکدا دەقەکە باس لە U دەکات و ڕێژەی 1,3% دەدات. ئەم ناهاوتاییە وەک هەڵەی چاپ تۆمار کراوە؛ ڕێژەکە وەک ژمارەی سەرچاوە وەرگیراوە، نەک وەک پشکنینێکی سەربەخۆ.
-- **220 — Umer û Urdin:** تێبینییەکە دووبارە دەکاتەوە کە *umet* عەرەبی، *umêd* فارسـی و *Urdin* بە ڕێگەی عەرەبی لە عیبرییەوە هاتووە؛ *umir/Umer* بە دەنگی کۆنسۆنانتی Eyn دەست پێدەکەن، نە بە U.
-- **221 — Cuda/cida:** تێبینییەکە شێوەی *cuda* لە *cida* جیا دەکاتەوە و دەڵێت D لە نێوان دوو واکاڵدا لە وشە خۆماڵییەکاندا بە شێوەی ئاسایی نایەت؛ بۆیە *cuda* وەک وشەیەکی وەرگیراو لە فارسی ڕوون دەکرێتەوە. شێوەکانی کوردی *cihê* (ناوەندی) و *ciya* (سۆرانی و زازاکی) بەراورد دەکرێن.
-- **222 — Kird:** لە زازاکیدا *kird* واتای “Zaza” دەدات و هاوڕەچەڵەکی *kurd* ـە؛ لە سۆرانیدا *kird* واتای “کرد” دەدات و پەیوەندی بە *kirdin* (“kirin”) ـەوە هەیە.
-- **223 — دابەشکردنی دەڤەری:** بۆ دابەشکردنی دەڤۆکەکانی کورمانجی بۆ ڕۆژهەڵاتی، ناوەندی و ڕۆژاوایی، سەرچاوە ئاماژە بە توێژینەوەی دەرەکی دەکات؛ لینکە دەنگییەکان لە وانەکەدا دانەنراون.
-- **224 — شێوەکانی Û:** تێبینییەکە دەڵێت *hemû, şûr, tûj* لە هەندێک دەڤۆکی ڕۆژهەڵاتیدا بە *hemî, şîr, tîj* دەگوترێن؛ ئەم گۆڕانە لە دەڤۆکەکانی تریشدا هەیە.
-- **225 — سنووری “kurdiya başûrî”:** لە بەکارهێنانی ئەم ناوەدا مەبەست تەنها باشووری کوردستان نییە؛ دەڤۆکەکانی Feylî، Kelhurî و Kirmaşanî لە هەردوو لای سنووری سیاسیی ئێران و عێراق و ناوچە نزیکەکان مەبەستن. سەرچاوە نەبوونی ergativity وەک تایبەتمەندییەکی ئەم دەڤۆکانە باس دەکات و لەگەڵ Lekî بەراوردی دەکات.
-- **226 — Şahzênî/Şêxbizinî:** سەرچاوە ئەم دەڤۆکانە بە بەشێک لە کوردیای باشووری دەژمێرێت و باس لە کۆچکردنی قسەکەرانیان لە ڕۆژهەڵاتی کوردستان بۆ ناوەندی تورکیا دەکات؛ ماوەی مانەوەیان لەوێ نزیکەی 150–200 ساڵ دیاری دەکات.
-- **227 — Jü:** لە هەندێک دەڤۆکی زازاکیدا Û دەبێتە Ü؛ نموونەی *jü* لە زنجیرەی مێژوویی *yew > jew > jû > jü* ڕوون کراوەتەوە. گۆڕانی Y بۆ C لە *cejn* و *cihû* بەراورد کراوە.
-- **228 — پەیوەندیی سۆرانی و تورکی:** سەرچاوە پەیوەندیی سۆرانی بە زمانە تورکییەکان بە تایبەتی لە ڕێگەی کەرکووک و هەولێرەوە، و پەیوەندیی ئازەری و سۆرانی لە ڕۆژهەڵاتی کوردستاندا باس دەکات. ئەم تێبینییە لەسەر هۆکارە دەڤۆکییەکانی گۆڕانی Û بۆ Ü زیادکراوە.
+- **219 — Rêjeya U:** Di têbîniya çapkirî de bi şaşî *Ê* hatiye nivîsîn, lê hevok û mijara derdorê li ser U ne û rêjeya 1,3% dide. Ev naahengî wek xeletiya çapê hatiye tomarkirin; rêje wek agahiya çavkaniyê hatiye veguhastin, ne wek encameke serbixwe ya pîvandinê.
+- **220 — Umer û Urdin:** *umet* erebî, *umêd* farisî û *Urdin* bi rêya erebî ji îbranî hatiye. *umir/Umer* bi dengê konsonantî Eyn dest pê dikin, ne bi vokala U.
+- **221 — Cuda/cida:** *cuda* ji *cida* tê cudakirin; D di navbera du vokalan de di peyvên xwemalî de bi gelemperî nayê. *cuda* wek peyveke wergirtî ya farisî tê ravekirin. *cihê* (kurmanciya navendî) û *ciya* (soranî û zazakî) tên berawirdkirin.
+- **222 — Kird:** Di zazakî de *kird* bi wateya “Zaza” ye û bi *kurd* re hevreh e; di soranî de *kird* bi *kirdin* (“kirin”) ve girêdayî ye.
+- **223 — Dabeşkirina devokan:** Ji bo dabeşkirina devokên kurmancî bo rojhilatî, navendî û rojavayî, çavkaniyê lêkolîneke derveyî destnîşan dike. Lînkên dengî di dersê de nehatine bicihkirin.
+- **224 — Şêweyên Û:** *hemû, şûr, tûj* di hin devokên rojhilatî de wek *hemî, şîr, tîj* tên gotin; ev şêwe di hin deverên din de jî heye.
+- **225 — Kurdiya başûrî:** Ev nav tenê bo Başûrê Kurdistanê nayê bikaranîn; Feylî, Kelhurî, Kirmaşanî û devokên nêzî wan jî di nav de ne. Çavkaniyê tunebûna ergativity di van devokan de û cudahiya wê ji Lekî re destnîşan dike.
+- **226 — Şahzênî/Şêxbizinî:** Çavkaniyê van devokan di nav kurdiya başûrî de dihesibîne û koça axiverên wan ji Rojhilata Kurdistanê bo navenda Tirkiyê vedibêje; demê bicihbûna wan li wir nêzî 150–200 sal e.
+- **227 — Jü:** Di hin devokên zazakî de Û dibe Ü. *jü* bi zincîra dîrokî *yew > jew > jû > jü* tê ravekirin; *cejn* û *cihû* ji bo guhertina Y bo C tên berawirdkirin.
+- **228 — Têkiliya soranî û tirkî:** Çavkaniyê têkiliya soranî bi zimanên tirkîkî, bi taybetî bi rêya Kerkûk û Hewlêrê, û têkiliya azerî û soranî li Rojhilata Kurdistanê vedibêje.
 
 ## Çavkanî
 
