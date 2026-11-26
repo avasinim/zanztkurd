@@ -99,6 +99,17 @@ window.ZANSTI_GET_SUPABASE_CLIENT = window.ZANSTI_GET_SUPABASE_CLIENT || functio
   return window.ZANSTI_SUPABASE_CLIENT;
 };
 
+/* Dengnasi draft rows exist only in the isolated test project. This shared
+   predicate is evaluated after Supabase config has loaded and before any
+   auth, progress, enrollment, or lesson-content request is made. */
+window.ZANSTI_IS_DENGNASI_TEST_PROJECT = function(){
+  const path=(location.pathname.split("/").pop()||"").toLowerCase();
+  if(!/^kurmanji-dengnasi-lesson-\\d{2}\\.html$/.test(path)) return true;
+  try{
+    return new URL(window.ZANSTI_SUPABASE?.url||"").hostname.split(".")[0] === "juwsjljbdwyncicybwoq";
+  }catch(_){ return false; }
+};
+
 /* ===== Avasin access gate — lessons + catalog =====
    Lesson content and the lesson catalog require authentication + enrollment. */
 (function(){
@@ -166,10 +177,14 @@ window.ZANSTI_GET_SUPABASE_CLIENT = window.ZANSTI_GET_SUPABASE_CLIENT || functio
     }
     return supabaseReadyPromise;
   }
-  /* Share the same Supabase readiness check with lesson-progress gates. */
-  window.ZANSTI_WAIT_FOR_SUPABASE = ensureSupabase;
+  /* Share Supabase readiness while refusing every Dengnasi data/auth call
+     unless this page is explicitly configured for the isolated test project. */
+  window.ZANSTI_WAIT_FOR_SUPABASE = async function(){
+    if(!await ensureSupabase()) return false;
+    return window.ZANSTI_IS_DENGNASI_TEST_PROJECT?.() !== false;
+  };
   async function getSession(){
-    if(!await ensureSupabase()) return null;
+    if(!await window.ZANSTI_WAIT_FOR_SUPABASE()) return null;
     const sb=window.ZANSTI_GET_SUPABASE_CLIENT();
     const {data:{session}}=await sb.auth.getSession();
     return {sb,session};
@@ -291,6 +306,19 @@ window.ZANSTI_GET_SUPABASE_CLIENT = window.ZANSTI_GET_SUPABASE_CLIENT || functio
   (async function pageGate(){
     try{
       if(isLesson){
+        const supabaseReady=await ensureSupabase();
+        if(!supabaseReady){
+          const box=document.querySelector(".lesson-content");
+          if(box)box.innerHTML="<p class=\\"lesson-content-error\\">پەیوەندیی سیستەمی دەستگەیشتن ئامادە نیە. تکایە دواتر هەوڵ بدەوە.</p>";
+          document.documentElement.style.visibility="";
+          return;
+        }
+        if(/^kurmanji-dengnasi-lesson-\\d{2}\\.html$/.test(path) && !window.ZANSTI_IS_DENGNASI_TEST_PROJECT()){
+          const box=document.querySelector(".lesson-content");
+          if(box)box.innerHTML="<section class=\\"klesson-note\\"><h2>وانەکان لە ژینگەی تاقیکردنەوەدان</h2><p>٢٧ وانە دابڕێژراون و تەنها لە بنکەدراوەی تاقیکردنەوە هەڵگیراون. ئەم پەڕەیە ئێستا بە پڕۆژەی تاقیکردنەوە پەیوەست نیە؛ هیچ داواکارییەکی چوونەژوورەوە، پێشکەوتن یان ناوەڕۆک بۆ بنکەدراوەی بەرهەمهێنان نانێردرێت.</p></section>";
+          document.documentElement.style.visibility="";
+          return;
+        }
         const got=await getSession();
         if(!got?.session){
           location.replace(authUrl(location.href));
