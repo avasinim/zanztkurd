@@ -56,6 +56,14 @@ The nine title differences identified in the earlier reconciliation have been re
 - Static inspection confirms the script contains eight test cases, checks each page H1 against the payload title, checks for authored section headings, rejects iframe content, and checks `lang="ku" dir="ltr"`.
 - **Execution status: NOT RUN.** This branch has no PR carrying the workflow change, and no workflow-dispatch action is available in this session. Do not describe the Playwright suite as passing until GitHub Actions actually runs it.
 
+## Catalog status reconciliation — 2026-11-26
+
+- The Dengnasî preview card in `lessons/catalog.html` previously claimed the course was active, enrollment-enabled, and that a designed PDF was part of the active offering, while `kurmanji-dengnasi-course.html` was an under-preparation hold page.
+- Updated the card kicker and description to state that the 27-lesson course is under preparation and that the lesson topics are organized from the source book rather than copied verbatim.
+- Removed the active/enrollment and designed-PDF badges; the card now says the course is not active and the link label opens the course status page.
+- Updated the COURSE 03 language-choice subtitle to explicitly say “لە ئامادەکردندایە”.
+- Read-only verification confirms the card no longer contains the former active/enrollment/PDF claims, the catalog link still routes to the hold page, and the landing page remains under preparation. No course activation, enrollment, or deployment occurred.
+
 ## Remaining integration work
 
 1. Run the new Playwright suite through GitHub Actions after a reviewed draft PR is opened or another approved CI route is available.
