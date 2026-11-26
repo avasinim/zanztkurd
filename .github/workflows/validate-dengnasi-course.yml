@@ -20,7 +20,7 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: read
+  contents: write
 
 jobs:
   validate-course-map:
@@ -56,3 +56,24 @@ jobs:
           python -m playwright install --with-deps chromium
       - name: Test all 27 Dengnasi lesson pages and access gates with mocked Supabase
         run: python scripts/test_dengnasi_lesson_browser.py
+
+      - name: Sync regenerated previews to isolated implementation branch after all checks pass
+        if: github.event_name == 'pull_request' && github.event.pull_request.base.ref == 'implementation/dengnasi-content-html-bridge-2026-11-26' && github.event.pull_request.head.ref == 'test/dengnasi-title-parity-ci-2026-11-26'
+        env:
+          TARGET_BRANCH: implementation/dengnasi-content-html-bridge-2026-11-26
+        run: |
+          git fetch origin "$TARGET_BRANCH"
+          git worktree add /tmp/dengnasi-target "origin/$TARGET_BRANCH"
+          mkdir -p /tmp/dengnasi-target/docs/previews
+          cp docs/previews/kurmanji-dengnasi-lesson-*-content-preview.html /tmp/dengnasi-target/docs/previews/
+          cp docs/previews/dengnasi-content-html-payload-preview.json /tmp/dengnasi-target/docs/previews/
+          cd /tmp/dengnasi-target
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add docs/previews/kurmanji-dengnasi-lesson-*-content-preview.html docs/previews/dengnasi-content-html-payload-preview.json
+          if git diff --cached --quiet; then
+            echo "Generated previews already match the implementation branch."
+          else
+            git commit -m "Refresh generated Dengnasi previews after title parity audit"
+            git push origin "HEAD:refs/heads/$TARGET_BRANCH"
+          fi
