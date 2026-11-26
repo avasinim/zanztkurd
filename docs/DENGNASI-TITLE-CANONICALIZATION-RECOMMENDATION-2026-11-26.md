@@ -60,3 +60,14 @@ The recommendation above has now been implemented on the isolated implementation
 - Stable lesson IDs, keys, source citations, printed/original/designed page ranges, and lesson body content were not changed by this title-parity update.
 
 The new validation will be exercised by the Dengnasi GitHub Actions workflow. Until that run passes, this is an implemented change awaiting CI confirmation, not a claim of passing validation. The course remains held under preparation; no activation, migration, database write, publication, deployment, or merge was performed.
+
+
+### CI confirmation — 2026-11-26
+
+- Actions run [45778867403](https://github.com/avasinim/zanztkurd/actions/runs/45778867403) passed all workflow steps.
+- The generator regenerated the stale Lesson 19 preview and JSON payload; the generator check then passed.
+- The extended validator passed exact authoring/manifest/reader/standalone title parity for all 27 lessons, along with page-map, PDF-integrity, and protected-route checks.
+- Public PDF HTTP/checksum/page-count validation passed.
+- All 8 mocked Playwright tests passed.
+- After every validation step passed, the workflow synchronized the generated HTML previews and JSON payload to the isolated implementation branch.
+- Temporary PR #94 was used only to execute CI against the implementation branch and was closed unmerged after validation.
