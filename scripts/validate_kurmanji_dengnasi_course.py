@@ -118,7 +118,7 @@ for required in (
     "pênc [pênc]",
     "perde [ṕerde]",
     "pez [ṗez]",
-    "zivistan [ẓivișṭan]",
+    "*zivistan* [ẓivișṭan]",
 ):
     assert required in lesson4, f"Lesson 4 is missing source-backed detail: {required}"
 assert "*ṣed, miṣaṣ*" not in lesson4, "Lesson 4 legacy S transcription must be corrected"
