@@ -466,6 +466,6 @@ for required in (
     "*qêrîn/qîrîn*", "*xendek/xendeq*", "P-ya bipif", "P-ya bêpif",
 ):
     assert required in lesson13, f"Lesson 13 is missing source detail: {required}"
-assert "nîşana rast a wê" in lesson13 and "[p]" in lesson13 and "şaşiya çapê" in lesson13, "Lesson 13 must document the corrected IPA symbol and source inconsistency"
+assert "nîşana rast a P" in lesson13 and "[p]" in lesson13 and "şaşiya çapê" in lesson13, "Lesson 13 must document the corrected IPA symbol and source inconsistency"
 assert "https://en.wikipedia.org/wiki/File/" not in lesson13, "Lesson 13 must not add audio dependencies"
 assert not re.search(r"[\u0600-\u06FF]", lesson13), "Lesson 13 must remain Latin-script only"
