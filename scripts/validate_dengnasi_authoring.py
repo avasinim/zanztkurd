@@ -167,3 +167,21 @@ print(
     "PASS: every Dengnasi auth, progress, lesson-content and completion path "
     "is guarded by the isolated test-project boundary before data access."
 )
+
+owner_copy_start = loader.index("(async function verifyOwnerCopyPermission(){")
+owner_copy_end = loader.index("})();", owner_copy_start)
+owner_copy = loader[owner_copy_start:owner_copy_end]
+assert (
+    'typeof window.ZANSTI_WAIT_FOR_SUPABASE!=="function" || '
+    '!await window.ZANSTI_WAIT_FOR_SUPABASE())return;'
+    in owner_copy
+), "owner-copy permission check must stop before auth if the project guard rejects the route"
+
+owner_status_start = loader.index("window.ZANSTI_OWNER_CHECK=(async function(){")
+owner_status_end = loader.index("})();", owner_status_start)
+owner_status = loader[owner_status_start:owner_status_end]
+assert (
+    'typeof window.ZANSTI_WAIT_FOR_SUPABASE!=="function" || '
+    '!await window.ZANSTI_WAIT_FOR_SUPABASE())return false;'
+    in owner_status
+), "shared owner status check must stop before auth if the project guard rejects the route"
