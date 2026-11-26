@@ -3961,7 +3961,7 @@ Ev nimûne nîşan didin ku giranî dikare cudahiya navbera navdêr, rengdêr, d
 
 ### 22.1. Xişteya hemû komdengên Y + vokal
 
-Çavkaniyê hemû komdengên Y + vokal bi awayê jêrîn rêz dike. Nîşana *?* di xişteya jêrîn de wateya wê ye ku li ser dîftongbûna wê lihevkirina tam tune ye; nîşana *** jî komdengên ku di kurmanciya standard de peyda nabin nîşan dide.
+Çavkaniyê hemû komdengên Y + vokal bi awayê jêrîn rêz dike. Nîşana *?* di xişteya jêrîn de wateya wê ye ku li ser dîftongbûna wê lihevkirina tam tune ye; nîşana stêrkê (`*`) jî komdengên ku di kurmanciya standard de peyda nabin nîşan dide.
 
 | Komdeng | Nimûne | Têbînî |
 |---|---|---|
