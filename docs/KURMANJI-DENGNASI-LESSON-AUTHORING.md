@@ -4654,7 +4654,7 @@ Di kurmancî de herdu awayên L bi gelemperî bi heman herfa L tên nivîsîn, j
 | hilbijartin | hełbijardin |
 | mal | mał |
 
-Li gorî ravekirina dîrokî, L di hin peyvên îranî de berê RD bûye û paşê di kurmancî de bûye L, di soranî de jî Ł. Di hin peyvên ji erebî de eslê dengî L bûye, lê di soranî de bûye Ł. Di hin devokên soranî de, bi taybetî di hin awayên axaftinê de, li cihê L-ya qelew R tê gotin: *mał → mar*, *bełê → berê*. Diyardeyeke nêzîk di hin devokên kurmancî de jî heye.
+Li gorî ravekirina dîrokî, L di hin peyvên îranî de berê RD bûye û paşê di kurmancî de bûye L, di soranî de jî Ł. Di hin peyvên ji erebî de eslê dengî L bûye, lê di soranî de bûye Ł. Di hin devokên soranî de, bi taybetî di hin awayên axaftinê de, li cihê L-ya qelew R tê gotin: *mał → mar*, *bełê → berê*. Diyardeyeke nêzîk di hin devokên kurmancî de jî heye; çavkaniyê mînakên *bila/bela → bera/bira* dide.
 
 ## 12. Û an UH ya kurmancî û WÊ ya soranî
 
