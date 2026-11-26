@@ -440,3 +440,16 @@ assert "https://en.wikipedia.org/wiki/File/" not in lesson11, "Lesson 11 must no
 assert "pêraweja 103" in lesson11.lower() and "pêraweja 108" in lesson11.lower(), "Lesson 11 source footnote coverage is incomplete"
 
 assert "| *ka* | Li kû ye? | *ka* | Giyayê hişkkirî |" in lesson11, "Lesson 11 K aspiration minimal-pair table is missing"
+
+
+lesson12_match = re.search(r"(?ms)^# Dersa 12 —.*?(?=^# Dersa 13 —)", source)
+assert lesson12_match, "Lesson 12 authoring section is missing"
+lesson12 = lesson12_match.group(0)
+for required in (
+    "rûpelên çapkirî 147–154", "Pêraweja 109", "Pêraweja 110", "Pêraweja 111", "Pêraweja 112",
+    "*name*", "*nomen*", "*gamen-*", "*come*", "*gendom*", "*gentum*", "*cendum*",
+    "*ziban*", "*uzvan*", "*cihve-*", "*nwêj*", "*nûstin*", "*ena*", "*ên*", "*ën*",
+    "Feylî, Kelhurî û Kirmaşanî",
+):
+    assert required in lesson12, f"Lesson 12 is missing source detail: {required}"
+assert "https://en.wikipedia.org/wiki/File/" not in lesson12, "Lesson 12 must not add audio dependencies"
