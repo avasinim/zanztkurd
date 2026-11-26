@@ -3011,7 +3011,7 @@ KL-ya standard 31 herf hene:
 
 **a, b, c, ç, d, e, ê, f, g, h, i, î, j, k, l, m, n, o, p, q, r, s, ş, t, u, û, v, w, x, y, z.**
 
-Di dîrokê de awayên nivîsîna KL guherîne. Di hin berhemên kevn de li şûna **i, î** nîşanên **ı, i** hatine bikaranîn. Di hin nivîsan de **ç, ş** bi **ch, sh** an **č, š** hatine nivîsîn; **j** carinan li şûna **c**, û **zh** jî li şûna **j** hatiye bikaranîn. Ji ber sedemên teknîkî, **ê** carinan wek **é**, û **û** wek **ú** an **ü** hatiye nivîsîn. Hin nîşanên taybet ên H û X jî di hin berheman de hatine bikaranîn, lê di standarda îroyîn de H û X tên nivîsîn.
+Di dîrokê de awayên nivîsîna KL guherîne. Di hin berhemên kevn de li şûna **i, î** nîşanên **ı, i** hatine bikaranîn. Di destpêka bikaranîna KL di rojnameya Hawarê de, dengên **k** û **q** carinan bi hev hatine guherandin: *kurd* wek *qurd* û *qenc* wek *kenc* hatiye nivîsîn. Di hin nivîsan de **ç, ş** bi **ch, sh** an **č, š** hatine nivîsîn; **j** carinan li şûna **c**, û **zh** jî li şûna **j** hatiye bikaranîn. Ji ber sedemên teknîkî, **ê** carinan wek **é**, û **û** wek **ú** an **ü** hatiye nivîsîn. Hin nîşanên taybet ên H û X jî di hin berheman de hatine bikaranîn, lê di standarda îroyîn de H û X tên nivîsîn.
 
 KE-ya standard 33 nîşanên herfî hene; heke koma herfî ya ku ji du nîşanên W-yê pêk tê wek nîşaneke serbixwe bê hesibandin, hejmar dibe 34. Di nivîsên kevn de awayê nîşandana hin vokalan cuda bû: vokalên kurt **e, u** bi gelemperî wek îro nehatine nîşandan, û **û** û **o** jî dikaribûn bi **w/u** bên nivîsîn. Hin dengên ku îro bi **ê, v, ç, g, j, p** tên nîşandan, di hin nivîsên kevn de bi herfên din hatine nivîsîn.
 
@@ -3027,7 +3027,7 @@ Di KL de herfên biçûk û mezin hene; herf ji hev cuda dimînin û bi hev ve n
 | Şêweyên herfan | Gir û hûr | Serbixwe, destpêkî, navîn, dawîn |
 | Vokal | Heşt vokal bi herfên xwe | Hin vokal bi herfên cuda, hin bi nîşanên hevbeş an neyekser |
 
-Di KL de heşt vokal bi awayên **a, e, ê, i, î, o, u, û** tên nivîsîn. Di KE de hin vokal bi nîşanên xwe tên diyarkirin; lê **i** bi awayekî rasterast nayê nivîsîn. Herwiha **î** û **y** bi heman herfê, û **u** û **w** jî bi heman herfê tên nîşandan. **Û** bi du nîşanên **u/w** tê nivîsîn. Ji ber vê yekê peyvên wek *kirin, bîr, kurd, mû* di KE de dikarin bi awayên kurtir bên nivîsîn.
+Di KL de heşt vokal bi awayên **a, e, ê, i, î, o, u, û** tên nivîsîn. Di KE de hin vokal bi nîşanên xwe tên diyarkirin; lê **i** bi awayekî rasterast nayê nivîsîn. KE, ji bilî **i**, vokalên kurt jî nîşan dide; ev ji alfabeyên erebî û farisî yên giştî cuda ye, ku bi gelemperî **e, i, u** nîşan nadin, tenê di hin rewşên dawiya peyvê de. Herwiha **î** û **y** bi heman herfê, û **u** û **w** jî bi heman herfê tên nîşandan. **Û** bi du nîşanên **u/w** tê nivîsîn. Ji ber vê yekê peyvên wek *kirin, bîr, kurd, mû* di KE de dikarin bi awayên kurtir bên nivîsîn.
 
 Di KE de herfên **H, X, L, R** ji bo hin dengên cuda nîşanên cuda hene; di KL de ev cudahiyên dengî bi gelemperî bi heman herfê tên nivîsîn. Di KE de dengê eyn jî herfa xwe ya serbixwe heye; di KL de ew carinan nayê nivîsîn an bi apostrofê tê nîşandan, wek *Elî* an *'Elî*. Herwiha vokalên KE li destpêka peyvê nîşana destpêkî ya taybet digirin; ev herf dikare di hin cihan de rola dengê **i** jî bigire, herçend bikaranîna wê bi vî erkî kêm e.
 
