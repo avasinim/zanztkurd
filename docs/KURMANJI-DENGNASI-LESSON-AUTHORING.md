@@ -3179,7 +3179,9 @@ Mînakên hevnivîsên dengcuda:
 - *ker*: bi K-ya bipif û R-ya nerm, heywan; bi K-ya nerm û R-ya şidandî, kesê ku baş nabihîze.
 - *term*: bi T-ya bêpif û qelew, cesed; bi T-ya bipif, peyv an têgeh.
 
-Cudahî dikare ji dengên cuda yên herfên yekgirtî, wek Ç/K/P/T/R/H/X, an jî ji giranî û cihê kirpê peyda bibe. Mînakên *mirovî* û *Azadî* nîşan didin ku heman nivîs dikare bi giranîya cuda wateyên cuda bide: di *wî mirovî nas dikim* de wateya “wî kesî” heye, lê di *alîkariya mirovî* de wateya “mirovî/insanî” heye. Herwiha *Azadî xweş e* ji navê kesê *Azad* ku di hevoka *Wî Azadî got* de tê, bi cihê giranîyê cuda dibe.
+Cudahî dikare ji dengên cuda yên herfên yekgirtî, wek Ç/K/P/T/R/H/X, an jî ji giranî û cihê kirpê peyda bibe.
+
+Mînakeke din nîشان dide ku her tim ne hewce ye cudahiya bilêvkirinê bi herfeke nû were nîşandan. Di hevoka *ew ker e* de, bêyî kontekstê, dikare neyê zanîn ka mebest heywanê ker e yan kesê guh-giran. Ji bo ku wateya “guh-giran” zelal bibe, nivîskar pêşniyar dike ku mirov wê bi du R-yan binivîse: *Ew kerr e*. Bi vî awayî xeletfehmkirin tê astengkirin bêyî ku herfeke nû li alfabeyê zêde bibe. Mînakên *mirovî* û *Azadî* nîşan didin ku heman nivîs dikare bi giranîya cuda wateyên cuda bide: di *wî mirovî nas dikim* de wateya “wî kesî” heye, lê di *alîkariya mirovî* de wateya “mirovî/insanî” heye. Herwiha *Azadî xweş e* ji navê kesê *Azad* ku di hevoka *Wî Azadî got* de tê, bi cihê giranîyê cuda dibe.
 
 ### Hevdengên nivîscuda û hevwate
 
@@ -3233,6 +3235,9 @@ Herwiha zêdekirina herfan dê hemû xeletfehmkirinan çareser neke, ji ber ku p
 R ya destpêka peyvê bi gelemperî şidandîtir tê gotin; R ya navîn û dawî di peyvên xwerû de bi piranî nerm e. Li gorî nivîskar, ev du awayên R di piraniya rewşan de alofonên heman dengî ne, ne du fonemên serbixwe. Hin peyvên kêm hene ku R ya navîn an dawî şidandî ye; hin peyvên pêkhatî jî dikarin taybetmendiyên R-ya beşa xwe biparêzin. Lê ev rewşên sînordar ji bo zêdekirina herfeke din têr nayên hesibandin.
 
 ### L-ya qelew û L-ya zirav
+
+Di kurmancî û zazakî de L-ya qelew sînordar e. Di kurmancî de ew di peyva *welat* de tê dîtin; herwiha di *sal* de, bi taybetî di formên tewandî yên *wê salê* û *sala 2013* de. Di hin devokan de *milet* û *mela* jî bi L-ya qelew tên gotin, lê di piraniya devokên kurmancî de L-ya wan zirav e. Di KE de ji bo L-ya qelew nîşana L-ya bi kumikek berjêrkirî heye. Ji bo KL jî dikare herfa *ł* were zêdekirin an li şûna L-yekê du L bên nivîsîn. Lê nivîskar ji bo nivîsîna hevpar û nêzîkkirina zaravayan yek L tercîh dike.
+
 
 Di soranî, kelhurî, feylî û hewramî de du awayên L hene û di KE de ji bo wan nîşanên cuda tên bikaranîn. Di kurmancî û zazakî de L-ya qelew sînordar e: di hin peyv û hin devokan de tê dîtin, lê di piraniya devokên kurmancî de L-ya zirav serdest e. Nivîskar ji bo nivîsîna hevpar yek L tercîh dike, ji ber ku ev yek nivîsîna peyvên hevbeş di navbera zaravayan de nêzîk dihêle.
 
