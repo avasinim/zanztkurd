@@ -46,7 +46,7 @@
 
 ---
 
-# Dersa 1 — Dergeh: dengnasî û lêkolînên pêşîn
+# Dersa 1 — Dergeh û ev vekolîn û yên berî wê
 
 ## 1. Dengnasî di nav zimannasiyê de
 
@@ -88,7 +88,7 @@ Vekolîn bi zimanekî hatiye nivîsîn ku xwendevanên ne-zimannas jî bikarin j
 Husein Muhammed, *Dengnasî di kurdî de*, rûpelên çapkirî 4–7.
 
 
-# Dersa 2 — Vokal, konsonant; cih û awayên dengan; pifdarî
+# Dersa 2 — Vokal û konsonant; cih û awayên dengan; pifdarî
 
 ## 1. Vokal û konsonant
 
@@ -239,7 +239,7 @@ T jî di kurmancî û zazakî de dikare sê an heta çar dengên cuda nîşan bi
 Husein Muhammed, *Dengnasî di kurdî de*, rûpelên çapkirî 16–28.
 
 
-# Dersa 4 — Qelewîtî: dengên qelew û zirav
+# Dersa 4 — Qelewîtî
 
 ## 1. Dengên qelew û nîşanên wan
 
@@ -2267,7 +2267,7 @@ Husein Muhammed, *Dengnasî di kurdî de*, rûpelên çapkirî 203–232.
 
 
 
-# Dersa 17 — Eyn, K/G/Q û komên konsonantî di kurdî de
+# Dersa 17 — Eyn û hemû cotkonsonantên di kurdî de
 
 ## 1. Dengê Eyn di kurmancî de
 
@@ -3073,7 +3073,7 @@ Husein Muhammed, *Dengnasî di kurdî de*, rûpelên çapkirî **298–314**.
 
 ---
 
-# Dersa 21 — Dîftong û giranî di dengnasiya kurdî de
+# Dersa 21 — Hin mijarên taybet: dîftong û giranî
 
 ## Beşa yekem: Dîftong
 
@@ -3438,7 +3438,7 @@ Husein Muhammed, *Dengnasî di kurdî de*, rûpelên çapkirî **315–347**.
 
 ---
 
-# Dersa 22 — Nasandina KL û KE û cudahiyên herdu alfabeyan
+# Dersa 22 — Nasandina KL û KE; cudahiyên herdu alfabeyan
 
 ## 1. Du alfabeyên sereke yên nivîsîna kurdî
 
@@ -4357,7 +4357,7 @@ Husein Muhammed, *Dengnasî di kurdî de*, rûpelên çapkirî 402–417.
 
 ---
 
-# Dersa 27 — Cotdengiya Ç, K, P, T û rêgirtina li ber hiyatusê
+# Dersa 27 — Cotdengiya Ç, K, P, T û rêgirtin di ser peyvan re
 
 ## 1. Cotdengiya Ç, K, P û T li destpêka peyvan de
 
