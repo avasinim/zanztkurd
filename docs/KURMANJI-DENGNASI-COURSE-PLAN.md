@@ -62,3 +62,8 @@ The manifest records both printed page ranges and page ranges in the corrected d
 ## Integration-branch navigation status — 2026-11-26
 
 The obsolete hold page has been replaced on the integration branch with an ordered 27-lesson course index. Each lesson page loads its protected content through the shared loader and has a matching lesson key. This work is not deployed; the separate PDF reader remains an optional source-reference page, not the learner-facing course.
+
+
+## Browser verification status — 2026-11-26
+
+A Playwright smoke-test harness has been added to the integration branch. It uses a local Supabase stub to verify the course index, all 27 lesson-content mounts, and expected UI redirects. It has not yet been run. Separate real Supabase Auth/browser testing remains necessary before release.
