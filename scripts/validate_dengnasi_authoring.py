@@ -221,11 +221,11 @@ assert (
 
 # Keep the lesson 17 title aligned with its three source topics: Eyn, K/G/Q,
 # and consonant clusters. The title must remain Kurmanji Latin in every reader.
-LESSON17_TITLE = "Eyn, K/G/Q û komên konsonantî di kurdî de"
+LESSON17_TITLE = "Eyn û hemû cotkonsonantên di kurdî de"
 LESSON17_HTML = ROOT / "lessons/kurmanji-dengnasi-lesson-17.html"
 lesson17_html = LESSON17_HTML.read_text(encoding="utf-8")
 assert "# Dersa 17 — " + LESSON17_TITLE in text, (
-    "authoring heading for lesson 17 must cover Eyn, K/G/Q and consonant clusters"
+    "authoring heading for lesson 17 must match the source contents title"
 )
 assert '"title": "' + LESSON17_TITLE + '"' in MANIFEST.read_text(encoding="utf-8"), (
     "course manifest lesson 17 title is out of sync"
@@ -234,10 +234,10 @@ assert '"title":"' + LESSON17_TITLE + '"' in reader, (
     "reader lesson 17 title is out of sync"
 )
 assert "<title>Ders 17 — " + LESSON17_TITLE + " | Dengnasîya Zimanê Kurdî</title>" in lesson17_html, (
-    "lesson 17 document title must be Kurmanji Latin and source-complete"
+    "lesson 17 document title must match the source title in Kurmanji Latin"
 )
 assert "<h1>" + LESSON17_TITLE + "</h1>" in lesson17_html, (
-    "lesson 17 static heading must be Kurmanji Latin and source-complete"
+    "lesson 17 static heading must match the source title in Kurmanji Latin"
 )
 assert 'document.title="Ders 17 — ' + LESSON17_TITLE + ' | Dengnasîya Zimanê Kurdî"' in loader, (
     "runtime lesson 17 title normalization is missing"
@@ -247,4 +247,4 @@ lesson17_heading_text = re.search(r"<h1>(.*?)</h1>", lesson17_html, re.DOTALL).g
 assert re.search(r"[ء-ي]", lesson17_title_text + lesson17_heading_text) is None, (
     "Arabic-script character remains in lesson 17 title or heading"
 )
-print("PASS: lesson 17 title consistently covers Eyn, K/G/Q and consonant clusters in Latin script.")
+print("PASS: lesson 17 title matches the source contents title in Kurmanji Latin.")
