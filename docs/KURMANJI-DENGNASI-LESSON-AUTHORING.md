@@ -832,6 +832,57 @@ Nimûneyên pirtûkê:
 
 Ev cot peyv nîşan didin ku analojî dikare di çend cureyên peyvan de bandorê li şiklê wan bike. Nivîskar di dawiyê de cotê *bin / ban* jî tenê wek pêşniyareke ceribandinî ji bo lêfikirînê dide; ew wê wek mînakeke piştrastkirî ya analojiyê nayê pêşkêşkirin.
 
+
+## 8. Hûrguliyên temamker ên rastnivîsîn û analojiyê
+
+### 8.1. Peyvên xwerû û formên dîrokî
+
+Pirtûk diyar dike ku di peyvên xwerû de gelek ziman rastnivîsînê li gor forma gotinê digirin, ne li gor rehê dîrokî. Di îngilîzî de *leave* di dema borî de bi paşgira **-t** dibe *left*; dengê **v** berî **t** dibe **f**. Bi heman awayî, *thieve* bi zêdekirina **-t** dibe *theft*. Nivîskar vê yekê wek mînakekê dide ku nivîsîn dikare forma gotinê biparêze, ne ku her carê rehê dîrokî vegerîne.
+
+Di tirkî de peyva bi wateya *kitêb* di formên çemandî de bi **b** tê dîtin (*kitabı, kitabın, kitaba*), lê forma xwerû **kitap** e. Nivîskar dibêje ku tirkî dengên bilerz li dawiya peyvê bi awayekî giştî naparêze û rastnivîsîn jî li gor vê taybetmendiyê ye. Îstîsnayên tirkî jî hene; mînak *ad* (nav) ji *at* (hesp) cuda tê nivîsîn.
+
+Di soranî de jî formên *na-kuj-im, de-kuj-in, bi-ku-je* li gel *kuştin* tên bikaranîn, ne *kujtin*. Farisî rehê dema niha li gor forma raderê ava dike: *koşten* û formên *ne-mî-koşem, mî-koşend, bikoş*. Pirtûk herwiha destnîşan dike ku soranî û farisî jî komên dengên bilerz û bêlerz ên wek **-vt, -jt, -zt** di peyvên xwemalî de qebûl nakin.
+
+### 8.2. Peyvên li pey hev û axaftina bilez
+
+Pirtûk cudahiya di navbera guherîna di hundirê peyvekê de û guherîna di navbera du peyvên serbixwe de diparêze. Di *lîstin* de **S** di gotina hêdî de jî dimîne; ew ne forma *lîztin* e. Lê di hevoka *ez têm* de **Z** ya *ez* di axaftina hêdî de tê bihîstin û tenê di axaftina bilez de dikare wek **S** were gotin. Ji ber vê yekê nivîsîna du peyvên serbixwe li gor tesîra dengê peyva dûv wan nayê guherandin.
+
+Nimûneyên din ên pirtûkê:
+- Îngilîzî *Let it be*: di axaftina bilez de **T** ya *it* dikare wek **D** were bihîstin, lê di nivîsînê de **T** dimîne.
+- Tirkî *kitap geldi*: di axaftina bilez de **P** dikare berî **G** wek **B** were gotin, lê di nivîsînê de *kitap geldi* tê parastin.
+- Îngilîzî *football*: **T** di axaftina bilez de berî **B** dikare wek **D** were gotin. Peyva deynkirî *futbol* di kurmancî de bi **T** tê nivîsîn, tevî ku di axaftina bilez de hin kes wê wek *fudbol* dibêjin.
+
+### 8.3. Peyvên paşgirdar û cihgirtina formên kevn
+
+Pirtûk mînakên *dezgir, dezgeh, desmal* û *destpêk* ji rehê *dest* re girêdide. Di hin peyvan de **T** ji bo sivikkirina koma konsonantan ketiye; di hinan de jî **S** berî **G** ya bilerz bûye **Z**. Lê nivîskar dibêje ku ji bo hemû peyvên paşgirdar rêbazeke yekane tune: peyvên kevn ên ku forma wan di zimanê axaftinê de cihgir bûye dikarin forma xwe ya guherî biparêzin, lê di peyvên nû yên ku di zimanê nivîskî de tên çêkirin de parastina rehê peyvê dikare baştir be.
+
+Peyva *dezgeh* di hin wateyên xwe de “stand, mase, mêze an dikana li ser textekî” dide; têkiliya wê bi *dest* re di van wateyan de sist bûye an êdî nayê hîskirin. *Dezgir* û *dezgirtî* bi wateya yar an keça nîşanîkirî jî ji *destgir* û *destgirtî* yên bi wateya girtina destan cuda dibin. Di hin deveran de *dezgir/dezgirtî* bi veguhastina cihê dengan (metatez) wek *dergistî* tê gotin.
+
+### 8.4. Hûrguliyên etîmolojîk û devokî yên daçekan
+
+Formên serbixwe yên daçekên kurmancî yên pirtûkê ev in: *jê, lê, pê, tê*. Di soranî de **je** (hevmaneya *ji*) nayê dîtin; **de** tenê di soraniya Mukriyan de heye û di soraniya Silêmaniyê de tune ye. Di soranî de ji bo wateya “ji … ve” dikare *le … -ewe* were bikaranîn, wek *le mał-ewe*.
+
+Nivîskar hişyar dike ku nêzîkbûna dengî ya *bi* ya kurmancî û *by* ya îngilîzî nayê wateya ku ew ji heman rehê hatine. Etîmolojiya *bi* ya kurdî tenê heta îraniya kevn dikare were şopandin; pêşdaçekên zimanên hindûewropî yên niha di hin rewşan de ji halên navdêran ên makezimanê kevn pêk hatine, ne ji heman rehên pêşdaçekên kurdî.
+
+Pirtûk mînakên **bo** jî bi hûrgulî cuda dike. Di kurmanciya navendî û rojavayî de *bo* bi gelemperî bi *ji* re tê bikaranîn (*ji bo, ji bona, ji boy, ji boyî*) û wek pêşdaçekeke serbixwe nayê bikaranîn. Di kurmanciya rojhilatî û soranî de *bo* dikare bi tenê jî were bikaranîn. Di soraniya Hewlêrê de forma *lo* wek kurtkirina *le bo* hatiye qeyd kirin. Di hin devokên kurmancî de *ji bo* wek *jo* tê kurtkirin; pirtûk vê formê bi taybetî di nav Çonikiyan de qeyd dike û dibêje ku zêdetir ji devê pîrejin û pîremêran tê bihîstin, lê di nav xortan de *bo* belavtir e.
+
+Di paşdaçekan de, **de, re, ve** di kurmanciya nivîskî de serdest in; di piraniya devokan de formên **da, ra, va** jî tên. Pirtûk dibêje ku di hin devokan de **ve** wek **va** tê gotin û her sê form bi du deng tên çêkirin; di hemûyan an herî kêm di du ji wan de dengê dawiyê **a** ye. Di devokên kurmancî de, ji bilî kurmanciya rojhilatî, formên *tê ve* û *di … ve* kêm in an hema qet nayên.
+
+Di tabloya dîrokî ya paşdaçekan de, formên vala wateya wê nadin ku formeke nêzîk tune ye; dibe ku ew di wê zimanê de nehatiye qeyd kirin an haya nivîskar jê tune be. Di soraniya Mukriyan de **ra** heye, lê di soraniya Silêmaniyê de tune ye an kêm e. Di farisî de **ra** wek paşdaçek nayê xebitandin û erk û maneya wê ji ya kurdî cuda ye, herçend rehê wê têkildar be. Di pehlewî de **ray** wateya “jê re, ji bo, bo” dide; nivîskar wê bi **era** ya kurdiya başûrî re berawird dike. Di hexamenişî de **radi** wateyên wek “ji ber, ji bo, seba” dide. Ji bo **li**, tevî ku di tabloya avestayî de formek nehatiye qeyd kirin, nivîskar dibêje ku hevrehên wê di gelek zimanên hindûewropî de bi formên **in** an **en** tên dîtin.
+
+Nivîskar dibêje ku mînakên zazakî di tabloya pêşdaçekan de nehatiye rêzkirin, ji ber ku zazakî bi gelemperî li şûna pêşdaçekan paşdaçekan bi kar tîne. Ev şîrove û pêşniyara bandora ermenî û tirkî ya nivîskar e, ne encameke bêguman.
+
+### 8.5. Sînorên analojiyê
+
+Pirtûk diyar dike ku **heşt** di kurmanciya navendî de bi du formên *heşt* û *heyşt* tê gotin; herdu formên navendî bi H-ya wek *Hesen* an *Hisên* dest pê dikin. Di kurmanciya rojhilatî de **heft** bi H-ya wek *Hesen* e, lê **heşt** bi H-ya wek *heval* dest pê dike. Ev cudahiya devokî di berawirdkirina peyvên hejmarê de girîng e.
+
+Di beşa analojiyê de nivîskar mînakên **heşt** û **neh** dide da ku nîşan bide ku guherîna bi analojiyê dikare li destpêk, nav an dawiya peyvê çêbibe. Bandora *heft* li ser *heşt* pêşvero/progresîv e; bandora *deh* li ser *neh* paşvero/regresîv e. Ev guherîn ne mecbûrî ne: pirtûk mînaka yûnanî *hêpta* û *okto* dide ku H-ya *hêpta* li *okto* ne zêde bûye.
+
+Di beşa daçekan de, pirtûk *bi, di, ji, li* wek peyvên ku ji aliyê erkê rêzimanî ve nêzîkî hev in, lê ji aliyê etîmolojiyê ve ji rehên cuda hatine, pêşkêş dike. Di heman demê de **bo** bi wan re bi temamî wekhev nebûye; nivîskar dibêje ku yek ji sedemên gengaz ew e ku nêzîkkirina wê bi **bi** dikaribû herdu daçekan tevlihev bike.
+
+Di dawiyê de, cotên *te/me/we*, *ev/ew* û formên wan (*vê/wê, vî/wî, van/wan*) wek nimûneyên paraleliyê tên nîşandan. Hokerên dijwate *pêş/paş* û *jêr/jor* jî wek cotên ku bi analojiyê nêzîk bûne tên gotin. Cotê *bin/ban* tenê wek pêşniyareke ceribandinî ji bo lêfikirînê tê dayîn; nivîskar wê wek mînakeke piştrastkirî ya analojiyê naxe ber dest.
+
+
 ## Çavkanî
 
 Husein Muhammed, *Dengnasî di kurdî de*, rûpelên çapkirî 56–67.
