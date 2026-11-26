@@ -128,3 +128,15 @@ When implementation is authorized and performed in a local project checkout, cre
 - The generator uses a deliberately limited standard-library Markdown renderer (headings, paragraphs, lists, tables, bold/italic/code). Before trusting generated artifacts, it must be run and its output reviewed against source structure, including nested lists, table edge cases, inline syntax and the known Lesson 22/24/27 corrections. If those checks expose unsupported Markdown constructs, extend the renderer before regeneration.
 - Current authoring-to-preview drift remains confirmed for Lessons 22, 24 and 27; the gate is still closed. Do not update the payload or HTML files until a local run and structural/source-parity review succeed.
 - No SQL, migration, Supabase write, production/student data, deployment, publication, activation, main-branch update or PR merge was performed.
+
+
+## Generator preflight findings and metadata alignment — 2026-11-26
+
+- Preflighted the generator against the actual authoring Markdown structure. It has 27 sequential lesson headings, 27 lesson-level source citations, 52 Markdown table blocks / 368 table rows, and no nested lists, blockquotes, inline links or raw HTML in the authoring source. All table rows have internally consistent column counts.
+- Found a generator precondition defect: most source citations use unbolded printed page ranges, while the initial regex required bold page ranges. Fixed the citation parser to accept either plain or bold page ranges in commit `69e42ee8bc26f33d4c19895d57d364696a88132a`.
+- Reconciliation then exposed manifest errors: Lesson 14's printed-page end was 186 instead of 185; Lesson 15's printed-page start was 187 instead of 186. Corrected only `printedPages` in the manifest to match the source citations in commit `ed850454172d0106318f69ae30cab3c10ffb3d95`. The separate `originalPdfPages` and `designedPdfPages` metadata were left unchanged pending independent PDF-pagination verification.
+- Updated the generator so regenerated payload entries take `printed_pages` from the verified manifest, rather than preserving stale page ranges, in commit `f4c1d423598ff3ed9c8de2edbb37d361145d2a59`.
+- Recheck now confirms all 27 authoring citations match the corrected manifest. The committed payload remains stale for Lessons 14 and 15 until the generator is actually run; this is expected and remains a failing `--check` condition.
+- Markdown structure preflight found no nested-list, blockquote, inline-link or raw-HTML constructs in the source; 52 tables (368 rows) all have consistent row column counts. This narrows renderer risk but does not replace running the script and inspecting rendered output.
+- **Still not executed:** Python syntax/runtime test, `--write`, `--check`, full HTML structural parity, payload parity, or browser Playwright suite. No Actions run has been reported for the implementation-branch commits. The workflow is configured on pull requests and manual dispatch; no dispatch was invoked.
+- No SQL/migration, Supabase write, production/student data, deployment, publication, activation, main-branch update, or PR merge was performed.
