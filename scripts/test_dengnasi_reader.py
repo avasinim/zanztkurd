@@ -63,24 +63,24 @@ class DengnasiReaderBrowserTests(unittest.TestCase):
                   },
                   from: (table) => {
                     window.__dengnasiTest.fromCalls.push(table);
-                    return {
-                      select: () => ({
-                        eq: (_column, value) => {
-                          window.__dengnasiTest.lessonKeys.push(value);
-                          return {
-                            limit: () => ({
-                              maybeSingle: async () => ({
-                                data: {
-                                  content_html:
-                                    '<article id="dengnasi-test-content"><h2>Test-project lesson body</h2><p>Rendered from the isolated browser fixture.</p></article>'
-                                },
-                                error: null
-                              })
-                            })
-                          };
-                        }
-                      })
+                    const builder = {
+                      select: () => builder,
+                      eq: (column, value) => {
+                        if (column === "lesson_key") window.__dengnasiTest.lessonKeys.push(value);
+                        return builder;
+                      },
+                      limit: () => builder,
+                      maybeSingle: async () => ({
+                        data: {
+                          content_html:
+                            '<article id="dengnasi-test-content"><h2>Test-project lesson body</h2><p>Rendered from the isolated browser fixture.</p></article>'
+                        },
+                        error: null
+                      }),
+                      then: (resolve, reject) =>
+                        Promise.resolve({ data: [], error: null }).then(resolve, reject)
                     };
+                    return builder;
                   }
                 };
               }
