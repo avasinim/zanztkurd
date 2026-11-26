@@ -216,7 +216,7 @@ Herf nîşaneke nivîskî ye; deng jî yekeya dengî ye ku tê gotin û tê bih�
 
 ## 2. Hevdengî di nivîsîna kurdî de
 
-Di alfabeya kurdî-latînî û kurdî-erebî de, wek prensîp, hevdengî rêbaza sereke nîne: peyv bi piranî li gor dengê xwe tên nivîsîn, ne li gor herfên zimanê jêder. Di nivîsîna kurdî-erebî de jî çend nîşanên ku di zimanên din de dengên cuda didin, di nivîsîna kurdî de dikarin bi yek nîşanê bên nivîsîn.
+Di alfabeya kurdî-latînî û kurdî-erebî de, wek prensîp, hevdengî rêbaza sereke nîne: peyv bi piranî li gor dengê xwe tên nivîsîn, ne li gor herfên zimanê jêder. Di nivîsîna kurdî-erebî de jî çend nîşanên ku di zimanên din de dengên cuda didin, di nivîsîna kurdî de dikarin bi yek nîşanê bên nivîsîn. Di farisî de, bo nimûne, çar herfên cuda di peyvên *zer, zikir, remezan, zalim* de dengê [z] nîşan didin; ev nimûne nîşan dide ku nivîsîna zimanê jêder dikare heman deng bi nîşanên cuda tomar bike, herçend di kurdî de ev cudahiyên dengî neparêzînin.
 
 Ev prensîp bê awarte nîne. Navên taybet ên biyanî gelek caran li gor nivîsîna zimanê jêder tên parastin. Bo nimûne, dengê destpêkê yê *George* û *John* bi herfên G û J tê nivîsîn. Di navê *Mercedes* de jî C ji bo dengê [s] hatiye bikaranîn. Hin peyvên biyanî, wek *out*, carinan bi rastnivîsîna inglîzî di nivîsên kurdî de tên dîtin; di gotinê de *out* wek [awt] tê derxistin.
 
@@ -246,11 +246,11 @@ Piraniya van herfan du deng nîşan didin. Lê P û T dikarin her yek bi kêmî 
 
 ### R
 
-R di kurmancî de du dengên cuda nîşan dide: R-ya şidandî û R-ya sist. Di destpêka peyvê de, wek *rast, rev, rê, rind, ron, ruh, rû*, ziman bi çend caran li pidûyan dikeve. Di nav û dawiya peyvan de, wek *agir, baran, mêr, zîrek*, bi piranî tenê carekê li pidûyan dikeve. R-ya şidandî dikare di nav û dawiya peyvê de jî xuya bibe, wek *bajar, şer, kirîn*. Hin nivîser vê dengê bi RR an carinan bi Ř dinivîsin, lê R-yekê awayê herî berbelav e.
+R di kurmancî de du dengên cuda nîşan dide: R-ya şidandî û R-ya sist. Di destpêka peyvê de, wek *rast, rev, rê, rind, ron, ruh, rû*, ziman bi çend caran li pidûyan dikeve. Di nav û dawiya peyvan de, wek *agir, baran, mêr, zîrek*, bi piranî tenê carekê li pidûyan dikeve. R-ya şidandî dikare di nav û dawiya peyvê de jî xuya bibe, wek *bajar, şer, kirîn*. Hin nivîser vê dengê bi RR an carinan bi Ř dinivîsin, lê R-yekê awayê herî berbelav e. Çavkaniyê nimûneyên kîtekirinê jî dide: *ki-rîn / ki-rrîn*, *ba-ja-rek / ba-ja-rrek* û *şe-ran / şe-rran*. Du R-yên nivîskî R-yekê nake du deng û kîtekirina peyvê naguherînin.
 
 ### H
 
-H di kurmancî de du dengên cuda nîşan dide. Yek ji wan di peyvên *heval, hildan, hirmî* de heye. Dengê din di peyvên *heft, herf, tehl* de tê bihîstin. Ev deng tenê di peyvên ji erebî wergirtî de nîne; di hin peyvên xwemalî yên kurdî-îranî de jî heye. Di hin devokan de awayê gotina H di peyvên wek *hezar, heşt, hemû, hirç* cuda dibe. Di kurmanciya rojhilatî de ev peyv bi H-ya wek *heval* tên gotin, lê di kurmanciya navendî de bi H-ya wek *Hesen*.
+H di kurmancî de du dengên cuda nîşan dide. Yek ji wan di peyvên *heval, hildan, hirmî* de heye. Dengê din di peyvên *heft, herf, tehl* de tê bihîstin. Carinan ew bi nîşana *Ḧ* tê nîşandan, lê ev nîşan di nivîsên asayî de kêm e û bi gelemperî H-ya xwerû tê bikaranîn. Ev deng tenê di peyvên ji erebî wergirtî de nîne; di hin peyvên xwemalî yên kurdî-îranî de jî heye. Di hin devokan de awayê gotina H di peyvên wek *hezar, heşt, hemû, hirç* cuda dibe. Di kurmanciya rojhilatî de ev peyv bi H-ya wek *heval* tên gotin, lê di kurmanciya navendî de bi H-ya wek *Hesen*.
 
 ### S
 
@@ -270,7 +270,7 @@ L di kurmancî de dikare zirav an qelew be. L-ya zirav di peyvên *lawik, lez, l
 
 ### W
 
-W bi piranî dengê konsonantî [w] nîşan dide, wek di *war, welat, wê, wir, wî* de. Lê bi taybetî li pey X, W dikare dengê [u] jî nîşan bide, wek di *xwarin, xweş, xwê, xwîn* de. Di hin nivîsînên soranî û kurdiya başûrî de W piştî konsonantên din jî dikare dengê [u] nîşan bide.
+W bi piranî dengê konsonantî [w] nîşan dide, wek di *war, welat, wê, wir, wî* de. Lê bi taybetî li pey X, W dikare dengê [u] jî nîşan bide, wek di *xwarin, xweş, xwê, xwîn* de. Di hin nivîsînên soranî û kurdiya başûrî de W piştî konsonantên din jî dikare dengê [u] nîşan bide. Çavkaniyê ji soranî nimûneyên *cwên, dwênê, gwê, nwê* û ji kurdiya başûrî nimûneya *zwan* dide; ev formên devokî ji nimûneyên kurmancî yên wek *xwarin* cuda tên nîşandan.
 
 ### Ç
 
