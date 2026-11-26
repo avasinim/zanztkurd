@@ -154,7 +154,7 @@ Di şîroveya tabloyê de çar cûre nîşanên nivîsînê hene:
 
 - Herfên qelewkirî lê bê nîşana taybet, wek *m, n, p, b, ç*, fonemên ku di kurdî de hene û di nivîsîna latînî de bi herfên asayî tên nîşandan in.
 - Herfên qelewkirî û xwehrkirî, wek *ṕ, ť, ḱ, ř, ḉ, ẓ* û nîşana Eyn, fonemên ku di kurmancî de hene lê di nivîsîna asayî de ji hin fonemên din bi herfeke cuda nayên nîşandan in.
-- Herfên neqelewkirî û nexwehrkirî, wek *ṗ, ṭ, ș, ẓ, ẍ, ḧ, ł*, awayên dengî ne ku ji dengê bingehîn cuda tên gotin, lê bi tenê nikarin wateya peyvê biguherînin; ji ber vê yekê wek alofon tên şîrovekirin.
+- Herfên neqelewkirî û nexwehrkirî, wek *ṗ, ṭ, ș, ẍ, ḧ, ł*, awayên dengî ne ku ji dengê bingehîn cuda tên gotin, lê bi tenê nikarin wateya peyvê biguherînin; ji ber vê yekê wek alofon tên şîrovekirin. Di kilîda tabloyê de nîşana *ẓ* jî careke din di koma alofonan de hatiye nivîsîn, tevî ku berê di koma foneman de hatiye danîn; ev dubarekirina çavkaniyê li vir wek nakokiya nîşanê tê hiştin û bi texmîn nayê rastkirin.
 - Dengên neqelewkirî lê xwehrkirî, wek *ḅ* û *ẗ*, ne fonem in; hebûna wan wek alofon jî di çavkaniyê de bi guman hatiye nîşandan an tenê bi çend peyv û devokên kêm ve girêdayî ye.
 
 Ev nîşanên taybet alîkar in ku xwendevan cudahiya fonem, alofon û awayên bilêvkirinê ji hev cuda bibîne; ew pêşniyara ku hemû van nîşanan di rastnivîsîna rojane de bên bikaranîn nîne.
