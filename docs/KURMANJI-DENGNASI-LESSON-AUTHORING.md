@@ -19,7 +19,7 @@
 | 1 | Dergeh: dengnasî û lêkolînên pêşîn | 4–7 |
 | 2 | Vokal, konsonant, cih û awayên derketina dengan, pifdarî | 8–15 |
 | 3 | Hevdengî û pirdengî di nivîsînê de | 16–28 |
-| 4 | Qelewîtî | 29–40 (beşa destpêkê ya rûpela 40) |
+| 4 | Qelewîtî | 29–39 |
 | 5 | Rêjeya herfan di nivîsên kurmancî de | 40–43 |
 | 6 | Dengrêzî û kîte | 44–55 |
 | 7 | Tesîra guherîna dengî li ser nivîsînê | 56–67 |
