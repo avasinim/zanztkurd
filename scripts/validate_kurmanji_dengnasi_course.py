@@ -34,7 +34,7 @@ assert [lesson["number"] for lesson in lessons] == list(range(1, 28)), "lesson n
 assert len({lesson["id"] for lesson in lessons}) == 27, "lesson IDs must be unique"
 assert payload.get("lesson_count") == 27 and len(payload.get("lessons", [])) == 27, "generated payload must contain exactly 27 lessons"
 
-source_headings = list(re.finditer(r"(?m)^# Dersa (\\d+) — (.+)$", source))
+source_headings = list(re.finditer(r"(?m)^# Dersa (\d+) — (.+)$", source))
 assert len(source_headings) == 27, f"expected 27 authoring headings, got {len(source_headings)}"
 assert [int(match.group(1)) for match in source_headings] == list(range(1, 28)), "authoring lesson headings are not sequential"
 
@@ -58,7 +58,7 @@ for index, lesson in enumerate(lessons):
     section_end = source_headings[index + 1].start() if index + 1 < len(source_headings) else len(source)
     section = source[source_headings[index].start():section_end]
     citation = re.search(
-        r"Husein Muhammed, \\*Dengnasî di kurdî de\\*, rûpelên çapkirî (?:\\*\\*)?(\\d+)–(\\d+)(?:\\*\\*)?",
+        r"Husein Muhammed, \*Dengnasî di kurdî de\*, rûpelên çapkirî (?:\*\*)?(\d+)–(\d+)(?:\*\*)?",
         section,
     )
     assert citation, f"missing source citation for lesson {number}"
@@ -101,7 +101,7 @@ assert "Dengnasiya_Zimane_Kurdi_27_Wane_corrected.pdf" not in hold_page, "hold p
 
 assert 'name="robots" content="noindex,nofollow"' in reader, "reader route must remain non-indexable until activation"
 assert "const lessons=" in reader, "reader does not embed its lesson navigation data"
-reader_match = re.search(r"const lessons=(\\[.*?\\]);\\s*const params=", reader, re.S)
+reader_match = re.search(r"const lessons=(\[.*?\]);\s*const params=", reader, re.S)
 assert reader_match, "reader lesson array or query-route parser is missing"
 reader_lessons = json.loads(reader_match.group(1))
 assert len(reader_lessons) == 27, "reader must expose exactly 27 lesson routes"
