@@ -188,7 +188,7 @@ class DengnasiLessonBrowserTests(unittest.TestCase):
 
     def test_non_enrolled_student_is_redirected_to_enrollment(self):
         context, page = self.make_page(
-            {"owner": False, "session": True, "enrolled": False, "canRead": False}
+            {"owner": False, "session": True, "enrolled": False, "canRead": False, "completed": [0]}
         )
         try:
             page.goto(f"{BASE_URL}/lessons/kurmanji-dengnasi-lesson-01.html")
