@@ -3702,11 +3702,11 @@ Ev nimûne nîşan didin ku giranî dikare cudahiya navbera navdêr, rengdêr, d
 - **243 — Yê/Yên:** Di hin devokan de formên *yêt/yêd* jî hene.
 - **244 — Ḥ:** Di transkripsiyona çavkaniyê de ḥ nîşana dengê H ye, wek di *heft, Hesen, Hisên* de; ne dengê cuda ye.
 - **245–247 — Ti, di, dih:** *ti* di hin devokan de cînavê “tu” ye; *di* dikare jimara 2 nîşan bide; *dih/dihî* jî formên devokî yên “duh/duhî” ne.
-- **248 — Ẍ:** Nîşana Ẍ ji bo dengê Xeyn e; di alfabeya erebî de غ, di IPA de ɣ û di hin transkripsiyonên ewropî de gh tê bikaranîn.
+- **248 — Ẍ:** Nîşana Ẍ ji bo dengê Xeyn e; di alfabeya erebî de xeta xeynê, di IPA de ɣ û di hin transkripsiyonên ewropî de gh tê bikaranîn.
 - **249 — ẌU:** Dengê ẌU kêm e; çavkaniyê dibêje nimûneyên heyî jî nîşan didin ku ẌU bi ẌI nayê guhertin.
 - **250 — Murder:** Çavkaniyê *murder* wek berawirdiyeke etîmolojîk dide; wateya wê “kuştin/qetilkirin” e, ne “mirin”.
 - **251 — Wusa/Wulo/Wunda:** Çavkaniyê van formên nivîsînê wek kêmasiya nivîsînê dibîne, ne wek guherîna dengî ya rast; formên standard *wisa, wilo, winda* ne.
-- **252 — Giranî:** Termên hevwate yên giranî di zimanên din de stress, vurgu, نبر û تکیه ne.
+- **252 — Giranî:** Termên hevwate yên giranî di zimanên din de stress, vurgu, nabr û takiye ne.
 - **253 — Giranîya fonemîk:** Çavkaniyê bo baweriyên kevn ên li ser giranî di zimanên îranî de lêkolîna Tegey û Robson (2009) destnîşan dike.
 - **254 — Difin:** Çavkaniyê rexneyê li şîroveya giranî ya *difin* dike; peyv dikare *difin* (du kîte) an *difn* (yek kîte) were gotin. Dema vokala navîn dikeve, cihê giranî jî diguhere; *kevin → kevn e* jî wek nimûne hatiye dan.
 - **255 — Behdînî:** Formên rojhilatî *kitêbeka min* û *hevalekê min* wek hevberên formên standard tên nîşandan.
