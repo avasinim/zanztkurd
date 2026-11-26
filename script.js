@@ -127,6 +127,81 @@ window.ZANSTI_GET_SUPABASE_CLIENT = window.ZANSTI_GET_SUPABASE_CLIENT || functio
   function courseIdForTarget(target){
     if(/^kurmanji-course-1-lesson-\d{2}\.html$/.test(target)) return "kurmanji-course-1";
     if(/^kurmanji-course-2-lesson-\d{2}\.html$/.test(target)) return "kurmanji-course-2";
+    if(/^kurmanji-dengnasi-lesson-\d{2}\.html$/.test(target)) return "kurmanji-dengnasi-27";
+    return /^course-2-\d+\.html$/.test(target) ? "phonetics-phonology-kurdik" : "orthography-kurdik";
+  }
+  function isProtectedLessonTarget(href){
+    const target=targetOf(href);
+    return /^0(?:1[7-9]|[2-4]\d|5[0-8])\.html$/.test(target)||/^course-2-\d+\.html$/.test(target)||/^kurmanji-course-[12]-lesson-\d{2}\.html$/.test(target)||/^kurmanji-dengnasi-lesson-\d{2}\.html$/.test(target);
+  }
+  let supabaseReadyPromise=null;
+  function loadScriptOnce(src,id){
+    return new Promise((resolve,reject)=>{
+      if(id && document.getElementById(id)){ resolve(); return; }
+      const existing=[...document.scripts].find(s=>s.src===src);
+      if(existing){
+        existing.addEventListener("load",resolve,{once:true});
+        existing.addEventListener("error",reject,{once:true});
+        if(window.supabase?.createClient || window.ZANSTI_SUPABASE?.ready) resolve();
+        return;
+      }
+      const el=document.createElement("script");
+      if(id)el.id=id;
+      el.src=src;
+      el.onload=resolve;
+      el.onerror=reject;
+      document.head.appendChild(el);
+    });
+  }
+  async function ensureSupabase(){
+    if(window.supabase?.createClient && window.ZANSTI_SUPABASE?.ready)return true;
+    if(!supabaseReadyPromise){
+      supabaseReadyPromise=(async()=>{
+        try{
+          await loadScriptOnce("https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2","zansti-supabase-js");
+          await loadScriptOnce((location.pathname.includes("/lessons/")?"../supabase-config.js":"supabase-config.js")+"?v=20261008-authfix","zansti-supabase-config");
+          return !!(window.supabase?.createClient && window.ZANSTI_SUPABASE?.ready);
+        }catch(e){ return false; }
+      })();
+    }
+    return supabaseReadyPromise;
+  }
+  /* Share the same Supabase readiness check with lesson-progress gates. */
+  window.ZANSTI_WAIT_FOR_SUPABASE = ensureSupabase;
+  async function getSession(){
+    if(!await ensureSupabase()) return null;
+    const sb=window.ZANSTI_GET_SUPABASE_CLIENT();
+    const {data:{session}}=await sb.auth.getSession();
+    return {sb,session};
+  }
+  async function hasEnrollment(sb,userId,courseId){
+    const {data,error}=await sb.rpc("student_has_enrollment",{p_course_id:courseId});
+    if(error){ console.error("[Avasin] enrollment access check failed",error); return false; }
+    return data===true;
+  }
+  async function isOwner(sb){
+    const {data,error}=await sb.rpc("is_site_owner");
+    return !error && data===true;
+  }
+  function lessonOrderFor(target){
+    if(/^kurmanji-course-1-lesson-\d{2}\.html$/.test(target)){
+      return Array.from({length:26},(_,i)=>"kurmanji-course-1-lesson-"+String(i+1).padStart(2,"0")+".html");
+    }
+    if(/^kurmanji-course-2-lesson-\d{2}\.html$/.test(target)){
+      return Array.from({length:12},(_,i)=>"kurmanji-course-2-lesson-"+String(i+1).padStart(2,"0")+".html");
+    }
+    if(/^kurmanji-dengnasi-lesson-\d{2}\.html$/.test(target)){
+      return Array.from({length:27},(_,i)=>"kurmanji-dengnasi-lesson-"+String(i+1).padStart(2,"0")+".html");
+    }
+    if(/^course-2-\d+\.html$/.test(target)){
+      return Array.from({length:32},(_,i)=>"course-2-"+String(i+1).padStart(2,"0")+".html");
+    }
+    return ["017.html","018.html","019.html","020.html","021.html","022.html","023.html","024.html","025.html","026.html","027.html","028.html","029.html","030.html","031.html","032.html","033.html","034.html","035.html","036.html","037.html","038.html","039.html","040.html","041.html","042.html","043.html","044.html","046.html","047.html","048.html","049.html","050.html","051.html","045.html","052.html","053.html","054.html","055.html","056.html","057.html","058.html"];
+  }
+  async function loadProtectedLessonContent(sb,target){
+    const box=document.querySelector(".lesson-content");
+    if(!box)return true;
+    const lessonKey=box.getAttribute("data-lesson-key")||target;
     box.setAttribute("aria-busy","true");
     try{
       const {data,error}=await sb.from("lesson_content")
