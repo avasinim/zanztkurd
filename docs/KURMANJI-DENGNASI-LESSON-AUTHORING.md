@@ -3375,7 +3375,7 @@ Di gelek peyvan de li cihê B ya kurmancî û soranî, di devokên başûrî de 
 | xirab | xerap | xiraw |
 | xerîb | xerîb | xerîw |
 
-Li gorî şîroveya dîrokî ya çavkaniyê, kurdiya başûrî di peyvên xwemalî de W parastiye; di kurmancî, soranî û farisî de ev deng di gelek peyvan de bûye B. Di peyvên ji erebî wergirtî de jî başûrî B dike W, lê kurmancî û soranî gelek caran B diparêzin. Çavkaniyê têbînî dike ku di hin devokên kurmancî yên Serhed û Navenda Anatolyayê de jî B ya piştî vokalan di hin peyvên ji erebî wergirtî de dikare bibe W an V; wek *kitêw* û *kitêv*. Ev têbînî ji berawirdkirina giştî ya kurmancî re cuda ye û wek varyanteke deverî divê were fêmkirin.
+Li gorî şîroveya dîrokî ya çavkaniyê, kurdiya başûrî di peyvên xwemalî de W parastiye; di kurmancî, soranî û farisî de ev deng di gelek peyvan de bûye B. Di peyvên ji erebî wergirtî de jî başûrî B dike W, lê kurmancî û soranî gelek caran B diparêzin. Çavkaniyê herwiha dibêje ku B/P ya piştî vokalan di kurmancî de bûye V/W û di soranî de W. Bo nimûne, pehlewî *sêp* di farisî de bûye *sêb*, lê di kurmancî de *sêv* û di soranî de *sêw*; herwiha *şeb/şev/şew* û *x(v)ab/xew* nimûne ne. Di peyvên ji erebî wergirtî de kurmancî û soranî gelek caran B ya piştî vokalan diparêzin, lê başûrî wê dike W. Çavkaniyê têbînî dike ku di hin devokên kurmancî yên Serhed û Navenda Anatolyayê de jî B ya piştî vokalan di hin peyvên ji erebî wergirtî de dikare bibe W an V; wek *kitêw* û *kitêv*. Ev têbînî ji berawirdkirina giştî ya kurmancî re cuda ye û wek varyanteke deverî divê were fêmkirin.
 
 ## 3. V ya kurmancî û W an M ya başûrî
 
