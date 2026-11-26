@@ -4396,6 +4396,61 @@ Di hin nimûneyan de hiyatus tenê di nivîsînê de xuya dike; di bilêvkirinê
 
 Çavkaniyê rave dike ku gelek hiyatusên di pêkhateyên bi pêşgir de ji ber pêşgirên bingehîn ên kurdî yên **bi-, bê-, di-, na-, ne-** çêdibin; ev pêşgir bi A, E, Ê an I dest pê dikin.
 
+### Tabloya tevahiya kombînasyonên du vokalan
+
+Li gorî tabloya çavkaniyê, xêza **—** nîşana wê ye ku ji bo wê kombînasyonê di çavkaniyê de nimûne nehatiye dîtin. Nimûneyên tabloyê hemû awayên serdest nînin; hin ji wan di nivîsîn an axaftinê de kêm tên bikaranîn. Di tabloyê de peyvên bi pêşgir, peyvên ji erebî wergirtî û peyvên ji zimanên Ewropî wergirtî ji hev cuda hatine nîşandan.
+
+| Koma vokalan | Bi pêşgir | Ji erebî wergirtî | Ji Ewropî wergirtî |
+|---|---|---|---|
+| AA | *na-axivin* | — | — |
+| (AE) | *naelimînin* | *saet, itaet* | — |
+| AÊ | *naêşe* | — | — |
+| AÎ | *naînim* | *xaîn* | *Haîtî* |
+| AO | *naorin* | — | *aort* |
+| (AU) | *naumêd* | — | *automat, autonom* |
+| EA | *neavêt* | *meaş, seat* | *îdea* |
+| EE | *ne-ecibandin* | *seet* | — |
+| EÊ | *neêşînin* | — | — |
+| EÎ | *neînin* | *meîde* | — |
+| EO | *neolî* | — | *neon* |
+| (EU) | — | — | *euro* |
+| IA | *biavêjin* | *iade, idia* | — |
+| IE | *dielimînin* | — | — |
+| IÊ | *diêşînin* | — | — |
+| II | *di-inirin* | — | — |
+| IÎ | — | — | — |
+| IO | *diore* | — | — |
+| IU | — | — | — |
+| ÎA | — | *îade, îane* | — |
+| ÎE | — | *şîe* | — |
+| ÎÊ | — | — | — |
+| ÎO | — | — | *îon* |
+| ÎU | — | — | — |
+| OA | — | — | — |
+| OE | — | — | — |
+| OÊ | — | — | — |
+| OI | — | — | — |
+| OÎ | — | — | — |
+| OO | — | — | — |
+| OU | — | — | — |
+| UA | — | — | — |
+| UE | — | — | — |
+| UÊ | — | — | — |
+| UI | — | — | — |
+| UÎ | — | — | — |
+| UO | — | — | — |
+| UU | — | — | — |
+
+**Têbînî û cudahiyên nivîsînê yên çavkaniyê:**
+
+- Di *naelimînin* de hiyatus di nivîsînê de xuya dike, lê di bilêvkirinê de dengê Eyn di navbera A û E de heye.
+- *naorin* bi awayê dengî ya ku nivîskar wek “orre-orrê dakin” rave dike tê gotin.
+- *naumêd* forma farismancî ye; çavkaniyê *bêumêd* û *bêhêvî* wek formên kurdîtir pêşniyar dike.
+- Di *automat, autonom* de awayên serdest ên kurdî *otomat, otonom* in.
+- Di peyvên erebî de koma IA carinan bi ÎA tê nivîsîn: *iade/îade, idia/îdîa*. Di peyvên Ewropî de IA gelek caran bi YA an IYA tê nivîsîn: *Romanya, kîmya, hiyatus*.
+- Di *şîe* de Eyn di navbera Î û E de tê gotin; ji ber vê yekê hiyatus tenê di nivîsînê de ye.
+- Di peyvên Ewropî de EU bi gelemperî di kurdî de dibe EW: *Ewropa, ewro*.
+
 ## 5. Du rêbazên sereke yên rêgirtina li ber hiyatusê
 
 Çavkaniyê du rêbazên bingehîn destnîşan dike:
