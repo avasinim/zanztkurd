@@ -564,21 +564,21 @@ Hin ji van koman berbelav in, hin kêm, hin jî di peyvên deynkirî de tên. Pi
 
 Di nîşandana avaniya kîteyê de **C** konsonant û **V** vokal e. Cûreyên ku pirtûk dide ev in:
 
-| Cûre | Nimûne |
-|---|---|
-| CV | *ma* |
-| CVC | *baş* |
-| CVCC | *dest* |
-| CCV | *spî* |
-| CCVC | *stêr* |
-| V | *e-vîn* |
-| VC | *av* |
-| VCC | *ast* |
-| CCVCC | *şkest* |
-| CCCV | *(stra-tejî)* |
-| CCCVC | *(stran)* |
-| CCCVCC | *(strand)* |
-| CVCCC | *(tekst, heyşt)* |
+| Cûre | 1. kîte | 2. kîte | 3. kîte |
+|---|---|---|---|
+| CV | *ma.lê* | *ma.lê* | *xwa.ri.na* |
+| CVC | *baş* | *he.val* | *di.gir.tin* |
+| CVCC | *dest* | *da.girt* | *da.ne.xist* |
+| CCV | *spî* | — | — |
+| CCVC | *stêr* | — | — |
+| V | *e.vîn* | — | *(i.di.a)* |
+| VC | *av* | *sa.et / ber.av* | — |
+| VCC | *ast* | — | — |
+| CCVCC | *şkest* | — | — |
+| CCCV | *(stra.tejî)* | — | — |
+| CCCVC | *(stran)* | — | — |
+| CCCVCC | *(strand)* | — | — |
+| CVCCC | *(tekst, heyşt)* | — | — |
 
 Cûreyên ku di kevanokan de hatine nivîsîn di pirtûkê de wek cûreyên kêm peyda têne nîşandan. Pirtûk diyar dike ku cûreyên kîteyan dikarin di destpêka peyvê de bên; di nav an dawiya peyvê de komên konsonantan bi piranî li ser du kîteyan tên parvekirin.
 
