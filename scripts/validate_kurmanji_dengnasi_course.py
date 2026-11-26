@@ -79,7 +79,10 @@ for index, lesson in enumerate(lessons):
     assert preview_path.is_file(), f"missing generated HTML preview for lesson {number}"
     preview_html = preview_path.read_text(encoding="utf-8")
     assert '<section class="klesson-preview" lang="ku" dir="ltr">' in preview_html, f"preview language/direction mismatch in lesson {number}"
-    assert payload_lesson["content_html"] in preview_html, f"preview/payload content mismatch in lesson {number}"
+    payload_body = payload_lesson["content_html"].split("</style>", 1)[1].rsplit("</section>", 1)[0].strip()
+    preview_body = preview_html.split("</header>", 1)[1].rsplit("</section>", 1)[0].strip()
+    assert payload_body == preview_body, f"preview/payload body mismatch in lesson {number}"
+    assert not re.search(r"[\\u0600-\\u06FF]", preview_html), f"Arabic-script text found in lesson {number}"
     assert "iframe" not in preview_html.lower(), f"PDF iframe unexpectedly embedded in lesson {number}"
 
 for label, ranges in (("printed source", printed_ranges), ("original PDF", original_ranges)):
