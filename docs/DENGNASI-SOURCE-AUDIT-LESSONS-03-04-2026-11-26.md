@@ -70,3 +70,21 @@ A second page-by-page pass across printed pp. 29–39 (designed PDF pp. 36–46)
 7. Made explicit the source's conclusion that most Kurmanji readers recognize the emphatic P in `pez` without extra dots or apostrophes.
 
 The existing Lesson 4 structure already represented the source's main emphatic consonants, phoneme/allophone distinction, prediction rules, loanword patterns, L/Ł and R/Ř sections, and the longer critique of aspiration marking in dictionaries. No exercises, quizzes, external audio, or non-Latin script were added. This is a source reconciliation, not native-speaker certification.
+
+
+## Additional source reconciliation — Lesson 3 — 2026-11-26
+
+A further page-by-page comparison of printed pp. 16–28 (designed PDF pages 22–34) identified source details that were only partly represented in the first draft. The authoring lesson and generated HTML/JSON previews now include:
+
+1. The *out* loanword example's source-language spelling exception, including the source's observation that O represents [a] and U represents [w] in its Kurmanji pronunciation.
+2. The orthographic reason for W representing [u] in -XW- sequences, and the restriction that U/W correspondence applies only in specific words rather than to every W.
+3. The IPA distinction [r] (trill) and [ɾ] (tap) for the two R realizations, while retaining the source's statement that RR spelling does not change syllabification.
+4. The S contrast in *ser/sed* as an example where the following E does not predict the consonant's quality.
+5. The X variant examples *axa, bax, oxir/wexer*.
+6. The L examples *silav/lazim* and *belem/lepik*, showing that adjacent vowels alone do not predict L quality, plus the Sorani comparison.
+7. The cross-language distribution of aspirated and unaspirated Ç.
+8. The comparative distribution of aspirated/unaspirated K.
+9. The source's qualification that emphatic aspirated P is rare and that *pind* is an uncertain/rare example.
+10. The T minimal-meaning contrasts *ta, tam, tu*.
+
+No audio links or non-Latin script were imported. The book's external audio references are deliberately not reproduced, consistent with the course's text-only requirement. No quizzes, questions or exercises were added.
