@@ -414,3 +414,12 @@ for number in range(1, 28):
     assert h1_text == canonical_title, f"standalone page H1 mismatch in lesson {number}"
 
 print("PASS: PDF integrity; 27 source citations; distinct printed/original/designed page maps; generated HTML/payload parity; authoring/manifest/reader/standalone-title parity; protected 27-lesson reader routing; course remains held and non-indexable.")
+
+
+# Lesson 10 source-audit assertions (printed pp. 116–132)
+lesson10_match = re.search(r"(?ms)^# Dersa 10 —.*?(?=^# Dersa 11 —)", source)
+assert lesson10_match, "Lesson 10 authoring section is missing"
+lesson10 = lesson10_match.group(0)
+for required in ("pêçêbûn û jêhatin", "bi wateya sûk an bazarê", "bazara sergirtî", "hevbera îngilîzî *hall*", "*ḧesin* (li hember *asin*)", "*ser* ji *ḱér*", "*spî* ji *ḱweyt-*", "*sed* ji *ḱm̥tóm*", "*rêt*; ne *rijt*"):
+    assert required in lesson10, f"Lesson 10 is missing source detail: {required}"
+assert "rûpelên çapkirî 116–132" in lesson10, "Lesson 10 source citation mismatch"
