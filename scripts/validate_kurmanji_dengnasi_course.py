@@ -497,4 +497,4 @@ lesson15 = lesson15_match.group(0)
 for required in ("186–202", "[ʃ]", "[t]", "1,0%", "2,6%", "Pêraweja 136", "Pêraweja 137", "Pêraweja 138", "Pêraweja 139", "Pêraweja 140", "Pêraweja 141", "Pêraweja 142", "Pêraweja 143", "Pêraweja 144", "Pêraweja 145", "Pêraweja 146", "Pêraweja 147", "voiceless postalveolar fricative", "aspirated", "unaspirated", "*tav*", "*teng*", "*tirs*", "*heft*", "vate-", "zamat-er", "brat-er", "mat-er"):
     assert required in lesson15, f"Lesson 15 is missing source detail: {required}"
 assert "https://en.wikipedia.org/wiki/File/" not in lesson15, "Lesson 15 must not add audio dependencies"
-assert not re.search(r"[\\u0600-\\u06FF]", lesson15), "Lesson 15 must remain Latin-script only"
+assert not re.search(r"[\u0600-\u06FF]", lesson15), "Lesson 15 must remain Latin-script only"
