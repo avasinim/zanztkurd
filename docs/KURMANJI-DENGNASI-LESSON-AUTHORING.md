@@ -3579,7 +3579,7 @@ Pirtûk diyar dike ku *otêl* li gel varyanta *hotêl* tê bikaranîn; di hin de
 U li dawiya peyvê di nivîsa standard de tenê di *du, ku, tu* de tê dîtin. Di hin devokan de *çu* jî wek varyanta *çi* tê gotin, bi wateya “hîç, tiştek”. Ev form di lîsteya daçek û cînavên bi U de wek îstîsnayeke devokî tê parastin; divê bi awayê standard yê *çi* neyê tevlihevkirin.
 
 
-## 9. Ü û pirsê tesîra zimanên tirkîkî
+## 9. Ü û bandora zimanên tirkîkî
 
 Pirtûk diyar dike ku Ü di Rojhilata Navîn de dengekî kêm e: di piraniya devokên kurdî, farisî û zimanên din ên îranî, ermenî, gurcî û zimanên samî yên cîran de tune ye; lê di tirkî, azerî û tirkmenî de heye. Ev yek dikare mirov bixe wê baweriyê ku guherîna Û→Ü di kurdî de ji tesîra tirkî ye. Lê nivîskar vê şîroveyê wek bersiveke yekane qebûl nake.
 
