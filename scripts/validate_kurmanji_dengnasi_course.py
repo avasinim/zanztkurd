@@ -423,3 +423,18 @@ lesson10 = lesson10_match.group(0)
 for required in ("pêçêbûn û jêhatin", "bi wateya sûk an bazarê", "bazara sergirtî", "hevbera îngilîzî *hall*", "*ḧesin* (li hember *asin*)", "*ser* ji *ḱér*", "*spî* ji *ḱweyt-*", "*sed* ji *ḱm̥tóm*", "*rêt*; ne *rijt*"):
     assert required in lesson10, f"Lesson 10 is missing source detail: {required}"
 assert "rûpelên çapkirî 116–132" in lesson10, "Lesson 10 source citation mismatch"
+
+
+lesson11_match = re.search(r"(?ms)^# Dersa 11 —.*?(?=^# Dersa 12 —)", source)
+assert lesson11_match, "Lesson 11 authoring section is missing"
+lesson11 = lesson11_match.group(0)
+for required in (
+    "Pêraweja 103", "Pêraweja 104", "Pêraweja 105", "Pêraweja 106", "Pêraweja 107", "Pêraweja 108",
+    "*que*", "*cuanto*", "*köç*", "*göç*", "*vulpes*", "*alopêks*", "*urupis*",
+    "*zered-*", "*nemeh-*", "*nimac*", "*enoeşe-*", "*li, lê*", "*në*", "*Qurdistan*", "*kenc*",
+    "| Proto-hindûewropî | Kurmancî | Farisî | Latînî | Îngilîzî |",
+    "| Avestayî | *zered-* | *veridhe-* | *berez(+ent-)* |",
+):
+    assert required in lesson11, f"Lesson 11 is missing source-backed detail: {required}"
+assert "https://en.wikipedia.org/wiki/File/" not in lesson11, "Lesson 11 must not add audio dependencies"
+assert "pêraweja 103" in lesson11.lower() and "pêraweja 108" in lesson11.lower(), "Lesson 11 source footnote coverage is incomplete"
