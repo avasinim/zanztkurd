@@ -3,15 +3,16 @@
 **Source:** Husein Muhammed, *Dengnasî di kurdî de* (432 printed pages).  
 **Course language/script:** Kurmancî, Latin script.  
 **Designed reading copy:** 462-page PDF with cover, contents, and 27 lesson divider pages.  
-**Current status:** production Supabase course row, all 27 lesson-content records, and protected enrollment/progression integration are deployed. PR #86 is merged into main. The GitHub Pages build and deployment workflow completed successfully; a separate live-page fetch was not available for independent content verification.
+**Current status:** the course scaffold and protected enrollment/progression integration are present in production according to the existing release record. In the disposable test project, all 27 authored lesson bodies are present and match the reviewed payload exactly. Production content parity and live GitHub Pages lesson rendering have not been independently verified.
 
 ## Content rules
 
-- Keep the source text, examples, tables, and illustrations exactly as supplied.
-- The 27 lesson divisions are navigation boundaries based on the book's structure; they are not rewritten lesson summaries.
-- Do not add quizzes, questions, tests, or exercises in this source-preservation phase.
+- Derive the 27 lessons from the book's own sections, topics, examples, tables, and explanatory sequence. The book is the academic source and structural basis; it must not simply be embedded or split into PDF-page lessons as the learner-facing course.
+- Write coherent, original Kurmanji Latin lesson material that accurately paraphrases and organizes the relevant source material. Preserve the source's information and distinctions; do not introduce unsupported facts, invented examples, or claims.
+- Keep source-page references for traceability. Flag genuine source inconsistencies rather than silently correcting them.
+- Do not add quizzes, questions, tests, exercises, or audio.
 - Keep this course separate from Kurmanji Course 1 (26 lessons) and Course 2 (12 lessons).
-- Production activation was performed through an additive migration. Existing courses, enrollments, and progress rows were preserved.
+- Preserve existing enrollment, progress, and protected sequential access rules. Any production content replacement or deployment requires separate explicit authorization.
 
 ## Lesson map
 
