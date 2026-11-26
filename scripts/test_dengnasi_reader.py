@@ -39,7 +39,7 @@ class DengnasiReaderBrowserTests(unittest.TestCase):
         cls.server.terminate()
         cls.server.wait(timeout=5)
 
-    def open_lesson(self, project_url: str, lesson_url: str = LESSON_URL):
+    def open_lesson(self, project_url: str, lesson_url: str = LESSON_URL, completed_lessons=None):
         context = self.browser.new_context(viewport={"width": 1280, "height": 900})
         context.add_init_script("""
             window.__dengnasiTest = { fromCalls: [], lessonKeys: [], rpcCalls: [], authCalls: [] };
@@ -96,6 +96,12 @@ class DengnasiReaderBrowserTests(unittest.TestCase):
                 body="window.supabase=window.supabase||{};",
             ),
         )
+        if completed_lessons is not None:
+            completed_literal = "[" + ",".join(str(number) for number in completed_lessons) + "]"
+            context.add_init_script(
+                "localStorage.setItem('avasin_kurmanji_dengnasi27_completed_v1', "
+                f"JSON.stringify({completed_literal}));"
+            )
         config = (
             "window.ZANSTI_SUPABASE={ready:true,"
             f'url:"{project_url}",publishableKey:"browser-test-key"'
@@ -154,7 +160,7 @@ class DengnasiReaderBrowserTests(unittest.TestCase):
 
 
     def test_lesson_17_title_covers_all_source_topics_in_latin_script(self):
-        context, page = self.open_lesson(TEST_PROJECT_URL, LESSON17_URL)
+        context, page = self.open_lesson(TEST_PROJECT_URL, LESSON17_URL, completed_lessons=list(range(16)))
         try:
             page.locator("#dengnasi-test-content").wait_for()
             self.assertEqual(
@@ -172,6 +178,8 @@ class DengnasiReaderBrowserTests(unittest.TestCase):
                 f"lesson 17 heading mismatch at {page.url}; title={page.title()}",
             )
             self.assertEqual(page.title(), f"Ders 17 — {LESSON17_TITLE} | Dengnasîya Zimanê Kurdî")
+            state = page.evaluate("window.__dengnasiTest")
+            self.assertEqual(state["lessonKeys"], ["kurmanji-dengnasi-lesson-17.html"])
             self.assertNotRegex(page.locator(".klesson-hero h1").inner_text(), r"[ء-ي]")
             self.assertNotRegex(page.title(), r"[ء-ي]")
         finally:
