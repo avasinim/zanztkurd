@@ -267,3 +267,11 @@ Scope checked: draft Lessons 1–27 against the source's printed page labels and
 - Production was not queried or changed. There is no evidence that production contains the newly authored lesson rows; therefore, do not assume that the deployed website can yet serve them. A separately approved production content promotion and a browser-level end-to-end test remain outstanding.
 - The authoring workflow is triggered by changes to the authoring source, this audit, the authoring validator, or the workflow file. The reader navigation changes alone do not exercise the authoring checks, so this audit update is the CI-triggering documentation change. The workflow does not prove Supabase reader integration.
 - No migration, production database change, merge or deployment was performed.
+
+### Test-project-only lesson loader guard — 2026-11-26
+
+- Updated `script.js` so the Dengnasi lesson-content query is permitted only when the configured Supabase URL resolves to the dedicated test project ref `juwsjljbdwyncicybwoq`.
+- If the page is configured for any other project, the loader fails closed with an explanatory notice and returns before calling `lesson_content`. The repository's current `supabase-config.js` still points to production, so the live config cannot accidentally query production for the test-only Dengnasi rows.
+- The existing authentication, enrollment, lesson-sequence and RLS checks remain in place. No alternate access path or bypass was added.
+- Static read-back verified that the project-ref guard occurs before the `lesson_content` query and that the 27 lesson routes carry their expected lesson keys.
+- This is a safety boundary, not proof of browser-level test delivery. To exercise the loader, a separately isolated test preview must load the test Supabase configuration and use an authorized test account. No such browser run has yet been completed.
