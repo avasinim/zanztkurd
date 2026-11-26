@@ -175,3 +175,13 @@ When implementation is authorized and performed in a local project checkout, cre
 - The generated HTML previews and JSON payload were synced to this implementation branch after validation. The exact source review is recorded in `docs/DENGNASI-SOURCE-AUDIT-LESSONS-18-21-2026-11-26.md`; the broader validation log is updated in `docs/DENGNASI-HTML-PREVIEW-VALIDATION-2026-11-26.md`.
 - Temporary source-audit PR #92 was closed unmerged after its artifact was reviewed. PR #90 remains closed unmerged; PR #89 remains Draft/Open/Unmerged against `main`.
 - The implementation branch remains isolated and is not deployed. The course status remains under preparation. No course activation, production/test database write, migration, student-data change, deployment, publication, `main` update, or PR merge was performed.
+
+
+## Follow-on source audit of Lessons 19 and 20 — 2026-11-26
+
+- Extracted and reviewed Lesson 19's designed-PDF physical pages 292–319 (printed pp. 270–297) and Lesson 20's physical pages 321–337 (printed pp. 298–314).
+- Lesson 19 was expanded with source-backed detail on Ê's grammatical distribution, H alternations, Ê plus linking Y, I/Î before Y, etymological spelling, and historical/borrowed forms.
+- Lesson 20 was expanded with the source's O-final exception list, the etymology and semantic development of `ol`, and the dialectal uses of `dû`.
+- Generator `--write/--check`, course-map validation, PDF delivery/checksum/page-count, source extraction, and all 8 mocked Playwright tests passed in Actions run `45777982614`. Generated previews were synced to the implementation branch.
+- Detailed findings are in `docs/DENGNASI-SOURCE-AUDIT-LESSONS-19-20-2026-11-26.md`; PR #93 was closed unmerged after review.
+- No database write, migration, student-data change, course activation, deployment, publication, `main` update, or PR merge was performed.
