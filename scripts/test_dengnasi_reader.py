@@ -159,8 +159,8 @@ class DengnasiReaderBrowserTests(unittest.TestCase):
             page.locator("#dengnasi-test-content").wait_for()
             self.assertEqual(page.locator(".klesson-hero h1").inner_text(), LESSON17_TITLE)
             self.assertEqual(page.title(), f"Ders 17 — {LESSON17_TITLE} | Dengnasîya Zimanê Kurdî")
-            self.assertNotRegex(page.locator(".klesson-hero h1").inner_text(), r"[\\u0621-\\u064A]")
-            self.assertNotRegex(page.title(), r"[\\u0621-\\u064A]")
+            self.assertNotRegex(page.locator(".klesson-hero h1").inner_text(), r"[ء-ي]")
+            self.assertNotRegex(page.title(), r"[ء-ي]")
         finally:
             context.close()
 
