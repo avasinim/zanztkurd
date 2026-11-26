@@ -41,7 +41,7 @@ jobs:
       - name: Upload regenerated previews for review
         uses: actions/upload-artifact@v4
         with:
-          name: dengnasi-source-audit-01-02-previews
+          name: dengnasi-source-audit-01-04-previews
           path: |
             docs/previews/kurmanji-dengnasi-lesson-*-content-preview.html
             docs/previews/dengnasi-content-html-payload-preview.json
