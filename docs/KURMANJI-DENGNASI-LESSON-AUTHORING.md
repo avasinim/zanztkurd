@@ -684,7 +684,7 @@ Di axaftinê de hin deng ji ber dengên nêzîkî xwe diguherin. Lê carinan for
 - *pezkovî / pezkûvî* di axaftina bilez de dikarin wek *peskovî / peskûvî* bên bihîstin;
 - *ez têm* di axaftina bilez de dikare wek *es-têm* were bihîstin.
 
-Pirsa rastnivîsînê ev e: gelo em ê forma ku tê gotin binivîsin, an jî reh û pêkhateya peyvê biparêzin? Pirtûk nîşan dide ku bersiv li gor cureya peyvê diguhere; ji bo hemû rewşan yek rêbaz tune.
+Pirsa rastnivîsînê li ser du rêbazên bingehîn e: nivîsandina forma ku tê gotin, an parastina reh û pêkhateya peyvê. Pirtûk nîşan dide ku rêbaza guncaw li gor cureya peyvê diguhere; ji bo hemû rewşan yek rêbaz tune.
 
 ## 2. Peyvên xwerû: nivîsîn li gor forma gotinê
 
@@ -4966,13 +4966,13 @@ Kurmancî ji ber ku di peyvên xwemalî de jî komkonsonantên destpêkê hene, 
 | P | perde | pênc |
 | T | taze / teze | tû |
 
-Nimûneyeke din a cudahiya watedar, peyva **ka** ye: bi K-ya bêpif wateya “giyayê hişk” dide; bi K-ya bipif wateya “li kû ye?” an “li çi cihî ye?” dide. Di vê beşê de armanc tenê nasîna cotdengiyê nîne; çavkaniyê li ser sedem û dîroka peydabûna wê jî dipirse.
+Nimûneyeke din a cudahiya watedar, peyva **ka** ye: bi K-ya bêpif wateya “giyayê hişk” dide; bi K-ya bipif wateya pirsîna cihê dide. Di vê beşê de armanc tenê nasîna cotdengiyê nîne; çavkaniyê li ser sedem û dîroka peydabûna wê jî dipirse.
 
 ## 14. Şîroveya dîrokî ya tesîra ermenî
 
 Di çavkaniyê de tê gotin ku hin lêkolîner cotdengiya Ç, K, P û T bi tesîra ermenî û zimanên Kafkasyayê ve girê didin, ji ber ku di wan zimanan de jî dengên bipif û bêpif hene.
 
-Lê nivîskar vê şîroveyê bi pirsan dixe bin lêkolînê: heke ermenî ji xwe herdu awayên dengên bipif û bêpif hebin, çima divê axêverên ermenî di peyvên kurdî de dengên bipif biguherînin û bikin bêpif? Herwiha çima ev guherîn divê tenê di hin peyvên îranî de çêbibe, ne di hemûyan de?
+Lê nivîskar vê şîroveyê bi du kêşeyan sînordar dike. Heke ermenî ji xwe herdu awayên dengên bipif û bêpif hebin, bandora wê li ser peyvên kurdî bi tenê bi vê yekê nayê ravekirin. Herwiha belavbûna guherînê tenê di hin peyvên îranî de jî bi şîroveya tesîra ermenî bi hêsanî nayê ravekirin.
 
 Nivîskar ji van pirsan encam digire ku tesîra ermenî wek sedema sereke ya cotdengiyê ne bi delîlên têr piştrast e. Ev nêrîna nivîskar e; divê wek rastiyeke dîrokî ya bêniqaş neyê pêşkêşkirin.
 
@@ -5198,8 +5198,7 @@ Di kurmancî de hin peyv cotform hene ku di yekê de N ya dawiyê heye û di ya 
 
 Têbînîya çavkaniyê: li rûpela çapkirî ya 428ê di lîsteya cotforman de *dîsa, dîsa* dubare hatiye nivîsîn; lê li rûpela 429ê nivîskar cotforma *dîsa/dîsan* bi awayekî zelal dide. Ev nakokiya çapkirinê hatiye tomarkirin.
 
-- *Tu çawa hatî?* — peyva paşê bi konsonantê dest pê dike.
-- *Tu çawan î?* — peyva paşê bi vokalê dest pê dike.
+Di nimûneyên navbera peyvan de, heke peyva duyemîn bi konsonantê dest pê bike, vokalên du peyvan rasterast li hev nayên; heke bi vokalê dest pê bike, hiyatus dikare çêbibe.
 
 Di hin devokan de ev sîstem di formên pirhejmar de jî hatiye parastin. Piraniya devokan li şûna paşgira nivîskî **-an**, forma devkî **-a** bi kar tînin; lê hin devok dema ku peyva paşê bi vokalê dest pê dike, N zêde dikin. Hin devok jî li şûna N, Y bi kar tînin.
 
