@@ -60,3 +60,8 @@ The complete workflow run [45780142032](https://github.com/avasinim/zanztkurd/ac
 - Only after all checks passed, regenerated lesson HTML previews and the JSON payload were synchronized to the isolated implementation branch.
 
 The Playwright tests use mocked Supabase state; they do not establish real student authentication, RLS, enrollment, or live progress synchronization. The workflow did not deploy or activate the course.
+
+
+## Lesson 2 — second-pass footnote reconciliation — 2026-11-26
+
+A second inspection of the book's printed pp. 8–15 (designed PDF pp. 13–20) found that the lesson's main phonological explanations and consonant chart interpretation were already represented, but the explanatory footnotes were compressed. The authoring lesson and both preview representations now restore the source's notes on: (1) IPA [ʔ] and its Latin apostrophe notation, with source examples; (2) the anatomical term *plica vocalis* for vocal folds; (3) the source's meaning of *awêne*; (4) the anatomical definition and variants of *pidû*; and (5) the definition and lexical variants of *didan*. These additions retain Latin script and remain within the source's own explanatory scope. No audio, quiz, test, question or exercise was added.
