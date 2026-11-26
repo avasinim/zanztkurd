@@ -302,16 +302,18 @@ Husein Muhammed, *Dengnasî di kurdî de*, rûpelên çapkirî 16–28.
 Di kurmancî de hin deng qelew (emfatîk) tên gotin. Nivîskar ji bo nîşankirina van dengên qelew di vê vekolînê de van nîşanan bi kar tîne:
 
 - **Ṗ, Ṣ, Ṭ, Ẓ**: dengên qelew ên bêpif.
-- **Ḅ**: B-ya qelew; ev deng tenê di hin devokan de heye.
+- **Ḅ**: B-ya qelew; ev deng tenê di hin devokan de heye, wek *berdan* di hin devokan de.
+
+Nivîskar dibêje ku nîşana **Ṗ** ji ber sînordariya teknîkî bi vê awayê hatiye nivîsîn; forma ku dixwest bi kar bîne P bû ku xalek li binê wê hebe. Herwiha Ḍ, ku hevbera D-ya qelew a erebî ye, di kurdî de tune ye; nivîskar dibêje ku dengê wê di hin zimanên din ên îranî de, wek peştûyî, heye.
 
 Qelewîtiya van dengan bi pifdarî re nayê tevlihevkirin: ew qelew in, lê bêpif in. Ji aliyê bilêvkirinê ve nêzîkî P û T-yên bêpif in, ne P û T-yên bipif.
 
 Nimûneyên ku di çavkaniyê de hatine dayîn:
 
 - **Ṗ:** *ṗiling, ẓeṗẓeṗe, reṗ*.
-- **Ṣ:** *ṣed, miṣaṣ*.
+- **Ṣ:** *șed, mișaș*.
 - **Ṭ:** *ṭeng, miṭirb/miṭrib, miṭ*.
-- **Ẓ:** *ẓiviṣṭan, beẓîn, beẓ*.
+- **Ẓ:** *ẓivișṭan, beẓîn, beẓ*.
 
 Van nîşanan ji bo danasîna dengê bi awayekî deqîq tên bikaranîn. Ew nayên wateya ku divê di nivîsîna asayî ya rojane de her peyv bi nîşanên taybet were nivîsîn.
 
@@ -334,7 +336,7 @@ Nimûneyên cudahiya Ẓ û Z:
 - *zana* bi Ẓ: di hevoka *Ew kesekî zana ye* de.
 - *zana* bi Z: di hevoka *zana bizinê* de, bi wateya zayîna bizinê.
 
-Nivîskar herwiha peyva *penîr* wek nimûneya peyvekê dide ku li hin deveran bi dengê qelew û li hin deverên din bi dengê zirav tê gotin.
+Nivîskar herwiha peyva *penîr* wek nimûneya peyvekê dide ku li hin deveran bi dengê qelew û li hin deverên din bi dengê zirav tê gotin. Di berawirdkirina Ẓ û Z de, nimûneyên *zan, zer, hezar* bi farisî *zayîden, zerd, hezar* in; lê *ẓana, ẓava* bi farisî *dana, damad* in. Ev berawirdkirin têkiliya dîrokî ya dengên kurdî û farisî nîşan dide. Nivîskar herwiha diyar dike ku D di kurmancî de gelek caran ji dawiya peyvê dikeve, wek *ba/bad* û *bû/bûd*; M jî di navbera vokalan de an li dawiya peyvê piştî vokalekê dikare bibe V, wek *nav/nam* û *gav/gam*.
 
 ## 3. Pêşbînîkirina qelewîtiyê di peyvên xwemalî de
 
@@ -365,7 +367,7 @@ Di piraniya peyvên esil-ewropî de Ç, K, P û T bipif tên gotin û bi nîşan
 - **Ṕ:** *partî, polîs, pas*.
 - **Ť:** *tank, test, trên*.
 
-Lê hin peyvên wergirtî yên bêpif jî hene; wek *tîp* (T-ya zirav) û *ton* (T-ya qelew).
+Lê hin peyvên wergirtî yên bêpif jî hene; wek *tîp* (T-ya zirav) û *ton* (T-ya qelew). Nivîskar destnîşan dike ku peyvên esil-ewropî yên bi Ç di kurdî de kêm in.
 
 ### 4.2. Peyvên esil-erebî
 
@@ -438,7 +440,7 @@ Nivîskar eşkere dike ku armanca van nimûneyan rexnekirina kesan nîne. Ew Chy
 
 Li gorî nêrîna nivîskar, zêdekirina herfên nû dikare nivîsîna kurdî dijwartir bike û xeletiyên nivîsînê zêde bike, bêyî ku sûdeke mezin ji xwendina rojane re peyda bike. Di nivîsên asayî de kontekst bi gelemperî alîkar e ku peyv rast were xwendin û famkirin. Lê di ferheng û pirtûkên dengnasiyê de divê awayê rast ê gotina peyvan bi deqîqî were nîşandan.
 
-Nivîskar mînaka ferhengên kurmancî-îngilîzî, ferhenga etîmolojî ya kurdî û ferhenga kurdî-tirkî dide. Ew nîşan dide ku di nîşankirina dengên bipif û bêpif de di van berheman de jî xeletî û nakokî hene. Armanca nîqaşê rexnekirina kesan nîne; armanc nîşandana dijwariya cudakirina van dengan û girîngiya nîşankirina rast a dengê peyvan e.
+Nivîskar mînaka ferhengên kurmancî-îngilîzî, ferhenga etîmolojî ya kurdî û ferhenga kurdî-tirkî dide. Di nîqaşa Chyet de, nimûneyên din ên apostrofa ne-yekgirtî *p’ê, p’êç’an/pêç’an, p’êk* in; ev form di çavkaniyê de wek nimûneyên ku divê bêapostrof bin tên rexnekirin. Nivîskar bi mînaka îngilîzî *bear* jî diyar dike ku ferheng dikare nivîsa peyvê û awayê bilêvkirina wê ji hev cuda nîşan bide. Ew nîşan dide ku di nîşankirina dengên bipif û bêpif de di van berheman de jî xeletî û nakokî hene. Armanca nîqaşê rexnekirina kesan nîne; armanc nîşandana dijwariya cudakirina van dengan û girîngiya nîşankirina rast a dengê peyvan e.
 
 Ji bo danasîna dengê peyvan di ferhengan de, nivîskar nimûneyên wek van dide:
 
@@ -447,7 +449,7 @@ Ji bo danasîna dengê peyvan di ferhengan de, nivîskar nimûneyên wek van did
 - *pez* [ṗez].
 - *zivistan* [ẓivișṭan].
 
-Ev nîşankirin divê di ferheng û pirtûkên dengnasiyê de bimîne, ne ku di nivîsên sade yên rojane de were sepandin. Di nivîsîna asayî de alfabeya standard tê parastin; di danasîna dengî ya ferhengê de nîşanên taybet dikarin awayê gotinê eşkere bikin.
+Ev nîşankirin divê di ferheng û pirtûkên dengnasiyê de bimîne, ne ku di nivîsên sade yên rojane de were sepandin. Di nivîsîna asayî de alfabeya standard tê parastin; di danasîna dengî ya ferhengê de nîşanên taybet dikarin awayê gotinê eşkere bikin. Nivîskar diyar dike ku piraniya kurmancîzanan, bêyî nuqte û apostrof, dizanin ku P-ya *pez* qelew e. Wek mînaka din, di farisî de peyva *sed* (100) bi awayê *șed* jî tê nivîsîn, lê dîsa wek *sed* tê gotin; nivîskar vê yekê wek nîşana hebûna dîrokî ya dengê di farisî de şîrove dike.
 
 ## Çavkanî
 
