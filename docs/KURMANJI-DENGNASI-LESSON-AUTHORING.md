@@ -563,8 +563,8 @@ Nivîskar çend tiştan wekî sînorên vê vekolînê destnîşan dike:
 1. Materyal tenê 52 705 herf e; ji bo encameke bêkêmasî materyaleke pir mezintir pêdivî ye.
 2. Di materyalê de R-ya şidandî li nav an dawiya peyvê bi **RR** hatiye nivîsîn, wek *pirr, şerr*. Heke bi R-yekê bihata nivîsîn, rêjeya R dê kêmtir bûya.
 3. Navê kesekî û peyveke gelek dubarekirî di materyalê de bi R bûn. Ji ber vê yekê dibe ku R bi rêjeya 5,2% bikeve jêr D (4,6%) û B (4,5%), lê ne jêr wan herduyan.
-4. Rêjeya N di nivîsê de 9,4% e, lê di axaftinê de dikare bi awayekî berçav kêmtir be, ji ber ku N li dawiya peyvê di hin devokan de nayê gotin.
-5. Di hin devokan de forma îzafeya pirjimar bi paşgira **-êT** an **-êD** tê gotin, li şûna **-êN** ya nivîsî.
+4. Rêjeya N di nivîsê de 9,4% e, lê di axaftinê de dikare bi awayekî berçav kêmtir be, ji ber ku N li dawiya peyvê di hin devokan de nayê gotin. Pirtûk vê cudahiyê bi nimûneyên nivîskî *waN kesaN* li hember gotina *wa kesa* û *kitêbêN miN* li hember *kitêbê mi* nîşan dide.
+5. Di hin devokan de forma îzafeya pirjimar bi paşgira **-êT** an **-êD** tê gotin, li şûna **-êN** ya nivîsî; nimûneyên çavkaniyê *kitêbêT mi[N]* û *kitêbêD mi[N]* ne.
 6. Rêjeya herfan dikare bi devok, materyala nivîsê, awayê nivîsînê, dubarebûna peyvan û navên kesan biguhere.
 7. Di xwendina hejmarên tabloyê de nakokiyeke hesabî ya di çavkaniyê de xuya dibe: koma hejmarên 31 herfan 53 001 e, lê rêza **HEMÛ** 52 705 dibêje. Herwiha koma rêjeyên çapkirî 100,43% dide, ne 100%. Ev nakokî di çavkaniyê de heye; ji ber vê yekê hejmarên her herfê nehatine guhertin û tu hejmareke rastkirî nehatiye texmînkirin.
 
