@@ -349,3 +349,11 @@ Scope checked: draft Lessons 1–27 against the source's printed page labels and
 - At PR head `9dec2d89e817067a14e1594722a592aa6f8b8ac1`, all five GitHub Actions workflows passed, including the authoring validator, Chromium reader checks, package integrity, course-map validation, academic catalog and lesson navigation.
 - The Chromium checks use controlled Supabase mocks, not a live authorized test-account login. That real test-project browser check remains outstanding.
 - PR #89 remains open and Draft, 462 commits ahead of `main` and 0 behind. No merge, production database change, migration, deployment or public activation occurred.
+
+
+### Lesson 5 — printed pages 40–43 (rechecked)
+
+- Re-read the source pages containing the letter-frequency method, full table and caveats.
+- The authoring table preserves every printed letter percentage and count, including the source's total of 52,705 letters. The sum of the individual counts is 53,001 and the printed percentages total 100.43%; this source arithmetic discrepancy remains explicitly recorded rather than silently corrected.
+- Expanded the explanatory examples for the source's E and Ê suffix variants, the N deletion and plural izafe variants in speech, the effect of writing *ku* versus *kû* on the U count, and the examples for D, B, Î, Û, Y and M. These are source examples, not new course examples.
+- Reconfirmed that the table measures letters in a written sample, not the frequency of sounds in speech; the source itself warns that dialect, orthographic choices, repeated words and names can change the results.
