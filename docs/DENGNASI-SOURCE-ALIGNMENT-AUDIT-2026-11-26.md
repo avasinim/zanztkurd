@@ -2,7 +2,7 @@
 Date: 2026-11-26
 Work branch: `author/dengnasi-lesson-01-draft-2026-11-24`
 Source: Husein Muhammed, *Dengnasî di kurdî de* (PDF `Dengnasiya_Zimane_Kurdi_27_Wane.pdf`).
-Scope checked: draft Lessons 1–10 against the source's printed page labels and physical PDF pages.
+Scope checked: draft Lessons 1–15 against the source's printed page labels and physical PDF pages.
 
 ## Confirmed findings
 
@@ -66,6 +66,43 @@ Scope checked: draft Lessons 1–10 against the source's printed page labels and
 - Added the J comparison table for Kurmanji/Soranî, Zazakî, Persian/Pahlavi and Avestan, including the source note about the Zazakî written standard `roj` versus the widespread dialect form `roc`.
 - These additions restore source examples and tables; they do not authorize treating the book's historical etymologies as independently verified modern consensus.
 
+### 9. Lesson 11: K and L
+
+- Lesson 11 covers printed pages 133–146 (physical PDF pages 146–160).
+- Checked K's place/manner description, aspirated/unaspirated contrast, historical K/X correspondences, and the L clear/dark distinction.
+- The draft preserves the source's K minimal contrast and the source's caveat that the historical K-to-S/Ç developments are not uniform.
+- The L section retains the source's dialectal forms and the uncertainty around phonemic status of clear versus dark L.
+
+### 10. Lesson 12: M and N
+
+- Lesson 12 covers printed pages 147–154 (physical PDF pages 161–169).
+- Checked M's articulatory description and the M-to-V/W development after vowels, including the source's explanation of why M remains after consonants.
+- Checked N's articulation, NG/NK behaviour, N-to-M assimilation before B/P, N/L variation, N insertion and deletion in inflectional endings.
+- The draft preserves the source's distinction between the written NG sequence and the single [ŋ] sound in some southern dialects.
+
+### 11. Lesson 13: P and Q
+
+- Lesson 13 covers printed pages 155–167 (physical PDF pages 170–183).
+- Checked P's articulation and aspiration contrast, source frequency figure, thin/thick allophonic distinction, and historical P/B/V/F pathways.
+- Checked Q's articulation, frequency figure, source discussion of Arabic and Turkic influence, and Q/K/X dialect correspondences.
+- The draft correctly uses IPA [p] for P; the source page contains an apparent [b] typographical error in that position. This has not been copied into the lesson.
+
+### 12. Lesson 14: R and S
+
+- Lesson 14 covers printed pages 168–185 (physical PDF pages 184–202).
+- Checked the two R realizations [r]/[ɾ], their distribution, the source's rr notation caveat, and L/R historical and dialectal changes.
+- Added a source-based comparison table for *mal/mał/mar* and *menal/mindał/mindar*, retaining the source's regional distinctions.
+- Checked S's articulation, frequency, thin/thick realizations, allophonic analysis, and the source's historical S/K/H/X/Ç/T correspondences.
+- A source-internal inconsistency on the meaning assigned to *birîn* across adjacent pages is noted in the draft rather than silently normalized.
+
+### 13. Lesson 15: Ş and T
+
+- Lesson 15 covers printed pages 186–202 (physical PDF pages 203–219).
+- Checked Ş's articulation, frequency, historical origins, loanword strata, and the J/Ş, Ç/Ş, S/Ş and H/Ş correspondences.
+- Checked T's articulation, distribution, aspirated/unaspirated contrast, thin/thick realizations, and its morphological role in past-tense verb stems.
+- The draft explicitly distinguishes the source's morphological alternations (such as *firot-/firoş-* and *dot-/doş-*) from a simplistic claim of unrestricted sound substitution.
+- The source's T minimal contrasts at the beginning of Lesson 4 (printed page 29) remain assigned to Lesson 4, not Lesson 3.
+
 ## Checks completed
 
 - Lesson 2: printed pages 8–15 (physical PDF pages 13–20) were checked. The vowel/consonant definitions, eight vowel letters, distinction between grapheme count and phonemic consonant inventory, terminology discussion, place/manner of articulation, and aspiration material follow the source.
@@ -78,6 +115,7 @@ Scope checked: draft Lessons 1–10 against the source's printed page labels and
 - Lesson 8: the B/C/Ç/D consonant sections on printed pages 68–103 were checked, and missing source comparison tables and dialect examples were restored.
 - Lesson 9: the F/G sections on printed pages 104–115 were checked, and missing cross-language comparison tables were restored.
 - Lesson 10: the H/J sections on printed pages 116–130 were checked, and missing historical comparison tables and examples were restored.
+- Lessons 11–15: K/L, M/N, P/Q, R/S and Ş/T source sections on printed pages 133–202 were checked; the Lesson 14 regional L/R comparison table was added and source typographical issues were recorded.
 
 ## Release constraints retained
 
