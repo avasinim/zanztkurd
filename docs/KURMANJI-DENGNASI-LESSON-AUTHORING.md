@@ -46,7 +46,7 @@
 
 ---
 
-# Dersa 1 — Dergeh: ev vekolîn û yên berî wê
+# Dersa 1 — Dergeh: dengnasî û lêkolînên pêşîn
 
 ## 1. Dengnasî di nav zimannasiyê de
 
@@ -150,7 +150,7 @@ Di peyvên xwemalî yên kurmancî de jî nepayîn hene. Peyvên *kurd, kurmanc*
 Husein Muhammed, *Dengnasî di kurdî de*, rûpelên çapkirî 8–15.
 
 
-# Dersa 3 — Hevdengî û pirdengî di nivîsîna kurdî de
+# Dersa 3 — Hevdengî û pirdengî di nivîsînê de
 
 ## 1. Herf, deng, hevdengî û pirdengî
 
@@ -230,7 +230,7 @@ P di kurmancî û zazakî de ji bo sê an heta çar dengên cuda tê bikaranîn.
 
 ### T
 
-T jî di kurmancî û zazakî de dikare sê an heta çar dengên cuda nîşan bide. Cudahiyên sereke di navbera T-ya bipif û bêpif, herwiha T-ya zirav û qelew de ne. T-ya bipif ya zirav di *tarîx, tenê, teşî* de heye. T-ya zirav dikare bêpif jî be, wek di *tişt, tîr, tû, te, tu* de. T-ya bêpif bi piranî qelew e, wek di *tarî, teng, tenî, tirs, tov* de. Nimûneya T-ya bipif û qelew, *tep*, kêm e. T-ya bipif û T-ya bêpif fonemên cuda ne û dikarin wateyê biguherînin. Di nimûneyên çavkaniyê de *ta* bi T-ya bêpif wateya benê dide, lê bi T-ya bipif wateya germayî; *tam* bi T-ya bêpif wateya çêjê dide, lê bi T-ya bipif wateya temamî; *tu* jî li gor pifdariya T-ê dikare cînav an wateya "hîç" bide.
+T jî di kurmancî û zazakî de dikare sê an heta çar dengên cuda nîşan bide. Cudahiyên sereke di navbera T-ya bipif û bêpif, herwiha T-ya zirav û qelew de ne. T-ya bipif ya zirav di *tarîx, tenê, teşî* de heye. T-ya zirav dikare bêpif jî be, wek di *tişt, tîr, tû, te, tu* de. T-ya bêpif bi piranî qelew e, wek di *tarî, teng, tenî, tirs, tov* de. Nimûneya T-ya bipif û qelew, *tep*, kêm e.
 
 ## Çavkanî
 
@@ -257,7 +257,17 @@ Nimûneyên ku di çavkaniyê de hatine dayîn:
 
 Van nîşanan ji bo danasîna dengê bi awayekî deqîq tên bikaranîn. Ew nayên wateya ku divê di nivîsîna asayî ya rojane de her peyv bi nîşanên taybet were nivîsîn.
 
-## 2. Cudahîya fonem û alofon
+## 2. Cudahiyên T-yên bipif û bêpif
+
+T-ya bipif û T-ya bêpif du dengên fonemîk ên cuda ne. Guhertina yek bi ya din dikare di hin peyvan de maneya peyvê biguherîne. Nivîskar sê cotnimûne dide:
+
+- *ta* bi T-ya bêpif: ben, dezî, benik; bi T-ya bipif: tasar an tagerm, heraret.
+- *tam* bi T-ya bêpif: çêj, lezet, te’am; bi T-ya bipif: temam, bi temamî.
+- *tu* bi T-ya bêpif: kesê ku mirov jê re diaxive; bi T-ya bipif: hîç, çu, qet, qetiyen.
+
+Di şîroveya jêrenivîsa çavkaniyê de tê gotin ku awayê *tu* yê bi wateya “hîç” carinan wek *ti* tê nivîsîn. Herwiha *tu* ya bi wateya kesê ku mirov jê re diaxive jî di hin devokan de wek *ti* tê gotin. Ji ber vê yekê divê ev cudahiya devokî bê parastin û tu form bi texmînê neyê “rastkirin”.
+
+## 3. Cudahîya fonem û alofon
 
 Fonem dengek e ku guherandina wê bi dengekî din di hin peyvan de dikare maneya peyvê biguherîne. Alofon cûreyeke dengî ya fonemekê ye ku guherandina wê wateya peyvê naguherîne.
 
@@ -278,7 +288,7 @@ Nimûneyên cudahiya Ẓ û Z:
 
 Nivîskar herwiha peyva *penîr* wek nimûneya peyvekê dide ku li hin deveran bi dengê qelew û li hin deverên din bi dengê zirav tê gotin.
 
-## 3. Pêşbînîkirina qelewîtiyê di peyvên xwemalî de
+## 4. Pêşbînîkirina qelewîtiyê di peyvên xwemalî de
 
 Nivîskar çend rêzikên pêşbînîkirina qelewîtiyê di peyvên xwemalî de destnîşan dike. Ev rêzik bi gelemperî alîkar in, lê hin awarte û nepayîn jî hene.
 
@@ -296,9 +306,9 @@ Nimûneyên nivîskar ji bo van rêzikan:
 
 Dengên qelew ên Ṗ, Ṣ, Ṭ, Ẓ di heman kîteyê de bi dengên zirav ên P, S, T, Z re bi hev re nayên. Nivîskar nimûneya *ṗeẓ* dide, ne *ṗez* an *peẓ*.
 
-## 4. Qelewîtî di peyvên wergirtî de
+## 5. Qelewîtî di peyvên wergirtî de
 
-### 4.1. Peyvên esil-ewropî
+### 5.1. Peyvên esil-ewropî
 
 Di piraniya peyvên esil-ewropî de Ç, K, P û T bipif tên gotin û bi nîşanên dengnasiyê **Ḉ, Ḱ, Ṕ, Ť** tên nîşandan:
 
@@ -309,7 +319,7 @@ Di piraniya peyvên esil-ewropî de Ç, K, P û T bipif tên gotin û bi nîşan
 
 Lê hin peyvên wergirtî yên bêpif jî hene; wek *tîp* (T-ya zirav) û *ton* (T-ya qelew).
 
-### 4.2. Peyvên esil-erebî
+### 5.2. Peyvên esil-erebî
 
 Di erebî de K û T-yên bipif, herwiha Ṭ-ya bêpif û qelew hene. Di peyvên ji erebî wergirtî de hin deng bi gelemperî wek xwe dimînin:
 
@@ -323,11 +333,11 @@ Nivîskar diyar dike ku D-ya qelew a erebî di kurdî de tune ye; ew bi piranî 
 
 Di erebî de dengên bêpif ên zirav nînin; herwiha Ç û P di alfabeya erebî ya standard de dengên wan tune ne. Ṣ-ya erebî dikare di kurdî de wek Ṣ bimîne an jî bibe S. Hin caran S-ya zirav a erebî jî di kurdî de dibe Ṣ. Nivîskar vê yekê bi bandora L-ya qelew li ser S rave dike. Lê bi gelemperî S-ya zirav a erebî ziraviya xwe diparêze; wek *Salim*. Di *Ṣabir* de Ṣ ji ber ku di erebî de jî qelew e, dimîne.
 
-### 4.3. Peyvên ji tirkî û farisî
+### 5.3. Peyvên ji tirkî û farisî
 
 Di tirkî û farisî de Ṗ û Ṭ tune ne; di farisî de hin peyvên ji erebî wergirtî yên bi Ṭ hene. Ṣ û Ẓ, heke di van zimanan de hebin, bi gelemperî tenê alofonên S û Z ne. Peyvên ji tirkî û farisî wergirtî dikarin bê qelewî bimînin, herçend di peyvên xwemalî de heman derdor dikare dengê qelew bixwaze. Nivîskar *sax* (ji tirkî) û *saz* (ji farisî) bi S-ya zirav dide û wan bi *sar, sahî* yên xwemalî berawird dike.
 
-## 5. L-ya zirav û L-ya qelew: L û Ł
+## 6. L-ya zirav û L-ya qelew: L û Ł
 
 Di kurdî de du dengên L hene:
 
@@ -343,7 +353,7 @@ Di kurmancî de L-ya zirav gelek serdest e û L-ya qelew roleke kêm heye. Di so
 
 Di soranî de L-ya qelew li destpêka peyvê nayê. Di kurmancî de jî ew di hin peyvan de heye, wek *łep*. Nivîskar dibêje ku di kurmancî de A an O ya berî L-ê bi xwe L-ê qelew nake; wek *law, lorik*. Herwiha L-ya qelew ji şidandina L-ya asayî cuda ye: *gulle* û *gellek* ne nimûneyên L-ya qelew in.
 
-## 6. R-ya req û R-ya nerm: Ř û R
+## 7. R-ya req û R-ya nerm: Ř û R
 
 Di kurmancî de du cûreyên R hene:
 
@@ -358,7 +368,7 @@ Di alfabeya kurdî-latînî ya asayî de herdu deng bi R tên nivîsîn. Di hin 
 
 Di kurmancî û soranî de cudahiya R û Ř bi hev re lihevhatî ye: li destpêka peyvê R herdem req e, li nav û dawiyê bi piranî nerm e, lê ne bê awarte.
 
-## 7. Nîşankirina dengên cuda û alfabeya standard
+## 8. Nîşankirina dengên cuda û alfabeya standard
 
 Hin kes rexne li alfabeya kurdî-latînî ya standard digirin, ji ber ku hemû cudahiyên dengî bi herfên cuda nayên nîşandan. Nivîskar nîqaşa zêdekirina herfan û bikaranîna apostrofê ji bo cudakirina dengên bipif û bêpif vedikole. Ew nimûneyên nivîsên ku apostrof di wan de ne bi yek awayê hatiye bikaranîn pêşkêş dike û nîşan dide ku ev rêbaz dikare tevlihevî û xeletiyên nivîsînê çêbike.
 
