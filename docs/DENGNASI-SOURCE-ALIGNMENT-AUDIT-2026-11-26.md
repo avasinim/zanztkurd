@@ -531,3 +531,8 @@ Scope checked: draft Lessons 1–27 against the source's printed page labels and
 - Rephrased the ten remaining interrogative headings across Lessons 10, 14, 16 and 27 as declarative academic section headings. The source discussions remain intact; only heading form changed. This enforces the course requirement that lessons contain no question prompts or quiz/exercise framing.
 - The updated headings now describe their subject directly: the source of Ḧ, H/Ḧ orthography, phoneme/allophone distinction, initial V preservation, the scope of Southern Kurdish, the historical Armenian-influence discussion, the definition and distribution of hiatus, vowel combinations, and V as a hiatus barrier.
 - A pre-edit full authoring copy is preserved at `docs/backups/KURMANJI-DENGNASI-LESSON-AUTHORING-before-global-question-heading-cleanup-2026-11-26.md`.
+### No-question body-text cleanup — 26 November 2026
+
+- Removed the remaining rhetorical question wording from lesson prose and replaced it with declarative explanation. Replaced two interrogative example sentences in the hiatus section with a neutral explanation of vowel contact across word boundaries. Reframed the Armenian-influence discussion as two stated limitations rather than rhetorical questions.
+- The only remaining literal question-mark glyphs in the authoring document are notation markers `(?)` and `?` used by the source to indicate uncertain/unspecified data and uncertain diphthong classification; they are not questions, prompts or exercises.
+- Pre-edit copies are preserved at `docs/backups/KURMANJI-DENGNASI-LESSON-AUTHORING-before-no-question-body-cleanup-2026-11-26.md` and `docs/backups/DENGNASI-SOURCE-ALIGNMENT-AUDIT-before-no-question-body-cleanup-2026-11-26.md`.
