@@ -138,6 +138,13 @@ for required in (
 assert "berî vokalên **A û O**" in lesson26, "Lesson 26 Turkish K scope must remain A/O"
 assert "berî vokalên paşîn **A, I, O, U**" not in lesson26, "Lesson 26 overgeneralizes the Turkish K scope"
 
+lesson6_match = re.search(r"(?ms)^# Dersa 6 —.*?(?=^# Dersa 7 —)", source)
+assert lesson6_match, "Lesson 6 authoring section is missing"
+lesson6 = lesson6_match.group(0)
+for required in ("Urdin/Ûrdin", "gwêz=gûz", "xwa.ri.na", "alîstin, ristin", "ḥefs, ḥeps, hevs", "zeft, zept, zevt", "plica vocalis", "Pêraweja 42", "| CVCC | *dest* | *da.girt* | *da.ne.xist* |", "| Bilerz | b | d | g | z | j | v | c | ẍ |"):
+    assert required in lesson6, f"Lesson 6 is missing restored source detail: {required}"
+assert "rûpelên çapkirî 44–55" in lesson6, "Lesson 6 source citation mismatch"
+
 lesson7_match = re.search(r"(?ms)^# Dersa 7 —.*?(?=^# Dersa 8 —)", source)
 assert lesson7_match, "Lesson 7 authoring section is missing"
 lesson7 = lesson7_match.group(0)
