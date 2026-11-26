@@ -115,6 +115,24 @@ for required in (
     assert required in lesson26, f"Lesson 26 is missing source-backed detail: {required}"
 assert "berî vokalên **A û O**" in lesson26, "Lesson 26 Turkish K scope must remain A/O"
 assert "berî vokalên paşîn **A, I, O, U**" not in lesson26, "Lesson 26 overgeneralizes the Turkish K scope"
+
+lesson27_match = re.search(r"(?ms)^# Dersa 27 —.*$", source)
+assert lesson27_match, "Lesson 27 authoring section is missing"
+lesson27 = lesson27_match.group(0)
+for required in (
+    "di nêzîkî sedsalekê de",
+    "naelimînin",
+    "Haîtî",
+    "meaş, seat",
+    "tîpa kelijandinê",
+    "du-y-em, du-w-em",
+    "hevalînî",
+    "kitêban, bajaran",
+    "yûnaniya kevn",
+    "helbestan",
+    "rûpela 422ê",
+):
+    assert required in lesson27, f"Lesson 27 is missing source-backed detail: {required}"
 assert lessons[14]["originalPdfPages"] == {"start": 187, "end": 202}, "Lesson 15 original-PDF range mismatch"
 assert lessons[14].get("dividerPage") == 204, "Lesson 15 designed-PDF divider must be documented"
 assert lessons[13]["designedPdfPages"]["end"] + 1 == lessons[14]["dividerPage"], "Lesson 15 divider must immediately follow Lesson 14"
