@@ -3141,7 +3141,7 @@ Di kîteya dawiyê de dirêjahiya dengê I dikare bi Î were nîşandan: *statis
 - **202.** *Sî/sih* hem bi wateya hejmareya 30 û hem jî bi wateya sîber, cihê ku tav lê nade, tê bikaranîn.
 - **203.** Di Dihokê de *bûn, çûn* û *û* ya serbixwe (bi wateya “and”) nabin Î. Di heman devokê de *kîr* bi K-ya nerm wateya kerb dide, lê bi K-ya bipif wateya kûr/ava bilind dide.
 - **204.** Di formên *qanwîn* de W nîşana vokala dirêj Ü ye, ne cotdengê /w/; peyv wek *qa-nwîn* tê dabeşkirin.
-- **205.** Heمان تêbînî ji bo *tabwît* jî derbas dibe: W nîşana Ü-ya dirêj e, ne dengê serbixwe /w/.
+- **205.** Ev têbînî ji bo *tabwît* jî derbas dibe: W nîşana Ü-ya dirêj e, ne dengê serbixwe /w/.
 - **206.** *Kîn* ya bi wateya kerb ji *kîn* ya bi K-ya nerm û wateya din tê cudakirin; di pêvajoya Dihokê de K-ya bêpif giring e.
 - **207.** Di soraniyê de li cihê Î-ya kurmancî di hin guherînên lêkerî de Ê heye; di zazakî û farisî de A/E bi gelemperî wek xwe dimînin.
 - **208.** Ev têbînî dibêje ku ji bo sedemên guherîna Î+Y → IY divê xwîner vegere ser beşa berê ya dengê I.
