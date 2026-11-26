@@ -1982,6 +1982,44 @@ Berî hin konsonantên bêlerz ên wek T, S û Ş, Q-ya erebî di kurdî de bi g
 
 Pirtûk herwiha hin peyvên bi eslê xwe îranî destnîşan dike ku di kurdî de Q di cihê K an G de xuya dibe; wek *quling, quz, qûn*. Lê çavkaniya hin peyvan ne ewqas zelal e, ji ber vê yekê divê etîmolojiyên wan bi baldarî bên xwendin û wek rêzikeke giştî neyên girtin.
 
+
+## 10. Hûrguliyên temamker ên P û Q
+
+### 10.1. P di peyvên xwemalî û deynkirî de
+
+Pirtûk diyar dike ku P li destpêka peyvan gelemperî ye, lê li nav û dawiya peyvên xwemalî kêm e. Di kurmancî û zazakî de P-ya destpêkê dikare bipif an bêpif be; di soranî, farisî, tirkî û îngilîzî de P-ya destpêkê herdem bipif e, di frensî de jî herdem bêpif e. Ji ber vê yekê peyvên deynkirî yên bi P, li gor rêya ketina wan, dikarin taybetmendiya zimanê navîn biparêzin. Peyvên ji farisî hatî wek *pena(ber), peyam, pesend, pêwîst* û peyvên ji îngilîzî an rêya tirkî hatî wek *polîs, pas, pasaport, poste* bi P-ya bipif tên gotin. Peyvên frensî yên wek *parlement* bi rêya îngilîzî an tirkî gihiştine kurdî û P-ya wan bipif bûye. Lê di nav an dawiya peyvên biyanî de P dikare bêpif be: tirkî *top*, îngilîzî *kompûter* û frensî *tîp*.
+
+P-ya navîn û dawî di hin peyvên îranî de bi rêya B bûye V; di soranî de W heye. Pirtûk rêza dîrokî ya *av/aw, sêv/sêw* û *ava/awa* bi formên sanskrîtî, avestayî, pehlewî û farisî re dide. Di hin peyvan de P ji W/V/U-ya proto-hindûewropî hatiye, wek *pêl* ji *welʰ-* û *por(r)/pûrt* ji *uel-*; P-ya navîn jî di *hesp* ji *hêkwos-* û *dilop* ji *drewʰ-* de bi W/V/U-ya kevn ve girêdayî ye. Di *hesp* de P di qonaxa îraniya kevn de jî hatiye parastin.
+
+### 10.2. P û bandora erebî
+
+P di destpêka peyvan de bi gelemperî xwe diparêze, lê di hin peyvên îranî de bi rêya erebî bûye F, ji ber ku P di erebiya standard de tune bû. Pirtûk *fincan* ji pehlewî *pengan* û *fisteq* ji pehlewî *pistek* dide. Navê *faris/farisî* jî bi guherîna *pars/parsîg* ya kevn bi F hatiye. Peyva *fisteq* berî ku di bin bandora erebî de bi F were, bi forma P-ya xwe ji îranî bo yûnaniya kevn *pistakion* derbas bûye û paşê di latînî, îtalî, îngilîzî, frensî û ermenî de bi formên nêzîk belav bûye. Di hin zimanên ewropî de navê farisan û zimanê wan jî formên ne-erebî yên *Persian, Persisch, persa, persiano* û *parskêr* diparêzin.
+
+### 10.3. Q di zimanên îranî yên niha de
+
+Q di zimanên hindûewropî yên kevn û di zimanên îranî yên kevn û navîn de wek dengekî serbixwe yê kurdî tune bû. Lê di gelek zimanên îranî yên niha de belav bûye; pirtûk herwiha zimanê urdûyî wek mînaka zimanekî ne-îranî yê ku Q hildigire dide. Du çavkaniyên sereke yên Q di îraniya niha de bandora zimanên samî, bi taybetî erebî, û bandora zimanên tirkîkî ne.
+
+Di bandora erebî de, Q di peyvên wek *qam, qemer, qiyas, qîr, qudret* de hatiye. Hin peyvên bi eslê xwe yûnaniya kevn jî bi rêya erebî gihiştine kurdî: *qanûn* ji *kanon*, *qelem* ji *kalamos* û *qesir/qesr* bi rêya erebî ji latînî *castrum*.
+
+Di bandora tirkîkî de, Q di gelek zimanên wek azerî, teterî, oyxurî, qazaxî û ozbekî de heye. Pirtûk *kulak/qulaq/quloq*, *kar/qar/qor* û *kara/qara/qora* bi hev re berawird dike. Hin formên *qere-* jî di navên deveran de xuya dikin, wek *Qeredax, Qereqoş, Qeretepe* û *Qere Tajdîn*. Di tirkî de K li ber vokalên paşîn (A, I, O, U) ji aliyê cihê derketinê ve paşdevîtir e û nêzî Q-ya kurdî dibe.
+
+### 10.4. Q di peyvên ji tirkî hatine de û îstîsna
+
+Gava peyveke kurdî ji tirkî were wergirtin, K-ya tirkî li ber vokalên paşîn bi gelemperî di kurdî de dibe Q; mînak *qazan, qazanc/qezenc, qere-, qonax/qûnax, qurm, qeytan, qalind, quzilqurt, qûm*. Ev şert li gorî K-ya peyva tirkî ya bingehîn tê şîrovekirin; heta heke di forma kurdî de vokaleke pêşîn xuya bike, mînak *qîz* ji tirkî *kız*. Li ber vokalên pêşîn, K bi gelemperî wek xwe dimîne: *kelemçe, kepeng, komir, kok, koç*. Îstîsnayên pirtûkê *kon/kûn* û cotê *kol/qol* in.
+
+Di peyvên ji erebî hatine de Q bi gelemperî tê parastin. Lê *qel'e* dikare bibe *keleh/kelhe* û *xelq* di devê piraniya kurmancan de bibe *xelk*, tevî ku *xaliq, mexlûq, mexlûqat, xuliqandin, xuliqîn* Q diparêzin. Di hin devokan de *fakihe* bûye *fêkî* an *fêqî*. Berî konsonantên bêlerz ên wek T, S û Ş, Q-ya erebî bi gelemperî bibe X: *weqt → wext, neqş → nexş, reqs → rexs*.
+
+### 10.5. Q di peyvên bi eslê xwe îranî û di rêyên deynkirinê de
+
+Di peyvên bi eslê xwe îranî an hindûewropî de Q kêm e. Pirtûk *qa(n)tir, qap, qehreman, quling, quz, qûn* dide; hin ji van bi rêya zimanekî ne-îranî, bi taybetî tirkî, gihiştine kurdî. *Quling, quz, qûn* di hin zimanên din ên îranî de bi K tên, lê di kurdî de Q hildigirin. Hin peyvên bi Q dibe ku ji zimanên samî yên din hatibin, wek *qêrîn/qîrîn* û *req* ji aramî û *qîr* ji akadî.
+
+Pirtûk rêya vegera hin peyvên îranî ji erebî bo kurdî jî şirove dike:
+- Pehlewî *pistek* → erebî *festeq* → kurdî *fisteq*; farisî forma ne-erebîkirî *piste/pistê* diparêze.
+- Pehlewî *zendîk* → erebî *zendîq* → kurdî *zendîq*.
+- Pehlewî *xendek* → erebî *xendeq* → kurdî *xendek*, li gel varyanta *xendeq*.
+
+Ev rêzikên deynkirinê nîşan didin ku Q dikare di çend qonaxan de ji K-yê kevn derkeve, paşê dîsa li kurdî vegere; divê her peyv li gor rêya dîrokî ya xwe were şîrovekirin.
+
 ## Çavkanî
 
 Husein Muhammed, *Dengnasî di kurdî de*, rûpelên çapkirî 155–167.
