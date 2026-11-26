@@ -14,6 +14,7 @@ on:
       - "scripts/validate_kurmanji_sql.py"
       - "scripts/validate_kurmanji_seed_parity.py"
       - "scripts/test_north_circle_ui.py"
+      - "scripts/test_dengnasi_reader.py"
       - "docs/KURMANJI-RELEASE-AUDIT.md"
       - ".github/workflows/validate-kurmanji-package.yml"
   pull_request:
@@ -29,6 +30,7 @@ on:
       - "scripts/validate_kurmanji_sql.py"
       - "scripts/validate_kurmanji_seed_parity.py"
       - "scripts/test_north_circle_ui.py"
+      - "scripts/test_dengnasi_reader.py"
       - "docs/KURMANJI-RELEASE-AUDIT.md"
       - ".github/workflows/validate-kurmanji-package.yml"
   workflow_dispatch:
@@ -60,3 +62,5 @@ jobs:
           python -m playwright install --with-deps chromium
       - name: Run north-circle browser regression tests
         run: python scripts/test_north_circle_ui.py
+      - name: Run Dengnasi reader isolation browser tests
+        run: python scripts/test_dengnasi_reader.py
