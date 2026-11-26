@@ -2574,6 +2574,84 @@ Di hin lêkeran de Z-ya bilerz di bin bandora T-ya bêlerz a nîşana rabirdûy�
 
 Di peyvên ji erebî wergirtî de, çar dengên erebî bi kurdî bi awayên cuda têne wergirtin: Zeyn hevdengê Z-ya zirav e û dimîne (*zeytûn*); Zal dengekî didanî yê zirav e, wek [ð] ya di peyvên îngilîzî *they, there, then* de, û di kurdî de dibe Z-ya zirav (*zat*); Za dengekî didanî yê qelew e û dikare bibe Z-ya qelew an zirav (*zalim*, *zirav*); Dad jî dengekî D-ya qelew e û di kurdî de dikare bibe Z-ya zirav an qelew (*remezan*, *zemîr*). Divê cudahiya Z-ya qelew ya kurdî ji dengên didanî yên erebî cuda were fêmkirin; ew hevdeng nînin.
 
+
+## 7. Têbîniya navberî ya X û Ẍ di çavkaniyê de
+
+Di navbera beşên W û Y de, pirtûk beşeke taybet li ser **du dengên nêzîk ên ku di nivîsa latînî ya standard de bi X tên nivîsîn** vedike. Dengê yekem bêlerz e û di IPA de **[x]** e; dengê duyem bilerz e û di IPA de **[ɣ]** e. Di transkripsiyona navên Rojhilata Navîn de dengê yekem bi *kh* û yê duyem bi *gh* tê nîşandan. Ji bo danasîna akademîk a dengê duyem, nivîskar di hin nivîsan de **Ẍ/ẍ** bi kar tîne; ev nîşana şirovekirinê ye, ne pêşniyara herfa nû ya rastnivîsîna rojane.
+
+Dengê bêlerz [x] di peyvên wek *xav, xirab, xet, xatir, text, rex, çerx* de heye. Dengê bilerz [ɣ] di hin peyvên wek *xezal, xerîb, xurbet, axa, oxir/wexer, xêr/xeyrî, xeynî* de tê bihîstin. Piraniya peyvên bi [ɣ] di kurdî de ji erebî hatine, lê hemû ne wisa ne.
+
+Pirtûk çend rêyên dîrokî yên [ɣ] destnîşan dike:
+- Peyvên wek *ẍaz, ẍeram/ẍiram* û belkî *ẍerac* ji zimanên Ewropî hatine, lê bi rêya erebî gihiştine kurdî; di erebî de G tune bû û bi [ɣ] an C hatiye nêzîkkirin.
+- Navê *Beẍda/Beẍdad* bi eslê xwe ji îranî *Beg-dad/Beg-dat* hatiye; G di rêya erebî de bûye [ɣ] û forma erebîkirî vegeriya kurdî û farisî.
+- *aẍa, oẍir/wexer, çaẍ* ji tirkî-mongolî tên; di tirkî ya niha de dengê wan bi Ğ tê nivîsîn. *baẍ* jî di farisî û pehlewî de bi [ɣ] hatiye nivîsîn, herçend di hin devokên din ên îranî de bi G an K e.
+- *ẍar, meẍare* ji erebî hatine, lê erebî jî wan ji îraniya navîn wergirtiye; parsî *meẍadeg* wek formeke kevn tê nîşandan. *morẍ* (mirîşk) jî di gelek zimanên îranî de bi [ɣ] heye, lê pehlewî *murw* û belûçî *murg* in.
+- Di hin peyvên farisî de [ɣ] heye lê hevbera kurmancî ya wan X-ya bêlerz e; mînak *dorûẍ, dûẍ, laẍer, rowẍen*.
+
+Pirtûk di dawiyê de pirsê standardkirina X/Ẍ vedikole. Herçend ji aliyê teorîk ve *xêr* û *ẍêr* dikarin wateyên cuda nîşan bidin, di gotina piraniya kurdan de herdu bi X-ya asayî tên gotin û cotên mînîmal ên piştrastkirî pir kêm in. Ji ber ku zêdekirina Ẍ rastnivîsînê tevlihev dike û gelek peyvên erebî di kurdî de jî bi X tên gotin, nivîskar pêşniyar dike ku di nivîsa rojane de tenê **X** were bikaranîn; di ferheng û nivîsên dengnasiyê de dikare [ɣ] bi nîşaneke taybet were diyarkirin. Ev têbînî di vê dersê de wek beşeke serekî ya çavkaniyê tê parastin, lê navê dersê **Dengên V, W, Y û Z** dimîne.
+
+## 8. Hûrguliyên temamker ên V
+
+### 8.1. V-ya soranî û formên xwemalî
+
+Pirtûk diyar dike ku V di peyvên xwemalî yên soranî de hema-hema tune ye; *hevde* (17) û çend peyvên dengdarî îstîsna ne. Lê V di peyvên deynkirî de an di peyvên ku ji kurmancî hatine de tê nivîsîn, wek *dever, evîn, govar, mirov*. Ji ber vê yekê hebûna V di nivîsa soranî de bi tenê nayê bikaranîn da ku eslê peyvê were diyarkirin.
+
+### 8.2. Mînakên berawirdkirina V-ya destpêkê
+
+Pirtûk guherîna W/V ya kevn bi B an G li destpêka peyvan bi tabloya jêrîn nîşan dide:
+
+| Kurmancî | Farisî | Hewramî | Pehlewî | Avestayî |
+|---|---|---|---|---|
+| *ba* | *bad* | *wa* | *vat* | *vate-* |
+| *baran* | *baran* | *waran* | *varan-* | *vara-* |
+| *berf/befr* | *berf* | *wewre* | *vefr* | *vefre-* |
+| *beraz* | *goraz* | *weraz* | *veraz* | *veraze-* |
+| *gul* | *gul* | *vilî* | *gil* | *veriδ-* |
+
+Pirtûk dibêje ku ev guherîn di kurmancî, soranî û farisî de rêzikeke giştî ye; îstîsnaya sereke pêşlêkera **wer-** e (*wergirtin, wergerandin, werbûn, werkirin*). Di farisî de hevbera wê **ber-** e.
+
+### 8.3. V-ya destpêkê, peyvên deynkirî û etîmolojiyên nepiştrast
+
+Hin peyvên niha bi V dest pê dikin ji ber ketina E-ya destpêkê: *evan → van, evê → vê, evî → vî, ewê → wê, ewan → wan*. Pirtûk formên din jî dide: *wek* ji *we+ku*, *wir* ji *ewê derê*, *wêran* li hemberî pehlewî *evêran*, *war* li hemberî soranî *hewar*, *we* li hemberî rojhilatî *hewe*, û *wiqa/wiqas* ji *ewqas*.
+
+Hin peyvên bi V destpêdikin esil-biyanî ne: *vîze, vîrûs, vîtrîn, vajîna, vodka, Viyena, Viyetnam*. Etîmolojiya *vala/vale* nepiştrast e; pirtûk îhtîmala erebî *faric* an ermenî *parap/barab* dide. *Vir(r)* (derew, gotinên nerast) jî di navendî û rojhilatî de tê dîtin, lê di zimanên din ên îranî de tune ye; nivîskar îhtîmala ku ji erebî *kufir* bi rêya tirkî *küfür* hatibe pêşkêş dike.
+
+### 8.4. Etîmoloji û wateya pêşlêkera ve-
+
+Pêşlêkera kurmancî **ve-** di zimanên din ên îranî de bi heman awayî nayê dîtin; di soranî de hevbera wê wek paşlêkera **-ewe** tê bikaranîn (*kirdin-ewe, xwardin-ewe*). Pirtûk vê hêmanê bi daçeka *ve* re girêdide, ku wateya wê ya bingehîn “ji/jê, jê dûr, jê veqetiyayî” ye. Di zimanên din de formên hevreha wê hene: avestayî û sanskrîtî *epe/apa*, yûnaniya kevn *apú/apó*, latînî *ab*, almanî *ab*, îngilîzî ya kevn *af/æf/of*, îngilîzî ya niha *of/off*, holendî *af/ave-* û zimanên skandînavî *av*. Di kurmanciya rojhilatî de **-ve/-eve** wek paşlêker jî tê bikaranîn, wek *hatineve*.
+
+Wateya bingehîn di *vebûn, vekirin, veman* de hinekî hatiye parastin; paşê erkê vê hêmanê berfireh bûye û di hin peyvan de wateya “dubare, dîsa” jî girtiye. Divê em vê wateya nû ji wateya dîrokî ya “ji/jê” cuda bikin.
+
+## 9. Hûrguliyên temamker ên W
+
+W-ya destpêka peyvên xwemalî di gelek peyvan de ji ketina E-ya destpêkê pêk hatiye. Pirtûk van formên bingehîn dide: *ewê → wê, ewî → wî, ewan → wan, we+ku → wek, ewê derê → wir, evêran → wêran, hewar → war, hewe → we, ewqas → wiqa/wiqas*. Di hin peyvan de W ji H hatiye (*winda/wenda – hinda*) û di nîşana dema bê de W-ya kurmanciya navendî bi D-ya rojhilatî û zazakî re tê berawirdkirin: *wê/dê/do*.
+
+Di gotina devkî de W carinan wek herfa kelijandinê di navbera du vokalan de tê. Pirtûk *riwê min/rûyê min*, *xeswa wê/xwesûya wê* û *malavawo/malavayo* dide. Hin caran W û Y wateyên cuda hildigirin: *bawî* (nexweşiya romatîzmê) li hember *bayî* (“ji ba, bi ba”).
+
+## 10. Hûrguliyên temamker ên Y
+
+Y li destpêka peyvan bi gelemperî kêm e û gelek nimûneyên wê deynkirî ne: *yanî/ye'nî, Yûnis, Yûsif, yomî/yomiye* ji erebî; *yad* bi rêya soranî ji farisî; *yasa* ji tirkî. *Yezdan* di nav xelkê de kêm tê bikaranîn, *yar* zêdetir helbestî ye, û *yarî* (lîstik) di kurmanciya rojhilatî de tê dîtin, ne di navendî û rojavayî de.
+
+Y li dawiya peyvê pir kêm e: *ay, çay, ey, hay, hey, mey, ney, pey, ray, way, wey*. Piraniya wan dengên bangkirinê ne; *mey/ney* ji farisî, *ray* ji erebî *re'î* û *çay* ji peyvên deynkirî ne. Di gelek devokan de *çay/hay* wek *ça/ha* û *pey* wek *pê* tên gotin.
+
+Pirtûk herwiha rêya guherîna Y-ya latînî bi J-ya frensî nîşan dide: latînî *iūrāre* → frensî *jurer* û latînî *iuvenis* → frensî *jeune*. Navê *Ioannes* bi rêya yûnaniya kevn ji îbranî hatiye û di frensî de bûye *Jean*. Ev berawirdkirinên zimanên romî ji guherînên Y-ya di zimanên îranî cuda ne.
+
+## 11. Hûrguliyên temamker ên Z
+
+Di tirkî de peyvên ku bi Z dest pê dikin, li gorî pirtûkê, hemû bi eslê xwe biyanî ne; lê Z li nav û bi taybetî li dawiya peyvên xwemalî jî tê, wek *biz* (“em”) û *yüz* (“sed”). Di zimanên îranî yên niha de Z hem di peyvên xwemalî hem jî di peyvên deynkirî de heye, lê di proto-hindûewropî de tune bû.
+
+Z-ya peyvên xwemalî bi rehê proto-hindûewropî ***ǵʰ** ve tê girêdan; di zimanên îranî de bûye Z an J, lê di zimanên din de şopên G-yan maye: kurmancî *zer*, almanî *Gelb*, latînî *galbus*, îngilîzî ya kevn *geolu* û îngilîzî ya niha *yellow*. Pirtûk herwiha guherîna L → R di zimanên îranî de û parastina L di hin zimanên balto-slavî de destnîşan dike.
+
+Di peyvên ji erebî hatine de, çar dengên erebî dikarin bi awayên cuda werin wergirtin:
+- **Zeyn**: bi gelemperî wek Z-ya zirav dimîne, wek *zeytûn*.
+- **Zal**: dengekî didanî yê zirav e û dikare bibe Z-ya zirav, wek *zat*.
+- **Za**: dengekî didanî yê qelew e û dikare bibe Z-ya qelew an zirav, wek *zalim*.
+- **Dad**: dengekî qelew e û di hin peyvan de bûye Z-ya qelew an zirav, wek *remezan* û *zemîr*.
+
+Z-ya qelew ya kurdî bi [ẓ] ya erebî ne hevdeng e: ya kurdî pidûyî ye, lê ya erebî didanî ye. Z-ya qelew ya kurdî forma qelew a Zeyn e, ne forma qelew a Zal. Di farisî de Z-ya zirav bi gelemperî Z dimîne (*zer, zêr, zincîr, zû*), lê Z-ya qelew gelek caran li hemberî D ye (*zana/dana, zanîn/danişten, zava/damad*).
+
+Z di hin lêkeran de di bin bandora T-ya bêlerz a rabirdûyê de bibe S: *di-lîz-in → lîs-t-in*, *di-mîz-e → mîs-t-in* û *ve-di-guhêz-im → ve-guhas-t-in*. Ev guherîn bi morfolojiya rabirdûyê ve girêdayî ye.
+
 ## Çavkanî
 
 Husein Muhammed, *Dengnasî di kurdî de*, rûpelên çapkirî 203–232.
