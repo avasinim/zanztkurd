@@ -2281,11 +2281,11 @@ Husein Muhammed, *Dengnasî di kurdî de*, rûpelên çapkirî 187–202.
 
 ## 9. Têbîniya fonetîkî li ser pênaseya Ş
 
-Di rûpela çapkirî 187 de çavkaniyê Ş wek «paşpidûyî-xişok-vizok» pênase dike û ravekirina rawestandina temam û vekirina hêdî dide. Lê IPA [ʃ] dengekî **voiceless postalveolar fricative** e, ne affricate. Affricate destpêkeke sekinî/plosive û paşê berdana fricative heye; [ʃ] tenê bi tengiya rêya hewayê û xişokê tê çêkirin. Ji ber vê yekê, ders pênaseya fonetîkî ya [ʃ] rast dike û nakokiya ravekirina sەرچاوە بە تێبینییەکی ڕوون دەپارێزێت.
+Di rûpela çapkirî 187 de çavkaniyê Ş wek «paşpidûyî-xişok-vizok» pênase dike û ravekirina rawestandina temam û vekirina hêdî dide. Lê IPA [ʃ] dengekî **voiceless postalveolar fricative** e, ne affricate. Affricate destpêkeke sekinî/plosive û paşê berdana fricative heye; [ʃ] tenê bi tengiya rêya hewayê û xişokê tê çêkirin. Ji ber vê yekê, ders pênaseya fonetîkî ya [ʃ] rast dike û nakokiya ravekirina çavkaniyê bi têbîniyeke zelal diparêze.
 
-## 10. T-ya erebî û پاراستنی پف
+## 10. T û herfên erebî yên jêder
 
-چاپی سەرچاوە جیاوازیی نیشانەکانی erebî **ت** و **ط** و کاریگەرییان لەسەر T-ی کوردی دەخاتەڕوو: **ت** بە شێوەیەکی گشتی پفدارە و **ط** بێ‌پفە و قەڵەوە؛ بەڵام لە وشە و وەرگرتنە جیاوازەکاندا پاراستنی پف و قەڵەویی یەکسان نیە. نیشانە عەرەبییەکان لە دەقی خوێندکاردا نەنووسراون؛ جیاوازییە فۆنێتیکییەکە بە وشەی لاتینی ڕوون کراوەتەوە.
+Çavkaniyê cihê herfên erebî yên cuda û bandora wan li ser T-ya kurdî vedibêje: herfa yekem bi gelemperî pifdar e; ya duyem bêpif û qelew e. Parastina pif û qelewî di peyvên wergirtî de herdem yekreng nîne. Herfên erebî di nivîsa xwendekar de nehatiye bikaranîn.
 
 ## 11. T و مێژووی دەرکەوتن/کەوتن
 
