@@ -40,16 +40,19 @@ class DengnasiReaderBrowserTests(unittest.TestCase):
     def open_lesson(self, project_url: str):
         context = self.browser.new_context(viewport={"width": 1280, "height": 900})
         context.add_init_script("""
-            window.__dengnasiTest = { fromCalls: [], lessonKeys: [], rpcCalls: [] };
+            window.__dengnasiTest = { fromCalls: [], lessonKeys: [], rpcCalls: [], authCalls: [] };
             window.supabase = {
               createClient: (url) => {
                 window.__dengnasiTest.projectUrl = url;
                 return {
                   auth: {
-                    getSession: async () => ({
+                    getSession: async () => {
+                      window.__dengnasiTest.authCalls.push("getSession");
+                      return {
                       data: { session: { user: { id: "browser-test-user" } } },
                       error: null
-                    })
+                    };
+                    }
                   },
                   rpc: async (name) => {
                     window.__dengnasiTest.rpcCalls.push(name);
@@ -116,6 +119,8 @@ class DengnasiReaderBrowserTests(unittest.TestCase):
             self.assertEqual(state["projectUrl"], PRODUCTION_PROJECT_URL)
             self.assertEqual(state["fromCalls"], [])
             self.assertEqual(state["lessonKeys"], [])
+            self.assertEqual(state["authCalls"], [])
+            self.assertEqual(state["rpcCalls"], [])
             self.assertFalse(page.locator("#dengnasi-test-content").count())
         finally:
             context.close()
@@ -126,7 +131,8 @@ class DengnasiReaderBrowserTests(unittest.TestCase):
             page.locator("#dengnasi-test-content").wait_for()
             state = page.evaluate("window.__dengnasiTest")
             self.assertEqual(state["projectUrl"], TEST_PROJECT_URL)
-            self.assertEqual(state["fromCalls"], ["lesson_content"])
+            self.assertEqual(state["fromCalls"].count("lesson_content"), 1)
+            self.assertIn("lesson_progress", state["fromCalls"])
             self.assertEqual(state["lessonKeys"], ["kurmanji-dengnasi-lesson-01.html"])
             self.assertIn("student_has_enrollment", state["rpcCalls"])
             self.assertIn("Test-project lesson body", page.locator(".lesson-content").inner_text())
