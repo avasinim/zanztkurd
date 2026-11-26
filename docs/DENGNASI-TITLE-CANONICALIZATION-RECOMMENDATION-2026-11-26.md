@@ -47,3 +47,16 @@ Recommended rule: use each numbered lesson section's H1 as the canonical display
 ## Safety boundary
 
 This is documentation and recommendation only. It does not alter `main`, production Supabase, student data, access policies, migrations, deployment, or publication. It does not merge or change PR #89.
+
+
+## Implementation and validation — 2026-11-26
+
+The recommendation above has now been implemented on the isolated implementation branch:
+
+- The manifest's 27 display titles follow the numbered authoring H1 headings.
+- The nine stale titles in the reader's embedded lesson array have been aligned to those canonical headings.
+- Standalone lesson pages retain their matching H1 and document title metadata.
+- `scripts/validate_kurmanji_dengnasi_course.py` now checks, for every lesson, exact equality among the authoring H1, manifest title, reader title, standalone page title, and standalone page H1.
+- Stable lesson IDs, keys, source citations, printed/original/designed page ranges, and lesson body content were not changed by this title-parity update.
+
+The new validation will be exercised by the Dengnasi GitHub Actions workflow. Until that run passes, this is an implemented change awaiting CI confirmation, not a claim of passing validation. The course remains held under preparation; no activation, migration, database write, publication, deployment, or merge was performed.
