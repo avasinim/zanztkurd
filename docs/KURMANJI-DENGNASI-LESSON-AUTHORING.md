@@ -826,6 +826,63 @@ Di kurmancî de C dikare li destpêk, nav û dawiya peyvê were:
 
 Rêjeya C di nivîsên kurmancî de tenê 0,33% e; li gorî hejmarên ku nivîskar ji lêkolîna xwe ya berê vedigire, tenê Q û F ji wê kêmtir in. Di nav û dawiya peyvên xwemalî de gelek kêm tê dîtin; dema ku li van cihan peyda dibe, bi piranî li gel N e û wek NC xuya dike: *pênc, kinc, rêncber, gazinc, zincîr*.
 
+### Xişteyên berawirdkirinê yên C
+
+Pirtûk ji bo nîşandana rêza guherîna Y → C di zimanên îranî de van formên berawirdkirî dide:
+
+| Kurmancî | Farisî | Pehlewî | Avestayî | Sanskrîtî |
+|---|---|---|---|---|
+| *ceh* | *cow* | *cew / yew* | *yeve-* | *yeve-* |
+| *cam* | *cam* | *cam* | *yame-* | *yame-* |
+| *ciwan* | *civan* | *yuven* | *yuven* | *yuven* |
+| *cadû* | *cadû* | *catû* | *yatu-* | *yatû-* |
+| *cejn* | *ceşn* | *ceşn* | *yesne-* | *yeşne-* |
+| *co, cok, cihok* | *cû, cûy* | *coy, yoy* | *yevya-* | *yevya-* |
+| *cuda, cihê, ciya* | *coda* | *cudî* | *yuta-* | — |
+
+Di berawirdkirina zimanên tûranî de pirtûk van nimûneyan dide:
+
+| Tirkî | Qazaxî | Wateya kurdî |
+|---|---|---|
+| *yedi* | *ceti* | heft |
+| *yıl* | *cıl* | sal |
+| *yılan* | *cılan* | mar |
+| *yirmi* | *cıırma* | bîst |
+
+G-ya hin peyvan di bin bandora erebî de di kurdî û farisî de bûye C:
+
+| Kurmancî | Farisî | Erebî | Pehlewî |
+|---|---|---|---|
+| *tac* | *tac* | *tac* | *tag* |
+| *cûn* (reng) | *cûn, gûn* | *cûn* | *gon* |
+| *şetrenc* | *şetrenc* | *şetrenc* | *çetreng* |
+| *cindî* | *condî* | *cundî* | *gund* |
+| *gûz* | *cûz* | *cewz* | *gewz* |
+
+Nimûneyên din ên pirtûkê ku G-ya wan di hin zimanan de hatiye parastin an guheriye:
+
+| Kurmancî | Farisî | Erebî | Pehlewî |
+|---|---|---|---|
+| *cîhan* | *cihan* | — | *gêhan* |
+| *gamêş* | *gavmîş* | *camûs* | *gawmêş* |
+| *gêzer* | *gezer* | *cezer* | — |
+| *mêrg* | *merẍ* | *merc* | *merw* (parsî: *merg*) |
+
+Pirtûk herwiha formên *cuẍrafya* ji *geografiya* ya yûnaniya û *cehennem* ji *gehennom* ya îbranî dide.
+
+### C di zazakî û devokan de
+
+| Kurmancî | Zazakî | Farisî | Avestayî |
+|---|---|---|---|
+| *jin* | *cenî* | *zen* | *cêni-* |
+| *roj* | *roc* | *rûz* | *reoçe-* |
+| *jiyan, jîn* | *ciwayen* | *zindegî* | *cey-* |
+| *ji* | *ci* | *ez* | *heçe* |
+| *jêr* | *cêr, ciyer* | *zîr* | *heçe-eðeiri* |
+| *jor* | *cor, ciwer* | *zeber* | *heçe-upeiri* |
+
+Di hin deverên Mêrdînê de *diy-* dikare bibe C: *Diyarbekir → Carbekir* û *diya min → ca min*. Di Behdînan de *bajar* dikare wek *bacar* an *bacêr* were gotin. Pirtûk meyla C → J jî bi *îcar/îca → îjar/îja* û *wicdan → wijdan/ûjdan* nîşan dide.
+
 ### Dîroka C
 
 C di makezimanê proto-hindûewropî û di zimanên kevn ên îranî de tune bû. Piraniya peyvên kurdî yên ku bi C dest pê dikin ji erebî hatine wergirtin; lê gelek peyvên xwemalî jî bi C dest pê dikin. Li gorî şîroveya pirtûkê, C-ya van peyvên xwemalî ji Y-ya kevn hatiye: di serdema zimanên navîn ên îranî de Y bûye C. Nimûneyên berawirdkirinê *ceh/cow/cew/yeve*, *cam*, *ciwan*, *cejn* û *cuda/cihê/ciya* ne.
@@ -853,6 +910,22 @@ Cudahîya Ç-ya bipif û bêpif di hin peyvan de wate diguherîne. Pirtûk nimû
 
 Rêjeya Ç di nivîsên kurmancî de 0,59% e; li gorî lêkolîna ku nivîskar vedigire, F, Q û C tenê ji wê kêmtir in. Lê peyvên pirsiyarkî yên wek *çi, çend, çawa, çima, çira, çiqas, çilo, çito* û paşgirên *-çe* û *-çî* rêjeya wê zêde dikin.
 
+### Berawirdkirinên Ç û K
+
+Pirtûk ji bo peyva pirsiyarkî *çi* van formên berawirdkirî dide: kurdî *çi*, latînî *quis/qui*, sanskrîtî *kim* û rûsî *kak*. Di hin devokên soranî û zazakî de K dibe Ç; nimûneyên soranî: *kê → çê*, *kwê → çwê* û *kêr → çêr*. Ev guherîn di kurmancî de wek rêzikeke giştî tune ye.
+
+### Têkiliyên Ç bi dengên din re
+
+| Têkiliya dengî | Nimûneyên pirtûkê |
+|---|---|
+| Ç / C | *pênc* ku carinan wek *pênç* tê bihîstin; formên *pêncî, pêncem, pêncê, pêncan, pênca* C parastî nîşan didin |
+| Ç / S | kurmanciya navendî *birçî*; kurmanciya rojhilatî û soranî *birsî* |
+| Ç / Ş | *çelqîn / çelqandin* û *şilqîn / şilqandin* |
+| Ç / T | *pate* û *paçe* |
+| Ç / J / Z | avestayî *reoçe-*, zazakî *roc*, kurmancî *roj*, farisî *rûz* |
+
+Pirtûk ji bo berawirdkirina dîrokî ya *centum* jî formên fransî *cent* û îtalî *cento* dide; herdu ji latînî *centum* hatine.
+
 ### Dîroka Ç û têkiliyên wê
 
 Ç di hemû zimanên îranî yên kevn û nû de heye; di tirkî, ermenî, azerî û gurcî de jî tê dîtin. Di zimanên samî de, wek erebî û aramî, bi piranî tenê di hin devokan de heye. Lê di makezimanê proto-hindûewropî de tune bû. Li gorî şîroveya pirtûkê, piraniya Ç-yên destpêkî yên kurdî ji K-ya proto-hindûewropî peyda bûne. Nimûneya bingehîn peyva pirsiyarkî *çi* ye ku bi formên *quis/qui* yên latînî, *kim* ya sanskrîtî û *kak* ya rûsî tê berawirdkirin. Ji *çi* re peyvên *çawa, çend, çima, çira, çilo* û *çito* jî girêdayî ne. Di kurmancî de hin peyvên pirsiyarkî bi K mane, wek *kî, kê, kengî, kîjan* û *kû*.
@@ -877,6 +950,23 @@ Li gorî lêkolîna berê ya nivîskar, rêjeya D di nivîsên kurmancî de 4,6%
 D ji aliyê cih û awayê derketinê ve nêzî T ye. Herdu jî seknî-pidûyî ne; D bilerz e, T bêlerz e. Di kurmancî de D yek fonem e, lê T dikare bi awayên bipif û bêpif were gotin û ev du away dikarin di hin peyvan de wateyê biguherînin. T-ya bêpif dikare zirav an qelew be; pirtûk nimûneyên T-ya qelew wek *tirs, tarî, teng* dide. Cudahîya ziravî û qelewî ya T di vê rewşê de alofonîk e, ne fonemîk.
 
 D bi B, G û Z re jî hin taybetmendiyên hevpar heye. B û G jî wek D seknî-bilerz in, lê cihê derketina wan cuda ye. Z pidûyî-bilerz e, lê ji D cuda ye ji ber ku Z xişok-vizok e, D seknî ye. H, W, Y, V û eyn di hin şertan de dikarin li cihê D-ya di navbera vokalan de an piştî vokalekê werin.
+
+### Xişteyên dîrokî yên D
+
+Pirtûk D-ya hin peyvan bi Z-ya zimanên din re berawird dike:
+
+| Kurmancî | Soranî | Farisî | Hewramî | Zazakî | Avestayî | Proto-hindûewropî |
+|---|---|---|---|---|---|---|
+| *dil* | *dił* | *dil* | *zerre* | *zil* | *zered* | **ker* |
+| *dest* | *des(t)* | *dest* | *des* | *dest* | *zeste-* | **ghesto* |
+
+Di berawirdkirina farisî û kurdî de, pirtûk van formên D-ya dîrokî jî dide:
+
+| Farisî | Îraniya kevn / navîn | Kurmancî |
+|---|---|---|
+| *bad* | *vate-, vato-* (avestayî) | *ba* |
+| *abad* | *apat-* (pehlewî) | *ava* |
+| *bê(d)* | *peti-* (hexamenişî), *peyti* (avestayî) | *bi* |
 
 ### D di dîrok û devokan de
 
