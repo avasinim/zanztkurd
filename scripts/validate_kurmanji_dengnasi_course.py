@@ -507,3 +507,15 @@ for required in ("186–202", "[ʃ]", "[t]", "1,0%", "2,6%", "Pêraweja 136", "P
     assert required in lesson15, f"Lesson 15 is missing source detail: {required}"
 assert "https://en.wikipedia.org/wiki/File/" not in lesson15, "Lesson 15 must not add audio dependencies"
 assert not re.search(r"[\u0600-\u06FF]", lesson15), "Lesson 15 must remain Latin-script only"
+
+
+# Lesson 17 source-footnote assertions (printed pp. 233–250)
+lesson17_match = re.search(r"(?ms)^# Dersa 17 —.*?(?=^# Dersa 18 —)", source)
+assert lesson17_match, "Lesson 17 authoring section is missing"
+lesson17 = lesson17_match.group(0)
+lesson17_payload = payload["lessons"][16]["content_html"]
+for required in ("Têbîniyên pêrawejan 159–165", "bihilm/aspirated", "dün", "qelen", "qîz", "kon/kûn", "tirkî", "weqt"):
+    assert required in lesson17, f"Lesson 17 is missing source footnote detail: {required}"
+for required in ("Têbîniyên pêrawejan 159–165", "bihilm/aspirated", "dün", "qelen", "qîz", "kon/kûn", "tirkî", "weqt"):
+    assert required in lesson17_payload, f"Lesson 17 HTML payload is missing source footnote detail: {required}"
+assert not re.search(r"[\\u0600-\\u06FF]", lesson17), "Lesson 17 must remain Latin-script only"
