@@ -106,3 +106,15 @@ When implementation is authorized and performed in a local project checkout, cre
 - The manifest status on the implementation branch is correctly `under preparation`; do not change it to active or release-ready.
 - The implementation plan and validation report do not identify a reproducible generator command or script path. Before changing the payload, locate and inspect the actual generation method or establish a deterministic, reviewable generator. Do not hand-edit the JSON payload or infer a generator filename.
 - **Gate remains closed:** no payload regeneration is claimed, no SQL/migration or database write is authorized or performed, and no deployment/publication/activation is performed. Required next evidence: generator provenance, regenerated 27-row payload, current-source parity, HTML/list/table/metadata checks, and browser suite execution through CI.
+
+
+## Preview-file source parity recheck — 2026-11-26
+
+- The 27 individual HTML preview files were located under `docs/previews/kurmanji-dengnasi-lesson-NN-content-preview.html`. The repository tree contains no dedicated Dengnasî Markdown-to-HTML generator under `scripts/`; the available scripts are the course validator, PDF checker, and mocked browser test.
+- Directly compared the current synchronized authoring sections with the corresponding Lesson 22, 24 and 27 HTML previews. The HTML previews are also stale, not just the JSON payload:
+  - Lesson 22 source contains `qurd`, `qenc` and `kenc`; its HTML preview does not.
+  - Lesson 24 source contains `sêp`, `sêb`, `sêv`, `sêw`, `şeb`, `şev`, `şew` and `xew`; its HTML preview does not.
+  - Lesson 27 source contains the printed-page 426 form `neyînîn` and the page-428 repeated `dîsa, dîsa` note; its HTML preview has the alternate forms `neînin` and `dîsa/dîsan`, but not the source-anomaly notes.
+- Therefore the historical validation report's 27/27 parity results do not describe the current source-to-preview state. Both the three affected HTML previews and the JSON payload require regeneration/revalidation.
+- The authoring document has 27 lesson headings, but no reproducible generator command or source script was found in the implementation branch's complete `scripts/` and workflow file list. A deterministic generator must be added or recovered and run in a local checkout before updating the artifacts.
+- **Gate remains closed.** No HTML preview or payload was modified in this step; no migration, database write, deployment, publication, activation, or student-data change occurred.
