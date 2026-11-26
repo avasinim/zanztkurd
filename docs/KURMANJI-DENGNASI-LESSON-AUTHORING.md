@@ -2300,13 +2300,16 @@ Di kurmanciya standard de paşpirtika *-andin* di hin lêkeran de dibe *-în-*:
 - *çandin* → *di-çîn-im*;
 - *nirxandin* → *di-nirxîn-î*.
 
-Di soraniya standard de di hin hevrewşan de *-ên-* tê dîtin. Di çemandinê de vokal û nîvvokal dikarin bên rakirin an jî li hev bên:
+Di soraniya standard de di hin hevrewşan de *-ên-* tê dîtin. Di çemandinê de vokal û nîvvokal dikarin bên rakirin an jî li hev bên: 
+
 - *rê* → *li ser rê* (formên bi Y jî hene);
 - *mase* → nivîskî *li ser mase-y-ê*, devkî *li ser masê*;
 - *perde* → *perde-y-ên zer*, devkî *perdên zer*;
 - *name* → *name-y-a wê*, devkî *nama wê*.
 
 Ger peyva xwerû bi vokalê bi dawî bibe, nivîsîna standard dikare vokala wê biparêze û Y-ya girêdanê lê zêde bike. Di gotina devkî de Ê dikare cihê vokala dawiyê bigire. Ev cudahiya nivîsîn û axaftinê divê were fêmkirin, ne ku wek xeletiya xwendinê were hesibandin.
+
+Gava Y-ya girêdanê li pey Ê were, Ê dikare bi I were guhertin: *rê → riya me* (herwiha *rêya me*) û *dê → diya min* (kêm caran *dêya min*). Lê dema peyv ji hev veqetiyayî be, Ê nayê guhertin: *Ew dê ye* û *Li ser rê ye*.
 
 Dengnasîya I di çavkaniyê de bi [ɪ] tê nîşandan; ew ji [ɯ] ya tirkî cuda ye, ku vokaleke paşîn e. I-ya kurdî li pêşiya devê ye û ji kesreya erebî kurtir e; kesre di navbera I û Î de ye. Çavkaniyê herwiha diyar dike ku I di nivîsîna standard de li destpêka peyvên xwemalî nayê nivîsîn, herçend hin devok *iro, istêrk, istiran* dibêjin. Di peyvên ji erebî hatî de nivîskaran gelek caran Î li destpêkê dinivîsin, lê pêşniyara nivîskar parastina I ye: *imla, imtihan, ihtimal, imkan*.
 
