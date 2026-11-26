@@ -306,3 +306,13 @@ Scope checked: draft Lessons 1–27 against the source's printed page labels and
 - The Dengnasi authoring browser test completed, including the new source-note, PDF-reference, loading-placeholder and Lesson 1 heading assertions. The package workflow also completed its north-circle and Dengnasi reader isolation browser suites.
 - These Chromium tests use mocked Supabase responses. They verify the production fail-closed boundary and test-project fixture flow; they do not prove a real login or browser session against the live test Supabase service. That authorized-account check remains outstanding.
 - PR #89 remains open and Draft, with 349 commits ahead of `main` and 0 behind. No merge, production change, migration, student-data access or deployment occurred.
+
+
+### Lesson 17 source-topic title alignment — 2026-11-26
+
+- Rechecked the source-book pages assigned to Lesson 17 (printed pages 233–250). The source sequence covers Eyn (pp. 233–236), the relationship among K, G and Q (pp. 237–241), and consonant clusters (pp. 242–250).
+- The former lesson title and runtime heading did not name all three topic groups. The unified Kurmanji Latin title is now **Eyn, K/G/Q û komên konsonantî di kurdî de**.
+- Aligned the authoring table and heading, course JSON manifest, reader's embedded lesson list, protected Lesson 17 page title and H1, and the runtime title normalization. Removed the Arabic-script Eyn character from the Lesson 17 title and kept the source-reference note distinct from lesson content.
+- Added validator assertions for title parity across the authoring document, manifest, reader, static page and runtime, plus a Chromium browser assertion for the rendered Lesson 17 title. The browser fixture supplies mock completion rows for lessons 1–16 so the existing sequential-access gate is exercised without reading or changing real student progress.
+- All five PR workflows completed successfully at head `4aefb324218f146c520873fdb781adf7602f9792`: Dengnasi authoring, Kurmanji package integrity (including both browser regression suites), Dengnasi course/PDF validation, academic lesson catalog and lesson navigation.
+- The browser tests still use a controlled Supabase mock; they are not a real login to the test Supabase service. No student data, Supabase records, production configuration, migration, merge or deployment was accessed or changed.
