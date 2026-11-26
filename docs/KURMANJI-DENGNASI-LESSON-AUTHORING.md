@@ -1219,6 +1219,44 @@ Di kurdî de H dikare li destpêk, nav û dawiya peyvê were:
 
 Rêjeya herfa H di nivîsên kurmancî de li gorî lêkolîna ku pirtûk vedigire **2,3%** e. Ev hejmar herdu dengên H ji hev cuda nake. Di soranî de H li dawiya peyvê bi gelemperî nayê parastin: kurmancî *deh, ceh, meh, şah* li hember soranî *de, co, mang, şa*.
 
+### Berawirdkirina H-ya proto-hindûewropî
+
+Pirtûk nîşan dide ku H-ya proto-hindûewropî di gelek zimanên paşhatî de ketiye. Ev xişteya wê bi formên zimanên cuda re berawird dike:
+
+| Ziman | *stêr* | *e* (heye) | *ez* |
+|---|---|---|---|
+| Proto-hindûewropî | *h₂stḗr* | *h₁es-* | *éǵh₂* |
+| Avestayî | *ster* | *esti-* | *ez-* |
+| Yûnaniya kevn | *astêr* | *êstî* | *êgó* |
+| Sanskrîtî | *tare* | *esti* | *ehem* |
+| Îngilîziya kevn | *steorra* | *is* | *ih, ic* |
+| Latînî | *stella* | *est* | *ego* |
+| Pehlewî | *star* | *est* | *ez* |
+| Farisî | *sitare* | *est* | — |
+| Kurmancî | *stêr* | *e* | *ez* |
+
+H-ya proto-hindûewropî di gelek paşhatên wê de winda bûye; H-ya niha ya zimanên îranî ji çavkaniyên din jî hatiye.
+
+### S-ya proto-hindûewropî û H
+
+Di zimanên îranî de S-ya proto-hindûewropî ya berî vokalan dikare bibe H. Pirtûk ji bo jimara heft van formên berawirdkirî dide:
+
+| Ziman | Forma “heft” |
+|---|---|
+| Kurmancî, farisî, pehlewî, parsî, tacikî | *heft* |
+| Soranî, zazakî | *hewt* |
+| Sanskrîtî | *septen* |
+| Latînî | *septem* |
+| Fransî | *sept* |
+| Îngilîzî | *seven* |
+| Polonî | *siedem* |
+| Rûsî | *semi* |
+| Yûnaniya kevn | *hêpta* |
+| Ermeniya kevn | *êawt’n* |
+| Ermeniya nû | *yot’* |
+
+Ev guherîn bi taybetî dema S berî vokalan be tê dîtin; di *stêr* de S-ya berî konsonantê wek xwe dimîne. Pirtûk herwiha *heman/hem/hev* bi îngilîzî *same* û *havîn* bi *summer* re berawird dike.
+
 ## 5. Çavkaniyên dîrokî yên H
 
 H di hemû lehceyên kurdî û di gelek zimanên cîran de heye. Di zimanên îranî yên kevn, wek avestayî û hexamenişî, û di zimanên îranî yên navîn, wek pehlewî û partî, jî hebûye. Lê H-ya îroyîn ya kurdî her tim ji H-ya proto-hindûewropî nehatiye.
@@ -1237,6 +1275,34 @@ H-ya destpêkê di hin peyvên kurmancî de zêde bûye, bi taybetî ji bo ku pe
 Di hin devokan de peyvên wek *sto, strî, stêrk* pêşî bi vokalekê dest pê kirine û paşê H li destpêka wan peyvan zêde bûye: *stêr(k) → istêrk → histêrk*; *sto → isto → histo*; *strî(k) → istrî(k) → histrîk*.
 
 H di hin peyvan de li cihê X-ya farisî jî tê: kurmancî *hişk, hirç, tehl, suhr/sor* li hember farisî *xoşk, xers, telx, sorx*. Di hin peyvan de li cihê W an Ş jî tê dîtin; nimûneyên pirtûkê *ceh*, *têhnî/tihnî*, *çehv* û *rih/reh* ne. Di hin berawirdkirinan de farisî H-ya ji V/F hatiye, lê kurmancî dengê xwe yê V/F diparêze, wek *kulav, kovî* li hember farisî *kolah, kohî*.
+
+### Nimûneyên H-ya zêdekirî li destpêka peyvan
+
+| Zimanên din / formên bê H | Kurmancî |
+|---|---|
+| Avestayî, pehlewî, farisî, soranî *esp-/esb-* | *hesp* |
+| Avestayî *mer-a*, zazakî *amar*, pehlewî *şumar*, farisî *şomar*, soranî *jimare* | *hejmar, hijmar* |
+| Sanskrîtî *ustre-*, hexamenişî *uşsre-*, farisî *şotor* | *hêştir*; soranî *hoştir* |
+| Latînî *aes*, sanskrîtî *eyes*, avestayî *eyeh-*, pehlewî *asîn*, farisî *ahen*, soranî û kurmanciya rojhilatî *asin* | Kurmanciya navendî *hesin* |
+| Hîtîtî *ishahru*, ermenî *artosr*, latviyayî *asara*, lîtwanî *ašar*, sanskrîtî *eşru*, avestayî *esir-*, pehlewî *esr*, farisî *ers* | *hêsir, hêstir, hêsr* |
+
+Di hin devokan de H-ya zêdekirî di *histo, histrî, histêrk* de tê dîtin. Pirtûk pêvajoyê wiha şirove dike: pêşî vokala I ji bo sivikkirina koma konsonantan tê zêdekirin, paşê H li destpêkê peyda dibe:
+- *stêr(k) → istêrk → histêrk*;
+- *sto → isto → histo*;
+- *strî(k) → istrî(k) → histrîk*.
+
+### Çavkaniyên din ên H
+
+Pirtûk van têkiliyên din jî qeyd dike:
+- kurmancî *masî* li hember farisî *mahî*;
+- kurmancî *asin/hesin* li hember farisî *ahen*;
+- kurmancî û farisî *deh* li hember zazakî *des*;
+- kurmancî *bihar* û farisî *behar* li hember zazakî *wesar*;
+- farisî *kolah/kohî* li hember kurmancî *kulav/kovî* (pehlewî *kulafek*, partî *kof*);
+- avestayî *yewe-*, hewramî *yewe*, zazakî *cew*, pehlewî *cew*, farisî *cow*, soranî *co* li hember kurmancî *ceh*;
+- farisî *têşnê* û zazakî *teyşan* li hember kurmancî *têhnî/tihnî*;
+- avestayî *çeşmen*, pehlewî *çeşme*, farisî *çeşm* li hember kurmancî *çehv/çav*;
+- farisî *rîş* li hember kurmancî *rih/rî* (mûyên rûyê mêran), û farisî *rîşê* li hember *reh/rih* (bingehên dar û giyayan).
 
 ## 6. Guherînên H bi dengên din re
 
@@ -1278,6 +1344,19 @@ Di vê berawirdkirinê de divê cudahiya devokî û standardî were parastin: *r
 Di hin peyvan de J ji Ş an S-ya kevn hatiye: *hejmar, jimare, jimartin, -jimêr-* li hember farisî *şumar*, peştûyî *şmêrêl* û sanskrîtî *smarati*. Pirtûk herwiha *jidandin* li hember *şidandin* û *cejn* li hember farisî *ceşn* û avestayî *yesne-* dide. Di şîroveya dîrokî ya pirtûkê de, li cihê van dengên îroyîn di proto-hindûewropî de G an K hebû; paşê di îraniya kevn de bû Ç û di qonaxên paşîn de di zimanan de bû C, Z an J.
 
 Di hin peyvan de C bûye J: *îca/îcar → îja/îjar* û *wicdan → wijdan*. Ev guherîn bi piranî dîrokî ye.
+
+### Xişteya berawirdkirina J
+
+| Ziman | Forma “jin” | Forma “roj” |
+|---|---|---|
+| Kurmancî û soranî | *jin* | *roj* |
+| Zazakî | *cenî* | *roc* |
+| Farisî û pehlewî | *zen* | *rûz / roz* |
+| Avestayî | *cinî-* | *reoçeh-* |
+
+Di piraniya devokên zazakî de *roc* tê gotin, lê forma nivîskî ya standard ya Koma Xebatê ya Vateyê *roj* e. Pirtûk dibêje ku forma standard bi armanca nêzîkkirina zazakî bi zaravayên din ên kurdî hatiye hilbijartin.
+
+Pirtûk herwiha ev rêza berawirdkirinê dide: kurdî *hejmar, jimare, jimartin, -jimêr-*; farisî *şumar*; peştûyî *şmêrêl*; sanskrîtî *smarati*; proto-hindûewropî *smer-*. Nimûneyên din *jidandin* li hember *şidandin* û *cejn* li hember farisî *ceşn* û avestayî *yesne-* ne.
 
 ## 10. Guherîna J bi dengên din re
 
