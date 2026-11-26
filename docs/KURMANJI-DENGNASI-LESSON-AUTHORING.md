@@ -3478,6 +3478,22 @@ Diyardeyeke nêzîk di piraniya devokên soranî de heye. Gava Ê an WÊ li pey 
 
 Ev diyardeya niha di kurmancî de nayê dîtin. Lê çavkaniyê têkiliya wê bi guherînên dîrokî yên zimanên îranî re nîşan dide. Peyva kurdî *çi, çî* ji rehê proto-hindû-ewropî *kʷis* hatiye şîrovekirin; heman reh di formên *kî, kê* de jî maye. Di hin zimanên hindû-ewropî de herdu pirs bi dengê [k] hene; çavkaniyê fransî *qui* [kî] û *que* [ki] wek nimûne dide.
 
+## 14. Têbînî û nimûneyên temamker ên çavkaniyê
+
+Çend têbînî û footnote yên çavkaniyê ji bo temamkirina berawirdkirinê divê bên parastin:
+
+- Di peyvên xwemalî yên soranî de *hevde* (17) wek yek ji kêm awarteyên V tê destnîşankirin.
+- *dem* bi wateya “wext, çax, zeman” di kurmancî û soranî de heye; lê di soranî de *kat* bi vê wateyê zêdetir tê bikaranîn.
+- Ji bo koma lêkerên *gihandin / gihiştin*, çavkaniyê herwiha formên *gehandin / gehiştin* jî qeyd dike.
+- Di kurmancî de pêşpirtika lêkerên berdewamiyê bi piraniya lêkeran *di-* ye; lê bi hin lêkeran forma serdest *t-* e, wek *ez têm / tînim*.
+- Di soraniya nivîskî de *de-* forma devokên mukrî û hewlêrî ye; *e-* jî di devokên silêmanî û kerkûkî de tê bikaranîn. Herdu form di nivîsê de tên dîtin, lê *de-* serdest e.
+- Forma çemandî ya *kî* di nimûneya çavkaniyê de *kê* ye.
+- Di şiroveya G û K de, çavkaniyê ji bilî nimûneyên G, nimûneyên C yên zimanên ewropî jî dide: di îtalî de C berî E an I wek [ç] tê gotin; *cento* [çênto] “sed, 100” û *cinque* [çînkwê] “pênc”. Ev nimûne ji bo nîşandana şertê dengî ne, ne nimûneyên kurdî.
+- Di tabloya Û/UH û WÊ de, *dijûn* bi wateya “sixêr, xeber” hatiye şîrovekirin.
+- Ji bo ravekirina dîrokî ya H, çavkaniyê xwendekar dişîne vê nivîsarê: https://zimannas.wordpress.com/2015/08/10/denge-h-peydabun-u-guherina-wi/
+
+Ev têbînî di nav çarçoveya çavkaniyê de ne; ew rêbazên nû an nimûneyên derveyî pirtûkê zêde nakin.
+
 ## Çavkanî
 
 Husein Muhammed, *Dengnasî di kurdî de*, rûpelên çapkirî 373–386.
