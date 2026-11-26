@@ -9,7 +9,7 @@
     "language": "Kurmancî",
     "script": "Latin"
   },
-  "status": "under preparation — 27 source-based Kurmanji Latin lessons drafted; bridge payload requires regeneration and validation; not activated; no deployment verified",
+  "status": "under preparation — 27 source-based Kurmanji Latin lessons drafted; all 27 HTML previews and the JSON payload regenerated and CI-validated; protected lesson routes remain gated; course not activated; no deployment verified",
   "policy": "Preserve the source wording, examples, tables, and illustrations. The 27 divisions are editorial navigation only; do not add quizzes, questions, or exercises unless separately requested.",
   "designedPdf": {
     "libraryFilename": "Dengnasiya_Zimane_Kurdi_27_Wane_corrected.pdf",
