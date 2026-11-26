@@ -15,7 +15,7 @@ The lesson body already covers diphthongs, W/Y combinations, dialect differences
 - Notes 262–264 preserve the source's bibliography references in summarized form; no external audio or embedded URLs were added.
 
 ## Validation
-Master, HTML preview, payload and validator assertions updated. Full HTML/payload parity and Latin-only checks are pending post-write verification. Full validator and CI have not been run.
+Master, HTML preview, payload and validator assertions updated. HTML/payload parity and Latin-only checks were verified after the updates. Full validator and CI have not been run. Full validator and CI have not been run.
 
 ## Scope
 No merge, deployment, production Supabase change, migration, student-data change or activation. Course remains draft.
