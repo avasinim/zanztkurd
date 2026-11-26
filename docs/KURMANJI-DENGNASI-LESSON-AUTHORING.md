@@ -2373,6 +2373,112 @@ Di tabloya çavkaniyê de komê **-XT** hem di lîsteya peyvên esil-îranî (r.
 
 Herçend piraniya komên konsonantî ji du konsonantan pêk tên, di kurmancî de hin komên sêkonsonantî jî hene. Çavkaniyê sê nimûneyên sereke dide: **STR-** di *stran* û *stratejî* de; **-YŞT** di *heyşt* de, ku tenê di hin devokan de tê gotin û li gelek deveran *heşt* tê bikaranîn; û **-KST** di *tekst* de.
 
+### Lîsteya temam a komên konsonantî li gor tabloya çavkaniyê
+
+Çavkaniyê pêşî tabloyekê dide ku hemû cotkonsonantên gengaz di kurmancî de li gor herfa yekem û ya duyem rêz dike. Ji bo ku wê agahiyê di awayê dersê de jî bê windakirin, komên ku di tablo û nimûneyên rûpelên 242–245 de hatine qeyd kirin, li vir bi awayê kategorîkirî tên parastin. Nîşana xêzê ya çavkaniyê cihê gengaz ê komê diyar dike: xêz li herdu aliyên komê tê de, hem destpêk û hem dawiya kîteyê gengaz e; xêz tenê li pêş komê be, kom li dawiya kîteyê ye; xêz tenê li paş komê be, kom li destpêka peyvê ye.
+
+| Koma dengî | Nimûneyên ku di tabloya çavkaniyê de hatine dayîn |
+|---|---|
+| **-BD** | *ebd (evd)* |
+| **-BL-** | *blok, blanket, blond; hebl* |
+| **-BR-** | *Brîtanya; hibr/hubr* |
+| **-BB** | *rebb (reb)* |
+| **-BS** | *hebs (hefs)* |
+| **-CM** | *hecm, recm (hecim, recim)* |
+| **-ÇK** | *kuçk (kuçik)* |
+| **DR-** | *drama* |
+| **-FS** | *hefs* |
+| **-FŞ** | *kifş, kefş* |
+| **-FT** | *heft, şkeft* |
+| **-FZ** | *hefz, refz (revz)* |
+| **GL-** | *glas, global* |
+| **GR-** | *gram, gramer* |
+| **GW-** | *gwîz, gwîzan (gûz, gûzan)* |
+| **-HL** | *tehl, dehl; pehn, pêhn* |
+| **-HS** | *behs* |
+| **-HŞ** | *wehş* |
+| **-HT** | *teht* |
+| **-JD** | *rijd* |
+| **-JN** | *bejn, cejn* |
+| **KL-** | *klasîk, klarînet* |
+| **KR-** | *krêm, krîstal* |
+| **-KS-** | *eks; ksîlofon, ksîlîtol* |
+| **-MB** | *duşemb (duşem)* |
+| **-MP** | *kamp/kemp* |
+| **-MZ** | *remz* |
+| **-MD** | *hemd* |
+| **-NC** | *pênc, kinc, qenc* |
+| **-ND** | *bilind, çend, rind* |
+| **-NG** | *deng, reng, ceng* |
+| **-NS** | *cins* |
+| **-NX** | *zinx* |
+| **-PS-** | *heps (= hefs); psîkolojî* |
+| **-QS** | *reqs (rexs)* |
+| **-QŞ** | *neqş (nexş)* |
+| **-QT** | *weqt (wext)* |
+| **-RB** | *kerb, herb* |
+| **-RC** | *merc, gurc* |
+| **-RÇ** | *hirç, pirç, qurç* |
+| **-RD** | *kurd, merd, derd* |
+| **-RF** | *herf* |
+| **-RG** | *gurg, merg, cerg* |
+| **-RM** | *germ, nerm, çerm* |
+| **-RN** | *curn, gorn* |
+| **-RQ** | *irq, xerq* |
+| **-RS** | *birs (birçîtî), Mars* |
+| **-RŞ** | *ferş, merş, marş* |
+| **-RX** | *berx, çerx, merx* |
+| **-RZ** | *derz, erz* |
+| **-SK-** | *misk; skelet* |
+| **-SL-** | *slavî, Slovakya; esl, fesl* |
+| **-SM-** | *resm; smartfon* |
+| **-SP-** | *hesp, çesp; spî, spor* |
+| **-SQ** | *risq (rizq)* |
+| **-ST-** | *dest, test; stêr, Stembol* |
+| **-ŞK-** | *meşk; şkeft, şkestin* |
+| **-ŞM** | *dirûşm* |
+| **-ŞT** | *heşt, deşt, mişt* |
+| **-VD** | *evd* |
+| **-VZ** | *hevz (hefz)* |
+| **-WD** | *hewd* |
+| **-WQ** | *zewq* |
+| **-WS** | *dews* |
+| **-WŞ** | *rewş, hewş* |
+| **-WT** | *çewt, hewt, eşkewt* |
+| **-WZ** | *hewz* |
+| **-XS** | *rexs (reqs)* |
+| **-XŞ** | *nexş* |
+| **-XT** | *bext, text, wext* |
+| **-YD** | *eyd* |
+| **-YF** | *heyf, keyf* |
+| **-YL** | *meyl* |
+| **-YN** | *deyn, beyn, eyn* |
+| **-YR** | *teyr, seyr* |
+| **-YS** | *heys (heysûbeys)* |
+| **-ZQ** | *rizq (risq)* |
+
+Di tabloya rêzimanî ya rûpela 243 de hin komên din tenê bi şêweya matrixê hatine nîşandan, bê ku ji bo wan di lîsteya nimûneyan de peyv were dayîn. Ev komên matrixê jî ev in: **-NC, -RC, -RÇ, -JD, -MD, -ND, -RD, -VD, -WD, -ZD, -RF, -NG, -RG, -ÇK, -SK, -ŞK, -BL, -GL, -HL, -KL, -SL, -CM, -RM, -SM, -CN, -HN, -JN, -RN, -MP, -SP, -RQ, -SQ, -WQ, -ZQ, -BR, -DR, -GR, -KR, -BS, -FS, -HS, -KS, -NS, -PS, -QS, -RS, -XS, -YS, -HŞ, -QŞ, -RŞ, -ŞT, -WŞ, -XŞ, -FT, -HT, -QT, -ST, -WT, -XT, -GW, -RX, -FZ, -MZ, -RZ, -VZ**. Dubarebûna hin koman di matrix û lîsteya nimûneyan de wek xuyangiya çavkaniyê hatiye parastin.
+
+### Komên cotkonsonantî yên esil-îranî
+
+Çavkaniyê di rûpela 247 de komên jêrîn wek komên ku di peyvên kurmancî yên esil-îranî de tên dîtin rêz dike:
+
+**-ÇK, -FT, GW-, -HL, -HT, -JD, -JN, -MB, -NC, -ND, -NG, -RC, -RÇ, -RD, -RF, -RG, -RM, -RN, -RS, -RX, -RZ, -SK-, -SP-, -ST-, -ŞK-, -ŞM, -ŞT, -WT, -XT.**
+
+Nimûneyên wan di lîsteya jorîn de bi awayê çavkaniyê hatine parastin. Çavkaniyê *bisk* wek nimûneya **-SK-** li dawiya kîteyê, û *bîst* wek nimûneya **-ST-** li dawiya kîteyê jî dide; di tabloya giştî de formên din ên heman koman hene.
+
+### Komên cotkonsonantî yên esil-erebî
+
+Çavkaniyê di rûpelên 248–249 de komên ku di peyvên esil-erebî de hene lê di peyvên esil-îranî de nayên dîtin wiha rêz dike:
+
+**-BD, BB-, -BS, -CM, -FŞ, -FZ, -HS, -KS, -MZ, -MD, -NS, -NX, -QS, -QŞ, -QT, -RB, -RQ, -RŞ, -SM, -SQ, -VD, -VZ, -WD, -WQ, -WS, -WZ, -XS, -XŞ, -XT, YD, YF, -YL, -YN, -YR, -YS, -ZQ.**
+
+Çavkaniyê hin guhertinên dengî di dema wergirtina peyvan de nîşan dide: **BD→VD** di *ebd/evd* de; **FZ→VZ** di *hefz/hevz* de; **QṢ→XS** di *reqs/rexs* de; **QŞ→XŞ** di *neqş/nexş* de; **WḌ→WZ** di *hewz* de; û **SQ↔ZQ** di *risq/rizq* de. Di tabloya çavkaniyê de **-XT** di beşa esil-îranî û esil-erebî de herdu caran tê qeyd kirin, û **-XS** û **-XŞ** jî dubare tên nivîsîn. Ev dubarekirin û nakokiyên kategorîkirinê wek xuyangiya çavkaniyê têne parastin.
+
+### Komên ji zimanên Ewropî wergirtî
+
+Çavkaniyê komên **BL-, BR-, DR-, GL-, GR-, KL-, KR-, KS-, MP-, PS- û SK-** bi peyvên ji zimanên Ewropî wergirtî ve girê dide. Nimûneyên wan: *blok, blanket, blond, Brîtanya, drama, glas, global, gram, gramer, klasîk, klarînet, krêm, krîstal, ksîlofon, ksîlîtol, kamp/kemp, psîkolojî, skelet*. Çavkaniyê hin ji van koman di beşên din de jî nîşan dide; dabeşkirin li gorî eslê peyvê ye, ne tenê li gorî şêweya komê.
+
 ## Çavkanî
 
 Husein Muhammed, *Dengnasî di kurdî de*, rûpelên çapkirî **233–250**.
