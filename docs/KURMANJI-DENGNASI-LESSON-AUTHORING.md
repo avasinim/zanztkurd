@@ -614,7 +614,7 @@ Husein Muhammed, *Dengnasî di kurdî de*, rûpelên çapkirî 44–55.
 
 # Dersa 7 — Tesîra guherîna dengî li ser nivîsînê
 
-## 1. Pirsa bingehîn: em çawa binivîsin?
+## 1. Rêbaza nivîsîna peyvên ku dengên wan diguherin
 
 Di axaftinê de hin deng ji ber dengên nêzîkî xwe diguherin. Lê carinan forma gotinê ji rehê peyvê cuda dibe. Mînakên pirtûkê:
 - *kuştin* ji *kuj + tin* hatiye;
