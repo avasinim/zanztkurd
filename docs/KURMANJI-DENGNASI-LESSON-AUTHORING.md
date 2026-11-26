@@ -2640,7 +2640,7 @@ Pirtûk herwiha rêya guherîna Y-ya latînî bi J-ya frensî nîşan dide: lat�
 
 Di tirkî de peyvên ku bi Z dest pê dikin, li gorî pirtûkê, hemû bi eslê xwe biyanî ne; lê Z li nav û bi taybetî li dawiya peyvên xwemalî jî tê, wek *biz* (“em”) û *yüz* (“sed”). Di zimanên îranî yên niha de Z hem di peyvên xwemalî hem jî di peyvên deynkirî de heye, lê di proto-hindûewropî de tune bû.
 
-Z-ya peyvên xwemalî bi rehê proto-hindûewropî ***ǵʰ** ve tê girêdan; di zimanên îranî de bûye Z an J, lê di zimanên din de şopên G-yan maye: kurmancî *zer*, almanî *Gelb*, latînî *galbus*, îngilîzî ya kevn *geolu* û îngilîzî ya niha *yellow*. Pirtûk herwiha guherîna L → R di zimanên îranî de û parastina L di hin zimanên balto-slavî de destnîşan dike.
+Z-ya peyvên xwemalî bi rehê proto-hindûewropî *ǵʰ* ve tê girêdan; di zimanên îranî de bûye Z an J, lê di zimanên din de şopên G-yan maye: kurmancî *zer*, almanî *Gelb*, latînî *galbus*, îngilîzî ya kevn *geolu* û îngilîzî ya niha *yellow*. Pirtûk herwiha guherîna L → R di zimanên îranî de û parastina L di hin zimanên balto-slavî de destnîşan dike.
 
 Di peyvên ji erebî hatine de, çar dengên erebî dikarin bi awayên cuda werin wergirtin:
 - **Zeyn**: bi gelemperî wek Z-ya zirav dimîne, wek *zeytûn*.
