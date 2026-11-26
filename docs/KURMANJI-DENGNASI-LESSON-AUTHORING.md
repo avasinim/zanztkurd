@@ -3563,6 +3563,21 @@ Di nivîsîna kurmancî ya standard de, herçend hin devok Û wek Ü, -WÎ- an �
 
 Di hin nivîsên taybet ên kurdiya başûrî, zazakî û şahzênî/şêxbizinî de herfa Ü an awayê -WÎ- hatiye bikaranîn. Di nivîsîna kurmanciya rojhilatî de jî -WÎ- (wek *bwîk, dwîr, mwî*) an di hin deveran de Î (wek *bîk, dîr, mî*) tê dîtin. Lê ji bo nivîsîna standard, parastina Û rêbazeke yekgirtû ye. Û di kurdî de herfeke pirrdeng e: dikare li gor devokê bi dengên cuda were xwendin, bê ku nivîsa standard biguherê.
 
+
+## 8. Hûrguliyên temamker ên O û U
+
+### 8.1. O di hin peyvên wergirtî de
+
+Pirtûk cudahiya formên standard û varyantên bi O-ya destpêkê di hin peyvên wergirtî de destnîşan dike. *Umêd* forma serdest a kurmancî ye; forma *omêd* di hin nivîsên farismancî de xuya dibe, lê *hêvî* hevreha xwerû-kurmancî ya wê ye. Navê erebî *Umer* di hin nivîsan de wek *Omer* tê nivîsîn, bi bandora farisî an tirkî; lê di kurmancî de formên kevntir û standard ên *Emer* hene, û *Umer/Imer* jî di hin deveran de tên dîtin. Ev mînak nîşan dide ku her O-ya destpêkê ne dengê xwemalî ye û dibe ku encama rêya wergirtinê be.
+
+Peyva *ol* bi wateya “dîn, diyanet” di kurmanciya medyayê de ji tirkî *yol* (rê) hatiye. Di destpêkê de bi wateya “terîqet/rê” hatiye wergirtin û paşê wateya wê berfireh bûye. Ev guherîna wateyê ji guherîna dengê O cuda ye, lê ji bo dîroka peyvê giring e.
+
+Pirtûk diyar dike ku *otêl* li gel varyanta *hotêl* tê bikaranîn; di hin devokan de *ûtêl/ütêl* jî heye. Di peyva *otomobîl* de rêza formên *otomobîl → tomobîl → tumubîl → tirimpêl* wek guherîna gotinê û nêzîkbûna peyvê bi dengê otomobîlê tê şîrovekirin.
+
+### 8.2. Varyanta U li dawiya peyvê
+
+U li dawiya peyvê di nivîsa standard de tenê di *du, ku, tu* de tê dîtin. Di hin devokan de *çu* jî wek varyanta *çi* tê gotin, bi wateya “hîç, tiştek”. Ev form di lîsteya daçek û cînavên bi U de wek îstîsnayeke devokî tê parastin; divê bi awayê standard yê *çi* neyê tevlihevkirin.
+
 ## Çavkanî
 
 Husein Muhammed, *Dengnasî di kurdî de*, rûpelên çapkirî **298–314**.
