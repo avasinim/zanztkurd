@@ -115,6 +115,17 @@ window.ZANSTI_IS_DENGNASI_TEST_PROJECT = function(){
 (function(){
   const path=(location.pathname.split("/").pop()||"").toLowerCase();
   const isLesson=/^0(?:1[7-9]|[2-4]\d|5[0-8])\.html$/.test(path)||/^course-2-\d+\.html$/.test(path)||/^kurmanji-course-[12]-lesson-\d{2}\.html$/.test(path)||/^kurmanji-dengnasi-lesson-\d{2}\.html$/.test(path);
+  if(/^kurmanji-dengnasi-lesson-\d{2}\.html$/.test(path)){
+    const sourceNote=document.querySelector(".klesson-hero p");
+    if(sourceNote) sourceNote.textContent="Ev ders li gorî beş û mijarên pirtûka Husein Muhammed hatiye rêxistin. Naveroka dersê ji nû ve hatiye avakirin; PDF tenê ji bo referanskirina mijar û rûpelên çavkaniyê ye, ne wekî naveroka dersê.";
+    const lessonBox=document.querySelector(".lesson-content");
+    if(lessonBox && lessonBox.textContent.includes("بارکردنی نێوەڕۆکی وانەکە")){
+      lessonBox.innerHTML="<p>Naveroka dersê tê barkirin...</p>";
+    }
+    const lessonHeading=document.querySelector(".klesson-hero h1");
+    if(lessonHeading && path==="kurmanji-dengnasi-lesson-01.html") lessonHeading.textContent="Dergeh: dengnasî û lêkolînên pêşîn";
+    if(lessonHeading && path==="kurmanji-dengnasi-lesson-17.html") lessonHeading.textContent="Eyn (ʿ) û hemû cotkonsonantên di kurdî de";
+  }
   const isCatalog=path==="catalog.html" && /\/lessons\/catalog\.html$/i.test(location.pathname);
   const isProtectedCatalogTarget=(href)=>{ return /(?:^|\/)lessons\/catalog\.html(?:$|[?#])/i.test(String(href||"")); };
   if(isLesson){
