@@ -154,13 +154,15 @@ Husein Muhammed, *Dengnasî di kurdî de*, rûpelên çapkirî 8–15.
 
 ## 1. Herf, deng, hevdengî û pirdengî
 
-Herf nîşaneke nivîskî ye; deng jî yekeya dengî ye ku tê gotin û tê bihîstin. Di hin zimanan de têkiliya herf û dengê wê yek-bi-yek nîne. Bo nimûne, di inglîzî de herfa C di *cent* de dengê [s] û di *computer* de dengê [k] dide. Ji vê taybetmendiyê re **pirdengî** tê gotin: heman herf di peyvên cuda de dikare dengên cuda nîşan bide.
+Di hin zimanan de têkiliya herf û dengê wê yek-bi-yek nîne. Bo nimûne, di inglîzî de herfa C di *cent* de dengê [s] û di *computer* de dengê [k] dide. Ji vê taybetmendiyê re **pirdengî** tê gotin: heman herf di peyvên cuda de dikare dengên cuda nîşan bide.
 
 **Hevdengî** rewşeke din e: heman deng di peyvên cuda de bi herf an komeherfên cuda tê nivîsîn. Di inglîzî de dengê [f] di *five* de bi F, lê di *philosophy* de bi PH tê nivîsîn. Herwiha di *cent* de dengê [s] bi C tê nivîsîn, lê di *seven* de bi S.
 
 ## 2. Hevdengî di nivîsîna kurdî de
 
 Di alfabeya kurdî-latînî û kurdî-erebî de, wek prensîp, hevdengî rêbaza sereke nîne: peyv bi piranî li gor dengê xwe tên nivîsîn, ne li gor herfên zimanê jêder. Di nivîsîna kurdî-erebî de jî çend nîşanên ku di zimanên din de dengên cuda didin, di nivîsîna kurdî de dikarin bi yek nîşanê bên nivîsîn.
+
+Di farisî de, dengê [z] dikare bi çar herfên cuda were nivîsîn. Peyvên *zer, zikir, remezan* û *zalim* nimûneyên vê yekê ne. Ev herf di erebî de dengên cuda nîşan didin، lê ew cudahiyên dengî di farisî û kurdî de nayên parastin؛ farisî dîsa rastnivîsîna peyvên ji erebî wergirtî diparêze. Di nivîsîna kurdî-erebî de, ev herfên cuda di peyvên esil-erebî de bi Z tên nivîsîn. Di kurdî-latînî de jî peyv li gor deng tên nivîsîn؛ bo nimûne, dengê [f] di *football* û *telephone* de bi F tê nivîsîn.
 
 Ev prensîp bê awarte nîne. Navên taybet ên biyanî gelek caran li gor nivîsîna zimanê jêder tên parastin. Bo nimûne, dengê destpêkê yê *George* û *John* bi herfên G û J tê nivîsîn. Di navê *Mercedes* de jî C ji bo dengê [s] hatiye bikaranîn. Hin peyvên biyanî, wek *out*, carinan bi rastnivîsîna inglîzî di nivîsên kurdî de tên dîtin; di gotinê de *out* wek [awt] tê derxistin.
 
@@ -170,7 +172,7 @@ Hin rewşên din jî divê ji hevdengiya rastîn bên cudakirin:
 - **U / W:** Di hin peyvan de nivîsîna *xu-* û *xwi-* wek *xurandin / xwirandin*, *xuşk / xwişk* û *xuya / xwiya* tercîhên nivîseran in. Lê di peyvên *xwarin, xwe, xwê, xwîn* de W dengê [u] nîşan dide. Ji ber vê yekê U û W di hin peyvan de dikarin hevdeng bin.
 - W di peyvên *war, welat, wê, wir, wî* de dengê konsonantî [w] dide; di van peyvan de ew dengê vokalî [u] nîne.
 
-Herfên hevdeng dikarin di zimanekî de herdem an tenê di hin rewşan de hevdeng bin. Di kurdî de U û W tenê di hin peyvan de ev têkiliya dengî hene.
+Herfên hevdeng dikarin di zimanekî de herdem an tenê di hin rewşan de hevdeng bin. Di kurdî de U û W tenê di hin peyvan de ev têkiliya dengî hene. Di farisî de çar herfên navborî herdem dengê [z] didin؛ lê di inglîzî de C û K tenê di hin peyvan de hevdeng in، ji ber ku C dikare dengên [k]، [s] û dengên din jî nîşan bide.
 
 ## 3. Pirdengî di nivîsîna kurdî de
 
