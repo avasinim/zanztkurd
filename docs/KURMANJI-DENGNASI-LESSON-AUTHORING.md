@@ -1289,7 +1289,7 @@ Di peyvên xwemalî yên kurdî de jî heye:
 - *teḧl, taḧl*;
 - *zeḧf, zaḧf*.
 
-Pirtûk herwiha peyva *ḧinêr* ya kurmanciya rojhilatî bi wateya hêz û şiyanê qeyd dike û wê bi *huner* re girêdide; nivîskar dibêje ku ev form di kurmanciya navendî de nebihîstiye. Peyva *ḧal* jî di kurdî de tê bikaranîn, lê ne peyveke erebî ye: bi rêya tirkî ji frensî *halle* û almanî *Halle* hatiye. Pirtûk îhtîmala bandora peyva erebî *ḧal* (rewş) li ser bilêvkirina wê jî vedibêje.
+Pirtûk peyva *ḧinêr* ya kurmanciya rojhilatî bi wateyên hêz, şiyan, pêçêbûn û jêhatinê qeyd dike û wê bi *huner* re girêdide; nivîskar dibêje ku ev form di kurmanciya navendî de nebihîstiye. Peyva *ḧal* jî di kurdî de bi wateya sûk an bazarê, bi taybetî bazara sergirtî, tê bikaranîn; ew ne peyveke erebî ye û bi rêya tirkî ji frensî *halle*, almanî *Halle* û hevbera îngilîzî *hall* hatiye. Pirtûk îhtîmala bandora peyva erebî *ḧal* (rewş, wez’, weziyet) li ser bilêvkirina wê jî vedibêje.
 
 Di kurmanciya navendî de hin peyvên xwemalî bi Ḧ tên gotin, lê di kurmanciya rojhilatî de hevberên wan bi H-ya asayî tên gotin:
 - navendî *ḧemû, ḧezar, ḧirç, ḧiş, ḧeyşt, ḧijde*;
@@ -1331,7 +1331,7 @@ H-ya destpêkê di hin peyvên kurmancî de zêde bûye, bi taybetî ji bo ku pe
 
 Di hin devokan de peyvên wek *sto, strî, stêrk* pêşî bi vokalekê dest pê kirine û paşê H li destpêka wan peyvan zêde bûye: *stêr(k) → istêrk → histêrk*; *sto → isto → histo*; *strî(k) → istrî(k) → histrîk*.
 
-H di hin peyvan de li cihê X-ya farisî jî tê: kurmancî *hişk, hirç, tehl, suhr/sor* li hember farisî *xoşk, xers, telx, sorx*. Di hin peyvan de li cihê W an Ş jî tê dîtin; nimûneyên pirtûkê *ceh*, *têhnî/tihnî*, *çehv* û *rih/reh* ne. Di hin berawirdkirinan de farisî H-ya ji V/F hatiye, lê kurmancî dengê xwe yê V/F diparêze, wek *kulav, kovî* li hember farisî *kolah, kohî*.
+H di hin peyvan de li cihê X-ya farisî jî tê: kurmancî *hişk, hirç, tehl, suhr/sor* li hember farisî *xoşk, xers, telx, sorx*. Di hin peyvan de li cihê W an Ş jî tê dîtin; nimûneyên pirtûkê *ceh*, *têhnî/tihnî*, *çehv* (li hember *çav*), *ḧesin* (li hember *asin*) û *rih/reh* ne. Di hin berawirdkirinên dîrokî de S-ya kurdî ya berî vokalan ji K-ya proto-hindûewropî hatiye, wek *ser* ji *ḱér*, *spî* ji *ḱweyt-* û *sed* ji *ḱm̥tóm*; ev rêbaz ji guherîna S → H ya li jor cuda ye. Di hin berawirdkirinan de farisî H-ya ji V/F hatiye, lê kurmancî dengê xwe yê V/F diparêze, wek *kulav, kovî* li hember farisî *kolah, kohî*.
 
 ## 6. Guherînên H bi dengên din re
 
@@ -1379,7 +1379,7 @@ Di hin peyvan de C bûye J: *îca/îcar → îja/îjar* û *wicdan → wijdan*. 
 J dengekî bilerz e. Gava dengekî bêlerz, wek T, li pey wê were, J dikare ji ber bandora T bibe Ş:
 - rehê *-kuj-* + T → *kuşt*;
 - rehê *-birêj-* + T → *biraşt*;
-- rehê *-rêj-* + T → *rişt*.
+- rehê *-rêj-* + T → *rişt* (herwiha *rêt*; ne *rijt*).
 
 K-ya bêlerz jî di hin peyvan de J dike Ş:
 - kurmanciya navendî *kîjan* — kurmanciya rojhilatî *kîşk*;
