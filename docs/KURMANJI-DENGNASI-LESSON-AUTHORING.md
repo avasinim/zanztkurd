@@ -2089,12 +2089,11 @@ Pirtûk herwiha peyvên *roj, ron, ronahî* bi formên zimanên din re berawird 
 
 Pirtûk ji bo peyva *mal* û *zarok* formên van ziman û zaravayan berawird dike:
 
-| Ziman / zarav | Forma “mal” | Forma “zarok” |
-|---|---|---|
-| Kurmancî | *mal* | *menal* |
-| Soranî ya Silêmaniyê | *mał* | *mindał / minał* |
-| Soranî ya Hewlêrê | *mar* | *mindar* |
-| Erebî | *mal* | *menal* |
+| Soranî ya Hewlêrê | Soranî ya Silêmaniyê | Erebî | Kurmancî |
+|---|---|---|---|
+| *mar* (mal) | *mał* | *mal* | *mal, xanî* |
+| *mindar* | *mindał, minał* | *menal* | *zarok* |
+| *berê* | *bełê* | *bela, belî* | *belê, erê* |
 
 Pirtûk herwiha guherîna L/R di van formên devokî de qeyd dike: *şelwar/şerwal/şelwal*; *per(r)/pel*; û *rîxolle/lêxerû/rêllexwa* di soranî, kurdiya başûrî û hewramî de.
 
