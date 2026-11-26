@@ -2326,7 +2326,7 @@ I bi gelemperî li nav peyvan pir tê:
 
 Li dawiya peyvên xwerû I kêm e; di hin daçek û cînavan de tê dîtin: *bi, çi, di, ji, li, mi, ti*. Di nivîsîna standard de *min* li şûna *mi* serdest e; *tu* jî li şûna *ti* tê bikaranîn.
 
-Li destpêka peyvên xwemalî de I di nivîsîna standard de kêm e. Hin devok formên wek *iro, istêrk, istiran* bikar tînin, li hemberî *îro, stêr/stêrk, stran/stiran*. Di peyvên ji erebî wergirtî de kesreya destpêkê carinan bi Î tê nivîsîn, lê çavkaniyê parastina I pêşniyar dike: *imla, imtihan, ihtimal, imkan*. Di peyvên ewropî de jî parastina I-ya jêder pêşniyar dike: *internasyonal, informasyon, imperyalizm*; ne *înternasyonal* an *enformasyon*. Di kîteya dawiyê de, ji ber giraniya wê, Î dikare were nivîsîn: *paparazî, spagetî, çilî*.
+Li destpêka peyvên xwemalî de I di nivîsîna standard de kêm e. Hin devok formên wek *iro, istêrk, istiran* bikar tînin, li hemberî *îro, stêr/stêrk, stran/stiran*. Di peyvên ji erebî wergirtî de kesreya destpêkê carinan bi Î tê nivîsîn, lê çavkaniyê parastina I pêşniyar dike: *imla, imtihan, ihtimal, imkan*. Di peyvên ewropî de jî parastina I-ya jêder pêşniyar dike: *internasyonal, informasyon, imperyalizm, izotop*; ne *înternasyonal* an *enformasyon*. Di kîteya dawiyê de, ji ber giraniya wê, Î dikare were nivîsîn: *paparazî, spagetî, çilî*.
 
 ## 6. Zêdebûn û ketina I
 
@@ -2415,6 +2415,8 @@ Di hin peyvan de Î encama tekdengbûna cotdengan e:
 - *mî/mih* li hemberî farisî *mîş* û pehlewî *mêş*;
 - *bîn* li hemberî formên bi Ê.
 
+Di hin peyvên wergirtî de jî Î dikare paşê bi Û were guhertin: *mudîr → midûr*. Di peyva *mewlid* de jî rêya guherînê dikare wiha be: *mewlid → mewlîd → mewlûd*; formên *mewlîd* û *mewlûd* di kurmancî de tên dîtin.
+
 Di kurmancî de Î gelek caran li cihê Û-ya soranî ye:
 - kurmancî *xanî* — soranî *xanû*;
 - kurmancî *kirî* — soranî *kirdû*.
@@ -2431,7 +2433,7 @@ Di hin devokên rojhilatî de Û dikare bibe Î; di hin deveran de qonaxên nav�
 
 Di hin deveran de di navbera formên bi Û, Ü û Î de qonaxên navîn hene. Ev guherîn hem di peyvên xwemalî hem jî di peyvên wergirtî de tê dîtin.
 
-Çavkaniyê herwiha guherîna Î+Y → IY di nivîsîna standard de bi nîqaşa *çiya/çîya*, *diyar/dîyar*, *jiyan/jîyan* û formên lêkerî *kir-i-ye, got-i-ye, hat-i-ye* şîrove dike. Pêşniyara nivîskar parastina awayê I berî Y ye, ji ber ku nivîser nikare di her peyvê de bi ewlehî diyar bike rehê wê I ye an Î. Eger Î di rehê peyvê de hebe, di çemandinê de Î-yeke din nayê zêdekirin: *Elî → mala Elî*, *tu hatî* (ne *tu hatiyî*), *tu dijî* (ne *tu dijiyî*).
+Çavkaniyê herwiha guherîna Î+Y → IY di nivîsîna standard de bi nîqaşa *çiya/çîya*, *diyar/dîyar*, *jiyan/jîyan* û formên lêkerî *kir-i-ye, got-i-ye, hat-i-ye* şîrove dike. Pêşniyara nivîskar parastina awayê I berî Y ye, ji ber ku nivîser nikare di her peyvê de bi ewlehî diyar bike rehê wê I ye an Î. Eger Î di rehê peyvê de hebe, di çemandinê de Î-yeke din nayê zêdekirin: *Elî → mala Elî*, *tu hatî* (ne *tu hatiyî*), *tu dijî* (ne *tu dijiyî*). Di vê nîqaşê de çavkaniyê diyar dike ku *diyar* ji rehê *dî-* û *jiyan* ji rehê *jî-* hatiye, lê di *çiya* de nayê zanîn ka di rehê wê de I ye an Î. Formên lêkerî *kir-i-ye, got-i-ye, hat-i-ye* bi *kir-i-bû, got-i-bû, hat-i-bû* tên berawirdkirin; ji ber vê yekê nivîsîna *kirîye/gotîye* li hember *kiriye/gotiye* ne herdem bi bingeheke etîmolojîkî tê piştrastkirin.
 
 ## 10. Î di çemandinê de û têkiliya wê bi Y re
 
@@ -2474,10 +2476,10 @@ Lê di hin peyvan de Î li cihê kesre jî tê dîtin:
 - *îslam, însan, îbadet, îlac*.
 
 Di peyvên ji zimanên ewropî hatine wergirtin de parastina I ya çavkaniyê bi gelemperî maqûltir e; divê Î li destpêka peyvê bê sedem neyê zêdekirin:
-- *stasyon, statistîk, stadyûm*;
-- *informasyon, imparator, televizyon*.
+- *stasyon, statistîk, stadyûm* (ne *îstasyon, îstatîstîk, îstadyûm*);
+- *informasyon, imparator, televizyon, diktator, film, rehabilitasyon, komunist* (ne formên bi Î-ya navpeyva zêdekirî).
 
-Di kîteya dawiyê de dirêjahiya dengê I dikare bi Î were nîşandan: *statistîk, diminutîv*. Ev rêzik bi taybetî ji bo yekgirtîkirina peyvên wergirtî giring e.
+Di kîteya dawiyê de dirêjahiya dengê I dikare bi Î were nîşandan: *statistîk, diminutîv, paparazî, spagetî, çilî*. Ev rêzik bi taybetî ji bo yekgirtîkirina peyvên wergirtî giring e.
 
 ## Çavkanî
 
