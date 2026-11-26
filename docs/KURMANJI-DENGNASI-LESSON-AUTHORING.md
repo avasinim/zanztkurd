@@ -4445,6 +4445,13 @@ Nivîskar dibêje ku tu alfabe ne temam e û divê armanca wê nîşandana her v
 
 Li gorî nivîskar, zêdekirina herfên nû xwendina kurdî bi awayekî berçav hêsantir nake, lê dikare rastnivîsînê dijwartir bike. Ev encama nêrîna nivîskar e û divê wek nêrîna wî were xwendin, ne wek biryareke giştî ya li ser hemû standardên kurdî.
 
+
+### 9.9. Sînorê mijara nîqaşê
+
+Nivîskar di destpêka nîqaşa alfabeyê de cudahî dike navbera pêşniyarên **zêdekirina herfên nû** û pêşniyarên **guherandina herfên heyî**. Ew li vir tenê li ser pêşniyarên herfên zêde (wek du Ç/K/P/T, du R, du L an du H) disekine; pêşniyarên guherandina **i→ı, î→i, ç→c/č/ch, c→j, ş→sh/š, î/û→í/ú** di vê nîqaşê de nayên nirxandin. Ev sînordarkirin ji bo parastina armanca beşê giring e.
+
+Nivîskar herwiha dibêje ku zêdeyî heştê sal e ku KL-ya niha tê bikaranîn û di vê demê de gelek pêşniyarên guhertinê hatine kirin; lê her pêşniyarek nû tenê bi hebûna cudahiyeke bilêvkirinê re nayê piştrastkirin. Pêdivî ye ku deng berbelav û fonemîk be û guherîn xizmeta xwendin û nivîsînê bike.
+
 ## Çavkanî
 
 Husein Muhammed, *Dengnasî di kurdî de*, rûpelên çapkirî 348–372.
