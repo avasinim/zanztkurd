@@ -222,3 +222,30 @@ Scope checked: draft Lessons 1–27 against the source's printed page labels and
 - Do not add unsourced material, exercises, questions, quizzes, tests, learning objectives, recaps, answer keys or external audio.
 - Preserve all source information relevant to each lesson and retain accurate printed-page citations.
 - No production database, migration, main branch, deployment, student data, enrollments or progress records were changed.
+
+
+## Technical integration audit — 2026-11-26
+
+### Confirmed publication boundary
+
+- PR #89 remains a draft targeting `main`; it contains authoring and audit work only until the technical changes below. It is not merged and no deployment was initiated.
+- The repository's `kurmanji-dengnasi-course.html` is a hold page. It explicitly says the course is unavailable while the source-derived lessons are prepared.
+- The 27 `lessons/kurmanji-dengnasi-lesson-XX.html` files are page shells. They do not contain the authored lesson prose; the `script.js` loader deliberately returns a preparation notice for these lesson keys before attempting the `lesson_content` query.
+- `kurmanji-dengnasi-reader.html` is a source-PDF page navigator, not the authored course reader. It links to the corrected source PDF and does not render the 27 authored lesson texts.
+- Therefore, the 27 lessons are source-audited in the authoring document but are **not yet integrated into the site's lesson-content delivery**. No claim of public activation or live lesson delivery is made.
+
+### Metadata and source-page correction
+
+- The course manifest previously claimed production Supabase activation was complete and instructed preservation of the source's wording. Both statements conflicted with the verified hold-page/reader state and the user's requirement for source-faithful lesson writing rather than reproducing the book. The manifest now records the course as unpublished and requires original Kurmanji Latin lesson prose based on the book's structure, without copying the book verbatim or adding questions, quizzes, tests, exercises, answer keys or external audio.
+- The reader and manifest lesson titles now match the 27 audited authoring headings.
+- A page-boundary error was found at the Lesson 14/15 transition. The source PDF physical page 203 is the Lesson 15 divider; physical page 204 contains printed source page 186 (the Lesson 15 consonant chart); physical page 205 begins printed page 187. The correct mapping is:
+  - Lesson 14: printed pages 168–185; designed PDF pages 185–202.
+  - Lesson 15: printed pages 186–202; designed PDF pages 204–220; divider page 203.
+- The manifest, reader index/PDF anchor and PDF-map validator were corrected to preserve the printed page 186 chart within Lesson 15 and to point to the correct designed-PDF page.
+
+### New authoring quality gate
+
+- Added `scripts/validate_dengnasi_authoring.py` and `.github/workflows/validate-dengnasi-authoring.yml`.
+- The check validates exactly 27 sequential lesson headings, a printed-page citation in every lesson, Latin-script lesson text, absence of question/test/exercise headings, and absence of external audio embeds/links.
+- This is a repository-content check only; it does not access or modify Supabase, student records, production settings or deployment.
+
