@@ -2234,7 +2234,7 @@ Husein Muhammed, *Dengnasî di kurdî de*, rûpelên çapkirî 168–185.
 
 ## 1. Ş — dengekî paşpidûyî-xişok-vizok
 
-Dengê **Ş/ş** dengekî **paşpidûyî-xişok yê bêlerz** e. Di dema gotina wî de eniya ziman li herêma paşpidûyî nêzîk dibe, lê rêya hewayê bi temamî nayê girtin; hewa ji nav tengiyekê derbas dibe û xişînekê çêdike. Perdeyên dengî di gewriyê de nalerizin. Nîşana dengnasî ya wî di IPA de **[ʃ]** e. [ʃ] xişok e, ne sekinî-xişok (affricate).
+Dengê **Ş/ş** dengekî **paşpidûyî-xişok-vizok yê bêlerz** e. Di dema gotina wî de eniya ziman li herêma paşpidûyî nêzîk dibe, lê rêya hewayê bi temamî nayê girtin; hewa ji nav tengiyekê derbas dibe û xişînekê çêdike. Perdeyên dengî di gewriyê de nalerizin. Nîşana dengnasî ya wî di IPA de **[ʃ]** e. [ʃ] xişok e, ne sekinî-xişok (affricate).
 
 Ş di destpêk, nav û dawiya peyvê de tê:
 - **Destpêk:** *şal, şerm, şêr, şîrîn*.
@@ -2349,6 +2349,38 @@ Li gorî pirtûk, T ya navîn an dawî di peyvên xwerû de, ji bilî lêkeran �
 ### T û Ç
 
 T di hin peyv û devokan de bi Ç diguhere: *pate/paçe*, *têşt/çêşt* (taştê), *tu/ti* û *çu/çi* (hîç). Guherîna T/Ç bi taybetî di devoka şêxbizinî de tê dîtin: *taşandin/taşîn* û *çaşandin/çaşîn*.
+
+
+## 12. Hûrguliyên temamker ên T
+
+### 12.1. T-ya bipif/bêpif û peyvên deynkirî
+
+Pirtûk diyar dike ku T-ya destpêka peyvê di kurmancî û zazakî de dikare bipif an bêpif be û ev cudahî fonemîk e. Di soranî, farisî, tirkî û îngilîzî de T-ya destpêkê bi gelemperî bipif e; di frensî de bêpif e. Ji ber vê yekê, peyvên nû yên ji soranî, farisî, tirkî û îngilîzî hatine, gelek caran T-ya bipif diparêzin. Di peyvên ji frensî hatine de T dikare bêpif be, wek *tîp* ji frensî *type*; di hin gotinên kurdî de ev peyv dikare bi T-ya bipif jî were gotin, bi taybetî di bin bandora tirkî de.
+
+Di nav û dawiya peyvên wergirtî de pifdarî nayê pêşbînîkirin: *kompûter, xeter, siyaset* bi T-ya bêpif tên gotin, lê *met, xalet/xaltî, hotêl/otêl* dikarin bi T-ya bipif bên gotin. Pirtûk balê dikişîne ser vê yekê ku herdu peyvên erebî *met* û *siyaset* bi awayên cuda tên gotin; herwiha *hotêl* û *kompûter* ku herdu ji zimanên Ewropayê hatine, di pifdariyê de wek hev nînin.
+
+### 12.2. T-ya zirav û qelew: îstîsna û peyvên deynkirî
+
+Pirtûk diyar dike ku T-ya bêpif berî O bi gelemperî qelew e (*top*), lê di peyvên xwemalî de T-ya bipif berî O dikare zirav be (*tol*). Di peyva tirkî *toz* de T-ya bipif hatiye parastin, lê di kurmancî de ne qelew e. Ev mînak nîşan didin ku pifdarî û qelewîtiya T du taybetmendiyên cuda ne. T-ya zirav û qelew alofonên heman fonemê ne û guherandina wan wateya peyvê naguherîne.
+
+### 12.3. T-ya kevn ku bûye D û paşê ketiye
+
+Pirtûk ji bo guherîna T-ya navîn/dawî ya kevn bi D û ketina paşîn, tabloya jêrîn dide:
+
+| Avestayî | Pehlewî | Farisî | Zazakî | Kurmancî |
+|---|---|---|---|---|
+| *vate-* | *vat* | *bad* | *va* | *ba* |
+| — | *apat* | *abad* | — | *ava* |
+| — | *bût* | *bûd* | *bî* | *bû* |
+| *zamat-er* | *damad* | *damad* | *zama* | *zava* |
+| *brat-er* | *brat-, brad-er* | *berad-er* | *berad-er* | *bira* |
+| *mat-er* | *mad-er, mat-e* | *mad-er* | *may* | *ma-k* |
+
+Ev tablo rêyên dîrokî yên peyvên taybet nîşan dide; divê ji wê nayê derxistin ku her T-ya navîn an dawî bi heman awayî diguhere. T-ya di rehên rabirdûyê yên lêkeran de dikare were parastin, lê di hin formên kurt de bikeve: *go* ji *got* û *dî* ji *dît*.
+
+### 12.4. T-ya navîn/dawî û sînorên rêzikê
+
+Pirtûk diyar dike ku T-ya navîn û dawî di peyvên xwerû de, ji bilî lêkeran û peyvên ku piştî F, S, Ş an X tên, bi ihtimaleke mezin di peyvên deynkirî de ye. Lê divê paşgir û pêşgirên morfolojîk ji peyvên xwerû cuda bên dîtin: T di paşgira berhevdanê *-tir/-tirîn* de heye, û T di hin lêkerên deynkirî de dikare di rehê niha û pêşerojê de jî bimîne. Di soranî û kurdiya başûrî de T piştî S dikare bikeve (*des, sendin, hesare*); di kurmancî de T di komdengên ST de dikare bikeve (*destpêk → despêk, destmal → desmal*). Ev guherîn bi şert û peyvên taybet ve girêdayî ne.
 
 ## Çavkanî
 
