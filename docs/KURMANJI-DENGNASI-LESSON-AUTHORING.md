@@ -4006,11 +4006,11 @@ Di destpêka vê dersê de nivîskar kurtenivîsareke dîrokî li ser dengên bi
 
 Nivîskar texmîn dike ku di kurmancî û zazakî de awayên bêpif ên van dengan dibe ku kevntir bin. Di gelek peyvên wergirtî de, berevajî, awayên bipif li destpêka peyvê tên dîtin. Ew vê cudahiyê bi bandora zimanên cîran ve girê dide: di qonaxên kevntir de farisî û di rewşa niha de bi taybetî tirkî dikarin li ser bilêvkirina hin peyvan bandor bikin.
 
-Li gorî şîroveya dîrokî ya nivîskar, bêpifî ji nav û dawiya peyvan ber bi destpêkê belav bûye û paşê peyvên wergirtî yên bipif cotdengiyê ava kirine. Niha jî, di bin bandora tirkî, soranî, farisî û îngilîzî de, hin dengên bêpif li destpêka peyvan ber bi bipifbûnê ve diguherin. Nivîskar pêşdibîne ku ev pêvajo dikare di demeke dirêj de cudahiya fonemî ya bipif/bêpif lawaz bike. Ev ravekirin û pêşbînî nêrîna nivîskar e û divê wek îhtîmala dîrokî were xwendin, ne wek rastiyeke bêniqaş.
+Li gorî şîroveya dîrokî ya nivîskar, bêpifî ji nav û dawiya peyvan ber bi destpêkê belav bûye û paşê peyvên wergirtî yên bipif cotdengiyê ava kirine. Niha jî, di bin bandora tirkî, soranî, farisî û îngilîzî de, hin dengên bêpif li destpêka peyvan ber bi bipifbûnê ve diguherin. Nivîskar pêşdibîne ku ev pêvajo dikare di demeke dirêj de cudahiya fonemî ya bipif/bêpif lawaz bike. Li gorî encama nivîskar, eger bandora niha ya tirkî û zimanên cîran berdewam bike, dibe ku di nêzîkî sedsalekê de cotdengiya Ç, K, P û T ji holê rabe: li destpêka peyvan deng herdem bipif bibin û li nav û dawiyê bêpif an nîv-bipif bimînin. Ev pêşbînî nêrîna nivîskar e, ne rastiyeke piştrastkirî. Ev ravekirin û pêşbînî nêrîna nivîskar e û divê wek îhtîmala dîrokî were xwendin, ne wek rastiyeke bêniqaş.
 
 ## 2. Hiyatus çi ye?
 
-**Hiyatus** (*hiatus*) peydabûna du vokalan li pey hev e, bi awayekî ku vokala yekem li dawiya kîteyekê û ya duyem li destpêka kîteya din be. Ev yek di peyvên wek *bêav, biêş, neavêjin, biavêjin, xaîn, îdîa, saet, îdea* û *teorî* de tê dîtin.
+**Hiyatus** (*hiatus*) peydabûna du vokalan li pey hev e, bi awayekî ku vokala yekem li dawiya kîteyekê û ya duyem li destpêka kîteya din be. Peyva *hiatus* ji latînî hatiye û wateya valahî, kêlîştek an derzê dide. Ev yek di peyvên wek *bêav, biêş, neavêjin, biavêjin, xaîn, îdîa, saet, îdea* û *teorî* de tê dîtin.
 
 Gotina ku di kurdî de du vokal nikarin li pey hev bên, rastiya zimanê bi tevahî nade. Hiyatus di kurmancî de heye; lê ziman di gelek rewşan de rê li ber wê digire. Ji ber vê yekê, divê hebûna hiyatusê û rêbazên kêmkirina wê ji hev cuda bên naskirin.
 
@@ -4026,7 +4026,48 @@ Di navbera reh û paşgir de kurmanciya nivîskî û gelek devok bi gelemperî r
 
 ## 4. Kîjan vokal bi hev re tên?
 
-Çavkaniyê tabloyekê ji bo kombînasyonên vokalan pêşkêş dike û wan li gorî peyvên bi pêşgir, peyvên ji erebî wergirtî û peyvên ji zimanên Ewropî wergirtî nîşan dide. Hin kombînasyon di peyvên xwerû de tune ne, lê di peyvên wergirtî an pêkhateyên bi pêşgir de hene.
+Çavkaniyê tabloyekê ji bo kombînasyonên vokalan pêşkêş dike û wan li gorî peyvên bi pêşgir, peyvên ji erebî wergirtî û peyvên ji zimanên Ewropî wergirtî nîşan dide. Hin kombînasyon di peyvên xwerû de tune ne, lê di peyvên wergirtî an pêkhateyên bi pêşgir de hene. Nimûneyên tabloyê bi hemû qadan re wiha ne:
+
+| Koma vokalan | Di peyvên bi pêşgir de | Di peyvên ji erebî deynkirî de | Di peyvên ji zimanên Ewropî de |
+|---|---|---|---|
+| AA | *na-axivin* | — | — |
+| (AE) | *naelimînin* | *saet, itaet* | — |
+| AÊ | *naêşe* | — | — |
+| AÎ | *naînim* | *xaîn* | *Haîtî* |
+| AO | *naorin* | — | *aort* |
+| (AU) | *naumêd* | — | *automat, autonom* |
+| EA | *neavêt* | *meaş, seat* | *îdea* |
+| EE | *ne-ecibandin* | *seet* | — |
+| EÊ | *neêşînin* | — | — |
+| EÎ | *neînin* | *meîde* | — |
+| EO | *neolî* | — | *neon* |
+| (EU) | — | — | *euro* |
+| IA | *biavêjin* | *iade, idia* | — |
+| IE | *dielimînin* | — | — |
+| IÊ | *diêşînin* | — | — |
+| II | *di-inirin* | — | — |
+| IÎ | — | — | — |
+| IO | *diore* | — | — |
+| IU | — | — | — |
+| ÎA | — | *îade, îane* | — |
+| ÎE | — | *şîe* | — |
+| ÎÊ | — | — | — |
+| ÎO | — | — | *îon* |
+| ÎU | — | — | — |
+| OA | — | — | — |
+| OE | — | — | — |
+| OÊ | — | — | — |
+| OI | — | — | — |
+| OÎ | — | — | — |
+| OO | — | — | — |
+| OU | — | — | — |
+| UA | — | — | — |
+| UE | — | — | — |
+| UÊ | — | — | — |
+
+Di tabloya çavkaniyê de xetên (—) nîşan didin ku ji bo wê koma vokalan di wê qada nimûneyan de nimûne nehatiye dîtin; ew nayê wê wateyê ku ew kombînasyon di hemû şertan de ne mimkin e. Di rûpela 422ê de piştî UÊ, di nivîsa derxistî de rêzên OI, OÎ, OO û OU careke din dubare xuya dibin. Ji ber ku ev beş di çavkaniyê de nezelal e, em wê wek nakokiya çavkaniyê tomar dikin û koma vokalên ku dibe ku mebest bûbin bi texmîn naguhêrin.
+
+Têbînîyên tabloyê jî girîng in: di *naelimînin* û *şîe* de di nivîsînê de hiyatus xuya dike, lê di bilêvkirinê de dengê Eyn di navbera vokalan de heye; *naumêd* forma farismancî ye û formên kurdîtir *bêumêd* û *bêhêvî* ne; formên serdest ên *automat, autonom* jî *otomat, otonom* in. Di hin peyvên ji erebî de IA carinan bi ÎA tê nivîsîn (*îade, îdîa*), û di peyvên Ewropî de IA gelek caran di kurdî de wek YA an IYA tê nivîsîn (*Romanya, kîmya, hiyatus*). Forma berbelavtir ya *di-inirin* jî *dienirin* e; di herduyan de Eyn di navbera I û E de tê gotin. Di *diore* de jî dengê “orre-orrê” heye. *iade, iane* awayên din ên nivîsîna ÎA ne; di *şîe* de jî Eyn di navbera Î û E de tê gotin, ji ber vê yekê hiyatus tenê di nivîsînê de ye. Hiyatusa EU ya peyvên Ewropî bi gelemperî di kurdî de dibe EW (*Ewropa, ewro*).
 
 Nimûneyên ku di tablo û têbîniyên wê de hatine diyarkirin:
 
@@ -4081,7 +4122,7 @@ Di girêdana peyvê bi peyveke din re, wek izafe, şert cuda dibe. Di hin devoka
 
 ## 7. Rola Y
 
-Di kurmanciya nivîskî de Y konsonanta herî sereke ye ku di navbera du vokalan de, bi taybetî di pêkhateya **reh + paşgir** de, tê bikaranîn:
+Di kurmanciya nivîskî de Y konsonanta herî sereke ye ku di navbera du vokalan de, bi taybetî di pêkhateya **reh + paşgir** de, tê bikaranîn. Çavkaniyê têbînî dike ku navê “tîpa kelijandinê” ne rast e: Y ne herfa kelijandinê ye, lê herfa ku rê li ber kelijandinê anku hiyatusê digire:
 
 - *rojname + ê → rojnameyê*;
 - *perde + a → perdeya sor*;
@@ -4089,7 +4130,7 @@ Di kurmanciya nivîskî de Y konsonanta herî sereke ye ku di navbera du vokalan
 
 Lê Y di çemandina lêkeran de bi gelemperî nayê zêdekirin; yek ji vokalan tê avêtin an form diguherê:
 
-- *dijî + e → ew dijî*, ne *dijiye*;
+- *dijî + e → ew dijî*, ne *dijiye* (paşgira *-e* nîşana kesê sêyem ê yekhejmar e);
 - *dijî + in → em/hûn/ew dişên*, ne *dişêyin*.
 
 Di kesê duyem ê yekhejmar de formên wek *tu dişê-y-î* û *tu di-jî-yî* tên dîtin, lê ev awayên bikaranînê ne di nivîsînê de û ne jî di axaftinê de serdest in. Formên serdest *tu dişê* û *tu dijî* ne.
@@ -4114,7 +4155,7 @@ H ya destpêka lêkera *hatin* jî bi dîrokî tune bû. Niha forma bê H ya *at
 
 H bi tevahî û di hemû rewşan de rê li ber hiyatusê nagire. Di van nimûneyan de H nayê zêdekirin: *biaqil/baqil* ne *bih-aqil*; *bêav* ne *bêhav*; *biaxivin/baxivin* ne *bihaxivin*.
 
-Di kurmanciya nivîskî de H di hin peyvên dariştî yên reh + paşgir de tê dîtin: *amade + î → amadehî* (amade-h-î) û *du + em → duhem* (du-h-em). Lê formên bi Y, W an T jî dikarin serdest bin. H di çemandin û girêdana peyvan de rêbazeke giştî nîne.
+Di kurmanciya nivîskî de H di hin peyvên dariştî yên reh + paşgir de tê dîtin: *amade + î → amadehî* (amade-h-î) û *du + em → duhem* (du-h-em). Lê formên bi Y, W an T jî dikarin serdest bin, wek *du-y-em, du-w-em* û *amade-t-î*. H di çemandin û girêdana peyvan de rêbazeke giştî nîne.
 
 ## 9. Rola W û T
 
@@ -4129,7 +4170,7 @@ T di hin peyvên dariştî de wek rêgir tê bikaranîn; ew di çemandin û gir�
 - *pêşmerge + î → pêşmergetî*;
 - *hevrê + î → hevrêtî*.
 
-Bikaranîna T bi paşgira Î re berbelav bûye, heta di peyvên ku hiyatus tune ye de jî: *heval + î → hevaltî*, li şûna *hevalî*.
+Bikaranîna T bi paşgira Î re berbelav bûye, heta di peyvên ku hiyatus tune ye de jî: *heval + î → hevaltî*, li şûna *hevalî*; forma din a ku çavkaniyê qeyd dike *hevalînî* ye.
 
 ## 10. Rola N
 
@@ -4140,9 +4181,9 @@ Têbînîya çavkaniyê: li rûpela çapkirî ya 428ê di lîsteya cotforman de 
 - *Tu çawa hatî?* — peyva paşê bi konsonantê dest pê dike.
 - *Tu çawan î?* — peyva paşê bi vokalê dest pê dike.
 
-Di hin devokan de ev sîstem di formên pirhejmar de jî hatiye parastin. Piraniya devokan li şûna paşgira nivîskî **-an**, forma devkî **-a** bi kar tînin; lê hin devok dema ku peyva paşê bi vokalê dest pê dike, N zêde dikin. Hin devok jî li şûna N, Y bi kar tînin.
+Di hin devokan de ev sîstem di formên pirhejmar de jî hatiye parastin. Piraniya devokan li şûna paşgira nivîskî **-an**, forma devkî **-a** bi kar tînin: nivîskî *kurdan, kitêban, bajaran*; devkî *kurda, kitêba, bajara*. Lê hin devok dema ku peyva paşê bi vokalê dest pê dike, N zêde dikin, wek *ew dostê kurdan e*, li hember *ez du kurda dibînim*. Hin devok jî li şûna N, Y bi kar tînin.
 
-Di zimannasiyê de ev N bi navê **N-ya livbar** an **N-ya efelkîstîk** tê nasîn. Çavkaniyê îhtîmala hebûna diyardeyeke dîrokî ya nêzîk di tirkî de jî bi nimûneya *o → ona* destnîşan dike. Sîstema N ya livbar û cotformên wek *çawa/çawan* niha di hemû devok û di zimanê nivîskî de bi awayekî yekgirtî nayên bikaranîn.
+Di zimannasiyê de ev N bi navê **N-ya livbar** an **N-ya efelkîstîk** tê nasîn; çavkaniyê dibêje ku mînakeke herî navdar a vê diyardeyê di yûnaniya kevn de ye. Çavkaniyê îhtîmala hebûna diyardeyeke dîrokî ya nêzîk di tirkî de jî bi nimûneya *o → ona* destnîşan dike. Sîstema N ya livbar û cotformên wek *çawa/çawan* niha di hemû devok û di zimanê nivîskî de bi awayekî yekgirtî nayên bikaranîn.
 
 ## 11. R di soranî û kurdiya başûrî de
 
@@ -4169,6 +4210,8 @@ Di axaftinê de, bi taybetî di hin devokên rojhilatî de, vokal dikare were av
 
 - *bi + avê → b’avê/p’avê*;
 - *ji + agirî → j’agirî/ş’agirî*.
+
+Çavkaniyê dibêje ku ev awayê gotinê di helbestan de jî gelek caran tê bikaranîn.
 
 Di hin rewşên rêzimanî de kopula jî li gorî dengê dawî yê peyva berî xwe formên cuda hildibijêre:
 
