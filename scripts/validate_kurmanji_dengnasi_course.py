@@ -152,9 +152,9 @@ for required in (
     "*rewag/rewac*",
     "*gwem-*",
     "*gimti*",
-    "*come* wek *kam*",
+    "*come* ya îngilîzî wek *kam*",
     "*göç, göçer*",
-    "*genc*",
+    "*qenc/genc*",
     "Feylî, Kelhurî û Kirmaşanî",
 ):
     assert required in lesson9, f"Lesson 9 is missing source note/example: {required}"
