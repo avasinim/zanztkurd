@@ -3,7 +3,7 @@
 **Source:** Husein Muhammed, *Dengnasî di kurdî de* (432 printed pages).  
 **Course language/script:** Kurmancî, Latin script.  
 **Designed reading copy:** 462-page PDF with cover, contents, and 27 lesson divider pages.  
-**Current status:** the course scaffold and protected enrollment/progression integration are present in production according to the existing release record. In the disposable test project, all 27 authored lesson bodies are present and match the reviewed payload exactly. Production content parity and live GitHub Pages lesson rendering have not been independently verified.
+**Current status:** the course scaffold and protected enrollment/progression integration are present in production according to the existing release record. In the disposable test project, all 27 authored lesson bodies are present and match the reviewed payload exactly. The integration branch now contains a 27-lesson course index and corrected lesson-page descriptions. Production content parity, browser runtime, and live GitHub Pages lesson rendering have not been independently verified.
 
 ## Content rules
 
@@ -57,3 +57,8 @@
 ## Page numbering
 
 The manifest records both printed page ranges and page ranges in the corrected designed PDF. The 462-page copy includes three front-matter pages and 27 lesson dividers. The Lesson 15 divider is correctly placed at designed PDF page 204, immediately after printed source page 186 (designed page 203) and before Lesson 15 begins at printed source page 187 (designed page 205). The reader therefore opens Lesson 14 at page 185 and Lesson 15 at page 205.
+
+
+## Integration-branch navigation status — 2026-11-26
+
+The obsolete hold page has been replaced on the integration branch with an ordered 27-lesson course index. Each lesson page loads its protected content through the shared loader and has a matching lesson key. This work is not deployed; the separate PDF reader remains an optional source-reference page, not the learner-facing course.
