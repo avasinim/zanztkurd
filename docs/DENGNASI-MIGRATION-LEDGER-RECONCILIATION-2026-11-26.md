@@ -1,43 +1,58 @@
 # Dengnasî migration ledger reconciliation — 2026-11-26
 
-## Scope
+## Read-only sources inspected
 
-Read-only comparison of the disposable `zanztkurd-kurmanji-test` Supabase project's migration ledger against the repository's `supabase/migrations/` directory on `implementation/dengnasi-content-html-bridge-2026-11-26`.
+- Test project: `zanztkurd-kurmanji-test` (`juwsjljbdwyncicybwoq`).
+- Migration ledger: `supabase_migrations.schema_migrations`, including its `statements` array.
+- Repository migration: `supabase/migrations/20261124130000_activate_kurmanji_dengnasi_course.sql` on `implementation/dengnasi-content-html-bridge-2026-11-26`.
 
-## Test-project migration ledger
+## Recovered migration history
 
-The database reports these two Dengnasî activation entries:
+The test project's ledger contains:
 
-- `20261124093604 activate_kurmanji_dengnasi_course`
-- `20261124112742 activate_kurmanji_dengnasi_course_production`
+| Ledger version | Name | SQL statement length | SQL MD5 |
+|---|---|---:|---|
+| `20261124093604` | `activate_kurmanji_dengnasi_course` | 36,301 chars | `6b7bd2ecef207d3d6bd80cdd8c7a8674` |
+| `20261124112742` | `activate_kurmanji_dengnasi_course_production` | 37,182 chars | `eb5b2d001cf4e7d282cd364a2eea9093` |
 
-The repository directory on the inspected branch contains only one matching Dengnasî activation migration:
+The SQL body for ledger version `20261124112742` is **byte-for-byte identical** to the repository file `20261124130000_activate_kurmanji_dengnasi_course.sql` (37,182 characters). Therefore the earlier statement that this version had no corresponding source was too strong: its SQL source is present in the repository under a different timestamp and filename/name.
 
-- `20261124130000_activate_kurmanji_dengnasi_course.sql` (blob `fdea0c85d3f75d8fd84df962d8d112900378ab2a`)
+Ledger version `20261124093604` is a distinct earlier activation statement and is not represented by a same-version file in the repository migration directory. Its SQL remains recoverable from the test database's `statements` array. It:
+- inserts the same 27 lesson keys;
+- includes 27 PDF iframe wrappers and 54 references to the corrected source PDF;
+- defines `can_read_lesson_content` and `complete_lesson`;
+- has an initial course upsert using `ON CONFLICT (id) DO UPDATE`, unlike the later file's `ON CONFLICT (id) DO NOTHING`;
+- contains no DELETE statement and no CREATE POLICY statement;
+- is not wrapped in the later file's explicit `BEGIN/COMMIT` transaction.
 
-That repository migration contains one bulk INSERT and 27 PDF iframe payloads. Its timestamp is later than both Dengnasî activation entries recorded by the test database. The two database ledger entries with versions `20261124093604` and `20261124112742` do not have same-version SQL files in the inspected repository migration directory.
+The later SQL source also has the same 27 iframe wrappers and the same two function definitions. It is the production-named version and matches the repository file exactly, despite the timestamp difference.
 
-## Interpretation
+## Current data versus migration history
 
-The test database and repository migration ledger are not in a one-to-one reconciled state. The names alone do not prove that the two missing SQL files are equivalent to, superseded by, or safely represented by the later repository migration. The existing database's 27 authored lesson rows also differ from the old PDF iframe payload represented by the repository's 20261124130000 migration.
+The current test-project `lesson_content` rows contain authored HTML and match the prepared 27-row payload exactly. They do not match the old iframe payloads embedded in either activation statement. No later migration-ledger entry describing that authored-HTML replacement was identified in the inspected ledger.
 
-This is migration-history drift, not permission to rewrite migration history. Do not:
-- apply `20261124130000` to the test project;
-- delete, rename, repair, or mark any migration as reverted/applied;
-- create a new timestamped migration until the source SQL and migration provenance for both recorded versions are recovered;
-- touch production or alter enrollment/progress data.
+This establishes a difference between current row state and the historical activation SQL. It does **not** establish how the content rows were changed. Do not infer whether they were changed through SQL Editor, an external script, or another process without separate evidence.
 
-## Current safe conclusion
+## Safe interpretation
 
-The 27 lesson rows in the test project already match the authored payload (as documented in `docs/DENGNASI-TEST-PROJECT-RECONCILIATION-2026-11-26.md`). No new database migration is needed to reproduce that current row content in this test project. The immediate remaining work is runtime/browser validation, not another data replacement.
+- The timestamp/name mismatch for the second activation migration is understood: its recorded SQL exactly matches the repository file under timestamp `20261124130000`.
+- The first activation migration is an earlier distinct version whose source is still available in the test DB ledger, but has no same-version repository migration file.
+- The authored HTML now present in the test DB has no corresponding later migration record identified in the ledger.
+
+Do not:
+- apply either activation SQL again;
+- add the recovered first statement to `supabase/migrations/` under its old timestamp (that could make other environments attempt to replay it);
+- rewrite migration history, delete ledger entries, or mark migrations as reverted/applied;
+- create a new migration until a genuine schema/data change is required and the provenance of the current authored rows is understood.
 
 ## Next steps
 
-1. Recover the exact SQL source and commit provenance for `20261124093604` and `20261124112742` from the repository history, CI artifacts, or trusted backup; compare their effects without executing them.
-2. Verify the course/catalog row, its publication/enrollment status, and the reader's URL and metadata behavior.
-3. Run browser checks for anonymous, non-enrolled, enrolled, owner, and sequence-locked cases against the test project.
-4. Only after those checks, decide whether a small code-only loader integration change is needed. Do not create or apply a migration unless an actual schema/data requirement is established.
+1. Keep both recovered SQL versions as historical evidence; do not replay them.
+2. If a durable copy of the first statement is ever needed, store it only as a clearly labelled non-executable archival artifact outside `supabase/migrations/`.
+3. Run the new local Playwright suite through GitHub Actions when an approved PR/CI route is available; it has not yet run.
+4. Separately perform authenticated browser checks against the test project. The local mocked suite does not prove real Supabase auth/RLS.
+5. Reconcile the catalog status and under-preparation landing page before release; the implementation branch now aligns their visible status.
 
 ## Safety record
 
-This was a read-only audit. No migration was applied, no migration ledger row was changed, and no course, lesson, enrollment, progress, policy, or production data was modified.
+All migration inspection was read-only. No migration was applied, no migration ledger row changed, and no course, lesson, enrollment, progress, policy, or production data was modified.
