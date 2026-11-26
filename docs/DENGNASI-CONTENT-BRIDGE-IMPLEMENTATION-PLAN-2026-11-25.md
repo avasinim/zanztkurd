@@ -164,3 +164,14 @@ When implementation is authorized and performed in a local project checkout, cre
 - The corrected page metadata remains intentionally distinct: Lesson 14 printed pages 168–185, original PDF pages 168–186, designed PDF pages 185–203; Lesson 15 printed pages 186–202, original PDF pages 187–202, designed PDF pages 205–220 with divider page 204.
 - CI runs `45775488081` and `45775625220` completed successfully. The latter used `--check` and confirmed the committed generated artifacts already match the source. The sync step made no additional changes.
 - The reader and course hold page remain non-indexable / under preparation. No course activation, production database write, migration, student-data change, deployment, main-branch update, or PR merge was performed.
+
+
+## Source audit of Lessons 18 and 21; generated preview refresh — 2026-11-26
+
+- Extracted the exact source-book pages from the 462-page corrected PDF using an isolated GitHub Actions job: Lesson 18 printed pp. 251–269 / designed PDF pp. 272–290; Lesson 21 printed pp. 315–347 / designed PDF pp. 339–371.
+- Audited both lessons against the source pages. Lesson 18's existing authored content was accurate and required no content change in this pass. Lesson 21 was strengthened with source-backed details on Sorani `key` and `xoy`, Y as a grammatical linker, `hemû/hemî` stress, omitted adverb/adposition examples, Sorani `de-/e-` and Persian `mî-`, stress in compounds, meanings of `piştî` and `gelî`, and the source's Pashto comparison.
+- A mixed-script term introduced during editing was caught by the Arabic-script validator and replaced before the passing run. The lesson content remains Kurmancî Latin only.
+- Regenerated all 27 HTML previews and the 27-row JSON payload from the canonical authoring Markdown. The generator `--write` and `--check` passed, the course validator passed, the public PDF HTTP/checksum/page-count check passed, and all 8 mocked Playwright tests passed in CI run `45776754621`.
+- The generated HTML previews and JSON payload were synced to this implementation branch after validation. The exact source review is recorded in `docs/DENGNASI-SOURCE-AUDIT-LESSONS-18-21-2026-11-26.md`; the broader validation log is updated in `docs/DENGNASI-HTML-PREVIEW-VALIDATION-2026-11-26.md`.
+- Temporary source-audit PR #92 was closed unmerged after its artifact was reviewed. PR #90 remains closed unmerged; PR #89 remains Draft/Open/Unmerged against `main`.
+- The implementation branch remains isolated and is not deployed. The course status remains under preparation. No course activation, production/test database write, migration, student-data change, deployment, publication, `main` update, or PR merge was performed.
