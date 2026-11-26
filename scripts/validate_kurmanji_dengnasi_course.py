@@ -147,25 +147,24 @@ for required in (
     "*gebhre*",
     "*vinçatî-*",
     "*ḥeb, ḥev, ḥew*",
-    "*ferre*",
+    "*latînî ferre*",
     "*bher-*",
     "*derî/dergeh*",
-    "*bînan*",
-    "*yihûdî*",
-    "*Yêşûa*",
-    "*camûs*",
-    "*gawmêş*",
-    "*cenî*",
-    "*ciwayen*",
+    "*dîtin/bînan*",
+    "*yihûdî → yihûd/cehûd → cohûd → cihû*",
+    "*Yêşûa → Iesus → Jésus → Jesus*",
+    "*gamêş/gavmîş/camûs/gawmêş*",
+    "*jîn/cenî/zen/cêni-*",
+    "*jiyan-ciwayen-zindegî-cey-*",
     "*diya min → ca min*",
     "*pêncî, pêncem, pêncê, pêncan, pênca*",
-    "*cento* [çênto]",
+    "*centum* [kêntum]",
     "*badem/bahîv/behîv/be’îv/ba’îv*",
     "*tinûru*",
 ):
     assert required in lesson8, f"Lesson 8 is missing source note/example: {required}"
 assert "| Kurmancî | Farisî | Pehlewî | Avestayî | Sanskrîtî |" in lesson8, "Lesson 8 C historical table is missing"
-assert "| jîn/cenî/zen/cêni- |" in lesson8, "Lesson 8 C/J/Z comparison table is missing"
+assert "| cuda, cihê, ciya | coda | cudî | yuta- | — |" in lesson8, "Lesson 8 C/J/Z historical table is incomplete"
 assert "Di pêraweja 69 de" in lesson8, "Lesson 8 B clitic footnote is missing"
 
 lesson9_match = re.search(r"(?ms)^# Dersa 9 —.*?(?=^# Dersa 10 —)", source)
