@@ -8,6 +8,7 @@ on:
       - "scripts/validate_dengnasi_authoring.py"
       - "scripts/test_dengnasi_reader.py"
       - "lessons/kurmanji-dengnasi-lesson-*.html"
+      - "script.js"
       - ".github/workflows/validate-dengnasi-authoring.yml"
   workflow_dispatch:
 
