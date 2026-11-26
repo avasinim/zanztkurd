@@ -48,9 +48,10 @@ When implementation is authorized and performed in a local project checkout, cre
 
 ## Explicit non-actions / safety boundary
 
-- No live Supabase connection or SQL query was made.
-- No migration was created, applied or deployed.
-- No production row, enrollment, progress record, course metadata or access policy was changed.
+- No production Supabase connection or SQL query was made.
+- The disposable test project `zanztkurd-kurmanji-test` was inspected read-only, with rollback-only RLS/progression probes.
+- All 27 test-project `lesson_content` rows were compared against the payload artifact; all 27 titles and `content_html` bodies matched exactly.
+- No migration was created or applied as part of this integration-branch work, and no production row, enrollment, progress record, course metadata or access policy was changed.
 - No deployment or publication was triggered.
 - PR #89 remains Draft/Open/Unmerged and is not modified by this plan.
 - `main` is not modified by this branch.
@@ -60,10 +61,19 @@ When implementation is authorized and performed in a local project checkout, cre
 - Canonical title parity is complete across all 27 authoring H1s, Manifest titles, and standalone page `<title>`/`<h1>` values.
 - All 27 HTML previews have been regenerated and checked for normalized source-text parity, list-item parity, table-row parity, balanced HTML, Latin-only script, source citations, and absence of quizzes/forms. See `docs/DENGNASI-HTML-PREVIEW-VALIDATION-2026-11-26.md`.
 - The preview audit found and corrected list, table-separator, literal-asterisk and inline-emphasis conversion defects.
-- A 27-row DRAFT ONLY `content_html` payload artifact has been generated at `docs/previews/dengnasi-content-html-payload-preview.json` and statically validated for stable keys, titles, page metadata, and HTML structure; it has not been applied to any database.
+- A 27-row `content_html` payload artifact is stored at `docs/previews/dengnasi-content-html-payload-preview.json`. It has exact title and HTML-body parity with all 27 rows currently present in the disposable test project. This verifies the test database state only; it does not establish when or by which migration/process those rows were seeded, and it does not establish production parity.
 
 ## Next implementation sequence
 
 1. Implement the narrow loader-guard removal on this integration branch.
 4. Generate the follow-up migration through the Supabase CLI in a local checkout, add fail-closed row/hash checks, and validate it in a disposable project.
 5. Review the complete diff and test evidence before proposing a separate Draft PR for user review.
+
+
+## Test-project verification update — 2026-11-26
+
+- The disposable test project currently contains the course record and 27 `lesson_content` rows for `kurmanji-dengnasi-27`.
+- Each of the 27 database `title` and `content_html` values was compared byte-for-byte with the corresponding payload JSON entry; all 27 matched exactly.
+- RLS probes passed for no-enrollment denial, first-lesson access, sequential lesson unlocking, owner access, and anonymous-role privilege denial. Probe transactions were rolled back; no test enrollment or progress rows remain.
+- This supersedes earlier statements in this plan that no Supabase query was made or that the payload had not been applied to any database. The verified scope is the disposable test project only.
+- End-to-end browser authentication and live GitHub Pages delivery remain unverified.
