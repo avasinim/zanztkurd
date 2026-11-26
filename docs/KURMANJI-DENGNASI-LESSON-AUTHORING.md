@@ -3599,9 +3599,9 @@ U li her sê cihên peyvê tê:
 - Nav: *guh, kurd, quling*.
 - Dawî: *du, ku, tu*.
 
-Di peyvên xwemalî de U li destpêkê bi gelemperî nayê dîtin. Li dawiya peyvan jî kêm e û di çend peyvên wek *du, ku, tu* de heye. Li nav peyvan zêdetir e.
+Di peyvên xwemalî de U li destpêkê bi gelemperî nayê dîtin. Li dawiya peyvan jî kêm e û di çend peyvên wek *du, ku, tu* de heye. Li nav peyvan zêdetir e. Rêjeya U di nivîsên kurmancî de **1,3%** e; di nav vokalan de tenê O ji wê kêmtir e. U li destpêka peyvên xwemalî nayê dîtin; peyvên destpêk-bi-U yên ku tên dîtin bi gelemperî wergirtî ne.
 
-Di gelek peyvan de forma bi U tenê varyanteke forma bi I ye; di nivîsîna standard de forma bi I bi gelemperî serdest e:
+Di gelek peyvan de forma bi U tenê varyanteke forma bi I ye; di nivîsîna standard de forma bi I bi gelemperî serdest e. Îstîsna ya sereke *huner* e: ev peyv di sedsala bîstem de bi rêya soranî ji farisî ketiye kurmanciya nivîskî; forma xwerû-kurmancî *hinêr* di hin devokan de dimîne, lê wateya wê ji *huner* cuda ye. Herwiha di nivîsîna standard de *tu* bi wateya kesê duyem serdest e, lê hin nivîskar *ti* bi wateya “hîç/çu” ji *tu* cuda dinivîsin:
 - *awur/awir*;
 - *bulbul/bilbil*;
 - *cuhû/cihû*;
@@ -3624,12 +3624,20 @@ Di peyvên xwemalî de U piştî G, K, Q û X giring e: *guh, gul, gund; kun, ku
 ## 4. Çavkaniya dîrokî û devokî ya U
 
 U di hin peyvên kurmancî de dengê kevn diparêze:
-- kurmancî *guh* — pehlewî *guş* — sogdî *nguş*;
-- *gul* bi formên îranî yên bi G/V re tê berawirdkirin.
+- kurmancî *guh* — pehlewî *guş* — sogdî *nguş*.
+
+Pirtûk herwiha rêyên dîrokî yên *gu-/go-* bi *vi-/ve-* ya hin zimanên îranî yên kevn û niha re berawird dike:
+
+| Kurmancî | Farisî | Pehlewî | Zazakî | Hewramî | Avestayî |
+|---|---|---|---|---|---|
+| *gul* | *gol* | *gil* | *vil* | *vil* | *veridhe-* |
+| *gur(g)* | *gorg* | *gurg* | *verg* | *werg* | *vehrke-* |
+
+*Guhan* jî ji rehên *gew-/gaw-* (“ga, manga”) re tê girêdan. Pirtûk dibêje ku gelek peyvên bi *ku-* û *qu-* di zimanên îranî yên kevn de hevbera eşkere nînin; piraniya wan dibe ku ji zimanên din hatibin wergirtin, lê etîmolojiya gelek ji wan ne zelal e.
 
 Di gelek peyvên bi U de, bi taybetî peyvên ku U dikare bibe I, çavkaniya peyvê erebî ye an bi rêya erebî hatiye wergirtin: *dukan/dikan, bulbul/bilbil, bum/bim*. Lê U ya xwemalî, nemaze piştî G, K, Q û X, bi gelemperî tê parastin.
 
-Di hin peyvan de guherîna -EW- an -AW- bi U ve girêdayî ye; mînak *guhan* bi rehên *gew-/gaw-* re tê berawirdkirin. Di navbera kurmanciya navendî û rojhilatî de jî hin guherînên U/I hene: *kurm/kirm*, *kurmanc/kurmancî – kirmanc/kirmancî*. Di hin peyvan de -UH-, -UHI-, -UHU-, -UHE- û O li gor devokê diguherin: *buhirîn/borîn*, *guherîn/guhorîn*, *cuhik-cihuk/cok-co*.
+Di navbera kurmanciya navendî û rojhilatî de jî hin guherînên U/I hene: *kurm/kirm*, *kurmanc/kurmancî – kirmanc/kirmancî*. Di hin peyvan de -UH-, -UHI-, -UHU-, -UHE- û O li gor devokê diguherin: *buhirîn/borîn*, *guherîn/guhorîn*, *cuhik/cihuk/cok/co*.
 
 Çemandin bi gelemperî bandoreke kêm li ser U dike. Lê di lêkerên *şûştin* û *duhtin* de, tevî ku formên borî li gor devokê diguherin, rehê dema niha bi O ye: *şo-* û *doş-*.
 
@@ -3658,6 +3666,21 @@ Guherîna Û→Ü an -WÎ- di hin deverên kurdiya başûrî de jî heye. Li vir
 Di nivîsîna kurmancî ya standard de, herçend hin devok Û wek Ü, -WÎ- an Î bibêjin, pêşniyar ev e ku hemû kesan di nivîsînê de **Û** biparêzin û bilêvkirinê li gor devoka xwe bikin. Bi vî awayî peyvên devokên cuda di nivîsînê de yekgirtî dimînin, lê xwîner dikare wan li gor devoka xwe bixwîne.
 
 Di hin nivîsên taybet ên kurdiya başûrî, zazakî û şahzênî/şêxbizinî de herfa Ü an awayê -WÎ- hatiye bikaranîn. Di nivîsîna kurmanciya rojhilatî de jî -WÎ- (wek *bwîk, dwîr, mwî*) an di hin deveran de Î (wek *bîk, dîr, mî*) tê dîtin. Lê ji bo nivîsîna standard, parastina Û rêbazeke yekgirtû ye. Û di kurdî de herfeke pirrdeng e: dikare li gor devokê bi dengên cuda were xwendin, bê ku nivîsa standard biguherê.
+
+
+
+### 2.4. O ji komdengên -UH-, -UHI-, -UHU- û -UHE-
+
+Pirtûk diyar dike ku O di hin peyvan de ji komdengên ku U û H tê de ne peyda dibe. Nimûneyên çavkaniyê ev in:
+- *duh, duhî* → *do*;
+- *duhun* (ji erebî) → *don*;
+- *duhtin* → *dotin*;
+- *duhtmam* → *do(t)*;
+- *buhirandin/buhirîn* → *borandin/borîn*;
+- kurmancî *guher(r)în* li hember soranî *gor(r)an*;
+- *muhir, muhr, mih* → *mor*.
+
+Ev formên devokî û dîrokî divê wek nimûneyên taybet bên xwendin; pirtûk wan wek rêzikeke bêîstîsna pêşkêş nake.
 
 
 ## 8. Hûrguliyên temamker ên O û U
