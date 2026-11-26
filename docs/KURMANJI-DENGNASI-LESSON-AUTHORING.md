@@ -89,7 +89,7 @@ Vekolîn bi zimanekî hatiye nivîsîn ku xwendevanên ne-zimannas jî bikarin j
 
 - **Ismaîl Fettah**, di *Les Dialectes Kurdes Méridionaux* (2000) de, nêzîkî 170 rûpelan li ser dengnasiya devokên kurdiya başûrî, anku feylî, kelhurî û kirmaşanî, radiweste. Lê ew van devokan bi lehceyên din ên kurdî re nade ber hev û dîroka guherînên dengnasî jî nagire.
 - **Ebdulmecîd Reşîd Ehmed**, di doktornameya *The Phonemic System of the Modern Standard Kurdish* (1986) de, ku 169 rûpel e, pergala fonemî ya soraniya standard vedikole; lê sînorê wê devoka Silêmaniyê ye.
-- **Ruslan L. Çabolov**, di *Очерк исторической фонетики курдского языка* (1976) de, ku nêzîkî 100 rûpel e, dengnasiya dîrokî ya kurdî û bi taybetî dîroka dengên xwemalî vedikole; lê têkiliyên dengnasî yên kurdî bi zimanên cîran û çavkaniyên gelek peyvan bi berfirehî nagire.
+- **Ruslan L. Çabolov**, di *Ocherk istoricheskoy fonetiki kurdskogo yazyka* (1976) de, ku nêzîkî 100 rûpel e, dengnasiya dîrokî ya kurdî û bi taybetî dîroka dengên xwemalî vedikole; lê têkiliyên dengnasî yên kurdî bi zimanên cîran û çavkaniyên gelek peyvan bi berfirehî nagire.
 - **Margaret Kahn**, di doktornameya *Borrowing and variation in a phonological description of Kurdish* (1976) de, li ser peyvên wergirtî û cihêrengiya wan di kurmanciya devera Urmiyê de radiweste; mijara wê hemû dengnasiya kurdî an hemû kurmancî nîne.
 - **Fêrgîn Melik Aykoç**, di *Kurdîzan – Rûberîna Zaravên Kurdî* (1996) de, cudahiyên dengnasî yên zaravên kurdî, bi taybetî kurmancî û zazakî, nîqaş dike; lê armanca sereke ya wê nasandina hemû dengnasiya kurdî nîne.
 
