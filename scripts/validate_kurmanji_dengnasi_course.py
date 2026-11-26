@@ -138,6 +138,30 @@ for required in (
 assert "berî vokalên **A û O**" in lesson26, "Lesson 26 Turkish K scope must remain A/O"
 assert "berî vokalên paşîn **A, I, O, U**" not in lesson26, "Lesson 26 overgeneralizes the Turkish K scope"
 
+lesson9_match = re.search(r"(?ms)^# Dersa 9 —.*?(?=^# Dersa 10 —)", source)
+assert lesson9_match, "Lesson 9 authoring section is missing"
+lesson9 = lesson9_match.group(0)
+for required in (
+    "*funduq*",
+    "*felsefe*",
+    "*pandokeîon*",
+    "*philosophîa*",
+    "*p-l-h*",
+    "*pale*",
+    "*kolah, kohen/kohnê*",
+    "*rewag/rewac*",
+    "*gwem-*",
+    "*gimti*",
+    "*come* wek *kam*",
+    "*göç, göçer*",
+    "*genc*",
+    "Feylî, Kelhurî û Kirmaşanî",
+):
+    assert required in lesson9, f"Lesson 9 is missing source note/example: {required}"
+assert "| Kurmancî | Farisî | Pehlewî | Avestayî |" in lesson9, "Lesson 9 F/P comparison table is missing"
+assert "| Yûnaniya kevn | — | baru | — |" in lesson9, "Lesson 9 historical G comparison table is incomplete"
+assert "ketina C/G/D ji dawiya peyvê" in lesson9, "Lesson 9 source footnote 81 is missing"
+
 lesson25_match = re.search(r"(?ms)^# Dersa 25 —.*?(?=^# Dersa 26 —)", source)
 assert lesson25_match, "Lesson 25 authoring section is missing"
 lesson25 = lesson25_match.group(0)
