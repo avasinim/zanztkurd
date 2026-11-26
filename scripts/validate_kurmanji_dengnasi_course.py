@@ -479,3 +479,13 @@ for required in ("168–186", "[r]", "[ɾ]", "[s]", "5,2%", "1,6%", "Pêraweja 1
     assert required in lesson14, f"Lesson 14 is missing source detail: {required}"
 assert "https://en.wikipedia.org/wiki/File/" not in lesson14, "Lesson 14 must not add audio dependencies"
 assert not re.search(r"[\u0600-\u06FF]", lesson14), "Lesson 14 must remain Latin-script only"
+
+
+# Lesson 15 source-audit assertions (printed pp. 186–202)
+lesson15_match = re.search(r"(?ms)^# Dersa 15 —.*?(?=^# Dersa 16 —)", source)
+assert lesson15_match, "Lesson 15 authoring section is missing"
+lesson15 = lesson15_match.group(0)
+for required in ("186–202", "[ʃ]", "[t]", "1,0%", "2,6%", "Pêraweja 136", "Pêraweja 137", "Pêraweja 138", "Pêraweja 139", "Pêraweja 140", "Pêraweja 141", "Pêraweja 142", "Pêraweja 143", "Pêraweja 144", "Pêraweja 145", "Pêraweja 146", "Pêraweja 147", "voiceless postalveolar fricative", "aspirated", "unaspirated", "*tav*", "*teng*", "*tirs*", "*heft*", "vate-", "zamat-er", "brat-er", "mat-er"):
+    assert required in lesson15, f"Lesson 15 is missing source detail: {required}"
+assert "https://en.wikipedia.org/wiki/File/" not in lesson15, "Lesson 15 must not add audio dependencies"
+assert not re.search(r"[\\u0600-\\u06FF]", lesson15), "Lesson 15 must remain Latin-script only"
