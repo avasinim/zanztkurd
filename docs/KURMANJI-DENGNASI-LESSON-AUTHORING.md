@@ -3742,7 +3742,7 @@ Ev nimûne nîşan didin ku giranî dikare cudahiya navbera navdêr, rengdêr, d
 - **245 — Ti:** *Ti* di hin devokan de cînavê “tu” ye; bi *sen* ya tirkî, *ente/entî* ya erebî û *to* ya farisî re tê berawirdkirin.
 - **246 — Di:** *Di* di hin formên devokî de hejmara 2 ye.
 - **247 — Dih/dihî:** Ev form di hin deveran de wateya “roja berî îro” dide.
-- **248 — Dengê Ẍ:** Nîşana ẍ ji bo dengê xeynê ye; di alfabeya erebî de غ, di IPA de ɣ û di hin veguhastinên Ewropî de gh tê nivîsîn.
+- **248 — Dengê Ẍ:** Nîşana ẍ ji bo dengê xeynê ye; di alfabeya erebî de bi tîpa xeynê, di IPA de bi sembola dengê xeynê û di hin veguhastinên Ewropî de gh tê nivîsîn.
 - **249 — Kêmbûna ẌU-:** Peyvên bi ẍu- di kurdî de pir kêm in; nivîskar dibêje nimûneyên heyî jî nîşan didin ku ẍu- nabe ẍi-.
 - **250 — Murder:** Nivîskar di berawirdkirina *mirin* de hişyar dike ku *murder* ya îngilîzî wateya “kuştin/qetilkirin” dide, ne “mirin”, herçend bi eslê xwe peywendîdar bin.
 - **251 — Wusa/wulo/wunda:** Nivîskar van forman wek guherîna dengnasî nayê hesibandin; ew wek kêmasiyên nivîsînê şîrove dike, ji ber ku dengê rastîn ê *wu-* dê peyvê dirêjtir bikira.
