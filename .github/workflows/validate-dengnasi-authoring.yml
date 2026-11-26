@@ -1,0 +1,26 @@
+name: Validate Dengnasi authoring draft
+
+on:
+  pull_request:
+    paths:
+      - "docs/KURMANJI-DENGNASI-LESSON-AUTHORING.md"
+      - "docs/DENGNASI-SOURCE-ALIGNMENT-AUDIT-2026-11-26.md"
+      - "scripts/validate_dengnasi_authoring.py"
+      - ".github/workflows/validate-dengnasi-authoring.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  validate-authoring:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+      - name: Validate 27-lesson authoring draft
+        run: python scripts/validate_dengnasi_authoring.py
