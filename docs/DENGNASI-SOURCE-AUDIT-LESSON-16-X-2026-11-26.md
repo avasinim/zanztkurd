@@ -65,3 +65,18 @@ The implementation branch itself now contains the script enforcement in `scripts
 - generated-preview synchronization to the implementation branch after all checks passed.
 
 Temporary PR #97 was closed unmerged after this successful run. No main-branch merge, database write, migration, student-data change, deployment, publication or activation occurred.
+
+
+## Footnote reconciliation — 2026-11-26
+
+A second page-by-page check of physical PDF pages 222–251 (printed pages 203–232) found that footnotes 149–158 were not transcribed into the lesson authoring text. They have now been restored in Kurmanji Latin in the authoring source and both generated HTML representations.
+
+- 149 and 153: the cited letter-frequency study by Husein Muhammed.
+- 150–151: glosses and etymological note for the Latin comparisons.
+- 152: Eastern Kurmanji *-ve/-eve* and Sorani *-ewe* comparison.
+- 154: direction of borrowing for *cade* (Iranian → Arabic).
+- 155: the author's comparison of Kurdish-adapted personal names.
+- 156: IPA [ʔ] and apostrophe transcription examples.
+- 157–158: the author's derivation of *sengîn* and the unresolved R in *bijartin*.
+
+Static reconciliation after the update: the generated lesson preview body (excluding its presentation-only header) and lesson-16 payload body are identical at 22,053 characters; the source section, preview and payload contain no Arabic or Cyrillic glyphs. Validator assertions for the footnote details were added. Full workflow execution has not been run for this footnote-only update, so the previously recorded CI pass applies to the earlier commit, not this new commit.
