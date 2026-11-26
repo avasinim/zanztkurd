@@ -1229,13 +1229,7 @@ Gava dengekî bêlerz, wek T, li pey V were, V dikare bibe F:
 
 Pirtûk heman guherîna V → F di îngilîzî de jî bi *leave → left* nîşan dide. Berevajî vê, dengekî bilerz li pey F dikare F bike V. Di nimûneya *heft + deh* de, piştî ketina T-ya navîn, D-ya bilerz F-ya berî xwe dike V û forma *hevde(h)* çêdibe.
 
-Di hin peyvan de F dikare bi B, W an carinan H re têkildar bibe. Pirtûk peyva *vala/vale* jî wek nimûneyeke nîqaşbar pêşkêş dike: dibe ku ji erebî *faric* be, an jî ji formên ermenî yên *barab/parap* hatibe. Ev etîmolojî wek îhtîmal hatiye gotin, ne wek rastiyeke piştrast. Di soranî de li hember koma dengên FT ya kurmancî gelek caran WT heye:
-- kurmancî *heft* — soranî *hewt*;
-- kurmancî *şkeft* — soranî *eşkewt*;
-- kurmancî *mizgeft* — soranî *mizgewt*;
-- kurmancî *ke(f)tin* — soranî *kewtin*.
-
-Di soranî de li hember koma FT ya kurmancî gelek caran WT heye:
+Di hin peyvan de F dikare bi B, W an carinan H re têkildar bibe. Pirtûk peyva *vala/vale* jî wek nimûneyeke nîqaşbar pêşkêş dike: dibe ku ji erebî *faric* be, an jî ji formên ermenî yên *barab/parap* hatibe. Ev etîmolojî wek îhtîmal hatiye gotin, ne wek rastiyeke piştrast. Di soranî de li hember koma FT ya kurmancî gelek caran WT heye:
 
 | Kurmancî | Soranî |
 |---|---|
@@ -1343,6 +1337,32 @@ G carinan bi dengê berî xwe re dikeve hev û paşê bi temamî ji peyvê dikev
 - avestayî: *vehrke-*.
 
 Ev berawirdkirin nîşan dide ku G di kurmanciya navendî de ji dawiya peyvê ketiye. G bi taybetî dema ku li ber K tê dikare bikeve. Pirtûk nimûneyên *bang → bang kirin → ban kirin* û *deng → deng kirin → den kirin/dey(ne)kirin* dide; formên dawî yên gotinê formên kurtkirî ne.
+
+
+## 10. Hûrguliyên temamker ên F û G
+
+### 10.1. F, V û guherîna dengên bêlerz û bilerz
+
+F û V ji aliyê cihê derketinê û awayê xişokê ve wek hev in: herdu lêvî-didanî û xişokên nevizok in. Cudahiya wan lerza perdeyên dengî ye. Gava dengekî bêlerz, wek T, li pey V were, V dikare bibe F; mînakên pirtûkê *di-axiv-im → axif-tin* û *di-kev-im → kef-tin → ketin* in. Berevajî vê, dengekî bilerz li pey F dikare F bike V; di *heft + deh → hevde(h)* de D ya bilerz F-ya bêlerz dike V.
+
+Pirtûk guherîna B/F jî qeyd dike, lê tenê di çend nimûneyan de, wek *fafon/bafon*. Guherîna rasterast a F/H di kurdî de nayê dîtin. Di hin zimanên din de mînakên F/H hene; di kurdî de têkiliya F û H bi awayekî neyekser, bi rêya guherîna H/V, tê nîşandan. Pirtûk *kulav, kevn* bi formên farisî *kolah, kohen/kohnê* re berawird dike. Etîmolojiya *vala/vale* jî wek îhtîmal hatiye gotin: dibe ku ji erebî *faric* be, an jî ji ermenî *barab/parap*; ev ne encameke piştrastkirî ye.
+
+Di soranî de koma dengên **FT** ya kurmancî gelek caran bi **WT** re tê berawirdkirin: kurmancî *heft, şkeft, mizgeft, ke(f)tin* li hember soranî *hewt, eşkewt, mizgewt, kewtin*. Di hin devokên kurmancî de F-ya berî T jî dikeve: *mizgeft → mizget* û *şkeft → şket*; lê piraniya devokan F-yê diparêzin.
+
+### 10.2. Ketina F û rehên dîrokî yên *ketin*
+
+Di kurmanciya navendî û rojavayî de forma dema borî *ketin* e, lê di rehê dema niha û bên de F tê parastin: *di-kev-im, na-kev-î, bi-kev-in, ne-kev-e*. Di kurmanciya rojhilatî de *keftin*, di soranî de *kewtin* û di zazakî de *kewten* hene. Pirtûk vê malbatê bi formên belûçî *kep-*, parsî *k-f-*, pehlewî *k-f-/k-p-*, yûnaniya kevn *kopto-* û rûsî *kopati* re berawird dike. Wateya formên yûnaniya kevn û rûsî ji wateya kurdî cuda ye (“lêdan/lêxistin” û “kolandin”), lê nivîskar wan wek hevreha dîrokî pêşkêş dike. Di kurmanciya navendî û rojavayî de F ji rehê dema borî ketiye û *-keft-* bûye *-ket-*.
+
+### 10.3. Hûrguliyên temamker yên G
+
+G di kurmancî de dikare li destpêk, nav û dawiyê were. Li gorî lêkolîna nivîskar, rêjeya wê **1,3%** e. Di peyvên xwemalî yên xwerû de G li nav û dawiyê sînordar e; li dawiyê bi taybetî piştî N tê, wek *ceng, deng, dereng*. Li pişt R jî dikare were, lê di gelek devokan de dikeve: *gurg → gur*. Carinan G di peyvê de zêde dibe, wek *qaling/qalind* ji *qalin* (ji tirkî *kalın*).
+
+Di hin devokên kurmancî de G di koma **NG** de li cihê K tê: *birak → birang* û *çok → çong*. Di berawirdkirina kurmancî û soranî de G-ya soranî dikare li cihê H-ya kurmancî were, wek *reh/rih → reg*. Di kurdiya başûrî de K di hin paşgiran û peyvan de dibe G: kurmancî *nêzîk*, soranî *nizîk*, başûrî *nizîg*; paşgirên kurmancî *-ek*, soranî *-êk*, başûrî *-êg*; û soranî *-ekan* li hember başûrî *-egan*.
+
+Di tirkî ya niha de G-ya hin peyvên xwemalî ji K-ya tirkî ya kevn hatiye: *gelmek* ji *kelmek*, *gitmek* ji *kitmek*, *gün* ji *kün*, *göz* ji *köz*. Lê kurmancî di hin peyvên wergirtî de K-ya kevn parastiye an kiriye Q: *koç, koçer* ji formên kevn ên bi K, û *qenc* ji *kenç*; formên tirkî yên niha *göç, göçer* û *genç* in. Di peyvên esil-îranî de G-ya tirkî dikare bibe Y: *beg → bey*, *eger → eğer*, *dîger → diğer*.
+
+G bi taybetî dema ku li ber K tê dikare bikeve. Pirtûk mînakên *bang → bang kirin → ban kirin* û *deng → deng kirin → den kirin/dey(ne)kirin* dide. Ev formên kurtkirî di gotinê de tên dîtin; nivîsa peyva bingehîn û pêkhatî dikare G-yê xwe biparêze.
+
 
 ## Çavkanî
 
