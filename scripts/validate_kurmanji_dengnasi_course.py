@@ -559,3 +559,16 @@ for required in ("Têbîniyên pêrawejan 209–228", "umêd", "Omer", "hotêl",
 assert "298–314" in lesson20 and "298–314" in lesson20_payload
 assert not any("\u0600" <= ch <= "\u06FF" or "\u0400" <= ch <= "\u052F" or "\u0590" <= ch <= "\u05FF" for ch in lesson20), "Lesson 20 must remain Latin-script only"
 assert not any("\u0600" <= ch <= "\u06FF" or "\u0400" <= ch <= "\u052F" or "\u0590" <= ch <= "\u05FF" for ch in lesson20_payload), "Lesson 20 payload must remain Latin-script only"
+
+# Lesson 21 source-footnote assertions (printed pp. 315–347; designed PDF pp. 339–371)
+lesson21_match = re.search(r"(?ms)^# Dersa 21 —.*?(?=^# Dersa 22 —)", source)
+assert lesson21_match, "Lesson 21 authoring section is missing"
+lesson21 = lesson21_match.group(0)
+lesson21_payload = payload["lessons"][20]["content_html"]
+for required in ("Têbîniyên pêrawejan 229–268", "Eyn", "Behdînî", "buîn/bwîn", "dîw", "ronahî", "Ẍ", "murder", "difn", "kitêbeka min", "Tegey û Robson", "piştî", "hatin"):
+    assert required in lesson21, f"Lesson 21 is missing source footnote detail: {required}"
+for required in ("Têbîniyên pêrawejan 229–268", "Eyn", "Behdînî", "buîn/bwîn", "dîw", "ronahî", "Ẍ", "murder", "difn", "kitêbeka min", "Tegey û Robson", "piştî", "hatin"):
+    assert required in lesson21_payload, f"Lesson 21 payload is missing source footnote detail: {required}"
+assert "315–347" in lesson21 and "315–347" in lesson21_payload
+assert not any("\u0600" <= ch <= "\u06FF" or "\u0400" <= ch <= "\u052F" or "\u0590" <= ch <= "\u05FF" for ch in lesson21), "Lesson 21 must remain Latin-script only"
+assert not any("\u0600" <= ch <= "\u06FF" or "\u0400" <= ch <= "\u052F" or "\u0590" <= ch <= "\u05FF" for ch in lesson21_payload), "Lesson 21 payload must remain Latin-script only"
