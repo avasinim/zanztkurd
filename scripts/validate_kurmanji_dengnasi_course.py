@@ -469,3 +469,13 @@ for required in (
 assert "nîşana rast a P" in lesson13 and "[p]" in lesson13 and "şaşiya çapê" in lesson13, "Lesson 13 must document the corrected IPA symbol and source inconsistency"
 assert "https://en.wikipedia.org/wiki/File/" not in lesson13, "Lesson 13 must not add audio dependencies"
 assert not re.search(r"[\u0600-\u06FF]", lesson13), "Lesson 13 must remain Latin-script only"
+
+
+# Lesson 14 source-audit assertions (printed pp. 168–186)
+lesson14_match = re.search(r"(?ms)^# Dersa 14 —.*?(?=^# Dersa 15 —)", source)
+assert lesson14_match, "Lesson 14 authoring section is missing"
+lesson14 = lesson14_match.group(0)
+for required in ("168–186", "[r]", "[ɾ]", "[s]", "5,2%", "1,6%", "Pêraweja 125", "Pêraweja 126", "Pêraweja 127", "Pêraweja 128", "Pêraweja 129", "Pêraweja 130", "Pêraweja 131", "Pêraweja 132", "Pêraweja 133", "Pêraweja 134", "Pêraweja 135", "*rûvî*", "*vulpes*", "*limêj*", "*livîn*", "*biřojî*", "*îmřo*", "*stêr*", "*centum*", "*sete-*", "*mîraθ*", "alveolar fricative", "168–185", "186–202"):
+    assert required in lesson14, f"Lesson 14 is missing source detail: {required}"
+assert "https://en.wikipedia.org/wiki/File/" not in lesson14, "Lesson 14 must not add audio dependencies"
+assert not re.search(r"[\u0600-\u06FF]", lesson14), "Lesson 14 must remain Latin-script only"
