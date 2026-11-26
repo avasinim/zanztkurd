@@ -30,17 +30,35 @@ The HTML previews remain drafts in `docs/previews/`; they are not connected to s
 
 The nine title differences identified in the earlier reconciliation have been resolved. The authored lesson H1 is now the canonical display title in the 27-entry manifest and in each standalone lesson page's `<title>` and visible `<h1>`. Lesson IDs, lesson keys, printed-page ranges, original PDF page ranges and designed PDF page ranges were compared with the pre-alignment manifest and remain unchanged.
 
+## Site-page shell audit and copy corrections — 2026-11-26
+
+- Verified all 27 standalone pages under `lessons/kurmanji-dengnasi-lesson-01.html` through `-27.html` exist on the isolated implementation branch.
+- All 27 have the matching `data-lesson-key`, a `.lesson-content` injection container, and load the shared `../script.js` protected-content loader.
+- All 27 page `<title>` values match their visible `<h1>` and the corresponding authored lesson H1. The 27 manifest titles also match the authored H1s exactly; lesson IDs and page metadata were not changed in this copy correction.
+- Replaced the misleading shell sentence claiming the book text was preserved verbatim and the PDF opened from the lesson page. The corrected Kurmancî Latin copy states that lesson topics are organized according to the source's section/topic order and that the book text is not copied verbatim.
+- Replaced the Arabic-script transient loading placeholder with `Naveroka dersê tê barkirin...` in all 27 pages.
+- Revalidated 27/27 pages in three batches: correct title/H1 parity, corrected source explanation, Latin-script loading placeholder, stable lesson key, and shared loader reference. The hero text contains no Arabic-script characters.
+- These changes are limited to page-shell explanatory/loading copy. The authored lesson content, source examples, IDs, keys, page ranges, database rows, enrollment and progress were not edited.
+
+## Supabase test-project reconciliation
+
+- The disposable `zanztkurd-kurmanji-test` project already contained 27 authored HTML rows matching the prepared 27-row payload exactly; no iframe/PDF wrapper remained.
+- A rollback-only replacement attempt stopped at its first fail-closed legacy-wrapper precondition. The UPDATE statement was not reached.
+- A simple `BEGIN / SELECT / ROLLBACK` probe succeeded. Read-only progression helper checks matched all six expected cases.
+- The test DB migration ledger contains two Dengnasî activation versions (`20261124093604`, `20261124112742`) without same-version migration files on this branch. The repository's `20261124130000` migration contains 27 legacy PDF iframe payloads. This drift is documented; no migration or ledger repair is authorized or needed for the already-matching test rows.
+- No real browser session test has been run. The existing Dengnasî GitHub Actions workflow only runs the static course/PDF validator; the existing Playwright workflow is for a different course pathway and stubs auth locally. It does not prove real Dengnasî Supabase authentication, enrollment, or sequence access.
+
 ## Remaining integration work
 
-- Completed: built `docs/previews/dengnasi-content-html-payload-preview.json` with 27 ordered records, exact stable keys/IDs/titles/page metadata, and validated HTML bodies. The payload remains marked DRAFT ONLY and has not been applied.
-- Next: remove the deliberate course-specific loader guard only on an isolated implementation branch, retaining authentication, enrollment, sequential gating, error handling and server-side authorization.
-- Generate and validate a fail-closed migration in a disposable Supabase project only; no production access or mutation is authorized here.
-- Reconcile the catalog card status with the course landing page before any release: the catalog currently describes the course as active while `kurmanji-dengnasi-course.html` is an under-preparation hold page.
+1. Add a dedicated Playwright suite for the 27 Dengnasî pages using the existing local server and mocked Supabase response to verify loader injection, fallback, navigation, and page shell behavior.
+2. Add or adapt a separately approved test-project browser workflow for actual authenticated access tests, using only the existing test secrets. Do not expose credentials in logs or artifacts.
+3. Recover the exact provenance/source SQL for the two earlier test-project migration versions before making any migration-ledger decision.
+4. Reconcile the course catalog card with the current under-preparation landing page. The catalog/landing status must be consistent before release.
+5. Only after all tests and review, prepare a release proposal. Production, `main`, deployment, and PR merge remain outside scope without explicit approval.
 
 ## Safety boundary
 
-No Supabase connection, query, migration, row update, learner-progress change, access-policy change, deployment, publication, main-branch update or PR merge was performed in this validation.
-
+Test-project queries were read-only except for a transaction probe rolled back immediately. No course, lesson, enrollment, progress, policy, or migration data was modified. No production project was accessed. No deployment, publication, `main` update, or PR merge occurred.
 
 ## Draft payload artifact
 
