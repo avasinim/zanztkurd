@@ -48,3 +48,24 @@ The lesson payload has 15 numbered sections and covers the two major parts of th
 - This does **not** mean all 27 lesson payloads are approved as exact reproductions. Earlier audits have recorded compression, duplication, source inconsistencies and missing detail that need a consolidated correction register.
 - The separate test-database parity issue remains unresolved: the latest direct comparison showed 0/27 exact HTML matches and nine title mismatches against the prepared payload. No resynchronization was performed.
 - No Supabase write, migration, production change, deployment, PR merge, student-data access/change, or course activation was performed.
+
+
+## Complete source-page and payload reconciliation — 27 November 2026
+The source was read through the end of printed p.432. Printed p.418 begins the article on aspiration; p.419 begins the hiatus article; printed p.432 ends the article. The manifest range 418–432 is correct.
+
+The source's two-part architecture is important:
+- Printed p.418 is a short concluding argument about the history and possible future of aspirated/unaspirated Ç/K/P/T. It argues that unaspirated variants may be older in Kurmanji and Zazaki, that loanwords and contact with Persian/Turkish and other languages have increased aspiration, and speculates that the contrast could disappear over time. These are the author's hypotheses and prediction.
+- Printed pp.419–432 treat hiatus: definition and examples; environments where hiatus occurs; a vowel-pair inventory; deletion of one vowel; Y, H, W, T and N as hiatus blockers; R in Sorani/Southern Kurdish; a possible historical V in pîvaz; hiatus across word boundaries; and vowel-to-consonant conversion (Î→Y and U/Û→W).
+
+Payload comparison: all 14 main headings are represented. The payload includes the opening aspiration history, hiatus definition, borrowed/native and prefix environments, the vowel-combination table and its notes, both main repair strategies, and the individual roles of Y/H/W/T/N/R/V, cross-word hiatus and vowel-to-consonant conversion. Principal examples are represented, including bêav/biêş, xaîn/îdea/saet, na-axivin, davêtin/baqil/navêjin/naxift, rojnamê/birê min, rojnameyê/perdeya/birayên, nehanîn/dihavêt/nahavêjî, bawî/duwem, biratî/pêşmergetî/hevrêtî/hevaltî, çawa/çawan and wisa/wisan, biderê, pîvaz/piyaz, bi avê/bi avê and the copula forms, plus Î→Y and U/Û→W examples.
+
+Source anomalies that must remain visible:
+- The vowel-pair table on printed p.421 has repeated OI/OÎ/OO/OU rows in the extracted page after UÊ. This may be a layout/transcription defect. The payload flags the ambiguity and does not invent replacement rows.
+- Footnote 312 says the more common form is dienirin, while the table gives di-inirin; payload records the distinction.
+- The source has a likely duplicated/typo entry in the N-pair list on p.428 (“dîsa, dîsa”); p.429 explicitly discusses dîsa/dîsan, and the payload flags the inconsistency.
+- The source's printed form “neyînîn” (p.426) and later “neînin/neyn(e)” discussion should not be silently collapsed; payload records the forms and source spelling issue.
+- “amade-t-î” appears duplicated in the source on p.427; preserve as source typo or flag, do not infer a second distinct form.
+- V in pîvaz is explicitly a tentative hypothesis attributed to Yaron Matras, and the source says it is no longer productive as a hiatus blocker.
+- R as a hiatus blocker is limited to Sorani and Southern Kurdish examples; it is not presented as a Kurmanji rule.
+
+Assessment: broad topic and example coverage across printed pp.418–432 is verified. Exact transcription fidelity of every table cell and glyph, and visual QA of footnote placement, remain outstanding. No claim of perfect one-to-one transcription is made.
