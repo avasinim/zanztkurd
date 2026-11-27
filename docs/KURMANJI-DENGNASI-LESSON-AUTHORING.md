@@ -2094,7 +2094,7 @@ Di peyva *mîras* de S-ya ku ji dengê didanî [θ] hatiye, di kurdî de di form
 
 ## Çavkanî
 
-Husein Muhammed, *Dengnasî di kurdî de*, rûpelên çapkirî 168–186.
+Husein Muhammed, *Dengnasî di kurdî de*, rûpelên çapkirî 168–185.
 
 
 
@@ -2119,7 +2119,7 @@ Di rûpela çapkirî 175 de çavkaniyê S bi «pidûyî-xişok-vizok» pênase d
 
 ## 14. Sînorê rûpelan
 
-Waneya 14 di çavkaniyê de rûpelên çapkirî 168–186 digire. Lê dabeşkerê PDF-ya dîzayinkirî «168–185» dinivîse; rûpela fîzîkî 203/462 a PDF rûpela çapkirî 186 e û hê jî beşa tabloya konsonantan e. Dabeşkerê waneya 15 li rûpela fîzîkî 204/462 dest pê dike û «186–202» dinivîse. Ev nakokiya sînorê rûpelan hatiye tomar kirin; PDF bixwe nehatiye guherandin.
+Waneya 14 ji rûpela çapkirî 168 heta 185 ye. Rûpela çapkirî 186 li rûpela fîzîkî 203/462 wekî dabeşker tê nîşandan; naveroka Waneya 15 ji rûpela çapkirî 187, li rûpela fîzîkî 205/462 dest pê dike. Dabeşkerê Waneya 15 li rûpela fîzîkî 204/462 dest pê dike û rûpelên 186–202 nîşan dide. Ji ber vê yekê rûpela 186 di navberê de dabeşker e, ne beşeke naveroka Waneya 14 an 15. PDF bixwe nehatiye guherandin.
 
 # Dersa 15 — Dengên Ş û T
 
