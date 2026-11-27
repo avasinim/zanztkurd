@@ -23,7 +23,7 @@ The payload includes:
 - initial V forms explained through loss of initial E, including *evan/van*, *evê/vê*, *evî/vî* and *ev der/vir*;
 - the Kurmanji preverb *ve-* and its historical relationship to the postposition/preverb in other Indo-European languages, with the source's semantic explanation and footnotes 149–152.
 
-### W — bilabial approximant (printed pages 210–217)
+### W — “dulêvî-tengav” in the source (printed pages 210–217)
 
 The payload includes:
 - W/w as a nonsyllabic approximant [w], with rounded lips and a narrowed but unobstructed airflow;
@@ -75,7 +75,7 @@ The payload includes:
 3. The X/Ẍ section correctly distinguishes phonetic description from ordinary spelling. It presents Ẍ as a teaching/phonetic notation rather than proposing a new standard letter.
 4. The Y section keeps dialectal alternatives distinct rather than labelling one variety's forms as errors.
 5. The Z section preserves the source's distinction between thin/heavy Kurdish Z and Arabic dental/emphatic sounds; it does not conflate them.
-6. **Terminology item for review:** the source on printed page 210 describes W as “dulêvî-tengav” (bilabial approximant). The payload uses the more specific label “dulêvî-paşzimanî-tengav” and the English technical term “labio-velar approximant”. This is phonetically more specific for [w], but the added “paşzimanî” element is not explicit in the source's own wording. Because the course requirement is strict source fidelity without additions, this should either be labelled as a brief phonetic clarification or aligned to the source's exact description after editorial review.
+6. **Terminology correction (27 November 2026):** the source on printed page 210 describes W as “dulêvî-tengav”. The payload previously expanded this to “dulêvî-paşzimanî-tengav” / “labio-velar approximant” and added a tongue-dorsum/velum explanation not stated in the book. That unsupported elaboration has now been removed from the lesson body. The revised wording follows the source's bilabial narrowing description and retains only its explanation of the narrowed, not fully closed airflow and nonsyllabic status.
 7. The book's printed page 203 heading includes an unusual “xişok/nezivok” wording for V. The payload uses the standard [v] classification as a voiced labiodental fricative, consistent with the articulatory explanation and IPA [v] in the source.
 8. The historical reconstructions and etymologies are reported as the author's analyses. This audit does not independently validate every reconstruction or every lexical derivation.
 
@@ -93,3 +93,8 @@ This is a topic-coverage and source-fidelity audit, not a line-by-line transcrip
 - A final rendered-page check remains necessary for IPA glyphs, diacritics, tables, typography and long-page navigation.
 - The previously recorded test database drift remains unresolved: 0/27 exact HTML matches and nine title mismatches. This source audit does not authorize database resynchronization.
 - No Supabase write, migration, production change, deployment, PR merge, student-data access/change, or course activation was performed.
+
+
+## Follow-up correction — 27 November 2026
+
+The W description in the payload was revised after a direct reread of printed p.210 (PDF p.229). The source says “dulêvî-tengav”; the former payload wording “dulêvî-paşzimanî-tengav / labio-velar approximant” and the added tongue-dorsum/velum description were not explicitly in the source. Those additions have been removed. The source's explanation of lip proximity, narrowed airflow, [w], and nonsyllabic status remains. This resolves the specific unsupported-addition item in the correction register; it does not certify every other item in Lesson 16.
