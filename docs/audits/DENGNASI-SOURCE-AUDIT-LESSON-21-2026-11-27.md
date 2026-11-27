@@ -129,3 +129,12 @@ Rûpelên PDF 357–370 bi payloada dersê re بەراورد کران و بلو�
 - Hûrguliyên notên **252–268** bi rêzê di bloka pêvekê de hatin vegerandin؛ notên 229–251 yên berê jî li cihê xwe mane.
 
 Pişکنینی teknîkî ya payloadê: JSON derbasdar؛ 27 ders؛ HTML ya ders 21 = 57,542 karakter؛ tagên HTML bê هەڵە داخراون. Notên 229–268 di payloadê de her yek du car xuya dibin، چونکە لێستەی کورتەی پێشوو و بلوکی وردی نوێ هەردووکیان هەن؛ پێویستە پێش وەشانی کۆتایی یەکێک یان هەردووکیان بە شێوەیەکی بێ دووبارەیی ڕێکبخرێن. هەروەها لە ناو بلوکی نوێدا پێویستی بە پشکنینی هێمایی/نووسینی IPA و هەندێک نموونە هەیە. بۆیە ئەم وانەیە هێشتا گواهی تەواوی یەک‌بەیەکی سەرچاوەی وەرنەگرتووە.
+
+
+## 2026-11-27 — Lesson 21 duplicate note consolidation and source check
+
+A structural reread of the current payload found that note numbers 252–268 were presented twice: once in an inline “Notên 252–268” list and again in the complete numbered appendix “Têbîniyên pêrawejan 229–268”. The earlier inline list was removed; the single appendix was retained. The retained note 252 entry was strengthened to preserve the source's exact terminology: English *stress*, Turkish *vurgu*, Arabic *نبر*, Persian *تکيه*, and the author's Kurdish terms *kirp* and *şidandin*.
+
+The source PDF was reread at the printed-page boundary: pages 344–347 (PDF pages 371–374) contain the end of the stress article; printed page 348 starts “Berhevdana herdu alfabeyên kurdî”, confirming that page 347 is the correct endpoint. Printed pages 345–347 directly confirm the source examples for compound/reduplicated/coordinated words, stress contrasts in *piştî*, *paşî*, *pêşî*, *gelî*, *hatin*, *Azadî*, *mirovî* and *baş î*, and source notes 262–268.
+
+This change removes duplicated explanatory material; it does not certify every item in notes 229–268 or every diphthong table entry. The 27-lesson source-fidelity audit remains open. No Supabase write, deployment, activation, merge, or student-data access/change was performed.
