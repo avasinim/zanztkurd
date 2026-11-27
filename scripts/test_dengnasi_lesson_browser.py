@@ -170,6 +170,16 @@ class DengnasiLessonBrowserTests(unittest.TestCase):
                     heading_parity["expected"],
                     f"Lesson {number}: rendered section headings differ from payload",
                 )
+                printed_pages = lesson["printed_pages"]
+                source_citation = (
+                    f"rûpelên çapkirî {printed_pages['start']}–{printed_pages['end']}"
+                )
+                final_paragraph = preview.locator("p").last.inner_text()
+                self.assertIn(
+                    source_citation,
+                    final_paragraph,
+                    f"Lesson {number}: printed-page citation does not match payload metadata",
+                )
                 self.assertTrue(rendered.strip(), f"Lesson {number}: empty rendered content")
                 self.assertNotIn("Naveroka dersê tê barkirin...", rendered)
                 self.assertEqual(page.locator(".lesson-content iframe").count(), 0)
