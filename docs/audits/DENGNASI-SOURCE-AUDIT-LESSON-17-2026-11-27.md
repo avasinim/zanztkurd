@@ -39,7 +39,7 @@ The payload includes:
 - K → Q tendencies in Turkish loans before back vowels, with examples such as qazan, qezenc, qere-, qonax, qurm, qeytan, qalind, quzilqurt and qûm, alongside exceptions and forms retaining K;
 - preservation and occasional adaptation of Q in Arabic loans, including qel’e/keleh, xelq/xelk, and Q → X before voiceless consonants in wext, nexş and rexs;
 - Q in a limited set of Iranian-origin words such as quling, quz and qûn, and likely Semitic loans such as qêrîn/qîrîn, req and qîr;
-- European-origin vocabulary entering through Arabic or Turkish, and the tendency for modern standard spelling to prefer K in camera/kamera, park/parq, bank/banq, demokrat/demoji? and Amerîka/Afrîka;
+- European-origin vocabulary entering through Arabic or Turkish, and the tendency for modern standard spelling to prefer K in camera/kamera, park/parq, bank/banq, demokrat, kamera, Amerîka û Afrîka;
 - dialectal K/G correspondences, including çok/çong and kal/gal, and southern Kurdish suffix/preposition comparisons;
 - source footnotes 159–165, including the aspiration distinction, Turkish historical forms, semantic changes in qenc/qelen, and qualifications to Q-related sound changes.
 
