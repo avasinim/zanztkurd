@@ -172,3 +172,21 @@ The source was reread at printed pages 316–334. The current payload already in
 The review also confirms that the payload preserves the source's distinction between: (1) U/I alternants within a dialect (*dukan/dikan*, *furset/firset*, *hindir/hundir*, *mumkin/mimkin*, *sultan/siltan*, *şukir/şikir*, *wucûd/wicûd*, *zuha/ziha/ziwa*); (2) forms where U is dominant (*tu, du, duh/duhî*); (3) forms where U generally resists I after G/K/Q/X/Ẍ; and (4) inter-dialectal *ku-/ki-* and *gu-/gi-* correspondences, which the author explicitly distinguishes from within-dialect U/I alternation. The supplemental text retains *çu/çi*, *tucar/ticar*, *ti/di/dih/dihî* and the note references 245–251.
 
 No substantive source example was intentionally removed; the change removes a repeated presentation of the same five table rows. Remaining QA: visual inspection of IPA/diacritics and full rendering of the diphthong tables in the browser. No Supabase write, deployment, activation, merge, or student-data access/change was performed.
+
+
+## 2026-11-27 — Source comparison: diphthong body, printed pages 316–328
+
+The lesson body was checked against the source pages 316–328, with a targeted term-by-term presence check in the HTML payload. The comparison covered:
+
+- Definition of a diphthong as two vowel elements in one syllable; distinction from adjacent vowels separated by syllable boundaries in *saet, biavêje, dua, îdeal*; the source's note that *dua* and *saet* contain Eyn.
+- Rising vs falling diphthongs and the author's explicit caveat that linguists do not fully agree on when Y/W plus a vowel forms a diphthong.
+- XW+vowel: *xwar/xuar, xweş/xueş, xwê/xuê, xwîn/xuîn*; syllabification evidence (*bi-xwin*, *di-xwî-nim*); the distinction between W as a consonant and W as the spelling for U; and the standard Kurmanji restriction to XW plus A/E/Ê/Î.
+- Behdînan and Sorani vowel sequences, the extensive UÎ/WÎ forms, exceptions *çûn* and independent *û*, the regional variation in *bûn*, O→UÎ examples (*kon/kuîn, kovî/kuîvî, rovî/ruîvî*), and the Zaxo/Dihok reduction examples (*dûr, nû, bixwîne*).
+- Initial W+vowel examples (*wa, we, wê, wi, wî*) and the source's distinction between orthographic sequence and whether Kurdish grammars classify it as a diphthong; *wo, wu-, wû-* and the restricted dialectal *wi-* forms; note 239 and *uşî*.
+- *-IWA-* in *ciwan*, the source's one-syllable interpretation and -UA- analysis; vowel+W examples *daw, dew, dêw, dîw*, alternative analyses *dau, deu, dêu, dîu*, resyllabification examples (*kew → ke-wek, daw → da-wa wê, xew → xe-wê*) and *ba-we-rî, de-war, cê-wî, dî-war*; the limits on native *-ow-, -uw-, -ûw-* and loanword *kowboy*; notes 240–241.
+
+The Y+vowel material on pages 323–328 was also checked: AY/EY/ÊY/IY/ÎY/OY/UY/ÛY inventory and status markers; dialectal loss and vowel changes; *qîmet* vs Turkish-influenced *qiymet*; Sorani *xoy* and *kurdîy soranî*; YA/YE/YÊ/YÎ/YO and the absent starred sequences; silent Y in *birayo*, inflectional Y before Ê, copular/indefinite-linking Y, *-IYA-* in *çiya, giya, giyan, jiyan, niyan, şiyan* and Arabic-origin examples; notes 242–243.
+
+The targeted payload checks found the listed source examples and distinctions represented in the corresponding sections, including the examples that are easy to miss in a simple keyword scan because the payload uses expanded explanatory wording. No content edit was required in this pass. This is a coverage and semantic comparison, not a diplomatic, character-by-character transcription certification; IPA glyph rendering and full browser layout remain open QA items.
+
+No Supabase write, deployment, activation, merge, or student-data access/change was performed.
