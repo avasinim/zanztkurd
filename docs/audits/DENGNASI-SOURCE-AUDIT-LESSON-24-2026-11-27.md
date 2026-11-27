@@ -34,3 +34,17 @@ Lesson 24's payload follows the source's 387–393 structure and includes its 12
 
 ## Safeguards
 No Supabase writes, migration, production change, deployment, PR merge, student-data access/change or course activation was performed. The previously recorded test DB drift (0/27 exact HTML matches and nine title mismatches) remains unresolved.
+
+
+## Pêveka pêşveçûna 27-11-2026 — هەڵسەنگاندنی وردەکاریی لاپەڕەکانی 387–393
+
+PDF pp.413–420 (rûpelên çapkirî 387–393) دووبارە خوێندرایەوە و بە payloada وانەی 24 بەراورد کرا. پێوەکی وردتر زیاد کرا بۆ:
+- ناونیشان و سنووری جوگرافیی devokên başûrî؛ Kirmaşan، Îlam، Xaneqîn، Mendelî؛ جیاوازیی هەورامی/گۆرانی، لەکی و لوڕی؛ و تێبینیی ergativity.
+- نموونە دێرینەکانی B/P→V/W و W/B، بە تێبینییەکانی Serhed و Navenda Anatolyayê (footnote 284).
+- شێوەکانی Ü/Î/Û و نموونەکانی Behdînan و Dihok.
+- وردەکارییەکانی ST→S/ES/HES و جیاوازیی soranî/başûrî لە ناو و کۆتایی وشەدا؛ هەروەها S ya qelew (footnote 285).
+- تەواوی نموونەکانی A/EH→YE و تێبینیی دۆخی دێرینی `nazanim` (footnote 286).
+- نموونەکانی Ň [ŋ] و XWE-/XUE- لە بەراورد لەگەڵ XO-.
+
+پشکنینی ساختاریی payload: JSON دروست؛ 27 وانە؛ HTML ـی وانەی 24 = 15183 کاراکتەر؛ تاگەکان بەبێ هەڵە داخراون.
+ئەم زیادکراوە وردەکاری و footnote ـە سەرچاوەییەکان دەگەڕێنێتەوە، بەڵام هێشتا هەموو داتای وانە بە وشەبەوشە لەگەڵ چاپی PDF نەسەلمێنراوە؛ پەسەندکردنی کۆتایی نیە.
