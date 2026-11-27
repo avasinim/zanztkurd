@@ -48,3 +48,12 @@ PDF pp.413–420 (rûpelên çapkirî 387–393) دووبارە خوێندرای
 
 پشکنینی ساختاریی payload: JSON دروست؛ 27 وانە؛ HTML ـی وانەی 24 = 15183 کاراکتەر؛ تاگەکان بەبێ هەڵە داخراون.
 ئەم زیادکراوە وردەکاری و footnote ـە سەرچاوەییەکان دەگەڕێنێتەوە، بەڵام هێشتا هەموو داتای وانە بە وشەبەوشە لەگەڵ چاپی PDF نەسەلمێنراوە؛ پەسەندکردنی کۆتایی نیە.
+
+
+## 2026-11-27 — Printed page 387 scope nuance restored
+
+A final reread of printed p.387 found two contextual details that were not explicit in the payload's opening scope paragraph. First, the source lists Şebekî among the varieties spoken in the Kurdistan Region alongside Kurmanji, Sorani, Southern Kurdish and Hewrami. Second, it warns that the occasional shorthand pairing “Northern Kurdish” (Kurmanji) and “Southern Kurdish” (meaning Sorani) can misleadingly make the actual Southern Kurdish variety disappear or be treated as part of Sorani. The payload now includes both details, while retaining the author's distinction between Southern Kurdish and Hewrami, Leki and Luri. The restored paragraph is kept entirely in Kurmanji Latin script.
+
+Backup commit: `55747e0b04ff39743805a41956bbfa890ee2eaac`; payload correction commits: `177320e75ccec7a767a0e235e969dd532423986e` and `dffdeabcb98cefbb8e692e44bee133bd34816c62`.
+
+The 12 principal sound-comparison sections and notes 284–286 remain present. No Supabase write, deployment, activation, merge, or student-data access/change was performed.
