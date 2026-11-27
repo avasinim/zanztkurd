@@ -163,3 +163,12 @@ The source PDF was reread directly at printed pages 316–334 and 336–346, whe
 - The body tables and examples for diphthong categories and U/I alternations remain subject to a separate item-by-item comparison. Passing the footnote audit does not certify the entire lesson.
 
 No Supabase write, deployment, activation, merge, or student-data access/change was performed.
+
+
+## 2026-11-27 — Diphthong/U–I section table and example-list cleanup
+
+The source was reread at printed pages 316–334. The current payload already includes the source's full U/I alternation examples, including the less frequent *çu/çi* (“hîç”) and *tucar/ticar* pairs in its supplemental paragraph, as well as the G/K/Q/X/Ẍ example table. A second paragraph immediately after that table repeated all five consonant-group lists verbatim in substance. That redundant repetition was removed while retaining the table, the separate *guh/kurr/qumar/xunav/ẍurbet* counterexamples, and source notes 248–249 explaining ẍ and the rarity of ẍu-.
+
+The review also confirms that the payload preserves the source's distinction between: (1) U/I alternants within a dialect (*dukan/dikan*, *furset/firset*, *hindir/hundir*, *mumkin/mimkin*, *sultan/siltan*, *şukir/şikir*, *wucûd/wicûd*, *zuha/ziha/ziwa*); (2) forms where U is dominant (*tu, du, duh/duhî*); (3) forms where U generally resists I after G/K/Q/X/Ẍ; and (4) inter-dialectal *ku-/ki-* and *gu-/gi-* correspondences, which the author explicitly distinguishes from within-dialect U/I alternation. The supplemental text retains *çu/çi*, *tucar/ticar*, *ti/di/dih/dihî* and the note references 245–251.
+
+No substantive source example was intentionally removed; the change removes a repeated presentation of the same five table rows. Remaining QA: visual inspection of IPA/diacritics and full rendering of the diphthong tables in the browser. No Supabase write, deployment, activation, merge, or student-data access/change was performed.
