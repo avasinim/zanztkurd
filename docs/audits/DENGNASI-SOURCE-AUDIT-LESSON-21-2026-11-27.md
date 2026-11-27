@@ -115,3 +115,17 @@ Pişکنینی rasterast a PDF (rûpelên PDF 345–356) kirin û hûrguliyên j
 - **329–332:** nimûneyên zêدەی U/I; sînordariya guherîna U piştî G/K/Q/X/Ẍ; nimûneyên devokî `ku-/ki-` û `gu-/gi-`; raveya kurtkirinê; raveya dîrokî ya `-WI-`; têbîniyên 244–250.
 
 Pişکنینی ساختاری: JSON derbasdar e؛ 27 ders hene؛ HTML-ya dersê 21 niha 44,613 karakter e؛ tagên HTML bê هەڵە داخراون. Hîn pêwîست e rûpelên çapkirî 333–347 bi hemû nimûne û notên 251–268 re yek-bi-yek were pشکنین؛ ji ber vê yekê ders 21 hîn bi tevahî sertîfîka nebûye.
+
+
+## Pêveka pêşveçûna 27-11-2026 — پشکنینی rûpelên çapkirî 333–346
+
+Rûpelên PDF 357–370 bi payloada dersê re بەراورد کران و بلوکێکی temamker berî notên 229–268 zêde kirin. Hûrguliyên vegerandراو:
+
+- **Rûpelên 333–334:** şîroveya sivikbûna kom-konsonantan, nimûneyên zazakî `xweş/weş` û `xwarin/werden`, nimûneyên `xwarin/xarin` û `kwirmanc/kirmanc`; cudahiya rehê E û formên devokî yên bi U di `bihar/buhar` û `hindir/hundir` de؛ herwiha not 251.
+- **335–337:** lîsteya navdêrên du-kîteyî/pir-kîteyî, paşpirtikên bêgiranî, rewşa heliyîna vokal û paşpirtik, vokalên dirêj/kurt, û paşpirtikên peyvsaz ên giran.
+- **338–339:** tabloya gazîkirinê ya çar rêzan, nimûneyên navdêrên yek-kîteyî bi paşpirtika gazîkirinê, û rêzikên giranî di navên welat/bajar de.
+- **340–342:** rengdêr û paşpirtikên wan, cînavên devokî yên kurmancî/soranî, pirsiyar, `her-` û hoker/daçek.
+- **343–346:** pêşpirtikên lêkerî, paşpirtikên kesî, peyvên pêkhatî/dubarekirî/cotkirî û nimûneyên giranî yên cudakerê wate/erkê rêzimanî.
+- Hûrguliyên notên **252–268** bi rêzê di bloka pêvekê de hatin vegerandin؛ notên 229–251 yên berê jî li cihê xwe mane.
+
+Pişکنینی teknîkî ya payloadê: JSON derbasdar؛ 27 ders؛ HTML ya ders 21 = 57,542 karakter؛ tagên HTML bê هەڵە داخراون. Notên 229–268 di payloadê de her yek du car xuya dibin، چونکە لێستەی کورتەی پێشوو و بلوکی وردی نوێ هەردووکیان هەن؛ پێویستە پێش وەشانی کۆتایی یەکێک یان هەردووکیان بە شێوەیەکی بێ دووبارەیی ڕێکبخرێن. هەروەها لە ناو بلوکی نوێدا پێویستی بە پشکنینی هێمایی/نووسینی IPA و هەندێک نموونە هەیە. بۆیە ئەم وانەیە هێشتا گواهی تەواوی یەک‌بەیەکی سەرچاوەی وەرنەگرتووە.
