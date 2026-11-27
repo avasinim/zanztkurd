@@ -91,3 +91,16 @@ A direct reread of the corrected source PDF (designed PDF pages 341–372, print
 - Item-level source fidelity: **not passed**. The confirmed omissions/compressions above mean Lesson 21 is not yet source-complete.
 - Required next step: restore omitted source examples, full comparative inventories and qualifications into the lesson payload, then recheck each footnote 229–268 against the page footer and the relevant source statement. Preserve source errors and disagreements as explicit source notes; do not silently normalize them.
 - No database synchronization or course activation is authorized by this audit.
+
+
+## Pêveka pêşveçûna 27-11-2026 — çavkaniya rûpelên çapkirî 317–320
+
+Di payloadê de hûrguliyên jêrîn li gorî PDF-ê (rûpelên PDF 341–344; rûpelên çapkirî 317–320) vegerandin û li bin beşa XW/UÎ/WÎ hatin zêdekirin:
+
+- Nimûneyên dabeşkirina kîteyan: `dest → des-tê`, `çand → çan-din`, `stran → bis-trin`.
+- Cudahiya W ya di XW de ji konsonantê, û nimûneyên nivîsîn/bilêvkirin `xwişk/xuşk` û `bixwin/bixun`.
+- Tabloya berawirdî ya Behdînî UÎ/WÎ bi rêza nimûneyên rûpelên 319–320: `nû`, `gûz`, `kû`, `bûn`, `cûn/cûtin`, `biçûk`, `dûr`, `fûrîn`, `gû`, `hûr`, `jûjî`, `kûr`, `lûrîn`, `mû`, `pûng`, `rû`, `şûşe`, `tûrik`, `vû-`, `wû-`, `xwîn`, `yû-`, `zû`.
+- Nimûneyên destpêka peyvê `uîte/uîtî` û guherîna O bo UÎ: `kon/kuîn/kwîn`, `kovî/kuîvî/kwîvî`, `rovî/ruîvî/rwîvî`.
+- Sînordariya dîftongên U+vokal di devokên Behdînî, cihê U+Ê di soranî de, û ketina U ya UÎ li Dihokê: `dûr/duîr/dîr`, `nû/nuî/nî`, `bixwîne/bixuîne/bixîne`.
+
+Pişکنینی ساختاری: JSON derbasdar e؛ 27 ders hîn hene؛ HTML-ya dersê 21 piştî zêdekirinê 36,374 karakter e؛ tagên HTML hemû bi rêkûpêk girtî ne. Ev pêveka rûpelên 317–320 e tenê. Pêveka berawirdkirina hûrgulî ya rûpelên 321–347 (bi taybetî tabloyên Y+vokal, nimûneyên U/I, û hemû notên 252–268) hîn pêwîst e؛ ji ber vê yekê ders 21 hîn sertîfîkaya temam a yek-bi-yek a hemû çavkaniyê wergirtî nîne.
