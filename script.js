@@ -2092,27 +2092,51 @@ async function markLessonComplete(courseId, lessonKey){
     if(!actions||actions.parentElement.querySelector(".kurmanji-completion-gate"))return;
     const already=completed.has(current);
     const next=current+1<course.files.length?current+1:null;
+    const isDengnasi=course.id==="kurmanji-dengnasi-27";
+    const copy=isDengnasi?{
+      heading:already?"Ev ders berê hatiye temamkirin.":"Dawiya dersê",
+      intro:already?"Temambûna vê dersê berê di pergalê de hatiye tomarkirin.":"Piştî ku tevahiya dersê xwendî, ji bo tomarkirina temambûna wê û vekirina dersa paşîn, bişkoja li jêr hilbijêre.",
+      button:already?"✓ Temam bû":"✓ Wekî temamkirî nîşan bide",
+      saving:"Di pergalê de tê tomarkirin...",
+      failedButton:"✓ Wekî temamkirî nîşan bide",
+      failed:"Tomarkirin serkeftî nebû. Ji kerema xwe hesabê xwe û qeydbûna xwe ya di qursê de kontrol bike û careke din biceribîne.",
+      savedButton:"✓ Temam bû",
+      success:"Ders bi serkeftî hate temamkirin.",
+      next:"Dersa paşîn êdî vekirî ye.",
+      allDone:"Hemû dersên vê qursê hatine temamkirin."
+    }:{
+      heading:already?"ئەم وانە پێشتر تەواوکراوە.":"کۆتایی وانە",
+      intro:already?"پێشکەوتنی ئەم وانەیە لە سیستەمدا پاشەکەوت کراوە.":"دوای خوێندنەوەی تەواوی وانە، دوگمەی خوارەوە هەڵ‌بژێرە بۆ پاشەکەوتکردنی تەواوبون و کردنەوەی وانەی دواتر.",
+      button:already?"✓ تەواوکراوە":"✓ نیشان‌دان وەک تەواوکراو",
+      saving:"لە سیستەمدا پاشەکەوت دەکرێت...",
+      failedButton:"✓ نیشان‌دان وەک تەواوکراو",
+      failed:"پاشەکەوتکردن سەرکەوتوو نەبوو. پشتڕاستی هەژمار و تۆماربوون لە کۆرسەکە بپشکنە و دووبارە هەوڵ بدەوە.",
+      savedButton:"✓ تەواوکراوە",
+      success:"وانەکە بە سەرکەوتوویی تەواو کرا.",
+      next:"وانەی دواتر ئێستا کراوەتەوە.",
+      allDone:"هەموو وانەکانی ئەم کۆرسە تەواو کراون."
+    };
     const gate=document.createElement("section");
     gate.className="kurmanji-completion-gate";
-    gate.innerHTML="<h3>"+(already?"ئەم وانە پێشتر تەواوکراوە.":"کۆتایی وانە")+"</h3><p>"+(already?"پێشکەوتنی ئەم وانەیە لە سیستەمدا پاشەکەوت کراوە.":"دوای خوێندنەوەی تەواوی وانە، دوگمەی خوارەوە هەڵ‌بژێرە بۆ پاشەکەوتکردنی تەواوبون و کردنەوەی وانەی دواتر.")+"</p><button class=\"kurmanji-complete-btn\" type=\"button\" "+(already?"disabled":"")+">"+(already?"✓ تەواوکراوە":"✓ نیشان‌دان وەک تەواوکراو")+"</button>";
+    gate.innerHTML="<h3>"+copy.heading+"</h3><p>"+copy.intro+"</p><button class=\\"kurmanji-complete-btn\\" type=\\"button\\" "+(already?"disabled":"")+">"+copy.button+"</button>";
     actions.parentElement.insertBefore(gate,actions);
     gate.querySelector("button").addEventListener("click",async function(){
       const button=this;
       button.disabled=true;
-      button.textContent="لە سیستەمدا پاشەکەوت دەکرێت...";
+      button.textContent=copy.saving;
       const result=await markLessonComplete(course.id,path);
       if(!result.ok){
         button.disabled=false;
-        button.textContent="✓ نیشان‌دان وەک تەواوکراو";
-        gate.querySelector("p").textContent="پاشەکەوتکردن سەرکەوتوو نەبوو. پشتڕاستی هەژمار و تۆماربوون لە کۆرسەکە بپشکنە و دووبارە هەوڵ بدەوە.";
+        button.textContent=copy.failedButton;
+        gate.querySelector("p").textContent=copy.failed;
         return;
       }
       const latest=done();
       latest.add(current);
       save(latest);
-      button.textContent="✓ تەواوکراوە";
-      gate.querySelector("h3").textContent="وانەکە بە سەرکەوتوویی تەواو کرا.";
-      gate.querySelector("p").textContent=next!==null?"وانەی دواتر ئێستا کراوەتەوە.":"هەموو وانەکانی ئەم کۆرسە تەواو کراون.";
+      button.textContent=copy.savedButton;
+      gate.querySelector("h3").textContent=copy.success;
+      gate.querySelector("p").textContent=next!==null?copy.next:copy.allDone;
       button.disabled=true;
       if(next!==null)setTimeout(()=>location.href=course.files[next],650);
     });
