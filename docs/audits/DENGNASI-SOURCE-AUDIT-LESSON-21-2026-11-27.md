@@ -68,3 +68,26 @@ A concrete payload defect was found and corrected on 2026-11-27: the first of tw
 - Correction commit: `a478a5c764efc965cc4ae2e3a713b3c5fd1bd05f` (`Remove duplicated Lesson 21 source notes block`).
 - The previously recorded test database drift remains unresolved (0/27 exact HTML matches and nine title mismatches). This audit does not authorize any database resynchronization.
 - No Supabase write, migration, production change, deployment, PR merge, student-data access/change, or course activation was performed.
+
+
+## 2026-11-27 item-level source comparison supplement
+
+A direct reread of the corrected source PDF (designed PDF pages 341–372, printed pages 317–347) and the current Lesson 21 payload confirms that the prior topic-level assessment was too generous. The payload is structurally aligned but is not yet complete against the source. The following are confirmed examples of compression/omission:
+
+1. **Printed p.317 — syllabification evidence in the XW discussion:** the source uses the additional contrastive examples `dest → des-tê`, `çand → çan-din` and `stran → bis-trin` to explain consonant-cluster syllabification. These examples and the explanatory contrast are not present in the payload's XW subsection, which retains only `bi-xwin` and `di-xwî-nim`.
+2. **Printed p.318 — pronunciation of XWI sequences:** the source explicitly compares `xwişk → xuşk` and `bixwin → bixun`, and explains the written I as “extra” in this analysis. The payload mentions the XW + vowel generalization but does not retain these two examples or this explicit explanation.
+3. **Printed pp.319–320 — Behdînî UÎ/WÎ inventory:** the source provides a long comparative table, including (among others) `cûn/cûtin`, `biçûk`, `fûrîn`, `hûr`, `jûjî`, `lûrîn`, `mû`, `pûng`, `rû`, `şûşe`, `tûrik`, `xwîn` and `zû`, plus the footnotes 230–238. The payload retains only a small illustrative subset (for example `bûn`, `dûr`, `nû`, `gûz`) and omits the rest of the inventory and several of the source's qualifications.
+4. **Printed p.320 — UÎ at word onset and O→UÎ:** the source includes `uîte/uîtî` and the comparative forms `kon/kuîn/kwîn`, `kovî/kuîvî/kwîvî`, `rovî/ruîvî/rwîvî`. The payload preserves the latter group only in abbreviated form and omits the initial `uîte/uîtî` example.
+5. **Printed pp.321–322 — Vowel + W discussion:** the source develops the competing analyses for `daw`, `dew`, `dêw`, `dîw`, gives the detailed syllabification examples `kew → ke-wek`, `daw → da-wa wê`, `xew → xe-wê`, `ba-we-rî`, `de-war`, `cê-wî`, `dî-war`, and notes the source-specific Sorani meaning/etymology for `dêw`. The payload keeps only part of this evidence and drops the dêw footnote detail and some of the listed examples.
+6. **Printed pp.323–325 — Vowel + Y inventory:** the source's full inventory and discussion distinguish AY/AÎ, EY/EÎ, ÊY/ÊÎ, IY/IÎ, ÎY/ÎÎ, OY/OÎ, UY/UÎ and ÛY/ÛÎ, with dialectal and loanword qualifications. The payload compresses several of these categories and does not preserve all listed examples and qualifications.
+7. **Printed pp.326–328 — Y + vowel and -IYA-:** the source gives detailed Y + vowel combinations and examples, and then explains the -iya- sequence in words such as `çiya`, `giya`, `jiyan`, `şiyan`, `siyaset`, `qiyamet`, including the distinction between spelling and syllabification. The payload retains the main claim but not the full inventory and all examples.
+8. **Printed pp.329–334 — U/I alternations:** the payload retains the main generalization and restriction after G/K/Q/X/Ẍ, but compresses the source's larger example inventories, comparative forms, and several explanatory steps. These need a complete itemized comparison before this section can be signed off.
+9. **Printed pp.336–346 — stress examples and footnotes:** the payload includes the major stress classes, but its abbreviated examples do not preserve every source item and every cited qualification across noun inflection, vocatives, proper names, adjectives, pronouns, adverbs, verbs, compounds and stress-based contrasts. Footnotes 252–268 are represented as summaries, not as full source detail.
+
+### Updated assessment
+
+- Source boundary and broad section order: verified.
+- Lesson 21 note-number inventory: 40 unique note numbers, 229–268, present once.
+- Item-level source fidelity: **not passed**. The confirmed omissions/compressions above mean Lesson 21 is not yet source-complete.
+- Required next step: restore omitted source examples, full comparative inventories and qualifications into the lesson payload, then recheck each footnote 229–268 against the page footer and the relevant source statement. Preserve source errors and disagreements as explicit source notes; do not silently normalize them.
+- No database synchronization or course activation is authorized by this audit.
