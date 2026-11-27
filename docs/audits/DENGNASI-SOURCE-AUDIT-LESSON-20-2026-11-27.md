@@ -67,7 +67,7 @@ The payload includes:
 4. The payload retains the author's restriction on U → I after G/K/Q/X/Ẍ and the distinction between within-dialect alternation and correspondences between dialects.
 5. The source's broad label “kurdiya başûrî” is qualified as Feyli, Kalhuri, Kirmaşanî and related varieties, not simply all varieties in the south of the Kurdistan Region. The payload preserves this important qualification.
 6. **Source typo flagged in payload:** the source paragraph on printed page 305 says “rêjeya herfa Ê ... 1,3%” although the surrounding discussion is explicitly about U. The payload assigns 1.3% to U and records the source's apparent typographical error in a footnote.
-7. **Payload heading typo to correct in a future content revision:** in the section on O's dialectal development, the payload uses the heading “Peydabûna devokî ya dengê Î”; the source section is discussing O. This appears to be a payload heading error, not a source claim.
+7. The section headings in the inspected payload correctly identify O, U and Û; no heading mismatch was found in the HTML payload.
 8. The payload includes a source-specific footnote and examples on U's etymological origin and the G/K/Q/X/Ẍ restriction. These historical explanations are represented as the author's analysis, not independently established etymologies.
 9. The source's frequency figures (O and U) are reported as given; the corpus and counting method were not independently recreated.
 10. This is a structured comparison of source topics, examples and payload text, not a line-by-line collation of every lexical item or independent verification of every reconstruction. Rendered-page checks for IPA glyphs, Kurdish-Arabic characters, diacritics, tables and typography remain outstanding.
@@ -76,7 +76,7 @@ The payload includes:
 
 The lesson payload is broadly aligned with the inspected source pages 298–314. It covers all three vowels O, U and Û, their phonetic descriptions, distributions, historical and dialectal developments, inflectional details and the author's standard-spelling recommendation. The printed-page boundary is confirmed.
 
-One payload heading typo (O section incorrectly labeled as Î) is identified for correction. The source's apparent U-frequency typo (Ê instead of U) is explicitly noted. No major section-level omission was identified in this structured review. This is not a certification that every lexical form, etymology, historical reconstruction or numerical claim has been independently verified.
+The HTML payload's section headings correctly identify O, U and Û. The source's apparent U-frequency typo (Ê instead of U) is explicitly noted. No major section-level omission was identified in this structured review. This is not a certification that every lexical form, etymology, historical reconstruction or numerical claim has been independently verified.
 
 ## Limits and next work
 
