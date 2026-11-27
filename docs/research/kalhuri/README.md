@@ -1255,3 +1255,29 @@ Sara Belelli (2019)، لە بەشی “Towards a dialectology of Southern Kurdis
 - Sara Belelli (2019), “Towards a dialectology of Southern Kurdish: Where to begin?”, in *Current Issues in Kurdish Linguistics*, University of Bamberg Press, pp. 73–92. https://www.kurdipedia.org/files/books/2024/550236.PDF
 - Mohammad Ali Merati (2015), *Les formes fondamentales de la musique kurde d’Iran et d’Irak*, Université Paris Ouest Nanterre La Défense, table “Graphie et phonèmes du kurde Sorani, Kalhori et Kurmanji”, p. 4. https://bdr.parisnanterre.fr/theses/internet/2015PA100075/2015PA100075.pdf
 - کەناڵی فێرکاریی کەڵهوڕی، `zwan_kurdi_kalhuri`، بەشی ٧ی ناساندنی پیتەکان. https://t.me/s/zwan_kurdi_kalhuri?before=57
+
+
+## ٤٣. جیاوازیی «ف» و «ڤ» و دەنگی /w/ لە کەڵهوڕیدا
+
+### ١) ئەوەی سەرچاوە ئەکادیمییەکان پشتگیری دەکەن
+
+توێژینەوەی Fariborz Khademhojjati و Fateme Hasani Jalilian (2012)، بە ناونیشانی “Historical Change of Sound ‘b’ in Kalhori Dialect of Kurdish Language”، لەسەر ١٥ قسەکەری کەڵهوڕی زانیاری کۆکردووەتەوە و دواتر بە ١٠ قسەکەری دیکە پشتڕاستی کردووەتەوە. توێژینەوەکە لە نموونەکانی خۆیدا دەنگی /w/ی کەڵهوڕی لە وشەکانی وەک /wɑ:/، /wæhɑ:r/ و /wæfr/ تۆمار دەکات؛ هەروەها گۆڕانی /b/ی هەندێک وشەی وەرگیراو بۆ /w/ باس دەکات. ئەمە بەڵگەیەکی ڕاستەوخۆیە کە دەنگی /w/ لە سیستەمی دەنگی کەڵهوڕیدا گرنگە؛ بەڵام نابێت بە /v/ یان بە پیتی «ڤ» تێکەڵ بکرێت.
+
+توێژینەوەی Belelli (2019) و توێژینەوەی eLex 2021یش ئاگادارمان دەکەنەوە کە دەنگ و نووسینی شێوەزارەکانی کوردی باشوور جیاوازیی ناوچەیی هەیە و یەک ڕێنووسی ستانداردی هاوبەش هێشتا دامەزراو نیە. بۆیە ناتوانرێت تەنیا بە پشتبەستن بە ئەلفوبێی فارسی، بوونی فۆنیمی /f/ یان /v/ لە هەموو کەڵهوڕیدا بسەلمێنرێت.
+
+### ٢) سنووری بەڵگە بۆ «ف»
+
+لە بەڵگە ئەکادیمییە بەردەستەکاندا، «ف» وەک پیتێکی نووسینی عەرەبی-فارسی دەناسێنرێت، بەڵام تا ئێستا بەڵگەی مەیدانیی بەهێزمان نیە کە فۆنیمی /f/ لە هەموو شێوەزارەکانی کەڵهوڕیدا بە شێوەیەکی یەکسان بەکاربهێنرێت یان لە وشەی بنەڕەتیی کەڵهوڕیدا چۆن ڕەفتار دەکات. توێژینەوەی Khademhojjati و Hasani Jalilian لەسەر گۆڕانکاریی /w/ و /b/ە، نە توێژینەوەی تایبەت بە /f/؛ بۆیە نابێت لەوەوە یاسایەک بۆ «ف» دروست بکرێت.
+
+### ٣) بڕیاری ڕێنووسی ئاڤاشین
+
+- «ف» وەک گرافیمی بەردەست لە نووسینی کوردی-عەرەبیدا دەمێنێتەوە؛ بەڵام یاسای تایبەتی کەڵهوڕی بۆی دانانرێت تا بەڵگەی وشەیی و دەنگیی زیاتر کۆبکرێتەوە.
+- «ڤ» بە پیتی سنووردار/پێویستی بە پشتڕاستکردنەوە دەمێنێتەوە؛ نموونەکانی کەناڵی فێرکاری بە تەنیا بۆ گشتی‌کردن بەس نین.
+- دەنگی /w/ دەبێت لە پشکنینی داهاتوودا بە جیاوازی لە /v/ و /f/ بپشکنرێت؛ نابێت بەهۆی نووسینی لاتینیی سەرچاوەیەکەوە پیتی «ڤ» بۆی دابنرێت.
+- لە وانەکانی سەرەتاییدا، «ف» و «ڤ» نابنە وانەیەکی سەربەخۆ تا وشەی کەڵهوڕیی پشتڕاستکراوە و جیاوازیی دەنگییان بە بەڵگەی قسەکەرانی ناوچە جیاوازەکان دیاری بکرێت.
+
+**سەرچاوەکان:**
+- Fariborz Khademhojjati & Fateme Hasani Jalilian (2012), “Historical Change of Sound ‘b’ in Kalhori Dialect of Kurdish Language,” *Studies in Literature and Language*, 4(2), 36–40. https://flr-journal.org/index.php/sll/article/view/j.sll.1923156320120402.1050
+- Zahra Azin & Sina Ahmadi (2021), “Creating an Electronic Lexicon for the Under-resourced Southern Varieties of Kurdish Language,” *Proceedings of eLex 2021*, pp. 479–488. https://elex.link/elex2021/wp-content/uploads/2021/08/eLex_2021_30_pp479-488.pdf
+- Sara Belelli (2019), “Towards a dialectology of Southern Kurdish: Where to begin?”, *Current Issues in Kurdish Linguistics*.
+- Aliyeh Kurd Zafaranlou Kambuziya & Elham Sobati (2014), “فرایندهای واجی همخوانی در گویش کردی کلهری,” *جستارهای زبانی*, 5(1), 191–222. https://www.magiran.com/paper/1216133
