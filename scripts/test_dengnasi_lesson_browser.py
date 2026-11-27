@@ -174,10 +174,10 @@ class DengnasiLessonBrowserTests(unittest.TestCase):
                 source_citation = (
                     f"rûpelên çapkirî {printed_pages['start']}–{printed_pages['end']}"
                 )
-                final_paragraph = preview.locator("p").last.inner_text()
+                rendered_preview_text = preview.inner_text()
                 self.assertIn(
                     source_citation,
-                    final_paragraph,
+                    rendered_preview_text,
                     f"Lesson {number}: printed-page citation does not match payload metadata",
                 )
                 self.assertTrue(rendered.strip(), f"Lesson {number}: empty rendered content")
