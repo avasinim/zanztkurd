@@ -60,4 +60,5 @@ const index=document.getElementById("lessonIndex");
 lessons.forEach((item,i)=>{const li=document.createElement("li");const a=document.createElement("a");a.href="lessons/kurmanji-dengnasi-lesson-"+String(i+1).padStart(2,"0")+".html";if(i+1===current)a.setAttribute("aria-current","page");const b=document.createElement("b");b.textContent=String(i+1).padStart(2,"0");const title=document.createElement("span");title.textContent=item.title;a.append(b,title);li.append(a);index.append(li)});
 if(current>1){const a=document.getElementById("prevLesson");a.hidden=false;a.href="lessons/kurmanji-dengnasi-lesson-"+String(current-1).padStart(2,"0")+".html"}
 if(current<27){const a=document.getElementById("nextLesson");a.hidden=false;a.href="lessons/kurmanji-dengnasi-lesson-"+String(current+1).padStart(2,"0")+".html"}
-</script></body></html>
+</script><script src="script.js?v=20261127-kurmanji-nav-panels"></script>
+</body></html>
