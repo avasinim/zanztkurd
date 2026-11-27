@@ -2116,3 +2116,15 @@ async function markLessonComplete(courseId, lessonKey){
   if(document.readyState==="loading")document.addEventListener("DOMContentLoaded",setupSocialLinks,{once:true});
   else setupSocialLinks();
 })();
+
+
+/* Dengnasi lesson headers: hide author/source attribution and visible lesson counters. */
+(function(){
+  "use strict";
+  if(!/^kurmanji-dengnasi-lesson-\d{2}\.html$/i.test((location.pathname.split("/").pop()||"")))return;
+  const hero=document.querySelector(".klesson-hero");
+  if(!hero)return;
+  const eyebrow=hero.querySelector(".eyebrow");
+  if(eyebrow)eyebrow.textContent=eyebrow.textContent.replace(/\s*[·|]\s*DERSA\s+\d+\s*\/\s*27/i,"").trim();
+  hero.querySelector("p")?.remove();
+})();
