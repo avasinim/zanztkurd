@@ -231,12 +231,12 @@ window.ZANSTI_GET_SUPABASE_CLIENT = window.ZANSTI_GET_SUPABASE_CLIENT || functio
         <ul>
           <li>Geoffrey Haig û Ergin Öpengin (2018), “Kurmanji Kurdish in Turkey: Structure, varieties and status.” <a href="https://www.uni-bamberg.de/fileadmin/aspra/06_Team/Publications_and_CV/HaigOepengin2018_Kurmanji_Kurdish_.pdf" target="_blank" rel="noopener noreferrer">Xwendina vekirî</a></li>
           <li>Geoffrey Haig (2018), “Northern Kurdish (Kurmanjî).” <em>The Languages and Linguistics of Western Asia</em>. <a href="https://doi.org/10.1515/9783110421682-004" target="_blank" rel="noopener noreferrer">DOI</a></li>
-          <li>W. M. Thackston (2006), <em>Kurmanji Kurdish: A Reference Grammar with Selected Readings</em>. Harvard University, destنووسەی نەبڵاوکراوە.</li>
+          <li>W. M. Thackston (2006), <em>Kurmanji Kurdish: A Reference Grammar with Selected Readings</em>. Harvard University, destnivîsa neçapkirî.</li>
           <li>Emir Bedir Khan û Roger Lescot (1970), <em>Grammaire Kurde</em>. Paris: Adrien Maisonneuve.</li>
           <li>Otto Jastrow (1977), “Zur Phonologie des Kurdischen in der Türkei.” <em>Studien zur Indologie und Iranistik</em> 3, 84–106.</li>
           <li>Ergin Öpengin û Geoffrey Haig (2014), “Regional variation in Kurmanji: a preliminary classification of dialects.” <em>Kurdish Studies</em> 3, 143–176.</li>
         </ul>
-        <p class="avasin-dengnasi-sources-note">Ev çavkaniyên pêvek ji bo پشتگیری، بەراورد و خوێندنەوەی زانستی پێشکەش کراون؛ ناویان لێرەدا بە مانای ئەوە نییە کە هەموویان بە شێوەی یەکسان لە هەر وانەیەکدا بەکارهاتوون.</p>
+        <p class="avasin-dengnasi-sources-note">Ev çavkaniyên pêvek ji bo piştgirî, berawirdkirin û xwendina zanyarî hatine pêşkêşkirin; hebûna wan li vir nayê wê wateyê ku hemûyan di her dersê de bi awayekî wekhev bikar anîne.</p>
       </div>`;
     box.appendChild(panel);
   }
