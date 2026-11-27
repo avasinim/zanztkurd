@@ -74,3 +74,10 @@ PDF pp.430–446 (rûpelên çapkirî 402–417) دووبارە خوێندرای
 
 پشکنینی ساختاری: JSON دروست؛ 27 وانە؛ HTML وانەی 26 = 22837 کاراکتەر؛ تاگەکان بەبێ هەڵە داخراون.
 ئەم پێوەکە وردەکارییە سەرچاوەییە دیاریکراوەکان دەگەڕێنێتەوە؛ بەڵام هێشتا هەموو هێما و وشەکان بە وشەبەوشە لەگەڵ چاپی PDF نەسەلمێنراون.
+
+
+## Final source-footnote reconciliation — 2026-11-27
+
+A direct check of printed pp.413–414 identified two numbered references that were not explicit in the payload. Footnote 300 is the author's pointer to an explicitly incomplete Wiktionary list of Kurdish words of Armenian origin; it is now restored with its source URL. Footnote 301 is the qualification that a sizeable number of Kurds learned Armenian only after the establishment of the Republic of Armenia and the settlement of some Kurds there; this point was already represented in the narrative and is now explicitly labeled as note 301. The two notes are kept distinct.
+
+A script scan found Arabic comma/semicolon punctuation in the Kurmanji Latin text; these punctuation marks were normalized to Latin punctuation. The scan found no Arabic-script letters after normalization. HTML tag validation: zero mismatches and zero unclosed tags. Lesson 26 HTML length after this pass: 23,116 characters. This does not certify every line as a diplomatic transcription; IPA and visual browser checks remain outstanding.
