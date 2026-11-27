@@ -167,12 +167,12 @@ class DengnasiLessonBrowserTests(unittest.TestCase):
                 rendered_html = page.locator(".lesson-content .klesson-preview").inner_html()
                 self.assertNotRegex(
                     rendered,
-                    r"[\\u0600-\\u06FF]",
+                    r"[\u0600-\u06FF]",
                     f"Lesson {number}: Arabic-script text found in rendered lesson",
                 )
                 self.assertNotRegex(
                     rendered,
-                    r"[\\u0400-\\u04FF]",
+                    r"[\u0400-\u04FF]",
                     f"Lesson {number}: Cyrillic-script text found in rendered lesson",
                 )
                 self.assertEqual(
@@ -182,7 +182,7 @@ class DengnasiLessonBrowserTests(unittest.TestCase):
                 )
                 self.assertNotRegex(
                     rendered_html,
-                    r"""(?:src|href)\\s*=\\s*["'][^"']*(?:\\.mp3|\\.wav|\\.ogg|\\.m4a|\\.mp4|\\.webm|youtube\\.com|youtu\\.be|soundcloud\\.com)""",
+                    r"""(?:src|href)\s*=\s*["'][^"']*(?:\.mp3|\.wav|\.ogg|\.m4a|\.mp4|\.webm|youtube\.com|youtu\.be|soundcloud\.com)""",
                     f"Lesson {number}: external audio/video dependency found",
                 )
         finally:
