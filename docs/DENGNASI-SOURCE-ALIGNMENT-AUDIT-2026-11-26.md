@@ -693,3 +693,13 @@ Scope checked: draft Lessons 1–27 against the source's printed page labels and
 - The existing Lesson 24 and Lesson 25 audit addenda were reviewed; this update adds the completed Lesson 26 and Lesson 27 checks. The existing authoring draft already covers the compared source sections, so no unnecessary lesson-body rewrite was made.
 - The authoring document's Lesson 17 matrix and grouped cluster inventories were rechecked in the recovered GitHub version; the full inventory is present, including Iranian-, Arabic- and European-origin groups. The earlier concern about a missing complete cluster inventory does not apply to the currently fetched file.
 - These checks and the audit-document update are branch-only. The old 27-row / 407,980-character test Supabase snapshot is stale and has not been refreshed. No student data, production Supabase, migrations, main, merge, deployment or public activation was accessed or changed.
+
+### Test-project content sync — 27 November 2026
+
+- Rebuilt the 27 lesson preview HTML records from the current branch's source-audited `docs/KURMANJI-DENGNASI-LESSON-AUTHORING.md` and exact course manifest titles/page ranges.
+- Before writing, saved the existing test-only `public.lesson_content` rows in `docs/backups/kurmanji-dengnasi-test-lesson-content-before-resync-2026-11-27.json`; the backup contains the 27 prior course rows and no student records.
+- Upserted only `course_id='kurmanji-dengnasi-27'` into the isolated test project `juwsjljbdwyncicybwoq`. The write returned **27 rows**.
+- Post-write exact-content verification joined the generated payload back to the table and confirmed **27/27 exact matches**, 27 unique lesson keys, **515,310 total HTML characters**, minimum 4,754 and maximum 35,721 characters.
+- The generated HTML passed the pre-write checks: zero Arabic-script characters, zero audio/media URLs, and zero quiz/test/exercise/question headings. Titles and lesson keys follow the 27-item manifest in order.
+- No other course rows were targeted. No student, profile, enrollment, progress, or auth-user records were read or changed. No production Supabase project, schema, migration, `main`, merge, deployment, site loader activation, or live lesson delivery was changed.
+- The website lesson loader remains on hold; this is a test-project content refresh only.
