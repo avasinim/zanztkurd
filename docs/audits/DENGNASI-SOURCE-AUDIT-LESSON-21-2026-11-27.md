@@ -138,3 +138,28 @@ A structural reread of the current payload found that note numbers 252–268 wer
 The source PDF was reread at the printed-page boundary: pages 344–347 (PDF pages 344–347 in the 432-page source PDF) contain the end of the stress article; printed page 348 starts “Berhevdana herdu alfabeyên kurdî”, confirming that page 347 is the correct endpoint. Printed pages 345–347 directly confirm the source examples for compound/reduplicated/coordinated words, stress contrasts in *piştî*, *paşî*, *pêşî*, *gelî*, *hatin*, *Azadî*, *mirovî* and *baş î*, and source notes 262–268.
 
 This change removes duplicated explanatory material; it does not certify every item in notes 229–268 or every diphthong table entry. The 27-lesson source-fidelity audit remains open. No Supabase write, deployment, activation, merge, or student-data access/change was performed.
+
+
+## 2026-11-27 — Item-by-item check of source notes 229–268
+
+The source PDF was reread directly at printed pages 316–334 and 336–346, where footnotes 229–268 occur. The current payload appendix was compared against each numbered source note, including the source wording and the claim each note qualifies. The numbering is continuous (40/40), and each note is represented once in the payload after the duplicate-block correction.
+
+| Notes | Source topic checked | Result |
+|---|---|---|
+| 229 | Eyn in *sa'et/du'a* | The note's Eyn reference is retained. |
+| 230–238 | Written Kurmanji, Behdînî UÎ/WÎ spelling and pronunciation, exceptions for *çûn*, *û*, *bûn*, initial clusters, and *xwîn* | The payload preserves the source's generalization, listed exceptions and the distinction between Behdînî pronunciation and spelling. |
+| 239–243 | *uşî*, *dêw*, borrowed -ow/-uw/-ûw, *ronahî*, *yêt/yêd* | The individual lexical/dialect notes are represented. |
+| 244–251 | ḥ notation, *ti/di/dih*, Ẍ notation and ẌU- restriction, English *murder*, and the non-phonological spellings *wusa/wulo/wunda* | The source qualifications are retained; the payload correctly treats the latter forms as spelling deficiencies rather than a sound change. |
+| 252–255 | Stress terminology and references, *difin*, Eastern Kurmanji suffix forms | Note 252 now preserves all four source-language equivalents exactly: English *stress*, Turkish *vurgu*, Arabic **نبر**, and Persian **تکيه**. Notes 253–255 retain the research reference, the author's counter-analysis of *difin/difn*, and Eastern forms *kitêbeka min/hevalekê min*. |
+| 256–261 | *gerim/germ*, Eastern and Central/Western pronoun sets, Sorani pronouns, *niha/êsta/îse*, and stress on Sorani/Farsi progressive prefixes | The dialect labels and author's distinctions are represented. |
+| 262–265 | Sources on compounding, derivation and reduplication; Pashto stress reference | The three bibliographic pointers and the Tegey/Robson qualification are retained. |
+| 266–268 | *piştî* as noun vs adposition, and ambiguity of inflected *hatin* | The payload preserves the semantic contrast and the source's note that *hatin* may mean “em hatin” or “hûn hatin”. |
+
+### Result and limits
+
+- Footnote numbering and one-to-one presence: **passed (40/40)**.
+- Item-level semantic comparison of the footnotes: **passed for the numbered note claims and qualifications listed above**.
+- Exact diplomatic transcription: **not claimed**. The lesson presents explanatory summaries, not a facsimile transcription; IPA and rendered table glyphs still need visual/browser QA.
+- The body tables and examples for diphthong categories and U/I alternations remain subject to a separate item-by-item comparison. Passing the footnote audit does not certify the entire lesson.
+
+No Supabase write, deployment, activation, merge, or student-data access/change was performed.
