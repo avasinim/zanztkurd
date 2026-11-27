@@ -2094,7 +2094,7 @@ Di peyva *mîras* de S-ya ku ji dengê didanî [θ] hatiye, di kurdî de di form
 
 ## Çavkanî
 
-Husein Muhammed, *Dengnasî di kurdî de*, rûpelên çapkirî 168–185.
+Husein Muhammed, *Dengnasî di kurdî de*, rûpelên çapkirî 168–186.
 
 
 
