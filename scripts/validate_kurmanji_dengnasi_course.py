@@ -122,6 +122,9 @@ for required in ("tep-", "tenk-", "terror", "septm-", "145:", "146:", "147:", "1
 lesson15_payload = payload["lessons"][14]["content_html"]
 for required in ("tep-", "tenk-", "terror", "septm-", "<strong>145:</strong>", "<strong>146:</strong>", "<strong>147:</strong>", "<strong>148:</strong>"):
     assert required in lesson15_payload, f"Lesson 15 HTML payload is missing source-backed detail: {required}"
+assert "T di van formên lêkerî de nîşana rabirdûyê ye; Ş an dengê din jî di dîrokê de li cihê wê hebûye." in lesson15, "Lesson 15 Ş/T history interpretation must match the source"
+assert "dengê ku berî T hebûye, di hin formên peyvê de ketiye" not in lesson15, "Lesson 15 must not imply an unsupported historical deletion before T"
+assert "T di van formên lêkerî de nîşana rabirdûyê ye" in lesson15_payload, "Lesson 15 HTML payload is missing the corrected Ş/T historical interpretation"
 assert lessons[15]["title"] == "Dengên V, W, X, Y û Z", "Lesson 16 title must include source section X"
 assert "- **-RC, -RÇ, -RD, -RF, -RG, -RM, -RN, -RŞ, -RS, -RX, -RZ**" in source, "Lesson 17 is missing source cluster -RŞ"
 assert "*ferş, merş, marş*" in source, "Lesson 17 is missing source examples for cluster -RŞ"
