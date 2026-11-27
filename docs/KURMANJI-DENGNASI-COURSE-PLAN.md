@@ -1,17 +1,29 @@
 # Dengnasîya Zimanê Kurdî — course integration plan
 
 **Source:** Husein Muhammed, *Dengnasî di kurdî de* (432 printed pages).  
-**Course language/script:** Kurmancî, Latin script.  
-**Designed reading copy:** 462-page PDF with cover, contents, and 27 lesson divider pages.  
-**Current status:** production Supabase course row, all 27 lesson-content records, and protected enrollment/progression integration are deployed. PR #86 is merged into main. The GitHub Pages build and deployment workflow completed successfully; a separate live-page fetch was not available for independent content verification.
+**Course language/script:** Kurmancî, Latin script only.  
+**Designed source reference:** 462-page PDF with cover, contents, and 27 lesson divider pages.
 
-## Content rules
+## Verified status — 27 November 2026
 
-- Keep the source text, examples, tables, and illustrations exactly as supplied.
-- The 27 lesson divisions are navigation boundaries based on the book's structure; they are not rewritten lesson summaries.
-- Do not add quizzes, questions, tests, or exercises in this source-preservation phase.
+- The 27-lesson source-derived authoring draft is complete on the draft branch. It reorganizes the book's own sections and topics into original explanatory Kurmanji prose; the PDF is a reference, not lesson-body content.
+- All 27 lesson titles and printed-page ranges are aligned across the authoring document, course manifest, reader index, and lesson routes.
+- Lessons 1–27 have been source-checked. Lessons 24–27 were most recently rechecked against printed pages 387–432.
+- The latest test-only refresh wrote 27 lesson-content rows to isolated Supabase project `juwsjljbdwyncicybwoq`. Verification confirmed 27/27 exact matches, 27 unique keys, 515,310 HTML characters, zero Arabic-script characters, no audio/media URLs, and no quiz/test/exercise/question headings. The pre-refresh 27 rows are backed up in `docs/backups/kurmanji-dengnasi-test-lesson-content-before-resync-2026-11-27.json`.
+- All five course validation workflows passed at content/audit commit `5c56944c5c2299bc2e46f4c0e92a404e0bd642a4`; the same five workflows also passed at the later documentation-only test-sync verification commit `b01508d1bee397276a4d7eedf5d971b30bb51601`.
+- PR #89 (`Draft source-based lessons for Dengsazîya Zimanê Kurdî`) remains open and Draft. It is not merged. Its current known head is `b01508d1bee397276a4d7eedf5d971b30bb51601`, 596 commits ahead of `main` at `a32992580c520ba64bdbea24cca982f488fb0cd1`, 0 behind.
+- The latest `main` commit explicitly pauses the Dengnasi course: it removes PDF-as-course rendering, replaces the landing page with a redesign notice, and hides the unfinished course from the student dashboard. Therefore no live/public lesson delivery or current Pages activation is claimed for the revised 27 source-derived lessons.
+- Historical backend note: PR #86 was merged as `3b7aa32aea4c89fd36253dbf67bca00656a3e903` and its description records that an additive migration deployed the production course row, 27 lesson-content rows, and access/progression RPCs. That historical backend activation must not be confused with publication of the revised lesson authoring in PR #89. The current `main` pause and the unmerged PR #89 mean the revised lesson experience is not publicly activated. Do not rerun the old migration or change production data as part of this authoring work.
+- No student, profile, enrollment, progress, or auth-user records were read or changed during the 27 November test refresh. No production Supabase writes, schema changes, migrations, merge, deployment, or public activation were performed as part of PR #89.
+
+## Content and editorial rules
+
+- Use the book's own contents, section structure, topics, examples, tables, qualifications, and printed page boundaries to organize the 27 lessons.
+- Write source-faithful explanatory prose in Kurmanji Latin script. Preserve the book's information and caveats without copying the entire book verbatim, embedding the PDF as lesson content, or adding unsupported material.
+- Preserve unresolved source inconsistencies as explicit source notes; do not silently guess or normalize them.
+- Do not add questions, quizzes, tests, exercises, answer keys, or external audio.
 - Keep this course separate from Kurmanji Course 1 (26 lessons) and Course 2 (12 lessons).
-- Production activation was performed through an additive migration. Existing courses, enrollments, and progress rows were preserved.
+- Keep the course landing page/lesson loader on hold until the source-derived lesson package passes final preview and integration checks and the publication step is separately authorized.
 
 ## Lesson map
 
@@ -30,10 +42,10 @@
 | 11 | Dengên K û L | 133–146 |
 | 12 | Dengên M û N | 147–154 |
 | 13 | Dengên P û Q | 155–167 |
-| 14 | Dengên R û S | 168–186 |
-| 15 | Dengên Ş û T | 187–202 |
+| 14 | Dengên R û S | 168–185 |
+| 15 | Dengên Ş û T | 186–202 |
 | 16 | Dengên V, W, Y û Z | 203–232 |
-| 17 | Eyn (ع) û hemû cotkonsonantên di kurdî de | 233–250 |
+| 17 | Eyn û hemû cotkonsonantên di kurdî de | 233–250 |
 | 18 | Vokalên A û E | 251–269 |
 | 19 | Vokalên Ê, I û Î | 270–297 |
 | 20 | Vokalên O, U û Û | 298–314 |
@@ -45,14 +57,15 @@
 | 26 | Cudahiyên dengnasî di navbera kurdî û tirkî de | 402–417 |
 | 27 | Cotdengiya Ç, K, P, T û rêgirtin di ser peyvan re | 418–432 |
 
-## Publication dependencies
+## PDF source reference and page numbering
 
-1. The corrected 462-page PDF is already committed to the public repository root on `main` as `Dengnasiya_Zimane_Kurdi_27_Wane_corrected.pdf`; the reader uses its stable `raw.githubusercontent.com` URL. Repository presence and blob identity are verified. GitHub Actions also downloaded the canonical raw PDF URL successfully (HTTP 200) and verified its SHA-256 and 462-page count. This confirms public delivery from GitHub's raw host; it does not confirm that the course preview or reader has been deployed through GitHub Pages. Before publishing the reader, test the Pages preview in a normal browser; if the reader needs a same-site PDF asset, copy the exact verified PDF to the site's public asset path and update the reader URL.
-2. Build the course overview and 27 lesson reading routes against that hosted source, preserving original page layout.
-3. Add a distinct course identity and navigation without reusing existing 26/12-lesson identifiers.
-4. Test signed-out, enrolled, and owner access in a safe environment before any production enrollment/backend changes.
-5. Keep production database and migrations untouched until separately authorized and tested.
+- The corrected 462-page PDF is committed to the public repository root on `main` as `Dengnasiya_Zimane_Kurdi_27_Wane_corrected.pdf`. Its recorded SHA-256 is `35f02f32bb835b5c5d05a39b0fea8de68382c1276e5bd66d5f7d3d2bbc929a0c`; the canonical raw URL has previously passed HTTP 200, checksum, and 462-page validation.
+- The manifest records both printed source pages and designed-PDF pages. The 462-page copy includes three front-matter pages and 27 lesson dividers.
+- Corrected boundary: Lesson 14 is printed pp. 168–185 (designed pp. 185–202); Lesson 15 is printed pp. 186–202 (designed pp. 204–220), with its divider at designed page 203. The reader should open Lesson 14 at page 185 and Lesson 15 at page 204.
 
-## Page numbering
+## Remaining release gates
 
-The manifest records both printed page ranges and page ranges in the corrected designed PDF. The 462-page copy includes three front-matter pages and 27 lesson dividers. The Lesson 15 divider is correctly placed at designed PDF page 204, immediately after printed source page 186 (designed page 203) and before Lesson 15 begins at printed source page 187 (designed page 205). The reader therefore opens Lesson 14 at page 185 and Lesson 15 at page 205.
+1. Complete the academic/source-preview-generated-file review of all 27 lessons and verify every route, title, page range, and rendered lesson body against the manifest and source.
+2. Run a real authorized test-account browser check for authentication, enrollment, lesson access, sequential progression, and completion persistence. Existing Playwright tests use controlled Supabase mocks and are not a live service login.
+3. Reconcile the historical PR #86 production backend state with the currently paused `main` UI before any future release; do not apply another migration by assumption.
+4. Only after those checks, prepare a separate, reviewed publication change. PR #89 itself remains Draft and must not be merged or described as live without explicit release approval and deployment proof.
