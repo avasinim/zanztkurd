@@ -59,11 +59,12 @@ The payload contains sections on:
 
 The lesson payload broadly follows the source's structure and includes both complete subject areas covered by printed pages 316–347: diphthongs (including U/I alternations) and stress. The page boundary is verified: the next article begins at printed page 348.
 
-A concrete payload defect was found: the appendix notes numbered 229–268 appear twice in the HTML payload, although the source notes occur once. The lesson is therefore **not yet ready for a claim of exact source completeness**. The duplicate should be removed in a controlled content revision, then the full list of examples and footnotes should be checked against the book.
+A concrete payload defect was found and corrected on 2026-11-27: the first of two repeated appendix blocks was removed, retaining the more detailed itemized block. Post-edit validation confirms one notes heading and exactly 40 unique numbered entries (229–268), with no missing or duplicated note numbers. This resolves the duplicated-block defect, but does **not** certify exact source completeness: the retained notes still require item-by-item verification against the book, and the lesson body remains a structured adaptation rather than a diplomatic transcription.
 
 ## Next work and limits
 
 - Lesson 22 begins with “Berhevdana herdu alfabeyên kurdî” on printed page 348. Its endpoint must be established from the next section divider.
 - Perform a rendered-page check for IPA symbols, Arabic script, diacritics, tables, and line wrapping.
+- Correction commit: `a478a5c764efc965cc4ae2e3a713b3c5fd1bd05f` (`Remove duplicated Lesson 21 source notes block`).
 - The previously recorded test database drift remains unresolved (0/27 exact HTML matches and nine title mismatches). This audit does not authorize any database resynchronization.
 - No Supabase write, migration, production change, deployment, PR merge, student-data access/change, or course activation was performed.
