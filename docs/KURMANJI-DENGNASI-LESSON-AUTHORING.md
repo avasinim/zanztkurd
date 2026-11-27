@@ -2172,7 +2172,7 @@ Pirtûk bi lêkerên *firotin* û *dotin* vê cudahiyê nîşan dide:
 - *firotin*: di rehê rabirdûyê de *-firot-* (wek *firot, nefirot, firotiye*), lê di rehê niha û pêşerojê de *-firoş-* (wek *difiroşim, nafiroşî*);
 - *dotin*: di rehê rabirdûyê de *-dot-* (wek *dot, nedotin*), lê di rehê niha û pêşerojê de *-doş-* (wek *didoşim, nadoşe*).
 
-Di van cotan de T bi awayekî morfolojîk nîşana rehê rabirdûyê ye; Ş di rehê niha û pêşerojê de tê dîtin. Çavkaniyê eşkere dike ku ev dîrokî guherîna rasterast a Ş↔T nîne: dengê ku berî T hebûye, di hin formên peyvê de ketiye. Ji ber vê yekê divê morfolojiya lêkerê ji guherîna dengî cuda were şîrovekirin. Di berawirdkirina *firotin/firoştin/forûxten* û *dotin/doşan/doxten* de ev pêwendiya dîrokî xuya dibe. Di hin devokan de forma *duhtin* jî hatiye parastin.
+Di van cotan de T bi awayekî morfolojîk nîşana rehê rabirdûyê ye; Ş di rehê niha û pêşerojê de tê dîtin. Çavkaniyê eşkere dike ku ev dîrokî guherîna rasterast a Ş↔T nîne: T di van formên lêkerî de nîşana rabirdûyê ye; Ş an dengê din jî di dîrokê de li cihê wê hebûye. Ji ber vê yekê divê morfolojiya lêkerê ji guherîna dengî cuda were şîrovekirin. Di berawirdkirina *firotin/firoştin/forûxten* û *dotin/doşan/doxten* de ev pêwendiya dîrokî xuya dibe. Di hin devokan de forma *duhtin* jî hatiye parastin.
 
 ## 4. T — dengekî seknî-pidûyî-bêlerz
 
