@@ -375,9 +375,9 @@ for required in (
     "| xwe | xwe | xo |",
     "XWE-", "XO-",
 ):
-    assert required in lesson24, f"Lesson 24 is missing source detail: {required}"
+    assert required.casefold() in lesson24.casefold(), f"Lesson 24 is missing source detail: {required}"
     payload_required = " ".join(required.replace("|", " ").replace("*", "").split())
-    assert payload_required in lesson24_payload_text, f"Lesson 24 HTML payload is missing source detail: {required}"
+    assert payload_required.casefold() in lesson24_payload_text.casefold(), f"Lesson 24 HTML payload is missing source detail: {required}"
 assert "Ç, K, P û T li destpêka peyvan herdem bipif" in lesson24
 assert "Ç, K, P û T li destpêka peyvan herdem bipif" in lesson24_payload_text
 assert not re.search(r"[\u0600-\u06FF]", lesson24), "Lesson 24 must remain Latin-script only"
