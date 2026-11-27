@@ -575,7 +575,7 @@ early_middle_source_audit = {
 for lesson_number, audit in early_middle_source_audit.items():
     next_heading = lesson_number + 1
     lesson_match = re.search(
-        rf"(?ms)^# Dersa {lesson_number} —.*?(?=^# Dersa {next_heading} —|\\Z)",
+        rf"(?ms)^# Dersa {lesson_number} —.*?(?=^# Dersa {next_heading} —|\Z)",
         source,
     )
     assert lesson_match, f"Lesson {lesson_number} authoring section is missing"
@@ -599,10 +599,10 @@ for lesson_number, audit in early_middle_source_audit.items():
         assert detail.casefold() in lesson_text.casefold(), (
             f"Lesson {lesson_number} HTML payload is missing source detail: {detail}"
         )
-    assert not re.search(r"[\\u0600-\\u06FF]", lesson_source), (
+    assert not re.search(r"[\u0600-\u06FF]", lesson_source), (
         f"Lesson {lesson_number} authoring must remain Latin-script only"
     )
-    assert not re.search(r"[\\u0600-\\u06FF]", lesson_text), (
+    assert not re.search(r"[\u0600-\u06FF]", lesson_text), (
         f"Lesson {lesson_number} payload must remain Latin-script only"
     )
 
