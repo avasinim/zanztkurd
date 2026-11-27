@@ -91,3 +91,10 @@ The lesson payload covers the article's eight main sections and the page boundar
 - Continue checking individual examples, footnotes, diacritics, tables and rendered layout before claiming exact completeness.
 - The previously recorded test database drift remains unresolved (0/27 exact HTML matches and nine title mismatches). This audit does not authorize any database resynchronization.
 - No Supabase write, migration, production change, deployment, PR merge, student-data access/change, or course activation was performed.
+
+
+## Pêraweza 269 — pêvekirin
+
+Pêraweza 269 li rûpela çapkirî 354 tê: nivîskar dibêje cihê giraniyê di peyvên kurdî de dê mijara nivîsareke din a serbixwe be. Ev têbînî niha li dû nimûneyên *mirovî* û *Azadî* di payloadê de hatiye vegerandin. Ev pêveka kurt e; ne pêşniyar dike ku naveroka tevahiya beşa giranî bi temamî hatiye vegerandin.
+
+Piştrastkirin: rûpela PDF 379 / rûpela çapkirî 354.
