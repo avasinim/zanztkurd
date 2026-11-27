@@ -28,7 +28,7 @@ No lesson is approved for activation by this register.
 | P1 | 25 | The Kurmanji–Zazaki comparison is compressed. The source's K/H heading/examples conflict with a following sentence that repeats H/Ş. | Reconcile all 12 comparison groups and notes on pp.394–401; preserve and flag the source's K/H vs H/Ş inconsistency rather than silently correcting it. |
 | P1 | 26 | The Kurdish–Turkish comparison is compressed. The full alphabet table, notes 290–292, and references 296–302 are not fully reproduced. | Restore/check the complete alphabet table, all examples and all notes/references on pp.402–417. Preserve the source's p.407 wording conflict (“P û T (lê ne K û T)” followed by “K û P”) as a flagged source issue. |
 | P1 | 27 | Broad chapter coverage is present, but notes 303–319 are not all reproduced in full; the vowel-combination table has a source irregularity and needs visual/item-level verification. | Verify every table cell and every note on pp.418–432; establish exact note parity and retain source irregularities with explicit flags. |
-| P2 | 16 | Payload adds more specific terminology for W (“paşzimanî” / labio-velar) than the source's wording (“dulêvî-tengav”). This may be a scientifically reasonable elaboration, but it is not source-faithful without support in the book. | Remove the added classification or clearly distinguish it from the source; for the strict source-only course, do not introduce it as the author's wording. |
+| P2 | 16 | **Resolved in payload (27 Nov):** the unsupported W terminology (“paşzimanî” / labio-velar) and added tongue-dorsum/velum explanation were removed; the description now follows source p.210 (“dulêvî-tengav”). | Retain the correction; still include Lesson 16 in the final glyph/example/footnote parity review. |
 | P2 | 17 | Footnote 159 uses “nerm” ambiguously for K; European-loan examples on p.241 need direct visual confirmation. | Inspect the printed page image and footnote; preserve ambiguity, verify spellings and avoid inferred normalization. |
 | P2 | 5 | Source corpus count: 31 listed letter frequencies sum to 53,001 although the stated corpus total is 52,705; rounded percentages sum to 100.43%. | Keep all printed values and add a clearly attributed source arithmetic note; do not recalculate or replace the author's values silently. |
 | P2 | 14 | Source p.169 has a *birîn* gloss conflict; p.175 describes S using stop/affricate-like language despite [s] being a fricative. | Preserve the source wording in the source-faithful text and mark both as source inconsistencies; keep any phonetic clarification separate and attributed. |
@@ -89,10 +89,19 @@ The course may be called source-faithful only when all of the following are true
 - Every one of the 27 lessons has a complete page-by-page source ledger.
 - All examples, tables, notes, references, dialect labels and qualifications have been accounted for.
 - The Lesson 21 duplicated note block is resolved.
-- The compressed material in Lessons 22–27 is reconciled item by item.
+- The compressed material in Lessons 22–27 is reconciled item by item. Lessons 26–27 now have supplemental restorations for selected source details and footnotes, but their complete table/note parity is still outstanding.
 - All source-level errors are preserved and explicitly flagged, not silently repaired.
 - No unsupported additions remain.
 - Independent review finds no unresolved omission or unexplained discrepancy.
 - The approved payload has a reviewable, backed-up parity plan for the test DB.
 
 **Current status: first-pass source audit complete; Lesson 21 duplicate block corrected (note-content parity still pending); Lesson 22 has confirmed item-level omissions/compression and is not source-complete; exact fidelity not yet certified; database parity unresolved; course not activated.**
+
+
+## 8. Follow-up work recorded — 27 November 2026
+
+- Lesson 26: selected source details and footnotes from printed pp.402–417 were restored in the payload and recorded in its audit. The complete alphabet table, all notes/references and word-by-word fidelity remain open.
+- Lesson 27: selected details and notes 303–319 were restored in the payload and recorded in its audit. The vowel-combination table still needs visual/item-level verification; exact note and glyph parity remains open.
+- Lesson 16: the unsupported expansion of W as “dulêvî-paşzimanî-tengav / labio-velar approximant”, including the extra tongue-dorsum/velum explanation, was removed after rereading printed p.210. This closes that specific P2 item only.
+- The Lesson 21 notes 229–268 still require item-by-item source verification; their duplicate block is resolved, not their content parity.
+- Test-project drift is still unresolved. No synchronization/write was performed.
