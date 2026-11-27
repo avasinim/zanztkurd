@@ -37,3 +37,20 @@ The source pages reviewed cover:
 
 ## Result
 This is a source-page inventory and initial audit, not yet a full payload parity certification. No Supabase writes, migrations, deployment, activation, production changes, PR merge or student-data access/change were performed.
+
+
+## Payload comparison — completed initial pass
+
+The current lesson-25 payload was inspected after the source-page inventory. It has 13 numbered sections plus source-detail supplements. The main headings cover all 12 comparison groups identified above; the supplement restores material from the book's earlier comparison topics and does not replace the main lesson structure.
+
+Confirmed present in the payload:
+- all principal word tables listed above, including *berf/vewre*, *av/aw*, *pird*, *xweş/weş*, *jin/cenî*, *gul/vilî*, *deh/des*, *stêr/estare*, *hêk/hak*, *guh/goş*, *ker/her* and *rast/raşt*;
+- footnotes 287–289 in substance, including the W-bearing dialect forms for *av*, the special meaning of *pird*, and the Vate standardization note;
+- the contrast between inherited M and P/B-derived V/W, rather than treating all V/W outcomes as one sound law;
+- the exceptional Zazaki pronoun *xo/xwu* and the reverse S/H example *sê/hirê*;
+- the source's internal K/H heading/body inconsistency is explicitly discussed in the payload, with the intended K/H comparison inferred from the heading, examples and historical explanation, and the source slip flagged rather than silently concealed.
+
+The payload's supplemental material includes ST cluster variants, Ç/K/P/T aspiration and emphatic forms, H correspondences, progressive-prefix and verbal suffix contrasts, L/Ł, and additional XWE/G/K discussion. Some of this material expands beyond the narrow numbered Zazaki comparison headings and must be kept clearly identified as source-detail context, not misrepresented as additional numbered sections of the article.
+
+## Assessment update
+The payload's coverage is broad and the principal lesson topics/examples are represented. This remains an initial source-alignment audit, not a line-by-line diplomatic transcription. A final visual check of diacritics, footnote anchors, and table rendering is still required before exact preservation can be claimed.
