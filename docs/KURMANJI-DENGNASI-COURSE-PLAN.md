@@ -69,3 +69,14 @@
 2. Run a real authorized test-account browser check for authentication, enrollment, lesson access, sequential progression, and completion persistence. Existing Playwright tests use controlled Supabase mocks and are not a live service login.
 3. Reconcile the historical PR #86 production backend state with the currently paused `main` UI before any future release; do not apply another migration by assumption.
 4. Only after those checks, prepare a separate, reviewed publication change. PR #89 itself remains Draft and must not be merged or described as live without explicit release approval and deployment proof.
+
+
+## Latest source-boundary and branch checkpoint — 27 November 2026
+
+- Corrected the Lesson 14 authoring citation to printed pp. 168–186, matching the audited lesson boundary and manifest; Lesson 15 begins at printed p. 187 and runs through p. 202.
+- Lesson 14's generated payload and HTML preview were updated to carry the corrected source-boundary note and citation. The designed PDF's divider artwork/page labels still require a separate source-layout review; no PDF file was edited in this checkpoint.
+- Latest verified working-branch commit: `30c1e386c78a331623bab74623a120a5a2a11853`.
+- Working branch `implementation/dengnasi-content-html-bridge-2026-11-26` compares 746 commits ahead and 0 behind `main` at `a32992580c520ba64bdbea24cca982f488fb0cd1`.
+- PR #89 remains open, Draft, and unmerged. Its head is still `author/dengnasi-lesson-01-draft-2026-11-24` at `b01508d1bee397276a4d7eedf5d971b30bb51601`; it is not the working branch used for the latest source corrections. The latest working-branch commits therefore have no PR-triggered workflow runs. Do not infer CI success from earlier commits.
+- The workflow `.github/workflows/validate-dengnasi-course.yml` runs on pull requests or manual dispatch. A manual dispatch has not been performed; generator `--check`, PDF validation and browser tests remain unverified for this latest head.
+- No merge, deployment, production Supabase write, student-data access, or public activation was performed.
