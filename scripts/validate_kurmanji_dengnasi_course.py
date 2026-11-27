@@ -386,6 +386,73 @@ assert "https://en.wikipedia.org/wiki/File/" not in lesson24, "Lesson 24 must no
 assert "https://en.wikipedia.org/wiki/File/" not in lesson24_payload_text, "Lesson 24 payload must not add audio dependencies"
 
 
+# Lessons 25–27 source-to-payload audit assertions
+lesson_source_audit = {
+    25: {
+        "pages": "394–401",
+        "details": (
+            "varan", "berdene", "birdin", "birin", "xweş", "weş",
+            "estare", "astare", "kanî", "henî", "heval",
+            "bełê", "mał", "xwedî, xwedan / xudan",
+        ),
+    },
+    26: {
+        "pages": "402–417",
+        "details": (
+            "Ğ, I, Ö, Ü", "ahenga vokalan", "pifdarî û bêpifî",
+            "qamera, Amerîqa, qomîte", "lerz û bêlerzî",
+            "komkonsonant", "superstratum", "substratum",
+            "çeşme", "kirin", "kar", "aborîtiya zimanî",
+        ),
+    },
+    27: {
+        "pages": "418–432",
+        "details": (
+            "hiyatus", "bêav", "na-axivin", "rojname + ê",
+            "neanîn", "amadehî", "bawî", "biderê",
+            "çawa/çawan", "pîvaz", "Yaron Matras",
+            "xesûya wê", "rûyê wî",
+        ),
+    },
+}
+for lesson_number, audit in lesson_source_audit.items():
+    next_heading = lesson_number + 1
+    lesson_match = re.search(
+        rf"(?ms)^# Dersa {lesson_number} —.*?(?=^# Dersa {next_heading} —|\\Z)",
+        source,
+    )
+    assert lesson_match, f"Lesson {lesson_number} authoring section is missing"
+    lesson_source = lesson_match.group(0)
+    lesson_payload = payload["lessons"][lesson_number - 1]
+    lesson_html = lesson_payload["content_html"]
+    lesson_text = " ".join(
+        re.sub(r"<[^>]+>", " ", html.unescape(lesson_html)).split()
+    )
+    assert audit["pages"] in lesson_source, (
+        f"Lesson {lesson_number} source-page citation mismatch"
+    )
+    assert lesson_payload["printed_pages"] == {
+        "start": int(audit["pages"].split("–")[0]),
+        "end": int(audit["pages"].split("–")[1]),
+    }, f"Lesson {lesson_number} payload page range mismatch"
+    for detail in audit["details"]:
+        assert detail.casefold() in lesson_source.casefold(), (
+            f"Lesson {lesson_number} is missing source detail: {detail}"
+        )
+        assert detail.casefold() in lesson_text.casefold(), (
+            f"Lesson {lesson_number} HTML payload is missing source detail: {detail}"
+        )
+    assert not re.search(r"[\\u0600-\\u06FF]", lesson_source), (
+        f"Lesson {lesson_number} authoring must remain Latin-script only"
+    )
+    assert not re.search(r"[\\u0600-\\u06FF]", lesson_text), (
+        f"Lesson {lesson_number} payload must remain Latin-script only"
+    )
+    assert not re.search(r"<audio\\b|<video\\b|\\.(?:mp3|wav|ogg)\\b", lesson_html, re.I), (
+        f"Lesson {lesson_number} must not add audio/video dependencies"
+    )
+
+
 lesson23_match = re.search(r"(?ms)^# Dersa 23 —.*?(?=^# Dersa 24 —)", source)
 assert lesson23_match, "Lesson 23 authoring section is missing"
 lesson23 = lesson23_match.group(0)
