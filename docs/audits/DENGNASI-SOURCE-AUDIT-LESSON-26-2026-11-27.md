@@ -61,3 +61,16 @@ Footnotes 290–302 are represented in substance, including the Turkish non-basi
 The payload explicitly separates aspiration (pifdarî/bêpifî) from voicing (lerz/bêlerz), flags the p.407 P/T versus K/P wording inconsistency, and attributes Armenian and other contact explanations to the author rather than stating them as settled facts. It retains the source's final caution that lack of historical evidence prevents proof of whether unaspirated initial stops once existed in Sorani, Southern Kurdish and Hewrami.
 
 Assessment: broad coverage of all source sections and principal examples is verified. This is not a diplomatic transcription; exact glyph-by-glyph fidelity, every table cell and rendered footnote placement still need visual QA. No major numbered source topic is missing in this initial comparison.
+
+
+## Pêveka pêşveçûna 27-11-2026 — هەڵسەنگاندنی وردەکاریی لاپەڕەکانی 402–417
+
+PDF pp.430–446 (rûpelên çapkirî 402–417) دووبارە خوێندرایەوە. Payloada وانەی 26 پێشتر بابەتە سەرەکییەکان هەبوون، بەڵام هەندێک footnote، îstîsna، نموونەی dîrokî و ڕوونکردنەوەی nivîskar بە کورتی هاتبون. پێوەکی نوێ ئەمانەی گەڕاندەوە:
+- Têbîniyên 290–295 لەسەر Â/Î/Û ـی تەرکی لە وشەی تایبەت، درێژی Û/O لە هەندێک دیالێکت، kirin/kırın و îstîsnaya `anne` لە ahenga vokalan.
+- Têbîniya 296 لەسەر pirdengiya herf û deng؛ footnote 297 بۆ lerz؛ footnote 298 بۆ komên konsonantî.
+- Îstîsnayên `saz` و `ad` لە rêgeha bêlerziya dawiyê ya tirkî؛ نموونەکانی `ne-kuj-e + T`، `heft + deh`، `kitap + da` و `oda + da`.
+- Footnote 299 بۆ پێناسەی “kurdiya başûrî”، و وردەکارییەکانی هەڵسەنگاندنی nivîskar لەسەر îhtîmala tesîra ermenî، farisî، erebî، tirkî û soranî.
+- Footnote 302 و نموونەی hypercorrection؛ هەروەها سنووری ئەوەی لەبەر نەبوونی بەڵگەی مێژوویی ناتوانرێت بسەلمێندرێت.
+
+پشکنینی ساختاری: JSON دروست؛ 27 وانە؛ HTML وانەی 26 = 22837 کاراکتەر؛ تاگەکان بەبێ هەڵە داخراون.
+ئەم پێوەکە وردەکارییە سەرچاوەییە دیاریکراوەکان دەگەڕێنێتەوە؛ بەڵام هێشتا هەموو هێما و وشەکان بە وشەبەوشە لەگەڵ چاپی PDF نەسەلمێنراون.
