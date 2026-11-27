@@ -152,6 +152,24 @@ class DengnasiLessonBrowserTests(unittest.TestCase):
                     0,
                     f"Lesson {number}: authored lesson sections missing",
                 )
+                heading_parity = preview.evaluate(
+                    """(element, expectedHtml) => {
+                        const expectedRoot = document.createElement("div");
+                        expectedRoot.innerHTML = expectedHtml;
+                        const headings = root => Array.from(root.querySelectorAll("h2"))
+                            .map(node => node.textContent.trim());
+                        return {
+                            expected: headings(expectedRoot),
+                            rendered: headings(element),
+                        };
+                    }""",
+                    lesson["content_html"],
+                )
+                self.assertEqual(
+                    heading_parity["rendered"],
+                    heading_parity["expected"],
+                    f"Lesson {number}: rendered section headings differ from payload",
+                )
                 self.assertTrue(rendered.strip(), f"Lesson {number}: empty rendered content")
                 self.assertNotIn("Naveroka dersê tê barkirin...", rendered)
                 self.assertEqual(page.locator(".lesson-content iframe").count(), 0)
