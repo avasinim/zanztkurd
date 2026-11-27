@@ -348,7 +348,7 @@ lesson24_match = re.search(r"(?ms)^# Dersa 24 —.*?(?=^# Dersa 25 —)", source
 assert lesson24_match, "Lesson 24 authoring section is missing"
 lesson24 = lesson24_match.group(0)
 lesson24_payload = payload["lessons"][23]["content_html"]
-lesson24_payload_text = html.unescape(lesson24_payload)
+lesson24_payload_text = " ".join(re.sub(r"<[^>]+>", " ", html.unescape(lesson24_payload)).split())
 for required in (
     "rûpelên çapkirî 387–393",
     "feylî, kelhurî û kirmaşanî",
@@ -375,7 +375,8 @@ for required in (
     "XWE-", "XO-",
 ):
     assert required in lesson24, f"Lesson 24 is missing source detail: {required}"
-    assert required in lesson24_payload_text, f"Lesson 24 HTML payload is missing source detail: {required}"
+    payload_required = " ".join(required.replace("|", " ").replace("*", "").split())
+    assert payload_required in lesson24_payload_text, f"Lesson 24 HTML payload is missing source detail: {required}"
 assert "Ç, K, P û T li destpêka peyvan herdem bipif" in lesson24
 assert "Ç, K, P û T li destpêka peyvan herdem bipif" in lesson24_payload_text
 assert not re.search(r"[\\u0600-\\u06FF]", lesson24), "Lesson 24 must remain Latin-script only"
