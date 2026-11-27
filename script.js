@@ -199,7 +199,7 @@ window.ZANSTI_GET_SUPABASE_CLIENT = window.ZANSTI_GET_SUPABASE_CLIENT || functio
     return ["017.html","018.html","019.html","020.html","021.html","022.html","023.html","024.html","025.html","026.html","027.html","028.html","029.html","030.html","031.html","032.html","033.html","034.html","035.html","036.html","037.html","038.html","039.html","040.html","041.html","042.html","043.html","044.html","046.html","047.html","048.html","049.html","050.html","051.html","045.html","052.html","053.html","054.html","055.html","056.html","057.html","058.html"];
   }
   function addDengnasiReferences(box){
-    if(!/^kurmanji-dengnasi-lesson-\\d{2}\\.html$/i.test((location.pathname.split("/").pop()||"")))return;
+    if(!/^kurmanji-dengnasi-lesson-[0-9]{2}[.]html$/i.test((location.pathname.split("/").pop()||"")))return;
     const preview=box.querySelector(".klesson-preview");
     if(!preview || box.querySelector(".avasin-dengnasi-sources"))return;
     const head=preview.querySelector(".lesson-preview-head");
