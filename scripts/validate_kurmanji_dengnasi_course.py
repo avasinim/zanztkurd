@@ -448,7 +448,7 @@ for lesson_number, audit in lesson_source_audit.items():
     assert not re.search(r"[\u0600-\u06FF]", lesson_text), (
         f"Lesson {lesson_number} payload must remain Latin-script only"
     )
-    assert not re.search(r"<audio\b|<video\b|\.(?:mp3|wav|ogg)\\b", lesson_html, re.I), (
+    assert not re.search(r"<audio\b|<video\b|\.(?:mp3|wav|ogg)\b", lesson_html, re.I), (
         f"Lesson {lesson_number} must not add audio/video dependencies"
     )
 
