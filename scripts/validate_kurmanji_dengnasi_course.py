@@ -88,6 +88,14 @@ for index, lesson in enumerate(lessons):
     assert not re.search(r"[\u0600-\u06FF]", preview_html), f"Arabic-script text found in lesson {number}"
     assert not re.search(r"[\u0400-\u04FF]", preview_html), f"Cyrillic-script text found in lesson {number}"
     assert "iframe" not in preview_html.lower(), f"PDF iframe unexpectedly embedded in lesson {number}"
+    assert not re.search(r"<\\s*(?:audio|video|iframe|embed|object)\\b", preview_html, re.I), (
+        f"unexpected embedded media/object markup in lesson {number}"
+    )
+    assert not re.search(
+        r"""(?:src|href)\\s*=\\s*["'][^"']*(?:\\.mp3|\\.wav|\\.ogg|\\.m4a|\\.mp4|\\.webm|youtube\\.com|youtu\\.be|soundcloud\\.com)""",
+        preview_html,
+        re.I,
+    ), f"unexpected external audio/video dependency in lesson {number}"
 
 lesson16_start = source_headings[15].start()
 lesson16_end = source_headings[16].start()
