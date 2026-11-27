@@ -2118,7 +2118,7 @@ async function markLessonComplete(courseId, lessonKey){
     };
     const gate=document.createElement("section");
     gate.className="kurmanji-completion-gate";
-    gate.innerHTML="<h3>"+copy.heading+"</h3><p>"+copy.intro+"</p><button class=\\"kurmanji-complete-btn\\" type=\\"button\\" "+(already?"disabled":"")+">"+copy.button+"</button>";
+    gate.innerHTML="<h3>"+copy.heading+"</h3><p>"+copy.intro+"</p><button class=\"kurmanji-complete-btn\" type=\"button\" "+(already?"disabled":"")+">"+copy.button+"</button>";
     actions.parentElement.insertBefore(gate,actions);
     gate.querySelector("button").addEventListener("click",async function(){
       const button=this;
