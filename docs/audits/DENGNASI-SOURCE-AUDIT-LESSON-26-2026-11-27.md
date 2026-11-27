@@ -47,3 +47,17 @@ This is a lesson adaptation, not a diplomatic transcription. The following detai
 - Lesson 27 begins after this chapter and must be checked against its own printed-page boundary.
 - The previously documented test database drift (0/27 exact HTML matches and nine title mismatches) remains unresolved. This audit does not authorize a database resync.
 - No Supabase write, migration, production change, deployment, PR merge, student-data access/change, or course activation was performed.
+
+
+## Full source-structure reconciliation — 27 November 2026
+Printed pp.402–417 were read through the end of the article (PDF pp.430–446). The boundary is confirmed: p.402 begins the Kurdish–Turkish comparison; p.418 begins Lesson 27. The manifest range 402–417 is correct.
+
+The source's full sequence is: comparative scope; alphabet (letters, not sounds); vowel inventory and length; Turkish vowel harmony; consonants and shared-letter/different-sound distinction; aspiration; K place of articulation; emphatic/thin-thick consonants; H; voicing; assimilation; consonant clusters; Ç/K/P/T doublets and their history; Armenian contact hypothesis; Persian/Arabic/Turkish contact hypothesis; and the proposed spread of unaspiration. The payload has 16 headings, splitting the extended source discussion into smaller sections, and includes each of these topics.
+
+Examples and details confirmed in payload include the Kurdish/Turkish letter table; Kurdish Ê/Î/Û and Turkish ı/ö/ü; Kurdish i versus Turkish i/ı; vowel length; Turkish front/back harmony and exception anne; 25 shared letters versus 13 identical sounds as the author's estimate; aspiration contrasts and par; qamera/Amerîqa/qomîte; te/tu, teng, pênc and pez; ser/sed; the two Kurdish H qualities; the voicing table; kitêb/kitap, hudûd/hudut, reng/renk and aktîv/aktîf; saz/ad exceptions; ne-kuj-e + T, heft + deh, oda + da, kitap + da; clusters standin/spî/şkeft and dest/çend/bext/reng; Turkish istasyon/istatistik versus studyo/standart; European cluster examples; and the source's aspiration sets çav/çeşme, kirin/kar, pîvan/peyman.
+
+Footnotes 290–302 are represented in substance, including the Turkish non-basic Â/Î/Û notes, vowel-harmony exception, voicing references, the narrow definition of “başûrî” in footnote 299, Armenian loanword reference and the hypercorrection note 302.
+
+The payload explicitly separates aspiration (pifdarî/bêpifî) from voicing (lerz/bêlerz), flags the p.407 P/T versus K/P wording inconsistency, and attributes Armenian and other contact explanations to the author rather than stating them as settled facts. It retains the source's final caution that lack of historical evidence prevents proof of whether unaspirated initial stops once existed in Sorani, Southern Kurdish and Hewrami.
+
+Assessment: broad coverage of all source sections and principal examples is verified. This is not a diplomatic transcription; exact glyph-by-glyph fidelity, every table cell and rendered footnote placement still need visual QA. No major numbered source topic is missing in this initial comparison.
