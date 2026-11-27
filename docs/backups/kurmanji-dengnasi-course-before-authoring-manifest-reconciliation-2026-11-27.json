@@ -1,0 +1,487 @@
+{
+  "courseId": "kurmanji-dengnasi-27",
+  "title": "Dengnasîya Zimanê Kurdî",
+  "source": {
+    "title": "Dengnasî di kurdî de",
+    "author": "Husein Muhammed",
+    "sourcePdf": "dengnasi.pdf",
+    "printedPages": 432,
+    "language": "Kurmancî",
+    "script": "Latin"
+  },
+  "status": "under preparation — 27 source-based Kurmanji Latin lessons drafted; 27 HTML previews and JSON payload validated; Lessons 14–15 source-page boundary corrected in authoring metadata; designed-PDF divider captions still require binary PDF regeneration; protected lesson routes remain gated; course not activated; no deployment verified",
+  "policy": "Preserve the source wording, examples, tables, and illustrations. The 27 divisions are editorial navigation only; do not add quizzes, questions, or exercises unless separately requested.",
+  "designedPdf": {
+    "libraryFilename": "Dengnasiya_Zimane_Kurdi_27_Wane_corrected.pdf",
+    "pdfPages": 462,
+    "sha256": "35f02f32bb835b5c5d05a39b0fea8de68382c1276e5bd66d5f7d3d2bbc929a0c",
+    "frontMatterPages": 3,
+    "lessonDividerPages": 27,
+    "repositoryUrl": "https://github.com/avasinim/zanztkurd/blob/main/Dengnasiya_Zimane_Kurdi_27_Wane_corrected.pdf",
+    "rawUrl": "https://raw.githubusercontent.com/avasinim/zanztkurd/main/Dengnasiya_Zimane_Kurdi_27_Wane_corrected.pdf",
+    "repositoryCommit": "2bb75d04dc3a99c4044ded70f8d79f43b112ea31",
+    "repositoryPath": "Dengnasiya_Zimane_Kurdi_27_Wane_corrected.pdf"
+  },
+  "lessons": [
+    {
+      "number": 1,
+      "id": "kurmanji-dengnasi-01",
+      "title": "Dergeh: ev vekolîn û yên berî wê",
+      "printedPages": {
+        "start": 4,
+        "end": 7
+      },
+      "originalPdfPages": {
+        "start": 4,
+        "end": 7
+      },
+      "designedPdfPages": {
+        "start": 8,
+        "end": 11
+      }
+    },
+    {
+      "number": 2,
+      "id": "kurmanji-dengnasi-02",
+      "title": "Vokal, konsonant; cih û awayên dengan; pifdarî",
+      "printedPages": {
+        "start": 8,
+        "end": 15
+      },
+      "originalPdfPages": {
+        "start": 8,
+        "end": 15
+      },
+      "designedPdfPages": {
+        "start": 13,
+        "end": 20
+      }
+    },
+    {
+      "number": 3,
+      "id": "kurmanji-dengnasi-03",
+      "title": "Hevdengî û pirdengî di nivîsîna kurdî de",
+      "printedPages": {
+        "start": 16,
+        "end": 28
+      },
+      "originalPdfPages": {
+        "start": 16,
+        "end": 28
+      },
+      "designedPdfPages": {
+        "start": 22,
+        "end": 34
+      }
+    },
+    {
+      "number": 4,
+      "id": "kurmanji-dengnasi-04",
+      "title": "Qelewîtî: dengên qelew û zirav",
+      "printedPages": {
+        "start": 29,
+        "end": 39
+      },
+      "originalPdfPages": {
+        "start": 29,
+        "end": 39
+      },
+      "designedPdfPages": {
+        "start": 36,
+        "end": 46
+      }
+    },
+    {
+      "number": 5,
+      "id": "kurmanji-dengnasi-05",
+      "title": "Rêjeya herfan di nivîsên kurmancî de",
+      "printedPages": {
+        "start": 40,
+        "end": 43
+      },
+      "originalPdfPages": {
+        "start": 40,
+        "end": 43
+      },
+      "designedPdfPages": {
+        "start": 48,
+        "end": 51
+      }
+    },
+    {
+      "number": 6,
+      "id": "kurmanji-dengnasi-06",
+      "title": "Dengrêziya kurmancî û avaniya kîteyan",
+      "printedPages": {
+        "start": 44,
+        "end": 55
+      },
+      "originalPdfPages": {
+        "start": 44,
+        "end": 55
+      },
+      "designedPdfPages": {
+        "start": 53,
+        "end": 64
+      }
+    },
+    {
+      "number": 7,
+      "id": "kurmanji-dengnasi-07",
+      "title": "Tesîra guherîna dengî li ser nivîsînê",
+      "printedPages": {
+        "start": 56,
+        "end": 67
+      },
+      "originalPdfPages": {
+        "start": 56,
+        "end": 67
+      },
+      "designedPdfPages": {
+        "start": 66,
+        "end": 77
+      }
+    },
+    {
+      "number": 8,
+      "id": "kurmanji-dengnasi-08",
+      "title": "Konsonantên B, C, Ç û D",
+      "printedPages": {
+        "start": 68,
+        "end": 103
+      },
+      "originalPdfPages": {
+        "start": 68,
+        "end": 103
+      },
+      "designedPdfPages": {
+        "start": 79,
+        "end": 114
+      }
+    },
+    {
+      "number": 9,
+      "id": "kurmanji-dengnasi-09",
+      "title": "Dengên F û G",
+      "printedPages": {
+        "start": 104,
+        "end": 115
+      },
+      "originalPdfPages": {
+        "start": 104,
+        "end": 115
+      },
+      "designedPdfPages": {
+        "start": 116,
+        "end": 127
+      }
+    },
+    {
+      "number": 10,
+      "id": "kurmanji-dengnasi-10",
+      "title": "Dengên H û J",
+      "printedPages": {
+        "start": 116,
+        "end": 132
+      },
+      "originalPdfPages": {
+        "start": 116,
+        "end": 132
+      },
+      "designedPdfPages": {
+        "start": 129,
+        "end": 145
+      }
+    },
+    {
+      "number": 11,
+      "id": "kurmanji-dengnasi-11",
+      "title": "Dengên K û L",
+      "printedPages": {
+        "start": 133,
+        "end": 146
+      },
+      "originalPdfPages": {
+        "start": 133,
+        "end": 146
+      },
+      "designedPdfPages": {
+        "start": 147,
+        "end": 160
+      }
+    },
+    {
+      "number": 12,
+      "id": "kurmanji-dengnasi-12",
+      "title": "Dengên M û N",
+      "printedPages": {
+        "start": 147,
+        "end": 154
+      },
+      "originalPdfPages": {
+        "start": 147,
+        "end": 154
+      },
+      "designedPdfPages": {
+        "start": 162,
+        "end": 169
+      }
+    },
+    {
+      "number": 13,
+      "id": "kurmanji-dengnasi-13",
+      "title": "Dengên P û Q",
+      "printedPages": {
+        "start": 155,
+        "end": 167
+      },
+      "originalPdfPages": {
+        "start": 155,
+        "end": 167
+      },
+      "designedPdfPages": {
+        "start": 171,
+        "end": 183
+      }
+    },
+    {
+      "number": 14,
+      "id": "kurmanji-dengnasi-14",
+      "title": "Dengên R û S",
+      "printedPages": {
+        "start": 168,
+        "end": 186
+      },
+      "originalPdfPages": {
+        "start": 168,
+        "end": 186
+      },
+      "designedPdfPages": {
+        "start": 185,
+        "end": 203
+      }
+    },
+    {
+      "number": 15,
+      "id": "kurmanji-dengnasi-15",
+      "title": "Dengên Ş û T",
+      "printedPages": {
+        "start": 187,
+        "end": 202
+      },
+      "originalPdfPages": {
+        "start": 187,
+        "end": 202
+      },
+      "designedPdfPages": {
+        "start": 205,
+        "end": 220
+      },
+      "dividerPage": 204
+    },
+    {
+      "number": 16,
+      "id": "kurmanji-dengnasi-16",
+      "title": "Dengên V, W, X, Y û Z",
+      "printedPages": {
+        "start": 203,
+        "end": 232
+      },
+      "originalPdfPages": {
+        "start": 203,
+        "end": 232
+      },
+      "designedPdfPages": {
+        "start": 222,
+        "end": 251
+      }
+    },
+    {
+      "number": 17,
+      "id": "kurmanji-dengnasi-17",
+      "title": "Eyn û komên konsonantî di kurdî de",
+      "printedPages": {
+        "start": 233,
+        "end": 250
+      },
+      "originalPdfPages": {
+        "start": 233,
+        "end": 250
+      },
+      "designedPdfPages": {
+        "start": 253,
+        "end": 270
+      }
+    },
+    {
+      "number": 18,
+      "id": "kurmanji-dengnasi-18",
+      "title": "Vokalên A û E",
+      "printedPages": {
+        "start": 251,
+        "end": 269
+      },
+      "originalPdfPages": {
+        "start": 251,
+        "end": 269
+      },
+      "designedPdfPages": {
+        "start": 272,
+        "end": 290
+      }
+    },
+    {
+      "number": 19,
+      "id": "kurmanji-dengnasi-19",
+      "title": "Vokalên Ê, I û Î",
+      "printedPages": {
+        "start": 270,
+        "end": 297
+      },
+      "originalPdfPages": {
+        "start": 270,
+        "end": 297
+      },
+      "designedPdfPages": {
+        "start": 292,
+        "end": 319
+      }
+    },
+    {
+      "number": 20,
+      "id": "kurmanji-dengnasi-20",
+      "title": "Vokalên O, U û Û",
+      "printedPages": {
+        "start": 298,
+        "end": 314
+      },
+      "originalPdfPages": {
+        "start": 298,
+        "end": 314
+      },
+      "designedPdfPages": {
+        "start": 321,
+        "end": 337
+      }
+    },
+    {
+      "number": 21,
+      "id": "kurmanji-dengnasi-21",
+      "title": "Dîftong û giranî di dengnasiya kurdî de",
+      "printedPages": {
+        "start": 315,
+        "end": 347
+      },
+      "originalPdfPages": {
+        "start": 315,
+        "end": 347
+      },
+      "designedPdfPages": {
+        "start": 339,
+        "end": 371
+      }
+    },
+    {
+      "number": 22,
+      "id": "kurmanji-dengnasi-22",
+      "title": "Nasandina KL û KE û cudahiyên herdu alfabeyan",
+      "printedPages": {
+        "start": 348,
+        "end": 372
+      },
+      "originalPdfPages": {
+        "start": 348,
+        "end": 372
+      },
+      "designedPdfPages": {
+        "start": 373,
+        "end": 397
+      }
+    },
+    {
+      "number": 23,
+      "id": "kurmanji-dengnasi-23",
+      "title": "Cudahiyên dengnasî di navbera kurmancî û soranî de",
+      "printedPages": {
+        "start": 373,
+        "end": 386
+      },
+      "originalPdfPages": {
+        "start": 373,
+        "end": 386
+      },
+      "designedPdfPages": {
+        "start": 399,
+        "end": 412
+      }
+    },
+    {
+      "number": 24,
+      "id": "kurmanji-dengnasi-24",
+      "title": "Cudahiyên dengnasî di navbera kurmancî û kurdiya başûrî de",
+      "printedPages": {
+        "start": 387,
+        "end": 393
+      },
+      "originalPdfPages": {
+        "start": 387,
+        "end": 393
+      },
+      "designedPdfPages": {
+        "start": 414,
+        "end": 420
+      }
+    },
+    {
+      "number": 25,
+      "id": "kurmanji-dengnasi-25",
+      "title": "Cudahiyên dengnasî di navbera kurmancî û zazakî de",
+      "printedPages": {
+        "start": 394,
+        "end": 401
+      },
+      "originalPdfPages": {
+        "start": 394,
+        "end": 401
+      },
+      "designedPdfPages": {
+        "start": 422,
+        "end": 429
+      }
+    },
+    {
+      "number": 26,
+      "id": "kurmanji-dengnasi-26",
+      "title": "Cudahiyên dengnasî di navbera kurmancî û tirkî de",
+      "printedPages": {
+        "start": 402,
+        "end": 417
+      },
+      "originalPdfPages": {
+        "start": 402,
+        "end": 417
+      },
+      "designedPdfPages": {
+        "start": 431,
+        "end": 446
+      }
+    },
+    {
+      "number": 27,
+      "id": "kurmanji-dengnasi-27",
+      "title": "Cotdengiya Ç, K, P, T û rêgirtina li ber hiyatusê",
+      "printedPages": {
+        "start": 418,
+        "end": 432
+      },
+      "originalPdfPages": {
+        "start": 418,
+        "end": 432
+      },
+      "designedPdfPages": {
+        "start": 448,
+        "end": 462
+      }
+    }
+  ]
+}
