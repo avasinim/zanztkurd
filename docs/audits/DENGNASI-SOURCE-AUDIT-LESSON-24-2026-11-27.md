@@ -57,3 +57,8 @@ A final reread of printed p.387 found two contextual details that were not expli
 Backup commit: `55747e0b04ff39743805a41956bbfa890ee2eaac`; payload correction commits: `177320e75ccec7a767a0e235e969dd532423986e` and `dffdeabcb98cefbb8e692e44bee133bd34816c62`.
 
 The 12 principal sound-comparison sections and notes 284–286 remain present. No Supabase write, deployment, activation, merge, or student-data access/change was performed.
+
+
+## Final script-normalization pass — 2026-11-27
+
+The opening scope paragraph was corrected to Kurmanji Latin only. It explicitly retains Şebekî and the source's caution about the occasional use of “Southern Kurdish” to mean Sorani. Mixed-script Sorani text and Arabic punctuation introduced in the earlier edit were removed from this lesson. Structural verification after normalization: zero Arabic-script code points in Lesson 24 HTML; zero tag mismatches; zero unclosed tags. This is a script/markup check, not a full word-for-word certification.
