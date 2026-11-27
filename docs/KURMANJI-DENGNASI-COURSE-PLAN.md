@@ -42,8 +42,8 @@
 | 11 | Dengên K û L | 133–146 |
 | 12 | Dengên M û N | 147–154 |
 | 13 | Dengên P û Q | 155–167 |
-| 14 | Dengên R û S | 168–185 |
-| 15 | Dengên Ş û T | 186–202 |
+| 14 | Dengên R û S | 168–186 |
+| 15 | Dengên Ş û T | 187–202 |
 | 16 | Dengên V, W, Y û Z | 203–232 |
 | 17 | Eyn û hemû cotkonsonantên di kurdî de | 233–250 |
 | 18 | Vokalên A û E | 251–269 |
@@ -61,7 +61,7 @@
 
 - The corrected 462-page PDF is committed to the public repository root on `main` as `Dengnasiya_Zimane_Kurdi_27_Wane_corrected.pdf`. Its recorded SHA-256 is `35f02f32bb835b5c5d05a39b0fea8de68382c1276e5bd66d5f7d3d2bbc929a0c`; the canonical raw URL has previously passed HTTP 200, checksum, and 462-page validation.
 - The manifest records both printed source pages and designed-PDF pages. The 462-page copy includes three front-matter pages and 27 lesson dividers.
-- Corrected boundary: Lesson 14 is printed pp. 168–185 (designed pp. 185–202); Lesson 15 is printed pp. 186–202 (designed pp. 204–220), with its divider at designed page 203. The reader should open Lesson 14 at page 185 and Lesson 15 at page 204.
+- Corrected boundary: Lesson 14 is printed pp. 168–186 (designed pp. 185–203); Lesson 15 is printed pp. 187–202 (designed pp. 205–220), with its divider at designed page 204. The reader should open Lesson 14 at page 185 and Lesson 15 at page 205.
 
 ## Remaining release gates
 
