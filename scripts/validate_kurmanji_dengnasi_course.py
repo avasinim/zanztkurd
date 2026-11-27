@@ -521,6 +521,92 @@ for lesson_number, audit in additional_source_audit.items():
     )
 
 
+# Lessons 2–9 and 16 source-to-payload audit assertions
+early_middle_source_audit = {
+    2: {
+        "pages": "8–15",
+        "details": (
+            "vokal", "konsonant", "dulêvî-bêvilî",
+            "pidûyî-bêvilî", "lêvî-didanî", "bipif", "bêpif",
+        ),
+    },
+    3: {
+        "pages": "16–28",
+        "details": ("cent", "computer", "pirdengî", "hevdengî", "F", "PH"),
+    },
+    4: {
+        "pages": "29–39",
+        "details": (
+            "Ṗ, Ṣ, Ṭ, Ẓ", "beẓ", "bez",
+            "L-ya zirav", "L-ya qelew", "R-ya req", "R-ya nerm",
+        ),
+    },
+    5: {
+        "pages": "40–43",
+        "details": ("11,6%", "11,2%", "9,4%", "6 121", "5 916", "4 971"),
+    },
+    6: {
+        "pages": "44–55",
+        "details": ("navik", "serik", "dûvik", "lîz + t", "lîst", "heft + deh", "hevde"),
+    },
+    7: {
+        "pages": "56–67",
+        "details": ("kuştin", "dezgeh", "ez têm", "es-têm", "lîstin", "axiftin", "beramber"),
+    },
+    8: {
+        "pages": "68–103",
+        "details": ("ba, bilind, birin", "cam, cer, cêwî", "çem, çi, çawa", "das, deng, dûr"),
+    },
+    9: {
+        "pages": "104–115",
+        "details": (
+            "fanos, ferman, fêris", "berf", "heft", "hewt",
+            "şkeft", "eşkewt", "mizgeft", "mizgewt",
+        ),
+    },
+    16: {
+        "pages": "203–232",
+        "details": (
+            "V", "W", "Ẍ", "Y", "Z-ya zirav", "Z-ya qelew",
+            "av", "sêv", "şev", "bav", "nav", "naw",
+        ),
+    },
+}
+for lesson_number, audit in early_middle_source_audit.items():
+    next_heading = lesson_number + 1
+    lesson_match = re.search(
+        rf"(?ms)^# Dersa {lesson_number} —.*?(?=^# Dersa {next_heading} —|\\Z)",
+        source,
+    )
+    assert lesson_match, f"Lesson {lesson_number} authoring section is missing"
+    lesson_source = lesson_match.group(0)
+    lesson_payload = payload["lessons"][lesson_number - 1]
+    lesson_html = lesson_payload["content_html"]
+    lesson_text = " ".join(
+        re.sub(r"<[^>]+>", " ", html.unescape(lesson_html)).split()
+    )
+    assert audit["pages"] in lesson_source, (
+        f"Lesson {lesson_number} source-page citation mismatch"
+    )
+    assert lesson_payload["printed_pages"] == {
+        "start": int(audit["pages"].split("–")[0]),
+        "end": int(audit["pages"].split("–")[1]),
+    }, f"Lesson {lesson_number} payload page range mismatch"
+    for detail in audit["details"]:
+        assert detail.casefold() in lesson_source.casefold(), (
+            f"Lesson {lesson_number} is missing source detail: {detail}"
+        )
+        assert detail.casefold() in lesson_text.casefold(), (
+            f"Lesson {lesson_number} HTML payload is missing source detail: {detail}"
+        )
+    assert not re.search(r"[\\u0600-\\u06FF]", lesson_source), (
+        f"Lesson {lesson_number} authoring must remain Latin-script only"
+    )
+    assert not re.search(r"[\\u0600-\\u06FF]", lesson_text), (
+        f"Lesson {lesson_number} payload must remain Latin-script only"
+    )
+
+
 lesson23_match = re.search(r"(?ms)^# Dersa 23 —.*?(?=^# Dersa 24 —)", source)
 assert lesson23_match, "Lesson 23 authoring section is missing"
 lesson23 = lesson23_match.group(0)
