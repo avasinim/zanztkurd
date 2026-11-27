@@ -21,7 +21,7 @@ No lesson is approved for activation by this register.
 
 | Priority | Lesson(s) | Finding | Required action before sign-off |
 |---|---:|---|---|
-| P0 | 21 | Notes 229–268 and their heading appear twice in the payload, although the source chapter has one corresponding notes section. | Compare every note number with printed pages 316–347; remove only the confirmed duplicate copy, preserve all unique note text and references, then rerun the source comparison. |
+| P0 | 21 | **Resolved in payload**: one duplicated notes block was removed; the retained block contains exactly 40 unique entries (229–268). The retained notes still need source-by-source content verification. | Keep the one validated block; next compare the text of each note 229–268 against printed pages 316–347 and review the rendered layout. |
 | P1 | 22 | The KL/KE comparison chapter is broadly represented, but long itemized lists are compressed; item-by-item no-omission fidelity is not established. | Reconcile each source list, table row, example, and footnote on printed pp.348–372 against the payload. Restore missing items verbatim in Kurmanji Latin. |
 | P1 | 23 | The Kurmanji–Sorani comparison is broadly covered, but some material is summarized; a source inconsistency exists in the K/G discussion. | Check each comparison, example, dialect qualifier, and note on pp.373–386. Keep the source's conflicting K/G statements visible as source inconsistency; do not harmonize without an editorial note. |
 | P1 | 24 | The Kurmanji–Southern Kurdish comparison is represented through 12 main comparison groups, but the payload is compressed and exact completeness is not certified. | Compare all source paragraphs, examples, qualifiers, tables and notes on pp.387–393 line by line. |
@@ -50,7 +50,7 @@ The printed-page boundaries were checked against the book's chapter starts/next-
 Complete the following in order. Do not skip directly to database synchronization.
 
 1. **Freeze the current preview and backup references.** Preserve the existing 27-row test DB backup at `docs/backups/kurmanji-dengnasi-test-lesson-content-before-resync-20261127T130608Z.json`; never overwrite it.
-2. **Repair confirmed payload defects first.** Start with the duplicated Lesson 21 notes. Then complete the missing/condensed tables, notes and lists in Lessons 22–27.
+2. **Repair confirmed payload defects first.** The duplicated Lesson 21 notes block has been removed and the note-number inventory revalidated. Continue with source-by-source verification of notes 229–268, then complete the missing/condensed tables, notes and lists in Lessons 22–27.
 3. **Use a source ledger per lesson.** For each printed page, list every heading, paragraph/topic, example, table row, footnote and bibliography item. Mark each as reproduced, intentionally not applicable, or unresolved. An unresolved item blocks fidelity sign-off.
 4. **Separate transcription from editorial commentary.** The lesson body should contain the book's information. Any source typo, arithmetic inconsistency or contradiction must be marked as a source note, not silently rewritten or “improved”.
 5. **No unsupported additions.** Remove or segregate scientific elaborations not present in the source, including the W terminology issue in Lesson 16, unless the book itself supports them.
@@ -95,4 +95,4 @@ The course may be called source-faithful only when all of the following are true
 - Independent review finds no unresolved omission or unexplained discrepancy.
 - The approved payload has a reviewable, backed-up parity plan for the test DB.
 
-**Current status: first-pass source audit complete; exact fidelity not yet certified; database parity unresolved; course not activated.**
+**Current status: first-pass source audit complete; Lesson 21 duplicate block corrected (note-content parity still pending); Lesson 22 has confirmed item-level omissions/compression and is not source-complete; exact fidelity not yet certified; database parity unresolved; course not activated.**
