@@ -79,7 +79,7 @@
     if(!links.length)return;
     const link=links[links.length-1];
     const href=new URL(link.href,location.href);
-    href.searchParams.set("v","20261014-academic-ui-cascade-fix");
+    href.searchParams.set("v","20261127-kurmanji-nav-panels");
     link.href=href.href;
     document.head.appendChild(link);
   }
