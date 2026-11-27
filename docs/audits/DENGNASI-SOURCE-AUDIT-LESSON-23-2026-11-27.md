@@ -145,3 +145,17 @@ The payload broadly and coherently represents the full source section on Kurmanj
 - Continue checking examples, footnotes, special characters and rendered layout.
 - This audit does not resolve the previously recorded test database drift (0/27 exact HTML matches and nine title mismatches); no database resynchronization was performed.
 - No Supabase write, migration, production change, deployment, PR merge, student-data access/change, or course activation was performed.
+
+
+## 2026-11-27 — Bibliographic footnotes 274–275 restored
+
+A final footnote-number audit found that the substance of notes 276–283 was represented in the lesson's supplemental notes, but the two opening bibliographic references, 274–275, were not explicitly included. They are now restored in the payload:
+
+- **274:** the author's earlier article on lexical, morphological and phonological differences between Kurmanji and Sorani, published in *Nûbihar*, issue 132, summer 2015.
+- **275:** the author's related articles on Kurdish sounds and their emergence/change, published on the Zimannas blog.
+
+These are bibliographic/context references, not additional phonological examples. The lesson's source notes 276–283 were checked for their substantive information: *hevde* as a rare V exception; *dem/kat* usage; the pird “bridge” gloss; the H-history reference; *gehandin/gehiştin*; Kurmanji t- progressive forms; Sorani de-/e- dialect distribution; inflected *kê*; and Italian *cento/cinque* examples. Their content was already represented in the supplemental notes. The source note numbers themselves are not printed as superscript markers in the HTML, so the two missing bibliography entries are now explicitly numbered to preserve traceability.
+
+Payload update commit: `1431ee207a38288c81b060d10969c4ff63c96b32`; backup commit: `f99051a0a3d9d09c355f025387aa15b94c75ec81`.
+
+This completes the source note coverage check for printed pages 373–386 at the content level; it does not certify every glyph or exact typographic rendering. No Supabase write, deployment, activation, merge, or student-data access/change was performed.
