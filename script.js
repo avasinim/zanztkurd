@@ -79,7 +79,7 @@
     if(!links.length)return;
     const link=links[links.length-1];
     const href=new URL(link.href,location.href);
-    href.searchParams.set("v","20261014-academic-ui-cascade-fix");
+    href.searchParams.set("v","20261127-kurmanji-nav-panels");
     link.href=href.href;
     document.head.appendChild(link);
   }
@@ -2194,4 +2194,25 @@ async function markLessonComplete(courseId, lessonKey){
   const eyebrow=hero.querySelector(".eyebrow");
   if(eyebrow)eyebrow.textContent=eyebrow.textContent.replace(/\s*[·|]\s*DERSA\s+\d+\s*\/\s*27/i,"").trim();
   hero.querySelector("p")?.remove();
+})();
+
+/* Kurmanji course navigation: Latin-script labels and card-style panels. */
+(function(){
+  "use strict";
+  if((document.documentElement.lang||"").toLowerCase()!=="ku")return;
+  function localizeKurmanjiNavigation(){
+    document.querySelectorAll(".v2-nav-links").forEach(nav=>{
+      nav.querySelectorAll("a[href]").forEach(link=>{
+        let file="";
+        try{file=new URL(link.getAttribute("href"),location.href).pathname.split("/").pop().toLowerCase();}catch(_){}
+        if(file==="learning.html")link.textContent="Fêrbûn";
+        else if(file==="linguistics.html")link.textContent="Zimanînasî";
+        else if(file==="catalog.html")link.textContent="Ders";
+      });
+      nav.classList.add("kurmanji-nav-panels");
+      nav.setAttribute("aria-label","Rêberiya malperê");
+    });
+  }
+  if(document.readyState==="loading")document.addEventListener("DOMContentLoaded",localizeKurmanjiNavigation,{once:true});
+  else localizeKurmanjiNavigation();
 })();
