@@ -343,6 +343,47 @@ for required in (
 ):
     assert required in lesson3, f"Lesson 3 is missing source-backed detail: {required}"
 
+# Lesson 24 source-audit assertions (printed pp. 387–393)
+lesson24_match = re.search(r"(?ms)^# Dersa 24 —.*?(?=^# Dersa 25 —)", source)
+assert lesson24_match, "Lesson 24 authoring section is missing"
+lesson24 = lesson24_match.group(0)
+lesson24_payload = payload["lessons"][23]["content_html"]
+lesson24_payload_text = html.unescape(lesson24_payload)
+for required in (
+    "rûpelên çapkirî 387–393",
+    "feylî, kelhurî û kirmaşanî",
+    "ne hewramî, ne lekî û ne jî lurî",
+    "| baran | baran | waran |",
+    "| kitêb | kitêb | kitaw |",
+    "*sêp*", "*sêb*", "*sêv*", "*sêw*",
+    "*kitêw* û *kitêv*",
+    "zeẅ/zeü",
+    "| zû | zû | zü / zî |",
+    "| dûr | dûr | dür / dîr |",
+    "bük / bwîk", "bîk, dîr, zî, mî",
+    "| roj | roj | rûj |",
+    "| birdin | birdin | birin |",
+    "| keçel | keçeł | keçeł |",
+    "Kirmaşan û Mendelî",
+    "S-ya qelew",
+    "| standin, stendin | sendin | sendin |",
+    "| şêst | şêst, şest | şeṣ |",
+    "| kanî, kehnî | kanî | kyenî |",
+    "nazanim", "nakim, naxwim, nabêjim",
+    "| deng | deng | deň |",
+    "| xwe | xwe | xo |",
+    "XWE-", "XO-",
+):
+    assert required in lesson24, f"Lesson 24 is missing source detail: {required}"
+    assert required in lesson24_payload_text, f"Lesson 24 HTML payload is missing source detail: {required}"
+assert "Ç, K, P û T li destpêka peyvan herdem bipif" in lesson24
+assert "Ç, K, P û T li destpêka peyvan herdem bipif" in lesson24_payload_text
+assert not re.search(r"[\\u0600-\\u06FF]", lesson24), "Lesson 24 must remain Latin-script only"
+assert not re.search(r"[\\u0600-\\u06FF]", lesson24_payload_text), "Lesson 24 payload must remain Latin-script only"
+assert "https://en.wikipedia.org/wiki/File/" not in lesson24, "Lesson 24 must not add audio dependencies"
+assert "https://en.wikipedia.org/wiki/File/" not in lesson24_payload_text, "Lesson 24 payload must not add audio dependencies"
+
+
 lesson23_match = re.search(r"(?ms)^# Dersa 23 —.*?(?=^# Dersa 24 —)", source)
 assert lesson23_match, "Lesson 23 authoring section is missing"
 lesson23 = lesson23_match.group(0)
