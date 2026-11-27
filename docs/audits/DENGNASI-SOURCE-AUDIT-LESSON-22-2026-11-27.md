@@ -98,3 +98,16 @@ The lesson payload covers the article's eight main sections and the page boundar
 Pêraweza 269 li rûpela çapkirî 354 tê: nivîskar dibêje cihê giraniyê di peyvên kurdî de dê mijara nivîsareke din a serbixwe be. Ev têbînî niha li dû nimûneyên *mirovî* û *Azadî* di payloadê de hatiye vegerandin. Ev pêveka kurt e; ne pêşniyar dike ku naveroka tevahiya beşa giranî bi temamî hatiye vegerandin.
 
 Piştrastkirin: rûpela PDF 379 / rûpela çapkirî 354.
+
+
+## Pêveka pêşveçûna 27-11-2026 — پشکنینی rûpelên çapkirî 365–371
+
+PDF pp.390–396 (rûpelên çapkirî 365–371) bi payloada dersê re بەراورد کران. Beşa temamker li ber Çavkanî zêde bû. Hûrguliyên vegerandراو:
+- **Ç/K/P/T:** şîroveya nivîskar li ser varyantên nerm/req û tesîra ermenî/tirkî؛ rola standardkirina nivîsînê؛ çar hevokên kontekstê؛ peyvên `da` û `kar` yên gelemperî؛ nimûneyên giranî `Azadî xweş e / Wî Azadî got`؛ û sê varyantên P û çar varyantên T.
+- **R:** nimûneyên R ya nerm û şidandî، peyvên xwerû/peykhatî، `nîvro, garan, hêkrûn`، û هەڵسەنگاندنی nivîskar li ser du R.
+- **L:** formên `welat, sal, wê salê, sala 2013, milet, mela`؛ pêşniyara `ł`/du L û sedema tercîha yek L.
+- **H û dengên din:** `heft, heftê, hefte, heftî, heftsed`؛ `hezar, he(y)şt, hemû, hirç, hişyar`؛ Z di `zayîn/zanîn` û B di `berdan` de.
+- **Diyarkirina bilêvkirinê:** nimûneyên `night → [nayt]`، `krdn → kerden`، `ker/kerr`، û ئاماژەی nivîskar bo ferhenga Michael Chyet û جیاکردنەوەی ئەرکی ferheng ji nivîsa rojane.
+
+پشکنینی ساختاری: JSON derbasdar؛ 27 ders؛ lesson 22 = 32877 karakter؛ HTML tags: هیچ هەڵەیەک نیە.
+ئەم زیادکراوە وردەکارییەکانی سەرچاوە دەگەڕێنێتەوە، بەڵام هێشتا گواهی یەک‌بەیەکی هەموو وشە و هێما فۆنێتیکییەکان نیە؛ بۆیە وەک پەسەندکردنی کۆتایی وانە مەحسوب ناکرێت.
