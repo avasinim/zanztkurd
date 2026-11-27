@@ -104,3 +104,14 @@ Di payloadê de hûrguliyên jêrîn li gorî PDF-ê (rûpelên PDF 341–344; r
 - Sînordariya dîftongên U+vokal di devokên Behdînî, cihê U+Ê di soranî de, û ketina U ya UÎ li Dihokê: `dûr/duîr/dîr`, `nû/nuî/nî`, `bixwîne/bixuîne/bixîne`.
 
 Pişکنینی ساختاری: JSON derbasdar e؛ 27 ders hîn hene؛ HTML-ya dersê 21 piştî zêdekirinê 36,374 karakter e؛ tagên HTML hemû bi rêkûpêk girtî ne. Ev pêveka rûpelên 317–320 e tenê. Pêveka berawirdkirina hûrgulî ya rûpelên 321–347 (bi taybetî tabloyên Y+vokal, nimûneyên U/I, û hemû notên 252–268) hîn pêwîst e؛ ji ber vê yekê ders 21 hîn sertîfîkaya temam a yek-bi-yek a hemû çavkaniyê wergirtî nîne.
+
+
+## Pêveka pêşveçûna 27-11-2026 — çavkaniya rûpelên çapkirî 321–332
+
+Pişکنینی rasterast a PDF (rûpelên PDF 345–356) kirin û hûrguliyên jêrîn li payloadê hatin zêdekirin:
+
+- **321–325:** tabloya W+vokal li destpêka kîteyê; cudahiya komdengên ku di rêzimanên kurdî de wek dîftong nayên hejmartin; sînordariya `wo/wu-/wû-/ui`; şîroveya `-iwa-`; nimûneyên vokal+W û têbîniyên `dêw` û `kowboy`; tabloya heşt komdengên vokal+Y/Î.
+- **326–328:** tabloya Y+vokal bi hemû kategoriyên `ya, ye, yê, yi, yî, yo, yu, yû`; rewşa bêdengbûna Y; bikaranîna Y di kopula û paşpirtika `-ek` de; cudahiya dîftonga `-iya-` û kîteyîkirina nivîskî; nimûneyên `çiya, giya, giyan, jiyan, niyan, şiyan` û peyvên wergirtî.
+- **329–332:** nimûneyên zêدەی U/I; sînordariya guherîna U piştî G/K/Q/X/Ẍ; nimûneyên devokî `ku-/ki-` û `gu-/gi-`; raveya kurtkirinê; raveya dîrokî ya `-WI-`; têbîniyên 244–250.
+
+Pişکنینی ساختاری: JSON derbasdar e؛ 27 ders hene؛ HTML-ya dersê 21 niha 44,613 karakter e؛ tagên HTML bê هەڵە داخراون. Hîn pêwîست e rûpelên çapkirî 333–347 bi hemû nimûne û notên 251–268 re yek-bi-yek were pشکنین؛ ji ber vê yekê ders 21 hîn bi tevahî sertîfîka nebûye.
