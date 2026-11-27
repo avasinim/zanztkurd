@@ -67,3 +67,10 @@ PDF pp.421–429 (rûpelên çapkirî 394–401) دووبارە خوێندرای
 
 پشکنینی ساختاری: JSON دروست؛ 27 وانە؛ HTML وانەی 25 = 21515 کاراکتەر؛ تاگەکان بەبێ هەڵە داخراون.
 ئەم پێوەکە وردەکارییە دیاریکراوەکانی لاپەڕەکان دەگەڕێنێتەوە، بەڵام هێشتا هەموو وشە و هێمای IPA بە وشەبەوشە لەگەڵ چاپی PDF نەسەلمێنراون.
+
+
+## Final source-alignment and script-normalization pass — 2026-11-27
+
+Rechecked printed pp.394–401 against the lesson payload. The comparison retains the source's distinction between the shared phonetic inventory and differing use in cognate words; all 12 principal comparison groups and notes 287–289 are present. Supplemental examples include the ST cluster variants and deletion, final T loss, loanword ST, sorani H/Ø and EH/A examples, progressive-prefix and verbal suffix distinctions, light/dark L and Sorani Ł→R variants, XWE forms, and the G/K articulatory examples. The source's repeated sentence under the K/H heading is explicitly flagged as an apparent editorial slip; the payload does not silently present it as a valid K/H explanation. The historical sound-change proposals remain attributed to the author.
+
+A mixed-script scan found stray Arabic-script punctuation and a Kurmanji phrase typed in Sorani script in the supplemental paragraph; these were normalized. A subsequent scan found one remaining mixed-script word in the phrase describing the Proto-Indo-European root; it was corrected to `dûrtir`. Latest structural check: Lesson 25 has zero Arabic-script code points, zero tag mismatches and zero unclosed tags. HTML length after corrections: 21,516 characters. This remains a broad source-alignment audit, not a diplomatic character-by-character transcription; visual IPA/glyph and browser-layout checks remain open.
