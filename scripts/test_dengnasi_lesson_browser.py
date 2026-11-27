@@ -158,9 +158,12 @@ class DengnasiLessonBrowserTests(unittest.TestCase):
                         expectedRoot.innerHTML = expectedHtml;
                         const headings = root => Array.from(root.querySelectorAll("h2"))
                             .map(node => node.textContent.trim());
+                        const expectedPreview = expectedRoot.querySelector(".klesson-preview");
                         return {
                             expected: headings(expectedRoot),
                             rendered: headings(element),
+                            expectedHtml: expectedPreview ? expectedPreview.innerHTML : null,
+                            renderedHtml: element.innerHTML,
                         };
                     }""",
                     lesson["content_html"],
@@ -169,6 +172,15 @@ class DengnasiLessonBrowserTests(unittest.TestCase):
                     heading_parity["rendered"],
                     heading_parity["expected"],
                     f"Lesson {number}: rendered section headings differ from payload",
+                )
+                self.assertIsNotNone(
+                    heading_parity["expectedHtml"],
+                    f"Lesson {number}: authored payload preview wrapper missing",
+                )
+                self.assertEqual(
+                    heading_parity["renderedHtml"],
+                    heading_parity["expectedHtml"],
+                    f"Lesson {number}: rendered lesson HTML differs from the exact authored payload",
                 )
                 printed_pages = lesson["printed_pages"]
                 source_citation = (
