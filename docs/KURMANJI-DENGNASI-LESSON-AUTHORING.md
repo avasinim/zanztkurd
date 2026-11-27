@@ -29,8 +29,8 @@
 | 11 | Dengên K û L | 133–146 |
 | 12 | Dengên M û N | 147–154 |
 | 13 | Dengên P û Q | 155–167 |
-| 14 | Dengên R û S | 168–185 |
-| 15 | Dengên Ş û T | 186–202 |
+| 14 | Dengên R û S | 168–186 |
+| 15 | Dengên Ş û T | 187–202 |
 | 16 | Dengên V, W, X, Y û Z | 203–232 |
 | 17 | Eyn, K/G/Q û cotkonsonant | 233–250 |
 | 18 | Vokalên A û E | 251–269 |
@@ -2119,7 +2119,7 @@ Di rûpela çapkirî 175 de çavkaniyê S bi «pidûyî-xişok-vizok» pênase d
 
 ## 14. Sînorê rûpelan
 
-Waneya 14 ji rûpela çapkirî 168 heta 185 ye. Rûpela çapkirî 186 li rûpela fîzîkî 203/462 wekî dabeşker tê nîşandan; naveroka Waneya 15 ji rûpela çapkirî 187, li rûpela fîzîkî 205/462 dest pê dike. Dabeşkerê Waneya 15 li rûpela fîzîkî 204/462 dest pê dike û rûpelên 186–202 nîşan dide. Ji ber vê yekê rûpela 186 di navberê de dabeşker e, ne beşeke naveroka Waneya 14 an 15. PDF bixwe nehatiye guherandin.
+Waneya 14 di çavkaniya bingehîn de rûpelên çapkirî 168–186 digire; rûpela 186 berdewamkirina tabloya konsonantan û pênotekê ye. Waneya 15 ji rûpela çapkirî 187 dest pê dike û heta 202 berdewam dike. Di PDF-ya dîzayinkirî de dabeşkerê Waneya 15 li rûpela fîzîkî 204/462 e, û naveroka wê li rûpela 205/462 dest pê dike. Ji ber vê yekê rûpela çapkirî 186 beşeke Waneya 14 e, ne dabeşkerê Waneya 15. PDF-ya dîzayinkirî hîn pêdivî bi nûkirina wêneyên dabeşkeran heye.
 
 # Dersa 15 — Dengên Ş û T
 
