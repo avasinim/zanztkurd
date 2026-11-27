@@ -26,7 +26,7 @@
     {
       "number": 1,
       "id": "kurmanji-dengnasi-01",
-      "title": "Dergeh: dengnasî û lêkolînên pêşîn",
+      "title": "Dergeh: ev vekolîn û yên berî wê",
       "printedPages": {
         "start": 4,
         "end": 7
@@ -43,7 +43,7 @@
     {
       "number": 2,
       "id": "kurmanji-dengnasi-02",
-      "title": "Vokal, konsonant, cih û awayên derketina dengan, pifdarî",
+      "title": "Vokal, konsonant; cih û awayên dengan; pifdarî",
       "printedPages": {
         "start": 8,
         "end": 15
@@ -60,7 +60,7 @@
     {
       "number": 3,
       "id": "kurmanji-dengnasi-03",
-      "title": "Hevdengî û pirdengî di nivîsînê de",
+      "title": "Hevdengî û pirdengî di nivîsîna kurdî de",
       "printedPages": {
         "start": 16,
         "end": 28
@@ -77,7 +77,7 @@
     {
       "number": 4,
       "id": "kurmanji-dengnasi-04",
-      "title": "Qelewîtî",
+      "title": "Qelewîtî: dengên qelew û zirav",
       "printedPages": {
         "start": 29,
         "end": 39
@@ -111,7 +111,7 @@
     {
       "number": 6,
       "id": "kurmanji-dengnasi-06",
-      "title": "Dengrêzî û kîte",
+      "title": "Dengrêziya kurmancî û avaniya kîteyan",
       "printedPages": {
         "start": 44,
         "end": 55
@@ -299,7 +299,7 @@
     {
       "number": 17,
       "id": "kurmanji-dengnasi-17",
-      "title": "Eyn, K/G/Q û cotkonsonant",
+      "title": "Eyn û komên konsonantî di kurdî de",
       "printedPages": {
         "start": 233,
         "end": 250
@@ -367,7 +367,7 @@
     {
       "number": 21,
       "id": "kurmanji-dengnasi-21",
-      "title": "Dîftong û giranî",
+      "title": "Dîftong û giranî di dengnasiya kurdî de",
       "printedPages": {
         "start": 315,
         "end": 347
@@ -384,7 +384,7 @@
     {
       "number": 22,
       "id": "kurmanji-dengnasi-22",
-      "title": "KL, KE û herdu alfabeyên kurdî",
+      "title": "Nasandina KL û KE û cudahiyên herdu alfabeyan",
       "printedPages": {
         "start": 348,
         "end": 372
@@ -401,7 +401,7 @@
     {
       "number": 23,
       "id": "kurmanji-dengnasi-23",
-      "title": "Cudahiyên dengnasî: kurmancî û soranî",
+      "title": "Cudahiyên dengnasî di navbera kurmancî û soranî de",
       "printedPages": {
         "start": 373,
         "end": 386
@@ -418,7 +418,7 @@
     {
       "number": 24,
       "id": "kurmanji-dengnasi-24",
-      "title": "Cudahiyên dengnasî: kurmancî û kurdiya başûrî",
+      "title": "Cudahiyên dengnasî di navbera kurmancî û kurdiya başûrî de",
       "printedPages": {
         "start": 387,
         "end": 393
@@ -435,7 +435,7 @@
     {
       "number": 25,
       "id": "kurmanji-dengnasi-25",
-      "title": "Cudahiyên dengnasî: kurmancî û zazakî",
+      "title": "Cudahiyên dengnasî di navbera kurmancî û zazakî de",
       "printedPages": {
         "start": 394,
         "end": 401
@@ -452,7 +452,7 @@
     {
       "number": 26,
       "id": "kurmanji-dengnasi-26",
-      "title": "Cudahiyên dengnasî: kurdî û tirkî",
+      "title": "Cudahiyên dengnasî di navbera kurmancî û tirkî de",
       "printedPages": {
         "start": 402,
         "end": 417
