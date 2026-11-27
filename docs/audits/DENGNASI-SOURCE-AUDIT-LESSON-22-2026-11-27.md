@@ -111,3 +111,19 @@ PDF pp.390–396 (rûpelên çapkirî 365–371) bi payloada dersê re بەرا�
 
 پشکنینی ساختاری: JSON derbasdar؛ 27 ders؛ lesson 22 = 32877 karakter؛ HTML tags: هیچ هەڵەیەک نیە.
 ئەم زیادکراوە وردەکارییەکانی سەرچاوە دەگەڕێنێتەوە، بەڵام هێشتا گواهی یەک‌بەیەکی هەموو وشە و هێما فۆنێتیکییەکان نیە؛ بۆیە وەک پەسەندکردنی کۆتایی وانە مەحسوب ناکرێت.
+
+
+## 2026-11-27 — Printed pages 348–364: source-term reconciliation
+
+A targeted source-to-payload reconciliation was completed for the alphabet introduction, homophone/homograph terminology, synonym discussion, doublets, Persian/Kurdish sound correspondences, and the *zava/damad* comparison. Three small fidelity corrections were made to the lesson payload:
+
+1. The source spelling of the historical alphabet is **krîlî** (printed p.348); the payload's `kirîlî` was corrected to `krîlî`.
+2. The source explicitly gives the English technical equivalent **stress** for giranî/kirp (printed p.354); this was restored in parentheses.
+3. The source identifies the non-exact synonym relation as **near-synonym / quasi-synonym** (printed p.356); both terms were restored alongside *nîv-hevwate*.
+4. The supplementary historical comparison on printed p.364 includes Persian *defen* alongside the forms *zanîn/dest/dev* and the D/Z correspondence; `defen` was added to the existing list without changing the source's explanation.
+
+The main comparative table was checked across A, B/V/W, D/Z, E/I, Ë/I, G/B/V, H/S/V, M/V, O/U/I, Ş/H, Û/O, V/W, X/H/K and Z/J. The payload retains the dialect caveats and source's attribution of historical hypotheses to the author. The synonym inventory includes the source's verb, adjective, postposition and adverb classes; the source's distinctions between exact and near synonyms and dialectal availability are retained. The source's English heterograph examples (I/eye, peace/piece, here/hear, its/it's), the homophone/homograph examples, and the doublet list were also checked.
+
+Backup: `docs/backups/dengnasi-lesson22-before-source-terminology-fixes-20261127T1840Z.json` (commit `8f6d0e67d94d0ec7518f679ded586f86632d22e5`). Payload correction commit: `93e9ffc13a49c36e2878cf175308766e613191bb`.
+
+This pass is not a character-by-character transcription certification; IPA and diacritic rendering and full browser layout remain open. No Supabase write, deployment, activation, merge, or student-data access/change was performed.
