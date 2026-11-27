@@ -1,0 +1,35 @@
+name: Validate Dengnasi authoring draft
+
+on:
+  pull_request:
+    paths:
+      - "docs/KURMANJI-DENGNASI-LESSON-AUTHORING.md"
+      - "docs/DENGNASI-SOURCE-ALIGNMENT-AUDIT-2026-11-26.md"
+      - "scripts/validate_dengnasi_authoring.py"
+      - "scripts/test_dengnasi_reader.py"
+      - "lessons/kurmanji-dengnasi-lesson-*.html"
+      - "script.js"
+      - ".github/workflows/validate-dengnasi-authoring.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  validate-authoring:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+      - name: Validate 27-lesson authoring draft
+        run: python scripts/validate_dengnasi_authoring.py
+      - name: Install Playwright browser tests
+        run: |
+          python -m pip install --upgrade pip playwright
+          python -m playwright install --with-deps chromium
+      - name: Verify Dengnasi reader test-project isolation in Chromium
+        run: python scripts/test_dengnasi_reader.py

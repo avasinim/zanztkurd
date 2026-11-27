@@ -99,11 +99,33 @@ window.ZANSTI_GET_SUPABASE_CLIENT = window.ZANSTI_GET_SUPABASE_CLIENT || functio
   return window.ZANSTI_SUPABASE_CLIENT;
 };
 
+/* Dengnasi draft rows exist only in the isolated test project. This shared
+   predicate is evaluated after Supabase config has loaded and before any
+   auth, progress, enrollment, or lesson-content request is made. */
+window.ZANSTI_IS_DENGNASI_TEST_PROJECT = function(){
+  const path=(location.pathname.split("/").pop()||"").toLowerCase();
+  if(!/^kurmanji-dengnasi-lesson-\d{2}\.html$/.test(path)) return true;
+  try{
+    return new URL(window.ZANSTI_SUPABASE?.url||"").hostname.split(".")[0] === "juwsjljbdwyncicybwoq";
+  }catch(_){ return false; }
+};
+
 /* ===== Avasin access gate — lessons + catalog =====
    Lesson content and the lesson catalog require authentication + enrollment. */
 (function(){
   const path=(location.pathname.split("/").pop()||"").toLowerCase();
   const isLesson=/^0(?:1[7-9]|[2-4]\d|5[0-8])\.html$/.test(path)||/^course-2-\d+\.html$/.test(path)||/^kurmanji-course-[12]-lesson-\d{2}\.html$/.test(path)||/^kurmanji-dengnasi-lesson-\d{2}\.html$/.test(path);
+  if(/^kurmanji-dengnasi-lesson-\d{2}\.html$/.test(path)){
+    const sourceNote=document.querySelector(".klesson-hero p");
+    if(sourceNote) sourceNote.textContent="Ev ders li gorî beş û mijarên pirtûka Husein Muhammed hatiye rêxistin. Naveroka dersê ji nû ve hatiye avakirin; PDF tenê ji bo referanskirina mijar û rûpelên çavkaniyê ye, ne wekî naveroka dersê.";
+    const lessonBox=document.querySelector(".lesson-content");
+    if(lessonBox && lessonBox.textContent.includes("بارکردنی نێوەڕۆکی وانەکە")){
+      lessonBox.innerHTML="<p>Naveroka dersê tê barkirin...</p>";
+    }
+    const lessonHeading=document.querySelector(".klesson-hero h1");
+    if(lessonHeading && path==="kurmanji-dengnasi-lesson-01.html") lessonHeading.textContent="Dergeh û ev vekolîn û yên berî wê";
+    if(lessonHeading && path==="kurmanji-dengnasi-lesson-17.html"){ lessonHeading.textContent="Eyn û hemû cotkonsonantên di kurdî de"; document.title="Ders 17 — Eyn û hemû cotkonsonantên di kurdî de | Dengnasîya Zimanê Kurdî"; }
+  }
   const isCatalog=path==="catalog.html" && /\/lessons\/catalog\.html$/i.test(location.pathname);
   const isProtectedCatalogTarget=(href)=>{ return /(?:^|\/)lessons\/catalog\.html(?:$|[?#])/i.test(String(href||"")); };
   if(isLesson){
@@ -166,10 +188,14 @@ window.ZANSTI_GET_SUPABASE_CLIENT = window.ZANSTI_GET_SUPABASE_CLIENT || functio
     }
     return supabaseReadyPromise;
   }
-  /* Share the same Supabase readiness check with lesson-progress gates. */
-  window.ZANSTI_WAIT_FOR_SUPABASE = ensureSupabase;
+  /* Share Supabase readiness while refusing every Dengnasi data/auth call
+     unless this page is explicitly configured for the isolated test project. */
+  window.ZANSTI_WAIT_FOR_SUPABASE = async function(){
+    if(!await ensureSupabase()) return false;
+    return window.ZANSTI_IS_DENGNASI_TEST_PROJECT?.() !== false;
+  };
   async function getSession(){
-    if(!await ensureSupabase()) return null;
+    if(!await window.ZANSTI_WAIT_FOR_SUPABASE()) return null;
     const sb=window.ZANSTI_GET_SUPABASE_CLIENT();
     const {data:{session}}=await sb.auth.getSession();
     return {sb,session};
@@ -203,8 +229,14 @@ window.ZANSTI_GET_SUPABASE_CLIENT = window.ZANSTI_GET_SUPABASE_CLIENT || functio
     if(!box)return true;
     const lessonKey=box.getAttribute("data-lesson-key")||target;
     if(/^kurmanji-dengnasi-lesson-\d{2}\.html$/.test(lessonKey)){
-      box.innerHTML="<section class=\"klesson-note\"><h2>ئەم کۆرسە لە ئامادەکردندایە</h2><p>وانەکان دەبێت لەسەر بنەمای کتێبی سەرچاوەوە دابڕێژرێن؛ تەنها PDF یان دابەشکردنی پەڕەکانی کتێب وانە نییە. تا تەواوبوونی وانەدابڕێژراوەکان، دەستگەیشتن بە ناوەڕۆکی کۆرسەکە ڕاگیراوە.</p></section>";
-      return false;
+      /* Fail closed outside the dedicated test project. The test lesson rows
+         must never be queried through the production browser configuration. */
+      let configuredProject="";
+      try{ configuredProject=new URL(window.ZANSTI_SUPABASE?.url||"").hostname.split(".")[0]; }catch(_){}
+      if(configuredProject!=="juwsjljbdwyncicybwoq"){
+        box.innerHTML="<section class=\"klesson-note\"><h2>وانەکان لە ژینگەی تاقیکردنەوەدان</h2><p>٢٧ وانە دابڕێژراون و تەنها لە بنکەدراوەی تاقیکردنەوە هەڵگیراون. ئەم پەڕەیە ئێستا بە پڕۆژەی تاقیکردنەوە پەیوەست نیە؛ بۆیە ناوەڕۆک بار ناکرێت. هیچ داواکارییەک بۆ بنکەدراوەی بەرهەمهێنان نانێردرێت.</p></section>";
+        return false;
+      }
     }
     box.setAttribute("aria-busy","true");
     try{
@@ -285,6 +317,19 @@ window.ZANSTI_GET_SUPABASE_CLIENT = window.ZANSTI_GET_SUPABASE_CLIENT || functio
   (async function pageGate(){
     try{
       if(isLesson){
+        const supabaseReady=await ensureSupabase();
+        if(!supabaseReady){
+          const box=document.querySelector(".lesson-content");
+          if(box)box.innerHTML="<p class=\"lesson-content-error\">پەیوەندیی سیستەمی دەستگەیشتن ئامادە نیە. تکایە دواتر هەوڵ بدەوە.</p>";
+          document.documentElement.style.visibility="";
+          return;
+        }
+        if(/^kurmanji-dengnasi-lesson-\d{2}\.html$/.test(path) && !window.ZANSTI_IS_DENGNASI_TEST_PROJECT()){
+          const box=document.querySelector(".lesson-content");
+          if(box)box.innerHTML="<section class=\"klesson-note\"><h2>وانەکان لە ژینگەی تاقیکردنەوەدان</h2><p>٢٧ وانە دابڕێژراون و تەنها لە بنکەدراوەی تاقیکردنەوە هەڵگیراون. ئەم پەڕەیە ئێستا بە پڕۆژەی تاقیکردنەوە پەیوەست نیە؛ هیچ داواکارییەکی چوونەژوورەوە، پێشکەوتن یان ناوەڕۆک بۆ بنکەدراوەی بەرهەمهێنان نانێردرێت.</p></section>";
+          document.documentElement.style.visibility="";
+          return;
+        }
         const got=await getSession();
         if(!got?.session){
           location.replace(authUrl(location.href));
@@ -351,9 +396,7 @@ window.ZANSTI_GET_SUPABASE_CLIENT = window.ZANSTI_GET_SUPABASE_CLIENT || functio
 
   (async function verifyOwnerCopyPermission(){
     try{
-      if(typeof window.ZANSTI_WAIT_FOR_SUPABASE==="function"){
-        await window.ZANSTI_WAIT_FOR_SUPABASE();
-      }
+      if(typeof window.ZANSTI_WAIT_FOR_SUPABASE!=="function" || !await window.ZANSTI_WAIT_FOR_SUPABASE())return;
       const client=window.ZANSTI_GET_SUPABASE_CLIENT?.();
       if(!client)return;
       const {data:{session},error:sessionError}=await client.auth.getSession();
@@ -810,7 +853,7 @@ document.querySelectorAll("[data-book]").forEach((btn,i)=>{
 if(!window.ZANSTI_OWNER_CHECK){
   window.ZANSTI_OWNER_CHECK=(async function(){
     try{
-      if(typeof window.ZANSTI_WAIT_FOR_SUPABASE==="function" && !await window.ZANSTI_WAIT_FOR_SUPABASE())return false;
+      if(typeof window.ZANSTI_WAIT_FOR_SUPABASE!=="function" || !await window.ZANSTI_WAIT_FOR_SUPABASE())return false;
       if(!window.supabase?.createClient || !window.ZANSTI_SUPABASE?.ready)return false;
       const sb=window.ZANSTI_GET_SUPABASE_CLIENT();
       const {data:{session}}=await sb.auth.getSession();
@@ -853,7 +896,7 @@ if(!window.ZANSTI_SYNC_PROGRESS){
 /* ===== Server-authoritative lesson completion ===== */
 async function markLessonComplete(courseId, lessonKey){
   try{
-    if(typeof window.ZANSTI_WAIT_FOR_SUPABASE==="function" && !await window.ZANSTI_WAIT_FOR_SUPABASE()){
+    if(typeof window.ZANSTI_WAIT_FOR_SUPABASE!=="function" || !await window.ZANSTI_WAIT_FOR_SUPABASE()){
       return {ok:false,reason:"supabase_unavailable"};
     }
     if(!window.supabase?.createClient||!window.ZANSTI_SUPABASE?.ready){

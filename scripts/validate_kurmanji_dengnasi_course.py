@@ -45,22 +45,25 @@ for lesson in lessons:
     expected_end = printed["end"] + offset
     assert designed["end"] == expected_end, f"designed end page mismatch in lesson {lesson['number']}"
     if lesson["number"] == 14:
-        assert printed == {"start": 168, "end": 186}, "Lesson 14 must end at printed source page 186"
-        assert designed == {"start": 185, "end": 203}, "Lesson 14 must end at designed PDF page 203"
+        assert printed == {"start": 168, "end": 185}, "Lesson 14 must end at printed source page 185"
+        assert designed == {"start": 185, "end": 202}, "Lesson 14 must end at designed PDF page 202"
     if lesson["number"] == 15:
-        assert printed == {"start": 187, "end": 202}, "Lesson 15 must begin at printed source page 187"
-        assert designed == {"start": 205, "end": 220}, "Lesson 15 must begin at designed PDF page 205"
-        assert lesson.get("dividerPage") == 204, "Lesson 15 divider must be documented at designed PDF page 204"
+        assert printed == {"start": 186, "end": 202}, "Lesson 15 must begin at printed source page 186"
+        assert designed == {"start": 204, "end": 220}, "Lesson 15 must begin at designed PDF page 204"
+        assert lesson.get("dividerPage") == 203, "Lesson 15 divider must be documented at designed PDF page 203"
         previous_lesson = lessons[13]
         assert previous_lesson["designedPdfPages"]["end"] + 1 == lesson["dividerPage"], "Lesson 15 divider must immediately follow Lesson 14"
         assert lesson["dividerPage"] + 1 == designed["start"], "Lesson 15 content must immediately follow its divider"
     n = lesson["number"]
     lesson_path = ROOT / "lessons" / f"kurmanji-dengnasi-lesson-{n:02}.html"
     assert lesson_path.is_file(), f"missing standalone lesson page for lesson {n}"
-    link = f'href="lessons/kurmanji-dengnasi-lesson-{n:02}.html"'
-    assert link in preview, f"missing preview link for lesson {n}"
+    assert f'data-lesson-key="kurmanji-dengnasi-lesson-{n:02}.html"' in lesson_path.read_text(encoding="utf-8"), f"lesson {n} page key mismatch"
 
+assert "دۆخی ئێستا: لە ئامادەکردندایە" in preview, "course landing page must remain on hold until lesson integration is approved"
 assert "const lessons=" in reader, "reader does not embed the lesson manifest"
+assert "lessons.forEach" in reader and 'a.href="lessons/kurmanji-dengnasi-lesson-"+String(i+1).padStart(2,"0")+".html"' in reader, "reader index must link to the protected lesson routes"
+assert 'id="openLesson"' in reader and 'openLesson").href="lessons/kurmanji-dengnasi-lesson-"+String(current).padStart(2,"0")+".html"' in reader, "reader primary action must open the selected protected lesson"
+assert 'String(current-1).padStart(2,"0")+".html"' in reader and 'String(current+1).padStart(2,"0")+".html"' in reader, "previous/next links must open protected lesson routes"
 assert "lesson.designedPdfPages.start" in reader, "reader does not link to the current lesson PDF page"
 assert "raw.githubusercontent.com/avasinim/zanztkurd/main/Dengnasiya_Zimane_Kurdi_27_Wane_corrected.pdf" in reader, "reader corrected PDF source URL missing"
 assert 'href="https://raw.githubusercontent.com/avasinim/zanztkurd/main/Dengnasiya_Zimane_Kurdi_27_Wane_corrected.pdf#page=8"' in reader, "reader no-script PDF fallback must use the verified raw PDF URL"
