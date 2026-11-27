@@ -54,3 +54,16 @@ The payload's supplemental material includes ST cluster variants, Ç/K/P/T aspir
 
 ## Assessment update
 The payload's coverage is broad and the principal lesson topics/examples are represented. This remains an initial source-alignment audit, not a line-by-line diplomatic transcription. A final visual check of diacritics, footnote anchors, and table rendering is still required before exact preservation can be claimed.
+
+
+## Pêveka pêşveçûna 27-11-2026 — هەڵسەنگاندنی وردەکاریی لاپەڕەکانی 394–401
+
+PDF pp.421–429 (rûpelên çapkirî 394–401) دووبارە خوێندرایەوە. Payloada وانەی 25 پێش ئەم پێوەکەدا بەشە سەرەکییەکان هەبوون، بەڵام بەراوردی ورد نیشانی دا کە هەندێک بەراوردی زمانەوانی، rêça dîrokî û footnote ـەکان پێویستیان بە گەڕاندنەوە هەیە. پێوەکی نوێ ئەمانەی زیاد کرد:
+- V/W/M: `nav/name` و هاوتاکانی English/German/French، `şev/şew` و rêça P→B→V/W؛ footnote 287 بۆ `awe/awi/awk`.
+- RD/R: footnote 288 و جیاکردنەوەی wateya “bridge” لە “gelek/tijî”.
+- E/I، J/C و G/V: زنجیرەی formên Iranian û Indo-European، footnote 289 لەسەر هەڵبژاردنی `roj` لەلایەن Vate.
+- H/Ø و H/S: نموونە دێرینەکان، formên `amnan/hamnan`، rêça `de(h)/des` و îstîsnaya `sê/hirê`.
+- ST، A/Î/Ê، H/Ş، K/H و S/Ş: نموونە و بەراوردی زیادە؛ هەڵەی ناوخۆییی سەرچاوە لە بەشی K/H بە ئاشکرا جیاکراوەتەوە.
+
+پشکنینی ساختاری: JSON دروست؛ 27 وانە؛ HTML وانەی 25 = 21515 کاراکتەر؛ تاگەکان بەبێ هەڵە داخراون.
+ئەم پێوەکە وردەکارییە دیاریکراوەکانی لاپەڕەکان دەگەڕێنێتەوە، بەڵام هێشتا هەموو وشە و هێمای IPA بە وشەبەوشە لەگەڵ چاپی PDF نەسەلمێنراون.
