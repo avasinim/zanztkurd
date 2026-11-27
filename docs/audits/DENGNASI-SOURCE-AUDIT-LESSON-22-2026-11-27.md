@@ -127,3 +127,17 @@ The main comparative table was checked across A, B/V/W, D/Z, E/I, Ë/I, G/B/V, H
 Backup: `docs/backups/dengnasi-lesson22-before-source-terminology-fixes-20261127T1840Z.json` (commit `8f6d0e67d94d0ec7518f679ded586f86632d22e5`). Payload correction commit: `93e9ffc13a49c36e2878cf175308766e613191bb`.
 
 This pass is not a character-by-character transcription certification; IPA and diacritic rendering and full browser layout remain open. No Supabase write, deployment, activation, merge, or student-data access/change was performed.
+
+
+## 2026-11-27 — Final source pages 365–372 reconciled
+
+The final source pages were read directly, including printed page 372 (the previous pass had stopped at p.371). The payload already represented the detailed argument on Ç/K/P/T, R, L, H, Z/B variants, orthographic context, lexicography, and the author's conclusion. Two final source-context details were added:
+
+- The author's explicit scope distinction: this section evaluates proposals to add letters, not proposals to replace existing letters. The source's examples include i→ı, î→i, ç→c/č/ch, c→j, ş→sh/š and î/û→í/ú.
+- The end-of-section historical framing: the author says the current Kurdish Latin alphabet has been used for more than 80 years, has faced many proposed changes, and new proposals can oppose both the existing alphabet and other proposed alternatives.
+
+Printed p.372 adds the author's explicit general principle: no alphabet can be complete; the aim is not to represent every sound, but to represent sounds that are common/widespread and genuinely independent. It then summarizes the cross-dialect distribution of Ç/K/P/T, L, R and H and concludes that adding letters does not noticeably ease reading but can make spelling substantially harder. This principle is preserved in the payload's final explanatory conclusion. The authorial position is explicitly attributed to the author, not presented as an uncontested linguistic rule.
+
+Payload update commit: `31556bc201db333c47559dc6bc51c8a67c626aa5`; backup commit: `6116733a081ab64f95de4142063f2b1ba3a8a38c`.
+
+Coverage is now checked through printed p.372. This is still not a diplomatic character-by-character transcription certification; IPA glyph rendering and full browser layout remain open QA. No Supabase write, deployment, activation, merge, or student-data access/change was performed.
