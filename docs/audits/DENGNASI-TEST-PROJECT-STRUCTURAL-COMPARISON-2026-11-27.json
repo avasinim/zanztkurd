@@ -1,7 +1,7 @@
 {
   "date": "2026-11-27",
   "scope": "test-project lesson_content only; no writes",
-  "method": "Compare current test-project snapshot to latest branch payload by lesson_key. Text lengths exclude style blocks and HTML tags; headings extracted from HTML.",
+  "method": "Compare each current test-project content_html string directly with the latest branch payload using lesson_key. Text lengths exclude style blocks and HTML tags; headings are separately counted from HTML. Heading-count differences are structural indicators only, not proof of missing or incorrect source information.",
   "summary": {
     "rows": 27,
     "exact_html_matches": 0,
