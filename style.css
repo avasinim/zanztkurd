@@ -3550,3 +3550,12 @@ footer .v2-footer-social .v2-telegram-mark{background:#238fc1!important}
 footer .v2-footer-social .v2-youtube-mark svg,footer .v2-footer-social .v2-telegram-mark svg{display:block!important;width:13px!important;height:13px!important;fill:currentColor!important}
 footer .v2-footer-social .v2-footer-social-link>span:not(.v2-youtube-mark):not(.v2-telegram-mark),
 footer .v2-footer-social .v2-social-link-copy,footer .v2-footer-social .v2-social-external{display:none!important}
+
+/* Kurmanji course navigation panels — Avasin forest-green / copper system */
+.v2-header .v2-header-inner:has(.kurmanji-nav-panels){flex-wrap:wrap;padding-top:12px;padding-bottom:14px}
+.v2-header .kurmanji-nav-panels{display:grid!important;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;width:100%;flex:1 0 100%;margin:12px 0 0;align-items:stretch}
+.v2-header .kurmanji-nav-panels a{display:flex;align-items:center;justify-content:center;min-height:58px;padding:13px 18px;border:1px solid rgba(211,171,117,.42);border-radius:13px;background:linear-gradient(145deg,#f8f6ef,#e9eee7);box-shadow:0 8px 22px rgba(29,48,40,.09);color:#263d31!important;font-size:clamp(.9rem,1.3vw,1.04rem);font-weight:850;letter-spacing:.01em;text-align:center;text-decoration:none;transition:transform .18s ease,box-shadow .18s ease,border-color .18s ease}
+.v2-header .kurmanji-nav-panels a:hover{transform:translateY(-2px);border-color:#b38a58;box-shadow:0 12px 26px rgba(29,48,40,.14);background:linear-gradient(145deg,#fff,#f1eee5)}
+.v2-header .kurmanji-nav-panels a:focus-visible{outline:3px solid #b38a58;outline-offset:3px}
+@media(max-width:700px){.v2-header .kurmanji-nav-panels{grid-template-columns:1fr;gap:8px;margin-top:10px}.v2-header .kurmanji-nav-panels a{min-height:48px;padding:10px 14px}}
+@media(prefers-reduced-motion:reduce){.v2-header .kurmanji-nav-panels a{transition:none}}
