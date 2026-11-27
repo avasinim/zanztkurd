@@ -69,3 +69,16 @@ Source anomalies that must remain visible:
 - R as a hiatus blocker is limited to Sorani and Southern Kurdish examples; it is not presented as a Kurmanji rule.
 
 Assessment: broad topic and example coverage across printed pp.418–432 is verified. Exact transcription fidelity of every table cell and glyph, and visual QA of footnote placement, remain outstanding. No claim of perfect one-to-one transcription is made.
+
+
+## پێوەکی 27-11-2026 — گەڕاندنەوەی تێبینییەکانی 303–319
+
+دوای خوێندنەوەی PDF pp.448–462 (لاپەڕە چاپکراوەکانی 418–432)، پێوەکێک بۆ payload زیاد کرا کە وردەکاریی تێبینییەکانی 303–319 دەگرێتەوە:
+- 303–306: Eyn لە `naelimînin`، دەنگی `naorin`، فۆرمی `naumêd` و فۆرمە سەرەکییەکانی `otomat/otonom`.
+- 307–315: فۆرمەکانی `saet/seet`، گۆڕانی EU→EW، IA/ÎA، `dienirin`، `diore`، `şîe` و جیاوازیی نێوان هیتاتوسی نووسراو و دەنگدراو.
+- 316–317: ڕۆڵی paşgira `-e` و فۆرمی `yatin` لە kurdiya başûrî.
+- 318–319: N-ya livbar و سەرچاوەی هەڵسەنگاندنی Matras لەسەر V لە `pîvaz`.
+- دووبارەبوونی OI/OÎ/OO/OU لە خشتەی ڕەسەن و چاپی دووبارەی `dîsa` وەک ناتەبایی سەرچاوە هێڵدرانەوە؛ ڕیز یان نموونەی نوێ بە خەیاڵ دروست نەکرا.
+
+پشکنینی HTML: 24279 کاراکتەر؛ هیچ تاگێکی هەڵە یان داخەنەکراو نیە.
+هەڵسەنگاندن: گەڕاندنەوەی تێبینییەکان coverage ـی وانە باشتر دەکات، بەڵام خشتەی ڤۆکاڵەکان و هەموو هێما/وشەکان هێشتا پێویستیان بە پشکنینی وێنەیی و وشەبەوشە هەیە. وانەکە نابێت بە وەشانی تەواو و وشەبەوشەی کتێب ناوببرێت.
