@@ -453,6 +453,74 @@ for lesson_number, audit in lesson_source_audit.items():
     )
 
 
+# Lessons 1, 11, 12, 22 and 23 source-to-payload audit assertions
+additional_source_audit = {
+    1: {
+        "pages": "4–7",
+        "details": (
+            "Ferdinand Justi", "Celadet Bedirxan", "Ismaîl Fettah",
+            "Ebdulmecîd Reşîd Ehmed", "Ruslan L. Çabolov",
+            "Margaret Kahn", "Fêrgîn Melik Aykoç",
+        ),
+    },
+    11: {
+        "pages": "133–146",
+        "details": (
+            "3,8%", "K-ya bipif", "K-ya bêpif",
+            "L-ya zirav", "L-ya qelew",
+        ),
+    },
+    12: {
+        "pages": "147–154",
+        "details": ("2,3%", "M→V/W", "N û L", "NG", "NK"),
+    },
+    22: {
+        "pages": "348–372",
+        "details": (
+            "KL", "KE", "33 nîşanên herfî", "34",
+            "R-ya şidandî", "xeletfehmkirin",
+        ),
+    },
+    23: {
+        "pages": "373–386",
+        "details": ("êsta", "çaw", "ST", "L-ya zirav", "mał", "hesp / esp"),
+    },
+}
+for lesson_number, audit in additional_source_audit.items():
+    next_heading = lesson_number + 1
+    lesson_match = re.search(
+        rf"(?ms)^# Dersa {lesson_number} —.*?(?=^# Dersa {next_heading} —|\\Z)",
+        source,
+    )
+    assert lesson_match, f"Lesson {lesson_number} authoring section is missing"
+    lesson_source = lesson_match.group(0)
+    lesson_payload = payload["lessons"][lesson_number - 1]
+    lesson_html = lesson_payload["content_html"]
+    lesson_text = " ".join(
+        re.sub(r"<[^>]+>", " ", html.unescape(lesson_html)).split()
+    )
+    assert audit["pages"] in lesson_source, (
+        f"Lesson {lesson_number} source-page citation mismatch"
+    )
+    assert lesson_payload["printed_pages"] == {
+        "start": int(audit["pages"].split("–")[0]),
+        "end": int(audit["pages"].split("–")[1]),
+    }, f"Lesson {lesson_number} payload page range mismatch"
+    for detail in audit["details"]:
+        assert detail.casefold() in lesson_source.casefold(), (
+            f"Lesson {lesson_number} is missing source detail: {detail}"
+        )
+        assert detail.casefold() in lesson_text.casefold(), (
+            f"Lesson {lesson_number} HTML payload is missing source detail: {detail}"
+        )
+    assert not re.search(r"[\\u0600-\\u06FF]", lesson_source), (
+        f"Lesson {lesson_number} authoring must remain Latin-script only"
+    )
+    assert not re.search(r"[\\u0600-\\u06FF]", lesson_text), (
+        f"Lesson {lesson_number} payload must remain Latin-script only"
+    )
+
+
 lesson23_match = re.search(r"(?ms)^# Dersa 23 —.*?(?=^# Dersa 24 —)", source)
 assert lesson23_match, "Lesson 23 authoring section is missing"
 lesson23 = lesson23_match.group(0)
