@@ -164,6 +164,27 @@ class DengnasiLessonBrowserTests(unittest.TestCase):
                     page.locator(".lesson-content .klesson-preview").get_attribute("dir"),
                     "ltr",
                 )
+                rendered_html = page.locator(".lesson-content .klesson-preview").inner_html()
+                self.assertNotRegex(
+                    rendered,
+                    r"[\\u0600-\\u06FF]",
+                    f"Lesson {number}: Arabic-script text found in rendered lesson",
+                )
+                self.assertNotRegex(
+                    rendered,
+                    r"[\\u0400-\\u04FF]",
+                    f"Lesson {number}: Cyrillic-script text found in rendered lesson",
+                )
+                self.assertEqual(
+                    page.locator(".lesson-content .klesson-preview audio, .lesson-content .klesson-preview video, .lesson-content .klesson-preview iframe, .lesson-content .klesson-preview embed, .lesson-content .klesson-preview object").count(),
+                    0,
+                    f"Lesson {number}: embedded media/object found in rendered lesson",
+                )
+                self.assertNotRegex(
+                    rendered_html,
+                    r"""(?:src|href)\\s*=\\s*["'][^"']*(?:\\.mp3|\\.wav|\\.ogg|\\.m4a|\\.mp4|\\.webm|youtube\\.com|youtu\\.be|soundcloud\\.com)""",
+                    f"Lesson {number}: external audio/video dependency found",
+                )
         finally:
             context.close()
 
