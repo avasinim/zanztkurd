@@ -198,6 +198,48 @@ window.ZANSTI_GET_SUPABASE_CLIENT = window.ZANSTI_GET_SUPABASE_CLIENT || functio
     }
     return ["017.html","018.html","019.html","020.html","021.html","022.html","023.html","024.html","025.html","026.html","027.html","028.html","029.html","030.html","031.html","032.html","033.html","034.html","035.html","036.html","037.html","038.html","039.html","040.html","041.html","042.html","043.html","044.html","046.html","047.html","048.html","049.html","050.html","051.html","045.html","052.html","053.html","054.html","055.html","056.html","057.html","058.html"];
   }
+  function addDengnasiReferences(box){
+    if(!/^kurmanji-dengnasi-lesson-\\d{2}\\.html$/i.test((location.pathname.split("/").pop()||"")))return;
+    const preview=box.querySelector(".klesson-preview");
+    if(!preview || box.querySelector(".avasin-dengnasi-sources"))return;
+    const head=preview.querySelector(".lesson-preview-head");
+    const attribution=head?.querySelector("p");
+    if(attribution && /Husein Muhammed|Dengnasî di kurdî de|Rûpelên çavkaniyê/i.test(attribution.textContent||"")){
+      attribution.remove();
+    }
+    if(!document.getElementById("avasin-dengnasi-source-styles")){
+      const style=document.createElement("style");
+      style.id="avasin-dengnasi-source-styles";
+      style.textContent=".avasin-dengnasi-sources{margin:30px 0 8px;border:1px solid #d9d2c4;border-radius:18px;overflow:hidden;background:#fbfaf6;box-shadow:0 12px 30px rgba(29,48,40,.07);color:#26332c}.avasin-dengnasi-sources-head{padding:17px 22px;background:linear-gradient(120deg,#1d3028,#315344);border-bottom:3px solid #b38a58}.avasin-dengnasi-sources-head h2{margin:0!important;padding:0!important;border:0!important;color:#fff!important;font-size:1.12rem!important}.avasin-dengnasi-sources-head p{margin:5px 0 0;color:#e8e0d1;font-size:.88rem}.avasin-dengnasi-sources-body{padding:18px 22px}.avasin-dengnasi-source-primary{padding:13px 15px;margin-bottom:15px;border-left:3px solid #b38a58;background:#f1eee5;border-radius:9px}.avasin-dengnasi-source-primary strong{display:block;color:#263d31;margin-bottom:4px}.avasin-dengnasi-sources ul{margin:8px 0 0;padding-inline-start:1.35rem}.avasin-dengnasi-sources li{margin:9px 0;line-height:1.8}.avasin-dengnasi-sources a{color:#315344;text-decoration:underline;text-decoration-color:#b38a58;text-underline-offset:3px}.avasin-dengnasi-sources a:hover{color:#8a633d}.avasin-dengnasi-sources-note{margin:13px 0 0;color:#68736c;font-size:.83rem;line-height:1.8}@media(max-width:600px){.avasin-dengnasi-sources-head,.avasin-dengnasi-sources-body{padding:14px 16px}}";
+      document.head.appendChild(style);
+    }
+    const panel=document.createElement("section");
+    panel.className="avasin-dengnasi-sources";
+    panel.setAttribute("aria-label","Çavkaniyên zanistî");
+    panel.innerHTML=`
+      <div class="avasin-dengnasi-sources-head">
+        <h2>Çavkaniyên zanistî û xwendina pêvek</h2>
+        <p>Akademîya Avaşin · Dengnasîya Zimanê Kurdî</p>
+      </div>
+      <div class="avasin-dengnasi-sources-body">
+        <div class="avasin-dengnasi-source-primary">
+          <strong>Çavkaniya bingehîn</strong>
+          Husein Muhammed, <em>Dengnasî di kurdî de</em>.
+          <a href="https://github.com/avasinim/zanztkurd/blob/main/Dengnasiya_Zimane_Kurdi_27_Wane_corrected.pdf" target="_blank" rel="noopener noreferrer">Dîtina pirtûka bingehîn</a>
+        </div>
+        <strong>Çavkaniyên akademîk ên pêvek</strong>
+        <ul>
+          <li>Geoffrey Haig û Ergin Öpengin (2018), “Kurmanji Kurdish in Turkey: Structure, varieties and status.” <a href="https://www.uni-bamberg.de/fileadmin/aspra/06_Team/Publications_and_CV/HaigOepengin2018_Kurmanji_Kurdish_.pdf" target="_blank" rel="noopener noreferrer">Xwendina vekirî</a></li>
+          <li>Geoffrey Haig (2018), “Northern Kurdish (Kurmanjî).” <em>The Languages and Linguistics of Western Asia</em>. <a href="https://doi.org/10.1515/9783110421682-004" target="_blank" rel="noopener noreferrer">DOI</a></li>
+          <li>W. M. Thackston (2006), <em>Kurmanji Kurdish: A Reference Grammar with Selected Readings</em>. Harvard University, destنووسەی نەبڵاوکراوە.</li>
+          <li>Emir Bedir Khan û Roger Lescot (1970), <em>Grammaire Kurde</em>. Paris: Adrien Maisonneuve.</li>
+          <li>Otto Jastrow (1977), “Zur Phonologie des Kurdischen in der Türkei.” <em>Studien zur Indologie und Iranistik</em> 3, 84–106.</li>
+          <li>Ergin Öpengin û Geoffrey Haig (2014), “Regional variation in Kurmanji: a preliminary classification of dialects.” <em>Kurdish Studies</em> 3, 143–176.</li>
+        </ul>
+        <p class="avasin-dengnasi-sources-note">Ev çavkaniyên pêvek ji bo پشتگیری، بەراورد و خوێندنەوەی زانستی پێشکەش کراون؛ ناویان لێرەدا بە مانای ئەوە نییە کە هەموویان بە شێوەی یەکسان لە هەر وانەیەکدا بەکارهاتوون.</p>
+      </div>`;
+    box.appendChild(panel);
+  }
   async function loadProtectedLessonContent(sb,target){
     const box=document.querySelector(".lesson-content");
     if(!box)return true;
@@ -220,6 +262,7 @@ window.ZANSTI_GET_SUPABASE_CLIENT = window.ZANSTI_GET_SUPABASE_CLIENT || functio
         return false;
       }
       box.innerHTML=data.content_html;
+      addDengnasiReferences(box);
       return true;
     }catch(error){
       console.error("[Avasin] lesson content load exception",error);
