@@ -2510,3 +2510,47 @@ Sara Belelli (2019) لە توێژینەوەی dialectologyی کوردیی باش
 ### سەرچاوەکان
 - Khademhojjati, Fariborz & Fateme Hasani Jalilian (2012), “Historical Change of Sound ‘b’ in Kalhori Dialect of Kurdish Language,” *Studies in Literature and Language*, 4(2), 36–40. بە تایبەتی بەشی داتای ١٥ قسەکەر و خشتەکانی وشە بنەڕەتی و وەرگیراو: https://flr-journal.org/index.php/sll/article/view/j.sll.1923156320120402.1050/3421
 - Mahsn Majidy, “An analysis of Arabic loanwords in spoken Central Kurdish,” تەنیا بۆ بەراوردی میتۆدیی کوردیی ناوەندی، نە بۆ دانانی یاسای کەڵهوڕی: https://etheses.whiterose.ac.uk/24195/1/An%20analysis%20of%20Arabic%20loanwords%20in%20spoken%20Central%20Kurdish.pdf
+
+
+## ٧٨. یەکپارچەیی Unicode و پاراستنی جیاوازیی نووسین
+
+### ١. بنەمای Unicode
+Unicode بۆ هەندێک پیت دوو شێوەی کۆدکردنی هاوتای کانونی هەیە: پیتی پێکهاتوو و پیتی بنەڕەتی لەگەڵ نیشانەی پێکەوەبەستراو. بۆ بەراورد و گەڕان، بەکارهێنانی NFC بۆ دەقی ئاسایی هەڵبژاردەی گونجاوە؛ بەڵام NFKC/NFKD هەندێک جیاوازیی گونجاندن لادەبەن و نابێت بەبێ هۆکار لە دەقی سەرچاوەی زوانی جێبەجێ بکرێن. (Unicode Consortium, Unicode FAQ: Normalization; UAX #15.)
+
+### ٢. کۆدی پیتە گرنگەکان
+ئەم کۆدانە دەبێت لە پشکنینی فایل و کیبۆرددا بە جیاوازی بناسرێن:
+- «ە» U+06D5 ARABIC LETTER AE؛
+- «ه» U+0647 ARABIC LETTER HEH؛
+- «ھ» U+06BE ARABIC LETTER HEH DOACHASHMEE؛
+- «ی» U+06CC ARABIC LETTER FARSI YEH؛
+- «ي» U+064A ARABIC LETTER YEH؛
+- «ک» U+06A9 ARABIC LETTER KEHEH؛
+- «ك» U+0643 ARABIC LETTER KAF؛
+- «ڵ» U+06B5 ARABIC LETTER LAM WITH SMALL V؛
+- «ڕ» U+0695 ARABIC LETTER REH WITH SMALL V BELOW؛
+- «ۆ» U+06C6 ARABIC LETTER OE؛
+- «ۊ» U+06CA ARABIC LETTER WAW WITH TWO DOTS ABOVE؛
+- «ێ» U+06CE ARABIC LETTER YEH WITH SMALL V؛
+- «ڤ» U+06A4 ARABIC LETTER VEH.
+
+ناوی Unicode و کۆدی پیت تەنیا ناسنامەی تەکنیکیی نووسەکەیە؛ بە تەنیا هیچ دەنگ، واتا یان یاسای ڕێنووسیی کەڵهوڕی ناسەلمێنێت.
+
+### ٣. ڕێکاریی پشکنینی فایل
+1. فایلە سەرەکییەکان بە UTF-8 پاشەکەوت بکرێن.
+2. دەقی هاوتای کانونی بۆ بەراورد بە NFC نۆرمالایز بکرێت؛ دەقی خامی سەرچاوەش بۆ بەڵگەنامەکردن بپارێزرێت.
+3. «ە/ه/ھ»، «ی/ي»، «ک/ك» و پیتە تایبەتەکانی کەڵهوڕی بە شێوەی خۆکار یەک نەخرێن.
+4. هەر گۆڕینی کۆدی پیت لە لایەن سکریپت یان کیبۆردەوە بە پێش/دوای گۆڕان و لۆگی ڕوون تۆمار بکرێت.
+5. گەڕان و هەڵسەنگاندنی وشەکان لەسەر دەقی خام و دەقی نۆرمالایزکراو هەردووکیان بکرێت، بۆ دۆزینەوەی هەڵەی هێنانی پیت.
+6. پشکنینی ڕاستەوخۆی ڕێکخستنی RTL، نیشانەی پێکەوەبەستراو و شێوەی پیت لە فۆنت و وێبگەڕە جیاوازەکاندا ئەنجام بدرێت.
+
+### ٤. بڕیاری وانەسازی
+- NFC تەنیا بۆ یەکسانکردنی شێوەی کۆدکردنی هاوتای کانونی بەکاربهێنرێت، نە بۆ گۆڕینی ڕێنووسی وشە.
+- NFKC و گۆڕینی ئۆتۆماتیکی پیتە هاوشێوەکان بەبێ پشکنینی مرۆیی قەدەغەیە.
+- «ە» و «ه» لە ڕووی کۆدی Unicode و ئەرکی زوانییەوە جیاوازن؛ هەمان شت بۆ «ی» و «ي»، «ک» و «ك» ڕاستە.
+- هیچ پیتێک تەنیا بەهۆی ناوی Unicode یان بەکارهێنانی لە زوانێکی تر، نابێت وەک یاسای فۆنۆلۆجیی کەڵهوڕی بناسرێت.
+
+### سەرچاوەکان
+- Unicode Consortium, “FAQ – Normalization”: https://www.unicode.org/faq/normalization.html
+- Unicode Standard 18.0, Arabic character code charts: https://www.unicode.org/Public/18.0.0/charts/PDF/U0600.pdf
+- Unicode Consortium, Unicode 18.0 Arabic names list: https://www.unicode.org/Public/UCD/latest/charts/nameslist/0600/
+- “Graphemic Normalization of the Perso-Arabic Script” (2020), بۆ ناسینەوەی جیاوازیی کۆدی پیتەکان لە چەند زوانی ئەم نووسینەدا؛ نە وەک ستانداردی کەڵهوڕی.
