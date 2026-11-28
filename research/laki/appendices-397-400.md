@@ -60,3 +60,18 @@ Belelli §3.14.2.4, pp. 208–210, gives the following examples in addition to t
 - (460) `a(ga)r dīr=a ma-xaft-in īme=yš dīr=a ma-xaft-īmin` — “If they were sleeping late, we were sleeping late too / If they would have slept late, we would have slept late too.” [Fattah 2000:735] Belelli explicitly leaves its reading ambiguous between a past real condition and a counterfactual event.
 
 The source says examples (457)–(458) have a Past-tense form in the protasis functioning as Past Subjunctive where the realizable condition is anterior to the main event. It also cautions that example (460) does not settle whether the Imperfective can replace Past Subjunctive in a counterfactual protasis.
+
+### Appendix 399 — further source examples (Belelli 2021, pp. 203–205)
+
+- (436) `baʕd ki kišāvarzī tamām=a mow m-uš-e [...] ` — “After he has finished farming [lit. farming is finished], he says […]” [2:3]. The excerpted transcription in the source includes a continuation omitted here; do not reconstruct the omitted material.
+- (437) `baʕd_a ya gi hanābandān=yān tamām bī dā dit bās ye gwinī birsāq bi-k-e` — “After their henna-ing ceremony is over, the girl’s mother has to make a sack of fritters.” [laki_conv_1, 22:13–22:18]
+- (438) `vaxt=ī ma-č-u dīv hā-ø xāw` — “When he goes, the demon is asleep.” [2:12]
+- (439) `vaxt=ī gi šü=e va ra(h)mat xwidā čī=a iŋār bowa wiž=im=a ra(h)mat xwidā čī=a` — “When her husband died, (it was) as if my own father had died.” [laki_conv_1, 25:04–25:10]
+- (440) `zamān=ī mi dözī-m=a ī šotor tö=a töwirg=a ma-wāry-ā-ø` — “When I stole this camel of yours, it was hailing hailstones.” [6:186–188]
+- (441) `až vaxt=ī m-āy [...] tā vaxt=ī gi ma-č-u ařetā` — “From the moment he comes until the moment he goes back (again).” [4:150]. The source itself marks an intervening stretch with an ellipsis.
+- (442) `tā zamān=ī daŋ hin=a ma-ka-n=a ʕarusī` — “Until they invite what’s-his-name to a wedding.” [1:52]
+- (443) `agar šāns b-ār-ī bi-č-ī ava xaft=ü` — “If you will be lucky (enough) to go when he is already sleeping.” [2:9]
+
+The source states that example (443) is a paratactic temporal construction: the temporal event is ideally prior to the main event and is expressed with the Pluperfect. The dependent verb of a temporal clause may also be Subjunctive when eventuality or uncertainty is emphasized.
+
+**Transcription caution:** In (436) and (441), omitted stretches are represented by ellipses; no missing text has been supplied. The source’s own gloss and translation are retained in substance.
