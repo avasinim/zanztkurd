@@ -37,6 +37,7 @@ The source notes that some purpose clauses seem to involve an Infinitive:
 ## Appendix 399 — temporal clauses (Belelli 2021, pp. 202–205)
 - (432) `šöw ki ma-xaf-e xāw=a mö-ün-ī` — “when he sleeps at night, he dreams.”
 - (433) `tā ī haštād řuž=a tamām ni-ma-ke-ym ʕarusī` — “Until these eighty days are over, we won't get married.”
+- (434) `kwil ī dit-el=a čāx ka-ø tā ma-tün-īt` — “Make all these girls fat, as much as you can.” [7:14–7:15]. This is a degree use of `tā`, not a temporal clause.
 - (435) `iska gi pyā=m kird-ī=a sar āyl-il-a biřī=a` — “As soon as he found me, he slaughtered the kids.” [1:134]
 - Temporal clauses may also be paratactic; example (443) uses the Pluperfect for an event ideally preceding the main-clause event.
 - `tā` also expresses degree (example 434); not every occurrence is temporal.
@@ -63,7 +64,7 @@ The source says examples (457)–(458) have a Past-tense form in the protasis fu
 
 ### Appendix 399 — further source examples (Belelli 2021, pp. 203–205)
 
-- (436) `baʕd ki kišāvarzī tamām=a mow m-uš-e [...] ` — “After he has finished farming [lit. farming is finished], he says […]” [2:3]. The excerpted transcription in the source includes a continuation omitted here; do not reconstruct the omitted material.
+- (436) `baʕd ki kišāvarzī tamām=a mow m-uš-e [...]` — “After he has finished farming [lit. farming is finished], he says […]” [2:3]. The excerpted transcription in the source includes a continuation omitted here; do not reconstruct the omitted material.
 - (437) `baʕd_a ya gi hanābandān=yān tamām bī dā dit bās ye gwinī birsāq bi-k-e` — “After their henna-ing ceremony is over, the girl’s mother has to make a sack of fritters.” [laki_conv_1, 22:13–22:18]
 - (438) `vaxt=ī ma-č-u dīv hā-ø xāw` — “When he goes, the demon is asleep.” [2:12]
 - (439) `vaxt=ī gi šü=e va ra(h)mat xwidā čī=a iŋār bowa wiž=im=a ra(h)mat xwidā čī=a` — “When her husband died, (it was) as if my own father had died.” [laki_conv_1, 25:04–25:10]
