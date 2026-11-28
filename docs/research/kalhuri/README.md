@@ -4441,3 +4441,37 @@ Yasami (2014)، لە “Passive in Kalhori Kurdish: A Typological Perspective”
 ٢. Hosseini, Hannah, Shoja Tafakkori Rezayi, & Amer Gheitury. (2025). “Singular concord in Kalhori Kurdish: A distributed morphology approach.” *Language Research*, 17(54), 217–242. تۆماری Magiran: https://www.magiran.com/paper/2879567/singular-concord-in-kalhori-kurdish-a-distributed-morphology-approach.
 ٣. Yasami, Sara Farzin. (2014). “Passive in Kalhori Kurdish: A Typological Perspective.” *Namaeh Farhangistan*, 13(2), 147–166. تۆماری Magiran: https://www.magiran.com/paper/1322860/passive-in-kalhori-kurdish-a-typological-perspective.
 ٤. Asadpour, Hiwa, & Masoumeh Zarei. (2026). “Passive Constructions in Garrusi Kurdish.” لە *Passivisation in Semitic, Iranian, Armenian, and Beyond*, 233–276. DOI: https://doi.org/10.11647/OBP.0516.05. ئەم سەرچاوەیە تەنیا بۆ بەراوردی تایپۆلۆژییە؛ Garrusi نابێت بە کەڵهوری تێکەڵ بکرێت.
+
+
+## بەشی ١١٥: پێکهاتەی کردارە لێکدراوەکانی کەڵهوری لە ئەدەبیاتی هاوچەرخدا
+
+### ١. سەرچاوە و میتۆد
+Afshar, Tahereh & Soroush Zarei (2017)، لە وتاری “Investigating Compound Verbs in Kurdish (Kalhori Dialect) Relying on Contemporary Literary Works”، کردارە لێکدراوەکانی کەڵهورییان لە گۆڤاری *مطالعات زبان و گویش های غرب ایران*، بەرگی ٣، ژمارەی ١٥، لاپەڕە ٤١–٥٤ پشکنین کردووە. DOI: 10.22126/jlw.2017.1193.
+- داتاکە بە شێوەی وەسفی و کتێبخانەیی کۆکراوەتەوە.
+- سەرچاوەی داتا بریتی بووە لە کتێبی شیعری کوردی و تۆماری دەنگی قسەکەرانی ڕەسەن.
+- داتاکان لەگەڵ تیۆرییە گرنگەکانی کردارە لێکدراوەکان بەراورد و شیکراونەتەوە.
+
+### ٢. ئەنجامە ڕاستەوخۆ پشتگیریکراوەکان
+بەپێی پوختەی وتار:
+- کردارە لێکدراوەکان لە کەڵهوری لە پێکهاتەی واتایی و ڕێزمانیی جیاوازدا دەردەکەون.
+- هەندێک پێکهاتە ناوەندی (endocentric) و واتاکەیان لە کۆی پێکهاتەکانەوە دەفهمرێت؛ هەندێکی دیکە دەرەوەناوەندی (exocentric) و ئیدیۆماتیکن و واتایان لە کۆی واتای پێکهاتەکان بە تەواوی پێشبینی ناکرێت.
+- لە داتای شیکراوەدا هەردوو جۆری سەرەڕاست (head-final) و سەرەتا-سەر (head-initial) تۆمار کراون.
+- نووسەران گۆڕان و فراوانبوونی مێژوویی کردارە لێکدراوەکان لە کەڵهوری بەراورد بە فارسی باس دەکەن.
+
+### ٣. سنووری ئەوەی دەتوانرێت لێی بدرێتەوە
+- پوختەی بەردەست لیستی تەواوی کردارە لێکدراوەکان، نموونەی IPA، ژمارەی قسەکەران، ناوچەی هەر قسەکەر، یان ڕێنماییی جیاکردنەوەی وشەکان نادات.
+- چونکە دەقی تەواو لە ماڵپەڕەکەدا بە تۆمارکردن/چوونەژوورەوە دەست دەکەوێت، لەم قۆناغەدا نابێت نموونە یان یاسای نوێ لە خۆمانەوە زیاد بکرێت.
+- «head-initial/head-final» و «endocentric/exocentric» پۆلێنکردنی ڕێزمانی و واتایین؛ بە تەنیا بڕیار لەسەر نووسینی پێکەوە، جیا یان بە نیشانەی پەیوەندی نادەن.
+
+### ٤. پەیوەندی بە کتێبی ڕێزمانی KEŁHURÎ
+تۆماری کتێبی Murat Baran، *Kurdish Grammar KEŁHURÎ Reference Book*، لە لیستی ناوەڕۆکدا بەشەکانی «Simple Verbs»، «Compound Verbs»، «Separable-Compound Verbs» و «Separable Verbs» جیا دەکاتەوە. ئەمە نیشان دەدات کتێبەکە جیاوازیی پێکهاتەی کردارەکان دەگرێتەبەر، بەڵام چونکە PDF ـی کتێب لە تۆماری Kurdipedia بەردەست نیە، ناتوانرێت لەسەر بنەمای تەنیا ناونیشانی بەشەکان یاسای ورد یان نموونەی فۆرمۆڵی بنووسرێت.
+
+### ٥. هەڵسەنگاندنی بۆ ڕێنووسی ئاڤاشین
+ئەم توێژینەوەیە بنەمایەکی بەسوودە بۆ ناسینی جۆرەکانی کردارە لێکدراوەکانی کەڵهوری؛ بەڵام بڕیاری ڕێنووسی دەبێت لەسەر داتای نووسینی ڕاستەوخۆی قسەکەران و شیکاریی مۆرفۆسینتاکسیی فۆرمەکان بێت.
+- هیچ یاسایەک لە کورمانجی، سۆرانی یان فارسی بۆ دیاریکردنی نووسینی کردارە لێکدراوەکانی کەڵهوری ناگوازرێتەوە.
+- تا دەقی تەواوی توێژینەوە و کتێبی Baran بەردەست نەبن، نموونەی فێرکاری و یاسای جیاکردنەوەی وشەکان بە «پێویستی بە بەڵگە» نیشان دەدرێن.
+- ئەم بەشە تۆماری توێژینەوەی ناوخۆییە، نەک وانەی خوێندکار.
+
+### سەرچاوەکان
+١. Afshar, Tahereh, & Soroush Zarei. (2017). “Investigating Compound Verbs in Kurdish (Kalhori Dialect) Relying on Contemporary Literary Works.” *مطالعات زبان و گویش های غرب ایران*, 3(15), 41–54. DOI: https://doi.org/10.22126/jlw.2017.1193. تۆماری کتێبخانە و پوختە: https://www.virascience.com/en/paper/بررسی-افعال-مرکب-در-گویش-کلهری-زبان-کردی-با-تکیه-بر-آثار-ادبی-معاصر/
+٢. Baran, Murat. (2023). *Kurdish Grammar KEŁHURÎ Reference Book*. تۆماری Kurdipedia: https://kurdipedia.org/default.aspx?lng=8&q=20230904184533518838. تۆماری ناوەڕۆک بەردەستە، PDF ـی کتێب بەردەست نیە.
