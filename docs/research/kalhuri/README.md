@@ -2113,3 +2113,24 @@ Habib Borjian لە «Kermanshah vii. Languages and Dialects»، *Encyclopaedia I
 - Kord Zafaranlu Kambuziya, Aliyeh & Elham Sobati (2014), “Phonological Processes of Consonants in Kalhori Kurdish Dialect,” *Language Related Research*, 5(1), 191–222.
 - Molavi Vardanjani, Arezu & Elkhas Veisi (2015), “Exploring the /w/, /v/, /b/ and /f/ Alternations in Mashoori Dialect (MD) of Persian Language,” *International Journal of English Language & Translation Studies*, 3(2), 133–139؛ بەشی 2، تێبینییەکانیان دەربارەی توێژینەوەی کەڵهوڕیی 2014.
 - کەناڵی «آموزش کوردی کلهری»، وانەی ٧، بەشی «ف» و «ڤ»: https://t.me/s/zwan_kurdi_kalhuri?before=57
+
+
+## ٦٧. پشکنینی «ب، پ، ت، د»
+
+### بەڵگەی سەرەکی: گۆڕانی /w/ و /b/
+توێژینەوەی Khademhojjati و Hasani Jalilian (2012)، «Historical Change of Sound “b” in Kalhori Dialect of Kurdish Language»، *Studies in Literature and Language*، 4(2)، 36–40، بە شێوەیەکی تایبەت گۆڕانی مێژوویی /w/ و /b/ لە کەڵهوڕیدا دەکۆڵێتەوە. توێژەران سەرەتا داتاکانیان لە ١٥ گۆڤەری کەڵهوڕی کۆکردووەتەوە و دواتر بۆ پشتڕاستکردنەوە لەگەڵ ١٠ گۆڤەری دیکەیان پشکنین کردووە؛ تۆمارەکان بە IPA نووسراون.
+
+### نموونە و سنووری بەڵگە
+- لە خشتەی توێژینەوەکەدا «وەهار» (بە نووسینی IPAی توێژەران: /wæhɑ:r/) بۆ «بەهار»، «وا» بۆ «باد»، «وەفر» بۆ «بەرف»، و «وەگ/وەڵگ» بۆ «بەرگ» بەراورد کراون.
+- لە وشە وەرگیراوەکاندا نموونەی /b/ → /w/ تۆمار کراوە؛ وەک «ئاو» (Dari /ɑ:b/، Kalhori /ɑ:w/)، «شەو» (/ʃæb/ → /ʃoʊ/)، و «کتاو» (/kɛtɑ:b/ → /kɛtɑ:w/). ئەم نووسینانە وەک تۆماری دەنگیی توێژەرانن، نەک ڕێنووسی پێشنیارکراوی وانە.
+- توێژینەوەکە هەروەها وشەی وەرگیراوی هەیە کە /b/ی تێدا پارێزراوە، وەک /bæxt/ و /tæbrɪk/. بۆیە گۆڕانەکە یاسایەکی بێ‌هەڵوێست نیە و نابێت بە فەرمانی ئۆتۆماتیکی نووسین جێبەجێ بکرێت.
+
+### بڕیاری ڕێنووسی ئاڤاشین
+- پیتی «ب» لە وشەکاندا دەپارێزرێت؛ تەنیا بەهۆی گۆڕانی مێژوویی یان هاوشێوەیی لە زاراوەیەکی دیکەدا نابێت بە «و» بگۆڕدرێت.
+- «و» وەک دەنگی /w/ لە وشەی کەڵهوڕیدا جیاوازە لە «ب»؛ وشە وەرگیراوەکان بە پێی بەڵگەی تاکەوشەیی تۆمار دەکرێن.
+- ئەم توێژینەوەیە بەڵگەی تایبەت بۆ گۆڕانی /w/ و /b/ ـە؛ بەڵگەی بەس نیە بۆ دانانی یاسای ڕێنووسی تایبەت بە «پ، ت، د». لەبەر ئەوە لەم بەشەدا هیچ نموونە یان یاسای نەپشتڕاستکراو بۆ ئەم سێ پیتە زیاد ناکرێت.
+- بڕیارەکە پێشنیاری دەستکاریکاریی ئاڤاشینە، نە ستانداردێکی فەرمیی کەڵهوڕی.
+
+### سەرچاوەکان
+- Khademhojjati, Fariborz & Fateme Hasani Jalilian (2012), “Historical Change of Sound ‘b’ in Kalhori Dialect of Kurdish Language,” *Studies in Literature and Language*, 4(2), 36–40. https://doi.org/10.3968/j.sll.1923156320120402.1050
+- Kord Zafaranlu Kambuziya, Aliyeh & Elham Sobati (2014), “Phonological Processes of Consonants in Kalhori Kurdish Dialect,” *Language Related Research*, 5(1), 191–222. ئەم توێژینەوەیە بەشداریی ١٣ گۆڤەری کەڵهوڕی هەیە، بەڵام لە پوختەی بەردەستدا یاسایەکی تایبەت بۆ «ب، پ، ت، د» دیاری ناکات.
