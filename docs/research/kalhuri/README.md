@@ -4745,3 +4745,53 @@ Jafari, Tahereh, & Shoja Tafakkori Rezaei. (2024). “The Investigation of Gramm
 
 ### سەرچاوە
 Jafari, Tahereh, & Shoja Tafakkori Rezaei. (2024). “The Investigation of Grammatical Category and Syntactic Position of ‘t͡ʃəmɑn’, a Modality Marker in Kalhori Kurdish.” *Research in Western Iranian Languages and Dialects*, 12(3), 43–58. DOI: https://doi.org/10.22126/JLW.2024.9890.1736 . دەقی تەواو/وێنەی وتار: https://www.academia.edu/129104433/The_Investigation_of_Grammatical_Category_and_Syntactic_Position_of_t_%CA%83%C9%99m%CE%91n_a_Modality_Marker_in_Kalhori_Kurdish .
+
+
+## بەشی ١٢١: چارەسەرکردنی بەریەککەوتنی دەنگدارەکان لە کڵیتیکەکانی کەڵهوڕی
+
+### ١. Jafari & Fattahi (2025): گواستنەوەی مۆرفیم
+
+**ناسنامە:** Tahereh Jafari & Mehdi Fattahi (2025), “Morph Movement as a Vowel Hiatus Resolution in Kalhori Kurdish: An Optimality-Theoretic Account,” *Journal of Linguistics & Khorasan Dialects*, 16(37), 87–110. DOI: 10.22067/JLKD.2024.89859.1275.
+
+**ئەوەی لە پوختەی فەرمی پشتڕاست دەبێتەوە**
+- بابەتەکە گواستنەوەی مۆرفیمە (morph movement) وەک ڕێگایەک بۆ چارەسەرکردنی بەریەککەوتنی دوو دەنگدار دەکۆڵێتەوە.
+- مۆرفیمی جوڵاو لە داتای ئەم توێژینەوەیەدا کڵیتیکی جێناوی سێیەمی تاکە.
+- توێژینەوەکە لەسەر ٢٠ کاتژمێر چاوپێکەوتن لەگەڵ ١٥ قسەکەری کەڵهوڕی دامەزراوە.
+- لە ئەنجامەکاندا گواستنەوەی مۆرفیم لە نزیکی کڵیتیکی جەختکردنەوەشدا دەردەکەوێت، نەک تەنها لە پەیوەندی بە پاشگری کرداردا.
+- ئەم ڕەفتارە لە بەریەککەوتنی سێ دەنگدار و دوو دەنگداردا تۆمار کراوە.
+- شیکاریی توێژەران لە چوارچێوەی Parallel Optimality Theory ـدایە؛ پوختەکە دەڵێت لەو ژینگانەدا ڕێگاکانی باوتر وەک سڕینەوە، زیادکردن و دروستکردنی نیمچەدەنگ بۆ ئەم داتایە بەس نین و گواستنەوەی مۆرفیم ڕوودەدات.
+
+**سنووری بەڵگە:** دەقی تەواوی وتار لە Magiran بە بەشداریی پارەدانەوە دەست دەکەوێت؛ لەبەر ئەوە ئەم بەشە تەنها پوختەی فەرمی و ناسنامەی کتێبناسی دەگرێتەوە. هیچ نموونەی نوێی کەڵهوڕی یان وردەکاریی فۆنۆلۆژی لە خۆمانەوە زیاد نەکراوە.
+
+### ٢. Jafari & Fattahi (2025): پلەبەندیی ستراتیژییەکانی چارەسەری بەریەککەوتنی دەنگدار
+
+**ناسنامە:** Tahereh Jafari & Mehdi Fattahi (2025), “Preference in Strategies of Hiatus Resolutions: An Optimality Theoretic Account of Clitics in Kalhori Kurdish,” *Journal of Language Science*, 12(21), 169–204. DOI: 10.22054/LS.2024.80126.1664.
+
+**میتۆد**
+- داتا بە چاوپێکەوتن لەگەڵ ١٥ قسەکەری کەڵهوڕیی خەڵکی گیلان‌غەرب کۆکراوەتەوە؛ داتاکان تۆمار، نووسینەوە و بە مۆرفیم دابەش کراون.
+- دوو قسەکەر (پیاوێک و ژنێک) پرسیارنامەیەکی پەیوەست بە مۆرفۆلۆژی و سینتاکسییان پڕ کردووەتەوە.
+- چوارچێوەی شیکاری بە McCarthy (2008) و تیۆریی بەهینەیی پەیوەستە.
+
+**ئەنجامی پوختەی فەرمی**
+- زیادکردنی دەنگ (insertion) ستراتیژیی سەرەکییە.
+- دروستکردنی نیمچەدەنگ (glide formation) ستراتیژیی دووەمە.
+- سڕینەوە (deletion) ستراتیژیی سێیەم و دوا چارەسەرە.
+- پلەبەندییەکە بە مەرجەکانی هەر پرۆسەیەکەوە پەیوەستە؛ کاتێک مەرجەکانی پرۆسەیەک جێبەجێ نەبن، ستراتیژیی دیکە دەچێتە کار.
+
+**سنووری بەڵگە:** Magiran تەنها پوختەی وتار پیشان دەدات و دەقی تەواوی وتار بە بەشداری دەست دەکەوێت. بۆیە لێرەدا هیچ نموونەی کڵیتیک، خشتەی constraint یان ڕیزبەندیی وردی مۆدێلی OT دروست نەکراوە.
+
+### ٣. بەراورد و پەیوەندی بە بەشەکانی پێشوو
+1. بەشی ١١٩ لەسەر گۆڕانی شێوەی پاشگری کردارە؛ بەشی ئێستا فراوانترە و ستراتیژییەکانی چارەسەری بەریەککەوتنی دەنگدار لە کڵیتیکەکان دەخاتەڕوو.
+2. لە وتاری «Morph Movement»، خودی مۆرفیمەکە دەگوازرێتەوە؛ لە وتاری «Preference in Strategies»، پلەبەندیی زیادکردن، دروستکردنی نیمچەدەنگ و سڕینەوە شیکراوەتەوە. ئەم دوو پرۆسەیە نابێت بە یەک ستراتیژی تێکەڵ بکرێن.
+3. هەردوو وتار لەسەر داتای قسەکەرانی کەڵهوڕی دامەزراون، بەڵام ناوچە و ژمارەی بەشداربووانیان یەکسان نیە: ١٥ قسەکەر بۆ هەر دوو توێژینەوە؛ لە یەکەمیاندا ٢٠ کاتژمێر چاوپێکەوتن، لە دووەمیاندا قسەکەرانی گیلان‌غەرب و دوو بەشداربووی پرسیارنامە.
+4. ئەم ئەنجامانە لە ئاستی دەنگ و مۆرفۆفۆنۆلۆژیدان؛ ناتوانرێت لەوانەوە یاسای نووسینی پاشگر، کڵیتیک یان پێکەوەنووسینی وشە دەر بهێنرێت.
+
+### ٤. بڕیاری کارکردن بۆ ڕێنووسی ئاڤاشین
+- لە تۆماری زانستی، «گواستنەوەی مۆرفیم»، «زیادکردنی دەنگ»، «دروستکردنی نیمچەدەنگ» و «سڕینەوەی دەنگ» وەک چوار پرۆسەی جیاواز بناسرێن.
+- هیچ یەکێک لە ستراتیژییە فۆنۆلۆژییەکان بە شێوەی ڕاستەوخۆ وەک یاسای نووسین وەرناگیرێت.
+- تا دەقی تەواو و نموونە ڕەسەنەکان بەردەست نەبن، وانەی خوێندکار یان پێشنیاری نووسینی پیتی کوردی لەسەر بنەمای ئەم دوو پوختەیە دروست ناکرێت.
+- ئەم بەشە تێبینیی توێژینەوەییە؛ هیچ پرسیار، تاقیکردنەوە یان ڕاهێنانی قوتابی لەخۆناگرێت.
+
+### سەرچاوەکان
+1. Jafari, T., & Fattahi, M. (2025). “Morph Movement as a Vowel Hiatus Resolution in Kalhori Kurdish: An Optimality-Theoretic Account.” *Journal of Linguistics & Khorasan Dialects*, 16(37), 87–110. DOI: https://doi.org/10.22067/JLKD.2024.89859.1275 . Magiran: https://www.magiran.com/paper/2840222/morph-movement-as-a-vowel-hiatus-resolution-in-kalhori-kurdish-an-optimality-theoretic-account?lang=en .
+2. Jafari, T., & Fattahi, M. (2025). “Preference in Strategies of Hiatus Resolutions: An Optimality Theoretic Account of Clitics in Kalhori Kurdish.” *Journal of Language Science*, 12(21), 169–204. DOI: https://doi.org/10.22054/LS.2024.80126.1664 . Magiran: https://www.magiran.com/paper/2894369/preference-in-strategies-of-hiatus-resolutions-an-optimality-theoretic-account-of-clitics-in-kalhori-kurdish?lang=en .
