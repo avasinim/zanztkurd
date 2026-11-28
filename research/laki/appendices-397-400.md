@@ -46,3 +46,17 @@ The source notes that some purpose clauses seem to involve an Infinitive:
 - If a realizable future condition is ideally anterior to the main event, Preterite or Pluperfect can occur in the protasis with Past Subjunctive function (examples 457–458).
 - Counterfactual past condition: Past Subjunctive in the protasis and Imperfective in the apodosis (example 459: `a(ga)r bi-zānis(t)-ā-m=a ma-hāt-im`).
 - Belelli explicitly leaves uncertain whether Imperfective can replace Past Subjunctive in the protasis, as in Persian.
+
+### Appendix 400 — conditional examples (continued source check)
+
+Belelli §3.14.2.4, pp. 208–210, gives the following examples in addition to the summary above:
+
+- (454) `agar si dit-a=t b-e-y ni-ma-kwiš-(i)m-a=t valī xu dī ar n-e-y ma-xwa-m-a=t` — “If you’ll give (me) your three daughters I won’t kill you but, well then, if you won’t give them (to me) I’ll eat you.” [2:18] This illustrates a realizable condition with Present Subjunctive in the protasis and Present Indicative in the apodosis.
+- (455) `agar ʕavaz=ī na-ka-n kišt ni-m-e` — “If they don’t change it [i.e. cultivation], it [i.e. the field] does not yield crop.” [laki_conv_1, 10:06–10:11] This is a habitual/general consequence.
+- (456) `ar fārsī har_kām=īš=a m-uš-in masxare=a` — “If anyone, well, tells (it in) Persian, it’s ridiculous.” [laki_conv_1, 2:57–3:00] The Present Indicative in the protasis is described as rare but apparently possible.
+- (457) `agar kas-ī hāt-ø b-öwr-ī vagard ī ču=a, ču bi-n-ī=an=ī ne-yl-ī` — conditional with a past-tense protasis and subjunctive apodosis; the source translation is “if someone would have come to take it, with this club, he would hit him with the club and wouldn’t let him (take it).” [5:39]
+- (458) `ar mi eʕdām bī-m ar sar-im biřyā-ø ar har_čī=a bin=im kird=ün žin-a māɫ-a nega(h)dārī bi-k-e` — “if I would be executed, if my head would be cut off, whatever they might do to me, at least (my) wife would take care of the house.” [6:166]
+- (459) `a(ga)r bi-zānis(t)-ā-m=a ma-hāt-im` — “If I had known, I would have come.” [Fattah 2000:736] This is the source’s example of a counterfactual past condition: Past Subjunctive in the protasis and Imperfective in the apodosis.
+- (460) `a(ga)r dīr=a ma-xaft-in īme=yš dīr=a ma-xaft-īmin` — “If they were sleeping late, we were sleeping late too / If they would have slept late, we would have slept late too.” [Fattah 2000:735] Belelli explicitly leaves its reading ambiguous between a past real condition and a counterfactual event.
+
+The source says examples (457)–(458) have a Past-tense form in the protasis functioning as Past Subjunctive where the realizable condition is anterior to the main event. It also cautions that example (460) does not settle whether the Imperfective can replace Past Subjunctive in a counterfactual protasis.
