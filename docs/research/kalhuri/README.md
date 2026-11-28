@@ -4855,3 +4855,32 @@ Mehdi Fattahi & Tahereh Jafari, “Phonological Opacity in the Relict of Progres
 
 ### سەرچاوە
 Fattahi, Mehdi, & Tahereh Jafari. (2025–2026). “Phonological Opacity in the Relict of Progressive Prefix in Kalhori Kurdish: An Optimality-theoretic Account.” *Journal of Language Researches*, 16(2), 241–266. DOI: https://doi.org/10.22059/jolr.2026.399423.666931 . دەقی وتار: https://www.academia.edu/168975488/Phonological_Opacity_in_the_Relict_of_Progressive_Prefix_in_Kalhori_Kurdish_An_Optimality_theoretic_Account .
+
+
+## بەشی ١٢٤: سنووری هاوئاهەنگیی بزوێنی [o] لە کرداردا
+
+### ناسنامەی توێژینەوە
+Mehdi Fattahi & Oleg Belyaev, “Vowel Harmony in the Optimality Theory-Candidate Chains and the Optimal Interleaving Models: A Case Study in Kalhori Kurdish,” *Journal of Western Iranian Languages and Dialects*, Volume 13, Issue 50, Autumn 2025, pp. 23–38. DOI: https://doi.org/10.22126/jlw.2025.11867.1820 . تۆماری Magiran: https://www.magiran.com/paper/2911076/vowel-harmony-in-the-optimality-theory-candidate-chains-and-the-optimal-interleaving-models-a-case-study-in-kalhori-kurdish?lang=en .
+
+### داتای پشتڕاستکراو لە پوختەی وتار
+- توێژینەوەکە لەسەر داتای ١٥ قسەکەری کەڵهوڕی دامەزراوە.
+- تایبەتمەندییەکانی بزوێنی [o] بە شێوەی پاشەوە (regressive) بۆ لای چەپی بنەڕەتی کردار بڵاودەبنەوە؛ پوختەکە ئەم بڵاوبوونەوەیە تا چەپترین سنووری کردار باس دەکات.
+- بەڵام کاتێک کڵیتیکی هاوەڵبەندی [=o] زیاد دەکرێت، ئەم هاوئاهەنگییە لە نێوان کڵیتیکەکە و کۆتایی کرداردا ڕوونادات.
+- لە شیکاریی نووسەراندا، مۆدێلی Optimality Theory–Candidate Chains (OT-CC) ناتوانێت هەردوو ڕوودانی هاوئاهەنگی لە نێوان ڕەگ و پێشگر و نەبوونی لە سنووری کڵیتیک و کۆتایی کرداردا بە یەکجار ڕوون بکاتەوە، مەگەر زانیاریی مۆرفۆلۆژی لە ئاستی شیکاریی فۆنۆلۆژیدا دووبارە بکرێتەوە.
+- مۆدێلی Optimal Interleaving (OI)، کە ڕێگە بە ئاڵوگۆڕی نۆرەیی نێوان پرۆسە مۆرفۆلۆژی و فۆنۆلۆژییەکان دەدات، لە پوختەی وتاردا وەک شیکارییەکی سەرکەوتوو بۆ هەردوو دۆخەکە پێشکەش کراوە.
+
+### سنووری بەڵگە و ئاگاداری
+- دەقی تەواوی وتار لە پەڕەی Magiran بە شێوەی ئاسایی بەردەست نیە و بۆ خوێندنەوەی تەواو داوای بەشداری دەکات؛ بۆیە ئەم تۆمارە تەنها لەسەر پوختەی بڵاوکراوە دامەزراوە.
+- پوختەکە وردەکارییەکانی جۆری تایبەتمەندییە دەنگییەکان، لیستی کردارەکان، شێوە فۆنێتیکییەکان، هێڵکاریی مۆرفیمی و مەرجە وردەکانی شیکاری نادات؛ هیچ نموونە یان مەرجێکی زیادە لێرە دروست ناکرێت.
+- [o] و [=o] لەم تۆمارەدا هێما و دەنگنووسراوی توێژینەوەیین؛ نابێت وەک پیت، وشە، یان شێوەی نووسینی فەرمیی کەڵهوڕی وەربگیرێن.
+- ئەم ئەنجامە بۆ هاوئاهەنگیی بزوێنێکی دیاریکراو لە پێکهاتەی کرداردا ڕاپۆرت کراوە؛ نابێت بۆ هەموو بزوێنەکان، هەموو پاشگرەکان، یان هەموو کڵیتیکەکان گشتی بکرێتەوە.
+- ئەم وتارە بەڵگەی ڕێنووسی نیە و هیچ یاسای پێکەوەنووسین، جیاکردنەوەی وشە، یان پیتی نوێ لێی دەرناهێنین.
+
+### پەیوەندی بە بەشەکانی پێشوو و بڕیاری کار
+1. بەشی ١٢١ ستراتیژییەکانی چارەسەری بەریەککەوتنی بزوێنەکان لە کڵیتیکەکان باس دەکات؛ بەشی ئێستا جیاوازیی سنووری هاوئاهەنگی لە نێوان بنەڕەتی کردار و کڵیتیکی هاوەڵبەندی ڕوون دەکاتەوە.
+2. بەشی ١٢٢ سەربەخۆیی دەنگیی میوانی کڵیتیکەکان و توانای وەرگرتنی پاشبەست جیا دەکاتەوە؛ بەشی ئێستا نیشان دەدات کە بوونی کڵیتیک دەتوانێت سنووری کارکردنی پرۆسەی دەنگی دیاری بکات.
+3. هەردوو توێژینەوەکە پێویستیی جیاکردنەوەی سنووری مۆرفۆلۆژی و فۆنۆلۆژی دەخەنەڕوو؛ بەڵام بەبێ دەقی تەواو و داتای زیاتر نابێت وردەکارییەکانیان یەکسان بکرێن.
+4. بڕیاری ئەم بەشە تەنها تۆمارکردنی بەڵگەی دەنگناسییە؛ هیچ ناوەڕۆکی وانەی خوێندکار، نموونەی ڕێنووسی، یان یاسای ستانداردکردن لێی دروست ناکرێت.
+
+### سەرچاوە
+Fattahi, Mehdi, & Oleg Belyaev. (2025). “Vowel Harmony in the Optimality Theory-Candidate Chains and the Optimal Interleaving Models: A Case Study in Kalhori Kurdish.” *Journal of Western Iranian Languages and Dialects*, 13(50), 23–38. DOI: https://doi.org/10.22126/jlw.2025.11867.1820 . پوختە و ناسنامەی وتار: Magiran, https://www.magiran.com/paper/2911076/vowel-harmony-in-the-optimality-theory-candidate-chains-and-the-optimal-interleaving-models-a-case-study-in-kalhori-kurdish?lang=en .
