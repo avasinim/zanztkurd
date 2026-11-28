@@ -30,6 +30,8 @@ The source notes that some purpose clauses seem to involve an Infinitive:
 
 
 ## Appendix 397 — source examples (Belelli 2021, pp. 206–207)
+
+- (450) `har_ke a lā=rā ma-č-u sad töman döüs töman m-e-n=a bin=ī gi das xālī haq n-er-ī bi-č-īt=a nām` — “Those who pass thereby give him a hundred toman, two hundred toman, because you don’t have the right to go inside empty-handed.” [laki_conv_1, 12:55–13:00]
 - (451) `čün gi šü kird-ī=a bi-č-im a šü=y=a bi-kwiš-im` — “Since she got married, I shall go (and) kill this husband of hers.” [laki_conv_1, 15:25–15:28]
 - (452) `bi_xātir ya gi mardim pīšraft kird-in=a šöw hanābandān=īš ī hanā tazīn=a ma-ka-n dī iska baɫed=in tazīn=a ma-ka-n` — “Since people have improved, on the night of the henna-ing ceremony they decorate this henna too; now they are able to decorate it.” [laki_conv_1, 5:33–5:41]
 - `ařā (ya ki)` is listed as a causal conjunctional phrase, but no independent corpus example is provided in the reviewed passage.
