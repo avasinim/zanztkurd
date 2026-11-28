@@ -4795,3 +4795,30 @@ Jafari, Tahereh, & Shoja Tafakkori Rezaei. (2024). “The Investigation of Gramm
 ### سەرچاوەکان
 1. Jafari, T., & Fattahi, M. (2025). “Morph Movement as a Vowel Hiatus Resolution in Kalhori Kurdish: An Optimality-Theoretic Account.” *Journal of Linguistics & Khorasan Dialects*, 16(37), 87–110. DOI: https://doi.org/10.22067/JLKD.2024.89859.1275 . Magiran: https://www.magiran.com/paper/2840222/morph-movement-as-a-vowel-hiatus-resolution-in-kalhori-kurdish-an-optimality-theoretic-account?lang=en .
 2. Jafari, T., & Fattahi, M. (2025). “Preference in Strategies of Hiatus Resolutions: An Optimality Theoretic Account of Clitics in Kalhori Kurdish.” *Journal of Language Science*, 12(21), 169–204. DOI: https://doi.org/10.22054/LS.2024.80126.1664 . Magiran: https://www.magiran.com/paper/2894369/preference-in-strategies-of-hiatus-resolutions-an-optimality-theoretic-account-of-clitics-in-kalhori-kurdish?lang=en .
+
+## بەشی ١٢٢: سەربەخۆیی دەنگیی میوانی پاشبەستەکان و شێوەی [wæpi]
+
+### ناسنامەی توێژینەوە
+Mehdi Fattahi & Tahereh Jafari, “On the phonological autonomy condition of hosts of clitics: The case of [wæpi] in Kalhori Kurdish,” *Research in Linguistics*, Volume 18, Issue 2 (Serial 35), Summer 2026, pp. 1–14. تۆماری ژمارەی گۆڤار: https://www.magiran.com/volume/245971 .
+
+### ئەوەی لە پوختەی بڵاوکراوەدا پشتڕاست دەبێتەوە
+- بابەتی سەرەکی ئەوەیە کە چۆن [wæpi] لە کەڵهوڕیدا، لەگەڵ ئەوەی سەربەخۆیی دەنگیی تەواوی نیە، هێشتا وەک میوانی پاشبەستە جێناوییەکان کار دەکات.
+- توێژینەوەکە ڕێبازی ناوخۆزمانی و بەراوردی بەکارهێناوە.
+- داتاکان لە چاوپێکەوتن لەگەڵ ١٥ قسەکەری هەر یەک لە زاراوەکانی کەڵهوڕی، ئیلامی و سۆرانی کۆکراونەتەوە؛ دواتر دەنگنووسراون و بەراورد کراون.
+- لە شیکاریی توێژەراندا، [wæpi] لە قۆناغێکی پێشوودا بە ئەگەری زۆر سەربەخۆیی دەنگیی هەبووە، بەڵام بە تێپەڕبوونی کات ئەو سەربەخۆییەی لەدەست داوە و لە هەمان کاتدا توانای میوانداریی پاشبەستە جێناوییەکانی پاراستووە.
+- پوختەکە شێوەی ئیلامی بە [wæ] و شێوەی سۆرانی بە [pɪ:] دەناسێنێت و پەیوەندیی مێژووییی ئەم شێوانە بە یەک مۆرفیمی سەرچاوەوە پێشنیار دەکات.
+- توێژەران هەروەها سنوورێکی فۆنۆلۆژی بۆ حەرفە پەیوەندییە درێژتر لە یەک بڕگە باس دەکەن؛ ئەم بڕیارە دەبێت لە چوارچێوەی هەمان توێژینەوە و داتاکەی تێبگەین، نەک وەک یاسای گشتیی هەموو زاراوە کوردییەکان.
+
+### سنووری بەڵگە و جیاکردنەوەی زاراوەکان
+- تۆماری گۆڤار پوختەی ئینگلیزی و فارسی پیشان دەدات؛ دەقی تەواوی وتار لەم پشکنینەدا بەردەست نەبوو. بۆیە نموونەی زیاتر، شێوەی پاشبەستەکان، ڕیزبەندیی مۆرفیمەکان و وردەکارییەکانی شیکاری زیاد ناکرێن.
+- داتای کەڵهوڕی لە وتارەکەدا لەگەڵ داتای ئیلامی و سۆرانی بەراورد کراوە؛ شێوەکانی [wæ] و [pɪ:] بەڵگەی کەڵهوڕی نین و نابێت بگوازرێنەوە بۆ وانەی کەڵهوڕی.
+- [wæpi] لە پوختەدا بە شێوەی دەنگنووسراوی IPA/لاتینییە؛ ئەمە بەڵگەی شێوەی نووسینی عەرەبی/کوردیی ئەم مۆرفیمە نیە.
+
+### پەیوەندی بە بەشەکانی پێشوو و بڕیاری کار
+1. بەشی ١٢١ ستراتیژییەکانی چارەسەرکردنی بەریەککەوتنی دەنگدار لە کڵیتیکەکان باس دەکات؛ ئەم بەشە زیاتر لەسەر پەیوەندیی نێوان میوانی پاشبەست و سەربەخۆیی دەنگییە.
+2. «توانای میوانداریی پاشبەست» و «سەربەخۆیی دەنگی» دوو تایبەتمەندیی جیاوازن؛ نابێت یەکێکیان بە نیشانەی بوونی ئەوی دیکە دابنرێت.
+3. لەبەر ئەوەی پوختەکە بە تەنیا شێوەی نووسراوی باوی کەڵهوڕی بۆ [wæpi] نادات، هیچ پیت، نیشانەی ڕێنووسی یان یاسای پێکەوەنووسین لێی دەرناهێنین.
+4. ئەم بەڵگەیە تەنها بۆ تۆماری زانستیی ناوخۆیی بەکاردێت؛ بەبێ دەقی تەواو و پشتڕاستکردنەوەی قسەکەرانی کەڵهوڕی، ناوەڕۆکی وانەی خوێندکار لێی دروست ناکرێت.
+
+### سەرچاوە
+Fattahi, Mehdi, & Tahereh Jafari. (2026). “On the phonological autonomy condition of hosts of clitics: The case of [wæpi] in Kalhori Kurdish.” *Research in Linguistics*, 18(2), 1–14. Magiran, Volume 18, Issue 2 (Serial 35): https://www.magiran.com/volume/245971 .
