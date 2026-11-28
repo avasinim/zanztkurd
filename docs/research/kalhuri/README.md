@@ -4397,3 +4397,47 @@ Fattahi & Choubsaz لە پوختەی پێشکەشکراوی کۆنگرەی یە�
 ٣. Jafari, Tahereh, & Mehdi Fattahi. (2025). “Morph Movement as a Vowel Hiatus Resolution in Kalhori Kurdish: An Optimality-Theoretic Account.” *Journal of Linguistics & Khorasan Dialects*, 16(37), 87–110. تۆماری Magiran: https://www.magiran.com/paper/2840222.
 ٤. Fattahi, Mehdi. (2023). “Vowel Elision and Assimilation in Kalhori Kurdish Subjunctive/Imperative Prefix: An Optimality-Theoretic Account.” *Research in Western Iranian Languages and Dialects*, 11(2), 59–76. DOI: https://doi.org/10.22126/JLW.2022.8157.1656.
 ٥. Fattahi, Mehdi, & Yassaman Choubsaz. (2025). “Post-Glide Vowel Deletion Overapplication in Kalhori Kurdish Verbal Endings: A Comparative Optimality-Theoretic Account of Parallel OT, HS, and OT-CC.” لە *1st Eurasian Congress of Linguists: Book of Abstracts*, Moscow, 9–13 December 2024، چاپ ٢٠٢٥. PDF: https://eacling.org/wp-content/uploads/2025/04/tezisy-v19.pdf.
+
+
+## بەشی ١١٤: هاوتاییی ژمارە، نیشانەی سێیەم کەسی تاک و دەنگی پاسیو لە کردار
+
+### ١. نیشانەی سێیەم کەسی تاک لە ڕابردوو
+Fattahi & Jafari (2026)، لە وتاری “Third-Person Singular Verbal Ending as a Zero Morpheme in Kalhori Kurdish: A Morphophonological Analysis”، داتای ١٥ کاتژمێر چاوپێکەوتن لەگەڵ ١٠ قسەکەری کەڵهوریی نیشتەجێی گیلان‌غەرب و ئیسلامئاباد-غەربیان شیکردووەتەوە.
+- بەپێی شیکاریی توێژینەوەکە، نیشانەی سێیەم کەسی تاک لە ڕابردوودا تکواژی سفرە (Ø) و تظاهرێکی دەنگیی نیە.
+- بنەی ڕابردوو لە زۆربەی کردارەکان بە زیادکردنی یەکێک لە مۆرفیمەکانی /-es/، /-i/، /-d/ یان /-ɑ/ بە بنەی ئێستا دروست دەبێت؛ هەندێک کردار بنەی ڕابردووی نائاسایی/جێگرەوەیان هەیە.
+- نموونەکانی وتار بە IPA و پارچەکردنی مۆرفیمی هاتوون: [xwæn-es-Ø] «خوێندی»، [ʧer-i-Ø] «بانگی کرد»، [wæt-Ø] «وتی»، [hɑt-Ø] «هات».
+- /d/ کە لە هەندێک فۆڕمی ڕابردوو و ڕابردووی تەواودا دەردەکەوێت، لە شیکاریی نوێدا بەشێک لە نیشانەی سێیەم کەسی تاک دانانرێت؛ نووسەران ئەگەری ئەوە دەخەنەڕوو کە بە مۆرفیمی پێش نیشانەکە یان کلیتیکی کردارەوە پەیوەست بێت.
+
+**سنووری بەڵگە:** ئەم ئەنجامە بۆ ڕابردوو و داتای ١٠ قسەکەرە؛ نابێت بە خۆکار بۆ هەموو کات و شێوەی کردار یان هەموو ناوچەکانی کەڵهوری گشتی بکرێتەوە. نموونە لاتینی و IPA ـی وتارەکە تەنیا بۆ شیکاریی زانستیی ناوخۆییە، نەک فۆڕمی وانەی خوێندکار.
+
+### ٢. هاوتاییی ژمارە لە نێوان بکەر و کردار
+Hosseini, Tafakkori Rezayi & Gheitury (2025)، لە “Singular concord in Kalhori Kurdish: A distributed morphology approach”، پێکهاتەیەک دەخەنەڕوو کە بکەری کۆ بە کردارێکەوە دێت کە نیشانەی تاکی لەسەرە.
+- توێژینەوەکە نموونەی بکەری کۆ و کردارە تاکەکەی وەک “Mehman-ayl-ian hat/hat-en” باس دەکات.
+- هەموو بکەرە کۆکان لە هەموو پێکهاتەکاندا ڕێگە بە هاوتاییی تاک نادەن؛ جۆری بکەر و پێکهاتەی ڕستە کاریگەرییان هەیە.
+- نووسەران بە پشتبەستن بە داتای قسەکەرانی خۆیان، ڕوونکردنەوەی Distributed Morphology و پرۆسەی post-syntactic وەک شیکاریی گونجاوتر پێشنیار دەکەن.
+
+**سنووری بەڵگە:** پوختەی تۆمارکراو داتای ژمارەی قسەکەران و ناوچەی کۆکردنەوەی دیاری ناکات. بۆیە ئەم بابەتە بۆ ڕێنووسی ڕاستەوخۆ بڕیارێک نادات؛ بەڵام گرنگە بۆ ناسینی پەیوەندیی ڕێزمانیی بکەر و کردار. نموونەی سەرچاوە بە شێوەی لاتینیی خۆیەتی و نابێت بە نووسینی کەڵهوریی خوێندکار بگۆڕدرێت.
+
+### ٣. پاسیو و جیاوازیی کردارە سادە و لێکدراوەکان
+Yasami (2014)، لە “Passive in Kalhori Kurdish: A Typological Perspective”، دوو جۆری بنەڕەتیی پاسیو و پاسیو لە کردارە نەگوازەرەکانیش دەخاتە بەرباس.
+- لە کردارە سادەکاندا، نیشانەکانی کات، کەس و پاسیو بە شێوەی ئاسایی لەسەر کردارەکە دەردەکەون.
+- لە کردارە لێکدراوەکاندا، شوێنی نیشانەی ڕێککەوتنی کەس و ژمارە بە پێی کات و جۆری کرداری ئێستا/ڕابردوو دەگۆڕێت: لە ئێستای سادە و بەردەوامدا نیشانەی ڕێککەوتن لەسەر کردارە؛ لە ڕابردووی سادە و بەردەوام و ئێستای تەواودا، نیشانەی پاسیو لەسەر توخمە کردارییەکە و نیشانەی ڕێککەوتن لەسەر توخمە ناوییەکەی کردارە لێکدراوەکەیە.
+- پوختەی وتار دەڵێت لە داتای بەردەستدا پاسیوێکی نائاسایی (non-basic passive) نەدۆزراوەتەوە.
+
+**سنووری بەڵگە:** دەقی تەواوی وتاری ٢٠١٤ لە Magiran بە پارەدان دەکرێتەوە؛ بۆیە لێرە تەنیا ئەو زانیارییانە تۆمار کراون کە لە پوختەی بڵاوکراوەدا پشتگیری دەکرێن. ناتوانرێت بەبێ دەقی تەواو، هەموو فۆرمەکانی پاسیو یان ڕێنووسییان دیاری بکرێت.
+
+### ٤. هەڵسەنگاندنی بەڵگە و کاریگەری بۆ ڕێنووسی ئاڤاشین
+| بابەت | بەڵگە | بڕیاری ناوخۆیی |
+|---|---|---|
+| سێیەم کەسی تاکی ڕابردوو | ١٠ قسەکەر؛ ١٥ کاتژمێر چاوپێکەوتن | Ø لە شیکاریی وتارەکەدا؛ /d/ بە نیشانەی کەسی دانانرێت |
+| هاوتاییی تاک لەگەڵ بکەری کۆ | داتای قسەکەرانی نووسەران؛ ژمارەی نموونە لە پوختەدا دیاری نیە | هاوتاییی تاک هەموو جارێک ڕێگەپێدراو نیە؛ پێکهاتەی ڕستە گرنگە |
+| پاسیو | وتاری تایپۆلۆژیی ٢٠١٤ | شوێنی نیشانەکان لە کردارە سادە و لێکدراوەکاندا یەکسان نیە |
+| نووسینی فۆرمەکان | سەرچاوەکان زۆربەی نموونەکان بە IPA/لاتینی دەنووسن | هیچ یەکێک بەبێ بەڵگەی نووسینی قسەکەر نابێت بگۆڕدرێت بۆ ڕێنووسی خوێندکار |
+
+**بڕیاری ئەم بەشە:** ئەم بەڵگانە دەریاندەخەن کە لە کەڵهوری، نیشانەی کەس و ژمارە، هاوتاییی بکەر-کردار و پاسیو بە شێوەیەکی ورد و هەستیار بە پێکهاتەی کردارەوە پەیوەستن. بەڵام هیچ‌کام لەمانە بە تەنیا بنەمای پەسەندکردنی پیت، جیاکردنەوەی وشە، یان ستانداردکردنی ڕێنووسی نین. ئەم بەشە تۆماری توێژینەوەی ناوخۆییە، نەک وانەی خوێندکار.
+
+### سەرچاوەکان
+١. Fattahi, Mehdi, & Tahereh Jafari. (2026). “Third-Person Singular Verbal Ending as a Zero Morpheme in Kalhori Kurdish: A Morphophonological Analysis.” *Journal of Linguistics & Iranian Languages*, 10(4), 117–132. DOI: https://doi.org/10.22099/JLIL.2026.56201.1474. دەقی کراوە: https://www.academia.edu/172471118/Third-Person_Singular_Verbal_Ending_as_a_Zero_Morpheme_in_Kalhori_Kurdish_A_Morphophonological_Analysis.
+٢. Hosseini, Hannah, Shoja Tafakkori Rezayi, & Amer Gheitury. (2025). “Singular concord in Kalhori Kurdish: A distributed morphology approach.” *Language Research*, 17(54), 217–242. تۆماری Magiran: https://www.magiran.com/paper/2879567/singular-concord-in-kalhori-kurdish-a-distributed-morphology-approach.
+٣. Yasami, Sara Farzin. (2014). “Passive in Kalhori Kurdish: A Typological Perspective.” *Namaeh Farhangistan*, 13(2), 147–166. تۆماری Magiran: https://www.magiran.com/paper/1322860/passive-in-kalhori-kurdish-a-typological-perspective.
+٤. Asadpour, Hiwa, & Masoumeh Zarei. (2026). “Passive Constructions in Garrusi Kurdish.” لە *Passivisation in Semitic, Iranian, Armenian, and Beyond*, 233–276. DOI: https://doi.org/10.11647/OBP.0516.05. ئەم سەرچاوەیە تەنیا بۆ بەراوردی تایپۆلۆژییە؛ Garrusi نابێت بە کەڵهوری تێکەڵ بکرێت.
